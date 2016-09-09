@@ -92,14 +92,16 @@ what it is first .... well it's foolish to say the least.
 ### DROP THEM AND THAT'S IT
 
 Nginx has a lovely error called 444 which just literally drops the connection. All these rules issue a
-444 response so if a rule matches the requesting IP simply get's no response and it would appear you server
-does not exist to them.
+444 response so if a rule matches, the requesting IP simply get's no response and it would appear that your 
+server does not exist to them or appears to be offline.
 
 ### RATE LIMITING FUNCTIONALITY BUILT IN
 
-For bot's or spiders that you still want to allow, you can use the built in rate limiting functions
-I have included. The file is extensively commented so you should figure it out otherwise simply message
-me if you are having problems. (Read configuration instructions below thoroughly)
+For bot's or spiders that you still want to allow but want to limit their visitation rate, you can use the 
+built in rate limiting functions I have included. The file is extensively commented throughout so you should 
+figure it out otherwise simply message me if you are having problems. 
+
+## (Read configuration instructions below thoroughly)
 
 ## FEATURES:
 
