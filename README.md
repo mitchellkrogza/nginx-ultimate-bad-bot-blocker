@@ -155,15 +155,15 @@ sudo nano /etc/nginx/nginx.conf
 
 #####Add the following rate limiting zones
 
-limit_req_zone $ratelimited zone=flood:50m rate=90r/s;
-limit_conn_zone $ratelimited zone=addr:50m;
+`limit_req_zone $ratelimited zone=flood:50m rate=90r/s;
+limit_conn_zone $ratelimited zone=addr:50m;`
 
 ####Third Step:
 
 Open a site config file for Nginx (just one for now) and add the following lines
 
-include /etc/nginx/bots.d/blockbots.conf;
-include /etc/nginx/bots.d/ddos.conf;
+`include /etc/nginx/bots.d/blockbots.conf;
+include /etc/nginx/bots.d/ddos.conf;`
 
 ####Fourth Step:
 
