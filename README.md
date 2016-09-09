@@ -145,25 +145,25 @@ The configuration instructions below !!!!
 
 ####First Step: 
 
-sudo mkdir /etc/nginx/bots.d 
+`sudo mkdir /etc/nginx/bots.d `
 - copy the blockbots.conf file into that folder
 - copy the ddos.conf file into the same folder
 
 ####Second Step:
 
-sudo nano /etc/nginx/nginx.conf
+`sudo nano /etc/nginx/nginx.conf`
 
 #####Add the following rate limiting zones
 
-`limit_req_zone $ratelimited zone=flood:50m rate=90r/s;
-limit_conn_zone $ratelimited zone=addr:50m;`
+`limit_req_zone $ratelimited zone=flood:50m rate=90r/s;`
+`limit_conn_zone $ratelimited zone=addr:50m;`
 
 ####Third Step:
 
 Open a site config file for Nginx (just one for now) and add the following lines
 
-`include /etc/nginx/bots.d/blockbots.conf;
-include /etc/nginx/bots.d/ddos.conf;`
+`include /etc/nginx/bots.d/blockbots.conf;`
+`include /etc/nginx/bots.d/ddos.conf;`
 
 ####Fourth Step:
 
