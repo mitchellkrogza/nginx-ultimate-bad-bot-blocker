@@ -3,6 +3,8 @@
 
 ### Created by: https://github.com/mitchellkrogza
 
+#### For Nginx Web Server - https://www.nginx.com/
+
 ### Recommend to saved as: /etc/nginx/conf.d/globalblacklist.conf
 
 Why? .... because all files located in /conf.d/ are automatically loaded by Nginx in the main
