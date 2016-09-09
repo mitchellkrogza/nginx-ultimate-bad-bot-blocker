@@ -26,10 +26,16 @@ Bots attempt to make themselves look like other software or web sites by disguis
 Their user agent names may look harmless, perfectly legitimate even. 
 
 For example, "^Java" but according to Project Honeypot, it's actually one of the most dangerous BUT a lot of
-legitimate bots out there have "Java" in their user agent string so the approach taken by many to block is 
-not only ignorant but also blocking out very legitimate crawlers including some of Google's and Bing's.
+legitimate bots out there have "Java" in their user agent string so the approach taken by many to block "Java"
+is not only ignorant but also blocking out very legitimate crawlers including some of Google's and Bing's and
+makes it very clear to me that those people writing bot blocking scripts seldom ever test them. 
 
-# Welcome to the Ultimate Bad Bot and Referer Blocker for Nginx Web Server
+Unfortunately most bot blocker scripts out there are simply copy and pasted from other people's scripts and made 
+to look like their own work. This one  was inspired by the one created by https://github.com/mariusv and I 
+contributed to that project but went off into a totally new layout, cleaned it up big time and started from scratch.
+It is now a completely independent project. It's clean, it works and has been thoroughly tested.
+
+# Welcome to the Ultimate Bad Bot and Referer Blocker for Nginx Web Server with and Anti DDOS system
 
 ### THE BASICS
 
