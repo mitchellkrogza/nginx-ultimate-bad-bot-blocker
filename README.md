@@ -198,9 +198,9 @@ sudo service nginx reload
 ##### Why not visit me?
 
 https://mitchellkrog.com is what I do full time, playing with servers and security is another
-passion of mine. I love Apache but have recently fallen head over heels with Nginx
+passion of mine. I used to love Apache but have recently fallen head over heels with Nginx
 I write rules like these for my own servers and make them available to you all for free.
 After 9 years of running Apache servers I have moved everything to Nginx which is the most solid
-stable and reliable web server I have ever used. I will however keep this Apache Bad Bot Blocker
-regularly updated (almost daily) as it is based on the same bad bots and bad referers that are 
+stable and reliable web server I have ever used. I will however keep the Apache Bad Bot Blocker (link above)
+also regularly updated (almost daily) as it is based on the same bad bots and bad referers that are 
 extracted from my Nginx logs.
