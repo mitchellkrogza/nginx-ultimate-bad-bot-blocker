@@ -5,7 +5,8 @@
 
 ### Recommend to saved as: /etc/nginx/conf.d/globalblacklist.conf
 
-Why? .... because all file located in /conf.d/ are automatically loaded by Nginx
+Why? .... because all files located in /conf.d/ are automatically loaded by Nginx in the main
+nginx.conf file.
 
 ### WHY BLOCK BAD BOTS ?
 
