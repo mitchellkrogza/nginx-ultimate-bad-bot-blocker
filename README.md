@@ -179,7 +179,9 @@ Open a site config file for Nginx (just one for now) and add the following lines
 sudo nginx -t (make sure it returns no errors and if none then)
 sudo service nginx reload
 
-####WARRANTY OR LICENSE
+# IT FORKING WORKS !!!
+
+##WARRANTY OR LICENSE
 
 - This is free to use and modify as you wish. 
 - No warranties are express or implied.
