@@ -114,7 +114,9 @@ figure it out otherwise simply message me if you are having problems.
 - Ability to add other IP ranges and IP blocks that you want to block out.
 
 Usage: recommended to be saved as /etc/nginx/conf.d/globalblacklist.conf 
-       - us an Include as per the example below to load the file into any host
+
+####PLEASE READ: 
+The configuration instructions below !!!!
 
 ## WARNING:
 
