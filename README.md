@@ -110,7 +110,8 @@ figure it out otherwise simply message me if you are having problems.
 - Commented sections of certain important bots to be sure of before blocking
 - Includes the IP range of Cyveillance who are known to ignore robots.txt rules
   and snoop around all over the Internet.
-- Your own IP Ranges that you want to block can be easily added.
+- Your own IP Ranges that you want to avoid blocking can be easily added.
+- Ability to add other IP ranges and IP blocks that you want to block out.
 
 Usage: recommended to be saved as /etc/nginx/conf.d/globalblacklist.conf 
        - us an Include as per the example below to load the file into any host
@@ -121,6 +122,10 @@ Usage: recommended to be saved as /etc/nginx/conf.d/globalblacklist.conf
  Please do not simply copy and paste without understanding what this is doing.
  Do not become a copy and paste Linux "Guru", learn things properly before you use them
  and always test everything you do one step at a time.
+ 
+## ANOTHER WARNING:
+  Make sure to add all your own IP addresses the white list section near the bottom of the 
+  globalblacklist.conf file !!!!
 
 ## MONITOR WHAT YOU ARE DOING:
 
@@ -158,17 +163,29 @@ Open a site config file for Nginx (just one for now) and add the following lines
 include /etc/nginx/bots.d/blockbots.conf;
 include /etc/nginx/bots.d/ddos.conf;
 
+####Fourth Step:
+
+ Make sure to edit the globalblacklist.conf file near the bottom there is a section to whitelist your own
+ IP addresses. Please add all your own IP addresses there before putting this into operation.
+
 ####Last Step:
 
 sudo nginx -t (make sure it returns no errors and if none then)
 sudo service nginx reload
 
-####WARRANT OR LICENSE
+####WARRANTY OR LICENSE
 
 - This is free to use and modify as you wish. 
 - No warranties are express or implied.
 - You use this entirely at your own Risk.
 - Fork your own copy from this repo and feel free to change it to your needs or contribute to it.
+
+##### Some other free projects
+
+- https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
+- https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
+- https://github.com/mitchellkrogza/fail2ban-useful-scripts
+- https://github.com/mariusv/nginx-badbot-blocker
 
 ##### Why not visit me?
 
@@ -179,10 +196,3 @@ After 9 years of running Apache servers I have moved everything to Nginx which i
 stable and reliable web server I have ever used. I will however keep this Apache Bad Bot Blocker
 regularly updated (almost daily) as it is based on the same bad bots and bad referers that are 
 extracted from my Nginx logs.
-
-##### Some other free projects
-
-- https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
-- https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
-- https://github.com/mitchellkrogza/fail2ban-useful-scripts
-- https://github.com/mariusv/nginx-badbot-blocker
