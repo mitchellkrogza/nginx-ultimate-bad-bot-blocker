@@ -156,6 +156,7 @@ The configuration instructions below !!!!
 #####Add the following rate limiting zones
 
 `limit_req_zone $ratelimited zone=flood:50m rate=90r/s;`
+
 `limit_conn_zone $ratelimited zone=addr:50m;`
 
 ####Third Step:
