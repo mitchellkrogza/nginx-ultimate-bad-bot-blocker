@@ -164,6 +164,7 @@ The configuration instructions below !!!!
 Open a site config file for Nginx (just one for now) and add the following lines
 
 `include /etc/nginx/bots.d/blockbots.conf;`
+
 `include /etc/nginx/bots.d/ddos.conf;`
 
 ####Fourth Step:
