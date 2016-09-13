@@ -161,6 +161,11 @@ The configuration instructions below !!!!
 
 - `limit_conn_zone $ratelimited zone=addr:50m;`
 
+PLEASE NOTE: The above rate limiting rules are for the DDOS filter, it may seem like high values to you
+but for wordpress sites with plugins and lots of images, it's not. This will not limit any real visitor to
+your Wordpress sites but it will immediately rate limit any aggressive bot. Remember that other bots and user
+agents are rate limited using a different rate limiting rule at the bottom of the globalblacklist.conf file.
+
 ####Third Step:
 
 Open a site config file for Nginx (just one for now) and add the following lines
