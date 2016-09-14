@@ -162,7 +162,7 @@ can add that functionality if you like copying the awk statement !~ from the fir
 
 ##### Cron for Monitoring Daily User Agents on Nginx
 
-`00 08 * * * tail -50000 /var/log/nginx/mydomain.co.za-access.log | awk '{print $12}' | tr -d '"' | sort | uniq -c | sort -rn | head -1000 | mail -s "Top 1000 Agents for Mydomain.com" me@mydomain.com`
+`00 08 * * * tail -50000 /var/log/nginx/mydomain-access.log | awk '{print $12}' | tr -d '"' | sort | uniq -c | sort -rn | head -1000 | mail -s "Top 1000 Agents for Mydomain.com" me@mydomain.com`
 
 ## CONFIGURATION:
 
