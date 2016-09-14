@@ -142,6 +142,27 @@ The configuration instructions below !!!!
  
  Feel free to contribute bad referers from your own logs to this project by sending a PR.
  You can however rely on this list to keep out 99% of the baddies out there.
+ 
+## HOW TO MONITOR YOUR LOGS DAILY (The Easy Way):
+
+With great thanks and appreciation to https://blog.nexcess.net/2011/01/21/one-liners-for-apache-log-files/
+
+To monitor your top referer's for a web site's log file's on a daily basis use the following simple
+cron jobs which will email you a list of top referer's / user agents every morning from a particular web site's log
+files. This is an example for just one cron job for one site. Set up multiple one's for each one you
+want to monitor. Here is a cron that runs at 8am every morning and emails me the stripped down log of
+referers. When I say stripped down, the domain of the site and other referers like Google and Bing are
+stripped from the results. Of course you must change the log file name, domain name and your email address in
+the examples below. The second cron for collecting User agents does not do any stripping out of any referers but you
+can add that functionality if you like copying the awk statement !~ from the first example.
+
+##### Cron for Monitoring Daily Referers on Nginx
+
+`00 08 * * * tail -10000 /var/log/nginx/mydomain-access.log | awk '$11 !~ /google|bing|yahoo|yandex|mywebsite.com/' | awk '{print $11}' | tr -d '"' | sort | uniq -c | sort -rn | head -1000 | mail - s "Top 1000 Referers for Mydomain.com" me@mydomain.com`
+
+##### Cron for Monitoring Daily User Agents on Nginx
+
+`00 08 * * * tail -50000 /var/log/nginx/mydomain.co.za-access.log | awk '{print $12}' | tr -d '"' | sort | uniq -c | sort -rn | head -1000 | mail -s "Top 1000 Agents for Mydomain.com" me@mydomain.com`
 
 ## CONFIGURATION:
 
