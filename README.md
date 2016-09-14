@@ -1,5 +1,5 @@
-# The Nginx Ultimate Bad Bot, Referer Blocker and Anti DDOS
-##The Ultimate Bad Bot and Referer Blocker for Nginx Web Servers including anti DDOS system
+# Nginx Bad Bot Blocker, Referer Blocker and Anti DDOS
+## The Ultimate Bad Bot and Referer Blocker for Nginx Web Servers including anti DDOS system
 
 ### Created by: https://github.com/mitchellkrogza
 
@@ -37,11 +37,11 @@ to look like their own work. This one  was inspired by the one created by https:
 contributed to that project but went off into a totally new layout, cleaned it up big time and started from scratch.
 It is now a completely independent project. It's clean, it works and has been thoroughly tested.
 
-# Welcome to the Ultimate Bad Bot and Referer Blocker for Nginx Web Server with and Anti DDOS system
+# Welcome to the Ultimate Nginx Bad Bot and Referer Blocker with and Anti DDOS system
 
 ### THE BASICS
 
-This bot blocker list is designed to be a global Nginx include file and uses the Nginx
+This nginx bad bot bot blocker list is designed to be a global Nginx include file and uses the Nginx
 map $http_user_agent, map $http_referer and geo $validate_client directives.
 
 This way the .conf file is loaded once into memory by Nginx and is available to all web 
@@ -60,7 +60,7 @@ is much simpler for anyone to maintain than other lists using complicated and me
 I only capitalise bot names in my list for ease of reading and maintenance, remember its 
 not case-sensitive so will catch any combination like "Bot" "bOt" and "bOT".
 
-For those of you who SUCK with Regex this is your saviour !!!
+For those of you who SUCK with Regex my Nginx Bad Bot Blocker is your saviour !!!
 
 ### IT'S CENTRALISED:
 
@@ -105,7 +105,7 @@ figure it out otherwise simply message me if you are having problems.
 
 ## (Read configuration instructions below thoroughly)
 
-## FEATURES:
+## FEATURES OF THE NGINX BAD BOT BLOCKER:
 
 - Extensive Lists of Bad and Known Bad Bots and Scrapers (updated almost daily)
 - Alphabetically ordered for easier maintenance
@@ -164,7 +164,7 @@ can add that functionality if you like copying the awk statement !~ from the fir
 
 `00 08 * * * tail -50000 /var/log/nginx/mydomain-access.log | awk '{print $12}' | tr -d '"' | sort | uniq -c | sort -rn | head -1000 | mail -s "Top 1000 Agents for Mydomain.com" me@mydomain.com`
 
-## CONFIGURATION:
+## CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
 
 ####First Step: 
 
@@ -206,6 +206,7 @@ sudo nginx -t (make sure it returns no errors and if none then)
 sudo service nginx reload
 
 # IT FORKING WORKS !!!
+## Just Enjoy now what the Nginx Bad Bot Blocker Can Do For You and Your Web Sites.
 
 ##WARRANTY OR LICENSE
 
@@ -213,6 +214,7 @@ sudo service nginx reload
 - No warranties are express or implied.
 - You use this entirely at your own Risk.
 - Fork your own copy from this repo and feel free to change it to your needs or contribute to it.
+- If you break it yourself, you fix it yourself.
 
 ##### Some other free projects
 
