@@ -191,7 +191,8 @@ agents are rate limited using a different rate limiting rule at the bottom of th
 
 ####Third Step:
 
-Open a site config file for Nginx (just one for now) and add the following lines
+Open a site config file for Nginx (just one for now) and add the following lines.
+##### IMPORTANT: includes MUST be added within a server {} block otherwise you will get EMERG errors from Nginx
 
 - `include /etc/nginx/bots.d/blockbots.conf;`
 
