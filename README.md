@@ -1,5 +1,5 @@
 # Nginx Bad Bot Blocker, Referer Blocker and Anti DDOS
-## The Ultimate Bad Bot and Referer Blocker for Nginx Web Servers including anti DDOS system
+## The Ultimate Bad Bot and Referer Blocker for Nginx Web Servers including anti DDOS system and Wordpress Theme Detector Blocking
 
 ### Created by: https://github.com/mitchellkrogza
 
@@ -24,7 +24,7 @@ nginx.conf file.
 -    Bots or Servers linked to viruses or malware
 -    Government surveillance bots
 -    Botnet Attack Networks (Mirai)
--    Wordpress Theme Detectors
+-    Known Wordpress Theme Detectors (Updated Regularly)
 
 Bots attempt to make themselves look like other software or web sites by disguising their user agent. 
 Their user agent names may look harmless, perfectly legitimate even. 
