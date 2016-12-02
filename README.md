@@ -1,4 +1,4 @@
-# Nginx Bad Bot Blocker, Referer Blocker and Anti DDOS
+# Nginx Bad Bot Blocker, Referer Blocker, Anti DDOS, Bad IP Blocker and Wordpress Theme Detector Blocker
 ## The Ultimate Bad Bot and Referer Blocker for Nginx Web Servers including anti DDOS system and Wordpress Theme Detector Blocking
 
 ### Created by: https://github.com/mitchellkrogza
