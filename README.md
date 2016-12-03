@@ -227,7 +227,7 @@ where you want this filter to be in effect.
 
 | Filter          | Session       | Exclude                                                       |
 | :-------------: |:-------------:|:-------------------------------------------------------------:|
-| Hostname        | matches regex | Copy the entire content from [google-exclude.txt](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/google-exclude.txt) to this field |
+| Hostname        | matches regex | Copy the entire contents from [google-exclude.txt](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/google-exclude.txt) to this field |
 
 
 # IT FORKING WORKS !!!
