@@ -27,6 +27,7 @@ nginx.conf file.
 -    Known Wordpress Theme Detectors (Updated Regularly)
 -    SEO companies that your competitors use to try improve their SEO
 -    Link Research and Backlink Testing Tools
+-    Stopping Google Analytics Ghost Spam
 
 Bots attempt to make themselves look like other software or web sites by disguising their user agent. 
 Their user agent names may look harmless, perfectly legitimate even. 
