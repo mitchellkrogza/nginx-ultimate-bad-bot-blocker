@@ -219,8 +219,15 @@ For this a simple google-exclude.txt file has been created for you and it is upd
 when the Nginx Blocker is updated.
 
 ###To stop Ghost Spam on On Analytics
-Navigate to your Google Analytics Admin panel and add a Segment. This will need to be done on each and every site
-where you want this filter to be in effect.
+Navigate to your Google Analytics Admin panel and add a Segment. (New Segment > Advanced > Conditions)
+This will need to be done on each and every site where you want this filter to be in effect. 
+Google has a stupid limit on the length of the regex so you need to break it up into multiple exclude filters 
+
+#BUT 
+
+Rather check out the awesome [Referer Spam Blocker](https://referrerspamblocker.com)
+for Google Analytics which uses a collaborated source of spam domains and automatically adds all the filters to your
+Analytics sites for you in 2 easy clicks and it is FREE.
 
 | Filter          | Session       | Include                                  |
 | :-------------: |:-------------:|:----------------------------------------:|
