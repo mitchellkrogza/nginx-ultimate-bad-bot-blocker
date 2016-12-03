@@ -205,10 +205,30 @@ Open a site config file for Nginx (just one for now) and add the following lines
  Make sure to edit the globalblacklist.conf file near the bottom there is a section to whitelist your own
  IP addresses. Please add all your own IP addresses there before putting this into operation.
 
-####Last Step:
+####Fifth Step:
 
 sudo nginx -t (make sure it returns no errors and if none then)
 sudo service nginx reload
+
+####Sixth Step - Stopping Google Analytics 'ghost' spam
+Simply using the Nginx blocker does not stop Google Analytics ghost referral spam 
+because they are hitting Analytics directly and not always necessarily touching your website. 
+You should use regex filters in Analytics to prevent ghost referral spam.
+For this a simple google-exclude.txt file has been created for you and it is updated at the same time
+when the Nginx Blocker is updated.
+
+#####To stop Ghost Spam on On Analytics
+Navigate to your Google Analytics Admin panel and add a Segment. This will need to be done on each and every site
+where you want this filter to be in effect.
+
+| Filter          | Session       | Include                                  |
+| :-------------: |:-------------:|:----------------------------------------:|
+| Hostname        | matches regex | your-website\.com|www\.your-website\.com |
+
+| Filter          | Session       | Exclude                                                       |
+| :-------------: |:-------------:|:-------------------------------------------------------------:|
+| Hostname        | matches regex | Copy the entire content from [google-exclude.txt[(https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/google-exclude.txt) to this field |
+
 
 # IT FORKING WORKS !!!
 ## Just Enjoy now what the Nginx Bad Bot Blocker Can Do For You and Your Web Sites.
