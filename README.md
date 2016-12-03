@@ -224,7 +224,7 @@ where you want this filter to be in effect.
 
 | Filter          | Session       | Include                                  |
 | :-------------: |:-------------:|:----------------------------------------:|
-| Hostname        | matches regex | your-website\.com|www\.your-website\.com |
+| Hostname        | matches regex | ```your-website\.com|www\.your-website\.com``` |
 
 | Filter          | Session       | Exclude                                                       |
 | :-------------: |:-------------:|:-------------------------------------------------------------:|
