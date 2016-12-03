@@ -234,6 +234,8 @@ where you want this filter to be in effect.
 # IT FORKING WORKS !!!
 ## Just Enjoy now what the Nginx Bad Bot Blocker Can Do For You and Your Web Sites.
 
+### If this helped you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XP2AZ4S5HNAWQ):beer:
+
 ##WARRANTY OR LICENSE
 
 - This is free to use and modify as you wish. 
