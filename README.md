@@ -10,6 +10,9 @@
 Why? .... because all files located in /conf.d/ are automatically loaded by Nginx in the main
 nginx.conf file.
 
+#### Includes the creation of a google-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
+#### Includes the creation of a google-disavow.txt file for use in Google Webmaster Tools (see instructions lower down)
+
 ### WHY BLOCK BAD BOTS ?
 
 #####Bad bots are:
@@ -218,7 +221,7 @@ You should use regex filters in Analytics to prevent ghost referral spam.
 For this a simple google-exclude.txt file has been created for you and it is updated at the same time
 when the Nginx Blocker is updated.
 
-###To stop Ghost Spam on On Analytics
+##To stop Ghost Spam on On Analytics
 Navigate to your Google Analytics Admin panel and add a Segment. (New Segment > Advanced > Conditions)
 This will need to be done on each and every site where you want this filter to be in effect. 
 Google has a stupid limit on the length of the regex so you need to break it up into multiple exclude filters 
@@ -237,6 +240,11 @@ Google has a stupid limit on the length of the regex so you need to break it up 
 Rather check out the awesome [Referer Spam Blocker](https://referrerspamblocker.com)
 for Google Analytics which uses a collaborated source of spam domains and automatically adds all the filters to your
 Analytics sites for you in 2 easy clicks and it is FREE.
+
+##Blocking Spam Domains Using Google Webmaster Tools
+
+I have added the creation of a Google Disavow text file called google-disavow.txt. This file can be used in Google's Webmaster
+Tools to block all these domains out as spammy or bad links. Use with caution.
 
 
 # IT FORKING WORKS !!!
