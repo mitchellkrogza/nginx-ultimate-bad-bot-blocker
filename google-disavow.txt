@@ -108,6 +108,7 @@ domain:android-style.com
 domain:ansar-u-deen.com
 domain:anticrawler.org
 domain:aosheng-tech.com
+domain:apper.de
 domain:approved.su
 domain:apxeo.info
 domain:arabgirls.adultgalls.com
@@ -125,6 +126,7 @@ domain:aruplighting.com
 domain:asacopaco.tk
 domain:asseenontv.ru
 domain:asseenontvonline.ru
+domain:astrochicks.com
 domain:audiobangout.com
 domain:australia-opening-times.com
 domain:auto-moto-elektronika.cz
@@ -614,6 +616,7 @@ domain:frivgame250.com
 domain:fsalas.com
 domain:ftns.ru
 domain:fuck-paid-share-buttons.xyz
+domain:fullfileaccess.com
 domain:fungirlsgames.net
 domain:funimeme.us
 domain:funnypica.com
@@ -727,6 +730,7 @@ domain:hotwatersdamps.com
 domain:houseofrose.com
 domain:hoverboard360.at
 domain:hoverboard360.de
+domain:hoverboard360.es
 domain:hoverboard360.nl
 domain:hoverboard360.se
 domain:how-to-earn-quick-money.com
@@ -776,11 +780,13 @@ domain:iminent.com
 domain:imitex-plus.ru
 domain:imogoods.com
 domain:imperiafilm.ru
+domain:inboundlinks.win
 domain:inboxdollars.com
 domain:incolors.club
 domain:increasewwwtraffic.info
 domain:indiakino.net
 domain:inductionc2oktop.com
+domain:infowarcraft.ru
 domain:inmate-locator.us
 domain:instoods.com
 domain:interesnie-faktu.ru
@@ -1080,6 +1086,7 @@ domain:nibbler.silktide.com
 domain:nicovideo.jp
 domain:niki-mlt.ru
 domain:nikkiewart.ru
+domain:nootrino.com
 domain:notaria-desalas.com
 domain:noumeda.com
 domain:novgorod.xrus.org
@@ -1222,6 +1229,7 @@ domain:profitsport.club
 domain:prohoster.info
 domain:prointer.net.au
 domain:prokotov.com
+domain:prom23.ru
 domain:prombudpostach.com.ua
 domain:promoforum.ru
 domain:pron.pro
