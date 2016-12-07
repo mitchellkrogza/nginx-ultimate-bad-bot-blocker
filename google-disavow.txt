@@ -1,12 +1,17 @@
 domain:0n-line.tv
 domain:1-free-share-buttons.com
+domain:1.bp.blogspot.com
+domain:100.kutikomi.net
 domain:100dollars-seo.com
 domain:101imagedatabase.com
 domain:108shot.com
 domain:11pikachu.ru
+domain:123kuma.com
 domain:12masterov.com
+domain:1314dh.com
 domain:1kinobig.ru
 domain:1pamm.ru
+domain:1stat.ru
 domain:1webmaster.ml
 domain:202ch.com
 domain:214jaluwobapef.cf
@@ -192,6 +197,7 @@ domain:bestofpicture.com
 domain:bestwebsitesawards.com
 domain:betonka.pro
 domain:bezlimitko.xyz
+domain:bidr.trellian.com
 domain:bif-ru.info
 domain:biglistofwebsites.com
 domain:biketank.ga
@@ -1108,6 +1114,7 @@ domain:offers.bycontext.com
 domain:office-windows.ru
 domain:offre-meditel-telecom.tk
 domain:ok.ru
+domain:okmusic.jp
 domain:olympescort.com
 domain:omsk.xrus.org
 domain:onetravelguides.com
@@ -1531,6 +1538,7 @@ domain:template-kid.com
 domain:tennis-img.org
 domain:terraclicks.com
 domain:terrafootwear.us
+domain:thealienwheel.be
 domain:thecoral.com.br
 domain:theguardlan.com
 domain:thehoverboard.be
@@ -1611,6 +1619,7 @@ domain:vadimkravtcov.ru
 domain:vapmedia.org
 domain:vashsvet.com
 domain:vavilone.com
+domain:vedomstvo.net
 domain:vegan-foods.us
 domain:velobikestock.com
 domain:vesnatehno.com
