@@ -404,6 +404,7 @@ domain:cutalltheshit.com
 domain:cyber-monday.ga
 domain:cyprusbuyproperties.com
 domain:dailyrank.net
+domain:dalavia.ru
 domain:dangphoto.trade
 domain:darmebel.com.ua
 domain:darodar.com
@@ -463,6 +464,7 @@ domain:downtuptv.gq
 domain:doxutan.com
 domain:doxyporno.com
 domain:doyouknowtheword-flummox.ml
+domain:drillsaw.ru
 domain:drugspowerstore.com
 domain:drugstoreforyou.com
 domain:drupa.com
@@ -524,6 +526,7 @@ domain:europages.com.ru
 domain:eurosamodelki.ru
 domain:evehemming.blogspot.com.au
 domain:event-tracking.com
+domain:everflora.ru
 domain:example.com
 domain:excaliburfilms.com
 domain:exchangeit.gq
@@ -634,6 +637,7 @@ domain:funimeme.us
 domain:funnypica.com
 domain:fx-brokers-review.com
 domain:fym.com.ru
+domain:g.starmoe.xyz
 domain:gallerily.com
 domain:galleryimagesrug.com
 domain:gallerylisting.com
@@ -1089,6 +1093,7 @@ domain:myprintscreen.com
 domain:myseoconsultant.com
 domain:mywallpaper.top
 domain:na-telefon.biz
+domain:nagdak.ru
 domain:nailsimg.com
 domain:nalogovyy-kodeks.ru
 domain:namecheap.com
@@ -1164,10 +1169,12 @@ domain:pekori.to
 domain:pelfind.me
 domain:pensplan.com
 domain:pensplan4u.com
+domain:perfectpracticeweb.com
 domain:perm.xrus.org
 domain:permethrin-cream.bid
 domain:perosan.com
 domain:petrovka-online.com
+domain:petsblogroll.com
 domain:pharmacyincity.com
 domain:photokitchendesign.com
 domain:photorepair.ru
