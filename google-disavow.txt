@@ -78,6 +78,7 @@ domain:alert-hgd.xyz
 domain:alert-jdh.xyz
 domain:alessandraleone.com
 domain:alexandrinearmfelt.fi
+domain:alf-img.com
 domain:alfa-img.com
 domain:alfa9.com
 domain:alfabot.xyz
@@ -111,6 +112,7 @@ domain:an-donut.com
 domain:anal-acrobats.com
 domain:anapa-inns.ru
 domain:android-style.com
+domain:anlimebel.kiev.ua
 domain:ansar-u-deen.com
 domain:anticrawler.org
 domain:aosheng-tech.com
@@ -175,6 +177,7 @@ domain:balkanfarma.ru
 domain:bandbpro.com
 domain:bangla-chat-uk-paralud.ga
 domain:bard-real.com.ua
+domain:barnfurnituremart.com
 domain:basedecor.ru
 domain:bausparen.bz.it
 domain:bbtec.net
@@ -209,6 +212,7 @@ domain:binaryoptionscops.info
 domain:bingo8888.com
 domain:binomo.kz
 domain:bio-japan.net
+domain:bio-market.kz
 domain:bio.trade-jp.net
 domain:bioca.org
 domain:bioscorp.ru
@@ -293,6 +297,7 @@ domain:cardiosport.com.ua
 domain:carsnumber.com
 domain:carsplate.com
 domain:cartechnic.ru
+domain:casinorewards.info
 domain:castingbank.ru
 domain:cbcseward.com
 domain:cbox.ws
@@ -316,6 +321,7 @@ domain:chiblackhawks-jerseys.com
 domain:chinese-amezon.com
 domain:chiptuninger.com
 domain:ci.ua
+domain:cialiswithoutadoctor.net
 domain:cityadspix.com
 domain:civilwartheater.com
 domain:classiquebijoux.ru
@@ -323,6 +329,7 @@ domain:clgrmgds.com
 domain:clicksor.com
 domain:clinchimage.com
 domain:clipartnew.com
+domain:clips.ua.ac.be
 domain:clmforexeu.com
 domain:coderstate.com
 domain:codysbbq.com
@@ -501,8 +508,10 @@ domain:eloxal.ru
 domain:embedle.com
 domain:empathica.com
 domain:empirepoker.com
+domain:empoweringchange.us
 domain:encodable.com
 domain:envaseslotusama.com
+domain:enviromusic.net
 domain:epngo.bz
 domain:eralph.tk
 domain:eredijovon.com
@@ -856,6 +865,7 @@ domain:karusel-market.ru
 domain:kazan.xrus.org
 domain:kazinogames.lv
 domain:kazrent.com
+domain:ketoanhanoi.info
 domain:keyword-suggestions.com
 domain:keywordhut.com
 domain:keywordsuggest.org
@@ -882,6 +892,7 @@ domain:komp-pomosch.ru
 domain:komputers-best.ru
 domain:konkursov.net
 domain:konoplisemena.com
+domain:konteiner24.com
 domain:kosova.de
 domain:kosynka-games.ru
 domain:kovesszucs.atw.hu
@@ -1111,6 +1122,7 @@ domain:nicovideo.jp
 domain:niki-mlt.ru
 domain:nikkiewart.ru
 domain:nootrino.com
+domain:normalegal.ru
 domain:notaria-desalas.com
 domain:noumeda.com
 domain:novgorod.xrus.org
@@ -1225,7 +1237,9 @@ domain:pornodojd.ru
 domain:pornoforadult.com
 domain:pornogig.com
 domain:pornoklad.net
+domain:pornolook.net
 domain:pornophoto.xyz
+domain:pornpost.in
 domain:pornstartits.xblog.in
 domain:porodasobak.net
 domain:portal-eu.ru
@@ -1533,7 +1547,9 @@ domain:superiends.org
 domain:superkanpo.com
 domain:supernew.org
 domain:superpages.com
+domain:supers.com.ua
 domain:supervesti.ru
+domain:sureone.pro
 domain:susanholtphotography.com
 domain:swiped.su
 domain:sygraem.com
@@ -1611,6 +1627,7 @@ domain:turizm.bz
 domain:turkeyreport.tk
 domain:tvand.ru
 domain:tversvet.ru
+domain:twelvevisionspartyofcolorado.com
 domain:twiclub.in
 domain:twincitiescarservice.com
 domain:twinderbella.com
@@ -1730,6 +1747,7 @@ domain:wordpresscore.com
 domain:work-from-home-earn-money-online.com
 domain:worthimages.com
 domain:wowas31.ucoz.ru
+domain:wurq.info
 domain:x-lime.net
 domain:x-musics.com
 domain:x-porno.video
