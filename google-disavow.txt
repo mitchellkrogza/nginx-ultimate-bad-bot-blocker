@@ -164,6 +164,7 @@ domain:azartmix.com
 domain:azartniy-bonus.com
 domain:azazu.ru
 domain:azbaseimages.net
+domain:azbukafree.com
 domain:azlex.uz
 domain:babespcs.com
 domain:bablonow.ru
@@ -291,6 +292,7 @@ domain:callejondelpozo.es
 domain:calstaterealty.us
 domain:candiceloves.us
 domain:candypeople.se
+domain:candytiner.com
 domain:canphotograph.com
 domain:canrole.com
 domain:carapics.com
@@ -427,6 +429,7 @@ domain:decenttools.com
 domain:decorationspcs.com
 domain:dekoration.us
 domain:dekorkeramik.ru
+domain:delayreferat.ru
 domain:delfin-aqua.com.ua
 domain:demenageur.com
 domain:den-noch24.ru
@@ -450,6 +453,8 @@ domain:dktr.ru
 domain:dnepr-avtospar.com.ua
 domain:dnepropetrovsk.mistr-x.org
 domain:dneprsvet.com.ua
+domain:docabqdqwa.net
+domain:doctissimo.fr
 domain:dogbreedspicture.net
 domain:dogoimage.com
 domain:dogshowsonice.com
@@ -546,6 +551,7 @@ domain:expdom.com
 domain:exportshop.us
 domain:expresstoplivo.ru
 domain:extener.com
+domain:extremal-blog.com
 domain:extremez.net
 domain:eyemagination.com
 domain:eyes-on-you.ga
@@ -597,6 +603,7 @@ domain:for-your.website
 domain:forex-procto.ru
 domain:forsex.info
 domain:fortawesome.github.io
+domain:forum.doctissimo.fr
 domain:forum.tvmir.org
 domain:forum69.info
 domain:forumprofi.de
@@ -737,6 +744,7 @@ domain:heartofbeijing.blogspot.com
 domain:heatpower.ru
 domain:helicalpile.us
 domain:hellokittyimg.com
+domain:helvetia.com.ua
 domain:herehloadibs.cf
 domain:herequp3dm.cf
 domain:hidefiles.org
@@ -819,6 +827,7 @@ domain:incolors.club
 domain:increasewwwtraffic.info
 domain:indiakino.net
 domain:inductionc2oktop.com
+domain:informatiecentro.be
 domain:infowarcraft.ru
 domain:inmate-locator.us
 domain:instoods.com
@@ -982,6 +991,7 @@ domain:littleberry.ru
 domain:liupis.com
 domain:livefixer.com
 domain:liveshoppersmac.com
+domain:livingcanarias.com
 domain:lmrauction.com
 domain:lockerz.com
 domain:lodki-pvh.dp.ua
@@ -1173,6 +1183,7 @@ domain:outpersonals.com
 domain:outshop.ru
 domain:ownshop.cf
 domain:owohho.com
+domain:oxford-book.com.ua
 domain:ozas.net
 domain:ozoz.it
 domain:palvira.com.au
@@ -1470,6 +1481,7 @@ domain:smart-balancewheel.com
 domain:smartbalanceworld.com
 domain:smartphonediscount.info
 domain:smartshoppymac.com
+domain:smokewithrabbits.com
 domain:smstraf.ru
 domain:snip.to
 domain:snip.tw
@@ -1651,6 +1663,7 @@ domain:ubudair.com
 domain:ucoz.ru
 domain:ufa.xrus.org
 domain:ufoto.us
+domain:uhod-za-sobakoj.ru
 domain:ukrup.com
 domain:ultimateclassicrock.com
 domain:ultramart.biz
