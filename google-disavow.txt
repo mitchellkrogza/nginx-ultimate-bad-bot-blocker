@@ -65,6 +65,7 @@ domain:advokateg.ru
 domain:advokateg.xyz
 domain:affordablewebsitesandmobileapps.com
 domain:afora.ru
+domain:afslankpillen2017nl.eu
 domain:agahinameh.com
 domain:ahrefs.com
 domain:air-edem.ru
@@ -334,6 +335,7 @@ domain:clinchimage.com
 domain:clipartnew.com
 domain:clips.ua.ac.be
 domain:clmforexeu.com
+domain:cntravelre.com
 domain:coderstate.com
 domain:codysbbq.com
 domain:collectionimags.com
@@ -374,6 +376,7 @@ domain:compliance-viktor.top
 domain:compliance-walt.top
 domain:compliance-walter.top
 domain:compliance-willy.top
+domain:concealthyself.com
 domain:conciergegroup.org
 domain:confib.ifmo.ru
 domain:connectikastudio.com
@@ -511,6 +514,7 @@ domain:elitesportsadvisor.com
 domain:elmacho.xyz
 domain:elmifarhangi.com
 domain:eloxal.ru
+domain:emapdesign.us
 domain:embedle.com
 domain:empathica.com
 domain:empirepoker.com
@@ -560,6 +564,7 @@ domain:facetok.net
 domain:falcoware.com
 domain:family1st.ca
 domain:familyholiday.ml
+domain:fandlr.com
 domain:fanpagerobot.com
 domain:fantasticpixcool.com
 domain:fashionindeed.ml
@@ -748,6 +753,7 @@ domain:helvetia.com.ua
 domain:herehloadibs.cf
 domain:herequp3dm.cf
 domain:hidefiles.org
+domain:hidemyass.com
 domain:hifidesign.ru
 domain:highprofitclub.com
 domain:histats.com
@@ -1013,6 +1019,7 @@ domain:mackeeper-center.club
 domain:magazin-pics.ru
 domain:magento-crew.net
 domain:magicdiet.gq
+domain:maglid.ru
 domain:mail.ru
 domain:mainlinehobby.net
 domain:majestic.com
@@ -1465,6 +1472,7 @@ domain:sitevaluation.com
 domain:sitevaluation.org
 domain:sitevalued.com
 domain:sivs.ru
+domain:sixcooler.de
 domain:skachat-besplatno-dlja-mobily.ru
 domain:skachat-besplatno-obrazcy.ru
 domain:skhoolimg.com
@@ -1573,6 +1581,7 @@ domain:supers.com.ua
 domain:supervesti.ru
 domain:sureone.pro
 domain:susanholtphotography.com
+domain:svarkagid.com
 domain:swiped.su
 domain:sygraem.com
 domain:tablepicz.com
