@@ -285,6 +285,7 @@ domain:bzero1jewelry.net
 domain:c-english.ru
 domain:cablecar.us
 domain:cacheimages.com
+domain:cactussoft.biz
 domain:cakics.com
 domain:calc-for-credit.ru
 domain:californianews.cf
@@ -1658,6 +1659,7 @@ domain:turizm.bz
 domain:turkeyreport.tk
 domain:tvand.ru
 domain:tversvet.ru
+domain:tvteleport.ru
 domain:twelvevisionspartyofcolorado.com
 domain:twiclub.in
 domain:twincitiescarservice.com
