@@ -1,7 +1,10 @@
 #CHANGELOG - Nginx Bad Bot Blocker
 
+###2016-12-17
+- Removed "CPython" from bad bots list. This user agent string "python-requests/2.5.3 CPython/2.7.9 Linux/3.16.0-4-amd64" is used by a valid Google Feed Parser called "UniversalFeedParser/5.2.1 +https://code.google.com/p/feedparser/"
+
 ###2016-12-14
-- Removed "python-requests" from bad bots list. Used by google cloud and a few other legitimate web services.
+- Removed "python-requests" from bad bots list. This user agent string "python-requests/2.5.3 CPython/2.7.9 Linux/3.16.0-4-amd64" is used by a valid Google Feed Parser called "UniversalFeedParser/5.2.1 +https://code.google.com/p/feedparser/"
 
 ###2016-12-11
 - Added some repetitively bad IP's
