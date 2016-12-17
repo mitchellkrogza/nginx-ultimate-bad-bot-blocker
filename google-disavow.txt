@@ -57,6 +57,7 @@ domain:adtiger.tk
 domain:adultactioncam.com
 domain:adultgalls.com
 domain:adultnet.in
+domain:adultwebhosting.info
 domain:adventureparkcostarica.com
 domain:adviceforum.info
 domain:advokateg.co
@@ -117,6 +118,7 @@ domain:anlimebel.kiev.ua
 domain:ansar-u-deen.com
 domain:anticrawler.org
 domain:aosheng-tech.com
+domain:apartment.ru
 domain:apper.de
 domain:approved.su
 domain:apxeo.info
@@ -315,6 +317,7 @@ domain:cgi2.nintendo.co.jp
 domain:chatseo.com
 domain:chcu.net
 domain:cheap-pills-norx.com
+domain:cheatcode-lita12.rhcloud.com
 domain:checkpagerank.net
 domain:checktext.org
 domain:cheerlemage.com
@@ -413,6 +416,7 @@ domain:curatorimages.com
 domain:customcatchcan.com
 domain:customchocolate.business-for-home.com
 domain:customergrowthsystems.com
+domain:customerguru.in
 domain:customsua.com.ua
 domain:cutalltheshit.com
 domain:cyber-monday.ga
@@ -558,6 +562,7 @@ domain:expresstoplivo.ru
 domain:extener.com
 domain:extremal-blog.com
 domain:extremez.net
+domain:eyelike.com.ua
 domain:eyemagination.com
 domain:eyes-on-you.ga
 domain:facebook-mobile.xyz
@@ -583,6 +588,7 @@ domain:feedouble.net
 domain:ferieboligkbh.dk
 domain:ferretsoft.com
 domain:fidelityfunding.com
+domain:fifa-coins.online
 domain:fil.ru
 domain:film-one.ru
 domain:filmbokep69.com
@@ -704,6 +710,7 @@ domain:gobongo.info
 domain:gogps.me
 domain:golden-catalog.pro
 domain:gonextmedia.com
+domain:goo.ne.jp
 domain:goodprotein.ru
 domain:googglet.com
 domain:googlemare.com
@@ -737,6 +744,7 @@ domain:hasfun.com
 domain:hazardky.net
 domain:hd-filmy.net
 domain:hd720kino.ru
+domain:hdimagegallery.net
 domain:hdimagelib.com
 domain:hdmoviecamera.net
 domain:hdmoviecams.com
@@ -762,6 +770,7 @@ domain:historichometeam.com
 domain:hmmm.cz
 domain:hol.es
 domain:home.myplaycity.com
+domain:homeandhealth.ru
 domain:homedecorpicture.us
 domain:homegardenlova.com
 domain:homelygarden.com
@@ -785,6 +794,7 @@ domain:how-to-earn-quick-money.com
 domain:howopen.ru
 domain:howtostopreferralspam.eu
 domain:hspline.com
+domain:htmlcorner.com
 domain:https-legalrc.biz
 domain:hulfingtonpost.com
 domain:humanorightswatch.org
@@ -879,6 +889,7 @@ domain:jpcycles.com
 domain:justprofit.xyz
 domain:jwss.cc
 domain:kabbalah-red-bracelets.com
+domain:kamagragelusa.net
 domain:kambasoft.com
 domain:kamen-e.ru
 domain:kanimage.com
@@ -1142,6 +1153,7 @@ domain:nhl17coins.exblog.jp
 domain:nhl17coinsforps3.gratisblog.biz
 domain:nibbler.silktide.com
 domain:nicovideo.jp
+domain:nightvision746.weebly.com
 domain:niki-mlt.ru
 domain:nikkiewart.ru
 domain:nootrino.com
@@ -1365,12 +1377,14 @@ domain:running-line.ru
 domain:runovschool.ua
 domain:runstocks.com
 domain:rusexy.xyz
+domain:ruspdd.com
 domain:sad-torg.com.ua
 domain:sady-urala.ru
 domain:saitevpatorii.com
 domain:sale-japan.com
 domain:saletool.ru
 domain:salutmontreal.com
+domain:sampleletters.net
 domain:sanjosestartups.com
 domain:santasgift.ml
 domain:sanyuprojects.com
@@ -1587,6 +1601,7 @@ domain:swiped.su
 domain:sygraem.com
 domain:t0p.xyz
 domain:tablepicz.com
+domain:tabletkinaodchudzanie.com.pl
 domain:tagjkjsaba.ru
 domain:taihouse.ru
 domain:takeitdumps.com
@@ -1630,6 +1645,7 @@ domain:torrents.cd
 domain:torture.ml
 domain:touchmods.fr
 domain:tpu.ru
+domain:tradedeals.biz
 domain:traderzplanet.in
 domain:traffic-cash.xyz
 domain:traffic2cash.org
@@ -1762,6 +1778,7 @@ domain:wesharepics.com
 domain:wesharepics.info
 domain:wesharepics.site
 domain:westsextube.com
+domain:westvilletowingservices.co.za
 domain:whatsappdownload10.com
 domain:whatzmyip.net
 domain:whipme.yopoint.in
