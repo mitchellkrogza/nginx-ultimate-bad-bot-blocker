@@ -173,6 +173,7 @@ domain:babespcs.com
 domain:bablonow.ru
 domain:backgroundpictures.net
 domain:backlinkwatch.com
+domain:bagcionderlab.com
 domain:baixar-musicas-gratis.com
 domain:baksman.com
 domain:baladur.ru
@@ -413,6 +414,7 @@ domain:crests.com
 domain:cubook.supernew.org
 domain:cubs-jerseys.us
 domain:curatorimages.com
+domain:custom-product-labels.com
 domain:customcatchcan.com
 domain:customchocolate.business-for-home.com
 domain:customergrowthsystems.com
@@ -492,6 +494,7 @@ domain:drupa.com
 domain:dvr.biz.ua
 domain:dvrlists.com
 domain:dybuxog.com.ua
+domain:dyni.com.ua
 domain:e-buyeasy.com
 domain:e-collantes.com
 domain:e-kwiaciarz.pl
@@ -596,6 +599,7 @@ domain:filmetricsasia.com
 domain:filmgo.ru
 domain:filunika.com.ru
 domain:financeloan.us
+domain:find1friend.com
 domain:finteks.ru
 domain:firma-legion.ru
 domain:fishingwholesale.us
@@ -707,6 +711,7 @@ domain:glavprofit.ru
 domain:globalscam.ga
 domain:globalsurfari.com
 domain:gobongo.info
+domain:goemap.us
 domain:gogps.me
 domain:golden-catalog.pro
 domain:gonextmedia.com
@@ -812,6 +817,7 @@ domain:ideaspicz.com
 domain:ideibiznesa2015.ru
 domain:ideoworld.org
 domain:ifirestarter.ru
+domain:iflycapetown.co.za
 domain:ifmo.ru
 domain:igrovyeavtomaty777.ru
 domain:igru-xbox.net
@@ -1061,6 +1067,7 @@ domain:meds-online24.com
 domain:meduza-consult.ru
 domain:meendo-free-traffic.ga
 domain:megaindex.ru
+domain:meget.co.za
 domain:meltwater.com
 domain:memovn.com
 domain:menetie.ru
@@ -1070,6 +1077,7 @@ domain:merryhouse.co.uk
 domain:micasainvest.com
 domain:microsearch.ru
 domain:millionare.com
+domain:mindbox.co.za
 domain:minegam.com
 domain:mini.7zap.com
 domain:miniads.ca
@@ -1166,6 +1174,7 @@ domain:novosti-hi-tech.ru
 domain:nufaq.com
 domain:nullrefer.com
 domain:nyfinance.ml
+domain:nzfilecloud.weebly.com
 domain:o-dachnik.ru
 domain:o-o-11-o-o.com
 domain:o-o-6-o-o.com
@@ -1391,6 +1400,7 @@ domain:sanyuprojects.com
 domain:saratov.xrus.org
 domain:sarf3omlat.com
 domain:savefrom.com
+domain:savememoney.co.za
 domain:savetubevideo.com
 domain:sbetodiodnye-lampy.ru
 domain:sbt-aqua.ru
