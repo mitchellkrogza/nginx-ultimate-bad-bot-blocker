@@ -45,6 +45,7 @@ domain:abiente.ru
 domain:abovetherivernc.com
 domain:absolute-s.ru
 domain:acads.net
+domain:acc.eu.org
 domain:actremage.com
 domain:acunetix-referrer.com
 domain:adcash.com
@@ -114,6 +115,7 @@ domain:an-donut.com
 domain:anal-acrobats.com
 domain:anapa-inns.ru
 domain:android-style.com
+domain:animali.deagostinipassion.it
 domain:anlimebel.kiev.ua
 domain:ansar-u-deen.com
 domain:anticrawler.org
@@ -162,6 +164,7 @@ domain:avtolombard-krasnodar.com
 domain:awency.com
 domain:axbocz.net
 domain:ayakino.net
+domain:ayanaspa.com
 domain:azartclub.org
 domain:azartmix.com
 domain:azartniy-bonus.com
@@ -340,6 +343,7 @@ domain:clinchimage.com
 domain:clipartnew.com
 domain:clips.ua.ac.be
 domain:clmforexeu.com
+domain:cmhomestayagency.com
 domain:cntravelre.com
 domain:coderstate.com
 domain:codysbbq.com
@@ -411,6 +415,7 @@ domain:crafthubs.com
 domain:crazyboost.pro
 domain:creditmoney.com.ua
 domain:crests.com
+domain:crests.org
 domain:cubook.supernew.org
 domain:cubs-jerseys.us
 domain:curatorimages.com
@@ -1517,10 +1522,12 @@ domain:smartphonediscount.info
 domain:smartshoppymac.com
 domain:smokewithrabbits.com
 domain:smstraf.ru
+domain:snakeseco.it
 domain:snip.to
 domain:snip.tw
 domain:snowplanes.com
 domain:snts.shell-pmr.ru
+domain:snworks.com
 domain:soaksoak.ru
 domain:social-button.xyz
 domain:social-buttons-aa.xyz
@@ -1637,6 +1644,7 @@ domain:template-kid.com
 domain:tennis-img.org
 domain:terraclicks.com
 domain:terrafootwear.us
+domain:tessitura-gr.it
 domain:thealienwheel.be
 domain:thecoral.com.br
 domain:theguardlan.com
@@ -1710,6 +1718,7 @@ domain:ultramart.biz
 domain:underthesite.com
 domain:uni.me
 domain:unpredictable.ga
+domain:uogonline.com
 domain:uptime-alpha.net
 domain:uptime.com
 domain:uptimebot.net
