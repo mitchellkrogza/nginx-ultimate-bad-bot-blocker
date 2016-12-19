@@ -1392,6 +1392,7 @@ domain:sady-urala.ru
 domain:saitevpatorii.com
 domain:sale-japan.com
 domain:saletool.ru
+domain:saltfilmes.tk
 domain:salutmontreal.com
 domain:sampleletters.net
 domain:sanjosestartups.com
@@ -1646,6 +1647,7 @@ domain:thetattoohut.com
 domain:timer4web.com
 domain:tips-trick.com
 domain:tmm-kurs.ru
+domain:todohr.com
 domain:tomatis.gospartner.com
 domain:tomck.com
 domain:tootoo.to
