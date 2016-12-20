@@ -252,6 +252,7 @@ domain:braip.com.br
 domain:brakehawk.com
 domain:brateg.xyz
 domain:break-the-chains.com
+domain:breastaugmentation.co.za
 domain:brg8.com
 domain:bristolhostel.com
 domain:bristolhotel.com
@@ -262,6 +263,7 @@ domain:bruce-holdeman.com
 domain:brus.city
 domain:bscodecs.com
 domain:btvn.ru
+domain:buchananshardware.com
 domain:budilneg.xyz
 domain:budmavtomatika.com.ua
 domain:budpost.com.ua
@@ -285,6 +287,7 @@ domain:buynorxx.com
 domain:buypanicdisorderpill.com
 domain:buypharmacydrug.com
 domain:buzzonclick.com
+domain:buzzsumo.com
 domain:buzzurl.jp
 domain:bycontext.com
 domain:bzero1jewelry.net
@@ -332,6 +335,7 @@ domain:cherubinimobili.it
 domain:chiblackhawks-jerseys.com
 domain:chinese-amezon.com
 domain:chiptuninger.com
+domain:chlooe.com
 domain:ci.ua
 domain:cialiswithoutadoctor.net
 domain:cityadspix.com
@@ -408,6 +412,7 @@ domain:coolingoods.com
 domain:coolinstagoods.com
 domain:copyrightclaims.org
 domain:countbertwistdisp26.soup.io
+domain:counter.yadro.ru
 domain:country.onetravelguides.com
 domain:covadhosting.biz
 domain:cpabegins.ru
@@ -533,6 +538,7 @@ domain:empathica.com
 domain:empirepoker.com
 domain:empoweringchange.us
 domain:encodable.com
+domain:englate.com
 domain:envaseslotusama.com
 domain:enviromusic.net
 domain:epngo.bz
@@ -1095,6 +1101,7 @@ domain:missvietnam.org
 domain:misswell.net
 domain:misswootwoot.com
 domain:mistr-x.org
+domain:mitcdoforumwest.org
 domain:mitrasound.ru
 domain:mixtapetorrent.com
 domain:mmog-play.ru
@@ -1884,6 +1891,7 @@ domain:xuki.us
 domain:xwatt.ru
 domain:xxxguitars.com
 domain:xz618.com
+domain:yadro.ru
 domain:yeartwit.com
 domain:ykecwqlixx.ru
 domain:yorkshire.com
