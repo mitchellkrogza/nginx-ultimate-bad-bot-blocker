@@ -461,6 +461,7 @@ domain:devochki.top
 domain:dfiles.me
 domain:dianliwenmi.com
 domain:diffbot.com
+domain:diminishedvalueoforegon.com
 domain:dimkino.ru
 domain:dipstar.org
 domain:directrev.com
@@ -733,6 +734,7 @@ domain:googlemare.com
 domain:googlsucks.com
 domain:gopixdatabase.com
 domain:gotomontenegro.net
+domain:gotorussia.com
 domain:gototal.co.nz
 domain:gotwebsite1.com
 domain:gox.com.ua
@@ -1397,6 +1399,7 @@ domain:rumamba.com
 domain:running-line.ru
 domain:runovschool.ua
 domain:runstocks.com
+domain:ruscopybook.com
 domain:rusexy.xyz
 domain:ruspdd.com
 domain:sad-torg.com.ua
@@ -1668,6 +1671,7 @@ domain:tomck.com
 domain:tootoo.to
 domain:topquality.cf
 domain:topseoservices.co
+domain:torrent-newgames.com
 domain:torrents.cd
 domain:torture.ml
 domain:touchmods.fr
@@ -1814,6 +1818,7 @@ domain:whois.domaintools.com
 domain:wholinkstome.com
 domain:whos.amung.us
 domain:whosonmyserver.com
+domain:wildworld.site
 domain:williamrobsonproperty.com
 domain:windowssearch-exp.com
 domain:wineitudes.wordpress.com
