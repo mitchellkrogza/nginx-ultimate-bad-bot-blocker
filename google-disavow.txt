@@ -427,6 +427,7 @@ domain:curatorimages.com
 domain:custom-product-labels.com
 domain:customcatchcan.com
 domain:customchocolate.business-for-home.com
+domain:customcollegeessays.net
 domain:customergrowthsystems.com
 domain:customerguru.in
 domain:customsua.com.ua
@@ -436,6 +437,7 @@ domain:cyprusbuyproperties.com
 domain:dailyrank.net
 domain:dalavia.ru
 domain:dangphoto.trade
+domain:danschawbel.com
 domain:darmebel.com.ua
 domain:darodar.com
 domain:data.vtc.pw
@@ -717,6 +719,7 @@ domain:gifspics.com
 domain:gigablast.com
 domain:girlporn.ru
 domain:girlspicsa.com
+domain:giwopy.net.ru
 domain:gkvector.ru
 domain:glass-msk.ru
 domain:glavprofit.ru
@@ -811,6 +814,7 @@ domain:hoverboardforsaledirect.com
 domain:how-to-earn-quick-money.com
 domain:howopen.ru
 domain:howtostopreferralspam.eu
+domain:hozaxy.com.ua
 domain:hspline.com
 domain:htmlcorner.com
 domain:https-legalrc.biz
@@ -1027,9 +1031,11 @@ domain:linkrr.com
 domain:littleberry.ru
 domain:liupis.com
 domain:livefixer.com
+domain:liverpool.gsofootball.com
 domain:liveshoppersmac.com
 domain:livingcanarias.com
 domain:lmrauction.com
+domain:lob.com.ru
 domain:lockerz.com
 domain:lodki-pvh.dp.ua
 domain:lol-smurfs.com
@@ -1890,6 +1896,7 @@ domain:xn--q1a.xn--b1aube0e.xn--c1acygb.xn--p1ai
 domain:xnxx.com
 domain:xnxx.org
 domain:xnxxandxvideos.com
+domain:xoravi.ru
 domain:xpresscare.ru
 domain:xrus.org
 domain:xuki.us
