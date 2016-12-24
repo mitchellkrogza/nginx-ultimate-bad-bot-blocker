@@ -275,6 +275,7 @@ domain:bum.com.ru
 domain:bupropion-sr-150-mg.us
 domain:burger-imperia.com
 domain:burn-fat.ga
+domain:businesxxl.com
 domain:buttons-for-website.com
 domain:buttons-for-your-website.com
 domain:buy-cheap-online.info
@@ -393,6 +394,7 @@ domain:concealthyself.com
 domain:conciergegroup.org
 domain:confib.ifmo.ru
 domain:connectikastudio.com
+domain:conocer-sanabria.com
 domain:constantaservice.net
 domain:contextualyield.com
 domain:cookie-law-enforcement-aa.xyz
@@ -501,6 +503,7 @@ domain:doxutan.com
 domain:doxyporno.com
 domain:doyouknowtheword-flummox.ml
 domain:drillsaw.ru
+domain:droidlook.net
 domain:drugspowerstore.com
 domain:drugstoreforyou.com
 domain:drupa.com
@@ -1014,6 +1017,7 @@ domain:leadwayau.com
 domain:ledis.top
 domain:lego4x4.ru
 domain:legoimg.com
+domain:lescinq.com
 domain:letolove.ru
 domain:letsgotofriday.com
 domain:lexaprogeneric.link
@@ -1425,6 +1429,7 @@ domain:savefrom.com
 domain:savememoney.co.za
 domain:savetubevideo.com
 domain:sbetodiodnye-lampy.ru
+domain:sbricur.com
 domain:sbt-aqua.ru
 domain:sbwealthsolutions.ca
 domain:scanner-alex.top
@@ -1818,6 +1823,7 @@ domain:wesharepics.site
 domain:westsextube.com
 domain:westvilletowingservices.co.za
 domain:whatsappdownload10.com
+domain:whatsupinfoley.com
 domain:whatzmyip.net
 domain:whipme.yopoint.in
 domain:whois.domaintools.com
