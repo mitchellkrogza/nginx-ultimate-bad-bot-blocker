@@ -5,7 +5,7 @@
 
 #### For Nginx Web Server - https://www.nginx.com/
 
-### Recommend to saved as: /etc/nginx/conf.d/globalblacklist.conf
+### Recommend to be saved as: /etc/nginx/conf.d/globalblacklist.conf
 
 Why? .... because all files located in /conf.d/ are automatically loaded by Nginx in the main
 nginx.conf file.
@@ -17,7 +17,7 @@ nginx.conf file.
 
 #####Bad bots are:
 
--    Bad Referers
+-    Bad Referers (1977 bad referers and counting)
 -    Spam Referers
 -    Spam bots
 -    Vulnerability scanners
