@@ -303,6 +303,7 @@ domain:call-of-duty.info
 domain:callejondelpozo.es
 domain:calstaterealty.us
 domain:candiceloves.us
+domain:candycrushshop.com
 domain:candypeople.se
 domain:candytiner.com
 domain:canphotograph.com
@@ -354,6 +355,7 @@ domain:coderstate.com
 domain:codysbbq.com
 domain:collectionimags.com
 domain:collemages.com
+domain:community.allhiphop.com
 domain:compliance-alex.top
 domain:compliance-alexa.top
 domain:compliance-alexa.xyz
@@ -436,6 +438,7 @@ domain:customsua.com.ua
 domain:cutalltheshit.com
 domain:cyber-monday.ga
 domain:cyprusbuyproperties.com
+domain:cyse.tk
 domain:dailyrank.net
 domain:dalavia.ru
 domain:dangphoto.trade
@@ -464,6 +467,7 @@ domain:detskie-konstruktory.ru
 domain:devochki.top
 domain:dfiles.me
 domain:dianliwenmi.com
+domain:diegolopezcastan.com
 domain:diffbot.com
 domain:diminishedvalueoforegon.com
 domain:dimkino.ru
@@ -587,6 +591,7 @@ domain:eyemagination.com
 domain:eyes-on-you.ga
 domain:facebook-mobile.xyz
 domain:facetok.net
+domain:failingmarriege.blogspot.com
 domain:falcoware.com
 domain:family1st.ca
 domain:familyholiday.ml
@@ -716,6 +721,7 @@ domain:getprismatic.com
 domain:getrichquick.ml
 domain:getrichquickly.info
 domain:gg-arena.ru
+domain:gg.zzyjxs.com
 domain:ghazel.ru
 domain:ghostvisitor.com
 domain:gifspics.com
@@ -780,6 +786,7 @@ domain:healbio.ru
 domain:healgastro.com
 domain:heartofbeijing.blogspot.com
 domain:heatpower.ru
+domain:heh.net.ru
 domain:helicalpile.us
 domain:hellokittyimg.com
 domain:helvetia.com.ua
@@ -806,6 +813,7 @@ domain:hosting-tracker.com
 domain:hostingclub.lk
 domain:hotblog.top
 domain:hotwatersdamps.com
+domain:housediz.com
 domain:housemilan.ru
 domain:houseofrose.com
 domain:hoverboard360.at
@@ -821,6 +829,7 @@ domain:hozaxy.com.ua
 domain:hspline.com
 domain:htmlcorner.com
 domain:https-legalrc.biz
+domain:hubbble.com
 domain:hulfingtonpost.com
 domain:humanorightswatch.org
 domain:hundejo.com
@@ -926,7 +935,9 @@ domain:kazrent.com
 domain:ketoanhanoi.info
 domain:keyword-suggestions.com
 domain:keywordhut.com
+domain:keywordsking.com
 domain:keywordsuggest.org
+domain:kiducydewq.net.ua
 domain:kiev.ua
 domain:kino-fun.ru
 domain:kino-key.info
@@ -1026,6 +1037,7 @@ domain:lider-zhaluzi.kiev.ua
 domain:life-instyle.com
 domain:likesdesign.com
 domain:likesuccess.com
+domain:liky.co.ua
 domain:lilishopstogether.com
 domain:limedition.co
 domain:limtu.ifmo.ru
@@ -1037,6 +1049,7 @@ domain:liupis.com
 domain:livefixer.com
 domain:liverpool.gsofootball.com
 domain:liveshoppersmac.com
+domain:livetsomudvekslingstudent.bloggersdelight.dk
 domain:livingcanarias.com
 domain:lmrauction.com
 domain:lob.com.ru
@@ -1056,6 +1069,7 @@ domain:luxup.ru
 domain:m-google.xyz
 domain:m1media.net
 domain:m4ever.net
+domain:mabdoola.blogspot.com
 domain:mackeeper-center.club
 domain:magazin-pics.ru
 domain:magento-crew.net
@@ -1109,6 +1123,7 @@ domain:mir-betting.ru
 domain:mirobuvi.com.au
 domain:mirror.sytes
 domain:mirtorrent.net
+domain:misandesign.se
 domain:missvietnam.org
 domain:misswell.net
 domain:misswootwoot.com
@@ -1144,6 +1159,7 @@ domain:mrinsidesales.com
 domain:mriyadh.com
 domain:mrlmedia.net
 domain:mrmoneymustache.com
+domain:mrsdalloways.com
 domain:mrwhite.biz
 domain:mturkcontent.com
 domain:muscle-factory.com.au
@@ -1175,6 +1191,7 @@ domain:nailsimg.com
 domain:nalogovyy-kodeks.ru
 domain:namecheap.com
 domain:narosty.com
+domain:nastydollars.com
 domain:nate.com
 domain:net-profits.xyz
 domain:new-post.tk
@@ -1188,6 +1205,7 @@ domain:nicovideo.jp
 domain:nightvision746.weebly.com
 domain:niki-mlt.ru
 domain:nikkiewart.ru
+domain:nolyduvjm.info
 domain:nootrino.com
 domain:normalegal.ru
 domain:notaria-desalas.com
@@ -1225,10 +1243,12 @@ domain:onstrapon.purplesphere.in
 domain:ooo-olni.ru
 domain:openfrost.com
 domain:openmediasoft.com
+domain:opinionreelle.com
 domain:ordernorxx.com
 domain:orenburg-gsm.ru
 domain:orgasmus-virtual.com
 domain:orsonet.ru
+domain:oshiw.diegolopezcastan.com
 domain:osoznanie-narkotikam.net
 domain:ossmalta.com
 domain:outfitpicz.com
@@ -1276,6 +1296,7 @@ domain:piter.xrus.org
 domain:piuminiita.com
 domain:pix-hd.com
 domain:pix24x7.com
+domain:pixelrz.com
 domain:pixhdawesom.com
 domain:pixsad.com
 domain:pizda.lol
@@ -1352,6 +1373,7 @@ domain:purchasepillsnorx.com
 domain:purplesphere.in
 domain:putitin.me
 domain:pxhdwsm.com
+domain:py100.ru
 domain:pyrodesigns.com.au
 domain:qitt.ru
 domain:quality-traffic.com
@@ -1376,6 +1398,7 @@ domain:rcb101.ru
 domain:realmonte.net
 domain:realting-moscow.ru
 domain:rebelmouse.com
+domain:recinziireale.com
 domain:rednise.com
 domain:regionshop.biz
 domain:remontgruzovik.ru
@@ -1402,6 +1425,7 @@ domain:rostov.xrus.org
 domain:royal-betting.net
 domain:royal-investments.net
 domain:royalcar-ufa.ru
+domain:rqsjx.info
 domain:ru-dety.ru
 domain:rucrypt.com
 domain:rukino.org
@@ -1412,6 +1436,7 @@ domain:runstocks.com
 domain:ruscopybook.com
 domain:rusexy.xyz
 domain:ruspdd.com
+domain:russkie-gorki.ru
 domain:sad-torg.com.ua
 domain:sady-urala.ru
 domain:saitevpatorii.com
@@ -1550,6 +1575,7 @@ domain:snowplanes.com
 domain:snts.shell-pmr.ru
 domain:snworks.com
 domain:soaksoak.ru
+domain:sobicqsy.ru
 domain:social-button.xyz
 domain:social-buttons-aa.xyz
 domain:social-buttons-aaa.xyz
@@ -1646,6 +1672,7 @@ domain:taihouse.ru
 domain:takeitdumps.com
 domain:tako3.com
 domain:taleimages.com
+domain:tampabaywatch.org
 domain:taqywu51.soup.io
 domain:tasteidea.com
 domain:tastyfoodideas.com
@@ -1826,6 +1853,7 @@ domain:whatsappdownload10.com
 domain:whatsupinfoley.com
 domain:whatzmyip.net
 domain:whipme.yopoint.in
+domain:whiteproduct.com
 domain:whois.domaintools.com
 domain:wholinkstome.com
 domain:whos.amung.us
@@ -1858,11 +1886,13 @@ domain:x.rafomedia.com
 domain:xbaboon.com
 domain:xblog.in
 domain:xboxster.ru
+domain:xcombear.ru
 domain:xep.info
 domain:xjlottery.com
 domain:xkaz.org
 domain:xn------7cdbapdecfd4ak1bn0amjffj7afu3y.xn--p1ai
 domain:xn-----6kcaacnblni5c5bicdpcmficy.xn--p1ai
+domain:xn-----7kcabaipgeakzcss7bjdqdwpfnhv.xn--p1ai
 domain:xn-----7kceclhb4abre1b4a0ccl2fxch1a.xn--p1ai
 domain:xn-----8kcatubaocd1bneepefojs1h2e.xn--p1ai
 domain:xn----7sbaaabaei0cc8aj5bj0bncejx.xn--p1ai
@@ -1908,6 +1938,7 @@ domain:xrus.org
 domain:xuki.us
 domain:xwatt.ru
 domain:xxxguitars.com
+domain:xyx.net.ua
 domain:xz618.com
 domain:yadro.ru
 domain:yeartwit.com
@@ -1940,6 +1971,7 @@ domain:zebradudka.com
 domain:zebramart.ru
 domain:znaniyapolza.ru
 domain:zophim.me
+domain:zqtqkq.ua
 domain:zryydi.com
 domain:zverokruh-shop.cz
 domain:zvetki.ru
