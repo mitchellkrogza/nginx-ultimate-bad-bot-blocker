@@ -247,6 +247,7 @@ domain:bookmark4you.biz
 domain:bookmark4you.com
 domain:boost-my-site.com
 domain:brains2.biz
+domain:brainsandeggs.blogspot.com
 domain:brainxs.us
 domain:braip.com.br
 domain:brakehawk.com
@@ -622,6 +623,7 @@ domain:filmgo.ru
 domain:filunika.com.ru
 domain:financeloan.us
 domain:find1friend.com
+domain:findthe.pet
 domain:finteks.ru
 domain:firma-legion.ru
 domain:fishingwholesale.us
@@ -1041,6 +1043,7 @@ domain:liky.co.ua
 domain:lilishopstogether.com
 domain:limedition.co
 domain:limtu.ifmo.ru
+domain:lincolntheatre.com
 domain:linerdrilling.com
 domain:link.web-list.xyz
 domain:linkrr.com
