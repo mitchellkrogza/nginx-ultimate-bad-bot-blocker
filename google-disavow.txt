@@ -814,6 +814,7 @@ domain:hostcritique.com
 domain:hosting-tracker.com
 domain:hostingclub.lk
 domain:hotblog.top
+domain:hotenergy.ru
 domain:hotwatersdamps.com
 domain:housediz.com
 domain:housemilan.ru
@@ -884,6 +885,7 @@ domain:inductionc2oktop.com
 domain:informatiecentro.be
 domain:infowarcraft.ru
 domain:inmate-locator.us
+domain:insomniagamingfestival.com
 domain:instoods.com
 domain:interesnie-faktu.ru
 domain:intermesh.net
@@ -954,6 +956,7 @@ domain:kinostorm.net
 domain:kinotorka.ru
 domain:kiwe-analytics.com
 domain:kiwi237au.tk
+domain:kmd-pto.ru
 domain:kmgamex.cf
 domain:knigonosha.net
 domain:knogg.net
@@ -1650,6 +1653,7 @@ domain:steame.ru
 domain:stmassage.ru
 domain:stockquotes.wooeb.com
 domain:stoki.ru
+domain:stop-gepatit.te.ua
 domain:storehouse.ua
 domain:streha-metalko.si
 domain:styro.ru
@@ -1682,7 +1686,6 @@ domain:tastyfoodideas.com
 domain:tattogirlspix.com
 domain:tattooha.com
 domain:taxi-v-eisk.ru
-domain:taxidermy.net
 domain:taxidermy4cash.com
 domain:td-33.ru
 domain:teaminspection.com
@@ -1833,6 +1836,7 @@ domain:wdfdocando.com
 domain:wdrake.com
 domain:web-betting.ru
 domain:web-revenue.xyz
+domain:webenlace.com.ar
 domain:weblo.com
 domain:webmaster-traffic.com
 domain:webmonetizer.net
