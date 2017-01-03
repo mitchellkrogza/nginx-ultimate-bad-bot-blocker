@@ -17,7 +17,7 @@ nginx.conf file.
 
 #####Bad bots are:
 
--    Bad Referers (1977 bad referers and counting)
+-    Bad Referers
 -    Spam Referers
 -    Spam bots
 -    Vulnerability scanners
@@ -31,6 +31,8 @@ nginx.conf file.
 -    SEO companies that your competitors use to try improve their SEO
 -    Link Research and Backlink Testing Tools
 -    Stopping Google Analytics Ghost Spam
+
+(2061 bad referers, bots, seo companies and counting)
 
 Bots attempt to make themselves look like other software or web sites by disguising their user agent. 
 Their user agent names may look harmless, perfectly legitimate even. 
