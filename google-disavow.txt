@@ -795,12 +795,14 @@ domain:healbio.ru
 domain:healgastro.com
 domain:heartofbeijing.blogspot.com
 domain:heatpower.ru
+domain:hedu.ua
 domain:heh.net.ru
 domain:helicalpile.us
 domain:hellokittyimg.com
 domain:helvetia.com.ua
 domain:herehloadibs.cf
 domain:herequp3dm.cf
+domain:hetmanship.xyz
 domain:hezjnarawq.com
 domain:hidefiles.org
 domain:hidemyass.com
@@ -856,6 +858,7 @@ domain:idc.com.ua
 domain:ideaspicz.com
 domain:ideibiznesa2015.ru
 domain:ideoworld.org
+domain:ie.57883.net
 domain:ifirestarter.ru
 domain:iflycapetown.co.za
 domain:ifmo.ru
@@ -1097,6 +1100,7 @@ domain:makemoneyonline.com
 domain:makeprogress.ga
 domain:mall.uk
 domain:malls.com
+domain:mam.kz
 domain:mantramusic.ru
 domain:maridan.com.au
 domain:marketland.ml
