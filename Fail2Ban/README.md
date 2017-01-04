@@ -12,12 +12,12 @@ GitHub: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
 ##### Firewall: IPTables
 
 ### Dependancies: 
--requires nginxrepeatoffender.conf in /etc/fail2ban/filter.d folder
--requires nginxrepeatoffender.conf in /etc/fail2ban/action.d folder
--requires jail settings called [nginxrepeatoffender]
--requires nginx.repeatoffender file in /etc/fail2ban
--create with sudo touch /etc/fail2ban/nginx.repeatoffender
--chmod +x /etc/fail2ban/nginx.repeatoffender
+requires nginxrepeatoffender.conf in /etc/fail2ban/filter.d folder
+requires nginxrepeatoffender.conf in /etc/fail2ban/action.d folder
+requires jail settings called [nginxrepeatoffender]
+requires nginx.repeatoffender file in /etc/fail2ban
+create with sudo touch /etc/fail2ban/nginx.repeatoffender
+chmod +x /etc/fail2ban/nginx.repeatoffender
 
 #### Drawbacks: 
 Only works with IPTables
