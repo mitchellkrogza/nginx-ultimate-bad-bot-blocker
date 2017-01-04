@@ -32,7 +32,7 @@ nginx.conf file.
 -    Link Research and Backlink Testing Tools
 -    Stopping Google Analytics Ghost Spam
 
-(2061 bad referers, bots, seo companies and counting)
+(2065 bad referers, bots, seo companies and counting)
 
 Bots attempt to make themselves look like other software or web sites by disguising their user agent. 
 Their user agent names may look harmless, perfectly legitimate even. 
@@ -248,6 +248,13 @@ Analytics sites for you in 2 easy clicks and it is FREE.
 
 I have added the creation of a Google Disavow text file called google-disavow.txt. This file can be used in Google's Webmaster
 Tools to block all these domains out as spammy or bad links. Use with caution.
+
+## Blocking Agressive Bots at Firewall Level Using Fail2Ban
+
+I have added a custom Fail2Ban filter and action that I have written which monitors your Nginx logs for bots that generate
+a large number of 444 errors. This custom jail for Fail2Ban will scan logs over a 1 week period and ban the offender for 24 hours.
+It helps a great deal in keeping out some repeat offenders and preventing them from filling up your log files with 444 errors.
+See the Fail2Ban folder for instructions on configuring this great add on for the Nginx Bad Bot Blocker.
 
 
 # IT FORKING WORKS !!!
