@@ -34,6 +34,8 @@ nginx.conf file.
 
 (2065 bad referers, bots, seo companies and counting)
 
+### If this helps you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XP2AZ4S5HNAWQ):beer:
+
 Bots attempt to make themselves look like other software or web sites by disguising their user agent. 
 Their user agent names may look harmless, perfectly legitimate even. 
 

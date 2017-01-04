@@ -49,3 +49,4 @@ findtime = 604800   ; 1 week
 maxretry = 20
 ```
 
+### If this helps you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XP2AZ4S5HNAWQ):beer:
