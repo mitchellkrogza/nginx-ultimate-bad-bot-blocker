@@ -344,6 +344,7 @@ domain:chinese-amezon.com
 domain:chiptuninger.com
 domain:chlooe.com
 domain:ci.ua
+domain:cialisovercounteratwalmartusa.com
 domain:cialiswithoutadoctor.net
 domain:cityadspix.com
 domain:civilwartheater.com
@@ -1734,6 +1735,7 @@ domain:torrent-newgames.com
 domain:torrents.cd
 domain:torture.ml
 domain:touchmods.fr
+domain:tour-line.net
 domain:tpu.ru
 domain:tradedeals.biz
 domain:traderzplanet.in
@@ -1960,6 +1962,7 @@ domain:xrus.org
 domain:xuki.us
 domain:xwatt.ru
 domain:xxxguitars.com
+domain:xxxrus.org
 domain:xyx.net.ua
 domain:xz618.com
 domain:yadro.ru
