@@ -893,6 +893,7 @@ domain:inboxdollars.com
 domain:incolors.club
 domain:increasewwwtraffic.info
 domain:indiakino.net
+domain:indiasourcemart.in
 domain:inductionc2oktop.com
 domain:informatiecentro.be
 domain:infowarcraft.ru
@@ -1444,6 +1445,7 @@ domain:roleforum.ru
 domain:rootandroid.org
 domain:rospromtest.ru
 domain:rostov.xrus.org
+domain:rotuwyv.ua
 domain:royal-betting.net
 domain:royal-investments.net
 domain:royalcar-ufa.ru
@@ -1998,5 +2000,6 @@ domain:znaniyapolza.ru
 domain:zophim.me
 domain:zqtqkq.ua
 domain:zryydi.com
+domain:zscalerone.net
 domain:zverokruh-shop.cz
 domain:zvetki.ru
