@@ -85,8 +85,8 @@ any config changes before you reload.
 ### IT IS TINY AND LIGHTWEIGHT
 
 The file is tiny in size. At the time of this writing and the first public commit of this
-the file size including all the commenting "which nginx ignores" is a mere 58 kb in size.
-It is so lightweight that Nginx does not even know it's there. It already contains hundreds 
+the file size including all the commenting "which nginx ignores" is a mere 120 kb in size.
+It is so lightweight that Nginx does not even know it's there. It already contains thousands 
 of entries.
 
 ### IT IS ACCURATE AND IS FALSE POSITIVE PROOF
