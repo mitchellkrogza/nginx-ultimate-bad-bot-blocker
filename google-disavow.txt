@@ -3,7 +3,6 @@ domain:00author.com
 domain:00go.com
 domain:00it.com
 domain:0n-line.tv
-domain:1-99seo.com
 domain:1-free-share-buttons.com
 domain:1.bp.blogspot.com
 domain:100.kutikomi.net
@@ -307,9 +306,6 @@ domain:berlininsl.com
 domain:berrymall.ru
 domain:best-businessman.ru
 domain:best-deals-products.com
-domain:best-seo-offer.com
-domain:best-seo-software.xyz
-domain:best-seo-solution.com
 domain:bestbuy.ca
 domain:bestchoice.cf
 domain:bestcurs.org
@@ -1047,7 +1043,6 @@ domain:fitness-video.net
 domain:fitnesspiks.com
 domain:fiuxy.com
 domain:fiverr.com
-domain:fix-website-errors.com
 domain:fizika.tv
 domain:fjbaxywam.com
 domain:flash4fun.com
@@ -1119,7 +1114,6 @@ domain:free-social-buttons6.xyz
 domain:free-social-buttons7.xyz
 domain:free-stock-illustration.com
 domain:free-traffic.xyz
-domain:free-video-tool.com
 domain:freeasecret.com
 domain:freelotto.com
 domain:freenode.info
@@ -1547,8 +1541,6 @@ domain:ketoanhanoi.info
 domain:ketrzyn.pl
 domain:keyword-suggestions.com
 domain:keywordhut.com
-domain:keywords-monitoring-success.com
-domain:keywords-monitoring-your-success.com
 domain:keywordsking.com
 domain:keywordsuggest.org
 domain:kidd.reunionwatch.com
@@ -2329,7 +2321,6 @@ domain:ranedaly.net
 domain:rangapoker.com
 domain:rank-checker.online
 domain:ranking2017.ga
-domain:rankings-analytics.com
 domain:ranksays.com
 domain:rankscanner.com
 domain:ranksignals.com
@@ -2376,7 +2367,6 @@ domain:replicaclub.ru
 domain:research.ifmo.ru
 domain:resellerclub.com
 domain:responsinator.com
-domain:responsive-test.net
 domain:respublica-otel.ru
 domain:restorator-msk.ru
 domain:retailwith.com
@@ -2517,12 +2507,8 @@ domain:seeingmeerkat.com
 domain:segol.tv
 domain:seksotur.ru
 domain:selfipicz.com
-domain:semalt.com
-domain:semaltmedia.com
 domain:semprofile.com
 domain:senger.atspace.co.uk
-domain:seo-2-0.com
-domain:seo-platform.com
 domain:seo-smm.kz
 domain:seo-tools-optimizing.com
 domain:seoanalyses.com
@@ -2772,7 +2758,6 @@ domain:stroymonolit.su
 domain:studiofaca.com
 domain:stuff-about-money.com
 domain:styro.ru
-domain:success-seo.com
 domain:suche.t-online.de
 domain:sugarkun.com
 domain:suggest-keywords.com
@@ -2923,7 +2908,7 @@ domain:toloka.hurtom.com
 domain:tomatis.gospartner.com
 domain:tomck.com
 domain:tootoo.to
-domain:top1-seo-service.com
+domain:top10-way.com
 domain:top250movies.ru
 domain:topmira.com
 domain:topquality.cf
@@ -3075,7 +3060,6 @@ domain:viagra.pp.ua
 domain:viagroid.ru
 domain:viandpet.com
 domain:viberdownload10.com
-domain:video--production.com
 domain:video-chat.cn
 domain:video-chat.in
 domain:video-hollywood.ru
@@ -3087,7 +3071,6 @@ domain:videofrost.com
 domain:videofrost.net
 domain:videokrik.net
 domain:videooko.weebly.com
-domain:videos-for-your-business.com
 domain:videosbox.ru
 domain:videotuber.ru
 domain:viel.su
