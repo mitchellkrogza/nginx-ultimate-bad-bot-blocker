@@ -2908,7 +2908,6 @@ domain:toloka.hurtom.com
 domain:tomatis.gospartner.com
 domain:tomck.com
 domain:tootoo.to
-domain:top10-way.com
 domain:top250movies.ru
 domain:topmira.com
 domain:topquality.cf
