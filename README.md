@@ -40,6 +40,10 @@ https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pul
 file and then send a Pull Request (PR). 
 All additions will be checked for accuracy before being merged.
 
+### Issues:
+Log any issues regarding incorrect listings on the issues system and they will be investigated
+and removed if necessary.
+
 ### If this helps you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XP2AZ4S5HNAWQ):beer:
 
 Bots attempt to make themselves look like other software or web sites by disguising their user agent. 
