@@ -235,6 +235,11 @@ domain:autowebmarket.com.ua
 domain:availit.weebly.com
 domain:avek.ru
 domain:aviapanda.ru
+domain:aviav.co
+domain:aviav.eu
+domain:aviav.org
+domain:aviav.ru
+domain:aviav.ru.com
 domain:avitocars.ru
 domain:aviva-limoux.com
 domain:avkzarabotok.com
@@ -413,6 +418,7 @@ domain:break-the-chains.com
 domain:breastaugmentation.co.za
 domain:breget74.ru
 domain:brendbutik.ru
+domain:brewdom.ru
 domain:brg8.com
 domain:bristolhostel.com
 domain:bristolhotel.com
@@ -514,6 +520,7 @@ domain:celldog.ru
 domain:cenokos.ru
 domain:cenoval.ru
 domain:centraletermice.us
+domain:centrdebut.ru
 domain:centre-indigo.org.ua
 domain:centrumcoachingu.com
 domain:cercacamion.it
@@ -993,6 +1000,7 @@ domain:fandlr.com
 domain:fanoboi.com
 domain:fanpagerobot.com
 domain:fantasticpixcool.com
+domain:farmingworm.com
 domain:fashion-mk.net
 domain:fashionindeed.ml
 domain:fast-wordpress-start.com
@@ -1466,6 +1474,7 @@ domain:invest-pamm.ru
 domain:investingclub.ru
 domain:investpamm.ru
 domain:investsuccess.org
+domain:investzalog.ru
 domain:invivo.hu
 domain:inzn.ru
 domain:io9.com
@@ -1670,6 +1679,7 @@ domain:laxdrills.com
 domain:layola.biz.tc
 domain:lazy-z.com
 domain:leadwayau.com
+domain:leboard.ru
 domain:ledis.top
 domain:ledpolice.ru
 domain:legalrc.biz
@@ -1680,6 +1690,7 @@ domain:lernur.net
 domain:lescinq.com
 domain:letolove.ru
 domain:letsgotofriday.com
+domain:letto.by
 domain:levaquin750mg.blogspot.com
 domain:lexaprogeneric.link
 domain:lezbiyanki.net
@@ -1768,6 +1779,8 @@ domain:mam.kz
 domain:manipulyator-peterburg.ru
 domain:mantramusic.ru
 domain:manualterap.roleforum.ru
+domain:manuscript.su
+domain:marblestyle.ru
 domain:marcogrup.com
 domain:maridan.com.au
 domain:maridan.com.ua
@@ -1781,6 +1794,7 @@ domain:master-muznachas.ru
 domain:masterseek.com
 domain:mastershef.club
 domain:masturbate.co.uk
+domain:matematikus.info
 domain:mature.free-websites.com
 domain:maximilitary.ru
 domain:maxthon.com
@@ -2116,6 +2130,7 @@ domain:parlament.biz
 domain:pathwhelp.org
 domain:paydayonlinecom.com
 domain:pc-services.ru
+domain:pearlisland.ru
 domain:pechikamini.ru
 domain:pekori.to
 domain:pelfind.me
@@ -2434,6 +2449,7 @@ domain:saletool.ru
 domain:saltfilmes.tk
 domain:salutmontreal.com
 domain:samo-soznanie.ru
+domain:samolet.fr
 domain:sampleletters.net
 domain:sanatorrii.ru
 domain:sanjosestartups.com
@@ -2453,10 +2469,12 @@ domain:sax-sex.com
 domain:sbdl.no
 domain:sbetodiodnye-lampy.ru
 domain:sbornik-zakonov.ru
+domain:sbprabooks.com
 domain:sbricur.com
 domain:sbt-aqua.ru
 domain:sbwealthsolutions.ca
 domain:sc-specialhost.com
+domain:scanmarine.info
 domain:scanner-alex.top
 domain:scanner-alexa.top
 domain:scanner-andrew.top
@@ -2909,6 +2927,7 @@ domain:tomatis.gospartner.com
 domain:tomck.com
 domain:tootoo.to
 domain:top250movies.ru
+domain:topily.ua
 domain:topmira.com
 domain:topquality.cf
 domain:topseoservices.co
@@ -2999,6 +3018,7 @@ domain:ucsol.ru
 domain:ufa.xrus.org
 domain:ufoto.us
 domain:uhod-za-sobakoj.ru
+domain:uhodzalijami.ru
 domain:ukrup.com
 domain:ultimateclassicrock.com
 domain:ultimateuninstall.com
@@ -3266,6 +3286,7 @@ domain:xn--80aaafbn2bc2ahdfrfkln6l.xn--p1ai
 domain:xn--80aaagvmjabrs1aoc9luc.xn--p1ai
 domain:xn--80aaajbdbddwj2alwjieei2afr3v.xn--p1ai
 domain:xn--80aaaks3bbhabgbigamdr2h.xn--p1ai
+domain:xn--80aafb2a.xn--p1ai
 domain:xn--80aanaardaperhcem4a6i.com
 domain:xn--80aaomkdl5amcy.xn--p1ai
 domain:xn--80ab4aa2g.xn--p1ai
