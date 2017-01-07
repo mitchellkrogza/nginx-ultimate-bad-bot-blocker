@@ -34,6 +34,12 @@ nginx.conf file.
 
 (4030 bad referers, bots, seo companies and counting)
 
+###To contribute your own bad referers 
+please add them into the
+https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull%20Requests%20Here%20Please/badreferers.list
+file and then send a Pull Request (PR). 
+All additions will be checked for accuracy before being merged.
+
 ### If this helps you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XP2AZ4S5HNAWQ):beer:
 
 Bots attempt to make themselves look like other software or web sites by disguising their user agent. 
