@@ -9,6 +9,7 @@ domain:100.kutikomi.net
 domain:100dollars-seo.com
 domain:101flag.ru
 domain:101imagedatabase.com
+domain:101lesbian.xyz
 domain:108shot.com
 domain:11235813.webzdarma.cz
 domain:11pikachu.ru
@@ -47,6 +48,7 @@ domain:4webmasters.com
 domain:4webmasters.org
 domain:5elementov.ru
 domain:5forex.ru
+domain:5i2.net
 domain:5kstore.com
 domain:6hopping.com
 domain:76brighton.co.uk
@@ -93,6 +95,7 @@ domain:advokateg.co
 domain:advokateg.com
 domain:advokateg.ru
 domain:advokateg.xyz
+domain:aero2.ru
 domain:aerogo.com
 domain:affordablewebsitesandmobileapps.com
 domain:afora.ru
@@ -288,6 +291,7 @@ domain:bandbpro.com
 domain:bangla-chat-uk-paralud.ga
 domain:bankcrediti.ru
 domain:bankiem.pl
+domain:bankofthewext.com
 domain:bard-real.com.ua
 domain:barnfurnituremart.com
 domain:basedecor.ru
@@ -407,6 +411,7 @@ domain:boostmyppc.com
 domain:bosefux.esy.es
 domain:bosman.pluto.ro
 domain:bouda.kvalitne.cz
+domain:bpro1.top
 domain:brains2.biz
 domain:brainsandeggs.blogspot.com
 domain:brainxs.us
@@ -452,6 +457,7 @@ domain:buttons-for-your-website.com
 domain:buy-cheap-online.info
 domain:buy-cheap-pills-order-online.com
 domain:buy-forum.ru
+domain:buy-loft.ru
 domain:buyantiviralwp.com
 domain:buyessay3.blogspot.ru
 domain:buyessaynow.biz
@@ -495,6 +501,7 @@ domain:canphotograph.com
 domain:canrole.com
 domain:canyougethighofftizanidine.blogspot.com
 domain:canzoni.ru
+domain:capture-room.com
 domain:carabela.com.do
 domain:carapics.com
 domain:cardiosport.com.ua
@@ -1022,6 +1029,7 @@ domain:feedouble.com
 domain:feedouble.net
 domain:feel-planet.com
 domain:feeriaclub.ru
+domain:femdom.twiclub.in
 domain:femmesdenudees.com
 domain:fenoyl.batcave.net
 domain:ferieboligkbh.dk
@@ -1180,6 +1188,7 @@ domain:gdcentre.ru
 domain:gdebestkupit.ru
 domain:geckoandfly.com
 domain:gelezki.com
+domain:gembird.com
 domain:generalporn.org
 domain:generic-pills-online.com
 domain:genericlowlatencyasiodriverhq.aircus.com
@@ -1687,6 +1696,7 @@ domain:lego4x4.ru
 domain:legoimg.com
 domain:lenvred.org
 domain:lernur.net
+domain:lesbian.xyz
 domain:lescinq.com
 domain:letolove.ru
 domain:letsgotofriday.com
@@ -1800,6 +1810,7 @@ domain:maximilitary.ru
 domain:maxthon.com
 domain:mazda-roadsters.com
 domain:mbiologi.ru
+domain:me-ke.com
 domain:mebel-alait.ru
 domain:mebelcomplekt.ru
 domain:mebeldekor.com.au
@@ -2579,6 +2590,7 @@ domain:shtaketniki.ru
 domain:sibdevice.ru
 domain:sibecoprom.ru
 domain:sibvitr.ru
+domain:sicfor.bcu.cc
 domain:sideeffectsoftizanidine.blogspot.com
 domain:signal03.ru
 domain:signx.info
@@ -2854,6 +2866,7 @@ domain:thejournal.ru
 domain:thenextweb.com
 domain:thepokertimer.com
 domain:thetattoohut.com
+domain:thetoiletpaper.com
 domain:thewomenlife.com
 domain:thiegs.reco.ws
 domain:thin.me.pn
@@ -3386,6 +3399,7 @@ domain:zebradudka.com
 domain:zebramart.ru
 domain:zeleznobeton.ru
 domain:zerocash.msk.ru
+domain:zevohytydu.su
 domain:zhorapankratov7.blogspot.com
 domain:zigarettenonl.canalblog.com
 domain:zigarettenonlinekaufen.tumblr.com
