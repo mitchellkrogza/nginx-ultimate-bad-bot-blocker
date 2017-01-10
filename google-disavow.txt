@@ -2314,6 +2314,7 @@ domain:proxyradar.com
 domain:psa48.ru
 domain:pskcijdc.bloger.index.hr
 domain:psoriasis-file.trade
+domain:pst2017.onlinewebshop.net
 domain:psvita.ru
 domain:psychocryonics.net
 domain:pulse33.ru
@@ -2367,6 +2368,7 @@ domain:realnye-otzyvy.info
 domain:realting-moscow.ru
 domain:rebelmouse.com
 domain:recinziireale.com
+domain:recipedays.com
 domain:recipedays.ru
 domain:rednise.com
 domain:refererx.com
@@ -3110,6 +3112,7 @@ domain:vigrx-original.ru
 domain:viktoria-center.ru
 domain:vilingstore.net
 domain:vinsit.ru
+domain:vinylvault.co.uk
 domain:vip-dom.in
 domain:vip-parfumeria.ru
 domain:vip.51.la
