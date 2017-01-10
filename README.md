@@ -32,7 +32,7 @@ nginx.conf file.
 -    Link Research and Backlink Testing Tools
 -    Stopping Google Analytics Ghost Spam
 
-(4030 bad referers, bots, seo companies and counting)
+(4127 bad referers, bots, seo companies and counting)
 
 ###To contribute your own bad referers 
 please add them into the
