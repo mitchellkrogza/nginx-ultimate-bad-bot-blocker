@@ -31,6 +31,7 @@ nginx.conf file.
 -    SEO companies that your competitors use to try improve their SEO
 -    Link Research and Backlink Testing Tools
 -    Stopping Google Analytics Ghost Spam
+-    Browser Adware and Malware (Yontoo etc)
 
 (4127 bad referers, bots, seo companies and counting)
 
