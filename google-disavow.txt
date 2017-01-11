@@ -2298,6 +2298,7 @@ domain:portnoff.od.au
 domain:portnoff.od.ua
 domain:poshiv-chehol.ru
 domain:positive2b.ru
+domain:pospr.waw.pl
 domain:postclass.com
 domain:potoideas.us
 domain:powitania.pl
