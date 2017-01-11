@@ -24,6 +24,7 @@ nginx.conf file.
 -    E-mail harvesters
 -    Content scrapers
 -    Aggressive bots that scrape content
+-    Image Hotlinking Sites and Image Thieves
 -    Bots or Servers linked to viruses or malware
 -    Government surveillance bots
 -    Botnet Attack Networks (Mirai)
