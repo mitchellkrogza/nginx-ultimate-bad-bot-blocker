@@ -98,6 +98,7 @@ domain:addblueoff.com.ua
 domain:addons.mozilla.org/en-us/firefox/addon/ilovevitaly
 domain:adelly.bg
 domain:adf.ly
+domain:adidas.frwebs.fr
 domain:adminshop.com
 domain:adspart.com
 domain:adtiger.tk
@@ -1101,6 +1102,7 @@ domain:flowersbazar.com
 domain:flowwwers.com
 domain:flprog.com
 domain:flytourisme.org
+domain:flzhiguan.com
 domain:fm-upgrade.ru
 domain:fmgrupe.it
 domain:footbalive.org
@@ -2420,6 +2422,7 @@ domain:recipedays.com
 domain:recipedays.ru
 domain:recordpage-a.akamaihd.net
 domain:rednise.com
+domain:referencemoi.com
 domain:refererx.com
 domain:refudiatethissarah.info
 domain:regionshop.biz
