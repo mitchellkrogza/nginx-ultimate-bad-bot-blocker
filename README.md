@@ -34,7 +34,7 @@ nginx.conf file.
 -    Stopping Google Analytics Ghost Spam
 -    Browser Adware and Malware (Yontoo etc)
 
-(4127 bad referers, bots, seo companies and counting)
+(4207 bad referers, bots, seo companies and counting)
 
 ###To contribute your own bad referers 
 please add them into the
