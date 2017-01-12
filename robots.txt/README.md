@@ -8,6 +8,7 @@ The robots.txt file residing in this directory can be used to ADD onto your exis
 If your existing robots.txt file looks like this:
 
 >User-agent: *
+
 >Allow: /wp-admin/admin-ajax.php
 
 Then your new file will look like this:
