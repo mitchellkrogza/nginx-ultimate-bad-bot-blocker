@@ -21,6 +21,7 @@ domain:12masterov.com
 domain:1314dh.com
 domain:1hwy.com
 domain:1kinobig.ru
+domain:1ops.tk
 domain:1pamm.ru
 domain:1stat.ru
 domain:1webmaster.ml
@@ -816,6 +817,7 @@ domain:descargar-musicas-gratis.com
 domain:design-ideas.info
 domain:design-lands.ru
 domain:designdevise.com
+domain:destinationrealestate.com
 domain:detalizaciya-tut.biz
 domain:detective01.ru
 domain:detki-opt.ru
@@ -3257,6 +3259,7 @@ domain:vinylvault.co.uk
 domain:vip-dom.in
 domain:vip-parfumeria.ru
 domain:vip.51.la
+domain:vip2ch.com
 domain:vipsiterip.org
 domain:visa-china.ru
 domain:visa-pasport.ru
