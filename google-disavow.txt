@@ -92,6 +92,7 @@ domain:abtasty.com
 domain:academia-nsk.org
 domain:acads.net
 domain:acc.eu.org
+domain:acheterviagrafr24.com
 domain:actata.co
 domain:actremage.com
 domain:acunetix-referrer.com
@@ -125,6 +126,7 @@ domain:affordablewebsitesandmobileapps.com
 domain:afora.ru
 domain:afslankpillen2017nl.eu
 domain:agahinameh.com
+domain:aghanyna.com
 domain:agreda.pluto.ro
 domain:ahrefs.com
 domain:air-edem.ru
@@ -318,6 +320,7 @@ domain:azbuka-mo.ru
 domain:azbukadiets.ru
 domain:azbukafree.com
 domain:azlex.uz
+domain:azte.ch
 domain:b-buyeasy.com
 domain:b2b-lounge.com
 domain:babespcs.com
@@ -755,6 +758,7 @@ domain:crystalslot.com
 domain:cubook.supernew.org
 domain:cubs-jerseys.us
 domain:curatorimages.com
+domain:custom-electric-guitar.com
 domain:custom-product-labels.com
 domain:customboxes4less.com
 domain:customcatchcan.com
@@ -1237,6 +1241,7 @@ domain:funnypica.com
 domain:furniture-ukraine.com
 domain:futbolkisales.ru
 domain:fx-brokers-review.com
+domain:fxgallery.com
 domain:fxtips.ru
 domain:fym.com.ru
 domain:g.starmoe.xyz
@@ -1868,6 +1873,7 @@ domain:m1media.net
 domain:m4ever.net
 domain:mabdoola.blogspot.com
 domain:mackeeper-center.club
+domain:macnewtech.com
 domain:macresource.co.uk
 domain:madot.onlinewebshop.net
 domain:mafcards.ru
@@ -2019,6 +2025,7 @@ domain:more-letom.ru
 domain:morf.snn.gr
 domain:morlat.altervista.org
 domain:moroccosurfadventures.com
+domain:morperormancemac.tech
 domain:moscow-clining.ru
 domain:moscow-region.ru
 domain:moscow.xrus.org
@@ -2904,6 +2911,7 @@ domain:statustroll.com
 domain:stauga.altervista.org
 domain:steame.ru
 domain:steelmaster.lv
+domain:stickers-market.ru
 domain:stmassage.ru
 domain:stockquotes.wooeb.com
 domain:stoki.ru
@@ -3009,6 +3017,7 @@ domain:thepokertimer.com
 domain:thetattoohut.com
 domain:thetoiletpaper.com
 domain:thewomenlife.com
+domain:thfox.com
 domain:thiegs.reco.ws
 domain:thin.me.pn
 domain:tiandeural.ru
@@ -3017,6 +3026,7 @@ domain:timeallnews.ru
 domain:timer4web.com
 domain:timetorelax.biz
 domain:tips-trick.com
+domain:titslove.yopoint.in
 domain:tizanidine4mg.blogspot.com
 domain:tizanidine4mgprice.blogspot.com
 domain:tizanidine4mgstreetprice.blogspot.com
@@ -3226,6 +3236,7 @@ domain:vekzdorov.ru
 domain:velobikestock.com
 domain:venta-prom.ru
 domain:ventelnos.com
+domain:venueseo.com
 domain:vesnatehno.com
 domain:vesnatehno.ru
 domain:vesta-lada.net
