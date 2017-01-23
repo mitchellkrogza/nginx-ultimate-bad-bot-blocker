@@ -90,6 +90,7 @@ domain:abbanreddy.com
 domain:abc.xyz
 domain:abcdefh.xyz
 domain:abcdeg.xyz
+domain:abclauncher.com
 domain:abctoppictures.net
 domain:abiente.ru
 domain:abovetherivernc.com
@@ -149,6 +150,7 @@ domain:alarmobninsk.ru
 domain:albamargroup.com
 domain:alborzan.com
 domain:alert-fdm.xyz
+domain:alert-fjg.xyz
 domain:alert-hgd.xyz
 domain:alert-jdh.xyz
 domain:alessandraleone.com
@@ -178,6 +180,7 @@ domain:allforminecraft.ru
 domain:allknow.info
 domain:allkrim.com
 domain:allnews.md
+domain:allnews24.in
 domain:alloysteel.ru
 domain:allpdfmags.net
 domain:allsilver925.co.il
@@ -206,6 +209,7 @@ domain:amyfoxfitness.com
 domain:an-donut.com
 domain:anal-acrobats.com
 domain:anal-acrobats.hol.es
+domain:analytics-ads.xyz
 domain:anapa-inns.ru
 domain:android-style.com
 domain:android-systems.ru
@@ -710,6 +714,7 @@ domain:compliance-margo.top
 domain:compliance-mark.top
 domain:compliance-mary.top
 domain:compliance-nelson.top
+domain:compliance-olga.top
 domain:compliance-viktor.top
 domain:compliance-walt.top
 domain:compliance-walter.top
@@ -866,6 +871,8 @@ domain:diesel-parts28.ru
 domain:diffbot.com
 domain:digest-project.ru
 domain:digilander.libero.it
+domain:digital-video-processing.com
+domain:digitalfaq.com
 domain:diminishedvalueoforegon.com
 domain:dimkino.ru
 domain:dinkolove.ya.ru
@@ -1045,6 +1052,7 @@ domain:eu-cookie-law-enforcement-7.xyz
 domain:eu-cookie-law-enforcement1.xyz
 domain:eu-cookie-law-enforcement2.xyz
 domain:eu-cookie-law.blogspot.com
+domain:eu-cookie-law.info
 domain:eupornstar.info
 domain:euromasterclass.ru
 domain:euronis-free.com
@@ -1204,6 +1212,7 @@ domain:forum-engineering.ru
 domain:forum.doctissimo.fr
 domain:forum.poker4life.ru
 domain:forum.tvmir.org
+domain:forum20.smailik.org
 domain:forum69.info
 domain:forumprofi.de
 domain:forums.toucharcade.com
@@ -1226,6 +1235,7 @@ domain:free-share-buttons-fff.xyz
 domain:free-share-buttons.blogspot.com
 domain:free-share-buttons.co
 domain:free-share-buttons.com
+domain:free-share-buttons.top
 domain:free-social-buttons-aaa.xyz
 domain:free-social-buttons-bbb.xyz
 domain:free-social-buttons-ccc.xyz
@@ -1238,6 +1248,10 @@ domain:free-social-buttons.com
 domain:free-social-buttons.org
 domain:free-social-buttons.xyz
 domain:free-social-buttons1.xyz
+domain:free-social-buttons2.xyz
+domain:free-social-buttons3.xyz
+domain:free-social-buttons4.xyz
+domain:free-social-buttons5.xyz
 domain:free-social-buttons6.xyz
 domain:free-social-buttons7.xyz
 domain:free-stock-illustration.com
@@ -1257,6 +1271,7 @@ domain:freshberry.com.ua
 domain:freshwallpapers.info
 domain:frivgame250.com
 domain:front.ru
+domain:front.to
 domain:frvo.alptandem.ru
 domain:fsalas.com
 domain:ftns.ru
@@ -1610,6 +1625,7 @@ domain:indo-export.ru
 domain:inductionc2oktop.com
 domain:infazavr.ru
 domain:infobabki.ru
+domain:infokonkurs.ru
 domain:informatiecentro.be
 domain:infostatsvc.com
 domain:infowarcraft.ru
@@ -1855,6 +1871,7 @@ domain:li-er.ru
 domain:lida-ru.com
 domain:lider-zhaluzi.kiev.ua
 domain:life-instyle.com
+domain:life.biz.ua
 domain:lifebyleese.com
 domain:lifehacĸer.com
 domain:light.ifmo.ru
@@ -1891,6 +1908,7 @@ domain:lockerz.com
 domain:lodki-pvh.dp.ua
 domain:loginduepunti.it
 domain:lol-smurfs.com
+domain:lomb.co
 domain:lombardfinder.ru
 domain:lombia.co
 domain:lombia.com
@@ -1926,6 +1944,7 @@ domain:magicalfind-a.akamaihd.net
 domain:magicdiet.gq
 domain:magicplayer-s.acestream.net
 domain:maglid.ru
+domain:mail.allnews24.in
 domain:mail.ru
 domain:mainlinehobby.net
 domain:majestic.com
@@ -2052,6 +2071,7 @@ domain:mobilemedia.md
 domain:mobot.site
 domain:mobplayer.net
 domain:mobplayer.ru
+domain:mockupui.com
 domain:modabutik.ru
 domain:moesonce.com
 domain:moi-glazki.ru
@@ -2063,6 +2083,7 @@ domain:monetizationking.net
 domain:money-every-day.com
 domain:moneymaster.ru
 domain:moneytop.ru
+domain:monitorwebsitespeed.com
 domain:moomi-daeri.com
 domain:more-letom.ru
 domain:morf.snn.gr
@@ -2266,6 +2287,7 @@ domain:openfrost.net
 domain:openlibrary.org
 domain:openmediasoft.com
 domain:opinionreelle.com
+domain:ops.picscout.com
 domain:optitrade24.com
 domain:oranga.host.sk
 domain:ordernorxx.com
@@ -2504,6 +2526,7 @@ domain:putevka24.ru
 domain:putitin.me
 domain:puzemjb.info
 domain:puzo2arbuza.ru
+domain:puzzleweb.ru
 domain:pxhdwsm.com
 domain:py100.ru
 domain:pyramidlitho.webs.com
@@ -2528,6 +2551,7 @@ domain:radiogambling.com
 domain:ranedaly.net
 domain:rangapoker.com
 domain:rank-checker.online
+domain:rankchecker.online
 domain:ranking2017.ga
 domain:ranksays.com
 domain:rankscanner.com
@@ -2545,6 +2569,7 @@ domain:rattan.co.ua
 domain:razamicroelectronics.com
 domain:razyboard.com
 domain:rcb101.ru
+domain:real-time-analytics.com
 domain:realmonte.net
 domain:realnye-otzyvy.info
 domain:realting-moscow.ru
@@ -2726,6 +2751,7 @@ domain:seccioncontrabajo.com
 domain:secret.xn--oogle-wmc.com
 domain:secretscook.ru
 domain:securityallianceservices.com
+domain:see-your-website-here.com
 domain:seeingmeerkat.com
 domain:seeresultshub-a.akamaihd.net
 domain:segol.tv
@@ -2764,6 +2790,7 @@ domain:shakhtar-doneck.ru
 domain:share-button.xyz
 domain:share-buttons.xyz
 domain:sharebutton.net
+domain:sharebutton.org
 domain:sharebutton.to
 domain:sharemyfile.ru
 domain:shariki-zuma-lines.ru
@@ -2780,6 +2807,7 @@ domain:shlyahten.ru
 domain:shmetall.com.ua
 domain:shodanhq.com
 domain:shop-electron.ru
+domain:shop.xz618.com
 domain:shoppingmiracles.co.uk
 domain:shoppytoolmac.com
 domain:shopvilleroyboch.com.ua
@@ -2809,6 +2837,8 @@ domain:sinestesia.host.sk
 domain:sisiynas.ru
 domain:site-auditor.online
 domain:site-lists.com
+domain:site-speed-check.site
+domain:site-speed-checker.site
 domain:site3.free-share-buttons.com
 domain:site5.com
 domain:sitebeam.net
@@ -2897,6 +2927,7 @@ domain:social-traffic-2.xyz
 domain:social-traffic-3.xyz
 domain:social-traffic-4.xyz
 domain:social-traffic-5.xyz
+domain:social-traffic-6.xyz
 domain:social-traffic-7.xyz
 domain:social-vestnik.ru
 domain:social-widget.xyz
@@ -2935,6 +2966,7 @@ domain:souvenirua.com
 domain:sovetogorod.ru
 domain:soviet-portal.do.am
 domain:space.skachat-besplatno-dlja-mobily.ru
+domain:spacebarnot.work
 domain:spaceshipad.com
 domain:spammen.de
 domain:spb.ru
@@ -2987,6 +3019,7 @@ domain:stroicol.net
 domain:stroimajor.ru
 domain:stroiminsk.com
 domain:stroiminsk.org
+domain:stromerrealty.com
 domain:strongholdsb.ru
 domain:strongsignal-a.akamaihd.net
 domain:stroydetali.ru
@@ -3020,6 +3053,7 @@ domain:swiped.su
 domain:sygraem.com
 domain:szansadlarolnikow.com.pl
 domain:t0p.xyz
+domain:t3chtonic.com
 domain:tablepicz.com
 domain:tabletkinaodchudzanie.com.pl
 domain:tagjkjsaba.ru
@@ -3060,6 +3094,7 @@ domain:terraclicks.com
 domain:terrafootwear.us
 domain:teslathemes.com
 domain:tessitura-gr.it
+domain:test.xyz
 domain:texbaza.by
 domain:the-torrent-tracker.blogspot.com
 domain:the-usa-games.blogspot.com
@@ -3297,6 +3332,7 @@ domain:vavilone.com
 domain:vbabule.net
 domain:vduplo.ru
 domain:vedomstvo.net
+domain:veerotech.com
 domain:vegan-foods.us
 domain:vegascosmetics.ru
 domain:vekzdorov.ru
@@ -3399,9 +3435,11 @@ domain:wcb.su
 domain:wdfdocando.com
 domain:wdrake.com
 domain:web-betting.ru
+domain:web-list.xyz
 domain:web-revenue.xyz
 domain:web.cvut.cz
 domain:webenlace.com.ar
+domain:webinstantservice.com
 domain:webix.me
 domain:webjam.com
 domain:weblo.com
@@ -3418,11 +3456,14 @@ domain:website-datenbank.de
 domain:website-errors-scanner.com
 domain:website-speed-check.site
 domain:website-speed-checker.site
+domain:website-speed-up.site
+domain:website-speed-up.top
 domain:website-stealer-warning-alert.hdmoviecams.com
 domain:websiteaccountant.de
 domain:websites-reviews.com
 domain:websocial.me
 domain:webtherapy.ru
+domain:weburlopener.com
 domain:wechatdownload10.com
 domain:weclipart.com
 domain:wedding-salon.net
@@ -3485,6 +3526,7 @@ domain:worldlovers.ru
 domain:wormix-cheats.ru
 domain:worthimages.com
 domain:wowas31.ucoz.ru
+domain:woweb.com.ua
 domain:wrazilwispolecznie.pl
 domain:writingservices17.blogspot.ru
 domain:wrona.it
@@ -3492,6 +3534,7 @@ domain:wstroika.ru
 domain:wurq.info
 domain:wurr.voila.net
 domain:ww1943.ru
+domain:www1.free-share-buttons.top
 domain:wzgyyq.com
 domain:x-lime.net
 domain:x-musics.com
@@ -3605,7 +3648,9 @@ domain:youporn-forum.uni.me
 domain:youporn-ru.com
 domain:youradulthosting.com
 domain:yourdesires.ru
+domain:youresponsive.com
 domain:yourothersite.com
+domain:yoursearch.me
 domain:yourserverisdown.com
 domain:yoursite.com
 domain:youtoner.it
