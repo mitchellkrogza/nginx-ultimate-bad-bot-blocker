@@ -2,6 +2,7 @@ domain:000free.us
 domain:00author.com
 domain:00go.com
 domain:00it.com
+domain:0ca29773681c7e82.com
 domain:0n-line.tv
 domain:1-free-share-buttons.com
 domain:1.bp.blogspot.com
@@ -576,6 +577,7 @@ domain:callejondelpozo.es
 domain:calstaterealty.us
 domain:calvet.altervista.org
 domain:candiceloves.us
+domain:candy-glam-hp.com
 domain:candycrushshop.com
 domain:candypeople.se
 domain:candytiner.com
@@ -764,6 +766,7 @@ domain:coolinstagoods.com
 domain:coop-gamers.ru
 domain:copblock.org
 domain:copyrightclaims.org
+domain:cosmetic.donna7753191.ru
 domain:countbertwistdisp26.soup.io
 domain:counter.yadro.ru
 domain:countravel.net
@@ -916,6 +919,7 @@ domain:dominateforex.ml
 domain:domination.ml
 domain:dominterior.org
 domain:domoysshop.ru
+domain:donna7753191.ru
 domain:donvito.unas.cz
 domain:doska-vsem.ru
 domain:dostavka-v-krym.com
@@ -946,6 +950,7 @@ domain:dvrlists.com
 domain:dybuxog.com.ua
 domain:dyni.com.ua
 domain:dyshagi.ru
+domain:dytohqka.su
 domain:e-avon.ru
 domain:e-buyeasy.com
 domain:e-collantes.com
@@ -1222,6 +1227,7 @@ domain:fotoxxxru.com
 domain:foxinsocks.ru
 domain:foxtechfpv.com
 domain:foxydeal.com
+domain:fqvjhqciw.net.ru
 domain:fqzqxok.com
 domain:fr.netlog.com
 domain:freakycheats.com
@@ -1329,6 +1335,7 @@ domain:ge0ip.org
 domain:gealgeol.com
 domain:geckoandfly.com
 domain:gelezki.com
+domain:gemara.com
 domain:gembird.com
 domain:generalporn.org
 domain:generic-pills-online.com
@@ -1638,6 +1645,7 @@ domain:interesnie-faktu.ru
 domain:interfucks.net
 domain:intermesh.net
 domain:internet-apteka.ru
+domain:intervsem.ru
 domain:intimver.3dgayxxx.com
 domain:invest-pamm.ru
 domain:investingclub.ru
@@ -2368,6 +2376,7 @@ domain:picsfair.com
 domain:picture-group.com
 domain:picturesify.com
 domain:pijoto.net
+domain:pila.pl
 domain:pinkduck.ga
 domain:pintattoos.com
 domain:pinwallpaper.xyz
@@ -2574,6 +2583,7 @@ domain:realmonte.net
 domain:realnye-otzyvy.info
 domain:realting-moscow.ru
 domain:rebelmouse.com
+domain:rebuildermedical.com
 domain:recinziireale.com
 domain:recipedays.com
 domain:recipedays.ru
@@ -3100,6 +3110,7 @@ domain:the-torrent-tracker.blogspot.com
 domain:the-usa-games.blogspot.com
 domain:thealienwheel.be
 domain:thebluenoodle.com
+domain:thecoolimages.net
 domain:thecoral.com.br
 domain:thedownloadfreeonlinegames.blogspot.com
 domain:thedownloadfromwarez.blogspot.com
@@ -3535,6 +3546,7 @@ domain:wurq.info
 domain:wurr.voila.net
 domain:ww1943.ru
 domain:www1.free-share-buttons.top
+domain:wycjrqzy.ua
 domain:wzgyyq.com
 domain:x-lime.net
 domain:x-musics.com

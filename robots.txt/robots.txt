@@ -722,6 +722,8 @@ User-agent: VoidEYE
  Disallow:/ 
 User-agent: Voil
  Disallow:/ 
+User-agent: WallpapersHD
+ Disallow:/ 
 User-agent: WASALive-Bot
  Disallow:/ 
 User-agent: WBSearchBot
