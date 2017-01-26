@@ -1322,6 +1322,7 @@ domain:gaming-journal.com
 domain:gap-search.com
 domain:gardene.ru
 domain:gay.adultgalls.com
+domain:gaygalls.net
 domain:gaz-voshod.ru
 domain:gazobeton-p.com.ua
 domain:gazoblok.net.ua
@@ -1729,6 +1730,7 @@ domain:keyword-suggestions.com
 domain:keywordhut.com
 domain:keywordsking.com
 domain:keywordsuggest.org
+domain:keywordteam.net
 domain:kidd.reunionwatch.com
 domain:kiducydewq.net.ua
 domain:kiev.ua
@@ -2193,6 +2195,7 @@ domain:nbsproject.ru
 domain:negral.pluto.ro
 domain:net-profits.xyz
 domain:netallergy.ru
+domain:netfacet.net
 domain:netpics.org
 domain:nevansk.ru
 domain:new-apps.ru
@@ -2335,6 +2338,7 @@ domain:paperwritingservice17.blogspot.ru
 domain:paradontozanet.ru
 domain:parlament.biz
 domain:pathwhelp.org
+domain:pattersonsweb.com
 domain:paydayonlinecom.com
 domain:pc-services.ru
 domain:pdamods.ru
@@ -3238,6 +3242,7 @@ domain:traffixer.org
 domain:traffixer.xyz
 domain:trahvid.com
 domain:tramadolandtizanidine.blogspot.com
+domain:trapit.com.gg
 domain:traxdom.ru
 domain:treasuretrack-a.akamaihd.net
 domain:tri-slona.org
