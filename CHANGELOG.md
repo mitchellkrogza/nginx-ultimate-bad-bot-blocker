@@ -1,5 +1,9 @@
 #CHANGELOG - Nginx Bad Bot Blocker
 
+###2017-01-29
+- Changed formatting of globalblacklist.conf, some sections like semalt and miraibot merged into other sections for easier maintenance.
+- Additional notes, testing instructions and commenting added in globalblacklist.conf file
+
 ###2016-12-17
 - Removed "CPython" from bad bots list. This user agent string "python-requests/2.5.3 CPython/2.7.9 Linux/3.16.0-4-amd64" is used by a valid Google Feed Parser called "UniversalFeedParser/5.2.1 +https://code.google.com/p/feedparser/"
 

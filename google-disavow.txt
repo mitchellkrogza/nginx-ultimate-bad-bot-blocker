@@ -4,6 +4,7 @@ domain:00go.com
 domain:00it.com
 domain:0ca29773681c7e82.com
 domain:0n-line.tv
+domain:1-99seo.com
 domain:1-free-share-buttons.com
 domain:1.bp.blogspot.com
 domain:100.kutikomi.net
@@ -348,6 +349,7 @@ domain:azbukafree.com
 domain:azlex.uz
 domain:azte.ch
 domain:b-buyeasy.com
+domain:b0ts.xf0.pw
 domain:b2b-lounge.com
 domain:babespcs.com
 domain:babieca.com
@@ -395,6 +397,9 @@ domain:berlininsl.com
 domain:berrymall.ru
 domain:best-businessman.ru
 domain:best-deals-products.com
+domain:best-seo-offer.com
+domain:best-seo-software.xyz
+domain:best-seo-solution.com
 domain:bestbuy.ca
 domain:bestchoice.cf
 domain:bestcurs.org
@@ -885,6 +890,7 @@ domain:dinkolove.ya.ru
 domain:diplom-nk.com
 domain:dipstar.org
 domain:directrev.com
+domain:disabled.racing
 domain:discountliv.com
 domain:discovertreasure-a.akamaihd.net
 domain:discovertreasurenow.com
@@ -1039,6 +1045,7 @@ domain:envaseslotusama.com
 domain:enviromusic.net
 domain:eonpal.com
 domain:epngo.bz
+domain:eport.queryhost.xyz
 domain:eralph.tk
 domain:erank.eu
 domain:eredijovon.com
@@ -1185,6 +1192,7 @@ domain:fitness-video.net
 domain:fitnesspiks.com
 domain:fiuxy.com
 domain:fiverr.com
+domain:fix-website-errors.com
 domain:fizika.tv
 domain:fjbaxywam.com
 domain:flash4fun.com
@@ -1267,6 +1275,7 @@ domain:free-social-buttons6.xyz
 domain:free-social-buttons7.xyz
 domain:free-stock-illustration.com
 domain:free-traffic.xyz
+domain:free-video-tool.com
 domain:freeasecret.com
 domain:freelotto.com
 domain:freenode.info
@@ -1581,6 +1590,7 @@ domain:i-service.kz
 domain:i-x.wiki
 domain:iamsport.org
 domain:ibb.com.ua
+domain:icmp.online
 domain:ico.re
 domain:icoolgramgoods.com
 domain:ictizanidinehcl4mg.blogspot.com
@@ -1627,6 +1637,7 @@ domain:imperia31.ru
 domain:imperiafilm.ru
 domain:import-sales.com
 domain:impresagaia.it
+domain:imscaredaf.xyz
 domain:inbabes.sexushost.com
 domain:inboundlinks.win
 domain:inboxdollars.com
@@ -1737,6 +1748,8 @@ domain:ketoanhanoi.info
 domain:ketrzyn.pl
 domain:keyword-suggestions.com
 domain:keywordhut.com
+domain:keywords-monitoring-success.com
+domain:keywords-monitoring-your-success.com
 domain:keywordsking.com
 domain:keywordsuggest.org
 domain:keywordteam.net
@@ -2565,6 +2578,7 @@ domain:qitt.ru
 domain:quality-traffic.com
 domain:qualitymarketzone.com
 domain:queen.sim-com.ru
+domain:queryhost.xyz
 domain:quick-offer.com
 domain:quick-seeker.com
 domain:quit-smoking.ga
@@ -2580,6 +2594,7 @@ domain:rangapoker.com
 domain:rank-checker.online
 domain:rankchecker.online
 domain:ranking2017.ga
+domain:rankings-analytics.com
 domain:ranksays.com
 domain:rankscanner.com
 domain:ranksignals.com
@@ -2632,6 +2647,7 @@ domain:replicaclub.ru
 domain:research.ifmo.ru
 domain:resellerclub.com
 domain:responsinator.com
+domain:responsive-test.net
 domain:respublica-otel.ru
 domain:restorator-msk.ru
 domain:resultshub-a.akamaihd.net
@@ -2705,6 +2721,7 @@ domain:samolet.fr
 domain:sampleletters.net
 domain:sanatorrii.ru
 domain:sanjosestartups.com
+domain:santasbigcandycane.cx
 domain:santasgift.ml
 domain:santechnik.jimdo.com
 domain:sanyuprojects.com
@@ -2785,8 +2802,12 @@ domain:seeresultshub-a.akamaihd.net
 domain:segol.tv
 domain:seksotur.ru
 domain:selfipicz.com
+domain:semalt.com
+domain:semaltmedia.com
 domain:semprofile.com
 domain:senger.atspace.co.uk
+domain:seo-2-0.com
+domain:seo-platform.com
 domain:seo-smm.kz
 domain:seo-tools-optimizing.com
 domain:seoanalyses.com
@@ -3055,6 +3076,7 @@ domain:stroymonolit.su
 domain:studiofaca.com
 domain:stuff-about-money.com
 domain:styro.ru
+domain:success-seo.com
 domain:suche.t-online.de
 domain:sugarkun.com
 domain:suggest-keywords.com
@@ -3077,6 +3099,7 @@ domain:svarkagid.com
 domain:svetlotorg.ru
 domain:svetodiodoff.ru
 domain:swagbucks.com
+domain:swinginwithme.ru
 domain:swiped.su
 domain:sygraem.com
 domain:szansadlarolnikow.com.pl
@@ -3217,6 +3240,8 @@ domain:toloka.hurtom.com
 domain:tomatis.gospartner.com
 domain:tomck.com
 domain:tootoo.to
+domain:top1-seo-service.com
+domain:top10-way.com
 domain:top250movies.ru
 domain:topads.men
 domain:topappspro.com
@@ -3381,6 +3406,7 @@ domain:viagra.pp.ua
 domain:viagroid.ru
 domain:viandpet.com
 domain:viberdownload10.com
+domain:video--production.com
 domain:video-chat.cn
 domain:video-chat.in
 domain:video-hollywood.ru
@@ -3392,6 +3418,7 @@ domain:videofrost.com
 domain:videofrost.net
 domain:videokrik.net
 domain:videooko.weebly.com
+domain:videos-for-your-business.com
 domain:videosbox.ru
 domain:videotuber.ru
 domain:viel.su
@@ -3579,6 +3606,7 @@ domain:xblog.in
 domain:xboxster.ru
 domain:xcombear.ru
 domain:xep.info
+domain:xf0.pw
 domain:xfire.com
 domain:xgftnlrt.bloger.index.hr
 domain:xivqt.net.ru
