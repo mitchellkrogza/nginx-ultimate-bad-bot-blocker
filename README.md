@@ -1,3 +1,5 @@
+Inline-style: 
+![Nginx Block Bad Bots, Vulnerability Scanners, Malware and Adware, Malicious Sites, Referer (Referrers) Spam Blocker with DDOS, Wordpress Theme Detector Blocking and Fail2Ban Jail for Repeat Offenders](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/nginx-ultimate-bad-bot-referrer-blocker.png "Nginx Ultimate Bad Bot and Referrer Blocker")
 # Nginx Bad Bot Blocker, Referer Blocker, Anti DDOS, Bad IP Blocker and Wordpress Theme Detector Blocker
 ## The Ultimate Bad Bot and Referer Blocker for Nginx Web Servers including anti DDOS system and Wordpress Theme Detector Blocking
 
