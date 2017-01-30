@@ -510,8 +510,6 @@ User-agent: Offline Explorer
  Disallow:/ 
 User-agent: Offline Navigator
  Disallow:/ 
-User-agent: Omgilibot
- Disallow:/ 
 User-agent: Openfind
  Disallow:/ 
 User-agent: OpenLinkProfiler
