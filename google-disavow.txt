@@ -1463,6 +1463,7 @@ domain:guge.io
 domain:guiando.com.br
 domain:guitar-master.org
 domain:gungamesz.com
+domain:guod.me
 domain:guruofcasino.com
 domain:gwebtools.com
 domain:gwhwpxbw.bloger.index.hr
@@ -2361,6 +2362,7 @@ domain:paceform.com
 domain:palvira.com.au
 domain:palvira.com.ua
 domain:pammik.ru
+domain:panid.mx.tl
 domain:paparazzistudios.com.au
 domain:paperics.com
 domain:paperwritingservice17.blogspot.ru
@@ -2427,6 +2429,7 @@ domain:pizda.lol
 domain:pizdopletka.club
 domain:pizza-imperia.com
 domain:pizza-tycoon.com
+domain:pk-pomosch.ru
 domain:pk-services.ru
 domain:pkmnpcs.com
 domain:pkr1hand.com
@@ -3758,6 +3761,7 @@ domain:zigarettenonlinekaufen1.blox.pl
 domain:zigarettenonlinekaufen2.bloog.pl
 domain:zigarettenonlinekaufen2.drupalgardens.com
 domain:zigzog.ru
+domain:zkjovpdgxivg.ga
 domain:zlatnajesen.com
 domain:zmoda.hostreo.com
 domain:znakomstva-moskva77.ru
