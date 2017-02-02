@@ -1,7 +1,9 @@
 domain:000free.us
+domain:007angels.com
 domain:00author.com
 domain:00go.com
 domain:00it.com
+domain:00webcams.com
 domain:0ca29773681c7e82.com
 domain:0n-line.tv
 domain:1-99seo.com
@@ -15,13 +17,18 @@ domain:101imagedatabase.com
 domain:101lesbian.xyz
 domain:101raccoon.ru
 domain:108shot.com
+domain:10bet.com
 domain:11235813.webzdarma.cz
 domain:11pikachu.ru
 domain:123any.com
 domain:123kuma.com
+domain:12bet.com
 domain:12masterov.com
 domain:1314dh.com
 domain:178evakuator178.ru
+domain:19angels.net
+domain:1adult.com
+domain:1bet.com
 domain:1hwy.com
 domain:1kinobig.ru
 domain:1ops.tk
@@ -123,9 +130,11 @@ domain:adsfresh.men
 domain:adspart.com
 domain:adtiger.tk
 domain:adultactioncam.com
+domain:adultfriendfinder.com
 domain:adultfullhd.com
 domain:adultgalls.com
 domain:adultnet.in
+domain:adultpopunders.com
 domain:adultwebhosting.info
 domain:adventureparkcostarica.com
 domain:adviceforum.info
@@ -204,6 +213,7 @@ domain:alveris.ru
 domain:am-se.com
 domain:am15.net
 domain:amanda-porn.ga
+domain:amateurgalls.com
 domain:amehdaily.com
 domain:amoi.tn
 domain:amoremio.by
@@ -448,6 +458,7 @@ domain:bitcoinpile.com
 domain:bitcoinpro.com.au
 domain:bitcoins-live.ru
 domain:biteg.xyz
+domain:bitporno.sx
 domain:biznesluxe.ru
 domain:biznesrealnost.ru
 domain:biznesschat.net
@@ -835,6 +846,7 @@ domain:dataloading.net
 domain:datsun-do.com
 domain:davebestdeals.com
 domain:daydream-studio.ru
+domain:daymusam.com
 domain:dbmkfhqk.bloger.index.hr
 domain:dbutton.net
 domain:ddlmega.net
@@ -1020,6 +1032,7 @@ domain:elektrozigaretten1.tumblr.com
 domain:elektrozigaretten1.webs.com
 domain:elektrozigaretten2.yn.lt
 domain:elidelcream.weebly.com
+domain:elitedollars.com
 domain:elitepcgames.com
 domain:elitesportsadvisor.com
 domain:elkacentr.ru
@@ -1086,6 +1099,7 @@ domain:excaliburfilms.com
 domain:exchangeit.gq
 domain:exchanges-bet.com
 domain:executehosting.com
+domain:exmasters.com
 domain:exonline.info
 domain:expdom.com
 domain:expertnaya-ocenka.ru
@@ -1339,6 +1353,7 @@ domain:gap-search.com
 domain:gardene.ru
 domain:gay.adultgalls.com
 domain:gaygalls.net
+domain:gaytube.com
 domain:gaz-voshod.ru
 domain:gazobeton-p.com.ua
 domain:gazoblok.net.ua
@@ -1959,6 +1974,7 @@ domain:lottospring.com
 domain:low-format.ru
 domain:lqwityk.ua
 domain:lsex.xyz
+domain:lubetube.com
 domain:luckyshop.net.ua
 domain:lumb.co
 domain:lutherstable.org
@@ -2416,6 +2432,7 @@ domain:pinkduck.ga
 domain:pintattoos.com
 domain:pinwallpaper.xyz
 domain:pipki.pp.ua
+domain:piratecams.com
 domain:pirateday.ru
 domain:pisze.pisz.pl
 domain:piter.xrus.org
@@ -2451,6 +2468,8 @@ domain:polcin.de
 domain:pomoc-drogowa.cba.pl
 domain:pony-business.com
 domain:popads.net
+domain:popander.mobi
+domain:popcash.net
 domain:pops.foundation
 domain:popup-fdm.xyz
 domain:popup-hgd.xyz
@@ -2587,6 +2606,7 @@ domain:queen.sim-com.ru
 domain:queryhost.xyz
 domain:quick-offer.com
 domain:quick-seeker.com
+domain:quickbuck.com
 domain:quit-smoking.ga
 domain:qwarckoine.com
 domain:qwesa.ru
@@ -2595,6 +2615,7 @@ domain:rabot.host.sk
 domain:rabotaetvse.ru
 domain:rada.ru
 domain:radiogambling.com
+domain:ragecash.com
 domain:ranedaly.net
 domain:rangapoker.com
 domain:rank-checker.online
@@ -2618,6 +2639,7 @@ domain:razamicroelectronics.com
 domain:razyboard.com
 domain:rcb101.ru
 domain:real-time-analytics.com
+domain:realitykings.com
 domain:realmonte.net
 domain:realnye-otzyvy.info
 domain:realting-moscow.ru
@@ -2828,13 +2850,19 @@ domain:seryeznie-znakomstva.ru
 domain:sethrollins.net
 domain:setioweb.com
 domain:sex-dating.co
+domain:sex-tracker.com
+domain:sex-tracker.de
+domain:sex-watch.com
 domain:sex.hotblog.top
+domain:sexad.net
 domain:sexblog.pw
 domain:sexkrasivo.net
 domain:sexobzor.info
 domain:sexphoto.site
 domain:sexsaoy.com
 domain:sexsearch.com
+domain:sextracker.com
+domain:sextracker.de
 domain:sexvideo-sex.com
 domain:sexvporno.ru
 domain:sexyali.com
@@ -2862,6 +2890,7 @@ domain:shlyahten.ru
 domain:shmetall.com.ua
 domain:shodanhq.com
 domain:shop-electron.ru
+domain:shop.acim.org
 domain:shop.xz618.com
 domain:shoppingmiracles.co.uk
 domain:shoppytoolmac.com
@@ -3497,6 +3526,7 @@ domain:warningwar.ru
 domain:warningzscaler.heraeus.com
 domain:watch-movies.ru
 domain:watchdogs-2.ru
+domain:watchmygf.net
 domain:wcb.su
 domain:wdfdocando.com
 domain:wdrake.com
@@ -3666,6 +3696,7 @@ domain:xn--b1agm2d.net
 domain:xn--c1acygb.xn--p1ai
 domain:xn--d1abj0abs9d.in.ua
 domain:xn--e1aggki3c.xn--80adxhks
+domain:xn--e1ajdckbcx3l.xn--p1ai
 domain:xn--e1akkdfpb6a.xn--p1ai
 domain:xn--h1aakne2ba.xn--p1ai
 domain:xn--h1ahbi.com.ua
