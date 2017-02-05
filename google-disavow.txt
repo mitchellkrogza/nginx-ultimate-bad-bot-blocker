@@ -22,6 +22,7 @@ domain:11235813.webzdarma.cz
 domain:11pikachu.ru
 domain:123any.com
 domain:123kuma.com
+domain:123locker.com
 domain:12bet.com
 domain:12masterov.com
 domain:1314dh.com
@@ -57,6 +58,7 @@ domain:40cg.com
 domain:45en.ru
 domain:45tahunkhongguan.com
 domain:4istoshop.com
+domain:4pp13.com
 domain:4rent.ru
 domain:4replicawatch.net
 domain:4ureyesonly.com
@@ -79,6 +81,7 @@ domain:883zy.com
 domain:8gold.com
 domain:8si.ru
 domain:98oi.ru
+domain:9med.net
 domain:a-hau.mk
 domain:a14download.com
 domain:a342ae9750004b14b55f7310eff0ab65.com
@@ -1158,6 +1161,7 @@ domain:fashionindeed.ml
 domain:fast-wordpress-start.com
 domain:fastcrawl.com
 domain:fathomevents.co
+domain:fatmaelgarny.com
 domain:favorcosmetics.com
 domain:favoritemoney.ru
 domain:favornews.com
@@ -2600,6 +2604,7 @@ domain:q-moto.ru
 domain:qcstrtvt.bloger.index.hr
 domain:qexyfu.bugs3.com
 domain:qitt.ru
+domain:qld10000.net
 domain:quality-traffic.com
 domain:qualitymarketzone.com
 domain:queen.sim-com.ru
