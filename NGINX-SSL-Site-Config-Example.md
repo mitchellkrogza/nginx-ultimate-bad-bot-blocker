@@ -122,7 +122,7 @@ server {
 	include /etc/nginx/bots.d/blockbots.conf;
 	include /etc/nginx/bots.d/ddos.conf;
 
-	# Include Any Custom Configurations Here
+	# Include Any Custom Configurations and Location Directives Here
 
 # END OF SSL HOST CONFIG - CLOSING BRACE BELOW THIS LINE
 }
