@@ -94,8 +94,6 @@ server {
 	access_log /var/log/nginx/yourdomain.com-access.log;
 	error_log /var/log/nginx/yourdomain.com-error.log;
 
-	# Include Any Custom Configurations Here
-
 	# SSL Configuration
 	# First include our certificates and chain of trust - Using Let's Encrypt Free SSL
 	ssl_certificate /etc/letsencrypt/live/yourdomain.com/fullchain.pem;
@@ -123,6 +121,8 @@ server {
 	# ADD THE NGINX BAD BOT BLOCKER HERE (Please read full setup instructions)
 	include /etc/nginx/bots.d/blockbots.conf;
 	include /etc/nginx/bots.d/ddos.conf;
+
+	# Include Any Custom Configurations Here
 
 # END OF SSL HOST CONFIG - CLOSING BRACE BELOW THIS LINE
 }
