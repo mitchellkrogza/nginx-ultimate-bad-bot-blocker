@@ -1,5 +1,8 @@
 #CHANGELOG - Nginx Bad Bot Blocker
 
+###2017-02-06
+- V2.2017.02 - Added Whitelisting of Cloudflare IP Ranges
+
 ###2017-01-29
 - Changed formatting of globalblacklist.conf, some sections like semalt and miraibot merged into other sections for easier maintenance.
 - Additional notes, testing instructions and commenting added in globalblacklist.conf file
