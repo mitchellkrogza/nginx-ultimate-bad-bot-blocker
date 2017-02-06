@@ -5,7 +5,7 @@
 # Nginx Bad Bot Blocker, Referer Blocker, Anti DDOS, Bad IP Blocker and Wordpress Theme Detector Blocker
 ## The Ultimate Bad Bot and Referer Blocker for Nginx Web Servers including anti DDOS system and Wordpress Theme Detector Blocking
 
-### Version 2.2017.01
+### Version 2.2017.02
 
 ### Created by: https://github.com/mitchellkrogza
 ### Copyright Mitchell Krog <mitchellkrog@gmail.com>
@@ -146,6 +146,7 @@ figure it out otherwise simply message me if you are having problems.
 - Commented sections of certain important bots to be sure of before blocking
 - Includes the IP range of Cyveillance who are known to ignore robots.txt rules
   and snoop around all over the Internet.
+- Whitelisting of Google, Bing and Cloudflare IP Ranges
 - Your own IP Ranges that you want to avoid blocking can be easily added.
 - Ability to add other IP ranges and IP blocks that you want to block out.
 
