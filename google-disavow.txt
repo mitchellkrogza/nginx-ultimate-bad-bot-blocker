@@ -368,6 +368,7 @@ domain:babespcs.com
 domain:babieca.com
 domain:bablonow.ru
 domain:backgroundpictures.net
+domain:backlink4u.net
 domain:backlinkwatch.com
 domain:bag77.ru
 domain:bagcionderlab.com
@@ -1403,6 +1404,7 @@ domain:gheus.altervista.org
 domain:ghostvisitor.com
 domain:gifspics.com
 domain:gigablast.com
+domain:gilsonchiro.xyz
 domain:girlgamerdaily.com
 domain:girlporn.ru
 domain:girls-ufa.ru
@@ -1612,6 +1614,7 @@ domain:i-service.kz
 domain:i-x.wiki
 domain:iamsport.org
 domain:ibb.com.ua
+domain:icaseclub.ru
 domain:icmp.online
 domain:ico.re
 domain:icoolgramgoods.com
@@ -1829,6 +1832,7 @@ domain:krasivye-devushki.net
 domain:krasnodar.ru
 domain:krasnodar.xrus.org
 domain:krynica.info
+domain:ks1234.com
 domain:ktotut.net
 domain:kumuk.info
 domain:kung-fu-ru.com
@@ -1961,6 +1965,7 @@ domain:lmrauction.com
 domain:loadopia.com
 domain:lob.com.ru
 domain:lockerz.com
+domain:locksmith.jp
 domain:lodki-pvh.dp.ua
 domain:loginduepunti.it
 domain:lol-smurfs.com
@@ -3789,6 +3794,7 @@ domain:zebramart.ru
 domain:zeleznobeton.ru
 domain:zerocash.msk.ru
 domain:zevohytydu.su
+domain:zhongwenlink.com
 domain:zhorapankratov7.blogspot.com
 domain:zigarettenonl.canalblog.com
 domain:zigarettenonlinekaufen.tumblr.com
