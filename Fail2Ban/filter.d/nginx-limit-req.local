@@ -1,0 +1,16 @@
+# Fail2ban filter for detecting abuse against wp-login.php attempts
+# Author: Serg G. Brester (sebres)
+# https://github.com/fail2ban/fail2ban
+
+# Add into your nginx.conf file the following rate limiting zone
+
+# limit_req_zone $binary_remote_addr zone=wp-login:10m rate=1r/s;
+
+# see jail.local example for the config of this jail
+[Definition]
+
+ngx_limit_req_zones = wp-login
+
+failregex = ^\s*\[error\] \d+#\d+: \*\d+ limiting requests, excess: [\d\.]+ by zone "(?:%(ngx_limit_req_zones)s)", client: <HOST>
+
+ignoreregex = 

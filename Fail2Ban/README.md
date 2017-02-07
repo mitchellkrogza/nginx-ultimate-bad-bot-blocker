@@ -1,4 +1,5 @@
 # Fail2Ban Blacklist for Repeat Offenders of Nginx (action.d)
+#### also includes wp-login attack filter using [nginx-limit-req] - see lower down
 
 ### Author: Mitchell Krog <mitchellkrog@gmail.com>
 ### Version: 1.1
@@ -49,5 +50,13 @@ bantime  = 86400   ; 1 day
 findtime = 604800   ; 1 week
 maxretry = 20
 ```
+
+# Blocking wp-login.php attacks on Wordpress Sites
+See the included /filter.d/nginx-limit-req.conf jail and filter for detecting and blocking wp-login attacks
+The original /filter.d/nginx-limit-req.conf file from Fail2Ban is included including a /filter.d/nginx-limit-req.local file with the settings you need to detect and block wp-logins.
+An example of the jail settings for your jail.local file is included in the jail.local sample.
+This works great at picking up wp-login attacks.
+Be sure to add the rate limiting zone to your nginx.conf as per instructions in /filter.d/nginx-limit-req.local
+
 
 ### If this helps you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XP2AZ4S5HNAWQ):beer:

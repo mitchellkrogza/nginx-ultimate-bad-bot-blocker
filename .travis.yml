@@ -1,0 +1,8 @@
+language: python
+cache:
+- directories:
+  - nginx-cache
+rvm:
+- 2.1
+script: ./test-nginx-config.sh
+sudo: false

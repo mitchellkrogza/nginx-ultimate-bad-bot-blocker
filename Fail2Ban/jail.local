@@ -12,3 +12,12 @@ banaction = nginxrepeatoffender
 bantime  = 86400   ; 1 day
 findtime = 604800   ; 1 week
 maxretry = 20
+
+# This is the jail setting for using the Fail2Ban limit-req filter for detecting wp-login attacks
+
+[nginx-limit-req]
+enabled = true
+port    = http,https
+filter = nginx-limit-req
+logpath = %(nginx_error_log)s
+maxretry = 1
