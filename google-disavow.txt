@@ -265,6 +265,7 @@ domain:apispringsmartne-a.akamaihd.net
 domain:apiwebwebgetcom-a.akamaihd.net
 domain:apiwoodensealcom-a.akamaihd.net
 domain:apper.de
+domain:appfixing.space
 domain:approved.su
 domain:appsaurus.com
 domain:apxeo.info
@@ -900,6 +901,7 @@ domain:digest-project.ru
 domain:digilander.libero.it
 domain:digital-video-processing.com
 domain:digitalfaq.com
+domain:dikx.gdn
 domain:diminishedvalueoforegon.com
 domain:dimkino.ru
 domain:dinkolove.ya.ru
@@ -1011,6 +1013,7 @@ domain:ekto.ee
 domain:el-nation.com
 domain:electricwheelchairsarea.com
 domain:electro-prom.com
+domain:electronicadirect.com
 domain:elektir.ru
 domain:elektrischezi.canalblog.com
 domain:elektrischeziga.livejournal.com
@@ -1075,6 +1078,7 @@ domain:es5.com
 domain:escort-russian.com
 domain:escortplius.com
 domain:eshop.md
+domain:eshop4u.jp
 domain:eshopcomp.com
 domain:esnm.ru
 domain:este-line.com.ua
@@ -1206,6 +1210,7 @@ domain:findpik.com
 domain:findthe.pet
 domain:finstroy.net
 domain:finteks.ru
+domain:finuse.com
 domain:firma-legion.ru
 domain:fishingwholesale.us
 domain:fitness-video.net
@@ -1308,6 +1313,7 @@ domain:freeuploader.ml
 domain:freewebs.com
 domain:freewhatsappload.com
 domain:freshberry.com.ua
+domain:freshmac.space
 domain:freshwallpapers.info
 domain:frivgame250.com
 domain:front.ru
@@ -1487,6 +1493,7 @@ domain:gungamesz.com
 domain:guod.me
 domain:guruofcasino.com
 domain:gwebtools.com
+domain:gwebtools.com.br
 domain:gwhwpxbw.bloger.index.hr
 domain:h2monline.com
 domain:hacktougroup.ru
@@ -1502,6 +1509,7 @@ domain:hardcore.anzwers.net
 domain:hasfun.com
 domain:hatedriveapart.com
 domain:havepussy.com
+domain:hayate.biz
 domain:hazardky.net
 domain:hd-filmy.net
 domain:hd720kino.ru
@@ -1542,6 +1550,7 @@ domain:historichometeam.com
 domain:hitsbox.info
 domain:hiwibyh.bugs3.com
 domain:hkdiiohi.skyrock.com
+domain:hledejvshopech.cz
 domain:hmmm.cz
 domain:hmywwogw.bloger.index.hr
 domain:hobild.net
@@ -1649,6 +1658,7 @@ domain:imabase.com
 domain:imagabric.com
 domain:imagecoolpub.com
 domain:imagerydatabase.com
+domain:images-graphics-pics.com
 domain:imagescargo.com
 domain:imagesproduct.com
 domain:imediadesk.com
@@ -1814,6 +1824,7 @@ domain:komp-pomosch.ru
 domain:komputernaya-pomosh-moscow.ru
 domain:komputers-best.ru
 domain:kongoultry.net
+domain:kongruan.com
 domain:konkursov.net
 domain:konoplisemena.com
 domain:konteiner24.com
@@ -2139,6 +2150,7 @@ domain:mockupui.com
 domain:modabutik.ru
 domain:moesonce.com
 domain:moi-glazki.ru
+domain:mojowhois.com
 domain:mokrayakiska.com
 domain:mole.pluto.ro
 domain:monarchfind-a.akamaihd.net
@@ -2198,6 +2210,7 @@ domain:musicprojectfoundation.com
 domain:musicspire.online
 domain:musicstock.me
 domain:musicvidz.ru
+domain:mustat.com
 domain:muz-baza.net
 domain:muz-shoes.ru
 domain:muznachas-service.ru
@@ -2207,6 +2220,7 @@ domain:my-big-family.com
 domain:my.opera.com
 domain:myblogregistercm.tk
 domain:mycaf.it
+domain:mydeathspace.com
 domain:mydirtystuff.com
 domain:mydownloadengine.com
 domain:mydownlodablefiles.com
@@ -2480,6 +2494,7 @@ domain:popads.net
 domain:popander.mobi
 domain:popcash.net
 domain:pops.foundation
+domain:poptool.net
 domain:popup-fdm.xyz
 domain:popup-hgd.xyz
 domain:popup-jdh.xyz
@@ -2822,6 +2837,7 @@ domain:scripted.com
 domain:sdelai-prosto.ru
 domain:sdelatmebel.ru
 domain:sdi-pme.com
+domain:sdrescher.net
 domain:search-error.com
 domain:search-helper.ru
 domain:searchinterneat-a.akamaihd.net
@@ -2842,7 +2858,9 @@ domain:seksotur.ru
 domain:selfipicz.com
 domain:semalt.com
 domain:semaltmedia.com
+domain:semp.net
 domain:semprofile.com
+domain:semrush.com
 domain:senger.atspace.co.uk
 domain:seo-2-0.com
 domain:seo-platform.com
@@ -2850,6 +2868,7 @@ domain:seo-smm.kz
 domain:seo-tools-optimizing.com
 domain:seoanalyses.com
 domain:seoexperimenty.ru
+domain:seoheap.com
 domain:seokicks.de
 domain:seopub.net
 domain:seorankinglinks.com
@@ -3284,6 +3303,7 @@ domain:todohr.com
 domain:toloka.hurtom.com
 domain:tomatis.gospartner.com
 domain:tomck.com
+domain:toolsky.com
 domain:tootoo.to
 domain:top1-seo-service.com
 domain:top10-way.com
@@ -3550,6 +3570,7 @@ domain:webix.me
 domain:webjam.com
 domain:weblo.com
 domain:webmaster-traffic.com
+domain:webmasterhome.cn
 domain:webmonetizer.net
 domain:webnode.me
 domain:webradiology.ru
@@ -3567,6 +3588,7 @@ domain:website-speed-up.top
 domain:website-stealer-warning-alert.hdmoviecams.com
 domain:websiteaccountant.de
 domain:websites-reviews.com
+domain:websitevaluebot.com
 domain:websocial.me
 domain:webtherapy.ru
 domain:weburlopener.com
@@ -3793,6 +3815,7 @@ domain:zebradudka.com
 domain:zebramart.ru
 domain:zeleznobeton.ru
 domain:zerocash.msk.ru
+domain:zeroredirect8.com
 domain:zevohytydu.su
 domain:zhongwenlink.com
 domain:zhorapankratov7.blogspot.com
