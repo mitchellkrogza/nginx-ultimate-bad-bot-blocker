@@ -26,7 +26,7 @@ mkdir "$DIR/nginx"
 mkdir "$DIR/nginx/sites-enabled"
 mkdir "$DIR/var"
 mkdir "$DIR/nginx/bots.d"
-#mkdir "$DIR/nginx/conf.d"
+mkdir "$DIR/nginx/custom.d"
 #mkdir "$DIR/tmp"
 
 # Configure the PHP handler.
@@ -56,7 +56,7 @@ fi
 tpl "$DIR/nginx.tpl.conf" "$DIR/nginx/nginx.conf"
 tpl "$DIR/fastcgi.tpl.conf" "$DIR/nginx/fastcgi.conf"
 tpl "$DIR/default-site.tpl.conf" "$DIR/nginx/sites-enabled/default-site.conf"
-tpl "$DIR/globalblacklist.tpl.conf" "$DIR/nginx/conf.d/globalblacklist.conf"
+tpl "$DIR/globalblacklist.tpl.conf" "$DIR/nginx/custom.d/globalblacklist.conf"
 tpl "$DIR/blockbots.tpl.conf" "$DIR/nginx/bots.d/blockbots.conf"
 tpl "$DIR/ddos.tpl.conf" "$DIR/nginx/bots.d/ddos.conf"
 
