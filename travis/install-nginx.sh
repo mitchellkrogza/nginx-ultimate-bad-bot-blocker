@@ -27,6 +27,7 @@ mkdir "$DIR/nginx/sites-enabled"
 mkdir "$DIR/var"
 mkdir "$DIR/nginx/bots.d"
 mkdir "$DIR/nginx/conf.d"
+mkdir "$DIR/tmp"
 
 # Configure the PHP handler.
 if [ "$PHP_VERSION" = 'hhvm' ] || [ "$PHP_VERSION" = 'hhvm-nightly' ]
@@ -60,4 +61,4 @@ tpl "$DIR/blockbots.tpl.conf" "$DIR/nginx/bots.d/blockbots.conf"
 tpl "$DIR/ddos.tpl.conf" "$DIR/nginx/bots.d/ddos.conf"
 
 # Start nginx.
-nginx -c "$DIR/nginx/nginx.conf"
+nginx -c "$DIR/nginx/nginx.conf" -p "$DIR/nginx"
