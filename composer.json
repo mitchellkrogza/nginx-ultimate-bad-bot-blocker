@@ -1,0 +1,15 @@
+{
+	"name": "vanilla/travis-nginx-test",
+	"description": "A basic test for getting Nginx running on Travis CI's container based infrastructure.",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Todd Burry",
+			"email": "todd@vanillaforums.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"lib-curl": "*"
+	}
+}
