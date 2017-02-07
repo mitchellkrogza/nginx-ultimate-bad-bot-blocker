@@ -1,8 +1,33 @@
-language: python
-cache:
-- directories:
-  - nginx-cache
-rvm:
-- 2.1
-script: ./test-nginx-config.sh
+language: php
+
+php:
+    - 5.4
+    - 5.5
+    - 5.6
+    - 7.0
+    - hhvm
+
 sudo: false
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - php: hhvm
+
+cache:
+  - apt
+
+addons:
+  apt:
+    packages:
+      - nginx
+      - realpath
+
+install:
+#  - composer install
+  - travis/install-nginx.sh
+
+script:
+  - curl -vsf 'http://localhost:8080/nginx.php' &> /dev/stdout
+  - nginx -t
+  - cat /tmp/error.log
