@@ -335,6 +335,7 @@ domain:aviav.eu
 domain:aviav.org
 domain:aviav.ru
 domain:aviav.ru.com
+domain:avirasecureserver.com
 domain:avitocars.ru
 domain:aviva-limoux.com
 domain:avkzarabotok.com
@@ -1011,6 +1012,7 @@ domain:ekobata.ru
 domain:ekspertmed.com
 domain:ekto.ee
 domain:el-nation.com
+domain:eldiariodeguadalajara.com
 domain:electricwheelchairsarea.com
 domain:electro-prom.com
 domain:electronicadirect.com
@@ -2260,6 +2262,7 @@ domain:nastydollars.com
 domain:nate.com
 domain:naval.jislaaik.com
 domain:nbsproject.ru
+domain:negociosdasha.com
 domain:negral.pluto.ro
 domain:net-profits.xyz
 domain:netallergy.ru
@@ -2423,6 +2426,7 @@ domain:pensplan4u.com
 domain:percin.biz.ly
 domain:perfection-pleasure.ru
 domain:perfectpracticeweb.com
+domain:periziavela.com
 domain:perm.xrus.org
 domain:permethrin-cream.bid
 domain:perosan.com
@@ -2481,6 +2485,7 @@ domain:plohaya-kreditnaya-istoriya.ru
 domain:plusnetwork.com
 domain:pmk-samara.ru
 domain:pochemychka.net
+domain:poffet.net
 domain:pogodnyyeavarii.gq
 domain:pogosh.com
 domain:pogruztehnik.ru
@@ -2606,6 +2611,7 @@ domain:psoriasis-file.trade
 domain:pst2017.onlinewebshop.net
 domain:psvita.ru
 domain:psychocryonics.net
+domain:publiccasinoil.com
 domain:pufip.com
 domain:pulse33.ru
 domain:purchasepillsnorx.com
@@ -2691,6 +2697,7 @@ domain:remont-komputerov-notebook.ru
 domain:remont-mobile-phones.ru
 domain:remont-ustanovka-tehniki.ru
 domain:remontgruzovik.ru
+domain:remorcicomerciale.ro
 domain:remote-dba.de
 domain:remotecomputingservices.net
 domain:rentalmaty.kz
@@ -2975,6 +2982,7 @@ domain:skylta.com
 domain:skytraf.xyz
 domain:slavic-magic.ru
 domain:slavkokacunko.de
+domain:slayerlife.com
 domain:sledstvie-veli.net
 domain:slftsdybbg.ru
 domain:slkrm.ru
