@@ -10,7 +10,7 @@
 # Nginx Bad Bot and User-Agent Blocker, Spam Referrer Blocker, Anti DDOS, Bad IP Blocker and Wordpress Theme Detector Blocker
 ## The Ultimate Bad Bot, User-Agent and Spam Referrer Blocker for Nginx Web Servers including anti DDOS system and Wordpress Theme Detector Blocking
 
-### Version 2.2017.02
+### Version 2.2017.03
 
 ### Created by: https://github.com/mitchellkrogza
 ### Copyright Mitchell Krog <mitchellkrog@gmail.com>
