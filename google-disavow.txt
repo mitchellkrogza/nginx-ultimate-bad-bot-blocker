@@ -21,6 +21,7 @@ domain:10bet.com
 domain:11235813.webzdarma.cz
 domain:11pikachu.ru
 domain:123any.com
+domain:123cha.com
 domain:123kuma.com
 domain:123locker.com
 domain:12bet.com
@@ -76,6 +77,7 @@ domain:76brighton.co.uk
 domain:76brighton.com
 domain:7fon.ru
 domain:7makemoneyonline.com
+domain:7yue.org
 domain:7zap.com
 domain:883zy.com
 domain:8gold.com
@@ -98,6 +100,7 @@ domain:aab94f698f36684c5a852a2ef272e031bb.com
 domain:aac500b7a15b2646968f6bd8c6305869d7.com
 domain:aac52006ec82a24e08b665f4db2b5013f7.com
 domain:aad1f4acb0a373420d9b0c4202d38d94fa.com
+domain:aarbur.com
 domain:abbanreddy.com
 domain:abc.xyz
 domain:abcdefh.xyz
@@ -1270,6 +1273,7 @@ domain:foxydeal.com
 domain:fqvjhqciw.net.ru
 domain:fqzqxok.com
 domain:fr.netlog.com
+domain:fr7ty.com
 domain:freakycheats.com
 domain:free-floating-buttons.com
 domain:free-share-buttons-aaa.xyz
@@ -2271,6 +2275,7 @@ domain:netpics.org
 domain:nevansk.ru
 domain:new-apps.ru
 domain:new-post.tk
+domain:new7ob.com
 domain:newqhi.ru
 domain:newsperuse.com
 domain:newstraveller.ru
@@ -2874,6 +2879,7 @@ domain:seo-platform.com
 domain:seo-smm.kz
 domain:seo-tools-optimizing.com
 domain:seoanalyses.com
+domain:seocheki.net
 domain:seoexperimenty.ru
 domain:seoheap.com
 domain:seokicks.de
@@ -2968,6 +2974,7 @@ domain:siteripz.net
 domain:sitevaluation.com
 domain:sitevaluation.org
 domain:sitevalued.com
+domain:sitopreferito.it
 domain:sivs.ru
 domain:sixcooler.de
 domain:sk.golden-praga.ru
@@ -3455,6 +3462,7 @@ domain:vabasa.inwtrade.com
 domain:vacuumscleaner.com
 domain:vadimkravtcov.ru
 domain:valkiria-tk.ru
+domain:valoresito.com
 domain:vapmedia.org
 domain:vapsy.com
 domain:varikozdok.ru
@@ -3512,6 +3520,7 @@ domain:vipsiterip.org
 domain:visa-china.ru
 domain:visa-pasport.ru
 domain:visadd.com
+domain:visionary-codes.com
 domain:visionwell.com.cn
 domain:vita.com.hr
 domain:vitanail.ru
@@ -3614,6 +3623,7 @@ domain:weprik.ru
 domain:wesharepics.com
 domain:wesharepics.info
 domain:wesharepics.site
+domain:westlifego.com
 domain:westsextube.com
 domain:westvilletowingservices.co.za
 domain:wetgames.ru
@@ -3810,6 +3820,7 @@ domain:zajm-pod-zalog-nedvizhimosti.ru
 domain:zakazfutbolki.com
 domain:zakazvzloma.com
 domain:zakon-ob-obrazovanii.ru
+domain:zakonobosago.ru
 domain:zaloadi.ru
 domain:zaloro.com
 domain:zarabotat-na-sajte.ru
