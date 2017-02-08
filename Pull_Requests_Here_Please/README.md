@@ -6,3 +6,5 @@ as well as the Apache Bad Bot Blocker which use this same centralised list of ba
 
 Thank you for contributing to help produce the most extensive bad bot and spam referer
 blocker.
+
+[You can buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer: or send some cheese for my mouse [![gitcheese.com](https://api.gitcheese.com/v1/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/badges)](https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create)
