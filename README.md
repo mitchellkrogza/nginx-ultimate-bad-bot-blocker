@@ -8,7 +8,7 @@
 </table>
 
 # Nginx Bad Bot and User-Agent Blocker, Spam Referrer Blocker, Anti DDOS, Bad IP Blocker and Wordpress Theme Detector Blocker
-## The Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker and Bad IP Blocker with Anti DDOS System and Wordpress Theme Detector Blocking
+## The Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker, Click Re-Directing Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking
 
 ### Version 2.2017.03
 
@@ -19,8 +19,7 @@
 
 ### Recommend to be saved as: /etc/nginx/conf.d/globalblacklist.conf
 
-Why? .... because all files located in /conf.d/ are automatically loaded by Nginx in the main
-nginx.conf file.
+Why? .... because all files located in /conf.d/ are automatically loaded by Nginx in the main nginx.conf file.
 
 ### See sample Nginx Vhost config at: (Please read full instructions too) https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md
 
@@ -55,20 +54,27 @@ nginx.conf file.
 
 ###To contribute your own bad referers 
 please add them into the https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull%20Requests%20Here%20Please/badreferers.list file and then send a Pull Request (PR). 
-**All additions will be checked for accuracy before being merged.**
+
+#### **All additions will be checked for accuracy before being merged.**
 
 ### Issues:
-Log any issues regarding incorrect listings on the issues system and they will be investigated and removed if necessary.
+Log any issues regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
 
 ### If this helps you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer: or send some cheese for my mouse [![gitcheese.com](https://api.gitcheese.com/v1/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/badges)](https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create)
+
+# Welcome to the Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Click-Jacking Blocker, Click-Redirect Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking.
 
 Bots attempt to make themselves look like other software or web sites by disguising their user agent.  Their user agent names may look harmless, perfectly legitimate even. 
 
 For example, "^Java" but according to Project Honeypot, it's actually one of the most dangerous BUT a lot of legitimate bots out there have "Java" in their user agent string so the approach taken by many to block "Java" is not only ignorant but also blocking out very legitimate crawlers including some of Google's and Bing's and makes it very clear to me that those people writing bot blocking scripts seldom ever test them. 
 
-Unfortunately most bot blocker scripts out there are simply copy and pasted from other people's scripts and made  to look like their own work. This one  was inspired by the one created by https://github.com/mariusv and I  contributed to that project but went off into a totally new layout, cleaned it up big time and started from scratch. It is now a completely independent project. It's clean, it works and has been thoroughly tested.
+Spam Referrers and Spam Domain Names use very clever techniques to hop off your sites running very lucrative click-jacking and click-redirecting campaigns which serve ads to unsuspecting people browsing the web or even planting malware, adware or ransomware into their browsers which then become part of their lucrative network of bots. 
 
-# Welcome to the Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker and Bad IP Blocker with Anti DDOS System and Wordpress Theme Detector Blocking.
+This Bot Blocker includes hundreds of domain names and IP addresses that most people will not even see in their Nginx logs. This comes as a result of all my sites running of SSL and using Content-Security-Policy (CSP) which blocks things before they even get to Nginx and I have picked up and continue to pick up some of the worst domains and bots out there. 
+
+A massive amount of Porn, Gambling and Fake News web sites are also blocked in this blocker script which also grows at a rapid pace.
+
+Unfortunately most bot blocker scripts out there are simply copy and pasted from other people's scripts and made  to look like their own work. This one  was inspired by the one created by https://github.com/mariusv and I  contributed to that project but went off into a totally new layout, cleaned it up big time and started from scratch. It is now a completely independent project. It's clean, it works and has been thoroughly tested.
 
 ### THE BASICS
 
@@ -77,7 +83,7 @@ This nginx bad bot bot blocker list is designed to be a global Nginx include fil
 This way the .conf file is loaded once into memory by Nginx and is available to all web 
 sites that you operate. You simply need to use an Include statement in an Nginx vhost conf file.
 
-My methods uses no complex regex other than the Name of the Bot. Nginx case matching will do the rest.  You can use Regex if you like but it's NOT needed and I proved it by testing with the Chrome extension User-Agent Switcher for Chrome. (handy util and a must for everyone to test these kinds of blocking scripts)
+My methods uses **no complex regex** other than the Name of the Bot. Nginx case matching will do the rest.  You can use Regex if you like but it's NOT needed and I proved it by testing with the Chrome extension User-Agent Switcher for Chrome. (handy util and a must for everyone to test these kinds of blocking scripts)
 
 - The user agent "Aboundex" is found without using "~*Aboundex" ... which means a case insensitive match and is much simpler for anyone to maintain than other lists using complicated and messy Regex patterns.
 
@@ -99,7 +105,7 @@ any config changes before you reload.
 ### IT IS TINY AND LIGHTWEIGHT
 
 The file is tiny in size. At the time of this writing and the first public commit of this
-the file size including all the commenting "which nginx ignores" currently at a mere 135 kb in size and containing over 4500 bad domains and IP addresses. It is so lightweight that Nginx does not even know it's there. It already contains thousands of entries - total updated at the top of this README. 
+the file size including all the commenting "which nginx ignores" currently at **a mere 135 kb in size** and already containing over 4500 bad domains and IP addresses. It is so lightweight that Nginx does not even know it's there. It already contains thousands of entries - total updated at the top of this README. 
 
 ### IT IS ACCURATE AND IS FALSE POSITIVE PROOF
 
@@ -141,8 +147,8 @@ For bot's or spiders that you still want to allow but want to limit their visita
 
 #####Usage: recommended to be saved as /etc/nginx/conf.d/globalblacklist.conf 
 
-####PLEASE READ: 
-**The configuration instructions below !!!!**
+# PLEASE READ: 
+## **The configuration instructions below !!!!**
 
 ## WARNING:
 
