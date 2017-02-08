@@ -184,19 +184,36 @@ To monitor your top referer's for a web site's log file's on a daily basis use t
 
 `00 08 * * * tail -50000 /var/log/nginx/mydomain-access.log | awk '{print $12}' | tr -d '"' | sort | uniq -c | sort -rn | head -1000 | mail -s "Top 1000 Agents for Mydomain.com" me@mydomain.com`
 
-## CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
+# CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
 
-####First Step: 
+##Step 1:
+Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.d folder. 
 
+Make sure to click on RAW button to get the full plain text file without any funny formatting.
+The RAW version is always here: 
+https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf
+
+##Step 2: 
+
+- From your command line in Linux type
 `sudo mkdir /etc/nginx/bots.d `
+
 - copy the blockbots.conf file into that folder
+
 - copy the ddos.conf file into the same folder
 
-####Second Step:
+Again make sure to get the RAW (unformatted) code from:
+- https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blockbots.conf
+- https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf
+
+##Step 3:
+
+- From your linux command line type
 
 - `sudo nano /etc/nginx/nginx.conf`
 
-#####Add the following settings and rate limiting zones to your nginx.conf file. This is both for the Anti DDOS rate limiting filter and for allowing Nginx to load this very large set of domain names into memory. 
+#####Add the following settings and rate limiting zones near the top of your nginx.conf file. This is both for the Anti DDOS rate limiting filter and for allowing Nginx to load this very large set of domain names into memory. 
+**see sample-nginx.conf file in the root of this repository**
 
 - `server_names_hash_bucket_size 64;`
 
@@ -210,25 +227,25 @@ To monitor your top referer's for a web site's log file's on a daily basis use t
 
 The server_names_hash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory.
 
-####Third Step:
+##Step 4:
 
 Open a site config file for Nginx (just one for now) and add the following lines.
-##### IMPORTANT: includes MUST be added within a server {} block otherwise you will get EMERG errors from Nginx
+##### VERY IMPORTANT: these includes MUST be added within a server {} block otherwise you will get EMERG errors from Nginx.
 
 - `include /etc/nginx/bots.d/blockbots.conf;`
 
 - `include /etc/nginx/bots.d/ddos.conf;`
 
-####Fourth Step:
+##Step 5:
 
-Make sure to edit the globalblacklist.conf file near the bottom there is a section to whitelist your own IP addresses. Please add all your own IP addresses there before putting this into operation.
+**Make sure to edit the globalblacklist.conf** file near the bottom there is a section to whitelist your own IP addresses. Please add all your own IP addresses there before putting this into operation.
 
-####Fifth Step:
+##Step 6:
 
 sudo nginx -t (make sure it returns no errors and if none then)
 sudo service nginx reload
 
-##Finally - Stopping Google Analytics 'ghost' spam
+##Stopping Google Analytics 'ghost' spam
 
 Simply using the Nginx blocker does not stop Google Analytics ghost referral spam 
 because they are hitting Analytics directly and not always necessarily touching your website. 
