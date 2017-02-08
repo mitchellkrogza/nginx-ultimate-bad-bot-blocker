@@ -8,7 +8,7 @@
 </table>
 
 # Nginx Bad Bot and User-Agent Blocker, Spam Referrer Blocker, Anti DDOS, Bad IP Blocker and Wordpress Theme Detector Blocker
-## The Ultimate Bad Bot, User-Agent and Spam Referrer Blocker for Nginx Web Servers including anti DDOS system and Wordpress Theme Detector Blocking
+## The Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker and Bad IP Blocker with Anti DDOS System and Wordpress Theme Detector Blocking
 
 ### Version 2.2017.03
 
@@ -78,7 +78,7 @@ to look like their own work. This one  was inspired by the one created by https:
 contributed to that project but went off into a totally new layout, cleaned it up big time and started from scratch.
 It is now a completely independent project. It's clean, it works and has been thoroughly tested.
 
-# Welcome to the Ultimate Nginx Bad Bot and Referer Blocker with and Anti DDOS system
+# Welcome to the Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker and Bad IP Blocker with Anti DDOS System and Wordpress Theme Detector Blocking.
 
 ### THE BASICS
 
