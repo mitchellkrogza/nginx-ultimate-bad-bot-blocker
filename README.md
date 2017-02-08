@@ -51,52 +51,37 @@ nginx.conf file.
 -    Stopping Google Analytics Ghost Spam
 -    Browser Adware and Malware (Yontoo etc)
 
-(4520 bad referers, bots, seo companies and counting)
+(4520 bad referers, spam referrers, user-agents, bad bots, bad IP's, porn, gambling and clickjacking sites, seo companies and counting)
 
 ###To contribute your own bad referers 
-please add them into the
-https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull%20Requests%20Here%20Please/badreferers.list
-file and then send a Pull Request (PR). 
-All additions will be checked for accuracy before being merged.
+please add them into the https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull%20Requests%20Here%20Please/badreferers.list file and then send a Pull Request (PR). 
+**All additions will be checked for accuracy before being merged.**
 
 ### Issues:
-Log any issues regarding incorrect listings on the issues system and they will be investigated
-and removed if necessary.
+Log any issues regarding incorrect listings on the issues system and they will be investigated and removed if necessary.
 
 ### If this helps you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer: or send some cheese for my mouse [![gitcheese.com](https://api.gitcheese.com/v1/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/badges)](https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create)
 
-Bots attempt to make themselves look like other software or web sites by disguising their user agent. 
-Their user agent names may look harmless, perfectly legitimate even. 
+Bots attempt to make themselves look like other software or web sites by disguising their user agent.  Their user agent names may look harmless, perfectly legitimate even. 
 
-For example, "^Java" but according to Project Honeypot, it's actually one of the most dangerous BUT a lot of
-legitimate bots out there have "Java" in their user agent string so the approach taken by many to block "Java"
-is not only ignorant but also blocking out very legitimate crawlers including some of Google's and Bing's and
-makes it very clear to me that those people writing bot blocking scripts seldom ever test them. 
+For example, "^Java" but according to Project Honeypot, it's actually one of the most dangerous BUT a lot of legitimate bots out there have "Java" in their user agent string so the approach taken by many to block "Java" is not only ignorant but also blocking out very legitimate crawlers including some of Google's and Bing's and makes it very clear to me that those people writing bot blocking scripts seldom ever test them. 
 
-Unfortunately most bot blocker scripts out there are simply copy and pasted from other people's scripts and made 
-to look like their own work. This one  was inspired by the one created by https://github.com/mariusv and I 
-contributed to that project but went off into a totally new layout, cleaned it up big time and started from scratch.
-It is now a completely independent project. It's clean, it works and has been thoroughly tested.
+Unfortunately most bot blocker scripts out there are simply copy and pasted from other people's scripts and made  to look like their own work. This one  was inspired by the one created by https://github.com/mariusv and I  contributed to that project but went off into a totally new layout, cleaned it up big time and started from scratch. It is now a completely independent project. It's clean, it works and has been thoroughly tested.
 
 # Welcome to the Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker and Bad IP Blocker with Anti DDOS System and Wordpress Theme Detector Blocking.
 
 ### THE BASICS
 
-This nginx bad bot bot blocker list is designed to be a global Nginx include file and uses the Nginx
-map $http_user_agent, map $http_referer and geo $validate_client directives.
+This nginx bad bot bot blocker list is designed to be a global Nginx include file and uses the Nginx map $http_user_agent, map $http_referer and geo $validate_client directives.
 
 This way the .conf file is loaded once into memory by Nginx and is available to all web 
 sites that you operate. You simply need to use an Include statement in an Nginx vhost conf file.
 
-My methods uses no complex regex other than the Name of the Bot. Nginx case matching will do the rest. 
-You can use Regex if you like but it's NOT needed and I proved it by testing with the Chrome extension
-User-Agent Switcher for Chrome. (handy util and a must for everyone to test these kinds of blocking scripts)
+My methods uses no complex regex other than the Name of the Bot. Nginx case matching will do the rest.  You can use Regex if you like but it's NOT needed and I proved it by testing with the Chrome extension User-Agent Switcher for Chrome. (handy util and a must for everyone to test these kinds of blocking scripts)
 
-- The user agent "Aboundex" is found without using "~*Aboundex" ... which means a case insensitive match and
-is much simpler for anyone to maintain than other lists using complicated and messy Regex patterns.
+- The user agent "Aboundex" is found without using "~*Aboundex" ... which means a case insensitive match and is much simpler for anyone to maintain than other lists using complicated and messy Regex patterns.
 
-- If we have a rule, like "~*Image\ Stripper" and a bot decides to change its User-Agent string to 
-"NOT Image Stripper I Promise" he is picked up regardless and blocked immediately. 
+- If we have a rule, like "~*Image\ Stripper" and a bot decides to change its User-Agent string to "NOT Image Stripper I Promise" he is picked up regardless and blocked immediately. 
 
 I only capitalise bot names in my list for ease of reading and maintenance, remember its 
 not case-sensitive so will catch any combination like "Bot" "bOt" and "bOT".
@@ -114,90 +99,76 @@ any config changes before you reload.
 ### IT IS TINY AND LIGHTWEIGHT
 
 The file is tiny in size. At the time of this writing and the first public commit of this
-the file size including all the commenting "which nginx ignores" is a mere 120 kb in size.
-It is so lightweight that Nginx does not even know it's there. It already contains thousands 
-of entries.
+the file size including all the commenting "which nginx ignores" currently at a mere 135 kb in size and containing over 4500 bad domains and IP addresses. It is so lightweight that Nginx does not even know it's there. It already contains thousands of entries - total updated at the top of this README. 
 
 ### IT IS ACCURATE AND IS FALSE POSITIVE PROOF
 
-Unlike many other bad bot blockers out there for Nginx and Apache where people simply copy and
-paste lists from others, this list has been built from the ground up and tested thoroughly and I
-mean thoroughly. It comes from actual server logs that are monitored daily and there are at least 3-10
-new additions to this file almost daily.
+Unlike many other bad bot blockers out there for Nginx and Apache where people simply copy and paste lists from others, this list has been built from the ground up and tested thoroughly and I mean thoroughly for now over 10 months. It comes from actual server logs that are monitored daily and there are at least 3-10 new additions to this file almost daily.
 
-It has also been throughly tested for false positives using months of constant and regular testing
-and monitoring of log files. 
+It has also been throughly tested for false positives using months of constant and regular testing and monitoring of log files. 
 
-All web sites listed in the bad referers are checked one by one before they are even added. Simply copying 
-anything that look suspicious in your log file and adding it to a blocker like this without actually seeing 
-what it is first .... well it's foolish to say the least.
+All web sites listed in the bad referers are checked one by one before they are even added. Simply copying  anything that look suspicious in your log file and adding it to a blocker like this without actually seeing  what it is first .... well it's foolish to say the least.
 
 ### DROP THEM AND THAT'S IT
 
-Nginx has a lovely error called 444 which just literally drops the connection. All these rules issue a
-444 response so if a rule matches, the requesting IP simply get's no response and it would appear that your 
-server does not exist to them or appears to be offline.
+Nginx has a lovely error called 444 which just literally drops the connection. All these rules issue a 444 response so if a rule matches, the requesting IP simply get's no response and it would appear that your  server does not exist to them or appears to be offline. 
+
+A test with curl using one of the test command line's documented in the /conf.d/globalblacklist.conf file will give a simple "curl: (52) Empty reply from server" and that's the reply the bad referrers and bots get.
 
 ### RATE LIMITING FUNCTIONALITY BUILT IN
 
-For bot's or spiders that you still want to allow but want to limit their visitation rate, you can use the 
-built in rate limiting functions I have included. The file is extensively commented throughout so you should 
-figure it out otherwise simply message me if you are having problems. 
+For bot's or spiders that you still want to allow but want to limit their visitation rate, you can use the  built in rate limiting functions I have included. The file is extensively commented throughout so you should figure it out otherwise simply message me if you are having problems. 
 
-## (Read configuration instructions below thoroughly)
+# PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
 
 ## FEATURES OF THE NGINX BAD BOT BLOCKER:
 
 - Extensive Lists of Bad and Known Bad Bots and Scrapers (updated almost daily)
+- Blocking of Spam Referrer Domains and Web Sites
 - Blocking of SEO data collection companies like Semalt.com, Builtwith.com, WooRank.com and many others (updated regularly)
-- Alphabetically ordered for easier maintenance
+- Blocking of clickjacking Sites linked to Adware, Malware and Ransomware
+- Blocking of Porn and Gambling Web Sites who use Lucrative Ways to Earn Money through Serving Ads by hopping off your domain names and web sites.
+- Blocking of Bad Domains and IP's that you cannot even see in your Nginx Logs. Thanks to the Content Security Policy (CSP) on all my SSL sites I can see things trying to pull resources off my sites before they even get to Nginx and get blocked by the CSP.
+- Anti DDOS Filter and Rate Limiting of Agressive Bots
+- Alphabetically ordered for easier maintenance (Pull Requests Welcomed)
 - Commented sections of certain important bots to be sure of before blocking
 - Includes the IP range of Cyveillance who are known to ignore robots.txt rules
   and snoop around all over the Internet.
 - Whitelisting of Google, Bing and Cloudflare IP Ranges
-- Your own IP Ranges that you want to avoid blocking can be easily added.
+- Whitelisting of your own IP Ranges that you want to avoid blocking by mistake.
 - Ability to add other IP ranges and IP blocks that you want to block out.
+- If its out there and it's bad it's already in here and BLOCKED !!
 
-Usage: recommended to be saved as /etc/nginx/conf.d/globalblacklist.conf 
+#####Usage: recommended to be saved as /etc/nginx/conf.d/globalblacklist.conf 
 
 ####PLEASE READ: 
-The configuration instructions below !!!!
+**The configuration instructions below !!!!**
 
 ## WARNING:
 
- Please understand why you are using this before you even use this.
- Please do not simply copy and paste without understanding what this is doing.
- Do not become a copy and paste Linux "Guru", learn things properly before you use them
- and always test everything you do one step at a time.
+- Please understand why you are using this before you even use this.
+- Please do not simply copy and paste without understanding what this is doing.
+- Do not become a copy and paste Linux "Guru", learn things properly before you use them and always test everything you do one step at a time.
  
 ## ANOTHER WARNING:
-  Make sure to add all your own IP addresses the white list section near the bottom of the 
-  globalblacklist.conf file !!!!
+  **Make sure to add all your own IP addresses** the white list section near the bottom of the globalblacklist.conf file !!!!
 
 ## MONITOR WHAT YOU ARE DOING:
 
- MAKE SURE to monitor your web site logs after implementing this. I suggest you first
- load this into one site and monitor it for any possible false positives before putting
- this into production on all your web sites.
+**MAKE SURE to monitor your web site logs** after implementing this. I suggest you first load this into one site and monitor it for any possible false positives before putting this into production on all your web sites.
+
+Do not sit like an ostrich with your head in the sand, being a responsible server operator and web site owner means you must monitor your logs frequently. A reason many of you ended up here in the first place because you saw nasty looking stuff in your Nginx log files.
  
- Also monitor your logs daily for new bad referers and user-agent strings that you
- want to block. Your best source of adding to this list is your own server logs, not mine.
+Also monitor your logs daily for new bad referers and user-agent strings that you want to block. Your best source of adding to this list is your own server logs, not mine.
  
- Feel free to contribute bad referers from your own logs to this project by sending a PR.
- You can however rely on this list to keep out 99% of the baddies out there.
+Feel free to contribute bad referers from your own logs to this project by sending a Pull Request (PR). You can however rely on this list to keep out 99% of the baddies out there.
  
 ## HOW TO MONITOR YOUR LOGS DAILY (The Easy Way):
 
-With great thanks and appreciation to https://blog.nexcess.net/2011/01/21/one-liners-for-apache-log-files/
+**With great thanks and appreciation to**
+https://blog.nexcess.net/2011/01/21/one-liners-for-apache-log-files/
 
-To monitor your top referer's for a web site's log file's on a daily basis use the following simple
-cron jobs which will email you a list of top referer's / user agents every morning from a particular web site's log
-files. This is an example for just one cron job for one site. Set up multiple one's for each one you
-want to monitor. Here is a cron that runs at 8am every morning and emails me the stripped down log of
-referers. When I say stripped down, the domain of the site and other referers like Google and Bing are
-stripped from the results. Of course you must change the log file name, domain name and your email address in
-the examples below. The second cron for collecting User agents does not do any stripping out of any referers but you
-can add that functionality if you like copying the awk statement !~ from the first example.
+To monitor your top referer's for a web site's log file's on a daily basis use the following simple cron jobs which will email you a list of top referer's / user agents every morning from a particular web site's log files. This is an example for just one cron job for one site. Set up multiple one's for each one you want to monitor. Here is a cron that runs at 8am every morning and emails me the stripped down log of referers. When I say stripped down, the domain of the site and other referers like Google and Bing are stripped from the results. Of course you must change the log file name, domain name and your email address in the examples below. The second cron for collecting User agents does not do any stripping out of any referers but you can add that functionality if you like copying the awk statement !~ from the first example.
 
 ##### Cron for Monitoring Daily Referers on Nginx
 
@@ -219,16 +190,19 @@ can add that functionality if you like copying the awk statement !~ from the fir
 
 - `sudo nano /etc/nginx/nginx.conf`
 
-#####Add the following rate limiting zones
+#####Add the following settings and rate limiting zones to your nginx.conf file. This is both for the Anti DDOS rate limiting filter and for allowing Nginx to load this very large set of domain names into memory. 
 
-- `limit_req_zone $ratelimited zone=flood:50m rate=90r/s;`
+- `server_names_hash_bucket_size 64;`
 
-- `limit_conn_zone $ratelimited zone=addr:50m;`
+- `server_names_hash_max_size 4096;`
 
-PLEASE NOTE: The above rate limiting rules are for the DDOS filter, it may seem like high values to you
-but for wordpress sites with plugins and lots of images, it's not. This will not limit any real visitor to
-your Wordpress sites but it will immediately rate limit any aggressive bot. Remember that other bots and user
-agents are rate limited using a different rate limiting rule at the bottom of the globalblacklist.conf file.
+- `limit_req_zone $binary_remote_addr zone=flood:50m rate=90r/s;`
+
+- `limit_conn_zone $binary_remote_addr zone=addr:50m;`
+
+**PLEASE NOTE:** The above rate limiting rules are for the DDOS filter, it may seem like high values to you but for wordpress sites with plugins and lots of images, it's not. This will not limit any real visitor to your Wordpress sites but it will immediately rate limit any aggressive bot. Remember that other bots and user agents are rate limited using a different rate limiting rule at the bottom of the globalblacklist.conf file.
+
+The server_names_hash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory.
 
 ####Third Step:
 
@@ -241,8 +215,7 @@ Open a site config file for Nginx (just one for now) and add the following lines
 
 ####Fourth Step:
 
- Make sure to edit the globalblacklist.conf file near the bottom there is a section to whitelist your own
- IP addresses. Please add all your own IP addresses there before putting this into operation.
+Make sure to edit the globalblacklist.conf file near the bottom there is a section to whitelist your own IP addresses. Please add all your own IP addresses there before putting this into operation.
 
 ####Fifth Step:
 
@@ -250,15 +223,18 @@ sudo nginx -t (make sure it returns no errors and if none then)
 sudo service nginx reload
 
 ##Finally - Stopping Google Analytics 'ghost' spam
+
 Simply using the Nginx blocker does not stop Google Analytics ghost referral spam 
 because they are hitting Analytics directly and not always necessarily touching your website. 
+
 You should use regex filters in Analytics to prevent ghost referral spam.
-For this a simple google-exclude.txt file has been created for you and it is updated at the same time
-when the Nginx Blocker is updated.
+For this a simple google-exclude.txt file has been created for you and it is updated at the same time when the Nginx Blocker is updated.
 
 ##To stop Ghost Spam on On Analytics
 Navigate to your Google Analytics Admin panel and add a Segment. (New Segment > Advanced > Conditions)
+
 This will need to be done on each and every site where you want this filter to be in effect. 
+
 Google has a stupid limit on the length of the regex so you need to break it up into multiple exclude filters 
 
 
@@ -273,21 +249,23 @@ Google has a stupid limit on the length of the regex so you need to break it up 
 #Or Even Better Check Out RefererSpamBlocker
 
 Rather check out the awesome [Referer Spam Blocker](https://referrerspamblocker.com)
-for Google Analytics which uses a collaborated source of spam domains and automatically adds all the filters to your
-Analytics sites for you in 2 easy clicks and it is FREE.
+for Google Analytics which uses a collaborated source of spam domains and automatically adds all the filters to your Analytics sites for you in 2 easy clicks and it is FREE.
 
 ##Blocking Spam Domains Using Google Webmaster Tools
 
-I have added the creation of a Google Disavow text file called google-disavow.txt. This file can be used in Google's Webmaster
-Tools to block all these domains out as spammy or bad links. Use with caution.
+I have added the creation of a Google Disavow text file called google-disavow.txt. This file can be used in Google's Webmaster Tools to block all these domains out as spammy or bad links. Use with caution.
 
 ## Blocking Agressive Bots at Firewall Level Using Fail2Ban
 
-I have added a custom Fail2Ban filter and action that I have written which monitors your Nginx logs for bots that generate
-a large number of 444 errors. This custom jail for Fail2Ban will scan logs over a 1 week period and ban the offender for 24 hours.
+I have added a custom Fail2Ban filter and action that I have written which monitors your Nginx logs for bots that generate a large number of 444 errors. This custom jail for Fail2Ban will scan logs over a 1 week period and ban the offender for 24 hours.
 It helps a great deal in keeping out some repeat offenders and preventing them from filling up your log files with 444 errors.
 See the Fail2Ban folder for instructions on configuring this great add on for the Nginx Bad Bot Blocker.
 
+## Blocking Bad Bots and User-Agents Strings for those who cannot use this full blocker?
+Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. If this is your situation check out the automatically generated robots.txt file which will help you to some degree to keep a lot of Bad Bots and User-Agents out of your sites.
+
+## Blocking Spam Referrers Strings for those who cannot use this full blocker?
+Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. If this is your situation check out the automatically generated .htaccess versions of the Spam Referrer Blocker which can be found in this repository https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker/tree/master/.htaccess this .htaccess method (FOR APACHE SITES ONLY) will help you to keep all the Spam Referrers in this blocker out of your site. This is mentioned here as a lot of people using CPanel systems think they are sitting behind an Nginx server but in reality are actually running on an Apache Server sitting behind an Nginx Proxy Server. .htaccess does not work on Nginx sites.
 
 # IT FORKING WORKS !!!
 ## Just Enjoy now what the Nginx Bad Bot Blocker Can Do For You and Your Web Sites.
