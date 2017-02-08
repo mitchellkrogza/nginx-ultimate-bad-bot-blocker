@@ -1,13 +1,16 @@
 language: php
 
+env:
+- WEB_PORT_80_TCP_ADDR=localhost
+
 php:
     - 5.4
     - 5.5
     - 5.6
     - 7.0
-    - hhvm
+    #- hhvm
 
-sudo: false
+#sudo: false
 
 matrix:
   fast_finish: true
@@ -20,14 +23,22 @@ cache:
 addons:
   apt:
     packages:
-      - nginx
       - realpath
 
 install:
-#  - composer install
+  - sudo add-apt-repository -y ppa:nginx/stable
+  - sudo apt-get update
+  - sudo apt-get install -y --force-yes nginx-extras
   - travis/install-nginx.sh
 
 script:
+  - sudo nginx -t &> /dev/stdout
   - curl -vsf 'http://localhost:8080/nginx.php' &> /dev/stdout
-  - nginx -t
+  - curl -A "googlebot" http://localhost:8080/nginx.php &> /dev/stdout
+  - curl -A "bingbot" http://localhost:8080/nginx.php &> /dev/stdout
+  - curl -I http://localhost:8080/nginx.php -e http://google.com
+  - STATUSCODE=$(curl -A "80legs" http://localhost:8080/nginx.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
+  - STATUSCODE=$(curl -A "masscan" http://localhost:8080/nginx.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
+  - STATUSCODE=$(curl -I http://localhost:8080/nginx.php -e http://100dollars-seo.com &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
+  - STATUSCODE=$(curl -I http://localhost:8080/nginx.php -e http://zyzzcentral.ru &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
   - cat /tmp/error.log

@@ -1,11 +1,11 @@
 {
-	"name": "vanilla/travis-nginx-test",
-	"description": "A basic test for getting Nginx running on Travis CI's container based infrastructure.",
+	"name": "mitchellkrogza/nginx-ultimate-bad-bot-blocker",
+	"description": "Travis CI Testing for the Nginx Ultimate Bad Bot Blocker",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Todd Burry",
-			"email": "todd@vanillaforums.com"
+			"name": "Mitchell Krog",
+			"email": "mitchellkrog@gmail.com"
 		}
 	],
 	"require": {

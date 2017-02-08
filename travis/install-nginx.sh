@@ -1,4 +1,9 @@
 #!/bin/bash
+# Travis CI Code Adapted and Modified from 3 Sources
+# Thanks go out to: 
+# https://github.com/tburry/travis-nginx-test
+# https://github.com/mitchellkrogza/travis-after-all 
+# https://github.com/mitchellkrogza/lua-nginx-statistics
 
 set -e
 set -x
@@ -25,9 +30,6 @@ function tpl {
 mkdir "$DIR/nginx"
 mkdir "$DIR/nginx/sites-enabled"
 mkdir "$DIR/var"
-mkdir "$DIR/nginx/bots.d"
-mkdir "$DIR/nginx/custom.d"
-#mkdir "$DIR/tmp"
 
 # Configure the PHP handler.
 if [ "$PHP_VERSION" = 'hhvm' ] || [ "$PHP_VERSION" = 'hhvm-nightly' ]
@@ -55,10 +57,10 @@ fi
 # Build the default nginx config files.
 tpl "$DIR/nginx.tpl.conf" "$DIR/nginx/nginx.conf"
 tpl "$DIR/fastcgi.tpl.conf" "$DIR/nginx/fastcgi.conf"
+tpl "$DIR/ddos.tpl.conf" "$DIR/nginx/ddos.conf"
+tpl "$DIR/blockbots.tpl.conf" "$DIR/nginx/blockbots.conf"
+tpl "$DIR/globalblacklist.tpl.conf" "$DIR/nginx/globalblacklist.conf"
 tpl "$DIR/default-site.tpl.conf" "$DIR/nginx/sites-enabled/default-site.conf"
-tpl "$DIR/globalblacklist.tpl.conf" "$DIR/nginx/custom.d/globalblacklist.conf"
-tpl "$DIR/blockbots.tpl.conf" "$DIR/nginx/bots.d/blockbots.conf"
-tpl "$DIR/ddos.tpl.conf" "$DIR/nginx/bots.d/ddos.conf"
 
 # Start nginx.
 nginx -c "$DIR/nginx/nginx.conf"
