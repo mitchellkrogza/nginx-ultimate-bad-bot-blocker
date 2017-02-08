@@ -1,5 +1,8 @@
 #CHANGELOG - Nginx Bad Bot Blocker
 
+###2017-02-08
+- V2.2017.03 - Added Travis CI Build Checking and Various Readme File Updates
+
 ###2017-02-06
 - V2.2017.02 - Added Whitelisting of Cloudflare IP Ranges
 
