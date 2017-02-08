@@ -213,7 +213,7 @@ Again make sure to get the RAW (unformatted) code from:
 - `sudo nano /etc/nginx/nginx.conf`
 
 #####Add the following settings and rate limiting zones near the top of your nginx.conf file. This is both for the Anti DDOS rate limiting filter and for allowing Nginx to load this very large set of domain names into memory. 
-**see sample-nginx.conf file in the root of this repository**
+**see SAMPLE-nginx.conf file in the root of this repository**
 
 - `server_names_hash_bucket_size 64;`
 
