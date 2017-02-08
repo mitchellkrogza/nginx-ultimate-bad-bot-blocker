@@ -4,7 +4,7 @@
 ### Author: Mitchell Krog <mitchellkrog@gmail.com>
 ### Version: 1.1
 
-# Add on for Nginx Ultimate Bad Bot blocker
+# Add on for Nginx Ultimate Bad Bot, User-Agent and Spam Referrer Blocker
 GitHub: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
 
 

@@ -2,13 +2,13 @@
 
 <table style="width:100%;margin:0;">
   <tr>
-    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/nginx-ultimate-bad-bot-referrer-blocker.png" alt="Nginx Ultimate Bad Bot Spam Referrer Blocker - Nginx Block Bad Bots, Vulnerability Scanners, Malware and Adware, Malicious Sites, Referer (Referrers) Spam Blocker with DDOS, Wordpress Theme Detector Blocking and Fail2Ban Jail for Repeat Offenders"/></td>
+    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/nginx-ultimate-bad-bot-referrer-blocker.png" alt="Nginx Ultimate Bad Bot Spam Referrer Blocker - Nginx Block Bad Bots, Vulnerability Scanners, Malware and Adware, Malicious Sites, Spam Referrers, Bad Referrers, Spam Blocker with DDOS, Wordpress Theme Detector Blocking and Fail2Ban Jail for Repeat Offenders"/></td>
     <td align="right"><img src="https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg?branch=master"/></td>
   </tr>
 </table>
 
-# Nginx Bad Bot Blocker, Referer Blocker, Anti DDOS, Bad IP Blocker and Wordpress Theme Detector Blocker
-## The Ultimate Bad Bot and Referer Blocker for Nginx Web Servers including anti DDOS system and Wordpress Theme Detector Blocking
+# Nginx Bad Bot and User-Agent Blocker, Spam Referrer Blocker, Anti DDOS, Bad IP Blocker and Wordpress Theme Detector Blocker
+## The Ultimate Bad Bot, User-Agent and Spam Referrer Blocker for Nginx Web Servers including anti DDOS system and Wordpress Theme Detector Blocking
 
 ### Version 2.2017.02
 
@@ -31,10 +31,13 @@ nginx.conf file.
 
 #####Bad bots are:
 
--    Bad Referers
--    Spam Referers
--    Spam bots
+-    Bad Referrers 
+-    Bad User-Agent Strings
+-    Spam Referrers
+-    Spam Bots and Bad Bots
+-    Sites Linked to Lucrative Malware, Adware and Ransomware Clickjacking Campaigns
 -    Vulnerability scanners
+-    Gambling and Porn Web Sites
 -    E-mail harvesters
 -    Content scrapers
 -    Aggressive bots that scrape content
