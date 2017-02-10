@@ -53,8 +53,10 @@ domain:2nt.ru
 domain:2your.site
 domain:3-letter-domains.net
 domain:300richmond.co.nz
+domain:34.gs
 domain:3dracergames.com
 domain:3rbseyes.com
+domain:3weekdiet.com
 domain:40cg.com
 domain:45en.ru
 domain:45tahunkhongguan.com
@@ -393,6 +395,9 @@ domain:bangla-chat-uk-paralud.ga
 domain:bankcrediti.ru
 domain:bankiem.pl
 domain:bankofthewext.com
+domain:bannerspace.com
+domain:bannerswap.com
+domain:bannertesting.com
 domain:bard-real.com.ua
 domain:barnfurnituremart.com
 domain:basedecor.ru
@@ -1109,6 +1114,7 @@ domain:evaashop.ru
 domain:evehemming.blogspot.com.au
 domain:event-tracking.com
 domain:everflora.ru
+domain:evidencecleanergold.com
 domain:example.com
 domain:excaliburfilms.com
 domain:exchangeit.gq
@@ -1124,6 +1130,7 @@ domain:extads.net
 domain:extener.com
 domain:extener.org
 domain:extrabot.com
+domain:extractorandburner.com
 domain:extremal-blog.com
 domain:extremez.net
 domain:extstat.com
@@ -1809,6 +1816,7 @@ domain:kinofak.net
 domain:kinoflux.net
 domain:kinogolos.ru
 domain:kinogonew.ru
+domain:kinohall.ru
 domain:kinohit1.ru
 domain:kinopolet.net
 domain:kinostorm.net
@@ -2341,7 +2349,7 @@ domain:offtime.ru
 domain:ok.ru
 domain:oklogistic.ru
 domain:okmusic.jp
-domain:okout.ru/a00af605
+domain:okout.ru
 domain:okroshki.ru
 domain:oktube.ru
 domain:olvanto.ru
@@ -2352,6 +2360,7 @@ domain:one-gear.com
 domain:oneclickfiles.com
 domain:onefilms.net
 domain:onetravelguides.com
+domain:onewaylinkexchange.net
 domain:onlainbesplatno.ru
 domain:online-hit.info
 domain:online-templatestore.com
@@ -2565,6 +2574,7 @@ domain:printdirectforless.com
 domain:printie.com
 domain:printingpeach.com
 domain:priora-2.com
+domain:privacyassistant.net
 domain:privatbank46.ru
 domain:privatefx-in.ru
 domain:privatefx.all4invest.info
@@ -2623,6 +2633,7 @@ domain:pufip.com
 domain:pulse33.ru
 domain:purchasepillsnorx.com
 domain:purplesphere.in
+domain:pussysaga.com
 domain:puteshestvennik.com
 domain:putevka24.ru
 domain:putitin.me
@@ -3396,6 +3407,7 @@ domain:turist-strani.ru
 domain:turizm.bz
 domain:turkeyreport.tk
 domain:turvgori.ru
+domain:tv-spoty.info
 domain:tvand.ru
 domain:tversvet.ru
 domain:tvgoals.tv
@@ -3679,6 +3691,7 @@ domain:woweb.com.ua
 domain:wrazilwispolecznie.pl
 domain:writingservices17.blogspot.ru
 domain:wrona.it
+domain:wsgames.ru
 domain:wstroika.ru
 domain:wurq.info
 domain:wurr.voila.net
