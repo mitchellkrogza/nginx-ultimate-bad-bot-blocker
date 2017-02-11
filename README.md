@@ -193,9 +193,6 @@ Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf`
 
-Make sure to click on RAW button to get the full plain text file without any funny formatting.
-The RAW version is always here: 
-https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf
 
 ##Step 2: 
 
@@ -214,9 +211,6 @@ https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf`
 
-Again make sure to get the RAW (unformatted) code from:
-- https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blockbots.conf
-- https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf
 
 ##Step 3:
 
