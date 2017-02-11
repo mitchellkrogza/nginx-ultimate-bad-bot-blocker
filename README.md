@@ -15,7 +15,7 @@
 ##### Created by: https://github.com/mitchellkrogza
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
 
-- Configuration instructions are here [configuration](#configuration)
+- Configuration instructions are here [configuration](#configuration-of-the-nginx-bad-bot-blocker)
 - For Nginx Web Server - https://www.nginx.com/
 - See sample Nginx Vhost config at: (Please read full instructions too) https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md
 - Includes the creation of a google-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
