@@ -189,6 +189,10 @@ To monitor your top referer's for a web site's log file's on a daily basis use t
 ##Step 1:
 Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.d folder. 
 
+`cd /etc/nginx/conf.d`
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf`
+
 Make sure to click on RAW button to get the full plain text file without any funny formatting.
 The RAW version is always here: 
 https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf
@@ -196,11 +200,19 @@ https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/
 ##Step 2: 
 
 - From your command line in Linux type
+
 `sudo mkdir /etc/nginx/bots.d `
+
+`cd /etc/nginx/bots.d
 
 - copy the blockbots.conf file into that folder
 
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blockbots.conf`
+
+
 - copy the ddos.conf file into the same folder
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf`
 
 Again make sure to get the RAW (unformatted) code from:
 - https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blockbots.conf
