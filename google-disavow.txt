@@ -27,6 +27,7 @@ domain:123locker.com
 domain:12bet.com
 domain:12masterov.com
 domain:1314dh.com
+domain:160117rd.xyz
 domain:178evakuator178.ru
 domain:19angels.net
 domain:1adult.com
@@ -102,6 +103,7 @@ domain:aab94f698f36684c5a852a2ef272e031bb.com
 domain:aac500b7a15b2646968f6bd8c6305869d7.com
 domain:aac52006ec82a24e08b665f4db2b5013f7.com
 domain:aad1f4acb0a373420d9b0c4202d38d94fa.com
+domain:aadroid.net
 domain:aarbur.com
 domain:abbanreddy.com
 domain:abc.xyz
@@ -157,6 +159,7 @@ domain:affordablewebsitesandmobileapps.com
 domain:afora.ru
 domain:afslankpillen2017nl.eu
 domain:agahinameh.com
+domain:agardomains.com
 domain:aghanyna.com
 domain:agreda.pluto.ro
 domain:ahrefs.com
@@ -711,6 +714,8 @@ domain:coldfilm.ru
 domain:collectionimags.com
 domain:collegeessay19.blogspot.ru
 domain:collemages.com
+domain:com-----scanner.club
+domain:com-supportcenter.website
 domain:cometorussia.net
 domain:comissionka.net
 domain:community.allhiphop.com
@@ -2115,6 +2120,7 @@ domain:menstennisforums.com
 domain:mere.host.sk
 domain:mericanmopedstore.com
 domain:merryhouse.co.uk
+domain:message-warning.net
 domain:mesto-x.com
 domain:metabar.ru
 domain:metarip.ru
@@ -2251,6 +2257,7 @@ domain:myiptest.com
 domain:mylesosibirsk.ru
 domain:mylida.org
 domain:myliveblog.ru
+domain:myperiod.club
 domain:mypets.by
 domain:myplaycity.com
 domain:myprintscreen.com
@@ -3030,6 +3037,7 @@ domain:smstraf.ru
 domain:snakeseco.it
 domain:snip.to
 domain:snip.tw
+domain:snjack.info
 domain:snjatie-geroinovoy-lomki.ru
 domain:snomer1.ru
 domain:snowplanes.com
@@ -3536,6 +3544,7 @@ domain:vip-parfumeria.ru
 domain:vip.51.la
 domain:vip2ch.com
 domain:vipsiterip.org
+domain:virus-mac.com
 domain:visa-china.ru
 domain:visa-pasport.ru
 domain:visadd.com
@@ -3722,6 +3731,7 @@ domain:xjlottery.com
 domain:xjrul.com
 domain:xkaz.org
 domain:xlolitka.com
+domain:xlovecam.com
 domain:xn------7cdbapdecfd4ak1bn0amjffj7afu3y.xn--p1ai
 domain:xn-----6kcaacnblni5c5bicdpcmficy.xn--p1ai
 domain:xn-----7kcabaipgeakzcss7bjdqdwpfnhv.xn--p1ai
@@ -3879,6 +3889,7 @@ domain:zoominfo.com
 domain:zophim.me
 domain:zqtqkq.ua
 domain:zryydi.com
+domain:zs2vm.top
 domain:zscaler.net
 domain:zscalerone.net
 domain:zuchn.com
