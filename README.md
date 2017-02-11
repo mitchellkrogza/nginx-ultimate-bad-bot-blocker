@@ -203,7 +203,7 @@ https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/
 
 `sudo mkdir /etc/nginx/bots.d `
 
-`cd /etc/nginx/bots.d
+`cd /etc/nginx/bots.d`
 
 - copy the blockbots.conf file into that folder
 
