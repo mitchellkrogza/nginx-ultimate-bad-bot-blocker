@@ -8,23 +8,18 @@
 </table>
 
 # Nginx Bad Bot and User-Agent Blocker, Spam Referrer Blocker, Anti DDOS, Bad IP Blocker and Wordpress Theme Detector Blocker
-## The Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker, Click Re-Directing Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking
+##### The Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker, Click Re-Directing Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking
 
 ### Version 2.2017.03
 
-### Created by: https://github.com/mitchellkrogza
-### Copyright Mitchell Krog <mitchellkrog@gmail.com>
+##### Created by: https://github.com/mitchellkrogza
+##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
 
-#### For Nginx Web Server - https://www.nginx.com/
-
-### Recommend to be saved as: /etc/nginx/conf.d/globalblacklist.conf
-
-Why? .... because all files located in /conf.d/ are automatically loaded by Nginx in the main nginx.conf file.
-
-### See sample Nginx Vhost config at: (Please read full instructions too) https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md
-
-#### Includes the creation of a google-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
-#### Includes the creation of a google-disavow.txt file for use in Google Webmaster Tools (see instructions lower down)
+- Configuration instructions are here [configuration](#configuration)
+- For Nginx Web Server - https://www.nginx.com/
+- See sample Nginx Vhost config at: (Please read full instructions too) https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md
+- Includes the creation of a google-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
+- Includes the creation of a google-disavow.txt file for use in Google Webmaster Tools (see instructions lower down)
 
 ### WHY BLOCK BAD BOTS ?
 
@@ -125,7 +120,8 @@ A test with curl using one of the test command line's documented in the /conf.d/
 
 For bot's or spiders that you still want to allow but want to limit their visitation rate, you can use the  built in rate limiting functions I have included. The file is extensively commented throughout so you should figure it out otherwise simply message me if you are having problems. 
 
-# CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
+
+#CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
 ### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
 
 ##Step 1:
@@ -191,6 +187,10 @@ Add your own ip addresses to make sure they are whitelisted (one per line as per
 - `limit_req_zone $binary_remote_addr zone=flood:50m rate=90r/s;`
 
 - `limit_conn_zone $binary_remote_addr zone=addr:50m;`
+
+**Make sure** that your nginx.conf file contains the following include directive
+
+- `include /etc/nginx/conf.d/*`
 
 **PLEASE NOTE:** The above rate limiting rules are for the DDOS filter, it may seem like high values to you but for wordpress sites with plugins and lots of images, it's not. This will not limit any real visitor to your Wordpress sites but it will immediately rate limit any aggressive bot. Remember that other bots and user agents are rate limited using a different rate limiting rule at the bottom of the globalblacklist.conf file.
 
