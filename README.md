@@ -125,7 +125,91 @@ A test with curl using one of the test command line's documented in the /conf.d/
 
 For bot's or spiders that you still want to allow but want to limit their visitation rate, you can use the  built in rate limiting functions I have included. The file is extensively commented throughout so you should figure it out otherwise simply message me if you are having problems. 
 
-# PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
+# CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
+### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
+
+##Step 1:
+Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.d folder. 
+
+`cd /etc/nginx/conf.d`
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf`
+
+##Step 2:
+
+Whitelist all your own domain names
+
+`sudo nano /etc/conf.d/globalblacklist.conf`
+
+Scroll down until you find the block starting with:
+
+```
+# ***********************************
+# Whitelist all your OWN IP addresses
+# ***********************************
+```
+
+Add your own ip addresses to make sure they are whitelisted (one per line as per this example)
+
+```
+127.0.0.1     0;
+192.168.0.1   0;
+192.168.1.1   0;
+```
+
+##Step 3: 
+
+- From your command line in Linux type
+
+`sudo mkdir /etc/nginx/bots.d `
+
+`cd /etc/nginx/bots.d`
+
+- copy the blockbots.conf file into that folder
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blockbots.conf`
+
+
+- copy the ddos.conf file into the same folder
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf`
+
+
+##Step 4:
+
+- From your linux command line type
+
+- `sudo nano /etc/nginx/nginx.conf`
+
+#####Add the following settings and rate limiting zones near the top of your nginx.conf file. This is both for the Anti DDOS rate limiting filter and for allowing Nginx to load this very large set of domain names into memory. 
+**see SAMPLE-nginx.conf file in the root of this repository**
+
+- `server_names_hash_bucket_size 64;`
+
+- `server_names_hash_max_size 4096;`
+
+- `limit_req_zone $binary_remote_addr zone=flood:50m rate=90r/s;`
+
+- `limit_conn_zone $binary_remote_addr zone=addr:50m;`
+
+**PLEASE NOTE:** The above rate limiting rules are for the DDOS filter, it may seem like high values to you but for wordpress sites with plugins and lots of images, it's not. This will not limit any real visitor to your Wordpress sites but it will immediately rate limit any aggressive bot. Remember that other bots and user agents are rate limited using a different rate limiting rule at the bottom of the globalblacklist.conf file.
+
+The server_names_hash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory.
+
+##Step 5:
+
+Open a site config file for Nginx (just one for now) and add the following lines.
+##### VERY IMPORTANT: these includes MUST be added within a server {} block otherwise you will get EMERG errors from Nginx.
+
+- `include /etc/nginx/bots.d/blockbots.conf;`
+
+- `include /etc/nginx/bots.d/ddos.conf;`
+
+##Step 6:
+
+sudo nginx -t (make sure it returns no errors and if none then)
+sudo service nginx reload
+
 
 ## FEATURES OF THE NGINX BAD BOT BLOCKER:
 
@@ -144,11 +228,6 @@ For bot's or spiders that you still want to allow but want to limit their visita
 - Whitelisting of your own IP Ranges that you want to avoid blocking by mistake.
 - Ability to add other IP ranges and IP blocks that you want to block out.
 - If its out there and it's bad it's already in here and BLOCKED !!
-
-#####Usage: recommended to be saved as /etc/nginx/conf.d/globalblacklist.conf 
-
-# PLEASE READ: 
-## **The configuration instructions below !!!!**
 
 ## WARNING:
 
@@ -183,73 +262,6 @@ To monitor your top referer's for a web site's log file's on a daily basis use t
 ##### Cron for Monitoring Daily User Agents on Nginx
 
 `00 08 * * * tail -50000 /var/log/nginx/mydomain-access.log | awk '{print $12}' | tr -d '"' | sort | uniq -c | sort -rn | head -1000 | mail -s "Top 1000 Agents for Mydomain.com" me@mydomain.com`
-
-# CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
-
-##Step 1:
-Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.d folder. 
-
-`cd /etc/nginx/conf.d`
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf`
-
-
-##Step 2: 
-
-- From your command line in Linux type
-
-`sudo mkdir /etc/nginx/bots.d `
-
-`cd /etc/nginx/bots.d`
-
-- copy the blockbots.conf file into that folder
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blockbots.conf`
-
-
-- copy the ddos.conf file into the same folder
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf`
-
-
-##Step 3:
-
-- From your linux command line type
-
-- `sudo nano /etc/nginx/nginx.conf`
-
-#####Add the following settings and rate limiting zones near the top of your nginx.conf file. This is both for the Anti DDOS rate limiting filter and for allowing Nginx to load this very large set of domain names into memory. 
-**see SAMPLE-nginx.conf file in the root of this repository**
-
-- `server_names_hash_bucket_size 64;`
-
-- `server_names_hash_max_size 4096;`
-
-- `limit_req_zone $binary_remote_addr zone=flood:50m rate=90r/s;`
-
-- `limit_conn_zone $binary_remote_addr zone=addr:50m;`
-
-**PLEASE NOTE:** The above rate limiting rules are for the DDOS filter, it may seem like high values to you but for wordpress sites with plugins and lots of images, it's not. This will not limit any real visitor to your Wordpress sites but it will immediately rate limit any aggressive bot. Remember that other bots and user agents are rate limited using a different rate limiting rule at the bottom of the globalblacklist.conf file.
-
-The server_names_hash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory.
-
-##Step 4:
-
-Open a site config file for Nginx (just one for now) and add the following lines.
-##### VERY IMPORTANT: these includes MUST be added within a server {} block otherwise you will get EMERG errors from Nginx.
-
-- `include /etc/nginx/bots.d/blockbots.conf;`
-
-- `include /etc/nginx/bots.d/ddos.conf;`
-
-##Step 5:
-
-**Make sure to edit the globalblacklist.conf** file near the bottom there is a section to whitelist your own IP addresses. Please add all your own IP addresses there before putting this into operation.
-
-##Step 6:
-
-sudo nginx -t (make sure it returns no errors and if none then)
-sudo service nginx reload
 
 ##Stopping Google Analytics 'ghost' spam
 
