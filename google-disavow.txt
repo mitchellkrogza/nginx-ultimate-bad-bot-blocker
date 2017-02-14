@@ -146,6 +146,8 @@ domain:adultgalls.com
 domain:adultnet.in
 domain:adultpopunders.com
 domain:adultwebhosting.info
+domain:advancedcleaner.com
+domain:advancedsoftwaresupport.com
 domain:adventureparkcostarica.com
 domain:adviceforum.info
 domain:advocatemsk.ru
@@ -276,6 +278,7 @@ domain:apiwebwebgetcom-a.akamaihd.net
 domain:apiwoodensealcom-a.akamaihd.net
 domain:apper.de
 domain:appfixing.space
+domain:appleid-verification.com
 domain:approved.su
 domain:appsaurus.com
 domain:apxeo.info
@@ -458,6 +461,7 @@ domain:bidr.trellian.com
 domain:bif-ru.info
 domain:bigcities.org
 domain:biglistofwebsites.com
+domain:bigpenisguide.com
 domain:biketank.ga
 domain:bikini-image.com
 domain:billiard-classic.com.ua
@@ -504,6 +508,7 @@ domain:bloggers.nl
 domain:blogig.org
 domain:blogos.kz
 domain:blogporn.in
+domain:blogqpot.com
 domain:blogs.rediff.com
 domain:blogster.com
 domain:blogtotal.de
@@ -1788,6 +1793,7 @@ domain:journalhome.com
 domain:jpcycles.com
 domain:juliadiets.com
 domain:juliaworld.net
+domain:jumptap.com
 domain:justprofit.xyz
 domain:jwss.cc
 domain:kaac.ru
@@ -2115,6 +2121,7 @@ domain:medtherapy.ru
 domain:meduza-consult.ru
 domain:meendo-free-traffic.ga
 domain:megaapteka.ru
+domain:megabonus24.pl
 domain:megaindex.ru
 domain:megakino.net
 domain:megavolt.net.ua
@@ -2295,6 +2302,7 @@ domain:naval.jislaaik.com
 domain:nbsproject.ru
 domain:negociosdasha.com
 domain:negral.pluto.ro
+domain:neobux-bg.info
 domain:nerudlogistik.ru
 domain:net-profits.xyz
 domain:netallergy.ru
@@ -2470,6 +2478,7 @@ domain:petedrummond.com
 domain:petroleumgeo.com
 domain:petrovka-online.com
 domain:petsblogroll.com
+domain:pflexads.com
 domain:pharmacyincity.com
 domain:phobia.us
 domain:photo.houseofgaga.ru
@@ -2805,6 +2814,7 @@ domain:sabaapress.com
 domain:sack.net
 domain:sad-torg.com.ua
 domain:sady-urala.ru
+domain:safe-app.net
 domain:sahohev.000host.co.uk
 domain:saitevpatorii.com
 domain:sakhboard.ru
@@ -3731,6 +3741,7 @@ domain:x.rafomedia.com
 domain:xbaboon.com
 domain:xblog.in
 domain:xboxster.ru
+domain:xclicks.net
 domain:xcombear.ru
 domain:xep.info
 domain:xf0.pw
@@ -3875,7 +3886,17 @@ domain:zebradudka.com
 domain:zebramart.ru
 domain:zeleznobeton.ru
 domain:zerocash.msk.ru
+domain:zeroredirect.com
+domain:zeroredirect1.com
+domain:zeroredirect10.com
+domain:zeroredirect11.com
+domain:zeroredirect12.com
+domain:zeroredirect2.com
+domain:zeroredirect5.com
+domain:zeroredirect6.com
+domain:zeroredirect7.com
 domain:zeroredirect8.com
+domain:zeroredirect9.com
 domain:zevohytydu.su
 domain:zhongwenlink.com
 domain:zhorapankratov7.blogspot.com
