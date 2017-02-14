@@ -1,7 +1,5 @@
 MIT License
 
-[![gitcheese.com](https://api.gitcheese.com/v1/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/badges)](https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create)
-
 Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
 https://github.com/mitchellkrogza
 
