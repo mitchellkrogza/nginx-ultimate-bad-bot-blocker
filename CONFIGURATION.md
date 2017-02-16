@@ -3,8 +3,12 @@
 
 ##### Created by: https://github.com/mitchellkrogza
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
+### Version 2.2017.04
 
 ##Step 1:
+
+**COPY THE GLOBALBLACKLIST.CONF FILE FROM THE REPO**
+
 Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.d folder. 
 
 `cd /etc/nginx/conf.d`
@@ -12,6 +16,8 @@ Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf`
 
 ##Step 2: 
+
+**COPY THE INCLUDE FILES FROM THE REPO**
 
 - From your command line in Linux type
 
@@ -29,6 +35,8 @@ Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf`
 
 ##Step 3:
+
+**WHITELIST ALL YOUR OWN DOMAIN NAMES AND IP ADDRESSES**
 
 Whitelist all your own domain names and IP addresses. **Please note important changes**, this is now done using include files so that you do not have to keep reinserting your whitelisted domains and IP addresses every time you update.
 
@@ -50,6 +58,8 @@ When pulling any future updates now you can simply pull the latest globalblackli
 
 ##Step 4:
 
+**INCLUDE IMPORTANT SETTINGS IN NGINX.CONF**
+
 - From your linux command line type
 
 - `sudo nano /etc/nginx/nginx.conf`
@@ -65,7 +75,7 @@ When pulling any future updates now you can simply pull the latest globalblackli
 
 - `limit_conn_zone $binary_remote_addr zone=addr:50m;`
 
-**Make sure** that your nginx.conf file contains the following include directive
+**Make sure** that your nginx.conf file contains the following include directive. If it's commented out make sure to uncomment it.
 
 - `include /etc/nginx/conf.d/*`
 
@@ -74,6 +84,8 @@ When pulling any future updates now you can simply pull the latest globalblackli
 The server_names_hash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory.
 
 ##Step 5:
+
+**ADD INCLUDE FILES INTO A VHOST**
 
 Open a site config file for Nginx (just one for now) and add the following lines.
 ##### VERY IMPORTANT: these includes MUST be added within a server {} block otherwise you will get EMERG errors from Nginx.
@@ -84,5 +96,55 @@ Open a site config file for Nginx (just one for now) and add the following lines
 
 ##Step 6:
 
-sudo nginx -t (make sure it returns no errors and if none then)
-sudo service nginx reload
+**TESTING YOUR NGINX CONFIGURATION**
+
+`sudo nginx -t`
+
+If you get no errors then you followed my instructions so now you can make the blocker go live with a simple.
+
+`sudo service nginx reload`
+
+The blocker is now active and working so now you can run some simple tests from another linux machine to make sure it's working.
+
+##Step 7:
+
+**TESTING**
+
+Run the following commands one by one from a terminal on another linux machine against your own domain name. 
+**substitute yourdomain.com in the examples below with your REAL domain name**
+
+`curl -A "googlebot" http://yourdomain.com`
+
+Should respond with 200 OK
+
+`curl -A "80legs" http://yourdomain.com`
+
+`curl -A "masscan" http://yourdomain.com`
+
+Should respond with: curl: (52) Empty reply from server
+
+`curl -I http://yourdomain.com -e http://100dollars-seo.com`
+
+`curl -I http://yourdomain.com -e http://zyzzcentral.ru`
+
+Should respond with: curl: (52) Empty reply from server
+
+The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
+
+##Step 6:
+
+**UPDATING THE NGINX BAD BOT BLOCKER** is now easy thanks to the automatic includes for whitelisting your own domain names.
+
+Updating to the latest version is now as simple as:
+
+`cd /etc/nginx/conf.d`
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf`
+
+`sudo nginx -t`
+
+`sudo service nginx reload` 
+
+And you will be up to date with all your whitelisted domains included automatically for you now. 
+
+Relax now and sleep better at night knowing your site is telling all those baddies to go away !!!
