@@ -10,7 +10,7 @@
 # Nginx Bad Bot and User-Agent Blocker, Spam Referrer Blocker, Anti DDOS, Bad IP Blocker and Wordpress Theme Detector Blocker
 ##### The Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker, Click Re-Directing Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking
 
-### Version 2.2017.03
+### Version 2.2017.04
 
 ##### Created by: https://github.com/mitchellkrogza
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
@@ -131,29 +131,7 @@ Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf`
 
-##Step 2:
-
-Whitelist all your own domain names
-
-`sudo nano /etc/conf.d/globalblacklist.conf`
-
-Scroll down until you find the block starting with:
-
-```
-# ***********************************
-# Whitelist all your OWN IP addresses
-# ***********************************
-```
-
-Add your own ip addresses to make sure they are whitelisted (one per line as per this example)
-
-```
-127.0.0.1     0;
-192.168.0.1   0;
-192.168.1.1   0;
-```
-
-##Step 3: 
+##Step 2: 
 
 - From your command line in Linux type
 
@@ -169,6 +147,25 @@ Add your own ip addresses to make sure they are whitelisted (one per line as per
 - copy the ddos.conf file into the same folder
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf`
+
+##Step 3:
+
+Whitelist all your own domain names and IP addresses. **Please note important changes**, this is now done using include files so that you do not have to keep reinserting your whitelisted domains and IP addresses every time you update.
+
+`cd /etc/nginx/bots.d`
+
+- copy the whitelist-ips.conf file into that folder
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/whitelist-ips.conf`
+
+
+- copy the whitelist-domains.conf file into the same folder
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/whitelist-domains.conf`
+
+Use nano, vim or any other text editor to edit both whitelist-ips.conf and whitelist-domains.conf to include all your own domain names and IP addresses that you want to specifically whitelist from the blocker script. 
+
+When pulling any future updates now you can simply pull the latest globalblacklist.conf file and it will automatically include your whitelisted domains and IP addresses.
 
 
 ##Step 4:

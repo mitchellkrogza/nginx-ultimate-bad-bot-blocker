@@ -1,5 +1,10 @@
 #CHANGELOG - Nginx Bad Bot Blocker
 
+###2017-02-16
+- V2.2017.04 Added new include file methods for whitelisting your own domains and IP addresses.
+  No more having to remember to include your own IP ranges with any future update.
+  **Please read updated configuration instructions.** on README.md
+
 ###2017-02-08
 - V2.2017.03 - Added Travis CI Build Checking and Various Readme File Updates
 

@@ -142,35 +142,3 @@ server {
 ```
 
 ### If this helped you [You can buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer: or send some cheese for my mouse [![gitcheese.com](https://api.gitcheese.com/v1/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/badges)](https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create)
-
-## CLOUDFLARE CPanel Users
-If you are running a CPanel system that is running through Cloudflare (quite likely) you should whitelist all the following ranges including of course your own IP(s). Considering adding this as a permament whitelist in the bot blocker by default.
-
-```
-127.0.0.1/32;
-YOUR.OWN.IP.ADDR;
-103.21.244.0/22;
-103.22.200.0/22;
-103.31.4.0/22;
-104.16.0.0/12;
-108.162.192.0/18;
-131.0.72.0/22;
-141.101.64.0/18;
-162.158.0.0/15;
-172.64.0.0/13;
-173.245.48.0/20;
-188.114.96.0/20;
-190.93.240.0/20;
-197.234.240.0/22;
-198.41.128.0/17;
-199.27.128.0/21;
-2400:cb00::/32;
-2606:4700::/32;
-2803:f800::/32;
-2405:b500::/32;
-2405:8100::/32;
-2c0f:f248::/32
-2a06:98c0::/29
-```
-
-### If this helped you [You can buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer: or send some cheese for my mouse [![gitcheese.com](https://api.gitcheese.com/v1/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/badges)](https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create)
