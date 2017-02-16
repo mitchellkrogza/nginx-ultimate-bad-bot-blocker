@@ -80,6 +80,7 @@ domain:76brighton.co.uk
 domain:76brighton.com
 domain:7fon.ru
 domain:7makemoneyonline.com
+domain:7wind.ru
 domain:7yue.org
 domain:7zap.com
 domain:883zy.com
@@ -1696,6 +1697,7 @@ domain:imagescargo.com
 domain:imagesproduct.com
 domain:imediadesk.com
 domain:imgata.com
+domain:imgfun.org
 domain:imgresult.com
 domain:iminent.com
 domain:imitex-plus.ru
@@ -3297,6 +3299,7 @@ domain:thiegs.reco.ws
 domain:thin.me.pn
 domain:tiandeural.ru
 domain:tiens2010.ru
+domain:time-japan.ru
 domain:timeallnews.ru
 domain:timer4web.com
 domain:timetorelax.biz
