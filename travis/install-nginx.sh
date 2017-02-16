@@ -31,6 +31,7 @@ function tpl {
 # Make some working directories.
 mkdir "$DIR/nginx"
 mkdir "$DIR/nginx/sites-enabled"
+mkdir "$DIR/nginx/bots.d"
 mkdir "$DIR/var"
 
 # Configure the PHP handler.
@@ -61,6 +62,8 @@ tpl "$DIR/nginx.tpl.conf" "$DIR/nginx/nginx.conf"
 tpl "$DIR/fastcgi.tpl.conf" "$DIR/nginx/fastcgi.conf"
 tpl "$DIR/ddos.tpl.conf" "$DIR/nginx/ddos.conf"
 tpl "$DIR/blockbots.tpl.conf" "$DIR/nginx/blockbots.conf"
+tpl "$DIR/whitelist-ips.tpl.conf" "$DIR/nginx/bots.d/whitelist-ips.conf"
+tpl "$DIR/whitelist-domains.tpl.conf" "$DIR/nginx/bots.d/whitelist-domains.conf"
 tpl "$DIR/globalblacklist.tpl.conf" "$DIR/nginx/globalblacklist.conf"
 tpl "$DIR/default-site.tpl.conf" "$DIR/nginx/sites-enabled/default-site.conf"
 
