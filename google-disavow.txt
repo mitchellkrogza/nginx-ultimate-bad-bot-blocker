@@ -1184,6 +1184,7 @@ domain:falcoware.com
 domain:family1st.ca
 domain:familyholiday.ml
 domain:familyphysician.ru
+domain:famix.xyz
 domain:fandlr.com
 domain:fanoboi.com
 domain:fanpagerobot.com
@@ -1215,6 +1216,7 @@ domain:feedouble.com
 domain:feedouble.net
 domain:feel-planet.com
 domain:feeriaclub.ru
+domain:fefo.gdn
 domain:femdom.twiclub.in
 domain:femmesdenudees.com
 domain:fenoyl.batcave.net
@@ -1229,6 +1231,7 @@ domain:filesvine.com
 domain:film-one.ru
 domain:filmbokep69.com
 domain:filmetricsasia.com
+domain:filmfanatic.com
 domain:filmgo.ru
 domain:filmidivx.com
 domain:filunika.com.ru
@@ -1346,6 +1349,7 @@ domain:freewebs.com
 domain:freewhatsappload.com
 domain:freshberry.com.ua
 domain:freshmac.space
+domain:freshsuperbloop.com
 domain:freshwallpapers.info
 domain:frivgame250.com
 domain:front.ru
@@ -1441,6 +1445,7 @@ domain:ghernnqr.skyrock.com
 domain:gheus.altervista.org
 domain:ghostvisitor.com
 domain:gifspics.com
+domain:gift-today85.online
 domain:gigablast.com
 domain:gilsonchiro.xyz
 domain:girlgamerdaily.com
@@ -1655,6 +1660,7 @@ domain:hyipmanager.in
 domain:hystersister.com
 domain:i-service.kz
 domain:i-x.wiki
+domain:i4track.net
 domain:iamsport.org
 domain:ibb.com.ua
 domain:icaseclub.ru
@@ -2237,6 +2243,7 @@ domain:mrmoneymustache.com
 domain:mrsdalloways.com
 domain:mrwhite.biz
 domain:msk-diplomat.com
+domain:mttwtrack.com
 domain:mturkcontent.com
 domain:mug-na-chas-moscow.ru
 domain:muizre.ru
@@ -2370,6 +2377,7 @@ domain:obuv-kupit.ru
 domain:ochistka-stokov.ru
 domain:odesproperty.com
 domain:odywpjtw.bloger.index.hr
+domain:offer.camp
 domain:offers.bycontext.com
 domain:office-windows.ru
 domain:offre-meditel-telecom.tk
@@ -2609,6 +2617,7 @@ domain:privatefx-in.ru
 domain:privatefx.all4invest.info
 domain:privatov-zapisi.ru
 domain:privhosting.com
+domain:prizesbook.online
 domain:prlog.ru
 domain:pro-okis.ru
 domain:prod2016.com
@@ -3390,6 +3399,7 @@ domain:torture.ml
 domain:touchmods.fr
 domain:tour-line.net
 domain:tovaroboom.vast.ru
+domain:toxicwap.com
 domain:tpu.ru
 domain:tradedeals.biz
 domain:traderzplanet.in
@@ -3628,6 +3638,7 @@ domain:watchmygf.net
 domain:wcb.su
 domain:wdfdocando.com
 domain:wdrake.com
+domain:we-are-gamers.com
 domain:web-betting.ru
 domain:web-list.xyz
 domain:web-revenue.xyz
