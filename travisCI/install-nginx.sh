@@ -1,5 +1,5 @@
 #!/bin/bash
-# Travis CI Code to Install Nginx
+# Travis CI Code to Configure Nginx
 set -e
 set -x
 
@@ -28,18 +28,6 @@ mkdir "$DIR/nginx/bots.d"
 mkdir "$DIR/var"
 
 # Configure the PHP handler.
-if [ "$PHP_VERSION" = 'hhvm' ] || [ "$PHP_VERSION" = 'hhvm-nightly' ]
-then
-    HHVM_CONF="$DIR/nginx/hhvm.ini"
-
-    tpl "$DIR/hhvm.tpl.ini" "$HHVM_CONF"
-
-    cat "$HHVM_CONF"
-
-    hhvm \
-        --mode=daemon \
-        --config="$HHVM_CONF"
-else
     PHP_FPM_BIN="$HOME/.phpenv/versions/$PHP_VERSION/sbin/php-fpm"
     PHP_FPM_CONF="$DIR/nginx/php-fpm.conf"
 
@@ -48,7 +36,6 @@ else
 
     # Start php-fpm
     "$PHP_FPM_BIN" --fpm-config "$PHP_FPM_CONF"
-fi
 
 # Build the default nginx config files.
 tpl "$DIR/nginx.tpl.conf" "$DIR/nginx/nginx.conf"
