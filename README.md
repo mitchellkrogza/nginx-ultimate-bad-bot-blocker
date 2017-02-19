@@ -47,14 +47,6 @@
 
 (4520 bad referers, spam referrers, user-agents, bad bots, bad IP's, porn, gambling and clickjacking sites, seo companies and counting)
 
-###To contribute your own bad referers 
-please add them into the https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull%20Requests%20Here%20Please/badreferers.list file and then send a Pull Request (PR). 
-
-#### **All additions will be checked for accuracy before being merged.**
-
-### Issues:
-Log any issues regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
-
 ### If this helps you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer: or send some cheese for my mouse [![gitcheese.com](https://api.gitcheese.com/v1/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/badges)](https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create)
 
 # Welcome to the Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Click-Jacking Blocker, Click-Redirect Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking.
@@ -124,7 +116,7 @@ For bot's or spiders that you still want to allow but want to limit their visita
 #CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
 ### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
 
-##Step 1:
+##STEP 1:
 
 **COPY THE GLOBALBLACKLIST.CONF FILE FROM THE REPO**
 
@@ -134,7 +126,7 @@ Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf`
 
-##Step 2: 
+##STEP 2: 
 
 **COPY THE INCLUDE FILES FROM THE REPO**
 
@@ -153,7 +145,7 @@ Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf`
 
-##Step 3:
+##STEP 3:
 
 **WHITELIST ALL YOUR OWN DOMAIN NAMES AND IP ADDRESSES**
 
@@ -175,7 +167,7 @@ Use nano, vim or any other text editor to edit both whitelist-ips.conf and white
 When pulling any future updates now you can simply pull the latest globalblacklist.conf file and it will automatically include your whitelisted domains and IP addresses.
 
 
-##Step 4:
+##STEP 4:
 
 **INCLUDE IMPORTANT SETTINGS IN NGINX.CONF**
 
@@ -202,18 +194,21 @@ When pulling any future updates now you can simply pull the latest globalblackli
 
 The server_names_hash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory.
 
-##Step 5:
+##STEP 5:
 
 **ADD INCLUDE FILES INTO A VHOST**
 
 Open a site config file for Nginx (just one for now) and add the following lines.
-##### VERY IMPORTANT: these includes MUST be added within a server {} block otherwise you will get EMERG errors from Nginx.
+
+##### VERY IMPORTANT NOTE: 
+
+These includes MUST be added within a **server {}** block of a vhost otherwise you will get EMERG errors from Nginx.
 
 - `include /etc/nginx/bots.d/blockbots.conf;`
 
 - `include /etc/nginx/bots.d/ddos.conf;`
 
-##Step 6:
+##STEP 6:
 
 **TESTING YOUR NGINX CONFIGURATION**
 
@@ -225,7 +220,7 @@ If you get no errors then you followed my instructions so now you can make the b
 
 The blocker is now active and working so now you can run some simple tests from another linux machine to make sure it's working.
 
-##Step 7:
+##STEP 7:
 
 **TESTING**
 
@@ -250,7 +245,7 @@ Should respond with: curl: (52) Empty reply from server
 
 The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 
-##Step 6:
+##STEP 8:
 
 **UPDATING THE NGINX BAD BOT BLOCKER** is now easy thanks to the automatic includes for whitelisting your own domain names.
 
@@ -268,6 +263,13 @@ And you will be up to date with all your whitelisted domains included automatica
 
 Relax now and sleep better at night knowing your site is telling all those baddies FORBIDDEN !!!
 
+### PULL REQUESTS:
+To contribute your own bad referers please add them into the https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull%20Requests%20Here%20Please/badreferers.list file and then send a Pull Request (PR). 
+
+##### **All additions will be checked for accuracy before being merged.**
+
+### ISSUES:
+Log any issues regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
 
 ## FEATURES OF THE NGINX BAD BOT BLOCKER:
 
@@ -293,10 +295,7 @@ Relax now and sleep better at night knowing your site is telling all those baddi
 - Please do not simply copy and paste without understanding what this is doing.
 - Do not become a copy and paste Linux "Guru", learn things properly before you use them and always test everything you do one step at a time.
  
-## ANOTHER WARNING:
-  **Make sure to add all your own IP addresses** the white list section near the bottom of the globalblacklist.conf file !!!!
-
-## MONITOR WHAT YOU ARE DOING:
+## ALWAYS MONITOR WHAT YOU ARE DOING:
 
 **MAKE SURE to monitor your web site logs** after implementing this. I suggest you first load this into one site and monitor it for any possible false positives before putting this into production on all your web sites.
 
@@ -317,11 +316,21 @@ To monitor your top referer's for a web site's log file's on a daily basis use t
 
 `00 08 * * * tail -10000 /var/log/nginx/mydomain-access.log | awk '$11 !~ /google|bing|yahoo|yandex|mywebsite.com/' | awk '{print $11}' | tr -d '"' | sort | uniq -c | sort -rn | head -1000 | mail - s "Top 1000 Referers for Mydomain.com" me@mydomain.com`
 
+This emails you a daily list of referrers using an awk command to exclude domains like google, bing and your own domain name.
+
 ##### Cron for Monitoring Daily User Agents on Nginx
 
 `00 08 * * * tail -50000 /var/log/nginx/mydomain-access.log | awk '{print $12}' | tr -d '"' | sort | uniq -c | sort -rn | head -1000 | mail -s "Top 1000 Agents for Mydomain.com" me@mydomain.com`
 
-##Stopping Google Analytics 'ghost' spam
+This emails you a list of top User-Agents who visited your site in the last 24 hours, helpful for spotting any rogue or suspicious looking User-Agents strings.
+
+## BLOCK AGGRESSIVE BOTS AT FIREWALL LEVEL USING FAIL2BAN:
+
+I have added a custom Fail2Ban filter and action that I have written which monitors your Nginx logs for bots that generate a large number of 444 errors. This custom jail for Fail2Ban will scan logs over a 1 week period and ban the offender for 24 hours.
+It helps a great deal in keeping out some repeat offenders and preventing them from filling up your log files with 444 errors.
+See the Fail2Ban folder for instructions on configuring this great add on for the Nginx Bad Bot Blocker.
+
+## STOPPING GOOGLE ANALYTICS "GHOST" SPAM:
 
 Simply using the Nginx blocker does not stop Google Analytics ghost referral spam 
 because they are hitting Analytics directly and not always necessarily touching your website. 
@@ -329,7 +338,7 @@ because they are hitting Analytics directly and not always necessarily touching 
 You should use regex filters in Analytics to prevent ghost referral spam.
 For this a simple google-exclude.txt file has been created for you and it is updated at the same time when the Nginx Blocker is updated.
 
-##To stop Ghost Spam on On Analytics
+###To stop Ghost Spam on On Analytics
 Navigate to your Google Analytics Admin panel and add a Segment. (New Segment > Advanced > Conditions)
 
 This will need to be done on each and every site where you want this filter to be in effect. 
@@ -353,12 +362,6 @@ for Google Analytics which uses a collaborated source of spam domains and automa
 ##Blocking Spam Domains Using Google Webmaster Tools
 
 I have added the creation of a Google Disavow text file called google-disavow.txt. This file can be used in Google's Webmaster Tools to block all these domains out as spammy or bad links. Use with caution.
-
-## Blocking Agressive Bots at Firewall Level Using Fail2Ban
-
-I have added a custom Fail2Ban filter and action that I have written which monitors your Nginx logs for bots that generate a large number of 444 errors. This custom jail for Fail2Ban will scan logs over a 1 week period and ban the offender for 24 hours.
-It helps a great deal in keeping out some repeat offenders and preventing them from filling up your log files with 444 errors.
-See the Fail2Ban folder for instructions on configuring this great add on for the Nginx Bad Bot Blocker.
 
 ## Blocking Bad Bots and User-Agents Strings for those who cannot use this full blocker?
 Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. If this is your situation check out the automatically generated robots.txt file which will help you to some degree to keep a lot of Bad Bots and User-Agents out of your sites.
@@ -400,3 +403,6 @@ SOFTWARE.
 - https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
 - https://github.com/mitchellkrogza/fail2ban-useful-scripts
 - https://github.com/mariusv/nginx-badbot-blocker
+
+
+
