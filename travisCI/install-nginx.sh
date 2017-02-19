@@ -1,12 +1,5 @@
 #!/bin/bash
-# Travis CI Code Adapted and Modified from 4 Sources
-# Thanks go out to: 
-# https://github.com/tburry/travis-nginx-test
-# https://github.com/alrra/travis-after-all 
-# https://github.com/shoonoise/lua-nginx-statistics
-# https://github.com/nlindblad/nlindblad.github.io
-# Without a combination of your Travis CI tests for Nginx I would never have got it working.
-
+# Travis CI Code to Install Nginx
 set -e
 set -x
 
