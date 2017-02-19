@@ -44,8 +44,6 @@ deploy:
     secure: ${GH_TOKEN}
   file:
   - "conf.d/globalblacklist.conf"
-  - "bots.d/ddos.conf"
-  - "bots.d/blockbots.conf"
   skip_cleanup: true
   on:
     repo: mitchellkrogza/nginx-ultimate-bad-bot-blocker
