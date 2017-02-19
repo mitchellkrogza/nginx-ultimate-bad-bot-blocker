@@ -2355,6 +2355,7 @@ domain:novosibirsk.xrus.org
 domain:novosti-hi-tech.ru
 domain:npoet.ru
 domain:nqsimy.ru
+domain:nsatc.net
 domain:nucia.biz.ly
 domain:nudepatch.net
 domain:nudo.ca
@@ -2600,8 +2601,10 @@ domain:pozdrawleniya.com
 domain:pozdrawleniya.ru
 domain:pozvonim.com
 domain:pp-budpostach.com.ua
+domain:pr-ten.de
 domain:pr0fit-b0x.com
 domain:pravoholding.ru
+domain:prchecker.info
 domain:prcikkek.info
 domain:priceg.com
 domain:pricheskaonline.ru
@@ -2958,6 +2961,7 @@ domain:sexobzor.info
 domain:sexphoto.site
 domain:sexsaoy.com
 domain:sexsearch.com
+domain:sexstream.pl
 domain:sextracker.com
 domain:sextracker.de
 domain:sexvideo-sex.com
@@ -3865,6 +3869,7 @@ domain:youporn-forum.ga
 domain:youporn-forum.uni.me
 domain:youporn-ru.com
 domain:youradulthosting.com
+domain:youraticles.pl
 domain:yourdesires.ru
 domain:youresponsive.com
 domain:yourothersite.com
@@ -3890,6 +3895,7 @@ domain:zakon-ob-obrazovanii.ru
 domain:zakonobosago.ru
 domain:zaloadi.ru
 domain:zaloro.com
+domain:zapiszto.pl
 domain:zarabotat-na-sajte.ru
 domain:zarenica.net
 domain:zastenchivosti.net
