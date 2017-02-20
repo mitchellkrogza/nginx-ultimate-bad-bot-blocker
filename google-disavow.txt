@@ -126,18 +126,22 @@ domain:actionnooz.com
 domain:actremage.com
 domain:acunetix-referrer.com
 domain:adcash.com
+domain:addbin.men
 domain:addblueoff.com.ua
 domain:addons.mozilla.org/en-us/firefox/addon/ilovevitaly
 domain:addray.pro
+domain:addtoadd.men
 domain:adelly.bg
 domain:adf.ly
 domain:adidas.frwebs.fr
 domain:adloads.net
+domain:admanaerofoil.com
 domain:adminshop.com
 domain:adnotbad.com
 domain:ads-cool.pro
 domain:ads-seo.men
 domain:adsfresh.men
+domain:adsland.men
 domain:adspart.com
 domain:adtiger.tk
 domain:adultactioncam.com
@@ -542,6 +546,7 @@ domain:brainsandeggs.blogspot.com
 domain:brainxs.us
 domain:braip.com.br
 domain:brakehawk.com
+domain:brandflk.com
 domain:brandov.ru
 domain:brateg.xyz
 domain:break-the-chains.com
@@ -1090,6 +1095,7 @@ domain:enginebay.ru
 domain:englate.com
 domain:englishdictionaryfree.com
 domain:englishgamer.com
+domain:enternet.ee
 domain:envaseslotusama.com
 domain:enviromusic.net
 domain:eonpal.com
@@ -1201,6 +1207,7 @@ domain:fatmaelgarny.com
 domain:favorcosmetics.com
 domain:favoritemoney.ru
 domain:favornews.com
+domain:faz99.com
 domain:fazjnyde.su
 domain:fba-mexico.com
 domain:fbdownloader.com
@@ -1244,6 +1251,7 @@ domain:findthe.pet
 domain:finstroy.net
 domain:finteks.ru
 domain:finuse.com
+domain:fireads.men
 domain:firma-legion.ru
 domain:fishingwholesale.us
 domain:fitness-video.net
@@ -1508,6 +1516,7 @@ domain:graphid.com
 domain:gratuitbaise.com
 domain:greatfind-a.akamaihd.net
 domain:greatgrace.ru
+domain:greatzip.com
 domain:green-tea.tv
 domain:gribkovye-zabolevaniya.com
 domain:gribokstop.com
@@ -2073,6 +2082,7 @@ domain:makeprogress.ga
 domain:maladot.com
 domain:mall.uk
 domain:malls.com
+domain:malwareremovalcenter.com
 domain:mam.kz
 domain:manipulyator-peterburg.ru
 domain:mantramusic.ru
@@ -2340,6 +2350,7 @@ domain:nikkiewart.ru
 domain:niroo.info
 domain:nl.netlog.com
 domain:noclegonline.info
+domain:nodup.ru
 domain:nolyduvjm.info
 domain:nonews.co
 domain:nootrino.com
@@ -2681,6 +2692,7 @@ domain:putitin.me
 domain:puzemjb.info
 domain:puzo2arbuza.ru
 domain:puzzleweb.ru
+domain:pwwysydh.com
 domain:pxhdwsm.com
 domain:py100.ru
 domain:pyramidlitho.webs.com
@@ -2727,6 +2739,7 @@ domain:rapidokbrain.com
 domain:rasteniya-vs-zombi.ru
 domain:rattan.co.ua
 domain:razamicroelectronics.com
+domain:razorweb-a.akamaihd.net
 domain:razyboard.com
 domain:rcb101.ru
 domain:real-time-analytics.com
@@ -2746,6 +2759,7 @@ domain:refererx.com
 domain:refudiatethissarah.info
 domain:regionshop.biz
 domain:registratciya-v-moskve.ru
+domain:reimageplus.com
 domain:reklama-i-rabota.ru
 domain:reklama1.ru
 domain:reklamuss.ru
@@ -2900,6 +2914,7 @@ domain:scansafe.net
 domain:scenarii-1-sentyabrya.uroki.org.ua
 domain:scenicmissouri.us
 domain:school-diplomat.ru
+domain:score-ads.men
 domain:screentoolkit.com
 domain:scripted.com
 domain:sdelai-prosto.ru
@@ -3203,6 +3218,7 @@ domain:strana-solnca.ru
 domain:streetfire.net
 domain:streetfooduncovered.com
 domain:streha-metalko.si
+domain:strfls.com
 domain:strigkaomsk.ru
 domain:stroicol.net
 domain:stroimajor.ru
@@ -3288,6 +3304,7 @@ domain:teslathemes.com
 domain:tessitura-gr.it
 domain:test.xyz
 domain:texbaza.by
+domain:textads.men
 domain:the-torrent-tracker.blogspot.com
 domain:the-usa-games.blogspot.com
 domain:thealienwheel.be
@@ -3405,6 +3422,7 @@ domain:touchmods.fr
 domain:tour-line.net
 domain:tovaroboom.vast.ru
 domain:toxicwap.com
+domain:tozup.com
 domain:tpu.ru
 domain:tradedeals.biz
 domain:traderzplanet.in
@@ -3544,6 +3562,7 @@ domain:velobikestock.com
 domain:venta-prom.ru
 domain:ventelnos.com
 domain:venueseo.com
+domain:versussulfide.com
 domain:vesnatehno.com
 domain:vesnatehno.ru
 domain:vesta-lada.net
@@ -3621,6 +3640,7 @@ domain:vrnelectro.ru
 domain:vrotike.ru
 domain:vsesubwaysurfers.com
 domain:vseuznaem.com
+domain:vtc.pw
 domain:vucms.com
 domain:vycqpapa.ua
 domain:vykup-avto-krasnodar.ru
