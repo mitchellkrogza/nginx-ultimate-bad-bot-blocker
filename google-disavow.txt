@@ -950,6 +950,7 @@ domain:djstools.com
 domain:dktr.ru
 domain:dkvorota.ru
 domain:dlya-android.org
+domain:dmmjav.com
 domain:dms-sw.ru
 domain:dnepr-avtospar.com.ua
 domain:dnepropetrovsk.mistr-x.org
@@ -1234,6 +1235,7 @@ domain:fetishinside.com
 domain:fidelityfunding.com
 domain:fifa-coins.online
 domain:fil.ru
+domain:filesmonster.porn
 domain:filesvine.com
 domain:film-one.ru
 domain:filmbokep69.com
@@ -1406,6 +1408,7 @@ domain:gamewrath.com
 domain:gaming-journal.com
 domain:gap-search.com
 domain:gardene.ru
+domain:gay-file.com
 domain:gay.adultgalls.com
 domain:gaygalls.net
 domain:gaytube.com
@@ -1798,6 +1801,7 @@ domain:japfm.com
 domain:jasonpartington.com
 domain:javatex.co.id
 domain:javitas.info
+domain:javrip.net
 domain:jaxcube.info
 domain:jazzstyle4us.com
 domain:jennyfire.ru
