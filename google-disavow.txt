@@ -62,6 +62,7 @@ domain:40cg.com
 domain:45en.ru
 domain:45tahunkhongguan.com
 domain:4istoshop.com
+domain:4kplayer.pl
 domain:4pp13.com
 domain:4rent.ru
 domain:4replicawatch.net
@@ -281,8 +282,10 @@ domain:apishops.ru
 domain:apispringsmartne-a.akamaihd.net
 domain:apiwebwebgetcom-a.akamaihd.net
 domain:apiwoodensealcom-a.akamaihd.net
+domain:app-ready.xyz
 domain:apper.de
 domain:appfixing.space
+domain:appiq.mobi
 domain:appleid-verification.com
 domain:approved.su
 domain:appsaurus.com
@@ -434,6 +437,7 @@ domain:berdasovivan.ru
 domain:berlininsl.com
 domain:berrymall.ru
 domain:best-businessman.ru
+domain:best-coupon-offer.com
 domain:best-deals-products.com
 domain:best-seo-offer.com
 domain:best-seo-software.xyz
@@ -1185,6 +1189,7 @@ domain:f012.de
 domain:f07.de
 domain:f0815.de
 domain:facebook-mobile.xyz
+domain:facebookdating.link
 domain:facetok.net
 domain:failingmarriege.blogspot.com
 domain:falcoware.com
@@ -1376,6 +1381,7 @@ domain:fungirlsgames.net
 domain:funimeme.us
 domain:funnypica.com
 domain:funponsel.com
+domain:funtoonez.com
 domain:furniture-ukraine.com
 domain:futbolkisales.ru
 domain:fx-brokers-review.com
@@ -1746,6 +1752,7 @@ domain:inmate-locator.us
 domain:innodgfdriverhm.aircus.com
 domain:insomniagamingfestival.com
 domain:insta-add.pro
+domain:instant-winner318.online
 domain:instoods.com
 domain:intelhdgraphicsgtdrive6w.metroblog.com
 domain:interesnie-faktu.ru
@@ -1764,6 +1771,7 @@ domain:invivo.hu
 domain:inzn.ru
 domain:io9.com
 domain:iphone6freefor.tk
+domain:iplogger.org
 domain:iplusbit.blogspot.co.za
 domain:ipod-app-reviews.com
 domain:ipostroika.ru
@@ -2207,6 +2215,7 @@ domain:mobilemedia.md
 domain:mobot.site
 domain:mobplayer.net
 domain:mobplayer.ru
+domain:mobsfun.net
 domain:mockupui.com
 domain:modabutik.ru
 domain:moesonce.com
@@ -2221,6 +2230,7 @@ domain:money-every-day.com
 domain:moneymaster.ru
 domain:moneytop.ru
 domain:monitorwebsitespeed.com
+domain:monthlywinners.com
 domain:moomi-daeri.com
 domain:more-letom.ru
 domain:morf.snn.gr
@@ -2580,6 +2590,7 @@ domain:pornhub-forum.ga
 domain:pornhub-forum.uni.me
 domain:pornhub-ru.com
 domain:pornhubforum.tk
+domain:pornmania.pl
 domain:porno-dojki.net
 domain:porno-play.net
 domain:porno-raskazy.ru
@@ -2723,6 +2734,7 @@ domain:rabotaetvse.ru
 domain:rada.ru
 domain:radiogambling.com
 domain:ragecash.com
+domain:raisedseo.com
 domain:ranedaly.net
 domain:rangapoker.com
 domain:rank-checker.online
@@ -3534,6 +3546,7 @@ domain:urccvfmc.bloger.index.hr
 domain:url2image.com
 domain:urlopener.blogspot.com.au
 domain:urlopener.com
+domain:uroffer.link
 domain:uroki.net
 domain:us-america.ru
 domain:usadacha.net
