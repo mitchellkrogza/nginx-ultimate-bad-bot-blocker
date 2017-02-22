@@ -129,7 +129,6 @@ domain:acunetix-referrer.com
 domain:adcash.com
 domain:addbin.men
 domain:addblueoff.com.ua
-domain:addons.mozilla.org/en-us/firefox/addon/ilovevitaly
 domain:addray.pro
 domain:addtoadd.men
 domain:adelly.bg
@@ -1023,7 +1022,7 @@ domain:e-kwiaciarz.pl
 domain:e-poker-2005.com
 domain:e2click.com
 domain:eandsgallery.com
-domain:eaplay.ru/a00af605
+domain:eaplay.ru
 domain:eas-seo.com
 domain:easycommerce.cf
 domain:easync.io
