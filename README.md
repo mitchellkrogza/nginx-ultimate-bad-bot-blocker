@@ -400,9 +400,13 @@ SOFTWARE.
 ##### Some other free projects
 
 - https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
-- https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
 - https://github.com/mitchellkrogza/fail2ban-useful-scripts
+- https://github.com/mitchellkrogza/linux-server-administration-scripts
+- https://github.com/mitchellkrogza/Travis-CI-Nginx-for-Testing-Nginx-Configuration
+- https://github.com/mitchellkrogza/Travis-CI-for-Apache-For-Testing-Apache-and-PHP-Configurations
+- https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
 - https://github.com/mariusv/nginx-badbot-blocker
 
-
+#####Into Photography?
+Come drop by and visit me at https://mitchellkrog.com
 
