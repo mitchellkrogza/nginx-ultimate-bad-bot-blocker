@@ -854,6 +854,8 @@ User-agent: WebLeacher
  Disallow:/ 
 User-agent: WebmasterWorldForumBot
  Disallow:/ 
+User-agent: webmeup-crawler
+ Disallow:/ 
 User-agent: WebPix
  Disallow:/ 
 User-agent: WebReaper
@@ -903,6 +905,8 @@ User-agent: Woobot
 User-agent: Wotbox
  Disallow:/ 
 User-agent: Wprecon
+ Disallow:/ 
+User-agent: WPScan
  Disallow:/ 
 User-agent: WWW-Collector-E
  Disallow:/ 
