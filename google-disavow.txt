@@ -2007,7 +2007,6 @@ domain:lider-zhaluzi.kiev.ua
 domain:life-instyle.com
 domain:life.biz.ua
 domain:lifebyleese.com
-domain:lifehacĸer.com
 domain:light.ifmo.ru
 domain:likesdesign.com
 domain:likesuccess.com
