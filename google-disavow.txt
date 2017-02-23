@@ -1284,6 +1284,7 @@ domain:flytourisme.org
 domain:flzhiguan.com
 domain:fm-upgrade.ru
 domain:fmgrupe.it
+domain:folowsite.com
 domain:footbalive.org
 domain:for-your.website
 domain:forensicpsychiatry.ru
@@ -1897,7 +1898,6 @@ domain:koptims.tiu.ru
 domain:koronirealestate.gr
 domain:kosova.de
 domain:kosynka-games.ru
-domain:kotaku.com
 domain:kovesszucs.atw.hu
 domain:krafte.ru
 domain:kraljeva-sutjeska.com
@@ -2407,6 +2407,7 @@ domain:offers.bycontext.com
 domain:office-windows.ru
 domain:offre-meditel-telecom.tk
 domain:offtime.ru
+domain:oil-td.ru
 domain:ok.ru
 domain:oklogistic.ru
 domain:okmusic.jp
@@ -2990,6 +2991,7 @@ domain:sexblog.pw
 domain:sexkrasivo.net
 domain:sexobzor.info
 domain:sexphoto.site
+domain:sexreliz.com
 domain:sexsaoy.com
 domain:sexsearch.com
 domain:sexstream.pl
