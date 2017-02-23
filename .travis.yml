@@ -32,7 +32,7 @@ script:
   - STATUSCODE=$(curl -A "80legs" http://localhost:8080/nginx.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
   - STATUSCODE=$(curl -A "masscan" http://localhost:8080/nginx.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
   - STATUSCODE=$(curl -I http://localhost:8080/nginx.php -e http://100dollars-seo.com &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
-  - STATUSCODE=$(curl -I http://localhost:8080/nginx.php -e http://zyzzcentral.ru &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
+  - STATUSCODE=$(curl -I http://localhost:8080/nginx.php -e http://zx6.ru &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
   - cat /tmp/error.log
   - echo $TRAVIS_BUILD_DIR
   #- travisCI/do-other-stuff.sh
