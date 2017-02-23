@@ -499,7 +499,6 @@ domain:bkns.vn
 domain:black-friday.ga
 domain:blackhatworth.com
 domain:blackle.com
-domain:blackplanet.com
 domain:blackwitchcraft.ru
 domain:blagovest-med.ru
 domain:blavia.00author.com
@@ -1141,7 +1140,6 @@ domain:evehemming.blogspot.com.au
 domain:event-tracking.com
 domain:everflora.ru
 domain:evidencecleanergold.com
-domain:example.com
 domain:excaliburfilms.com
 domain:exchangeit.gq
 domain:exchanges-bet.com
@@ -2317,7 +2315,6 @@ domain:nacap.ru
 domain:nagdak.ru
 domain:nailsimg.com
 domain:nalogovyy-kodeks.ru
-domain:namecheap.com
 domain:naphukete.ru
 domain:nardulan.com
 domain:narkologiya-belgorod.ru
@@ -3338,7 +3335,6 @@ domain:theheroes.ru
 domain:thehoverboard.be
 domain:thejournal.ru
 domain:thenetinfo.com
-domain:thenextweb.com
 domain:thepokertimer.com
 domain:thetattoohut.com
 domain:thetoiletpaper.com
