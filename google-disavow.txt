@@ -1201,7 +1201,6 @@ domain:genericviagrasildenafiled.net
 domain:generousdeal-a.akamaihd.net
 domain:gentamicineyedrops.blogspot.com
 domain:germes-trans.com
-domain:gesangsunterricht-hh.de
 domain:get-free-traffic-now.com
 domain:get-seo-domain.com
 domain:get-your-social-buttons.info
@@ -1742,7 +1741,6 @@ domain:magicdiet.gq
 domain:magicplayer-s.acestream.net
 domain:maglid.ru
 domain:mail.allnews24.in
-domain:mail.ru
 domain:mainlinehobby.net
 domain:majestic.com
 domain:make-money-online.com
@@ -2785,7 +2783,6 @@ domain:studiofaca.com
 domain:stuff-about-money.com
 domain:styro.ru
 domain:success-seo.com
-domain:suche.t-online.de
 domain:sugarkun.com
 domain:suggest-keywords.com
 domain:sugvant.ru
