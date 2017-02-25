@@ -123,6 +123,7 @@ domain:adloads.net
 domain:admanaerofoil.com
 domain:adminshop.com
 domain:adnotbad.com
+domain:ads.gold
 domain:ads-cool.pro
 domain:ads-seo.men
 domain:adsfresh.men
@@ -746,6 +747,7 @@ domain:ddpills.com
 domain:de.zapmeta.com
 domain:deadlinkchecker.com
 domain:dealighted.com
+domain:dealitright.click
 domain:dealwifi.com
 domain:dear-diary.ru
 domain:decenttools.com
@@ -1727,6 +1729,7 @@ domain:luxup.ru
 domain:m1media.net
 domain:m4ever.net
 domain:mabdoola.blogspot.com
+domain:macdamaged.space
 domain:mackeeper-center.club
 domain:macnewtech.com
 domain:macresource.co.uk
@@ -2154,6 +2157,7 @@ domain:picturesify.com
 domain:pijoto.net
 domain:pila.pl
 domain:pinkduck.ga
+domain:pinstake.com
 domain:pintattoos.com
 domain:pinwallpaper.xyz
 domain:piratecams.com
@@ -2163,6 +2167,7 @@ domain:piuminiita.com
 domain:pix-hd.com
 domain:pix24x7.com
 domain:pixelrz.com
+domain:pixgood.com
 domain:pixhdawesom.com
 domain:pixsad.com
 domain:pizda.lol
