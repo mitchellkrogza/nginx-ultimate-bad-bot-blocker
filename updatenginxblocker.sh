@@ -3,7 +3,7 @@
 # Copyright - https://github.com/mitchellkrogza
 # Project Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
 
-# MAKE SURE you have your whitelist-ips.conf and whitelist-domains.conf files in /etc/nginx/bots.ds
+# MAKE SURE you have your whitelist-ips.conf and whitelist-domains.conf files in /etc/nginx/bots.d
 # A major change to using include files was introduced in
 # https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/commit/c7acdfa8228d2f19a83e5bb14d54355db86fcebf
 
