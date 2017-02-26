@@ -261,7 +261,13 @@ Updating to the latest version is now as simple as:
 
 And you will be up to date with all your whitelisted domains included automatically for you now. 
 
-Relax now and sleep better at night knowing your site is telling all those baddies FORBIDDEN !!!
+# AUTO UPDATING:
+
+See my latest auto updater bash script at:
+
+https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/updatenginxblocker.sh
+
+Relax now and sleep better at night knowing your site is telling all those baddies they are FORBIDDEN !!!
 
 ### PULL REQUESTS:
 To contribute your own bad referers please add them into the https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull%20Requests%20Here%20Please/badreferers.list file and then send a Pull Request (PR). 
