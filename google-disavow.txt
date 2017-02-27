@@ -32,6 +32,7 @@ domain:1.bp.blogspot.com
 domain:1-free-share-buttons.com
 domain:1hwy.com
 domain:1kinobig.ru
+domain:1millionusd.xyz
 domain:1pamm.ru
 domain:1stat.ru
 domain:2015god.org
@@ -1482,6 +1483,7 @@ domain:interior-stickers.ru
 domain:intermesh.net
 domain:internet-apteka.ru
 domain:intervsem.ru
+domain:intimshop-fantasy.ru
 domain:investingclub.ru
 domain:invest-pamm.ru
 domain:investpamm.ru
@@ -2201,6 +2203,7 @@ domain:pogodnyyeavarii.gq
 domain:pogruztehnik.ru
 domain:poisk-zakona.ru
 domain:pokemongooo.ml
+domain:pokemon-go-play.online
 domain:pokerniydom.ru
 domain:polcin.de
 domain:pomoc-drogowa.cba.pl
