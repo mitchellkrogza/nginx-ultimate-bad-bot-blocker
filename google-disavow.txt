@@ -1263,6 +1263,7 @@ domain:goodnightjournal.com
 domain:goodprotein.ru
 domain:googglet.com
 domain:googlefeud.com
+domain:google-liar.ru
 domain:googlemare.com
 domain:goo.ne.jp
 domain:gopixdatabase.com
@@ -1437,6 +1438,7 @@ domain:ifmo.ru
 domain:igadgetsworld.com
 domain:igrovyeavtomaty777.ru
 domain:igru-xbox.net
+domain:iinstalll-fii1leis.jus0wil.pp.ua
 domain:iklysha.ml
 domain:ilikevitaly.com
 domain:ilmen.net
@@ -1541,6 +1543,7 @@ domain:j-times.ru
 domain:juliadiets.com
 domain:juliaworld.net
 domain:jumptap.com
+domain:jus0wil.pp.ua
 domain:kaac.ru
 domain:kabbalah-red-bracelets.com
 domain:kalb.ru
@@ -2607,6 +2610,7 @@ domain:sexyteens.hol.es
 domain:sexytrend.ru
 domain:sfd-chess.ru
 domain:shakhtar-doneck.ru
+domain:sharebutton.io
 domain:sharebutton.net
 domain:sharebutton.org
 domain:sharebutton.to
@@ -3446,6 +3450,7 @@ domain:zojirushi-products.ru
 domain:zolotoy-lis.ru
 domain:zoominfo.com
 domain:zophim.me
+domain:zrizvtrnpale.tk
 domain:zryydi.com
 domain:zs2vm.top
 domain:zscaler.net
