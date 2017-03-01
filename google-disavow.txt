@@ -384,6 +384,7 @@ domain:barnfurnituremart.com
 domain:basedecor.ru
 domain:bashtime.ru
 domain:basisches-wasser.net
+domain:battlecarnival.su
 domain:bausparen.bz.it
 domain:bazaronline24.ru
 domain:bbtec.net
@@ -977,6 +978,7 @@ domain:executehosting.com
 domain:exmasters.com
 domain:exonline.info
 domain:expdom.com
+domain:expertblog.info
 domain:expertnaya-ocenka.ru
 domain:exportshop.us
 domain:expresstoplivo.ru
@@ -1011,6 +1013,7 @@ domain:f00kclan.de
 domain:f012.de
 domain:f07.de
 domain:f0815.de
+domain:fable.in.ua
 domain:failingmarriege.blogspot.com
 domain:falcoware.com
 domain:family1st.ca
@@ -1113,6 +1116,7 @@ domain:forum.poker4life.ru
 domain:forumprofi.de
 domain:forums.toucharcade.com
 domain:forum.tvmir.org
+domain:foto-sisek.porngalleries.top
 domain:foto-telok.net
 domain:fototravel.eu
 domain:fotoxxxru.com
@@ -1285,6 +1289,7 @@ domain:gratuitbaise.com
 domain:greatfind-a.akamaihd.net
 domain:greatgrace.ru
 domain:greatzip.com
+domain:greendream.com.ua
 domain:green-tea.tv
 domain:gribkovye-zabolevaniya.com
 domain:gribokstop.com
@@ -1497,6 +1502,7 @@ domain:io9.com
 domain:iplogger.org
 domain:iplusbit.blogspot.co.za
 domain:ipostroika.ru
+domain:iptool.xyz
 domain:iqbazar.ru
 domain:iqoption-bin.com
 domain:iqoption.com
@@ -1546,6 +1552,7 @@ domain:jumptap.com
 domain:jus0wil.pp.ua
 domain:kaac.ru
 domain:kabbalah-red-bracelets.com
+domain:kadashihotel.com
 domain:kalb.ru
 domain:kamagragelusa.net
 domain:kambasoft.com
@@ -1555,6 +1562,7 @@ domain:kanimage.com
 domain:karachev-city.ru
 domain:karadene.com
 domain:karusel-market.ru
+domain:kashubadesign.ru
 domain:katjimej.blog.fc2.com
 domain:katushka.net
 domain:kazan.xrus.org
@@ -1730,6 +1738,7 @@ domain:lost-alpha.ru
 domain:lostfilm-online.ru
 domain:lotto6888.com
 domain:lottospring.com
+domain:love-baby.cz
 domain:low-format.ru
 domain:lsex.xyz
 domain:lubetube.com
@@ -1788,6 +1797,7 @@ domain:maximilitary.ru
 domain:maxthon.com
 domain:mazda-roadsters.com
 domain:mbiologi.ru
+domain:mcar.in.ua
 domain:mebel-alait.ru
 domain:mebelcomplekt.ru
 domain:mebeldekor.com.ua
@@ -2280,6 +2290,7 @@ domain:prlog.ru
 domain:prod2016.com
 domain:producm.ru
 domain:productarium.com
+domain:produkto.net
 domain:prodvigator.ua
 domain:proekt-gaz.ru
 domain:proekt-mos.ru
@@ -2573,6 +2584,7 @@ domain:seo-2-0.com
 domain:seoanalyses.com
 domain:seocheki.net
 domain:seoexperimenty.ru
+domain:seofied.com
 domain:seoheap.com
 domain:seokicks.de
 domain:seo-platform.com
@@ -2683,6 +2695,7 @@ domain:slavic-magic.ru
 domain:slavkokacunko.de
 domain:slayerlife.com
 domain:sledstvie-veli.net
+domain:slim.sellany.ru
 domain:slkrm.ru
 domain:slonechka.ru
 domain:sluganarodu.ru
@@ -2979,6 +2992,7 @@ domain:touchmods.fr
 domain:tour-line.net
 domain:tovaroboom.vast.ru
 domain:toxicwap.com
+domain:toys.erolove.in
 domain:tozup.com
 domain:tpu.ru
 domain:tradedeals.biz
@@ -3275,11 +3289,13 @@ domain:wstroika.ru
 domain:wurr.voila.net
 domain:ww1943.ru
 domain:wzgyyq.com
+domain:xaijo.com
 domain:xbaboon.com
 domain:xblog.in
 domain:xboxster.ru
 domain:xclicks.net
 domain:xcombear.ru
+domain:xdoza.com
 domain:xep.info
 domain:xf0.pw
 domain:xfire.com
@@ -3396,6 +3412,7 @@ domain:yugk.net
 domain:yugo-star.ru
 domain:yunque.pluto.ro
 domain:yurgorod.ru
+domain:yur-p.ru
 domain:zahvat.ru
 domain:zaidia.xhost.ro
 domain:zaimhelp.ru
