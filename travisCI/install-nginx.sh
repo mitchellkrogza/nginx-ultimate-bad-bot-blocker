@@ -44,6 +44,8 @@ tpl "$DIR/ddos.tpl.conf" "$DIR/nginx/ddos.conf"
 tpl "$DIR/blockbots.tpl.conf" "$DIR/nginx/blockbots.conf"
 tpl "$DIR/whitelist-ips.tpl.conf" "$DIR/nginx/bots.d/whitelist-ips.conf"
 tpl "$DIR/whitelist-domains.tpl.conf" "$DIR/nginx/bots.d/whitelist-domains.conf"
+tpl "$DIR/blacklist-user-agents.tpl.conf" "$DIR/nginx/bots.d/blacklist-user-agents.conf"
+tpl "$DIR/botblocker-nginx-settings.tpl.conf" "$DIR/nginx/botblocker-nginx-settings.conf"
 tpl "$DIR/globalblacklist.tpl.conf" "$DIR/nginx/globalblacklist.conf"
 tpl "$DIR/default-site.tpl.conf" "$DIR/nginx/sites-enabled/default-site.conf"
 
