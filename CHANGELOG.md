@@ -3,9 +3,9 @@
 ###2017-03-02
 - V2.2017.05 - Added New Include Method for Including your own custom list of Bad User-Agents
   or Bots that you want to permanently block.
-  - **You must now have an /etc/nginx/bots.d/blacklist-user-agents.conf file or you will get and Nginx EMERG error**
+  - **You must now have an (/etc/nginx/bots.d/blacklist-user-agents.conf) file or you will get and Nginx EMERG error**
   - Introduced New Bash Installer Script to Ease Installation of this Bad Bot Blocker
-  - Also introduced new include file (botblocker-nginx-settings.conf) for including the rate limiting zones and server_hash settings for you in your nginx.conf file
+  - Also introduced new include file (/etc/nginx/conf.d/botblocker-nginx-settings.conf) for including the rate limiting zones and server_hash settings for you in your nginx.conf file
   **[Please read updated configuration instructions](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/CONFIGURATION.md)**
 
 ###2017-02-16

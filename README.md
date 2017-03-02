@@ -122,7 +122,7 @@ For bot's or spiders that you still want to allow but want to limit their visita
 To Make Sure you copy all the correct files you can now use a simple bash setup script for copying the files into the correct nginx folders for you:
 See: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/installnginxblocker.sh
 
-**Please Note:** the bash installer script does not carry out STEP 7 of the manual configuration instructions for you. YOU MUST edit your any vhosts files  yourself and manually add the entries in STEP 7 or the blocker will not actually be protecting any sites.
+**Please Note:** the bash installer script does not carry out STEP 7 of the manual configuration instructions for you. YOU MUST edit any vhosts files  yourself and manually add the entries in STEP 7 or the blocker will not actually be protecting any sites.
 
 ## MANUAL INSTALLATION INSTRUCTIONS
 
