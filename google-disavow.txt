@@ -37,6 +37,7 @@ domain:1pamm.ru
 domain:1stat.ru
 domain:2015god.org
 domain:202ch.com
+domain:20pascals.nl
 domain:214jaluwobapef.cf
 domain:24videos.tv
 domain:24x7-server-support.site
@@ -483,6 +484,7 @@ domain:bodybuilding-shop.biz
 domain:boleznikogi.com
 domain:bolezniorganov.ru
 domain:bombla.org
+domain:bongiornos.info
 domain:bonux.nextview.ru
 domain:boobsimge.com
 domain:bookmaker-bet.com
@@ -1156,6 +1158,7 @@ domain:ftns.ru
 domain:fuel-gas.com
 domain:fugarif.ga
 domain:fullfileaccess.com
+domain:fun2cell.net
 domain:fungamelands.com
 domain:fungirlsgames.net
 domain:funnypica.com
@@ -2207,6 +2210,7 @@ domain:platesauto.com
 domain:platinumdeals.gr
 domain:playlott.com
 domain:play-mp3.com
+domain:pliks.pl
 domain:plohaya-kreditnaya-istoriya.ru
 domain:plusnetwork.com
 domain:pmk-samara.ru
@@ -3293,6 +3297,7 @@ domain:xaijo.com
 domain:xbaboon.com
 domain:xblog.in
 domain:xboxster.ru
+domain:xcc24.pl
 domain:xclicks.net
 domain:xcombear.ru
 domain:xdoza.com
