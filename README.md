@@ -208,8 +208,11 @@ Use nano, vim or any other text editor to edit (if needed) blacklist-user-agents
 The important settings file above adds the rate limiting functions and hash_bucket settings for nginx for you. Below is what the file contains, you cn add these manually to your nginx.conf file if you so please but the include file above will do it for you ad nginx loads any .conf file in /etc/conf.d (See STEP 6)
 
 > server_names_hash_bucket_size 64;
+
 > server_names_hash_max_size 4096;
+
 > limit_req_zone $binary_remote_addr zone=flood:50m rate=90r/s;
+
 > limit_conn_zone $binary_remote_addr zone=addr:50m;
 
 **PLEASE NOTE:** The above rate limiting rules are for the DDOS filter, it may seem like high values to you but for wordpress sites with plugins and lots of images, it's not. This will not limit any real visitor to your Wordpress sites but it will immediately rate limit any aggressive bot. Remember that other bots and user agents are rate limited using a different rate limiting rule at the bottom of the globalblacklist.conf file.
