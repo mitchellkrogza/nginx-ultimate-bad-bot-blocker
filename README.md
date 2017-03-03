@@ -498,5 +498,8 @@ Many parts of the generator scripts and code running behind this project have be
 - Alexander https://github.com/shoonois
 - Steven Black https://github.com/StevenBlack
 - Fail2Ban - https://github.com/fail2ban
+- Sir Athos from StackOverFlow - http://stackoverflow.com/users/2245910/sir-athos (help with Travis Build Tagging and Committing)
+- StackOverflow - http://stackoverflow.com/ (bash scripts from hundreds of questions and answers)
+- SuperUser - http://superuser.com/ (snippets from various questions and answers)
 
 If you believe your name should be here, drop me a line.
