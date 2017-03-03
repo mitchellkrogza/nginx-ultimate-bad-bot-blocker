@@ -1314,6 +1314,7 @@ domain:groupmoney.ru
 domain:growmyfunds.ca
 domain:growshop.es
 domain:grupografico-pilar.com.ar
+domain:gsasearchengineranker.space
 domain:gsasearchengineranker.top
 domain:gsbs.com.ua
 domain:gsmlab.pl
