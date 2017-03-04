@@ -721,6 +721,7 @@ domain:crests.com
 domain:crests.org
 domain:crirussian.ru
 domain:crystalslot.com
+domain:cscwtalkto.site
 domain:cubook.supernew.org
 domain:cubs-jerseys.us
 domain:curatorimages.com
@@ -1278,6 +1279,7 @@ domain:goldenggames.com
 domain:golden-praga.ru
 domain:golmau.host.sk
 domain:gonextmedia.com
+domain:good-mummy.ru
 domain:goodnightjournal.com
 domain:goodprotein.ru
 domain:googglet.com
@@ -1313,8 +1315,10 @@ domain:groupmoney.ru
 domain:growmyfunds.ca
 domain:growshop.es
 domain:grupografico-pilar.com.ar
+domain:gsasearchengineranker.pw
 domain:gsasearchengineranker.space
 domain:gsasearchengineranker.top
+domain:gsasearchengineranker.xyz
 domain:gsbs.com.ua
 domain:gsmlab.pl
 domain:gsmtlf.ru
