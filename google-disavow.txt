@@ -28,7 +28,6 @@ domain:178evakuator178.ru
 domain:1-99seo.com
 domain:1adult.com
 domain:1bet.com
-domain:1.bp.blogspot.com
 domain:1-free-share-buttons.com
 domain:1hwy.com
 domain:1kinobig.ru
