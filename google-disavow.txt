@@ -1930,6 +1930,7 @@ domain:monitorwebsitespeed.com
 domain:monthlywinners.com
 domain:moomi-daeri.com
 domain:more-letom.ru
+domain:morepoweronmac.trade
 domain:morf.snn.gr
 domain:morlat.altervista.org
 domain:moroccosurfadventures.com
@@ -2774,6 +2775,7 @@ domain:social-s-iii.xyz
 domain:socialtrade.biz
 domain:social-vestnik.ru
 domain:soc-proof.su
+domain:soda.media
 domain:sodexo.com
 domain:sofit-dmd.ru
 domain:soft1.ru
@@ -3095,6 +3097,7 @@ domain:uchil.net
 domain:ucoz.ru
 domain:ucsol.ru
 domain:ufa.xrus.org
+domain:uhdtv.website
 domain:uhodzalijami.ru
 domain:uhod-za-sobakoj.ru
 domain:ukrup.com
@@ -3238,6 +3241,7 @@ domain:warningzscaler.heraeus.com
 domain:watchdogs-2.ru
 domain:watch-movies.ru
 domain:watchmygf.net
+domain:waterpurifier.club
 domain:wdfdocando.com
 domain:wdrake.com
 domain:we-are-gamers.com
