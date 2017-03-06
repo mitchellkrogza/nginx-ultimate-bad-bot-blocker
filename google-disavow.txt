@@ -307,6 +307,7 @@ domain:ausergrubhof.info
 domain:australia-opening-times.com
 domain:auto4style.ru
 domain:autobudpostach.club
+domain:autogrep.ru
 domain:autoloans.com
 domain:autolombard-krasnodar.ru
 domain:auto-moto-elektronika.cz
@@ -347,6 +348,7 @@ domain:ayerbo.xhost.ro
 domain:azadnegar.com
 domain:azartmix.com
 domain:azartniy-bonus.com
+domain:azazaporn.com
 domain:azazu.ru
 domain:azbaseimages.net
 domain:azbukadiets.ru
@@ -741,6 +743,7 @@ domain:cyclobenzaprinevstizanidine.blogspot.com
 domain:cymbaltaandtizanidine.blogspot.com
 domain:cyprusbuyproperties.com
 domain:cyse.tk
+domain:czat.wp.pl
 domain:dailyrank.net
 domain:dailystrength.org
 domain:dalavia.ru
@@ -1372,6 +1375,7 @@ domain:helpmymacfaster.trade
 domain:helvetia.com.ua
 domain:hem.passagen.se
 domain:herehloadibs.cf
+domain:hermesbirkinhandbagoutlets.com
 domain:hetmanship.xyz
 domain:hidefiles.org
 domain:hidemyass.com
@@ -1409,6 +1413,7 @@ domain:hotblog.top
 domain:hotdl.in
 domain:hotenergy.ru
 domain:hothor.se
+domain:hotloans.ru
 domain:hotshoppymac.com
 domain:houdom.net
 domain:housediz.com
@@ -2449,6 +2454,7 @@ domain:reklama-i-rabota.ru
 domain:reklamuss.ru
 domain:remedyotc.com
 domain:remmling.de
+domain:remontbiz.ru
 domain:remont-comp-pomosh.ru
 domain:remont-fridge-tv.ru
 domain:remontgruzovik.ru
