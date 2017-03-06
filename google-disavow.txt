@@ -4,7 +4,6 @@ domain:00author.com
 domain:00go.com
 domain:00it.com
 domain:00webcams.com
-domain:0ca29773681c7e82.com
 domain:0n-line.tv
 domain:100dollars-seo.com
 domain:101billion.com
@@ -170,7 +169,6 @@ domain:alert-fjg.xyz
 domain:alert-hgd.xyz
 domain:alert-jdh.xyz
 domain:alessandraleone.com
-domain:alexandrinearmfelt.fi
 domain:alfa9.com
 domain:alfa-img.com
 domain:alfa-medosmotr.ru
@@ -356,7 +354,6 @@ domain:azbukafree.com
 domain:azbuka-mo.ru
 domain:azlex.uz
 domain:azte.ch
-domain:b0ts.xf0.pw
 domain:babespcs.com
 domain:babieca.com
 domain:bablonow.ru
@@ -627,7 +624,6 @@ domain:cheapjerseysa.com
 domain:cheapjerseysap.com
 domain:cheapjerseysbizwholesale.us
 domain:cheapjerseysfootballshop.com
-domain:cheapjerseyssa.com
 domain:cheap-pills-norx.com
 domain:cheatcode-lita12.rhcloud.com
 domain:checkpagerank.net
@@ -764,7 +760,6 @@ domain:davebestdeals.com
 domain:daydream-studio.ru
 domain:daymusam.com
 domain:dbmkfhqk.bloger.index.hr
-domain:dbutton.net
 domain:ddlmega.net
 domain:ddospanel.com
 domain:ddpills.com
@@ -889,12 +884,10 @@ domain:e-collantes.com
 domain:ecomp3.ru
 domain:econom.co
 domain:ecookna.com.ua
-domain:edakgfvwql.ru
 domain:edelstahlschornstein-123.de
 domain:editmedios.com
 domain:edshopping.net
 domain:education-cz.ru
-domain:ef059b13f84c85630114c45a8f263c16.com
 domain:egovaleo.it
 domain:egvar.net
 domain:ekaterinburg.xrus.org
@@ -1238,7 +1231,6 @@ domain:getmiro.com
 domain:getmyads24.com
 domain:getoutofdebtfree.org
 domain:getrichquickly.info
-domain:getrichquick.ml
 domain:get-seo-domain.com
 domain:get-your-social-buttons.info
 domain:gfaq.ru
@@ -1431,9 +1423,6 @@ domain:hoverboardforsaledirect.com
 domain:howlongdoestizanidinestayinyoursystem.blogspot.com
 domain:howmuchdoestizanidinecost.blogspot.com
 domain:howopen.ru
-domain:howtostopreferralspam.com
-domain:howtostopreferralspam.eu
-domain:hozaxy.com.ua
 domain:hplaserjetpdriver8y.pen.io
 domain:hptwaakw.blog.fc2.com
 domain:hscsscotland.com
@@ -1734,14 +1723,12 @@ domain:light.ifmo.ru
 domain:likesdesign.com
 domain:likesuccess.com
 domain:liky.co.ua
-domain:lilishopstogether.com
 domain:limtu.ifmo.ru
 domain:lincolntheatre.com
 domain:linerdrilling.com
 domain:linkarena.com
 domain:linkbolic.com
 domain:linkrr.com
-domain:link.web-list.xyz
 domain:liquimondo.com
 domain:lirunet.ru
 domain:lisque.batcave.net
@@ -2529,7 +2516,6 @@ domain:sady-urala.ru
 domain:safe-app.net
 domain:sahohev.000host.co.uk
 domain:saitevpatorii.com
-domain:sakhboard.ru
 domain:sale-japan.com
 domain:saletool.ru
 domain:salutmontreal.com
@@ -2666,7 +2652,6 @@ domain:sexyteens.hol.es
 domain:sexytrend.ru
 domain:sfd-chess.ru
 domain:shakhtar-doneck.ru
-domain:sharebutton.io
 domain:sharebutton.net
 domain:sharebutton.org
 domain:sharebutton.to
@@ -3238,7 +3223,6 @@ domain:vzlom-na-zakaz.com
 domain:w3javascript.com
 domain:w7s.ru
 domain:walkme.com
-domain:wallpaperdesk.info
 domain:wallpapers-best.com
 domain:wapsite.me
 domain:wareseeker.com
@@ -3350,7 +3334,6 @@ domain:xclicks.net
 domain:xcombear.ru
 domain:xdoza.com
 domain:xep.info
-domain:xf0.pw
 domain:xfire.com
 domain:xgftnlrt.bloger.index.hr
 domain:xjlottery.com
@@ -3396,7 +3379,6 @@ domain:xn--b1agm2d.net
 domain:xn--c1acygb.xn--p1ai
 domain:xn--d1abj0abs9d.in.ua
 domain:xn--e1aggki3c.xn--80adxhks
-domain:xn----gtbdb0beu1bb8gj.xn--p1ai
 domain:xn--h1aakne2ba.xn--p1ai
 domain:xn--h1ahbi.com.ua
 domain:xn--hxazdsfy.blogspot.com
@@ -3407,9 +3389,7 @@ domain:xn--lifehacer-1rb.com
 domain:xn--oogle-wmc.com
 domain:xn--q1a.xn--b1aube0e.xn--c1acygb.xn--p1ai
 domain:xnxxandxvideos.com
-domain:xnxx.com
 domain:xnxx-n.com
-domain:xnxx.org
 domain:xolodremont.ru
 domain:xoxcenter.com
 domain:x-porno.video
