@@ -98,6 +98,7 @@ domain:aad1f4acb0a373420d9b0c4202d38d94fa.com
 domain:aadroid.net
 domain:aarbur.com
 domain:abbanreddy.com
+domain:abbp1.website
 domain:abclauncher.com
 domain:abctoppictures.net
 domain:abc.xyz
@@ -413,6 +414,7 @@ domain:bestmarriages.com
 domain:bestmobilityscooterstoday.com
 domain:bestofferswalkmydogouteveryday.gq
 domain:bestofpicture.com
+domain:bestofupload.info
 domain:bestplacetobuyeriacta.jw.lt
 domain:bestpriceninja.com
 domain:best-seo-offer.com
@@ -1224,6 +1226,7 @@ domain:generic-pills-online.com
 domain:genericviagrasildenafiled.net
 domain:generousdeal-a.akamaihd.net
 domain:gentamicineyedrops.blogspot.com
+domain:geoads.com
 domain:germes-trans.com
 domain:get-free-traffic-now.com
 domain:getlamborghini.ga
@@ -2018,6 +2021,7 @@ domain:nbsproject.ru
 domain:negociosdasha.com
 domain:negral.pluto.ro
 domain:neobux-bg.info
+domain:neodownload.webcam
 domain:nerudlogistik.ru
 domain:netallergy.ru
 domain:netfacet.net
@@ -2589,6 +2593,7 @@ domain:sdelatmebel.ru
 domain:sdi-pme.com
 domain:sdrescher.net
 domain:search-error.com
+domain:searchinquire.com
 domain:searchinterneat-a.akamaihd.net
 domain:searchkut.com
 domain:searchlock.com
@@ -2692,6 +2697,7 @@ domain:silvermature.net
 domain:similardeals.net
 domain:simplepooltips.com
 domain:simple-share-buttons.com
+domain:simply.net
 domain:sim-service.net
 domain:sims-sims.ru
 domain:sindragosa.comxa.com
@@ -2996,6 +3002,7 @@ domain:tizanidinezanaflex.blogspot.com
 domain:tkanorganizma.ru
 domain:tksn.ru
 domain:tmm-kurs.ru
+domain:tnctrx.com
 domain:todohr.com
 domain:toloka.hurtom.com
 domain:tomatis.gospartner.com
@@ -3230,6 +3237,7 @@ domain:warningwar.ru
 domain:warningzscaler.heraeus.com
 domain:watchdogs-2.ru
 domain:watch-movies.ru
+domain:watchmyfb.pl
 domain:watchmygf.net
 domain:waterpurifier.club
 domain:wdfdocando.com
@@ -3509,3 +3517,4 @@ domain:zscalerone.net
 domain:zverokruh-shop.cz
 domain:zvetki.ru
 domain:zx6.ru
+domain:zytpirwai.net
