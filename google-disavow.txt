@@ -80,6 +80,7 @@ domain:883zy.com
 domain:8gold.com
 domain:8si.ru
 domain:98oi.ru
+domain:999webdesign.com
 domain:9med.net
 domain:a342ae9750004b14b55f7310eff0ab65.com
 domain:aa08daf7e13b6345e09e92f771507fa5f4.com
@@ -1095,6 +1096,7 @@ domain:fix-website-errors.com
 domain:flash4fun.com
 domain:flavors.me
 domain:flex4launch.ru
+domain:flipper.top
 domain:f-loaded.de
 domain:floating-share-buttons.com
 domain:flooringinstallation-edmonton.com
@@ -2534,6 +2536,7 @@ domain:sanyuprojects.com
 domain:sarafangel.ru
 domain:saratov.xrus.org
 domain:sarf3omlat.com
+domain:sarm.tk
 domain:sashagreyblog.ga
 domain:savefrom.com
 domain:savememoney.co.za
