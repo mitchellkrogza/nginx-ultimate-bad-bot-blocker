@@ -123,13 +123,17 @@ domain:addray.pro
 domain:addtoadd.men
 domain:adelly.bg
 domain:adf.ly
+domain:adhome.biz
 domain:adidas.frwebs.fr
 domain:adimmix.com
 domain:adloads.net
 domain:admanaerofoil.com
+domain:admatic.com.tr
 domain:adminshop.com
 domain:adnotbad.com
+domain:adpremium.org
 domain:ads-cool.pro
+domain:adserver-e7.com
 domain:adsfresh.men
 domain:ads.gold
 domain:adsland.men
@@ -147,6 +151,7 @@ domain:advancedsoftwaresupport.com
 domain:adventureparkcostarica.com
 domain:advocatemsk.ru
 domain:advokateg.ru
+domain:adzpower.com
 domain:aero2.ru
 domain:aerogo.com
 domain:affordablewebsitesandmobileapps.com
@@ -597,6 +602,7 @@ domain:carsplate.com
 domain:cartechnic.ru
 domain:casablancamanor.co.za
 domain:cashkitten-a.akamaihd.net
+domain:cashonads.com
 domain:casinorewards.info
 domain:castingbank.ru
 domain:catalogs-parts.com
@@ -616,6 +622,7 @@ domain:centre-indigo.org.ua
 domain:centrumcoachingu.com
 domain:cercacamion.it
 domain:cezartabac.ro
+domain:cfjump.com
 domain:cfsrating.sonicwall.com
 domain:cgi2.nintendo.co.jp
 domain:chastnoeporno.com
@@ -661,6 +668,7 @@ domain:classicakuhni.ru
 domain:classiquebijoux.ru
 domain:clgrmgds.com
 domain:clicksor.com
+domain:clicksor.net
 domain:clinchimage.com
 domain:clipartnew.com
 domain:clips.ua.ac.be
@@ -887,6 +895,7 @@ domain:e-collantes.com
 domain:ecomp3.ru
 domain:econom.co
 domain:ecookna.com.ua
+domain:ecxtracking.com
 domain:edelstahlschornstein-123.de
 domain:editmedios.com
 domain:edshopping.net
@@ -1139,6 +1148,7 @@ domain:foxinsocks.ru
 domain:foxtechfpv.com
 domain:foxydeal.com
 domain:freakycheats.com
+domain:freecamdollars.com
 domain:free-floating-buttons.com
 domain:freelotto.com
 domain:freemags.cc
@@ -1235,6 +1245,7 @@ domain:getlamborghini.ga
 domain:getmiro.com
 domain:getmyads24.com
 domain:getoutofdebtfree.org
+domain:getpopunder.com
 domain:getrichquickly.info
 domain:get-seo-domain.com
 domain:get-your-social-buttons.info
@@ -1360,6 +1371,7 @@ domain:hdmoviecams.com
 domain:hdpixent.com
 domain:hdpixion.com
 domain:hdwalls.xyz
+domain:hdxnxxtube.mobi
 domain:healbio.ru
 domain:healgastro.com
 domain:healing-dysplasia.ru
@@ -1373,6 +1385,7 @@ domain:helvetia.com.ua
 domain:hem.passagen.se
 domain:herehloadibs.cf
 domain:hermesbirkinhandbagoutlets.com
+domain:herokuapp.com
 domain:hetmanship.xyz
 domain:hidefiles.org
 domain:hidemyass.com
@@ -1870,6 +1883,7 @@ domain:metaxalonevstizanidine.blogspot.com
 domain:methodsmarketing.com
 domain:mex-annushka.ru
 domain:mhi-systems.ru
+domain:mhtr.be
 domain:micasainvest.com
 domain:microsearch.ru
 domain:microsoftportal.net
@@ -2105,6 +2119,7 @@ domain:onefilms.net
 domain:one-gear.com
 domain:onetravelguides.com
 domain:onlainbesplatno.ru
+domain:onlinadverts.com
 domain:online7777.com
 domain:onlinebay.ru
 domain:onlinedomains.ru
@@ -2266,6 +2281,7 @@ domain:popup-jdh.xyz
 domain:poquoson.org
 domain:porndairy.in
 domain:porngalleries.top
+domain:pornhub.com
 domain:pornhub-forum.ga
 domain:pornhubforum.tk
 domain:pornhub-forum.uni.me
@@ -2781,6 +2797,7 @@ domain:sofit-dmd.ru
 domain:soft1.ru
 domain:softomix.com
 domain:softomix.net
+domain:softonicads.com
 domain:soft-program.com
 domain:soft-terminal.ru
 domain:softtor.com
@@ -3041,6 +3058,7 @@ domain:traffic2cash.org
 domain:trafficmania.com
 domain:trafficmonetize.org
 domain:trafficnetzwerk.de
+domain:traffique.net
 domain:traffixer.com
 domain:trahic.ru
 domain:trahvid.com
@@ -3060,6 +3078,7 @@ domain:trustedhealthtips.com
 domain:trustedmaccleaner.com
 domain:tsan.net
 domain:tsstcorpcddvdwshbbdriverfb.aircus.com
+domain:tube8.com
 domain:tuberkulezanet.ru
 domain:tuberkuleznik.ru
 domain:tuckermktg.com
@@ -3086,6 +3105,7 @@ domain:twittrading.com
 domain:twittruth.com
 domain:twojebook.pl
 domain:twu.com.ua
+domain:txxx.com
 domain:tyumen.xrus.org
 domain:u17795.netangels.ru
 domain:ua-company.ru
@@ -3194,6 +3214,7 @@ domain:visa-china.ru
 domain:visa-pasport.ru
 domain:visionwell.com.cn
 domain:vita.com.hr
+domain:vitalads.net
 domain:vitanail.ru
 domain:viven.host.sk
 domain:vizag.kharkov.ua
@@ -3411,6 +3432,7 @@ domain:x-rates.ru
 domain:xrus.org
 domain:xsion.net
 domain:x-stars.ru
+domain:xtube.com
 domain:xtubeporno.net
 domain:xuki.us
 domain:xvideosbay.com
@@ -3427,6 +3449,7 @@ domain:yaaknaa.info
 domain:yaderenergy.ru
 domain:yadro.ru
 domain:yaminecraft.ru
+domain:yatrk.xyz
 domain:yeartwit.com
 domain:yebocasino.com
 domain:yebocasino.co.za
