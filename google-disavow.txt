@@ -735,6 +735,7 @@ domain:cscwtalkto.site
 domain:cubook.supernew.org
 domain:cubs-jerseys.us
 domain:curatorimages.com
+domain:custodieva.ru
 domain:customboxes4less.com
 domain:customcatchcan.com
 domain:customchocolate.business-for-home.com
@@ -1206,6 +1207,7 @@ domain:galeon.com
 domain:gallerily.com
 domain:gallerylisting.com
 domain:gallictures.com
+domain:gamblingnerd.com
 domain:game-mmorpg.net
 domain:gameonasia.com
 domain:gameplexcity.com
@@ -2774,6 +2776,7 @@ domain:snip.tw
 domain:snjack.info
 domain:snjatie-geroinovoy-lomki.ru
 domain:snomer1.ru
+domain:snow.nvr163.com
 domain:snowplanes.com
 domain:snts.shell-pmr.ru
 domain:snworks.com
