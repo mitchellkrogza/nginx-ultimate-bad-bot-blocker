@@ -65,6 +65,7 @@ domain:4ureyesonly.com
 domain:4webmasters.com
 domain:5000-cotydzien.com
 domain:51.la
+domain:57883.net
 domain:5elementov.ru
 domain:5forex.ru
 domain:5i2.net
@@ -1408,6 +1409,7 @@ domain:hmywwogw.bloger.index.hr
 domain:hobild.net
 domain:hol.es
 domain:holidaypics.org
+domain:hollywoodactress.info
 domain:homeandhealth.ru
 domain:homedecorpicture.us
 domain:homedo.fabpage.com
@@ -1972,6 +1974,7 @@ domain:moyakuhnia.ru
 domain:moyaterapiya.ru
 domain:moz.com
 domain:mp3films.ru
+domain:mp3ringtone.info
 domain:mrcsa.com.au
 domain:mrinsidesales.com
 domain:mriyadh.com
@@ -2006,6 +2009,7 @@ domain:mydirtystuff.com
 domain:mydownloadengine.com
 domain:mydownlodablefiles.com
 domain:myfreemp3.eu
+domain:myfreetutorials.com
 domain:myftpupload.com
 domain:myhealthcare.com
 domain:myhitmp3.club
@@ -3144,6 +3148,7 @@ domain:underthesite.com
 domain:uni.me
 domain:unimodemhalfduplefw.pen.io
 domain:unitygame3d.com
+domain:universals.com.ua
 domain:unmaroll.ya.ru
 domain:unpredictable.ga
 domain:uogonline.com
@@ -3166,6 +3171,7 @@ domain:userequip.com
 domain:ussearche.cf
 domain:ustion.ru
 domain:utrolive.ru
+domain:uvozdeckych.info
 domain:uytmaster.ru
 domain:uzungil.com
 domain:v24s.net
