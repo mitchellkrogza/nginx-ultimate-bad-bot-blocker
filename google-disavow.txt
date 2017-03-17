@@ -71,6 +71,7 @@ domain:5forex.ru
 domain:5i2.net
 domain:5kstore.com
 domain:6hopping.com
+domain:72-news.com
 domain:76brighton.co.uk
 domain:7fon.ru
 domain:7makemoneyonline.com
@@ -1183,6 +1184,7 @@ domain:front.ru
 domain:front.to
 domain:frvo.alptandem.ru
 domain:fsalas.com
+domain:fspys.pl
 domain:ftns.ru
 domain:fuel-gas.com
 domain:fugarif.ga
@@ -1566,6 +1568,7 @@ domain:istizanidinelikexanax.blogspot.com
 domain:istmira.ru
 domain:istock-mebel.ru
 domain:itbc.kiev.ua
+domain:itis4you.com
 domain:it-max.com.ua
 domain:itrevolution.cf
 domain:itronics.ca
@@ -1601,6 +1604,7 @@ domain:juliadiets.com
 domain:juliaworld.net
 domain:jumptap.com
 domain:jus0wil.pp.ua
+domain:justdating.online
 domain:kaac.ru
 domain:kabbalah-red-bracelets.com
 domain:kadashihotel.com
@@ -1631,6 +1635,7 @@ domain:keywordsuggest.org
 domain:keywordteam.net
 domain:kidd.reunionwatch.com
 domain:kiev.ua
+domain:kiinomaniak.pl
 domain:kinobaks.com
 domain:kinocccp.net
 domain:kinofak.net
@@ -1801,6 +1806,7 @@ domain:m1media.net
 domain:m4ever.net
 domain:mabdoola.blogspot.com
 domain:macdamaged.space
+domain:macdamaged.tech
 domain:mackeeper-center.club
 domain:macnewtech.com
 domain:macresource.co.uk
@@ -1944,6 +1950,7 @@ domain:mole.pluto.ro
 domain:monarchfind-a.akamaihd.net
 domain:monarhs.info
 domain:monetizationking.net
+domain:monetizer.com-01.site
 domain:money-every-day.com
 domain:moneymaster.ru
 domain:moneytop.ru
@@ -2115,6 +2122,7 @@ domain:offers.bycontext.com
 domain:office-windows.ru
 domain:offtime.ru
 domain:oil-td.ru
+domain:okel.co
 domain:oklogistic.ru
 domain:okmusic.jp
 domain:okout.ru
@@ -2523,6 +2531,7 @@ domain:rostov.xrus.org
 domain:royal-betting.net
 domain:royalcar-ufa.ru
 domain:royal-investments.net
+domain:royalvegascasino.com
 domain:rozalli.com
 domain:roznica.com.ua
 domain:rp9.ru
@@ -2754,6 +2763,7 @@ domain:skachat-besplatno-dlja-mobily.ru
 domain:skachat-besplatno-obrazcy.ru
 domain:sk.golden-praga.ru
 domain:skhoolimg.com
+domain:skincrate.net
 domain:sklad-24.ru
 domain:skladvaz.ru
 domain:skylta.com
@@ -2823,6 +2833,7 @@ domain:solnplast.ru
 domain:sonata-arctica.wz.cz
 domain:songoo.wz.cz
 domain:sonnikforme.ru
+domain:sophang8.com
 domain:sortthemesitesby.com
 domain:sotkal.lark.ru
 domain:soundfrost.org
@@ -3120,6 +3131,7 @@ domain:twinderbella.com
 domain:twitlinks.com
 domain:twittrading.com
 domain:twittruth.com
+domain:twodollarshows.com
 domain:twojebook.pl
 domain:twu.com.ua
 domain:txxx.com
@@ -3190,6 +3202,7 @@ domain:vedomstvo.net
 domain:veerotech.com
 domain:vegan-foods.us
 domain:vegascosmetics.ru
+domain:vektorpress.ru
 domain:vekzdorov.ru
 domain:velobikestock.com
 domain:venta-prom.ru
@@ -3313,6 +3326,7 @@ domain:wedding-salon.net
 domain:weebly.com
 domain:weekes.biz.tc
 domain:weightatraining.com
+domain:wejdz-tu.pl
 domain:welck.octopis.com
 domain:welcomeauto.ru
 domain:wenimage.com
@@ -3346,6 +3360,7 @@ domain:wineitudes.wordpress.com
 domain:wingsoffury2.com
 domain:winner7777.net
 domain:winterclassichockeyjerseys.com
+domain:winwotgold.pl
 domain:winx-play.ru
 domain:witherrom55.eklablog.fr
 domain:w-journal.ru
@@ -3375,6 +3390,7 @@ domain:wsgames.ru
 domain:wstroika.ru
 domain:wurr.voila.net
 domain:ww1943.ru
+domain:wygraj-teraz.com
 domain:wzgyyq.com
 domain:xaijo.com
 domain:xbaboon.com
