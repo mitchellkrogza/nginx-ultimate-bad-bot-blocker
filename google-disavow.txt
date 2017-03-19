@@ -116,6 +116,7 @@ domain:acc.eu.org
 domain:acheterviagrafr24.com
 domain:actionnooz.com
 domain:actremage.com
+domain:actulite.com
 domain:adcash.com
 domain:adclickservice.com
 domain:adclickthru.net
@@ -670,6 +671,7 @@ domain:clarithromycin500mg.com
 domain:clash-clans.ru
 domain:classicakuhni.ru
 domain:classiquebijoux.ru
+domain:claytransformations.info
 domain:clgrmgds.com
 domain:clicksor.com
 domain:clicksor.net
@@ -813,6 +815,7 @@ domain:dfwu1019.info
 domain:diarioaconcagua.com
 domain:diegolopezcastan.com
 domain:diesel-parts28.ru
+domain:dieswaene.com
 domain:diffbot.com
 domain:digest-project.ru
 domain:digilander.libero.it
@@ -888,6 +891,7 @@ domain:dvrlists.com
 domain:dyshagi.ru
 domain:eandsgallery.com
 domain:eaplay.ru
+domain:earl-brown.info
 domain:eas-seo.com
 domain:easycommerce.cf
 domain:easync.io
@@ -1552,6 +1556,7 @@ domain:iqbazar.ru
 domain:iqoption-bin.com
 domain:iqoption.com
 domain:iqoption.pro
+domain:iqs.biz.ua
 domain:iradiology.ru
 domain:irunfar.com
 domain:i-service.kz
@@ -1633,6 +1638,7 @@ domain:keywords-monitoring-your-success.com
 domain:keyword-suggestions.com
 domain:keywordsuggest.org
 domain:keywordteam.net
+domain:kfon.eu
 domain:kidd.reunionwatch.com
 domain:kiev.ua
 domain:kiinomaniak.pl
@@ -1966,6 +1972,7 @@ domain:moscow-clining.ru
 domain:moscow-region.ru
 domain:moscow.xrus.org
 domain:mosdverka.ru
+domain:moskva.nodup.ru
 domain:mosrif.ru
 domain:mossmesi.com
 domain:mostantikor.ru
@@ -2249,6 +2256,7 @@ domain:picsfair.com
 domain:pics-group.com
 domain:picture-group.com
 domain:picturesify.com
+domain:picturesmania.com
 domain:pijoto.net
 domain:pila.pl
 domain:pinkduck.ga
@@ -3266,6 +3274,7 @@ domain:vodkoved.ru
 domain:volgograd.xrus.org
 domain:voloomoney.com
 domain:volume-pills.biz
+domain:vonradio.com
 domain:voprosotvet24.ru
 domain:voronezh.xrus.org
 domain:vostoktrade.info
@@ -3409,6 +3418,7 @@ domain:xkaz.org
 domain:x-lime.net
 domain:xlolitka.com
 domain:xlovecam.com
+domain:xmlinde.com
 domain:xn--1-8sbcpb0bdm8k6a.xn--p1ai
 domain:xn--24-glceagatoq7c2a6ioc.xn--p1ai
 domain:xn-----6kcaacnblni5c5bicdpcmficy.xn--p1ai
