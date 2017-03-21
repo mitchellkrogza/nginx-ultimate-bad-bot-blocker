@@ -1295,6 +1295,7 @@ domain:go2jump.org
 domain:go2mike.ru
 domain:gobongo.info
 domain:goforexvps.com
+domain:gogalleryawesome.com
 domain:gogps.me
 domain:gojiberriess.apishops.ru
 domain:gok-kasten.net
@@ -2270,6 +2271,7 @@ domain:pirateday.ru
 domain:piter.xrus.org
 domain:piuminiita.com
 domain:pix24x7.com
+domain:pixell.club
 domain:pixelrz.com
 domain:pixgood.com
 domain:pixhdawesom.com
