@@ -78,6 +78,7 @@ domain:7makemoneyonline.com
 domain:7wind.ru
 domain:7yue.org
 domain:7zap.com
+domain:8558l.jobs.net
 domain:883zy.com
 domain:8gold.com
 domain:8si.ru
@@ -2315,7 +2316,6 @@ domain:popup-jdh.xyz
 domain:poquoson.org
 domain:porndairy.in
 domain:porngalleries.top
-domain:pornhub.com
 domain:pornhub-forum.ga
 domain:pornhubforum.tk
 domain:pornhub-forum.uni.me
@@ -3506,6 +3506,7 @@ domain:yeartwit.com
 domain:yebocasino.com
 domain:yebocasino.co.za
 domain:ynymnwbm.bloger.index.hr
+domain:yogamatsexpert.com
 domain:yorkshireccc.com
 domain:yorkshire.com
 domain:youandcredit.ru
