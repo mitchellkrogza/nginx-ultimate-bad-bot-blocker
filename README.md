@@ -486,10 +486,11 @@ SOFTWARE.
 #####Into Photography?
 Come drop by and visit me at https://mitchellkrog.com
 
-###Acknowledgements:
+###Acknowledgements & Contributors:
 
 Many parts of the generator scripts and code running behind this project have been adapted from multiple sources. In fact it's so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. Show them some love and check out some of their projects too
 
+- Stuart Cardall - https://github.com/itoffshore (Cross Platform Improvements to Update Script and man pages for Alpine Linux)
 - Stevie-Ray Hartog https://github.com/Stevie-Ray
 - Marius Voila https://github.com/mariusv
 - Cătălin Mariș https://github.com/alrra
