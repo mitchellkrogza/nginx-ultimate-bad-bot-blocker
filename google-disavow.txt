@@ -121,6 +121,7 @@ domain:actulite.com
 domain:adcash.com
 domain:adclickservice.com
 domain:adclickthru.net
+domain:add-add.men
 domain:addbin.men
 domain:addblueoff.com.ua
 domain:addray.pro
@@ -130,6 +131,7 @@ domain:adf.ly
 domain:adhome.biz
 domain:adidas.frwebs.fr
 domain:adimmix.com
+domain:adloads.com
 domain:adloads.net
 domain:admanaerofoil.com
 domain:admatic.com.tr
@@ -780,6 +782,7 @@ domain:datsun-do.com
 domain:davebestdeals.com
 domain:daydream-studio.ru
 domain:daymusam.com
+domain:day-news.info
 domain:dbmkfhqk.bloger.index.hr
 domain:ddlmega.net
 domain:ddospanel.com
@@ -1315,6 +1318,7 @@ domain:googglet.com
 domain:googlefeud.com
 domain:google-liar.ru
 domain:googlemare.com
+domain:googst2.ru
 domain:goo.ne.jp
 domain:gopixdatabase.com
 domain:gopro-online.info
@@ -1702,6 +1706,7 @@ domain:krasivoe-hd.net
 domain:krasivye-devushki.net
 domain:krasnodar.ru
 domain:krasnodar.xrus.org
+domain:kredit-pod-zalog-krasnodar.ru
 domain:krynica.info
 domain:ks1234.com
 domain:ktotut.net
@@ -1769,6 +1774,7 @@ domain:light.ifmo.ru
 domain:likesdesign.com
 domain:likesuccess.com
 domain:liky.co.ua
+domain:limads.men
 domain:limtu.ifmo.ru
 domain:lincolntheatre.com
 domain:linerdrilling.com
@@ -1851,6 +1857,7 @@ domain:mapquestz.us
 domain:mararoom.ru
 domain:marblestyle.ru
 domain:marcogrup.com
+domain:marcowebonyodziezowe.pl
 domain:maridan.com.ua
 domain:marketland.ml
 domain:marktforschung-stuttgart.com
@@ -2136,6 +2143,7 @@ domain:odywpjtw.bloger.index.hr
 domain:offer.camp
 domain:offers.bycontext.com
 domain:office-windows.ru
+domain:offside2.5v.pl
 domain:offtime.ru
 domain:oil-td.ru
 domain:okel.co
@@ -2173,6 +2181,7 @@ domain:onload.pw
 domain:onlyforemont.ru
 domain:onlythegames.com
 domain:onlywoman.org
+domain:ons-add.men
 domain:onstrapon.purplesphere.in
 domain:o-o-11-o-o.com
 domain:o-o-6-o-o.com
@@ -2222,6 +2231,8 @@ domain:paperics.com
 domain:paperwritingservice17.blogspot.ru
 domain:paradontozanet.ru
 domain:parlament.biz
+domain:partner-cdn.men
+domain:partner-print.men
 domain:partybunny.ru
 domain:pathwhelp.org
 domain:pattersonsweb.com
@@ -2603,6 +2614,7 @@ domain:savetubevideo.com
 domain:savingsslider-a.akamaihd.net
 domain:savne.org
 domain:sax-sex.com
+domain:sayyoethe.blogspot.co.za
 domain:sbdl.no
 domain:sbetodiodnye-lampy.ru
 domain:sbornik-zakonov.ru
@@ -2646,6 +2658,7 @@ domain:scansafe.net
 domain:scenarii-1-sentyabrya.uroki.org.ua
 domain:scenicmissouri.us
 domain:school-diplomat.ru
+domain:scoopquest.com
 domain:score-ads.men
 domain:screentoolkit.com
 domain:scripted.com
@@ -2736,6 +2749,7 @@ domain:shlyahten.ru
 domain:shmetall.com.ua
 domain:shodanhq.com
 domain:shop.acim.org
+domain:shopcheermakeup.info
 domain:shop-electron.ru
 domain:shoppingmiracles.co.uk
 domain:shoppytoolmac.com
@@ -2797,6 +2811,7 @@ domain:sledstvie-veli.net
 domain:slim.sellany.ru
 domain:slkrm.ru
 domain:slonechka.ru
+domain:slowmacfaster.trade
 domain:sluganarodu.ru
 domain:slujbauborki.ru
 domain:smailik.org
@@ -2884,6 +2899,7 @@ domain:spy-sts.com
 domain:squidoo.com
 domain:srdrvp.com
 domain:srecorder.com
+domain:sstroy44.ru
 domain:stackthatbucks.com
 domain:stairliftsarea.com
 domain:stairliftstrue.com
@@ -3412,6 +3428,7 @@ domain:wsgames.ru
 domain:wstroika.ru
 domain:wurr.voila.net
 domain:ww1943.ru
+domain:wygraj-skiny.win
 domain:wygraj-teraz.com
 domain:wzgyyq.com
 domain:xaijo.com
@@ -3519,6 +3536,7 @@ domain:yorkshireccc.com
 domain:yorkshire.com
 domain:youandcredit.ru
 domain:youbloodyripper.com
+domain:youdao.com
 domain:youdesigner.kz
 domain:yougetsignal.com
 domain:youghbould.wordpress.com
