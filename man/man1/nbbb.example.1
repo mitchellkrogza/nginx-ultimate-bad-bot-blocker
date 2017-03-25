@@ -1,0 +1,145 @@
+.TH "nbbb.example" 1 "23rd March 2017" "version: 2.2017.05" "Example SSL configuration"
+.SH NGINX Example SSL configuration file for the NGINX Ultimate Bad Bot Blocker
+using a Free SSL Certificate from Let's Encrypt
+.PP
+If this helps you You can buy me a beer \[la]https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG\[ra] or send some cheese for my mouse \[la]https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create\[ra]
+.PP
+The sample NGINX configuration below is for an SSL site and includes the very important http (port 80) redirect to https (Port 443) which a lot of people tend to forget about. The configuration example below uses a Free SSL certificate from \[la]https://letsencrypt.org\[ra]
+.PP
+Make sure to test and reload nginx when you make changes. \fB\fCsudo nginx \-t\fR and if no errors then \fB\fCsudo service nginx reload\fR
+.SH To Test Bad Referers
+.PP
+Then you must test running the following from the command line of another unix machine.
+.PP
+\fB\fCcurl \-I https://yourdomain.com \-e http://100dollars\-seo.com\fR
+.PP
+\fB\fCcurl \-I https://yourdomain.com \-e http://xxxrus.org\fR
+.PP
+\fB\fCcurl \-I https://yourdomain.com \-e https://100dollars\-seo.com\fR
+.PP
+\fB\fCcurl \-I https://yourdomain.com \-e https://sexobzor.info\fR
+.PP
+\fB\fCcurl \-I https://yourdomain.com \-e ftp://sexobzor.info\fR
+.PP
+You will get an empty reply meaning the Nginx Bad Bot Blocker is working. You will also notice if a bad referer comes from http://, https:// or even ftp:// it is blocked due to the special regex in this blocker which ignores whether it comes from http://, https:// or even ftp:// it is detected and BLOCKED !!!
+.PP
+Then try the following commands against your http site
+.PP
+\fB\fCcurl \-I http://yourdomain.com \-e http://100dollars\-seo.com\fR
+.PP
+\fB\fCcurl \-I http://yourdomain.com \-e http://xxxrus.org\fR
+.PP
+\fB\fCcurl \-I http://yourdomain.com \-e https://100dollars\-seo.com\fR
+.PP
+\fB\fCcurl \-I http://yourdomain.com \-e https://sexobzor.info\fR
+.PP
+You should see the response give you a 301 redirect:
+.PP
+.RS
+.nf
+HTTP/1.1 301 Moved Permanently
+Location: https://yourdomain.com/
+.fi
+.RE
+.PP
+This means it is redirecting all http traffic (port 80) to https (port 443). At this point most bad bots and bad referrers give up and will not even bother to follow the redirect. If they do however they will get blocked. 
+.PP
+\fBNOTE:\fP
+I have overridden this behavior in the example below by also adding the include into the port80 site's configuration section before the Redirect conditions take effect. Which means bots and bad referers hitting your http site will get blocked and will not even be shown the redirect to your https site.
+.SH To Test Bad User Agents
+.PP
+To test further, install User\-Agent Switcher for Chrome, set up a few bad bots like 80legs, masscan, AhrefsBot and switch to them while viewing your site in Chrome and you will see 403 Forbidden errors meaning the Nginx Bad Bot Blocker is working.
+.PP
+Or again using for those who love the command line. On another unix machine try some of these.
+.PP
+\fB\fCcurl \-A "80Legs" https://yourdomain.com\fR
+.PP
+\fB\fCcurl \-A "websucker" https://yourdomain.com\fR
+.PP
+\fB\fCcurl \-A "masscan" https://yourdomain.com\fR
+.PP
+\fB\fCcurl \-A "WeBsuCkEr" https://yourdomain.com\fR
+.PP
+\fB\fCcurl \-A "WeB suCkEr" https://yourdomain.com\fR
+.PP
+\fB\fCcurl \-A "Exabot" https://yourdomain.com\fR
+.PP
+You will get 403 forbidden responses on all of them meaning the Nginx Bad Bot Blocker is working 100%. You will also notice if a bot like websucker changes it's name to WeBsuCkEr it is detected regardless due to the wonderful case insensitive matching regex of this blocker. Test against any bot or referrer string in the bot blocker and you will always get a 403 forbidden. 
+.SH To Test Good User Agents
+.PP
+Try some of these from the command line of another unix machine and you will see that good bots specified in the Nginx Bad Bot blocker are granted access.
+.PP
+\fB\fCcurl \-A "GoogleBot" https://yourdomain.com\fR
+.PP
+\fB\fCcurl \-A "BingBot" https://yourdomain.com\fR
+.PP
+Now you can rest knowing your site is protected against over 4000 and growing bad bots and spam referrers and allowing all the good one's through. 
+.PP
+Enjoy it and what this will do for your web site.
+.SH Make sure to keep your /etc/conf.d/globalblacklist.conf file up to date
+.PP
+New referrers and bots are added every other day. Each time you update \fBMAKE SURE\fP to copy your whitelist section of IP addresses into the new file. A set of generator scripts are coming soon which will ease this burden for you allowing you to pull daily from the GIT repo and compile the scripts on your server automatically including your whitelisted IP's each time. These generator scripts are coming soon so please be patient as they have to be thoroughly tested for public use before I release them. 
+.PP
+(See at very bottom of this page for all the Cloudflare IP ranges you should be whitelisting if you are on Cloudflare)
+.SH EXAMPLE Nginx SSL site configuration file. (/etc/nginx/sites\-available/yourdomain.com")
+.PP
+.RS
+.nf
+server {
+    # SSL configuration
+    listen 443 ssl http2;
+    root /var/www/yourdomain.com;
+    server_name yourdomain.com www.yourdomain.com;
+    charset UTF\-8;
+    # Logging for the SSL version of our site
+    access_log /var/log/nginx/yourdomain.com\-access.log;
+    error_log /var/log/nginx/yourdomain.com\-error.log;
+
+    # SSL Configuration
+    # First include our certificates and chain of trust \- Using Let's Encrypt Free SSL
+    ssl_certificate /etc/letsencrypt/live/yourdomain.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/yourdomain.com/privkey.pem;
+    ssl_trusted_certificate /etc/letsencrypt/live/yourdomain.com/chain.pem;
+    # Diffie\-Hellman parameter for DHE ciphersuites, recommended 2048 bits
+    ssl_dhparam /etc/nginx/ssl/dhparam.pem;
+    ssl_session_timeout 1d;
+    ssl_session_cache shared:SSL:128m;
+    ssl_session_tickets off;
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+    # ciphers recommended by https://mozilla.github.io/server\-side\-tls/ssl\-config\-generator/
+    ssl_ciphers 'ECDHE\-ECDSA\-CHACHA20\-POLY1305:ECDHE\-RSA\-CHACHA20\-POLY1305:ECDHE\-ECDSA\-AES128\-GCM\-SHA256:ECDHE\-RSA\-AES128\-GCM\-SHA256:ECDHE\-ECDSA\-AES256\-GCM\-SHA384:ECDHE\-RSA\-AES256\-GCM\-SHA384:DHE\-RSA\-AES128\-GCM\-SHA256:DHE\-RSA\-AES256\-GCM\-SHA384:ECDHE\-ECDSA\-AES128\-SHA256:ECDHE\-RSA\-AES128\-SHA256:ECDHE\-ECDSA\-AES128\-SHA:ECDHE\-RSA\-AES256\-SHA384:ECDHE\-RSA\-AES128\-SHA:ECDHE\-ECDSA\-AES256\-SHA384:ECDHE\-ECDSA\-AES256\-SHA:ECDHE\-RSA\-AES256\-SHA:DHE\-RSA\-AES128\-SHA256:DHE\-RSA\-AES128\-SHA:DHE\-RSA\-AES256\-SHA256:DHE\-RSA\-AES256\-SHA:ECDHE\-ECDSA\-DES\-CBC3\-SHA:ECDHE\-RSA\-DES\-CBC3\-SHA:EDH\-RSA\-DES\-CBC3\-SHA:AES128\-GCM\-SHA256:AES256\-GCM\-SHA384:AES128\-SHA256:AES256\-SHA256:AES128\-SHA:AES256\-SHA:DES\-CBC3\-SHA:!DSS';
+    ssl_prefer_server_ciphers on;
+    add_header Strict\-Transport\-Security "max\-age=31536000; includeSubDomains";
+    ssl_stapling on;
+    ssl_stapling_verify on;
+
+    # Include our X\- Headers for Browser Cross\-Sniffing
+        add_header X\-Frame\-Options SAMEORIGIN;
+        add_header X\-Content\-Type\-Options nosniff;
+        add_header X\-XSS\-Protection "1; mode=block";
+
+
+    # ADD THE NGINX BAD BOT BLOCKER HERE (Please read full setup instructions)
+    include /etc/nginx/bots.d/blockbots.conf;
+    include /etc/nginx/bots.d/ddos.conf;
+
+    # Include Any Custom Configurations and Location Directives Here
+
+# END OF SSL HOST CONFIG \- CLOSING BRACE BELOW THIS LINE
+}
+server {
+    # NOW WE REDIRECT ALL PORT 80 TRAFFIC TO PORT 443
+    listen 80;
+    server_name yourdomain.com www.yourdomain.com;
+    # Block Bad Bots even before they even get redirected
+    include /etc/nginx/bots.d/blockbots.conf;
+    include /etc/nginx/bots.d/ddos.conf;
+      return 301 https://yourdomain.com$request_uri;
+    # HAVE SEPARATE LOGGING FOR PORT 80 (otherwise use same log location as SSL site)
+    access_log /var/log/nginx/yourdomain.com\-80\-access.log;
+    error_log /var/log/nginx/yourdomain.com\-80\-error.log;
+# END OF HTTP PORT 80 HOST CONFIG \- CLOSING BRACE BELOW THIS LINE
+}
+.fi
+.RE
+.SS If this helped you You can buy me a beer \[la]https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG\[ra] or send some cheese for my mouse \[la]https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create\[ra]

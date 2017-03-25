@@ -1,0 +1,548 @@
+.TH "nbbb.readme" 1 "23rd March 2017" "version: 2.2017.05" "README"
+.SH The Ultimate Nginx Bad Bot Blocker
+User\-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker, Click Re\-Directing Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking
+.SS If this helps you You can buy me a beer \[la]https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG\[ra] or send some cheese for my mouse \[la]https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create\[ra]
+.SS Created by: \[la]https://github.com/mitchellkrogza\[ra]
+.SS Copyright Mitchell Krog \[la]mitchellkrog@gmail.com\[ra]
+.SH Configuration instructions:
+.RS
+.IP \(bu 2
+For Nginx Web Server \- \[la]https://www.nginx.com/\[ra]
+.IP \(bu 2
+See sample Nginx Vhost config at: (Please read full instructions too) \[la]https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md\[ra]
+.IP \(bu 2
+Includes the creation of a google\-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
+.IP \(bu 2
+Includes the creation of a google\-disavow.txt file for use in Google Webmaster Tools (see instructions lower down)
+.RE
+.SS WHY BLOCK BAD BOTS ?
+.SS Bad bots are:
+.RS
+.IP \(bu 2
+Bad Referrers
+.IP \(bu 2
+Bad User\-Agent Strings
+.IP \(bu 2
+Spam Referrers
+.IP \(bu 2
+Spam Bots and Bad Bots
+.IP \(bu 2
+Sites Linked to Lucrative Malware, Adware and Ransomware Clickjacking Campaigns
+.IP \(bu 2
+Vulnerability scanners
+.IP \(bu 2
+Gambling and Porn Web Sites
+.IP \(bu 2
+E\-mail harvesters
+.IP \(bu 2
+Content scrapers
+.IP \(bu 2
+Aggressive bots that scrape content
+.IP \(bu 2
+Image Hotlinking Sites and Image Thieves
+.IP \(bu 2
+Bots or Servers linked to viruses or malware
+.IP \(bu 2
+Government surveillance bots
+.IP \(bu 2
+Botnet Attack Networks (Mirai)
+.IP \(bu 2
+Known Wordpress Theme Detectors (Updated Regularly)
+.IP \(bu 2
+SEO companies that your competitors use to try improve their SEO
+.IP \(bu 2
+Link Research and Backlink Testing Tools
+.IP \(bu 2
+Stopping Google Analytics Ghost Spam
+.IP \(bu 2
+Browser Adware and Malware (Yontoo etc)
+.RE
+.PP
+(4520 bad referers, spam referrers, user\-agents, bad bots, bad IP's, porn, gambling and clickjacking sites, seo companies and counting)
+.SS If this helps you why not buy me a beer \[la]https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG\[ra]:beer: or send some cheese for my mouse \[la]https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create\[ra]
+.SH Welcome to the Ultimate Nginx Bad Bot Blocker
+User\-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Click\-Jacking Blocker, Click\-Redirect Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking.
+.PP
+Bots attempt to make themselves look like other software or web sites by disguising their user agent.  Their user agent names may look harmless, perfectly legitimate even. 
+.PP
+For example, " but according to Project Honeypot, it's actually one of the most dangerous BUT a lot of legitimate bots out there have "Java" in their user agent string so the approach taken by many to block "Java" is not only ignorant but also blocking out very legitimate crawlers including some of Google's and Bing's and makes it very clear to me that those people writing bot blocking scripts seldom ever test them. 
+.PP
+Spam Referrers and Spam Domain Names use very clever techniques to hop off your sites running very lucrative click\-jacking and click\-redirecting campaigns which serve ads to unsuspecting people browsing the web or even planting malware, adware or ransomware into their browsers which then become part of their lucrative network of bots. 
+.PP
+This Bot Blocker includes hundreds of domain names and IP addresses that most people will not even see in their Nginx logs. This comes as a result of all my sites running of SSL and using Content\-Security\-Policy (CSP) which blocks things before they even get to Nginx and I have picked up and continue to pick up some of the worst domains and bots out there. 
+.PP
+A massive amount of Porn, Gambling and Fake News web sites are also blocked in this blocker script which also grows at a rapid pace.
+.PP
+Unfortunately most bot blocker scripts out there are simply copy and pasted from other people's scripts and made  to look like their own work. This one  was inspired by the one created by \[la]https://github.com/mariusv\[ra] and I  contributed to that project but went off into a totally new layout, cleaned it up big time and started from scratch. It is now a completely independent project. It's clean, it works and has been thoroughly tested.
+.SS THE BASICS
+.PP
+This nginx bad bot bot blocker list is designed to be a global Nginx include file and uses the Nginx map $http\fIuser\fPagent, map $http\fIreferer and geo $validate\fPclient directives.
+.PP
+This way the .conf file is loaded once into memory by Nginx and is available to all web
+sites that you operate. You simply need to use an Include statement in an Nginx vhost conf file.
+.PP
+My methods uses \fBno complex regex\fP other than the Name of the Bot. Nginx case matching will do the rest.  You can use Regex if you like but it's NOT needed and I proved it by testing with the Chrome extension User\-Agent Switcher for Chrome. (handy util and a must for everyone to test these kinds of blocking scripts)
+.RS
+.IP \(bu 2
+The user agent "Aboundex" is found without using "~*Aboundex" ... which means a case insensitive match and is much simpler for anyone to maintain than other lists using complicated and messy Regex patterns.
+.IP \(bu 2
+If we have a rule, like "~*Image\[rs] Stripper" and a bot decides to change its User\-Agent string to "NOT Image Stripper I Promise" he is picked up regardless and blocked immediately. 
+.RE
+.PP
+I only capitalise bot names in my list for ease of reading and maintenance, remember its 
+not case\-sensitive so will catch any combination like "Bot" "bOt" and "bOT".
+.PP
+For those of you who SUCK with Regex my Nginx Bad Bot Blocker is your saviour !!!
+.SS IT'S CENTRALISED:
+.PP
+The beauty of this is that it is one central file used by all your web sites.
+This means there is only place to make amendments ie. adding new bots that you
+discover in your log files. Any changes are applied immediately to all sites after
+a simple "sudo service nginx reload". But of course always do a sudo nginx \-t to test
+any config changes before you reload.
+.SS IT IS TINY AND LIGHTWEIGHT
+.PP
+The file is tiny in size. At the time of this writing and the first public commit of this
+the file size including all the commenting "which nginx ignores" currently at \fBa mere 135 kb in size\fP and already containing over 4500 bad domains and IP addresses. It is so lightweight that Nginx does not even know it's there. It already contains thousands of entries \- total updated at the top of this README. 
+.SS IT IS ACCURATE AND IS FALSE POSITIVE PROOF
+.PP
+Unlike many other bad bot blockers out there for Nginx and Apache where people simply copy and paste lists from others, this list has been built from the ground up and tested thoroughly and I mean thoroughly for now over 10 months. It comes from actual server logs that are monitored daily and there are at least 3\-10 new additions to this file almost daily.
+.PP
+It has also been throughly tested for false positives using months of constant and regular testing and monitoring of log files. 
+.PP
+All web sites listed in the bad referers are checked one by one before they are even added. Simply copying  anything that look suspicious in your log file and adding it to a blocker like this without actually seeing  what it is first .... well it's foolish to say the least.
+.SS DROP THEM AND THAT'S IT
+.PP
+Nginx has a lovely error called 444 which just literally drops the connection. All these rules issue a 444 response so if a rule matches, the requesting IP simply get's no response and it would appear that your  server does not exist to them or appears to be offline. 
+.PP
+A test with curl using one of the test command line's documented in the /conf.d/globalblacklist.conf file will give a simple "curl: (52) Empty reply from server" and that's the reply the bad referrers and bots get.
+.SS RATE LIMITING FUNCTIONALITY BUILT IN
+.PP
+For bot's or spiders that you still want to allow but want to limit their visitation rate, you can use the  built in rate limiting functions I have included. The file is extensively commented throughout so you should figure it out otherwise simply message me if you are having problems. 
+.SH CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
+.SS PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
+.PP
+\fBIf you miss one step you will get an nginx EMERG error. This is normally a result of not downloading either blockbots.conf, ddos.conf, whitelist\-ips.conf, whitelist\-domains.conf or blacklist\-user\-agents.conf into your /etc/nginx/bots.d folder. If any of the include files are missing Nginx will EMERG and will not reload.\fP
+.SS AUTO INSTALLATION INSTRUCTIONS
+.PP
+To Make Sure you copy all the correct files you can now use a simple bash setup script for copying the files into the correct nginx folders for you:
+See: \[la]https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/installnginxblocker.sh\[ra]
+.PP
+\fBPlease Note:\fP the bash installer script does not carry out STEP 7 of the manual configuration instructions for you. YOU MUST edit any vhosts files  yourself and manually add the entries in STEP 7 or the blocker will not actually be protecting any sites.
+.SH MANUAL INSTALLATION INSTRUCTIONS
+.SH STEP 1:
+.PP
+\fBCOPY THE GLOBALBLACKLIST.CONF FILE FROM THE REPO\fP
+.PP
+Copy the contents of \fB/conf.d/globalblacklist.conf\fP into your /etc/nginx/conf.d folder. 
+.PP
+\fB\fCcd /etc/nginx/conf.d\fR
+.PP
+\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/conf.d/globalblacklist.conf \-O globalblacklist.conf\fR
+.SH STEP 2:
+.PP
+\fBCOPY THE INCLUDE FILES FROM THE REPO\fP
+.RS
+.IP \(bu 2
+From your command line in Linux type
+.RE
+.PP
+\fB\fCsudo mkdir /etc/nginx/bots.d\fR
+.PP
+\fB\fCcd /etc/nginx/bots.d\fR
+.RS
+.IP \(bu 2
+copy the blockbots.conf file into that folder
+.RE
+.PP
+\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/blockbots.conf \-O blockbots.conf\fR
+.RS
+.IP \(bu 2
+copy the ddos.conf file into the same folder
+.RE
+.PP
+\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/ddos.conf \-O ddos.conf\fR
+.SH STEP 3:
+.PP
+\fBWHITELIST ALL YOUR OWN DOMAIN NAMES AND IP ADDRESSES\fP
+.PP
+Whitelist all your own domain names and IP addresses. \fBPlease note important changes\fP, this is now done using include files so that you do not have to keep reinserting your whitelisted domains and IP addresses every time you update.
+.PP
+\fB\fCcd /etc/nginx/bots.d\fR
+.RS
+.IP \(bu 2
+copy the whitelist\-ips.conf file into that folder
+.RE
+.PP
+\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/whitelist\-ips.conf \-O whitelist\-ips.conf\fR
+.RS
+.IP \(bu 2
+copy the whitelist\-domains.conf file into the same folder
+.RE
+.PP
+\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/whitelist\-domains.conf \-O whitelist\-domains.conf\fR
+.PP
+Use nano, vim or any other text editor to edit both whitelist\-ips.conf and whitelist\-domains.conf to include all your own domain names and IP addresses that you want to specifically whitelist from the blocker script. 
+.PP
+When pulling any future updates now you can simply pull the latest globalblacklist.conf file and it will automatically include your whitelisted domains and IP addresses.
+.SH STEP 4:
+.PP
+\fBBLACKLIST USING YOUR OWN CUSTOM USER\-AGENT BLACKLIST\fP
+.PP
+Copy the custom User\-Agents blacklist file into your /etc/nginx/bots.d folder
+.PP
+\fB\fCcd /etc/nginx/bots.d\fR
+.RS
+.IP \(bu 2
+copy the blacklist\-user\-agents.conf file into the same folder
+.RE
+.PP
+\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/blacklist\-user\-agents.conf \-O blacklist\-user\-agents.conf\fR
+.PP
+Use nano, vim or any other text editor to edit (if needed) blacklist\-user\-agents.conf to include your own custom list of bad agents that are not included in the blocker like "omgilibot" which some people choose to block. 
+.SH STEP 5:
+.PP
+\fBINCLUDE IMPORTANT SETTINGS IN NGINX.CONF\fP
+\fBAlso see SAMPLE\-nginx.conf file in the root of this repository\fP
+.PP
+\fB\fCcd /etc/nginx/conf.d\fR
+.RS
+.IP \(bu 2
+copy the botblocker\-nginx\-settings.conf file directly from the repo
+.RE
+.PP
+\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/conf.d/botblocker\-nginx\-settings.conf \-O botblocker\-nginx\-settings.conf\fR
+.PP
+\fBWhat is included in this settings file above for nginx?\fP
+The important settings file above adds the rate limiting functions and hash_bucket settings for nginx for you. Below is what the file contains, you cn add these manually to your nginx.conf file if you so please but the include file above will do it for you ad nginx loads any .conf file in /etc/conf.d (See STEP 6)
+.PP
+.RS
+server_names_hash_bucket_size 64;
+.PP
+server_names_hash_max_size 4096;
+.PP
+limit_req_zone $binary_remote_addr zone=flood:50m rate=90r/s;
+.PP
+limit_conn_zone $binary_remote_addr zone=addr:50m;
+.RE
+.PP
+\fBPLEASE NOTE:\fP The above rate limiting rules are for the DDOS filter, it may seem like high values to you but for wordpress sites with plugins and lots of images, it's not. This will not limit any real visitor to your Wordpress sites but it will immediately rate limit any aggressive bot. Remember that other bots and user agents are rate limited using a different rate limiting rule at the bottom of the globalblacklist.conf file.
+.PP
+The server\fInames\fPhash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory. You can tweak these settings to your own requirements.
+.SH STEP 6: \fBVERY IMPORTANT\fP
+.PP
+\fBMAKE SURE\fP that your nginx.conf file contains the following include directive. If it's commented out make sure to uncomment it or none of this will work.
+.RS
+.IP \(bu 2
+\fB\fCinclude /etc/nginx/conf.d/*\fR
+.RE
+.SH STEP 7: \fBVERY IMPORTANT\fP
+.PP
+\fBADD INCLUDE FILES INTO A VHOST\fP
+.PP
+Open a site config file for Nginx (just one for now) and add the following lines.
+.SS VERY IMPORTANT NOTE:
+.PP
+These includes MUST be added within a \fBserver {}\fP block of a vhost otherwise you will get EMERG errors from Nginx.
+.RS
+.IP \(bu 2
+\fB\fCinclude /etc/nginx/bots.d/blockbots.conf;\fR
+.IP \(bu 2
+\fB\fCinclude /etc/nginx/bots.d/ddos.conf;\fR
+.RE
+.SH STEP 8:
+.PP
+\fBTESTING YOUR NGINX CONFIGURATION\fP
+.PP
+\fB\fCsudo nginx \-t\fR
+.PP
+If you get no errors then you followed my instructions so now you can make the blocker go live with a simple.
+.PP
+\fB\fCsudo service nginx reload\fR
+.PP
+The blocker is now active and working so now you can run some simple tests from another linux machine to make sure it's working.
+.SH STEP 9:
+.PP
+\fBTESTING\fP
+.PP
+Run the following commands one by one from a terminal on another linux machine against your own domain name. 
+\fBsubstitute yourdomain.com in the examples below with your REAL domain name\fP
+.PP
+\fB\fCcurl \-A "googlebot" http://yourdomain.com\fR
+.PP
+Should respond with 200 OK
+.PP
+\fB\fCcurl \-A "80legs" http://yourdomain.com\fR
+.PP
+\fB\fCcurl \-A "masscan" http://yourdomain.com\fR
+.PP
+Should respond with: curl: (52) Empty reply from server
+.PP
+\fB\fCcurl \-I http://yourdomain.com \-e http://100dollars\-seo.com\fR
+.PP
+\fB\fCcurl \-I http://yourdomain.com \-e http://zx6.ru\fR
+.PP
+Should respond with: curl: (52) Empty reply from server
+.PP
+The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
+.SH STEP 10:
+.PP
+\fBUPDATING THE NGINX BAD BOT BLOCKER\fP is now easy thanks to the automatic includes for whitelisting your own domain names.
+.PP
+Updating to the latest version is now as simple as:
+.PP
+\fB\fCcd /etc/nginx/conf.d\fR
+.PP
+\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/conf.d/globalblacklist.conf\fR
+.PP
+\fB\fCsudo nginx \-t\fR
+.PP
+\fB\fCsudo service nginx reload\fR 
+.PP
+And you will be up to date with all your whitelisted domains included automatically for you now. 
+.SH AUTO UPDATING:
+.PP
+See my latest auto updater bash script at:
+.PP
+\[la]https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/updatenginxblocker.sh\[ra]
+.PP
+Relax now and sleep better at night knowing your site is telling all those baddies they are FORBIDDEN !!!
+.SS PULL REQUESTS:
+.PP
+To contribute your own bad referers please add them into the \[la]https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull_Requests_Here_Please/badreferers.list\[ra] file and then send a Pull Request (PR).
+.PP
+\fBAll additions will be checked for accuracy before being merged.\fP
+.PP
+.SS ISSUES:
+.PP
+Log any issues regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
+.SH FEATURES OF THE NGINX BAD BOT BLOCKER:
+.RS
+.IP \(bu 2
+Extensive Lists of Bad and Known Bad Bots and Scrapers (updated almost daily)
+.IP \(bu 2
+Blocking of Spam Referrer Domains and Web Sites
+.IP \(bu 2
+Blocking of SEO data collection companies like Semalt.com, Builtwith.com, WooRank.com and many others (updated regularly)
+.IP \(bu 2
+Blocking of clickjacking Sites linked to Adware, Malware and Ransomware
+.IP \(bu 2
+Blocking of Porn and Gambling Web Sites who use Lucrative Ways to Earn Money through Serving Ads by hopping off your domain names and web sites.
+.IP \(bu 2
+Blocking of Bad Domains and IP's that you cannot even see in your Nginx Logs. Thanks to the Content Security Policy (CSP) on all my SSL sites I can see things trying to pull resources off my sites before they even get to Nginx and get blocked by the CSP.
+.IP \(bu 2
+Anti DDOS Filter and Rate Limiting of Agressive Bots
+.IP \(bu 2
+Alphabetically ordered for easier maintenance (Pull Requests Welcomed)
+.IP \(bu 2
+Commented sections of certain important bots to be sure of before blocking
+.IP \(bu 2
+Includes the IP range of Cyveillance who are known to ignore robots.txt rules
+and snoop around all over the Internet.
+.IP \(bu 2
+Whitelisting of Google, Bing and Cloudflare IP Ranges
+.IP \(bu 2
+Whitelisting of your own IP Ranges that you want to avoid blocking by mistake.
+.IP \(bu 2
+Ability to add other IP ranges and IP blocks that you want to block out.
+.IP \(bu 2
+If its out there and it's bad it's already in here and BLOCKED !!
+.RE
+.SS UNDERSTANDS PUNYCODE / IDN DOMAIN NAMES
+.PP
+A lot of lists out there put funny domains into their hosts file. Your hosts file and DNS will not understand this. This list uses converted domains which are in the correct DNS format to be understood by any operating system. \fBAvoid using lists\fP that do not put the correctly formatted domain structure into their lists.
+.PP
+For instance
+The domain:
+.PP
+\fB\fClifehacĸer.com\fR (note the K)
+.PP
+actually translates to:
+.PP
+\fB\fCxn\-\-lifehacer\-1rb.com\fR
+.PP
+You can do an nslookup on any operating system and it will resolve correctly.
+.PP
+\fB\fCnslookup xn\-\-lifehacer\-1rb.com\fR
+.PP
+.RS
+.nf
+    origin = dns1.yandex.net
+    mail addr = iskalko.yandex.ru
+    serial = 2016120703
+    refresh = 14400
+    retry = 900
+    expire = 1209600
+    minimum = 14400
+xn\-\-lifehacer\-1rb.com   mail exchanger = 10 mx.yandex.net.
+Name:   xn\-\-lifehacer\-1rb.com
+Address: 78.110.60.230
+xn\-\-lifehacer\-1rb.com   nameserver = dns2.yandex.net.
+xn\-\-lifehacer\-1rb.com   text = "v=spf1 redirect=_spf.yandex.net"
+xn\-\-lifehacer\-1rb.com   nameserver = dns1.yandex.net.
+.fi
+.RE
+.RS
+.IP \(bu 2
+Look at: \[la]https://www.charset.org/punycode\[ra] for more info on this.
+.RE
+.SH WARNING:
+.RS
+.IP \(bu 2
+Please understand why you are using this before you even use this.
+.IP \(bu 2
+Please do not simply copy and paste without understanding what this is doing.
+.IP \(bu 2
+Do not become a copy and paste Linux "Guru", learn things properly before you use them and always test everything you do one step at a time.
+.RE
+.SH ALWAYS MONITOR WHAT YOU ARE DOING:
+.PP
+\fBMAKE SURE to monitor your web site logs\fP after implementing this. I suggest you first load this into one site and monitor it for any possible false positives before putting this into production on all your web sites.
+.PP
+Do not sit like an ostrich with your head in the sand, being a responsible server operator and web site owner means you must monitor your logs frequently. A reason many of you ended up here in the first place because you saw nasty looking stuff in your Nginx log files.
+.PP
+Also monitor your logs daily for new bad referers and user\-agent strings that you want to block. Your best source of adding to this list is your own server logs, not mine.
+.PP
+Feel free to contribute bad referers from your own logs to this project by sending a Pull Request (PR). You can however rely on this list to keep out 99% of the baddies out there.
+.SH HOW TO MONITOR YOUR LOGS DAILY (The Easy Way):
+.PP
+\fBWith great thanks and appreciation to\fP
+\[la]https://blog.nexcess.net/2011/01/21/one-liners-for-apache-log-files/\[ra]
+.PP
+To monitor your top referer's for a web site's log file's on a daily basis use the following simple cron jobs which will email you a list of top referer's / user agents every morning from a particular web site's log files. This is an example for just one cron job for one site. Set up multiple one's for each one you want to monitor. Here is a cron that runs at 8am every morning and emails me the stripped down log of referers. When I say stripped down, the domain of the site and other referers like Google and Bing are stripped from the results. Of course you must change the log file name, domain name and your email address in the examples below. The second cron for collecting User agents does not do any stripping out of any referers but you can add that functionality if you like copying the awk statement !~ from the first example.
+.SS Cron for Monitoring Daily Referers on Nginx
+.PP
+\fB\fC00 08 * * * tail \-10000 /var/log/nginx/mydomain\-access.log | awk '$11 !~ /google|bing|yahoo|yandex|mywebsite.com/' | awk '{print $11}' | tr \-d '"' | sort | uniq \-c | sort \-rn | head \-1000 | mail \- s "Top 1000 Referers for Mydomain.com" me@mydomain.com\fR
+.PP
+This emails you a daily list of referrers using an awk command to exclude domains like google, bing and your own domain name.
+.SS Cron for Monitoring Daily User Agents on Nginx
+.PP
+\fB\fC00 08 * * * tail \-50000 /var/log/nginx/mydomain\-access.log | awk '{print $12}' | tr \-d '"' | sort | uniq \-c | sort \-rn | head \-1000 | mail \-s "Top 1000 Agents for Mydomain.com" me@mydomain.com\fR
+.PP
+This emails you a list of top User\-Agents who visited your site in the last 24 hours, helpful for spotting any rogue or suspicious looking User\-Agents strings.
+.SH BLOCK AGGRESSIVE BOTS AT FIREWALL LEVEL USING FAIL2BAN:
+.PP
+I have added a custom Fail2Ban filter and action that I have written which monitors your Nginx logs for bots that generate a large number of 444 errors. This custom jail for Fail2Ban will scan logs over a 1 week period and ban the offender for 24 hours.
+It helps a great deal in keeping out some repeat offenders and preventing them from filling up your log files with 444 errors.
+See the Fail2Ban folder for instructions on configuring this great add on for the Nginx Bad Bot Blocker.
+.SH STOPPING GOOGLE ANALYTICS "GHOST" SPAM:
+.PP
+Simply using the Nginx blocker does not stop Google Analytics ghost referral spam 
+because they are hitting Analytics directly and not always necessarily touching your website. 
+.PP
+You should use regex filters in Analytics to prevent ghost referral spam.
+For this simple google\-exclude\-01.txt, 02.txt and 03.txt files have been created for you and they are updated at the same time when the Nginx Blocker is updated.
+.SH To stop Ghost Spam on On Analytics
+.PP
+Navigate to your Google Analytics Admin panel and add a Segment. (New Segment > Advanced > Conditions)
+This will need to be done on each and every site where you want this filter to be in effect.
+Google has a limit on the length of the regex so it is now broken up for you into multiple google\-exclude\-*.txt files.
+.TS
+allbox;
+cb cb cb
+c c c
+.
+Filter	Session	Include
+Hostname	matches regex	yourwebsite\.com|www\.yourwebsite\.com
+.TE
+.TS
+allbox;
+cb cb cb
+c c c
+.
+Filter	Session	Exclude
+Hostname	matches regex	Copy the contents from google\-exclude\-01.txt to this field
+.TE
+.PP
+Do the same step above now for google\-exclude\-02.txt and google\-exclude\-03.txt.
+As the list grows there will be more google\-exclude files each limited to Google's restriction limit.
+.SH Also Better Check Out RefererSpamBlocker
+.PP
+Also check out the awesome Referer Spam Blocker \[la]https://referrerspamblocker.com\[ra]
+for Google Analytics which uses a collaborated source of spam domains and automatically adds all the filters to your Analytics sites for you in 2 easy clicks and it is FREE.
+.SH Blocking Spam Domains Using Google Webmaster Tools
+.PP
+I have added the creation of a Google Disavow text file called google\-disavow.txt. This file can be used in Google's Webmaster Tools to block all these domains out as spammy or bad links. Use with caution.
+.SH Blocking Bad Bots and User\-Agents Strings for those who cannot use this full blocker?
+.PP
+Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. If this is your situation check out the automatically generated robots.txt file which will help you to some degree to keep a lot of Bad Bots and User\-Agents out of your sites.
+.SH Blocking Spam Referrers Strings for those who cannot use this full blocker?
+.PP
+Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. If this is your situation check out the automatically generated .htaccess versions of the Spam Referrer Blocker which can be found in this repository \[la]https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker/tree/master/.htaccess\[ra] this .htaccess method (FOR APACHE SITES ONLY) will help you to keep all the Spam Referrers in this blocker out of your site. This is mentioned here as a lot of people using CPanel systems think they are sitting behind an Nginx server but in reality are actually running on an Apache Server sitting behind an Nginx Proxy Server. .htaccess does not work on Nginx sites.
+.SH IT FORKING WORKS !!!
+Just Enjoy now what the Nginx Bad Bot Blocker Can Do For You and Your Web Sites.
+.SS If this helped you why not buy me a beer \[la]https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG\[ra] or send some cheese for my mouse \[la]https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create\[ra]
+.SH MIT License
+.SS Copyright (c) 2017 Mitchell Krog \- \[la]mitchellkrog@gmail.com\[ra]
+.SS \[la]https://github.com/mitchellkrogza\[ra]
+.PP
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+.PP
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+.PP
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+.SS Some other free projects
+.RS
+.IP \(bu 2
+\[la]https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker\[ra]
+.IP \(bu 2
+\[la]https://github.com/mitchellkrogza/Badd-Boyz-Hosts\[ra]
+.IP \(bu 2
+\[la]https://github.com/mitchellkrogza/fail2ban-useful-scripts\[ra]
+.IP \(bu 2
+\[la]https://github.com/mitchellkrogza/linux-server-administration-scripts\[ra]
+.IP \(bu 2
+\[la]https://github.com/mitchellkrogza/Travis-CI-Nginx-for-Testing-Nginx-Configuration\[ra]
+.IP \(bu 2
+\[la]https://github.com/mitchellkrogza/Travis-CI-for-Apache-For-Testing-Apache-and-PHP-Configurations\[ra]
+.IP \(bu 2
+\[la]https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning\[ra]
+.IP \(bu 2
+\[la]https://github.com/mariusv/nginx-badbot-blocker\[ra]
+.RE
+.SS Into Photography?
+.PP
+Come drop by and visit me at \[la]https://mitchellkrog.com\[ra]
+.SS Acknowledgements:
+.PP
+Many parts of the generator scripts and code running behind this project have been adapted from multiple sources. In fact it's so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. Show them some love and check out some of their projects too
+.RS
+.IP \(bu 2
+Stevie\-Ray Hartog \[la]https://github.com/Stevie-Ray\[ra]
+.IP \(bu 2
+Marius Voila \[la]https://github.com/mariusv\[ra]
+.IP \(bu 2
+Cătălin Mariș \[la]https://github.com/alrra\[ra]
+.IP \(bu 2
+deformhead \[la]https://github.com/deformhead\[ra]
+.IP \(bu 2
+bluedragonz \[la]https://github.com/bluedragonz\[ra]
+.IP \(bu 2
+Alexander \[la]https://github.com/shoonois\[ra]
+.IP \(bu 2
+Steven Black \[la]https://github.com/StevenBlack\[ra]
+.IP \(bu 2
+Fail2Ban \- \[la]https://github.com/fail2ban\[ra]
+.IP \(bu 2
+Sir Athos from StackOverFlow \- \[la]http://stackoverflow.com/users/2245910/sir-athos\[ra] (help with Travis Build Tagging and Committing)
+.IP \(bu 2
+StackOverflow \- \[la]http://stackoverflow.com/\[ra] (bash scripts from hundreds of questions and answers)
+.IP \(bu 2
+SuperUser \- \[la]http://superuser.com/\[ra] (snippets from various questions and answers)
+.IP \(bu 2
+Stuart Cardall \[la]https://github.com/itoffshore\[ra] (Alpine Linux package / Man pages / update script)
+.RE
+.PP
+If you believe your name should be here, drop me a line.
