@@ -3,11 +3,12 @@
 # Shell Script for Auto Updating the Nginx Bad Bot Blocker
 # Copyright - https://github.com/mitchellkrogza
 # Project Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
-# Alpine / Arch Linux / Debian / Centos script compatibility by Stuart Cardall
+# Alpine / Arch Linux / Debian / Centos script compatibility by Stuart Cardall - https://github.com/itoffshore
 
-# MAKE SURE you have your whitelist-ips.conf and whitelist-domains.conf files in /etc/nginx/bots.d
+# MAKE SURE you have your whitelist-ips.conf,  whitelist-domains.conf and blacklist-user-agents.conf files in /etc/nginx/bots.d
 # A major change to using include files was introduced in
 # https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/commit/c7acdfa8228d2f19a83e5bb14d54355db86fcebf
+# Nginx will fail a reload with [EMERG] without the presence of these files.
 
 # PLEASE READ UPDATED CONFIGURATION INSTRUCTIONS BEFORE USING THIS
 
