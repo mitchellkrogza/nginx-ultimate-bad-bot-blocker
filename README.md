@@ -15,7 +15,7 @@
 ##### Created by: https://github.com/mitchellkrogza
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
 
-# [Configuration instructions are here](#configuration-of-the-nginx-bad-bot-blocker)
+# [Configuration instructions are here](#configuration-instructions)
 - For Nginx Web Server - https://www.nginx.com/
 - See sample Nginx Vhost config at: (Please read full instructions too) https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md
 - Includes the creation of a google-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
@@ -114,7 +114,6 @@ For bot's or spiders that you still want to allow but want to limit their visita
 
 
 # CONFIGURATION INSTRUCTIONS
-#CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
 ### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
 
 **If you miss one step you will get an nginx EMERG error. This is normally a result of not downloading either blockbots.conf, ddos.conf, whitelist-ips.conf, whitelist-domains.conf or blacklist-user-agents.conf into your /etc/nginx/bots.d folder. If any of the include files are missing Nginx will EMERG and will not reload.**
