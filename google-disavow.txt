@@ -381,6 +381,7 @@ domain:baksman.com
 domain:baladur.ru
 domain:bala.getenjoyment.net
 domain:balitouroffice.com
+domain:balkanfarma.org
 domain:balkanfarma.ru
 domain:balois.worldbreak.com
 domain:bambi.ck.ua
@@ -1924,6 +1925,7 @@ domain:mhtr.be
 domain:micasainvest.com
 domain:microsearch.ru
 domain:microsoftportal.net
+domain:microstatic.pl
 domain:migente.com
 domain:mikrobiologies.ru
 domain:millionare.com
@@ -2477,6 +2479,7 @@ domain:raisedseo.com
 domain:rank-checker.online
 domain:rankchecker.online
 domain:ranking2017.ga
+domain:rankingchart.de
 domain:rankings-analytics.com
 domain:ranksays.com
 domain:rankscanner.com
@@ -2946,6 +2949,7 @@ domain:suggest-keywords.com
 domain:sugvant.ru
 domain:sukarame.net
 domain:sukirgenk.dvrlists.com
+domain:sumo.com
 domain:superkanpo.com
 domain:supermesta.ru
 domain:supernew.org
@@ -3318,6 +3322,7 @@ domain:vsesubwaysurfers.com
 domain:vseuznaem.com
 domain:vtc.pw
 domain:vucms.com
+domain:vvon.co.uk
 domain:vykup-avto-krasnodar.ru
 domain:vykupavto-krasnodar.ru
 domain:vzlom-na-zakaz.com
@@ -3337,6 +3342,7 @@ domain:waterpurifier.club
 domain:wdfdocando.com
 domain:wdrake.com
 domain:we-are-gamers.com
+domain:webads.co.nz
 domain:web-betting.ru
 domain:web.cvut.cz
 domain:webinstantservice.com
@@ -3380,6 +3386,7 @@ domain:whatistizanidinehclusedfor.blogspot.com
 domain:whatsappdownload10.com
 domain:whatsupinfoley.com
 domain:whatzmyip.net
+domain:wheelchairliftsarea.com
 domain:whereiskentoday.com
 domain:whipme.yopoint.in
 domain:whiteproduct.com
