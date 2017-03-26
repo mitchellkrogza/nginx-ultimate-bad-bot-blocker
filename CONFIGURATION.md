@@ -1,11 +1,11 @@
-#CONFIGURATION INSTRUCTIONS FOR THE NGINX BAD BOT BLOCKER:
+# CONFIGURATION INSTRUCTIONS FOR THE NGINX BAD BOT BLOCKER:
 ### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
 
 ##### Created by: https://github.com/mitchellkrogza
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
 ### Version 2.2017.05
 
-#CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
+# CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
 ### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
 
 **If you miss one step you will get an nginx EMERG error. This is normally a result of not downloading either blockbots.conf, ddos.conf, whitelist-ips.conf, whitelist-domains.conf or blacklist-user-agents.conf into your /etc/nginx/bots.d folder. If any of the include files are missing Nginx will EMERG and will not reload.**
@@ -18,7 +18,7 @@ See: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blo
 
 ## MANUAL INSTALLATION INSTRUCTIONS
 
-##STEP 1:
+## STEP 1:
 
 **COPY THE GLOBALBLACKLIST.CONF FILE FROM THE REPO**
 
@@ -28,7 +28,7 @@ Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf -O globalblacklist.conf`
 
-##STEP 2: 
+## STEP 2: 
 
 **COPY THE INCLUDE FILES FROM THE REPO**
 
@@ -47,7 +47,7 @@ Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf -O ddos.conf`
 
-##STEP 3:
+## STEP 3:
 
 **WHITELIST ALL YOUR OWN DOMAIN NAMES AND IP ADDRESSES**
 
@@ -69,7 +69,7 @@ Use nano, vim or any other text editor to edit both whitelist-ips.conf and white
 
 When pulling any future updates now you can simply pull the latest globalblacklist.conf file and it will automatically include your whitelisted domains and IP addresses.
 
-##STEP 4:
+## STEP 4:
 
 **BLACKLIST USING YOUR OWN CUSTOM USER-AGENT BLACKLIST**
 
@@ -85,7 +85,7 @@ Copy the custom User-Agents blacklist file into your /etc/nginx/bots.d folder
 Use nano, vim or any other text editor to edit (if needed) blacklist-user-agents.conf to include your own custom list of bad agents that are not included in the blocker like "omgilibot" which some people choose to block. 
 
 
-##STEP 5:
+## STEP 5:
 
 **INCLUDE IMPORTANT SETTINGS IN NGINX.CONF**
 **Also see SAMPLE-nginx.conf file in the root of this repository**
@@ -112,14 +112,14 @@ The important settings file above adds the rate limiting functions and hash_buck
 The server_names_hash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory. You can tweak these settings to your own requirements.
 
 
-##STEP 6: **VERY IMPORTANT**
+## STEP 6: **VERY IMPORTANT**
 
 **MAKE SURE** that your nginx.conf file contains the following include directive. If it's commented out make sure to uncomment it or none of this will work.
 
 - `include /etc/nginx/conf.d/*`
 
 
-##STEP 7: **VERY IMPORTANT**
+## STEP 7: **VERY IMPORTANT**
 
 **ADD INCLUDE FILES INTO A VHOST**
 
@@ -133,7 +133,7 @@ These includes MUST be added within a **server {}** block of a vhost otherwise y
 
 - `include /etc/nginx/bots.d/ddos.conf;`
 
-##STEP 8:
+## STEP 8:
 
 **TESTING YOUR NGINX CONFIGURATION**
 
@@ -145,7 +145,7 @@ If you get no errors then you followed my instructions so now you can make the b
 
 The blocker is now active and working so now you can run some simple tests from another linux machine to make sure it's working.
 
-##STEP 9:
+## STEP 9:
 
 **TESTING**
 
@@ -170,7 +170,7 @@ Should respond with: curl: (52) Empty reply from server
 
 The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 
-##STEP 10:
+## STEP 10:
 
 **UPDATING THE NGINX BAD BOT BLOCKER** is now easy thanks to the automatic includes for whitelisting your own domain names.
 
@@ -188,17 +188,21 @@ And you will be up to date with all your whitelisted domains included automatica
 
 # AUTO UPDATING:
 
-See my latest auto updater bash script at:
+See the latest auto updater bash script at:
 
 https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/updatenginxblocker.sh
+
+With great thanks to Stuart Cardall (https://github.com/itoffshore) for improving on it to be truly universal to other distro's.
 
 Relax now and sleep better at night knowing your site is telling all those baddies they are FORBIDDEN !!!
 
 
 ### PULL REQUESTS:
+
 To contribute your own bad referers please add them into the https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull%20Requests%20Here%20Please/badreferers.list file and then send a Pull Request (PR). 
 
 ##### **All additions will be checked for accuracy before being merged.**
 
 ### ISSUES:
+
 Log any issues regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
