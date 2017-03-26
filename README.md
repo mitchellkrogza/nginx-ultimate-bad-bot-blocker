@@ -15,7 +15,7 @@
 ##### Created by: https://github.com/mitchellkrogza
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
 
-#[Configuration instructions are here](#configuration-of-the-nginx-bad-bot-blocker)
+# [Configuration instructions are here](#configuration-of-the-nginx-bad-bot-blocker)
 - For Nginx Web Server - https://www.nginx.com/
 - See sample Nginx Vhost config at: (Please read full instructions too) https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md
 - Includes the creation of a google-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
@@ -23,7 +23,7 @@
 
 ### WHY BLOCK BAD BOTS ?
 
-#####Bad bots are:
+##### Bad bots are:
 
 -    Bad Referrers 
 -    Bad User-Agent Strings
@@ -113,12 +113,12 @@ A test with curl using one of the test command line's documented in the /conf.d/
 For bot's or spiders that you still want to allow but want to limit their visitation rate, you can use the  built in rate limiting functions I have included. The file is extensively commented throughout so you should figure it out otherwise simply message me if you are having problems. 
 
 
-#CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
+# CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
 ### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
 
 **If you miss one step you will get an nginx EMERG error. This is normally a result of not downloading either blockbots.conf, ddos.conf, whitelist-ips.conf, whitelist-domains.conf or blacklist-user-agents.conf into your /etc/nginx/bots.d folder. If any of the include files are missing Nginx will EMERG and will not reload.**
 
-#### AUTO INSTALLATION INSTRUCTIONS
+## AUTO INSTALLATION INSTRUCTIONS
 To Make Sure you copy all the correct files you can now use a simple bash setup script for copying the files into the correct nginx folders for you:
 See: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/installnginxblocker.sh
 
@@ -126,7 +126,7 @@ See: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blo
 
 ## MANUAL INSTALLATION INSTRUCTIONS
 
-##STEP 1:
+## STEP 1:
 
 **COPY THE GLOBALBLACKLIST.CONF FILE FROM THE REPO**
 
@@ -136,7 +136,7 @@ Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf -O globalblacklist.conf`
 
-##STEP 2: 
+## STEP 2: 
 
 **COPY THE INCLUDE FILES FROM THE REPO**
 
@@ -155,7 +155,7 @@ Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf -O ddos.conf`
 
-##STEP 3:
+## STEP 3:
 
 **WHITELIST ALL YOUR OWN DOMAIN NAMES AND IP ADDRESSES**
 
@@ -177,7 +177,7 @@ Use nano, vim or any other text editor to edit both whitelist-ips.conf and white
 
 When pulling any future updates now you can simply pull the latest globalblacklist.conf file and it will automatically include your whitelisted domains and IP addresses.
 
-##STEP 4:
+## STEP 4:
 
 **BLACKLIST USING YOUR OWN CUSTOM USER-AGENT BLACKLIST**
 
@@ -193,7 +193,7 @@ Copy the custom User-Agents blacklist file into your /etc/nginx/bots.d folder
 Use nano, vim or any other text editor to edit (if needed) blacklist-user-agents.conf to include your own custom list of bad agents that are not included in the blocker like "omgilibot" which some people choose to block. 
 
 
-##STEP 5:
+## STEP 5:
 
 **INCLUDE IMPORTANT SETTINGS IN NGINX.CONF**
 **Also see SAMPLE-nginx.conf file in the root of this repository**
@@ -220,14 +220,14 @@ The important settings file above adds the rate limiting functions and hash_buck
 The server_names_hash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory. You can tweak these settings to your own requirements.
 
 
-##STEP 6: **VERY IMPORTANT**
+## STEP 6: **VERY IMPORTANT**
 
 **MAKE SURE** that your nginx.conf file contains the following include directive. If it's commented out make sure to uncomment it or none of this will work.
 
 - `include /etc/nginx/conf.d/*`
 
 
-##STEP 7: **VERY IMPORTANT**
+## STEP 7: **VERY IMPORTANT**
 
 **ADD INCLUDE FILES INTO A VHOST**
 
@@ -241,7 +241,7 @@ These includes MUST be added within a **server {}** block of a vhost otherwise y
 
 - `include /etc/nginx/bots.d/ddos.conf;`
 
-##STEP 8:
+## STEP 8:
 
 **TESTING YOUR NGINX CONFIGURATION**
 
@@ -253,7 +253,7 @@ If you get no errors then you followed my instructions so now you can make the b
 
 The blocker is now active and working so now you can run some simple tests from another linux machine to make sure it's working.
 
-##STEP 9:
+## STEP 9:
 
 **TESTING**
 
@@ -278,7 +278,7 @@ Should respond with: curl: (52) Empty reply from server
 
 The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 
-##STEP 10:
+## STEP 10:
 
 **UPDATING THE NGINX BAD BOT BLOCKER** is now easy thanks to the automatic includes for whitelisting your own domain names.
 
@@ -412,7 +412,7 @@ because they are hitting Analytics directly and not always necessarily touching 
 You should use regex filters in Analytics to prevent ghost referral spam.
 For this simple google-exclude-01.txt, 02.txt and 03.txt files have been created for you and they are updated at the same time when the Nginx Blocker is updated.
 
-##To stop Ghost Spam on On Analytics
+## To stop Ghost Spam on On Analytics
 Navigate to your Google Analytics Admin panel and add a Segment. (New Segment > Advanced > Conditions)
 This will need to be done on each and every site where you want this filter to be in effect. 
 Google has a limit on the length of the regex so it is now broken up for you into multiple google-exclude-*.txt files. 
@@ -429,19 +429,21 @@ Google has a limit on the length of the regex so it is now broken up for you int
 Do the same step above now for google-exclude-02.txt and google-exclude-03.txt.
 As the list grows there will be more google-exclude files each limited to Google's restriction limit.
 
-#Also Better Check Out RefererSpamBlocker
+# Also Better Check Out RefererSpamBlocker
 
 Also check out the awesome [Referer Spam Blocker](https://referrerspamblocker.com)
 for Google Analytics which uses a collaborated source of spam domains and automatically adds all the filters to your Analytics sites for you in 2 easy clicks and it is FREE.
 
-##Blocking Spam Domains Using Google Webmaster Tools
+## Blocking Spam Domains Using Google Webmaster Tools
 
 I have added the creation of a Google Disavow text file called google-disavow.txt. This file can be used in Google's Webmaster Tools to block all these domains out as spammy or bad links. Use with caution.
 
 ## Blocking Bad Bots and User-Agents Strings for those who cannot use this full blocker?
+
 Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. If this is your situation check out the automatically generated robots.txt file which will help you to some degree to keep a lot of Bad Bots and User-Agents out of your sites.
 
 ## Blocking Spam Referrers Strings for those who cannot use this full blocker?
+
 Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. If this is your situation check out the automatically generated .htaccess versions of the Spam Referrer Blocker which can be found in this repository https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker/tree/master/.htaccess this .htaccess method (FOR APACHE SITES ONLY) will help you to keep all the Spam Referrers in this blocker out of your site. This is mentioned here as a lot of people using CPanel systems think they are sitting behind an Nginx server but in reality are actually running on an Apache Server sitting behind an Nginx Proxy Server. .htaccess does not work on Nginx sites.
 
 # IT FORKING WORKS !!!
@@ -449,10 +451,10 @@ Lots of people are at the peril of their hosting company and do not have root ac
 
 ### If this helped you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer: or send some cheese for my mouse [![gitcheese.com](https://api.gitcheese.com/v1/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/badges)](https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create)
 
-#MIT License
+# MIT License
 
-##Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
-##https://github.com/mitchellkrogza
+## Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
+## https://github.com/mitchellkrogza
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -483,10 +485,10 @@ SOFTWARE.
 - https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
 - https://github.com/mariusv/nginx-badbot-blocker
 
-#####Into Photography?
+##### Into Photography?
 Come drop by and visit me at https://mitchellkrog.com
 
-###Acknowledgements & Contributors:
+### Acknowledgements & Contributors:
 
 Many parts of the generator scripts and code running behind this project have been adapted from multiple sources. In fact it's so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. Show them some love and check out some of their projects too
 
