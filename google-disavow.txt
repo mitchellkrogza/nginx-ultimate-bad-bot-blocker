@@ -350,6 +350,7 @@ domain:avtoarenda.by
 domain:avtocredit-legko.ru
 domain:avtointeres.ru
 domain:avtolombard-krasnodar.com
+domain:avtolombard-krasnodar.ru
 domain:avtovolop.ru
 domain:awency.com
 domain:axbocz.net
@@ -481,6 +482,7 @@ domain:blavia.00author.com
 domain:bleacherreport.com
 domain:blockworld.ru
 domain:blog.f00kclan.de
+domain:bloggedporn.com
 domain:bloggen.be
 domain:bloggers.nl
 domain:blogig.org
@@ -1705,6 +1707,7 @@ domain:kraljeva-sutjeska.com
 domain:krasivoe-hd.com
 domain:krasivoe-hd.net
 domain:krasivye-devushki.net
+domain:krasnodar-avtolombards.ru
 domain:krasnodar.ru
 domain:krasnodar.xrus.org
 domain:kredit-pod-zalog-krasnodar.ru
@@ -1999,6 +2002,7 @@ domain:mountainstream.ms
 domain:movaimg.com
 domain:moviemail-online.co.uk
 domain:movies-in-theaters.net
+domain:moviezbonkerssk.cf
 domain:mowser.com
 domain:moxo.com
 domain:moyakuhnia.ru
@@ -2063,6 +2067,7 @@ domain:nacap.ru
 domain:nagdak.ru
 domain:nailsimg.com
 domain:nalogovyy-kodeks.ru
+domain:naperehresti.info
 domain:naphukete.ru
 domain:nardulan.com
 domain:narkologiya-belgorod.ru
@@ -2588,6 +2593,7 @@ domain:russkoe-zdorovie.ru
 domain:rus-teh.narod.ru
 domain:rvtv.ru
 domain:rvzr-a.akamaihd.net
+domain:rybalka-opt.ru
 domain:sabaapress.com
 domain:sack.net
 domain:sad-torg.com.ua
@@ -2616,6 +2622,7 @@ domain:savememoney.co.za
 domain:savetubevideo.com
 domain:savingsslider-a.akamaihd.net
 domain:savne.org
+domain:sawin.beth.webd.pl
 domain:sax-sex.com
 domain:sayyoethe.blogspot.co.za
 domain:sbdl.no
@@ -3435,6 +3442,7 @@ domain:wsgames.ru
 domain:wstroika.ru
 domain:wurr.voila.net
 domain:ww1943.ru
+domain:www.arenda-yeisk.ru
 domain:wygraj-skiny.win
 domain:wygraj-teraz.com
 domain:wzgyyq.com
@@ -3572,6 +3580,7 @@ domain:zaidia.xhost.ro
 domain:zaimhelp.ru
 domain:zaim-pod-zalog-krasnodar.ru
 domain:zajm-pod-zalog-nedvizhimosti.ru
+domain:zajm-zalog-krasnodar.ru
 domain:zakazfutbolki.com
 domain:zakazvzloma.com
 domain:zakon-ob-obrazovanii.ru
