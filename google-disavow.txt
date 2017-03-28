@@ -1968,6 +1968,7 @@ domain:mobplayer.ru
 domain:mobsfun.net
 domain:mockupui.com
 domain:modabutik.ru
+domain:modenamebel.ru
 domain:moesonce.com
 domain:moi-glazki.ru
 domain:mojowhois.com
@@ -2534,6 +2535,7 @@ domain:remont-ustanovka-tehniki.ru
 domain:remorcicomerciale.ro
 domain:remote-dba.de
 domain:rentalmaty.kz
+domain:rentehno.ru
 domain:repeatlogo.co.uk
 domain:replicaclub.ru
 domain:replica-watch.ru
