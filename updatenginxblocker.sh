@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # Shell Script for Auto Updating the Nginx Bad Bot Blocker
-# Copyright - https://github.com/mitchellkrogza
+# Copyright: https://github.com/mitchellkrogza
 # Project Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
-# Alpine / Arch Linux / Debian / Centos script compatibility by Stuart Cardall - https://github.com/itoffshore
+# Update script & Alpine Linux package by Stuart Cardall: https://github.com/itoffshore
 
 # MAKE SURE you have your whitelist-ips.conf,  whitelist-domains.conf and blacklist-user-agents.conf files in /etc/nginx/bots.d
 # A major change to using include files was introduced in
@@ -19,6 +19,7 @@
 # Here our script runs, pulls the latest update, reloads nginx and emails you a notification
 
 email="me@myemail.com"
+send_email="Y"
 conf_dir=/etc/nginx/conf.d
 url=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf
 
@@ -35,6 +36,18 @@ service_cmd() {
 	done
 }
 
+wget_opts() {
+	local opts=
+
+	# Busybox wget gives less verbose output by default
+	if [ -n "$(wget --help 2>/dev/null | grep "\-nv")" ]; then
+		opts="-nv"
+	fi
+
+	opts="$opts -O $conf_dir/globalblacklist.conf"
+	echo $opts
+}
+
 # require root
 if [ "$(id -u)" != "0" ]; then
 	echo "This script must be run as root" 1>&2
@@ -43,11 +56,26 @@ fi
 
 # default to service (centos does not have 'which' by default)
 service=${service_cmd:-"service"}
+email_report=$(mktemp)
+options=$(wget_opts)
 
-# download update & email notification
+# download update
 mkdir -p $conf_dir
-wget $url -O $conf_dir/globalblacklist.conf
-$service nginx reload | mail -s "Nginx Bad Bot Blocker Updated" $email
+wget $url $options 2>&1 | tee $email_report
+
+# re-read configuration
+if ! grep "Not Found" $email_report; then
+	$service nginx reload | tee -a $email_report
+else
+	printf "\nDownload failed: not reloading nginx config\n" | tee -a $email_report
+fi
+
+# email report
+case "$send_email" in
+	y*|Y*) cat $email_report | mail -s "Nginx Bad Bot Blocker Updated" $email;;
+esac
+
+rm -f $email_report
 
 exit $?
 
