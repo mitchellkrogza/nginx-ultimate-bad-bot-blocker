@@ -111,6 +111,7 @@ domain:abovetherivernc.com
 domain:absolute-s.ru
 domain:abtasty.com
 domain:abusora.com
+domain:abwa.tk
 domain:academia-nsk.org
 domain:acads.net
 domain:acc.eu.org
@@ -118,6 +119,7 @@ domain:acheterviagrafr24.com
 domain:actionnooz.com
 domain:actremage.com
 domain:actulite.com
+domain:adamoads.com
 domain:adcash.com
 domain:adclickservice.com
 domain:adclickthru.net
@@ -437,6 +439,7 @@ domain:bestpriceninja.com
 domain:best-seo-offer.com
 domain:best-seo-software.xyz
 domain:best-seo-solution.com
+domain:bestssaker.com
 domain:bestwebsiteawards.com
 domain:bestwebsitesawards.com
 domain:betonka.pro
@@ -666,9 +669,12 @@ domain:chinajerseyswholesalecoupons.com
 domain:chinese-amezon.com
 domain:chiptuninger.com
 domain:chlooe.com
+domain:chocolateslim-original.com
+domain:chocoslim.pro
 domain:choosecuisine.com
 domain:cialisovercounteratwalmartusa.com
 domain:cialiswithoutadoctor.net
+domain:ciekawinki.pl
 domain:cigarpass.com
 domain:cinemaenergy-hd.ru
 domain:ciproandtizanidine.blogspot.com
@@ -898,6 +904,7 @@ domain:drupa.com
 domain:druzhbany.ru
 domain:druzhininevgeniy63.blogspot.com
 domain:dstroy.su
+domain:dustyorate.com
 domain:dvd-famille.com
 domain:dvr.biz.ua
 domain:dvrlists.com
@@ -995,6 +1002,7 @@ domain:ereko.ru
 domain:eropornosex.ru
 domain:erot.co
 domain:erotikstories.ru
+domain:errorfixing.space
 domain:es5.com
 domain:escortplius.com
 domain:escort-russian.com
@@ -1174,6 +1182,7 @@ domain:foxydeal.com
 domain:freakycheats.com
 domain:freecamdollars.com
 domain:free-floating-buttons.com
+domain:freejabs.com
 domain:freelotto.com
 domain:freemags.cc
 domain:freenode.info
@@ -1673,6 +1682,7 @@ domain:kinogonew.ru
 domain:kinohall.ru
 domain:kinohit1.ru
 domain:kino-key.info
+domain:kinomaniatv.pl
 domain:kinopolet.net
 domain:kino-rating.ru
 domain:kinostorm.net
@@ -1908,6 +1918,8 @@ domain:meduza-consult.ru
 domain:med-zdorovie.com.ua
 domain:meendo-free-traffic.ga
 domain:megaapteka.ru
+domain:mega-bony-2017.pl
+domain:mega-bony2017.pl
 domain:megaindex.ru
 domain:megakino.net
 domain:mega-polis.biz.ua
@@ -2152,6 +2164,7 @@ domain:oakleyglassesonline.us
 domain:obnal.org
 domain:obuv-kupit.ru
 domain:ochistka-stokov.ru
+domain:oconto.ru
 domain:o-dachnik.ru
 domain:odesproperty.com
 domain:odywpjtw.bloger.index.hr
@@ -2176,6 +2189,7 @@ domain:onclkads.com
 domain:oneclickfiles.com
 domain:onefilms.net
 domain:one-gear.com
+domain:oneshotdate.com
 domain:onetravelguides.com
 domain:onlainbesplatno.ru
 domain:onlinadverts.com
@@ -2393,6 +2407,8 @@ domain:pp-budpostach.com.ua
 domain:pr0fit-b0x.com
 domain:pravoholding.ru
 domain:prchecker.info
+domain:preparevideosafesystem4unow.site
+domain:preparevideosafesystem4unow.space
 domain:pricheski-video.com
 domain:printdirectforless.com
 domain:printingpeach.com
@@ -3024,6 +3040,7 @@ domain:tennis-img.org
 domain:terraclicks.com
 domain:terrafootwear.us
 domain:teslathemes.com
+domain:teur.tk
 domain:texbaza.by
 domain:textads.men
 domain:thebluenoodle.com
@@ -3290,6 +3307,7 @@ domain:videosbox.ru
 domain:videos-for-your-business.com
 domain:videotuber.ru
 domain:video-woman.com
+domain:videtubs.pl
 domain:viel.su
 domain:vigrx-original.ru
 domain:viktoria-center.ru
@@ -3428,6 +3446,7 @@ domain:winner7777.net
 domain:winterclassichockeyjerseys.com
 domain:winwotgold.pl
 domain:winx-play.ru
+domain:wiosenny-bon-1500.pl
 domain:witherrom55.eklablog.fr
 domain:w-journal.ru
 domain:wnoz.de
@@ -3481,6 +3500,7 @@ domain:xmlinde.com
 domain:xn--1-8sbcpb0bdm8k6a.xn--p1ai
 domain:xn--24-glceagatoq7c2a6ioc.xn--p1ai
 domain:xn-----6kcaacnblni5c5bicdpcmficy.xn--p1ai
+domain:xn-----6kccaibs5cb8afhjrfmix2n.xn--p1ai
 domain:xn------7cdbapdecfd4ak1bn0amjffj7afu3y.xn--p1ai
 domain:xn-----7kcabaipgeakzcss7bjdqdwpfnhv.xn--p1ai
 domain:xn-----7kceclhb4abre1b4a0ccl2fxch1a.xn--p1ai

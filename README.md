@@ -45,7 +45,7 @@
 -    Stopping Google Analytics Ghost Spam
 -    Browser Adware and Malware (Yontoo etc)
 
-(4520 bad referers, spam referrers, user-agents, bad bots, bad IP's, porn, gambling and clickjacking sites, seo companies and counting)
+(Over 4000 bad referers, spam referrers, user-agents, bad bots, bad IP's, porn, gambling and clickjacking sites, seo companies and counting)
 
 ### If this helps you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer: or send some cheese for my mouse [![gitcheese.com](https://api.gitcheese.com/v1/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/badges)](https://www.gitcheese.com/app/#/projects/92bf5669-7d2c-447d-baa4-216ac9e720a6/pledges/create)
 
@@ -490,9 +490,12 @@ Come drop by and visit me at https://mitchellkrog.com
 
 ### Acknowledgements & Contributors:
 
-Many parts of the generator scripts and code running behind this project have been adapted from multiple sources. In fact it's so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. Show them some love and check out some of their projects too
+Many Thanks to those contributing to this project.
+Many parts of the generator scripts and code running behind this project have been adapted from snippets from hundreds of sources. 
+In fact it is so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. 
+Show them some love and check out some of their projects too.
 
-- Stuart Cardall - https://github.com/itoffshore (Cross Platform Improvements to Update Script and man pages for Alpine Linux)
+- Stuart Cardall - https://github.com/itoffshore (Update script & Alpine Linux package)
 - Stevie-Ray Hartog https://github.com/Stevie-Ray
 - Marius Voila https://github.com/mariusv
 - Cătălin Mariș https://github.com/alrra
