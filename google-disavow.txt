@@ -541,6 +541,7 @@ domain:browsepulse-a.akamaihd.net
 domain:brus.city
 domain:brus-vsem.ru
 domain:bscodecs.com
+domain:b-styles.xyz
 domain:btvn.ru
 domain:buchananshardware.com
 domain:budpost.com.ua
@@ -2170,6 +2171,7 @@ domain:odesproperty.com
 domain:odywpjtw.bloger.index.hr
 domain:offer.camp
 domain:offers.bycontext.com
+domain:offf.info
 domain:office-windows.ru
 domain:offside2.5v.pl
 domain:offtime.ru
@@ -3008,6 +3010,7 @@ domain:syla.tk
 domain:t3chtonic.com
 domain:tablepicz.com
 domain:tabletkinaodchudzanie.com.pl
+domain:tacbelarus.ru
 domain:taihouse.ru
 domain:takethatad.com
 domain:tako3.com
@@ -3272,6 +3275,7 @@ domain:valkiria-tk.ru
 domain:valoresito.com
 domain:vapmedia.org
 domain:vapsy.com
+domain:varikoz24.com
 domain:vashsvet.com
 domain:vavilone.com
 domain:vbabule.net
@@ -3364,6 +3368,7 @@ domain:vvon.co.uk
 domain:vykup-avto-krasnodar.ru
 domain:vykupavto-krasnodar.ru
 domain:vzlom-na-zakaz.com
+domain:w3data.co
 domain:w3javascript.com
 domain:w7s.ru
 domain:walkme.com
