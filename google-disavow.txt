@@ -922,6 +922,7 @@ domain:eat.besplatno-skachat-washington.bid
 domain:e-avon.ru
 domain:e-buyeasy.com
 domain:e-collantes.com
+domain:e-commerce-seo1.com
 domain:e-commerce-seo.com
 domain:ecomp3.ru
 domain:econom.co
@@ -3279,6 +3280,7 @@ domain:varikoz24.com
 domain:vashsvet.com
 domain:vavilone.com
 domain:vbabule.net
+domain:vc.ru
 domain:vduplo.ru
 domain:vedomstvo.net
 domain:veerotech.com
