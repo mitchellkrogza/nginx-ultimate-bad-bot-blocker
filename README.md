@@ -509,3 +509,5 @@ Show them some love and check out some of their projects too.
 - SuperUser - http://superuser.com/ (snippets from various questions and answers)
 
 If you believe your name should be here, drop me a line.
+
+### Coding makes me very thirsty [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
