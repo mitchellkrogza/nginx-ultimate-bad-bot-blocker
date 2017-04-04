@@ -736,6 +736,7 @@ domain:copyrightclaims.org
 domain:cosmetic.donna7753191.ru
 domain:countbertwistdisp26.soup.io
 domain:counter.yadro.ru
+domain:country-chic.ru
 domain:covadhosting.biz
 domain:covetnica.com
 domain:cowblog.fr
@@ -1328,6 +1329,7 @@ domain:goldandcard.ru
 domain:golden-catalog.pro
 domain:goldenggames.com
 domain:golden-praga.ru
+domain:goldpanningtools.com
 domain:golmau.host.sk
 domain:gonextmedia.com
 domain:good-mummy.ru
@@ -1574,6 +1576,7 @@ domain:investingclub.ru
 domain:invest-pamm.ru
 domain:investpamm.ru
 domain:investsuccess.org
+domain:investyb.com
 domain:investzalog.ru
 domain:invivo.hu
 domain:inzn.ru
@@ -2046,6 +2049,7 @@ domain:mundoaberrante.com
 domain:muscle-factory.com.ua
 domain:musezone.ru
 domain:musezone.su
+domain:musicdaddy.net
 domain:musicspire.online
 domain:musicstock.me
 domain:music.utrolive.ru
@@ -2256,6 +2260,7 @@ domain:ozas.net
 domain:oz-offers.com
 domain:ozoz.it
 domain:paceform.com
+domain:paleohub.info
 domain:palvira.com.ua
 domain:pammik.ru
 domain:paparazzistudios.com.au
@@ -3145,6 +3150,7 @@ domain:top250movies.ru
 domain:topads.men
 domain:topappspro.com
 domain:topclickguru.com
+domain:top-karkas.ru
 domain:topmira.com
 domain:topquality.cf
 domain:topshef.ru
