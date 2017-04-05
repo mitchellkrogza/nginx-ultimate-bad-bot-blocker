@@ -593,6 +593,8 @@ domain:callejondelpozo.es
 domain:call-of-duty.info
 domain:calstaterealty.us
 domain:calvet.altervista.org
+domain:candcstuccoandstone.com
+domain:candelluxsklep.pl
 domain:candiceloves.us
 domain:cand.jp
 domain:candycrushshop.com
@@ -934,6 +936,7 @@ domain:editmedios.com
 domain:ed-shop01.ru
 domain:edshopping.net
 domain:education-cz.ru
+domain:efkt.jp
 domain:egovaleo.it
 domain:egvar.net
 domain:ekaterinburg.xrus.org
@@ -1111,6 +1114,7 @@ domain:fidelityfunding.com
 domain:fifa-coins.online
 domain:filesmonster.porn
 domain:filesvine.com
+domain:filkhbr.com
 domain:filmbokep69.com
 domain:filmetricsasia.com
 domain:filmfanatic.com
@@ -2449,6 +2453,7 @@ domain:prom23.ru
 domain:prombudpostach.com.ua
 domain:promodj.com
 domain:promoforum.ru
+domain:promoheads.com
 domain:pronekut.com
 domain:pron.pro
 domain:pro-okis.ru
@@ -3424,6 +3429,7 @@ domain:weightatraining.com
 domain:wejdz-tu.pl
 domain:welck.octopis.com
 domain:welcomeauto.ru
+domain:wellcome2slovenia.ru
 domain:wenimage.com
 domain:weprik.ru
 domain:wesharepics.com
