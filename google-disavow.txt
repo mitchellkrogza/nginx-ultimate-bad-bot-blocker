@@ -82,6 +82,7 @@ domain:8558l.jobs.net
 domain:883zy.com
 domain:8gold.com
 domain:8si.ru
+domain:8xv8.com
 domain:98oi.ru
 domain:999webdesign.com
 domain:9med.net
@@ -138,6 +139,7 @@ domain:adloads.net
 domain:admanaerofoil.com
 domain:admatic.com.tr
 domain:adminshop.com
+domain:admitad.com
 domain:adnotbad.com
 domain:adpremium.org
 domain:ads-cool.pro
@@ -320,6 +322,7 @@ domain:audiobangout.com
 domain:ausergrubhof.info
 domain:australia-opening-times.com
 domain:auto4style.ru
+domain:autoblogger24.info
 domain:autobudpostach.club
 domain:autogrep.ru
 domain:autoloans.com
@@ -426,6 +429,7 @@ domain:bestbuy.ca
 domain:bestchoice.cf
 domain:best-coupon-offer.com
 domain:bestcurs.org
+domain:bestdooz.com
 domain:bestempresas.es
 domain:bestimagecoollibrary.com
 domain:bestkfiledxd.cf
@@ -1799,6 +1803,7 @@ domain:life.biz.ua
 domain:lifebyleese.com
 domain:life-instyle.com
 domain:light.ifmo.ru
+domain:lightinghomes.net
 domain:likesdesign.com
 domain:likesuccess.com
 domain:liky.co.ua
@@ -1986,6 +1991,7 @@ domain:mixtapetorrent.com
 domain:mmog-play.ru
 domain:mmoguider.ru
 domain:mncrftpcs.com
+domain:mnogabukaff.net
 domain:mnprs.com
 domain:mobilemedia.md
 domain:mobot.site
@@ -2504,6 +2510,7 @@ domain:qualitymarketzone.com
 domain:quality-traffic.com
 domain:quebec-bin.com
 domain:queen.sim-com.ru
+domain:quelle.ru
 domain:quickbuck.com
 domain:quickloanbank.com
 domain:quick-offer.com
@@ -2746,6 +2753,7 @@ domain:seoexperimenty.ru
 domain:seofied.com
 domain:seoheap.com
 domain:seokicks.de
+domain:seomarketings.online
 domain:seo-platform.com
 domain:seorank.info
 domain:seorankinglinks.com
@@ -2854,6 +2862,7 @@ domain:skladvaz.ru
 domain:skylta.com
 domain:sky-mine.ru
 domain:skytraf.xyz
+domain:skyway24.ru
 domain:slavic-magic.ru
 domain:slavkokacunko.de
 domain:slayerlife.com
