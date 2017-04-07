@@ -80,6 +80,7 @@ domain:7yue.org
 domain:7zap.com
 domain:8558l.jobs.net
 domain:883zy.com
+domain:888.com
 domain:8gold.com
 domain:8si.ru
 domain:8xv8.com
@@ -137,6 +138,8 @@ domain:adimmix.com
 domain:adloads.com
 domain:adloads.net
 domain:admanaerofoil.com
+domain:adman.gr
+domain:adman.se
 domain:admatic.com.tr
 domain:adminshop.com
 domain:admitad.com
@@ -400,6 +403,7 @@ domain:bangla-chat-uk-paralud.ga
 domain:bankcrediti.ru
 domain:bankiem.pl
 domain:bankofthewext.com
+domain:bannerbank.ru
 domain:bannerspace.com
 domain:bannerswap.com
 domain:bannertesting.com
@@ -458,6 +462,7 @@ domain:beztuberkuleza.ru
 domain:bidbuy.co.kr
 domain:bidr.trellian.com
 domain:bif-ru.info
+domain:bigames.online
 domain:bigcities.org
 domain:biglistofwebsites.com
 domain:bigpenisguide.com
@@ -660,6 +665,7 @@ domain:cheapjerseysbizwholesale.us
 domain:cheapjerseysfootballshop.com
 domain:cheap-pills-norx.com
 domain:cheatcode-lita12.rhcloud.com
+domain:checkm8.com
 domain:checkpagerank.net
 domain:checktext.org
 domain:chee-by.biz
@@ -1473,6 +1479,7 @@ domain:hosting-tracker.com
 domain:host-protection.com
 domain:hostsshop.ru
 domain:hotblog.top
+domain:hotchatdate.com
 domain:hotdl.in
 domain:hotenergy.ru
 domain:hothor.se
@@ -2437,6 +2444,7 @@ domain:privatefx.all4invest.info
 domain:privatefx-in.ru
 domain:privatov-zapisi.ru
 domain:privhosting.com
+domain:prize44.com
 domain:prizesbook.online
 domain:prlog.ru
 domain:prod2016.com
@@ -3086,6 +3094,7 @@ domain:thewomenlife.com
 domain:thfox.com
 domain:thiegs.reco.ws
 domain:thin.me.pn
+domain:thruport.com
 domain:tiandeural.ru
 domain:tiens2010.ru
 domain:timeallnews.ru
@@ -3371,6 +3380,8 @@ domain:vodkoved.ru
 domain:volgograd.xrus.org
 domain:voloomoney.com
 domain:volume-pills.biz
+domain:voluumtracker1.com
+domain:voluumtrk.com
 domain:vonradio.com
 domain:voprosotvet24.ru
 domain:voronezh.xrus.org
