@@ -920,6 +920,7 @@ domain:druzhininevgeniy63.blogspot.com
 domain:dstroy.su
 domain:dustyorate.com
 domain:dvd-famille.com
+domain:dvervmoskvu.ru
 domain:dvr.biz.ua
 domain:dvrlists.com
 domain:dyshagi.ru
@@ -1041,6 +1042,7 @@ domain:evehemming.blogspot.com.au
 domain:event-tracking.com
 domain:everflora.ru
 domain:evidencecleanergold.com
+domain:evrotekhservis.ru
 domain:excaliburfilms.com
 domain:exchangeit.gq
 domain:exchanges-bet.com
@@ -1628,6 +1630,7 @@ domain:itrevolution.cf
 domain:itronics.ca
 domain:itsdp3.com
 domain:itservicesthatworkforyou.com
+domain:ix20.ru
 domain:izhevsk.xrus.org
 domain:izismile.com
 domain:izoll.ru
@@ -1703,6 +1706,7 @@ domain:kinohall.ru
 domain:kinohit1.ru
 domain:kino-key.info
 domain:kinomaniatv.pl
+domain:kinoplen.ru
 domain:kinopolet.net
 domain:kino-rating.ru
 domain:kinostorm.net
@@ -1957,6 +1961,7 @@ domain:merryhouse.co.uk
 domain:message-warning.net
 domain:mesto-x.com
 domain:metabar.ru
+domain:metalonly.info
 domain:metarip.ru
 domain:metaxalonevstizanidine.blogspot.com
 domain:methodsmarketing.com
@@ -3354,6 +3359,7 @@ domain:vip2ch.com
 domain:vip.51.la
 domain:vip-dom.in
 domain:vip-file.com
+domain:vipms.ru
 domain:vip-parfumeria.ru
 domain:vipsiterip.org
 domain:visa-china.ru
@@ -3466,6 +3472,7 @@ domain:whatzmyip.net
 domain:wheelchairliftsarea.com
 domain:whereiskentoday.com
 domain:whipme.yopoint.in
+domain:whiteelephantwellington.com
 domain:whiteproduct.com
 domain:wholesalecheapjerseysfree.com
 domain:wholesalejerseychinaoutlet.com
