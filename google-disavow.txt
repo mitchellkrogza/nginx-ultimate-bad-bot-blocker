@@ -1140,6 +1140,7 @@ domain:film-one.ru
 domain:fil.ru
 domain:filunika.com.ru
 domain:financeloan.us
+domain:financetip.eu
 domain:find1friend.com
 domain:findacheaplawyers.com
 domain:findclan.org
