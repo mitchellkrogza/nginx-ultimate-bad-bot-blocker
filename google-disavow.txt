@@ -233,6 +233,7 @@ domain:amazon-seo-service.com
 domain:amehdaily.com
 domain:amoi.tn
 domain:amospalla.es
+domain:ample-awards-today.us
 domain:am-se.com
 domain:amt-k.ru
 domain:amyfoxfitness.com
@@ -425,6 +426,7 @@ domain:beauty-clinic.ru
 domain:beauty-things.com
 domain:becuo.com
 domain:belinvestdom.by
+domain:bensbargains.net
 domain:berdasovivan.ru
 domain:berlininsl.com
 domain:berrymall.ru
@@ -804,6 +806,7 @@ domain:darmebel.com.ua
 domain:darodar.com
 domain:dataloading.net
 domain:data.vtc.pw
+domain:dating-time-now.com
 domain:datsun-do.com
 domain:davebestdeals.com
 domain:daydream-studio.ru
@@ -845,6 +848,7 @@ domain:dfiles.me
 domain:dfwu1013.info
 domain:dfwu1019.info
 domain:diarioaconcagua.com
+domain:dickssportinggoods.com
 domain:diegolopezcastan.com
 domain:diesel-parts28.ru
 domain:dieswaene.com
@@ -1422,6 +1426,7 @@ domain:hayate.biz
 domain:hazardky.net
 domain:hd720kino.ru
 domain:hdapp1008-a.akamaihd.net
+domain:hd-film.pl
 domain:hd-filmy.net
 domain:hdfreeporno.net
 domain:hdimagegallery.net
@@ -1430,6 +1435,7 @@ domain:hdmoviecamera.net
 domain:hdmoviecams.com
 domain:hdpixent.com
 domain:hdpixion.com
+domain:hdseriale.pl
 domain:hdwalls.xyz
 domain:hdxnxxtube.mobi
 domain:healbio.ru
@@ -1695,6 +1701,7 @@ domain:kidd.reunionwatch.com
 domain:kiev.ua
 domain:kiinomaniak.pl
 domain:kinobaks.com
+domain:kinobest.pl
 domain:kinocccp.net
 domain:kinofak.net
 domain:kino-filmi.com
@@ -1912,6 +1919,7 @@ domain:masserect.com
 domain:master-muznachas.ru
 domain:masterseek.com
 domain:masturbate.co.uk
+domain:matb3aa.com
 domain:matchpal-a.akamaihd.net
 domain:matematikus.info
 domain:maximilitary.ru
@@ -2367,6 +2375,7 @@ domain:plastweb.ru
 domain:platesauto.com
 domain:platinumdeals.gr
 domain:playlott.com
+domain:play-movie.pl
 domain:play-mp3.com
 domain:pliks.pl
 domain:plohaya-kreditnaya-istoriya.ru
@@ -2450,6 +2459,7 @@ domain:privatefx-in.ru
 domain:privatov-zapisi.ru
 domain:privhosting.com
 domain:prize44.com
+domain:prizefestival.mobi
 domain:prizesbook.online
 domain:prlog.ru
 domain:prod2016.com
@@ -2667,6 +2677,7 @@ domain:samolet.fr
 domain:samo-soznanie.ru
 domain:sampleletters.net
 domain:sanatorrii.ru
+domain:sandhillsonline.com
 domain:sanjosestartups.com
 domain:santasgift.ml
 domain:santechnik.jimdo.com
@@ -2985,6 +2996,7 @@ domain:starwarspcs.com
 domain:stats-public.grammarly.io
 domain:statustroll.com
 domain:stauga.altervista.org
+domain:staynplay.net
 domain:steame.ru
 domain:steelmaster.lv
 domain:stickers-market.ru
@@ -3080,6 +3092,7 @@ domain:teur.tk
 domain:texbaza.by
 domain:textads.men
 domain:thebluenoodle.com
+domain:thebluffs.com
 domain:thecoolimages.net
 domain:thecoral.com.br
 domain:thedownloadfreeonlinegames.blogspot.com
@@ -3471,6 +3484,7 @@ domain:whatsupinfoley.com
 domain:whatzmyip.net
 domain:wheelchairliftsarea.com
 domain:whereiskentoday.com
+domain:where-toget.com
 domain:whipme.yopoint.in
 domain:whiteelephantwellington.com
 domain:whiteproduct.com
