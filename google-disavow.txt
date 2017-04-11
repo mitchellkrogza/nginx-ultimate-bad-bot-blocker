@@ -881,6 +881,7 @@ domain:dnepropetrovsk.mistr-x.org
 domain:dneprsvet.com.ua
 domain:docstoc.com
 domain:doctissimo.fr
+domain:doctormakarova.ru
 domain:doeco.ru
 domain:dogbreedspicture.net
 domain:dogoimage.com
@@ -1140,6 +1141,7 @@ domain:film-one.ru
 domain:fil.ru
 domain:filunika.com.ru
 domain:financeloan.us
+domain:financepoints.eu
 domain:financetip.eu
 domain:find1friend.com
 domain:findacheaplawyers.com
@@ -1400,6 +1402,7 @@ domain:gsbs.com.ua
 domain:gsmlab.pl
 domain:gsmtlf.ru
 domain:g.starmoe.xyz
+domain:gstatey.net
 domain:gta-club.ru
 domain:gta-top.ru
 domain:gtopstats.com
@@ -1445,6 +1448,7 @@ domain:healing-dysplasia.ru
 domain:healmytrauma.info
 domain:heartofbeijing.blogspot.com
 domain:heatpower.ru
+domain:hebr.myddns-flir.com
 domain:helicalpile.us
 domain:hellokittyimg.com
 domain:helpmymacfaster.trade
@@ -1975,6 +1979,7 @@ domain:metarip.ru
 domain:metaxalonevstizanidine.blogspot.com
 domain:methodsmarketing.com
 domain:mex-annushka.ru
+domain:mexicotravelnet.com
 domain:mhi-systems.ru
 domain:mhtr.be
 domain:micasainvest.com
@@ -2582,6 +2587,7 @@ domain:recipedays.com
 domain:recipedays.ru
 domain:recordpage-a.akamaihd.net
 domain:rednise.com
+domain:reelheroes.net
 domain:referencemoi.com
 domain:refererx.com
 domain:regionshop.biz
@@ -2680,6 +2686,7 @@ domain:sampleletters.net
 domain:sanatorrii.ru
 domain:sandhillsonline.com
 domain:sanjosestartups.com
+domain:sankt-peterburg.nodup.ru
 domain:santasgift.ml
 domain:santechnik.jimdo.com
 domain:sanyuprojects.com
@@ -3276,6 +3283,7 @@ domain:uchebavchehii.ru
 domain:uchil.net
 domain:ucoz.ru
 domain:ucsol.ru
+domain:udsgame.online
 domain:ufa.xrus.org
 domain:uhdtv.website
 domain:uhodzalijami.ru
@@ -3455,6 +3463,7 @@ domain:webshoppermac.com
 domain:websiteaccountant.de
 domain:website-analytics.online
 domain:website-datenbank.de
+domain:websiteexplorer.info
 domain:websites-reviews.com
 domain:websitevaluebot.com
 domain:webtherapy.ru
@@ -3558,6 +3567,7 @@ domain:x-lime.net
 domain:xlolitka.com
 domain:xlovecam.com
 domain:xmlinde.com
+domain:xmronta.com
 domain:xn--1-8sbcpb0bdm8k6a.xn--p1ai
 domain:xn--24-glceagatoq7c2a6ioc.xn--p1ai
 domain:xn-----6kcaacnblni5c5bicdpcmficy.xn--p1ai
