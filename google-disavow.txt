@@ -226,6 +226,7 @@ domain:alphaforum.ru
 domain:alphahoverboards.com
 domain:alpharma.net
 domain:alveris.ru
+domain:alyeskaresort.com
 domain:am15.net
 domain:amanda-porn.ga
 domain:amateurgalls.com
@@ -286,6 +287,7 @@ domain:app-ready.xyz
 domain:approved.su
 domain:appsaurus.com
 domain:apxeo.info
+domain:aquarium-pro.ru
 domain:arabgirls.adultgalls.com
 domain:arabsexxxtube.com
 domain:arabseyes.com
@@ -519,6 +521,7 @@ domain:bobba.dzaba.com
 domain:bodybuilding-shop.biz
 domain:boleznikogi.com
 domain:bolezniorganov.ru
+domain:bolitgorlo.net
 domain:bombla.org
 domain:bongiornos.info
 domain:bonux.nextview.ru
@@ -563,6 +566,7 @@ domain:bum.com.ru
 domain:bupropion-sr-150-mg.us
 domain:buqayy0.livejournal.com
 domain:burger-imperia.com
+domain:burkesales.com
 domain:burn-fat.ga
 domain:businesxxl.com
 domain:buttons-for-website.com
@@ -1140,6 +1144,7 @@ domain:filmidivx.com
 domain:film-one.ru
 domain:fil.ru
 domain:filunika.com.ru
+domain:financehint.eu
 domain:financeloan.us
 domain:financepoints.eu
 domain:financetip.eu
@@ -1169,6 +1174,7 @@ domain:floating-share-buttons.com
 domain:flooringinstallation-edmonton.com
 domain:floridahuntingfishingadventures.com
 domain:floridamhca.org
+domain:florida-tourism.net
 domain:flowecs.com
 domain:flowersbazar.com
 domain:flowwwers.com
@@ -1915,6 +1921,7 @@ domain:marblestyle.ru
 domain:marcogrup.com
 domain:marcowebonyodziezowe.pl
 domain:maridan.com.ua
+domain:marketingtechniques.info
 domain:marketland.ml
 domain:marktforschung-stuttgart.com
 domain:marmitaco.cat
@@ -2203,6 +2210,7 @@ domain:nyfinance.ml
 domain:nzfilecloud.weebly.com
 domain:o00.in
 domain:oakleyglassesonline.us
+domain:oballergiya.ru
 domain:obnal.org
 domain:obuv-kupit.ru
 domain:ochistka-stokov.ru
@@ -2266,6 +2274,7 @@ domain:openfrost.com
 domain:openfrost.net
 domain:openlibrary.org
 domain:openmediasoft.com
+domain:openmultipleurl.com
 domain:opinionreelle.com
 domain:ops.picscout.com
 domain:optitrade24.com
@@ -2350,6 +2359,7 @@ domain:picsearch.com
 domain:picsfair.com
 domain:pics-group.com
 domain:picture-group.com
+domain:picturesfrom.com
 domain:picturesify.com
 domain:picturesmania.com
 domain:pijoto.net
@@ -3211,6 +3221,7 @@ domain:torrents-tracker.com
 domain:torrnada.ru
 domain:torture.ml
 domain:touchmods.fr
+domain:tourismvictoria.com
 domain:tour-line.net
 domain:tovaroboom.vast.ru
 domain:toxicwap.com
@@ -3219,6 +3230,7 @@ domain:tozup.com
 domain:tpu.ru
 domain:tradedeals.biz
 domain:trafaret74.ru
+domain:traffic100.com
 domain:traffic2cash.org
 domain:trafficmania.com
 domain:trafficmonetize.org
