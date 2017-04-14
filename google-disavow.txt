@@ -61,6 +61,7 @@ domain:4kplayer.pl
 domain:4pp13.com
 domain:4rent.ru
 domain:4replicawatch.net
+domain:4ur.click
 domain:4ureyesonly.com
 domain:4webmasters.com
 domain:5000-cotydzien.com
@@ -70,6 +71,7 @@ domain:5elementov.ru
 domain:5forex.ru
 domain:5i2.net
 domain:5kstore.com
+domain:5u.com
 domain:6hopping.com
 domain:72-news.com
 domain:76brighton.co.uk
@@ -135,6 +137,7 @@ domain:adf.ly
 domain:adhome.biz
 domain:adidas.frwebs.fr
 domain:adimmix.com
+domain:adktrailmap.com
 domain:adloads.com
 domain:adloads.net
 domain:admanaerofoil.com
@@ -308,6 +311,7 @@ domain:artdeko.info
 domain:artefakct.com
 domain:artpicso.com
 domain:aruplighting.com
+domain:as5000.com
 domain:asacopaco.tk
 domain:asia-forum.ru
 domain:asmxsatadriverin.aircus.com
@@ -415,6 +419,7 @@ domain:barnfurnituremart.com
 domain:basedecor.ru
 domain:bashtime.ru
 domain:basisches-wasser.net
+domain:batanga.net
 domain:battlecarnival.su
 domain:bausparen.bz.it
 domain:bazaronline24.ru
@@ -641,6 +646,7 @@ domain:casinorewards.info
 domain:castingbank.ru
 domain:catalogs-parts.com
 domain:cayado.snn.gr
+domain:cbb1smartlist12.click
 domain:cbcseward.com
 domain:cbox.ws
 domain:cbys.tk
@@ -648,6 +654,7 @@ domain:cdncash.com
 domain:cdncash.net
 domain:cdncash.org
 domain:celebsopics.com
+domain:cellfun.mobi
 domain:c-english.ru
 domain:cenokos.ru
 domain:cenoval.ru
@@ -1094,6 +1101,7 @@ domain:f00kclan.de
 domain:f012.de
 domain:f07.de
 domain:f0815.de
+domain:f5mtrack.com
 domain:fable.in.ua
 domain:failingmarriege.blogspot.com
 domain:falcoware.com
@@ -1166,6 +1174,7 @@ domain:fiuxy.com
 domain:fiverr.com
 domain:fix-website-errors.com
 domain:flash4fun.com
+domain:flashbannernow.com
 domain:flavors.me
 domain:flex4launch.ru
 domain:flipper.top
@@ -1467,6 +1476,7 @@ domain:hetmanship.xyz
 domain:hidefiles.org
 domain:hidemyass.com
 domain:hifidesign.ru
+domain:highland-homes.com
 domain:highstairs-a.akamaihd.net
 domain:histats.com
 domain:historichometeam.com
@@ -1604,6 +1614,7 @@ domain:interfucks.net
 domain:interior-stickers.ru
 domain:intermesh.net
 domain:internet-apteka.ru
+domain:internetartfair.com
 domain:intervsem.ru
 domain:intimshop-fantasy.ru
 domain:investingclub.ru
@@ -1615,6 +1626,7 @@ domain:investzalog.ru
 domain:invivo.hu
 domain:inzn.ru
 domain:io9.com
+domain:iomoio.net
 domain:iopeninghours.co.uk
 domain:iplogger.org
 domain:iplusbit.blogspot.co.za
@@ -1710,6 +1722,7 @@ domain:keywordteam.net
 domain:kfon.eu
 domain:kidd.reunionwatch.com
 domain:kiev.ua
+domain:kihi.gdn
 domain:kiinomaniak.pl
 domain:kinobaks.com
 domain:kinobest.pl
@@ -2031,6 +2044,7 @@ domain:mobot.site
 domain:mobplayer.net
 domain:mobplayer.ru
 domain:mobsfun.net
+domain:mobstarr.com
 domain:mockupui.com
 domain:modabutik.ru
 domain:modenamebel.ru
@@ -2253,6 +2267,7 @@ domain:online.ktc45.ru
 domain:onlineku.com
 domain:onlinemegax.com
 domain:onlineserialy.ru
+domain:onlineslotmaschine.com
 domain:online-templatestore.com
 domain:onlinetvseries.me
 domain:onlinewritingjobs17.blogspot.ru
@@ -2644,6 +2659,7 @@ domain:risparmiocasa.bz.it
 domain:ritlweb.com
 domain:rn-to-bsn.com
 domain:robot-forex.biz
+domain:rockingclicks.com
 domain:roleforum.ru
 domain:roma-kukareku.livejournal.com
 domain:rootandroid.org
@@ -3193,6 +3209,7 @@ domain:tizanidinevsvalium.blogspot.com
 domain:tizanidinewithdrawal.blogspot.com
 domain:tizanidinewithdrawalsymptoms.blogspot.com
 domain:tizanidinezanaflex.blogspot.com
+domain:tjkckpytpnje.com
 domain:tkanorganizma.ru
 domain:tksn.ru
 domain:tmm-kurs.ru
@@ -3228,6 +3245,7 @@ domain:toxicwap.com
 domain:toys.erolove.in
 domain:tozup.com
 domain:tpu.ru
+domain:tracksz.co
 domain:tradedeals.biz
 domain:trafaret74.ru
 domain:traffic100.com
@@ -3247,6 +3265,7 @@ domain:tripper.de
 domain:tri-slona.org
 domain:triumf-realty.ru
 domain:trk-4.net
+domain:trkdf.com
 domain:trkur.com
 domain:trubywriting.com
 domain:trudogolik.net
@@ -3743,6 +3762,7 @@ domain:znakomstva-moskva77.ru
 domain:znakomstvaonlain.ru
 domain:znakomstva-piter78.ru
 domain:znaniyapolza.ru
+domain:zog.link
 domain:zojirushi-products.ru
 domain:zolotoy-lis.ru
 domain:zona-aqua.ru
