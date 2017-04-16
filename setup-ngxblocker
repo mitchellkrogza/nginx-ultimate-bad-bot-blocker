@@ -1,0 +1,246 @@
+#!/bin/sh
+
+###  NGINX Bad Bot Blocker: setup script #################
+###  Copyright (C) 2017 Stuart Cardall                 ###
+###  https://github.com/itoffshore                     ###
+###  Licensed under the terms of the GPL2              ###
+##########################################################
+
+WWW=/var/www
+VHOST_EXT="vhost"
+VHOST_DIR=/etc/nginx/sites-available
+BOTS_DIR=/etc/nginx/bots.d
+CONF_DIR=/etc/nginx/conf.d
+MAIN_CONF=/etc/nginx/nginx.conf
+# setting Y / yes will whitelist only directories in $www
+# that look like domain.names
+DOT_NAMES="Y"
+# if you already set 'limit_conn addr' you may want to set
+# this to N / no.
+INC_DDOS="Y"
+
+####### end user configuration ###########################
+
+usage() {
+    local script=$(basename $0)
+    cat <<EOF
+$script: add Nginx Bad Bot Blocker configuration [ in $MAIN_CONF ] [ $VHOST_DIR/* ]
+
+Usage: $script [OPTIONS]
+	[ -w | --www   ] : WWW path                      (default: $WWW)
+	[ -e | --ext   ] : Vhost file extension          (default: .$VHOST_EXT)
+	[ -v | --vhost ] : Vhost directory               (default: $VHOST_DIR)
+	[ -b | --bots  ] : Bot rules directory           (default: $BOTS_DIR)
+	[ -c | --conf  ] : NGINX conf directory          (default: $CONF_DIR)
+	[ -m | --main  ] : NGINX main configuration      (default: $MAIN_CONF)
+	[ -n | --names ] : NO whitelist of .names only   (default: $DOT_NAMES)
+	[ -d | --ddos  ] : NO insert of DDOS rule        (default: $INC_DDOS)
+	[ -x | --exec  ] : Actually change the files     (default: don't change anything)
+	[ -h | --help  ] : this help message
+
+Examples:
+ $script -n    (Whitelist all directory names in $WWW as domains: not just dot.name directories)
+ $script -d    (Do not insert DDOS rule: these may clash with existing 'limit_conn addr' rules)
+ $script       (Don't change anything: display results on stdout)
+ $script -x    (Change / update config files)
+EOF
+    return 0
+}
+
+check_config() {
+	local files=$@
+
+	if [ -z "$files" ]; then
+		echo "no vhost files in: $VHOST_DIR/*.$VHOST_EXT => exiting."
+		exit 1
+	fi
+}
+
+find_vhosts() {
+	find $VHOST_DIR -type f -name "*.$VHOST_EXT"
+}
+
+whitelist_ips() {
+	local ip= conf=$BOTS_DIR/whitelist-ips.conf
+
+	mkdir -p $BOTS_DIR
+
+	if [ -n "$(which dig)" ]; then
+		ip=$(dig +short myip.opendns.com @resolver1.opendns.com)
+		if ! grep "$ip" $conf &>/dev/null; then
+			printf "%-17s %-15s %-s\n" "Whitelisting ip:" "$ip" "=> $conf"
+			if [ "$DRY_RUN" = "N" ]; then
+				printf "%-23s %-s\n" "$ip" "0;" >> $conf
+			fi
+		fi
+	else
+		echo "WARN: dig binary missing => install bind-tools to whitelist external ip address"
+	fi
+}
+
+whitelist_domains() {
+	local domain_list= domain= domain_len=
+	local conf=$BOTS_DIR/whitelist-domains.conf
+
+	case "$DOT_NAMES" in
+		y*|Y*) domain_list=$(find $WWW -mindepth 1 -maxdepth 1 -type d -name '*\.*' -exec basename {} \;);;
+		    *) domain_list=$(find $WWW -mindepth 1 -maxdepth 1 -type d -exec basename {} \;);;
+	esac
+
+	domain_len=$(find $WWW -mindepth 1 -maxdepth 1 -type d  -exec basename {} \; \
+		| awk '{ print length ($0) }' | sort -nr | head -1)
+
+	for domain in $domain_list; do
+		if ! grep "$domain" $conf &>/dev/null; then
+			printf "%-s %-$(( $domain_len +2))s %s\n" "Whitelisting domain:" "$domain" "=> $conf"
+			if [ "$DRY_RUN" = "N" ]; then
+				printf "%-$(( $domain_len +8))s %s\n" "\"~*$domain\"" "0;" >> $conf
+			fi
+		fi
+	done
+}
+
+longest_str() {
+	echo $@ | tr " " "\n" | awk '{print length ($0)}' | sort -nr | head -n1
+}
+
+add_includes() {
+	local ph='<<!!>>' line=$1 file=$2 conf_dir=$3 text= update=
+	local include_list=$(echo $@ | awk '{$1=$2=$3=""}sub("^"OFS"+","")')
+	local col_size=$(( $(longest_str $include_list) + $(echo $conf_dir | wc -m) ))
+
+	for text in $include_list; do
+		if ! grep "$text" $file 1>/dev/null; then
+			update='true'
+			text="include $conf_dir/$text;"
+			printf "%-10s %-$(( $col_size +10 ))s %s\n" "inserting:" "$text" "=> $file"
+			if [ "$DRY_RUN" = "N" ]; then
+				# $ph is just a placeholder so sed inserts a \t (tab)
+				sed -i "$line i $ph \t$text $ph" $file
+			fi
+		fi
+	done
+
+	if [ "$DRY_RUN" = "N" ]; then
+		if [ -n "$update" ]; then
+			#add blank line below inserts
+			line=$(( $line + $(echo $include_list | wc -w) ))
+			if ! sed -n "${line}p" $file | grep ^'}' 1>/dev/null; then
+				text="include $conf_dir/$(echo $include_list | awk '{print $1}');"
+				sed -i "s|$text|$text\n|" $file
+			fi
+
+			#add comment above inserts
+			text="include $conf_dir/$(echo $include_list | awk '{print $NF}');"
+			sed -i "s|$text|# Bad Bot Blocker\n\t$text|" $file
+
+			# remove placeholders
+			sed -i "s|$ph||g" $file
+		fi
+	fi
+}
+
+find_line() {
+	local file=$1 find_str=$2 first_last=$3
+
+	case "$first_last" in
+		first) awk "/$find_str/{ print NR; exit }" $file;;
+		 last) awk "/$find_str/{ print NR }" $file | tail -n1;;
+	esac
+}
+
+find_includes() {
+	local file=$1 search=$2 search_first_last=$3 line= tmp=$(mktemp)
+	local start_range=$4 start_first_last=$5
+	local end_range=$6 end_first_last=$7
+	local start=$(find_line $file $start_range $start_first_last)
+	local end=$(find_line $file $end_range $end_first_last)
+
+	sed -n ${start},${end}p ${file} > $tmp
+	line=$(find_line $tmp $search $search_first_last)
+	rm -f $tmp
+
+	# search string not found
+	if [ -z "$line" ]; then
+		line=1
+	fi
+
+	case "$search_first_last" in
+		first) line=$(( $line + $start -1 ));;
+		 last) line=$(( $line + $start +1 ));;
+	esac
+
+	# if inserting beyond the end of the file
+	if [ $line -gt $(wc -l < $file) ]; then
+		# insert blank line
+		sed -i "$end i \ " $file
+	fi
+
+	echo $line
+}
+
+get_options() {
+	local options=$(getopt -o w:e:v:b:c:m:ndhx --long \
+		www:,ext:,vhost:,bots:,conf:,main:,names,ddos,help,exec -- "$@" 2>/dev/null)
+
+        if [ $? -ne 0 ]; then
+                usage
+                exit 1
+        fi
+
+	eval set -- "$options"
+
+        while :; do
+                case "$1" in
+                -h | --help) usage && exit 1;;
+                -x | --exec) DRY_RUN=N; shift;;
+                -w | --www) WWW=$2; shift 2;;
+                -e | --ext) VHOST_EXT=$2; shift 2;;
+                -v | --vhost) VHOST_DIR=$2; shift 2;;
+                -b | --bots) BOTS_DIR=$2; shift 2;;
+                -c | --conf) CONF_DIR=$2; shift 2;;
+                -m | --main) MAIN_CONF=$2; shift 2;;
+                -n | --names) DOT_NAMES=N; shift;;
+                -d | --ddos) INC_DDOS=N; shift;;
+                *) break;;
+                esac
+        done
+}
+
+main() {
+	local file= line= vhost_includes= main_includes= file_list=
+	main_includes="botblocker-nginx-settings.conf globalblacklist.conf"
+	vhost_includes="blockbots.conf"
+
+	# parse command line
+	get_options $@
+
+	case "$INC_DDOS" in
+		y*|Y*) vhost_includes="$vhost_includes ddos.conf"
+	esac
+
+	file_list=$(find_vhosts)
+	check_config $file_list
+
+	if [ -z "$DRY_RUN" ]; then
+		printf "\n** Dry Run ** | not updating files | -x or --exec to change files\n\n"
+	fi
+
+	# update vhosts
+	for file in $file_list; do
+		line=$(find_includes $file include last server_ last location first )
+		add_includes $line $file $BOTS_DIR $vhost_includes
+	done
+
+	# update main config
+	line=$(find_includes $MAIN_CONF include last http first '\}' last )
+	add_includes $line $MAIN_CONF $CONF_DIR botblocker-nginx-settings.conf globalblacklist.conf
+
+	whitelist_ips
+	whitelist_domains
+}
+
+## START ##
+main $@
+exit $?
+
