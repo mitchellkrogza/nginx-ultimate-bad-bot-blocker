@@ -9,14 +9,19 @@
 
 # Use this script only once and thereafter use the Auto Update Bash Script updatenginxblocker.sh
 
-# THIS INSTALL SCRIPT **ONLY** COPIES THE NECESSARY FILES FOR NGINX DIRECT FROM THE REPO
+# THIS INSTALL SCRIPT ONLY COPIES THE NECESSARY FILES FOR NGINX DIRECT FROM THE REPO
+
 ### The installer script does not carry out STEP 6 of the configuration instructions for you. 
 ### You must manually edit any vhost files with the includes in STEP 6 or it will not actually be protecting any sites.
 ### READ: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/CONFIGURATION.md
 
-# Save this file as /bin/installnginxblocker.sh
-# Make it Executable chmod +x /bin/installnginxblocker.sh
-# Run it from the command line using sudo /bin/installnginxblocker.sh
+### You can now use a setup script contributed by Stuart Cardall to automatically do all the includes for you
+### See - https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker
+
+# Save this file as /usr/sbin/install-ngxblocker
+# sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O install-ngxblocker
+# Make it Executable chmod +x /usr/sbin/install-ngxblocker
+# Run it from the command line using sudo /bin/install-ngxblocker
 
 # LETS INSTALL NOW
  
@@ -34,3 +39,7 @@ exit 0
 
 # PLEASE READ CONFIGURATION INSTRUCTIONS
 # https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/CONFIGURATION.md
+
+# PLEASE SEE SETUP SCRIPT TO DO THE NECESSARY INCLUDES FOR YOU
+### You can now use a setup script contributed by Stuart Cardall to automatically do all the includes for you
+### See - https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker

@@ -125,9 +125,35 @@ For bot's or spiders that you still want to allow but want to limit their visita
 
 ## AUTO INSTALLATION INSTRUCTIONS
 To Make Sure you copy all the correct files you can now use a simple bash setup script for copying the files into the correct nginx folders for you:
-See: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/installnginxblocker.sh
 
-**Please Note:** the bash installer script does not carry out STEP 7 of the manual configuration instructions for you. YOU MUST edit any vhosts files  yourself and manually add the entries in STEP 7 or the blocker will not actually be protecting any sites.
+See: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker
+See: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker
+
+These two shell scripts will 
+A) (install-ngxblocker) download all the required files to the correct folders.
+B) (setup-ngxblocker) will try to insert the new configuration below any existing includes in your config files
+
+To use these scripts download them to your /usr/sbin directory as follows
+
+`cd /usr/sbin`
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O install-ngxblocker`
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O setup-ngxblocker`
+
+make both files executable
+
+`sudo chmod +x install-ngxblocker`
+
+`sudo chmod +x setup-ngxblocker`
+
+Run the install script first
+
+`sudo ./install-ngxblocker`
+
+Then run the setup script
+
+`sudo ./setup-ngxblocker`
 
 ## MANUAL INSTALLATION INSTRUCTIONS
 
@@ -291,7 +317,7 @@ Updating to the latest version is now as simple as:
 
 `cd /etc/nginx/conf.d`
 
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf`
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf -O globalblacklist.conf`
 
 `sudo nginx -t`
 
@@ -301,9 +327,11 @@ And you will be up to date with all your whitelisted domains included automatica
 
 # AUTO UPDATING:
 
-See my latest auto updater bash script at:
+See the latest auto updater bash script at:
 
-https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/updatenginxblocker.sh
+https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker
+
+With great thanks to Stuart Cardall (https://github.com/itoffshore) for improving on it to be truly universal to other distro's.
 
 Relax now and sleep better at night knowing your site is telling all those baddies they are FORBIDDEN !!!
 

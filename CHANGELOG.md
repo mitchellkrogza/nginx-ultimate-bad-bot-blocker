@@ -1,5 +1,12 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-04-16
+- Happy Easter !!! :rabbit:
+- New setup-ngxblocker script contributed by Stuart Cardall @itoffshore. The script will try to insert the new configuration below any existing includes in your config files. If the search string is not found the inserts are made at the end of the start search range. Thank you @itoffshore for this contribution.
+- installnginxblocker.sh renamed to install-ngxblocker for consistency
+- updatenginxblocker.sh renamed to update-ngxblocker for consistency
+- Readme and Configuration File Updates
+
 ### 2017-04-11
 - Introduced Repo Email Notification Mailing List
 - Please subscribe your email address to the mailing list at **https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker**

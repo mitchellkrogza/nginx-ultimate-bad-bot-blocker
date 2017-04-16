@@ -12,8 +12,10 @@
 
 # PLEASE READ UPDATED CONFIGURATION INSTRUCTIONS BEFORE USING THIS
 
-# Save this file as /usr/sbin/updatenginxblocker
-# Make it Executable chmod 700 /usr/sbin/updatenginxblocker
+# Save this file as /usr/sbin/update-ngxblocker
+# cd /usr/sbin
+# sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O update-ngxblocker
+# Make it Executable chmod 700 /usr/sbin/update-ngxblocker
 
 # RUN THE UPDATE
 # Here our script runs, pulls the latest update, reloads nginx and emails you a notification
@@ -81,4 +83,4 @@ exit $?
 
 # Add this as a cron to run daily / weekly as you like
 # Here's a sample CRON entry to update every day at 10pm
-# 00 22 * * * /usr/sbin/updatenginxblocker
+# 00 22 * * * /usr/sbin/update-ngxblocker
