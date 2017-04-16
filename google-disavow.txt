@@ -743,6 +743,7 @@ domain:community.allhiphop.com
 domain:com-onlinesupport.host
 domain:com-onlinesupport.site
 domain:compliance-checker.info
+domain:com-secure.download
 domain:com-supportcenter.website
 domain:concealthyself.com
 domain:conciergegroup.org
@@ -1436,6 +1437,7 @@ domain:guruofcasino.com
 domain:gwebtools.com
 domain:gwebtools.com.br
 domain:gwhwpxbw.bloger.index.hr
+domain:gyffu.com
 domain:h2monline.com
 domain:hacktougroup.ru
 domain:hahashka.ru
@@ -1447,6 +1449,7 @@ domain:handmadepics.net
 domain:handsandlegs.ru
 domain:hanink.biz.ly
 domain:hasfun.com
+domain:hauleddes.com
 domain:havepussy.com
 domain:hayate.biz
 domain:hazardky.net
@@ -1513,6 +1516,7 @@ domain:hostcritique.com
 domain:hoste.octopis.com
 domain:hostingclub.lk
 domain:hosting-tracker.com
+domain:hostnow.men
 domain:host-protection.com
 domain:hostsshop.ru
 domain:hotblog.top
@@ -2219,6 +2223,7 @@ domain:notebook-pro.ru
 domain:notfastfood.ru
 domain:nottyu.xyz
 domain:noumeda.com
+domain:november-lax.com
 domain:novgorod.xrus.org
 domain:novosibirsk.xrus.org
 domain:novosti-hi-tech.ru
@@ -3340,6 +3345,7 @@ domain:uhodzalijami.ru
 domain:uhod-za-sobakoj.ru
 domain:ukrup.com
 domain:ultimateclassicrock.com
+domain:ultimatesetnewfreeallsoftupgradesystems.pw
 domain:ultramart.biz
 domain:umg-stroy.ru
 domain:umityangin.net
