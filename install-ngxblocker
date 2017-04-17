@@ -21,7 +21,7 @@
 # Save this file as /usr/sbin/install-ngxblocker
 # sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O install-ngxblocker
 # Make it Executable chmod +x /usr/sbin/install-ngxblocker
-# Run it from the command line using sudo /bin/install-ngxblocker
+# Run it from the command line using sudo /usr/sbin/install-ngxblocker
 
 # LETS INSTALL NOW
  
