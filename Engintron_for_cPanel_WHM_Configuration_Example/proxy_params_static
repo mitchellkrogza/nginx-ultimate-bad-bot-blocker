@@ -1,0 +1,51 @@
+# /**
+#  * @version    1.8.3
+#  * @package    Engintron for cPanel/WHM
+#  * @author     Fotis Evangelou
+#  * @url        https://engintron.com
+#  * @copyright  Copyright (c) 2010 - 2017 Nuevvo Webware P.C. All rights reserved.
+#  * @license    GNU/GPL license: https://www.gnu.org/copyleft/gpl.html
+#  */
+
+# === STATIC ASSET CACHING ===
+# Proxy Cache Settings for static files ONLY.
+# Nginx can cache static files and directly serve them without issuing calls
+# to Apache on every static file request.
+# By default Engintron will set a 1 minute (1m) cache time for static files.
+# To increase, simply adjust the value for "proxy_cache_valid"
+# Respects the different "Expires" header set per file type in "default.conf"
+# for client-side caching.
+# Every other header is ignored, stripped or reset from the request to
+# maximize caching.
+# This cache is turned off when certain criteria are met, e.g. when a site
+# manager logs into WordPress' backend/admin section.
+
+# Admin sections for CMSs
+if ($request_uri ~* "(/administrator|/wp-admin|/wp-login.php)") {
+    set $CACHE_BYPASS_FOR_STATIC 1;
+}
+
+# Proxy cache settings
+proxy_no_cache          $CACHE_BYPASS_FOR_STATIC;
+proxy_cache_bypass      $CACHE_BYPASS_FOR_STATIC;
+
+proxy_cache             engintron_static;
+proxy_cache_key         "$request_method$scheme$host$request_uri";
+proxy_cache_lock        on;
+proxy_cache_min_uses    1;
+proxy_cache_revalidate  on;
+proxy_cache_use_stale   error timeout invalid_header updating http_500 http_502 http_503 http_504; # Additional options: http_403 http_404
+proxy_cache_valid       200 301 302 1m; # Adjust for longer server-side cache times (unfortunately, we cannot use a variable here)
+
+proxy_ignore_headers    Cache-Control Expires Set-Cookie Vary;
+proxy_hide_header       Cache-Control;
+proxy_hide_header       Expires;
+proxy_hide_header       Pragma;
+proxy_hide_header       Set-Cookie;
+proxy_hide_header       Vary;
+
+# Reset headers
+add_header              Pragma "public";
+
+# Disable logging
+access_log              off;

@@ -1,0 +1,79 @@
+# /**
+#  * @version    1.8.3
+#  * @package    Engintron for cPanel/WHM
+#  * @author     Fotis Evangelou
+#  * @url        https://engintron.com
+#  * @copyright  Copyright (c) 2010 - 2017 Nuevvo Webware P.C. All rights reserved.
+#  * @license    GNU/GPL license: https://www.gnu.org/copyleft/gpl.html
+#  */
+
+# === MICRO CACHING ===
+# 1 second (1s) micro-caching enabled for all proxied dynamic HTML content
+# If you wish to have longer cache times, change the "proxy_cache_valid"
+# line from "1s" to whatever time you want (e.g. "30s" or "1m").
+# This cache is turned off when certain criteria are met, e.g. when a site
+# manager logs into WordPress' backend/admin section.
+
+#############################################################################################
+# ADVANCED USERS ONLY:
+# This setting is for cPanel servers with only one to a few sites & NO user-generated content
+# in the frontend (no forums, no e-commerce sites, no user logins!) - you have been warned!
+# Use the time defined in "$EXPIRES_FOR_DYNAMIC" to force client-side caching on dynamic content
+# (set to 1m by default). To enable, uncomment all lines located at the bottom of this file.
+# You can also raise "proxy_cache_valid" to the same value (e.g. "1m") to force longer
+# server-side caching.
+# The combination of these settings will have Nginx serve all content without issuing requests
+# to Apache except only when it's required to refresh its cache.
+set $EXPIRES_FOR_DYNAMIC 1m;
+#############################################################################################
+
+# Allow separate cache entries for mobile devices (smartphones & tables)
+set $MOBILE "";
+if ($http_user_agent ~* "(iPhone|iPod|iPad|Android|Mobile|Tablet)") {
+    set $MOBILE "mobile_";
+}
+
+# CMS (& CMS extension) specific cookies (e.g. Joomla, K2 for Joomla, WordPress, WooCommerce)
+if ($http_cookie ~* "(joomla_[a-zA-Z0-9_]+|userID|wordpress_[a-zA-Z0-9_]+|wp-postpass|comment_author_[a-zA-Z0-9_]+|woocommerce_[a-zA-Z0-9_]+|wp_woocommerce_[a-zA-Z0-9_]+)") {
+    set $CACHE_BYPASS_FOR_DYNAMIC 1;
+    set $EXPIRES_FOR_DYNAMIC 0;
+}
+
+# Invision Power Board (IPB)
+if ($cookie_member_id ~ "^[1-9][0-9]*$") {
+    set $CACHE_BYPASS_FOR_DYNAMIC 1;
+    set $EXPIRES_FOR_DYNAMIC 0;
+}
+
+# Admin sections & generic entry point names for CMSs
+if ($request_uri ~* "(/administrator|com_user|com_users|com_contact|com_mailto|/component/user|/component/users|/component/contact|/component/mailto|/wp-admin|/wp-login.php|/ucp.php|/login|/logout|/connect|/signin|/signup|/register)") {
+    set $CACHE_BYPASS_FOR_DYNAMIC 1;
+    set $EXPIRES_FOR_DYNAMIC 0;
+}
+
+# Disable caching when the "Cache-Control" header is set to "private"
+if ($http_cache_control ~* "private") {
+    set $CACHE_BYPASS_FOR_DYNAMIC 1;
+    set $EXPIRES_FOR_DYNAMIC 0;
+}
+
+# Proxy cache settings
+proxy_no_cache         $CACHE_BYPASS_FOR_DYNAMIC;
+proxy_cache_bypass     $CACHE_BYPASS_FOR_DYNAMIC;
+
+proxy_cache            engintron_dynamic;
+proxy_cache_key        "$MOBILE$request_method$scheme$host$request_uri";
+proxy_cache_lock       on;
+proxy_cache_methods    GET HEAD;
+proxy_cache_use_stale  error timeout invalid_header updating http_500 http_502 http_503 http_504; # Additional options: http_403 http_404
+proxy_cache_valid      200 1s; # Adjust for longer server-side cache times (unfortunately, we cannot use a variable here)
+proxy_ignore_headers   Cache-Control Expires Set-Cookie Vary;
+
+# Force client-side caching for dynamic content (commented by default)
+# See explanation at the top of this file
+#expires               $EXPIRES_FOR_DYNAMIC;
+#proxy_hide_header     Cache-Control;
+#proxy_hide_header     Expires;
+#proxy_hide_header     Pragma;
+#proxy_hide_header     Set-Cookie;
+#proxy_hide_header     Vary;

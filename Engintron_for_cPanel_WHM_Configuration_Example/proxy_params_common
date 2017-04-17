@@ -1,0 +1,50 @@
+# /**
+#  * @version    1.8.3
+#  * @package    Engintron for cPanel/WHM
+#  * @author     Fotis Evangelou
+#  * @url        https://engintron.com
+#  * @copyright  Copyright (c) 2010 - 2017 Nuevvo Webware P.C. All rights reserved.
+#  * @license    GNU/GPL license: https://www.gnu.org/copyleft/gpl.html
+#  */
+
+# General Proxy Settings
+proxy_pass                    $scheme://$PROXY_DOMAIN_OR_IP:$PROXY_TO_PORT;
+proxy_http_version            1.1;                # Always upgrade to HTTP/1.1
+proxy_set_header              Accept-Encoding ""; # Optimize encoding
+proxy_set_header              Connection "";      # Enable keepalives
+proxy_set_header              Host $host;
+proxy_set_header              Proxy "";
+proxy_set_header              Referer $http_referer;
+proxy_set_header              X-Forwarded-For $proxy_add_x_forwarded_for;
+proxy_set_header              X-Forwarded-Host $host;
+proxy_set_header              X-Forwarded-Port $server_port;
+proxy_set_header              X-Forwarded-Proto $scheme;
+proxy_set_header              X-Forwarded-Server $host;
+proxy_set_header              X-Real-IP $remote_addr;
+proxy_set_header              CF-Connecting-IP $http_cf_connecting_ip;
+proxy_set_header              CF-Visitor $http_cf_visitor;
+
+# Buffers
+proxy_buffers                 256 16k;
+proxy_buffer_size             128k;
+proxy_busy_buffers_size       256k;
+proxy_temp_file_write_size    256k;
+
+# Timeouts
+proxy_connect_timeout         180s;
+proxy_read_timeout            240s;
+proxy_send_timeout            240s;
+
+# Security Headers
+add_header                    X-XSS-Protection "1; mode=block" always;
+add_header                    X-Content-Type-Options "nosniff" always;
+# The HSTS header below force-redirects HTTP to HTTPS traffic & uses the browser's cache
+# to store the redirect. Comment out with caution. More info on HSTS here:
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
+#if ($scheme = 'https') {
+#   add_header                Strict-Transport-Security "max-age=86400; includeSubDomains" always;
+#}
+
+# Info
+add_header                    X-Nginx-Cache-Status $upstream_cache_status;
+add_header                    X-Server-Powered-By "Engintron";
