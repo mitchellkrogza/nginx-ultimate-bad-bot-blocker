@@ -1,0 +1,20 @@
+#!/bin/bash
+# Shell Script for Fixing EnginTron after update when it removes files from /etc/conf.d
+# Copyright - https://github.com/mitchellkrogza
+# Project Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
+
+# Save this file as /usr/sbin/fix-engintron
+# Make it Executable chmod +x /usr/sbin/fix-engintron
+# Run it from the command line using sudo /usr/sbin/fix-engintron
+
+# LETS FIX NOW
+ 
+cd /etc/nginx/conf.d
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf -O globalblacklist.conf
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/botblocker-nginx-settings.conf -O botblocker-nginx-settings.conf
+exit 0
+
+# Every time you update EngineTron it wipes out the custom files in /etc/conf.d
+# Run this shell script after updating Enginetron to fix this.
+# I do not officially support EngineTron / CPanel / WHM systems as they are just 
+# absolutely messy with the way they do things.
