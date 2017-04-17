@@ -21,6 +21,8 @@
 
 - If you follow the main configuration instructions all you need to to is make the changes required in your /etc/conf.d/default.conf and /etc/conf.d/default_https.conf files as per this example.
 
+- This example contains a modified file in **/utilities/https_vhosts.php** which will do the includes for you on any SSL vhosts you create.
+
 ### Version 2.2017.05
 
 ##### Created by: https://github.com/mitchellkrogza
