@@ -66,6 +66,7 @@ domain:4ureyesonly.com
 domain:4webmasters.com
 domain:5000-cotydzien.com
 domain:51.la
+domain:51unlim.ru
 domain:57883.net
 domain:5elementov.ru
 domain:5forex.ru
@@ -188,6 +189,7 @@ domain:akusherok.ru
 domain:akvamaster.dp.ua
 domain:alarmobninsk.ru
 domain:albamargroup.com
+domain:alekseevec.ru
 domain:alert-fdm.xyz
 domain:alert-fjg.xyz
 domain:alert-hgd.xyz
@@ -1208,6 +1210,7 @@ domain:forex.osobye.ru
 domain:forex-procto.ru
 domain:forexunion.net
 domain:forminecrafters.ru
+domain:formseo.com
 domain:forms-mtm.ru
 domain:forpostlock.ru
 domain:forsex.info
@@ -1961,6 +1964,7 @@ domain:masturbate.co.uk
 domain:matb3aa.com
 domain:matchpal-a.akamaihd.net
 domain:matematikus.info
+domain:max-eclat.men
 domain:maximilitary.ru
 domain:maxthon.com
 domain:mazda-roadsters.com
@@ -2260,7 +2264,6 @@ domain:oklogistic.ru
 domain:okmusic.jp
 domain:okout.ru
 domain:okroshki.ru
-domain:ok.ru
 domain:oktube.ru
 domain:olvanto.ru
 domain:olympescort.com
@@ -2347,9 +2350,11 @@ domain:paramountmarble.co.uk
 domain:parlament.biz
 domain:partner-cdn.men
 domain:partner-print.men
+domain:partners-ship.pro
 domain:partybunny.ru
 domain:pathwhelp.org
 domain:pattersonsweb.com
+domain:paydayloanslocal.com
 domain:paydayonlinecom.com
 domain:p-business.ru
 domain:pc-services.ru
@@ -2478,6 +2483,7 @@ domain:pornpost.in
 domain:pornstartits.xblog.in
 domain:porn-w.org
 domain:porodasobak.net
+domain:portadd.men
 domain:portal-eu.ru
 domain:portnoff.od.ua
 domain:poshiv-chehol.ru
@@ -2528,6 +2534,7 @@ domain:projectforte.ru
 domain:projefrio.com.br
 domain:prokotov.com
 domain:prom23.ru
+domain:promalp-universal.ru
 domain:prombudpostach.com.ua
 domain:promodj.com
 domain:promoforum.ru
@@ -3001,6 +3008,7 @@ domain:soft-program.com
 domain:soft-terminal.ru
 domain:softtor.com
 domain:softxaker.ru
+domain:soheavyblog.com
 domain:sohoindia.net
 domain:solitaire-game.ru
 domain:solnplast.ru
