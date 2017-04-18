@@ -91,3 +91,5 @@
      set $CACHE_BYPASS_FOR_DYNAMIC 1; # Disables micro-caching
 #     set $CACHE_BYPASS_FOR_STATIC 1; # Disables static file caching
  }
+include /etc/nginx/conf.d/globalblacklist.conf;
+include /etc/nginx/conf.d/botblocker-nginx-settings.conf;
