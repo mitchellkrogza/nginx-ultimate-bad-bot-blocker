@@ -67,6 +67,7 @@ domain:4webmasters.com
 domain:5000-cotydzien.com
 domain:51.la
 domain:51unlim.ru
+domain:55wmz.ru
 domain:57883.net
 domain:5elementov.ru
 domain:5forex.ru
@@ -1455,6 +1456,7 @@ domain:handmadepics.net
 domain:handsandlegs.ru
 domain:hanink.biz.ly
 domain:hasfun.com
+domain:hatdc.org
 domain:hauleddes.com
 domain:havepussy.com
 domain:hayate.biz
@@ -2151,6 +2153,7 @@ domain:mydownlodablefiles.com
 domain:myfreemp3.eu
 domain:myfreetutorials.com
 domain:myftpupload.com
+domain:mygameplus.com
 domain:myhealthcare.com
 domain:myhitmp3.club
 domain:myindospace.com
@@ -2507,6 +2510,7 @@ domain:pravoholding.ru
 domain:prchecker.info
 domain:preparevideosafesystem4unow.site
 domain:preparevideosafesystem4unow.space
+domain:pretty-mart.com
 domain:pricheski-video.com
 domain:printdirectforless.com
 domain:printingpeach.com
@@ -2852,6 +2856,7 @@ domain:seo-smm.kz
 domain:seo-tools-optimizing.com
 domain:serialsway.ucoz.ru
 domain:serptehnika.ru
+domain:service-core.ru
 domain:servisural.ru
 domain:seryeznie-znakomstva.ru
 domain:sethrollins.net
