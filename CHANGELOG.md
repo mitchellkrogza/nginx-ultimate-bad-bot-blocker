@@ -1,5 +1,12 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-04-19
+- Introduced better Regex patterns for Good and Bad Bots to prevent false positives.
+- Regex Changes on Bad Bots Section to Case Insensitive Matching
+- Regex Change on Good Bots Section to Exact Matching
+- Fixed some Duplicated Bots Issues
+
+
 ### 2017-04-16
 - Happy Easter !!! :rabbit:
 - New setup-ngxblocker script contributed by Stuart Cardall @itoffshore. The script will try to insert the new configuration below any existing includes in your config files. If the search string is not found the inserts are made at the end of the start search range. Thank you @itoffshore for this contribution.
