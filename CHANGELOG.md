@@ -5,7 +5,7 @@
 - Regex Changes on Bad Bots Section to Case Insensitive Matching
 - Regex Change on Good Bots Section to Exact Matching
 - Fixed some Duplicated Bots Issues
-
+- Added Help and Examples for People using EnginTron/CPanel/WHM systems.
 
 ### 2017-04-16
 - Happy Easter !!! :rabbit:
