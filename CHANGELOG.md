@@ -1,5 +1,30 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-04-20 (MAJOR VERSION UPDATE) - V2.2017.07
+
+- New include files introduced:
+
+- blacklist-ips.conf
+- bad-referrer-words.conf
+- custom-bad-referrers.conf
+
+- New include file bad-referrer-words.conf allows total control and customization of scanning for bad referrer words
+- New include file blacklist-ips.conf allows total control and customization over which IP addresses and IP Ranges you want to block
+- New include file custom-bad-referrers.conf allows adding own custom bad referrer domains you wish to block.
+
+- Cyveillance and Berkeley Scanner Blocks have been moved into blacklist-ips.conf
+
+- **VERY IMPORTANT** - Without the existence of the new include files blacklist-ips.conf, bad-referrer-words.conf and custom-bad-referrers.conf include files Nginx will FAIL RELOADING with EMERG :exclamation:
+
+- PLEASE READ UPDATED CONFIGURATION INSTRUCTIONS
+
+- AUTO UPDATE SCRIPT WILL FAIL NGINX RELOAD WITHOUT THE NEW INCLUDE FILES !!!!
+
+- Please subscribe your email address to the mailing list at **https://groups.google.com/forum/#!forum/apache-ultimate-bad-bot-blocker**
+or simply send a blank email to **apache-ultimate-bad-bot-blocker+subscribe@googlegroups.com** to subscribe.
+**Please make sure you are subscribed to notifications** to be notified when the blocker is updated and also to be notified when any important or mission critical changes like this take place.
+- Also follow me on twitter @ubuntu101za for update notifications
+
 ### 2017-04-19
 - Introduced better Regex patterns for Good and Bad Bots to prevent false positives.
 - Regex Changes on Bad Bots Section to Case Insensitive Matching
