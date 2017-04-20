@@ -307,6 +307,7 @@ domain:arclk.net
 domain:arenanews.com.ua
 domain:arendakvartir.kz
 domain:arendas.net
+domain:arendatora.ru
 domain:arenda-yeisk.ru
 domain:arendovalka.xyz
 domain:arkartex.ru
@@ -436,6 +437,7 @@ domain:beauty-bracelet.com
 domain:beauty-clinic.ru
 domain:beauty-things.com
 domain:becuo.com
+domain:bedcapdealers.com
 domain:belinvestdom.by
 domain:bensbargains.net
 domain:berdasovivan.ru
@@ -686,6 +688,7 @@ domain:cheapjerseysa.com
 domain:cheapjerseysap.com
 domain:cheapjerseysbizwholesale.us
 domain:cheapjerseysfootballshop.com
+domain:cheapmarmot.online
 domain:cheap-pills-norx.com
 domain:cheatcode-lita12.rhcloud.com
 domain:checkm8.com
@@ -1260,6 +1263,7 @@ domain:free-video-tool.com
 domain:freewebs.com
 domain:freewhatsappload.com
 domain:freshberry.com.ua
+domain:freshdz.com
 domain:freshmac.space
 domain:freshsuperbloop.com
 domain:freshwallpapers.info
@@ -1708,6 +1712,7 @@ domain:jerseywholesalebizchina.com
 domain:jerseywholesalechinabiz.com
 domain:jerseywholesaleelitestore.com
 domain:jjbabskoe.ru
+domain:joessmogtestonly.com
 domain:joingames.org
 domain:jongose.ninja
 domain:journalhome.com
@@ -1896,6 +1901,7 @@ domain:liveshoppersmac.com
 domain:livetsomudvekslingstudent.bloggersdelight.dk
 domain:livingcanarias.com
 domain:livingroomdecor.info
+domain:lkbennettstore.online
 domain:llastbuy.ru
 domain:lmrauction.com
 domain:loadopia.com
@@ -2152,6 +2158,7 @@ domain:muz-baza.net
 domain:muznachas-service.ru
 domain:muz-shoes.ru
 domain:muztops.ru
+domain:mvpicton.co.uk
 domain:my-bc.ru
 domain:my-big-family.com
 domain:myblogregistercm.tk
@@ -2239,6 +2246,7 @@ domain:nonews.co
 domain:nootrino.com
 domain:nordstar.pro
 domain:normalegal.ru
+domain:northfacestore.online
 domain:notaria-desalas.com
 domain:notebook-pro.ru
 domain:notfastfood.ru
@@ -2585,6 +2593,7 @@ domain:pst2017.onlinewebshop.net
 domain:psvita.ru
 domain:publiccasinoil.com
 domain:pufip.com
+domain:pukaporn.com
 domain:pulse33.ru
 domain:purchasepillsnorx.com
 domain:purplesphere.in
@@ -2708,6 +2717,7 @@ domain:robot-forex.biz
 domain:rockingclicks.com
 domain:roleforum.ru
 domain:roma-kukareku.livejournal.com
+domain:roofers.org.uk
 domain:rootandroid.org
 domain:ros-ctm.ru
 domain:rospromtest.ru
@@ -2869,6 +2879,7 @@ domain:seo-tools-optimizing.com
 domain:serialsway.ucoz.ru
 domain:serptehnika.ru
 domain:service-core.ru
+domain:servingnotice.com
 domain:servisural.ru
 domain:seryeznie-znakomstva.ru
 domain:sethrollins.net
@@ -3170,6 +3181,7 @@ domain:tehngr.ru
 domain:telegraf.by
 domain:telegramdownload10.com
 domain:telesvoboda.ru
+domain:telsis.com
 domain:template-kid.com
 domain:tennis-img.org
 domain:terraclicks.com
@@ -3620,6 +3632,7 @@ domain:womensterritory.ru
 domain:wonderfulflowers.biz
 domain:wordpresscore.com
 domain:wordpress-crew.net
+domain:word-vorlagen.net
 domain:works.if.ua
 domain:worldhistory.biz
 domain:worldis.me
@@ -3762,6 +3775,7 @@ domain:yoursearch.me
 domain:yoursite.com
 domain:youtoner.it
 domain:youtubedownload.org
+domain:yuantuo.co.jp
 domain:yuarra.pluto.ro
 domain:yubikk.info
 domain:yugk.net
