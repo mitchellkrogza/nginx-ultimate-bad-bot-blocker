@@ -1,0 +1,21 @@
+# this file is sourced by: #
+############################
+#    install-ngxblocker	   #
+#    setup-ngxblocker	   #
+############################
+
+CONF_FILES="
+        globalblacklist.conf
+        botblocker-nginx-settings.conf
+        "
+
+BOT_FILES="
+        blockbots.conf
+        ddos.conf
+        whitelist-ips.conf
+        whitelist-domains.conf
+        blacklist-user-agents.conf
+        blacklist-ips.conf
+        bad-referrer-words.conf
+        custom-bad-referrers.conf
+        "
