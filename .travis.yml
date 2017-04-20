@@ -51,8 +51,8 @@ deploy:
   - "bots.d/whitelist-domains.conf"
   - "bots.d/blacklist-user-agents.conf"
   - "bots.d/bad-referrer-words.conf"
-  - "bots.d/custom-bad-referrers.conf.conf"
-  - "bots.d/blacklist-ips.conf.conf"
+  - "bots.d/custom-bad-referrers.conf"
+  - "bots.d/blacklist-ips.conf"
   skip_cleanup: true
   on:
     repo: mitchellkrogza/nginx-ultimate-bad-bot-blocker
