@@ -5,9 +5,17 @@
 # Project Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
 # Update script & Alpine Linux package by Stuart Cardall: https://github.com/itoffshore
 
-# MAKE SURE you have your whitelist-ips.conf,  whitelist-domains.conf and blacklist-user-agents.conf files in /etc/nginx/bots.d
+# MAKE SURE you have all the following files in /etc/nginx/bots.d/ folder 
+# ***********************************************************************
+# whitelist-ips.conf
+# whitelist-domains.conf
+# blacklist-user-agents.conf
+# bad-referrer-words.conf
+# custom-bad-referrers.conf
+# blacklist-ips.conf
 # A major change to using include files was introduced in
-# https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/commit/c7acdfa8228d2f19a83e5bb14d54355db86fcebf
+# https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/commit/7e3ab02172dafdd524de5dd450a9732328622779
+# **************************************************************************
 # Nginx will fail a reload with [EMERG] without the presence of these files.
 
 # PLEASE READ UPDATED CONFIGURATION INSTRUCTIONS BEFORE USING THIS
