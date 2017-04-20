@@ -23,7 +23,7 @@
 
 - This example contains a modified file in **/utilities/https_vhosts.php** which will do the includes for you on any SSL vhosts you create.
 
-### Version 2.2017.05
+### Version 2.2017.07
 
 ##### Created by: https://github.com/mitchellkrogza
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>

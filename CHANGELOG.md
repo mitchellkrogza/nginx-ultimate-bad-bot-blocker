@@ -16,9 +16,9 @@
 
 - **VERY IMPORTANT** - Without the existence of the new include files blacklist-ips.conf, bad-referrer-words.conf and custom-bad-referrers.conf include files Nginx will FAIL RELOADING with EMERG :exclamation:
 
-- PLEASE READ UPDATED CONFIGURATION INSTRUCTIONS
+- PLEASE READ UPDATED CONFIGURATION INSTRUCTIONS :exclamation: :exclamation: :exclamation:
 
-- AUTO UPDATE SCRIPT WILL FAIL NGINX RELOAD WITHOUT THE NEW INCLUDE FILES !!!!
+- AUTO UPDATE SCRIPT WILL FAIL NGINX RELOAD WITHOUT THE NEW INCLUDE FILES !!!! :exclamation: :exclamation: :exclamation:
 
 - Please subscribe your email address to the mailing list at **https://groups.google.com/forum/#!forum/apache-ultimate-bad-bot-blocker**
 or simply send a blank email to **apache-ultimate-bad-bot-blocker+subscribe@googlegroups.com** to subscribe.

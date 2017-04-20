@@ -2,6 +2,7 @@
 # Bash Script for Installing the Nginx Bad Bot Blocker
 # Copyright - https://github.com/mitchellkrogza
 # Project Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
+# Version 2.2017.07
 
 # PLEASE READ CONFIGURATION INSTRUCTIONS BEFORE USING THIS - THIS IS ONLY A PARTIAL INSTALLER
 # FOR COPYING THE FILES CORRECTLY TO NGINX INTO THE CORRECT FOLDERS
@@ -35,6 +36,9 @@ sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bo
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/whitelist-ips.conf -O whitelist-ips.conf
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/whitelist-domains.conf -O whitelist-domains.conf
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blacklist-user-agents.conf -O blacklist-user-agents.conf
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blacklist-ips.conf -O blacklist-ips.conf
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/bad-referrer-words.conf -O bad-referrer-words.conf
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/custom-bad-referrers.conf -O custom-bad-referrers.conf
 exit 0
 
 # PLEASE READ CONFIGURATION INSTRUCTIONS

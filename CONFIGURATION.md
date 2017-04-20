@@ -3,7 +3,7 @@
 
 ##### Created by: https://github.com/mitchellkrogza
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
-### Version 2.2017.05
+### Version 2.2017.07
 
 ## Update Notification System
 Please subscribe your email address to the mailing list at **https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker**
@@ -11,9 +11,9 @@ or simply send a blank email to **nginx-ultimate-bad-bot-blocker+subscribe@googl
 Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical changes take place.
 
 # CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
-### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
+### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY :exclamation:
 
-**If you miss one step you will get an nginx EMERG error. This is normally a result of not downloading either blockbots.conf, ddos.conf, whitelist-ips.conf, whitelist-domains.conf or blacklist-user-agents.conf into your /etc/nginx/bots.d folder. If any of the include files are missing Nginx will EMERG and will not reload.**
+**If you miss one step you will get an nginx EMERG :exclamation: error. This is normally a result of not downloading either blockbots.conf, ddos.conf, whitelist-ips.conf, whitelist-domains.conf, bad-referrer-words.conf, custom-bad-referrers.conf, blacklist-user-agents.conf or blacklist-ips.conf into your /etc/nginx/bots.d folder. If any of the include files are missing Nginx will EMERG and will not reload.**
 
 ## AUTO INSTALLATION INSTRUCTIONS
 To Make Sure you copy all the correct files you can now use a simple bash setup script for copying the files into the correct nginx folders for you:
@@ -97,8 +97,7 @@ Whitelist all your own domain names and IP addresses. **Please note important ch
 
 
 Use nano, vim or any other text editor to edit both whitelist-ips.conf and whitelist-domains.conf to include all your own domain names and IP addresses that you want to specifically whitelist from the blocker script. 
-
-When pulling any future updates now you can simply pull the latest globalblacklist.conf file and it will automatically include your whitelisted domains and IP addresses.
+When pulling any future updates now your domains and IP whitelists will not be overwritten.
 
 ## STEP 4:
 
@@ -108,15 +107,61 @@ Copy the custom User-Agents blacklist file into your /etc/nginx/bots.d folder
 
 `cd /etc/nginx/bots.d`
 
-- copy the blacklist-user-agents.conf file into the same folder
+- copy the blacklist-user-agents.conf file from the repository
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blacklist-user-agents.conf -O blacklist-user-agents.conf`
 
 
 Use nano, vim or any other text editor to edit (if needed) blacklist-user-agents.conf to include your own custom list of bad agents that are not included in the blocker like "omgilibot" which some people choose to block. 
-
+When pulling any future updates now your custom User-Agents blacklist will not be overwritten.
 
 ## STEP 5:
+
+**BLACKLIST USING YOUR OWN CUSTOM BAD REFERRERS**
+
+Copy the custom bad referrers blacklist file into your /etc/nginx/bots.d folder
+
+`cd /etc/nginx/bots.d`
+
+- copy the custom-bad-referrers.conf file from the repository
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/custom-bad-referrers.conf -O custom-bad-referrers.conf`
+
+Use nano, vim or any other text editor to edit (if needed) custom-bad-referrers.conf to include your own custom list of bad referrer domains that are not included in the blocker. 
+When pulling any future updates now your custom referrers list will not be overwritten.
+
+## STEP 6:
+
+**BLACKLIST IPS AND IP RANGES USING YOUR OWN CUSTOM LIST**
+
+Copy the custom IP blacklist file into your /etc/nginx/bots.d folder
+
+`cd /etc/nginx/bots.d`
+
+- copy the blacklist-ips.conf file from the repository
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blacklist-ips.conf -O blacklist-ips.conf`
+
+Use nano, vim or any other text editor to edit (if needed) blacklist-ips.conf to include your own custom list of IP Addresses and IP Ranges that you wish to block.  
+When pulling any future updates now your custom IP blacklist will not be overwritten.
+
+## STEP 7:
+
+**DOWNLOAD CUSTOM BAD REFERRER WORDS INCLUDE FILE FOR CUSTOMIZED SCANNING OF BAD WORDS**
+
+Copy the custom bad referrer words include file into your /etc/nginx/bots.d folder
+
+`cd /etc/nginx/bots.d`
+
+- copy the bad-referrer-words.conf file from the repository
+
+`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/bad-referrer-words.conf -O bad-referrer-words.conf`
+
+Use nano, vim or any other text editor to edit the bad-referrer-words.conf file as you like. 
+When pulling any future updates now your custom bad referrer words list will not be overwritten.
+
+
+## STEP 8:
 
 **INCLUDE IMPORTANT SETTINGS IN NGINX.CONF**
 **Also see SAMPLE-nginx.conf file in the root of this repository**
@@ -143,14 +188,14 @@ The important settings file above adds the rate limiting functions and hash_buck
 The server_names_hash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory. You can tweak these settings to your own requirements.
 
 
-## STEP 6: **VERY IMPORTANT**
+## STEP 9: **VERY IMPORTANT**
 
 **MAKE SURE** that your nginx.conf file contains the following include directive. If it's commented out make sure to uncomment it or none of this will work.
 
 - `include /etc/nginx/conf.d/*`
 
 
-## STEP 7: **VERY IMPORTANT**
+## STEP 10: **VERY IMPORTANT**
 
 **ADD INCLUDE FILES INTO A VHOST**
 
@@ -164,7 +209,7 @@ These includes MUST be added within a **server {}** block of a vhost otherwise y
 
 - `include /etc/nginx/bots.d/ddos.conf;`
 
-## STEP 8:
+## STEP 11:
 
 **TESTING YOUR NGINX CONFIGURATION**
 
@@ -176,7 +221,7 @@ If you get no errors then you followed my instructions so now you can make the b
 
 The blocker is now active and working so now you can run some simple tests from another linux machine to make sure it's working.
 
-## STEP 9:
+## STEP 12:
 
 **TESTING**
 
@@ -201,7 +246,7 @@ Should respond with: curl: (52) Empty reply from server
 
 The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 
-## STEP 10:
+## STEP 13:
 
 **UPDATING THE NGINX BAD BOT BLOCKER** is now easy thanks to the automatic includes for whitelisting your own domain names.
 
