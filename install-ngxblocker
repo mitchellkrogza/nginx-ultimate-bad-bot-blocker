@@ -1,49 +1,223 @@
-#!/bin/bash
-# Bash Script for Installing the Nginx Bad Bot Blocker
+#!/bin/sh
+
+# Shell Script for Installing the Nginx Bad Bot Blocker
 # Copyright - https://github.com/mitchellkrogza
 # Project Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
 # Version 2.2017.07
+# Install script & Alpine Linux package by Stuart Cardall: https://github.com/itoffshore
 
 # PLEASE READ CONFIGURATION INSTRUCTIONS BEFORE USING THIS - THIS IS ONLY A PARTIAL INSTALLER
-# FOR COPYING THE FILES CORRECTLY TO NGINX INTO THE CORRECT FOLDERS
+# FOR COPYING THE FILES CORRECTLY TO THE NGINX FOLDERS:
 # https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/CONFIGURATION.md
 
-# Use this script only once and thereafter use the Auto Update Bash Script updatenginxblocker.sh
+# Use this script for a new install or to update to a new release (which has a new configuration
+# file structure) and thereafter use the Auto Update Shell Script update-ngxblocker to update
+# the blacklist in /etc/nginx/conf.d/globalblacklist.conf
 
-# THIS INSTALL SCRIPT ONLY COPIES THE NECESSARY FILES FOR NGINX DIRECT FROM THE REPO
+# THIS INSTALL SCRIPT ONLY COPIES THE NECESSARY FILES FOR NGINX DIRECTLY FROM THE REPO
 
-### The installer script does not carry out STEP 6 of the configuration instructions for you. 
+### The installer script does not carry out STEP 6 of the configuration instructions for you.
 ### You must manually edit any vhost files with the includes in STEP 6 or it will not actually be protecting any sites.
 ### READ: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/CONFIGURATION.md
 
-### You can now use a setup script contributed by Stuart Cardall to automatically do all the includes for you
+### You can also now use a setup script contributed by Stuart Cardall to automatically insert the includes for you
 ### See - https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker
 
 # Save this file as /usr/sbin/install-ngxblocker
-# sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O install-ngxblocker
-# Make it Executable chmod +x /usr/sbin/install-ngxblocker
-# Run it from the command line using sudo /usr/sbin/install-ngxblocker
+# 	sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
+# Make it Executable:
+# 	chmod 700 /usr/sbin/install-ngxblocker
+# Run it from the command line:
+#	sudo /usr/sbin/install-ngxblocker [ --help ]
 
-# LETS INSTALL NOW
- 
-cd /etc/nginx/conf.d
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf -O globalblacklist.conf
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/botblocker-nginx-settings.conf -O botblocker-nginx-settings.conf
-sudo mkdir /etc/nginx/bots.d
-cd /etc/nginx/bots.d
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blockbots.conf -O blockbots.conf
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf -O ddos.conf
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/whitelist-ips.conf -O whitelist-ips.conf
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/whitelist-domains.conf -O whitelist-domains.conf
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blacklist-user-agents.conf -O blacklist-user-agents.conf
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blacklist-ips.conf -O blacklist-ips.conf
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/bad-referrer-words.conf -O bad-referrer-words.conf
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/custom-bad-referrers.conf -O custom-bad-referrers.conf
-exit 0
+######## LETS INSTALL NOW ###############################
+
+CONF_DIR=/etc/nginx/conf.d
+BOTS_DIR=/etc/nginx/bots.d
+REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+
+####### end user configuration ##########################
+
+usage() {
+	local script=$(basename $0)
+	cat <<EOF
+$script: download Nginx Bad Bot Blocker configuration to: [ $CONF_DIR ] [ $BOTS_DIR ]
+
+Usage: $script [OPTIONS]
+        [ -b | --bots  ] : Bot rules directory           (default: $BOTS_DIR)
+        [ -c | --conf  ] : NGINX conf directory          (default: $CONF_DIR)
+        [ -r | --repo  ] : Change repo url	         (default: $REPO)
+        [ -x | --exec  ] : Actually change the files     (default: don't change anything)
+        [ -h | --help  ] : this help message
+
+Examples:
+ $script       (Don't change anything: display results on stdout)
+ $script -x    (Download / update config files)
+EOF
+	return 0
+}
+
+longest_str() {
+	echo $@ | tr " " "\n" | awk '{print length ($0)}' | sort -nr | head -n1
+}
+
+check_if_updating() {
+	local x= local_file= local_dir=$1
+	local file_list=$(echo $@ | awk '{$1=""; print}' | sed -e 's/^[[:space:]]*//')
+
+	for x in $file_list; do
+		local_file=$local_dir/$x
+
+		if [ ! -f $local_file ]; then
+			echo "true"
+			break
+		fi
+	done
+}
+
+download_files() {
+	local url= x= local_file= remote_dir=$1 local_dir=$2
+	local file_list=$(echo $@ | awk '{$1="",$2=""; print}')
+	local col_size=$(( $(longest_str $file_list) + $(echo $remote_dir | wc -m) ))
+
+	if [ -n "$(check_if_updating $local_dir $file_list)" ]; then
+		printf "\nREPO = $REPO\n\n"
+
+		for x in $file_list; do
+			local_file=$local_dir/$x
+
+			if [ ! -f $local_file ]; then
+				if [ "$DRY_RUN" = "N" ]; then
+					printf "%-21s %-$(( $col_size +8 ))s %s" \
+					"Downloading [FROM]=>" \
+					"[REPO]/$remote_dir/$x" \
+					"[TO]=>  $local_file"
+
+					url=$REPO/$remote_dir/$x
+					wget -q $url -O $local_file
+
+					if [ $? = 0 ]; then
+						printf "...OK\n"
+					else
+						printf "...ERROR downloading: $url\n"
+					fi
+				else
+					printf "%-21s %-$(( $col_size +8 ))s %s\n" \
+					"Downloading [FROM]=>" \
+					"[REPO]/$remote_dir/$x" \
+					"[TO]=>  $local_file"
+				fi
+			fi
+		done
+	else
+		printf "Nothing to update for directory: $local_dir\n"
+	fi
+}
+
+check_config() {
+	local x= dirs=$@
+
+	for x in $dirs; do
+		if [ ! -d $x ]; then
+			printf "Creating directory: $x\n"
+			if [ "$DRY_RUN" = "N" ]; then
+				mkdir -p $x
+			fi
+		fi
+	done
+}
+
+get_options() {
+	local options=$(getopt -o b:c:r:hx --long \
+		bots:,conf:,repo:,help,exec -- "$@" 2>/dev/null)
+
+	if [ $? -ne 0 ]; then
+		usage
+		exit 1
+	fi
+
+	eval set -- "$options"
+
+	while :; do
+		case "$1" in
+		-h | --help) usage && exit 1;;
+		-x | --exec) DRY_RUN=N; shift;;
+		-b | --bots) BOTS_DIR=$2; shift 2;;
+		-c | --conf) CONF_DIR=$2; shift 2;;
+		-r | --repo) REPO=$2; shift 2;;
+		*) break;;
+		esac
+	done
+}
+
+wget_opts() {
+	local opts=
+
+	# GNU wget / Busybox 1.26.2
+	if wget --help 2>&1 | grep -q "\--spider"; then
+		opts="--spider"
+	else    # Busybox wget < 1.26.2
+		opts="-s"
+	fi
+
+	echo $opts
+}
+
+check_online() {
+	local url=$1 options=$(wget_opts)
+
+	if wget $options $include_url &>/dev/null; then
+		echo "true"
+	fi
+}
+
+main() {
+	local include_url=
+
+	# require root
+	if [ "$(id -u)" != "0" ]; then
+		echo "This script must be run as root" 1>&2
+		exit 1
+	fi
+
+	# parse command line
+	get_options $@
+	include_url=$REPO/include_filelist.txt
+
+	# check repo is online & source includes
+	printf "Checking url: $include_url\n"
+	if [ -n "$(check_online $include_url)" ]; then
+		local tmp=$(mktemp)
+		wget -q $include_url -O $tmp
+		source $tmp 2>/dev/null
+	else
+		printf "Repo down or missing: $include_url\n"
+		exit 1
+	fi
+
+	# double check we have some files sourced
+	if [ -z "$CONF_FILES" ] || [ -z "$BOT_FILES" ]; then
+		printf "Error sourcing variables from: $include_url"
+		exit 1
+	fi
+
+	# by default do not change any files
+	if [ -z "$DRY_RUN" ]; then
+		printf "\n** Dry Run ** | -x or --exec to download files\n\n"
+	fi
+
+	check_config $CONF_DIR $BOTS_DIR
+	download_files conf.d $CONF_DIR $CONF_FILES
+	download_files bots.d $BOTS_DIR $BOT_FILES
+}
+
+## START ##
+main $@
+exit $?
 
 # PLEASE READ CONFIGURATION INSTRUCTIONS
 # https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/CONFIGURATION.md
 
-# PLEASE SEE SETUP SCRIPT TO DO THE NECESSARY INCLUDES FOR YOU
-### You can now use a setup script contributed by Stuart Cardall to automatically do all the includes for you
+# PLEASE ALSO SEE THE SETUP SCRIPT TO INSERT THE NECESSARY INCLUDES FOR YOU
+### You can now use a setup script contributed by Stuart Cardall to automatically add the includes for you
 ### See - https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker
