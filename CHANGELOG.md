@@ -1,5 +1,9 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-04-21
+- Updated install-ngxblocker script from Stuart Cardall @itoffshore
+- Fixed updating globalblacklist.conf in EnginTron example folder
+
 ### 2017-04-20 (MAJOR VERSION UPDATE) - V2.2017.07
 
 - New include files introduced:
