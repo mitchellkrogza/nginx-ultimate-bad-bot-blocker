@@ -5,7 +5,7 @@
 # Project Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
 # Update script & Alpine Linux package by Stuart Cardall: https://github.com/itoffshore
 
-# MAKE SURE you have all the following files in /etc/nginx/bots.d/ folder 
+# MAKE SURE you have all the following files in /etc/nginx/bots.d/ folder
 # ***********************************************************************
 # whitelist-ips.conf
 # whitelist-domains.conf
@@ -28,10 +28,30 @@
 # RUN THE UPDATE
 # Here our script runs, pulls the latest update, reloads nginx and emails you a notification
 
-email="me@myemail.com"
-send_email="Y"
-conf_dir=/etc/nginx/conf.d
-url=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf
+EMAIL="me@myemail.com"
+SEND_EMAIL="Y"
+CONF_DIR=/etc/nginx/conf.d
+
+##### end user configuration ##############################################################
+
+usage() {
+	local script=$(basename $0)
+	cat <<EOF
+$script: update Nginx Bad Bot Blocker blacklist to: [ $CONF_DIR ]
+
+Usage: $script [OPTIONS]
+	[ -c | --conf     ] : NGINX conf directory          (default: $CONF_DIR)
+	[ -r | --repo     ] : Change repo url               (default: $REPO)
+	[ -e | --email    ] : Change email address          (default: $EMAIL)
+	[ -n | --no-email ] : Do not send email report      (default: $SEND_EMAIL)
+	[ -h | --help     ] : this help message
+
+Examples:
+ $script		         (Download blacklist.conf to: $CONF_DIR)
+ $script -c /my/custom/conf.d    (Download blacklist.conf to a custom location)
+EOF
+	return 0
+}
 
 service_cmd() {
 	# arch linux does not have a 'service' command
@@ -54,39 +74,72 @@ wget_opts() {
 		opts="-nv"
 	fi
 
-	opts="$opts -O $conf_dir/globalblacklist.conf"
 	echo $opts
 }
 
-# require root
-if [ "$(id -u)" != "0" ]; then
-	echo "This script must be run as root" 1>&2
-	exit 1
-fi
 
-# default to service (centos does not have 'which' by default)
-service=${service_cmd:-"service"}
-email_report=$(mktemp)
-options=$(wget_opts)
+get_options() {
+	local options=$(getopt -o c:r:e:nh --long \
+		bots:,conf:,repo:,email:,no-email,help,exec -- "$@" 2>/dev/null)
 
-# download update
-mkdir -p $conf_dir
-wget $url $options 2>&1 | tee $email_report
+	if [ $? -ne 0 ]; then
+		usage
+		exit 1
+	fi
 
-# re-read configuration
-if ! grep "Not Found" $email_report; then
-	$service nginx reload | tee -a $email_report
-else
-	printf "\nDownload failed: not reloading nginx config\n" | tee -a $email_report
-fi
+	eval set -- "$options"
 
-# email report
-case "$send_email" in
-	y*|Y*) cat $email_report | mail -s "Nginx Bad Bot Blocker Updated" $email;;
-esac
+	while :; do
+		case "$1" in
+		-h | --help) usage && exit 1;;
+		-c | --conf) CONF_DIR=$2; shift 2;;
+		-r | --repo) REPO=$2; shift 2;;
+		-e | --email) EMAIL=$2; shift 2;;
+		-n | --no-email) SEND_EMAIL=N; shift 2;;
+		*) break;;
+		esac
+	done
+}
 
-rm -f $email_report
+main() {
+	local email_report=$(mktemp) file=globalblacklist.conf
+	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+	local remote_dir=conf.d url= output=
+	# default to service (centos does not have 'which' by default)
+	local service=${service_cmd:-"service"}
 
+	# require root
+	if [ "$(id -u)" != "0" ]; then
+		echo "This script must be run as root" 1>&2
+		exit 1
+	fi
+
+	# parse command line
+	get_options $@
+	url=$REPO/$remote_dir/$file
+	output=$CONF_DIR/$file
+
+	# download update
+	mkdir -p $CONF_DIR
+	wget $url $(wget_opts) -O $output 2>&1 | tee $email_report
+
+	# re-read configuration
+	if ! grep "Not Found" $email_report; then
+		$service nginx reload | tee -a $email_report
+	else
+		printf "\nDownload failed: not reloading nginx config\n" | tee -a $email_report
+	fi
+
+	# email report
+	case "$SEND_EMAIL" in
+		y*|Y*) printf "\nEmailing report to: $EMAIL\n";
+		       cat $email_report | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL;;
+	esac
+
+	rm -f $email_report
+}
+
+main $@
 exit $?
 
 # Add this as a cron to run daily / weekly as you like
