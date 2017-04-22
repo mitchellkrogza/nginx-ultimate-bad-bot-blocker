@@ -22,8 +22,8 @@ INC_DDOS="Y"
 ####### end user configuration ###########################
 
 usage() {
-    local script=$(basename $0)
-    cat <<EOF
+	local script=$(basename $0)
+	cat <<EOF
 $script: add Nginx Bad Bot Blocker configuration [ in $MAIN_CONF ] [ $VHOST_DIR/* ]
 
 Usage: $script [OPTIONS]
@@ -44,7 +44,7 @@ Examples:
  $script       (Don't change anything: display results on stdout)
  $script -x    (Change / update config files)
 EOF
-    return 0
+	return 0
 }
 
 check_config() {
@@ -52,6 +52,11 @@ check_config() {
 
 	if [ -z "$files" ]; then
 		echo "no vhost files in: $VHOST_DIR/*.$VHOST_EXT => exiting."
+		exit 1
+	fi
+
+	if [ ! -f "$MAIN_CONF" ]; then
+		echo "NGINX main configuration ('$MAIN_CONF') not found => exiting."
 		exit 1
 	fi
 }
@@ -171,7 +176,7 @@ find_includes() {
 	esac
 
 	# if inserting beyond the end of the file
-	if [ $line -gt $(wc -l < $file) ]; then
+	if [ $line -gt $end ]; then
 		# insert blank line
 		sed -i "$end i \ " $file
 	fi
@@ -207,21 +212,70 @@ get_options() {
         done
 }
 
+wget_opts() {
+	local opts=
+
+	# GNU wget / Busybox 1.26.2
+	if wget --help 2>&1 | grep -q "\--spider"; then
+		opts="--spider"
+	else    # Busybox wget < 1.26.2
+		opts="-s"
+	fi
+
+	echo $opts
+}
+
+check_online() {
+	local url=$1 options=$(wget_opts)
+
+	if wget $options $url &>/dev/null; then
+		echo "true"
+	fi
+}
+
 main() {
-	local file= line= vhost_includes= main_includes= file_list=
-	main_includes="botblocker-nginx-settings.conf globalblacklist.conf"
-	vhost_includes="blockbots.conf"
+	local include_url= file= line= file_list=
+	local CONF_FILES= BOT_FILES=
+	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+
+	# require root
+	if [ "$(id -u)" != "0" ]; then
+		echo "This script must be run as root" 1>&2
+		exit 1
+	fi
 
 	# parse command line
 	get_options $@
+	include_url=$REPO/include_filelist.txt
 
+	# check repo is online & source includes
+	printf "Checking url: $include_url\n"
+	if [ -n "$(check_online $include_url)" ]; then
+		local tmp=$(mktemp)
+		wget -q $include_url -O $tmp
+		source $tmp 2>/dev/null
+		rm -f $tmp
+	else
+		printf "Repo down or missing: $include_url\n"
+		exit 1
+	fi
+
+	# double check we have some files sourced
+	if [ -z "$CONF_FILES" ] || [ -z "$BOT_FILES" ]; then
+		printf "Error sourcing variables from: $include_url"
+		exit 1
+	fi
+
+	# configure ddos include
 	case "$INC_DDOS" in
-		y*|Y*) vhost_includes="$vhost_includes ddos.conf"
+		n*|N*) BOT_FILES=$(echo $BOT_FILES | sed 's|ddos.conf||');;
 	esac
 
+	# gather vhosts
 	file_list=$(find_vhosts)
 	check_config $file_list
 
+	# by default do not change any files
 	if [ -z "$DRY_RUN" ]; then
 		printf "\n** Dry Run ** | not updating files | -x or --exec to change files\n\n"
 	fi
@@ -229,18 +283,22 @@ main() {
 	# update vhosts
 	for file in $file_list; do
 		line=$(find_includes $file include last server_ last location first )
-		add_includes $line $file $BOTS_DIR $vhost_includes
+		add_includes $line $file $BOTS_DIR $BOT_FILES
 	done
 
 	# update main config
 	line=$(find_includes $MAIN_CONF include last http first '\}' last )
-	add_includes $line $MAIN_CONF $CONF_DIR botblocker-nginx-settings.conf globalblacklist.conf
+	add_includes $line $MAIN_CONF $CONF_DIR $CONF_FILES
 
 	whitelist_ips
-	whitelist_domains
+
+	if [ -d $WWW ]; then
+		whitelist_domains
+	else
+		echo "Web directory not found ('$WWW'): not whitelisting domains"
+	fi
 }
 
 ## START ##
 main $@
 exit $?
-
