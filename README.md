@@ -573,7 +573,7 @@ Many parts of the generator scripts and code running behind this project have be
 In fact it is so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. 
 Show them some love and check out some of their projects too.
 
-- Stuart Cardall - https://github.com/itoffshore (Update script & Alpine Linux package)
+- Stuart Cardall - https://github.com/itoffshore (Install, Update and Setup Scripts & Alpine Linux package)
 - Stevie-Ray Hartog https://github.com/Stevie-Ray
 - Marius Voila https://github.com/mariusv
 - Cătălin Mariș https://github.com/alrra
