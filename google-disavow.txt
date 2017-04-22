@@ -162,6 +162,7 @@ domain:adsfresh.men
 domain:ads.gold
 domain:adsland.men
 domain:ads-seo.men
+domain:ads.tremorhub.com
 domain:adtiger.tk
 domain:adultactioncam.com
 domain:adultfriendfinder.com
@@ -703,6 +704,7 @@ domain:cheapjerseysap.com
 domain:cheapjerseysbizwholesale.us
 domain:cheapjerseysfootballshop.com
 domain:cheapmarmot.online
+domain:cheappatagonia.online
 domain:cheap-pills-norx.com
 domain:cheatcode-lita12.rhcloud.com
 domain:checkm8.com
@@ -1240,7 +1242,6 @@ domain:formseo.com
 domain:forms-mtm.ru
 domain:forpostlock.ru
 domain:forsex.info
-domain:fortawesome.github.io
 domain:forum20.smailik.org
 domain:forum.doctissimo.fr
 domain:forum-engineering.ru
@@ -1707,10 +1708,12 @@ domain:itrevolution.cf
 domain:itronics.ca
 domain:itsdp3.com
 domain:itservicesthatworkforyou.com
+domain:ivanstroi.ru
 domain:ix20.ru
 domain:izhevsk.xrus.org
 domain:izismile.com
 domain:izoll.ru
+domain:jackwolfskinoutlet.online
 domain:jamiembrown.com
 domain:janettabridal.com
 domain:japfm.com
@@ -2010,6 +2013,7 @@ domain:mcar.in.ua
 domain:mebel-alait.ru
 domain:mebelcomplekt.ru
 domain:mebeldekor.com.ua
+domain:meble-bogart.info
 domain:mecash.ru
 domain:medanestesia.ru
 domain:meddesk.ru
@@ -2267,6 +2271,7 @@ domain:nootrino.com
 domain:nordstar.pro
 domain:normalegal.ru
 domain:northfacestore.online
+domain:norththeface.store
 domain:notaria-desalas.com
 domain:notebook-pro.ru
 domain:notfastfood.ru
@@ -2388,6 +2393,7 @@ domain:paceform.com
 domain:paleohub.info
 domain:palvira.com.ua
 domain:pammik.ru
+domain:panchro.co.uk
 domain:paparazzistudios.com.au
 domain:paperics.com
 domain:paperwritingservice17.blogspot.ru
@@ -2993,6 +2999,7 @@ domain:sitevalued.com
 domain:sitopreferito.it
 domain:sivs.ru
 domain:sixcooler.de
+domain:sizeplus.work
 domain:skachat-besplatno-dlja-mobily.ru
 domain:skachat-besplatno-obrazcy.ru
 domain:sk.golden-praga.ru
@@ -3133,6 +3140,7 @@ domain:stretchingabuckblog.com
 domain:strfls.com
 domain:strigkaomsk.ru
 domain:stroicol.net
+domain:stroilka.info
 domain:stroimajor.ru
 domain:stroiminsk.org
 domain:stromerrealty.com
@@ -3407,6 +3415,7 @@ domain:ucoz.ru
 domain:ucsol.ru
 domain:udsgame.online
 domain:ufa.xrus.org
+domain:uggsale.online
 domain:uhdtv.website
 domain:uhodzalijami.ru
 domain:uhod-za-sobakoj.ru
@@ -3720,6 +3729,7 @@ domain:xn--80ahvj9e.xn--p1ai
 domain:xn--80aikhbrhr.net
 domain:xn--80ajbshivpvn2i.xn--p1ai
 domain:xn--80ajjbdhgmudixfjc8c5a9df8b.xn--p1ai
+domain:xn--80ak6aa92e.com
 domain:xn--80aodinpgi.xn--p1ai
 domain:xn-----8kcatubaocd1bneepefojs1h2e.xn--p1ai
 domain:xn----8sbdbjgb1ap7a9c4czbh.xn--p1acf
