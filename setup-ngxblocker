@@ -22,21 +22,21 @@ INC_DDOS="Y"
 ####### end user configuration ###########################
 
 usage() {
-	local script=$(basename $0)
-	cat <<EOF
-$script: add Nginx Bad Bot Blocker configuration [ in $MAIN_CONF ] [ $VHOST_DIR/* ]
+        local script=$(basename $0)
+        cat <<EOF
+$script: SETUP Nginx Bad Bot Blocker configuration in [ $MAIN_CONF ] [ $VHOST_DIR/* ]
 
 Usage: $script [OPTIONS]
-	[ -w | --www   ] : WWW path                      (default: $WWW)
-	[ -e | --ext   ] : Vhost file extension          (default: .$VHOST_EXT)
-	[ -v | --vhost ] : Vhost directory               (default: $VHOST_DIR)
-	[ -b | --bots  ] : Bot rules directory           (default: $BOTS_DIR)
-	[ -c | --conf  ] : NGINX conf directory          (default: $CONF_DIR)
-	[ -m | --main  ] : NGINX main configuration      (default: $MAIN_CONF)
-	[ -n | --names ] : NO whitelist of .names only   (default: $DOT_NAMES)
-	[ -d | --ddos  ] : NO insert of DDOS rule        (default: $INC_DDOS)
-	[ -x | --exec  ] : Actually change the files     (default: don't change anything)
-	[ -h | --help  ] : this help message
+        [ -w ] : WWW path                      (default: $WWW)
+        [ -e ] : Vhost file extension          (default: .$VHOST_EXT)
+        [ -v ] : Vhost directory               (default: $VHOST_DIR)
+        [ -b ] : Bot rules directory           (default: $BOTS_DIR)
+        [ -c ] : NGINX conf directory          (default: $CONF_DIR)
+        [ -m ] : NGINX main configuration      (default: $MAIN_CONF)
+        [ -n ] : NO whitelist of .names only   (default: $DOT_NAMES)
+        [ -d ] : NO insert of DDOS rule        (default: $INC_DDOS)
+        [ -x ] : Actually change the files     (default: don't change anything)
+        [ -h ] : this help message
 
 Examples:
  $script -n    (Whitelist all directory names in $WWW as domains: not just dot.name directories)
@@ -44,7 +44,7 @@ Examples:
  $script       (Don't change anything: display results on stdout)
  $script -x    (Change / update config files)
 EOF
-	return 0
+        exit 0
 }
 
 check_config() {
@@ -184,30 +184,54 @@ find_includes() {
 	echo $line
 }
 
+sanitize_path() {
+        echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=/=] [=_=]' \
+                |tr -s '@.-/_' |awk '{print tolower($0)}'
+}
+
+sanitize_ext() {
+        echo $1 |tr -cd '[:alnum:]' |awk '{print tolower($0)}'
+}
+
+check_args() {
+        local option=$1 type=$2 arg=$3
+        local msg="ERROR: option '-$option' argument '$arg' requires:"
+
+        case "$type" in
+                path)   if ! echo $arg | grep ^/ 1>/dev/null; then
+                                printf "$msg absolute path.\n"
+                                exit 1
+                        fi
+                        ;;
+                none)   printf "$msg argument.\n"; exit 1;;
+        esac
+}
+
 get_options() {
-	local options=$(getopt -o w:e:v:b:c:m:ndhx --long \
-		www:,ext:,vhost:,bots:,conf:,main:,names,ddos,help,exec -- "$@" 2>/dev/null)
+        local arg= opts=
 
-        if [ $? -ne 0 ]; then
-                usage
-                exit 1
-        fi
+        while getopts :w:e:v:b:c:m:ndxh opts "$@"
+        do
+                if [ -n "${OPTARG}" ]; then
+                        case "$opts" in
+                                e) arg=$(sanitize_ext ${OPTARG});;
+                                *) arg=$(sanitize_path ${OPTARG});;
+                        esac
+                fi
 
-	eval set -- "$options"
-
-        while :; do
-                case "$1" in
-                -h | --help) usage && exit 1;;
-                -x | --exec) DRY_RUN=N; shift;;
-                -w | --www) WWW=$2; shift 2;;
-                -e | --ext) VHOST_EXT=$2; shift 2;;
-                -v | --vhost) VHOST_DIR=$2; shift 2;;
-                -b | --bots) BOTS_DIR=$2; shift 2;;
-                -c | --conf) CONF_DIR=$2; shift 2;;
-                -m | --main) MAIN_CONF=$2; shift 2;;
-                -n | --names) DOT_NAMES=N; shift;;
-                -d | --ddos) INC_DDOS=N; shift;;
-                *) break;;
+                case "$opts" in
+                        w) WWW=$arg; check_args $opts path $arg ;;
+                        e) VHOST_EXT=$arg;;
+                        v) VHOST_DIR=$arg; check_args $opts path $arg ;;
+                        b) BOTS_DIR=$arg; check_args $opts path $arg ;;
+                        c) CONF_DIR=$arg; check_args $opts path $arg ;;
+                        m) MAIN_CONF=$arg; check_args $opts path $arg ;;
+                        n) DOT_NAMES=N ;;
+                        d) INC_DDOS=N ;;
+                        x) DRY_RUN=N ;;
+                        h) usage ;;
+                       \?) usage ;;
+                        :) check_args $OPTARG none none ;;
                 esac
         done
 }
