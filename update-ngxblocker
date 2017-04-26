@@ -35,22 +35,36 @@ CONF_DIR=/etc/nginx/conf.d
 ##### end user configuration ##############################################################
 
 usage() {
-	local script=$(basename $0)
-	cat <<EOF
-$script: update Nginx Bad Bot Blocker blacklist to: [ $CONF_DIR ]
+        local script=$(basename $0)
+        cat <<EOF
+$script: UPDATE Nginx Bad Bot Blocker blacklist in: [ $CONF_DIR ]
 
 Usage: $script [OPTIONS]
-	[ -c | --conf     ] : NGINX conf directory          (default: $CONF_DIR)
-	[ -r | --repo     ] : Change repo url               (default: $REPO)
-	[ -e | --email    ] : Change email address          (default: $EMAIL)
-	[ -n | --no-email ] : Do not send email report      (default: $SEND_EMAIL)
-	[ -h | --help     ] : this help message
+        [ -c ] : NGINX conf directory          (default: $CONF_DIR)
+        [ -r ] : Change repo url               (default: $REPO)
+        [ -e ] : Change email address          (default: $EMAIL)
+        [ -n ] : Do not send email report      (default: $SEND_EMAIL)
+        [ -v ] : Print blacklist version
+        [ -h ] : this help message
 
 Examples:
- $script		         (Download blacklist.conf to: $CONF_DIR)
+ $script                         (Download blacklist.conf to: $CONF_DIR)
  $script -c /my/custom/conf.d    (Download blacklist.conf to a custom location)
 EOF
-	return 0
+        exit 0
+}
+
+check_version() {
+        local file=$CONF_DIR/globalblacklist.conf
+
+        if [ -f $file ]; then
+                grep Version $file
+                grep 'Updated:' $file
+        else
+                printf "Missing '$file' (pass -c \$path before -v)\n"
+        fi
+
+        exit 0
 }
 
 service_cmd() {
@@ -77,28 +91,69 @@ wget_opts() {
 	echo $opts
 }
 
+sanitize_path() {
+        echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=/=] [=_=]' \
+                |tr -s '@.-/_' |awk '{print tolower($0)}'
+}
+
+sanitize_url() {
+        echo $1 |tr -cd '[:alnum:] [=:=] [=.=] [=-=] [=/=]' \
+                |tr -s ':.-' |awk '{print tolower($0)}'
+}
+
+sanitize_email() {
+        echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=_=]' \
+                |tr -s '@-_.' |awk '{print tolower($0)}'
+}
+
+check_args() {
+        local option=$1 type=$2 arg=$3
+        local msg="ERROR: option '-$option' argument '$arg' requires:"
+
+        case "$type" in
+                path)   if ! echo $arg | grep ^/ 1>/dev/null; then
+                                printf "$msg absolute path.\n"
+                                exit 1
+                        fi
+                        ;;
+                email)  if ! echo $arg | grep -E ^[-_[:alnum:]]+@[-_[:alnum:]]+[\.][\.a-z]+ 1>/dev/null; then
+                                printf "$msg email@domain.com\n"
+                                exit 1
+                        fi
+                        ;;
+                url)    if ! echo $arg | grep -E ^http[s]?://[0-9a-zA-Z-]+[.]+[/0-9a-zA-Z.]+ 1>/dev/null; then
+                                printf "$msg url => http[s]://the.url\n"
+                                exit 1
+                        fi
+                        ;;
+                none)   printf "$msg argument.\n"; exit 1;;
+        esac
+}
 
 get_options() {
-	local options=$(getopt -o c:r:e:nh --long \
-		bots:,conf:,repo:,email:,no-email,help,exec -- "$@" 2>/dev/null)
+        local arg= opts=
 
-	if [ $? -ne 0 ]; then
-		usage
-		exit 1
-	fi
+        while getopts :c:r:e:nvh opts "$@"
+        do
+                if [ -n "${OPTARG}" ]; then
+                        case "$opts" in
+                                r) arg=$(sanitize_url ${OPTARG});;
+                                e) arg=$(sanitize_email ${OPTARG});;
+                                *) arg=$(sanitize_path ${OPTARG});;
+                        esac
+                fi
 
-	eval set -- "$options"
-
-	while :; do
-		case "$1" in
-		-h | --help) usage && exit 1;;
-		-c | --conf) CONF_DIR=$2; shift 2;;
-		-r | --repo) REPO=$2; shift 2;;
-		-e | --email) EMAIL=$2; shift 2;;
-		-n | --no-email) SEND_EMAIL=N; shift 2;;
-		*) break;;
-		esac
-	done
+                case "$opts" in
+                        c) CONF_DIR=$arg; check_args $opts path $arg ;;
+                        r) REPO=$arg; check_args $opts url $arg ;;
+                        e) EMAIL=$arg; check_args $opts email $arg ;;
+                        n) SEND_EMAIL=N ;;
+                        v) check_version ;;
+                        h) usage ;;
+                       \?) usage ;;
+                        :) check_args $OPTARG none none ;;
+                esac
+        done
 }
 
 main() {
