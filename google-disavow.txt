@@ -180,6 +180,7 @@ domain:adzpower.com
 domain:aero2.ru
 domain:aerogo.com
 domain:affordablewebsitesandmobileapps.com
+domain:afftrack001.com
 domain:afora.ru
 domain:afslankpillen2017nl.eu
 domain:agahinameh.com
@@ -340,6 +341,7 @@ domain:asrvvv-a.akamaihd.net
 domain:asseenontvonline.ru
 domain:asseenontv.ru
 domain:astrochicks.com
+domain:atelielembrancaqueencanta.com.br
 domain:atlant-auto.info
 domain:atlasvkusov.ru
 domain:atleticpharm.org
@@ -588,6 +590,7 @@ domain:brus.city
 domain:brus-vsem.ru
 domain:bscodecs.com
 domain:b-styles.xyz
+domain:btc4u.ru
 domain:btvn.ru
 domain:buchananshardware.com
 domain:budpost.com.ua
@@ -1058,6 +1061,7 @@ domain:embedle.com
 domain:empathica.com
 domain:empirepoker.com
 domain:empis.magix.net
+domain:en.altezza.travel
 domain:encodable.com
 domain:energydiet24.ru
 domain:energydiet-info.ru
@@ -1089,6 +1093,7 @@ domain:eshop.md
 domain:esnm.ru
 domain:este-line.com.ua
 domain:estibot.com
+domain:etr-interac.com
 domain:eu-cookie-law.blogspot.com
 domain:eu-cookie-law.info
 domain:eupornstar.info
@@ -1180,10 +1185,12 @@ domain:fefo.gdn
 domain:femdom.twiclub.in
 domain:femmesdenudees.com
 domain:fenoyl.batcave.net
+domain:feorina.ru
 domain:ferieboligkbh.dk
 domain:fermersovet.ru
 domain:ferretsoft.com
 domain:fetishinside.com
+domain:fetroshok.ru
 domain:fidelityfunding.com
 domain:fifa-coins.online
 domain:filesmonster.porn
@@ -1760,6 +1767,7 @@ domain:kadashihotel.com
 domain:kalb.ru
 domain:kamagragelusa.net
 domain:kambasoft.com
+domain:kam-dom.ru
 domain:kamen-e.ru
 domain:kamorel.com
 domain:kanimage.com
@@ -1905,6 +1913,7 @@ domain:lflash.ru
 domain:lida-ru.com
 domain:lider-zhaluzi.kiev.ua
 domain:li-er.ru
+domain:lietaer.com
 domain:life.biz.ua
 domain:lifebyleese.com
 domain:life-instyle.com
@@ -1926,6 +1935,7 @@ domain:lisque.batcave.net
 domain:littleberry.ru
 domain:liupis.com
 domain:livefixer.com
+domain:liver-chintai.org
 domain:liverpool.gsofootball.com
 domain:live-sexchat.ru
 domain:liveshoppersmac.com
@@ -2008,6 +2018,7 @@ domain:markjaybeefractal.com
 domain:marktforschung-stuttgart.com
 domain:marmitaco.cat
 domain:martlinker.com
+domain:marwer.info
 domain:massage-info.nl
 domain:masserect.com
 domain:master-muznachas.ru
@@ -2111,6 +2122,7 @@ domain:mixtapetorrent.com
 domain:mlvc4zzw.space
 domain:mmog-play.ru
 domain:mmoguider.ru
+domain:mmstat.com
 domain:mncrftpcs.com
 domain:mnogabukaff.net
 domain:mnprs.com
@@ -2926,6 +2938,7 @@ domain:seorankinglinks.us
 domain:seorankinglinks.xyz
 domain:seo-smm.kz
 domain:seo-tools-optimizing.com
+domain:sergiorossistore.online
 domain:serialsway.ucoz.ru
 domain:serptehnika.ru
 domain:service-core.ru
@@ -3046,6 +3059,7 @@ domain:slujbauborki.ru
 domain:smailik.org
 domain:small-game.com
 domain:small-games.biz
+domain:smartadserver.com
 domain:smart-balancewheel.com
 domain:smartbalanceworld.com
 domain:smartpet.ru
@@ -3269,6 +3283,7 @@ domain:thruport.com
 domain:tiandeural.ru
 domain:tiens2010.ru
 domain:timeallnews.ru
+domain:timecrimea.ru
 domain:time-japan.ru
 domain:timer4web.com
 domain:timetorelax.biz
@@ -3491,6 +3506,7 @@ domain:vapmedia.org
 domain:vapsy.com
 domain:varikoz24.com
 domain:vashsvet.com
+domain:vasileostrovsky-rayon.ru
 domain:vavilone.com
 domain:vbabule.net
 domain:vc.ru
@@ -3605,6 +3621,7 @@ domain:wdfdocando.com
 domain:wdrake.com
 domain:we-are-gamers.com
 domain:webads.co.nz
+domain:webalan.ru
 domain:web-betting.ru
 domain:web.cvut.cz
 domain:webinstantservice.com
@@ -3630,7 +3647,6 @@ domain:wechatdownload10.com
 domain:weclipart.com
 domain:wedding0venues.tk
 domain:wedding-salon.net
-domain:weebly.com
 domain:weekes.biz.tc
 domain:weightatraining.com
 domain:wejdz-tu.pl
