@@ -82,6 +82,7 @@ domain:66cpwgln.space
 domain:6hopping.com
 domain:72-news.com
 domain:76brighton.co.uk
+domain:777-club.ru
 domain:7fon.ru
 domain:7makemoneyonline.com
 domain:7wind.ru
@@ -353,6 +354,7 @@ domain:australia-opening-times.com
 domain:auto4style.ru
 domain:autoblogger24.info
 domain:autobudpostach.club
+domain:autochoixspinelli.com
 domain:autogrep.ru
 domain:autoloans.com
 domain:autolombard-krasnodar.ru
@@ -468,6 +470,7 @@ domain:bestchoice.cf
 domain:best-coupon-offer.com
 domain:bestcurs.org
 domain:bestdooz.com
+domain:bestdraws.com
 domain:bestempresas.es
 domain:bestimagecoollibrary.com
 domain:bestkfiledxd.cf
@@ -666,6 +669,7 @@ domain:cardiosport.com.ua
 domain:cardsharp1.ru
 domain:cardul.ru
 domain:carfax.com.ua
+domain:carina-sy.de
 domain:carloans.com
 domain:carsdined.org
 domain:carsoncitypizza.com
@@ -868,6 +872,7 @@ domain:daydream-studio.ru
 domain:daymusam.com
 domain:day-news.info
 domain:dbmkfhqk.bloger.index.hr
+domain:dcj-nn.ru
 domain:ddlmega.net
 domain:ddospanel.com
 domain:ddpills.com
@@ -986,6 +991,7 @@ domain:dvervmoskvu.ru
 domain:dvr.biz.ua
 domain:dvrlists.com
 domain:dyshagi.ru
+domain:e705.net
 domain:eandsgallery.com
 domain:eaplay.ru
 domain:earl-brown.info
@@ -1624,6 +1630,7 @@ domain:ideaspicz.com
 domain:idegenvezeto.eu
 domain:ideibiznesa2015.ru
 domain:ideoworld.org
+domain:ido3.com
 domain:ie.57883.net
 domain:ifirestarter.ru
 domain:iflycapetown.co.za
@@ -1885,6 +1892,7 @@ domain:lapitec.eu
 domain:laptoper.net
 domain:larchik.net
 domain:larutti.ru
+domain:lasvegaslockandsafe.com
 domain:laudit.ru
 domain:law-check-eight.xyz
 domain:law-check-nine.xyz
@@ -2083,6 +2091,7 @@ domain:metarip.ru
 domain:metaxalonevstizanidine.blogspot.com
 domain:methodsmarketing.com
 domain:mex-annushka.ru
+domain:mexicosleevegastrectomy.com
 domain:mexicotravelnet.com
 domain:mhi-systems.ru
 domain:mhtr.be
@@ -2425,6 +2434,7 @@ domain:panchro.co.uk
 domain:paparazzistudios.com.au
 domain:paperics.com
 domain:paperwritingservice17.blogspot.ru
+domain:paphoselectricianandplumber.com
 domain:paradontozanet.ru
 domain:parajumpersstore.online
 domain:paramountmarble.co.uk
@@ -2928,6 +2938,7 @@ domain:seoanalyses.com
 domain:seocheki.net
 domain:seoexperimenty.ru
 domain:seofied.com
+domain:seofirmreviewsus.info
 domain:seoheap.com
 domain:seokicks.de
 domain:seomarketings.online
@@ -3830,6 +3841,7 @@ domain:yebocasino.com
 domain:yebocasino.co.za
 domain:ynymnwbm.bloger.index.hr
 domain:yogamatsexpert.com
+domain:yopoint.in
 domain:yorkshireccc.com
 domain:yorkshire.com
 domain:youandcredit.ru
@@ -3916,9 +3928,11 @@ domain:zog.link
 domain:zojirushi-products.ru
 domain:zolotoy-lis.ru
 domain:zona-aqua.ru
+domain:zone-kev717.info
 domain:zoominfo.com
 domain:zophim.me
 domain:zrizvtrnpale.tk
+domain:zrus.org
 domain:zryydi.com
 domain:zs2vm.top
 domain:zscaler.net
