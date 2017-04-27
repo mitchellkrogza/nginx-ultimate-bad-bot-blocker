@@ -77,7 +77,7 @@ longest_str() {
 
 check_if_updating() {
 	local x= local_file= local_dir=$1
-	local file_list=$(echo $@ | awk '{$1=""; print}' | sed -e 's/^[[:space:]]*//')
+	local file_list="$(echo $@ | awk '{$1=""; print}' | sed -e 's/^[ \t]*//')"
 
 	for x in $file_list; do
 		local_file=$local_dir/$x
@@ -90,8 +90,8 @@ check_if_updating() {
 }
 
 download_files() {
-	local url= x= local_file= remote_dir=$1 local_dir=$2
-	local file_list=$(echo $@ | awk '{$1=$2=""; print $0}')
+	local url= x= local_file= remote_dir=$1 local_dir=$2    # rm leading whitespace
+	local file_list="$(echo $@ | awk '{$1=$2=""; print $0}' | sed -e 's/^[ \t]*//')"
 	local col_size=$(( $(longest_str $file_list) + $(echo $remote_dir | wc -m) ))
 
 	if [ -n "$(check_if_updating $local_dir $file_list)" ]; then
@@ -129,9 +129,9 @@ download_files() {
 }
 
 check_config() {
-	local x= dirs=$@
+	local x=
 
-	for x in $dirs; do
+	for x in "$@"; do
 		if [ ! -d $x ]; then
 			printf "Creating directory: $x\n"
 			if [ "$DRY_RUN" = "N" ]; then
@@ -211,7 +211,7 @@ wget_opts() {
 check_online() {
 	local url=$1 options=$(wget_opts)
 
-	if wget $options $url &>/dev/null; then
+	if wget $options $url 2>&1 /dev/null; then
 		echo "true"
 	fi
 }
@@ -244,7 +244,7 @@ main() {
 
 	# double check we have some files sourced
 	if [ -z "$CONF_FILES" ] || [ -z "$BOT_FILES" ]; then
-		printf "Error sourcing variables from: $include_url"
+		printf "Error sourcing variables from: $include_url\n"
 		exit 1
 	fi
 
