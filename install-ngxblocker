@@ -91,7 +91,7 @@ check_if_updating() {
 
 download_files() {
 	local url= x= local_file= remote_dir=$1 local_dir=$2
-	local file_list=$(echo $@ | awk '{$1="",$2=""; print}')
+	local file_list=$(echo $@ | awk '{$1=$2=""; print $0}')
 	local col_size=$(( $(longest_str $file_list) + $(echo $remote_dir | wc -m) ))
 
 	if [ -n "$(check_if_updating $local_dir $file_list)" ]; then
@@ -234,7 +234,8 @@ main() {
 	if [ -n "$(check_online $include_url)" ]; then
 		local tmp=$(mktemp)
 		wget -q $include_url -O $tmp
-		source $tmp 2>/dev/null
+		# use period not source in POSIX shell
+		. $tmp 2>/dev/null
 		rm -f $tmp
 	else
 		printf "Repo down or missing: $include_url\n"
