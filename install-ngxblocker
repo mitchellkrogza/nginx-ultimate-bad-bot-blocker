@@ -129,9 +129,9 @@ download_files() {
 }
 
 check_config() {
-	local x=
+	local x= dirs="$*"
 
-	for x in "$@"; do
+	for x in $dirs; do
 		if [ ! -d $x ]; then
 			printf "Creating directory: $x\n"
 			if [ "$DRY_RUN" = "N" ]; then
@@ -268,3 +268,4 @@ exit $?
 # PLEASE ALSO SEE THE SETUP SCRIPT TO INSERT THE NECESSARY INCLUDES FOR YOU
 ### You can now use a setup script contributed by Stuart Cardall to automatically add the includes for you
 ### See - https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker
+
