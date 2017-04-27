@@ -48,7 +48,7 @@ EOF
 }
 
 check_config() {
-	local files=$@
+	local files="$*"
 
 	if [ -z "$files" ]; then
 		echo "no vhost files in: $VHOST_DIR/*.$VHOST_EXT => exiting."
@@ -111,7 +111,7 @@ longest_str() {
 
 add_includes() {
 	local ph='<<!!>>' line=$1 file=$2 conf_dir=$3 text= update=
-	local include_list=$(echo $@ | awk '{$1=$2=$3=""}sub("^"OFS"+","")')
+	local include_list="$(echo $@ | awk '{$1=$2=$3=""}sub("^"OFS"+","")')"
 	local col_size=$(( $(longest_str $include_list) + $(echo $conf_dir | wc -m) ))
 
 	for text in $include_list; do
@@ -175,10 +175,10 @@ find_includes() {
 		 last) line=$(( $line + $start +1 ));;
 	esac
 
-	# if inserting beyond the end of the file
-	if [ $line -gt $end ]; then
+	# if inserting beyond the end of the stanza
+	if [ "$(sed -n $(( $line - 1))p $file | grep ^})" = "}" ]; then
 		# insert blank line
-		sed -i "$end i \ " $file
+		sed -i "$(( line - 1)) i \ " $file
 	fi
 
 	echo $line
@@ -252,7 +252,7 @@ wget_opts() {
 check_online() {
 	local url=$1 options=$(wget_opts)
 
-	if wget $options $url &>/dev/null; then
+	if wget $options $url 2>&1 /dev/null; then
 		echo "true"
 	fi
 }
@@ -277,7 +277,8 @@ main() {
 	if [ -n "$(check_online $include_url)" ]; then
 		local tmp=$(mktemp)
 		wget -q $include_url -O $tmp
-		source $tmp 2>/dev/null
+		# use period not source in POSIX shell
+		. $tmp 2>/dev/null
 		rm -f $tmp
 	else
 		printf "Repo down or missing: $include_url\n"
@@ -286,7 +287,7 @@ main() {
 
 	# double check we have some files sourced
 	if [ -z "$CONF_FILES" ] || [ -z "$BOT_FILES" ]; then
-		printf "Error sourcing variables from: $include_url"
+		printf "Error sourcing variables from: $include_url\n"
 		exit 1
 	fi
 
