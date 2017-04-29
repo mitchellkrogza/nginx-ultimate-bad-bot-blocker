@@ -19,3 +19,9 @@ BOT_FILES="
         bad-referrer-words.conf
         custom-bad-referrers.conf
         "
+
+VHOST_INCLUDES="
+	blockbots.conf
+	ddos.conf
+	"
+
