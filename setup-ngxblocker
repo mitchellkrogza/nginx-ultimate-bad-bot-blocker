@@ -72,8 +72,8 @@ whitelist_ips() {
 
 	if [ -n "$(which dig)" ]; then
 		ip=$(dig +short myip.opendns.com @resolver1.opendns.com)
-		if ! grep "$ip" $conf &>/dev/null; then
-			printf "%-17s %-15s %-s\n" "Whitelisting ip:" "$ip" "=> $conf"
+		if ! grep "$ip" $conf >/dev/null 2>&1; then
+			printf "\n%-17s %-15s %-s\n" "Whitelisting ip:" "$ip" "=> $conf"
 			if [ "$DRY_RUN" = "N" ]; then
 				printf "%-23s %-s\n" "$ip" "0;" >> $conf
 			fi
@@ -96,7 +96,7 @@ whitelist_domains() {
 		| awk '{ print length ($0) }' | sort -nr | head -1)
 
 	for domain in $domain_list; do
-		if ! grep "$domain" $conf &>/dev/null; then
+		if ! grep "$domain" $conf >/dev/null 2>&1; then
 			printf "%-s %-$(( $domain_len +2))s %s\n" "Whitelisting domain:" "$domain" "=> $conf"
 			if [ "$DRY_RUN" = "N" ]; then
 				printf "%-$(( $domain_len +8))s %s\n" "\"~*$domain\"" "0;" >> $conf
@@ -107,6 +107,12 @@ whitelist_domains() {
 
 longest_str() {
 	echo $@ | tr " " "\n" | awk '{print length ($0)}' | sort -nr | head -n1
+}
+
+check_wildcard() {
+	local file=$1 dir=$(basename $2)
+	local check=$(grep -E "include[[:alnum:] /]+$dir/\*;" $file)
+	echo $check
 }
 
 add_includes() {
@@ -240,7 +246,7 @@ wget_opts() {
 	local opts=
 
 	# GNU wget / Busybox 1.26.2
-	if wget --help 2>&1 | grep -q "\--spider"; then
+	if wget --help 2>&1 | grep "\--spider" >/dev/null 2>&1; then
 		opts="--spider"
 	else    # Busybox wget < 1.26.2
 		opts="-s"
@@ -252,14 +258,14 @@ wget_opts() {
 check_online() {
 	local url=$1 options=$(wget_opts)
 
-	if wget $options $url 2>&1 /dev/null; then
+	if wget $options $url >/dev/null 2>&1; then
 		echo "true"
 	fi
 }
 
 main() {
 	local include_url= file= line= file_list=
-	local CONF_FILES= BOT_FILES=
+	local CONF_FILES= VHOST_INCLUDES=
 	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 
 	# require root
@@ -286,14 +292,14 @@ main() {
 	fi
 
 	# double check we have some files sourced
-	if [ -z "$CONF_FILES" ] || [ -z "$BOT_FILES" ]; then
+	if [ -z "$CONF_FILES" ] || [ -z "$VHOST_INCLUDES" ]; then
 		printf "Error sourcing variables from: $include_url\n"
 		exit 1
 	fi
 
 	# configure ddos include
 	case "$INC_DDOS" in
-		n*|N*) BOT_FILES=$(echo $BOT_FILES | sed 's|ddos.conf||');;
+		n*|N*) VHOST_INCLUDES=$(echo $VHOST_INCLUDES | sed 's|ddos.conf||');;
 	esac
 
 	# gather vhosts
@@ -303,24 +309,36 @@ main() {
 	# by default do not change any files
 	if [ -z "$DRY_RUN" ]; then
 		printf "\n** Dry Run ** | not updating files | -x or --exec to change files\n\n"
+	else
+		printf "\n"
 	fi
 
 	# update vhosts
 	for file in $file_list; do
 		line=$(find_includes $file include last server_ last location first )
-		add_includes $line $file $BOTS_DIR $BOT_FILES
+		if [ -n "$(check_wildcard $file $BOTS_DIR)" ]; then
+			local col_size=$(( $(longest_str $file_list) + $(echo $BOTS_DIR | wc -m) ))
+			printf "%-10s %-$(( $col_size -19 ))s %s\n" "WARN:" "$BOTS_DIR/* detected" "=> $file"
+		else						# don't use wildcards in vhost files
+			add_includes $line $file $BOTS_DIR $VHOST_INCLUDES
+		fi
 	done
 
 	# update main config
 	line=$(find_includes $MAIN_CONF include last http first '\}' last )
-	add_includes $line $MAIN_CONF $CONF_DIR $CONF_FILES
+	if [ -n "$(check_wildcard $MAIN_CONF $CONF_DIR)" ]; then
+		local col_size=$(( $(longest_str $file_list) + $(echo $CONF_DIR | wc -m) ))
+		printf "%-10s %-$(( $col_size -19 ))s %s\n" "INFO:" "$CONF_DIR/* detected" "=> $MAIN_CONF"
+	else							# wildcard conf.d ok in nginx.conf
+		add_includes $line $MAIN_CONF $CONF_DIR $CONF_FILES
+	fi
 
 	whitelist_ips
 
 	if [ -d $WWW ]; then
 		whitelist_domains
 	else
-		echo "Web directory not found ('$WWW'): not whitelisting domains"
+		printf "\nWeb directory not found ('$WWW'): not whitelisting domains.\n"
 	fi
 }
 

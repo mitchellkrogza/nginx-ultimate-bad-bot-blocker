@@ -199,7 +199,7 @@ wget_opts() {
 	local opts=
 
 	# GNU wget / Busybox 1.26.2
-	if wget --help 2>&1 | grep -q "\--spider"; then
+	if wget --help 2>&1 | grep "\--spider" >/dev/null 2>&1; then
 		opts="--spider"
 	else    # Busybox wget < 1.26.2
 		opts="-s"
@@ -211,7 +211,7 @@ wget_opts() {
 check_online() {
 	local url=$1 options=$(wget_opts)
 
-	if wget $options $url 2>&1 /dev/null; then
+	if wget $options $url >/dev/null 2>&1; then
 		echo "true"
 	fi
 }
@@ -251,6 +251,8 @@ main() {
 	# by default do not change any files
 	if [ -z "$DRY_RUN" ]; then
 		printf "\n** Dry Run ** | -x or --exec to download files\n\n"
+	else
+		printf "\n"
 	fi
 
 	check_config $CONF_DIR $BOTS_DIR
