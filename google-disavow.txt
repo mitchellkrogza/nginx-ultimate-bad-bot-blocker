@@ -93,6 +93,7 @@ domain:8558l.jobs.net
 domain:883zy.com
 domain:888.com
 domain:8gold.com
+domain:8kisses.eu
 domain:8si.ru
 domain:8xv8.com
 domain:98oi.ru
