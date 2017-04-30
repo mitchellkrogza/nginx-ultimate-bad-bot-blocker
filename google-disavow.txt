@@ -465,6 +465,7 @@ domain:becuo.com
 domain:bedandbreakfast.com
 domain:bedcapdealers.com
 domain:belinvestdom.by
+domain:belstaffstore.online
 domain:benchmarkcommunications.co.uk
 domain:bensbargains.net
 domain:berdasovivan.ru
@@ -3479,6 +3480,7 @@ domain:ucsol.ru
 domain:udsgame.online
 domain:ufa.xrus.org
 domain:uggsale.online
+domain:ugguk.online
 domain:uhdtv.website
 domain:uhodzalijami.ru
 domain:uhod-za-sobakoj.ru
