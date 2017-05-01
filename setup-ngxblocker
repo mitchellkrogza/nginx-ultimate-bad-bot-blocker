@@ -79,7 +79,8 @@ whitelist_ips() {
 			fi
 		fi
 	else
-		echo "WARN: dig binary missing => install bind-tools to whitelist external ip address"
+		printf "%-10s %-$(( $col_size -14 ))s %-s\n" \
+			"WARN:" "dig binary missing" "=> install bind-tools to whitelist external ip address"
 	fi
 }
 
@@ -97,7 +98,7 @@ whitelist_domains() {
 
 	for domain in $domain_list; do
 		if ! grep "$domain" $conf >/dev/null 2>&1; then
-			printf "%-s %-$(( $domain_len +2))s %s\n" "Whitelisting domain:" "$domain" "=> $conf"
+			printf "%-s %-$(( $domain_len +2))s %s\n" "Whitelist:" "$domain" "=> $conf"
 			if [ "$DRY_RUN" = "N" ]; then
 				printf "%-$(( $domain_len +8))s %s\n" "\"~*$domain\"" "0;" >> $conf
 			fi
@@ -111,7 +112,7 @@ longest_str() {
 
 check_wildcard() {
 	local file=$1 dir=$(basename $2)
-	local check=$(grep -E "include[[:alnum:] /]+$dir/\*;" $file)
+	local check="$(grep -E "include[[:alnum:] /]+$dir/\*" $file)"
 	echo $check
 }
 
@@ -264,7 +265,7 @@ check_online() {
 }
 
 main() {
-	local include_url= file= line= file_list=
+	local include_url= file= line= file_list= col_size=
 	local CONF_FILES= VHOST_INCLUDES=
 	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 
@@ -305,6 +306,7 @@ main() {
 	# gather vhosts
 	file_list=$(find_vhosts)
 	check_config $file_list
+	col_size=$(( $(longest_str $file_list) + $(echo $BOTS_DIR | wc -m) ))
 
 	# by default do not change any files
 	if [ -z "$DRY_RUN" ]; then
@@ -317,8 +319,7 @@ main() {
 	for file in $file_list; do
 		line=$(find_includes $file include last server_ last location first )
 		if [ -n "$(check_wildcard $file $BOTS_DIR)" ]; then
-			local col_size=$(( $(longest_str $file_list) + $(echo $BOTS_DIR | wc -m) ))
-			printf "%-10s %-$(( $col_size -19 ))s %s\n" "WARN:" "$BOTS_DIR/* detected" "=> $file"
+			printf "%-10s %-$(( $col_size -14 ))s %s\n" "WARN:" "$BOTS_DIR/* detected" "=> $file"
 		else						# don't use wildcards in vhost files
 			add_includes $line $file $BOTS_DIR $VHOST_INCLUDES
 		fi
@@ -327,8 +328,7 @@ main() {
 	# update main config
 	line=$(find_includes $MAIN_CONF include last http first '\}' last )
 	if [ -n "$(check_wildcard $MAIN_CONF $CONF_DIR)" ]; then
-		local col_size=$(( $(longest_str $file_list) + $(echo $CONF_DIR | wc -m) ))
-		printf "%-10s %-$(( $col_size -19 ))s %s\n" "INFO:" "$CONF_DIR/* detected" "=> $MAIN_CONF"
+		printf "%-10s %-$(( $col_size -14 ))s %s\n" "INFO:" "$CONF_DIR/* detected" "=> $MAIN_CONF"
 	else							# wildcard conf.d ok in nginx.conf
 		add_includes $line $MAIN_CONF $CONF_DIR $CONF_FILES
 	fi
