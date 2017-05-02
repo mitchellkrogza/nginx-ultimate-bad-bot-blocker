@@ -130,6 +130,7 @@ domain:abwa.tk
 domain:academia-nsk.org
 domain:acads.net
 domain:acc.eu.org
+domain:acgs.tk
 domain:acheterviagrafr24.com
 domain:actionnooz.com
 domain:actremage.com
@@ -195,6 +196,7 @@ domain:ahrefs.com
 domain:air-edem.ru
 domain:airmaxshoes-2016.com
 domain:akama.com
+domain:akita.kz
 domain:aktivator-windows10.blogspot.com
 domain:akuhni.by
 domain:akusherok.ru
@@ -508,6 +510,7 @@ domain:bidbuy.co.kr
 domain:bidr.trellian.com
 domain:bif-ru.info
 domain:bigames.online
+domain:big-boards.info
 domain:bigcities.org
 domain:biglistofwebsites.com
 domain:bigpenisguide.com
@@ -529,6 +532,7 @@ domain:bitcoinpile.com
 domain:bitcoins-live.ru
 domain:bitporno.sx
 domain:bizcheapjerseyswholesalechina.com
+domain:bizfly.info
 domain:biznesluxe.ru
 domain:biznesrealnost.ru
 domain:biznesschat.net
@@ -816,6 +820,7 @@ domain:copblock.org
 domain:copyrightclaims.org
 domain:cosmetic.donna7753191.ru
 domain:cougfan.info
+domain:counciltally.com
 domain:countbertwistdisp26.soup.io
 domain:counter.yadro.ru
 domain:country-chic.ru
@@ -1907,6 +1912,7 @@ domain:larchik.net
 domain:larutti.ru
 domain:lasvegaslockandsafe.com
 domain:laudit.ru
+domain:laulini.soclog.se
 domain:law-check-eight.xyz
 domain:law-check-nine.xyz
 domain:law-check-seven.xyz
@@ -2039,6 +2045,7 @@ domain:marketland.ml
 domain:markjaybeefractal.com
 domain:marktforschung-stuttgart.com
 domain:marmitaco.cat
+domain:marmotstore.online
 domain:martlinker.com
 domain:marwer.info
 domain:massage-info.nl
@@ -2297,11 +2304,13 @@ domain:newsperuse.com
 domain:newstraveller.ru
 domain:newstudio.tv
 domain:newtechspb.ru
+domain:newyorkhotelsmotels.info
 domain:nextconseil.com
 domain:nfljerseyscheapbiz.us
 domain:nfljerseyscheapchinabiz.com
 domain:nfljerseysforsalewholesaler.com
 domain:ngps1.ru
+domain:nhl09.ru
 domain:nhl17coins.exblog.jp
 domain:nhl17coinsforps3.gratisblog.biz
 domain:nibbler.silktide.com
