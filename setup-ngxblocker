@@ -168,7 +168,7 @@ find_includes() {
 	local start=$(find_line $file $start_range $start_first_last)
 	local end=$(find_line $file $end_range $end_first_last)
 
-	sed -n ${start},${end}p ${file} > $tmp
+	sed -n "$start,$end"p $file > $tmp
 	line=$(find_line $tmp $search $search_first_last)
 	rm -f $tmp
 
