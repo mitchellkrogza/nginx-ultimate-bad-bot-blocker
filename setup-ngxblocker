@@ -66,7 +66,7 @@ find_vhosts() {
 }
 
 whitelist_ips() {
-	local ip= conf=$BOTS_DIR/whitelist-ips.conf
+	local ip= conf=$BOTS_DIR/whitelist-ips.conf col_size=$1
 
 	mkdir -p $BOTS_DIR
 
@@ -79,7 +79,7 @@ whitelist_ips() {
 			fi
 		fi
 	else
-		printf "%-10s %-$(( $col_size -14 ))s %-s\n" \
+		printf "%-10s %-${col_size}s %-s\n" \
 			"WARN:" "dig binary missing" "=> install bind-tools to whitelist external ip address"
 	fi
 }
@@ -117,15 +117,14 @@ check_wildcard() {
 }
 
 add_includes() {
-	local ph='<<!!>>' line=$1 file=$2 conf_dir=$3 text= update=
-	local include_list="$(echo $@ | awk '{$1=$2=$3=""}sub("^"OFS"+","")')"
-	local col_size=$(( $(longest_str $include_list) + $(echo $conf_dir | wc -m) ))
+	local ph='<<!!>>' line=$1 file=$2 conf_dir=$3 col_size=$4 text= update=
+	local include_list="$(echo $@ | awk '{$1=$2=$3=$4=""}sub("^"OFS"+","")')"
 
 	for text in $include_list; do
 		if ! grep "$text" $file 1>/dev/null; then
 			update='true'
 			text="include $conf_dir/$text;"
-			printf "%-10s %-$(( $col_size +10 ))s %s\n" "inserting:" "$text" "=> $file"
+			printf "%-10s %-${col_size}s %s\n" "inserting:" "$text" "=> $file"
 			if [ "$DRY_RUN" = "N" ]; then
 				# $ph is just a placeholder so sed inserts a \t (tab)
 				sed -i "$line i $ph \t$text $ph" $file
@@ -168,9 +167,11 @@ find_includes() {
 	local start=$(find_line $file $start_range $start_first_last)
 	local end=$(find_line $file $end_range $end_first_last)
 
-	sed -n "$start,$end"p $file > $tmp
-	line=$(find_line $tmp $search $search_first_last)
-	rm -f $tmp
+	if [ -n "$start" ] && [ -n "$end" ]; then
+		sed -n "$start,$end"p $file > $tmp
+		line=$(find_line $tmp $search $search_first_last)
+		rm -f $tmp
+	fi
 
 	# search string not found
 	if [ -z "$line" ]; then
@@ -306,7 +307,7 @@ main() {
 	# gather vhosts
 	file_list=$(find_vhosts)
 	check_config $file_list
-	col_size=$(( $(longest_str $file_list) + $(echo $BOTS_DIR | wc -m) ))
+	col_size=$(( $(longest_str $CONF_FILES) + $(echo $CONF_DIR | wc -m) + 10 ))
 
 	# by default do not change any files
 	if [ -z "$DRY_RUN" ]; then
@@ -315,25 +316,26 @@ main() {
 		printf "\n"
 	fi
 
+	# update main config
+	line=$(find_includes $MAIN_CONF include last http first '\}' last )
+	if [ -n "$(check_wildcard $MAIN_CONF $CONF_DIR)" ]; then # also recalculate column width
+		col_size=$(( $(longest_str $VHOST_INCLUDES) + $(echo $BOTS_DIR | wc -m) + 10 ))
+		printf "%-10s %-${col_size}s %s\n" "INFO:" "$CONF_DIR/* detected" "=> $MAIN_CONF"
+	else                                                    # wildcard conf.d ok in nginx.conf
+		add_includes $line $MAIN_CONF $CONF_DIR $col_size $CONF_FILES
+	fi
+
 	# update vhosts
 	for file in $file_list; do
 		line=$(find_includes $file include last server_ last location first )
 		if [ -n "$(check_wildcard $file $BOTS_DIR)" ]; then
-			printf "%-10s %-$(( $col_size -14 ))s %s\n" "WARN:" "$BOTS_DIR/* detected" "=> $file"
+			printf "%-10s %-${col_size}s %s\n" "WARN:" "$BOTS_DIR/* detected" "=> $file"
 		else						# don't use wildcards in vhost files
-			add_includes $line $file $BOTS_DIR $VHOST_INCLUDES
+			add_includes $line $file $BOTS_DIR $col_size $VHOST_INCLUDES
 		fi
 	done
 
-	# update main config
-	line=$(find_includes $MAIN_CONF include last http first '\}' last )
-	if [ -n "$(check_wildcard $MAIN_CONF $CONF_DIR)" ]; then
-		printf "%-10s %-$(( $col_size -14 ))s %s\n" "INFO:" "$CONF_DIR/* detected" "=> $MAIN_CONF"
-	else							# wildcard conf.d ok in nginx.conf
-		add_includes $line $MAIN_CONF $CONF_DIR $CONF_FILES
-	fi
-
-	whitelist_ips
+	whitelist_ips $col_size
 
 	if [ -d $WWW ]; then
 		whitelist_domains
@@ -345,3 +347,4 @@ main() {
 ## START ##
 main $@
 exit $?
+
