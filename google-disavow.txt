@@ -133,6 +133,7 @@ domain:acc.eu.org
 domain:acgs.tk
 domain:acheterviagrafr24.com
 domain:actionnooz.com
+domain:activepr.ru
 domain:actremage.com
 domain:actulite.com
 domain:adamoads.com
@@ -733,6 +734,7 @@ domain:cheapmarmot.online
 domain:cheappatagonia.online
 domain:cheap-pills-norx.com
 domain:cheatcode-lita12.rhcloud.com
+domain:checkhit.com
 domain:checkm8.com
 domain:checkpagerank.net
 domain:checktext.org
@@ -2000,6 +2002,7 @@ domain:lumb.co
 domain:lutherstable.org
 domain:luxmagazine.cf
 domain:luxup.ru
+domain:lyrster.com
 domain:m1media.net
 domain:m4ever.net
 domain:mabdoola.blogspot.com
@@ -2320,6 +2323,7 @@ domain:nightvision746.weebly.com
 domain:niki-mlt.ru
 domain:nikitsyringedrivelg.pen.io
 domain:nikkiewart.ru
+domain:nippon-bearings.ru
 domain:niroo.info
 domain:nl.netlog.com
 domain:noclegonline.info
@@ -2515,6 +2519,7 @@ domain:picture-group.com
 domain:picturesfrom.com
 domain:picturesify.com
 domain:picturesmania.com
+domain:pierrehardysale.online
 domain:pigrafix.at
 domain:pijoto.net
 domain:pila.pl
@@ -2810,6 +2815,7 @@ domain:ritlweb.com
 domain:rn-to-bsn.com
 domain:robot-forex.biz
 domain:rockingclicks.com
+domain:rogervivierforsale.com
 domain:roleforum.ru
 domain:roma-kukareku.livejournal.com
 domain:roofers.org.uk
