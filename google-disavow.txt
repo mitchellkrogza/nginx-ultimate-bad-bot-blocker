@@ -793,6 +793,7 @@ domain:chlooe.com
 domain:chocolateslim-original.com
 domain:chocoslim.pro
 domain:choosecuisine.com
+domain:christianlouboutinsaleonline.us
 domain:cialisovercounteratwalmartusa.com
 domain:cialiswithoutadoctor.net
 domain:ciekawinki.pl
@@ -2223,6 +2224,7 @@ domain:mhi-systems.ru
 domain:mhtr.be
 domain:micasainvest.com
 domain:michaelkorsoutlet.store
+domain:michaelkorsoutletstore.net
 domain:microsearch.ru
 domain:microsoftportal.net
 domain:microstatic.pl
@@ -2461,6 +2463,7 @@ domain:nucia.biz.ly
 domain:nudepatch.net
 domain:nudo.ca
 domain:nufaq.com
+domain:nuit-artisanale.com
 domain:nullrefer.com
 domain:nuup.info
 domain:nvformula.ru
@@ -3181,6 +3184,7 @@ domain:shop.acim.org
 domain:shopcheermakeup.info
 domain:shop-electron.ru
 domain:shoplvlv.us
+domain:shoppingjequiti.com.br
 domain:shoppingmiracles.co.uk
 domain:shoppytoolmac.com
 domain:shopvilleroyboch.com.ua
