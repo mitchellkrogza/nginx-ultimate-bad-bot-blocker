@@ -341,6 +341,7 @@ domain:arclk.net
 domain:arcteryxsale.online
 domain:arcteryxstore.online
 domain:arenanews.com.ua
+domain:arenda-avtoprokat-krasnodar.ru
 domain:arendakvartir.kz
 domain:arendas.net
 domain:arendatora.ru
@@ -635,6 +636,7 @@ domain:browsepulse-a.akamaihd.net
 domain:browserprotecter.com
 domain:brus.city
 domain:brus-vsem.ru
+domain:bryansk.zrus.org
 domain:bscodecs.com
 domain:b-styles.xyz
 domain:btc4u.ru
@@ -956,6 +958,7 @@ domain:dekoration.us
 domain:dekorkeramik.ru
 domain:delayreferat.ru
 domain:delfin-aqua.com.ua
+domain:dellalimov.com
 domain:demenageur.com
 domain:dengi-pod-zalog-nedvizhimosti.ru
 domain:deniven.1bb.ru
@@ -1198,6 +1201,7 @@ domain:excaliburfilms.com
 domain:exchangeit.gq
 domain:exchanges-bet.com
 domain:executehosting.com
+domain:exhibitionplus.eu
 domain:exmasters.com
 domain:exonline.info
 domain:expdom.com
@@ -1210,6 +1214,7 @@ domain:extener.org
 domain:extrabot.com
 domain:extractorandburner.com
 domain:extremal-blog.com
+domain:extremepornos.net
 domain:extremez.net
 domain:extstat.com
 domain:eyelike.com.ua
@@ -2701,6 +2706,7 @@ domain:poffet.net
 domain:pogodnyyeavarii.gq
 domain:pogruztehnik.ru
 domain:poisk-zakona.ru
+domain:pojdelo.weebly.com
 domain:pokemongooo.ml
 domain:pokemon-go-play.online
 domain:pokerniydom.ru
@@ -3384,6 +3390,7 @@ domain:stop-gepatit.te.ua
 domain:storehouse.ua
 domain:store-rx.com
 domain:stpolice.com
+domain:strag-invest.ru
 domain:strana-krasoty.ru
 domain:strana-solnca.ru
 domain:streetfire.net
