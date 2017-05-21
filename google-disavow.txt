@@ -1913,6 +1913,7 @@ domain:kazinogames.lv
 domain:kaz.kz
 domain:kazrent.com
 domain:keenoutlet.online
+domain:kerwinandcariza.com
 domain:ketoanhanoi.info
 domain:ketrzyn.pl
 domain:keywordhut.com
@@ -2554,7 +2555,6 @@ domain:ooo-gotovie.ru
 domain:ooo-olni.ru
 domain:openfrost.com
 domain:openfrost.net
-domain:openlibrary.org
 domain:openmediasoft.com
 domain:openmultipleurl.com
 domain:openstat.com
@@ -3707,6 +3707,7 @@ domain:ucoz.ru
 domain:ucsol.ru
 domain:udsgame.online
 domain:ufa.xrus.org
+domain:uggbootsoutletsale.us
 domain:uggsale.online
 domain:ugguk.online
 domain:uhdtv.website
