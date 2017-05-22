@@ -237,7 +237,6 @@ domain:alibestsale.com
 domain:alienwheel.es
 domain:alienwheels.de
 domain:aliexpresscashback.club
-domain:aliexpress.com
 domain:alif-ba-ta.com
 domain:alive-ua.com
 domain:all4invest.info
@@ -505,6 +504,7 @@ domain:beauty-things.com
 domain:becuo.com
 domain:bedandbreakfast.com
 domain:bedcapdealers.com
+domain:belinka.com.ua
 domain:belinvestdom.by
 domain:belstaffstore.online
 domain:benchmarkcommunications.co.uk
@@ -763,6 +763,7 @@ domain:centre-indigo.org.ua
 domain:centrumcoachingu.com
 domain:ceotrk.com
 domain:cercacamion.it
+domain:cete.ru
 domain:cezartabac.ro
 domain:cfcl.co.uk
 domain:cfjump.com
@@ -1711,6 +1712,7 @@ domain:hotchatdate.com
 domain:hotdl.in
 domain:hotel-mkad.ru
 domain:hotenergy.ru
+domain:hotgirlhdwallpaper.com
 domain:hothor.se
 domain:hotkeys.com
 domain:hotloans.ru
@@ -1914,6 +1916,7 @@ domain:juliadiets.com
 domain:juliaworld.net
 domain:jumptap.com
 domain:jus0wil.pp.ua
+domain:justbcause.com
 domain:justdating.online
 domain:kaac.ru
 domain:kabbalah-red-bracelets.com
@@ -3083,6 +3086,7 @@ domain:saratov.xrus.org
 domain:sarf3omlat.com
 domain:sarm.tk
 domain:sashagreyblog.ga
+domain:saugatuck.com
 domain:savefrom.com
 domain:savememoney.co.za
 domain:savetubevideo.com
@@ -3188,6 +3192,7 @@ domain:seorankinglinks.us
 domain:seorankinglinks.xyz
 domain:seo-smm.kz
 domain:seo-tools-optimizing.com
+domain:seo-traffic-ranking.info
 domain:serdcenebolit.com
 domain:sergiorossistore.online
 domain:serialsway.ucoz.ru
@@ -3665,6 +3670,7 @@ domain:torture.ml
 domain:touchmods.fr
 domain:tourismvictoria.com
 domain:tour-line.net
+domain:toursmaps.com
 domain:tovaroboom.vast.ru
 domain:toxicwap.com
 domain:toys.erolove.in
@@ -3709,6 +3715,7 @@ domain:try-rx.com
 domain:tsan.net
 domain:tsstcorpcddvdwshbbdriverfb.aircus.com
 domain:ttrraacckkrr.com
+domain:ttsq.fr
 domain:tube8.com
 domain:tuberkulezanet.ru
 domain:tuberkuleznik.ru
@@ -3785,6 +3792,7 @@ domain:urccvfmc.bloger.index.hr
 domain:urdoot.win
 domain:url2image.com
 domain:urlcut.ru
+domain:url-img.link
 domain:urlopener.blogspot.com.au
 domain:urlopener.com
 domain:uroffer.link
@@ -4039,6 +4047,7 @@ domain:writingservices17.blogspot.ru
 domain:wrona.it
 domain:wsgames.ru
 domain:wstroika.ru
+domain:wttavern.com
 domain:wurr.voila.net
 domain:ww1943.ru
 domain:www.arenda-yeisk.ru
@@ -4103,6 +4112,7 @@ domain:xn--b1ag5cfn.xn--p1ai
 domain:xn--b1agm2d.net
 domain:xn--c1acygb.xn--p1ai
 domain:xn--d1abj0abs9d.in.ua
+domain:xn--e1afanlbnfckd7c3d.xn--p1ai
 domain:xn--e1aggki3c.xn--80adxhks
 domain:xn--h1aakne2ba.xn--p1ai
 domain:xn--h1ahbi.com.ua
