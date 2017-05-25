@@ -1,5 +1,14 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-05-25
+- Unfortunately my father passed away on the 5th of May after a 5 month long battle with a very aggressive cancer. It's been keeping me very busy with funerals and all sorts of other arrangements but life carries on and so does this Bot Blocker. I must say this project helps me keep my mind off things.
+- Added New Preferred AUTO Installation Instructions using the script from Stuart Cardall @itoffshore into README.md
+- Added New AUTO-CONFIGURATION.md instructions file.
+- Renamed CONFIGURATION.md to MANUAL-CONFIGURATION.md
+- Renamed Logo File
+- My New Travis CI build testing based on the scripts from Stuart Cardall will be coming through shortly. This will ensure thorough testing by Travis CI of our auto installation instructions using Stuart's amazing scripts. Thank you once again Stuart @itoffshore for your great contributions to this project.
+- I end off this update today by wishing my father Vernon God Speed - https://web.facebook.com/vernon.krog Forever in my heart, dreams and memories.
+
 ### 2017-04-21
 - Updated install-ngxblocker script from Stuart Cardall @itoffshore
 - Fixed updating globalblacklist.conf in EnginTron example folder
