@@ -1,51 +1,25 @@
-# CONFIGURATION INSTRUCTIONS FOR THE NGINX BAD BOT BLOCKER:
-### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY
+# MANUAL CONFIGURATION INSTRUCTIONS FOR THE NGINX BAD BOT BLOCKER:
+### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY :exclamation:
 
 ##### Created by: https://github.com/mitchellkrogza
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
-### Version 2.2017.07
+### Version 3.2017.07
 
 ## Update Notification System
+
 Please subscribe your email address to the mailing list at **https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker**
 or simply send a blank email to **nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com** to subscribe.
 Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical changes take place.
 
-# CONFIGURATION OF THE NGINX BAD BOT BLOCKER:
 ### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY :exclamation:
 
 **If you miss one step you will get an nginx EMERG :exclamation: error. This is normally a result of not downloading either blockbots.conf, ddos.conf, whitelist-ips.conf, whitelist-domains.conf, bad-referrer-words.conf, custom-bad-referrers.conf, blacklist-user-agents.conf or blacklist-ips.conf into your /etc/nginx/bots.d folder. If any of the include files are missing Nginx will EMERG and will not reload.**
 
 ## AUTO INSTALLATION INSTRUCTIONS
-To Make Sure you copy all the correct files you can now use a simple bash setup script for copying the files into the correct nginx folders for you:
 
-See: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker
-See: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker
-
-These two shell scripts will 
-A) (install-ngxblocker) download all the required files to the correct folders.
-B) (setup-ngxblocker) will try to insert the new configuration below any existing includes in your config files
-
-To use these scripts download them to your /usr/sbin directory as follows
-
-`cd /usr/sbin`
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O install-ngxblocker`
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O setup-ngxblocker`
-
-make both files executable
-
-`sudo chmod +x install-ngxblocker`
-
-`sudo chmod +x setup-ngxblocker`
-
-Run the install script first
-
-`sudo ./install-ngxblocker`
-
-Then run the setup script
-
-`sudo ./setup-ngxblocker`
+It is **HIGHLY SUGGESTED** to please use the auto installation scripts created by Stuart Cardall @itoffshore
+Please see: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/AUTO-CONFIGURATION.md
+or https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/README.md
 
 ## MANUAL INSTALLATION INSTRUCTIONS
 
@@ -69,13 +43,9 @@ Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.
 
 `cd /etc/nginx/bots.d`
 
-- copy the blockbots.conf file into that folder
+- copy the all the following files into that folder
 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blockbots.conf -O blockbots.conf`
-
-
-- copy the ddos.conf file into the same folder
-
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf -O ddos.conf`
 
 ## STEP 3:
@@ -275,12 +245,13 @@ Relax now and sleep better at night knowing your site is telling all those baddi
 
 ### PULL REQUESTS:
 
-To contribute your own bad referers please add them into the https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull%20Requests%20Here%20Please/badreferers.list file and then send a Pull Request (PR). 
+To contribute your own bad referers, bots or to make corrections to any incorrectly blocked bots or domains please fork a copy of this repository and send pull requests on the individual files located in https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/tree/master/_generator_lists and then send a pull request (PR).
 
-##### **All additions will be checked for accuracy before being merged.**
+##### Additions, Removals and Corrections will all be checked for accuracy before being merged into main blocker.
+
 
 ### ISSUES:
 
 Log any issues regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
 
-### If this helped you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
+### Coding makes me very thirsty [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:

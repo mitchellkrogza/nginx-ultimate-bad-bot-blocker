@@ -1,30 +1,284 @@
-### If this helps you [You can buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
-
 <table style="width:100%;margin:0;">
   <tr>
-    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/nginx-ultimate-bad-bot-referrer-blocker.png" alt="Nginx Ultimate Bad Bot Spam Referrer Blocker - Nginx Block Bad Bots, Vulnerability Scanners, Malware and Adware, Malicious Sites, Spam Referrers, Bad Referrers, Spam Blocker with DDOS, Wordpress Theme Detector Blocking and Fail2Ban Jail for Repeat Offenders"/></td>
+    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/_logo_nginx_bad_bot_blocker.png" alt="Nginx Ultimate Bad Bot Spam Referrer Blocker - Nginx Block Bad Bots, Vulnerability Scanners, Malware and Adware, Malicious Sites, Spam Referrers, Bad Referrers, Spam Blocker with DDOS, Wordpress Theme Detector Blocking and Fail2Ban Jail for Repeat Offenders"/></td>
     <td align="right"><a href="https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker" target="_blank"><img src="https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg?branch=master"/></a></td>
+    <td>If this helps you [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:</td>
   </tr>
 </table>
 
 # Nginx Bad Bot and User-Agent Blocker, Spam Referrer Blocker, Anti DDOS, Bad IP Blocker and Wordpress Theme Detector Blocker
-##### The Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker, Click Re-Directing Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking
+##### The Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker, Click Re-Directing Blocker, SEO Companies and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking
 
-### Version 2.2017.07
+### Version 3.2017.07
 
-##### Created by: https://github.com/mitchellkrogza
+##### Created by: https://github.com/mitchellkrogza for use on Nginx Web Server https://www.nginx.com/
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
 
-# [Configuration instructions are here](#configuration-instructions)
-- For Nginx Web Server - https://www.nginx.com/
-- See sample Nginx Vhost config at: (Please read full instructions too) https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md
-- Includes the creation of a google-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
-- Includes the creation of a google-disavow.txt file for use in Google Webmaster Tools (see instructions lower down)
+### Update Notification System - Stay up to date on New Builds and Major Feature Changes 
 
-## Update Notification System
-Please subscribe your email address to the mailing list at **https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker**
+It is important to please subscribe your email address to the mailing list at **https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker**
 or simply send a blank email to **nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com** to subscribe.
-Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical changes take place.
+Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical (potentially breaking) changes take place.
+
+# EASY AUTO CONFIGURATION INSTRUCTIONS FOR THE NGINX BAD BOT BLOCKER
+## Please follow the instructions below step by step :exclamation:
+
+- This is our new preferred method of installation which is now done through a set of shell scripts contributed to this repo by Stuart Cardall @itoffshore who is one of the Alpine Linux package maintainers. 
+
+- The instructions below are for a quick and painfree installation process which downloads all required files for the blocker and the scripts include adding the required includes to your nginx.conf and nginx .vhost files. The setup script assumes your vhost config files are located in /etc/nginx/sites-available/ and each vhost config file ends with a file extension of .vhost
+
+- For manual installation instructions please see - Please see: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/MANUAL-CONFIGURATION.md
+
+## STEP 1:
+
+Download the install, setup and update scripts to your /usr/sbin/ directory and make the scripts executable
+
+```
+cd /usr/sbin
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O install-ngxblocker
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O setup-ngxblocker
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O update-ngxblocker
+sudo chmod +x install-ngxblocker
+sudo chmod +x setup-ngxblocker
+sudo chmod +x update-ngxblocker
+```
+
+All scripts can be run with an -h flag for help options.
+
+## STEP 2:
+
+Now run the install-ngxblocker script in DRY-MODE which will show you what changes it will make and what files it will download for you. This is only a DRY-RUN so no changes are being made yet.
+
+```
+cd /usr/sbin
+sudo ./install-ngxblocker
+```
+
+This will show you output as follows of the changes that will be made 
+**(NOTE: this is only a DRY-RUN no changes have been made)**
+
+```
+Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
+
+** Dry Run ** | -x or --exec to download files
+
+
+REPO = https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+
+Downloading [FROM]=>  [REPO]/conf.d/globalblacklist.conf            [TO]=>  /etc/nginx/conf.d/globalblacklist.conf
+Downloading [FROM]=>  [REPO]/conf.d/botblocker-nginx-settings.conf  [TO]=>  /etc/nginx/conf.d/botblocker-nginx-settings.conf
+
+REPO = https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+
+Downloading [FROM]=>  [REPO]/bots.d/blockbots.conf              [TO]=>  /etc/nginx/bots.d/blockbots.conf
+Downloading [FROM]=>  [REPO]/bots.d/ddos.conf                   [TO]=>  /etc/nginx/bots.d/ddos.conf
+Downloading [FROM]=>  [REPO]/bots.d/whitelist-ips.conf          [TO]=>  /etc/nginx/bots.d/whitelist-ips.conf
+Downloading [FROM]=>  [REPO]/bots.d/whitelist-domains.conf      [TO]=>  /etc/nginx/bots.d/whitelist-domains.conf
+Downloading [FROM]=>  [REPO]/bots.d/blacklist-user-agents.conf  [TO]=>  /etc/nginx/bots.d/blacklist-user-agents.conf
+Downloading [FROM]=>  [REPO]/bots.d/blacklist-ips.conf          [TO]=>  /etc/nginx/bots.d/blacklist-ips.conf
+Downloading [FROM]=>  [REPO]/bots.d/bad-referrer-words.conf     [TO]=>  /etc/nginx/bots.d/bad-referrer-words.conf
+Downloading [FROM]=>  [REPO]/bots.d/custom-bad-referrers.conf   [TO]=>  /etc/nginx/bots.d/custom-bad-referrers.conf
+```
+
+## STEP 3:
+
+Now run the install script with the -x parameter to download all the necessary files from the repository:
+
+```
+cd /usr/sbin/
+sudo ./install-ngxblocker -x
+```
+
+This will give you the following output:
+
+```
+Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
+
+
+REPO = https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+
+Downloading [FROM]=>  [REPO]/conf.d/globalblacklist.conf            [TO]=>  /etc/nginx/conf.d/globalblacklist.conf...OK
+Downloading [FROM]=>  [REPO]/conf.d/botblocker-nginx-settings.conf  [TO]=>  /etc/nginx/conf.d/botblocker-nginx-settings.conf...OK
+
+REPO = https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+
+Downloading [FROM]=>  [REPO]/bots.d/blockbots.conf              [TO]=>  /etc/nginx/bots.d/blockbots.conf...OK
+Downloading [FROM]=>  [REPO]/bots.d/ddos.conf                   [TO]=>  /etc/nginx/bots.d/ddos.conf...OK
+Downloading [FROM]=>  [REPO]/bots.d/whitelist-ips.conf          [TO]=>  /etc/nginx/bots.d/whitelist-ips.conf...OK
+Downloading [FROM]=>  [REPO]/bots.d/whitelist-domains.conf      [TO]=>  /etc/nginx/bots.d/whitelist-domains.conf...OK
+Downloading [FROM]=>  [REPO]/bots.d/blacklist-user-agents.conf  [TO]=>  /etc/nginx/bots.d/blacklist-user-agents.conf...OK
+Downloading [FROM]=>  [REPO]/bots.d/blacklist-ips.conf          [TO]=>  /etc/nginx/bots.d/blacklist-ips.conf...OK
+Downloading [FROM]=>  [REPO]/bots.d/bad-referrer-words.conf     [TO]=>  /etc/nginx/bots.d/bad-referrer-words.conf...OK
+Downloading [FROM]=>  [REPO]/bots.d/custom-bad-referrers.conf   [TO]=>  /etc/nginx/bots.d/custom-bad-referrers.conf...OK
+```
+
+The required files have now been downloaded to the correct folders on Nginx for you direct from the repository.
+
+## STEP 4:
+
+Now run the setup-ngxblocker script in DRY-MODE which will show you what changes it will make and what files it will download for you. This is only a DRY-RUN so no changes are being made yet.
+
+```
+cd /usr/sbin/
+sudo ./setup-ngxblocker
+```
+
+This will give you output as follows (this output below assumes your nginx.conf file already has the default include of /etc/nginx/conf.d/*)
+All Nginx installations I know of have this default include in the nginx.conf file distributed with all versions.
+
+```
+Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
+
+** Dry Run ** | not updating files | -x or --exec to change files
+
+INFO:      /etc/nginx/conf.d/* detected               => /etc/nginx/nginx.conf
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/default.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/default.vhost
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site1.com.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site1.com.vhost
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site3.com.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site3.com.vhost
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site2.com.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site2.com.vhost
+
+Whitelisting ip:  x.x.x.x    => /etc/nginx/bots.d/whitelist-ips.conf
+```
+
+This script also whitelists your IP in the whitelist-ips.conf file for you. 
+Further IP's or IP ranges can be added to your customizable whitelits-ips.conf file located in /etc/nginx/bots.d/whitelist-ips.conf.
+
+## STEP 5:
+
+Now run the setup script with the -x parameter to make all the necessary changes to your nginx.conf (if required) and also to add the required includes into all your vhost files. 
+
+This setup-ngxblocker script assumes that all your vhost files located in /etc/nginx/sites-available end in an extension .vhost. It is good practice to make all your vhost config files end with a .vhost extension but if you prefer to stick what you already have eg .conf you can simply modify line 10 of setup-ngxblocker to the appropriate extension you use for your vhost files.
+
+For instance if your vhost files end in .conf you will change this line in setup-ngxblocker as follows:
+
+`VHOST_EXT="conf`
+
+So now let's run the setup script and let it make all the changes we need to make the Bot Blocker active on all your sites.
+
+```
+cd /usr/sbin/
+sudo ./setup-ngxblocker -x
+```
+
+You will see output as follows:
+
+```
+Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
+
+INFO:      /etc/nginx/conf.d/* detected               => /etc/nginx/nginx.conf
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/default.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/default.vhost
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site1.com.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site1.com.vhost
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site3.com.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site3.com.vhost
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site2.com.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site2.com.vhost
+
+Whitelisting ip:  x.x.x.x    => /etc/nginx/bots.d/whitelist-ips.conf
+```
+
+You will note it has done the includes in all the .vhost files on my test bed server and also whitelisted your own IP address in the whitelist-ips.conf file for you. Further IP's or IP ranges can be added to your customizable whitelits-ips.conf file located in /etc/nginx/bots.d/whitelist-ips.conf.
+
+What this setup script has done has added the following include statements into your .vhost files for you.
+
+```
+# Bad Bot Blocker
+include /etc/nginx/bots.d/ddos.conf;
+include /etc/nginx/bots.d/blockbots.conf;
+```
+
+## STEP 6:
+
+Now test your nginx configuration
+
+`sudo nginx -t`
+
+and you should see
+
+```
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+```
+
+## STEP 7: 
+
+Now simply reload / restart Nginx and the Bot Blocker will immediately be active and protecting all your web sites.
+
+`sudo service nginx reload`
+
+or
+
+`sudo service nginx restart`
+
+That's it, the blocker is now active and protecting your sites from thousands of malicious bots and domains.
+
+## STEP 8:
+
+Now setup cron to automatically update the blocker for you every day so you always have the latest up to date protection.
+
+`sudo crontab -e`
+
+Add the following line at the end of your crontab file
+
+`00 22 * * * /usr/sbin/update-ngxblocker` 
+
+This will update the blocker every night for you at 10 PM.
+If you want it to update more frequently (as sometimes I push out 3-4 updates a day) you can set it as follows to run the cron every 8 hours.
+
+`00 */8 * * * /usr/sbin/update-ngxblocker`       
+
+That's it, the blocker will automatically keep itself up to date and also reload Nginx once it has downloaded the latest version of the globalblacklist.conf file.
+
+## STEP 9:
+
+You can now customize any of the following files below to suit your environment or requirements. These include files never get modified during an update using the auto update script above so whatever customizations you do here will never ne overwritten during an update.
+
+```
+/etc/nginx/bots.d/whitelist-ips.conf
+/etc/nginx/bots.d/whitelist-domains.conf
+/etc/nginx/bots.d/blacklist-user-agents.conf
+/etc/nginx/bots.d/blacklist-ips.conf
+/etc/nginx/bots.d/bad-referrer-words.conf
+/etc/nginx/bots.d/custom-bad-referrers.conf
+```
+
+Let's say for some "obscure" reason you actually want to block GoogleBot from accessing your site. You would simply add it to the /etc/nginx/bots.d/blacklist-user-agents.conf file and it will over-ride the default whitelist for GoogleBot. the same applies to any other bots that are whitelisted by default.
+
+All include files are commented for your convenience.
+
+### Coding makes me very thirsty [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
+
+
+## STEP 10: (TEST THAT IT IS WORKING)
+
+**TESTING**
+
+Run the following commands one by one from a terminal on another linux machine against your own domain name. 
+**substitute yourdomain.com in the examples below with your REAL domain name**
+
+`curl -A "googlebot" http://yourdomain.com`
+
+Should respond with 200 OK
+
+`curl -A "80legs" http://yourdomain.com`
+
+`curl -A "masscan" http://yourdomain.com`
+
+Should respond with: curl: (52) Empty reply from server
+
+`curl -I http://yourdomain.com -e http://100dollars-seo.com`
+
+`curl -I http://yourdomain.com -e http://zx6.ru`
+
+Should respond with: curl: (52) Empty reply from server
+
+The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
+
 
 ### WHY BLOCK BAD BOTS ?
 
@@ -50,11 +304,16 @@ Please make sure you are subscribed to notifications to be notified when the blo
 -    Stopping Google Analytics Ghost Spam
 -    Browser Adware and Malware (Yontoo etc)
 
-(Over 4000 bad referers, spam referrers, user-agents, bad bots, bad IP's, porn, gambling and clickjacking sites, seo companies and counting)
+(Over 4000 bad referers, spam referrers, user-agents, bad bots, bad IP's, porn, gambling and clickjacking sites, lucrative seo companies, wordpress theme detectors and counting)
+
+- Includes the creation of a google-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
+- Includes the creation of a google-disavow.txt file for use in Google Webmaster Tools (see instructions lower down)
+- See sample Nginx SSL Vhost config at: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md
+
 
 ### If this helps you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
 
-# Welcome to the Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Click-Jacking Blocker, Click-Redirect Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking.
+## Welcome to the Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Click-Jacking Blocker, Click-Redirect Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking.
 
 Bots attempt to make themselves look like other software or web sites by disguising their user agent.  Their user agent names may look harmless, perfectly legitimate even. 
 
@@ -117,276 +376,14 @@ A test with curl using one of the test command line's documented in the /conf.d/
 
 For bot's or spiders that you still want to allow but want to limit their visitation rate, you can use the  built in rate limiting functions I have included. The file is extensively commented throughout so you should figure it out otherwise simply message me if you are having problems. 
 
-
-# CONFIGURATION INSTRUCTIONS
-### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY :exclamation:
-
-**If you miss one step you will get an nginx EMERG error. This is normally a result of not downloading either blockbots.conf, ddos.conf, whitelist-ips.conf, whitelist-domains.conf or blacklist-user-agents.conf into your /etc/nginx/bots.d folder. If any of the include files are missing Nginx will EMERG and will not reload.**
-
-## AUTO INSTALLATION INSTRUCTIONS
-To Make Sure you copy all the correct files you can now use a simple bash setup script for copying the files into the correct nginx folders for you:
-
-See: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker
-See: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker
-
-These two shell scripts will 
-A) (install-ngxblocker) download all the required files to the correct folders.
-B) (setup-ngxblocker) will try to insert the new configuration below any existing includes in your config files
-
-To use these scripts download them to your /usr/sbin directory as follows
-
-`cd /usr/sbin`
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O install-ngxblocker`
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O setup-ngxblocker`
-
-make both files executable
-
-`sudo chmod +x install-ngxblocker`
-
-`sudo chmod +x setup-ngxblocker`
-
-Run the install script first
-
-`sudo ./install-ngxblocker`
-
-Then run the setup script
-
-`sudo ./setup-ngxblocker`
-
-## MANUAL INSTALLATION INSTRUCTIONS
-
-## STEP 1:
-
-**COPY THE GLOBALBLACKLIST.CONF FILE FROM THE REPO**
-
-Copy the contents of **/conf.d/globalblacklist.conf** into your /etc/nginx/conf.d folder. 
-
-`cd /etc/nginx/conf.d`
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf -O globalblacklist.conf`
-
-## STEP 2: 
-
-**COPY THE INCLUDE FILES FROM THE REPO**
-
-- From your command line in Linux type
-
-`sudo mkdir /etc/nginx/bots.d `
-
-`cd /etc/nginx/bots.d`
-
-- copy the blockbots.conf file into that folder
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blockbots.conf -O blockbots.conf`
-
-
-- copy the ddos.conf file into the same folder
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf -O ddos.conf`
-
-## STEP 3:
-
-**WHITELIST ALL YOUR OWN DOMAIN NAMES AND IP ADDRESSES**
-
-Whitelist all your own domain names and IP addresses. **Please note important changes**, this is now done using include files so that you do not have to keep reinserting your whitelisted domains and IP addresses every time you update.
-
-`cd /etc/nginx/bots.d`
-
-- copy the whitelist-ips.conf file into that folder
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/whitelist-ips.conf -O whitelist-ips.conf`
-
-
-- copy the whitelist-domains.conf file into the same folder
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/whitelist-domains.conf -O whitelist-domains.conf`
-
-
-Use nano, vim or any other text editor to edit both whitelist-ips.conf and whitelist-domains.conf to include all your own domain names and IP addresses that you want to specifically whitelist from the blocker script. 
-When pulling any future updates now your domains and IP whitelists will not be overwritten.
-
-## STEP 4:
-
-**BLACKLIST USING YOUR OWN CUSTOM USER-AGENT BLACKLIST**
-
-Copy the custom User-Agents blacklist file into your /etc/nginx/bots.d folder
-
-`cd /etc/nginx/bots.d`
-
-- copy the blacklist-user-agents.conf file from the repository
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blacklist-user-agents.conf -O blacklist-user-agents.conf`
-
-
-Use nano, vim or any other text editor to edit (if needed) blacklist-user-agents.conf to include your own custom list of bad agents that are not included in the blocker like "omgilibot" which some people choose to block. 
-When pulling any future updates now your custom User-Agents blacklist will not be overwritten.
-
-## STEP 5:
-
-**BLACKLIST USING YOUR OWN CUSTOM BAD REFERRERS**
-
-Copy the custom bad referrers blacklist file into your /etc/nginx/bots.d folder
-
-`cd /etc/nginx/bots.d`
-
-- copy the custom-bad-referrers.conf file from the repository
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/custom-bad-referrers.conf -O custom-bad-referrers.conf`
-
-Use nano, vim or any other text editor to edit (if needed) custom-bad-referrers.conf to include your own custom list of bad referrer domains that are not included in the blocker. 
-When pulling any future updates now your custom referrers list will not be overwritten.
-
-## STEP 6:
-
-**BLACKLIST IPS AND IP RANGES USING YOUR OWN CUSTOM LIST**
-
-Copy the custom IP blacklist file into your /etc/nginx/bots.d folder
-
-`cd /etc/nginx/bots.d`
-
-- copy the blacklist-ips.conf file from the repository
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blacklist-ips.conf -O blacklist-ips.conf`
-
-Use nano, vim or any other text editor to edit (if needed) blacklist-ips.conf to include your own custom list of IP Addresses and IP Ranges that you wish to block.  
-When pulling any future updates now your custom IP blacklist will not be overwritten.
-
-## STEP 7:
-
-**DOWNLOAD CUSTOM BAD REFERRER WORDS INCLUDE FILE FOR CUSTOMIZED SCANNING OF BAD WORDS**
-
-Copy the custom bad referrer words include file into your /etc/nginx/bots.d folder
-
-`cd /etc/nginx/bots.d`
-
-- copy the bad-referrer-words.conf file from the repository
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/bad-referrer-words.conf -O bad-referrer-words.conf`
-
-Use nano, vim or any other text editor to edit the bad-referrer-words.conf file as you like. 
-When pulling any future updates now your custom bad referrer words list will not be overwritten.
-
-
-## STEP 8:
-
-**INCLUDE IMPORTANT SETTINGS IN NGINX.CONF**
-**Also see SAMPLE-nginx.conf file in the root of this repository**
-
-`cd /etc/nginx/conf.d`
-
-- copy the botblocker-nginx-settings.conf file directly from the repo
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/botblocker-nginx-settings.conf -O botblocker-nginx-settings.conf`
-
-**What is included in this settings file above for nginx?**
-The important settings file above adds the rate limiting functions and hash_bucket settings for nginx for you. Below is what the file contains, you cn add these manually to your nginx.conf file if you so please but the include file above will do it for you ad nginx loads any .conf file in /etc/conf.d (See STEP 6)
-
-> server_names_hash_bucket_size 64;
-
-> server_names_hash_max_size 4096;
-
-> limit_req_zone $binary_remote_addr zone=flood:50m rate=90r/s;
-
-> limit_conn_zone $binary_remote_addr zone=addr:50m;
-
-**PLEASE NOTE:** The above rate limiting rules are for the DDOS filter, it may seem like high values to you but for wordpress sites with plugins and lots of images, it's not. This will not limit any real visitor to your Wordpress sites but it will immediately rate limit any aggressive bot. Remember that other bots and user agents are rate limited using a different rate limiting rule at the bottom of the globalblacklist.conf file.
-
-The server_names_hash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory. You can tweak these settings to your own requirements.
-
-
-## STEP 9: **VERY IMPORTANT**
-
-**MAKE SURE** that your nginx.conf file contains the following include directive. If it's commented out make sure to uncomment it or none of this will work.
-
-- `include /etc/nginx/conf.d/*`
-
-
-## STEP 10: **VERY IMPORTANT**
-
-**ADD INCLUDE FILES INTO A VHOST**
-
-Open a site config file for Nginx (just one for now) and add the following lines.
-
-##### VERY IMPORTANT NOTE: 
-
-These includes MUST be added within a **server {}** block of a vhost otherwise you will get EMERG errors from Nginx.
-
-- `include /etc/nginx/bots.d/blockbots.conf;`
-
-- `include /etc/nginx/bots.d/ddos.conf;`
-
-## STEP 11:
-
-**TESTING YOUR NGINX CONFIGURATION**
-
-`sudo nginx -t`
-
-If you get no errors then you followed my instructions so now you can make the blocker go live with a simple.
-
-`sudo service nginx reload`
-
-The blocker is now active and working so now you can run some simple tests from another linux machine to make sure it's working.
-
-## STEP 12:
-
-**TESTING**
-
-Run the following commands one by one from a terminal on another linux machine against your own domain name. 
-**substitute yourdomain.com in the examples below with your REAL domain name**
-
-`curl -A "googlebot" http://yourdomain.com`
-
-Should respond with 200 OK
-
-`curl -A "80legs" http://yourdomain.com`
-
-`curl -A "masscan" http://yourdomain.com`
-
-Should respond with: curl: (52) Empty reply from server
-
-`curl -I http://yourdomain.com -e http://100dollars-seo.com`
-
-`curl -I http://yourdomain.com -e http://zx6.ru`
-
-Should respond with: curl: (52) Empty reply from server
-
-The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
-
-## STEP 13:
-
-**UPDATING THE NGINX BAD BOT BLOCKER** is now easy thanks to the automatic includes for whitelisting your own domain names.
-
-Updating to the latest version is now as simple as:
-
-`cd /etc/nginx/conf.d`
-
-`sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf -O globalblacklist.conf`
-
-`sudo nginx -t`
-
-`sudo service nginx reload` 
-
-And you will be up to date with all your whitelisted domains included automatically for you now. 
-
-# AUTO UPDATING:
-
-See the latest auto updater bash script at:
-
-https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker
-
-With great thanks to Stuart Cardall (https://github.com/itoffshore) for improving on it to be truly universal to other distro's.
-
-Relax now and sleep better at night knowing your site is telling all those baddies they are FORBIDDEN !!!
-
-
 ### PULL REQUESTS:
-To contribute your own bad referers please add them into the https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull%20Requests%20Here%20Please/badreferers.list file and then send a Pull Request (PR). 
 
-##### **All additions will be checked for accuracy before being merged.**
+To contribute your own bad referers, bots or to make corrections to any incorrectly blocked bots or domains please fork a copy of this repository and send pull requests on the individual files located in https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/tree/master/_generator_lists and then send a pull request (PR).
+
+##### Additions, Removals and Corrections will all be checked for accuracy before being merged into main blocker.
 
 ### ISSUES:
+
 Log any issues regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
 
 ## FEATURES OF THE NGINX BAD BOT BLOCKER:
@@ -408,6 +405,7 @@ Log any issues regarding incorrect listings or any other problems on the issues 
 - If its out there and it's bad it's already in here and BLOCKED !!
 
 ### UNDERSTANDS PUNYCODE / IDN DOMAIN NAMES
+
 A lot of lists out there put funny domains into their hosts file. Your hosts file and DNS will not understand this. This list uses converted domains which are in the correct DNS format to be understood by any operating system. **Avoid using lists** that do not put the correctly formatted domain structure into their lists.
 
 For instance
@@ -460,6 +458,7 @@ Feel free to contribute bad referers from your own logs to this project by sendi
 ## HOW TO MONITOR YOUR LOGS DAILY (The Easy Way):
 
 **With great thanks and appreciation to**
+
 https://blog.nexcess.net/2011/01/21/one-liners-for-apache-log-files/
 
 To monitor your top referer's for a web site's log file's on a daily basis use the following simple cron jobs which will email you a list of top referer's / user agents every morning from a particular web site's log files. This is an example for just one cron job for one site. Set up multiple one's for each one you want to monitor. Here is a cron that runs at 8am every morning and emails me the stripped down log of referers. When I say stripped down, the domain of the site and other referers like Google and Bing are stripped from the results. Of course you must change the log file name, domain name and your email address in the examples below. The second cron for collecting User agents does not do any stripping out of any referers but you can add that functionality if you like copying the awk statement !~ from the first example.
@@ -525,6 +524,7 @@ Lots of people are at the peril of their hosting company and do not have root ac
 Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. If this is your situation check out the automatically generated .htaccess versions of the Spam Referrer Blocker which can be found in this repository https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker/tree/master/.htaccess this .htaccess method (FOR APACHE SITES ONLY) will help you to keep all the Spam Referrers in this blocker out of your site. This is mentioned here as a lot of people using CPanel systems think they are sitting behind an Nginx server but in reality are actually running on an Apache Server sitting behind an Nginx Proxy Server. .htaccess does not work on Nginx sites.
 
 # IT FORKING WORKS !!!
+
 ## Just Enjoy now what the Nginx Bad Bot Blocker Can Do For You and Your Web Sites.
 
 ### If this helped you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
@@ -564,6 +564,7 @@ SOFTWARE.
 - https://github.com/mariusv/nginx-badbot-blocker
 
 ##### Into Photography?
+
 Come drop by and visit me at https://mitchellkrog.com
 
 ### Acknowledgements & Contributors:
@@ -573,7 +574,7 @@ Many parts of the generator scripts and code running behind this project have be
 In fact it is so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. 
 Show them some love and check out some of their projects too.
 
-- Stuart Cardall - https://github.com/itoffshore (Install, Update and Setup Scripts & Alpine Linux package)
+- Stuart Cardall - https://github.com/itoffshore (Install, Update and Setup Scripts & Alpine Linux Package Maintainer)
 - Stevie-Ray Hartog https://github.com/Stevie-Ray
 - Marius Voila https://github.com/mariusv
 - Cătălin Mariș https://github.com/alrra
