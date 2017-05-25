@@ -7,7 +7,7 @@
 - Renamed CONFIGURATION.md to MANUAL-CONFIGURATION.md
 - Renamed Logo File
 - My New Travis CI build testing based on the scripts from Stuart Cardall will be coming through shortly. This will ensure thorough testing by Travis CI of our auto installation instructions using Stuart's amazing scripts. Thank you once again Stuart @itoffshore for your great contributions to this project.
-- I end off this update today by wishing my father Vernon God Speed - https://web.facebook.com/vernon.krog Forever in my heart, dreams and memories.
+- I end off this update today by wishing my father Vernon, God Speed - https://web.facebook.com/vernon.krog Forever in my heart, dreams and memories.
 
 ### 2017-04-21
 - Updated install-ngxblocker script from Stuart Cardall @itoffshore
