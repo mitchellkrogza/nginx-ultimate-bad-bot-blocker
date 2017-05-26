@@ -681,6 +681,7 @@ domain:bus-offer.com
 domain:buttons-for-website.com
 domain:buttons-for-your-website.com
 domain:buyantiviralwp.com
+domain:buybest1.biz
 domain:buy-cheap-online.info
 domain:buy-cheap-pills-order-online.com
 domain:buyessay3.blogspot.ru
@@ -750,7 +751,9 @@ domain:carsoncitypizza.com
 domain:carson.getenjoyment.net
 domain:carsplate.com
 domain:cartechnic.ru
+domain:cartierbracelet.xyz
 domain:cartierlove2u.com
+domain:cartierlovebracelet.xyz
 domain:casablancamanor.co.za
 domain:cashkitten-a.akamaihd.net
 domain:cashonads.com
@@ -783,6 +786,7 @@ domain:cezartabac.ro
 domain:cfcl.co.uk
 domain:cfjump.com
 domain:cfsrating.sonicwall.com
+domain:c-gainsbourg.com
 domain:cgi2.nintendo.co.jp
 domain:charmstroy.info
 domain:chastnoeporno.com
@@ -825,6 +829,7 @@ domain:chocoslim.pro
 domain:choosecuisine.com
 domain:christianlouboutinsaleonline.us
 domain:christianlouboutinsaleoutletonline.us
+domain:christianlouboutinshoes.xyz
 domain:cialisovercounteratwalmartusa.com
 domain:cialiswithoutadoctor.net
 domain:ciekawinki.pl
@@ -1213,7 +1218,9 @@ domain:ereko.ru
 domain:eropornosex.ru
 domain:erot.co
 domain:erotik0049.com
+domain:erotikchat-24.com
 domain:erotikstories.ru
+domain:erotiktreff24.info
 domain:errorfixing.space
 domain:es5.com
 domain:escortplius.com
@@ -1326,6 +1333,7 @@ domain:feorina.ru
 domain:ferieboligkbh.dk
 domain:fermersovet.ru
 domain:ferretsoft.com
+domain:fertilitetsradgivningen.se
 domain:fetishinside.com
 domain:fetroshok.ru
 domain:fickblock18.com
@@ -1335,6 +1343,7 @@ domain:fickluder69.com
 domain:fidelityfunding.com
 domain:fifa-coins.online
 domain:figuringmoneyout.com
+domain:filerockstar298.weebly.com
 domain:filesmonster.porn
 domain:filesvine.com
 domain:filkhbr.com
@@ -1402,6 +1411,7 @@ domain:forexunion.net
 domain:forminecrafters.ru
 domain:formseo.com
 domain:forms-mtm.ru
+domain:forodvd.com
 domain:forpackningsutveckling.se
 domain:forpostlock.ru
 domain:forsex.info
@@ -1843,6 +1853,7 @@ domain:incolors.club
 domain:increasewwwtraffic.info
 domain:indetiske.ya.ru
 domain:indiakino.net
+domain:indianmedicaltourismshop.com
 domain:indiasourcemart.in
 domain:indo-export.ru
 domain:inductionc2oktop.com
@@ -3367,6 +3378,7 @@ domain:sindragosa.comxa.com
 domain:sinel.info
 domain:sinestesia.host.sk
 domain:sisiynas.ru
+domain:sispe.com.br
 domain:site3.free-share-buttons.com
 domain:site5.com
 domain:site-auditor.online
@@ -3504,6 +3516,7 @@ domain:sstroy44.ru
 domain:stackthatbucks.com
 domain:stairliftsarea.com
 domain:stairliftstrue.com
+domain:stanthonyscatholicchurch.org
 domain:star61.de
 domain:stardevine.com
 domain:stariy-baku.com
@@ -3546,6 +3559,7 @@ domain:strongsignal-a.akamaihd.net
 domain:stroydetali.ru
 domain:stroyhelp-dv.ru
 domain:stroymonolit.su
+domain:strv.se
 domain:studiofaca.com
 domain:stuff-about-money.com
 domain:styro.ru
@@ -3979,6 +3993,7 @@ domain:vitanail.ru
 domain:viven.host.sk
 domain:vizag.kharkov.ua
 domain:vkak.ru
+domain:vk.com
 domain:vk-mus.ru
 domain:vkontaktemusic.ru
 domain:vkontarkte.com
@@ -4350,6 +4365,7 @@ domain:zolotoy-lis.ru
 domain:zona-aqua.ru
 domain:zone-kev717.info
 domain:zonjwag.com
+domain:zoolubimets.ru
 domain:zoominfo.com
 domain:zophim.me
 domain:zrizvtrnpale.tk
