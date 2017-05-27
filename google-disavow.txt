@@ -248,6 +248,7 @@ domain:all4invest.ru
 domain:allboard.xobor.de
 domain:allcredits.su
 domain:alldubai.biz
+domain:allesohnegirls.net
 domain:allforminecraft.ru
 domain:allknow.info
 domain:allkrim.com
@@ -267,6 +268,7 @@ domain:alphacarolinas.com
 domain:alphaforum.ru
 domain:alphahoverboards.com
 domain:alpharma.net
+domain:alpinism.ru
 domain:alveris.ru
 domain:alyeskaresort.com
 domain:am15.net
@@ -624,6 +626,7 @@ domain:boleznikogi.com
 domain:bolezniorganov.ru
 domain:bolitgorlo.net
 domain:bombla.org
+domain:bongacams.com
 domain:bongiornos.info
 domain:bonux.nextview.ru
 domain:boobsimge.com
@@ -751,9 +754,12 @@ domain:carsoncitypizza.com
 domain:carson.getenjoyment.net
 domain:carsplate.com
 domain:cartechnic.ru
+domain:cartierbraceletsreplica.pw
 domain:cartierbracelet.xyz
 domain:cartierlove2u.com
 domain:cartierlovebracelet.xyz
+domain:cartierloveringreplica.xyz
+domain:cartierlove.xyz
 domain:casablancamanor.co.za
 domain:cashkitten-a.akamaihd.net
 domain:cashonads.com
@@ -960,6 +966,7 @@ domain:cyse.tk
 domain:czat.wp.pl
 domain:dailyrank.net
 domain:dailystrength.org
+domain:dairyindia.in
 domain:dalavia.ru
 domain:damedingel.ya.ru
 domain:dame-ns.kz
@@ -1720,6 +1727,7 @@ domain:highland-homes.com
 domain:high-speed1.net
 domain:highspeed5.net
 domain:highstairs-a.akamaihd.net
+domain:hildinghr.se
 domain:histats.com
 domain:histock.info
 domain:historichometeam.com
@@ -2005,6 +2013,7 @@ domain:keywords-monitoring-success.com
 domain:keywords-monitoring-your-success.com
 domain:keyword-suggestions.com
 domain:keywordsuggest.org
+domain:keywordsuggests.com
 domain:keywordteam.net
 domain:kfon.eu
 domain:kidd.reunionwatch.com
@@ -2736,6 +2745,7 @@ domain:pechikamini.ru
 domain:peekyou.com
 domain:pekori.to
 domain:pelfind.me
+domain:pendelprognos.se
 domain:penisvergrotendepillennl.ovh
 domain:pensplan4u.com
 domain:pensplan.com
@@ -3516,6 +3526,7 @@ domain:sstroy44.ru
 domain:stackthatbucks.com
 domain:stairliftsarea.com
 domain:stairliftstrue.com
+domain:stal-rulon.ru
 domain:stanthonyscatholicchurch.org
 domain:star61.de
 domain:stardevine.com
@@ -3654,6 +3665,7 @@ domain:thedownloadfreeonlinegames.blogspot.com
 domain:thedownloadfromwarez.blogspot.com
 domain:thefarmergame.com
 domain:thefds.net
+domain:thegioixekhach.com
 domain:theguardlan.com
 domain:theheroes.ru
 domain:thejournal.ru
@@ -3956,6 +3968,7 @@ domain:video-chat.cn
 domain:video-chat.in
 domain:videochat.mx
 domain:videochat.tv.br
+domain:videochat.world
 domain:videochaty.ru
 domain:video-hollywood.ru
 domain:videojam.tv
@@ -4365,7 +4378,6 @@ domain:zolotoy-lis.ru
 domain:zona-aqua.ru
 domain:zone-kev717.info
 domain:zonjwag.com
-domain:zoolubimets.ru
 domain:zoominfo.com
 domain:zophim.me
 domain:zrizvtrnpale.tk
