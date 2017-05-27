@@ -4006,7 +4006,6 @@ domain:vitanail.ru
 domain:viven.host.sk
 domain:vizag.kharkov.ua
 domain:vkak.ru
-domain:vk.com
 domain:vk-mus.ru
 domain:vkontaktemusic.ru
 domain:vkontarkte.com
@@ -4378,6 +4377,7 @@ domain:zolotoy-lis.ru
 domain:zona-aqua.ru
 domain:zone-kev717.info
 domain:zonjwag.com
+domain:zoolubimets.ru
 domain:zoominfo.com
 domain:zophim.me
 domain:zrizvtrnpale.tk
