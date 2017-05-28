@@ -621,6 +621,7 @@ domain:bluerobot.info
 domain:board.f00d.de
 domain:bobba.dzaba.com
 domain:bobinoz.com
+domain:bocoarchives.org
 domain:bodybuilding-shop.biz
 domain:boleznikogi.com
 domain:bolezniorganov.ru
@@ -2406,7 +2407,10 @@ domain:mokrayakiska.com
 domain:mole.pluto.ro
 domain:monarchfind-a.akamaihd.net
 domain:monarhs.info
+domain:moncleronline.xyz
 domain:moncleroutletonline.pw
+domain:moncleroutletonline.xyz
+domain:monclervests.xyz
 domain:monetizationking.net
 domain:monetizer.com-01.site
 domain:money-every-day.com
@@ -3183,6 +3187,7 @@ domain:sarm.tk
 domain:sashagreyblog.ga
 domain:saugatuck.com
 domain:savefrom.com
+domain:saveindex.xyz
 domain:savememoney.co.za
 domain:savetubevideo.com
 domain:savingsslider-a.akamaihd.net
@@ -3309,6 +3314,7 @@ domain:sexblog.pw
 domain:sex-dating.co
 domain:sex.hotblog.top
 domain:sexkontakteao.info
+domain:sexkontakte-seite.com
 domain:sexkrasivo.net
 domain:sexobzor.info
 domain:sexpartygirls.net
@@ -3605,6 +3611,7 @@ domain:svtrd.com
 domain:swagbucks.com
 domain:swinginwithme.ru
 domain:swiped.su
+domain:swsociety.se
 domain:sygraem.com
 domain:syla.tk
 domain:syvertsen-da.no
@@ -3884,6 +3891,7 @@ domain:ugogo.info
 domain:uhdtv.website
 domain:uhodzalijami.ru
 domain:uhod-za-sobakoj.ru
+domain:ukkelberg.no
 domain:ukrobstep.com
 domain:ukrup.com
 domain:ultimateclassicrock.com
