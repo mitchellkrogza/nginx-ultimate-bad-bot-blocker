@@ -19,6 +19,8 @@ Please make sure you are subscribed to notifications to be notified when the blo
 
 - For manual installation instructions please see - Please see: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/MANUAL-CONFIGURATION.md
 
+- Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. Run the scripts with --help or -h to view options.
+
 ## STEP 1:
 
 Download the install, setup and update scripts to your /usr/sbin/ directory and make the scripts executable
@@ -226,7 +228,7 @@ That's it, the blocker will automatically keep itself up to date and also reload
 
 ## STEP 9:
 
-You can now customize any of the following files below to suit your environment or requirements. These include files never get modified during an update using the auto update script above so whatever customizations you do here will never ne overwritten during an update.
+You can now customize any of the following files below to suit your environment or requirements. These include files never get modified during an update using the auto update script above so whatever customizations you do here will never be overwritten during an update.
 
 ```
 /etc/nginx/bots.d/whitelist-ips.conf

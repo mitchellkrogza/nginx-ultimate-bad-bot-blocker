@@ -29,6 +29,8 @@ Please make sure you are subscribed to notifications to be notified when the blo
 
 - For manual installation instructions please see - Please see: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/MANUAL-CONFIGURATION.md
 
+- Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. Run the scripts with --help or -h to view options.
+
 ## STEP 1:
 
 Download the install, setup and update scripts to your /usr/sbin/ directory and make the scripts executable
@@ -48,6 +50,7 @@ All scripts can be run with an -h flag for help options.
 ## STEP 2:
 
 Now run the install-ngxblocker script in DRY-MODE which will show you what changes it will make and what files it will download for you. This is only a DRY-RUN so no changes are being made yet.
+
 
 ```
 cd /usr/sbin
