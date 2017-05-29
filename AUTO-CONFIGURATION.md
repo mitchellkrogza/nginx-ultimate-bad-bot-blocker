@@ -35,7 +35,8 @@ sudo chmod +x setup-ngxblocker
 sudo chmod +x update-ngxblocker
 ```
 
-All scripts can be run with an -h flag for help options.
+**Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. 
+Run the scripts with --help or -h to view options.**
 
 ## STEP 2:
 
@@ -72,6 +73,9 @@ Downloading [FROM]=>  [REPO]/bots.d/bad-referrer-words.conf     [TO]=>  /etc/ngi
 Downloading [FROM]=>  [REPO]/bots.d/custom-bad-referrers.conf   [TO]=>  /etc/nginx/bots.d/custom-bad-referrers.conf
 ```
 
+**Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. 
+Run the scripts with --help or -h to view options.**
+
 ## STEP 3:
 
 Now run the install script with the -x parameter to download all the necessary files from the repository:
@@ -106,6 +110,9 @@ Downloading [FROM]=>  [REPO]/bots.d/custom-bad-referrers.conf   [TO]=>  /etc/ngi
 
 The required files have now been downloaded to the correct folders on Nginx for you direct from the repository.
 
+**Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. 
+Run the scripts with --help or -h to view options.**
+
 ## STEP 4:
 
 Now run the setup-ngxblocker script in DRY-MODE which will show you what changes it will make and what files it will download for you. This is only a DRY-RUN so no changes are being made yet.
@@ -138,6 +145,9 @@ Whitelisting ip:  x.x.x.x    => /etc/nginx/bots.d/whitelist-ips.conf
 
 This script also whitelists your IP in the whitelist-ips.conf file for you. 
 Further IP's or IP ranges can be added to your customizable whitelits-ips.conf file located in /etc/nginx/bots.d/whitelist-ips.conf.
+
+**Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. 
+Run the scripts with --help or -h to view options.**
 
 ## STEP 5:
 
@@ -183,6 +193,9 @@ What this setup script has done has added the following include statements into 
 include /etc/nginx/bots.d/ddos.conf;
 include /etc/nginx/bots.d/blockbots.conf;
 ```
+
+**Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. 
+Run the scripts with --help or -h to view options.**
 
 ## STEP 6:
 
