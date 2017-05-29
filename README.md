@@ -239,7 +239,7 @@ That's it, the blocker will automatically keep itself up to date and also reload
 
 ## STEP 9:
 
-You can now customize any of the following files below to suit your environment or requirements. These include files never get modified during an update using the auto update script above so whatever customizations you do here will never ne overwritten during an update.
+You can now customize any of the following files below to suit your environment or requirements. These include files never get modified during an update using the auto update script above so whatever customizations you do here will never be overwritten during an update.
 
 ```
 /etc/nginx/bots.d/whitelist-ips.conf
