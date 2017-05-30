@@ -711,6 +711,7 @@ domain:buyviagraa.blogspot.com
 domain:buzzonclick.com
 domain:buzzsumo.com
 domain:buzzurl.jp
+domain:bvlgaribracelet.xyz
 domain:bycontext.com
 domain:byme.se
 domain:bytimedance.ru
@@ -730,6 +731,7 @@ domain:call-of-duty.info
 domain:calstaterealty.us
 domain:calvet.altervista.org
 domain:camdolls.com
+domain:cam-kontakte.org
 domain:candcstuccoandstone.com
 domain:candelluxsklep.pl
 domain:candiceloves.us
@@ -810,6 +812,7 @@ domain:chatseo.com
 domain:chcu.net
 domain:cheapbarbour.online
 domain:cheapbelstaff.online
+domain:cheapcigarettesc.info
 domain:cheapestjerseys-wholesale.com
 domain:cheapjerseysa.com
 domain:cheapjerseysap.com
@@ -1133,6 +1136,7 @@ domain:dvervmoskvu.ru
 domain:dvr.biz.ua
 domain:dvrlists.com
 domain:dyshagi.ru
+domain:dyt.net
 domain:e705.net
 domain:eandsgallery.com
 domain:eaplay.ru
@@ -2118,6 +2122,7 @@ domain:kvartir-remont.biz
 domain:kvartiry-remont.ucoz.ru
 domain:kw21.org
 domain:kwzf.net
+domain:labelwater.se
 domain:labplus.ru
 domain:labvis.host.sk
 domain:lacloop.info
@@ -2227,6 +2232,7 @@ domain:lost-alpha.ru
 domain:lostfilm-online.ru
 domain:lotto6888.com
 domain:lottospring.com
+domain:louboutinbooties.xyz
 domain:louboutinreplica.pw
 domain:louboutinreplica.xyz
 domain:louboutinshoes.xyz
@@ -2243,6 +2249,7 @@ domain:luxmagazine.cf
 domain:luxup.ru
 domain:lyngdalhudterapi.no
 domain:lyrster.com
+domain:lyzqp.net.ru
 domain:m0r0zk0-krava.ru
 domain:m1media.net
 domain:m4ever.net
@@ -3369,6 +3376,7 @@ domain:shariki-zuma-lines.ru
 domain:shell-pmr.ru
 domain:shemalegalls.blogporn.in
 domain:shemale-sex.net
+domain:sherlock.se
 domain:shijian.ac.cn
 domain:shiksabd.com
 domain:shinikiev.com.ua
@@ -3928,6 +3936,7 @@ domain:um-razum.ru
 domain:underthesite.com
 domain:uni.me
 domain:unimodemhalfduplefw.pen.io
+domain:unitexindia.com
 domain:unitygame3d.com
 domain:universals.com.ua
 domain:unmaroll.ya.ru
@@ -4019,6 +4028,7 @@ domain:vigrx-original.ru
 domain:viktoria-center.ru
 domain:vilingstore.net
 domain:villacoloniale.com
+domain:villakohlanta.nu
 domain:vinsit.ru
 domain:vinylvault.co.uk
 domain:vip2ch.com
