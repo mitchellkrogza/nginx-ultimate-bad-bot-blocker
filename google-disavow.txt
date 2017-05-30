@@ -2472,6 +2472,7 @@ domain:moyaterapiya.ru
 domain:moz.com
 domain:mp3films.ru
 domain:mp3ringtone.info
+domain:mrbitsandbytes.com
 domain:mrcsa.com.au
 domain:mrinsidesales.com
 domain:mriyadh.com
@@ -3985,7 +3986,6 @@ domain:vashsvet.com
 domain:vasileostrovsky-rayon.ru
 domain:vavilone.com
 domain:vbabule.net
-domain:vc.ru
 domain:vduplo.ru
 domain:vedomstvo.net
 domain:veerotech.com
