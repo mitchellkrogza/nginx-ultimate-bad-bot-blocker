@@ -8,6 +8,8 @@ User-agent: Aboundex
  Disallow:/ 
 User-agent: Acunetix
  Disallow:/ 
+User-agent: ADmantX
+ Disallow:/ 
 User-agent: AhrefsBot
  Disallow:/ 
 User-agent: AIBOT
@@ -94,6 +96,8 @@ User-agent: BuzzSumo
  Disallow:/ 
 User-agent: Calculon
  Disallow:/ 
+User-agent: CATExplorador
+ Disallow:/ 
 User-agent: CazoodleBot
  Disallow:/ 
 User-agent: CCBot
@@ -158,6 +162,8 @@ User-agent: DittoSpyder
  Disallow:/ 
 User-agent: DomainAppender
  Disallow:/ 
+User-agent: DomainCrawler
+ Disallow:/ 
 User-agent: DomainSigmaCrawler
  Disallow:/ 
 User-agent: Dotbot
@@ -216,6 +222,8 @@ User-agent: Fimap
  Disallow:/ 
 User-agent: Findxbot
  Disallow:/ 
+User-agent: Firefox/7.0
+ Disallow:/ 
 User-agent: FlashGet
  Disallow:/ 
 User-agent: Flunky
@@ -225,6 +233,8 @@ User-agent: Foobot
 User-agent: Freeuploader
  Disallow:/ 
 User-agent: FrontPage
+ Disallow:/ 
+User-agent: Fyrebot
  Disallow:/ 
 User-agent: GalaxyBot
  Disallow:/ 
@@ -242,11 +252,11 @@ User-agent: Gigabot
  Disallow:/ 
 User-agent: Go-Ahead-Got-It
  Disallow:/ 
-User-agent: Go!Zilla
- Disallow:/ 
 User-agent: Gotit
  Disallow:/ 
 User-agent: GoZilla
+ Disallow:/ 
+User-agent: Go!Zilla
  Disallow:/ 
 User-agent: Grabber
  Disallow:/ 
@@ -284,11 +294,13 @@ User-agent: HTTrack
  Disallow:/ 
 User-agent: Humanlinks
  Disallow:/ 
+User-agent: HybridBot
+ Disallow:/ 
 User-agent: Iblog
  Disallow:/ 
-User-agent: Id-search
- Disallow:/ 
 User-agent: IDBot
+ Disallow:/ 
+User-agent: Id-search
  Disallow:/ 
 User-agent: IlseBot
  Disallow:/ 
@@ -342,8 +354,6 @@ User-agent: Kenjin Spider
  Disallow:/ 
 User-agent: Keyword Density
  Disallow:/ 
-User-agent: Kraken
- Disallow:/ 
 User-agent: Lanshanbot
  Disallow:/ 
 User-agent: Larbin
@@ -394,13 +404,13 @@ User-agent: Ltx71
  Disallow:/ 
 User-agent: lwp-request
  Disallow:/ 
-User-agent: lwp-trivial
- Disallow:/ 
 User-agent: LWP::Simple
  Disallow:/ 
-User-agent: Mag-Net
+User-agent: lwp-trivial
  Disallow:/ 
 User-agent: Magnet
+ Disallow:/ 
+User-agent: Mag-Net
  Disallow:/ 
 User-agent: magpie-crawler
  Disallow:/ 
@@ -412,13 +422,11 @@ User-agent: MarkMonitor
  Disallow:/ 
 User-agent: MarkWatch
  Disallow:/ 
-User-agent: Mass Downloader
- Disallow:/ 
 User-agent: Masscan
  Disallow:/ 
-User-agent: Mata Hari
+User-agent: Mass Downloader
  Disallow:/ 
-User-agent: Maxthon
+User-agent: Mata Hari
  Disallow:/ 
 User-agent: Meanpathbot
  Disallow:/ 
@@ -442,8 +450,6 @@ User-agent: MJ12bot
  Disallow:/ 
 User-agent: Mojeek
  Disallow:/ 
-User-agent: MS Web Services Client Protocol
- Disallow:/ 
 User-agent: MSFrontPage
  Disallow:/ 
 User-agent: MSIE 6.0
@@ -451,6 +457,8 @@ User-agent: MSIE 6.0
 User-agent: MSIECrawler
  Disallow:/ 
 User-agent: Msrabot
+ Disallow:/ 
+User-agent: MS Web Services Client Protocol
  Disallow:/ 
 User-agent: Musobot
  Disallow:/ 
@@ -466,8 +474,6 @@ User-agent: Needle
  Disallow:/ 
 User-agent: Nessus
  Disallow:/ 
-User-agent: Net Vampire
- Disallow:/ 
 User-agent: NetAnts
  Disallow:/ 
 User-agent: Netcraft
@@ -481,6 +487,8 @@ User-agent: NetMechanic
 User-agent: NetSpider
  Disallow:/ 
 User-agent: Nettrack
+ Disallow:/ 
+User-agent: Net Vampire
  Disallow:/ 
 User-agent: NetZIP
  Disallow:/ 
@@ -522,15 +530,15 @@ User-agent: OrangeSpider
  Disallow:/ 
 User-agent: OutfoxBot
  Disallow:/ 
+User-agent: PageAnalyzer
+ Disallow:/ 
 User-agent: Page Analyzer
+ Disallow:/ 
+User-agent: PageGrabber
  Disallow:/ 
 User-agent: Page Grabber
  Disallow:/ 
 User-agent: page scorer
- Disallow:/ 
-User-agent: PageAnalyzer
- Disallow:/ 
-User-agent: PageGrabber
  Disallow:/ 
 User-agent: PageScorer
  Disallow:/ 
@@ -548,13 +556,13 @@ User-agent: PeoplePal
  Disallow:/ 
 User-agent: PHPCrawl
  Disallow:/ 
-User-agent: Pi-Monster
- Disallow:/ 
 User-agent: Picscout
  Disallow:/ 
 User-agent: Picsearch
  Disallow:/ 
 User-agent: Pimonster
+ Disallow:/ 
+User-agent: Pi-Monster
  Disallow:/ 
 User-agent: Pixray
  Disallow:/ 
@@ -604,6 +612,8 @@ User-agent: RocketCrawler
  Disallow:/ 
 User-agent: Rogerbot
  Disallow:/ 
+User-agent: SalesIntelligent
+ Disallow:/ 
 User-agent: SBIder
  Disallow:/ 
 User-agent: ScanAlert
@@ -612,11 +622,11 @@ User-agent: Scanbot
  Disallow:/ 
 User-agent: Scrapy
  Disallow:/ 
+User-agent: Screaming
+ Disallow:/ 
 User-agent: Screaming Frog SEO Spider
  Disallow:/ 
 User-agent: ScreenerBot
- Disallow:/ 
-User-agent: SeaMonkey
  Disallow:/ 
 User-agent: Searchestate
  Disallow:/ 
@@ -638,15 +648,11 @@ User-agent: SEOprofiler
  Disallow:/ 
 User-agent: SEOstats
  Disallow:/ 
-User-agent: SeznamBot
- Disallow:/ 
 User-agent: Siphon
  Disallow:/ 
 User-agent: SISTRIX
  Disallow:/ 
 User-agent: SISTRIX Crawler
- Disallow:/ 
-User-agent: Site Sucker
  Disallow:/ 
 User-agent: Sitebeam
  Disallow:/ 
@@ -659,6 +665,8 @@ User-agent: SiteLockSpider
 User-agent: SiteSnagger
  Disallow:/ 
 User-agent: SiteSucker
+ Disallow:/ 
+User-agent: Site Sucker
  Disallow:/ 
 User-agent: Sitevigil
  Disallow:/ 
@@ -756,19 +764,17 @@ User-agent: True_Robot
  Disallow:/ 
 User-agent: Turingos
  Disallow:/ 
+User-agent: TurnitinBot
+ Disallow:/ 
 User-agent: Turnitin Bot
  Disallow:/ 
 User-agent: Turnitin Robot
- Disallow:/ 
-User-agent: TurnitinBot
  Disallow:/ 
 User-agent: TwengaBot
  Disallow:/ 
 User-agent: Twice
  Disallow:/ 
 User-agent: Typhoeus
- Disallow:/ 
-User-agent: UptimeRobot/2.0
  Disallow:/ 
 User-agent: URLy.Warning
  Disallow:/ 
@@ -798,43 +804,23 @@ User-agent: WASALive-Bot
  Disallow:/ 
 User-agent: WBSearchBot
  Disallow:/ 
-User-agent: Web Auto
- Disallow:/ 
-User-agent: Web Bandit
- Disallow:/ 
-User-agent: Web Collage
- Disallow:/ 
-User-agent: Web Copier
- Disallow:/ 
-User-agent: Web Enhancer
- Disallow:/ 
-User-agent: Web Fetch
- Disallow:/ 
-User-agent: Web Fuck
- Disallow:/ 
-User-agent: Web Image Collector
- Disallow:/ 
-User-agent: Web Pix
- Disallow:/ 
-User-agent: Web Reaper
- Disallow:/ 
-User-agent: Web Sauger
- Disallow:/ 
-User-agent: Web Stripper
- Disallow:/ 
-User-agent: Web Sucker
- Disallow:/ 
-User-agent: Web Whacker
- Disallow:/ 
 User-agent: Webalta
  Disallow:/ 
 User-agent: WebAuto
  Disallow:/ 
+User-agent: Web Auto
+ Disallow:/ 
 User-agent: WebBandit
+ Disallow:/ 
+User-agent: Web Bandit
  Disallow:/ 
 User-agent: WebCollage
  Disallow:/ 
+User-agent: Web Collage
+ Disallow:/ 
 User-agent: WebCopier
+ Disallow:/ 
+User-agent: Web Copier
  Disallow:/ 
 User-agent: WEBDAV
  Disallow:/ 
@@ -842,13 +828,21 @@ User-agent: WEBDAV Client
  Disallow:/ 
 User-agent: WebEnhancer
  Disallow:/ 
+User-agent: Web Enhancer
+ Disallow:/ 
 User-agent: WebFetch
+ Disallow:/ 
+User-agent: Web Fetch
  Disallow:/ 
 User-agent: WebFuck
  Disallow:/ 
-User-agent: WebImageCollector
+User-agent: Web Fuck
  Disallow:/ 
 User-agent: WebGo IS
+ Disallow:/ 
+User-agent: WebImageCollector
+ Disallow:/ 
+User-agent: Web Image Collector
  Disallow:/ 
 User-agent: WebLeacher
  Disallow:/ 
@@ -858,27 +852,39 @@ User-agent: webmeup-crawler
  Disallow:/ 
 User-agent: WebPix
  Disallow:/ 
+User-agent: Web Pix
+ Disallow:/ 
 User-agent: WebReaper
+ Disallow:/ 
+User-agent: Web Reaper
  Disallow:/ 
 User-agent: WebSauger
  Disallow:/ 
+User-agent: Web Sauger
+ Disallow:/ 
 User-agent: Webshag
- Disallow:/ 
-User-agent: Website Extractor
- Disallow:/ 
-User-agent: Website Quester
  Disallow:/ 
 User-agent: WebsiteExtractor
  Disallow:/ 
+User-agent: Website Extractor
+ Disallow:/ 
 User-agent: WebsiteQuester
+ Disallow:/ 
+User-agent: Website Quester
  Disallow:/ 
 User-agent: Webster
  Disallow:/ 
 User-agent: WebStripper
  Disallow:/ 
+User-agent: Web Stripper
+ Disallow:/ 
 User-agent: WebSucker
  Disallow:/ 
+User-agent: Web Sucker
+ Disallow:/ 
 User-agent: WebWhacker
+ Disallow:/ 
+User-agent: Web Whacker
  Disallow:/ 
 User-agent: WebZIP
  Disallow:/ 
@@ -916,13 +922,13 @@ User-agent: WWW::Mechanize
  Disallow:/ 
 User-agent: WWWOFFLE
  Disallow:/ 
+User-agent: x22Mozilla
+ Disallow:/ 
 User-agent: Xaldon_WebSpider
  Disallow:/ 
 User-agent: Xaldon WebSpider
  Disallow:/ 
 User-agent: Xenu
- Disallow:/ 
-User-agent: Y!J-ASR
  Disallow:/ 
 User-agent: YoudaoBot
  Disallow:/ 
@@ -939,4 +945,6 @@ User-agent: Zitebot
 User-agent: ZmEu
  Disallow:/ 
 User-agent: ZumBot
+ Disallow:/ 
+User-agent: ZyBorg
  Disallow:/ 

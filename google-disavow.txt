@@ -184,6 +184,7 @@ domain:adtech.de
 domain:adtech.fr
 domain:adtech.us
 domain:adtiger.tk
+domain:adult3dgames.com
 domain:adultactioncam.com
 domain:adultfriendfinder.com
 domain:adultfullhd.com
@@ -194,6 +195,7 @@ domain:adultwebhosting.info
 domain:advancedcleaner.com
 domain:advancedsoftwaresupport.com
 domain:adventureparkcostarica.com
+domain:adverster.com
 domain:advertisingtag.net
 domain:advocatemsk.ru
 domain:advokateg.ru
@@ -552,6 +554,7 @@ domain:bet365.com
 domain:beta.hotkeys.com
 domain:betonka.pro
 domain:bet-prognoz.com
+domain:betterhdporn.com
 domain:betterscooter.com
 domain:betune.onlinewebshop.net
 domain:betwinservice.com
@@ -1073,6 +1076,8 @@ domain:discovertreasurenow.com
 domain:dispo.de
 domain:disruptingdinnerparties.com
 domain:distver.ru
+domain:div.as
+domain:divatraffic.com
 domain:diy-handmade-ideas.com
 domain:djekxa.ru
 domain:djonwatch.ru
@@ -1130,6 +1135,7 @@ domain:driving.kiev.ua
 domain:droidlook.net
 domain:drugspowerstore.com
 domain:drugstoreforyou.com
+domain:drunkmoms.net
 domain:drupa.com
 domain:druzhbany.ru
 domain:druzhininevgeniy63.blogspot.com
@@ -1344,6 +1350,7 @@ domain:fashionindeed.ml
 domain:fashion-mk.net
 domain:fashion-stickers.ru
 domain:fastcrawl.com
+domain:fastfixing.tech
 domain:fast-wordpress-start.com
 domain:fatmaelgarny.com
 domain:favorcosmetics.com
@@ -1369,6 +1376,7 @@ domain:fetishinside.com
 domain:fetroshok.ru
 domain:fickblock18.com
 domain:fickenprivat.info
+domain:fickkontaktehobbyhuren.com
 domain:fickkontakte.org
 domain:fickluder69.com
 domain:fidelityfunding.com
@@ -1495,6 +1503,7 @@ domain:freshwallpapers.info
 domain:freza-sverlo.ru
 domain:frivgame250.com
 domain:fr.netlog.com
+domain:froggytube.com
 domain:front.ru
 domain:front.to
 domain:frvo.alptandem.ru
@@ -1502,6 +1511,7 @@ domain:fsakhalin.ru
 domain:fsalas.com
 domain:fspys.pl
 domain:ftns.ru
+domain:fuckmill.com
 domain:fuel-gas.com
 domain:fugarif.ga
 domain:fullfileaccess.com
@@ -1779,6 +1789,7 @@ domain:homegardenlova.com
 domain:homeinns.com
 domain:homelygarden.com
 domain:homemade.gq
+domain:homemature.net
 domain:home.myplaycity.com
 domain:hoporno.com
 domain:horoshieokna.com
@@ -2236,6 +2247,7 @@ domain:lomb.co
 domain:lombia.co
 domain:lombia.com
 domain:lomza.info
+domain:lonely-mature.com
 domain:long-beach-air-conditioning.com
 domain:longgreen.info
 domain:lost-alpha.ru
@@ -2392,6 +2404,7 @@ domain:microsoftportal.net
 domain:microstatic.pl
 domain:migente.com
 domain:mikrobiologies.ru
+domain:milblueprint.com
 domain:millionare.com
 domain:mindbox.co.za
 domain:minecraft-neo.ru
@@ -2419,6 +2432,7 @@ domain:mitrasound.ru
 domain:mixed-wrestling.ru
 domain:mixtapetorrent.com
 domain:mlvc4zzw.space
+domain:mmofreegames.online
 domain:mmog-play.ru
 domain:mmoguider.ru
 domain:mmstat.com
@@ -2525,6 +2539,7 @@ domain:mydirtyhobby.com
 domain:mydirtystuff.com
 domain:mydownloadengine.com
 domain:mydownlodablefiles.com
+domain:myfreecams.com
 domain:myfreemp3.eu
 domain:myfreetutorials.com
 domain:myftpupload.com
@@ -2545,6 +2560,7 @@ domain:myplaycity.com
 domain:myprintscreen.com
 domain:myseoconsultant.com
 domain:myshopmatemac.com
+domain:mystats.xyz
 domain:mywallpaper.top
 domain:na15.ru
 domain:nacap.ru
@@ -2901,6 +2917,7 @@ domain:popup-hgd.xyz
 domain:popup-jdh.xyz
 domain:popup.matchmaker.com
 domain:poquoson.org
+domain:porn555.com
 domain:porndairy.in
 domain:porngalleries.top
 domain:pornhub-forum.ga
@@ -3018,6 +3035,7 @@ domain:prostitutki-tolyatti.org
 domain:prostitutki-tyumeni.org
 domain:prostitutki-yaroslavlya.org
 domain:proxyradar.com
+domain:prpops.com
 domain:pr-ten.de
 domain:psa48.ru
 domain:pskcijdc.bloger.index.hr
@@ -3029,9 +3047,12 @@ domain:publiccasinoil.com
 domain:pufip.com
 domain:pukaporn.com
 domain:pulse33.ru
+domain:pulseonclick.com
 domain:purchasepillsnorx.com
 domain:purplesphere.in
 domain:push-ad.com
+domain:pushdata.sendpulse.com
+domain:pussyfleet.com
 domain:pussysaga.com
 domain:puteshestvennik.com
 domain:putevka24.ru
@@ -3474,6 +3495,7 @@ domain:slim.sellany.ru
 domain:slkrm.ru
 domain:slonechka.ru
 domain:slowmacfaster.trade
+domain:slowmach.tech
 domain:sluganarodu.ru
 domain:slujbauborki.ru
 domain:smailik.org
@@ -3563,6 +3585,7 @@ domain:sport7777.net
 domain:sports-supplements.us
 domain:sport-video-obzor.ru
 domain:spravka130.ru
+domain:sprttrack.com
 domain:sps-shop.com
 domain:spyfu.com
 domain:spylog.com
@@ -3887,6 +3910,7 @@ domain:tsyndicate.com
 domain:ttrraacckkrr.com
 domain:ttsq.fr
 domain:tube8.com
+domain:tubeline.biz
 domain:tuberkulezanet.ru
 domain:tuberkuleznik.ru
 domain:tuckermktg.com
@@ -4182,6 +4206,7 @@ domain:wholinkstome.com
 domain:whos.amung.us
 domain:whosonmyserver.com
 domain:wikes.20fr.com
+domain:wildcattube.com
 domain:wildworld.site
 domain:windowssearch-exp.com
 domain:wineitudes.wordpress.com
@@ -4235,6 +4260,7 @@ domain:xbaboon.com
 domain:xblog.in
 domain:xboxster.ru
 domain:xcc24.pl
+domain:xchat26.myfreecams.com
 domain:xclicks.net
 domain:xcombear.ru
 domain:xdoza.com
@@ -4315,6 +4341,7 @@ domain:xtube.com
 domain:xtubeporno.net
 domain:xuki.us
 domain:xvideosbay.com
+domain:xvideosporn.biz
 domain:xwatt.ru
 domain:xxart.ru
 domain:xxlargepop.com
