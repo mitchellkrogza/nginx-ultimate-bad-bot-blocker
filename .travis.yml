@@ -22,28 +22,30 @@ addons:
     packages:
       - realpath
       - mailutils
+
 before_install:
   - export TZ=Africa/Johannesburg
+
 install:
   - sudo add-apt-repository -y ppa:nginx/stable
   - sudo apt-get update
   - sudo apt-get install -y --force-yes nginx-extras
+
 script:
   - travis-ci/install-nginx.sh
-  - sudo nginx -t &> /dev/stdout
-  - curl -vsf 'http://localhost:8080/nginx.php' &> /dev/stdout
-  - curl -A "googlebot" http://localhost:8080/nginx.php &> /dev/stdout
-  - curl -A "bingbot" http://localhost:8080/nginx.php &> /dev/stdout
-  - curl -I http://localhost:8080/nginx.php -e http://google.com
-  - STATUSCODE=$(curl -A "80legs" http://localhost:8080/nginx.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
-  - STATUSCODE=$(curl -A "masscan" http://localhost:8080/nginx.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
-  - STATUSCODE=$(curl -I http://localhost:8080/nginx.php -e http://100dollars-seo.com &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
-  - STATUSCODE=$(curl -I http://localhost:8080/nginx.php -e http://zx6.ru &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
-  - cat /tmp/error.log
-  - echo $TRAVIS_BUILD_DIR
-  #- travisCI/do-other-stuff.sh
+  - curl -vsf 'http://localhost:9000/index.php' &> /dev/stdout
+  - curl -A "googlebot" http://localhost:9000/index.php &> /dev/stdout
+  - curl -A "bingbot" http://localhost:9000/index.php &> /dev/stdout
+  - curl -I http://localhost:9000/index.php -e http://google.com
+  - STATUSCODE=$(curl -A "80legs" http://localhost:9000/index.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
+  - STATUSCODE=$(curl -A "masscan" http://localhost:9000/index.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
+  - STATUSCODE=$(curl -I http://localhost:9000/index.php -e http://100dollars-seo.com &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
+  - STATUSCODE=$(curl -I http://localhost:9000/index.php -e http://zx6.ru &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
+  - travis-ci/change-file.sh
+
 before_deploy:
-  - travisCI/deploy.sh
+  - travis-ci/deploy-package.sh
+
 deploy:
   provider: releases
   api_key:
