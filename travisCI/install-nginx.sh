@@ -28,7 +28,7 @@ cd /usr/sbin
 sudo ./install-ngxblocker -x
 
 # Copy our default.vhost file into Nginx /sites-available/
-sudo cp $TRAVIS_BUILD_DIR/travis-ci/default.vhost /etc/nginx/sites-available/default.vhost
+sudo cp $TRAVIS_BUILD_DIR/travisCI/default.vhost /etc/nginx/sites-available/default.vhost
 
 # Link the vhost file into Nginx /sites-enabled/ and reload nginx
 sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/default.vhost
@@ -47,7 +47,7 @@ sudo nginx -c /etc/nginx/nginx.conf
 #sudo service nginx reload
 
 # Copy our index.php file into the default site's root folder
-sudo cp $TRAVIS_BUILD_DIR/travis-ci/index.php /var/www/html/index.php
+sudo cp $TRAVIS_BUILD_DIR/travisCI/index.php /var/www/html/index.php
 
 # Run update-ngxblocker test
 cd /usr/sbin
@@ -57,8 +57,8 @@ sudo ./update-ngxblocker
 #sudo service nginx reload
 
 # Set all our other setup and deploy scripts to be executable
-sudo chmod +x $TRAVIS_BUILD_DIR/travis-ci/modify-globalblacklist.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/travis-ci/deploy-package.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/travis-ci/change-file.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/modify-globalblacklist.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/deploy-package.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/change-file.sh
 
 # Travis now goes into the rest of the tests in the script: section of .travis.yml

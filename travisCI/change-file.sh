@@ -21,7 +21,7 @@ git config --global push.default simple
 git checkout master
 
 # Modify our file and make sure Travis is owner
-sudo $TRAVIS_BUILD_DIR/travis-ci/modify-globalblacklist.sh
+sudo $TRAVIS_BUILD_DIR/travisCI/modify-globalblacklist.sh
 sudo chown -R travis:travis $TRAVIS_BUILD_DIR/*
 
 # Add the modified file to the and commit it
