@@ -28,8 +28,8 @@ install:
   - sudo add-apt-repository -y ppa:nginx/stable
   - sudo apt-get update
   - sudo apt-get install -y --force-yes nginx-extras
-  - travisCI/install-nginx.sh
 script:
+  - travis-ci/install-nginx.sh
   - sudo nginx -t &> /dev/stdout
   - curl -vsf 'http://localhost:8080/nginx.php' &> /dev/stdout
   - curl -A "googlebot" http://localhost:8080/nginx.php &> /dev/stdout
