@@ -4,40 +4,45 @@
 # Copyright: Mitchell Krog - https://github.com/mitchellkrogza
 
 # Start time of script generation
+start=$(date +%s.%N)
 versionyear=$(date +%Y)
 versionmonth=$(date +%m)
 MY_GIT_TAG=V3.$versionyear.$versionmonth.$TRAVIS_BUILD_NUMBER
 
-# Set Temporary database and variables
+# Temporary database files we create
 _inputdbA=/tmp/lastupdated.db
 _tmpnginxA=tmpnginxA
 
 # Start and End Strings to Search for to do inserts into template
-_startmarker="#>>>#"
-_endmarker="#<<<#"
+_startmarker="### Version Information #"
+_endmarker="### Version Information ##"
 
-# PRINT VERSION INFORMATION INTO GLOBALBLACKLIST FILE 1
-# *****************************************************
-VERSIONUMBER=$IFS
+# PRINT VERSION INFORMATION INTO README.md
+# ****************************************
+LASTUPDATEIFS=$IFS
 IFS=$'\n'
+now="$(date)"
+end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxA
-printf " "$MY_GIT_TAG "" >> $_tmpnginxA
+runtime=$(python -c "print(${end} - ${start})")
+printf "############################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Generated In: "$runtime" seconds\n############################################\n" >> $_tmpnginxA
 echo $_endmarker  >> $_tmpnginxA
-IFS=$VERSIONUMBER
+IFS=$LASTUPDATEIFS
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
-1,/#>>>#/d
-/#<<<#/,$d
+1,/### Version Information #/d
+/### Version Information ##/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
-/#>>>#/x
+/### Version Information #/x
 .t.
-.,/#<<<#/-d
+.,/### Version Information ##/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
 q
 IN
 rm $_inputdbA
+
 
 exit 0
