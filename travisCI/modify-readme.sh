@@ -13,8 +13,8 @@ _inputdbA=/tmp/lastupdated.db
 _tmpnginxA=tmpnginxA
 
 # Start and End Strings to Search for to do inserts into template
-_startmarker="### --"
-_endmarker="-- ###"
+_startmarker=">>>"
+_endmarker="<<<"
 
 # PRINT VERSION INFORMATION INTO GLOBALBLACKLIST FILE 1
 # *****************************************************
@@ -26,13 +26,13 @@ echo $_endmarker  >> $_tmpnginxA
 IFS=$VERSIONUMBER
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
-1,/### --/d
-/-- ###/,$d
+1,/>>>/d
+/<<</,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
-/### --/x
+/>>>/x
 .t.
-.,/-- ###/-d
+.,/<<</-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
