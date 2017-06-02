@@ -14,8 +14,8 @@ _inputdbA=/tmp/lastupdated.db
 _tmpnginxA=tmpnginxA
 
 # Start and End Strings to Search for to do inserts into template
-_startmarker="#####--Version Information--#####"
-_endmarker="#####--Version Information End--#####"
+_startmarker="##### Version Information #"
+_endmarker="##### Version Information ##"
 
 # PRINT VERSION INFORMATION INTO README.md
 # ****************************************
@@ -25,18 +25,18 @@ now="$(date)"
 end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxA
 runtime=$(python -c "print(${end} - ${start})")
-printf "> VERSION: "$MY_GIT_TAG"" >> $_tmpnginxA
+printf "# VERSION: "$MY_GIT_TAG"" >> $_tmpnginxA
 echo $_endmarker  >> $_tmpnginxA
 IFS=$LASTUPDATEIFS
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
-1,/#####--Version Information--#####/d
-/#####--Version Information End--#####/,$d
+1,/##### Version Information #/d
+/##### Version Information ##/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
-/#####--Version Information--#####/x
+/##### Version Information #/x
 .t.
-.,/#####--Version Information End--#####/-d
+.,/##### Version Information ##/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
