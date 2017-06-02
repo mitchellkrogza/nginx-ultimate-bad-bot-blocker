@@ -718,6 +718,7 @@ domain:buzzonclick.com
 domain:buzzsumo.com
 domain:buzzurl.jp
 domain:bvlgaribracelet.xyz
+domain:bvlgariring.xyz
 domain:bycontext.com
 domain:byme.se
 domain:bytimedance.ru
@@ -1029,6 +1030,7 @@ domain:deanmoore.ie
 domain:dear-diary.ru
 domain:decenttools.com
 domain:decorationspcs.com
+domain:degerlund.net
 domain:dekoration.us
 domain:dekorkeramik.ru
 domain:delayreferat.ru
@@ -1243,6 +1245,7 @@ domain:enginebay.ru
 domain:englate.com
 domain:englishdictionaryfree.com
 domain:englishgamer.com
+domain:enskedesquashclub.se
 domain:enternet.ee
 domain:envaseslotusama.com
 domain:enviromusic.net
@@ -2211,6 +2214,7 @@ domain:lifebyleese.com
 domain:life-instyle.com
 domain:light.ifmo.ru
 domain:lightinghomes.net
+domain:lignofix.ua
 domain:likesdesign.com
 domain:likesuccess.com
 domain:liky.co.ua
@@ -2789,6 +2793,7 @@ domain:palvira.com.ua
 domain:pammik.ru
 domain:panamaforbeginners.com
 domain:panchro.co.uk
+domain:panchro.xyz
 domain:paparazzistudios.com.au
 domain:paperics.com
 domain:paperwritingservice17.blogspot.ru
@@ -3697,10 +3702,12 @@ domain:surgut.zrus.org
 domain:susanholtphotography.com
 domain:svarbit.com
 domain:svarkagid.com
+domain:svbur.ru
 domain:svetlotorg.ru
 domain:svetodiodoff.ru
 domain:svtrd.com
 domain:swagbucks.com
+domain:swinger-mobil.net
 domain:swinginwithme.ru
 domain:swiped.su
 domain:swsociety.se
@@ -4498,6 +4505,7 @@ domain:zryydi.com
 domain:zs2vm.top
 domain:zscaler.net
 domain:zscalerone.net
+domain:zscalertwo.net
 domain:zverokruh-shop.cz
 domain:zvetki.ru
 domain:zx6.ru
