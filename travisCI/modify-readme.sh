@@ -25,7 +25,7 @@ now="$(date)"
 end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxA
 runtime=$(python -c "print(${end} - ${start})")
-printf "############################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Generated In: "$runtime" seconds\n############################################\n" >> $_tmpnginxA
+printf "********************************************\n> Version: "$MY_GIT_TAG"\n> Updated: "$now"\n********************************************\n" >> $_tmpnginxA
 echo $_endmarker  >> $_tmpnginxA
 IFS=$LASTUPDATEIFS
 mv $_tmpnginxA $_inputdbA
@@ -46,3 +46,6 @@ rm $_inputdbA
 
 
 exit 0
+
+############################################
+********************************************
