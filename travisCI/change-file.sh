@@ -22,9 +22,11 @@ git checkout master
 
 # Modify our file and make sure Travis is owner
 sudo $TRAVIS_BUILD_DIR/travisCI/modify-globalblacklist.sh
+sudo $TRAVIS_BUILD_DIR/travisCI/modify-readme.sh
 sudo chown -R travis:travis $TRAVIS_BUILD_DIR/*
 
 # Add the modified file to the and commit it
+git add $TRAVIS_BUILD_DIR/README.md
 git add $TRAVIS_BUILD_DIR/conf.d/globalblacklist.conf
 git add $TRAVIS_BUILD_DIR/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx/conf.d/globalblacklist.conf
 git commit -am "V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER [ci skip]"
