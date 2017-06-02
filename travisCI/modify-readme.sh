@@ -44,5 +44,59 @@ q
 IN
 rm $_inputdbA
 
+# PRINT VERSION INFORMATION INTO AUTO-CONFIGURATION.md
+# ****************************************************
+LASTUPDATEIFS2=$IFS
+IFS=$'\n'
+now="$(date)"
+end=$(date +%s.%N)    
+echo $_startmarker >> $_tmpnginxA
+runtime=$(python -c "print(${end} - ${start})")
+printf "********************************************\n# Version: "$MY_GIT_TAG"\n********************************************\n" >> $_tmpnginxA
+echo $_endmarker  >> $_tmpnginxA
+IFS=$LASTUPDATEIFS2
+mv $_tmpnginxA $_inputdbA
+ed -s $_inputdbA<<\IN
+1,/##### Version Information #/d
+/##### Version Information ##/,$d
+,d
+.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/AUTO-CONFIGURATION.md
+/##### Version Information #/x
+.t.
+.,/##### Version Information ##/-d
+#,p
+#,p used to print output replaced with w below to write
+w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/AUTO-CONFIGURATION.md
+q
+IN
+rm $_inputdbA
+
+# PRINT VERSION INFORMATION INTO MANUAL-CONFIGURATION.md
+# ******************************************************
+LASTUPDATEIFS3=$IFS
+IFS=$'\n'
+now="$(date)"
+end=$(date +%s.%N)    
+echo $_startmarker >> $_tmpnginxA
+runtime=$(python -c "print(${end} - ${start})")
+printf "********************************************\n# Version: "$MY_GIT_TAG"\n********************************************\n" >> $_tmpnginxA
+echo $_endmarker  >> $_tmpnginxA
+IFS=$LASTUPDATEIFS3
+mv $_tmpnginxA $_inputdbA
+ed -s $_inputdbA<<\IN
+1,/##### Version Information #/d
+/##### Version Information ##/,$d
+,d
+.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/MANUAL-CONFIGURATION.md
+/##### Version Information #/x
+.t.
+.,/##### Version Information ##/-d
+#,p
+#,p used to print output replaced with w below to write
+w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/MANUAL-CONFIGURATION.md
+q
+IN
+rm $_inputdbA
+
 
 exit 0

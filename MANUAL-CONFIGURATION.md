@@ -3,7 +3,12 @@
 
 ##### Created by: https://github.com/mitchellkrogza
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
-### Version 3.2017.07
+
+##### Version Information #
+********************************************
+# Version: V3.2017.06.540
+********************************************
+##### Version Information ##
 
 ## Update Notification System
 
