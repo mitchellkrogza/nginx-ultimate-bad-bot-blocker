@@ -1,5 +1,12 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-06-06
+- Did some house cleaning on folder names
+- Moved all sample config files into _sample_config_files folder
+- Renamed Fail2Ban folder to _fail2ban_addon
+- Moved repo logo file into _assets folder
+- Fixed Travis CI scripts to adjust to new folder locations for when it runs it's build [PASSED]
+
 ### 2017-05-25
 - Unfortunately my father passed away on the 5th of May after a 5 month long battle with a very aggressive cancer. It's been keeping me very busy with funerals and all sorts of other arrangements but life carries on and so does this Bot Blocker. I must say this project helps me keep my mind off things.
 - Added New Preferred AUTO Installation Instructions using the script from Stuart Cardall @itoffshore into README.md
