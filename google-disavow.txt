@@ -368,6 +368,7 @@ domain:arendovalka.xyz
 domain:arewater.com
 domain:arkartex.ru
 domain:arraty.altervista.org
+domain:artavenuegardenstudios.com
 domain:artdeko.info
 domain:artefakct.com
 domain:articlesdirectoryme.info
@@ -1767,6 +1768,7 @@ domain:healing-dysplasia.ru
 domain:healmytrauma.info
 domain:heartofbeijing.blogspot.com
 domain:heatpower.ru
+domain:hebozqzu.net.ua
 domain:hebr.myddns-flir.com
 domain:helicalpile.us
 domain:hellokittyimg.com
@@ -1794,6 +1796,7 @@ domain:historichometeam.com
 domain:hitsbox.info
 domain:hiwibyh.bugs3.com
 domain:hjaoopoa.top
+domain:hjb.net.ru
 domain:hkdiiohi.skyrock.com
 domain:hledejvshopech.cz
 domain:hmmm.cz
@@ -2009,6 +2012,7 @@ domain:izoll.ru
 domain:j33x.com
 domain:jackwolfskinoutlet.online
 domain:jamiembrown.com
+domain:janavibekken.no
 domain:janerikholst.se
 domain:janettabridal.com
 domain:japan-bearings.ru
@@ -2023,11 +2027,13 @@ domain:jerseychinabizwholesale.com
 domain:jerseychinabizwholesale.us
 domain:jerseysbizwholesalecheap.com
 domain:jerseyschinabizwholesale.us
+domain:jerseyssportsshop.com
 domain:jerseyswholesalechinalimited.com
 domain:jerseywholesalebizchina.com
 domain:jerseywholesalechinabiz.com
 domain:jerseywholesaleelitestore.com
 domain:jetsli.de
+domain:jillepille.com
 domain:jimmychoosale.online
 domain:jjbabskoe.ru
 domain:job.icivil.ir
@@ -2180,6 +2186,7 @@ domain:lanadelreyfans.us
 domain:lanasshop.ru
 domain:lancheck.net
 domain:landreferat.ru
+domain:landscaping.center
 domain:languagecode.com
 domain:lankarns.com
 domain:laparfumotec.com
@@ -2491,6 +2498,7 @@ domain:mole.pluto.ro
 domain:monarchfind-a.akamaihd.net
 domain:monarhs.info
 domain:monclerboots.xyz
+domain:monclercheap.xyz
 domain:monclerjacketsoutlet.pw
 domain:moncleronline.xyz
 domain:moncleroutletonline.pw
@@ -2706,6 +2714,7 @@ domain:o-dachnik.ru
 domain:odesproperty.com
 domain:odywpjtw.bloger.index.hr
 domain:offer.camp
+domain:offergroup.info
 domain:offers.bycontext.com
 domain:offf.info
 domain:office-windows.ru
@@ -2832,6 +2841,7 @@ domain:paydayonlinecom.com
 domain:pb-dv.ru
 domain:p-business.ru
 domain:pcads.ru
+domain:pcboa.se
 domain:pcgroup.com.uy
 domain:pc-services.ru
 domain:pc-test.net
@@ -3422,6 +3432,7 @@ domain:sexkrasivo.net
 domain:sexobzor.info
 domain:sexpartygirls.net
 domain:sexphoto.site
+domain:sex-pr.net
 domain:sexreliz.com
 domain:sexsaoy.com
 domain:sexsearch.com
@@ -3769,6 +3780,7 @@ domain:teesdaleflyballclub.co.uk
 domain:tehngr.ru
 domain:telefonsexi.com
 domain:telefonsexkostenlos.tk
+domain:telefonsex-ohne0900.net
 domain:telefonsexsofort.tk
 domain:telegraf.by
 domain:telegramdownload10.com
@@ -4026,6 +4038,7 @@ domain:um-razum.ru
 domain:underthesite.com
 domain:uni.me
 domain:unimodemhalfduplefw.pen.io
+domain:unionmarkt.de
 domain:unitexindia.com
 domain:unitygame3d.com
 domain:universals.com.ua
@@ -4290,6 +4303,7 @@ domain:woodyguthrie.se
 domain:wordpresscore.com
 domain:wordpress-crew.net
 domain:word-vorlagen.net
+domain:word-vorlagen.xyz
 domain:works.if.ua
 domain:worldhistory.biz
 domain:worldinternetauthority.com
