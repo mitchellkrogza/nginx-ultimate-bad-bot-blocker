@@ -13,10 +13,6 @@ MY_GIT_TAG=V3.$versionyear.$versionmonth.$TRAVIS_BUILD_NUMBER
 _inputdbA=/tmp/lastupdated.db
 
 # Declare Nginx template and temp variables
-#_nginx=/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/conf.d/globalblacklist.conf
-#_nginx2=/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx/conf.d/globalblacklist.conf
-
-
 _tmpnginxA=tmpnginxA
 _tmpnginxB=tmpnginxB
 
@@ -67,13 +63,13 @@ ed -s $_inputdbA<<\IN
 1,/### Version Information #/d
 /### Version Information ##/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx/conf.d/globalblacklist.conf
+.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_sample_config_files/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx/conf.d/globalblacklist.conf
 /### Version Information #/x
 .t.
 .,/### Version Information ##/-d
 #,p
 #,p used to print output replaced with w below to write
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx/conf.d/globalblacklist.conf
+w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_sample_config_files/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx/conf.d/globalblacklist.conf
 q
 IN
 rm $_inputdbA
