@@ -208,6 +208,14 @@ wget_opts() {
 	echo $opts
 }
 
+check_depends() {
+	# centos does not have wget installed by default
+	if ! wget --help >/dev/null 2>&1; then
+		printf "$0 requires: wget \n"
+		exit 1
+	fi
+}
+
 check_online() {
 	local url=$1 options=$(wget_opts)
 
@@ -224,6 +232,8 @@ main() {
 		echo "This script must be run as root" 1>&2
 		exit 1
 	fi
+
+	check_depends
 
 	# parse command line
 	get_options $@
@@ -270,4 +280,3 @@ exit $?
 # PLEASE ALSO SEE THE SETUP SCRIPT TO INSERT THE NECESSARY INCLUDES FOR YOU
 ### You can now use a setup script contributed by Stuart Cardall to automatically add the includes for you
 ### See - https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker
-
