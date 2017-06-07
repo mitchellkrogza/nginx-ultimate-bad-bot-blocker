@@ -230,6 +230,7 @@ domain:akusherok.ru
 domain:akvamaster.dp.ua
 domain:alarmobninsk.ru
 domain:albamargroup.com
+domain:albumsuper.info
 domain:alekseevec.ru
 domain:alert-fdm.xyz
 domain:alert-fjg.xyz
@@ -643,6 +644,7 @@ domain:bongacams.com
 domain:bongiornos.info
 domain:bonux.nextview.ru
 domain:boobsimge.com
+domain:bookhome.info
 domain:bookmaker-bet.com
 domain:bookmark4you.com
 domain:boole.onlinewebshop.net
@@ -722,6 +724,7 @@ domain:buzzsumo.com
 domain:buzzurl.jp
 domain:bvlgaribracelet.xyz
 domain:bvlgariring.xyz
+domain:bvlgariwallet.xyz
 domain:bycontext.com
 domain:byme.se
 domain:bytimedance.ru
@@ -800,6 +803,7 @@ domain:ccbill.com
 domain:cdncash.com
 domain:cdncash.net
 domain:cdncash.org
+domain:cdnnetwok.xyz
 domain:cejewelry.xyz
 domain:celebsopics.com
 domain:cellfun.mobi
@@ -863,9 +867,11 @@ domain:chocoslim.pro
 domain:choosecuisine.com
 domain:christianlouboutinoutlet.win
 domain:christianlouboutinreplica.pw
+domain:christianlouboutinreplica.win
 domain:christianlouboutinsaleonline.us
 domain:christianlouboutinsaleoutletonline.us
 domain:christianlouboutinshoes.xyz
+domain:chuckguilford.com
 domain:cialisovercounteratwalmartusa.com
 domain:cialiswithoutadoctor.net
 domain:ciekawinki.pl
@@ -1146,6 +1152,7 @@ domain:downloadmefiranaratb1972.xpg.com.br
 domain:download-of-the-warez.blogspot.com
 domain:downtuptv.gq
 domain:doxyporno.com
+domain:dpihatinh.gov.vn
 domain:drillsaw.ru
 domain:driving.kiev.ua
 domain:droidlook.net
@@ -1274,6 +1281,7 @@ domain:erotik0049.com
 domain:erotikchat-24.com
 domain:erotikstories.ru
 domain:erotiktreff24.info
+domain:erotische-geschichten-xxl.com
 domain:errorfixing.space
 domain:es5.com
 domain:escortplius.com
@@ -1302,6 +1310,7 @@ domain:evehemming.blogspot.com.au
 domain:evening-dating-club.info
 domain:event-tracking.com
 domain:everflora.ru
+domain:everypony.ru
 domain:evidencecleanergold.com
 domain:evrotekhservis.ru
 domain:excaliburfilms.com
@@ -1537,15 +1546,18 @@ domain:fuel-gas.com
 domain:fugarif.ga
 domain:fullfileaccess.com
 domain:fun2cell.net
+domain:funcrushgames.com
 domain:fungamelands.com
 domain:fungirlsgames.net
 domain:funnypica.com
 domain:funponsel.com
 domain:funtoonez.com
+domain:fuparj.net
 domain:futbolkisales.ru
 domain:fx-brokers-review.com
 domain:fxgallery.com
 domain:fxtips.ru
+domain:fyh.net.ru
 domain:fym.com.ru
 domain:g33.org
 domain:g7m.pl
@@ -1560,6 +1572,7 @@ domain:galleryawesome.com
 domain:gallerylisting.com
 domain:gallictures.com
 domain:gamblingnerd.com
+domain:gamedayhouse.com
 domain:game-mmorpg.net
 domain:gameonasia.com
 domain:gameplexcity.com
@@ -1570,6 +1583,7 @@ domain:game-top.su
 domain:gamevalue7.weebly.com
 domain:gamewrath.com
 domain:gaming-journal.com
+domain:gamingspark.com
 domain:gardene.ru
 domain:gay.adultgalls.com
 domain:gay-file.com
@@ -2345,6 +2359,7 @@ domain:mantramusic.ru
 domain:manualterap.roleforum.ru
 domain:manuscript.su
 domain:manve.info
+domain:manyresultshub-a.akamaihd.net
 domain:mapquestz.us
 domain:mararoom.ru
 domain:marblestyle.ru
@@ -2371,6 +2386,7 @@ domain:masturbate.co.uk
 domain:matb3aa.com
 domain:matchpal-a.akamaihd.net
 domain:matematikus.info
+domain:mawemik.com
 domain:max-eclat.men
 domain:maximilitary.ru
 domain:maxthon.com
@@ -2509,6 +2525,7 @@ domain:monetizer.com-01.site
 domain:money-every-day.com
 domain:moneymaster.ru
 domain:moneytop.ru
+domain:moneyviking-a.akamaihd.net
 domain:monitorwebsitespeed.com
 domain:monthlywinners.com
 domain:moomi-daeri.com
@@ -2556,6 +2573,7 @@ domain:mug-na-chas-moscow.ru
 domain:muizre.ru
 domain:mulberryoutletonlineeu.com
 domain:mundoaberrante.com
+domain:muschisexbilder.com
 domain:muscle-factory.com.ua
 domain:musezone.ru
 domain:musezone.su
@@ -2779,6 +2797,7 @@ domain:openmultipleurl.com
 domain:openstat.com
 domain:opinionreelle.com
 domain:ops.picscout.com
+domain:optibuymac.com
 domain:optitrade24.com
 domain:oralsexfilme.net
 domain:oranga.host.sk
@@ -2829,6 +2848,7 @@ domain:parlament.biz
 domain:partner-cdn.men
 domain:partner-print.men
 domain:partners-ship.pro
+domain:partner-stop.men
 domain:partybunny.ru
 domain:patagoniaoutlet.online
 domain:patagoniastore.online
@@ -2928,6 +2948,7 @@ domain:pk-pomosch.ru
 domain:pkr1hand.com
 domain:pk-services.ru
 domain:pladform.ru
+domain:plaff-go.ru
 domain:plastweb.ru
 domain:platesauto.com
 domain:platinumdeals.gr
@@ -3824,6 +3845,7 @@ domain:thin.me.pn
 domain:thruport.com
 domain:tiandeural.ru
 domain:tiens2010.ru
+domain:timdreby.com
 domain:timeallnews.ru
 domain:timecrimea.ru
 domain:time-japan.ru
@@ -3967,6 +3989,7 @@ domain:trubywriting.com
 domain:trucri.me
 domain:trudogolik.net
 domain:truemfilelj.gq
+domain:trumpetedextremes.com
 domain:trustedhealthtips.com
 domain:trustedmaccleaner.com
 domain:try-rx.com
@@ -4077,6 +4100,7 @@ domain:v720hd.ru
 domain:vabasa.inwtrade.com
 domain:vacuumscleaner.com
 domain:vadimkravtcov.ru
+domain:validdomain.xyz
 domain:valkiria-tk.ru
 domain:valoresito.com
 domain:valueclick.com
@@ -4335,6 +4359,7 @@ domain:xchat26.myfreecams.com
 domain:xclicks.net
 domain:xcombear.ru
 domain:xdoza.com
+domain:xedserver.com
 domain:xep.info
 domain:xfire.com
 domain:xgftnlrt.bloger.index.hr
@@ -4435,6 +4460,7 @@ domain:yebocasino.com
 domain:yebocasino.co.za
 domain:ynymnwbm.bloger.index.hr
 domain:yogamatsexpert.com
+domain:yoopsie.com
 domain:yopoint.in
 domain:yorkshireccc.com
 domain:yorkshire.com
@@ -4451,6 +4477,7 @@ domain:youporn-forum.ga
 domain:youporn-forum.uni.me
 domain:youporn-ru.com
 domain:youradexchange.com
+domain:yourads.website
 domain:youradulthosting.com
 domain:youraticles.pl
 domain:your-bearings.com
@@ -4460,6 +4487,7 @@ domain:yourmovies.pl
 domain:yourothersite.com
 domain:yoursearch.me
 domain:yoursite.com
+domain:you-shall-not-pass.is74.ru
 domain:youtoner.it
 domain:youtubedownload.org
 domain:yuantuo.co.jp
