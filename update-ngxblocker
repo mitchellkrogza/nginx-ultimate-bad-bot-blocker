@@ -34,6 +34,13 @@ CONF_DIR=/etc/nginx/conf.d
 
 ##### end user configuration ##############################################################
 
+BOLDGREEN="\033[1m\033[32m"
+BOLDMAGENTA="\033[1m\033[35m"
+BOLDRED="\033[1m\033[31m"
+BOLDYELLOW="\033[1m\033[33m"
+BOLDWHITE="\033[1m\033[37m"
+RESET="\033[0m"
+
 usage() {
         local script=$(basename $0)
         cat <<EOF
@@ -55,16 +62,35 @@ EOF
 }
 
 check_version() {
-        local file=$CONF_DIR/globalblacklist.conf
+	local file=$CONF_DIR/globalblacklist.conf
+	local remote_ver= remote_date= version= date= file=$CONF_DIR/globalblacklist.conf
+	local tmp=$(mktemp) url=$REPO/conf.d/globalblacklist.conf range="145-345"
 
-        if [ -f $file ]; then
-                grep Version $file
-                grep 'Updated:' $file
-        else
-                printf "Missing '$file' (pass -c \$path before -v)\n"
-        fi
+	if [ -f $file ]; then
+		# local version
+		version=$(grep "Version:" $file | sed 's|^.*: V||g')
+		date=$(grep "Updated:" $file | sed 's|^.*: ||g')
+		printf "\nLOCAL Version: $BOLDWHITE$version$RESET\n"
+		printf "Updated: $date\n\n"
 
-        exit 0
+		# remote version
+		curl -s --limit-rate 5k -r $range --location $url -o $tmp
+		remote_ver=$(grep "Version:" $tmp | sed 's|^.*: V||g')
+		remote_date=$(grep "Updated:" $tmp | sed 's|^.*: ||g')
+		printf "REMOTE Version: $BOLDWHITE$remote_ver$RESET\n"
+		printf "Updated: $remote_date\n"
+		rm -f $tmp
+
+		if [ "$version" != "$remote_ver" ]; then
+			printf "\nUpdate available => $BOLDMAGENTA$remote_ver$RESET\n\n"
+		else
+			printf "\nLatest Blacklist installed: $BOLDGREEN$version$RESET\n\n"
+		fi
+	else
+		printf "Missing '$file' (pass -c \$path before -v)\n"
+	fi
+
+	exit 0
 }
 
 service_cmd() {
@@ -130,6 +156,27 @@ check_args() {
         esac
 }
 
+check_mail_depends() {
+	if [ ! -f /usr/bin/mail ]; then # mailx + ssmtp are enough to send emails
+		printf "${BOLDYELLOW}WARN${RESET}: missing /usr/bin/mail => ${BOLDWHITE}disabling emails${RESET}.\n\n"
+		SEND_EMAIL="N"
+	fi
+}
+
+check_depends() {
+	# centos does not have wget installed by default
+	if ! wget --help >/dev/null 2>&1; then
+		printf "$0 requires: wget => cannot download files.\n"
+		exit 1
+	fi
+
+	# centos also does not have which by default
+	if [ ! -x /usr/bin/curl ]; then
+		printf "$0 requires: curl => cannot check remote version.\n"
+		exit 1
+	fi
+}
+
 get_options() {
         local arg= opts=
 
@@ -159,7 +206,7 @@ get_options() {
 main() {
 	local email_report=$(mktemp) file=globalblacklist.conf
 	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
-	local remote_dir=conf.d url= output=
+	local remote_dir=conf.d url= output= update= status=
 	# default to service (centos does not have 'which' by default)
 	local service=${service_cmd:-"service"}
 
@@ -169,34 +216,57 @@ main() {
 		exit 1
 	fi
 
+	check_depends
+
 	# parse command line
 	get_options $@
 	url=$REPO/$remote_dir/$file
 	output=$CONF_DIR/$file
 
-	# download update
-	mkdir -p $CONF_DIR
-	wget $url $(wget_opts) -O $output 2>&1 | tee $email_report
+	# check for updated blacklist
+	update=$(check_version | tail -n 2)
+	printf "\n$update\n\n" | tee $email_report
 
-	# re-read configuration
-	if ! grep "Not Found" $email_report; then
-		$service nginx reload | tee -a $email_report
-	else
-		printf "\nDownload failed: not reloading nginx config\n" | tee -a $email_report
+	if echo $update | grep ^Update 1>/dev/null; then
+
+		# download update
+		mkdir -p $CONF_DIR
+		wget $url $(wget_opts) -O $output 2>&1 | tee -a $email_report
+
+		# re-read nginx configuration
+		if ! grep "Not Found" $email_report; then
+			$service nginx reload
+			if [ $? = 0 ]; then
+				status="${BOLDGREEN}[OK]${RESET}"
+			else
+				status="${BOLDRED}[FAILED]${RESET}"
+			fi
+			printf "\nReloading NGINX configuration...$status\n" | tee -a $email_report
+		else
+			printf "\n${BOLDRED}Download failed${RESET}: not reloading NGINX config\n" | tee -a $email_report
+		fi
 	fi
 
 	# email report
+	check_mail_depends
 	case "$SEND_EMAIL" in
-		y*|Y*) printf "\nEmailing report to: $EMAIL\n";
-		       cat $email_report | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL;;
+		 y*|Y*)	printf "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
+			# remove ansi colour codes
+			sed -i 's/\x1b\[[0-9;]*m//g' $email_report
+			cat $email_report | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
+			;;
 	esac
 
 	rm -f $email_report
 }
 
+## start ##
 main $@
 exit $?
 
 # Add this as a cron to run daily / weekly as you like
 # Here's a sample CRON entry to update every day at 10pm
 # 00 22 * * * /usr/sbin/update-ngxblocker
+
+# better logging for cron jobs:
+# https://serverfault.com/questions/137468/better-logging-for-cronjobs-send-cron-output-to-syslog
