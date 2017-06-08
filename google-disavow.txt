@@ -786,6 +786,7 @@ domain:cartierlovestore.xyz
 domain:cartierlove.xyz
 domain:cartierreplica.pw
 domain:cartierreplica.top
+domain:cartierreplica.win
 domain:cartierring.xyz
 domain:cartiertrinity.xyz
 domain:cartierwatch.xyz
@@ -1405,7 +1406,9 @@ domain:ferretsoft.com
 domain:fertilitetsradgivningen.se
 domain:fetishinside.com
 domain:fetroshok.ru
+domain:fettefrauen.net
 domain:fickblock18.com
+domain:fickenbumsen.net
 domain:fickenprivat.info
 domain:fickkontaktehobbyhuren.com
 domain:fickkontakte.org
@@ -2067,6 +2070,7 @@ domain:jumptap.com
 domain:jus0wil.pp.ua
 domain:justbcause.com
 domain:justdating.online
+domain:justkillingti.me
 domain:kaac.ru
 domain:kabbalah-red-bracelets.com
 domain:kadashihotel.com
@@ -2728,6 +2732,7 @@ domain:nyfinance.ml
 domain:nzfilecloud.weebly.com
 domain:o00.in
 domain:oakleyglassesonline.us
+domain:oakridgemo.com
 domain:oballergiya.ru
 domain:obnal.org
 domain:obuv-kupit.ru
@@ -3479,6 +3484,7 @@ domain:sexystrippe.info
 domain:sexyteens.hol.es
 domain:sexytrend.ru
 domain:sfd-chess.ru
+domain:sfj-ror.no
 domain:shakhtar-doneck.ru
 domain:sharebutton.net
 domain:sharebutton.org
@@ -4110,6 +4116,7 @@ domain:validdomain.xyz
 domain:valkiria-tk.ru
 domain:valoresito.com
 domain:valueclick.com
+domain:vancleefreplica.pw
 domain:vandrie-ict.nl
 domain:vapmedia.org
 domain:vapsy.com
@@ -4556,6 +4563,7 @@ domain:zigarettenonlinekaufen2.bloog.pl
 domain:zigarettenonlinekaufen2.drupalgardens.com
 domain:zigarettenonlinekaufen.tumblr.com
 domain:zigzog.ru
+domain:zjnylubiv.ru
 domain:zkjovpdgxivg.ga
 domain:zlatnajesen.com
 domain:zmoda.hostreo.com
