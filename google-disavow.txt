@@ -641,6 +641,7 @@ domain:boleznikogi.com
 domain:bolezniorganov.ru
 domain:bolitgorlo.net
 domain:bombla.org
+domain:bonanza-fortune.men
 domain:bongacams.com
 domain:bongiornos.info
 domain:bonux.nextview.ru
@@ -787,6 +788,7 @@ domain:cartierlove.xyz
 domain:cartierreplica.pw
 domain:cartierreplica.top
 domain:cartierreplica.win
+domain:cartierreplica.xyz
 domain:cartierring.xyz
 domain:cartiertrinity.xyz
 domain:cartierwatch.xyz
@@ -1563,6 +1565,7 @@ domain:fx-brokers-review.com
 domain:fxgallery.com
 domain:fxtips.ru
 domain:fyh.net.ru
+domain:fyl.com.ru
 domain:fym.com.ru
 domain:g33.org
 domain:g7m.pl
@@ -1876,6 +1879,7 @@ domain:howmuchdoestizanidinecost.blogspot.com
 domain:howopen.ru
 domain:hplaserjetpdriver8y.pen.io
 domain:hptwaakw.blog.fc2.com
+domain:hreade.com
 domain:href.li
 domain:hscsscotland.com
 domain:hspline.com
@@ -2728,6 +2732,7 @@ domain:nuit-artisanale.com
 domain:nullrefer.com
 domain:nuup.info
 domain:nvformula.ru
+domain:nvssf.com
 domain:nyfinance.ml
 domain:nzfilecloud.weebly.com
 domain:o00.in
@@ -2984,6 +2989,7 @@ domain:pokerniydom.ru
 domain:polcin.de
 domain:polybuild.ru
 domain:pomoc-drogowa.cba.pl
+domain:pons-presse.com
 domain:pontiacsolstice.info
 domain:pony-business.com
 domain:popads.net
