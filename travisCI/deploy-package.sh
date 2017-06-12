@@ -6,7 +6,7 @@ MONTH=$(date +"%m")
 cd $TRAVIS_BUILD_DIR
 
 # Create our Version Number
-export GIT_TAG=V3.$YEAR-$MONTH.$TRAVIS_BUILD_NUMBER
+export GIT_TAG=V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER
 
 # Tag our release
 git tag $GIT_TAG -a -m "V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER"
