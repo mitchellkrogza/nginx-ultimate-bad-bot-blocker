@@ -82,9 +82,9 @@ check_version() {
 		rm -f $tmp
 
 		if [ "$version" != "$remote_ver" ]; then
-			printf "\nUpdate available => $BOLDMAGENTA$remote_ver$RESET\n\n"
+			printf "\nUpdate Available => $BOLDMAGENTA$remote_ver$RESET\n\n"
 		else
-			printf "\nLatest Blacklist installed: $BOLDGREEN$version$RESET\n\n"
+			printf "\nLatest Blacklist Already Installed: $BOLDGREEN$version$RESET\n\n"
 		fi
 	else
 		printf "Missing '$file' (pass -c \$path before -v)\n"
