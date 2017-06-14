@@ -518,6 +518,7 @@ domain:battlecarnival.su
 domain:bausparen.bz.it
 domain:bazaronline24.ru
 domain:bbtec.net
+domain:bcmp.org
 domain:bdsmgalls.net
 domain:beachpics.com
 domain:beamfall.info
@@ -610,6 +611,7 @@ domain:biznesschat.net
 domain:bizru.info
 domain:bjanshee.ru
 domain:bjetjt.com
+domain:bjorkbacken.nu
 domain:bkns.vn
 domain:blackcurranthumidifiers.site
 domain:blackhatworth.com
@@ -745,6 +747,7 @@ domain:cablecar.us
 domain:cacheimages.com
 domain:cactussoft.biz
 domain:cakemediahq.com.au
+domain:cakesplus.com.au
 domain:cakics.com
 domain:calc-for-credit.ru
 domain:calcularpagerank.com
@@ -1822,6 +1825,7 @@ domain:helpmymacfaster.trade
 domain:helvetia.com.ua
 domain:hem.passagen.se
 domain:herehloadibs.cf
+domain:hermesbelts.xyz
 domain:hermesbirkinhandbagoutlets.com
 domain:hermesbracelets.xyz
 domain:hermesreplica.pw
@@ -2540,6 +2544,7 @@ domain:mncrftpcs.com
 domain:mnogabukaff.net
 domain:mnprs.com
 domain:mobilemedia.md
+domain:mobilierland.com
 domain:mobioffertrck.com
 domain:mobot.site
 domain:mobplayer.net
@@ -2564,6 +2569,7 @@ domain:monclerjacketsoutlet.pw
 domain:monclerjacketsoutlet.win
 domain:moncleronline.xyz
 domain:moncleroutletonline.pw
+domain:moncleroutletonline.win
 domain:moncleroutletonline.xyz
 domain:monclervests.xyz
 domain:monetizationking.net
@@ -3853,6 +3859,7 @@ domain:tatz.tk
 domain:taxidermy4cash.com
 domain:taximytishi.ru
 domain:taxi-v-eisk.ru
+domain:t-bygg.com
 domain:td-33.ru
 domain:teastory.co
 domain:techart24.com
@@ -4411,6 +4418,7 @@ domain:world-mmo.com
 domain:worldmusicfests.com
 domain:worldoffiles.ru
 domain:wormix-cheats.ru
+domain:wosik-dach.service-for-web.de
 domain:wowas31.ucoz.ru
 domain:woweb.com.ua
 domain:writingservices17.blogspot.ru
@@ -4653,3 +4661,4 @@ domain:zverokruh-shop.cz
 domain:zvetki.ru
 domain:zx6.ru
 domain:zytpirwai.net
+domain:zzbroya.com.ua
