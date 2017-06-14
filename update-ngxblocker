@@ -267,7 +267,10 @@ exit $?
 
 # Add this as a cron to run daily / weekly as you like
 # Here's a sample CRON entry to update every day at 10pm
-# 00 22 * * * /usr/sbin/update-ngxblocker
+# 00 22 * * * sudo /usr/sbin/update-ngxblocker
+
+# Here's another example to run it daily at midday using a command line switch to set the email address for the notification
+# 00 12 * * * sudo /usr/sbin/update-ngxblocker -e yourname@youremailprovider.com
 
 # better logging for cron jobs:
 # https://serverfault.com/questions/137468/better-logging-for-cronjobs-send-cron-output-to-syslog
