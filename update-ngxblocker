@@ -55,8 +55,9 @@ Usage: $script [OPTIONS]
         [ -h ] : this help message
 
 Examples:
- $script                         (Download blacklist.conf to: $CONF_DIR)
- $script -c /my/custom/conf.d    (Download blacklist.conf to a custom location)
+ $script                         (Download globalblacklist.conf to: $CONF_DIR)
+ $script -c /my/custom/conf.d    (Download globalblacklist.conf to a custom location)
+ $script -e yourname@youremailaddress.com (Download globalblacklist.conf specifying your email address for the notification)
 EOF
         exit 0
 }
