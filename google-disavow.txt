@@ -1849,6 +1849,7 @@ domain:hiwibyh.bugs3.com
 domain:hjaoopoa.top
 domain:hjb.net.ru
 domain:hkdiiohi.skyrock.com
+domain:hkladys.com
 domain:hledejvshopech.cz
 domain:hmmm.cz
 domain:hmywwogw.bloger.index.hr
@@ -2677,6 +2678,7 @@ domain:myseoconsultant.com
 domain:myshopmatemac.com
 domain:mystats.xyz
 domain:mywallpaper.top
+domain:myyour.eu
 domain:na15.ru
 domain:nacap.ru
 domain:nac-bearings.ru
@@ -3508,6 +3510,7 @@ domain:seryeznie-znakomstva.ru
 domain:sethrollins.net
 domain:sexad.net
 domain:sexblog.pw
+domain:sexcamamateurchat.com
 domain:sex-dating.co
 domain:sexflirtbook.com
 domain:sex.hotblog.top
@@ -3884,6 +3887,7 @@ domain:tennis-img.org
 domain:terraclicks.com
 domain:terrafootwear.us
 domain:teslathemes.com
+domain:tetracsaudi.com
 domain:teur.tk
 domain:texbaza.by
 domain:textads.men
