@@ -292,6 +292,7 @@ domain:amigobulls.com
 domain:amoi.tn
 domain:amospalla.es
 domain:ample-awards-today.us
+domain:ampower.me
 domain:am-se.com
 domain:amt-k.ru
 domain:amyfoxfitness.com
@@ -599,6 +600,7 @@ domain:bimatoprost-careprost.com
 domain:bimatoprost-careprost.com.ua
 domain:binaryoptionscops.info
 domain:bingo8888.com
+domain:binomo.com
 domain:binomo.kz
 domain:bioca.org
 domain:bio-japan.net
@@ -854,12 +856,14 @@ domain:c-gainsbourg.com
 domain:cgi2.nintendo.co.jp
 domain:charmstroy.info
 domain:chastnoeporno.com
+domain:chatroulette.si
 domain:chat.ru
 domain:chatseo.com
 domain:chcu.net
 domain:cheapbarbour.online
 domain:cheapbelstaff.online
 domain:cheapcigarettesc.info
+domain:cheapestjerseysonwholesale.com
 domain:cheapestjerseys-wholesale.com
 domain:cheapjerseysa.com
 domain:cheapjerseysap.com
@@ -955,6 +959,7 @@ domain:communisave.co.za
 domain:community.allhiphop.com
 domain:com-onlinesupport.host
 domain:com-onlinesupport.site
+domain:companies-catalog.com
 domain:compliance-checker.info
 domain:compucelunlock.net
 domain:com-secure.download
@@ -1174,6 +1179,7 @@ domain:domoysshop.ru
 domain:domznaniy.ru
 domain:donna7753191.ru
 domain:donvito.unas.cz
+domain:dorratex.tn
 domain:doska-vsem.ru
 domain:dostavimvdom.ru
 domain:dostavka-v-krym.com
@@ -2336,6 +2342,7 @@ domain:linkdebrideur.xyz
 domain:linkpulse.com
 domain:linkredirect.biz
 domain:linkrr.com
+domain:linksharingt.com
 domain:linkwithin.com
 domain:liquimondo.com
 domain:lirunet.ru
@@ -2478,6 +2485,7 @@ domain:mcnamaratech.com
 domain:mebel-alait.ru
 domain:mebelcomplekt.ru
 domain:mebeldekor.com.ua
+domain:mebel-vstroika.ru
 domain:meble-bogart.info
 domain:mecash.ru
 domain:medanestesia.ru
@@ -2599,6 +2607,7 @@ domain:monarchfind-a.akamaihd.net
 domain:monarhs.info
 domain:monclerboots.xyz
 domain:monclercheap.xyz
+domain:monclercoats.xyz
 domain:monclerjacketsoutlet.pw
 domain:monclerjacketsoutlet.win
 domain:moncleronline.xyz
@@ -3025,6 +3034,7 @@ domain:pihl.se
 domain:pijoto.net
 domain:pila.pl
 domain:pinkduck.ga
+domain:pinsdaddy.com
 domain:pinstake.com
 domain:pintattoos.com
 domain:pinwallpaper.top
@@ -3480,12 +3490,14 @@ domain:scanner-willy.top
 domain:scansafe.net
 domain:scenarii-1-sentyabrya.uroki.org.ua
 domain:scenicmissouri.us
+domain:schlampen-treffen.com
 domain:school-diplomat.ru
 domain:scoopquest.com
 domain:score-ads.men
 domain:scrapy.org
 domain:screentoolkit.com
 domain:scripted.com
+domain:scrnet.biz.ua
 domain:sc-specialhost.com
 domain:sdelai-prosto.ru
 domain:sdelatmebel.ru
@@ -3864,6 +3876,7 @@ domain:superpages.com
 domain:supers.com.ua
 domain:superstats.com
 domain:supervesti.ru
+domain:support.nopeas.sk
 domain:surcentro.com
 domain:sureone.pro
 domain:surfbuyermac.com
@@ -3935,6 +3948,7 @@ domain:telemetryverification.net
 domain:telesvoboda.ru
 domain:telsis.com
 domain:template-kid.com
+domain:tengohydar.tk
 domain:tennis-img.org
 domain:terraclicks.com
 domain:terrafootwear.us
@@ -4110,6 +4124,7 @@ domain:trahvid.com
 domain:tramadolandtizanidine.blogspot.com
 domain:traxdom.ru
 domain:treasuretrack-a.akamaihd.net
+domain:trichizobswiv.agddns.net
 domain:trion.od.ua
 domain:tripper.de
 domain:tri-slona.org
@@ -4437,6 +4452,7 @@ domain:wholesalecheapjerseysfree.com
 domain:wholesalejerseychinaoutlet.com
 domain:wholesalejerseychinashop.com
 domain:wholesalejerseys-cheapest.com
+domain:wholesalejerseyscheapjerseys.us.com
 domain:wholesalejerseysgaa.com
 domain:wholesalenfljerseys.us.com
 domain:wholinkstome.com
@@ -4487,6 +4503,7 @@ domain:wowas31.ucoz.ru
 domain:woweb.com.ua
 domain:writingservices17.blogspot.ru
 domain:wrona.it
+domain:ws.ampower.me
 domain:wsgames.ru
 domain:wstroika.ru
 domain:wtsindia.in
