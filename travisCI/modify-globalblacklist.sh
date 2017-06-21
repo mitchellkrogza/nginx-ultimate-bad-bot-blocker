@@ -8,6 +8,8 @@ start=$(date +%s.%N)
 versionyear=$(date +%Y)
 versionmonth=$(date +%m)
 MY_GIT_TAG=V3.$versionyear.$versionmonth.$TRAVIS_BUILD_NUMBER
+BAD_REFERRERS=$(wc -l < /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_generator_lists/bad-referrers.list)
+BAD_BOTS=$(wc -l < /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_generator_lists/bad-user-agents.list)
 
 # Temporary database files we create
 _inputdbA=/tmp/lastupdated.db
@@ -28,7 +30,7 @@ now="$(date)"
 end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxA
 runtime=$(python -c "print(${end} - ${start})")
-printf "############################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Generated In: "$runtime" seconds\n############################################\n" >> $_tmpnginxA
+printf "********************************************\n#### Version: "$MY_GIT_TAG"\n#### Bad Referrer Count: "$BAD_REFERRERS"\n#### Bad Bot Count: "$BAD_BOTS"\n********************************************\n" >> $_tmpnginxA
 echo $_endmarker  >> $_tmpnginxA
 IFS=$LASTUPDATEIFS
 mv $_tmpnginxA $_inputdbA
@@ -55,7 +57,7 @@ now="$(date)"
 end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxB
 runtime=$(python -c "print(${end} - ${start})")
-printf "############################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Generated In: "$runtime" seconds\n############################################\n" >> $_tmpnginxB
+printf "********************************************\n#### Version: "$MY_GIT_TAG"\n#### Bad Referrer Count: "$BAD_REFERRERS"\n#### Bad Bot Count: "$BAD_BOTS"\n********************************************\n" >> $_tmpnginxB
 echo $_endmarker  >> $_tmpnginxB
 IFS=$LASTUPDATE2IFS
 mv $_tmpnginxB $_inputdbA
