@@ -54,7 +54,7 @@ now="$(date)"
 end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxA
 runtime=$(python -c "print(${end} - ${start})")
-printf "********************************************\n# Version: "$MY_GIT_TAG"\n********************************************\n" >> $_tmpnginxA
+printf "********************************************\n#### Version: "$MY_GIT_TAG"\n#### Bad Referrer Count: "$BAD_REFERRERS"\n#### Bad Bot Count: "$BAD_BOTS"\n********************************************\n" >> $_tmpnginxA
 echo $_endmarker  >> $_tmpnginxA
 IFS=$LASTUPDATEIFS2
 mv $_tmpnginxA $_inputdbA
@@ -81,7 +81,7 @@ now="$(date)"
 end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxA
 runtime=$(python -c "print(${end} - ${start})")
-printf "********************************************\n# Version: "$MY_GIT_TAG"\n********************************************\n" >> $_tmpnginxA
+printf "********************************************\n#### Version: "$MY_GIT_TAG"\n#### Bad Referrer Count: "$BAD_REFERRERS"\n#### Bad Bot Count: "$BAD_BOTS"\n********************************************\n" >> $_tmpnginxA
 echo $_endmarker  >> $_tmpnginxA
 IFS=$LASTUPDATEIFS3
 mv $_tmpnginxA $_inputdbA
