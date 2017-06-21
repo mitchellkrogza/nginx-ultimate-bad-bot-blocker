@@ -1,5 +1,5 @@
 #!/bin/bash
-# Write Build Number into globalblacklist.conf 
+# Write Build Number Information into globalblacklist.conf 
 # Created by: https://github.com/mitchellkrogza (mitchellkrog@gmail.com)
 # Copyright: Mitchell Krog - https://github.com/mitchellkrogza
 
