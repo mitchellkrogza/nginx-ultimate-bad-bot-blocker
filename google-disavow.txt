@@ -3602,6 +3602,7 @@ domain:sergiorossistore.online
 domain:serialsway.ucoz.ru
 domain:serptehnika.ru
 domain:server.popads.net
+domain:servethis.com
 domain:service.adtech.de
 domain:service.adtech.fr
 domain:service.adtech.us
@@ -4682,6 +4683,7 @@ domain:yatrk.xyz
 domain:yeartwit.com
 domain:yebocasino.com
 domain:yebocasino.co.za
+domain:yhit.press
 domain:ynymnwbm.bloger.index.hr
 domain:yogamatsexpert.com
 domain:yoopsie.com
