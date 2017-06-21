@@ -30,7 +30,7 @@ now="$(date)"
 end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxA
 runtime=$(python -c "print(${end} - ${start})")
-printf "********************************************\n#### Version: "$MY_GIT_TAG"\n#### Bad Referrer Count: "$BAD_REFERRERS"\n#### Bad Bot Count: "$BAD_BOTS"\n********************************************\n" >> $_tmpnginxA
+printf "############################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Generated In: "$runtime" seconds\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n############################################\n" >> $_tmpnginxA
 echo $_endmarker  >> $_tmpnginxA
 IFS=$LASTUPDATEIFS
 mv $_tmpnginxA $_inputdbA
@@ -57,7 +57,7 @@ now="$(date)"
 end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxB
 runtime=$(python -c "print(${end} - ${start})")
-printf "********************************************\n#### Version: "$MY_GIT_TAG"\n#### Bad Referrer Count: "$BAD_REFERRERS"\n#### Bad Bot Count: "$BAD_BOTS"\n********************************************\n" >> $_tmpnginxB
+printf "############################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Generated In: "$runtime" seconds\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n############################################\n" >> $_tmpnginxB
 echo $_endmarker  >> $_tmpnginxB
 IFS=$LASTUPDATE2IFS
 mv $_tmpnginxB $_inputdbA
