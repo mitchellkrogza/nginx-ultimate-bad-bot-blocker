@@ -14,7 +14,7 @@
 ********************************************
 ##### Version Information ##
 
-If this helps you [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
+## If this helps you [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
 
 ##### Created by: https://github.com/mitchellkrogza for use on Nginx Web Server https://www.nginx.com/
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
