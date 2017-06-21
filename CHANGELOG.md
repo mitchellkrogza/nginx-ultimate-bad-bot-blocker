@@ -1,5 +1,9 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-06-21
+- Fixed formatting of font size of Versioning information written into Readme Files
+- Added count totals into Readme files for amount of bad referrers and bots being protected against.
+
 ### 2017-06-06
 - Did some house cleaning on folder names
 - Moved all sample config files into _sample_config_files folder
