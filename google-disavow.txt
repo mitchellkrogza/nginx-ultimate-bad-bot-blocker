@@ -504,6 +504,7 @@ domain:balkanfarma.org
 domain:balkanfarma.ru
 domain:balla-boo.se
 domain:balois.worldbreak.com
+domain:baltgem.com
 domain:bambi.ck.ua
 domain:bamo.xsl.pt
 domain:banan.tv
@@ -794,6 +795,7 @@ domain:canphotograph.com
 domain:canrole.com
 domain:canyougethighofftizanidine.blogspot.com
 domain:canzoni.ru
+domain:capacitacionyaprendizaje.com
 domain:capture-room.com
 domain:carabela.com.do
 domain:carapics.com
@@ -1731,6 +1733,7 @@ domain:gktt.ru
 domain:gkvector.ru
 domain:glall.ru
 domain:glass-msk.ru
+domain:glastecfilms.com.my
 domain:glavprofit.ru
 domain:glcomputers.ru
 domain:glicol.kz
@@ -1998,6 +2001,7 @@ domain:ictizanidinehcl4mg.blogspot.com
 domain:idc.com.ua
 domain:idealtits.net
 domain:ideaspicz.com
+domain:ideawheel.com
 domain:idegenvezeto.eu
 domain:ideibiznesa2015.ru
 domain:ideoworld.org
@@ -4715,6 +4719,7 @@ domain:yorkshire.com
 domain:yottos.com
 domain:youandcredit.ru
 domain:youbloodyripper.com
+domain:youbrainboost.asia
 domain:youdao.com
 domain:youdesigner.kz
 domain:yougetsignal.com
