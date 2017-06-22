@@ -867,6 +867,7 @@ domain:c-gainsbourg.com
 domain:cgi2.nintendo.co.jp
 domain:charmstroy.info
 domain:chastnoeporno.com
+domain:chatroulette.online
 domain:chatroulette.si
 domain:chat.ru
 domain:chatseo.com
@@ -2606,6 +2607,7 @@ domain:mirobuvi.com.ua
 domain:mirtorrent.net
 domain:mirzonru.net
 domain:misandesign.se
+domain:missclub.info
 domain:missvietnam.org
 domain:misswell.net
 domain:misswootwoot.com
@@ -3038,6 +3040,7 @@ domain:pepperstyle.ru
 domain:percin.biz.ly
 domain:perfection-pleasure.ru
 domain:perfectpracticeweb.com
+domain:perm-profnastil.ru
 domain:perm.xrus.org
 domain:perosan.com
 domain:personalhoro.ru
@@ -3123,6 +3126,8 @@ domain:plusnetwork.com
 domain:pmk-samara.ru
 domain:pobeiranie.pl
 domain:pochemychka.net
+domain:podshipniki-nsk.ru
+domain:podshipniki-ntn.ru
 domain:poffet.net
 domain:pogodnyyeavarii.gq
 domain:pogruztehnik.ru
@@ -3885,6 +3890,7 @@ domain:startufa.ru
 domain:startwp.org
 domain:starwarspcs.com
 domain:statistici.ro
+domain:statoutlook.info
 domain:stats-public.grammarly.io
 domain:statustroll.com
 domain:stauga.altervista.org
@@ -4431,6 +4437,7 @@ domain:vostoktrade.info
 domain:vote-up.ru
 domain:vozbujdenie.com
 domain:vpnhowto.info
+domain:vpnmouse.com
 domain:vremya.eu
 domain:vriel.batcave.net
 domain:vrnelectro.ru
@@ -4788,6 +4795,7 @@ domain:zetgie.com.pl
 domain:zetmaster.ru
 domain:zhongwenlink.com
 domain:zhorapankratov7.blogspot.com
+domain:zhuravlev.info
 domain:zigarettenonl.canalblog.com
 domain:zigarettenonlinekaufen1.bloog.pl
 domain:zigarettenonlinekaufen1.blox.pl
@@ -4795,6 +4803,7 @@ domain:zigarettenonlinekaufen2.bloog.pl
 domain:zigarettenonlinekaufen2.drupalgardens.com
 domain:zigarettenonlinekaufen.tumblr.com
 domain:zigzog.ru
+domain:zionstar.net
 domain:zjnylubiv.ru
 domain:zkjovpdgxivg.ga
 domain:zlatnajesen.com
