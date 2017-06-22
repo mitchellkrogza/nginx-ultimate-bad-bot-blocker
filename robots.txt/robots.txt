@@ -60,6 +60,8 @@ User-agent: Bigfoot
  Disallow:/ 
 User-agent: Bitacle
  Disallow:/ 
+User-agent: Blackboard
+ Disallow:/ 
 User-agent: Black Hole
  Disallow:/ 
 User-agent: BlackWidow
@@ -139,6 +141,8 @@ User-agent: CSHttp
 User-agent: Curious
  Disallow:/ 
 User-agent: Custo
+ Disallow:/ 
+User-agent: DatabaseDriverMysqli
  Disallow:/ 
 User-agent: DBLBot
  Disallow:/ 
@@ -279,6 +283,8 @@ User-agent: HaosouSpider
 User-agent: Harvest
  Disallow:/ 
 User-agent: Havij
+ Disallow:/ 
+User-agent: HEADMasterSEO
  Disallow:/ 
 User-agent: Heritrix
  Disallow:/ 
@@ -775,6 +781,8 @@ User-agent: TwengaBot
 User-agent: Twice
  Disallow:/ 
 User-agent: Typhoeus
+ Disallow:/ 
+User-agent: UnisterBot
  Disallow:/ 
 User-agent: URLy.Warning
  Disallow:/ 
