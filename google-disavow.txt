@@ -357,6 +357,7 @@ domain:app-ready.xyz
 domain:approved.su
 domain:apps-analytics.net
 domain:appsaurus.com
+domain:apptester.tk
 domain:apxeo.info
 domain:aquarium-pro.ru
 domain:arabgirls.adultgalls.com
@@ -1443,6 +1444,7 @@ domain:faracontrol.ir
 domain:fark.com
 domain:farm26.ru
 domain:farmingworm.com
+domain:farmprofi.net
 domain:fashionindeed.ml
 domain:fashion-mk.net
 domain:fashion-stickers.ru
@@ -1564,6 +1566,7 @@ domain:forum.poker4life.ru
 domain:forumprofi.de
 domain:forums.toucharcade.com
 domain:forum.tvmir.org
+domain:fotopop.club
 domain:foto-sisek.porngalleries.top
 domain:foto-telok.net
 domain:fototravel.eu
@@ -1752,6 +1755,7 @@ domain:golden-catalog.pro
 domain:goldenggames.com
 domain:golden-praga.ru
 domain:goldpanningtools.com
+domain:golfresa.lucania.se
 domain:golmau.host.sk
 domain:gonextmedia.com
 domain:good-mummy.ru
@@ -2008,6 +2012,7 @@ domain:ilikevitaly.com
 domain:ilmen.net
 domain:ilovevitaly.com
 domain:ilovevitaly.ru
+domain:ilte.info
 domain:imabase.com
 domain:imadedinner.net
 domain:imagecoolpub.com
@@ -2062,6 +2067,7 @@ domain:internetproviderstucson.com
 domain:intervsem.ru
 domain:intimshop-fantasy.ru
 domain:investingclub.ru
+domain:investmac.com
 domain:invest-pamm.ru
 domain:investpamm.ru
 domain:investsuccess.org
@@ -3407,6 +3413,7 @@ domain:rfd-split.hr
 domain:rff-cfal.info
 domain:rialp.getenjoyment.net
 domain:richinvestmonitor.com
+domain:ric.info
 domain:ricorsogiustizia.org
 domain:riders.ro
 domain:rightenergysolutions.com.au
@@ -3720,6 +3727,7 @@ domain:site-speed-check.site
 domain:sitevaluation.com
 domain:sitevalued.com
 domain:sitopreferito.it
+domain:si-unique.com
 domain:sivs.ru
 domain:s-iwantyou.com
 domain:sixcooler.de
@@ -3840,6 +3848,7 @@ domain:special-porn.com
 domain:speedup-my.site
 domain:spidtest.org
 domain:spin2016.cf
+domain:spinnerco.ca
 domain:spitfiremusic.com
 domain:splendorsearch-a.akamaihd.net
 domain:sport7777.net
@@ -4378,6 +4387,7 @@ domain:vip-dom.in
 domain:vip-file.com
 domain:vipms.ru
 domain:vip-parfumeria.ru
+domain:vipps.com.my
 domain:vipromoffers.com
 domain:vipsiterip.org
 domain:virtuagirl.com
@@ -4586,6 +4596,7 @@ domain:xcombear.ru
 domain:xdoza.com
 domain:xedserver.com
 domain:xep.info
+domain:xev.ru
 domain:xfire.com
 domain:xgftnlrt.bloger.index.hr
 domain:xjlottery.com
