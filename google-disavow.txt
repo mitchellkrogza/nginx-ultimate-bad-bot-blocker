@@ -1548,6 +1548,7 @@ domain:flytourisme.org
 domain:flzhiguan.com
 domain:fm-upgrade.ru
 domain:focalink.com
+domain:fodelsedagspresenter.nu
 domain:fok.nl
 domain:folowsite.com
 domain:f-online.de
@@ -1985,6 +1986,7 @@ domain:hspline.com
 domain:htmlcorner.com
 domain:hubbble.com
 domain:huhn.altervista.org
+domain:huimin764128.com
 domain:hully.altervista.org
 domain:humanorightswatch.org
 domain:hundejo.com
@@ -2197,6 +2199,7 @@ domain:kanimage.com
 domain:karachev-city.ru
 domain:karadene.com
 domain:karpun-iris.ru
+domain:karting196.ru
 domain:kartiniresto.com
 domain:karusel-market.ru
 domain:kashubadesign.ru
@@ -2319,6 +2322,7 @@ domain:lacloop.info
 domain:ladov.ru
 domain:la-fa.ru
 domain:lafourmiliaire.com
+domain:lafriore.ru
 domain:lakesimg.com
 domain:lampokrat.ws
 domain:lanadelreyfans.us
@@ -3130,6 +3134,7 @@ domain:pkr1hand.com
 domain:pk-services.ru
 domain:pladform.ru
 domain:plaff-go.ru
+domain:plastgranar.nu
 domain:plastweb.ru
 domain:platesauto.com
 domain:platinumdeals.gr
@@ -3735,6 +3740,7 @@ domain:simple-image.com.ua
 domain:simplepooltips.com
 domain:simple-share-buttons.com
 domain:simply.net
+domain:simpoed.ufop.br
 domain:sim-service.net
 domain:sims-sims.ru
 domain:sindragosa.comxa.com
