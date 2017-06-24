@@ -57,9 +57,10 @@ sudo ./update-ngxblocker
 #sudo service nginx reload
 
 # Set all our other setup and deploy scripts to be executable
+
 sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/modify-globalblacklist.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/modify-readme.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/deploy-package.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/change-file.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/modify-files-and-commit.sh
 
 # Travis now goes into the rest of the tests in the script: section of .travis.yml
