@@ -806,6 +806,8 @@ User-agent: Voil
  Disallow:/ 
 User-agent: Voltron
  Disallow:/ 
+User-agent: Wallpapers/3.0
+ Disallow:/ 
 User-agent: WallpapersHD
  Disallow:/ 
 User-agent: WASALive-Bot
