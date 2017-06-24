@@ -4,7 +4,7 @@
 # Copyright: Mitchell Krog - https://github.com/mitchellkrogza
 
 # Start time of script generation
-start=$(date +%s.%N)
+#start=$(date +%s.%N)
 versionyear=$(date +%Y)
 versionmonth=$(date +%m)
 MY_GIT_TAG=V3.$versionyear.$versionmonth.$TRAVIS_BUILD_NUMBER
@@ -29,8 +29,8 @@ IFS=$'\n'
 now="$(date)"
 end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxA
-runtime=$(python -c "print(${end} - ${start})")
-printf "###################################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Generated In: "$runtime" seconds\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n###################################################\n" >> $_tmpnginxA
+#runtime=$(python -c "print(${end} - ${start})")
+printf "###################################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n###################################################\n" >> $_tmpnginxA
 echo $_endmarker  >> $_tmpnginxA
 IFS=$LASTUPDATEIFS
 mv $_tmpnginxA $_inputdbA
@@ -56,8 +56,8 @@ IFS=$'\n'
 now="$(date)"
 end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxB
-runtime=$(python -c "print(${end} - ${start})")
-printf "###################################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Generated In: "$runtime" seconds\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n###################################################\n" >> $_tmpnginxB
+#runtime=$(python -c "print(${end} - ${start})")
+printf "###################################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n###################################################\n" >> $_tmpnginxB
 echo $_endmarker  >> $_tmpnginxB
 IFS=$LASTUPDATE2IFS
 mv $_tmpnginxB $_inputdbA
