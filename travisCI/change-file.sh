@@ -26,11 +26,12 @@ sudo $TRAVIS_BUILD_DIR/travisCI/modify-readme.sh
 sudo chown -R travis:travis $TRAVIS_BUILD_DIR/*
 
 # Add the modified file to the and commit it
-git add $TRAVIS_BUILD_DIR/README.md
-git add $TRAVIS_BUILD_DIR/AUTO-CONFIGURATION.md
-git add $TRAVIS_BUILD_DIR/MANUAL-CONFIGURATION.md
-git add $TRAVIS_BUILD_DIR/conf.d/globalblacklist.conf
-git add $TRAVIS_BUILD_DIR/_sample_config_files/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx/conf.d/globalblacklist.conf
+#git add $TRAVIS_BUILD_DIR/README.md
+#git add $TRAVIS_BUILD_DIR/AUTO-CONFIGURATION.md
+#git add $TRAVIS_BUILD_DIR/MANUAL-CONFIGURATION.md
+#git add $TRAVIS_BUILD_DIR/conf.d/globalblacklist.conf
+#git add $TRAVIS_BUILD_DIR/_sample_config_files/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx/conf.d/globalblacklist.conf
+git add -A
 git commit -am "V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER [ci skip]"
 
 # Travis now moves to the before_deploy: section of .travis.yml
