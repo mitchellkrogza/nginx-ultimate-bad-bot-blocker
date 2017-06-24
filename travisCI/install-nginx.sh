@@ -51,7 +51,7 @@ sudo cp $TRAVIS_BUILD_DIR/travisCI/index.php /var/www/html/index.php
 
 # Run update-ngxblocker test
 cd /usr/sbin
-sudo ./update-ngxblocker
+sudo ./update-ngxblocker -e mitchellkrog@gmail.com
 
 # Reload nginx - no need to do this as update-ngxblocker does this for us
 #sudo service nginx reload
