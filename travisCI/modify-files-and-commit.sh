@@ -20,10 +20,9 @@ git config --global push.default simple
 # Make sure we have master branch checked out in Git
 git checkout master
 
-# Modify our file and make sure Travis is owner
+# Modify our files with build and version information
 sudo $TRAVIS_BUILD_DIR/travisCI/modify-globalblacklist.sh
 sudo $TRAVIS_BUILD_DIR/travisCI/modify-readme.sh
-#sudo chown -R travis:travis $TRAVIS_BUILD_DIR/*
 
 # Add the modified files and commit
 git add -A

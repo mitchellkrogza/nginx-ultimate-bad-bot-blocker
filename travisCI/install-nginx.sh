@@ -4,37 +4,39 @@
 
 set -x
 
-# Check Date - I only used this for testing to make sure I had set timezone correctly
-# See .travis.yml file in the before_install section on how to set your timezone on TravisCI
-#date
-
 # Start Getting Nginx Ready for Testing the Nginx Bad Bot Blocker
 
 # Delete default site created by Nginx Installation
+
 sudo rm /etc/nginx/sites-available/default
 
-# Download the Nginx Bad Bot Blocker files from the Live Repository
+# Download the Nginx Bad Bot Blocker setup files from the Live Repository
+
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O /usr/sbin/setup-ngxblocker
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O /usr/sbin/update-ngxblocker
 
 # Set our install and setup scripts to be executable
+
 sudo chmod +x /usr/sbin/install-ngxblocker
 sudo chmod +x /usr/sbin/setup-ngxblocker
 sudo chmod +x /usr/sbin/update-ngxblocker
 
 # Run Install-NgxBlocker
+
 cd /usr/sbin
 sudo ./install-ngxblocker -x
 
 # Copy our default.vhost file into Nginx /sites-available/
+
 sudo cp $TRAVIS_BUILD_DIR/travisCI/default.vhost /etc/nginx/sites-available/default.vhost
 
 # Link the vhost file into Nginx /sites-enabled/ and reload nginx
+
 sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/default.vhost
-#sudo service nginx reload
 
 # Run setup-ngxblocker
+
 cd /usr/sbin
 sudo ./setup-ngxblocker -x
 
@@ -42,19 +44,18 @@ sudo ./setup-ngxblocker -x
 # this helps a lot inside the TravisCI environment to see where a shell script may be failing 
 #sudo sh -x ./setup-ngxblocker -x
 
-# Load our Nginx.conf file and reload Nginx
+# Load our Nginx.conf file
+
 sudo nginx -c /etc/nginx/nginx.conf
-#sudo service nginx reload
 
 # Copy our index.php file into the default site's root folder
+
 sudo cp $TRAVIS_BUILD_DIR/travisCI/index.php /var/www/html/index.php
 
-# Run update-ngxblocker test
+# Run update-ngxblocker test which downloads latest globalblacklist.conf and reload Nginx
+
 cd /usr/sbin
 sudo ./update-ngxblocker -e mitchellkrog@gmail.com
-
-# Reload nginx - no need to do this as update-ngxblocker does this for us
-#sudo service nginx reload
 
 # Set all our other setup and deploy scripts to be executable
 
@@ -63,4 +64,4 @@ sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/modify-readme.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/deploy-package.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/modify-files-and-commit.sh
 
-# Travis now goes into the rest of the tests in the script: section of .travis.yml
+# Travis now moves into running the rest of the tests in the script: section of .travis.yml
