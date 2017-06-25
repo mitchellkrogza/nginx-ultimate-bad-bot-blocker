@@ -791,6 +791,7 @@ domain:candelluxsklep.pl
 domain:candiceloves.us
 domain:cand.jp
 domain:candlehandmade.com
+domain:candlewooddentalcentre.com.au
 domain:candycrushshop.com
 domain:candy-glam-hp.com
 domain:candypeople.se
@@ -937,6 +938,7 @@ domain:cityadspix.com
 domain:citysecurity.nu
 domain:ci.ua
 domain:civilwartheater.com
+domain:cjs.com.ru
 domain:clarithromycin500mg.com
 domain:clash-clans.ru
 domain:classicakuhni.ru
@@ -1021,6 +1023,7 @@ domain:counterbot.com
 domain:countercrazy.com
 domain:counter.yadro.ru
 domain:country-chic.ru
+domain:courtshipgift.com
 domain:covadhosting.biz
 domain:covetnica.com
 domain:cowblog.fr
@@ -2216,6 +2219,7 @@ domain:kazan.zrus.org
 domain:kazinogames.lv
 domain:kaz.kz
 domain:kazrent.com
+domain:kchaxton.com
 domain:keenoutlet.online
 domain:kerwinandcariza.com
 domain:ketoanhanoi.info
@@ -2456,6 +2460,7 @@ domain:louboutinreplica.xyz
 domain:louboutinshoes.xyz
 domain:louisvuittonoutletstore.net
 domain:love-baby.cz
+domain:lovelycraftyhome.com
 domain:lowephotos.info
 domain:low-format.ru
 domain:lqtigi.net.ru
@@ -3160,6 +3165,7 @@ domain:pobeiranie.pl
 domain:pochemychka.net
 domain:podshipniki-nsk.ru
 domain:podshipniki-ntn.ru
+domain:poems.com.ua
 domain:poffet.net
 domain:pogodnyyeavarii.gq
 domain:pogruztehnik.ru
@@ -3660,6 +3666,7 @@ domain:servingnotice.com
 domain:servisural.ru
 domain:seryeznie-znakomstva.ru
 domain:sethrollins.net
+domain:se-welding.ru
 domain:sexad.net
 domain:sexblog.pw
 domain:sexcamamateurchat.com
@@ -4037,6 +4044,7 @@ domain:t-bygg.com
 domain:td-33.ru
 domain:tdsing.ru
 domain:teastory.co
+domain:tech4master.com
 domain:techart24.com
 domain:technopellet.gr
 domain:tecspb.ru
@@ -4185,10 +4193,12 @@ domain:topappspro.com
 domain:topbestgames.com
 domain:topclickguru.com
 domain:top-deal.com.pl
+domain:topdownloads.ru
 domain:top-karkas.ru
 domain:topmira.com
 domain:topquality.cf
 domain:topshef.ru
+domain:topsy.com
 domain:topvidos.ru
 domain:torontoplumbinggroup.com
 domain:torrent-newgames.com
@@ -4406,6 +4416,7 @@ domain:viberdownload10.com
 domain:videochat.cafe
 domain:video-chat.cn
 domain:video-chat.in
+domain:video-chat.love
 domain:videochat.mx
 domain:videochat.tv.br
 domain:videochat.world
@@ -4540,6 +4551,7 @@ domain:wedding-salon.net
 domain:weekes.biz.tc
 domain:weightatraining.com
 domain:wejdz-tu.pl
+domain:wejhdw73273666zx1.com
 domain:welck.octopis.com
 domain:welcomeauto.ru
 domain:wellcome2slovenia.ru

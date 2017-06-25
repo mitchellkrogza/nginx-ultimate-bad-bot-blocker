@@ -4,9 +4,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2017.06.606
-### Updated: Sun Jun 25 13:10:45 SAST 2017
-### Bad Referrer Count: 4876
+### Version: V3.2017.06.607
+### Updated: Sun Jun 25 13:45:58 SAST 2017
+### Bad Referrer Count: 4901
 ### Bad Bot Count: 480
 ###################################################
 ### Version Information ##
@@ -1636,6 +1636,7 @@ map $http_referer $bad_referer {
 	"~*candiceloves.us"		1;
 	"~*cand.jp"		1;
 	"~*candlehandmade.com"		1;
+	"~*candlewooddentalcentre.com.au"		1;
 	"~*candycrushshop.com"		1;
 	"~*candy-glam-hp.com"		1;
 	"~*candypeople.se"		1;
@@ -1782,6 +1783,7 @@ map $http_referer $bad_referer {
 	"~*citysecurity.nu"		1;
 	"~*ci.ua"		1;
 	"~*civilwartheater.com"		1;
+	"~*cjs.com.ru"		1;
 	"~*clarithromycin500mg.com"		1;
 	"~*clash-clans.ru"		1;
 	"~*classicakuhni.ru"		1;
@@ -1866,6 +1868,7 @@ map $http_referer $bad_referer {
 	"~*countercrazy.com"		1;
 	"~*counter.yadro.ru"		1;
 	"~*country-chic.ru"		1;
+	"~*courtshipgift.com"		1;
 	"~*covadhosting.biz"		1;
 	"~*covetnica.com"		1;
 	"~*cowblog.fr"		1;
@@ -3061,6 +3064,7 @@ map $http_referer $bad_referer {
 	"~*kazinogames.lv"		1;
 	"~*kaz.kz"		1;
 	"~*kazrent.com"		1;
+	"~*kchaxton.com"		1;
 	"~*keenoutlet.online"		1;
 	"~*kerwinandcariza.com"		1;
 	"~*ketoanhanoi.info"		1;
@@ -3301,6 +3305,7 @@ map $http_referer $bad_referer {
 	"~*louboutinshoes.xyz"		1;
 	"~*louisvuittonoutletstore.net"		1;
 	"~*love-baby.cz"		1;
+	"~*lovelycraftyhome.com"		1;
 	"~*lowephotos.info"		1;
 	"~*low-format.ru"		1;
 	"~*lqtigi.net.ru"		1;
@@ -4005,6 +4010,7 @@ map $http_referer $bad_referer {
 	"~*pochemychka.net"		1;
 	"~*podshipniki-nsk.ru"		1;
 	"~*podshipniki-ntn.ru"		1;
+	"~*poems.com.ua"		1;
 	"~*poffet.net"		1;
 	"~*pogodnyyeavarii.gq"		1;
 	"~*pogruztehnik.ru"		1;
@@ -4505,6 +4511,7 @@ map $http_referer $bad_referer {
 	"~*servisural.ru"		1;
 	"~*seryeznie-znakomstva.ru"		1;
 	"~*sethrollins.net"		1;
+	"~*se-welding.ru"		1;
 	"~*sexad.net"		1;
 	"~*sexblog.pw"		1;
 	"~*sexcamamateurchat.com"		1;
@@ -4882,6 +4889,7 @@ map $http_referer $bad_referer {
 	"~*td-33.ru"		1;
 	"~*tdsing.ru"		1;
 	"~*teastory.co"		1;
+	"~*tech4master.com"		1;
 	"~*techart24.com"		1;
 	"~*technopellet.gr"		1;
 	"~*tecspb.ru"		1;
@@ -5030,10 +5038,12 @@ map $http_referer $bad_referer {
 	"~*topbestgames.com"		1;
 	"~*topclickguru.com"		1;
 	"~*top-deal.com.pl"		1;
+	"~*topdownloads.ru"		1;
 	"~*top-karkas.ru"		1;
 	"~*topmira.com"		1;
 	"~*topquality.cf"		1;
 	"~*topshef.ru"		1;
+	"~*topsy.com"		1;
 	"~*topvidos.ru"		1;
 	"~*torontoplumbinggroup.com"		1;
 	"~*torrent-newgames.com"		1;
@@ -5251,6 +5261,7 @@ map $http_referer $bad_referer {
 	"~*videochat.cafe"		1;
 	"~*video-chat.cn"		1;
 	"~*video-chat.in"		1;
+	"~*video-chat.love"		1;
 	"~*videochat.mx"		1;
 	"~*videochat.tv.br"		1;
 	"~*videochat.world"		1;
@@ -5385,6 +5396,7 @@ map $http_referer $bad_referer {
 	"~*weekes.biz.tc"		1;
 	"~*weightatraining.com"		1;
 	"~*wejdz-tu.pl"		1;
+	"~*wejhdw73273666zx1.com"		1;
 	"~*welck.octopis.com"		1;
 	"~*welcomeauto.ru"		1;
 	"~*wellcome2slovenia.ru"		1;
