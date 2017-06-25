@@ -1,0 +1,11 @@
+server {
+	listen *:9000;
+
+	root /var/www/html;
+	server_name localhost;
+	charset UTF-8;
+
+    location / {
+      root /var/www/html/;
+        }
+}

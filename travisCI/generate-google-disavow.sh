@@ -1,5 +1,5 @@
 #!/bin/bash
-# TravisCI Package Deploy Script for the Nginx Ultimate Bad Bot Blocker
+# Google Disavow file generator for Nginx Ultimate Bad Bot Blocker
 # Created by: Mitchell Krog (mitchellkrog@gmail.com)
 # Copyright: Mitchell Krog - https://github.com/mitchellkrogza
 # Repo Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
@@ -27,40 +27,22 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# ******************
-# Set Some Variables
-# ******************
+# ************************************
+# Specify input list for the generator
+# ************************************
 
-YEAR=$(date +"%Y")
-MONTH=$(date +"%m")
+_input1=$TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list
 
-# ***************************************
-# Make Sure we are in the Build Directory
-# ***************************************
+# **************************
+# Create Google Disavow File
+# **************************
 
-cd $TRAVIS_BUILD_DIR
+sudo truncate -s 0 $TRAVIS_BUILD_DIR/google-disavow.txt
+for line in $(cat $_input1); do
+printf "domain:${line}\n" >> $TRAVIS_BUILD_DIR/google-disavow.txt
+done
 
-# *************************
-# Create our Version Number
-# *************************
-
-export GIT_TAG=V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER
-
-# ***************
-# Tag our release
-# ***************
-
-git tag $GIT_TAG -a -m "V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER"
-
-# *****************************************
-# Push our commit and tags back to the repo
-# *****************************************
-
-sudo git push origin master && git push origin master --tags
-
-# *************************************************************************
-# Now TravisCI moves into the deploy: section of TravisCI - see .travis.yml
-# *************************************************************************
+exit 0
 
 # MIT License
 
