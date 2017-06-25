@@ -4,9 +4,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2017.06.19
-### Updated: Sun Jun 25 12:40:08 SAST 2017
-### Bad Referrer Count: 4882
+### Version: V3.2017.06.606
+### Updated: Sun Jun 25 13:10:45 SAST 2017
+### Bad Referrer Count: 4876
 ### Bad Bot Count: 480
 ###################################################
 ### Version Information ##
@@ -843,8 +843,6 @@ map $http_referer $bad_referer {
 # END CUSTOM BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###
 
 # START BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###
-	"~*00000000000000000000000000.com"		1;
-	"~*0000000000000000000.com"		1;
 	"~*000free.us"		1;
 	"~*007angels.com"		1;
 	"~*00author.com"		1;
@@ -862,8 +860,6 @@ map $http_referer $bad_referer {
 	"~*101raccoon.ru"		1;
 	"~*108shot.com"		1;
 	"~*10bet.com"		1;
-	"~*1111111111111111111111111111.com"		1;
-	"~*11111111111111111111.com"		1;
 	"~*11235813.webzdarma.cz"		1;
 	"~*11pikachu.ru"		1;
 	"~*123any.com"		1;
@@ -890,8 +886,6 @@ map $http_referer $bad_referer {
 	"~*202ch.com"		1;
 	"~*20pascals.nl"		1;
 	"~*214jaluwobapef.cf"		1;
-	"~*222222222222222222222222222222222222.com"		1;
-	"~*22222222222222222222.com"		1;
 	"~*24videos.tv"		1;
 	"~*24x7-server-support.site"		1;
 	"~*256bit.by"		1;
