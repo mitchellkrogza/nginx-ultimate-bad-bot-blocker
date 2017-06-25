@@ -4,9 +4,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2017.06.607
-### Updated: Sun Jun 25 13:45:58 SAST 2017
-### Bad Referrer Count: 4901
+### Version: V3.2017.06.608
+### Updated: Sun Jun 25 13:58:46 SAST 2017
+### Bad Referrer Count: 4918
 ### Bad Bot Count: 480
 ###################################################
 ### Version Information ##
@@ -948,6 +948,7 @@ map $http_referer $bad_referer {
 	"~*8kisses.eu"		1;
 	"~*8si.ru"		1;
 	"~*8xv8.com"		1;
+	"~*91abcw.com"		1;
 	"~*98oi.ru"		1;
 	"~*999webdesign.com"		1;
 	"~*9icmzvn6.website"		1;
@@ -3256,6 +3257,7 @@ map $http_referer $bad_referer {
 	"~*lirunet.ru"		1;
 	"~*lisque.batcave.net"		1;
 	"~*littleberry.ru"		1;
+	"~*littlesunraiser.com"		1;
 	"~*liupis.com"		1;
 	"~*livefixer.com"		1;
 	"~*livejasmin.com"		1;
@@ -3946,6 +3948,7 @@ map $http_referer $bad_referer {
 	"~*photokitchendesign.com"		1;
 	"~*photorepair.ru"		1;
 	"~*photostudiolightings.com"		1;
+	"~*phuketscreen.com"		1;
 	"~*physfunc.ru"		1;
 	"~*pic2fly.com"		1;
 	"~*piccdata.com"		1;
@@ -3994,6 +3997,7 @@ map $http_referer $bad_referer {
 	"~*pladform.ru"		1;
 	"~*plaff-go.ru"		1;
 	"~*plastgranar.nu"		1;
+	"~*plastjulgranar.se"		1;
 	"~*plastweb.ru"		1;
 	"~*platesauto.com"		1;
 	"~*platinumdeals.gr"		1;
@@ -4948,6 +4952,7 @@ map $http_referer $bad_referer {
 	"~*thin.me.pn"		1;
 	"~*thruport.com"		1;
 	"~*tiandeural.ru"		1;
+	"~*ticketsys.inetwd.com"		1;
 	"~*tiens2010.ru"		1;
 	"~*tilido.com"		1;
 	"~*timdreby.com"		1;
