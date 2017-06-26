@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.06.609
-### Updated: Sun Jun 25 16:58:31 SAST 2017
-### Bad Referrer Count: 4894
+### Version: V3.2017.06.610
+### Updated: Mon Jun 26 13:55:06 SAST 2017
+### Bad Referrer Count: 4914
 ### Bad Bot Count: 480
 ###################################################
 ### Version Information ##

@@ -213,6 +213,7 @@ domain:aero2.ru
 domain:aerogo.com
 domain:affiliate-fr.com
 domain:affordablewebsitesandmobileapps.com
+domain:affrh2015.com
 domain:afftrack001.com
 domain:afmuseum.com
 domain:afora.ru
@@ -255,6 +256,7 @@ domain:alibestsale.com
 domain:alienwheel.es
 domain:alienwheels.de
 domain:aliexpresscashback.club
+domain:aliexpress.com
 domain:alif-ba-ta.com
 domain:alive-ua.com
 domain:all4invest.info
@@ -576,6 +578,7 @@ domain:bestofpicture.com
 domain:bestofupload.info
 domain:bestplacetobuyeriacta.jw.lt
 domain:bestpriceninja.com
+domain:bestprofits-there.com
 domain:best-seo-offer.com
 domain:best-seo-software.xyz
 domain:best-seo-solution.com
@@ -1336,6 +1339,7 @@ domain:energydiet-info.ru
 domain:energy-ua.com
 domain:enge-fotzen.info
 domain:enginebay.ru
+domain:engines-usa.com
 domain:englate.com
 domain:englishdictionaryfree.com
 domain:englishgamer.com
@@ -1444,6 +1448,7 @@ domain:f07.de
 domain:f0815.de
 domain:f5mtrack.com
 domain:fable.in.ua
+domain:factorynightclub.com
 domain:failingmarriege.blogspot.com
 domain:fakehandbags.xyz
 domain:falcoware.com
@@ -1715,6 +1720,7 @@ domain:gentamicineyedrops.blogspot.com
 domain:geoads.com
 domain:germes-trans.com
 domain:germetiki.com.ua
+domain:getaclueamerica.com
 domain:get-free-traffic-now.com
 domain:getlaid-xxxhookupdirect.com
 domain:getlamborghini.ga
@@ -1777,10 +1783,12 @@ domain:golden-praga.ru
 domain:goldpanningtools.com
 domain:golfresa.lucania.se
 domain:golmau.host.sk
+domain:gomusix.com
 domain:gonextmedia.com
 domain:good-mummy.ru
 domain:goodnightjournal.com
 domain:goodprotein.ru
+domain:goodwriterssales.com
 domain:googglet.com
 domain:googlefeud.com
 domain:google-liar.ru
@@ -2060,6 +2068,7 @@ domain:impresagaia.it
 domain:inbabes.sexushost.com
 domain:inboundlinks.win
 domain:inboxdollars.com
+domain:inclk.com
 domain:incolors.club
 domain:increasewwwtraffic.info
 domain:indetiske.ya.ru
@@ -2791,6 +2800,7 @@ domain:mykings.pw
 domain:mylesosibirsk.ru
 domain:mylida.org
 domain:myliveblog.ru
+domain:myonlinepayday.co
 domain:my.opera.com
 domain:myperiod.club
 domain:mypets.by
@@ -2851,6 +2861,7 @@ domain:newstudio.tv
 domain:newtechspb.ru
 domain:newyorkhotelsmotels.info
 domain:nextconseil.com
+domain:nextlnk12.com
 domain:nfljerseyscheapbiz.us
 domain:nfljerseyscheapchinabiz.com
 domain:nfljerseysforsalewholesaler.com
@@ -3022,6 +3033,7 @@ domain:oz-offers.com
 domain:ozoz.it
 domain:paceform.com
 domain:paclitor.com
+domain:page2rss.com
 domain:pagesense.com
 domain:paleohub.info
 domain:palvira.com.ua
@@ -3087,6 +3099,8 @@ domain:pestomou.info
 domain:petedrummond.com
 domain:petrovka-online.com
 domain:petsblogroll.com
+domain:peugeot-club.org
+domain:pewit.pw
 domain:pflexads.com
 domain:pharmacyincity.com
 domain:phobia.us
@@ -3437,6 +3451,7 @@ domain:remont-mobile-phones.ru
 domain:remont-ustanovka-tehniki.ru
 domain:remorcicomerciale.ro
 domain:remote-dba.de
+domain:remybutler.fr
 domain:renecaovilla.online
 domain:renecaovillasale.online
 domain:renewablewealth.com
@@ -4090,6 +4105,7 @@ domain:thegioixekhach.com
 domain:theguardlan.com
 domain:theheroes.ru
 domain:thejournal.ru
+domain:thelottosecrets.com
 domain:themestotal.com
 domain:thenetinfo.com
 domain:theplacetoupdating.pw
@@ -4418,9 +4434,11 @@ domain:via-gra.webstarts.com
 domain:viagroid.ru
 domain:viandpet.com
 domain:viberdownload10.com
+domain:videochat.bz
 domain:videochat.cafe
 domain:video-chat.cn
 domain:video-chat.in
+domain:videochat.life
 domain:video-chat.love
 domain:videochat.mx
 domain:videochat.tv.br
@@ -4633,6 +4651,7 @@ domain:worldlovers.ru
 domain:world-mmo.com
 domain:worldmusicfests.com
 domain:worldoffiles.ru
+domain:worldtraveler.world
 domain:wormix-cheats.ru
 domain:wosik-dach.service-for-web.de
 domain:wowas31.ucoz.ru
@@ -4892,3 +4911,4 @@ domain:zvetki.ru
 domain:zx6.ru
 domain:zytpirwai.net
 domain:zzbroya.com.ua
+domain:zzqrt.com
