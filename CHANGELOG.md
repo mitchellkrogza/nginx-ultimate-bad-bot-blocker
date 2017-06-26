@@ -1,5 +1,10 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-06-25
+- New Travis CI generator script brought online and all tests passed.
+- Travis CI now handles generating the globalblacklist.conf, robots.txt, google-disavow and google-exclude files during it's build and testing process.
+- All future **Pull Requests** on the repo will now done be exclusively on the .list files in the **_generator_lists** folder.
+
 ### 2017-06-21
 - Fixed formatting of font size of Versioning information written into Readme Files
 - Added count totals into Readme files for amount of bad referrers and bots being protected against.
