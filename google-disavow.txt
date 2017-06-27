@@ -365,6 +365,7 @@ domain:apps-analytics.net
 domain:appsaurus.com
 domain:apptester.tk
 domain:aproposde.com
+domain:ap.senai.br
 domain:apxeo.info
 domain:aquarium-pro.ru
 domain:arabgirls.adultgalls.com
@@ -1092,6 +1093,7 @@ domain:darodar.com
 domain:dataloading.net
 domain:data-mining.tk
 domain:data.vtc.pw
+domain:date-withme.com
 domain:dating-time-now.com
 domain:datsun-do.com
 domain:davebestdeals.com
@@ -1188,6 +1190,7 @@ domain:doctormakarova.ru
 domain:dodlive.mil
 domain:doeco.ru
 domain:dogbreedspicture.net
+domain:dogclothing.store
 domain:dogoimage.com
 domain:dogsrun.net
 domain:dojki-hd.com
@@ -2207,6 +2210,7 @@ domain:justkillingti.me
 domain:kaac.ru
 domain:kabbalah-red-bracelets.com
 domain:kadashihotel.com
+domain:kalandranis.gr
 domain:kalb.ru
 domain:kamagragelusa.net
 domain:kamalsinha.com
@@ -2923,6 +2927,7 @@ domain:o00.in
 domain:oakleyglassesonline.us
 domain:oakridgemo.com
 domain:oballergiya.ru
+domain:obesidadealgarve.com
 domain:obnal.org
 domain:obuv-kupit.ru
 domain:ochistka-stokov.ru
@@ -3041,6 +3046,7 @@ domain:pammik.ru
 domain:panamaforbeginners.com
 domain:panchro.co.uk
 domain:panchro.xyz
+domain:panouri-solare-acoperis.com
 domain:paparazzistudios.com.au
 domain:paperics.com
 domain:paperwritingservice17.blogspot.ru
@@ -3368,6 +3374,7 @@ domain:qexyfu.bugs3.com
 domain:qitt.ru
 domain:qld10000.net
 domain:q-moto.ru
+domain:qpypcx.com
 domain:qualitymarketzone.com
 domain:quality-traffic.com
 domain:quangcaons.com
@@ -3737,6 +3744,7 @@ domain:shinikiev.com.ua
 domain:ship-marvel.co.ua
 domain:shisha-swag.de
 domain:shitmovs.com
+domain:shivafurnishings.com
 domain:shlyahten.ru
 domain:shmetall.com.ua
 domain:shodanhq.com
@@ -3959,6 +3967,7 @@ domain:staynplay.net
 domain:steame.ru
 domain:steelmaster.lv
 domain:stefanbakosab.se
+domain:stevemonsen.com
 domain:stickers-market.ru
 domain:stmassage.ru
 domain:stockquotes.wooeb.com
@@ -4046,6 +4055,7 @@ domain:takethatad.com
 domain:tako3.com
 domain:talant-factory.ru
 domain:tampabaywatch.org
+domain:tandvardshuset.net
 domain:tanieaukcje.com.pl
 domain:taqywu51.soup.io
 domain:tarad.com
@@ -4548,6 +4558,7 @@ domain:webalan.ru
 domain:web-betting.ru
 domain:web.cvut.cz
 domain:webinstantservice.com
+domain:webix.biz
 domain:webix.me
 domain:webjam.com
 domain:weblo.com
@@ -4776,6 +4787,7 @@ domain:yaaknaa.info
 domain:yaderenergy.ru
 domain:yadro.ru
 domain:yaminecraft.ru
+domain:yaoguangdj.com
 domain:yatrk.xyz
 domain:yeartwit.com
 domain:yebocasino.com
