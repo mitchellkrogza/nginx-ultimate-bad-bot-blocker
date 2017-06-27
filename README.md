@@ -27,6 +27,9 @@ It is important to please subscribe your email address to the mailing list at **
 or simply send a blank email to **nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com** to subscribe.
 Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical (potentially breaking) changes take place.
 
+#### Also follow me on twitter @ubuntu101za for update notifications
+https://twitter.com/ubuntu101za
+
 # EASY AUTO CONFIGURATION INSTRUCTIONS FOR THE NGINX BAD BOT BLOCKER
 ## Please follow the instructions below step by step :exclamation:
 
@@ -576,7 +579,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-##### Some other free projects
+##### Some other awesome free projects
 
 - https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
 - https://github.com/mitchellkrogza/Badd-Boyz-Hosts
@@ -585,7 +588,7 @@ SOFTWARE.
 - https://github.com/mitchellkrogza/Travis-CI-Nginx-for-Testing-Nginx-Configuration
 - https://github.com/mitchellkrogza/Travis-CI-for-Apache-For-Testing-Apache-and-PHP-Configurations
 - https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
-- https://github.com/mariusv/nginx-badbot-blocker
+- https://github.com/funilrys/funceble
 
 ##### Into Photography?
 
@@ -599,7 +602,7 @@ In fact it is so hard to mention everyone but here are a few key people whose li
 Show them some love and check out some of their projects too.
 
 - Stuart Cardall - https://github.com/itoffshore (Install, Update and Setup Scripts & Alpine Linux Package Maintainer)
-- Stevie-Ray Hartog https://github.com/Stevie-Ray
+- Fulinrys - https://github.com/funilrys/funceble (Excellent script for checking ACTIVE, INACTIVE and EXPIRED Domain Names)
 - Marius Voila https://github.com/mariusv
 - Cătălin Mariș https://github.com/alrra
 - deformhead https://github.com/deformhead
@@ -607,6 +610,7 @@ Show them some love and check out some of their projects too.
 - Alexander https://github.com/shoonois
 - Steven Black https://github.com/StevenBlack
 - Fail2Ban - https://github.com/fail2ban
+- Stevie-Ray Hartog https://github.com/Stevie-Ray
 - Sir Athos from StackOverFlow - http://stackoverflow.com/users/2245910/sir-athos (help with Travis Build Tagging and Committing)
 - StackOverflow - http://stackoverflow.com/ (bash scripts from hundreds of questions and answers)
 - SuperUser - http://superuser.com/ (snippets from various questions and answers)
