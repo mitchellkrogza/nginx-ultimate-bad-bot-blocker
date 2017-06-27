@@ -432,16 +432,16 @@ rm $_inputdbA
 # Generate Additional Files and Copy Them to Folders
 # **************************************************
 
-sudo cp $_input1 $TRAVIS_BUILD_DIR/_generator_lists/_generator_lists/good-user-agents.list
-sudo cp $_input2 $TRAVIS_BUILD_DIR/_generator_lists/_generator_lists/allowed-user-agents.list
-sudo cp $_input3 $TRAVIS_BUILD_DIR/_generator_lists/_generator_lists/limited-user-agents.list
-sudo cp $_input4 $TRAVIS_BUILD_DIR/_generator_lists/_generator_lists/bad-user-agents.list
-sudo cp $_input5 $TRAVIS_BUILD_DIR/_generator_lists/_generator_lists/bad-referrers.list
-sudo cp $_input6 $TRAVIS_BUILD_DIR/_generator_lists/_generator_lists/google-ip-ranges.list
-sudo cp $_input7 $TRAVIS_BUILD_DIR/_generator_lists/_generator_lists/bing-ip-ranges.list
-sudo cp $_input8 $TRAVIS_BUILD_DIR/_generator_lists/_generator_lists/wordpress-theme-detectors.list
-sudo cp $_input9 $TRAVIS_BUILD_DIR/_generator_lists/_generator_lists/nibbler-seo.list
-sudo cp $_input10 $TRAVIS_BUILD_DIR/_generator_lists/_generator_lists/cloudflare-ip-ranges.list
+sudo cp $_input1 $TRAVIS_BUILD_DIR/_generator_lists/good-user-agents.list
+sudo cp $_input2 $TRAVIS_BUILD_DIR/_generator_lists/allowed-user-agents.list
+sudo cp $_input3 $TRAVIS_BUILD_DIR/_generator_lists/limited-user-agents.list
+sudo cp $_input4 $TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list
+sudo cp $_input5 $TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list
+sudo cp $_input6 $TRAVIS_BUILD_DIR/_generator_lists/google-ip-ranges.list
+sudo cp $_input7 $TRAVIS_BUILD_DIR/_generator_lists/bing-ip-ranges.list
+sudo cp $_input8 $TRAVIS_BUILD_DIR/_generator_lists/wordpress-theme-detectors.list
+sudo cp $_input9 $TRAVIS_BUILD_DIR/_generator_lists/nibbler-seo.list
+sudo cp $_input10 $TRAVIS_BUILD_DIR/_generator_lists/cloudflare-ip-ranges.list
 sudo cp $_nginx $TRAVIS_BUILD_DIR/conf.d/globalblacklist.conf
 sudo cp $_nginx $TRAVIS_BUILD_DIR/_sample_config_files/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx/conf.d/globalblacklist.conf
 
