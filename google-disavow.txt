@@ -8,6 +8,7 @@ domain:0912701309f8ce.com
 domain:0c47f8422d3f.com
 domain:0n-line.tv
 domain:100dollars-seo.com
+domain:100searchengines.com
 domain:101billion.com
 domain:101flag.ru
 domain:101imagedatabase.com
@@ -36,6 +37,7 @@ domain:1kinobig.ru
 domain:1millionusd.xyz
 domain:1pamm.ru
 domain:1stat.ru
+domain:1webmaster.ml
 domain:2015god.org
 domain:2020iscoming.info
 domain:202ch.com
@@ -74,6 +76,7 @@ domain:4replicawatch.net
 domain:4ur.click
 domain:4ureyesonly.com
 domain:4webmasters.com
+domain:4webmasters.org
 domain:5000-cotydzien.com
 domain:51.la
 domain:51unlim.ru
@@ -108,6 +111,7 @@ domain:98oi.ru
 domain:999webdesign.com
 domain:9icmzvn6.website
 domain:9med.net
+domain:a14download.com
 domain:a1security.com.ua
 domain:a342ae9750004b14b55f7310eff0ab65.com
 domain:aa08daf7e13b6345e09e92f771507fa5f4.com
@@ -128,8 +132,11 @@ domain:aarbur.com
 domain:aaronabel.com
 domain:abbanreddy.com
 domain:abbp1.website
+domain:abcdefh.xyz
+domain:abcdeg.xyz
 domain:abclauncher.com
 domain:abctoppictures.net
+domain:abc.xyz
 domain:abiente.ru
 domain:abovetherivernc.com
 domain:absolutelyanalog.com
@@ -149,6 +156,7 @@ domain:actionnooz.com
 domain:activepr.ru
 domain:actremage.com
 domain:actulite.com
+domain:acunetix-referrer.com
 domain:adamoads.com
 domain:adanih.com
 domain:adcash.com
@@ -204,8 +212,10 @@ domain:advancedsoftwaresupport.com
 domain:adventureparkcostarica.com
 domain:adverster.com
 domain:advertisingtag.net
+domain:adviceforum.info
 domain:advocatemsk.ru
 domain:advokateg.ru
+domain:advokateg.xyz
 domain:ad-words.ru
 domain:adzerg.com
 domain:adzpower.com
@@ -239,6 +249,7 @@ domain:akusherok.ru
 domain:akvamaster.dp.ua
 domain:alarmobninsk.ru
 domain:albamargroup.com
+domain:alborzan.com
 domain:albumsuper.info
 domain:alekseevec.ru
 domain:alert-fdm.xyz
@@ -247,6 +258,7 @@ domain:alert-hgd.xyz
 domain:alert-jdh.xyz
 domain:alessandraleone.com
 domain:alfa9.com
+domain:alfabot.xyz
 domain:alfa-img.com
 domain:alfa-medosmotr.ru
 domain:alfapro.ru
@@ -263,6 +275,7 @@ domain:all4invest.info
 domain:all4invest.ru
 domain:allboard.xobor.de
 domain:allcredits.su
+domain:alldownload.pw
 domain:alldubai.biz
 domain:allesohnegirls.net
 domain:allforminecraft.ru
@@ -306,6 +319,7 @@ domain:amt-k.ru
 domain:amyfoxfitness.com
 domain:anaksma.info
 domain:anal-acrobats.com
+domain:anal-acrobats.hol.es
 domain:analytics-ads.xyz
 domain:anapa-inns.ru
 domain:an-donut.com
@@ -388,12 +402,14 @@ domain:arenda-yeisk.ru
 domain:arendovalka.xyz
 domain:arewater.com
 domain:arkartex.ru
+domain:arkkivoltti.net
 domain:arpelsreplica.xyz
 domain:arraty.altervista.org
 domain:artavenuegardenstudios.com
 domain:artdeko.info
 domain:artefakct.com
 domain:articlesdirectoryme.info
+domain:artparquet.ru
 domain:artpicso.com
 domain:aruplighting.com
 domain:arvut.org
@@ -432,6 +448,7 @@ domain:aussie-prizes.com
 domain:australia-opening-times.com
 domain:auto4style.ru
 domain:autoblogger24.info
+domain:autobrennero.it
 domain:autobudpostach.club
 domain:autochoixspinelli.com
 domain:autogrep.ru
@@ -459,6 +476,7 @@ domain:aviav.ru
 domain:aviav.ru.com
 domain:avirasecureserver.com
 domain:avitocars.ru
+domain:aviva-limoux.com
 domain:avkzarabotok.com
 domain:avkzarabotok.info
 domain:avon-novosib.ru
@@ -478,6 +496,7 @@ domain:ayakino.net
 domain:ayanaspa.com
 domain:ayerbo.xhost.ro
 domain:azadnegar.com
+domain:azartclub.org
 domain:azartmix.com
 domain:azartniy-bonus.com
 domain:azazaporn.com
@@ -488,6 +507,7 @@ domain:azbukafree.com
 domain:azbuka-mo.ru
 domain:azlex.uz
 domain:azte.ch
+domain:b2b-lounge.com
 domain:babespcs.com
 domain:babieca.com
 domain:bablonow.ru
@@ -552,6 +572,7 @@ domain:beauty-things.com
 domain:becuo.com
 domain:bedandbreakfast.com
 domain:bedcapdealers.com
+domain:begalka.xyz
 domain:belinka.com.ua
 domain:belinvestdom.by
 domain:belstaffstore.online
@@ -598,6 +619,7 @@ domain:betune.onlinewebshop.net
 domain:betwinservice.com
 domain:beyan.host.sk
 domain:bezcmexa.ru
+domain:bezlimitko.xyz
 domain:bezsporno.ru
 domain:beztuberkuleza.ru
 domain:bfz.biz
@@ -630,6 +652,7 @@ domain:bio.trade-jp.net
 domain:birzha-truda.eu
 domain:bitcoinpile.com
 domain:bitcoins-live.ru
+domain:biteg.xyz
 domain:bitporno.sx
 domain:bizcheapjerseyswholesalechina.com
 domain:bizfly.info
@@ -644,6 +667,7 @@ domain:bkns.vn
 domain:blackcurranthumidifiers.site
 domain:blackhatworth.com
 domain:blackle.com
+domain:blackplanet.com
 domain:blackwitchcraft.ru
 domain:blagovest-med.ru
 domain:blavia.00author.com
@@ -668,6 +692,7 @@ domain:blpmovies.com
 domain:bluejays-jerseys.us
 domain:bluerobot.info
 domain:bluesman.nu
+domain:blue-square.biz
 domain:bmwhighperformers.com
 domain:board.f00d.de
 domain:boazpower.com
@@ -679,6 +704,7 @@ domain:bodybuilding-shop.biz
 domain:boleznikogi.com
 domain:bolezniorganov.ru
 domain:bolitgorlo.net
+domain:boltalko.xyz
 domain:bombla.org
 domain:bonanza-fortune.men
 domain:bongacams.com
@@ -689,8 +715,10 @@ domain:boobsimge.com
 domain:bookhome.info
 domain:bookmaker-bet.com
 domain:bookmark4you.com
+domain:bookmark4you.com.biz
 domain:boole.onlinewebshop.net
 domain:boostmyppc.com
+domain:bosefux.esy.es
 domain:bosman.pluto.ro
 domain:bouda.kvalitne.cz
 domain:bpro1.top
@@ -700,8 +728,10 @@ domain:brainxs.us
 domain:braip.com.br
 domain:brakehawk.com
 domain:brandov.ru
+domain:brateg.xyz
 domain:break-the-chains.com
 domain:breastaugmentation.co.za
+domain:breget74.ru
 domain:brendbutik.ru
 domain:brewdom.ru
 domain:brg8.com
@@ -989,7 +1019,36 @@ domain:community.allhiphop.com
 domain:com-onlinesupport.host
 domain:com-onlinesupport.site
 domain:companies-catalog.com
+domain:compliance-alexa.top
+domain:compliance-alex.top
+domain:compliance-andrew.top
+domain:compliance-barak.top
+domain:compliance-brian.top
+domain:compliance-checker-7.info
 domain:compliance-checker.info
+domain:compliance-don.top
+domain:compliance-elena.top
+domain:compliance-fred.top
+domain:compliance-george.top
+domain:compliance-irvin.top
+domain:compliance-ivan.top
+domain:compliance-jack.top
+domain:compliance-jane.top
+domain:compliance-jessica.top
+domain:compliance-jess.top
+domain:compliance-john.top
+domain:compliance-josh.top
+domain:compliance-julianna.top
+domain:compliance-julia.top
+domain:compliance-margo.top
+domain:compliance-mark.top
+domain:compliance-mary.top
+domain:compliance-nelson.top
+domain:compliance-olga.top
+domain:compliance-viktor.top
+domain:compliance-walter.top
+domain:compliance-walt.top
+domain:compliance-willy.top
 domain:compucelunlock.net
 domain:com-secure.download
 domain:com-supportcenter.website
@@ -1114,6 +1173,7 @@ domain:deanmoore.ie
 domain:dear-diary.ru
 domain:decenttools.com
 domain:decorationspcs.com
+domain:deda-moroza-zakaz.ru
 domain:degerlund.net
 domain:dekoration.us
 domain:dekorkeramik.ru
@@ -1139,6 +1199,7 @@ domain:detskie-konstruktory.ru
 domain:detskie-zabavi.ru
 domain:deutschehobbyhuren.net
 domain:devochki.top
+domain:dev-seo.blog
 domain:de.zapmeta.com
 domain:dfiles.me
 domain:dfwu1013.info
@@ -1173,6 +1234,7 @@ domain:disruptingdinnerparties.com
 domain:distver.ru
 domain:div.as
 domain:divatraffic.com
+domain:dividendo.ru
 domain:diy-handmade-ideas.com
 domain:djekxa.ru
 domain:djonwatch.ru
@@ -1203,6 +1265,7 @@ domain:domaineaneblanc.com
 domain:domainsatcost.com
 domain:domain-submit.info
 domain:domain-tracker.com
+domain:domashneeruporno.com
 domain:domcran.net
 domain:domik-derevne.ru
 domain:dominateforex.ml
@@ -1229,6 +1292,7 @@ domain:downloadmefiranaratb1972.xpg.com.br
 domain:download-of-the-warez.blogspot.com
 domain:downtuptv.gq
 domain:doxyporno.com
+domain:doyouknowtheword-flummox.ml
 domain:dpihatinh.gov.vn
 domain:drillsaw.ru
 domain:driving.kiev.ua
@@ -1247,6 +1311,7 @@ domain:dvr.biz.ua
 domain:dvrlists.com
 domain:dyshagi.ru
 domain:dyt.net
+domain:e2click.com
 domain:e705.net
 domain:eachdayisagift.review
 domain:eandsgallery.com
@@ -1290,6 +1355,7 @@ domain:e-kwiaciarz.pl
 domain:eladkarako.com
 domain:eladkarako.github.io
 domain:eldiariodeguadalajara.com
+domain:election.interferencer.ru
 domain:electricwheelchairsarea.com
 domain:electrik-avenue.com
 domain:electronicadirect.com
@@ -1324,6 +1390,7 @@ domain:elitepcgames.com
 domain:elitesportsadvisor.com
 domain:elkacentr.ru
 domain:elmacho.xyz
+domain:elmifarhangi.com
 domain:el-nation.com
 domain:eloconcream.blogspot.com
 domain:eloxal.ru
@@ -1445,6 +1512,7 @@ domain:ezigaretteshop2.mywapblog.com
 domain:ezigaretteshop2.vefblog.net
 domain:ezigaretteshop.webs.com
 domain:ezofest.sk
+domain:ezrvrentals.com
 domain:f00kclan.de
 domain:f012.de
 domain:f07.de
