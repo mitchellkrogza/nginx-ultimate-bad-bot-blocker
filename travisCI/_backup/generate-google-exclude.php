@@ -6,15 +6,11 @@
      * MIT License
      * Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
      */
-namespace mitchellkrogza;
-
-use Mso\IdnaConvert\IdnaConvert;
-
-class Generator
+class Generate
 {
+    
     private $projectUrl = "https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker";
-
-	public function generateFiles()
+    public function generateFiles()
     {
         date_default_timezone_set('Africa/Johannesburg');
         $date = date('Y-m-d H:i:s');
@@ -22,12 +18,11 @@ class Generator
         $this->createGoogleExclude($lines);
     }
     /**
-     * Open our input domain list and create our array
      * @return array
      */
     public function domainWorker()
     {
-        $domainsFile = __DIR__ . "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_generator_lists/bad-referrers.list";
+        $domainsFile = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_generator_lists/bad-referrers.list";
         $handle = fopen($domainsFile, "r");
         if (!$handle) {
             throw new \RuntimeException('Error opening file ' . $domainsFile);
@@ -55,24 +50,22 @@ class Generator
         }
         return $lines;
     }
-
-	/**
-     * Write to File Function
-     * @param $filename
+    /**
+     * @param $file
      * @param $data
      */
-    protected function writeToFile($filename, $data)
+    protected function writeToFile($file, $data)
     {
-    $file = __DIR__ . "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/$filename";
-	$handle = fopen($file, 'w') or die('Cannot open file:  '.$file);
-	fwrite($handle, $data);
+        if (is_writable($file)) {
+            file_put_contents($file, $data);
+            if (!chmod($file, 0755)) {
+                trigger_error("Couldn't not set " . basename($file) . " permissions to 755");
+            }
+        } else {
+            trigger_error("Permission denied");
+        }
     }
-
-    /**
-     * Create Google Exclude Files Splitting them at Google's 30,000 Character Limit
-     * @param $lines
-     */
-	public function createGoogleExclude(array $lines)
+    public function createGoogleExclude(array $lines)
     {
         $regexLines = [];
         foreach ($lines as $line) {
@@ -81,19 +74,25 @@ class Generator
         $data = implode('|', $regexLines);
         $googleLimit = 30000;
         $dataLength = strlen($data);
+        // keep track of the last split
         $lastPosition = 0;
         for ($x = 1; $lastPosition < $dataLength; $x++) {
+            // already in the boundary limits?
             if( ($dataLength-$lastPosition) >= $googleLimit){
+                // search for the last occurence of | in the boundary limits
                 $pipePosition = strrpos(substr($data, $lastPosition, $googleLimit), '|');
                 $dataSplit = substr($data, $lastPosition, $pipePosition);
+                // without trailing pipe at the beginning of next round
                 $lastPosition = $lastPosition + $pipePosition+1;
             }else{
+                // Rest of the regex (no pipe at the end)
                 $dataSplit = substr($data, $lastPosition);
                 $lastPosition = $dataLength; // Break
             }
-            $this->writeToFile('google-exclude-0' . $x . '.txt', $dataSplit);
+            $file = '/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/google-exclude-0' . $x . '.txt';
+            $this->writeToFile($file, $dataSplit);
         }
     }
 }
-$generator = new Generator();
+$generator = new Generate();
 $generator->generateFiles();
