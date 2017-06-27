@@ -63,7 +63,7 @@ class Generator
      */
     protected function writeToFile($filename, $data)
     {
-    $file = __DIR__ . "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/$filename";
+    $file = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/$filename";
 	$handle = fopen($file, 'w') or die('Cannot open file:  '.$file);
 	fwrite($handle, $data);
     }
