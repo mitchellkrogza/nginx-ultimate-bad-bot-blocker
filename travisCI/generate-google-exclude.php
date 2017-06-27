@@ -27,7 +27,7 @@ class Generator
      */
     public function domainWorker()
     {
-        $domainsFile = __DIR__ . "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_generator_lists/bad-referrers.list";
+        $domainsFile = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_generator_lists/bad-referrers.list";
         $handle = fopen($domainsFile, "r");
         if (!$handle) {
             throw new \RuntimeException('Error opening file ' . $domainsFile);
