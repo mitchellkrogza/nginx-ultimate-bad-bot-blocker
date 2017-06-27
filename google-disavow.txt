@@ -985,6 +985,7 @@ domain:clevernt.com
 domain:clgrmgds.com
 domain:clickaider.com
 domain:clickhype.com
+domain:clickintext.net
 domain:clickpapa.com
 domain:clickso.com
 domain:clicksor.com
@@ -1322,6 +1323,7 @@ domain:easycommerce.cf
 domain:easync.io
 domain:easyshoppermac.com
 domain:easytuningshop.ru
+domain:easyukraine.com
 domain:eat.besplatno-skachat-washington.bid
 domain:e-avon.ru
 domain:e-biznes.info
@@ -3487,6 +3489,7 @@ domain:quangcaons.com
 domain:quebec-bin.com
 domain:queen.sim-com.ru
 domain:quelle.ru
+domain:questionmarque.ch
 domain:quickbuck.com
 domain:quickloanbank.com
 domain:quick-offer.com
@@ -4774,6 +4777,7 @@ domain:winwotgold.pl
 domain:winx-play.ru
 domain:wiosenny-bon-1500.pl
 domain:witherrom55.eklablog.fr
+domain:withstandingheartwarming.com
 domain:w-journal.ru
 domain:wma-x.com
 domain:wnoz.de
