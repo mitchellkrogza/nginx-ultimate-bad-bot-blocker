@@ -33,14 +33,6 @@ install:
 
 script:
   - travisCI/install-nginx.sh
-  - curl -vsf 'http://localhost:9000/index.php' &> /dev/stdout
-  - curl -A "googlebot" http://localhost:9000/index.php &> /dev/stdout
-  - curl -A "bingbot" http://localhost:9000/index.php &> /dev/stdout
-  - curl -I http://localhost:9000/index.php -e http://google.com
-  - STATUSCODE=$(curl -A "80legs" http://localhost:9000/index.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
-  - STATUSCODE=$(curl -A "masscan" http://localhost:9000/index.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
-  - STATUSCODE=$(curl -I http://localhost:9000/index.php -e http://100dollars-seo.com &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
-  - STATUSCODE=$(curl -I http://localhost:9000/index.php -e http://zx6.ru &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE 52; then exit 0; fi
   - travisCI/run-curl-tests.sh
   - travisCI/modify-files-and-commit.sh
 
