@@ -407,6 +407,7 @@ rm $_inputdb10
 LASTUPDATEIFS=$IFS
 IFS=$'\n'
 now="$(date)"
+end=$(date +%s.%N)    
 echo $_startmarker >> $_tmpnginxA
 printf "###################################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n###################################################\n" >> $_tmpnginxA
 echo $_endmarker  >> $_tmpnginxA
