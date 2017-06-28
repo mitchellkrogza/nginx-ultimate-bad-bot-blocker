@@ -4,9 +4,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2017.06.619
-### Updated: Tue Jun 27 15:49:01 SAST 2017
-### Bad Referrer Count: 5072
+### Version: V3.2017.06.620
+### Updated: Wed Jun 28 10:11:08 SAST 2017
+### Bad Referrer Count: 4990
 ### Bad Bot Count: 480
 ###################################################
 ### Version Information ##
@@ -856,7 +856,6 @@ map $http_referer $bad_referer {
 	"~*100searchengines.com"		1;
 	"~*101billion.com"		1;
 	"~*101flag.ru"		1;
-	"~*101imagedatabase.com"		1;
 	"~*101lesbian.xyz"		1;
 	"~*101raccoon.ru"		1;
 	"~*108shot.com"		1;
@@ -870,7 +869,6 @@ map $http_referer $bad_referer {
 	"~*12bet.com"		1;
 	"~*12masterov.com"		1;
 	"~*1314dh.com"		1;
-	"~*160117rd.xyz"		1;
 	"~*178evakuator178.ru"		1;
 	"~*1-99seo.com"		1;
 	"~*1adult.com"		1;
@@ -911,7 +909,6 @@ map $http_referer $bad_referer {
 	"~*3xforum.ro"		1;
 	"~*40cg.com"		1;
 	"~*45en.ru"		1;
-	"~*45tahunkhongguan.com"		1;
 	"~*4istoshop.com"		1;
 	"~*4k-player.pl"		1;
 	"~*4kplayer.pl"		1;
@@ -958,7 +955,6 @@ map $http_referer $bad_referer {
 	"~*9med.net"		1;
 	"~*a14download.com"		1;
 	"~*a1security.com.ua"		1;
-	"~*a342ae9750004b14b55f7310eff0ab65.com"		1;
 	"~*aa08daf7e13b6345e09e92f771507fa5f4.com"		1;
 	"~*aa14ab57a3339c4064bd9ae6fad7495b5f.com"		1;
 	"~*aa625d84f1587749c1ab011d6f269f7d64.com"		1;
@@ -976,12 +972,8 @@ map $http_referer $bad_referer {
 	"~*aarbur.com"		1;
 	"~*aaronabel.com"		1;
 	"~*abbanreddy.com"		1;
-	"~*abbp1.website"		1;
-	"~*abcdefh.xyz"		1;
-	"~*abcdeg.xyz"		1;
 	"~*abclauncher.com"		1;
 	"~*abctoppictures.net"		1;
-	"~*abc.xyz"		1;
 	"~*abiente.ru"		1;
 	"~*abovetherivernc.com"		1;
 	"~*absolutelyanalog.com"		1;
@@ -999,7 +991,6 @@ map $http_referer $bad_referer {
 	"~*acortarurl.es"		1;
 	"~*actionnooz.com"		1;
 	"~*activepr.ru"		1;
-	"~*actremage.com"		1;
 	"~*actulite.com"		1;
 	"~*acunetix-referrer.com"		1;
 	"~*adamoads.com"		1;
@@ -1060,7 +1051,6 @@ map $http_referer $bad_referer {
 	"~*adviceforum.info"		1;
 	"~*advocatemsk.ru"		1;
 	"~*advokateg.ru"		1;
-	"~*advokateg.xyz"		1;
 	"~*ad-words.ru"		1;
 	"~*adzerg.com"		1;
 	"~*adzpower.com"		1;
@@ -1103,7 +1093,6 @@ map $http_referer $bad_referer {
 	"~*alert-jdh.xyz"		1;
 	"~*alessandraleone.com"		1;
 	"~*alfa9.com"		1;
-	"~*alfabot.xyz"		1;
 	"~*alfa-img.com"		1;
 	"~*alfa-medosmotr.ru"		1;
 	"~*alfapro.ru"		1;
@@ -1244,7 +1233,6 @@ map $http_referer $bad_referer {
 	"~*arendas.net"		1;
 	"~*arendatora.ru"		1;
 	"~*arenda-yeisk.ru"		1;
-	"~*arendovalka.xyz"		1;
 	"~*arewater.com"		1;
 	"~*arkartex.ru"		1;
 	"~*arkkivoltti.net"		1;
@@ -1408,7 +1396,6 @@ map $http_referer $bad_referer {
 	"~*bcmp.org"		1;
 	"~*bdsmgalls.net"		1;
 	"~*beachpics.com"		1;
-	"~*beamfall.info"		1;
 	"~*beauby.ru"		1;
 	"~*beauty-b0x.pl"		1;
 	"~*beauty-bracelet.com"		1;
@@ -1417,7 +1404,6 @@ map $http_referer $bad_referer {
 	"~*becuo.com"		1;
 	"~*bedandbreakfast.com"		1;
 	"~*bedcapdealers.com"		1;
-	"~*begalka.xyz"		1;
 	"~*belinka.com.ua"		1;
 	"~*belinvestdom.by"		1;
 	"~*belstaffstore.online"		1;
@@ -1464,7 +1450,6 @@ map $http_referer $bad_referer {
 	"~*betwinservice.com"		1;
 	"~*beyan.host.sk"		1;
 	"~*bezcmexa.ru"		1;
-	"~*bezlimitko.xyz"		1;
 	"~*bezsporno.ru"		1;
 	"~*beztuberkuleza.ru"		1;
 	"~*bfz.biz"		1;
@@ -1497,7 +1482,6 @@ map $http_referer $bad_referer {
 	"~*birzha-truda.eu"		1;
 	"~*bitcoinpile.com"		1;
 	"~*bitcoins-live.ru"		1;
-	"~*biteg.xyz"		1;
 	"~*bitporno.sx"		1;
 	"~*bizcheapjerseyswholesalechina.com"		1;
 	"~*bizfly.info"		1;
@@ -1549,7 +1533,6 @@ map $http_referer $bad_referer {
 	"~*boleznikogi.com"		1;
 	"~*bolezniorganov.ru"		1;
 	"~*bolitgorlo.net"		1;
-	"~*boltalko.xyz"		1;
 	"~*bombla.org"		1;
 	"~*bonanza-fortune.men"		1;
 	"~*bongacams.com"		1;
@@ -1573,7 +1556,6 @@ map $http_referer $bad_referer {
 	"~*braip.com.br"		1;
 	"~*brakehawk.com"		1;
 	"~*brandov.ru"		1;
-	"~*brateg.xyz"		1;
 	"~*break-the-chains.com"		1;
 	"~*breastaugmentation.co.za"		1;
 	"~*breget74.ru"		1;
@@ -1652,7 +1634,6 @@ map $http_referer $bad_referer {
 	"~*cactussoft.biz"		1;
 	"~*cakemediahq.com.au"		1;
 	"~*cakesplus.com.au"		1;
-	"~*cakics.com"		1;
 	"~*calc-for-credit.ru"		1;
 	"~*calcularpagerank.com"		1;
 	"~*californianews.cf"		1;
@@ -1677,7 +1658,6 @@ map $http_referer $bad_referer {
 	"~*candypeople.se"		1;
 	"~*candytiner.com"		1;
 	"~*canoncdriverq3.pen.io"		1;
-	"~*canphotograph.com"		1;
 	"~*canrole.com"		1;
 	"~*canyougethighofftizanidine.blogspot.com"		1;
 	"~*canzoni.ru"		1;
@@ -1693,7 +1673,6 @@ map $http_referer $bad_referer {
 	"~*carloans.com"		1;
 	"~*carmuffler.net"		1;
 	"~*carsdined.org"		1;
-	"~*carsoncitypizza.com"		1;
 	"~*carson.getenjoyment.net"		1;
 	"~*carsplate.com"		1;
 	"~*cartechnic.ru"		1;
@@ -1725,7 +1704,6 @@ map $http_referer $bad_referer {
 	"~*cbb1smartlist12.click"		1;
 	"~*cbcseward.com"		1;
 	"~*cbox.ws"		1;
-	"~*cbys.tk"		1;
 	"~*ccbill.com"		1;
 	"~*cctva.tv"		1;
 	"~*cdncash.com"		1;
@@ -1773,7 +1751,6 @@ map $http_referer $bad_referer {
 	"~*cheapmarmot.online"		1;
 	"~*cheapmoncler.pw"		1;
 	"~*cheapmoncler.win"		1;
-	"~*cheappatagonia.online"		1;
 	"~*cheap-pills-norx.com"		1;
 	"~*cheapsergiorossi.online"		1;
 	"~*cheatcode-lita12.rhcloud.com"		1;
@@ -1782,7 +1759,6 @@ map $http_referer $bad_referer {
 	"~*checkpagerank.net"		1;
 	"~*checktext.org"		1;
 	"~*chee-by.biz"		1;
-	"~*cheerlemage.com"		1;
 	"~*chelnytruck.ru"		1;
 	"~*chelyabinsk.xrus.org"		1;
 	"~*cherrypointplace.ca"		1;
@@ -1827,7 +1803,6 @@ map $http_referer $bad_referer {
 	"~*clayvasedesigns.tk"		1;
 	"~*clean-virus-mac.com"		1;
 	"~*clevernt.com"		1;
-	"~*clgrmgds.com"		1;
 	"~*clickaider.com"		1;
 	"~*clickhype.com"		1;
 	"~*clickintext.net"		1;
@@ -1836,7 +1811,6 @@ map $http_referer $bad_referer {
 	"~*clicksor.com"		1;
 	"~*clicksor.net"		1;
 	"~*clicksotrk.com"		1;
-	"~*clinchimage.com"		1;
 	"~*clipartnew.com"		1;
 	"~*clips.ua.ac.be"		1;
 	"~*clksite.com"		1;
@@ -1912,7 +1886,6 @@ map $http_referer $bad_referer {
 	"~*coolbar.pro"		1;
 	"~*coolgramgoods.com"		1;
 	"~*coolingoods.com"		1;
-	"~*coolinstagoods.com"		1;
 	"~*coolwallpapers-hd.com"		1;
 	"~*cool-wedding.net"		1;
 	"~*coop-gamers.ru"		1;
@@ -1959,7 +1932,6 @@ map $http_referer $bad_referer {
 	"~*cubs-jerseys.us"		1;
 	"~*culturevie.info"		1;
 	"~*cupday.com"		1;
-	"~*curatorimages.com"		1;
 	"~*custodieva.ru"		1;
 	"~*customboxes4less.com"		1;
 	"~*customcatchcan.com"		1;
@@ -2013,7 +1985,6 @@ map $http_referer $bad_referer {
 	"~*deadlinkchecker.com"		1;
 	"~*dealighted.com"		1;
 	"~*dealitright.click"		1;
-	"~*dealright.click"		1;
 	"~*dealwifi.com"		1;
 	"~*deanmoore.ie"		1;
 	"~*dear-diary.ru"		1;
@@ -2100,7 +2071,6 @@ map $http_referer $bad_referer {
 	"~*dogbreedspicture.net"		1;
 	"~*dogclothing.store"		1;
 	"~*dogoimage.com"		1;
-	"~*dogsrun.net"		1;
 	"~*dojki-hd.com"		1;
 	"~*dokfilms.net"		1;
 	"~*doktoronline.no"		1;
@@ -2169,7 +2139,6 @@ map $http_referer $bad_referer {
 	"~*easyshoppermac.com"		1;
 	"~*easytuningshop.ru"		1;
 	"~*easyukraine.com"		1;
-	"~*eat.besplatno-skachat-washington.bid"		1;
 	"~*e-avon.ru"		1;
 	"~*e-biznes.info"		1;
 	"~*e-buyeasy.com"		1;
@@ -2179,14 +2148,12 @@ map $http_referer $bad_referer {
 	"~*e-commerce-seo.com"		1;
 	"~*ecommerce-seo.com"		1;
 	"~*ecommerce-seo.org"		1;
-	"~*ecomp3.ru"		1;
 	"~*econom.co"		1;
 	"~*ecookna.com.ua"		1;
 	"~*ecxtracking.com"		1;
 	"~*edelstahlschornstein-123.de"		1;
 	"~*editmedios.com"		1;
 	"~*ed-shop01.ru"		1;
-	"~*edshopping.net"		1;
 	"~*education-cz.ru"		1;
 	"~*ee77ee.com"		1;
 	"~*efkt.jp"		1;
@@ -2264,14 +2231,12 @@ map $http_referer $bad_referer {
 	"~*enskedesquashclub.se"		1;
 	"~*enternet.ee"		1;
 	"~*envaseslotusama.com"		1;
-	"~*enviromusic.net"		1;
 	"~*eonpal.com"		1;
 	"~*eorogo.top"		1;
 	"~*epicbrogaming.com"		1;
 	"~*epngo.bz"		1;
 	"~*e-poker-2005.com"		1;
 	"~*eralph.tk"		1;
-	"~*erank.eu"		1;
 	"~*erectile.bid"		1;
 	"~*eredijovon.com"		1;
 	"~*ereko.ru"		1;
@@ -2297,7 +2262,6 @@ map $http_referer $bad_referer {
 	"~*essayservicewriting.org"		1;
 	"~*este-line.com.ua"		1;
 	"~*estibot.com"		1;
-	"~*etr-interac.com"		1;
 	"~*eu-cookie-law.blogspot.com"		1;
 	"~*eu-cookie-law.info"		1;
 	"~*eugenevaultstorage.com"		1;
@@ -2381,7 +2345,6 @@ map $http_referer $bad_referer {
 	"~*fantasticpixcool.com"		1;
 	"~*faptitans.com"		1;
 	"~*faracontrol.ir"		1;
-	"~*fark.com"		1;
 	"~*farm26.ru"		1;
 	"~*farmingworm.com"		1;
 	"~*farmprofi.net"		1;
@@ -2473,12 +2436,10 @@ map $http_referer $bad_referer {
 	"~*floridahuntingfishingadventures.com"		1;
 	"~*floridamhca.org"		1;
 	"~*florida-tourism.net"		1;
-	"~*flowecs.com"		1;
 	"~*flowersbazar.com"		1;
 	"~*flowwwers.com"		1;
 	"~*flprog.com"		1;
 	"~*flytourisme.org"		1;
-	"~*flzhiguan.com"		1;
 	"~*fm-upgrade.ru"		1;
 	"~*focalink.com"		1;
 	"~*fodelsedagspresenter.nu"		1;
@@ -2563,7 +2524,6 @@ map $http_referer $bad_referer {
 	"~*frvo.alptandem.ru"		1;
 	"~*fsakhalin.ru"		1;
 	"~*fsalas.com"		1;
-	"~*fspys.pl"		1;
 	"~*ftns.ru"		1;
 	"~*fuckmill.com"		1;
 	"~*fuel-gas.com"		1;
@@ -2577,12 +2537,10 @@ map $http_referer $bad_referer {
 	"~*funnypica.com"		1;
 	"~*funponsel.com"		1;
 	"~*funtoonez.com"		1;
-	"~*fuparj.net"		1;
 	"~*futbolkisales.ru"		1;
 	"~*fx-brokers-review.com"		1;
 	"~*fxgallery.com"		1;
 	"~*fxtips.ru"		1;
-	"~*fyh.net.ru"		1;
 	"~*fyl.com.ru"		1;
 	"~*fym.com.ru"		1;
 	"~*g33.org"		1;
@@ -2655,7 +2613,6 @@ map $http_referer $bad_referer {
 	"~*getpopunder.com"		1;
 	"~*getprismatic.com"		1;
 	"~*getresponse.com"		1;
-	"~*getrichquickly.info"		1;
 	"~*get-seo-domain.com"		1;
 	"~*get-your-social-buttons.info"		1;
 	"~*gfaq.ru"		1;
@@ -2798,7 +2755,6 @@ map $http_referer $bad_referer {
 	"~*handicapbathtubarea.com"		1;
 	"~*handicapvansarea.com"		1;
 	"~*handicapvantoday.com"		1;
-	"~*handmadepics.net"		1;
 	"~*handsandlegs.ru"		1;
 	"~*hanink.biz.ly"		1;
 	"~*hasfun.com"		1;
@@ -2816,8 +2772,6 @@ map $http_referer $bad_referer {
 	"~*hdfreeporno.net"		1;
 	"~*hdimagegallery.net"		1;
 	"~*hdimagelib.com"		1;
-	"~*hdmoviecamera.net"		1;
-	"~*hdmoviecams.com"		1;
 	"~*hdpixent.com"		1;
 	"~*hdpixion.com"		1;
 	"~*hdseriale.pl"		1;
@@ -2831,11 +2785,9 @@ map $http_referer $bad_referer {
 	"~*healmytrauma.info"		1;
 	"~*heartofbeijing.blogspot.com"		1;
 	"~*heatpower.ru"		1;
-	"~*hebozqzu.net.ua"		1;
 	"~*hebr.myddns-flir.com"		1;
 	"~*helicalpile.us"		1;
 	"~*heliko.no"		1;
-	"~*hellokittyimg.com"		1;
 	"~*helpmymacfaster.trade"		1;
 	"~*helvetia.com.ua"		1;
 	"~*hem.passagen.se"		1;
@@ -2864,7 +2816,6 @@ map $http_referer $bad_referer {
 	"~*hitsbox.info"		1;
 	"~*hiwibyh.bugs3.com"		1;
 	"~*hjaoopoa.top"		1;
-	"~*hjb.net.ru"		1;
 	"~*hkdiiohi.skyrock.com"		1;
 	"~*hkladys.com"		1;
 	"~*hledejvshopech.cz"		1;
@@ -2889,7 +2840,6 @@ map $http_referer $bad_referer {
 	"~*hopeonthestreet.co.uk"		1;
 	"~*hoporno.com"		1;
 	"~*horoshieokna.com"		1;
-	"~*horseimg.com"		1;
 	"~*hostcritique.com"		1;
 	"~*hoste.octopis.com"		1;
 	"~*hostingclub.lk"		1;
@@ -2958,7 +2908,6 @@ map $http_referer $bad_referer {
 	"~*ictizanidinehcl4mg.blogspot.com"		1;
 	"~*idc.com.ua"		1;
 	"~*idealtits.net"		1;
-	"~*ideaspicz.com"		1;
 	"~*ideawheel.com"		1;
 	"~*idegenvezeto.eu"		1;
 	"~*ideibiznesa2015.ru"		1;
@@ -2989,7 +2938,6 @@ map $http_referer $bad_referer {
 	"~*imfamous.info"		1;
 	"~*imgarcade.com"		1;
 	"~*imgata.com"		1;
-	"~*imgresult.com"		1;
 	"~*iminent.com"		1;
 	"~*imitex-plus.ru"		1;
 	"~*immobiliaremassaro.com"		1;
@@ -3010,7 +2958,6 @@ map $http_referer $bad_referer {
 	"~*indianmedicaltourismshop.com"		1;
 	"~*indiasourcemart.in"		1;
 	"~*indo-export.ru"		1;
-	"~*inductionc2oktop.com"		1;
 	"~*inet-traffic.com"		1;
 	"~*infazavr.ru"		1;
 	"~*infobabki.ru"		1;
@@ -3281,7 +3228,6 @@ map $http_referer $bad_referer {
 	"~*la-fa.ru"		1;
 	"~*lafourmiliaire.com"		1;
 	"~*lafriore.ru"		1;
-	"~*lakesimg.com"		1;
 	"~*lampokrat.ws"		1;
 	"~*lanadelreyfans.us"		1;
 	"~*lanasshop.ru"		1;
@@ -3315,7 +3261,6 @@ map $http_referer $bad_referer {
 	"~*ledpolice.ru"		1;
 	"~*legalrc.biz"		1;
 	"~*lego4x4.ru"		1;
-	"~*legoimg.com"		1;
 	"~*lenvred.org"		1;
 	"~*lernur.net"		1;
 	"~*lesbian.xyz"		1;
@@ -3416,7 +3361,6 @@ map $http_referer $bad_referer {
 	"~*lovelycraftyhome.com"		1;
 	"~*lowephotos.info"		1;
 	"~*low-format.ru"		1;
-	"~*lqtigi.net.ru"		1;
 	"~*lsex.xyz"		1;
 	"~*ltvperf.com"		1;
 	"~*lubetube.com"		1;
@@ -3427,7 +3371,6 @@ map $http_referer $bad_referer {
 	"~*luxup.ru"		1;
 	"~*lyngdalhudterapi.no"		1;
 	"~*lyrster.com"		1;
-	"~*lyzqp.net.ru"		1;
 	"~*m0r0zk0-krava.ru"		1;
 	"~*m1media.net"		1;
 	"~*m3gadownload.pl"		1;
@@ -3436,7 +3379,6 @@ map $http_referer $bad_referer {
 	"~*mabdoola.blogspot.com"		1;
 	"~*macdamaged.space"		1;
 	"~*macdamaged.tech"		1;
-	"~*mac-helper.site"		1;
 	"~*mackeeper-center.club"		1;
 	"~*mackeeper-land-672695126.us-east-1.elb.amazonaws.com"		1;
 	"~*macnewtech.com"		1;
@@ -3498,7 +3440,6 @@ map $http_referer $bad_referer {
 	"~*matematikus.info"		1;
 	"~*mathgym.com.au"		1;
 	"~*mature.free-websites.com"		1;
-	"~*mawemik.com"		1;
 	"~*max-eclat.men"		1;
 	"~*maximilitary.ru"		1;
 	"~*maxthon.com"		1;
@@ -3599,11 +3540,9 @@ map $http_referer $bad_referer {
 	"~*missclub.info"		1;
 	"~*missvietnam.org"		1;
 	"~*misswell.net"		1;
-	"~*misswootwoot.com"		1;
 	"~*misterjtbarbers.com"		1;
 	"~*mister-shop.com"		1;
 	"~*mistr-x.org"		1;
-	"~*mitcdoforumwest.org"		1;
 	"~*mitrasound.ru"		1;
 	"~*mixed-wrestling.ru"		1;
 	"~*mixtapetorrent.com"		1;
@@ -3616,7 +3555,6 @@ map $http_referer $bad_referer {
 	"~*mmstat.com"		1;
 	"~*mncrftpcs.com"		1;
 	"~*mnogabukaff.net"		1;
-	"~*mnprs.com"		1;
 	"~*mobilemedia.md"		1;
 	"~*mobilierland.com"		1;
 	"~*mobioffertrck.com"		1;
@@ -3674,7 +3612,6 @@ map $http_referer $bad_referer {
 	"~*most-kerch.org"		1;
 	"~*mototsikl.org"		1;
 	"~*mountainstream.ms"		1;
-	"~*movaimg.com"		1;
 	"~*moviemail-online.co.uk"		1;
 	"~*movies-in-theaters.net"		1;
 	"~*moviezbonkerssk.cf"		1;
@@ -3702,7 +3639,6 @@ map $http_referer $bad_referer {
 	"~*mulberryoutletonlineeu.com"		1;
 	"~*mundoaberrante.com"		1;
 	"~*muschisexbilder.com"		1;
-	"~*muscle-factory.com.ua"		1;
 	"~*musezone.ru"		1;
 	"~*musezone.su"		1;
 	"~*musicas.baixar-musicas-gratis.com"		1;
@@ -3820,7 +3756,6 @@ map $http_referer $bad_referer {
 	"~*nibbler.silktide.com"		1;
 	"~*nicefloor.co.uk"		1;
 	"~*nicovideo.jp"		1;
-	"~*nigcongvetua.servepics.com"		1;
 	"~*nightvision746.weebly.com"		1;
 	"~*niki-mlt.ru"		1;
 	"~*nikitsyringedrivelg.pen.io"		1;
@@ -3832,7 +3767,6 @@ map $http_referer $bad_referer {
 	"~*noclegonline.info"		1;
 	"~*nodup.ru"		1;
 	"~*nofreezingmac.work"		1;
-	"~*nogyneg.net.ua"		1;
 	"~*nonews.co"		1;
 	"~*nootrino.com"		1;
 	"~*nordstar.pro"		1;
@@ -3969,7 +3903,6 @@ map $http_referer $bad_referer {
 	"~*otbelivanie-zubov.com"		1;
 	"~*ourtherapy.ru"		1;
 	"~*ourville.info"		1;
-	"~*outfitpicz.com"		1;
 	"~*outpersonals.com"		1;
 	"~*outrageousdeal-a.akamaihd.net"		1;
 	"~*outshop.ru"		1;
@@ -3995,7 +3928,6 @@ map $http_referer $bad_referer {
 	"~*panchro.xyz"		1;
 	"~*panouri-solare-acoperis.com"		1;
 	"~*paparazzistudios.com.au"		1;
-	"~*paperics.com"		1;
 	"~*paperwritingservice17.blogspot.ru"		1;
 	"~*paphoselectricianandplumber.com"		1;
 	"~*paradontozanet.ru"		1;
@@ -4011,8 +3943,6 @@ map $http_referer $bad_referer {
 	"~*partner-stop.men"		1;
 	"~*partner-trustworthy.men"		1;
 	"~*partybunny.ru"		1;
-	"~*patagoniaoutlet.online"		1;
-	"~*patagoniastore.online"		1;
 	"~*pathwhelp.org"		1;
 	"~*patol01.pw"		1;
 	"~*pattersonsweb.com"		1;
@@ -4046,7 +3976,6 @@ map $http_referer $bad_referer {
 	"~*perm-profnastil.ru"		1;
 	"~*perm.xrus.org"		1;
 	"~*perosan.com"		1;
-	"~*personalhoro.ru"		1;
 	"~*perso.wanadoo.es"		1;
 	"~*pestomou.info"		1;
 	"~*petedrummond.com"		1;
@@ -4058,13 +3987,6 @@ map $http_referer $bad_referer {
 	"~*pharmacyincity.com"		1;
 	"~*phobia.us"		1;
 	"~*phormchina.com"		1;
-	"~*phormdev.com"		1;
-	"~*phormdiscover.com"		1;
-	"~*phormkorea.com"		1;
-	"~*phormlabs.com"		1;
-	"~*phormprivacy.com"		1;
-	"~*phormservice.com"		1;
-	"~*phormsolution.com"		1;
 	"~*photochki.com"		1;
 	"~*photo.houseofgaga.ru"		1;
 	"~*photokitchendesign.com"		1;
@@ -4106,14 +4028,11 @@ map $http_referer $bad_referer {
 	"~*pixell.club"		1;
 	"~*pixelrz.com"		1;
 	"~*pixgood.com"		1;
-	"~*pixhdawesom.com"		1;
 	"~*pix-hd.com"		1;
-	"~*pixsad.com"		1;
 	"~*pizda.lol"		1;
 	"~*pizdopletka.club"		1;
 	"~*pizza-imperia.com"		1;
 	"~*pizza-tycoon.com"		1;
-	"~*pkmnpcs.com"		1;
 	"~*pk-pomosch.ru"		1;
 	"~*pkr1hand.com"		1;
 	"~*pk-services.ru"		1;
@@ -4132,7 +4051,6 @@ map $http_referer $bad_referer {
 	"~*ploenjitmedia.azurewebsites.net"		1;
 	"~*plohaya-kreditnaya-istoriya.ru"		1;
 	"~*plusnetwork.com"		1;
-	"~*pmk-samara.ru"		1;
 	"~*pobeiranie.pl"		1;
 	"~*pochemychka.net"		1;
 	"~*podshipniki-nsk.ru"		1;
@@ -4148,7 +4066,6 @@ map $http_referer $bad_referer {
 	"~*pokemon-go-play.online"		1;
 	"~*pokerniydom.ru"		1;
 	"~*polcin.de"		1;
-	"~*polj.kz"		1;
 	"~*polybuild.ru"		1;
 	"~*polytopesexempt.com"		1;
 	"~*pomoc-drogowa.cba.pl"		1;
@@ -4172,7 +4089,6 @@ map $http_referer $bad_referer {
 	"~*porngalleries.top"		1;
 	"~*pornhub-forum.ga"		1;
 	"~*pornhubforum.tk"		1;
-	"~*pornhub-forum.uni.me"		1;
 	"~*pornhub-ru.com"		1;
 	"~*pornmania.pl"		1;
 	"~*pornoblood.com"		1;
@@ -4300,7 +4216,6 @@ map $http_referer $bad_referer {
 	"~*pst2017.onlinewebshop.net"		1;
 	"~*psvita.ru"		1;
 	"~*pts163.ru"		1;
-	"~*publiccasinoil.com"		1;
 	"~*pufip.com"		1;
 	"~*pukaporn.com"		1;
 	"~*pulse33.ru"		1;
@@ -4319,7 +4234,6 @@ map $http_referer $bad_referer {
 	"~*pwwysydh.com"		1;
 	"~*pxhdwsm.com"		1;
 	"~*py100.ru"		1;
-	"~*pyno.kz"		1;
 	"~*pyramidlitho.webs.com"		1;
 	"~*pyrodesigns.com.au"		1;
 	"~*qcstrtvt.bloger.index.hr"		1;
@@ -4332,7 +4246,6 @@ map $http_referer $bad_referer {
 	"~*quality-traffic.com"		1;
 	"~*quangcaons.com"		1;
 	"~*quebec-bin.com"		1;
-	"~*queen.sim-com.ru"		1;
 	"~*quelle.ru"		1;
 	"~*questionmarque.ch"		1;
 	"~*quickbuck.com"		1;
@@ -4354,7 +4267,6 @@ map $http_referer $bad_referer {
 	"~*randalljhoward.com"		1;
 	"~*randki-sex.com"		1;
 	"~*rank-checker.online"		1;
-	"~*rankchecker.online"		1;
 	"~*ranking2017.ga"		1;
 	"~*rankingchart.de"		1;
 	"~*rankings-analytics.com"		1;
@@ -4363,7 +4275,6 @@ map $http_referer $bad_referer {
 	"~*ranksignals.com"		1;
 	"~*ranksonic.com"		1;
 	"~*ranksonic.info"		1;
-	"~*ranksonic.net"		1;
 	"~*ranksonic.org"		1;
 	"~*rapevideosmovies.com"		1;
 	"~*rapidgator-porn.ga"		1;
@@ -4417,7 +4328,6 @@ map $http_referer $bad_referer {
 	"~*renecaovilla.online"		1;
 	"~*renecaovillasale.online"		1;
 	"~*renewablewealth.com"		1;
-	"~*rentalmaty.kz"		1;
 	"~*rentehno.ru"		1;
 	"~*repeatlogo.co.uk"		1;
 	"~*replicaclub.ru"		1;
@@ -4499,7 +4409,6 @@ map $http_referer $bad_referer {
 	"~*sad-torg.com.ua"		1;
 	"~*sady-urala.ru"		1;
 	"~*safe-app.net"		1;
-	"~*sahohev.000host.co.uk"		1;
 	"~*saitevpatorii.com"		1;
 	"~*sakhboard.ru"		1;
 	"~*sale-japan.com"		1;
@@ -4527,7 +4436,6 @@ map $http_referer $bad_referer {
 	"~*savememoney.co.za"		1;
 	"~*savetubevideo.com"		1;
 	"~*savingsslider-a.akamaihd.net"		1;
-	"~*savne.org"		1;
 	"~*sawin.beth.webd.pl"		1;
 	"~*sax-sex.com"		1;
 	"~*sayyoethe.blogspot.co.za"		1;
@@ -4611,7 +4519,6 @@ map $http_referer $bad_referer {
 	"~*see-your-website-here.com"		1;
 	"~*segol.tv"		1;
 	"~*seksotur.ru"		1;
-	"~*selfipicz.com"		1;
 	"~*semalt.com"		1;
 	"~*semaltmedia.com"		1;
 	"~*semp.net"		1;
@@ -4641,9 +4548,7 @@ map $http_referer $bad_referer {
 	"~*sergiorossistore.online"		1;
 	"~*serialsway.ucoz.ru"		1;
 	"~*serptehnika.ru"		1;
-	"~*server.popads.net"		1;
 	"~*servethis.com"		1;
-	"~*service.adtech.de"		1;
 	"~*service.adtech.fr"		1;
 	"~*service.adtech.us"		1;
 	"~*service-core.ru"		1;
@@ -4734,7 +4639,6 @@ map $http_referer $bad_referer {
 	"~*signx.info"		1;
 	"~*siha.de"		1;
 	"~*sildenafilcitratemed.com"		1;
-	"~*sildenafilgeneric.xyz"		1;
 	"~*silktide.com"		1;
 	"~*silverage.ru"		1;
 	"~*silvermature.net"		1;
@@ -4771,11 +4675,9 @@ map $http_referer $bad_referer {
 	"~*s-iwantyou.com"		1;
 	"~*sixcooler.de"		1;
 	"~*sizeplus.work"		1;
-	"~*skachat-besplatno-dlja-mobily.ru"		1;
 	"~*skachat-besplatno-obrazcy.ru"		1;
 	"~*skatestick.bid"		1;
 	"~*sk.golden-praga.ru"		1;
-	"~*skhoolimg.com"		1;
 	"~*skincrate.net"		1;
 	"~*sklad-24.ru"		1;
 	"~*skladvaz.ru"		1;
@@ -4794,7 +4696,6 @@ map $http_referer $bad_referer {
 	"~*slkrm.ru"		1;
 	"~*slonechka.ru"		1;
 	"~*slowmacfaster.trade"		1;
-	"~*slowmach.tech"		1;
 	"~*slowmac.tech"		1;
 	"~*sluganarodu.ru"		1;
 	"~*slujbauborki.ru"		1;
@@ -4805,7 +4706,6 @@ map $http_referer $bad_referer {
 	"~*smart-balancewheel.com"		1;
 	"~*smartbalanceworld.com"		1;
 	"~*smartpet.ru"		1;
-	"~*smartphonediscount.info"		1;
 	"~*smart-scripts.com"		1;
 	"~*smartshoppymac.com"		1;
 	"~*smichovbike.cz"		1;
@@ -4880,9 +4780,7 @@ map $http_referer $bad_referer {
 	"~*spacash.com"		1;
 	"~*space4update.pw"		1;
 	"~*space4updating.win"		1;
-	"~*spacebarnot.work"		1;
 	"~*spaceshipad.com"		1;
-	"~*space.skachat-besplatno-dlja-mobily.ru"		1;
 	"~*spammen.de"		1;
 	"~*spasswelt.net"		1;
 	"~*spasswelt.xyz"		1;
@@ -4924,7 +4822,6 @@ map $http_referer $bad_referer {
 	"~*start.myplaycity.com"		1;
 	"~*startufa.ru"		1;
 	"~*startwp.org"		1;
-	"~*starwarspcs.com"		1;
 	"~*statistici.ro"		1;
 	"~*statoutlook.info"		1;
 	"~*stats-public.grammarly.io"		1;
@@ -5009,12 +4906,10 @@ map $http_referer $bad_referer {
 	"~*swiped.su"		1;
 	"~*swsociety.se"		1;
 	"~*sygraem.com"		1;
-	"~*syla.tk"		1;
 	"~*symphonyintegratedhealthcare.com"		1;
 	"~*syvertsen-da.no"		1;
 	"~*szamponrevita.pl"		1;
 	"~*t3chtonic.com"		1;
-	"~*tablepicz.com"		1;
 	"~*tabletkinaodchudzanie.com.pl"		1;
 	"~*taboola.com"		1;
 	"~*tacbelarus.ru"		1;
@@ -5031,12 +4926,10 @@ map $http_referer $bad_referer {
 	"~*tarad.com"		1;
 	"~*tasteidea.com"		1;
 	"~*tastyfoodideas.com"		1;
-	"~*tattogirlspix.com"		1;
 	"~*tattomedia.com"		1;
 	"~*tattoo33.ru"		1;
 	"~*tattooha.com"		1;
 	"~*tattooreligion.ru"		1;
-	"~*tatz.tk"		1;
 	"~*taxidermy4cash.com"		1;
 	"~*taximytishi.ru"		1;
 	"~*taxi-v-eisk.ru"		1;
@@ -5064,12 +4957,10 @@ map $http_referer $bad_referer {
 	"~*telsis.com"		1;
 	"~*template-kid.com"		1;
 	"~*tengohydar.tk"		1;
-	"~*tennis-img.org"		1;
 	"~*terraclicks.com"		1;
 	"~*terrafootwear.us"		1;
 	"~*teslathemes.com"		1;
 	"~*tetracsaudi.com"		1;
-	"~*teur.tk"		1;
 	"~*texbaza.by"		1;
 	"~*textads.men"		1;
 	"~*thaisamkok.com"		1;
@@ -5220,7 +5111,6 @@ map $http_referer $bad_referer {
 	"~*toys.erolove.in"		1;
 	"~*tozup.com"		1;
 	"~*tpu.ru"		1;
-	"~*tqcemyvanj.ua"		1;
 	"~*track112.site"		1;
 	"~*trackmedia101.com"		1;
 	"~*track-rankings.online"		1;
@@ -5389,7 +5279,6 @@ map $http_referer $bad_referer {
 	"~*valueclick.com"		1;
 	"~*vancleefreplica.pw"		1;
 	"~*vandrie-ict.nl"		1;
-	"~*vapmedia.org"		1;
 	"~*vapsy.com"		1;
 	"~*varbergsvind.se"		1;
 	"~*varikoz24.com"		1;
@@ -5398,7 +5287,6 @@ map $http_referer $bad_referer {
 	"~*vasileostrovsky-rayon.ru"		1;
 	"~*vavilone.com"		1;
 	"~*vbabule.net"		1;
-	"~*vc.ru"		1;
 	"~*vduplo.ru"		1;
 	"~*vedomstvo.net"		1;
 	"~*veerotech.com"		1;
@@ -5569,12 +5457,10 @@ map $http_referer $bad_referer {
 	"~*weekes.biz.tc"		1;
 	"~*weightatraining.com"		1;
 	"~*wejdz-tu.pl"		1;
-	"~*wejhdw73273666zx1.com"		1;
 	"~*welck.octopis.com"		1;
 	"~*welcomeauto.ru"		1;
 	"~*wellcome2slovenia.ru"		1;
 	"~*wemarketing.se"		1;
-	"~*wenimage.com"		1;
 	"~*weprik.ru"		1;
 	"~*wesharepics.com"		1;
 	"~*wesharepics.info"		1;
@@ -5584,7 +5470,6 @@ map $http_referer $bad_referer {
 	"~*westum.se"		1;
 	"~*westvilletowingservices.co.za"		1;
 	"~*wetgames.ru"		1;
-	"~*wewehd7e6333xx.com"		1;
 	"~*whatistizanidine2mg.blogspot.com"		1;
 	"~*whatistizanidinehclusedfor.blogspot.com"		1;
 	"~*whatsappdownload10.com"		1;
@@ -5630,7 +5515,6 @@ map $http_referer $bad_referer {
 	"~*woman-h.ru"		1;
 	"~*woman-orgasm.ru"		1;
 	"~*woman-tampon.ru"		1;
-	"~*womenpics.net"		1;
 	"~*womens-journal.net"		1;
 	"~*womensplay.net"		1;
 	"~*womensterritory.ru"		1;
@@ -5747,11 +5631,9 @@ map $http_referer $bad_referer {
 	"~*xnxxandxvideos.com"		1;
 	"~*xnxx-n.com"		1;
 	"~*xolodremont.ru"		1;
-	"~*xoxcenter.com"		1;
 	"~*x-porno.video"		1;
 	"~*xportvusbdriver8i.snack.ws"		1;
 	"~*xpresscare.ru"		1;
-	"~*x.rafomedia.com"		1;
 	"~*x-rates.ru"		1;
 	"~*xrus.org"		1;
 	"~*xsion.net"		1;
@@ -5799,7 +5681,6 @@ map $http_referer $bad_referer {
 	"~*yougotanewdomain.com"		1;
 	"~*youjizz.vc"		1;
 	"~*youporn-forum.ga"		1;
-	"~*youporn-forum.uni.me"		1;
 	"~*youporn-ru.com"		1;
 	"~*youradexchange.com"		1;
 	"~*yourads.website"		1;
@@ -5817,7 +5698,6 @@ map $http_referer $bad_referer {
 	"~*you-shall-not-pass.is74.ru"		1;
 	"~*youtoner.it"		1;
 	"~*youtubedownload.org"		1;
-	"~*yuantuo.co.jp"		1;
 	"~*yuarra.pluto.ro"		1;
 	"~*yubikk.info"		1;
 	"~*yugk.net"		1;
@@ -5882,7 +5762,6 @@ map $http_referer $bad_referer {
 	"~*zigarettenonlinekaufen.tumblr.com"		1;
 	"~*zigzog.ru"		1;
 	"~*zionstar.net"		1;
-	"~*zjnylubiv.ru"		1;
 	"~*zkjovpdgxivg.ga"		1;
 	"~*zlatnajesen.com"		1;
 	"~*z-master.ru"		1;
@@ -5897,7 +5776,6 @@ map $http_referer $bad_referer {
 	"~*zolotoy-lis.ru"		1;
 	"~*zona-aqua.ru"		1;
 	"~*zone-kev717.info"		1;
-	"~*zonjwag.com"		1;
 	"~*zoolubimets.ru"		1;
 	"~*zoominfo.com"		1;
 	"~*zophim.me"		1;
@@ -5913,7 +5791,6 @@ map $http_referer $bad_referer {
 	"~*zx6.ru"		1;
 	"~*zytpirwai.net"		1;
 	"~*zzbroya.com.ua"		1;
-	"~*zzqrt.com"		1;
 # END BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###
 
 }
