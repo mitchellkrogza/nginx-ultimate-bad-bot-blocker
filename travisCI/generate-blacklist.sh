@@ -408,13 +408,7 @@ LASTUPDATEIFS=$IFS
 IFS=$'\n'
 now="$(date)"
 echo $_versionmarkerstart >> $_tmpnginxA
-#printf "###################################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n###################################################\n" >> $_tmpnginxA
-
-printf "###################################################\n### Version: "$MY_GIT_TAG"\n" >> $_tmpnginxA
-printf "### Updated: "$now"\n" >> $_tmpnginxA
-printf "### Bad Referrer Count: "$BAD_REFERRERS"\n" >> $_tmpnginxA
-printf "### Bad Bot Count: "$BAD_BOTS"\n###################################################\n" >> $_tmpnginxA
-
+printf "###################################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n###################################################\n" >> $_tmpnginxA
 echo $_versionmarkerend  >> $_tmpnginxA
 IFS=$LASTUPDATEIFS
 mv $_tmpnginxA $_inputdbA
