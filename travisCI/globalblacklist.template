@@ -4,10 +4,7 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.06.628
-### Updated: Wed Ju### Bad Referrer Count: 4947
-### Bad Bot Count: 480
-###################################################
+### Version: V3.2017.06.630
 ### VERSION INFORMATION ##
 
 ### This file implements a checklist / blacklist for good user agents, bad user agents and
@@ -140,6 +137,7 @@ map $http_user_agent $bad_bot {
 # END GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 # END GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 # END GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+# END GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 
 # **************************************************
 # User-Agent Strings Allowed Throug but Rate Limited
@@ -148,6 +146,7 @@ map $http_user_agent $bad_bot {
 # I allow libwww-perl as I use it for monitoring systems with Munin but it is rate limited
 
 # START ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+# END ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 # END ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 # END ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 # END ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
@@ -166,6 +165,7 @@ map $http_user_agent $bad_bot {
 # END LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 # END LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 # END LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+# END LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 		
 # *********************************************
 # Bad User-Agent Strings That We Block Outright
@@ -174,6 +174,7 @@ map $http_user_agent $bad_bot {
 # Known Vulnerability Scanners (now merged into one section)
 
 # START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+# END BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 # END BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 # END BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 # END BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
@@ -336,6 +337,7 @@ map $http_referer $bad_referer {
 # END BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###
 # END BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###
 # END BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###
+# END BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###
 
 }
 
@@ -397,6 +399,7 @@ geo $validate_client {
 # END GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
 # END GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
 # END GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
+# END GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
 
 # *********
 # Bing Bots
@@ -409,8 +412,10 @@ geo $validate_client {
 # END BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
 # END BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
 # END BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
+# END BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
 
 # START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
+# END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
 # END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
 # END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
 # END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
@@ -429,6 +434,7 @@ geo $validate_client {
 # END WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###
 # END WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###
 # END WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###
+# END WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###
 
 # ****************************************
 # NIBBLER - SEO testing and reporting tool
@@ -436,6 +442,7 @@ geo $validate_client {
 # See - http://nibbler.silktide.com/
 
 # START NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###
+# END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###
 # END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###
 # END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###
 # END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###
