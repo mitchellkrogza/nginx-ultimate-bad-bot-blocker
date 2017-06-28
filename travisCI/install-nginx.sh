@@ -115,7 +115,6 @@ sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/generate-google-disavow.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/generate-google-exclude.php
 sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/modify-config-readme-files.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/modify-files-and-commit.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/run-curl-tests.sh
 
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml
