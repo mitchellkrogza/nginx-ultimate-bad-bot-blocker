@@ -9,9 +9,9 @@ STATUSCODE3=$(curl -I http://localhost:9000/index.php -e http://100dollars-seo.c
 
 STATUSCODE4=$(curl -I http://localhost:9000/index.php -e http://zx6.ru &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE4 52; then echo "BAD BOT TEST PASSED"; exit 0; else echo "BAD BOT TEST FAILED"; exit 1; fi
 
-STATUSCODE5=$(curl -A "GoogleBot" http://localhost:9000/index.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE5 Welcome; then echo "GOOD BOT TEST PASSED"; exit 0; else echo "GOOD BOT TEST FAILED"; exit 1; fi
+STATUSCODE5=$(curl -A "GoogleBot" http://localhost:9000/index.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE5 200; then echo "GOOD BOT TEST PASSED"; exit 0; else echo "GOOD BOT TEST FAILED"; exit 1; fi
 
-STATUSCODE6=$(curl -A "BingBot" http://localhost:9000/index.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE6 Welcome; then echo "GOOD BOT TEST PASSED"; exit 0; else echo "GOOD BOT TEST FAILED"; exit 1; fi
+STATUSCODE6=$(curl -A "BingBot" http://localhost:9000/index.php &> /dev/stderr --write-out "%{http_code}") | if test $STATUSCODE6 200; then echo "GOOD BOT TEST PASSED"; exit 0; else echo "GOOD BOT TEST FAILED"; exit 1; fi
 
 exit 0
 done
