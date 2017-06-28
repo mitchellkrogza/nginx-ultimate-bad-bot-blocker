@@ -2,12 +2,11 @@
 ### THE ULTIMATE NGINX BAD BOT BLOCKER
 ### **********************************
 
-### Version Information #
-### Versio  I formatio  #
+### VERSION INFORMATION #
 ###################################################
 ### Version: V3.2017.06.624
-### Updated: Wed Ju### Versio  I formatio  ##
-### Version Information ##
+###################################################
+### VERSION INFORMATION ##
 
 ### This file implements a checklist / blacklist for good user agents, bad user agents and
 ### bad referrers. It also has whitelisting for your own IP's and known good IP Ranges

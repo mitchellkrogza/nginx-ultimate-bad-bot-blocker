@@ -124,8 +124,8 @@ _start9="# START NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###"
 _end9="# END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###"
 _start10="# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
 _end10="# END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
-_startmarker="### Version Information #"
-_endmarker="### Version Information ##"
+_startmarker="### VERSION INFORMATION #"
+_endmarker="### VERSION INFORMATION ##"
 
 # **********************************
 # SET ALLOW OR DENY ACTION VARIABLES
@@ -414,13 +414,13 @@ echo $_endmarker  >> $_tmpnginxA
 IFS=$LASTUPDATEIFS
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
-1,/### Version Information #/d
-/### Version Information ##/,$d
+1,/### VERSION INFORMATION #/d
+/### VERSION INFORMATION ##/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/travisCI/globalblacklist.template
-/### Version Information #/x
+/### VERSION INFORMATION #/x
 .t.
-.,/### Version Information ##/-d
+.,/### VERSION INFORMATION ##/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/travisCI/globalblacklist.template
