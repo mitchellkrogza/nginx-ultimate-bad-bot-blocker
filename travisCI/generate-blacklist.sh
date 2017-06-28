@@ -124,8 +124,8 @@ _start9="# START NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###"
 _end9="# END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###"
 _start10="# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
 _end10="# END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
-_startmarker="### VERSION INFORMATION #"
-_endmarker="### VERSION INFORMATION ##"
+_versionmarkerstart="### VERSION INFORMATION #"
+_versionmarkerend="### VERSION INFORMATION ##"
 
 # **********************************
 # SET ALLOW OR DENY ACTION VARIABLES
@@ -407,9 +407,9 @@ rm $_inputdb10
 LASTUPDATEIFS=$IFS
 IFS=$'\n'
 now="$(date)"
-echo $_startmarker >> $_tmpnginxA
+echo $_versionmarkerstart >> $_tmpnginxA
 printf "###################################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n###################################################\n" >> $_tmpnginxA
-echo $_endmarker  >> $_tmpnginxA
+echo $_versionmarkerend  >> $_tmpnginxA
 IFS=$LASTUPDATEIFS
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
