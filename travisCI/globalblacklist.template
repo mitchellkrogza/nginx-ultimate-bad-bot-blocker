@@ -9,7 +9,7 @@
 ### Bad Referrer Count: 4947
 ### Bad Bot Count: 480
 ###################################################
-### VERSION INFORMATION #
+### VERSION INFORMATION ##
 
 ### This file implements a checklist / blacklist for good user agents, bad user agents and
 ### bad referrers on Nginx Web Server. It also has whitelisting for your own IP's and known good IP Ranges

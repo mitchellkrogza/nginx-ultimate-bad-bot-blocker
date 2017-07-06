@@ -36,9 +36,9 @@ MONTH=$(date +"%m")
 MY_GIT_TAG=V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER
 BAD_REFERRERS=$(wc -l < $TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list)
 BAD_BOTS=$(wc -l < $TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list)
-#_now="$(date)"
+_now="$(date)"
 # To get DATE output into uppercase format (if needed)
-_now=$(date | tr -s '[:lower:]'  '[:upper:]')
+#_now=$(date | tr -s '[:lower:]'  '[:upper:]')
 
 
 # *************************************
