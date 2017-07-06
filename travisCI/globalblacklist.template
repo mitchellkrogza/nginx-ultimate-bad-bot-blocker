@@ -139,11 +139,9 @@ map $http_user_agent $bad_bot {
 	"~Kraken/0.1"		0;
 	"~LinkedInBot"		0;
 	"~Mediapartners-Google"		0;
-	"~Mozilla/5.0"		0;
 	"~msnbot"		0;
 	"~msnbot-media"		0;
 	"~SAMSUNG"		0;
-	"~SAMSUNG-SGH-E250"		0;
 	"~slurp"		0;
 	"~teoma"		0;
 	"~TwitterBot"		0;
@@ -260,7 +258,6 @@ map $http_user_agent $bad_bot {
 	"~Claritybot"		3;
 	"~Cliqzbot"		3;
 	"~Cogentbot"		3;
-	"~cognitiveseo"		3;
 	"~Collector"		3;
 	"~Copier"		3;
 	"~CopyRightCheck"		3;
@@ -339,6 +336,7 @@ map $http_user_agent $bad_bot {
 	"~GrapeshotCrawler"		3;
 	"~GridBot"		3;
 	"~GT::WWW"		3;
+	"~GuzzleHttp"		3;
 	"~HaosouSpider"		3;
 	"~Harvest"		3;
 	"~Havij"		3;
@@ -526,7 +524,6 @@ map $http_user_agent $bad_bot {
 	"~SEOlyticsCrawler"		3;
 	"~Seomoz"		3;
 	"~SEOprofiler"		3;
-	"~seoscanners"		3;
 	"~SEOstats"		3;
 	"~Siphon"		3;
 	"~SISTRIX"		3;
