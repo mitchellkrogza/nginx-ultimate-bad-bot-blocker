@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.07.634
-### Updated: Thu Jul  6 16:02:37 SAST 2017
-### Bad Bot Count: 480
+### Version: V3.2017.07.635
+### Updated: Thu Jul  6 16:06:18 SAST 2017
+### Bad Bot Count: 479
 ###################################################
 ### Version Information ##
 
@@ -286,8 +286,6 @@ Disallow:/
 User-agent: GridBot
 Disallow:/
 User-agent: GT::WWW
-Disallow:/
-User-agent: GuzzleHttp
 Disallow:/
 User-agent: HaosouSpider
 Disallow:/
