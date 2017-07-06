@@ -48,31 +48,23 @@ _tmpnginxA=tmpnginxA
 # Start and End Strings to Search for to do inserts into template
 # ***************************************************************
 
-_startmarker="##### Version Information #"
-_endmarker="##### Version Information ##"
+_startmarker="### Version Information #"
+_endmarker="### Version Information ##"
 
 # ****************************************
 # PRINT VERSION INFORMATION INTO README.md
 # ****************************************
 
-LASTUPDATEIFS=$IFS
-IFS=$'\n'
-now="$(date)"
-end=$(date +%s.%N)    
-echo $_startmarker >> $_tmpnginxA
-runtime=$(python -c "print(${end} - ${start})")
-printf "********************************************\n#### Version: "$MY_GIT_TAG"\n#### Bad Referrer Count: "$BAD_REFERRERS"\n#### Bad Bot Count: "$BAD_BOTS"\n********************************************\n" >> $_tmpnginxA
-echo $_endmarker  >> $_tmpnginxA
-IFS=$LASTUPDATEIFS
+printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> $_tmpnginxA
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
-1,/##### Version Information #/d
-/##### Version Information ##/,$d
+1,/### Version Information #/d
+/### Version Information ##/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
-/##### Version Information #/x
+/### Version Information #/x
 .t.
-.,/##### Version Information ##/-d
+.,/### Version Information ##/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
@@ -84,24 +76,16 @@ rm $_inputdbA
 # PRINT VERSION INFORMATION INTO AUTO-CONFIGURATION.md
 # ****************************************************
 
-LASTUPDATEIFS2=$IFS
-IFS=$'\n'
-now="$(date)"
-end=$(date +%s.%N)    
-echo $_startmarker >> $_tmpnginxA
-runtime=$(python -c "print(${end} - ${start})")
-printf "********************************************\n#### Version: "$MY_GIT_TAG"\n#### Bad Referrer Count: "$BAD_REFERRERS"\n#### Bad Bot Count: "$BAD_BOTS"\n********************************************\n" >> $_tmpnginxA
-echo $_endmarker  >> $_tmpnginxA
-IFS=$LASTUPDATEIFS2
+printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> $_tmpnginxA
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
-1,/##### Version Information #/d
-/##### Version Information ##/,$d
+1,/### Version Information #/d
+/### Version Information ##/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/AUTO-CONFIGURATION.md
-/##### Version Information #/x
+/### Version Information #/x
 .t.
-.,/##### Version Information ##/-d
+.,/### Version Information ##/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/AUTO-CONFIGURATION.md
@@ -113,24 +97,16 @@ rm $_inputdbA
 # PRINT VERSION INFORMATION INTO MANUAL-CONFIGURATION.md
 # ******************************************************
 
-LASTUPDATEIFS3=$IFS
-IFS=$'\n'
-now="$(date)"
-end=$(date +%s.%N)    
-echo $_startmarker >> $_tmpnginxA
-runtime=$(python -c "print(${end} - ${start})")
-printf "********************************************\n#### Version: "$MY_GIT_TAG"\n#### Bad Referrer Count: "$BAD_REFERRERS"\n#### Bad Bot Count: "$BAD_BOTS"\n********************************************\n" >> $_tmpnginxA
-echo $_endmarker  >> $_tmpnginxA
-IFS=$LASTUPDATEIFS3
+printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> $_tmpnginxA
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
-1,/##### Version Information #/d
-/##### Version Information ##/,$d
+1,/### Version Information #/d
+/### Version Information ##/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/MANUAL-CONFIGURATION.md
-/##### Version Information #/x
+/### Version Information #/x
 .t.
-.,/##### Version Information ##/-d
+.,/### Version Information ##/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/MANUAL-CONFIGURATION.md

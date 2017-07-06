@@ -33,9 +33,7 @@
 # Set Input Files
 # ***************
 
-_input4a=$TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list
-_robotsinput1=/tmp/robotsinput1.txt
-_robotsinput1b=/tmp/robotsinput1b.txt
+_input1=$TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list
 _tmprobots=/tmp/robots.txt
 
 # ******************
@@ -47,7 +45,7 @@ MONTH=$(date +"%m")
 MY_GIT_TAG=V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER
 BAD_REFERRERS=$(wc -l < $TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list)
 BAD_BOTS=$(wc -l < $TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list)
-now="$(date)"
+_now="$(date)"
 
 # *************************
 # Set Start and End Markers
@@ -61,17 +59,12 @@ _endmarker="### Version Information ##"
 # Create the robots.txt file
 # **************************
 
-cp $_input4a $_robotsinput1
-sed 's/[\]//g' $_robotsinput1 > $_robotsinput1b
-IFS=''
-echo $_startmarker  >> $_tmprobots
-printf "###################################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n###################################################\n" >> $_tmprobots
-echo $_endmarker  >> $_tmprobots
-printf "\n\n" >> $_tmprobots
-cat $_robotsinput1b |
-while read line; do
-printf 'User-agent: '${line}'\n Disallow:/ \n' >> $_tmprobots
-done
+printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s\n\n%s\n%s\n%s\n' "$_startmarker" "###################################################" "### Version: " "$MY_GIT_TAG" "### Updated: " "$_now" "### Bad Bot Count: " "$BAD_BOTS" "###################################################" "$_endmarker" "User-agent: *" "Disallow: /wp-admin/" "Allow: /wp-admin/admin-ajax.php" >> "$_tmprobots"
+while IFS= read -r LINE
+do
+printf 'User-agent: %s\n%s\n' "${LINE}" "Disallow:/" >> $_tmprobots
+done < $_input1
+printf '\n' >> $_tmprobots
 sudo cp $_tmprobots $TRAVIS_BUILD_DIR/robots.txt/robots.txt
 exit 0
 

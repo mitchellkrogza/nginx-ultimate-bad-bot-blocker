@@ -36,6 +36,10 @@ MONTH=$(date +"%m")
 MY_GIT_TAG=V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER
 BAD_REFERRERS=$(wc -l < $TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list)
 BAD_BOTS=$(wc -l < $TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list)
+_now="$(date)"
+# To get DATE output into uppercase format (if needed)
+#_now=$(date | tr -s '[:lower:]'  '[:upper:]')
+
 
 # *************************************
 # Specify input lists for the generator
@@ -61,7 +65,7 @@ _inputdb1=/tmp/good-user-agents.db
 _inputdb2=/tmp/allowed-user-agents.db
 _inputdb3=/tmp/limited-user-agents.db
 _inputdb4=/tmp/bad-user-agents.db
-_inputdb5=/tmp/bad-referers.db
+_inputdb5=/tmp/bad-referrers.db
 _inputdb6=/tmp/google-ip-ranges.db
 _inputdb7=/tmp/bing-ip-ranges.db
 _inputdb8=/tmp/wordpress-theme-detectors.db
@@ -73,17 +77,17 @@ _inputdb10=/tmp/cloudflare-ip-ranges.db
 # **************************************************
 
 _nginx=$TRAVIS_BUILD_DIR/travisCI/globalblacklist.template
-_tmpnginxA=tmpnginxA
-_tmpnginx1=tmpnginx1
-_tmpnginx2=tmpnginx2
-_tmpnginx3=tmpnginx3
-_tmpnginx4=tmpnginx4
-_tmpnginx5=tmpnginx5
-_tmpnginx6=tmpnginx6
-_tmpnginx7=tmpnginx7
-_tmpnginx8=tmpnginx8
-_tmpnginx9=tmpnginx9
-_tmpnginx10=tmpnginx10
+_tmpnginxA=_tmpnginxA
+_tmpnginx1=_tmpnginx1
+_tmpnginx2=_tmpnginx2
+_tmpnginx3=_tmpnginx3
+_tmpnginx4=_tmpnginx4
+_tmpnginx5=_tmpnginx5
+_tmpnginx6=_tmpnginx6
+_tmpnginx7=_tmpnginx7
+_tmpnginx8=_tmpnginx8
+_tmpnginx9=_tmpnginx9
+_tmpnginx10=_tmpnginx10
 
 # *************************************************************
 # Sort all input lists alphabetically and remove any duplicates
@@ -112,8 +116,8 @@ _start3="# START LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###"
 _end3="# END LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###"
 _start4="# START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###"
 _end4="# END BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###"
-_start5="# START BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###"
-_end5="# END BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###"
+_start5="# START BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###"
+_end5="# END BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###"
 _start6="# START GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
 _end6="# END GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
 _start7="# START BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
@@ -124,31 +128,29 @@ _start9="# START NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###"
 _end9="# END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###"
 _start10="# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
 _end10="# END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
-_startmarker="### Version Information #"
-_endmarker="### Version Information ##"
+_startmarker="### VERSION INFORMATION #"
+_endmarker="### VERSION INFORMATION ##"
 
 # **********************************
 # SET ALLOW OR DENY ACTION VARIABLES
 # **********************************
 
-ACTION1="0;"
-ACTION2="1;"
-ACTION3="2;"
-ACTION4="3;"
+_action1="0;"
+_action2="1;"
+_action3="2;"
+_action4="3;"
 
 
 # ************************************
 # GOOD USER AGENTS - Create and Insert
 # ************************************
 
-GOODBOTSIFS=$IFS
-IFS=$'\n'
-echo $_start1 >> $_tmpnginx1
-for line in $(cat $_input1); do
-printf "\t\"~${line}\"\t\t$ACTION1\n" >> $_tmpnginx1
-done
-echo $_end1  >> $_tmpnginx1
-IFS=$GOODBOTSIFS
+printf '%s\n' "$_start1" >> $_tmpnginx1
+while IFS= read -r LINE
+do
+printf '\t"~%s"\t\t%s\n' "${LINE}" "$_action1" >> "$_tmpnginx1"
+done < $_input1
+printf '%s\n' "$_end1"  >> $_tmpnginx1
 mv $_tmpnginx1 $_inputdb1
 ed -s $_inputdb1<<\IN
 1,/# START GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -169,14 +171,12 @@ rm $_inputdb1
 # ALLOWED BOTS - Create and Insert
 # ********************************
 
-ALLOWEDBOTSIFS=$IFS
-IFS=$'\n'
-echo $_start2 >> $_tmpnginx2
-for line in $(cat $_input2); do
-printf "\t\"~${line}\"\t\t$ACTION2\n" >> $_tmpnginx2
-done
-echo $_end2  >> $_tmpnginx2
-IFS=$ALLOWEDBOTSIFS
+printf '%s\n' "$_start2" >> $_tmpnginx2
+while IFS= read -r LINE
+do
+printf '\t"~%s"\t\t%s\n' "${LINE}" "$_action2" >> "$_tmpnginx2"
+done < $_input2
+printf '%s\n' "$_end2"  >> $_tmpnginx2
 mv $_tmpnginx2 $_inputdb2
 ed -s $_inputdb2<<\IN
 1,/# START ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -195,14 +195,12 @@ rm $_inputdb2
 # LIMITED BOTS - Create and Insert
 # ********************************
 
-LIMITEDBOTSIFS=$IFS
-IFS=$'\n'
-echo $_start3 >> $_tmpnginx3
-for line in $(cat $_input3); do
-printf "\t\"~${line}\"\t\t$ACTION3\n" >> $_tmpnginx3
-done
-echo $_end3  >> $_tmpnginx3
-IFS=$LIMITEDBOTSIFS
+printf '%s\n' "$_start3" >> $_tmpnginx3
+while IFS= read -r LINE
+do
+printf '\t"~%s"\t\t%s\n' "${LINE}" "$_action3" >> "$_tmpnginx3"
+done < $_input3
+printf '%s\n' "$_end3"  >> $_tmpnginx3
 mv $_tmpnginx3 $_inputdb3
 ed -s $_inputdb3<<\IN
 1,/# START LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -221,14 +219,12 @@ rm $_inputdb3
 # BAD BOTS - Create and Insert
 # ****************************
 
-BADBOTSIFS=$IFS
-IFS=$'\n'
-echo $_start4 >> $_tmpnginx4
-for line in $(cat $_input4); do
-printf "\t\"~*${line}\"\t\t$ACTION4\n" >> $_tmpnginx4
-done
-echo $_end4  >> $_tmpnginx4
-IFS=$BADBOTSIFS
+printf '%s\n' "$_start4" >> $_tmpnginx4
+while IFS= read -r LINE
+do
+printf '\t"~%s"\t\t%s\n' "${LINE}" "$_action4" >> "$_tmpnginx4"
+done < $_input4
+printf '%s\n' "$_end4"  >> $_tmpnginx4
 mv $_tmpnginx4 $_inputdb4
 ed -s $_inputdb4<<\IN
 1,/# START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -247,23 +243,21 @@ rm $_inputdb4
 # BAD REFERERS - Create and Insert
 # ********************************
 
-BADREFERER=$IFS
-IFS=$'\n'
-echo $_start5 >> $_tmpnginx5
-for line in $(cat $_input5); do
-printf "\t\"~*${line}\"\t\t$ACTION2\n" >> $_tmpnginx5
-done
-echo $_end5  >> $_tmpnginx5
-IFS=$BADREFERER
+printf '%s\n' "$_start5" >> $_tmpnginx5
+while IFS= read -r LINE
+do
+printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action2" >> "$_tmpnginx5"
+done < $_input5
+printf '%s\n' "$_end5"  >> $_tmpnginx5
 mv $_tmpnginx5 $_inputdb5
 ed -s $_inputdb5<<\IN
-1,/# START BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###/d
-/# END BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
+1,/# START BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/d
+/# END BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/travisCI/globalblacklist.template
-/# START BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###/x
+/# START BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
-.,/# END BAD REFERERS ### DO NOT EDIT THIS LINE AT ALL ###/-d
+.,/# END BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/-d
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/travisCI/globalblacklist.template
 q
 IN
@@ -273,14 +267,12 @@ rm $_inputdb5
 # GOOGLE IP RANGES - Create and Insert
 # ************************************
 
-GOOGLE=$IFS
-IFS=$'\n'
-echo $_start6 >> $_tmpnginx6
-for line in $(cat $_input6); do
-printf "\t${line}\t\t$ACTION1\n" >> $_tmpnginx6
-done
-echo $_end6  >> $_tmpnginx6
-IFS=$GOOGLE
+printf '%s\n' "$_start6" >> $_tmpnginx6
+while IFS= read -r LINE
+do
+printf '\t%s\t\t%s\n' "${LINE}" "$_action1" >> "$_tmpnginx6"
+done < $_input6
+printf '%s\n' "$_end6"  >> $_tmpnginx6
 mv $_tmpnginx6 $_inputdb6
 ed -s $_inputdb6<<\IN
 1,/# START GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -299,14 +291,12 @@ rm $_inputdb6
 # BING IP RANGES - Create and Insert
 # **********************************
 
-BING=$IFS
-IFS=$'\n'
-echo $_start7 >> $_tmpnginx7
-for line in $(cat $_input7); do
-printf "\t${line}\t\t$ACTION1\n" >> $_tmpnginx7
-done
-echo $_end7  >> $_tmpnginx7
-IFS=$BING
+printf '%s\n' "$_start7" >> $_tmpnginx7
+while IFS= read -r LINE
+do
+printf '\t%s\t\t%s\n' "${LINE}" "$_action1" >> "$_tmpnginx7"
+done < $_input7
+printf '%s\n' "$_end7"  >> $_tmpnginx7
 mv $_tmpnginx7 $_inputdb7
 ed -s $_inputdb7<<\IN
 1,/# START BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -325,14 +315,12 @@ rm $_inputdb7
 # Wordpress Theme Detectors - Create and Insert
 # *********************************************
 
-WPTHEME=$IFS
-IFS=$'\n'
-echo $_start8 >> $_tmpnginx8
-for line in $(cat $_input8); do
-printf "\t${line}\n" >> $_tmpnginx8
-done
-echo $_end8  >> $_tmpnginx8
-IFS=$WPTHEME
+printf '%s\n' "$_start8" >> $_tmpnginx8
+while IFS= read -r LINE
+do
+printf '%s\n' "${LINE}" >> "$_tmpnginx8"
+done < $_input8
+printf '%s\n' "$_end8"  >> $_tmpnginx8
 mv $_tmpnginx8 $_inputdb8
 ed -s $_inputdb8<<\IN
 1,/# START WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -351,14 +339,12 @@ rm $_inputdb8
 # Nibbler SEO - Create and Insert
 # *******************************
 
-NIBBLER=$IFS
-IFS=$'\n'
-echo $_start9 >> $_tmpnginx9
-for line in $(cat $_input9); do
-printf "\t${line}\t\t$ACTION2\n" >> $_tmpnginx9
-done
-echo $_end9  >> $_tmpnginx9
-IFS=$NIBBLER
+printf '%s\n' "$_start9" >> $_tmpnginx9
+while IFS= read -r LINE
+do
+printf '\t%s\t\t%s\n' "${LINE}" "$_action2" >> "$_tmpnginx9"
+done < $_input9
+printf '%s\n' "$_end9"  >> $_tmpnginx9
 mv $_tmpnginx9 $_inputdb9
 ed -s $_inputdb9<<\IN
 1,/# START NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -377,14 +363,12 @@ rm $_inputdb9
 # CLOUDFLARE IP RANGES - Create and Insert
 # ****************************************
 
-CLOUDFLARE=$IFS
-IFS=$'\n'
-echo $_start10 >> $_tmpnginx10
-for line in $(cat $_input10); do
-printf "\t${line}\t\t$ACTION1\n" >> $_tmpnginx10
-done
-echo $_end10  >> $_tmpnginx10
-IFS=$CLOUDFLARE
+printf '%s\n' "$_start10" >> $_tmpnginx10
+while IFS= read -r LINE
+do
+printf '\t%s\t\t%s\n' "${LINE}" "$_action1" >> "$_tmpnginx10"
+done < $_input10
+printf '%s\n' "$_end10"  >> $_tmpnginx10
 mv $_tmpnginx10 $_inputdb10
 ed -s $_inputdb10<<\IN
 1,/# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -404,23 +388,16 @@ rm $_inputdb10
 # PRINT VERSION, SCRIPT RUNTIME and UPDATE INFORMATION INTO GLOBALBLACKLIST FILES
 # *******************************************************************************
 
-LASTUPDATEIFS=$IFS
-IFS=$'\n'
-now="$(date)"
-end=$(date +%s.%N)    
-echo $_startmarker >> $_tmpnginxA
-printf "###################################################\n### Version: "$MY_GIT_TAG"\n### Updated: "$now"\n### Bad Referrer Count: "$BAD_REFERRERS"\n### Bad Bot Count: "$BAD_BOTS"\n###################################################\n" >> $_tmpnginxA
-echo $_endmarker  >> $_tmpnginxA
-IFS=$LASTUPDATEIFS
+printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s\n%s\n' "$_startmarker" "###################################################" "### Version: " "$MY_GIT_TAG" "### Updated: " "$_now" "### Bad Referrer Count: " "$BAD_REFERRERS" "### Bad Bot Count: " "$BAD_BOTS" "###################################################" "$_endmarker" >> $_tmpnginxA
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
-1,/### Version Information #/d
-/### Version Information ##/,$d
+1,/### VERSION INFORMATION #/d
+/### VERSION INFORMATION ##/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/travisCI/globalblacklist.template
-/### Version Information #/x
+/### VERSION INFORMATION #/x
 .t.
-.,/### Version Information ##/-d
+.,/### VERSION INFORMATION ##/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/travisCI/globalblacklist.template
@@ -432,18 +409,8 @@ rm $_inputdbA
 # Generate Additional Files and Copy Them to Folders
 # **************************************************
 
-sudo cp $_input1 $TRAVIS_BUILD_DIR/_generator_lists/good-user-agents.list
-sudo cp $_input2 $TRAVIS_BUILD_DIR/_generator_lists/allowed-user-agents.list
-sudo cp $_input3 $TRAVIS_BUILD_DIR/_generator_lists/limited-user-agents.list
-sudo cp $_input4 $TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list
-sudo cp $_input5 $TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list
-sudo cp $_input6 $TRAVIS_BUILD_DIR/_generator_lists/google-ip-ranges.list
-sudo cp $_input7 $TRAVIS_BUILD_DIR/_generator_lists/bing-ip-ranges.list
-sudo cp $_input8 $TRAVIS_BUILD_DIR/_generator_lists/wordpress-theme-detectors.list
-sudo cp $_input9 $TRAVIS_BUILD_DIR/_generator_lists/nibbler-seo.list
-sudo cp $_input10 $TRAVIS_BUILD_DIR/_generator_lists/cloudflare-ip-ranges.list
 sudo cp $_nginx $TRAVIS_BUILD_DIR/conf.d/globalblacklist.conf
-sudo cp $_nginx $TRAVIS_BUILD_DIR/_sample_config_files/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx/conf.d/globalblacklist.conf
+sudo cp $_nginx $TRAVIS_BUILD_DIR/_sample_config_files/Engintron_for_CPanel_WHM_Configuration_Example/etc/nginx/conf.d/globalblacklist.conf
 
 exit 0
 
