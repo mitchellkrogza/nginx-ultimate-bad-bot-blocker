@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.07.637
-### Updated: Thu Jul  6 16:39:57 SAST 2017
-### Bad Bot Count: 479
+### Version: V3.2017.07.638
+### Updated: Thu Jul  6 16:44:47 SAST 2017
+### Bad Bot Count: 481
 ###################################################
 ### Version Information ##
 
@@ -130,6 +130,8 @@ Disallow:/
 User-agent: Cliqzbot
 Disallow:/
 User-agent: Cogentbot
+Disallow:/
+User-agent: cognitiveseo
 Disallow:/
 User-agent: Collector
 Disallow:/
@@ -660,6 +662,8 @@ Disallow:/
 User-agent: Seomoz
 Disallow:/
 User-agent: SEOprofiler
+Disallow:/
+User-agent: seoscanners
 Disallow:/
 User-agent: SEOstats
 Disallow:/

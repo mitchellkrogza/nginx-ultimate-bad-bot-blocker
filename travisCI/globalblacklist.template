@@ -258,6 +258,7 @@ map $http_user_agent $bad_bot {
 	"~Claritybot"		3;
 	"~Cliqzbot"		3;
 	"~Cogentbot"		3;
+	"~cognitiveseo"		3;
 	"~Collector"		3;
 	"~Copier"		3;
 	"~CopyRightCheck"		3;
@@ -523,6 +524,7 @@ map $http_user_agent $bad_bot {
 	"~SEOlyticsCrawler"		3;
 	"~Seomoz"		3;
 	"~SEOprofiler"		3;
+	"~seoscanners"		3;
 	"~SEOstats"		3;
 	"~Siphon"		3;
 	"~SISTRIX"		3;
