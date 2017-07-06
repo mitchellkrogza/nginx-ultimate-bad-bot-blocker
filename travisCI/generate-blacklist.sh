@@ -38,7 +38,7 @@ BAD_REFERRERS=$(wc -l < $TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list)
 BAD_BOTS=$(wc -l < $TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list)
 #_now="$(date)"
 # To get DATE output into uppercase format (if needed)
-_NOW=$(date | tr -s '[:lower:]'  '[:upper:]')
+_now=$(date | tr -s '[:lower:]'  '[:upper:]')
 
 
 # *************************************
@@ -388,7 +388,7 @@ rm $_inputdb10
 # PRINT VERSION, SCRIPT RUNTIME and UPDATE INFORMATION INTO GLOBALBLACKLIST FILES
 # *******************************************************************************
 
-printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s\n%s\n' "$_startmarker" "###################################################" "### Version: " "$MY_GIT_TAG" "### Updated: " "$_NOW" "### Bad Referrer Count: " "$BAD_REFERRERS" "### Bad Bot Count: " "$BAD_BOTS" "###################################################" "$_endmarker" >> $_tmpnginxA
+printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s\n%s\n' "$_startmarker" "###################################################" "### Version: " "$MY_GIT_TAG" "### Updated: " "$_now" "### Bad Referrer Count: " "$BAD_REFERRERS" "### Bad Bot Count: " "$BAD_BOTS" "###################################################" "$_endmarker" >> $_tmpnginxA
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
 1,/### VERSION INFORMATION #/d
