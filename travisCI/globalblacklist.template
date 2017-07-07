@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.649
-### Updated: Fri Jul  7 17:21:37 SAST 2017
-### Bad Referrer Count: 5042
+### Version: V3.2017.07.650
+### Updated: Fri Jul  7 17:29:39 SAST 2017
+### Bad Referrer Count: 5052
 ### Bad Bot Count: 481
 ###################################################
 ### VERSION INFORMATION ##
@@ -1560,6 +1560,7 @@ map $http_referer $bad_referer {
 	"~*bosman.pluto.ro"		1;
 	"~*bouda.kvalitne.cz"		1;
 	"~*bpro1.top"		1;
+	"~*brainboostingsupplements.org"		1;
 	"~*brains2.biz"		1;
 	"~*brainsandeggs.blogspot.com"		1;
 	"~*brainxs.us"		1;
@@ -1908,6 +1909,7 @@ map $http_referer $bad_referer {
 	"~*coolingoods.com"		1;
 	"~*coolwallpapers-hd.com"		1;
 	"~*cool-wedding.net"		1;
+	"~*coolyarddecorations.com"		1;
 	"~*coop-gamers.ru"		1;
 	"~*copblock.org"		1;
 	"~*copypaste.traderzplanet.in"		1;
@@ -2150,6 +2152,7 @@ map $http_referer $bad_referer {
 	"~*dvervmoskvu.ru"		1;
 	"~*dvr.biz.ua"		1;
 	"~*dvrlists.com"		1;
+	"~*dynainbox.com"		1;
 	"~*dyshagi.ru"		1;
 	"~*dyt.net"		1;
 	"~*e2click.com"		1;
@@ -2545,6 +2548,7 @@ map $http_referer $bad_referer {
 	"~*free-video-tool.com"		1;
 	"~*freewebs.com"		1;
 	"~*freewhatsappload.com"		1;
+	"~*frequiry.com"		1;
 	"~*freshberry.com.ua"		1;
 	"~*freshdz.com"		1;
 	"~*freshmac.space"		1;
@@ -2755,6 +2759,7 @@ map $http_referer $bad_referer {
 	"~*growshop.es"		1;
 	"~*grtyi.com"		1;
 	"~*grupografico-pilar.com.ar"		1;
+	"~*gsasearchenginerankerdiscount.com"		1;
 	"~*gsasearchengineranker.pw"		1;
 	"~*gsasearchengineranker.site"		1;
 	"~*gsasearchengineranker.space"		1;
@@ -3012,6 +3017,7 @@ map $http_referer $bad_referer {
 	"~*insider.pro"		1;
 	"~*insomniagamingfestival.com"		1;
 	"~*insta-add.pro"		1;
+	"~*insurple.com"		1;
 	"~*integritylandscapeservices.com"		1;
 	"~*intelhdgraphicsgtdrive6w.metroblog.com"		1;
 	"~*intellekt21.ru"		1;
@@ -3545,6 +3551,7 @@ map $http_referer $bad_referer {
 	"~*me-ke.com"		1;
 	"~*meltwater.com"		1;
 	"~*members.ghanaweb.com"		1;
+	"~*memberty.com"		1;
 	"~*menetie.ru"		1;
 	"~*menhealed.net"		1;
 	"~*mensandals.xyz"		1;
@@ -3842,6 +3849,7 @@ map $http_referer $bad_referer {
 	"~*novatech.vn"		1;
 	"~*november-lax.com"		1;
 	"~*novgorod.xrus.org"		1;
+	"~*novodigs.com"		1;
 	"~*novosibirsk.xrus.org"		1;
 	"~*novosti-hi-tech.ru"		1;
 	"~*nowtorrents.com"		1;
@@ -3990,6 +3998,7 @@ map $http_referer $bad_referer {
 	"~*panamaforbeginners.com"		1;
 	"~*panchro.co.uk"		1;
 	"~*panchro.xyz"		1;
+	"~*pandarastore.top"		1;
 	"~*panouri-solare-acoperis.com"		1;
 	"~*paparazzistudios.com.au"		1;
 	"~*paperwritingservice17.blogspot.ru"		1;
@@ -4571,6 +4580,7 @@ map $http_referer $bad_referer {
 	"~*sdsjweb.com"		1;
 	"~*seadragonherbery.com"		1;
 	"~*seansonline24.pl"		1;
+	"~*searchengineranker.email"		1;
 	"~*search-error.com"		1;
 	"~*searchimage.co"		1;
 	"~*searchinquire.com"		1;
@@ -5314,6 +5324,7 @@ map $http_referer $bad_referer {
 	"~*uni.me"		1;
 	"~*unimodemhalfduplefw.pen.io"		1;
 	"~*unionmarkt.de"		1;
+	"~*unisexjewelry.org"		1;
 	"~*unitexindia.com"		1;
 	"~*unitygame3d.com"		1;
 	"~*universals.com.ua"		1;
