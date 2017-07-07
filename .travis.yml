@@ -6,7 +6,7 @@ env:
     - GIT_EMAIL: mitchellkrog@gmail.com
     - TRAVIS_REPO_SLUG: mitchellkrogza/nginx-ultimate-bad-bot-blocker
     - GIT_BRANCH: master
-sudo: required
+#sudo: required
 dist: trusty
 matrix:
   include:
@@ -32,12 +32,12 @@ install:
   - sudo apt-get install -y --force-yes nginx-extras
 
 script:
-  - travisCI/install-nginx.sh
-  - travisCI/run-curl-tests.sh
-  - travisCI/modify-files-and-commit.sh
+  - bash travisCI/install-nginx.sh
+  - bash travisCI/run-curl-tests.sh
+  - bash travisCI/modify-files-and-commit.sh
 
 before_deploy:
-  - travisCI/deploy-package.sh
+  - bash travisCI/deploy-package.sh
 
 deploy:
   provider: releases
