@@ -1,10 +1,8 @@
 <?php
     /* Google Exclude File Generator Script for the Nginx Ultimate Bad Bot Blocker
-     * Created by: Mitchell Krog (mitchellkrog@gmail.com)
-     * Copyright: Mitchell Krog - https://github.com/mitchellkrogza
+     * Adapted from Script Copyright (c) 2017 Stevie-Ray - https://github.com/Stevie-Ray
+     * Adapted by: Mitchell Krog (mitchellkrog@gmail.com) - https://github.com/mitchellkrogza
      * Repo Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
-     * MIT License
-     * Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
      */
 namespace mitchellkrogza;
 
