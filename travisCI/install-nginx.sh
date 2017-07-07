@@ -104,6 +104,12 @@ sudo cp $TRAVIS_BUILD_DIR/travisCI/index.php /var/www/html/index.php
 cd /usr/sbin
 sudo ./update-ngxblocker -e mitchellkrog@gmail.com
 
+# *********************
+# Force reload of Nginx
+# *********************
+
+sudo service nginx reload
+
 # ***********************************************************
 # Set all our other setup and deploy scripts to be executable
 # ***********************************************************

@@ -33,7 +33,7 @@ install:
 
 script:
   - travisCI/install-nginx.sh
-  #- sudo travisCI/run-curl-tests.sh
+  - travisCI/run-curl-tests.sh
   - travisCI/modify-files-and-commit.sh
 
 before_deploy:
