@@ -140,6 +140,7 @@ domain:absugars.com
 domain:abtasty.com
 domain:abusora.com
 domain:abwa.tk
+domain:academiacsmendoza.org
 domain:academia-nsk.org
 domain:acads.net
 domain:accessoires-mode.in
@@ -870,6 +871,7 @@ domain:casablancamanor.co.za
 domain:cashkitten-a.akamaihd.net
 domain:cashonads.com
 domain:casinorewards.info
+domain:casite-513049.cloudaccess.net
 domain:castingbank.ru
 domain:catalogs-parts.com
 domain:caveavins.fr
@@ -1195,6 +1197,7 @@ domain:detki-opt.ru
 domain:detskie-konstruktory.ru
 domain:detskie-zabavi.ru
 domain:deutschehobbyhuren.net
+domain:dev33.dioniqlabb.se
 domain:dev78.dioniqlabb.se
 domain:devochki.top
 domain:dev-seo.blog
@@ -1804,6 +1807,7 @@ domain:getoutofdebtfree.org
 domain:getpopunder.com
 domain:getprismatic.com
 domain:getresponse.com
+domain:getridofstretchmarks.org
 domain:get-seo-domain.com
 domain:get-your-social-buttons.info
 domain:gfaq.ru
@@ -2042,6 +2046,7 @@ domain:hostsshop.ru
 domain:hotblog.top
 domain:hotchatdate.com
 domain:hotdl.in
+domain:hotelcrocenzi.sm
 domain:hotel-mkad.ru
 domain:hotenergy.ru
 domain:hotgirlhdwallpaper.com
@@ -3027,6 +3032,7 @@ domain:oda.as
 domain:o-dachnik.ru
 domain:oddamzadarmo.eu
 domain:odesproperty.com
+domain:odoratus.net
 domain:odywpjtw.bloger.index.hr
 domain:offer.camp
 domain:offergroup.info
@@ -3053,6 +3059,7 @@ domain:onclkads.com
 domain:oneclickfiles.com
 domain:onefilms.net
 domain:one-gear.com
+domain:onemantrip.com
 domain:oneminutesite.it
 domain:onescreen.cc
 domain:oneshotdate.com
@@ -3388,6 +3395,7 @@ domain:produkto.net
 domain:prodvigator.ua
 domain:proekt-gaz.ru
 domain:proekt-mos.ru
+domain:professionaldieselcare.com
 domain:professionalwritingservices15.blogspot.ru
 domain:profitfx.online
 domain:profitsport.club
@@ -3988,6 +3996,7 @@ domain:solicita.info
 domain:solitaire-game.ru
 domain:solmarket.by
 domain:solnplast.ru
+domain:solution4u.com
 domain:sonata-arctica.wz.cz
 domain:songoo.wz.cz
 domain:songplanet.ru
@@ -4038,6 +4047,7 @@ domain:srecorder.com
 domain:sr-rekneskap.no
 domain:sstroy44.ru
 domain:stackthatbucks.com
+domain:staff.prairiesouth.ca
 domain:stairliftsarea.com
 domain:stairliftstrue.com
 domain:stal-rulon.ru
@@ -4127,6 +4137,7 @@ domain:svetodiodoff.ru
 domain:svnuppsalaorebro.se
 domain:svtrd.com
 domain:swagbucks.com
+domain:swimpool.ca
 domain:swinger-mobil.net
 domain:swingerseiten.com
 domain:swinginwithme.ru
