@@ -510,33 +510,44 @@ See the Fail2Ban folder for instructions on configuring this great add on for th
 
 ## STOPPING GOOGLE ANALYTICS "GHOST" SPAM:
 
-Simply using the Nginx blocker does not stop Google Analytics ghost referral spam 
-because they are hitting Analytics directly and not always necessarily touching your website. 
+Simply using the Nginx blocker does not stop Google Analytics ghost referral spam because they are hitting Analytics directly and not always necessarily touching your website. 
 
 You should use regex filters in Analytics to prevent ghost referral spam.
-For this simple google-exclude-01.txt, 02.txt and 03.txt files have been created for you and they are updated at the same time when the Nginx Blocker is updated.
+
+For this there are several google-exclude-0*.txt files which have been created for you and they are updated at the same time when the Nginx Blocker is updated. As the list grows there will be more exclude files created.
 
 ## To stop Ghost Spam on On Analytics
-Navigate to your Google Analytics Admin panel and add a Segment. (New Segment > Advanced > Conditions)
-This will need to be done on each and every site where you want this filter to be in effect. 
-Google has a limit on the length of the regex so it is now broken up for you into multiple google-exclude-*.txt files. 
 
+Follow the step by step visual instructions below to add these google-exclude files as segments to your web site.
 
-| Filter          | Session       | Include                                  |
-| :-------------: |:-------------:|:----------------------------------------:|
-| Hostname        | matches regex | ```yourwebsite\.com|www\.yourwebsite\.com``` |
+<table style="width:100%;margin:0;">
+  <tr>
+    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/_assets/google-analytics-ghost-spam-01.jpg" alt="Google Analytics - Adding Segments to Stop Ghost Spam"/></td>
+  </tr>
+  <tr>
+    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/_assets/google-analytics-ghost-spam-02.jpg" alt="Google Analytics - Adding Segments to Stop Ghost Spam"/></td>
+  </tr>
+  <tr>
+    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/_assets/google-analytics-ghost-spam-03.jpg" alt="Google Analytics - Adding Segments to Stop Ghost Spam"/></td>
+  </tr>
+  <tr>
+    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/_assets/google-analytics-ghost-spam-04.jpg" alt="Google Analytics - Adding Segments to Stop Ghost Spam"/></td>
+  </tr>
+  <tr>
+    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/_assets/google-analytics-ghost-spam-05.jpg" alt="Google Analytics - Adding Segments to Stop Ghost Spam"/></td>
+  </tr>
+  <tr>
+    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/_assets/google-analytics-ghost-spam-06.jpg" alt="Google Analytics - Adding Segments to Stop Ghost Spam"/></td>
+  </tr>
+  <tr>
+    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/_assets/google-analytics-ghost-spam-07.jpg" alt="Google Analytics - Adding Segments to Stop Ghost Spam"/></td>
+  </tr>
+</table>
 
-| Filter          | Session       | Exclude                                                       |
-| :-------------: |:-------------:|:-------------------------------------------------------------:|
-| Hostname        | matches regex | Copy the contents from [google-exclude-01.txt](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/google-exclude-01.txt) to this field |
+# Also Check Out RefererSpamBlocker
 
-Do the same step above now for google-exclude-02.txt and google-exclude-03.txt.
-As the list grows there will be more google-exclude files each limited to Google's restriction limit.
-
-# Also Better Check Out RefererSpamBlocker
-
-Also check out the awesome [Referer Spam Blocker](https://referrerspamblocker.com)
-for Google Analytics which uses a collaborated source of spam domains and automatically adds all the filters to your Analytics sites for you in 2 easy clicks and it is FREE.
+Also check out [Referer Spam Blocker](https://referrerspamblocker.com)
+for Google Analytics which uses a collaborated source of spam domains and automatically adds all the filters to your Analytics sites for you in 2 easy clicks and it is FREE. This method uses filters and not Segments but it's fast and easy for those who do not have patience.
 
 ## Blocking Spam Domains Using Google Webmaster Tools
 
