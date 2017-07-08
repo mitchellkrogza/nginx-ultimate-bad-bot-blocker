@@ -7,6 +7,7 @@ domain:00webcams.com
 domain:01apple.com
 domain:0912701309f8ce.com
 domain:0c47f8422d3f.com
+domain:0daymusic.org
 domain:0n-line.tv
 domain:100dollars-seo.com
 domain:100searchengines.com
@@ -37,6 +38,7 @@ domain:1millionusd.xyz
 domain:1pamm.ru
 domain:1stat.ru
 domain:1webmaster.ml
+domain:2000k.ru
 domain:2015god.org
 domain:2020iscoming.info
 domain:202ch.com
@@ -631,6 +633,7 @@ domain:bigcareer.info
 domain:bigcities.org
 domain:biglistofwebsites.com
 domain:bigpenisguide.com
+domain:bigpictures.club
 domain:biketank.ga
 domain:bikini-image.com
 domain:bildsuche.ru
@@ -782,6 +785,7 @@ domain:buyfriend.ru
 domain:buyhoverboard.com
 domain:buyk.host.sk
 domain:buy-loft.ru
+domain:buy-meds24.com
 domain:buynorxx.com
 domain:buypanicdisorderpill.com
 domain:buyparajumpers.online
@@ -911,6 +915,7 @@ domain:charmstroy.info
 domain:chastnoeporno.com
 domain:chatroulette.online
 domain:chatroulette.si
+domain:chatroulette.video
 domain:chatroulette.world
 domain:chat.ru
 domain:chatseo.com
@@ -1448,6 +1453,7 @@ domain:eshop4u.jp
 domain:eshop.md
 domain:esnm.ru
 domain:espaceinventoristes.com
+domain:essaypro.com
 domain:essayservicewriting.org
 domain:estelight.ru
 domain:este-line.com.ua
@@ -1678,6 +1684,7 @@ domain:foxinsocks.ru
 domain:foxtechfpv.com
 domain:foxweber.com
 domain:foxydeal.com
+domain:fr-bearings.ru
 domain:freakycheats.com
 domain:freecamdollars.com
 domain:free-deals.faith
@@ -1936,6 +1943,7 @@ domain:guardlink.com
 domain:guardlink.org
 domain:guge.io
 domain:guiadeserraazul.com
+domain:guigyverpo.cf
 domain:guildebzh.info
 domain:guitar-master.org
 domain:gungamesz.com
@@ -2110,6 +2118,7 @@ domain:ico.re
 domain:ictizanidinehcl4mg.blogspot.com
 domain:idc.com.ua
 domain:idealtits.net
+domain:ideashome.id
 domain:ideawheel.com
 domain:idegenvezeto.eu
 domain:ideibiznesa2015.ru
@@ -2204,6 +2213,7 @@ domain:inzn.ru
 domain:io9.com
 domain:iomoio.net
 domain:iopeninghours.co.uk
+domain:ip-guide.com
 domain:iplogger.org
 domain:iplusbit.blogspot.co.za
 domain:ipostroika.ru
@@ -2341,6 +2351,7 @@ domain:keywordsuggest.org
 domain:keywordsuggests.com
 domain:keywordteam.net
 domain:kfon.eu
+domain:kichenaid.ru
 domain:kidd.reunionwatch.com
 domain:kiev.ua
 domain:kihi.gdn
@@ -3558,6 +3569,7 @@ domain:remontgruzovik.ru
 domain:remont-komputerov-notebook.ru
 domain:remont-mobile-phones.ru
 domain:remont-ustanovka-tehniki.ru
+domain:remontvsamare.su
 domain:remorcicomerciale.ro
 domain:remote-dba.de
 domain:remybutler.fr
@@ -3600,6 +3612,7 @@ domain:ringtonepartner.com
 domain:rique.host.sk
 domain:risparmiocasa.bz.it
 domain:ritlweb.com
+domain:rixpix.ru
 domain:rn-to-bsn.com
 domain:robot-forex.biz
 domain:rockingclicks.com
@@ -4213,6 +4226,7 @@ domain:tetracsaudi.com
 domain:texbaza.by
 domain:textads.men
 domain:thaisamkok.com
+domain:thebestweightlosspills.ovh
 domain:thebluenoodle.com
 domain:thebluffs.com
 domain:thecoolimages.net
@@ -4239,6 +4253,7 @@ domain:thetoiletpaper.com
 domain:the-torrent-tracker.blogspot.com
 domain:the-trader.net
 domain:the-usa-games.blogspot.com
+domain:thewebsitetemplate.info
 domain:thewomenlife.com
 domain:thfox.com
 domain:thiegs.reco.ws
@@ -4510,6 +4525,7 @@ domain:urzedowski.eu
 domain:usacasino.com
 domain:usadacha.net
 domain:us-america.ru
+domain:usbggettwku.ga
 domain:usdx.us
 domain:userequip.com
 domain:usiad.net
@@ -4570,6 +4586,7 @@ domain:video-chat.in
 domain:videochat.life
 domain:video-chat.love
 domain:videochat.mx
+domain:videochat.ph
 domain:videochat.tv.br
 domain:videochat.world
 domain:videochaty.ru
@@ -4873,6 +4890,7 @@ domain:xn--b1ag5cfn.xn--p1ai
 domain:xn--b1agm2d.net
 domain:xn--c1acygb.xn--p1ai
 domain:xn--d1abj0abs9d.in.ua
+domain:xn--d1aifoe0a9a.top
 domain:xn--e1afanlbnfckd7c3d.xn--p1ai
 domain:xn--e1aggki3c.xn--80adxhks
 domain:xn--h1aakne2ba.xn--p1ai
@@ -4908,9 +4926,12 @@ domain:xxxnatelefon.ru
 domain:xxxrus.org
 domain:xxx-treker.ru
 domain:xxxtube69.com
+domain:xxxtubesafari.com
 domain:xz618.com
 domain:xzlive.com
+domain:y8games-free.com
 domain:yaaknaa.info
+domain:yachts-cruise.info
 domain:yaderenergy.ru
 domain:yadro.ru
 domain:yaminecraft.ru
@@ -4982,6 +5003,7 @@ domain:zaobao.com.sg
 domain:zapiszto.pl
 domain:zarabiaj-dzis.pl
 domain:zarabotat-na-sajte.ru
+domain:zarabotok--doma.ru
 domain:zarajbuilders.com
 domain:zarenica.net
 domain:zarepta.com

@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.651
-### Updated: Fri Jul  7 17:43:24 SAST 2017
-### Bad Referrer Count: 5051
+### Version: V3.2017.07.652
+### Updated: Sat Jul  8 12:20:07 SAST 2017
+### Bad Referrer Count: 5097
 ### Bad Bot Count: 481
 ###################################################
 ### VERSION INFORMATION ##
@@ -848,6 +848,7 @@ map $http_referer $bad_referer {
 	"~*01apple.com"		1;
 	"~*0912701309f8ce.com"		1;
 	"~*0c47f8422d3f.com"		1;
+	"~*0daymusic.org"		1;
 	"~*0n-line.tv"		1;
 	"~*100dollars-seo.com"		1;
 	"~*100searchengines.com"		1;
@@ -878,6 +879,7 @@ map $http_referer $bad_referer {
 	"~*1pamm.ru"		1;
 	"~*1stat.ru"		1;
 	"~*1webmaster.ml"		1;
+	"~*2000k.ru"		1;
 	"~*2015god.org"		1;
 	"~*2020iscoming.info"		1;
 	"~*202ch.com"		1;
@@ -1472,6 +1474,7 @@ map $http_referer $bad_referer {
 	"~*bigcities.org"		1;
 	"~*biglistofwebsites.com"		1;
 	"~*bigpenisguide.com"		1;
+	"~*bigpictures.club"		1;
 	"~*biketank.ga"		1;
 	"~*bikini-image.com"		1;
 	"~*bildsuche.ru"		1;
@@ -1623,6 +1626,7 @@ map $http_referer $bad_referer {
 	"~*buyhoverboard.com"		1;
 	"~*buyk.host.sk"		1;
 	"~*buy-loft.ru"		1;
+	"~*buy-meds24.com"		1;
 	"~*buynorxx.com"		1;
 	"~*buypanicdisorderpill.com"		1;
 	"~*buyparajumpers.online"		1;
@@ -1752,6 +1756,7 @@ map $http_referer $bad_referer {
 	"~*chastnoeporno.com"		1;
 	"~*chatroulette.online"		1;
 	"~*chatroulette.si"		1;
+	"~*chatroulette.video"		1;
 	"~*chatroulette.world"		1;
 	"~*chat.ru"		1;
 	"~*chatseo.com"		1;
@@ -2289,6 +2294,7 @@ map $http_referer $bad_referer {
 	"~*eshop.md"		1;
 	"~*esnm.ru"		1;
 	"~*espaceinventoristes.com"		1;
+	"~*essaypro.com"		1;
 	"~*essayservicewriting.org"		1;
 	"~*estelight.ru"		1;
 	"~*este-line.com.ua"		1;
@@ -2519,6 +2525,7 @@ map $http_referer $bad_referer {
 	"~*foxtechfpv.com"		1;
 	"~*foxweber.com"		1;
 	"~*foxydeal.com"		1;
+	"~*fr-bearings.ru"		1;
 	"~*freakycheats.com"		1;
 	"~*freecamdollars.com"		1;
 	"~*free-deals.faith"		1;
@@ -2777,6 +2784,7 @@ map $http_referer $bad_referer {
 	"~*guardlink.org"		1;
 	"~*guge.io"		1;
 	"~*guiadeserraazul.com"		1;
+	"~*guigyverpo.cf"		1;
 	"~*guildebzh.info"		1;
 	"~*guitar-master.org"		1;
 	"~*gungamesz.com"		1;
@@ -2951,6 +2959,7 @@ map $http_referer $bad_referer {
 	"~*ictizanidinehcl4mg.blogspot.com"		1;
 	"~*idc.com.ua"		1;
 	"~*idealtits.net"		1;
+	"~*ideashome.id"		1;
 	"~*ideawheel.com"		1;
 	"~*idegenvezeto.eu"		1;
 	"~*ideibiznesa2015.ru"		1;
@@ -3045,6 +3054,7 @@ map $http_referer $bad_referer {
 	"~*io9.com"		1;
 	"~*iomoio.net"		1;
 	"~*iopeninghours.co.uk"		1;
+	"~*ip-guide.com"		1;
 	"~*iplogger.org"		1;
 	"~*iplusbit.blogspot.co.za"		1;
 	"~*ipostroika.ru"		1;
@@ -3182,6 +3192,7 @@ map $http_referer $bad_referer {
 	"~*keywordsuggests.com"		1;
 	"~*keywordteam.net"		1;
 	"~*kfon.eu"		1;
+	"~*kichenaid.ru"		1;
 	"~*kidd.reunionwatch.com"		1;
 	"~*kiev.ua"		1;
 	"~*kihi.gdn"		1;
@@ -4399,6 +4410,7 @@ map $http_referer $bad_referer {
 	"~*remont-komputerov-notebook.ru"		1;
 	"~*remont-mobile-phones.ru"		1;
 	"~*remont-ustanovka-tehniki.ru"		1;
+	"~*remontvsamare.su"		1;
 	"~*remorcicomerciale.ro"		1;
 	"~*remote-dba.de"		1;
 	"~*remybutler.fr"		1;
@@ -4441,6 +4453,7 @@ map $http_referer $bad_referer {
 	"~*rique.host.sk"		1;
 	"~*risparmiocasa.bz.it"		1;
 	"~*ritlweb.com"		1;
+	"~*rixpix.ru"		1;
 	"~*rn-to-bsn.com"		1;
 	"~*robot-forex.biz"		1;
 	"~*rockingclicks.com"		1;
@@ -5054,6 +5067,7 @@ map $http_referer $bad_referer {
 	"~*texbaza.by"		1;
 	"~*textads.men"		1;
 	"~*thaisamkok.com"		1;
+	"~*thebestweightlosspills.ovh"		1;
 	"~*thebluenoodle.com"		1;
 	"~*thebluffs.com"		1;
 	"~*thecoolimages.net"		1;
@@ -5080,6 +5094,7 @@ map $http_referer $bad_referer {
 	"~*the-torrent-tracker.blogspot.com"		1;
 	"~*the-trader.net"		1;
 	"~*the-usa-games.blogspot.com"		1;
+	"~*thewebsitetemplate.info"		1;
 	"~*thewomenlife.com"		1;
 	"~*thfox.com"		1;
 	"~*thiegs.reco.ws"		1;
@@ -5351,6 +5366,7 @@ map $http_referer $bad_referer {
 	"~*usacasino.com"		1;
 	"~*usadacha.net"		1;
 	"~*us-america.ru"		1;
+	"~*usbggettwku.ga"		1;
 	"~*usdx.us"		1;
 	"~*userequip.com"		1;
 	"~*usiad.net"		1;
@@ -5411,6 +5427,7 @@ map $http_referer $bad_referer {
 	"~*videochat.life"		1;
 	"~*video-chat.love"		1;
 	"~*videochat.mx"		1;
+	"~*videochat.ph"		1;
 	"~*videochat.tv.br"		1;
 	"~*videochat.world"		1;
 	"~*videochaty.ru"		1;
@@ -5714,6 +5731,7 @@ map $http_referer $bad_referer {
 	"~*xn--b1agm2d.net"		1;
 	"~*xn--c1acygb.xn--p1ai"		1;
 	"~*xn--d1abj0abs9d.in.ua"		1;
+	"~*xn--d1aifoe0a9a.top"		1;
 	"~*xn--e1afanlbnfckd7c3d.xn--p1ai"		1;
 	"~*xn--e1aggki3c.xn--80adxhks"		1;
 	"~*xn--h1aakne2ba.xn--p1ai"		1;
@@ -5749,9 +5767,12 @@ map $http_referer $bad_referer {
 	"~*xxxrus.org"		1;
 	"~*xxx-treker.ru"		1;
 	"~*xxxtube69.com"		1;
+	"~*xxxtubesafari.com"		1;
 	"~*xz618.com"		1;
 	"~*xzlive.com"		1;
+	"~*y8games-free.com"		1;
 	"~*yaaknaa.info"		1;
+	"~*yachts-cruise.info"		1;
 	"~*yaderenergy.ru"		1;
 	"~*yadro.ru"		1;
 	"~*yaminecraft.ru"		1;
@@ -5823,6 +5844,7 @@ map $http_referer $bad_referer {
 	"~*zapiszto.pl"		1;
 	"~*zarabiaj-dzis.pl"		1;
 	"~*zarabotat-na-sajte.ru"		1;
+	"~*zarabotok--doma.ru"		1;
 	"~*zarajbuilders.com"		1;
 	"~*zarenica.net"		1;
 	"~*zarepta.com"		1;
