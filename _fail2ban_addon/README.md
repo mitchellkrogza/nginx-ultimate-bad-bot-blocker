@@ -1,4 +1,4 @@
-# Fail2Ban Blacklist for Repeat Offenders of Nginx (action.d)
+# Fail2Ban Blacklist for Repeat Error 444 and 403 Offenders of Nginx (action.d)
 #### also includes wp-login attack filter using [nginx-limit-req] - see lower down
 
 ### Author: Mitchell Krog <mitchellkrog@gmail.com>
