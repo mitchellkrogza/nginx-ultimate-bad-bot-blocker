@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.653
-### Updated: Sat Jul  8 12:34:04 SAST 2017
-### Bad Referrer Count: 5073
+### Version: V3.2017.07.654
+### Updated: Sat Jul  8 13:13:15 SAST 2017
+### Bad Referrer Count: 5101
 ### Bad Bot Count: 481
 ###################################################
 ### VERSION INFORMATION ##
@@ -1176,6 +1176,7 @@ map $http_referer $bad_referer {
 	"~*anime.dougasouko.com"		1;
 	"~*anjalika.co.in"		1;
 	"~*anlimebel.kiev.ua"		1;
+	"~*anniemation.com"		1;
 	"~*anonymizeme.pro"		1;
 	"~*anticrawler.org"		1;
 	"~*anti-virus-removal.info"		1;
@@ -1221,6 +1222,7 @@ map $http_referer $bad_referer {
 	"~*apps-analytics.net"		1;
 	"~*appsaurus.com"		1;
 	"~*apptester.tk"		1;
+	"~*a.pr-cy.ru"		1;
 	"~*aproposde.com"		1;
 	"~*ap.senai.br"		1;
 	"~*apxeo.info"		1;
@@ -1302,6 +1304,7 @@ map $http_referer $bad_referer {
 	"~*autoplate.info"		1;
 	"~*autorn.ru"		1;
 	"~*auto.rusvile.lt"		1;
+	"~*autoseo-traffic.com"		1;
 	"~*autotop.com.ua"		1;
 	"~*autotrends.today"		1;
 	"~*autoua.top"		1;
@@ -2000,6 +2003,7 @@ map $http_referer $bad_referer {
 	"~*data.vtc.pw"		1;
 	"~*date-withme.com"		1;
 	"~*dating-time-now.com"		1;
+	"~*datract.com"		1;
 	"~*datsun-do.com"		1;
 	"~*davebestdeals.com"		1;
 	"~*daydream-studio.ru"		1;
@@ -2103,6 +2107,7 @@ map $http_referer $bad_referer {
 	"~*dogbreedspicture.net"		1;
 	"~*dogclothing.store"		1;
 	"~*dogoimage.com"		1;
+	"~*dogsrun.net"		1;
 	"~*dojki-hd.com"		1;
 	"~*dokfilms.net"		1;
 	"~*doktoronline.no"		1;
@@ -2252,6 +2257,7 @@ map $http_referer $bad_referer {
 	"~*empirepoker.com"		1;
 	"~*empis.magix.net"		1;
 	"~*en.altezza.travel"		1;
+	"~*enbersoft.com"		1;
 	"~*encodable.com"		1;
 	"~*energydiet24.ru"		1;
 	"~*energydiet-info.ru"		1;
@@ -3686,6 +3692,7 @@ map $http_referer $bad_referer {
 	"~*mostantikor.ru"		1;
 	"~*most.gov.iq"		1;
 	"~*most-kerch.org"		1;
+	"~*motherboard.vice.com"		1;
 	"~*mototsikl.org"		1;
 	"~*mountainstream.ms"		1;
 	"~*moviemail-online.co.uk"		1;
@@ -4039,6 +4046,7 @@ map $http_referer $bad_referer {
 	"~*pcads.ru"		1;
 	"~*pcboa.se"		1;
 	"~*pcgroup.com.uy"		1;
+	"~*pcimforum.com"		1;
 	"~*pc-services.ru"		1;
 	"~*pc-test.net"		1;
 	"~*pc-virus-d0l92j2.pw"		1;
@@ -4127,6 +4135,7 @@ map $http_referer $bad_referer {
 	"~*plastjulgranar.se"		1;
 	"~*plastweb.ru"		1;
 	"~*platesauto.com"		1;
+	"~*platezhka.net"		1;
 	"~*platinumdeals.gr"		1;
 	"~*playboyfiles.xblog.in"		1;
 	"~*playlott.com"		1;
@@ -4986,6 +4995,7 @@ map $http_referer $bad_referer {
 	"~*superstats.com"		1;
 	"~*supervesti.ru"		1;
 	"~*support.nopeas.sk"		1;
+	"~*suralink.com"		1;
 	"~*surcentro.com"		1;
 	"~*sureone.pro"		1;
 	"~*surfbuyermac.com"		1;

@@ -335,6 +335,7 @@ domain:animebox.com.ua
 domain:anime.dougasouko.com
 domain:anjalika.co.in
 domain:anlimebel.kiev.ua
+domain:anniemation.com
 domain:anonymizeme.pro
 domain:anticrawler.org
 domain:anti-virus-removal.info
@@ -380,6 +381,7 @@ domain:approved.su
 domain:apps-analytics.net
 domain:appsaurus.com
 domain:apptester.tk
+domain:a.pr-cy.ru
 domain:aproposde.com
 domain:ap.senai.br
 domain:apxeo.info
@@ -461,6 +463,7 @@ domain:autonew.biz
 domain:autoplate.info
 domain:autorn.ru
 domain:auto.rusvile.lt
+domain:autoseo-traffic.com
 domain:autotop.com.ua
 domain:autotrends.today
 domain:autoua.top
@@ -1159,6 +1162,7 @@ domain:data-mining.tk
 domain:data.vtc.pw
 domain:date-withme.com
 domain:dating-time-now.com
+domain:datract.com
 domain:datsun-do.com
 domain:davebestdeals.com
 domain:daydream-studio.ru
@@ -1262,6 +1266,7 @@ domain:doeco.ru
 domain:dogbreedspicture.net
 domain:dogclothing.store
 domain:dogoimage.com
+domain:dogsrun.net
 domain:dojki-hd.com
 domain:dokfilms.net
 domain:doktoronline.no
@@ -1411,6 +1416,7 @@ domain:empathica.com
 domain:empirepoker.com
 domain:empis.magix.net
 domain:en.altezza.travel
+domain:enbersoft.com
 domain:encodable.com
 domain:energydiet24.ru
 domain:energydiet-info.ru
@@ -2845,6 +2851,7 @@ domain:mossmesi.com
 domain:mostantikor.ru
 domain:most.gov.iq
 domain:most-kerch.org
+domain:motherboard.vice.com
 domain:mototsikl.org
 domain:mountainstream.ms
 domain:moviemail-online.co.uk
@@ -3198,6 +3205,7 @@ domain:p-business.ru
 domain:pcads.ru
 domain:pcboa.se
 domain:pcgroup.com.uy
+domain:pcimforum.com
 domain:pc-services.ru
 domain:pc-test.net
 domain:pc-virus-d0l92j2.pw
@@ -3286,6 +3294,7 @@ domain:plastgranar.nu
 domain:plastjulgranar.se
 domain:plastweb.ru
 domain:platesauto.com
+domain:platezhka.net
 domain:platinumdeals.gr
 domain:playboyfiles.xblog.in
 domain:playlott.com
@@ -4145,6 +4154,7 @@ domain:supers.com.ua
 domain:superstats.com
 domain:supervesti.ru
 domain:support.nopeas.sk
+domain:suralink.com
 domain:surcentro.com
 domain:sureone.pro
 domain:surfbuyermac.com
