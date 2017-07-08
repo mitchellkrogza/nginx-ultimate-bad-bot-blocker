@@ -40,12 +40,7 @@ Follow the step by step visual instructions below to add these google-exclude fi
   </tr>
 </table>
 
-# Also Check Out RefererSpamBlocker
-
-Also check out [Referer Spam Blocker](https://referrerspamblocker.com)
-for Google Analytics which uses a collaborated source of spam domains and automatically adds all the filters to your Analytics sites for you in 2 easy clicks and it is FREE. This method uses filters and not Segments but it's fast and easy for those who do not have patience.
-
-## Blocking Spam Domains Using Google Webmaster Tools
+## Blocking Spam Domains Using Google Webmaster Tools (How to use google-disavow.txt file)
 
 I have added the creation of a Google Disavow text file called google-disavow.txt. This file can be used in Google's Webmaster Tools to block all these domains out as spammy or bad links. Use with caution.
 
