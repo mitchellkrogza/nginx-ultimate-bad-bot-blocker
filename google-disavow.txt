@@ -81,6 +81,7 @@ domain:4webmasters.org
 domain:5000-cotydzien.com
 domain:51.la
 domain:51unlim.ru
+domain:54.186.60.77
 domain:55wmz.ru
 domain:57883.net
 domain:5elementov.ru
@@ -132,6 +133,8 @@ domain:aadroid.net
 domain:aarbur.com
 domain:aaronabel.com
 domain:abbanreddy.com
+domain:abcdefh.xyz
+domain:abcdeg.xyz
 domain:abclauncher.com
 domain:abctoppictures.net
 domain:abiente.ru
@@ -213,6 +216,7 @@ domain:advertisingtag.net
 domain:adviceforum.info
 domain:advocatemsk.ru
 domain:advokateg.ru
+domain:advokateg.xyz
 domain:ad-words.ru
 domain:adzerg.com
 domain:adzpower.com
@@ -256,6 +260,7 @@ domain:alert-hgd.xyz
 domain:alert-jdh.xyz
 domain:alessandraleone.com
 domain:alfa9.com
+domain:alfabot.xyz
 domain:alfa-img.com
 domain:alfa-medosmotr.ru
 domain:alfapro.ru
@@ -403,6 +408,7 @@ domain:arendakvartir.kz
 domain:arendas.net
 domain:arendatora.ru
 domain:arenda-yeisk.ru
+domain:arendovalka.xyz
 domain:arewater.com
 domain:arkartex.ru
 domain:arkkivoltti.net
@@ -458,6 +464,7 @@ domain:autochoixspinelli.com
 domain:autogrep.ru
 domain:autoloans.com
 domain:autolombard-krasnodar.ru
+domain:automatic-seo.com
 domain:auto-moto-elektronika.cz
 domain:autonew.biz
 domain:autoplate.info
@@ -576,6 +583,7 @@ domain:beauty-things.com
 domain:becuo.com
 domain:bedandbreakfast.com
 domain:bedcapdealers.com
+domain:begalka.xyz
 domain:belinka.com.ua
 domain:belinvestdom.by
 domain:belstaffstore.online
@@ -622,6 +630,7 @@ domain:betune.onlinewebshop.net
 domain:betwinservice.com
 domain:beyan.host.sk
 domain:bezcmexa.ru
+domain:bezlimitko.xyz
 domain:bezsporno.ru
 domain:beztuberkuleza.ru
 domain:bfz.biz
@@ -656,6 +665,7 @@ domain:bio.trade-jp.net
 domain:birzha-truda.eu
 domain:bitcoinpile.com
 domain:bitcoins-live.ru
+domain:biteg.xyz
 domain:bitporno.sx
 domain:bizcheapjerseyswholesalechina.com
 domain:bizfly.info
@@ -708,6 +718,7 @@ domain:bodybuilding-shop.biz
 domain:boleznikogi.com
 domain:bolezniorganov.ru
 domain:bolitgorlo.net
+domain:boltalko.xyz
 domain:bombla.org
 domain:bonanza-fortune.men
 domain:bongacams.com
@@ -733,6 +744,7 @@ domain:braip.com.br
 domain:brakehawk.com
 domain:brandehk.dk
 domain:brandov.ru
+domain:brateg.xyz
 domain:break-the-chains.com
 domain:breastaugmentation.co.za
 domain:breget74.ru
@@ -757,11 +769,14 @@ domain:b-styles.xyz
 domain:btc4u.ru
 domain:btvn.ru
 domain:buchananshardware.com
+domain:budilneg.xyz
 domain:budpost.com.ua
 domain:buehne-fuer-menschenrechte.de
 domain:bugof.gq
 domain:buigas.00it.com
 domain:builtwith.com
+domain:buketeg.xyz
+domain:bukleteg.xyz
 domain:bum.com.ru
 domain:bumskontakte.org
 domain:bupropion-sr-150-mg.us
@@ -1026,18 +1041,30 @@ domain:com-onlinesupport.host
 domain:com-onlinesupport.site
 domain:companies-catalog.com
 domain:compliance-alexa.top
+domain:compliance-alexa.xyz
 domain:compliance-alex.top
+domain:compliance-alex.xyz
 domain:compliance-andrew.top
+domain:compliance-andrew.xyz
 domain:compliance-barak.top
+domain:compliance-barak.xyz
 domain:compliance-brian.top
+domain:compliance-brian.xyz
 domain:compliance-checker-7.info
 domain:compliance-checker.info
+domain:compliance-donald.xyz
 domain:compliance-don.top
+domain:compliance-don.xyz
 domain:compliance-elena.top
+domain:compliance-elena.xyz
 domain:compliance-fred.top
+domain:compliance-fred.xyz
 domain:compliance-george.top
+domain:compliance-george.xyz
 domain:compliance-irvin.top
+domain:compliance-irvin.xyz
 domain:compliance-ivan.top
+domain:compliance-ivan.xyz
 domain:compliance-jack.top
 domain:compliance-jane.top
 domain:compliance-jessica.top
@@ -1070,6 +1097,10 @@ domain:constantaservice.net
 domain:construmac.com.mx
 domain:contextualyield.com
 domain:cookielawblog.wordpress.com
+domain:cookie-law-enforcement-aa.xyz
+domain:cookie-law-enforcement-ee.xyz
+domain:cookie-law-enforcement-ff.xyz
+domain:cookie-law-enforcement-hh.xyz
 domain:cookingmeat.ru
 domain:coolbar.pro
 domain:coolgramgoods.com
@@ -1712,6 +1743,7 @@ domain:free-share-buttons.com
 domain:free-share-buttons.top
 domain:freesitetest.com
 domain:free-social-buttons.com
+domain:free-social-buttons.xyz
 domain:free-stock-illustration.com
 domain:freetangodownload.com
 domain:free-traffic.xyz
@@ -1737,6 +1769,7 @@ domain:fsakhalin.ru
 domain:fsalas.com
 domain:ftns.ru
 domain:fuckmill.com
+domain:fuck-paid-share-buttons.xyz
 domain:fuel-gas.com
 domain:fugarif.ga
 domain:fullfileaccess.com
@@ -2144,6 +2177,7 @@ domain:ilmen.net
 domain:iloveitaly.ru
 domain:ilovevitaly.com
 domain:ilovevitaly.ru
+domain:ilovevitaly.xyz
 domain:ilte.info
 domain:imabase.com
 domain:imadedinner.net
@@ -2314,6 +2348,7 @@ domain:jus0wil.pp.ua
 domain:justbcause.com
 domain:justdating.online
 domain:justkillingti.me
+domain:justprofit.xyz
 domain:jwss.cc
 domain:kaac.ru
 domain:kabbalah-red-bracelets.com
@@ -2746,6 +2781,7 @@ domain:methodsmarketing.com
 domain:mex-annushka.ru
 domain:mexicosleevegastrectomy.com
 domain:mexicotravelnet.com
+domain:m-google.xyz
 domain:mhi-systems.ru
 domain:mhtr.be
 domain:micasainvest.com
@@ -2974,6 +3010,7 @@ domain:netallergy.ru
 domain:netfacet.net
 domain:netoil.no
 domain:netpics.org
+domain:net-profits.xyz
 domain:net-radar.com
 domain:networkad.net
 domain:nevansk.ru
@@ -3074,6 +3111,7 @@ domain:oklogistic.ru
 domain:okmusic.jp
 domain:okout.ru
 domain:okroshki.ru
+domain:ok.ru
 domain:oktube.ru
 domain:ok-ua.info
 domain:old-rock.com

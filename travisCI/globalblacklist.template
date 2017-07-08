@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.655
-### Updated: Sat Jul  8 14:21:28 SAST 2017
-### Bad Referrer Count: 5083
+### Version: V3.2017.07.656
+### Updated: Sat Jul  8 15:19:49 SAST 2017
+### Bad Referrer Count: 5431
 ### Bad Bot Count: 481
 ###################################################
 ### VERSION INFORMATION ##
@@ -922,6 +922,7 @@ map $http_referer $bad_referer {
 	"~*5000-cotydzien.com"		1;
 	"~*51.la"		1;
 	"~*51unlim.ru"		1;
+	"~*54.186.60.77"		1;
 	"~*55wmz.ru"		1;
 	"~*57883.net"		1;
 	"~*5elementov.ru"		1;
@@ -973,6 +974,8 @@ map $http_referer $bad_referer {
 	"~*aarbur.com"		1;
 	"~*aaronabel.com"		1;
 	"~*abbanreddy.com"		1;
+	"~*abcdefh.xyz"		1;
+	"~*abcdeg.xyz"		1;
 	"~*abclauncher.com"		1;
 	"~*abctoppictures.net"		1;
 	"~*abiente.ru"		1;
@@ -1054,6 +1057,7 @@ map $http_referer $bad_referer {
 	"~*adviceforum.info"		1;
 	"~*advocatemsk.ru"		1;
 	"~*advokateg.ru"		1;
+	"~*advokateg.xyz"		1;
 	"~*ad-words.ru"		1;
 	"~*adzerg.com"		1;
 	"~*adzpower.com"		1;
@@ -1097,6 +1101,7 @@ map $http_referer $bad_referer {
 	"~*alert-jdh.xyz"		1;
 	"~*alessandraleone.com"		1;
 	"~*alfa9.com"		1;
+	"~*alfabot.xyz"		1;
 	"~*alfa-img.com"		1;
 	"~*alfa-medosmotr.ru"		1;
 	"~*alfapro.ru"		1;
@@ -1244,6 +1249,7 @@ map $http_referer $bad_referer {
 	"~*arendas.net"		1;
 	"~*arendatora.ru"		1;
 	"~*arenda-yeisk.ru"		1;
+	"~*arendovalka.xyz"		1;
 	"~*arewater.com"		1;
 	"~*arkartex.ru"		1;
 	"~*arkkivoltti.net"		1;
@@ -1299,6 +1305,7 @@ map $http_referer $bad_referer {
 	"~*autogrep.ru"		1;
 	"~*autoloans.com"		1;
 	"~*autolombard-krasnodar.ru"		1;
+	"~*automatic-seo.com"		1;
 	"~*auto-moto-elektronika.cz"		1;
 	"~*autonew.biz"		1;
 	"~*autoplate.info"		1;
@@ -1417,6 +1424,7 @@ map $http_referer $bad_referer {
 	"~*becuo.com"		1;
 	"~*bedandbreakfast.com"		1;
 	"~*bedcapdealers.com"		1;
+	"~*begalka.xyz"		1;
 	"~*belinka.com.ua"		1;
 	"~*belinvestdom.by"		1;
 	"~*belstaffstore.online"		1;
@@ -1463,6 +1471,7 @@ map $http_referer $bad_referer {
 	"~*betwinservice.com"		1;
 	"~*beyan.host.sk"		1;
 	"~*bezcmexa.ru"		1;
+	"~*bezlimitko.xyz"		1;
 	"~*bezsporno.ru"		1;
 	"~*beztuberkuleza.ru"		1;
 	"~*bfz.biz"		1;
@@ -1497,6 +1506,7 @@ map $http_referer $bad_referer {
 	"~*birzha-truda.eu"		1;
 	"~*bitcoinpile.com"		1;
 	"~*bitcoins-live.ru"		1;
+	"~*biteg.xyz"		1;
 	"~*bitporno.sx"		1;
 	"~*bizcheapjerseyswholesalechina.com"		1;
 	"~*bizfly.info"		1;
@@ -1549,6 +1559,7 @@ map $http_referer $bad_referer {
 	"~*boleznikogi.com"		1;
 	"~*bolezniorganov.ru"		1;
 	"~*bolitgorlo.net"		1;
+	"~*boltalko.xyz"		1;
 	"~*bombla.org"		1;
 	"~*bonanza-fortune.men"		1;
 	"~*bongacams.com"		1;
@@ -1574,6 +1585,7 @@ map $http_referer $bad_referer {
 	"~*brakehawk.com"		1;
 	"~*brandehk.dk"		1;
 	"~*brandov.ru"		1;
+	"~*brateg.xyz"		1;
 	"~*break-the-chains.com"		1;
 	"~*breastaugmentation.co.za"		1;
 	"~*breget74.ru"		1;
@@ -1598,11 +1610,14 @@ map $http_referer $bad_referer {
 	"~*btc4u.ru"		1;
 	"~*btvn.ru"		1;
 	"~*buchananshardware.com"		1;
+	"~*budilneg.xyz"		1;
 	"~*budpost.com.ua"		1;
 	"~*buehne-fuer-menschenrechte.de"		1;
 	"~*bugof.gq"		1;
 	"~*buigas.00it.com"		1;
 	"~*builtwith.com"		1;
+	"~*buketeg.xyz"		1;
+	"~*bukleteg.xyz"		1;
 	"~*bum.com.ru"		1;
 	"~*bumskontakte.org"		1;
 	"~*bupropion-sr-150-mg.us"		1;
@@ -1867,18 +1882,30 @@ map $http_referer $bad_referer {
 	"~*com-onlinesupport.site"		1;
 	"~*companies-catalog.com"		1;
 	"~*compliance-alexa.top"		1;
+	"~*compliance-alexa.xyz"		1;
 	"~*compliance-alex.top"		1;
+	"~*compliance-alex.xyz"		1;
 	"~*compliance-andrew.top"		1;
+	"~*compliance-andrew.xyz"		1;
 	"~*compliance-barak.top"		1;
+	"~*compliance-barak.xyz"		1;
 	"~*compliance-brian.top"		1;
+	"~*compliance-brian.xyz"		1;
 	"~*compliance-checker-7.info"		1;
 	"~*compliance-checker.info"		1;
+	"~*compliance-donald.xyz"		1;
 	"~*compliance-don.top"		1;
+	"~*compliance-don.xyz"		1;
 	"~*compliance-elena.top"		1;
+	"~*compliance-elena.xyz"		1;
 	"~*compliance-fred.top"		1;
+	"~*compliance-fred.xyz"		1;
 	"~*compliance-george.top"		1;
+	"~*compliance-george.xyz"		1;
 	"~*compliance-irvin.top"		1;
+	"~*compliance-irvin.xyz"		1;
 	"~*compliance-ivan.top"		1;
+	"~*compliance-ivan.xyz"		1;
 	"~*compliance-jack.top"		1;
 	"~*compliance-jane.top"		1;
 	"~*compliance-jessica.top"		1;
@@ -1911,6 +1938,10 @@ map $http_referer $bad_referer {
 	"~*construmac.com.mx"		1;
 	"~*contextualyield.com"		1;
 	"~*cookielawblog.wordpress.com"		1;
+	"~*cookie-law-enforcement-aa.xyz"		1;
+	"~*cookie-law-enforcement-ee.xyz"		1;
+	"~*cookie-law-enforcement-ff.xyz"		1;
+	"~*cookie-law-enforcement-hh.xyz"		1;
 	"~*cookingmeat.ru"		1;
 	"~*coolbar.pro"		1;
 	"~*coolgramgoods.com"		1;
@@ -2553,6 +2584,7 @@ map $http_referer $bad_referer {
 	"~*free-share-buttons.top"		1;
 	"~*freesitetest.com"		1;
 	"~*free-social-buttons.com"		1;
+	"~*free-social-buttons.xyz"		1;
 	"~*free-stock-illustration.com"		1;
 	"~*freetangodownload.com"		1;
 	"~*free-traffic.xyz"		1;
@@ -2578,6 +2610,7 @@ map $http_referer $bad_referer {
 	"~*fsalas.com"		1;
 	"~*ftns.ru"		1;
 	"~*fuckmill.com"		1;
+	"~*fuck-paid-share-buttons.xyz"		1;
 	"~*fuel-gas.com"		1;
 	"~*fugarif.ga"		1;
 	"~*fullfileaccess.com"		1;
@@ -2985,6 +3018,7 @@ map $http_referer $bad_referer {
 	"~*iloveitaly.ru"		1;
 	"~*ilovevitaly.com"		1;
 	"~*ilovevitaly.ru"		1;
+	"~*ilovevitaly.xyz"		1;
 	"~*ilte.info"		1;
 	"~*imabase.com"		1;
 	"~*imadedinner.net"		1;
@@ -3155,6 +3189,7 @@ map $http_referer $bad_referer {
 	"~*justbcause.com"		1;
 	"~*justdating.online"		1;
 	"~*justkillingti.me"		1;
+	"~*justprofit.xyz"		1;
 	"~*jwss.cc"		1;
 	"~*kaac.ru"		1;
 	"~*kabbalah-red-bracelets.com"		1;
@@ -3587,6 +3622,7 @@ map $http_referer $bad_referer {
 	"~*mex-annushka.ru"		1;
 	"~*mexicosleevegastrectomy.com"		1;
 	"~*mexicotravelnet.com"		1;
+	"~*m-google.xyz"		1;
 	"~*mhi-systems.ru"		1;
 	"~*mhtr.be"		1;
 	"~*micasainvest.com"		1;
@@ -3815,6 +3851,7 @@ map $http_referer $bad_referer {
 	"~*netfacet.net"		1;
 	"~*netoil.no"		1;
 	"~*netpics.org"		1;
+	"~*net-profits.xyz"		1;
 	"~*net-radar.com"		1;
 	"~*networkad.net"		1;
 	"~*nevansk.ru"		1;
@@ -3915,6 +3952,7 @@ map $http_referer $bad_referer {
 	"~*okmusic.jp"		1;
 	"~*okout.ru"		1;
 	"~*okroshki.ru"		1;
+	"~*ok.ru"		1;
 	"~*oktube.ru"		1;
 	"~*ok-ua.info"		1;
 	"~*old-rock.com"		1;
