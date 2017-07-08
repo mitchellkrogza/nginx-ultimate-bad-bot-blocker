@@ -1,5 +1,11 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-07-06
+- Important update to bad-referrer-words.conf, all users urged to download new version.
+- whitelist-domains.conf added as an include in the Bad Referrer Words scanning section.
+- Documentation updates on how to use google-exclude-*.txt files to create Segments in Google Analytics
+- Many updates to Travis CI generator scripts and curl testing.
+
 ### 2017-06-25
 - New Travis CI generator script brought online and all tests passed.
 - Travis CI now handles generating the globalblacklist.conf, robots.txt, google-disavow and google-exclude files during it's build and testing process.
