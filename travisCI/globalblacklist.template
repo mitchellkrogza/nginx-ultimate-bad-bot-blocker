@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.659
-### Updated: Sat Jul  8 17:23:02 SAST 2017
-### Bad Referrer Count: 5739
+### Version: V3.2017.07.660
+### Updated: Sun Jul  9 11:21:48 SAST 2017
+### Bad Referrer Count: 5196
 ### Bad Bot Count: 481
 ###################################################
 ### VERSION INFORMATION ##
@@ -1525,6 +1525,7 @@ map $http_referer $bad_referer {
 	"~*blackhatworth.com"		1;
 	"~*blackle.com"		1;
 	"~*blackplanet.com"		1;
+	"~*blacktwhite.com"		1;
 	"~*blackwitchcraft.ru"		1;
 	"~*blagovest-med.ru"		1;
 	"~*blavia.00author.com"		1;
@@ -1980,6 +1981,7 @@ map $http_referer $bad_referer {
 	"~*covadhosting.biz"		1;
 	"~*covetnica.com"		1;
 	"~*cowblog.fr"		1;
+	"~*cowlmash.com"		1;
 	"~*cpabegins.ru"		1;
 	"~*craftburg.ru"		1;
 	"~*crafthubs.com"		1;
@@ -2184,6 +2186,7 @@ map $http_referer $bad_referer {
 	"~*downloadkakaotalk.com"		1;
 	"~*downloadmefiranaratb1972.xpg.com.br"		1;
 	"~*download-of-the-warez.blogspot.com"		1;
+	"~*download-wallpaper.net"		1;
 	"~*downtuptv.gq"		1;
 	"~*doxyporno.com"		1;
 	"~*doyouknowtheword-flummox.ml"		1;
@@ -3579,6 +3582,7 @@ map $http_referer $bad_referer {
 	"~*matchpal-a.akamaihd.net"		1;
 	"~*matematikus.info"		1;
 	"~*mathgym.com.au"		1;
+	"~*matsdale.com"		1;
 	"~*mature.free-websites.com"		1;
 	"~*max-eclat.men"		1;
 	"~*maximilitary.ru"		1;

@@ -684,6 +684,7 @@ domain:blackcurranthumidifiers.site
 domain:blackhatworth.com
 domain:blackle.com
 domain:blackplanet.com
+domain:blacktwhite.com
 domain:blackwitchcraft.ru
 domain:blagovest-med.ru
 domain:blavia.00author.com
@@ -1139,6 +1140,7 @@ domain:courtshipgift.com
 domain:covadhosting.biz
 domain:covetnica.com
 domain:cowblog.fr
+domain:cowlmash.com
 domain:cpabegins.ru
 domain:craftburg.ru
 domain:crafthubs.com
@@ -1343,6 +1345,7 @@ domain:downloader12.ru
 domain:downloadkakaotalk.com
 domain:downloadmefiranaratb1972.xpg.com.br
 domain:download-of-the-warez.blogspot.com
+domain:download-wallpaper.net
 domain:downtuptv.gq
 domain:doxyporno.com
 domain:doyouknowtheword-flummox.ml
@@ -2738,6 +2741,7 @@ domain:matb3aa.com
 domain:matchpal-a.akamaihd.net
 domain:matematikus.info
 domain:mathgym.com.au
+domain:matsdale.com
 domain:mature.free-websites.com
 domain:max-eclat.men
 domain:maximilitary.ru
