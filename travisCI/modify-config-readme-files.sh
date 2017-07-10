@@ -55,7 +55,7 @@ _endmarker="### Version Information ##"
 # PRINT VERSION INFORMATION INTO README.md
 # ****************************************
 
-printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> $_tmpnginxA
+printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> "$_tmpnginxA"
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
 1,/### Version Information #/d
@@ -76,7 +76,7 @@ rm $_inputdbA
 # PRINT VERSION INFORMATION INTO AUTO-CONFIGURATION.md
 # ****************************************************
 
-printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> $_tmpnginxA
+printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> "$_tmpnginxA"
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
 1,/### Version Information #/d
@@ -97,7 +97,7 @@ rm $_inputdbA
 # PRINT VERSION INFORMATION INTO MANUAL-CONFIGURATION.md
 # ******************************************************
 
-printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> $_tmpnginxA
+printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> "$_tmpnginxA"
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
 1,/### Version Information #/d

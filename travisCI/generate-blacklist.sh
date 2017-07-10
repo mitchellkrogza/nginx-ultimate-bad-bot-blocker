@@ -145,12 +145,12 @@ _action4="3;"
 # GOOD USER AGENTS - Create and Insert
 # ************************************
 
-printf '%s\n' "$_start1" >> $_tmpnginx1
+printf '%s\n' "$_start1" >> "$_tmpnginx1"
 while IFS= read -r LINE
 do
 printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action1" >> "$_tmpnginx1"
 done < $_input1
-printf '%s\n' "$_end1"  >> $_tmpnginx1
+printf '%s\n' "$_end1"  >> "$_tmpnginx1"
 mv $_tmpnginx1 $_inputdb1
 ed -s $_inputdb1<<\IN
 1,/# START GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -171,12 +171,12 @@ rm $_inputdb1
 # ALLOWED BOTS - Create and Insert
 # ********************************
 
-printf '%s\n' "$_start2" >> $_tmpnginx2
+printf '%s\n' "$_start2" >> "$_tmpnginx2"
 while IFS= read -r LINE
 do
 printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action2" >> "$_tmpnginx2"
 done < $_input2
-printf '%s\n' "$_end2"  >> $_tmpnginx2
+printf '%s\n' "$_end2"  >> "$_tmpnginx2"
 mv $_tmpnginx2 $_inputdb2
 ed -s $_inputdb2<<\IN
 1,/# START ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -195,12 +195,12 @@ rm $_inputdb2
 # LIMITED BOTS - Create and Insert
 # ********************************
 
-printf '%s\n' "$_start3" >> $_tmpnginx3
+printf '%s\n' "$_start3" >> "$_tmpnginx3"
 while IFS= read -r LINE
 do
 printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action3" >> "$_tmpnginx3"
 done < $_input3
-printf '%s\n' "$_end3"  >> $_tmpnginx3
+printf '%s\n' "$_end3"  >> "$_tmpnginx3"
 mv $_tmpnginx3 $_inputdb3
 ed -s $_inputdb3<<\IN
 1,/# START LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -219,12 +219,12 @@ rm $_inputdb3
 # BAD BOTS - Create and Insert
 # ****************************
 
-printf '%s\n' "$_start4" >> $_tmpnginx4
+printf '%s\n' "$_start4" >> "$_tmpnginx4"
 while IFS= read -r LINE
 do
 printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action4" >> "$_tmpnginx4"
 done < $_input4
-printf '%s\n' "$_end4"  >> $_tmpnginx4
+printf '%s\n' "$_end4"  >> "$_tmpnginx4"
 mv $_tmpnginx4 $_inputdb4
 ed -s $_inputdb4<<\IN
 1,/# START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -243,12 +243,12 @@ rm $_inputdb4
 # BAD REFERERS - Create and Insert
 # ********************************
 
-printf '%s\n' "$_start5" >> $_tmpnginx5
+printf '%s\n' "$_start5" >> "$_tmpnginx5"
 while IFS= read -r LINE
 do
 printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action2" >> "$_tmpnginx5"
 done < $_input5
-printf '%s\n' "$_end5"  >> $_tmpnginx5
+printf '%s\n' "$_end5"  >> "$_tmpnginx5"
 mv $_tmpnginx5 $_inputdb5
 ed -s $_inputdb5<<\IN
 1,/# START BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -267,12 +267,12 @@ rm $_inputdb5
 # GOOGLE IP RANGES - Create and Insert
 # ************************************
 
-printf '%s\n' "$_start6" >> $_tmpnginx6
+printf '%s\n' "$_start6" >> "$_tmpnginx6"
 while IFS= read -r LINE
 do
 printf '\t%s\t\t%s\n' "${LINE}" "$_action1" >> "$_tmpnginx6"
 done < $_input6
-printf '%s\n' "$_end6"  >> $_tmpnginx6
+printf '%s\n' "$_end6"  >> "$_tmpnginx6"
 mv $_tmpnginx6 $_inputdb6
 ed -s $_inputdb6<<\IN
 1,/# START GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -291,12 +291,12 @@ rm $_inputdb6
 # BING IP RANGES - Create and Insert
 # **********************************
 
-printf '%s\n' "$_start7" >> $_tmpnginx7
+printf '%s\n' "$_start7" >> "$_tmpnginx7"
 while IFS= read -r LINE
 do
 printf '\t%s\t\t%s\n' "${LINE}" "$_action1" >> "$_tmpnginx7"
 done < $_input7
-printf '%s\n' "$_end7"  >> $_tmpnginx7
+printf '%s\n' "$_end7"  >> "$_tmpnginx7"
 mv $_tmpnginx7 $_inputdb7
 ed -s $_inputdb7<<\IN
 1,/# START BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -315,12 +315,12 @@ rm $_inputdb7
 # Wordpress Theme Detectors - Create and Insert
 # *********************************************
 
-printf '%s\n' "$_start8" >> $_tmpnginx8
+printf '%s\n' "$_start8" >> "$_tmpnginx8"
 while IFS= read -r LINE
 do
 printf '%s\n' "${LINE}" >> "$_tmpnginx8"
 done < $_input8
-printf '%s\n' "$_end8"  >> $_tmpnginx8
+printf '%s\n' "$_end8"  >> "$_tmpnginx8"
 mv $_tmpnginx8 $_inputdb8
 ed -s $_inputdb8<<\IN
 1,/# START WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -339,12 +339,12 @@ rm $_inputdb8
 # Nibbler SEO - Create and Insert
 # *******************************
 
-printf '%s\n' "$_start9" >> $_tmpnginx9
+printf '%s\n' "$_start9" >> "$_tmpnginx9"
 while IFS= read -r LINE
 do
 printf '\t%s\t\t%s\n' "${LINE}" "$_action2" >> "$_tmpnginx9"
 done < $_input9
-printf '%s\n' "$_end9"  >> $_tmpnginx9
+printf '%s\n' "$_end9"  >> "$_tmpnginx9"
 mv $_tmpnginx9 $_inputdb9
 ed -s $_inputdb9<<\IN
 1,/# START NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###/d
@@ -363,12 +363,12 @@ rm $_inputdb9
 # CLOUDFLARE IP RANGES - Create and Insert
 # ****************************************
 
-printf '%s\n' "$_start10" >> $_tmpnginx10
+printf '%s\n' "$_start10" >> "$_tmpnginx10"
 while IFS= read -r LINE
 do
 printf '\t%s\t\t%s\n' "${LINE}" "$_action1" >> "$_tmpnginx10"
 done < $_input10
-printf '%s\n' "$_end10"  >> $_tmpnginx10
+printf '%s\n' "$_end10"  >> "$_tmpnginx10"
 mv $_tmpnginx10 $_inputdb10
 ed -s $_inputdb10<<\IN
 1,/# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/d

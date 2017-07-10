@@ -62,9 +62,9 @@ _endmarker="### Version Information ##"
 printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s\n\n%s\n%s\n%s\n' "$_startmarker" "###################################################" "### Version: " "$MY_GIT_TAG" "### Updated: " "$_now" "### Bad Bot Count: " "$BAD_BOTS" "###################################################" "$_endmarker" "User-agent: *" "Disallow: /wp-admin/" "Allow: /wp-admin/admin-ajax.php" >> "$_tmprobots"
 while IFS= read -r LINE
 do
-printf 'User-agent: %s\n%s\n' "${LINE}" "Disallow:/" >> $_tmprobots
+printf 'User-agent: %s\n%s\n' "${LINE}" "Disallow:/" >> "$_tmprobots"
 done < $_input1
-printf '\n' >> $_tmprobots
+printf '\n' >> "$_tmprobots"
 sudo cp $_tmprobots $TRAVIS_BUILD_DIR/robots.txt/robots.txt
 exit 0
 
