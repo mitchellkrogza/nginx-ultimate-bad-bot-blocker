@@ -49,7 +49,6 @@ _input1=$TRAVIS_BUILD_DIR/_generator_lists/good-user-agents.list
 _input2=$TRAVIS_BUILD_DIR/_generator_lists/allowed-user-agents.list
 _input3=$TRAVIS_BUILD_DIR/_generator_lists/limited-user-agents.list
 _input4=$TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list
-#_input5=$TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list
 _input5=$TRAVIS_BUILD_DIR/travisCI/referrers-regex-format.txt
 _input6=$TRAVIS_BUILD_DIR/_generator_lists/google-ip-ranges.list
 _input7=$TRAVIS_BUILD_DIR/_generator_lists/bing-ip-ranges.list
@@ -239,30 +238,6 @@ w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/travisCI/glob
 q
 IN
 rm $_inputdb4
-
-# ********************************
-# BAD REFERERS - Create and Insert
-# ********************************
-
-#printf '%s\n' "$_start5" >> "$_tmpnginx5"
-#while IFS= read -r LINE
-#do
-#printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action2" >> "$_tmpnginx5"
-#done < $_input5
-#printf '%s\n' "$_end5"  >> "$_tmpnginx5"
-#mv $_tmpnginx5 $_inputdb5
-#ed -s $_inputdb5<<\IN
-#1,/# START BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/d
-#/# END BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
-#,d
-#.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/travisCI/globalblacklist.template
-#/# START BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/x
-#.t.
-#.,/# END BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/-d
-#w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/travisCI/globalblacklist.template
-#q
-#IN
-#rm $_inputdb5
 
 # ********************************
 # BAD REFERERS - Create and Insert
