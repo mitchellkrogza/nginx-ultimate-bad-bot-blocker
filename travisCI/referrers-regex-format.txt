@@ -153,6 +153,7 @@
 "~*acgs\.tk" 	1;
 "~*acheterviagrafr24\.com" 	1;
 "~*acortarurl\.es" 	1;
+"~*actices\.com" 	1;
 "~*actionnooz\.com" 	1;
 "~*activecampaign\.dreamhosters\.com" 	1;
 "~*activepr\.ru" 	1;
