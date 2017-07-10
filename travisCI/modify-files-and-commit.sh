@@ -77,6 +77,7 @@ sudo $TRAVIS_BUILD_DIR/travisCI/modify-config-readme-files.sh
 sudo $TRAVIS_BUILD_DIR/travisCI/generate-robots.sh
 sudo $TRAVIS_BUILD_DIR/travisCI/generate-google-disavow.sh
 php ./travisCI/generate-google-exclude.php
+php ./travisCI/generate-regex-format-referrers.php
 
 # *************************************
 # Add all the modified files and commit
