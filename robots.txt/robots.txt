@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.07.669
-### Updated: Tue Jul 11 10:48:48 SAST 2017
-### Bad Bot Count: 481
+### Version: V3.2017.07.670
+### Updated: Tue Jul 11 10:59:59 SAST 2017
+### Bad Bot Count: 482
 ###################################################
 ### Version Information ##
 
@@ -362,6 +362,8 @@ Disallow:/
 User-agent: JOC\ Web\ Spider
 Disallow:/
 User-agent: Joomla
+Disallow:/
+User-agent: Jorgee
 Disallow:/
 User-agent: JustView
 Disallow:/
