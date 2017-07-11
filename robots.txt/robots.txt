@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.07.670
-### Updated: Tue Jul 11 10:59:59 SAST 2017
-### Bad Bot Count: 482
+### Version: V3.2017.07.671
+### Updated: Tue Jul 11 11:18:23 SAST 2017
+### Bad Bot Count: 484
 ###################################################
 ### Version Information ##
 
@@ -156,6 +156,8 @@ Disallow:/
 User-agent: Custo
 Disallow:/
 User-agent: DatabaseDriverMysqli
+Disallow:/
+User-agent: DataCha0s
 Disallow:/
 User-agent: DBLBot
 Disallow:/
@@ -468,6 +470,8 @@ Disallow:/
 User-agent: MJ12bot
 Disallow:/
 User-agent: Mojeek
+Disallow:/
+User-agent: Morfeus\ Fucking\ Scanner
 Disallow:/
 User-agent: MSFrontPage
 Disallow:/
