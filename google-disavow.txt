@@ -682,6 +682,7 @@ domain:bizru.info
 domain:bjanshee.ru
 domain:bjetjt.com
 domain:bjorkbacken.nu
+domain:bkgr.se
 domain:bkns.vn
 domain:blackcurranthumidifiers.site
 domain:blackhatworth.com
@@ -1591,6 +1592,7 @@ domain:f5mtrack.com
 domain:fable.in.ua
 domain:face.hostingx.eu
 domain:facebook-mobile.xyz
+domain:facecup.top
 domain:factorynightclub.com
 domain:failingmarriege.blogspot.com
 domain:fakehandbags.xyz
@@ -1651,6 +1653,7 @@ domain:fidelityfunding.com
 domain:fifa-coins.online
 domain:figuringmoneyout.com
 domain:fil.ru
+domain:filefilter.weebly.com
 domain:filerockstar298.weebly.com
 domain:filesmonster.porn
 domain:filesvine.com
@@ -2334,6 +2337,7 @@ domain:izismile.com
 domain:izoll.ru
 domain:j-times.ru
 domain:j33x.com
+domain:jacago.com
 domain:jackwolfskinoutlet.online
 domain:jamiembrown.com
 domain:janavibekken.no
@@ -2704,6 +2708,7 @@ domain:magicalfind-a.akamaihd.net
 domain:magicdiet.gq
 domain:magicplayer-s.acestream.net
 domain:maglid.ru
+domain:magnetpress.sk
 domain:mail.allnews24.in
 domain:mainlinehobby.net
 domain:make-money-online.com
@@ -2757,6 +2762,7 @@ domain:maximpartnerspr.com
 domain:maxthon.com
 domain:maxxtor.eu
 domain:mazda-roadsters.com
+domain:mb140.ru
 domain:mbiologi.ru
 domain:mcadamssupplyco.com
 domain:mcar.in.ua
@@ -3080,6 +3086,7 @@ domain:nicefloor.co.uk
 domain:nicovideo.jp
 domain:nightvision746.weebly.com
 domain:niki-mlt.ru
+domain:nikitabuch.com
 domain:nikitsyringedrivelg.pen.io
 domain:nikkiewart.ru
 domain:ningessaybe.me
@@ -3375,6 +3382,7 @@ domain:pk-services.ru
 domain:pkr1hand.com
 domain:pladform.ru
 domain:plaff-go.ru
+domain:plastgran.com
 domain:plastgranar.nu
 domain:plastjulgranar.se
 domain:plastweb.ru
@@ -3476,6 +3484,7 @@ domain:pozvonim.com
 domain:pp-budpostach.com.ua
 domain:pr-ten.de
 domain:pr0fit-b0x.com
+domain:praisong.net
 domain:pravoholding.ru
 domain:prchecker.info
 domain:pregnant.guru
@@ -3537,6 +3546,7 @@ domain:promoheads.com
 domain:promover.org
 domain:pron.pro
 domain:pronekut.com
+domain:pronorm.fr
 domain:proposal-engine.com
 domain:propranolol40mg.blogspot.com
 domain:prosmibank.ru
@@ -3706,6 +3716,7 @@ domain:richinvestmonitor.com
 domain:ricorsogiustizia.org
 domain:riders.ro
 domain:rightenergysolutions.com.au
+domain:rimedia.org
 domain:ring4rhino.com
 domain:ringporno.com
 domain:ringtonepartner.com
@@ -3718,6 +3729,7 @@ domain:robot-forex.biz
 domain:rockingclicks.com
 domain:rogervivierforsale.com
 domain:roleforum.ru
+domain:roll123.com
 domain:roma-kukareku.livejournal.com
 domain:rome2rio.com
 domain:roofers.org.uk
