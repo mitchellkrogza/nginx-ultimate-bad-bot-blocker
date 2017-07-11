@@ -2159,7 +2159,6 @@
 "~*hplaserjetpdriver8y\.pen\.io" 	1;
 "~*hptwaakw\.blog\.fc2\.com" 	1;
 "~*hreade\.com" 	1;
-"~*href\.li" 	1;
 "~*hscsscotland\.com" 	1;
 "~*hspline\.com" 	1;
 "~*htmlcorner\.com" 	1;
