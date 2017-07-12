@@ -148,7 +148,7 @@ _action4="3;"
 printf '%s\n' "$_start1" >> "$_tmpnginx1"
 while IFS= read -r LINE
 do
-printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action1" >> "$_tmpnginx1"
+printf '\t"~*%s%s%s"\t\t%s\n' "\b" "${LINE}" "\b" "$_action1" >> "$_tmpnginx1"
 done < $_input1
 printf '%s\n' "$_end1"  >> "$_tmpnginx1"
 mv $_tmpnginx1 $_inputdb1
