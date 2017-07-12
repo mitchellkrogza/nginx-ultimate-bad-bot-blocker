@@ -1405,6 +1405,7 @@
 "~*ed\-shop01\.ru" 	1;
 "~*educatemetv\.com" 	1;
 "~*education\-cz\.ru" 	1;
+"~*edwinkonijn\.com\.au" 	1;
 "~*ee77ee\.com" 	1;
 "~*efkt\.jp" 	1;
 "~*efnor\-ac\.com" 	1;
@@ -2027,6 +2028,7 @@
 "~*hacktougroup\.ru" 	1;
 "~*hahashka\.ru" 	1;
 "~*haikuware\.com" 	1;
+"~*hamacapty\.com" 	1;
 "~*hamilton\.ca" 	1;
 "~*hamptonoaks\.ca" 	1;
 "~*handicapbathtubarea\.com" 	1;
@@ -3488,6 +3490,7 @@
 "~*pregnant\.guru" 	1;
 "~*preparevideosafesystem4unow\.site" 	1;
 "~*preparevideosafesystem4unow\.space" 	1;
+"~*presleycollectibles\.com" 	1;
 "~*pretty\-mart\.com" 	1;
 "~*priceg\.com" 	1;
 "~*pricheskaonline\.ru" 	1;
@@ -3787,6 +3790,7 @@
 "~*sampleletters\.net" 	1;
 "~*sanatorrii\.ru" 	1;
 "~*sandhillsonline\.com" 	1;
+"~*saneitconsulting\.com" 	1;
 "~*sanjosestartups\.com" 	1;
 "~*sankt\-peterburg\.nodup\.ru" 	1;
 "~*santasgift\.ml" 	1;
@@ -4505,6 +4509,7 @@
 "~*toys\.erolove\.in" 	1;
 "~*tozup\.com" 	1;
 "~*tpu\.ru" 	1;
+"~*tracfone\.com" 	1;
 "~*track112\.site" 	1;
 "~*trackmedia101\.com" 	1;
 "~*track\-rankings\.online" 	1;
@@ -4704,6 +4709,7 @@
 "~*vesnatehno\.ru" 	1;
 "~*vezuviy\.su" 	1;
 "~*vgoloveboli\.net" 	1;
+"~*via\-energy\-cumpara\.com" 	1;
 "~*viagra\.pp\.ua" 	1;
 "~*via\-gra\.webstarts\.com" 	1;
 "~*viagroid\.ru" 	1;
@@ -4946,6 +4952,7 @@
 "~*wowas31\.ucoz\.ru" 	1;
 "~*woweb\.com\.ua" 	1;
 "~*wpthemedetector\.co\.uk" 	1;
+"~*writersgroup580\.web\.fc2\.com" 	1;
 "~*writingservices17\.blogspot\.ru" 	1;
 "~*wrona\.it" 	1;
 "~*ws\.ampower\.me" 	1;

@@ -1407,6 +1407,7 @@ domain:editmedios.com
 domain:editors.choice6912650.hulfingtonpost.com
 domain:educatemetv.com
 domain:education-cz.ru
+domain:edwinkonijn.com.au
 domain:ee77ee.com
 domain:efkt.jp
 domain:efnor-ac.com
@@ -2027,6 +2028,7 @@ domain:habermetre.com
 domain:hacktougroup.ru
 domain:hahashka.ru
 domain:haikuware.com
+domain:hamacapty.com
 domain:hamilton.ca
 domain:hamptonoaks.ca
 domain:handicapbathtubarea.com
@@ -3489,6 +3491,7 @@ domain:prchecker.info
 domain:pregnant.guru
 domain:preparevideosafesystem4unow.site
 domain:preparevideosafesystem4unow.space
+domain:presleycollectibles.com
 domain:pretty-mart.com
 domain:priceg.com
 domain:pricheskaonline.ru
@@ -3788,6 +3791,7 @@ domain:samolet.fr
 domain:sampleletters.net
 domain:sanatorrii.ru
 domain:sandhillsonline.com
+domain:saneitconsulting.com
 domain:sanjosestartups.com
 domain:sankt-peterburg.nodup.ru
 domain:santasgift.ml
@@ -4505,6 +4509,7 @@ domain:toyota.7zap.com
 domain:toys.erolove.in
 domain:tozup.com
 domain:tpu.ru
+domain:tracfone.com
 domain:track-rankings.online
 domain:track112.site
 domain:trackmedia101.com
@@ -4704,6 +4709,7 @@ domain:vesnatehno.com
 domain:vesnatehno.ru
 domain:vezuviy.su
 domain:vgoloveboli.net
+domain:via-energy-cumpara.com
 domain:via-gra.webstarts.com
 domain:viagra.pp.ua
 domain:viagroid.ru
@@ -4946,6 +4952,7 @@ domain:wosik-dach.service-for-web.de
 domain:wowas31.ucoz.ru
 domain:woweb.com.ua
 domain:wpthemedetector.co.uk
+domain:writersgroup580.web.fc2.com
 domain:writingservices17.blogspot.ru
 domain:wrona.it
 domain:ws.ampower.me
