@@ -37,10 +37,10 @@ _input1=$TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list
 # Create Google Disavow File
 # **************************
 
-sudo truncate -s 0 $TRAVIS_BUILD_DIR/google-disavow.txt
+sudo truncate -s 0 $TRAVIS_BUILD_DIR/_google_webmaster_disavow_links/google-disavow.txt
 while IFS= read -r LINE
 do
-printf '%s%s\n' "domain:" "${LINE}" >> $TRAVIS_BUILD_DIR/google-disavow.txt
+printf '%s%s\n' "domain:" "${LINE}" >> $TRAVIS_BUILD_DIR/_google_webmaster_disavow_links/google-disavow.txt
 done < $_input1
 
 exit 0
