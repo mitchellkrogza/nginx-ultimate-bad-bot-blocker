@@ -174,7 +174,7 @@ rm $_inputdb1
 printf '%s\n' "$_start2" >> "$_tmpnginx2"
 while IFS= read -r LINE
 do
-printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action2" >> "$_tmpnginx2"
+printf '\t"~*%s%s%s"\t\t%s\n' "\b" "${LINE}" "\b" "$_action2" >> "$_tmpnginx2"
 done < $_input2
 printf '%s\n' "$_end2"  >> "$_tmpnginx2"
 mv $_tmpnginx2 $_inputdb2
@@ -198,7 +198,7 @@ rm $_inputdb2
 printf '%s\n' "$_start3" >> "$_tmpnginx3"
 while IFS= read -r LINE
 do
-printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action3" >> "$_tmpnginx3"
+printf '\t"~*%s%s%s"\t\t%s\n' "\b" "${LINE}" "\b" "$_action3" >> "$_tmpnginx3"
 done < $_input3
 printf '%s\n' "$_end3"  >> "$_tmpnginx3"
 mv $_tmpnginx3 $_inputdb3
@@ -222,7 +222,7 @@ rm $_inputdb3
 printf '%s\n' "$_start4" >> "$_tmpnginx4"
 while IFS= read -r LINE
 do
-printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action4" >> "$_tmpnginx4"
+printf '\t"~*%s%s%s"\t\t%s\n' "\b" "${LINE}" "\b" "$_action4" >> "$_tmpnginx4"
 done < $_input4
 printf '%s\n' "$_end4"  >> "$_tmpnginx4"
 mv $_tmpnginx4 $_inputdb4
