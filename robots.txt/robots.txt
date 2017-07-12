@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.07.682
-### Updated: Wed Jul 12 15:01:07 SAST 2017
-### Bad Bot Count: 484
+### Version: V3.2017.07.683
+### Updated: Wed Jul 12 15:29:58 SAST 2017
+### Bad Bot Count: 485
 ###################################################
 ### Version Information ##
 
@@ -248,6 +248,8 @@ Disallow:/
 User-agent: Flunky
 Disallow:/
 User-agent: Foobot
+Disallow:/
+User-agent: fq
 Disallow:/
 User-agent: Freeuploader
 Disallow:/
