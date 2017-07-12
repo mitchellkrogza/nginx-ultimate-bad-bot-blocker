@@ -10,8 +10,8 @@
 
 ### Version Information #
 ********************************************
-#### Version: V3.2017.07.681
-#### Bad Referrer Count: 5225
+#### Version: V3.2017.07.682
+#### Bad Referrer Count: 5262
 #### Bad Bot Count: 484
 ********************************************
 ### Version Information ##
