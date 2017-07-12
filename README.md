@@ -596,6 +596,13 @@ SOFTWARE.
 - https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
 - https://github.com/funilrys/funceble
 
+##### Also Checkout The Big List of Hacked Malware Web Sites
+
+This repository contains a list of all web sites I come across that are hacked with malware. 
+Most site owners are unaware their sites have been hacked and are being used to plant malware.
+
+Check it out at: https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
+
 ##### Into Photography?
 
 Come drop by and visit me at https://mitchellkrog.com
