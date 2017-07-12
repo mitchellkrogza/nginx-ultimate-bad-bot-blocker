@@ -6,7 +6,7 @@ env:
     - GIT_EMAIL: mitchellkrog@gmail.com
     - TRAVIS_REPO_SLUG: mitchellkrogza/nginx-ultimate-bad-bot-blocker
     - GIT_BRANCH: master
-#sudo: required
+sudo: required
 dist: trusty
 matrix:
   include:
