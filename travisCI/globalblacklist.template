@@ -4,8 +4,8 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.673
-### Updated: Tue Jul 11 16:58:39 SAST 2017
+### Version: V3.2017.07.674
+### Updated: Wed Jul 12 10:52:14 SAST 2017
 ### Bad Referrer Count: 5218
 ### Bad Bot Count: 484
 ###################################################
@@ -118,35 +118,35 @@ map $http_user_agent $bad_bot {
 # ***********************************************
 
 # START GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
-	"~*adidxbot"		0;
-	"~*AdsBot-Google"		0;
-	"~*aolbuild"		0;
-	"~*bingbot"		0;
-	"~*bingpreview"		0;
-	"~*DoCoMo"		0;
-	"~*duckduckgo"		0;
-	"~*facebookexternalhit"		0;
-	"~*Feedfetcher-Google"		0;
-	"~*Googlebot"		0;
-	"~*Googlebot-Image"		0;
-	"~*Googlebot-Mobile"		0;
-	"~*Googlebot-News"		0;
-	"~*Googlebot/Test"		0;
-	"~*Googlebot-Video"		0;
-	"~*Google-HTTP-Java-Client"		0;
-	"~*gsa-crawler"		0;
-	"~*Jakarta\ Commons"		0;
-	"~*Kraken/0.1"		0;
-	"~*LinkedInBot"		0;
-	"~*Mediapartners-Google"		0;
-	"~*msnbot"		0;
-	"~*msnbot-media"		0;
-	"~*SAMSUNG"		0;
-	"~*slurp"		0;
-	"~*teoma"		0;
-	"~*TwitterBot"		0;
-	"~*Wordpress"		0;
-	"~*yahoo"		0;
+	"~*\badidxbot\b"		0;
+	"~*\bAdsBot-Google\b"		0;
+	"~*\baolbuild\b"		0;
+	"~*\bbingbot\b"		0;
+	"~*\bbingpreview\b"		0;
+	"~*\bDoCoMo\b"		0;
+	"~*\bduckduckgo\b"		0;
+	"~*\bfacebookexternalhit\b"		0;
+	"~*\bFeedfetcher-Google\b"		0;
+	"~*\bGooglebot\b"		0;
+	"~*\bGooglebot-Image\b"		0;
+	"~*\bGooglebot-Mobile\b"		0;
+	"~*\bGooglebot-News\b"		0;
+	"~*\bGooglebot/Test\b"		0;
+	"~*\bGooglebot-Video\b"		0;
+	"~*\bGoogle-HTTP-Java-Client\b"		0;
+	"~*\bgsa-crawler\b"		0;
+	"~*\bJakarta\ Commons\b"		0;
+	"~*\bKraken/0.1\b"		0;
+	"~*\bLinkedInBot\b"		0;
+	"~*\bMediapartners-Google\b"		0;
+	"~*\bmsnbot\b"		0;
+	"~*\bmsnbot-media\b"		0;
+	"~*\bSAMSUNG\b"		0;
+	"~*\bslurp\b"		0;
+	"~*\bteoma\b"		0;
+	"~*\bTwitterBot\b"		0;
+	"~*\bWordpress\b"		0;
+	"~*\byahoo\b"		0;
 # END GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 
 # ***************************************************
