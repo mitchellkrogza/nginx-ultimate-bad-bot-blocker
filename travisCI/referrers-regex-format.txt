@@ -1527,6 +1527,7 @@
 "~*eshop4u\.jp" 	1;
 "~*eshop\.md" 	1;
 "~*esnm\.ru" 	1;
+"~*esopini\.com" 	1;
 "~*espaceinventoristes\.com" 	1;
 "~*essaypro\.com" 	1;
 "~*essayservicewriting\.org" 	1;
@@ -2178,6 +2179,7 @@
 "~*howlongdoestizanidinestayinyoursystem\.blogspot\.com" 	1;
 "~*howmuchdoestizanidinecost\.blogspot\.com" 	1;
 "~*howopen\.ru" 	1;
+"~*howtowhitenteethfast\.xyz" 	1;
 "~*hplaserjetpdriver8y\.pen\.io" 	1;
 "~*hptwaakw\.blog\.fc2\.com" 	1;
 "~*hreade\.com" 	1;
@@ -2936,6 +2938,7 @@
 "~*monetizationking\.net" 	1;
 "~*monetizer\.com\-01\.site" 	1;
 "~*money\-every\-day\.com" 	1;
+"~*money\-for\-placing\-articles\.com" 	1;
 "~*moneymaster\.ru" 	1;
 "~*moneytop\.ru" 	1;
 "~*moneyviking\-a\.akamaihd\.net" 	1;
@@ -3655,6 +3658,7 @@
 "~*randalljhoward\.com" 	1;
 "~*randki\-sex\.com" 	1;
 "~*rank\-checker\.online" 	1;
+"~*rankexperience\.com" 	1;
 "~*ranking2017\.ga" 	1;
 "~*rankingchart\.de" 	1;
 "~*rankings\-analytics\.com" 	1;
@@ -4282,6 +4286,7 @@
 "~*stroydetali\.ru" 	1;
 "~*stroyhelp\-dv\.ru" 	1;
 "~*stroymonolit\.su" 	1;
+"~*stroyplus\.ru" 	1;
 "~*strv\.se" 	1;
 "~*studiofaca\.com" 	1;
 "~*stuff\-about\-money\.com" 	1;
@@ -5257,6 +5262,7 @@
 "~*zscalertwo\.net" 	1;
 "~*zverokruh\-shop\.cz" 	1;
 "~*zvetki\.ru" 	1;
+"~*zvezdagedon\.ru" 	1;
 "~*zx6\.ru" 	1;
 "~*zytpirwai\.net" 	1;
 "~*zzbroya\.com\.ua" 	1;
