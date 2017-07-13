@@ -1,5 +1,13 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-07-13
+- Configuration Instructions Updated.
+
+### 2017-07-12
+- New regex patterns for User-Agents using word boundaries to prevent false positives.
+- New regex patterns for Referrer domains, escaping dots to prevent false positives.
+- All Users please update your custom include files to fall into line with the new regex patterns.
+
 ### 2017-07-06
 - Important update to bad-referrer-words.conf, all users urged to download new version.
 - whitelist-domains.conf added as an include in the Bad Referrer Words scanning section.
