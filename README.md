@@ -39,24 +39,35 @@ https://twitter.com/ubuntu101za
 
 - For manual installation instructions please see - Please see: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/MANUAL-CONFIGURATION.md
 
-- Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. Run the scripts with --help or -h to view options.
+- setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line.
+
+- Run any of the setup, install or update scripts with --help or -h to view options.
 
 ## STEP 1:
 
 Download the install, setup and update scripts to your /usr/sbin/ directory and make the scripts executable
 
 ```
-cd /usr/sbin
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O install-ngxblocker
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O setup-ngxblocker
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O update-ngxblocker
-sudo chmod +x install-ngxblocker
-sudo chmod +x setup-ngxblocker
-sudo chmod +x update-ngxblocker
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O /usr/sbin/setup-ngxblocker
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O /usr/sbin/update-ngxblocker
+sudo chmod +x /usr/sbin/install-ngxblocker
+sudo chmod +x /usr/sbin/setup-ngxblocker
+sudo chmod +x /usr/sbin/update-ngxblocker
 ```
 
-**Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. 
-Run the scripts with --help or -h to view options.**
+**setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line.** 
+
+**Run any of the setup, install or update scripts with --help or -h to view options.**
+
+If your Linux distribution does not have wget you can replace the wget commands above using curl as follows:
+
+```
+curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -o /usr/sbin/install-ngxblocker
+curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -o /usr/sbin/setup-ngxblocker
+curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -o /usr/sbin/update-ngxblocker
+```
+
 
 ## STEP 2:
 
@@ -94,8 +105,9 @@ Downloading [FROM]=>  [REPO]/bots.d/bad-referrer-words.conf     [TO]=>  /etc/ngi
 Downloading [FROM]=>  [REPO]/bots.d/custom-bad-referrers.conf   [TO]=>  /etc/nginx/bots.d/custom-bad-referrers.conf
 ```
 
-**Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. 
-Run the scripts with --help or -h to view options.**
+**setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line.** 
+
+**Run any of the setup, install or update scripts with --help or -h to view options.**
 
 ## STEP 3:
 
@@ -131,8 +143,9 @@ Downloading [FROM]=>  [REPO]/bots.d/custom-bad-referrers.conf   [TO]=>  /etc/ngi
 
 The required files have now been downloaded to the correct folders on Nginx for you direct from the repository.
 
-**Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. 
-Run the scripts with --help or -h to view options.**
+**setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line.** 
+
+**Run any of the setup, install or update scripts with --help or -h to view options.**
 
 ## STEP 4:
 
@@ -167,18 +180,20 @@ Whitelisting ip:  x.x.x.x    => /etc/nginx/bots.d/whitelist-ips.conf
 This script also whitelists your IP in the whitelist-ips.conf file for you. 
 Further IP's or IP ranges can be added to your customizable whitelits-ips.conf file located in /etc/nginx/bots.d/whitelist-ips.conf.
 
-**Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. 
-Run the scripts with --help or -h to view options.**
+**setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line.** 
+
+**Run any of the setup, install or update scripts with --help or -h to view options.**
+
 
 ## STEP 5:
 
 Now run the setup script with the -x parameter to make all the necessary changes to your nginx.conf (if required) and also to add the required includes into all your vhost files. 
 
-This setup-ngxblocker script assumes that all your vhost files located in /etc/nginx/sites-available end in an extension .vhost. It is good practice to make all your vhost config files end with a .vhost extension but if you prefer to stick what you already have eg .conf you can simply modify line 10 of setup-ngxblocker to the appropriate extension you use for your vhost files.
+This setup-ngxblocker script assumes that all your vhost files located in /etc/nginx/sites-available end in an extension .vhost. It is good practice to make all your vhost config files end with a .vhost extension but if you prefer to stick what you already have eg .conf you can simply modify run setup-ngxblocker using the `-e` parameter to specify the extension you use for your vhost files.
 
-For instance if your vhost files end in .conf you will change this line in setup-ngxblocker as follows:
+For instance if your vhost files end in .conf you will change this execute setup-ngxblocker with an additional command line parameter as follows:
 
-`VHOST_EXT="conf`
+`sudo ./setup-ngxblocker -x -e conf`
 
 So now let's run the setup script and let it make all the changes we need to make the Bot Blocker active on all your sites.
 
@@ -215,8 +230,10 @@ include /etc/nginx/bots.d/ddos.conf;
 include /etc/nginx/bots.d/blockbots.conf;
 ```
 
-**Both setup-ngxblocker & install-ngxblocker can be configured with custom installation / update locations from the command line. 
-Run the scripts with --help or -h to view options.**
+**setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line.** 
+
+**Run any of the setup, install or update scripts with --help or -h to view options.**
+
 
 ## STEP 6:
 
