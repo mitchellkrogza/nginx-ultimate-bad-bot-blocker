@@ -7,6 +7,7 @@
 - New regex patterns for User-Agents using word boundaries to prevent false positives.
 - New regex patterns for Referrer domains, escaping dots to prevent false positives.
 - All Users please update your custom include files to fall into line with the new regex patterns.
+- google-exclude and google-disavow files moved into appropriate folders.
 
 ### 2017-07-06
 - Important update to bad-referrer-words.conf, all users urged to download new version.
