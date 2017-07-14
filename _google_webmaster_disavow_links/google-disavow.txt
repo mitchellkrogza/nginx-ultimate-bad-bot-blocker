@@ -3786,6 +3786,7 @@ domain:rp9.ru
 domain:ru-dety.ru
 domain:rucrypt.com
 domain:ruex.org.ua
+domain:ruf777.com
 domain:rukino.org
 domain:rumamba.com
 domain:running-line.ru
@@ -5110,6 +5111,7 @@ domain:xvideosporn.biz
 domain:xwatt.ru
 domain:xxart.ru
 domain:xxlargepop.com
+domain:xxx-cam.webcam
 domain:xxx-treker.ru
 domain:xxxdatinglocal.us
 domain:xxxguitars.com

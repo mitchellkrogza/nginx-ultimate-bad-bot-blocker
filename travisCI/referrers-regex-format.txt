@@ -3786,6 +3786,7 @@
 "~*rucrypt\.com" 	1;
 "~*ru\-dety\.ru" 	1;
 "~*ruex\.org\.ua" 	1;
+"~*ruf777\.com" 	1;
 "~*rukino\.org" 	1;
 "~*rumamba\.com" 	1;
 "~*running\-line\.ru" 	1;
@@ -5110,6 +5111,7 @@
 "~*xwatt\.ru" 	1;
 "~*xxart\.ru" 	1;
 "~*xxlargepop\.com" 	1;
+"~*xxx\-cam\.webcam" 	1;
 "~*xxxdatinglocal\.us" 	1;
 "~*xxxguitars\.com" 	1;
 "~*xxxnatelefon\.ru" 	1;
