@@ -3313,6 +3313,8 @@
 "~*parlament\.biz" 	1;
 "~*partner\-cdn\.men" 	1;
 "~*partner\-high\.men" 	1;
+"~*partnerline\.men" 	1;
+"~*partner\-pop\.men" 	1;
 "~*partner\-print\.men" 	1;
 "~*partnersafe\.men" 	1;
 "~*partners\-ship\.pro" 	1;

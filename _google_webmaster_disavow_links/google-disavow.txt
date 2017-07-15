@@ -3314,9 +3314,11 @@ domain:paramountmarble.co.uk
 domain:parlament.biz
 domain:partner-cdn.men
 domain:partner-high.men
+domain:partner-pop.men
 domain:partner-print.men
 domain:partner-stop.men
 domain:partner-trustworthy.men
+domain:partnerline.men
 domain:partners-ship.pro
 domain:partnersafe.men
 domain:partnerworkroom.men
