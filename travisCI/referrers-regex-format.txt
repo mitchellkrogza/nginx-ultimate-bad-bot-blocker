@@ -396,6 +396,7 @@
 "~*appfixing\.space" 	1;
 "~*appiq\.mobi" 	1;
 "~*apple\.com\-webbrowsing\-security\.review" 	1;
+"~*apple\.com\-webbrowsing\-security\.science" 	1;
 "~*appleid\-verification\.com" 	1;
 "~*applicationg29\.com" 	1;
 "~*app\-ready\.xyz" 	1;
@@ -3129,6 +3130,7 @@
 "~*nmrk\.ru" 	1;
 "~*noclegonline\.info" 	1;
 "~*nodup\.ru" 	1;
+"~*nofreezingmac\.click" 	1;
 "~*nofreezingmac\.work" 	1;
 "~*nonews\.co" 	1;
 "~*nootrino\.com" 	1;

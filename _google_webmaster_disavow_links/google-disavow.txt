@@ -399,6 +399,7 @@ domain:appfastplay.com
 domain:appfixing.space
 domain:appiq.mobi
 domain:apple.com-webbrowsing-security.review
+domain:apple.com-webbrowsing-security.science
 domain:appleid-verification.com
 domain:applicationg29.com
 domain:approved.su
@@ -3129,6 +3130,7 @@ domain:nl.netlog.com
 domain:nmrk.ru
 domain:noclegonline.info
 domain:nodup.ru
+domain:nofreezingmac.click
 domain:nofreezingmac.work
 domain:nonews.co
 domain:nootrino.com
