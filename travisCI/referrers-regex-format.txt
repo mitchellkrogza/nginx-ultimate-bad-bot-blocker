@@ -199,6 +199,7 @@
 "~*adsfresh\.men" 	1;
 "~*ads\.gold" 	1;
 "~*adsland\.men" 	1;
+"~*adsref\.men" 	1;
 "~*adssafeprotected\.com" 	1;
 "~*ads\-seo\.men" 	1;
 "~*ads\.tremorhub\.com" 	1;
@@ -385,6 +386,7 @@
 "~*apiportalmorecom\-a\.akamaihd\.net" 	1;
 "~*apishops\.ru" 	1;
 "~*apispringsmartne\-a\.akamaihd\.net" 	1;
+"~*api\.stathat\.com" 	1;
 "~*apiwebwebgetcom\-a\.akamaihd\.net" 	1;
 "~*apiwoodensealcom\-a\.akamaihd\.net" 	1;
 "~*apparel\-offer\.com" 	1;
@@ -1583,6 +1585,7 @@
 "~*eyessurgery\.ru" 	1;
 "~*eywords\-monitoring\-your\-success\.com" 	1;
 "~*ez8motelseaworldsandiego\.com" 	1;
+"~*ezb\.elvenmachine\.com" 	1;
 "~*ezigarettekaufen1\.hpage\.com" 	1;
 "~*ezigarettekaufen2\.blox\.pl" 	1;
 "~*ezigarettekaufen2\.mpbloggar\.se" 	1;
@@ -2126,6 +2129,7 @@
 "~*hobbyhuren24\.net" 	1;
 "~*hobbyhuren\-datenbank\.com" 	1;
 "~*hobild\.net" 	1;
+"~*hoholikik\.club" 	1;
 "~*hol\.es" 	1;
 "~*holidaypics\.org" 	1;
 "~*hollywoodactress\.info" 	1;
@@ -3314,6 +3318,7 @@
 "~*partners\-ship\.pro" 	1;
 "~*partner\-stop\.men" 	1;
 "~*partner\-trustworthy\.men" 	1;
+"~*partnerworkroom\.men" 	1;
 "~*partybunny\.ru" 	1;
 "~*pateaswing\.com" 	1;
 "~*pathwhelp\.org" 	1;

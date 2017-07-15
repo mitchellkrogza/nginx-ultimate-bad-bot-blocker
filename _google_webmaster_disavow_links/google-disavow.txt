@@ -203,6 +203,7 @@ domain:adserver-e7.com
 domain:adservme.com
 domain:adsfresh.men
 domain:adsland.men
+domain:adsref.men
 domain:adssafeprotected.com
 domain:adtech.de
 domain:adtech.fr
@@ -367,6 +368,7 @@ domain:apartmentbay.ru
 domain:apartmentratings.com
 domain:apccargo.com
 domain:apelsinnik.website
+domain:api.stathat.com
 domain:apiadanaknet-a.akamaihd.net
 domain:apiallgeniusinfo-a.akamaihd.net
 domain:apiappenableinfo-a.akamaihd.net
@@ -1583,6 +1585,7 @@ domain:eyes-on-you.ga
 domain:eyessurgery.ru
 domain:eywords-monitoring-your-success.com
 domain:ez8motelseaworldsandiego.com
+domain:ezb.elvenmachine.com
 domain:ezigarettekaufen.myblog.de
 domain:ezigarettekaufen1.hpage.com
 domain:ezigarettekaufen2.blox.pl
@@ -2126,6 +2129,7 @@ domain:hmywwogw.bloger.index.hr
 domain:hobbyhuren-datenbank.com
 domain:hobbyhuren24.net
 domain:hobild.net
+domain:hoholikik.club
 domain:hol.es
 domain:holidaypics.org
 domain:hollywoodactress.info
@@ -3315,6 +3319,7 @@ domain:partner-stop.men
 domain:partner-trustworthy.men
 domain:partners-ship.pro
 domain:partnersafe.men
+domain:partnerworkroom.men
 domain:partybunny.ru
 domain:pateaswing.com
 domain:pathwhelp.org
