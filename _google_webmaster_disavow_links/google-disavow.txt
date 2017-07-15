@@ -2589,6 +2589,7 @@ domain:ldrtrack.com
 domain:leadn.pl
 domain:leadwayau.com
 domain:leboard.ru
+domain:lechenie-gemorroya.com
 domain:ledis.top
 domain:ledpolice.ru
 domain:legalrc.biz
@@ -4524,6 +4525,7 @@ domain:topappspro.com
 domain:topbestgames.com
 domain:topclickguru.com
 domain:topdownloads.ru
+domain:topkarkas.com
 domain:topmira.com
 domain:topquality.cf
 domain:topshef.ru
@@ -4724,6 +4726,7 @@ domain:valuado.com
 domain:valueclick.com
 domain:vancleefreplica.pw
 domain:vandrie-ict.nl
+domain:vapeface.club
 domain:vapsy.com
 domain:varbergsvind.se
 domain:varikoz24.com
@@ -4741,6 +4744,7 @@ domain:vektorpress.ru
 domain:vekzdorov.ru
 domain:vellings.info
 domain:velobikestock.com
+domain:venerologiya.com
 domain:venta-prom.ru
 domain:ventelnos.com
 domain:vereo.eu
@@ -4749,6 +4753,7 @@ domain:vesnatehno.com
 domain:vesnatehno.ru
 domain:vezuviy.su
 domain:vgoloveboli.net
+domain:via-energy-acquistare.com
 domain:via-energy-cumpara.com
 domain:via-gra.webstarts.com
 domain:viagra.pp.ua
