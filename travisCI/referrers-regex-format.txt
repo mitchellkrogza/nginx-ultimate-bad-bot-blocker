@@ -1007,6 +1007,7 @@
 "~*chuckguilford\.com" 	1;
 "~*cialisovercounteratwalmartusa\.com" 	1;
 "~*cialiswithoutadoctor\.net" 	1;
+"~*cibpenonptib\.flu\.cc" 	1;
 "~*ciekawinki\.pl" 	1;
 "~*cienum\.fr" 	1;
 "~*cigarpass\.com" 	1;
@@ -1043,6 +1044,7 @@
 "~*clodo\.ru" 	1;
 "~*clothesforcash\.com" 	1;
 "~*cl\.s7\.exct\.net" 	1;
+"~*clubfashionista\.com" 	1;
 "~*club\-musics\.ru" 	1;
 "~*club\-samodelkin\.ru" 	1;
 "~*cmd\.kz" 	1;
@@ -1849,6 +1851,7 @@
 "~*gallerily\.com" 	1;
 "~*galleryawesome\.com" 	1;
 "~*gallerylisting\.com" 	1;
+"~*gallery\.rennlist\.com" 	1;
 "~*gallictures\.com" 	1;
 "~*gamblingnerd\.com" 	1;
 "~*gamedayhouse\.com" 	1;
@@ -2671,6 +2674,7 @@
 "~*lob\.com\.ru" 	1;
 "~*localflirtbuddies\.com" 	1;
 "~*localmatchbook\.com" 	1;
+"~*locatellicorretor\.com\.br" 	1;
 "~*locationdesaison\.com" 	1;
 "~*lockerz\.com" 	1;
 "~*locksmith\.jp" 	1;
@@ -3119,6 +3123,7 @@
 "~*nicefloor\.co\.uk" 	1;
 "~*nicovideo\.jp" 	1;
 "~*nightvision746\.weebly\.com" 	1;
+"~*nikhilbahl\.com" 	1;
 "~*niki\-mlt\.ru" 	1;
 "~*nikitabuch\.com" 	1;
 "~*nikitsyringedrivelg\.pen\.io" 	1;
@@ -3126,6 +3131,7 @@
 "~*ningessaybe\.me" 	1;
 "~*nippon\-bearings\.ru" 	1;
 "~*niroo\.info" 	1;
+"~*njkmznnb\.ru" 	1;
 "~*nl\.netlog\.com" 	1;
 "~*nmrk\.ru" 	1;
 "~*noclegonline\.info" 	1;
@@ -3292,6 +3298,7 @@
 "~*oz\-offers\.com" 	1;
 "~*ozoz\.it" 	1;
 "~*paceform\.com" 	1;
+"~*pacificair\.com" 	1;
 "~*paclitor\.com" 	1;
 "~*page2rss\.com" 	1;
 "~*pagesense\.com" 	1;
@@ -3593,6 +3600,7 @@
 "~*proposal\-engine\.com" 	1;
 "~*propranolol40mg\.blogspot\.com" 	1;
 "~*prosmibank\.ru" 	1;
+"~*prospekt\-st\.ru" 	1;
 "~*prosperent\.com" 	1;
 "~*prostitutki\-almata\.org" 	1;
 "~*prostitutki\-astana\.org" 	1;
@@ -3732,6 +3740,7 @@
 "~*renecaovilla\.online" 	1;
 "~*renecaovillasale\.online" 	1;
 "~*renewablewealth\.com" 	1;
+"~*rennlist\.com" 	1;
 "~*rentehno\.ru" 	1;
 "~*repeatlogo\.co\.uk" 	1;
 "~*replicaclub\.ru" 	1;
@@ -4308,6 +4317,7 @@
 "~*sugarkun\.com" 	1;
 "~*suggest\-keywords\.com" 	1;
 "~*sugvant\.ru" 	1;
+"~*suhanpacktech\.com" 	1;
 "~*sukarame\.net" 	1;
 "~*sukirgenk\.dvrlists\.com" 	1;
 "~*summerlinhomes411\.info" 	1;
@@ -4963,6 +4973,7 @@
 "~*wieseversa\.no" 	1;
 "~*wikes\.20fr\.com" 	1;
 "~*wildcattube\.com" 	1;
+"~*wildnatureimages\.com" 	1;
 "~*wildworld\.site" 	1;
 "~*williamrobsonproperty\.com" 	1;
 "~*windowssearch\-exp\.com" 	1;
