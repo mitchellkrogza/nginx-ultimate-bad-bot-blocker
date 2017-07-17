@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.07.707
-### Updated: Mon Jul 17 13:20:37 SAST 2017
-### Bad Bot Count: 486
+### Version: V3.2017.07.708
+### Updated: Mon Jul 17 17:17:08 SAST 2017
+### Bad Bot Count: 493
 ###################################################
 ### Version Information ##
 
@@ -49,6 +49,12 @@ User-agent: autoemailspider
 Disallow:/
 User-agent: BackDoorBot
 Disallow:/
+User-agent: Backlink-Ceck
+Disallow:/
+User-agent: backlink-check
+Disallow:/
+User-agent: BacklinkCrawler
+Disallow:/
 User-agent: BackStreet
 Disallow:/
 User-agent: BackWeb
@@ -90,6 +96,8 @@ Disallow:/
 User-agent: BotALot
 Disallow:/
 User-agent: Brandprotect
+Disallow:/
+User-agent: BrandProtect
 Disallow:/
 User-agent: Brandwatch
 Disallow:/
@@ -615,7 +623,11 @@ User-agent: QueryN\ Metasearch
 Disallow:/
 User-agent: Qwantify
 Disallow:/
+User-agent: RankActive
+Disallow:/
 User-agent: RankActiveLinkBot
+Disallow:/
+User-agent: RankFlex
 Disallow:/
 User-agent: Rankivabot
 Disallow:/
@@ -624,6 +636,8 @@ Disallow:/
 User-agent: RealDownload
 Disallow:/
 User-agent: Reaper
+Disallow:/
+User-agent: RebelMouse
 Disallow:/
 User-agent: Recorder
 Disallow:/
