@@ -653,8 +653,14 @@ If you believe your name should be here, drop me a line.
 
 [![Build Status](https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg?branch=master)](https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
 
-[![DUB](https://img.shields.io/dub/l/vibe-d.svg?style=plastic)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
+[![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
 
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=plastic)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
 
 [![GitHub release](https://img.shields.io/github/release/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg/releases/latest)
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
+
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+
+<a href='https://twitter.com/ubuntu101za'><img src='https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow' alt='Follow @ubuntu101za'></a>
