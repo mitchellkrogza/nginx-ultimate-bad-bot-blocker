@@ -1,7 +1,9 @@
 <table style="width:100%;margin:0;">
   <tr>
     <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/_assets/_logo_nginx_bad_bot_blocker.png" alt="Nginx Ultimate Bad Bot Spam Referrer Blocker - Nginx Block Bad Bots, Vulnerability Scanners, Malware and Adware, Malicious Sites, Spam Referrers, Bad Referrers, Spam Blocker with DDOS, Wordpress Theme Detector Blocking and Fail2Ban Jail for Repeat Offenders"/></td>
-    <td align="right"><a href="https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker" target="_blank"><img src="https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg?branch=master"/></a></td>
+    <td align="right">[![Build Status](https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg?branch=master)](https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker)</td>
+<td>[![license](https://img.shields.io/github/license/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg)](https://github.com/funilrys/dead-hosts/blob/master/LICENSE)</td>
+    <td>[![GitHub release](https://img.shields.io/github/release/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg/releases/latest)</td>
   </tr>
 </table>
 
