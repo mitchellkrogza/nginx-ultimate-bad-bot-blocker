@@ -1312,6 +1312,7 @@
 "~*div\.as" 	1;
 "~*divatraffic\.com" 	1;
 "~*dividendo\.ru" 	1;
+"~*divku\.ru" 	1;
 "~*diy\-handmade\-ideas\.com" 	1;
 "~*djekxa\.ru" 	1;
 "~*djonwatch\.ru" 	1;
@@ -1436,6 +1437,7 @@
 "~*ekobata\.ru" 	1;
 "~*ekosmetyki\.net\.pl" 	1;
 "~*ekspertmed\.com" 	1;
+"~*ekspresihati\.info" 	1;
 "~*ekto\.ee" 	1;
 "~*e\-kwiaciarz\.pl" 	1;
 "~*eladkarako\.com" 	1;
@@ -1483,6 +1485,7 @@
 "~*elstal\.com\.pl" 	1;
 "~*elvel\.com\.ua" 	1;
 "~*elvenar\.com" 	1;
+"~*emailaccountlogin\.co" 	1;
 "~*embedle\.com" 	1;
 "~*emediate\.eu" 	1;
 "~*empathica\.com" 	1;
@@ -2611,6 +2614,7 @@
 "~*letsart\.ru" 	1;
 "~*letslowbefast\.site" 	1;
 "~*letslowbefast\.today" 	1;
+"~*letsrepair\.in" 	1;
 "~*letto\.by" 	1;
 "~*levaquin750mg\.blogspot\.com" 	1;
 "~*lexaprogeneric\.link" 	1;
@@ -3006,6 +3010,7 @@
 "~*musezone\.su" 	1;
 "~*musicas\.baixar\-musicas\-gratis\.com" 	1;
 "~*musicdaddy\.net" 	1;
+"~*musicktab\.com" 	1;
 "~*musicspire\.online" 	1;
 "~*musicstock\.me" 	1;
 "~*music\.utrolive\.ru" 	1;
@@ -4101,6 +4106,7 @@
 "~*site\-auditor\.online" 	1;
 "~*sitebeam\.net" 	1;
 "~*siteexpress\.co\.il" 	1;
+"~*siteheart\.net" 	1;
 "~*siteonomy\.com" 	1;
 "~*siteripz\.net" 	1;
 "~*site\-speed\-checker\.site" 	1;

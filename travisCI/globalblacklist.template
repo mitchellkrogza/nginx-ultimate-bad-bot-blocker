@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.706
-### Updated: Mon Jul 17 12:35:43 SAST 2017
-### Bad Referrer Count: 5295
-### Bad Bot Count: 485
+### Version: V3.2017.07.707
+### Updated: Mon Jul 17 13:20:37 SAST 2017
+### Bad Referrer Count: 5301
+### Bad Bot Count: 486
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -502,6 +502,7 @@ map $http_user_agent $bad_bot {
 	"~*\bQwantify\b"		3;
 	"~*\bRankActiveLinkBot\b"		3;
 	"~*\bRankivabot\b"		3;
+	"~*\bRankurBot\b"		3;
 	"~*\bRealDownload\b"		3;
 	"~*\bReaper\b"		3;
 	"~*\bRecorder\b"		3;
@@ -2157,6 +2158,7 @@ map $http_referer $bad_referer {
 	"~*div\.as" 	1;
 	"~*divatraffic\.com" 	1;
 	"~*dividendo\.ru" 	1;
+	"~*divku\.ru" 	1;
 	"~*diy\-handmade\-ideas\.com" 	1;
 	"~*djekxa\.ru" 	1;
 	"~*djonwatch\.ru" 	1;
@@ -2281,6 +2283,7 @@ map $http_referer $bad_referer {
 	"~*ekobata\.ru" 	1;
 	"~*ekosmetyki\.net\.pl" 	1;
 	"~*ekspertmed\.com" 	1;
+	"~*ekspresihati\.info" 	1;
 	"~*ekto\.ee" 	1;
 	"~*e\-kwiaciarz\.pl" 	1;
 	"~*eladkarako\.com" 	1;
@@ -2328,6 +2331,7 @@ map $http_referer $bad_referer {
 	"~*elstal\.com\.pl" 	1;
 	"~*elvel\.com\.ua" 	1;
 	"~*elvenar\.com" 	1;
+	"~*emailaccountlogin\.co" 	1;
 	"~*embedle\.com" 	1;
 	"~*emediate\.eu" 	1;
 	"~*empathica\.com" 	1;
@@ -3456,6 +3460,7 @@ map $http_referer $bad_referer {
 	"~*letsart\.ru" 	1;
 	"~*letslowbefast\.site" 	1;
 	"~*letslowbefast\.today" 	1;
+	"~*letsrepair\.in" 	1;
 	"~*letto\.by" 	1;
 	"~*levaquin750mg\.blogspot\.com" 	1;
 	"~*lexaprogeneric\.link" 	1;
@@ -3851,6 +3856,7 @@ map $http_referer $bad_referer {
 	"~*musezone\.su" 	1;
 	"~*musicas\.baixar\-musicas\-gratis\.com" 	1;
 	"~*musicdaddy\.net" 	1;
+	"~*musicktab\.com" 	1;
 	"~*musicspire\.online" 	1;
 	"~*musicstock\.me" 	1;
 	"~*music\.utrolive\.ru" 	1;
@@ -4946,6 +4952,7 @@ map $http_referer $bad_referer {
 	"~*site\-auditor\.online" 	1;
 	"~*sitebeam\.net" 	1;
 	"~*siteexpress\.co\.il" 	1;
+	"~*siteheart\.net" 	1;
 	"~*siteonomy\.com" 	1;
 	"~*siteripz\.net" 	1;
 	"~*site\-speed\-checker\.site" 	1;
