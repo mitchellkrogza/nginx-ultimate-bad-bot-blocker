@@ -618,7 +618,7 @@ Check it out at: https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malwar
 
 ### Into Photography?
 
-Come drop by and visit me at https://mitchellkrog.com
+Come drop by and visit me at https://mitchellkrog.com or <a href='https://twitter.com/MitchellKrog'><img src='https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow' alt='Follow @MitchellKrog'></a>
 
 ### Acknowledgements & Contributors:
 
