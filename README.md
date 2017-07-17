@@ -650,3 +650,11 @@ Show them some love and check out some of their projects too.
 If you believe your name should be here, drop me a line.
 
 ### Coding makes me very thirsty [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
+
+[![Build Status](https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg?branch=master)](https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
+
+[![DUB](https://img.shields.io/dub/l/vibe-d.svg?style=plastic)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
+
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=plastic)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
+
+[![GitHub release](https://img.shields.io/github/release/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg/releases/latest)
