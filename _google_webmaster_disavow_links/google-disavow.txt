@@ -142,6 +142,7 @@ domain:abcdeg.xyz
 domain:abclauncher.com
 domain:abctoppictures.net
 domain:abiente.ru
+domain:above.com
 domain:abovetherivernc.com
 domain:absolute-s.ru
 domain:absolutelyanalog.com
@@ -194,6 +195,7 @@ domain:adminshop.com
 domain:admitad.com
 domain:adnotbad.com
 domain:adpremium.org
+domain:adprotect.net
 domain:adrenalin-stk.ru
 domain:ads-cool.pro
 domain:ads-seo.men
@@ -706,6 +708,7 @@ domain:blacktwhite.com
 domain:blackwitchcraft.ru
 domain:blagovest-med.ru
 domain:blavia.00author.com
+domain:blobar.org
 domain:blockworld.ru
 domain:blog.axant.it
 domain:blog.f00kclan.de
@@ -791,6 +794,7 @@ domain:brus.city
 domain:bryansk.zrus.org
 domain:bscodecs.com
 domain:btc4u.ru
+domain:btnativenav.com
 domain:btvn.ru
 domain:buchananshardware.com
 domain:budilneg.xyz
@@ -1033,6 +1037,7 @@ domain:clickaider.com
 domain:clickhype.com
 domain:clickintext.net
 domain:clickpapa.com
+domain:clickprotects.com
 domain:clickso.com
 domain:clicksor.com
 domain:clicksor.net
@@ -1163,6 +1168,7 @@ domain:covetnica.com
 domain:cowblog.fr
 domain:cowlmash.com
 domain:cpabegins.ru
+domain:cpajunkies.com
 domain:craftburg.ru
 domain:crafthubs.com
 domain:craftinsta.ru
@@ -1204,6 +1210,7 @@ domain:cypernhuset.se
 domain:cyprusbuyproperties.com
 domain:cyse.tk
 domain:czat.wp.pl
+domain:dailyfinancefix.com
 domain:dailyrank.net
 domain:dailystrength.org
 domain:dairyindia.in
@@ -1375,6 +1382,7 @@ domain:downtuptv.gq
 domain:doxyporno.com
 domain:doyouknowtheword-flummox.ml
 domain:dpihatinh.gov.vn
+domain:dprtb.com
 domain:drillsaw.ru
 domain:driving.kiev.ua
 domain:droidlook.net
@@ -3052,6 +3060,7 @@ domain:mykings.pw
 domain:mylesosibirsk.ru
 domain:mylida.org
 domain:myliveblog.ru
+domain:mymobilemoneypages.com
 domain:myonigroup.com
 domain:myonlinepayday.co
 domain:myperiod.club
@@ -3279,6 +3288,7 @@ domain:orenburg-gsm.ru
 domain:orgasmus-virtual.com
 domain:orhonit.com
 domain:origin-my.ru
+domain:orion-code-access.net
 domain:orion-v.com
 domain:ororodnik.goodbb.ru
 domain:orsonet.ru
@@ -3325,6 +3335,7 @@ domain:paradontozanet.ru
 domain:parajumpersoutlet.online
 domain:parajumpersstore.online
 domain:paramountmarble.co.uk
+domain:park.above.com
 domain:parlament.biz
 domain:partner-cdn.men
 domain:partner-high.men
@@ -3340,6 +3351,7 @@ domain:partybunny.ru
 domain:pateaswing.com
 domain:pathwhelp.org
 domain:patol01.pw
+domain:patterntrader-en.com
 domain:pattersonsweb.com
 domain:pay2me.pl
 domain:paydayloanslocal.com
@@ -3353,6 +3365,7 @@ domain:pcboa.se
 domain:pcgroup.com.uy
 domain:pcimforum.com
 domain:pdamods.ru
+domain:pdn-4.com
 domain:pdns.cz
 domain:pdns.download
 domain:pearlisland.ru
@@ -3715,6 +3728,7 @@ domain:recipedays.com
 domain:recipedays.ru
 domain:recordpage-a.akamaihd.net
 domain:redbottomheels.xyz
+domain:redirlock.com
 domain:rednise.com
 domain:reelheroes.net
 domain:reeyanaturopathy.com
@@ -4852,6 +4866,7 @@ domain:voditeltrezviy.ru
 domain:vodkoved.ru
 domain:volgograd.xrus.org
 domain:voloomoney.com
+domain:voltrknc1.com
 domain:volume-pills.biz
 domain:voluumtracker1.com
 domain:voluumtrk.com

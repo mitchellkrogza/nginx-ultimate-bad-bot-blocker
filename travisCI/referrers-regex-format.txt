@@ -141,6 +141,7 @@
 "~*abclauncher\.com" 	1;
 "~*abctoppictures\.net" 	1;
 "~*abiente\.ru" 	1;
+"~*above\.com" 	1;
 "~*abovetherivernc\.com" 	1;
 "~*absolutelyanalog\.com" 	1;
 "~*absolute\-s\.ru" 	1;
@@ -192,6 +193,7 @@
 "~*admitad\.com" 	1;
 "~*adnotbad\.com" 	1;
 "~*adpremium\.org" 	1;
+"~*adprotect\.net" 	1;
 "~*adrenalin\-stk\.ru" 	1;
 "~*ads\-cool\.pro" 	1;
 "~*adserver\-e7\.com" 	1;
@@ -705,6 +707,7 @@
 "~*blackwitchcraft\.ru" 	1;
 "~*blagovest\-med\.ru" 	1;
 "~*blavia\.00author\.com" 	1;
+"~*blobar\.org" 	1;
 "~*blockworld\.ru" 	1;
 "~*blog\.axant\.it" 	1;
 "~*blog\.f00kclan\.de" 	1;
@@ -791,6 +794,7 @@
 "~*bscodecs\.com" 	1;
 "~*b\-styles\.xyz" 	1;
 "~*btc4u\.ru" 	1;
+"~*btnativenav\.com" 	1;
 "~*btvn\.ru" 	1;
 "~*buchananshardware\.com" 	1;
 "~*budilneg\.xyz" 	1;
@@ -1032,6 +1036,7 @@
 "~*clickhype\.com" 	1;
 "~*clickintext\.net" 	1;
 "~*clickpapa\.com" 	1;
+"~*clickprotects\.com" 	1;
 "~*clickso\.com" 	1;
 "~*clicksor\.com" 	1;
 "~*clicksor\.net" 	1;
@@ -1163,6 +1168,7 @@
 "~*cowblog\.fr" 	1;
 "~*cowlmash\.com" 	1;
 "~*cpabegins\.ru" 	1;
+"~*cpajunkies\.com" 	1;
 "~*craftburg\.ru" 	1;
 "~*crafthubs\.com" 	1;
 "~*craftinsta\.ru" 	1;
@@ -1204,6 +1210,7 @@
 "~*cyprusbuyproperties\.com" 	1;
 "~*cyse\.tk" 	1;
 "~*czat\.wp\.pl" 	1;
+"~*dailyfinancefix\.com" 	1;
 "~*dailyrank\.net" 	1;
 "~*dailystrength\.org" 	1;
 "~*dairyindia\.in" 	1;
@@ -1375,6 +1382,7 @@
 "~*doxyporno\.com" 	1;
 "~*doyouknowtheword\-flummox\.ml" 	1;
 "~*dpihatinh\.gov\.vn" 	1;
+"~*dprtb\.com" 	1;
 "~*drillsaw\.ru" 	1;
 "~*driving\.kiev\.ua" 	1;
 "~*droidlook\.net" 	1;
@@ -3051,6 +3059,7 @@
 "~*mylesosibirsk\.ru" 	1;
 "~*mylida\.org" 	1;
 "~*myliveblog\.ru" 	1;
+"~*mymobilemoneypages\.com" 	1;
 "~*myonigroup\.com" 	1;
 "~*myonlinepayday\.co" 	1;
 "~*my\.opera\.com" 	1;
@@ -3279,6 +3288,7 @@
 "~*orgasmus\-virtual\.com" 	1;
 "~*orhonit\.com" 	1;
 "~*origin\-my\.ru" 	1;
+"~*orion\-code\-access\.net" 	1;
 "~*orion\-v\.com" 	1;
 "~*ororodnik\.goodbb\.ru" 	1;
 "~*orsonet\.ru" 	1;
@@ -3324,6 +3334,7 @@
 "~*parajumpersoutlet\.online" 	1;
 "~*parajumpersstore\.online" 	1;
 "~*paramountmarble\.co\.uk" 	1;
+"~*park\.above\.com" 	1;
 "~*parlament\.biz" 	1;
 "~*partner\-cdn\.men" 	1;
 "~*partner\-high\.men" 	1;
@@ -3339,6 +3350,7 @@
 "~*pateaswing\.com" 	1;
 "~*pathwhelp\.org" 	1;
 "~*patol01\.pw" 	1;
+"~*patterntrader\-en\.com" 	1;
 "~*pattersonsweb\.com" 	1;
 "~*pay2me\.pl" 	1;
 "~*paydayloanslocal\.com" 	1;
@@ -3353,6 +3365,7 @@
 "~*pc\-test\.net" 	1;
 "~*pc\-virus\-d0l92j2\.pw" 	1;
 "~*pdamods\.ru" 	1;
+"~*pdn\-4\.com" 	1;
 "~*pdns\.cz" 	1;
 "~*pdns\.download" 	1;
 "~*pearlisland\.ru" 	1;
@@ -3714,6 +3727,7 @@
 "~*recipedays\.ru" 	1;
 "~*recordpage\-a\.akamaihd\.net" 	1;
 "~*redbottomheels\.xyz" 	1;
+"~*redirlock\.com" 	1;
 "~*rednise\.com" 	1;
 "~*reelheroes\.net" 	1;
 "~*reeyanaturopathy\.com" 	1;
@@ -4852,6 +4866,7 @@
 "~*vodkoved\.ru" 	1;
 "~*volgograd\.xrus\.org" 	1;
 "~*voloomoney\.com" 	1;
+"~*voltrknc1\.com" 	1;
 "~*volume\-pills\.biz" 	1;
 "~*voluumtracker1\.com" 	1;
 "~*voluumtrk\.com" 	1;
