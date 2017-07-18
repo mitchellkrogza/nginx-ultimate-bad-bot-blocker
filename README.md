@@ -505,7 +505,7 @@ To monitor your top referer's for a web site's log file's on a daily basis use t
 
 ##### Cron for Monitoring Daily Referers on Nginx
 
-`00 08 * * * tail -10000 /var/log/nginx/mydomain-access.log | awk '$11 !~ /google|bing|yahoo|yandex|mywebsite.com/' | awk '{print $11}' | tr -d '"' | sort | uniq -c | sort -rn | head -1000 | mail - s "Top 1000 Referers for Mydomain.com" me@mydomain.com`
+`00 08 * * * tail -10000 /var/log/nginx/mydomain-access.log | awk '$11 !~ /google|bing|yahoo|yandex|mywebsite.com/' | awk '{print $11}' | tr -d '"' | sort | uniq -c | sort -rn | head -1000 | mail -s "Top 1000 Referers for Mydomain.com" me@mydomain.com`
 
 This emails you a daily list of referrers using an awk command to exclude domains like google, bing and your own domain name.
 
