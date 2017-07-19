@@ -23,7 +23,7 @@ _now="$(date)"
 run_curltest1 () {
 truncate -s 0 $_curltest1
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest1"
-curl -A "80legs" http://localhost:9000/index.php 2> $_curltest1
+curl -A "80legs" http://localhost:9000/index.php 2>> $_curltest1
 if grep -i '(52)' $_curltest1; then
    echo 'BAD BOT DETECTED - TEST PASSED'
 else
@@ -39,7 +39,7 @@ fi
 run_curltest2 () {
 truncate -s 0 $_curltest2
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest2"
-curl -A "masscan" http://localhost:9000/index.php 2> $_curltest2
+curl -A "masscan" http://localhost:9000/index.php 2>> $_curltest2
 if grep -i '(52)' $_curltest2; then
    echo 'BAD BOT DETECTED - TEST PASSED'
 else
@@ -55,7 +55,7 @@ fi
 run_curltest3 () {
 truncate -s 0 $_curltest3
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest3"
-curl -I http://localhost:9000/index.php -e http://100dollars-seo.com 2> $_curltest3
+curl -I http://localhost:9000/index.php -e http://100dollars-seo.com 2>> $_curltest3
 if grep -i '(52)' $_curltest3; then
    echo 'BAD REFERRER DETECTED - TEST PASSED'
 else
@@ -71,7 +71,7 @@ fi
 run_curltest4 () {
 truncate -s 0 $_curltest4
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest4"
-curl -I http://localhost:9000/index.php -e http://zx6.ru 2> $_curltest4
+curl -I http://localhost:9000/index.php -e http://zx6.ru 2>> $_curltest4
 if grep -i '(52)' $_curltest4; then
    echo 'BAD REFERRER DETECTED - TEST PASSED'
 else
