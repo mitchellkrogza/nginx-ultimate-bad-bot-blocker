@@ -401,6 +401,7 @@
 "~*apple\.com\-webbrowsing\-security\.science" 	1;
 "~*appleid\-verification\.com" 	1;
 "~*applicationg29\.com" 	1;
+"~*applyneedy\.xyz" 	1;
 "~*app\-ready\.xyz" 	1;
 "~*approved\.su" 	1;
 "~*apps\-analytics\.net" 	1;
@@ -732,6 +733,7 @@
 "~*bluesman\.nu" 	1;
 "~*blue\-square\.biz" 	1;
 "~*bmw\.afora\.ru" 	1;
+"~*bmw\-ark\.ru" 	1;
 "~*bmwhighperformers\.com" 	1;
 "~*bnt\-team\.com" 	1;
 "~*board\.f00d\.de" 	1;
@@ -1152,6 +1154,7 @@
 "~*cornerstone\-countertops\.com" 	1;
 "~*cornomase\.win" 	1;
 "~*corta\.co" 	1;
+"~*coslab\.club" 	1;
 "~*cosmetic\.donna7753191\.ru" 	1;
 "~*cottageofgrace\.com" 	1;
 "~*cougfan\.info" 	1;
@@ -2075,6 +2078,7 @@
 "~*handicapvantoday\.com" 	1;
 "~*handsandlegs\.ru" 	1;
 "~*hanink\.biz\.ly" 	1;
+"~*hannasolution\.ru" 	1;
 "~*happy\.new\.yeartwit\.com" 	1;
 "~*hasfun\.com" 	1;
 "~*hatdc\.org" 	1;
@@ -2248,6 +2252,7 @@
 "~*i\-hobot\.ru" 	1;
 "~*iinstalll\-fii1leis\.jus0wil\.pp\.ua" 	1;
 "~*iklysha\.ml" 	1;
+"~*ilbe\.club" 	1;
 "~*ilikevitaly\.com" 	1;
 "~*ilmen\.net" 	1;
 "~*iloveitaly\.ru" 	1;
@@ -4850,6 +4855,7 @@
 "~*viteonlusarezzo\.it" 	1;
 "~*viven\.host\.sk" 	1;
 "~*vizag\.kharkov\.ua" 	1;
+"~*vizitki\.net" 	1;
 "~*vkak\.ru" 	1;
 "~*vk\-mus\.ru" 	1;
 "~*vkontaktemusic\.ru" 	1;

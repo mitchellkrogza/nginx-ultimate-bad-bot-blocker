@@ -404,6 +404,7 @@ domain:apple.com-webbrowsing-security.review
 domain:apple.com-webbrowsing-security.science
 domain:appleid-verification.com
 domain:applicationg29.com
+domain:applyneedy.xyz
 domain:approved.su
 domain:apps-analytics.net
 domain:appsaurus.com
@@ -732,6 +733,7 @@ domain:blue-square.biz
 domain:bluejays-jerseys.us
 domain:bluerobot.info
 domain:bluesman.nu
+domain:bmw-ark.ru
 domain:bmw.afora.ru
 domain:bmwhighperformers.com
 domain:bnt-team.com
@@ -1152,6 +1154,7 @@ domain:cordstrap.cc
 domain:cornerstone-countertops.com
 domain:cornomase.win
 domain:corta.co
+domain:coslab.club
 domain:cosmetic.donna7753191.ru
 domain:cottageofgrace.com
 domain:cougfan.info
@@ -2075,6 +2078,7 @@ domain:handicapvansarea.com
 domain:handicapvantoday.com
 domain:handsandlegs.ru
 domain:hanink.biz.ly
+domain:hannasolution.ru
 domain:happy.new.yeartwit.com
 domain:hasfun.com
 domain:hatdc.org
@@ -2250,6 +2254,7 @@ domain:igrovyeavtomaty777.ru
 domain:igru-xbox.net
 domain:iinstalll-fii1leis.jus0wil.pp.ua
 domain:iklysha.ml
+domain:ilbe.club
 domain:ilikevitaly.com
 domain:ilmen.net
 domain:iloveitaly.ru
@@ -4850,6 +4855,7 @@ domain:vitanail.ru
 domain:viteonlusarezzo.it
 domain:viven.host.sk
 domain:vizag.kharkov.ua
+domain:vizitki.net
 domain:vk-mus.ru
 domain:vkak.ru
 domain:vkontaktemusic.ru
