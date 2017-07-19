@@ -36,6 +36,7 @@
 "~*1kinobig\.ru" 	1;
 "~*1millionusd\.xyz" 	1;
 "~*1pamm\.ru" 	1;
+"~*1qingdao\.com" 	1;
 "~*1stat\.ru" 	1;
 "~*1webmaster\.ml" 	1;
 "~*2000k\.ru" 	1;
@@ -99,6 +100,7 @@
 "~*7a2rnuey1tw9ar\.ru" 	1;
 "~*7fon\.ru" 	1;
 "~*7makemoneyonline\.com" 	1;
+"~*7minuteworkout\.com" 	1;
 "~*7search\.com" 	1;
 "~*7wind\.ru" 	1;
 "~*7xc4n\.com" 	1;
@@ -771,6 +773,7 @@
 "~*brainxs\.us" 	1;
 "~*braip\.com\.br" 	1;
 "~*brakehawk\.com" 	1;
+"~*brandedleadgeneration\.com" 	1;
 "~*brandehk\.dk" 	1;
 "~*brandov\.ru" 	1;
 "~*brateg\.xyz" 	1;
@@ -1256,6 +1259,7 @@
 "~*decorationspcs\.com" 	1;
 "~*decorazilla\.com" 	1;
 "~*deda\-moroza\-zakaz\.ru" 	1;
+"~*defenderxtactical\.com" 	1;
 "~*degerlund\.net" 	1;
 "~*dekoration\.us" 	1;
 "~*dekorkeramik\.ru" 	1;
@@ -1322,6 +1326,7 @@
 "~*div\.as" 	1;
 "~*divatraffic\.com" 	1;
 "~*dividendo\.ru" 	1;
+"~*divisioncore\.com" 	1;
 "~*divku\.ru" 	1;
 "~*diy\-handmade\-ideas\.com" 	1;
 "~*djekxa\.ru" 	1;
@@ -3109,6 +3114,7 @@
 "~*nelc\.edu\.eg" 	1;
 "~*neobux\-bg\.info" 	1;
 "~*neodownload\.webcam" 	1;
+"~*nero\-us\.com" 	1;
 "~*nerudlogistik\.ru" 	1;
 "~*netallergy\.ru" 	1;
 "~*netfacet\.net" 	1;
@@ -3732,6 +3738,7 @@
 "~*recipedays\.ru" 	1;
 "~*recordpage\-a\.akamaihd\.net" 	1;
 "~*redbottomheels\.xyz" 	1;
+"~*redhotfreebies\.co\.uk" 	1;
 "~*redirlock\.com" 	1;
 "~*rednise\.com" 	1;
 "~*reelheroes\.net" 	1;

@@ -36,6 +36,7 @@ domain:1j7740kd.website
 domain:1kinobig.ru
 domain:1millionusd.xyz
 domain:1pamm.ru
+domain:1qingdao.com
 domain:1stat.ru
 domain:1webmaster.ml
 domain:2000k.ru
@@ -99,6 +100,7 @@ domain:777-club.ru
 domain:7a2rnuey1tw9ar.ru
 domain:7fon.ru
 domain:7makemoneyonline.com
+domain:7minuteworkout.com
 domain:7search.com
 domain:7wind.ru
 domain:7xc4n.com
@@ -772,6 +774,7 @@ domain:brainsandeggs.blogspot.com
 domain:brainxs.us
 domain:braip.com.br
 domain:brakehawk.com
+domain:brandedleadgeneration.com
 domain:brandehk.dk
 domain:brandov.ru
 domain:brateg.xyz
@@ -1257,6 +1260,7 @@ domain:decenttools.com
 domain:decorationspcs.com
 domain:decorazilla.com
 domain:deda-moroza-zakaz.ru
+domain:defenderxtactical.com
 domain:degerlund.net
 domain:dekoration.us
 domain:dekorkeramik.ru
@@ -1322,6 +1326,7 @@ domain:distver.ru
 domain:div.as
 domain:divatraffic.com
 domain:dividendo.ru
+domain:divisioncore.com
 domain:divku.ru
 domain:diy-handmade-ideas.com
 domain:djekxa.ru
@@ -3109,6 +3114,7 @@ domain:negral.pluto.ro
 domain:nelc.edu.eg
 domain:neobux-bg.info
 domain:neodownload.webcam
+domain:nero-us.com
 domain:nerudlogistik.ru
 domain:net-profits.xyz
 domain:net-radar.com
@@ -3733,6 +3739,7 @@ domain:recipedays.com
 domain:recipedays.ru
 domain:recordpage-a.akamaihd.net
 domain:redbottomheels.xyz
+domain:redhotfreebies.co.uk
 domain:redirlock.com
 domain:rednise.com
 domain:reelheroes.net

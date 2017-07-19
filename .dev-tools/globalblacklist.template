@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.715
-### Updated: Wed Jul 19 12:44:43 SAST 2017
-### Bad Referrer Count: 5324
+### Version: V3.2017.07.716
+### Updated: Wed Jul 19 13:30:31 SAST 2017
+### Bad Referrer Count: 5331
 ### Bad Bot Count: 493
 ###################################################
 ### VERSION INFORMATION ##
@@ -889,6 +889,7 @@ map $http_referer $bad_referer {
 	"~*1kinobig\.ru" 	1;
 	"~*1millionusd\.xyz" 	1;
 	"~*1pamm\.ru" 	1;
+	"~*1qingdao\.com" 	1;
 	"~*1stat\.ru" 	1;
 	"~*1webmaster\.ml" 	1;
 	"~*2000k\.ru" 	1;
@@ -952,6 +953,7 @@ map $http_referer $bad_referer {
 	"~*7a2rnuey1tw9ar\.ru" 	1;
 	"~*7fon\.ru" 	1;
 	"~*7makemoneyonline\.com" 	1;
+	"~*7minuteworkout\.com" 	1;
 	"~*7search\.com" 	1;
 	"~*7wind\.ru" 	1;
 	"~*7xc4n\.com" 	1;
@@ -1624,6 +1626,7 @@ map $http_referer $bad_referer {
 	"~*brainxs\.us" 	1;
 	"~*braip\.com\.br" 	1;
 	"~*brakehawk\.com" 	1;
+	"~*brandedleadgeneration\.com" 	1;
 	"~*brandehk\.dk" 	1;
 	"~*brandov\.ru" 	1;
 	"~*brateg\.xyz" 	1;
@@ -2109,6 +2112,7 @@ map $http_referer $bad_referer {
 	"~*decorationspcs\.com" 	1;
 	"~*decorazilla\.com" 	1;
 	"~*deda\-moroza\-zakaz\.ru" 	1;
+	"~*defenderxtactical\.com" 	1;
 	"~*degerlund\.net" 	1;
 	"~*dekoration\.us" 	1;
 	"~*dekorkeramik\.ru" 	1;
@@ -2175,6 +2179,7 @@ map $http_referer $bad_referer {
 	"~*div\.as" 	1;
 	"~*divatraffic\.com" 	1;
 	"~*dividendo\.ru" 	1;
+	"~*divisioncore\.com" 	1;
 	"~*divku\.ru" 	1;
 	"~*diy\-handmade\-ideas\.com" 	1;
 	"~*djekxa\.ru" 	1;
@@ -3962,6 +3967,7 @@ map $http_referer $bad_referer {
 	"~*nelc\.edu\.eg" 	1;
 	"~*neobux\-bg\.info" 	1;
 	"~*neodownload\.webcam" 	1;
+	"~*nero\-us\.com" 	1;
 	"~*nerudlogistik\.ru" 	1;
 	"~*netallergy\.ru" 	1;
 	"~*netfacet\.net" 	1;
@@ -4585,6 +4591,7 @@ map $http_referer $bad_referer {
 	"~*recipedays\.ru" 	1;
 	"~*recordpage\-a\.akamaihd\.net" 	1;
 	"~*redbottomheels\.xyz" 	1;
+	"~*redhotfreebies\.co\.uk" 	1;
 	"~*redirlock\.com" 	1;
 	"~*rednise\.com" 	1;
 	"~*reelheroes\.net" 	1;
