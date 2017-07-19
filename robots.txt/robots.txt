@@ -1,7 +1,7 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.07.711
-### Updated: Wed Jul 19 11:12:05 SAST 2017
+### Version: V3.2017.07.712
+### Updated: Wed Jul 19 11:24:23 SAST 2017
 ### Bad Bot Count: 493
 ###################################################
 ### Version Information ##
