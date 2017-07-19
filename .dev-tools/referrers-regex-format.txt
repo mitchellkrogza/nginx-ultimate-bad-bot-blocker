@@ -4114,6 +4114,7 @@
 "~*simpoed\.ufop\.br" 	1;
 "~*sim\-service\.net" 	1;
 "~*sims\-sims\.ru" 	1;
+"~*simul\.co" 	1;
 "~*sindragosa\.comxa\.com" 	1;
 "~*sinel\.info" 	1;
 "~*sinestesia\.host\.sk" 	1;

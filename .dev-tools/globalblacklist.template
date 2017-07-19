@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.714
-### Updated: Wed Jul 19 11:33:45 SAST 2017
-### Bad Referrer Count: 5323
+### Version: V3.2017.07.715
+### Updated: Wed Jul 19 12:44:43 SAST 2017
+### Bad Referrer Count: 5324
 ### Bad Bot Count: 493
 ###################################################
 ### VERSION INFORMATION ##
@@ -4967,6 +4967,7 @@ map $http_referer $bad_referer {
 	"~*simpoed\.ufop\.br" 	1;
 	"~*sim\-service\.net" 	1;
 	"~*sims\-sims\.ru" 	1;
+	"~*simul\.co" 	1;
 	"~*sindragosa\.comxa\.com" 	1;
 	"~*sinel\.info" 	1;
 	"~*sinestesia\.host\.sk" 	1;

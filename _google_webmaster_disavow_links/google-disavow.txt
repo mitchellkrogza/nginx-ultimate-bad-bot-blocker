@@ -4116,6 +4116,7 @@ domain:simplepooltips.com
 domain:simply.net
 domain:simpoed.ufop.br
 domain:sims-sims.ru
+domain:simul.co
 domain:sindragosa.comxa.com
 domain:sinel.info
 domain:sinestesia.host.sk
