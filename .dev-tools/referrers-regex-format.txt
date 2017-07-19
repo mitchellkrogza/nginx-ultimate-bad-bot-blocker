@@ -351,7 +351,11 @@
 "~*android\-vsem\.org" 	1;
 "~*angigreene\.com" 	1;
 "~*angkortours\.vn" 	1;
+"~*animal36\.com" 	1;
+"~*animal\-drawings\.com" 	1;
 "~*animali\.deagostinipassion\.it" 	1;
+"~*animalrank\.com" 	1;
+"~*animaltoplist\.com" 	1;
 "~*animebox\.com\.ua" 	1;
 "~*anime\.dougasouko\.com" 	1;
 "~*anjalika\.co\.in" 	1;
@@ -470,6 +474,8 @@
 "~*atleticpharm\.org" 	1;
 "~*atley\.eu\.pn" 	1;
 "~*atmagroup\.ru" 	1;
+"~*atmovs\.com" 	1;
+"~*atofilms\.com" 	1;
 "~*atout\-energie\-69\.com" 	1;
 "~*atovh\.local\-finders\.com" 	1;
 "~*audiobangout\.com" 	1;
@@ -567,6 +573,7 @@
 "~*balkanfarma\.ru" 	1;
 "~*balla\-boo\.se" 	1;
 "~*balois\.worldbreak\.com" 	1;
+"~*balook\.com" 	1;
 "~*baltgem\.com" 	1;
 "~*bambi\.ck\.ua" 	1;
 "~*bamo\.xsl\.pt" 	1;
@@ -592,6 +599,7 @@
 "~*basisches\-wasser\.net" 	1;
 "~*batanga\.net" 	1;
 "~*battlecarnival\.su" 	1;
+"~*battleforupdating\.site" 	1;
 "~*bausparen\.bz\.it" 	1;
 "~*bayareaaeroclub\.org" 	1;
 "~*bazaronline24\.ru" 	1;
@@ -639,6 +647,7 @@
 "~*best\-seo\-offer\.com" 	1;
 "~*best\-seo\-software\.xyz" 	1;
 "~*best\-seo\-solution\.com" 	1;
+"~*bestserials\.com" 	1;
 "~*bestssaker\.com" 	1;
 "~*bestwaystogetpaid\.us" 	1;
 "~*bestwebsiteawards\.com" 	1;
@@ -718,11 +727,13 @@
 "~*bloggen\.be" 	1;
 "~*bloggerads\.net" 	1;
 "~*bloggers\.nl" 	1;
+"~*blog\-hits\.com" 	1;
 "~*blogig\.org" 	1;
 "~*blog\.koorg\.ru" 	1;
 "~*blogos\.kz" 	1;
 "~*blogporn\.in" 	1;
 "~*blogqpot\.com" 	1;
+"~*blogrankers\.com" 	1;
 "~*blog\.remote\-computer\.de" 	1;
 "~*blogs\.rediff\.com" 	1;
 "~*blogster\.com" 	1;
@@ -755,6 +766,9 @@
 "~*bongiornos\.info" 	1;
 "~*bonux\.nextview\.ru" 	1;
 "~*bonvillan\.com" 	1;
+"~*bonzbuddy\.com" 	1;
+"~*bonzibuddi\.com" 	1;
+"~*bonzybuddy\.com" 	1;
 "~*boobsimge\.com" 	1;
 "~*bookhome\.info" 	1;
 "~*bookmaker\-bet\.com" 	1;
@@ -1035,9 +1049,18 @@
 "~*classiquebijoux\.ru" 	1;
 "~*claytransformations\.info" 	1;
 "~*clayvasedesigns\.tk" 	1;
+"~*cleanallspyware\.com" 	1;
+"~*cleanallvirus\.com" 	1;
+"~*cleanersoft\.com" 	1;
+"~*cleanmypc\.com" 	1;
+"~*cleanpcnow\.com" 	1;
+"~*cleansearch\.net" 	1;
+"~*clean\-start\.net" 	1;
 "~*clean\-virus\-mac\.com" 	1;
 "~*clevernt\.com" 	1;
 "~*clickaider\.com" 	1;
+"~*clickbanksites\.info" 	1;
+"~*clickcash\.com" 	1;
 "~*clickhype\.com" 	1;
 "~*clickintext\.net" 	1;
 "~*clickpapa\.com" 	1;
@@ -1046,6 +1069,7 @@
 "~*clicksor\.com" 	1;
 "~*clicksor\.net" 	1;
 "~*clicksotrk\.com" 	1;
+"~*clickzzs\.nl" 	1;
 "~*clipartnew\.com" 	1;
 "~*clippingphotoindia\.com" 	1;
 "~*clips\.ua\.ac\.be" 	1;
@@ -1175,11 +1199,15 @@
 "~*cowlmash\.com" 	1;
 "~*cpabegins\.ru" 	1;
 "~*cpajunkies\.com" 	1;
+"~*crackguru\.tk" 	1;
+"~*cracksplanet\.com" 	1;
+"~*crackzplanet\.com" 	1;
 "~*craftburg\.ru" 	1;
 "~*crafthubs\.com" 	1;
 "~*craftinsta\.ru" 	1;
 "~*cranly\.net" 	1;
 "~*crazyboost\.pro" 	1;
+"~*crazyprotocol\.com" 	1;
 "~*crd\.clan\.su" 	1;
 "~*creams\.makeforum\.eu" 	1;
 "~*creativehutindia\.com" 	1;
@@ -1385,6 +1413,7 @@
 "~*downloadkakaotalk\.com" 	1;
 "~*downloadmefiranaratb1972\.xpg\.com\.br" 	1;
 "~*download\-of\-the\-warez\.blogspot\.com" 	1;
+"~*downloads\-whatsapp\.com" 	1;
 "~*download\-wallpaper\.net" 	1;
 "~*downtuptv\.gq" 	1;
 "~*doxyporno\.com" 	1;
@@ -1393,9 +1422,11 @@
 "~*dprtb\.com" 	1;
 "~*drillsaw\.ru" 	1;
 "~*driving\.kiev\.ua" 	1;
+"~*drivotracker\.com" 	1;
 "~*droidlook\.net" 	1;
 "~*drugspowerstore\.com" 	1;
 "~*drugstoreforyou\.com" 	1;
+"~*drunkenstepfather\.com" 	1;
 "~*drunkmoms\.net" 	1;
 "~*drupa\.com" 	1;
 "~*druzhbany\.ru" 	1;
@@ -1891,6 +1922,7 @@
 "~*gay\-file\.com" 	1;
 "~*gaygalls\.net" 	1;
 "~*gaytube\.com" 	1;
+"~*gayxperience\.com" 	1;
 "~*gazobeton\-p\.com\.ua" 	1;
 "~*gazoblok\.net\.ua" 	1;
 "~*gazporno\.com" 	1;
@@ -1972,6 +2004,7 @@
 "~*glogow\.pl" 	1;
 "~*glopages\.ru" 	1;
 "~*gne8\.com" 	1;
+"~*gnuetella\.com" 	1;
 "~*go2album\.com" 	1;
 "~*go2jump\.org" 	1;
 "~*go2mike\.ru" 	1;
@@ -2170,6 +2203,7 @@
 "~*honyaku\.yahoofs\.jp" 	1;
 "~*hopeonthestreet\.co\.uk" 	1;
 "~*hoporno\.com" 	1;
+"~*hornymatches\.com" 	1;
 "~*horoshieokna\.com" 	1;
 "~*hostcritique\.com" 	1;
 "~*hoste\.octopis\.com" 	1;
@@ -2513,6 +2547,7 @@
 "~*kladrus\.ru" 	1;
 "~*kleine\-titten\.biz" 	1;
 "~*kletkimehan\.ru" 	1;
+"~*klikbonus\.com" 	1;
 "~*kliksaya\.com" 	1;
 "~*klosetkitten\.com" 	1;
 "~*kmd\-pto\.ru" 	1;
@@ -2584,6 +2619,7 @@
 "~*lacave\.ntic\.fr" 	1;
 "~*lacloop\.info" 	1;
 "~*ladov\.ru" 	1;
+"~*laexotic\.com" 	1;
 "~*la\-fa\.ru" 	1;
 "~*lafourmiliaire\.com" 	1;
 "~*lafriore\.ru" 	1;
@@ -3004,6 +3040,7 @@
 "~*moyakuhnia\.ru" 	1;
 "~*moyaterapiya\.ru" 	1;
 "~*moz\.com" 	1;
+"~*mp3downloadhq\.com" 	1;
 "~*mp3films\.ru" 	1;
 "~*mp3ringtone\.info" 	1;
 "~*mrbitsandbytes\.com" 	1;
@@ -3107,6 +3144,7 @@
 "~*na\-telefon\.biz" 	1;
 "~*nationalbreakdown\.com" 	1;
 "~*naturalbreakthroughsresearch\.com" 	1;
+"~*naughtyconnect\.com" 	1;
 "~*naval\.jislaaik\.com" 	1;
 "~*nbsproject\.ru" 	1;
 "~*negociosdasha\.com" 	1;
@@ -3192,6 +3230,7 @@
 "~*nudo\.ca" 	1;
 "~*nufaq\.com" 	1;
 "~*nuit\-artisanale\.com" 	1;
+"~*nuker\.com" 	1;
 "~*nullrefer\.com" 	1;
 "~*nuup\.info" 	1;
 "~*nvformula\.ru" 	1;
@@ -3503,6 +3542,8 @@
 "~*poppen\-nw\.net" 	1;
 "~*popserve\.adscpm\.net" 	1;
 "~*poptool\.net" 	1;
+"~*popunder\.net" 	1;
+"~*popunder\.ru" 	1;
 "~*popup\-fdm\.xyz" 	1;
 "~*popup\-hgd\.xyz" 	1;
 "~*popup\-jdh\.xyz" 	1;
@@ -3719,6 +3760,7 @@
 "~*rapidgator\-porn\.ga" 	1;
 "~*rapidokbrain\.com" 	1;
 "~*rasteniya\-vs\-zombi\.ru" 	1;
+"~*ratemodels\.net" 	1;
 "~*razamicroelectronics\.com" 	1;
 "~*razorweb\-a\.akamaihd\.net" 	1;
 "~*razyboard\.com" 	1;
@@ -3739,6 +3781,8 @@
 "~*recordpage\-a\.akamaihd\.net" 	1;
 "~*redbottomheels\.xyz" 	1;
 "~*redhotfreebies\.co\.uk" 	1;
+"~*redirectingat\.com" 	1;
+"~*redirectme\.net" 	1;
 "~*redirlock\.com" 	1;
 "~*rednise\.com" 	1;
 "~*reelheroes\.net" 	1;
@@ -3748,8 +3792,12 @@
 "~*r\-e\-f\-e\-r\-e\-r\.com" 	1;
 "~*refererx\.com" 	1;
 "~*refudiatethissarah\.info" 	1;
+"~*regdefense\.com" 	1;
 "~*regionshop\.biz" 	1;
 "~*registratciya\-v\-moskve\.ru" 	1;
+"~*registry\-cleaner\.net" 	1;
+"~*registry\-clean\-up\.net" 	1;
+"~*registrysweeper\.com" 	1;
 "~*reimageplus\.com" 	1;
 "~*reklama1\.ru" 	1;
 "~*reklama\-i\-rabota\.ru" 	1;
@@ -3833,6 +3881,8 @@
 "~*rozalli\.com" 	1;
 "~*roznica\.com\.ua" 	1;
 "~*rp9\.ru" 	1;
+"~*rubanners\.com" 	1;
+"~*ruclicks\.com" 	1;
 "~*rucrypt\.com" 	1;
 "~*ru\-dety\.ru" 	1;
 "~*ruex\.org\.ua" 	1;
@@ -3940,6 +3990,7 @@
 "~*scanner\-walt\.top" 	1;
 "~*scanner\-willy\.top" 	1;
 "~*scansafe\.net" 	1;
+"~*scanspyware\.net" 	1;
 "~*scenarii\-1\-sentyabrya\.uroki\.org\.ua" 	1;
 "~*scenicmissouri\.us" 	1;
 "~*schlampen\-treffen\.com" 	1;
@@ -4001,8 +4052,10 @@
 "~*seofirmreviewsus\.info" 	1;
 "~*seogadget\.ru" 	1;
 "~*seoheap\.com" 	1;
+"~*seoholding\.com" 	1;
 "~*seokicks\.de" 	1;
 "~*seomarketings\.online" 	1;
+"~*seonetwizard\.com" 	1;
 "~*seo\-platform\.com" 	1;
 "~*seoprofiler\.com" 	1;
 "~*seorank\.info" 	1;
@@ -4025,6 +4078,7 @@
 "~*serw\.clicksor\.com" 	1;
 "~*seryeznie\-znakomstva\.ru" 	1;
 "~*sethrollins\.net" 	1;
+"~*sevenstars7\.com" 	1;
 "~*se\-welding\.ru" 	1;
 "~*sexad\.net" 	1;
 "~*sexblog\.pw" 	1;
@@ -4111,6 +4165,7 @@
 "~*sildenafilcitratemed\.com" 	1;
 "~*silktide\.com" 	1;
 "~*silverage\.ru" 	1;
+"~*silvercash\.com" 	1;
 "~*silvermature\.net" 	1;
 "~*similardeals\.net" 	1;
 "~*simon3\.ru" 	1;
@@ -4172,6 +4227,7 @@
 "~*slowmac\.tech" 	1;
 "~*sluganarodu\.ru" 	1;
 "~*slujbauborki\.ru" 	1;
+"~*slutloadlive\.com" 	1;
 "~*smailik\.org" 	1;
 "~*small\-game\.com" 	1;
 "~*small\-games\.biz" 	1;
@@ -4185,6 +4241,7 @@
 "~*smokewithrabbits\.com" 	1;
 "~*sms2x2\.ru" 	1;
 "~*smstraf\.ru" 	1;
+"~*sneakyboy\.com" 	1;
 "~*snip\.to" 	1;
 "~*snip\.tw" 	1;
 "~*snjack\.info" 	1;
@@ -4257,6 +4314,7 @@
 "~*space4updating\.win" 	1;
 "~*spaceshipad\.com" 	1;
 "~*spammen\.de" 	1;
+"~*spamnuker\.com" 	1;
 "~*spasswelt\.net" 	1;
 "~*spasswelt\.xyz" 	1;
 "~*spb\.afora\.ru" 	1;
@@ -4281,6 +4339,10 @@
 "~*spylog\.com" 	1;
 "~*spymac\.net" 	1;
 "~*spy\-sts\.com" 	1;
+"~*spywarebegone\.com" 	1;
+"~*spywareit\.com" 	1;
+"~*spywarenuker\.com" 	1;
+"~*spywarespy\.com" 	1;
 "~*squidoo\.com" 	1;
 "~*srdrvp\.com" 	1;
 "~*srecorder\.com" 	1;
@@ -4321,6 +4383,7 @@
 "~*strag\-invest\.ru" 	1;
 "~*strana\-krasoty\.ru" 	1;
 "~*strana\-solnca\.ru" 	1;
+"~*strangeduckfilms\.com" 	1;
 "~*streetfire\.net" 	1;
 "~*streetfooduncovered\.com" 	1;
 "~*streha\-metalko\.si" 	1;
@@ -4565,8 +4628,12 @@
 "~*tomck\.com" 	1;
 "~*tongkatmadura\.info" 	1;
 "~*toolsky\.com" 	1;
+"~*toondinsey\.com" 	1;
+"~*toon\-families\.com" 	1;
+"~*toonfamilies\.net" 	1;
 "~*tooplay\.com" 	1;
 "~*tootoo\.to" 	1;
+"~*top10registrycleaners\.com" 	1;
 "~*top10\-way\.com" 	1;
 "~*top1\-seo\-service\.com" 	1;
 "~*top250movies\.ru" 	1;
@@ -4604,10 +4671,12 @@
 "~*tpu\.ru" 	1;
 "~*tracfone\.com" 	1;
 "~*track112\.site" 	1;
+"~*tracklead\.net" 	1;
 "~*trackmedia101\.com" 	1;
 "~*track\-rankings\.online" 	1;
 "~*tracksurf\.daooda\.com" 	1;
 "~*tracksz\.co" 	1;
+"~*trackzapper\.com" 	1;
 "~*tradedeals\.biz" 	1;
 "~*traderzplanet\.in" 	1;
 "~*tradgardspartner\.se" 	1;
@@ -4723,6 +4792,7 @@
 "~*umnovocaminho\.com" 	1;
 "~*um\-razum\.ru" 	1;
 "~*unacittaconte\.org" 	1;
+"~*unblocksit\.es" 	1;
 "~*underthesite\.com" 	1;
 "~*uni\.me" 	1;
 "~*unimodemhalfduplefw\.pen\.io" 	1;
@@ -4733,7 +4803,12 @@
 "~*universals\.com\.ua" 	1;
 "~*unmaroll\.ya\.ru" 	1;
 "~*unpredictable\.ga" 	1;
+"~*unrealcommander\.biz" 	1;
+"~*unrealcommander\.com" 	1;
+"~*unrealcommander\.org" 	1;
 "~*uogonline\.com" 	1;
+"~*upproar\.com" 	1;
+"~*uprour\.com" 	1;
 "~*upstore\.me" 	1;
 "~*uptime\-alpha\.net" 	1;
 "~*uptimebot\.net" 	1;
@@ -4787,6 +4862,7 @@
 "~*vasileostrovsky\-rayon\.ru" 	1;
 "~*vavilone\.com" 	1;
 "~*vbabule\.net" 	1;
+"~*vclicks\.net" 	1;
 "~*vduplo\.ru" 	1;
 "~*vedomstvo\.net" 	1;
 "~*veerotech\.com" 	1;
@@ -4917,6 +4993,8 @@
 "~*wallpapersdesk\.info" 	1;
 "~*wapsite\.me" 	1;
 "~*wareseeker\.com" 	1;
+"~*warezaccess\.com" 	1;
+"~*warezkeeper\.com" 	1;
 "~*warningwar\.ru" 	1;
 "~*warningzscaler\.heraeus\.com" 	1;
 "~*watchdogs\-2\.ru" 	1;
@@ -4990,6 +5068,7 @@
 "~*whatsupinfoley\.com" 	1;
 "~*whatzmyip\.net" 	1;
 "~*wheelchairliftsarea\.com" 	1;
+"~*whengirlsgowild\.com" 	1;
 "~*whereiskentoday\.com" 	1;
 "~*where\-toget\.com" 	1;
 "~*whipme\.yopoint\.in" 	1;
@@ -5017,6 +5096,7 @@
 "~*wingsoffury2\.com" 	1;
 "~*wingsofrefuge\.net" 	1;
 "~*winner7777\.net" 	1;
+"~*win\-spy\.com" 	1;
 "~*winterclassichockeyjerseys\.com" 	1;
 "~*winwotgold\.pl" 	1;
 "~*winx\-play\.ru" 	1;
@@ -5065,6 +5145,7 @@
 "~*wurr\.voila\.net" 	1;
 "~*ww1943\.ru" 	1;
 "~*www\.888\.com" 	1;
+"~*wwwadultcheck\.com" 	1;
 "~*www\.arenda\-yeisk\.ru" 	1;
 "~*www\.event\-tracking\.com" 	1;
 "~*www\.get\-free\-traffic\-now\.com" 	1;
@@ -5079,9 +5160,14 @@
 "~*xblog\.in" 	1;
 "~*xboxster\.ru" 	1;
 "~*xcc24\.pl" 	1;
+"~*xchangetrak\.com" 	1;
 "~*xchat26\.myfreecams\.com" 	1;
 "~*xclicks\.net" 	1;
 "~*xcombear\.ru" 	1;
+"~*x\-diesel\.biz" 	1;
+"~*x\-diesel\.com" 	1;
+"~*x\-diesel\.info" 	1;
+"~*x\-diesel\.org" 	1;
 "~*xdoza\.com" 	1;
 "~*xedserver\.com" 	1;
 "~*xep\.info" 	1;
@@ -5232,6 +5318,7 @@
 "~*youtoner\.it" 	1;
 "~*youtube\-downloader\.savetubevideo\.com" 	1;
 "~*youtubedownload\.org" 	1;
+"~*youtuhe\.com" 	1;
 "~*yuarra\.pluto\.ro" 	1;
 "~*yubikk\.info" 	1;
 "~*yugk\.net" 	1;
@@ -5313,8 +5400,18 @@
 "~*zolotoy\-lis\.ru" 	1;
 "~*zona\-aqua\.ru" 	1;
 "~*zone\-kev717\.info" 	1;
+"~*zoodrawings\.com" 	1;
+"~*zoogdiesney\.com" 	1;
+"~*zoogdinsney\.com" 	1;
+"~*zoogdisany\.com" 	1;
+"~*zooggames\.com" 	1;
 "~*zoolubimets\.ru" 	1;
 "~*zoominfo\.com" 	1;
+"~*zoomovies\.org" 	1;
+"~*zoompegs\.com" 	1;
+"~*zoosexart\.com" 	1;
+"~*zootoplist\.com" 	1;
+"~*zootravel\.com" 	1;
 "~*zophim\.me" 	1;
 "~*zrizvtrnpale\.tk" 	1;
 "~*zrus\.org" 	1;

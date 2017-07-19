@@ -352,7 +352,11 @@ domain:android4fun.org
 domain:androids-store.com
 domain:angigreene.com
 domain:angkortours.vn
+domain:animal-drawings.com
+domain:animal36.com
 domain:animali.deagostinipassion.it
+domain:animalrank.com
+domain:animaltoplist.com
 domain:anime.dougasouko.com
 domain:animebox.com.ua
 domain:anjalika.co.in
@@ -470,6 +474,8 @@ domain:atlasvkusov.ru
 domain:atleticpharm.org
 domain:atley.eu.pn
 domain:atmagroup.ru
+domain:atmovs.com
+domain:atofilms.com
 domain:atout-energie-69.com
 domain:atovh.local-finders.com
 domain:audiobangout.com
@@ -568,6 +574,7 @@ domain:balkanfarma.org
 domain:balkanfarma.ru
 domain:balla-boo.se
 domain:balois.worldbreak.com
+domain:balook.com
 domain:baltgem.com
 domain:bambi.ck.ua
 domain:bamo.xsl.pt
@@ -593,6 +600,7 @@ domain:bashtime.ru
 domain:basisches-wasser.net
 domain:batanga.net
 domain:battlecarnival.su
+domain:battleforupdating.site
 domain:bausparen.bz.it
 domain:bayareaaeroclub.org
 domain:bazaronline24.ru
@@ -640,6 +648,7 @@ domain:bestofupload.info
 domain:bestplacetobuyeriacta.jw.lt
 domain:bestpriceninja.com
 domain:bestprofits-there.com
+domain:bestserials.com
 domain:bestssaker.com
 domain:bestwaystogetpaid.us
 domain:bestwebsiteawards.com
@@ -713,6 +722,7 @@ domain:blagovest-med.ru
 domain:blavia.00author.com
 domain:blobar.org
 domain:blockworld.ru
+domain:blog-hits.com
 domain:blog.axant.it
 domain:blog.f00kclan.de
 domain:blog.koorg.ru
@@ -726,6 +736,7 @@ domain:blogig.org
 domain:blogos.kz
 domain:blogporn.in
 domain:blogqpot.com
+domain:blogrankers.com
 domain:blogs.rediff.com
 domain:blogster.com
 domain:blogtotal.de
@@ -756,6 +767,9 @@ domain:bongacams.com
 domain:bongiornos.info
 domain:bonux.nextview.ru
 domain:bonvillan.com
+domain:bonzbuddy.com
+domain:bonzibuddi.com
+domain:bonzybuddy.com
 domain:boobsimge.com
 domain:bookhome.info
 domain:bookmaker-bet.com
@@ -1036,9 +1050,18 @@ domain:classicakuhni.ru
 domain:classiquebijoux.ru
 domain:claytransformations.info
 domain:clayvasedesigns.tk
+domain:clean-start.net
 domain:clean-virus-mac.com
+domain:cleanallspyware.com
+domain:cleanallvirus.com
+domain:cleanersoft.com
+domain:cleanmypc.com
+domain:cleanpcnow.com
+domain:cleansearch.net
 domain:clevernt.com
 domain:clickaider.com
+domain:clickbanksites.info
+domain:clickcash.com
 domain:clickhype.com
 domain:clickintext.net
 domain:clickpapa.com
@@ -1047,6 +1070,7 @@ domain:clickso.com
 domain:clicksor.com
 domain:clicksor.net
 domain:clicksotrk.com
+domain:clickzzs.nl
 domain:clipartnew.com
 domain:clippingphotoindia.com
 domain:clips.ua.ac.be
@@ -1175,11 +1199,15 @@ domain:cowblog.fr
 domain:cowlmash.com
 domain:cpabegins.ru
 domain:cpajunkies.com
+domain:crackguru.tk
+domain:cracksplanet.com
+domain:crackzplanet.com
 domain:craftburg.ru
 domain:crafthubs.com
 domain:craftinsta.ru
 domain:cranly.net
 domain:crazyboost.pro
+domain:crazyprotocol.com
 domain:crd.clan.su
 domain:creams.makeforum.eu
 domain:creativehutindia.com
@@ -1386,6 +1414,7 @@ domain:downloadeer.net
 domain:downloader12.ru
 domain:downloadkakaotalk.com
 domain:downloadmefiranaratb1972.xpg.com.br
+domain:downloads-whatsapp.com
 domain:downtuptv.gq
 domain:doxyporno.com
 domain:doyouknowtheword-flummox.ml
@@ -1393,9 +1422,11 @@ domain:dpihatinh.gov.vn
 domain:dprtb.com
 domain:drillsaw.ru
 domain:driving.kiev.ua
+domain:drivotracker.com
 domain:droidlook.net
 domain:drugspowerstore.com
 domain:drugstoreforyou.com
+domain:drunkenstepfather.com
 domain:drunkmoms.net
 domain:drupa.com
 domain:druzhbany.ru
@@ -1892,6 +1923,7 @@ domain:gay-file.com
 domain:gay.adultgalls.com
 domain:gaygalls.net
 domain:gaytube.com
+domain:gayxperience.com
 domain:gaz-voshod.ru
 domain:gazobeton-p.com.ua
 domain:gazoblok.net.ua
@@ -1973,6 +2005,7 @@ domain:globetrotting-culture.ru
 domain:glogow.pl
 domain:glopages.ru
 domain:gne8.com
+domain:gnuetella.com
 domain:go2album.com
 domain:go2jump.org
 domain:go2mike.ru
@@ -2170,6 +2203,7 @@ domain:homemature.net
 domain:honyaku.yahoofs.jp
 domain:hopeonthestreet.co.uk
 domain:hoporno.com
+domain:hornymatches.com
 domain:horoshieokna.com
 domain:host-protection.com
 domain:hostcritique.com
@@ -2513,6 +2547,7 @@ domain:kiwi237au.tk
 domain:kladrus.ru
 domain:kleine-titten.biz
 domain:kletkimehan.ru
+domain:klikbonus.com
 domain:kliksaya.com
 domain:klosetkitten.com
 domain:kmd-pto.ru
@@ -2585,6 +2620,7 @@ domain:lacasamorett.com
 domain:lacave.ntic.fr
 domain:lacloop.info
 domain:ladov.ru
+domain:laexotic.com
 domain:lafourmiliaire.com
 domain:lafriore.ru
 domain:lampokrat.ws
@@ -3004,6 +3040,7 @@ domain:moxo.com
 domain:moyakuhnia.ru
 domain:moyaterapiya.ru
 domain:moz.com
+domain:mp3downloadhq.com
 domain:mp3films.ru
 domain:mp3ringtone.info
 domain:mrbitsandbytes.com
@@ -3107,6 +3144,7 @@ domain:nastydollars.com
 domain:nate.com
 domain:nationalbreakdown.com
 domain:naturalbreakthroughsresearch.com
+domain:naughtyconnect.com
 domain:naval.jislaaik.com
 domain:nbsproject.ru
 domain:negociosdasha.com
@@ -3192,6 +3230,7 @@ domain:nudepatch.net
 domain:nudo.ca
 domain:nufaq.com
 domain:nuit-artisanale.com
+domain:nuker.com
 domain:nullrefer.com
 domain:nuup.info
 domain:nvformula.ru
@@ -3503,6 +3542,8 @@ domain:popmarker.com
 domain:poppen-nw.net
 domain:popserve.adscpm.net
 domain:poptool.net
+domain:popunder.net
+domain:popunder.ru
 domain:popup-fdm.xyz
 domain:popup-hgd.xyz
 domain:popup-jdh.xyz
@@ -3721,6 +3762,7 @@ domain:rapevideosmovies.com
 domain:rapidgator-porn.ga
 domain:rapidokbrain.com
 domain:rasteniya-vs-zombi.ru
+domain:ratemodels.net
 domain:razamicroelectronics.com
 domain:razorweb-a.akamaihd.net
 domain:razyboard.com
@@ -3740,6 +3782,8 @@ domain:recipedays.ru
 domain:recordpage-a.akamaihd.net
 domain:redbottomheels.xyz
 domain:redhotfreebies.co.uk
+domain:redirectingat.com
+domain:redirectme.net
 domain:redirlock.com
 domain:rednise.com
 domain:reelheroes.net
@@ -3748,8 +3792,12 @@ domain:refads.pro
 domain:referencemoi.com
 domain:refererx.com
 domain:refudiatethissarah.info
+domain:regdefense.com
 domain:regionshop.biz
 domain:registratciya-v-moskve.ru
+domain:registry-clean-up.net
+domain:registry-cleaner.net
+domain:registrysweeper.com
 domain:reimageplus.com
 domain:reklama-i-rabota.ru
 domain:reklama1.ru
@@ -3834,6 +3882,8 @@ domain:rozalli.com
 domain:roznica.com.ua
 domain:rp9.ru
 domain:ru-dety.ru
+domain:rubanners.com
+domain:ruclicks.com
 domain:rucrypt.com
 domain:ruex.org.ua
 domain:ruf777.com
@@ -3942,6 +3992,7 @@ domain:scanner-walt.top
 domain:scanner-walter.top
 domain:scanner-willy.top
 domain:scansafe.net
+domain:scanspyware.net
 domain:scenarii-1-sentyabrya.uroki.org.ua
 domain:scenicmissouri.us
 domain:schlampen-treffen.com
@@ -4007,8 +4058,10 @@ domain:seofied.com
 domain:seofirmreviewsus.info
 domain:seogadget.ru
 domain:seoheap.com
+domain:seoholding.com
 domain:seokicks.de
 domain:seomarketings.online
+domain:seonetwizard.com
 domain:seoprofiler.com
 domain:seorank.info
 domain:seorankinglinks.com
@@ -4027,6 +4080,7 @@ domain:servisural.ru
 domain:serw.clicksor.com
 domain:seryeznie-znakomstva.ru
 domain:sethrollins.net
+domain:sevenstars7.com
 domain:sex-dating.co
 domain:sex-pr.net
 domain:sex-sex-sex5.com
@@ -4113,6 +4167,7 @@ domain:siha.de
 domain:sildenafilcitratemed.com
 domain:silktide.com
 domain:silverage.ru
+domain:silvercash.com
 domain:silvermature.net
 domain:sim-service.net
 domain:similardeals.net
@@ -4172,6 +4227,7 @@ domain:slowmac.tech
 domain:slowmacfaster.trade
 domain:sluganarodu.ru
 domain:slujbauborki.ru
+domain:slutloadlive.com
 domain:smailik.org
 domain:small-game.com
 domain:small-games.biz
@@ -4185,6 +4241,7 @@ domain:smichovbike.cz
 domain:smokewithrabbits.com
 domain:sms2x2.ru
 domain:smstraf.ru
+domain:sneakyboy.com
 domain:snip.to
 domain:snip.tw
 domain:snjack.info
@@ -4257,6 +4314,7 @@ domain:space4update.pw
 domain:space4updating.win
 domain:spaceshipad.com
 domain:spammen.de
+domain:spamnuker.com
 domain:spasswelt.net
 domain:spasswelt.xyz
 domain:spb.afora.ru
@@ -4281,6 +4339,10 @@ domain:spy-sts.com
 domain:spyfu.com
 domain:spylog.com
 domain:spymac.net
+domain:spywarebegone.com
+domain:spywareit.com
+domain:spywarenuker.com
+domain:spywarespy.com
 domain:squidoo.com
 domain:sr-rekneskap.no
 domain:srdrvp.com
@@ -4321,6 +4383,7 @@ domain:stpolice.com
 domain:strag-invest.ru
 domain:strana-krasoty.ru
 domain:strana-solnca.ru
+domain:strangeduckfilms.com
 domain:streetfire.net
 domain:streetfooduncovered.com
 domain:streha-metalko.si
@@ -4565,12 +4628,16 @@ domain:tomatis.gospartner.com
 domain:tomck.com
 domain:tongkatmadura.info
 domain:toolsky.com
+domain:toon-families.com
+domain:toondinsey.com
+domain:toonfamilies.net
 domain:tooplay.com
 domain:tootoo.to
 domain:top-deal.com.pl
 domain:top-karkas.ru
 domain:top1-seo-service.com
 domain:top10-way.com
+domain:top10registrycleaners.com
 domain:top250movies.ru
 domain:topads.men
 domain:topappspro.com
@@ -4605,9 +4672,11 @@ domain:tpu.ru
 domain:tracfone.com
 domain:track-rankings.online
 domain:track112.site
+domain:tracklead.net
 domain:trackmedia101.com
 domain:tracksurf.daooda.com
 domain:tracksz.co
+domain:trackzapper.com
 domain:tradedeals.biz
 domain:traderzplanet.in
 domain:tradgardspartner.se
@@ -4723,6 +4792,7 @@ domain:umg-stroy.ru
 domain:umityangin.net
 domain:umnovocaminho.com
 domain:unacittaconte.org
+domain:unblocksit.es
 domain:underthesite.com
 domain:uni.me
 domain:unimodemhalfduplefw.pen.io
@@ -4733,7 +4803,12 @@ domain:unitygame3d.com
 domain:universals.com.ua
 domain:unmaroll.ya.ru
 domain:unpredictable.ga
+domain:unrealcommander.biz
+domain:unrealcommander.com
+domain:unrealcommander.org
 domain:uogonline.com
+domain:upproar.com
+domain:uprour.com
 domain:upstore.me
 domain:uptime-alpha.net
 domain:uptime.com
@@ -4787,6 +4862,7 @@ domain:vashsvet.com
 domain:vasileostrovsky-rayon.ru
 domain:vavilone.com
 domain:vbabule.net
+domain:vclicks.net
 domain:vduplo.ru
 domain:vedomstvo.net
 domain:veerotech.com
@@ -4918,6 +4994,8 @@ domain:wallpapers-best.com
 domain:wallpapersdesk.info
 domain:wapsite.me
 domain:wareseeker.com
+domain:warezaccess.com
+domain:warezkeeper.com
 domain:warningwar.ru
 domain:warningzscaler.heraeus.com
 domain:watch-movies.ru
@@ -4991,6 +5069,7 @@ domain:whatsappdownload10.com
 domain:whatsupinfoley.com
 domain:whatzmyip.net
 domain:wheelchairliftsarea.com
+domain:whengirlsgowild.com
 domain:where-toget.com
 domain:whereiskentoday.com
 domain:whipme.yopoint.in
@@ -5012,6 +5091,7 @@ domain:wildcattube.com
 domain:wildnatureimages.com
 domain:wildworld.site
 domain:williamrobsonproperty.com
+domain:win-spy.com
 domain:windowssearch-exp.com
 domain:wineitudes.wordpress.com
 domain:wineration.com
@@ -5069,10 +5149,15 @@ domain:www.arenda-yeisk.ru
 domain:www.event-tracking.com
 domain:www.get-free-traffic-now.com
 domain:www.kabbalah-red-bracelets.com
+domain:wwwadultcheck.com
 domain:wygraj-skiny.win
 domain:wygraj-teraz.com
 domain:wyniki-lista.pl
 domain:wzgyyq.com
+domain:x-diesel.biz
+domain:x-diesel.com
+domain:x-diesel.info
+domain:x-diesel.org
 domain:x-lime.net
 domain:x-musics.com
 domain:x-porno.video
@@ -5084,6 +5169,7 @@ domain:xbaboon.com
 domain:xblog.in
 domain:xboxster.ru
 domain:xcc24.pl
+domain:xchangetrak.com
 domain:xchat26.myfreecams.com
 domain:xclicks.net
 domain:xcombear.ru
@@ -5232,6 +5318,7 @@ domain:yourtemplatefinder.com
 domain:youtoner.it
 domain:youtube-downloader.savetubevideo.com
 domain:youtubedownload.org
+domain:youtuhe.com
 domain:yuarra.pluto.ro
 domain:yubikk.info
 domain:yugk.net
@@ -5313,8 +5400,18 @@ domain:zojirushi-products.ru
 domain:zolotoy-lis.ru
 domain:zona-aqua.ru
 domain:zone-kev717.info
+domain:zoodrawings.com
+domain:zoogdiesney.com
+domain:zoogdinsney.com
+domain:zoogdisany.com
+domain:zooggames.com
 domain:zoolubimets.ru
 domain:zoominfo.com
+domain:zoomovies.org
+domain:zoompegs.com
+domain:zoosexart.com
+domain:zootoplist.com
+domain:zootravel.com
 domain:zophim.me
 domain:zrizvtrnpale.tk
 domain:zrus.org
