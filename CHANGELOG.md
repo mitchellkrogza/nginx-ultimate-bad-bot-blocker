@@ -1,5 +1,10 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-07-19
+- Changed some directory naming
+- Updated Travis CI build scripts to new folder names
+- Added new Badges to Readme and Configuration Files
+
 ### 2017-07-13
 - Configuration Instructions Updated.
 

@@ -69,7 +69,7 @@ class Generator
      */
     protected function writeToFile($filename, $data)
     {
-    $file = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/travisCI/referrers-regex-format.txt";
+    $file = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/referrers-regex-format.txt";
 	$handle = fopen($file, 'w') or die('Cannot open file:  '.$file);
 	fwrite($handle, $data);
     }
@@ -80,7 +80,7 @@ class Generator
      */
     public function createNginx(array $lines) 
     {
-    $file = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/travisCI/referrers-regex-format.txt";
+    $file = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/referrers-regex-format.txt";
         $data = "";
     {
         foreach ($lines as $line) {

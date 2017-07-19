@@ -43,7 +43,7 @@ sudo rm /var/www/html/*
 # Copy our default.vhost file into Nginx /sites-available/
 # ********************************************************
 
-sudo cp $TRAVIS_BUILD_DIR/travisCI/default.vhost /etc/nginx/sites-available/default.vhost
+sudo cp $TRAVIS_BUILD_DIR/.dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
 
 # **********************************************
 # Link the vhost file into Nginx /sites-enabled/
@@ -55,7 +55,7 @@ sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/def
 # Copy our index.php file into the default site's root folder
 # ***********************************************************
 
-sudo cp $TRAVIS_BUILD_DIR/travisCI/index.php /var/www/html/index.php
+sudo cp $TRAVIS_BUILD_DIR/.dev-tools/index.php /var/www/html/index.php
 
 # ***********************************************************************
 # Download the Nginx Bad Bot Blocker setup files from the Live Repository
@@ -116,15 +116,15 @@ sudo service nginx reload
 # Set all our other setup and deploy scripts to be executable
 # ***********************************************************
 
-sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/deploy-package.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/generate-blacklist.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/generate-robots.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/generate-google-disavow.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/generate-google-exclude.php
-sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/generate-regex-format-referrers.php
-sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/modify-config-readme-files.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/modify-files-and-commit.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/travisCI/run-curl-tests.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/deploy-package.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-blacklist.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-google-exclude.php
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-regex-format-referrers.php
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-files-and-commit.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests.sh
 
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml

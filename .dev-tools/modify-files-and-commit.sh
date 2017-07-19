@@ -72,12 +72,12 @@ git checkout master
 # Modify our files with build and version information
 # ***************************************************
 
-php ./travisCI/generate-regex-format-referrers.php
-sudo $TRAVIS_BUILD_DIR/travisCI/generate-blacklist.sh
-sudo $TRAVIS_BUILD_DIR/travisCI/modify-config-readme-files.sh
-sudo $TRAVIS_BUILD_DIR/travisCI/generate-robots.sh
-sudo $TRAVIS_BUILD_DIR/travisCI/generate-google-disavow.sh
-php ./travisCI/generate-google-exclude.php
+php ./.dev-tools/generate-regex-format-referrers.php
+sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-blacklist.sh
+sudo $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
+sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
+sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
+php ./.dev-tools/generate-google-exclude.php
 
 
 # *************************************

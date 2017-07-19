@@ -32,12 +32,12 @@ install:
   - sudo apt-get install -y --force-yes nginx-extras
 
 script:
-  - bash travisCI/install-nginx.sh
-  - bash travisCI/run-curl-tests.sh
-  - bash travisCI/modify-files-and-commit.sh
+  - bash .dev-tools/install-nginx.sh
+  - bash .dev-tools/run-curl-tests.sh
+  - bash .dev-tools/modify-files-and-commit.sh
 
 before_deploy:
-  - bash travisCI/deploy-package.sh
+  - bash .dev-tools/deploy-package.sh
 
 deploy:
   provider: releases

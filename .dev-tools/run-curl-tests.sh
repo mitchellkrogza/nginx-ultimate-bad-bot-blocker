@@ -8,12 +8,12 @@
 # Set Location of our Curl Test Results Files
 # *******************************************
 
-_curltest1=$TRAVIS_BUILD_DIR/travisCI/_curl_tests/curltest1.txt
-_curltest2=$TRAVIS_BUILD_DIR/travisCI/_curl_tests/curltest2.txt
-_curltest3=$TRAVIS_BUILD_DIR/travisCI/_curl_tests/curltest3.txt
-_curltest4=$TRAVIS_BUILD_DIR/travisCI/_curl_tests/curltest4.txt
-_curltest5=$TRAVIS_BUILD_DIR/travisCI/_curl_tests/curltest5.txt
-_curltest6=$TRAVIS_BUILD_DIR/travisCI/_curl_tests/curltest6.txt
+_curltest1=$TRAVIS_BUILD_DIR/.dev-tools/_curl_tests/curltest1.txt
+_curltest2=$TRAVIS_BUILD_DIR/.dev-tools/_curl_tests/curltest2.txt
+_curltest3=$TRAVIS_BUILD_DIR/.dev-tools/_curl_tests/curltest3.txt
+_curltest4=$TRAVIS_BUILD_DIR/.dev-tools/_curl_tests/curltest4.txt
+_curltest5=$TRAVIS_BUILD_DIR/.dev-tools/_curl_tests/curltest5.txt
+_curltest6=$TRAVIS_BUILD_DIR/.dev-tools/_curl_tests/curltest6.txt
 
 
 # *************************************************
