@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.713
-### Updated: Wed Jul 19 11:28:27 SAST 2017
-### Bad Referrer Count: 5322
+### Version: V3.2017.07.714
+### Updated: Wed Jul 19 11:33:45 SAST 2017
+### Bad Referrer Count: 5323
 ### Bad Bot Count: 493
 ###################################################
 ### VERSION INFORMATION ##
@@ -6038,6 +6038,7 @@ map $http_referer $bad_referer {
 	"~*yebocasino\.com" 	1;
 	"~*yebocasino\.co\.za" 	1;
 	"~*yellocloud\.be" 	1;
+	"~*yellowads\.men" 	1;
 	"~*yellowstonesafaritours\.com" 	1;
 	"~*yhit\.press" 	1;
 	"~*ynymnwbm\.bloger\.index\.hr" 	1;

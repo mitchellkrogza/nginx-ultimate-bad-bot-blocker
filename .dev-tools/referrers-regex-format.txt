@@ -5185,6 +5185,7 @@
 "~*yebocasino\.com" 	1;
 "~*yebocasino\.co\.za" 	1;
 "~*yellocloud\.be" 	1;
+"~*yellowads\.men" 	1;
 "~*yellowstonesafaritours\.com" 	1;
 "~*yhit\.press" 	1;
 "~*ynymnwbm\.bloger\.index\.hr" 	1;
