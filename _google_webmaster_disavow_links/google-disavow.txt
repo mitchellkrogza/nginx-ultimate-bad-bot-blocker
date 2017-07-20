@@ -355,6 +355,7 @@ domain:angkortours.vn
 domain:animal-drawings.com
 domain:animal36.com
 domain:animali.deagostinipassion.it
+domain:animalia-life.club
 domain:animalrank.com
 domain:animaltoplist.com
 domain:anime.dougasouko.com
@@ -3719,6 +3720,7 @@ domain:qcstrtvt.bloger.index.hr
 domain:qexyfu.bugs3.com
 domain:qitt.ru
 domain:qld10000.net
+domain:qor360.com
 domain:qpypcx.com
 domain:quality-traffic.com
 domain:qualitymarketzone.com
