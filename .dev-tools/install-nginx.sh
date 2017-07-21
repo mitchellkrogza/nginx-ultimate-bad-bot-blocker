@@ -125,6 +125,7 @@ sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-regex-format-referrers.php
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-files-and-commit.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
 
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml

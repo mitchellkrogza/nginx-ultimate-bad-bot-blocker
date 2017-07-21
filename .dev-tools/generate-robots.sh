@@ -33,7 +33,7 @@
 # Set Input Files
 # ***************
 
-_input1=$TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list
+_input1=$TRAVIS_BUILD_DIR/.dev-tools/_robots_input/robots-input.txt
 _tmprobots=/tmp/robots.txt
 
 # ******************

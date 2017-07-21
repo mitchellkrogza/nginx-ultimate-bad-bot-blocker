@@ -75,6 +75,7 @@ git checkout master
 php ./.dev-tools/generate-regex-format-referrers.php
 sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-blacklist.sh
 sudo $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
+sudo $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
 sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
 sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
 php ./.dev-tools/generate-google-exclude.php
