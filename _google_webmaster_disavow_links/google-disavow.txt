@@ -1537,6 +1537,7 @@ domain:elvenar.com
 domain:emailaccountlogin.co
 domain:embedle.com
 domain:emediate.eu
+domain:emerson-rus.ru
 domain:empathica.com
 domain:empirepoker.com
 domain:empis.magix.net
@@ -2814,6 +2815,7 @@ domain:maladot.com
 domain:mall.uk
 domain:malls.com
 domain:malwareremovalcenter.com
+domain:managerpak204.weebly.com
 domain:manipulyator-peterburg.ru
 domain:mantramusic.ru
 domain:manualterap.roleforum.ru
@@ -2990,6 +2992,7 @@ domain:moesonce.com
 domain:moi-glazki.ru
 domain:moivestiy.biz
 domain:mojowhois.com
+domain:mojpregled.com
 domain:mokrayakiska.com
 domain:mole.pluto.ro
 domain:monarchfind-a.akamaihd.net
@@ -3629,6 +3632,7 @@ domain:privatbank46.ru
 domain:privatefx-in.ru
 domain:privatefx.all4invest.info
 domain:privatov-zapisi.ru
+domain:privetsochi.ru
 domain:privhosting.com
 domain:prize44.com
 domain:prizeestates.cricket
@@ -4242,6 +4246,7 @@ domain:smartshoppymac.com
 domain:smichovbike.cz
 domain:smokewithrabbits.com
 domain:sms2x2.ru
+domain:smsactivator.ru
 domain:smstraf.ru
 domain:sneakyboy.com
 domain:snip.to
@@ -4423,6 +4428,7 @@ domain:sumo.com
 domain:superiends.org
 domain:superinterstitial.com
 domain:superkanpo.com
+domain:superlist.biz
 domain:supermesta.ru
 domain:supernew.org
 domain:superpages.com

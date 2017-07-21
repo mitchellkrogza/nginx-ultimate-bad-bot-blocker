@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.718
-### Updated: Thu Jul 20 11:30:48 SAST 2017
-### Bad Referrer Count: 5430
-### Bad Bot Count: 493
+### Version: V3.2017.07.719
+### Updated: Fri Jul 21 14:45:45 SAST 2017
+### Bad Referrer Count: 5436
+### Bad Bot Count: 498
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -312,6 +312,7 @@ map $http_user_agent $bad_bot {
 	"~*\bExpress\ WebPictures\b"		3;
 	"~*\bExtractor\b"		3;
 	"~*\bExtractorPro\b"		3;
+	"~*\bExtreme\ Picture\ Finder\b"		3;
 	"~*\bEyeNetIE\b"		3;
 	"~*\bEzooms\b"		3;
 	"~*\bFHscan\b"		3;
@@ -489,6 +490,7 @@ map $http_user_agent $bad_bot {
 	"~*\bPHPCrawl\b"		3;
 	"~*\bPicscout\b"		3;
 	"~*\bPicsearch\b"		3;
+	"~*\bPictureFinder\b"		3;
 	"~*\bPimonster\b"		3;
 	"~*\bPi-Monster\b"		3;
 	"~*\bPixray\b"		3;
@@ -507,6 +509,8 @@ map $http_user_agent $bad_bot {
 	"~*\bRankActive\b"		3;
 	"~*\bRankActiveLinkBot\b"		3;
 	"~*\bRankFlex\b"		3;
+	"~*\bRankingBot\b"		3;
+	"~*\bRankingBot2\b"		3;
 	"~*\bRankivabot\b"		3;
 	"~*\bRankurBot\b"		3;
 	"~*\bRealDownload\b"		3;
@@ -611,6 +615,7 @@ map $http_user_agent $bad_bot {
 	"~*\bVCI\b"		3;
 	"~*\bVeriCiteCrawler\b"		3;
 	"~*\bVidibleScraper\b"		3;
+	"~*\bVirusdie\b"		3;
 	"~*\bVoidEYE\b"		3;
 	"~*\bVoil\b"		3;
 	"~*\bVoltron\b"		3;
@@ -2389,6 +2394,7 @@ map $http_referer $bad_referer {
 	"~*emailaccountlogin\.co" 	1;
 	"~*embedle\.com" 	1;
 	"~*emediate\.eu" 	1;
+	"~*emerson\-rus\.ru" 	1;
 	"~*empathica\.com" 	1;
 	"~*empirepoker\.com" 	1;
 	"~*empis\.magix\.net" 	1;
@@ -3666,6 +3672,7 @@ map $http_referer $bad_referer {
 	"~*malls\.com" 	1;
 	"~*mall\.uk" 	1;
 	"~*malwareremovalcenter\.com" 	1;
+	"~*managerpak204\.weebly\.com" 	1;
 	"~*manipulyator\-peterburg\.ru" 	1;
 	"~*mantramusic\.ru" 	1;
 	"~*manualterap\.roleforum\.ru" 	1;
@@ -3843,6 +3850,7 @@ map $http_referer $bad_referer {
 	"~*moi\-glazki\.ru" 	1;
 	"~*moivestiy\.biz" 	1;
 	"~*mojowhois\.com" 	1;
+	"~*mojpregled\.com" 	1;
 	"~*mokrayakiska\.com" 	1;
 	"~*mole\.pluto\.ro" 	1;
 	"~*monarchfind\-a\.akamaihd\.net" 	1;
@@ -4481,6 +4489,7 @@ map $http_referer $bad_referer {
 	"~*privatefx\-in\.ru" 	1;
 	"~*privat\-girl\.net" 	1;
 	"~*privatov\-zapisi\.ru" 	1;
+	"~*privetsochi\.ru" 	1;
 	"~*privhosting\.com" 	1;
 	"~*prize44\.com" 	1;
 	"~*prizeestates\.cricket" 	1;
@@ -5095,6 +5104,7 @@ map $http_referer $bad_referer {
 	"~*smichovbike\.cz" 	1;
 	"~*smokewithrabbits\.com" 	1;
 	"~*sms2x2\.ru" 	1;
+	"~*smsactivator\.ru" 	1;
 	"~*smstraf\.ru" 	1;
 	"~*sneakyboy\.com" 	1;
 	"~*snip\.to" 	1;
@@ -5276,6 +5286,7 @@ map $http_referer $bad_referer {
 	"~*superiends\.org" 	1;
 	"~*superinterstitial\.com" 	1;
 	"~*superkanpo\.com" 	1;
+	"~*superlist\.biz" 	1;
 	"~*supermesta\.ru" 	1;
 	"~*supernew\.org" 	1;
 	"~*superpages\.com" 	1;

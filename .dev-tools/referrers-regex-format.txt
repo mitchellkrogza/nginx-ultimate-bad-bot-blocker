@@ -1536,6 +1536,7 @@
 "~*emailaccountlogin\.co" 	1;
 "~*embedle\.com" 	1;
 "~*emediate\.eu" 	1;
+"~*emerson\-rus\.ru" 	1;
 "~*empathica\.com" 	1;
 "~*empirepoker\.com" 	1;
 "~*empis\.magix\.net" 	1;
@@ -2813,6 +2814,7 @@
 "~*malls\.com" 	1;
 "~*mall\.uk" 	1;
 "~*malwareremovalcenter\.com" 	1;
+"~*managerpak204\.weebly\.com" 	1;
 "~*manipulyator\-peterburg\.ru" 	1;
 "~*mantramusic\.ru" 	1;
 "~*manualterap\.roleforum\.ru" 	1;
@@ -2990,6 +2992,7 @@
 "~*moi\-glazki\.ru" 	1;
 "~*moivestiy\.biz" 	1;
 "~*mojowhois\.com" 	1;
+"~*mojpregled\.com" 	1;
 "~*mokrayakiska\.com" 	1;
 "~*mole\.pluto\.ro" 	1;
 "~*monarchfind\-a\.akamaihd\.net" 	1;
@@ -3628,6 +3631,7 @@
 "~*privatefx\-in\.ru" 	1;
 "~*privat\-girl\.net" 	1;
 "~*privatov\-zapisi\.ru" 	1;
+"~*privetsochi\.ru" 	1;
 "~*privhosting\.com" 	1;
 "~*prize44\.com" 	1;
 "~*prizeestates\.cricket" 	1;
@@ -4242,6 +4246,7 @@
 "~*smichovbike\.cz" 	1;
 "~*smokewithrabbits\.com" 	1;
 "~*sms2x2\.ru" 	1;
+"~*smsactivator\.ru" 	1;
 "~*smstraf\.ru" 	1;
 "~*sneakyboy\.com" 	1;
 "~*snip\.to" 	1;
@@ -4423,6 +4428,7 @@
 "~*superiends\.org" 	1;
 "~*superinterstitial\.com" 	1;
 "~*superkanpo\.com" 	1;
+"~*superlist\.biz" 	1;
 "~*supermesta\.ru" 	1;
 "~*supernew\.org" 	1;
 "~*superpages\.com" 	1;
