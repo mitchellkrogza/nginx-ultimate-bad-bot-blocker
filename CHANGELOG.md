@@ -1,5 +1,10 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+### 2017-07-21
+- Fixed generation of robots.txt picked up an issue with it using the list which includes escaped spaces.
+- Some minor syntax fixes to some of the generator scripts.
+- Deleted contents of various generated files forcing re-generation test of all generator scripts - PASSED
+
 ### 2017-07-19
 - Changed some directory naming
 - Updated Travis CI build scripts to new folder names
