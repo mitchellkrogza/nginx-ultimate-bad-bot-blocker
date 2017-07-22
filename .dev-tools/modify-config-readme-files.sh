@@ -48,23 +48,23 @@ _tmpnginxA=tmpnginxA
 # Start and End Strings to Search for to do inserts into template
 # ***************************************************************
 
-_startmarker="### Version Information #"
-_endmarker="### Version Information ##"
+_startmarker="_______________"
+_endmarker="____________________"
 
 # ****************************************
 # PRINT VERSION INFORMATION INTO README.md
 # ****************************************
 
-printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> "$_tmpnginxA"
+printf '%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "$_endmarker" >> "$_tmpnginxA"
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
-1,/### Version Information #/d
-/### Version Information ##/,$d
+1,/_______________/d
+/____________________/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
-/### Version Information #/x
+/_______________/x
 .t.
-.,/### Version Information ##/-d
+.,/____________________/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
@@ -76,16 +76,16 @@ rm $_inputdbA
 # PRINT VERSION INFORMATION INTO AUTO-CONFIGURATION.md
 # ****************************************************
 
-printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> "$_tmpnginxA"
+printf '%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "$_endmarker" >> "$_tmpnginxA"
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
-1,/### Version Information #/d
-/### Version Information ##/,$d
+1,/_______________/d
+/____________________/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/AUTO-CONFIGURATION.md
-/### Version Information #/x
+/_______________/x
 .t.
-.,/### Version Information ##/-d
+.,/____________________/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/AUTO-CONFIGURATION.md
@@ -97,19 +97,40 @@ rm $_inputdbA
 # PRINT VERSION INFORMATION INTO MANUAL-CONFIGURATION.md
 # ******************************************************
 
-printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s' "$_startmarker" "********************************************" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "********************************************" "$_endmarker" >> "$_tmpnginxA"
+printf '%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "$_endmarker" >> "$_tmpnginxA"
 mv $_tmpnginxA $_inputdbA
 ed -s $_inputdbA<<\IN
-1,/### Version Information #/d
-/### Version Information ##/,$d
+1,/_______________/d
+/____________________/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/MANUAL-CONFIGURATION.md
-/### Version Information #/x
+/_______________/x
 .t.
-.,/### Version Information ##/-d
+.,/____________________/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/MANUAL-CONFIGURATION.md
+q
+IN
+rm $_inputdbA
+
+# *******************************************************
+# PRINT VERSION INFORMATION INTO Google Ghost Spam README
+# *******************************************************
+
+printf '%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "$_endmarker" >> "$_tmpnginxA"
+mv $_tmpnginxA $_inputdbA
+ed -s $_inputdbA<<\IN
+1,/_______________/d
+/____________________/,$d
+,d
+.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_google_analytics_ghost_spam/README.md
+/_______________/x
+.t.
+.,/____________________/-d
+#,p
+#,p used to print output replaced with w below to write
+w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_google_analytics_ghost_spam/README.md
 q
 IN
 rm $_inputdbA
