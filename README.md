@@ -4,11 +4,9 @@
 ##### The Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker, Click Re-Directing Blocker, SEO Companies and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking
 
 _______________
-********************************************
-#### Version: V3.2017.07.726
+#### Version: V3.2017.07.727
 #### Bad Referrer Count: 5443
 #### Bad Bot Count: 498
-********************************************
 ____________________
 
 ## If this helps you [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
