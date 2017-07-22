@@ -44,7 +44,8 @@ deploy:
   api_key:
     secure: ${GH_TOKEN}
   file:
-  - "conf.d/globalblacklist.conf"
+      - .latest_release/conf.d.tar.gz
+      - .latest_release/bots.d.tar.gz
   skip_cleanup: true
   on:
     repo: mitchellkrogza/nginx-ultimate-bad-bot-blocker

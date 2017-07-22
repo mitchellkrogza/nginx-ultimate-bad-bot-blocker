@@ -80,6 +80,13 @@ sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
 sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
 php ./.dev-tools/generate-google-exclude.php
 
+# ***************************************************************
+# Gzip Our Latest Release So We can Include it the Travis Release
+# ***************************************************************
+
+cd $TRAVIS_BUILD_DIR/.latest_release/
+tar -czf conf.d.tar.gz -C $TRAVIS_BUILD_DIR/conf.d/ .
+tar -czf bots.d.tar.gz -C $TRAVIS_BUILD_DIR/bots.d/ .
 
 # *************************************
 # Add all the modified files and commit
