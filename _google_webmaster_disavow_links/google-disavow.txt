@@ -555,6 +555,7 @@ domain:b2b-lounge.com
 domain:babespcs.com
 domain:babieca.com
 domain:bablonow.ru
+domain:babyfactory.fr
 domain:babyguns.ru
 domain:back.dog
 domain:backgroundpictures.net
@@ -755,6 +756,7 @@ domain:board.f00d.de
 domain:boazpower.com
 domain:bobba.dzaba.com
 domain:bobinoz.com
+domain:boc.kz
 domain:bochemit.com.ua
 domain:bocoarchives.org
 domain:bodybuilding-shop.biz
@@ -1838,6 +1840,7 @@ domain:free-share-buttons.top
 domain:free-social-buttons.com
 domain:free-social-buttons.xyz
 domain:free-stock-illustration.com
+domain:free-today.com
 domain:free-traffic.xyz
 domain:free-video-tool.com
 domain:freecamdollars.com
@@ -2295,6 +2298,7 @@ domain:igrovyeavtomaty777.ru
 domain:igru-xbox.net
 domain:iinstalll-fii1leis.jus0wil.pp.ua
 domain:iklysha.ml
+domain:ikritikimou.gr
 domain:ilbe.club
 domain:ilikevitaly.com
 domain:ilmen.net
@@ -3133,6 +3137,7 @@ domain:naj-filmy24.pl
 domain:najaden.no
 domain:nalogovyy-kodeks.ru
 domain:namenectar.com
+domain:napalm51.nut.cc
 domain:naperehresti.info
 domain:naphukete.ru
 domain:nardulan.com
@@ -4891,6 +4896,7 @@ domain:vezuviy.su
 domain:vgoloveboli.net
 domain:via-energy-acquistare.com
 domain:via-energy-cumpara.com
+domain:via-energy-order.com
 domain:via-gra.webstarts.com
 domain:viagra.pp.ua
 domain:viagroid.ru
@@ -5289,6 +5295,7 @@ domain:yebocasino.com
 domain:yellocloud.be
 domain:yellowads.men
 domain:yellowstonesafaritours.com
+domain:yellowstonevisitortours.com
 domain:yhit.press
 domain:ynymnwbm.bloger.index.hr
 domain:yogamatsexpert.com

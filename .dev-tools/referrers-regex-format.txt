@@ -554,6 +554,7 @@
 "~*babespcs\.com" 	1;
 "~*babieca\.com" 	1;
 "~*bablonow\.ru" 	1;
+"~*babyfactory\.fr" 	1;
 "~*babyguns\.ru" 	1;
 "~*back\.dog" 	1;
 "~*backgroundpictures\.net" 	1;
@@ -755,6 +756,7 @@
 "~*bobba\.dzaba\.com" 	1;
 "~*bobinoz\.com" 	1;
 "~*bochemit\.com\.ua" 	1;
+"~*boc\.kz" 	1;
 "~*bocoarchives\.org" 	1;
 "~*bodybuilding\-shop\.biz" 	1;
 "~*boleznikogi\.com" 	1;
@@ -1849,6 +1851,7 @@
 "~*free\-social\-buttons\.xyz" 	1;
 "~*free\-stock\-illustration\.com" 	1;
 "~*freetangodownload\.com" 	1;
+"~*free\-today\.com" 	1;
 "~*free\-traffic\.xyz" 	1;
 "~*freeuploader\.com" 	1;
 "~*freeuploader\.ml" 	1;
@@ -2293,6 +2296,7 @@
 "~*i\-hobot\.ru" 	1;
 "~*iinstalll\-fii1leis\.jus0wil\.pp\.ua" 	1;
 "~*iklysha\.ml" 	1;
+"~*ikritikimou\.gr" 	1;
 "~*ilbe\.club" 	1;
 "~*ilikevitaly\.com" 	1;
 "~*ilmen\.net" 	1;
@@ -3132,6 +3136,7 @@
 "~*naj\-filmy24\.pl" 	1;
 "~*nalogovyy\-kodeks\.ru" 	1;
 "~*namenectar\.com" 	1;
+"~*napalm51\.nut\.cc" 	1;
 "~*naperehresti\.info" 	1;
 "~*naphukete\.ru" 	1;
 "~*nardulan\.com" 	1;
@@ -4891,6 +4896,7 @@
 "~*vgoloveboli\.net" 	1;
 "~*via\-energy\-acquistare\.com" 	1;
 "~*via\-energy\-cumpara\.com" 	1;
+"~*via\-energy\-order\.com" 	1;
 "~*viagra\.pp\.ua" 	1;
 "~*via\-gra\.webstarts\.com" 	1;
 "~*viagroid\.ru" 	1;
@@ -5289,6 +5295,7 @@
 "~*yellocloud\.be" 	1;
 "~*yellowads\.men" 	1;
 "~*yellowstonesafaritours\.com" 	1;
+"~*yellowstonevisitortours\.com" 	1;
 "~*yhit\.press" 	1;
 "~*ynymnwbm\.bloger\.index\.hr" 	1;
 "~*yogamatsexpert\.com" 	1;
