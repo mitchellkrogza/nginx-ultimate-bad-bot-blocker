@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.07.738
-### Updated: Sun Jul 23 13:28:37 SAST 2017
-### Bad Bot Count: 498
+### Version: V3.2017.07.739
+### Updated: Sun Jul 23 13:43:50 SAST 2017
+### Bad Bot Count: 499
 ###################################################
 ### Version Information ##
 
@@ -738,6 +738,8 @@ Disallow:/
 User-agent: Sogou web spider
 Disallow:/
 User-agent: Sosospider
+Disallow:/
+User-agent: Sottopop
 Disallow:/
 User-agent: SpaceBison
 Disallow:/

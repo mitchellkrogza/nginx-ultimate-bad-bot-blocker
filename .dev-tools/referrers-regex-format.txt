@@ -1039,6 +1039,7 @@
 "~*cigarpass\.com" 	1;
 "~*cineacademy\.ru" 	1;
 "~*cinemaenergy\-hd\.ru" 	1;
+"~*cinemaflix\.website" 	1;
 "~*ciproandtizanidine\.blogspot\.com" 	1;
 "~*citizenclsdriveri7\.pen\.io" 	1;
 "~*cityadspix\.com" 	1;
@@ -2122,6 +2123,7 @@
 "~*handsandlegs\.ru" 	1;
 "~*hanink\.biz\.ly" 	1;
 "~*hannasolution\.ru" 	1;
+"~*hao123\.com" 	1;
 "~*happy\.new\.yeartwit\.com" 	1;
 "~*hasfun\.com" 	1;
 "~*hatdc\.org" 	1;
@@ -2508,6 +2510,7 @@
 "~*kazrent\.com" 	1;
 "~*kchaxton\.com" 	1;
 "~*keenoutlet\.online" 	1;
+"~*kerei\.ru" 	1;
 "~*kerwinandcariza\.com" 	1;
 "~*ketoanhanoi\.info" 	1;
 "~*ketrzyn\.pl" 	1;
@@ -2703,6 +2706,7 @@
 "~*linkarena\.com" 	1;
 "~*linkbolic\.com" 	1;
 "~*linkbuddies\.com" 	1;
+"~*linkbux\.ru" 	1;
 "~*linkdebrideur\.xyz" 	1;
 "~*linkpulse\.com" 	1;
 "~*linkredirect\.biz" 	1;
@@ -2820,6 +2824,7 @@
 "~*malwareremovalcenter\.com" 	1;
 "~*managerpak204\.weebly\.com" 	1;
 "~*manipulyator\-peterburg\.ru" 	1;
+"~*mansparskats\.com" 	1;
 "~*mantramusic\.ru" 	1;
 "~*manualterap\.roleforum\.ru" 	1;
 "~*manuscript\.su" 	1;
@@ -2993,6 +2998,7 @@
 "~*modenamebel\.ru" 	1;
 "~*moesen\-ficken\.com" 	1;
 "~*moesonce\.com" 	1;
+"~*moetomnenie\.com" 	1;
 "~*moi\-glazki\.ru" 	1;
 "~*moivestiy\.biz" 	1;
 "~*mojowhois\.com" 	1;
@@ -4712,6 +4718,7 @@
 "~*traffpartners\.com" 	1;
 "~*trahic\.ru" 	1;
 "~*trahvid\.com" 	1;
+"~*trailer\.cinemaflix\.website" 	1;
 "~*tramadolandtizanidine\.blogspot\.com" 	1;
 "~*traxdom\.ru" 	1;
 "~*treasuretrack\-a\.akamaihd\.net" 	1;
