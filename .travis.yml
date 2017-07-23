@@ -34,7 +34,7 @@ install:
 script:
   - bash .dev-tools/install-nginx.sh
   - bash .dev-tools/run-curl-tests.sh
-  - bash .dev-tools/modify-files-and-commit.sh
+  - bash -x .dev-tools/modify-files-and-commit.sh
 
 before_deploy:
   - bash .dev-tools/deploy-package.sh
