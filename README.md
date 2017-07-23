@@ -9,7 +9,7 @@ _______________
 #### Bad Bot Count: 499
 ____________________
 
-## If this helps you [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
+## If this helps you [![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%20hungry%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
 
 ##### Created by: https://github.com/mitchellkrogza for use on Nginx Web Server https://www.nginx.com/
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
@@ -289,7 +289,9 @@ Let's say for some "obscure" reason you actually want to block GoogleBot from ac
 
 All include files are commented for your convenience.
 
-### Coding makes me very thirsty [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
+### This project takes a lot of time so why not
+
+[![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%20hungry%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
 
 
 ## STEP 10: (TEST THAT IT IS WORKING)
