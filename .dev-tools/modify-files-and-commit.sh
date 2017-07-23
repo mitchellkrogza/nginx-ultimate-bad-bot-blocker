@@ -103,12 +103,12 @@ git commit -am "V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER [ci skip]"
 cd /tmp/
 sudo git clone https://github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO.git
 sudo cp $TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list /tmp/Stop.Google.Analytics.Ghost.Spam.HOWTO/.dev-tools/_input_source/bad-referrers.list
-ls -la /tmp/
 cd /tmp/Stop.Google.Analytics.Ghost.Spam.HOWTO/
 ls -la
 sudo git remote -v
 sudo git remote rm origin
-sudo git remote add origin https://${GOOGLESPAM_TOKEN}@github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO.git
+sudo git remote add origin https://${GOOGLESPAM_TOKEN}@github.com/{GOOGLESPAM_REPO_SLUG}.git
+sudo git remote -v
 sudo git add -A
 sudo git commit -am "Referrers (+)"
 sudo git push origin master
