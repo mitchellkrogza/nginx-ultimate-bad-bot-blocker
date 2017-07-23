@@ -642,5 +642,6 @@ Show them some love and check out some of their projects too.
 
 If you believe your name should be here, drop me a line.
 
-### Coding makes me very thirsty [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
+### Writing Code like this takes lots of time !!
 
+[![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%F0%9F%98%B8-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG)
