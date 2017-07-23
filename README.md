@@ -349,7 +349,9 @@ The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 - See sample Nginx SSL Vhost config at: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md
 
 
-### If this helps you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
+### If this helps you why not
+
+[![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%20hungry%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
 
 ## Welcome to the Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Click-Jacking Blocker, Click-Redirect Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking.
 
@@ -571,7 +573,7 @@ Lots of people are at the peril of their hosting company and do not have root ac
 
 ## Just Enjoy now what the Nginx Bad Bot Blocker Can Do For You and Your Web Sites.
 
-### If this helped you why not [buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
+[![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%20hungry%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
 
 # MIT License
 
@@ -644,4 +646,4 @@ If you believe your name should be here, drop me a line.
 
 ### Writing Code like this takes lots of time !!
 
-[![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%F0%9F%98%B8-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG)
+[![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%20hungry%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
