@@ -2,11 +2,11 @@ language: php
 env:
   global:
     - secure: unp8irwVXz37jxOFbuM4NciRaq326XktPJP0UuL5m1qdrGiLQVq18cIuXClkxbnCoXzpkL0gG1XdjaD0bRKWAnwRRZBEKDRBYXyF+IcGCfG1k8HUbZoV1OTP21qUXot70YrTiZJ3NkuS32RJdFV9qRAkaM1Srf+ZRHcsZSdXaSJTooMsDLtqk9Bjh9aHEltRCDS0AT2YPANZLW4Yn2QcwBmPhv+3xNxRt2etbl1EYvjYGbKw31JJnMHvS15DJEY52coJ+n4Yw/EI9My4O9TshrAEHeWwXT+dGACdNTD9lXkohuEyc10bgWTGeD5jytm5mbVbzlML3iro0sq6gNWr1iBzGL+FkWSR0ezkbADcnxoUwZa7OHwOPcrzmgkNp6jouGk6Xhl7NQgfwJJtQYPWfOuXIVNUk1Z2Ein/lw2WMzGmEHrqs1x2gIrD83sKqULT3kZBWr4RfhUPjol+V0MZJ+KCW2yo+2C8lZDQ5LWxftoqnG/ia70nFemWsyHSqe2OvN4WfwW9zdS0kRqMZVq/r3R+y0idacFkvO5yXk7cS45tAawIUK5Ipc3fib/ERv8zoDjcIt136hXhlYo44vPr2oprDnyvLcCbdG0A4uCnPpp3Bdbcn2NqIlsXhzBV+YJokaTv5zfWSH2YX6+wdv0C3+dkFjpZaASVg/R7oxg/oXY=
-    - secure: SkM5+JkgvqcGkBCKVNZXhXGLPzECUzUlGR/RmL0gXiNxC7OkieRVkZEWzginxKzs3d2GeDmmF5yP6bPdNoIlfO+ouqiG9h6VdrAdrAbxcc4L4NAhGe0Sn1l3+e8blZ4jvK9Y4ypUwgCI2q8YlvlTs+rG3GSREHBdUuBwCr8TV0Fj1p8+pfQNHTG1TU/ebLzlf0ls/2OtdjPecuh2DyObKTcEO1WMXJ4weTRBVPqkE9ws2YV0RmJF1MfnmHxRd2iuL7cPIv7aU28iHNG49b5SjjkELNkGaqqxj3GAlX1uayu8c3MHsRZ6yI94Z3jkvXgs2T2qm0z8/GvPH/16trZ+mBqr7sfn2tKM0tbJL2tuRa31okFdS4KxoKwWlSfInrD//XPx+GqsFJdoKkj7hU1ulW2GhhyklC8DIV9A7igBtYTUfcV0O2O+fkPhnFlY++7u3oj1Px6vtt71brdmiUeJ3zDrlnkfNU0ht4Vb20KTiHdfGB782sii/GfQDtpIjxuUBG+RTiFQhdnfNpg6WT5NprTfHIhKehYwv+nRi/VuxgE25JaMqs48SUi8DwPm+UaOGw84tap29S6hjGeWODx+CwwWPFhLRI+MErD6MCrYM9F0jyHjFMFJwAngdQOx5UjHxIbJJlG51eN3K903NuntOPJFnDUnixcFn1bV4Wt3hCc=
+    - GOOGLESPAM_TOKEN: SkM5+JkgvqcGkBCKVNZXhXGLPzECUzUlGR/RmL0gXiNxC7OkieRVkZEWzginxKzs3d2GeDmmF5yP6bPdNoIlfO+ouqiG9h6VdrAdrAbxcc4L4NAhGe0Sn1l3+e8blZ4jvK9Y4ypUwgCI2q8YlvlTs+rG3GSREHBdUuBwCr8TV0Fj1p8+pfQNHTG1TU/ebLzlf0ls/2OtdjPecuh2DyObKTcEO1WMXJ4weTRBVPqkE9ws2YV0RmJF1MfnmHxRd2iuL7cPIv7aU28iHNG49b5SjjkELNkGaqqxj3GAlX1uayu8c3MHsRZ6yI94Z3jkvXgs2T2qm0z8/GvPH/16trZ+mBqr7sfn2tKM0tbJL2tuRa31okFdS4KxoKwWlSfInrD//XPx+GqsFJdoKkj7hU1ulW2GhhyklC8DIV9A7igBtYTUfcV0O2O+fkPhnFlY++7u3oj1Px6vtt71brdmiUeJ3zDrlnkfNU0ht4Vb20KTiHdfGB782sii/GfQDtpIjxuUBG+RTiFQhdnfNpg6WT5NprTfHIhKehYwv+nRi/VuxgE25JaMqs48SUi8DwPm+UaOGw84tap29S6hjGeWODx+CwwWPFhLRI+MErD6MCrYM9F0jyHjFMFJwAngdQOx5UjHxIbJJlG51eN3K903NuntOPJFnDUnixcFn1bV4Wt3hCc=
     - GIT_NAME: Travis CI
     - GIT_EMAIL: mitchellkrog@gmail.com
     - TRAVIS_REPO_SLUG: mitchellkrogza/nginx-ultimate-bad-bot-blocker
-    - GOOGLESPAM_REPO_SLUG: mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO
+    #- GOOGLESPAM_REPO_SLUG: mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO
     - GIT_BRANCH: master
 sudo: required
 dist: trusty
@@ -45,7 +45,7 @@ deploy:
   provider: releases
   api_key:
     secure: ${GH_TOKEN}
-    secure: ${GOOGLESPAM_TOKEN}
+    #secure: ${GOOGLESPAM_TOKEN}
   file:
       - .latest_release/conf.d.tar.gz
       - .latest_release/bots.d.tar.gz

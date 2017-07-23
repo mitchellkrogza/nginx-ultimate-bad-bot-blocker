@@ -107,7 +107,7 @@ cd /tmp/Stop.Google.Analytics.Ghost.Spam.HOWTO/
 ls -la
 sudo git remote -v
 sudo git remote rm origin
-sudo git remote add origin https://${GOOGLESPAM_TOKEN}@github.com/{GOOGLESPAM_REPO_SLUG}.git
+sudo git remote add origin https://${GOOGLESPAM_TOKEN}@github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO.git
 sudo git remote -v
 sudo git add -A
 sudo git commit -am "Referrers (+)"
