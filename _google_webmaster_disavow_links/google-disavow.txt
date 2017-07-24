@@ -702,6 +702,7 @@ domain:birzha-truda.eu
 domain:bitcoinpile.com
 domain:bitcoins-live.ru
 domain:biteg.xyz
+domain:bitnote.co
 domain:bitporno.sx
 domain:bizcheapjerseyswholesalechina.com
 domain:bizfly.info
@@ -3127,6 +3128,7 @@ domain:myonlinepayday.co
 domain:myperiod.club
 domain:mypets.by
 domain:myplaycity.com
+domain:mypornfree.ru
 domain:myprintscreen.com
 domain:myseoconsultant.com
 domain:myshopmatemac.com
@@ -5199,6 +5201,7 @@ domain:xedserver.com
 domain:xep.info
 domain:xev.ru
 domain:xfire.com
+domain:xfluro.com
 domain:xgames-04.com
 domain:xgftnlrt.bloger.index.hr
 domain:xingzi-vision.com

@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.742
-### Updated: Sun Jul 23 16:14:22 SAST 2017
-### Bad Referrer Count: 5450
+### Version: V3.2017.07.743
+### Updated: Mon Jul 24 12:15:54 SAST 2017
+### Bad Referrer Count: 5453
 ### Bad Bot Count: 499
 ###################################################
 ### VERSION INFORMATION ##
@@ -1560,6 +1560,7 @@ map $http_referer $bad_referer {
 	"~*bitcoinpile\.com" 	1;
 	"~*bitcoins\-live\.ru" 	1;
 	"~*biteg\.xyz" 	1;
+	"~*bitnote\.co" 	1;
 	"~*bitporno\.sx" 	1;
 	"~*bizcheapjerseyswholesalechina\.com" 	1;
 	"~*bizfly\.info" 	1;
@@ -3986,6 +3987,7 @@ map $http_referer $bad_referer {
 	"~*myperiod\.club" 	1;
 	"~*mypets\.by" 	1;
 	"~*myplaycity\.com" 	1;
+	"~*mypornfree\.ru" 	1;
 	"~*myprintscreen\.com" 	1;
 	"~*myseoconsultant\.com" 	1;
 	"~*myshopmatemac\.com" 	1;
@@ -6053,6 +6055,7 @@ map $http_referer $bad_referer {
 	"~*xep\.info" 	1;
 	"~*xev\.ru" 	1;
 	"~*xfire\.com" 	1;
+	"~*xfluro\.com" 	1;
 	"~*xgames\-04\.com" 	1;
 	"~*xgftnlrt\.bloger\.index\.hr" 	1;
 	"~*xingzi\-vision\.com" 	1;
