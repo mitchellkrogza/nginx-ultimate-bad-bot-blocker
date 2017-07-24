@@ -31,6 +31,7 @@
 EMAIL="me@myemail.com"
 SEND_EMAIL="Y"
 CONF_DIR=/etc/nginx/conf.d
+BOTS_DIR=/etc/nginx/bots.d
 
 ##### end user configuration ##############################################################
 
@@ -48,6 +49,7 @@ $script: UPDATE Nginx Bad Bot Blocker blacklist in: [ $CONF_DIR ]
 
 Usage: $script [OPTIONS]
         [ -c ] : NGINX conf directory          (default: $CONF_DIR)
+        [ -b ] : NGINX bots directory          (default: $BOTS_DIR)
         [ -r ] : Change repo url               (default: $REPO)
         [ -e ] : Change email address          (default: $EMAIL)
         [ -n ] : Do not send email report      (default: $SEND_EMAIL)
@@ -57,13 +59,13 @@ Usage: $script [OPTIONS]
 Examples:
  $script                         (Download globalblacklist.conf to: $CONF_DIR)
  $script -c /my/custom/conf.d    (Download globalblacklist.conf to a custom location)
+ $script -b /my/custom/bots.d    (Download globalblacklist.conf & update with your custom bots.d location)
  $script -e yourname@youremailaddress.com (Download globalblacklist.conf specifying your email address for the notification)
 EOF
         exit 0
 }
 
 check_version() {
-	local file=$CONF_DIR/globalblacklist.conf
 	local remote_ver= remote_date= version= date= file=$CONF_DIR/globalblacklist.conf
 	local tmp=$(mktemp) url=$REPO/conf.d/globalblacklist.conf range="145-345"
 
@@ -92,6 +94,27 @@ check_version() {
 	fi
 
 	exit 0
+}
+
+update_paths() {
+	# variables in nginx include files not currently possible
+	# updates hard coded bots.d path in globalblacklist.conf
+	local blacklist=$1 email_report=$2 include_paths= dir= x=
+
+	if ! grep "$BOTS_DIR" $blacklist 1>/dev/null; then
+		if [ -d $BOTS_DIR ]; then
+			printf "Updating bots.d path: $BOTS_DIR => $blacklist\n" | tee -a $email_report
+			include_paths=$(grep -E "include /.*.conf;$" $blacklist | awk '{print $2}' | tr -d ';')
+
+			for x in $include_paths; do
+				dir=$(dirname $x)
+				sed -i "s|$dir|$BOTS_DIR|" $blacklist
+			done
+		else
+			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => NOT updating $blacklist\n" \
+				| tee -a $email_report
+		fi
+	fi
 }
 
 service_cmd() {
@@ -181,7 +204,7 @@ check_depends() {
 get_options() {
         local arg= opts=
 
-        while getopts :c:r:e:nvh opts "$@"
+        while getopts :c:b:r:e:nvh opts "$@"
         do
                 if [ -n "${OPTARG}" ]; then
                         case "$opts" in
@@ -193,6 +216,7 @@ get_options() {
 
                 case "$opts" in
                         c) CONF_DIR=$arg; check_args $opts path $arg ;;
+                        b) BOTS_DIR=$arg; check_args $opts path $arg ;;
                         r) REPO=$arg; check_args $opts url $arg ;;
                         e) EMAIL=$arg; check_args $opts email $arg ;;
                         n) SEND_EMAIL=N ;;
@@ -236,6 +260,10 @@ main() {
 
 		# re-read nginx configuration
 		if ! grep "Not Found" $email_report; then
+
+			# set custom bots.d path
+			update_paths $output $email_report
+
 			$service nginx reload
 			if [ $? = 0 ]; then
 				status="${BOLDGREEN}[OK]${RESET}"
@@ -246,6 +274,9 @@ main() {
 		else
 			printf "\n${BOLDRED}Download failed${RESET}: not reloading NGINX config\n" | tee -a $email_report
 		fi
+	else
+		# set custom bots.d path
+		update_paths $output $email_report
 	fi
 
 	# email report
