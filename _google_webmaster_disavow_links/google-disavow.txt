@@ -741,8 +741,6 @@ domain:blogporn.in
 domain:blogqpot.com
 domain:blogrankers.com
 domain:blogs.rediff.com
-domain:blogster.com
-domain:blogtotal.de
 domain:bloke.com
 domain:blpmovies.com
 domain:blue-square.biz
@@ -982,7 +980,6 @@ domain:cfsrating.sonicwall.com
 domain:cgi2.nintendo.co.jp
 domain:charmstroy.info
 domain:chastnoeporno.com
-domain:chat.ru
 domain:chatroulette.online
 domain:chatroulette.si
 domain:chatroulette.video
@@ -1219,8 +1216,6 @@ domain:creativehutindia.com
 domain:creditmoney.com.ua
 domain:crest-poloski.ru
 domain:crest3d.ru
-domain:crests.com
-domain:crests.org
 domain:crirussian.ru
 domain:crystalslot.com
 domain:cs-passion.pl
@@ -3098,7 +3093,6 @@ domain:mwtpludn.review
 domain:my-bc.ru
 domain:my-big-family.com
 domain:my-cash-bot.co
-domain:my.opera.com
 domain:myanyone.net
 domain:mybinaryoptionsrobot.com
 domain:myblogregistercm.tk
@@ -4323,7 +4317,6 @@ domain:sosdepotdebilan.com
 domain:soserfis.com
 domain:sotkal.lark.ru
 domain:soundfrost.org
-domain:soup.io
 domain:souvenir.cc
 domain:souvenirua.com
 domain:sovetogorod.ru
@@ -4444,7 +4437,6 @@ domain:superkanpo.com
 domain:superlist.biz
 domain:supermesta.ru
 domain:supernew.org
-domain:superpages.com
 domain:supers.com.ua
 domain:superstats.com
 domain:supervesti.ru
@@ -4501,7 +4493,6 @@ domain:tattoo33.ru
 domain:tattooha.com
 domain:tattooreligion.ru
 domain:taxi-v-eisk.ru
-domain:taxidermy4cash.com
 domain:taximytishi.ru
 domain:td-33.ru
 domain:tdsing.ru

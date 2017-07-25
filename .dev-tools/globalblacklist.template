@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.748
-### Updated: Tue Jul 25 10:30:08 SAST 2017
-### Bad Referrer Count: 5453
+### Version: V3.2017.07.749
+### Updated: Tue Jul 25 11:48:23 SAST 2017
+### Bad Referrer Count: 5444
 ### Bad Bot Count: 499
 ###################################################
 ### VERSION INFORMATION ##
@@ -1598,8 +1598,6 @@ map $http_referer $bad_referer {
 	"~*blogrankers\.com" 	1;
 	"~*blog\.remote\-computer\.de" 	1;
 	"~*blogs\.rediff\.com" 	1;
-	"~*blogster\.com" 	1;
-	"~*blogtotal\.de" 	1;
 	"~*blog\.yam\.com" 	1;
 	"~*bloke\.com" 	1;
 	"~*blpmovies\.com" 	1;
@@ -1845,7 +1843,6 @@ map $http_referer $bad_referer {
 	"~*chatroulette\.si" 	1;
 	"~*chatroulette\.video" 	1;
 	"~*chatroulette\.world" 	1;
-	"~*chat\.ru" 	1;
 	"~*chatseo\.com" 	1;
 	"~*chcu\.net" 	1;
 	"~*cheapbarbour\.online" 	1;
@@ -2078,8 +2075,6 @@ map $http_referer $bad_referer {
 	"~*creditmoney\.com\.ua" 	1;
 	"~*crest3d\.ru" 	1;
 	"~*crest\-poloski\.ru" 	1;
-	"~*crests\.com" 	1;
-	"~*crests\.org" 	1;
 	"~*crirussian\.ru" 	1;
 	"~*crystalslot\.com" 	1;
 	"~*cscwtalkto\.site" 	1;
@@ -3983,7 +3978,6 @@ map $http_referer $bad_referer {
 	"~*mymobilemoneypages\.com" 	1;
 	"~*myonigroup\.com" 	1;
 	"~*myonlinepayday\.co" 	1;
-	"~*my\.opera\.com" 	1;
 	"~*myperiod\.club" 	1;
 	"~*mypets\.by" 	1;
 	"~*myplaycity\.com" 	1;
@@ -5182,7 +5176,6 @@ map $http_referer $bad_referer {
 	"~*soserfis\.com" 	1;
 	"~*sotkal\.lark\.ru" 	1;
 	"~*soundfrost\.org" 	1;
-	"~*soup\.io" 	1;
 	"~*souvenir\.cc" 	1;
 	"~*souvenirua\.com" 	1;
 	"~*sovetogorod\.ru" 	1;
@@ -5303,7 +5296,6 @@ map $http_referer $bad_referer {
 	"~*superlist\.biz" 	1;
 	"~*supermesta\.ru" 	1;
 	"~*supernew\.org" 	1;
-	"~*superpages\.com" 	1;
 	"~*supers\.com\.ua" 	1;
 	"~*superstats\.com" 	1;
 	"~*supervesti\.ru" 	1;
@@ -5358,7 +5350,6 @@ map $http_referer $bad_referer {
 	"~*tattoo33\.ru" 	1;
 	"~*tattooha\.com" 	1;
 	"~*tattooreligion\.ru" 	1;
-	"~*taxidermy4cash\.com" 	1;
 	"~*taximytishi\.ru" 	1;
 	"~*taxi\-v\-eisk\.ru" 	1;
 	"~*t\-bygg\.com" 	1;
