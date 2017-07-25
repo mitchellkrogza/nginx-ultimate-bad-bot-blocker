@@ -110,7 +110,7 @@ cd /usr/sbin
 # First delete the globalblacklist.conf file so that the update actually pulls a new file
 sudo rm /usr/local/nginx/conf.d/globalblacklist.conf
 
-sudo ./update-ngxblocker -b /usr/local/nginx/bots.d -e mitchellkrog@gmail.com
+sudo ./update-ngxblocker -b /usr/local/nginx/bots.d -c /usr/local/nginx/conf.d -e mitchellkrog@gmail.com
 
 # *********************
 # Force reload of Nginx
