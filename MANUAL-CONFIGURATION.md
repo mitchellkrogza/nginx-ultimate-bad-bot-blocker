@@ -3,34 +3,49 @@
 # MANUAL CONFIGURATION INSTRUCTIONS FOR THE NGINX BAD BOT BLOCKER:
 ### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY :exclamation:
 
-##### Created by: https://github.com/mitchellkrogza
-##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
-
 _______________
 #### Version: V3.2017.07.762
 #### Bad Referrer Count: 5444
 #### Bad Bot Count: 499
 ____________________
 
-## Update Notification System
+## Help Support This Project 
 
-Please subscribe your email address to the mailing list at **https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker**
-or simply send a blank email to **nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com** to subscribe.
-Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical changes take place.
+[![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
 
+************************************************
+- Created by: https://github.com/mitchellkrogza for use on Nginx Web Server https://www.nginx.com/
+- Copyright Mitchell Krog <mitchellkrog@gmail.com>
+
+Not Using Nginx? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img.shields.io/badge/APACHE%20-%20ULTIMATE%20BAD%20BOT%20BLOCKER%20%E2%9B%94-blue.svg)](https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker)
+
+************************************************
+### Update Notification System - Stay up to date on New Builds and Major Feature Changes 
+
+It is important to please <a href="https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker">subscribe your email address to the mailing list</a> or <a href="mailto:nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com">simply send a blank email here</a> to subscribe.
+
+Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical (potentially breaking) changes take place.
+
+##### Also follow me on twitter @ubuntu101za for update notifications
+
+<a href='https://twitter.com/ubuntu101za'><img src='https://img.shields.io/twitter/follow/ubuntu101za.svg?style=social&label=Follow' alt='Follow @ubuntu101za'></a>
+
+************************************************
 ### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY :exclamation:
 
 **If you miss one step you will get an nginx EMERG :exclamation: error. This is normally a result of not downloading either blockbots.conf, ddos.conf, whitelist-ips.conf, whitelist-domains.conf, bad-referrer-words.conf, custom-bad-referrers.conf, blacklist-user-agents.conf or blacklist-ips.conf into your /etc/nginx/bots.d folder. If any of the include files are missing Nginx will EMERG and will not reload.**
 
+************************************************
 ## AUTO INSTALLATION INSTRUCTIONS
 
-It is **HIGHLY SUGGESTED** to please use the auto installation scripts created by Stuart Cardall @itoffshore
+It is **HIGHLY SUGGESTED** to please use the <a href="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/AUTO-CONFIGURATION.md">auto installation scripts</a> created by Stuart Cardall @itoffshore
+
 Please see: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/AUTO-CONFIGURATION.md
-or https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/README.md
 
+************************************************
 ## MANUAL INSTALLATION INSTRUCTIONS
-
-## STEP 1:
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-1.png"/>
 
 **COPY THE GLOBALBLACKLIST.CONF FILE FROM THE REPO**
 
@@ -42,7 +57,8 @@ If your Linux distribution does not have wget you can replace the wget commands 
 
 `curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/globalblacklist.conf -o /etc/nginx/conf.d/globalblacklist.conf`
 
-## STEP 2: 
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-2.png"/>
 
 **COPY THE INCLUDE FILES FROM THE REPO**
 
@@ -55,7 +71,8 @@ If your Linux distribution does not have wget you can replace the wget commands 
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/blockbots.conf -O /etc/nginx/bots.d/blockbots.conf`
 `sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/bots.d/ddos.conf -O /etc/nginx/bots.d/ddos.conf`
 
-## STEP 3:
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-3.png"/>
 
 **WHITELIST ALL YOUR OWN DOMAIN NAMES AND IP ADDRESSES**
 
@@ -74,7 +91,8 @@ Whitelist all your own domain names and IP addresses. **Please note important ch
 Use nano, vim or any other text editor to edit both whitelist-ips.conf and whitelist-domains.conf to include all your own domain names and IP addresses that you want to specifically whitelist from the blocker script. 
 When pulling any future updates now your domains and IP whitelists will not be overwritten.
 
-## STEP 4:
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-4.png"/>
 
 **BLACKLIST USING YOUR OWN CUSTOM USER-AGENT BLACKLIST**
 
@@ -88,7 +106,8 @@ Copy the custom User-Agents blacklist file into your /etc/nginx/bots.d folder
 Use nano, vim or any other text editor to edit (if needed) blacklist-user-agents.conf to include your own custom list of bad agents that are not included in the blocker like "omgilibot" which some people choose to block. 
 When pulling any future updates now your custom User-Agents blacklist will not be overwritten.
 
-## STEP 5:
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-5.png"/>
 
 **BLACKLIST USING YOUR OWN CUSTOM BAD REFERRERS**
 
@@ -101,7 +120,8 @@ Copy the custom bad referrers blacklist file into your /etc/nginx/bots.d folder
 Use nano, vim or any other text editor to edit (if needed) custom-bad-referrers.conf to include your own custom list of bad referrer domains that are not included in the blocker. 
 When pulling any future updates now your custom referrers list will not be overwritten.
 
-## STEP 6:
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-6.png"/>
 
 **BLACKLIST IPS AND IP RANGES USING YOUR OWN CUSTOM LIST**
 
@@ -114,7 +134,8 @@ Copy the custom IP blacklist file into your /etc/nginx/bots.d folder
 Use nano, vim or any other text editor to edit (if needed) blacklist-ips.conf to include your own custom list of IP Addresses and IP Ranges that you wish to block.  
 When pulling any future updates now your custom IP blacklist will not be overwritten.
 
-## STEP 7:
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-7.png"/>
 
 **DOWNLOAD CUSTOM BAD REFERRER WORDS INCLUDE FILE FOR CUSTOMIZED SCANNING OF BAD WORDS**
 
@@ -128,7 +149,8 @@ Use nano, vim or any other text editor to edit the bad-referrer-words.conf file 
 When pulling any future updates now your custom bad referrer words list will not be overwritten.
 
 
-## STEP 8:
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-8.png"/>
 
 **INCLUDE IMPORTANT SETTINGS IN NGINX.CONF**
 **Also see SAMPLE-nginx.conf file in the root of this repository**
@@ -153,14 +175,18 @@ The important settings file above adds the rate limiting functions and hash_buck
 The server_names_hash settings allows Nginx Server to load this very large list of domain names and IP addresses into memory. You can tweak these settings to your own requirements.
 
 
-## STEP 9: **VERY IMPORTANT**
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-9.png"/>
+**VERY IMPORTANT**
 
 **MAKE SURE** that your nginx.conf file contains the following include directive. If it's commented out make sure to uncomment it or none of this will work.
 
 - `include /etc/nginx/conf.d/*`
 
 
-## STEP 10: **VERY IMPORTANT**
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-10.png"/>
+**VERY IMPORTANT**
 
 **ADD INCLUDE FILES INTO A VHOST**
 
@@ -174,7 +200,8 @@ These includes MUST be added within a **server {}** block of a vhost otherwise y
 
 - `include /etc/nginx/bots.d/ddos.conf;`
 
-## STEP 11:
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-11b.png"/>
 
 **TESTING YOUR NGINX CONFIGURATION**
 
@@ -186,7 +213,8 @@ If you get no errors then you followed my instructions so now you can make the b
 
 The blocker is now active and working so now you can run some simple tests from another linux machine to make sure it's working.
 
-## STEP 12:
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-12.png"/>
 
 **TESTING**
 
@@ -211,7 +239,8 @@ Should respond with: curl: (52) Empty reply from server
 
 The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 
-## STEP 13:
+************************************************
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-13.png"/>
 
 **UPDATING THE NGINX BAD BOT BLOCKER** is now easy thanks to the automatic includes for whitelisting your own domain names.
 
@@ -227,6 +256,7 @@ Updating to the latest version is now as simple as:
 
 And you will be up to date with all your whitelisted domains included automatically for you now. 
 
+************************************************
 # AUTO UPDATING:
 
 See the latest auto updater bash script at:
@@ -237,16 +267,108 @@ With great thanks to Stuart Cardall (https://github.com/itoffshore) for improvin
 
 Relax now and sleep better at night knowing your site is telling all those baddies they are FORBIDDEN !!!
 
+************************************************
+### PULL REQUESTS / CORRECTIONS / FALSE POSITIVES:
 
-### PULL REQUESTS:
+[![Log an Issue](https://img.shields.io/badge/LOG%20-%20an%20issue%20%F0%9F%9A%A6-blue.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/issues) or to contribute your own bad referers, bots or to make corrections to any incorrectly blocked bots or domains please fork a copy of this repository and send pull requests on the <a href="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/tree/master/_generator_lists">individual files located here</a> and then send a pull request (PR).
 
-To contribute your own bad referers, bots or to make corrections to any incorrectly blocked bots or domains please fork a copy of this repository and send pull requests on the individual files located in https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/tree/master/_generator_lists and then send a pull request (PR).
+##### All Additions, Removals and Corrections will all be checked for accuracy before being merged into main blocker.
 
-##### Additions, Removals and Corrections will all be checked for accuracy before being merged into main blocker.
-
-
+************************************************
 ### ISSUES:
 
-Log any issues regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
+[![Log an Issue](https://img.shields.io/badge/LOG%20-%20an%20issue%20%F0%9F%9A%A6-blue.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/issues) regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
 
-### Coding makes me very thirsty [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:
+************************************************
+## CHECK FOR FREE IF YOUR WEB SITE IS COMPROMISED OR BLACKLISTED
+
+<a href="https://www.gravityscan.com/" target="_blank"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/gravity-scan-by-wordfence.png" alt="Check if your web site is blacklisted, hacked or compromised using the awesome Free GravityScan tool"/></a>
+
+************************************************
+# HAS YOUR WEB SITE BEEN HACKED?
+
+[![Contact me for help](https://img.shields.io/badge/Contact%20-%20me%20for%20help%20%F0%9F%9A%91-blue.svg)](mailto:mitchellkrog@gmail.com) to help you clean up and secure your web site. 
+
+************************************************
+### SOME OTHER AWESOME FREE PROJECTS
+
+- https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
+- https://github.com/mitchellkrogza/Badd-Boyz-Hosts
+- https://github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO
+- https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
+- https://github.com/mitchellkrogza/fail2ban-useful-scripts
+- https://github.com/mitchellkrogza/linux-server-administration-scripts
+- https://github.com/mitchellkrogza/Travis-CI-Nginx-for-Testing-Nginx-Configuration
+- https://github.com/mitchellkrogza/Travis-CI-for-Apache-For-Testing-Apache-and-PHP-Configurations
+- https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
+- https://github.com/funilrys/funceble
+
+************************************************
+### ALSO CHECKOUT THE NEW BIG LIST OF HACKED MALWARE & WORDPRESS WEB SITES
+
+This repository contains a list of all web sites I come across that are hacked with malware. 
+Most site owners are unaware their sites have been hacked and are being used to plant malware.
+
+Check it out at: https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
+
+************************************************
+### INTO PHOTOGRAPHY?
+
+Come drop by and visit me at https://mitchellkrog.com or <a href='https://twitter.com/MitchellKrog'><img src='https://img.shields.io/twitter/follow/MitchellKrog.svg?style=social&label=Follow' alt='Follow @MitchellKrog'></a>
+
+************************************************
+### ACKNOWLEDGMENTS & CONTRIBUTORS:
+
+Many Thanks to those contributing to this project.
+
+Many parts of the generator scripts and code running behind this project have been adapted from snippets from hundreds of sources. 
+In fact it is so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. Show them some love and check out some of their projects too.
+
+- Stuart Cardall - https://github.com/itoffshore (Install, Update and Setup Scripts & Alpine Linux Package Maintainer)
+- Nissar Chababy - https://github.com/funilrys/funceble (Excellent script for checking ACTIVE, INACTIVE and EXPIRED Domain Names)
+- Marius Voila https://github.com/mariusv
+- Cătălin Mariș https://github.com/alrra
+- deformhead https://github.com/deformhead
+- bluedragonz https://github.com/bluedragonz
+- Alexander https://github.com/shoonois
+- Steven Black https://github.com/StevenBlack
+- Fail2Ban - https://github.com/fail2ban
+- Stevie-Ray Hartog https://github.com/Stevie-Ray
+- Sir Athos from StackOverFlow - http://stackoverflow.com/users/2245910/sir-athos (help with Travis Build Tagging and Committing)
+- StackOverflow - http://stackoverflow.com/ (bash scripts from hundreds of questions and answers)
+- SuperUser - http://superuser.com/ (snippets from various questions and answers)
+
+If you believe your name should be here, drop me a line.
+
+************************************************
+### Writing Code like this takes lots of time !!
+
+Thousand of hours of programming and testing have gone into this project, show some love
+
+[![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
+
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/zuko.png"/>
+
+************************************************
+# MIT License
+
+## Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
+## https://github.com/mitchellkrogza
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
