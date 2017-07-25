@@ -39,7 +39,7 @@ script:
   - bash .dev-tools/modify-files-and-commit.sh
 
 before_deploy:
-  - bash -x .dev-tools/deploy-package.sh
+  - bash .dev-tools/deploy-package.sh
 
 deploy:
   provider: releases
