@@ -9,21 +9,26 @@ _______________
 #### Bad Bot Count: 499
 ____________________
 
-## If this helps you [![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%20hungry%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
+## Help Support This Project 
 
-##### Created by: https://github.com/mitchellkrogza for use on Nginx Web Server https://www.nginx.com/
-##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
+[![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
 
+************************************************
+- Created by: https://github.com/mitchellkrogza for use on Nginx Web Server https://www.nginx.com/
+- Copyright Mitchell Krog <mitchellkrog@gmail.com>
+
+Not Using Nginx? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img.shields.io/badge/APACHE%20-%20ULTIMATE%20BAD%20BOT%20BLOCKER%20%E2%9B%94-blue.svg)](https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker)
+************************************************
 ### Update Notification System - Stay up to date on New Builds and Major Feature Changes 
 
-It is important to please subscribe your email address to the mailing list at **https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker**
-or simply send a blank email to **nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com** to subscribe.
+It is important to please <a href="https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker">subscribe your email address to the mailing list</a> or <a href="mailto:nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com">simply send a blank email here</a> to subscribe.
+
 Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical (potentially breaking) changes take place.
 
-#### Also follow me on twitter @ubuntu101za for update notifications
+##### Also follow me on twitter @ubuntu101za for update notifications
 
 <a href='https://twitter.com/ubuntu101za'><img src='https://img.shields.io/twitter/follow/ubuntu101za.svg?style=social&label=Follow' alt='Follow @ubuntu101za'></a>
-
+************************************************
 # EASY AUTO CONFIGURATION INSTRUCTIONS FOR THE NGINX BAD BOT BLOCKER
 ## Please follow the instructions below step by step :exclamation:
 
@@ -33,10 +38,10 @@ Please make sure you are subscribed to notifications to be notified when the blo
 
 - For manual installation instructions please see - Please see: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/MANUAL-CONFIGURATION.md
 
-- setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line.
+- setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line. **(See Step 11 of the instructions to show you how use these scripts and non-standard Nginx locations)**
 
 - Run any of the setup, install or update scripts with --help or -h to view options.
-
+************************************************
 ## STEP 1:
 
 Download the install, setup and update scripts to your /usr/sbin/ directory and make the scripts executable
@@ -62,7 +67,7 @@ curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot
 curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -o /usr/sbin/update-ngxblocker
 ```
 
-
+************************************************
 ## STEP 2:
 
 Now run the install-ngxblocker script in DRY-MODE which will show you what changes it will make and what files it will download for you. This is only a DRY-RUN so no changes are being made yet.
@@ -103,6 +108,7 @@ Downloading [FROM]=>  [REPO]/bots.d/custom-bad-referrers.conf   [TO]=>  /etc/ngi
 
 **Run any of the setup, install or update scripts with --help or -h to view options.**
 
+************************************************
 ## STEP 3:
 
 Now run the install script with the -x parameter to download all the necessary files from the repository:
@@ -141,6 +147,7 @@ The required files have now been downloaded to the correct folders on Nginx for 
 
 **Run any of the setup, install or update scripts with --help or -h to view options.**
 
+************************************************
 ## STEP 4:
 
 Now run the setup-ngxblocker script in DRY-MODE which will show you what changes it will make and what files it will download for you. This is only a DRY-RUN so no changes are being made yet.
@@ -179,6 +186,7 @@ Further IP's or IP ranges can be added to your customizable whitelits-ips.conf f
 **Run any of the setup, install or update scripts with --help or -h to view options.**
 
 
+************************************************
 ## STEP 5:
 
 Now run the setup script with the -x parameter to make all the necessary changes to your nginx.conf (if required) and also to add the required includes into all your vhost files. 
@@ -228,7 +236,7 @@ include /etc/nginx/bots.d/blockbots.conf;
 
 **Run any of the setup, install or update scripts with --help or -h to view options.**
 
-
+************************************************
 ## STEP 6:
 
 Now test your nginx configuration
@@ -242,6 +250,7 @@ nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
+************************************************
 ## STEP 7: 
 
 Now simply reload / restart Nginx and the Bot Blocker will immediately be active and protecting all your web sites.
@@ -254,6 +263,7 @@ or
 
 That's it, the blocker is now active and protecting your sites from thousands of malicious bots and domains.
 
+************************************************
 ## STEP 8:
 
 Now setup cron to automatically update the blocker for you every day so you always have the latest up to date protection.
@@ -272,6 +282,7 @@ If you want it to update more frequently (as sometimes I push out 3-4 updates a 
 
 That's it, the blocker will automatically keep itself up to date and also reload Nginx once it has downloaded the latest version of the globalblacklist.conf file.
 
+************************************************
 ## STEP 9:
 
 You can now customize any of the following files below to suit your environment or requirements. These include files never get modified during an update using the auto update script above so whatever customizations you do here will never be overwritten during an update.
@@ -289,11 +300,12 @@ Let's say for some "obscure" reason you actually want to block GoogleBot from ac
 
 All include files are commented for your convenience.
 
-### This project takes a lot of time so why not
+************************************************
+## If This This Project helped you out, help support it 
 
-[![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%20hungry%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
+[![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
 
-
+************************************************
 ## STEP 10: (TEST THAT IT IS WORKING)
 
 **TESTING**
@@ -319,7 +331,23 @@ Should respond with: curl: (52) Empty reply from server
 
 The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 
+************************************************
+## STEP 11: Installing the blocker to non-standard Nginx folder locations.
 
+Some people build Nginx themselves and do not end up having the standard nginx folder locations at `/etc/nginx`
+
+For users like this you can run the install-ngblocker, setup-ngxblocker and update-ngblocker specifying your
+folder location in the command lines as follows.
+
+`sudo ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d`
+
+`sudo ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d`
+
+`sudo ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -e yourname@youremail.com`
+
+This will automatically put the files into the locations you specify, it will do the includes into your vhosts using your custom locations  and when update-ngblocker pulls a new update it will also now automatically re-write the "Include" sections inside the globalblacklist.conf file your own custom locations. Thanks again to Stuart Cardall @itoffshore for his contributions of these excellent scripts.
+
+************************************************
 ### WHY BLOCK BAD BOTS ?
 
 ##### Bad bots are:
@@ -349,12 +377,14 @@ The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 - Includes the creation of a google-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
 - Includes the creation of a google-disavow.txt file for use in Google Webmaster Tools (see instructions lower down)
 - See sample Nginx SSL Vhost config at: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md
+************************************************
+## Help Support This Project 
 
+Thousand of hours of programming and testing have gone into this project, show some love
 
-### If this helps you why not
+[![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
 
-[![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%20hungry%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
-
+************************************************
 ## Welcome to the Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Click-Jacking Blocker, Click-Redirect Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking.
 
 Bots attempt to make themselves look like other software or web sites by disguising their user agent.  Their user agent names may look harmless, perfectly legitimate even. 
@@ -369,37 +399,24 @@ A massive amount of Porn, Gambling and Fake News web sites are also blocked in t
 
 Unfortunately most bot blocker scripts out there are simply copy and pasted from other people's scripts and made  to look like their own work. This one  was inspired by the one created by https://github.com/mariusv and I  contributed to that project but went off into a totally new layout, cleaned it up big time and started from scratch. It is now a completely independent project. It's clean, it works and has been thoroughly tested.
 
+************************************************
 ### THE BASICS
 
 This nginx bad bot bot blocker list is designed to be a global Nginx include file and uses the Nginx map $http_user_agent, map $http_referer and geo $validate_client directives.
 
-This way the .conf file is loaded once into memory by Nginx and is available to all web 
-sites that you operate. You simply need to use an Include statement in an Nginx vhost conf file.
+This way the .conf file is loaded once into memory by Nginx and is available to all web sites that you operate. You simply need to use an Include statement in an Nginx vhost conf file.
 
-My methods uses **no complex regex** other than the Name of the Bot. Nginx case matching will do the rest.  You can use Regex if you like but it's NOT needed and I proved it by testing with the Chrome extension User-Agent Switcher for Chrome. (handy util and a must for everyone to test these kinds of blocking scripts)
-
-- The user agent "Aboundex" is found without using "~*Aboundex" ... which means a case insensitive match and is much simpler for anyone to maintain than other lists using complicated and messy Regex patterns.
-
-- If we have a rule, like "~*Image\ Stripper" and a bot decides to change its User-Agent string to "NOT Image Stripper I Promise" he is picked up regardless and blocked immediately. 
-
-I only capitalise bot names in my list for ease of reading and maintenance, remember its 
-not case-sensitive so will catch any combination like "Bot" "bOt" and "bOT".
-
-For those of you who SUCK with Regex my Nginx Bad Bot Blocker is your saviour !!!
-
+************************************************
 ### IT'S CENTRALISED:
 
-The beauty of this is that it is one central file used by all your web sites.
-This means there is only place to make amendments ie. adding new bots that you
-discover in your log files. Any changes are applied immediately to all sites after
-a simple "sudo service nginx reload". But of course always do a sudo nginx -t to test
-any config changes before you reload.
+The beauty of this is that it is one central file used by all your web sites. This means there is only place to make amendments ie. adding new bots that you discover in your log files. Any changes are applied immediately to all sites after a simple "sudo service nginx reload". But of course always do a sudo nginx -t to test any config changes before you reload.
 
+************************************************
 ### IT IS TINY AND LIGHTWEIGHT
 
-The file is tiny in size. At the time of this writing and the first public commit of this
-the file size including all the commenting "which nginx ignores" currently at **a mere 135 kb in size** and already containing over 4500 bad domains and IP addresses. It is so lightweight that Nginx does not even know it's there. It already contains thousands of entries - total updated at the top of this README. 
+The file is tiny in size. At the time of this writing and the first public commit of this the file size including all the commenting "which nginx ignores" currently at **a mere 185 kb in size** and already containing over 5000 bad domains, bad bots and bad IP addresses. It is so lightweight that Nginx does not even know it's there. It already contains thousands of entries - total updated at the top of this README. 
 
+************************************************
 ### IT IS ACCURATE AND IS FALSE POSITIVE PROOF
 
 Unlike many other bad bot blockers out there for Nginx and Apache where people simply copy and paste lists from others, this list has been built from the ground up and tested thoroughly and I mean thoroughly for now over 10 months. It comes from actual server logs that are monitored daily and there are at least 3-10 new additions to this file almost daily.
@@ -408,26 +425,31 @@ It has also been throughly tested for false positives using months of constant a
 
 All web sites listed in the bad referers are checked one by one before they are even added. Simply copying  anything that look suspicious in your log file and adding it to a blocker like this without actually seeing  what it is first .... well it's foolish to say the least.
 
+************************************************
 ### DROP THEM AND THAT'S IT
 
 Nginx has a lovely error called 444 which just literally drops the connection. All these rules issue a 444 response so if a rule matches, the requesting IP simply get's no response and it would appear that your  server does not exist to them or appears to be offline. 
 
 A test with curl using one of the test command line's documented in the /conf.d/globalblacklist.conf file will give a simple "curl: (52) Empty reply from server" and that's the reply the bad referrers and bots get.
 
+************************************************
 ### RATE LIMITING FUNCTIONALITY BUILT IN
 
 For bot's or spiders that you still want to allow but want to limit their visitation rate, you can use the  built in rate limiting functions I have included. The file is extensively commented throughout so you should figure it out otherwise simply message me if you are having problems. 
 
-### PULL REQUESTS:
+************************************************
+### PULL REQUESTS / CORRECTIONS / FALSE POSITIVES:
 
-To contribute your own bad referers, bots or to make corrections to any incorrectly blocked bots or domains please fork a copy of this repository and send pull requests on the individual files located in https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/tree/master/_generator_lists and then send a pull request (PR).
+[![Log an Issue](https://img.shields.io/badge/LOG%20-%20an%20issue%20%F0%9F%9A%A6-blue.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/issues) or to contribute your own bad referers, bots or to make corrections to any incorrectly blocked bots or domains please fork a copy of this repository and send pull requests on the <a href="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/tree/master/_generator_lists">individual files located here</a> and then send a pull request (PR).
 
-##### Additions, Removals and Corrections will all be checked for accuracy before being merged into main blocker.
+##### All Additions, Removals and Corrections will all be checked for accuracy before being merged into main blocker.
 
+************************************************
 ### ISSUES:
 
-Log any issues regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
+[![Log an Issue](https://img.shields.io/badge/LOG%20-%20an%20issue%20%F0%9F%9A%A6-blue.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/issues) regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
 
+************************************************
 ## FEATURES OF THE NGINX BAD BOT BLOCKER:
 
 - Extensive Lists of Bad and Known Bad Bots and Scrapers (updated almost daily)
@@ -446,6 +468,7 @@ Log any issues regarding incorrect listings or any other problems on the issues 
 - Ability to add other IP ranges and IP blocks that you want to block out.
 - If its out there and it's bad it's already in here and BLOCKED !!
 
+************************************************
 ### UNDERSTANDS PUNYCODE / IDN DOMAIN NAMES
 
 A lot of lists out there put funny domains into their hosts file. Your hosts file and DNS will not understand this. This list uses converted domains which are in the correct DNS format to be understood by any operating system. **Avoid using lists** that do not put the correctly formatted domain structure into their lists.
@@ -481,12 +504,7 @@ xn--lifehacer-1rb.com	nameserver = dns1.yandex.net.
 
 - Look at: https://www.charset.org/punycode for more info on this.
 
-## WARNING:
-
-- Please understand why you are using this before you even use this.
-- Please do not simply copy and paste without understanding what this is doing.
-- Do not become a copy and paste Linux "Guru", learn things properly before you use them and always test everything you do one step at a time.
- 
+************************************************
 ## ALWAYS MONITOR WHAT YOU ARE DOING:
 
 **MAKE SURE to monitor your web site logs** after implementing this. I suggest you first load this into one site and monitor it for any possible false positives before putting this into production on all your web sites.
@@ -497,6 +515,7 @@ Also monitor your logs daily for new bad referers and user-agent strings that yo
  
 Feel free to contribute bad referers from your own logs to this project by sending a Pull Request (PR). You can however rely on this list to keep out 99% of the baddies out there.
  
+************************************************
 ## HOW TO MONITOR YOUR LOGS DAILY (The Easy Way):
 
 **With great thanks and appreciation to**
@@ -517,12 +536,14 @@ This emails you a daily list of referrers using an awk command to exclude domain
 
 This emails you a list of top User-Agents who visited your site in the last 24 hours, helpful for spotting any rogue or suspicious looking User-Agents strings.
 
+************************************************
 ## BLOCK AGGRESSIVE BOTS AT FIREWALL LEVEL USING FAIL2BAN:
 
 I have added a custom Fail2Ban filter and action that I have written which monitors your Nginx logs for bots that generate a large number of 444 errors. This custom jail for Fail2Ban will scan logs over a 1 week period and ban the offender for 24 hours.
 It helps a great deal in keeping out some repeat offenders and preventing them from filling up your log files with 444 errors.
 See the Fail2Ban folder for instructions on configuring this great add on for the Nginx Bad Bot Blocker.
 
+************************************************
 ## STOPPING GOOGLE ANALYTICS "GHOST" SPAM:
 
 Simply using the Nginx blocker does not stop Google Analytics ghost referral spam because they are hitting Analytics directly and not always necessarily touching your website. 
@@ -531,7 +552,8 @@ You should use regex filters in Analytics to prevent ghost referral spam.
 
 For this there are several google-exclude-0*.txt files which have been created for you and they are updated at the same time when the Nginx Blocker is updated. As the list grows there will be more exclude files created.
 
-## To stop Ghost Spam on On Analytics
+************************************************
+## TO STOP "GHOST" SPAM ON GOOGLE ANALYTICS FOLLOW THE SIMPLE VISUAL GUIDE BELOW
 
 Follow the step by step visual instructions below to add these google-exclude files as segments to your web site.
 
@@ -559,24 +581,102 @@ Follow the step by step visual instructions below to add these google-exclude fi
   </tr>
 </table>
 
-## Blocking Spam Domains Using Google Webmaster Tools (How to use google-disavow.txt file)
+************************************************
+## BLOCKING SPAM DOMAINS USING GOOGLE SEARCH CONSOLE / WEBMASTER TOOLS 
+(How to use the google-disavow.txt file)
 
 I have added the creation of a Google Disavow text file called google-disavow.txt. This file can be used in Google's Webmaster Tools to block all these domains out as spammy or bad links. Use with caution.
 
-## Blocking Bad Bots and User-Agents Strings for those who cannot use this full blocker?
+************************************************
+## ROBOTS.txt VERSION for those who cannot use this full blocker?
 
 Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. If this is your situation check out the automatically generated robots.txt file which will help you to some degree to keep a lot of Bad Bots and User-Agents out of your sites.
 
-## Blocking Spam Referrers Strings for those who cannot use this full blocker?
+************************************************
+## .htaccess VERSIONS for those who cannot use this full blocker?
 
-Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. If this is your situation check out the automatically generated .htaccess versions of the Spam Referrer Blocker which can be found in this repository https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker/tree/master/.htaccess this .htaccess method (FOR APACHE SITES ONLY) will help you to keep all the Spam Referrers in this blocker out of your site. This is mentioned here as a lot of people using CPanel systems think they are sitting behind an Nginx server but in reality are actually running on an Apache Server sitting behind an Nginx Proxy Server. .htaccess does not work on Nginx sites.
+Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. 
 
+If this is your situation check out the automatically generated .htaccess versions of the Spam Referrer Blocker which can be found in <a href="https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker/tree/master/.htaccess">this repository</a> this .htaccess method (FOR APACHE SITES ONLY) will help you to keep all the Spam Referrers in this blocker out of your site. 
+
+This is merely mentioned here as a lot of people using CPanel systems think they are sitting behind an Nginx server but in reality are actually running on an Apache Server sitting behind an Nginx Proxy Server. .htaccess does not work on Nginx sites.
+
+Not Using Nginx Web Server? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img.shields.io/badge/APACHE%20-%20ULTIMATE%20BAD%20BOT%20BLOCKER%20%E2%9B%94-blue.svg)](https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker)
+
+************************************************
 # IT FORKING WORKS !!!
-
+************************************************
 ## Just Enjoy now what the Nginx Bad Bot Blocker Can Do For You and Your Web Sites.
+### And Help Support This Project 
 
-[![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%20hungry%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
+Thousand of hours of programming and testing have gone into this project, show some love
 
+[![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
+
+************************************************
+## CHECK FOR FREE IF YOUR WEB SITE IS COMPROMISED OR BLACKLISTED
+
+Visit - https://www.gravityscan.com/
+
+************************************************
+### SOME OTHER AWESOME FREE PROJECTS
+
+- https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
+- https://github.com/mitchellkrogza/Badd-Boyz-Hosts
+- https://github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO
+- https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
+- https://github.com/mitchellkrogza/fail2ban-useful-scripts
+- https://github.com/mitchellkrogza/linux-server-administration-scripts
+- https://github.com/mitchellkrogza/Travis-CI-Nginx-for-Testing-Nginx-Configuration
+- https://github.com/mitchellkrogza/Travis-CI-for-Apache-For-Testing-Apache-and-PHP-Configurations
+- https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
+- https://github.com/funilrys/funceble
+
+************************************************
+### ALSO CHECKOUT THE NEW BIG LIST OF HACKED MALWARE & WORDPRESS WEB SITES
+
+This repository contains a list of all web sites I come across that are hacked with malware. 
+Most site owners are unaware their sites have been hacked and are being used to plant malware.
+
+Check it out at: https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
+
+************************************************
+### INTO PHOTOGRAPHY?
+
+Come drop by and visit me at https://mitchellkrog.com or <a href='https://twitter.com/MitchellKrog'><img src='https://img.shields.io/twitter/follow/MitchellKrog.svg?style=social&label=Follow' alt='Follow @MitchellKrog'></a>
+
+************************************************
+### ACKNOWLEDGMENTS & CONTRIBUTORS:
+
+Many Thanks to those contributing to this project.
+
+Many parts of the generator scripts and code running behind this project have been adapted from snippets from hundreds of sources. 
+In fact it is so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. Show them some love and check out some of their projects too.
+
+- Stuart Cardall - https://github.com/itoffshore (Install, Update and Setup Scripts & Alpine Linux Package Maintainer)
+- Nissar Chababy - https://github.com/funilrys/funceble (Excellent script for checking ACTIVE, INACTIVE and EXPIRED Domain Names)
+- Marius Voila https://github.com/mariusv
+- Cătălin Mariș https://github.com/alrra
+- deformhead https://github.com/deformhead
+- bluedragonz https://github.com/bluedragonz
+- Alexander https://github.com/shoonois
+- Steven Black https://github.com/StevenBlack
+- Fail2Ban - https://github.com/fail2ban
+- Stevie-Ray Hartog https://github.com/Stevie-Ray
+- Sir Athos from StackOverFlow - http://stackoverflow.com/users/2245910/sir-athos (help with Travis Build Tagging and Committing)
+- StackOverflow - http://stackoverflow.com/ (bash scripts from hundreds of questions and answers)
+- SuperUser - http://superuser.com/ (snippets from various questions and answers)
+
+If you believe your name should be here, drop me a line.
+
+************************************************
+### Writing Code like this takes lots of time !!
+
+Thousand of hours of programming and testing have gone into this project, show some love
+
+[![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
+
+************************************************
 # MIT License
 
 ## Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
@@ -599,53 +699,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-### Some other awesome free projects
-
-- https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
-- https://github.com/mitchellkrogza/Badd-Boyz-Hosts
-- https://github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO
-- https://github.com/mitchellkrogza/fail2ban-useful-scripts
-- https://github.com/mitchellkrogza/linux-server-administration-scripts
-- https://github.com/mitchellkrogza/Travis-CI-Nginx-for-Testing-Nginx-Configuration
-- https://github.com/mitchellkrogza/Travis-CI-for-Apache-For-Testing-Apache-and-PHP-Configurations
-- https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
-- https://github.com/funilrys/funceble
-
-### Also Checkout The Big List of Hacked Malware Web Sites
-
-This repository contains a list of all web sites I come across that are hacked with malware. 
-Most site owners are unaware their sites have been hacked and are being used to plant malware.
-
-Check it out at: https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
-
-### Into Photography?
-
-Come drop by and visit me at https://mitchellkrog.com or <a href='https://twitter.com/MitchellKrog'><img src='https://img.shields.io/twitter/follow/MitchellKrog.svg?style=social&label=Follow' alt='Follow @MitchellKrog'></a>
-
-### Acknowledgements & Contributors:
-
-Many Thanks to those contributing to this project.
-Many parts of the generator scripts and code running behind this project have been adapted from snippets from hundreds of sources. 
-In fact it is so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. 
-Show them some love and check out some of their projects too.
-
-- Stuart Cardall - https://github.com/itoffshore (Install, Update and Setup Scripts & Alpine Linux Package Maintainer)
-- Nissar Chababy - https://github.com/funilrys/funceble (Excellent script for checking ACTIVE, INACTIVE and EXPIRED Domain Names)
-- Marius Voila https://github.com/mariusv
-- Cătălin Mariș https://github.com/alrra
-- deformhead https://github.com/deformhead
-- bluedragonz https://github.com/bluedragonz
-- Alexander https://github.com/shoonois
-- Steven Black https://github.com/StevenBlack
-- Fail2Ban - https://github.com/fail2ban
-- Stevie-Ray Hartog https://github.com/Stevie-Ray
-- Sir Athos from StackOverFlow - http://stackoverflow.com/users/2245910/sir-athos (help with Travis Build Tagging and Committing)
-- StackOverflow - http://stackoverflow.com/ (bash scripts from hundreds of questions and answers)
-- SuperUser - http://superuser.com/ (snippets from various questions and answers)
-
-If you believe your name should be here, drop me a line.
-
-### Writing Code like this takes lots of time !!
-
-[![Buy me a mug of beer](https://img.shields.io/badge/Buy%20-me%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-me%20feed%20my%20hungry%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
