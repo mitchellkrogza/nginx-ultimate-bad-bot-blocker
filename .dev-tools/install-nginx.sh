@@ -129,6 +129,13 @@ sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests2.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-2.sh
 
+# ************************************************************
+# Copy all .conf files used in Test 1 to a folder for checking
+# ************************************************************
+
+cp /etc/nginx/bots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test1/bots.d/
+cp /etc/nginx/conf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test1/conf.d/
+
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml
 # *****************************************************************************************

@@ -86,14 +86,14 @@ sudo mkdir /usr/local/nginx/bots.d
 # **********************
 
 cd /usr/sbin
-sudo ./install-ngxblocker -x -b /usr/local/bots.d -c /usr/local/nginx/conf.d
+sudo ./install-ngxblocker -x -b /usr/local/nginx/bots.d -c /usr/local/nginx/conf.d
 
 # ********************
 # Run setup-ngxblocker
 # ********************
 
 cd /usr/sbin
-sudo ./setup-ngxblocker -x -b /usr/local/bots.d -c /usr/local/nginx/conf.d
+sudo ./setup-ngxblocker -x -b /usr/local/nginx/bots.d -c /usr/local/nginx/conf.d
 
 # ************************
 # Load our Nginx.conf file
@@ -106,13 +106,21 @@ sudo nginx -c /etc/nginx/nginx.conf
 # ****************************************************************************************
 
 cd /usr/sbin
-sudo ./update-ngxblocker -b /usr/local/bots.d -e mitchellkrog@gmail.com
+sudo ./update-ngxblocker -b /usr/local/nginx/bots.d -e mitchellkrog@gmail.com
 
 # *********************
 # Force reload of Nginx
 # *********************
 
 sudo service nginx reload
+
+# ************************************************************
+# Copy all .conf files used in Test 2 to a folder for checking
+# ************************************************************
+
+cp /usr/local/nginx/bots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test2/bots.d/
+cp /usr/local/nginx/conf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test2/conf.d/
+
 
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml
