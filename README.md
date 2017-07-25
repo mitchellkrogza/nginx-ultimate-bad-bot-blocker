@@ -616,7 +616,12 @@ Thousand of hours of programming and testing have gone into this project, show s
 ************************************************
 ## CHECK FOR FREE IF YOUR WEB SITE IS COMPROMISED OR BLACKLISTED
 
-Visit - https://www.gravityscan.com/
+<a href="https://www.gravityscan.com/" target="_blank"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/gravity-scan-by-wordfence.png" alt="Check if your web site is blacklisted, hacked or compromised using the awesome Free GravityScan tool"/></a>
+
+************************************************
+# HAS YOUR WEB SITE BEEN HACKED?
+
+[![Contact me for help](https://img.shields.io/badge/Contact%20-%20me%20for%20help%20%F0%9F%9A%91-blue.svg)](mailto:mitchellkrog@gmail.com) to help you clean up and secure your web site. 
 
 ************************************************
 ### SOME OTHER AWESOME FREE PROJECTS
