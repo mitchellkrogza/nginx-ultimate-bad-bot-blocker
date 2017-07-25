@@ -272,15 +272,15 @@ Now setup cron to automatically update the blocker for you every day so you alwa
 
 `sudo crontab -e`
 
-Add the following line at the end of your crontab file
+Add the following line at the end of your crontab file. Note adding the `-e` command line parameter to specify your email address where the update report is sent to. Obviously substitute `yourname@youremail.com` with your real email address or you will not receive the email when the script has updated.
 
-`00 22 * * * sudo /usr/sbin/update-ngxblocker` 
+`00 22 * * * sudo /usr/sbin/update-ngxblocker -e yourname@youremail.com` 
 
 This will update the blocker every night for you at 10 PM.
 
 If you want it to update more frequently (as sometimes I push out 3-4 updates a day) you can set it as follows to run the cron every 8 hours, although just once a day is more than enough.
 
-`00 */8 * * * sudo /usr/sbin/update-ngxblocker`       
+`00 */8 * * * sudo /usr/sbin/update-ngxblocker -e yourname@youremail.com`       
 
 That's it, the blocker will automatically keep itself up to date and also reload Nginx once it has downloaded the latest version of the globalblacklist.conf file.
 
