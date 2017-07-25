@@ -338,7 +338,8 @@ The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-11.png"/>
 
-Installing the blocker to non-standard Nginx folder locations.
+#### OPTIONAL
+**INSTALLING THE BLOCKER TO NON-STANDARD NGINX FOLDER LOCATIONS**
 
 Some people build Nginx themselves and do not end up having the standard nginx folder locations at `/etc/nginx`
 
