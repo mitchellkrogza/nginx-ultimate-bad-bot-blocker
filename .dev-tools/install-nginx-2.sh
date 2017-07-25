@@ -1,5 +1,5 @@
 #!/bin/bash
-# Travis CI Generating and Building for the Nginx Ultimate Bad Bot Blocker
+# Travis CI Generating and Building for the Nginx Ultimate Bad Bot Blocker (using non standard folder locations)
 # Created by: Mitchell Krog (mitchellkrog@gmail.com)
 # Copyright: Mitchell Krog - https://github.com/mitchellkrogza
 # Repo Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
@@ -73,25 +73,27 @@ sudo chmod +x /usr/sbin/install-ngxblocker
 sudo chmod +x /usr/sbin/setup-ngxblocker
 sudo chmod +x /usr/sbin/update-ngxblocker
 
+# *************************************************************************
+# Let's create a folder for the bots.d and conf.d not using Nginx standards
+# *************************************************************************
+
+sudo mkdir /usr/local/nginx
+sudo mkdir /usr/local/nginx/conf.d
+sudo mkdir /usr/local/nginx/bots.d
+
 # **********************
 # Run Install-NgxBlocker
 # **********************
 
 cd /usr/sbin
-sudo ./install-ngxblocker -x
+sudo ./install-ngxblocker -x -b /usr/local/bots.d -c /usr/local/nginx/conf.d
 
 # ********************
 # Run setup-ngxblocker
 # ********************
 
 cd /usr/sbin
-sudo ./setup-ngxblocker -x
-
-# ******************************************************************************************************
-# NOTE: for Verbose Testing of any shell scripts use below format adding sh -x before running the script
-# this helps a lot inside the TravisCI environment to see where a shell script may be failing 
-# sudo sh -x ./setup-ngxblocker -x
-# *******************************************************************************************************
+sudo ./setup-ngxblocker -x -b /usr/local/bots.d -c /usr/local/nginx/conf.d
 
 # ************************
 # Load our Nginx.conf file
@@ -104,30 +106,13 @@ sudo nginx -c /etc/nginx/nginx.conf
 # ****************************************************************************************
 
 cd /usr/sbin
-sudo ./update-ngxblocker -e mitchellkrog@gmail.com
+sudo ./update-ngxblocker -b /usr/local/bots.d -e mitchellkrog@gmail.com
 
 # *********************
 # Force reload of Nginx
 # *********************
 
 sudo service nginx reload
-
-# ***********************************************************
-# Set all our other setup and deploy scripts to be executable
-# ***********************************************************
-
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/deploy-package.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-blacklist.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-google-exclude.php
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-regex-format-referrers.php
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-files-and-commit.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests2.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-2.sh
 
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml
