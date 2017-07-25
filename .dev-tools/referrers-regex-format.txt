@@ -5,6 +5,7 @@
 "~*00it\.com" 	1;
 "~*00webcams\.com" 	1;
 "~*01apple\.com" 	1;
+"~*03e\.info" 	1;
 "~*0912701309f8ce\.com" 	1;
 "~*0c47f8422d3f\.com" 	1;
 "~*0daymusic\.org" 	1;
@@ -318,6 +319,7 @@
 "~*alpinism\.ru" 	1;
 "~*altamayoztourism\.com" 	1;
 "~*alta\-realestate\.com" 	1;
+"~*alt\-servis\.ru" 	1;
 "~*alveris\.ru" 	1;
 "~*alyeskaresort\.com" 	1;
 "~*am15\.net" 	1;
@@ -337,6 +339,7 @@
 "~*amt\-k\.ru" 	1;
 "~*amung\.us" 	1;
 "~*amyfoxfitness\.com" 	1;
+"~*anabolics\.shop" 	1;
 "~*anaksma\.info" 	1;
 "~*anal\-acrobats\.com" 	1;
 "~*anal\-acrobats\.hol\.es" 	1;
@@ -943,6 +946,7 @@
 "~*cashkitten\-a\.akamaihd\.net" 	1;
 "~*cashonads\.com" 	1;
 "~*casinorewards\.info" 	1;
+"~*casinos4dummies\.co\.uk" 	1;
 "~*casite\-513049\.cloudaccess\.net" 	1;
 "~*castingbank\.ru" 	1;
 "~*catalogs\-parts\.com" 	1;
@@ -1244,6 +1248,7 @@
 "~*cyprusbuyproperties\.com" 	1;
 "~*cyse\.tk" 	1;
 "~*czat\.wp\.pl" 	1;
+"~*d0t\.ru" 	1;
 "~*dailyfinancefix\.com" 	1;
 "~*dailyrank\.net" 	1;
 "~*dailystrength\.org" 	1;
@@ -1505,6 +1510,7 @@
 "~*elektrischezigarettekaufen2\.cowblog\.fr" 	1;
 "~*elektrischezigaretten1\.blogse\.nl" 	1;
 "~*elektrischezigaretten2\.beeplog\.com" 	1;
+"~*elektroniksigaraankara\.info" 	1;
 "~*elektronischezigarette2\.mex\.tl" 	1;
 "~*elektronischezigarettekaufen1\.beeplog\.com" 	1;
 "~*elektronischezigarettekaufen1\.myblog\.de" 	1;
@@ -2306,6 +2312,7 @@
 "~*imabase\.com" 	1;
 "~*imadedinner\.net" 	1;
 "~*imagecoolpub\.com" 	1;
+"~*imagefinder\.site" 	1;
 "~*imagerydatabase\.com" 	1;
 "~*images\-graphics\-pics\.com" 	1;
 "~*images\.gyffu\.com" 	1;
@@ -2997,6 +3004,7 @@
 "~*moetomnenie\.com" 	1;
 "~*moi\-glazki\.ru" 	1;
 "~*moivestiy\.biz" 	1;
+"~*mojaocena\.com" 	1;
 "~*mojowhois\.com" 	1;
 "~*mojpregled\.com" 	1;
 "~*mokrayakiska\.com" 	1;
@@ -3283,6 +3291,7 @@
 "~*ok\-ua\.info" 	1;
 "~*old\-rock\.com" 	1;
 "~*olgacvetmet\.com" 	1;
+"~*o\.light\.d0t\.ru" 	1;
 "~*olvanto\.ru" 	1;
 "~*olympescort\.com" 	1;
 "~*omoikiri\-japan\.ru" 	1;
@@ -3523,6 +3532,7 @@
 "~*pliks\.pl" 	1;
 "~*ploenjitmedia\.azurewebsites\.net" 	1;
 "~*plohaya\-kreditnaya\-istoriya\.ru" 	1;
+"~*pl\-top\.pl" 	1;
 "~*plusnetwork\.com" 	1;
 "~*pl\-vouchers\.com" 	1;
 "~*pobeiranie\.pl" 	1;
@@ -3833,6 +3843,7 @@
 "~*renecaovillasale\.online" 	1;
 "~*renewablewealth\.com" 	1;
 "~*rennlist\.com" 	1;
+"~*rentaremotecomputer\.com" 	1;
 "~*rentehno\.ru" 	1;
 "~*repeatlogo\.co\.uk" 	1;
 "~*replicaclub\.ru" 	1;

@@ -5,6 +5,7 @@ domain:00go.com
 domain:00it.com
 domain:00webcams.com
 domain:01apple.com
+domain:03e.info
 domain:0912701309f8ce.com
 domain:0c47f8422d3f.com
 domain:0daymusic.org
@@ -317,6 +318,7 @@ domain:alphahoverboards.com
 domain:alpharma.net
 domain:alphavisions.net
 domain:alpinism.ru
+domain:alt-servis.ru
 domain:alta-realestate.com
 domain:altamayoztourism.com
 domain:alveris.ru
@@ -339,6 +341,7 @@ domain:amt-k.ru
 domain:amung.us
 domain:amyfoxfitness.com
 domain:an-donut.com
+domain:anabolics.shop
 domain:anaksma.info
 domain:anal-acrobats.com
 domain:anal-acrobats.hol.es
@@ -945,6 +948,7 @@ domain:casablancamanor.co.za
 domain:cashkitten-a.akamaihd.net
 domain:cashonads.com
 domain:casinorewards.info
+domain:casinos4dummies.co.uk
 domain:casite-513049.cloudaccess.net
 domain:castingbank.ru
 domain:catalogs-parts.com
@@ -1244,6 +1248,7 @@ domain:cypernhuset.se
 domain:cyprusbuyproperties.com
 domain:cyse.tk
 domain:czat.wp.pl
+domain:d0t.ru
 domain:dailyfinancefix.com
 domain:dailyrank.net
 domain:dailystrength.org
@@ -1507,6 +1512,7 @@ domain:elektrischezigarette2.onsugar.com
 domain:elektrischezigarettekaufen2.cowblog.fr
 domain:elektrischezigaretten1.blogse.nl
 domain:elektrischezigaretten2.beeplog.com
+domain:elektroniksigaraankara.info
 domain:elektronischezi.livejournal.com
 domain:elektronischezigarette2.mex.tl
 domain:elektronischezigarettekaufen1.beeplog.com
@@ -2308,6 +2314,7 @@ domain:ilte.info
 domain:imabase.com
 domain:imadedinner.net
 domain:imagecoolpub.com
+domain:imagefinder.site
 domain:imagerydatabase.com
 domain:images-graphics-pics.com
 domain:images.gyffu.com
@@ -2997,6 +3004,7 @@ domain:moesonce.com
 domain:moetomnenie.com
 domain:moi-glazki.ru
 domain:moivestiy.biz
+domain:mojaocena.com
 domain:mojowhois.com
 domain:mojpregled.com
 domain:mokrayakiska.com
@@ -3254,6 +3262,7 @@ domain:o-o-6-o-o.com
 domain:o-o-6-o-o.ru
 domain:o-o-8-o-o.com
 domain:o-o-8-o-o.ru
+domain:o.light.d0t.ru
 domain:o00.in
 domain:o333o.com
 domain:oakleyglassesonline.us
@@ -3506,6 +3515,7 @@ domain:pizza-tycoon.com
 domain:pk-pomosch.ru
 domain:pk-services.ru
 domain:pkr1hand.com
+domain:pl-top.pl
 domain:pl-vouchers.com
 domain:pladform.ru
 domain:plaff-go.ru
@@ -3833,6 +3843,7 @@ domain:renecaovilla.online
 domain:renecaovillasale.online
 domain:renewablewealth.com
 domain:rennlist.com
+domain:rentaremotecomputer.com
 domain:rentehno.ru
 domain:repeatlogo.co.uk
 domain:replica-watch.ru
