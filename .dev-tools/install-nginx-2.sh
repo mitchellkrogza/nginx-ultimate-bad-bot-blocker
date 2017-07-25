@@ -86,14 +86,14 @@ sudo mkdir /usr/local/nginx/bots.d
 # **********************
 
 cd /usr/sbin
-sudo ./install-ngxblocker -x -b /usr/local/nginx/bots.d -c /usr/local/nginx/conf.d
+sudo ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
 
 # ********************
 # Run setup-ngxblocker
 # ********************
 
 cd /usr/sbin
-sudo ./setup-ngxblocker -x -b /usr/local/nginx/bots.d -c /usr/local/nginx/conf.d
+sudo ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
 
 # ************************
 # Load our Nginx.conf file
@@ -108,9 +108,9 @@ sudo nginx -c /etc/nginx/nginx.conf
 cd /usr/sbin
 
 # First delete the globalblacklist.conf file so that the update actually pulls a new file
-sudo rm /usr/local/nginx/conf.d/globalblacklist.conf
+#sudo rm /usr/local/nginx/conf.d/globalblacklist.conf
 
-sudo ./update-ngxblocker -b /usr/local/nginx/bots.d -c /usr/local/nginx/conf.d -e mitchellkrog@gmail.com
+sudo ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -e mitchellkrog@gmail.com
 
 # *********************
 # Force reload of Nginx
