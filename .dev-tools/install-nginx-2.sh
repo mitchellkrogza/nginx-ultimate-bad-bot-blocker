@@ -101,15 +101,13 @@ sudo ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
 
 sudo nginx -c /etc/nginx/nginx.conf
 
-# ****************************************************************************************
+# ******************************************************************************************
 # Run update-ngxblocker test which downloads latest globalblacklist.conf and reloads Nginx
-# ****************************************************************************************
+# This second test forces update-ngxblocker to re-write the Include location to non standard
+# location of /usr/local/nginx/bots.d
+# ******************************************************************************************
 
 cd /usr/sbin
-
-# First delete the globalblacklist.conf file so that the update actually pulls a new file
-#sudo rm /usr/local/nginx/conf.d/globalblacklist.conf
-
 sudo ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -e mitchellkrog@gmail.com
 
 # *********************
