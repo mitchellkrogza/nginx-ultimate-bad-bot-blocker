@@ -42,7 +42,7 @@ Please make sure you are subscribed to notifications to be notified when the blo
 
 - Run any of the setup, install or update scripts with --help or -h to view options.
 ************************************************
-## STEP 1:
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-1.png"/>
 
 Download the install, setup and update scripts to your /usr/sbin/ directory and make the scripts executable
 
@@ -68,7 +68,7 @@ curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot
 ```
 
 ************************************************
-## STEP 2:
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-2.png"/>
 
 Now run the install-ngxblocker script in DRY-MODE which will show you what changes it will make and what files it will download for you. This is only a DRY-RUN so no changes are being made yet.
 
@@ -109,7 +109,7 @@ Downloading [FROM]=>  [REPO]/bots.d/custom-bad-referrers.conf   [TO]=>  /etc/ngi
 **Run any of the setup, install or update scripts with --help or -h to view options.**
 
 ************************************************
-## STEP 3:
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-3.png"/>
 
 Now run the install script with the -x parameter to download all the necessary files from the repository:
 
@@ -148,7 +148,7 @@ The required files have now been downloaded to the correct folders on Nginx for 
 **Run any of the setup, install or update scripts with --help or -h to view options.**
 
 ************************************************
-## STEP 4:
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-4.png"/>
 
 Now run the setup-ngxblocker script in DRY-MODE which will show you what changes it will make and what files it will download for you. This is only a DRY-RUN so no changes are being made yet.
 
@@ -187,7 +187,7 @@ Further IP's or IP ranges can be added to your customizable whitelits-ips.conf f
 
 
 ************************************************
-## STEP 5:
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-5.png"/>
 
 Now run the setup script with the -x parameter to make all the necessary changes to your nginx.conf (if required) and also to add the required includes into all your vhost files. 
 
@@ -237,7 +237,7 @@ include /etc/nginx/bots.d/blockbots.conf;
 **Run any of the setup, install or update scripts with --help or -h to view options.**
 
 ************************************************
-## STEP 6:
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-6.png"/>
 
 Now test your nginx configuration
 
@@ -251,7 +251,7 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
 ************************************************
-## STEP 7: 
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-7.png"/>
 
 Now simply reload / restart Nginx and the Bot Blocker will immediately be active and protecting all your web sites.
 
@@ -264,7 +264,7 @@ or
 That's it, the blocker is now active and protecting your sites from thousands of malicious bots and domains.
 
 ************************************************
-## STEP 8:
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-8.png"/>
 
 Now setup cron to automatically update the blocker for you every day so you always have the latest up to date protection.
 
@@ -283,7 +283,7 @@ If you want it to update more frequently (as sometimes I push out 3-4 updates a 
 That's it, the blocker will automatically keep itself up to date and also reload Nginx once it has downloaded the latest version of the globalblacklist.conf file.
 
 ************************************************
-## STEP 9:
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-9.png"/>
 
 You can now customize any of the following files below to suit your environment or requirements. These include files never get modified during an update using the auto update script above so whatever customizations you do here will never be overwritten during an update.
 
@@ -306,7 +306,9 @@ All include files are commented for your convenience.
 [![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
 
 ************************************************
-## STEP 10: (TEST THAT IT IS WORKING)
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-10.png"/>
+
+(TEST THAT IT IS WORKING)
 
 **TESTING**
 
@@ -332,7 +334,9 @@ Should respond with: curl: (52) Empty reply from server
 The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 
 ************************************************
-## STEP 11: Installing the blocker to non-standard Nginx folder locations.
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-11.png"/>
+
+Installing the blocker to non-standard Nginx folder locations.
 
 Some people build Nginx themselves and do not end up having the standard nginx folder locations at `/etc/nginx`
 
