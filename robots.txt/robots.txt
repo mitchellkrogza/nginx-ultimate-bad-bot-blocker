@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.07.770
-### Updated: Tue Jul 25 17:22:34 SAST 2017
-### Bad Bot Count: 499
+### Version: V3.2017.07.771
+### Updated: Wed Jul 26 11:37:51 SAST 2017
+### Bad Bot Count: 501
 ###################################################
 ### Version Information ##
 
@@ -154,6 +154,8 @@ Disallow:/
 User-agent: Craftbot
 Disallow:/
 User-agent: CrazyWebCrawler
+Disallow:/
+User-agent: CRAZYWEBCRAWLER
 Disallow:/
 User-agent: Crescent
 Disallow:/
@@ -346,6 +348,8 @@ Disallow:/
 User-agent: InfoNaviRobot
 Disallow:/
 User-agent: InfoTekies
+Disallow:/
+User-agent: instabid
 Disallow:/
 User-agent: Intelliseek
 Disallow:/

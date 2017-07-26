@@ -355,6 +355,7 @@ domain:android4fun.org
 domain:androids-store.com
 domain:angigreene.com
 domain:angkortours.vn
+domain:angry-fermi-7633.arukascloud.io
 domain:animal-drawings.com
 domain:animal36.com
 domain:animali.deagostinipassion.it
@@ -612,6 +613,7 @@ domain:bazaronline24.ru
 domain:bbtec.net
 domain:bcmp.org
 domain:bdsmgalls.net
+domain:beachdriveblog.com
 domain:beachpics.com
 domain:beauby.ru
 domain:beauty-b0x.pl
@@ -1034,6 +1036,7 @@ domain:christianlouboutinsaleoutletonline.us
 domain:christianlouboutinshoes.xyz
 domain:chuckguilford.com
 domain:ci.ua
+domain:cialis-samples.com
 domain:cialisovercounteratwalmartusa.com
 domain:cialiswithoutadoctor.net
 domain:cibpenonptib.flu.cc
@@ -1542,6 +1545,7 @@ domain:elvenar.com
 domain:emailaccountlogin.co
 domain:embedle.com
 domain:emediate.eu
+domain:emergencyneeds.org
 domain:emerson-rus.ru
 domain:empathica.com
 domain:empirepoker.com
@@ -2054,6 +2058,7 @@ domain:gorabagrata.ru
 domain:goroda-vsego-mira.ru
 domain:gorodservis.ru
 domain:gosarhivrt.ru
+domain:gosmeb.ru
 domain:gosreg.amchs.ru
 domain:gotomontenegro.net
 domain:gotorussia.com
@@ -2357,6 +2362,7 @@ domain:inome.com.ua
 domain:insider.pro
 domain:insomniagamingfestival.com
 domain:insta-add.pro
+domain:instabid.tech
 domain:insurple.com
 domain:int.search.mywebsearch.com
 domain:int.search.tb.ask.com
@@ -2534,6 +2540,7 @@ domain:kiev.ua
 domain:kihi.gdn
 domain:kiinomaniak.pl
 domain:kimcurlrvsms.com
+domain:kino-ecran.ru
 domain:kino-filmi.com
 domain:kino-fun.ru
 domain:kino-key.info
@@ -2717,6 +2724,7 @@ domain:linkrr.com
 domain:linksharingt.com
 domain:linkwithin.com
 domain:liquimondo.com
+domain:liran-locks.com
 domain:lirunet.ru
 domain:lisque.batcave.net
 domain:littleberry.ru
@@ -3030,6 +3038,7 @@ domain:moneytop.ru
 domain:moneyviking-a.akamaihd.net
 domain:monitorwebsitespeed.com
 domain:monthlywinners.com
+domain:montredemarque.nl
 domain:moomi-daeri.com
 domain:more-letom.ru
 domain:morefastermac.trade
@@ -4069,6 +4078,7 @@ domain:semaltmedia.com
 domain:semp.net
 domain:semprofile.com
 domain:semrush.com
+domain:sendearnings.com
 domain:senger.atspace.co.uk
 domain:seo-2-0.com
 domain:seo-platform.com
@@ -4579,6 +4589,7 @@ domain:timeallnews.ru
 domain:timecrimea.ru
 domain:timer4web.com
 domain:timetorelax.biz
+domain:timhost.ru
 domain:titelhelden.eu
 domain:titslove.yopoint.in
 domain:tizanidine4mg.blogspot.com
@@ -4793,6 +4804,7 @@ domain:uamtrk.com
 domain:uasb.ru
 domain:ublaze.ru
 domain:uchebavchehii.ru
+domain:uchetunet.su
 domain:uchil.net
 domain:ucoz.ru
 domain:ucsol.ru
@@ -5323,6 +5335,7 @@ domain:youbloodyripper.com
 domain:youbrainboost.asia
 domain:youdao.com
 domain:youdesigner.kz
+domain:yougame.biz
 domain:yougetsignal.com
 domain:youghbould.wordpress.com
 domain:yougotanewdomain.com

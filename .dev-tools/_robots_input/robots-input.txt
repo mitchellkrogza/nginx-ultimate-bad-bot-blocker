@@ -71,6 +71,7 @@ Copyscape
 Cosmos
 Craftbot
 CrazyWebCrawler
+CRAZYWEBCRAWLER
 Crescent
 CSHttp
 Curious
@@ -167,6 +168,7 @@ Image Sucker
 Indy Library
 InfoNaviRobot
 InfoTekies
+instabid
 Intelliseek
 InterGET
 Internet Ninja
