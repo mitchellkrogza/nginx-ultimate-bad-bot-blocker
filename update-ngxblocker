@@ -224,7 +224,7 @@ check_depends() {
 		exit 1
 	fi
 
-	# install-ngxblocker downloads updated scripts / missing includes as part of the update process
+	# install-ngxblocker downloads missing scripts / includes as part of the update process
 	if [ ! -x $INSTALLER ]; then
 		printf "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}\n"
 		exit 1
