@@ -260,7 +260,7 @@ main() {
 
 	# by default do not change any files
 	if [ -z "$DRY_RUN" ]; then
-		printf "\n** Dry Run ** | -x or --exec to download files\n\n"
+		printf "\n** Dry Run ** | not updating files | run  as '$(basename $0) -x' to install files.\n\n"
 	else
 		printf "\n"
 	fi
