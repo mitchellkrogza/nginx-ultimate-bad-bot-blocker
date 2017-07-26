@@ -283,6 +283,10 @@ If you want it to update more frequently (as sometimes I push out 3-4 updates a 
 
 `00 */8 * * * sudo /usr/sbin/update-ngxblocker -e yourname@youremail.com`       
 
+If you don't want any email notification after an update (not advisable in case Nginx ever has an EMERG when reloading), then simply run your cron as follows. 
+
+`00 */8 * * * sudo /usr/sbin/update-ngxblocker -n`       
+
 That's it, the blocker will automatically keep itself up to date and also reload Nginx once it has downloaded the latest version of the globalblacklist.conf file.
 
 ************************************************
