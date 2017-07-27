@@ -21,7 +21,6 @@ addons:
   apt:
     packages:
       - realpath
-      - mailutils
 
 before_install:
   - export TZ=Africa/Johannesburg
