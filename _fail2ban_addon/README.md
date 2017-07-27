@@ -1,6 +1,7 @@
 # Fail2Ban Blacklist for Repeat Error 444 and 403 Offenders of Nginx (action.d)
 #### also includes wp-login attack filter using [nginx-limit-req] - see lower down
 
+************************************************
 ## Help Support This Project 
 
 [![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
