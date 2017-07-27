@@ -29,7 +29,7 @@ before_install:
 install:
   - sudo add-apt-repository -y ppa:nginx/stable
   - sudo apt-get update
-  - sudo apt-get install -y --force-yes nginx-extras
+  - sudo apt-get install -y --assume-yes nginx-extras
 
 script:
   - bash .dev-tools/install-nginx-1.sh
