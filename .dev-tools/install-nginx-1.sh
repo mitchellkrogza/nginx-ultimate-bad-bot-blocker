@@ -95,6 +95,12 @@ sudo bash ./setup-ngxblocker -x
 sudo nginx -c /etc/nginx/nginx.conf
 
 # ****************************************************************************************
+# Copy a dummy version of globalblacklist.conf with an older version number to test update
+# ****************************************************************************************
+
+sudo cp $TRAVIS_BUILD_DIR/.dev-tools/globalblacklist-dummy.conf /etc/nginx/conf.d/globalblacklist.conf
+
+# ****************************************************************************************
 # Run update-ngxblocker test which downloads latest globalblacklist.conf and reloads Nginx
 # ****************************************************************************************
 
@@ -113,6 +119,24 @@ sudo service nginx reload
 
 sudo rm /etc/nginx/conf.d/*.conf
 sudo rm /etc/nginx/bots.d/*.conf
+
+# *********************************************************************************************************
+# Run update-ngxblocker to test for missing files and download latest globalblacklist.conf and reload Nginx
+# *********************************************************************************************************
+
+cd /usr/sbin
+sudo bash ./update-ngxblocker -e mitchellkrog@gmail.com
+
+# ****************************************************************************************
+# Copy a dummy version of globalblacklist.conf with an older version number to test update
+# ****************************************************************************************
+
+sudo cp $TRAVIS_BUILD_DIR/.dev-tools/globalblacklist-dummy.conf /etc/nginx/conf.d/globalblacklist.conf
+
+# *********************************************************************************************************
+# Run update-ngxblocker to test for missing files and download latest globalblacklist.conf and reload Nginx
+# *********************************************************************************************************
+
 cd /usr/sbin
 sudo bash ./update-ngxblocker -e mitchellkrog@gmail.com
 
