@@ -126,6 +126,8 @@ ls -la /etc/nginx/bots.d/
 
 cd /usr/sbin
 sudo bash ./update-ngxblocker -n
+ls -la /etc/nginx/conf.d/
+ls -la /etc/nginx/bots.d/
 
 # ****************************************************************************************
 # Copy a dummy version of globalblacklist.conf with an older version number to test update
