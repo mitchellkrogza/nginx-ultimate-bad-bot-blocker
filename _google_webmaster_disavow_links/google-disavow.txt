@@ -899,6 +899,7 @@ domain:cam-kontakte.org
 domain:camdenmemorials.com
 domain:camdolls.com
 domain:camel-beach.com
+domain:camsex.xxx-cam.webcam
 domain:cand.jp
 domain:candcstuccoandstone.com
 domain:candelluxsklep.pl
@@ -924,6 +925,7 @@ domain:carfax.com.ua
 domain:carina-sy.de
 domain:carloans.com
 domain:carmuffler.net
+domain:cars-modification.net
 domain:carsdined.org
 domain:carson.getenjoyment.net
 domain:carsplate.com
@@ -1192,6 +1194,7 @@ domain:cornomase.win
 domain:corta.co
 domain:coslab.club
 domain:cosmetic.donna7753191.ru
+domain:cosmeticswomens-womensports.rhcloud.com
 domain:cottageofgrace.com
 domain:cougfan.info
 domain:counciltally.com
@@ -2892,6 +2895,7 @@ domain:mebelcomplekt.ru
 domain:mebeldekor.com.ua
 domain:meble-bogart.info
 domain:mecash.ru
+domain:meccadumps.net
 domain:med-zdorovie.com.ua
 domain:medanestesia.ru
 domain:meddesk.ru
@@ -3015,6 +3019,7 @@ domain:moivestiy.biz
 domain:mojaocena.com
 domain:mojowhois.com
 domain:mojpregled.com
+domain:mojpreskumanie.com
 domain:mokrayakiska.com
 domain:mole.pluto.ro
 domain:monarchfind-a.akamaihd.net
@@ -3357,6 +3362,7 @@ domain:openstat.com
 domain:opinionreelle.com
 domain:ops.picscout.com
 domain:optibuymac.com
+domain:optikremont.ru
 domain:optitrade24.com
 domain:oralsexfilme.net
 domain:oranga.host.sk
@@ -4912,6 +4918,7 @@ domain:venerologiya.com
 domain:venta-prom.ru
 domain:ventelnos.com
 domain:vereo.eu
+domain:versaut.xxx-cam.webcam
 domain:vertaform.com
 domain:vesnatehno.com
 domain:vesnatehno.ru
@@ -4945,6 +4952,7 @@ domain:videokrik.net
 domain:videooko.weebly.com
 domain:videos-for-your-business.com
 domain:videosbox.ru
+domain:videositename.com
 domain:videotuber.ru
 domain:videtubs.pl
 domain:viel.su
