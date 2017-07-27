@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.07.797
-### Updated: Thu Jul 27 16:07:05 SAST 2017
-### Bad Referrer Count: 5476
+### Version: V3.2017.07.798
+### Updated: Thu Jul 27 17:23:29 SAST 2017
+### Bad Referrer Count: 5477
 ### Bad Bot Count: 502
 ###################################################
 ### VERSION INFORMATION ##
@@ -4813,6 +4813,7 @@ map $http_referer $bad_referer {
 	"~*sabaapress\.com" 	1;
 	"~*sabizonline\.com" 	1;
 	"~*sack\.net" 	1;
+	"~*sadaholding\.com" 	1;
 	"~*sad\-torg\.com\.ua" 	1;
 	"~*sady\-urala\.ru" 	1;
 	"~*safe\-app\.net" 	1;

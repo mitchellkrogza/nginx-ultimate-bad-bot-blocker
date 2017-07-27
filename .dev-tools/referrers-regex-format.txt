@@ -3949,6 +3949,7 @@
 "~*sabaapress\.com" 	1;
 "~*sabizonline\.com" 	1;
 "~*sack\.net" 	1;
+"~*sadaholding\.com" 	1;
 "~*sad\-torg\.com\.ua" 	1;
 "~*sady\-urala\.ru" 	1;
 "~*safe\-app\.net" 	1;
