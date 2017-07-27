@@ -50,10 +50,15 @@ sudo rm /etc/nginx/bots.d/*.conf
 # List Directories to Confirm Deletions
 # *************************************
 
+echo "Confirming /etc/nginx/conf.d/ directory is EMPTY"
 ls -la /etc/nginx/conf.d/
+echo "Confirming /etc/nginx/bots.d/ directory is EMPTY"
 ls -la /etc/nginx/bots.d/
+echo "Confirming /etc/nginx/sites-available/ directory is EMPTY"
 ls -la /etc/nginx/sites-available/
+echo "Confirming /etc/nginx/sites-enabled/ directory is EMPTY"
 ls -la /etc/nginx/sites-enabled/
+echo "Confirming /var/www/html/ directory is EMPTY"
 ls -la /var/www/html/
 
 # ********************************************************
@@ -153,7 +158,9 @@ sudo rm /usr/local/nginx/bots.d/*.conf
 # List Directories to Confirm Deletions
 # *************************************
 
+echo "Confirming /usr/local/nginx/conf.d/ directory is EMPTY"
 ls -la /usr/local/nginx/conf.d/
+echo "Confirming /usr/local/nginx/bots.d/ directory is EMPTY"
 ls -la /usr/local/nginx/bots.d/
 
 # *********************************************************************************************************
@@ -167,7 +174,9 @@ sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bot
 # List Directories to Confirm Downloaded Missing Files
 # ****************************************************
 
+echo "Confirming /usr/local/nginx/conf.d/ directory has missing files replaced by update-ngxblocker"
 ls -la /usr/local/nginx/conf.d/
+echo "Confirming /usr/local/nginx/bots.d/ directory has missing files replaced by update-ngxblocker"
 ls -la /usr/local/nginx/bots.d/
 
 # ****************************************************************************************
@@ -189,14 +198,12 @@ sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bot
 
 sudo service nginx reload
 
-
 # ************************************************************
 # Copy all .conf files used in Test 2 to a folder for checking
 # ************************************************************
 
 cp /usr/local/nginx/bots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test2/bots.d/
 cp /usr/local/nginx/conf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test2/conf.d/
-
 
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml

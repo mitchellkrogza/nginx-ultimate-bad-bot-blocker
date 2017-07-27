@@ -122,7 +122,9 @@ sudo rm /etc/nginx/bots.d/*.conf
 # List Directories to Confirm Deletions
 # *************************************
 
+echo "Confirming /etc/nginx/conf.d/ directory is EMPTY"
 ls -la /etc/nginx/conf.d/
+echo "Confirming /etc/nginx/bots.d/ directory is EMPTY"
 ls -la /etc/nginx/bots.d/
 
 # *********************************************************************************************************
@@ -136,7 +138,9 @@ sudo bash ./update-ngxblocker -n
 # List Directories to Confirm Downloaded Missing Files
 # ****************************************************
 
+echo "Confirming /etc/nginx/conf.d/ directory has missing files replaced by update-ngxblocker"
 ls -la /etc/nginx/conf.d/
+echo "Confirming /etc/nginx/bots.d/ directory has missing files replaced by update-ngxblocker"
 ls -la /etc/nginx/bots.d/
 
 # ****************************************************************************************
