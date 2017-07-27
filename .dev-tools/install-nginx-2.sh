@@ -31,13 +31,30 @@
 # Start Getting Nginx Ready for Testing the Nginx Bad Bot Blocker
 # ***************************************************************
 
-# *************************************************
-# Delete default site created by Nginx Installation
-# *************************************************
+# ******************************************************
+# Delete default site created previous from Nginx Test 1
+# ******************************************************
 
-sudo rm /etc/nginx/sites-available/default
-sudo rm /etc/nginx/sites-enabled/default
+sudo rm /etc/nginx/sites-available/default.vhost
+sudo rm /etc/nginx/sites-enabled/default.vhost
 sudo rm /var/www/html/*
+
+# **************************************
+# Make Sure We Cleanup From Nginx Test 1
+# **************************************
+
+sudo rm /etc/nginx/conf.d/*.conf
+sudo rm /etc/nginx/bots.d/*.conf
+
+# *************************************
+# List Directories to Confirm Deletions
+# *************************************
+
+ls -la /etc/nginx/conf.d/
+ls -la /etc/nginx/bots.d/
+ls -la /etc/nginx/sites-available/
+ls -la /etc/nginx/sites-enabled/
+ls -la /var/www/html/
 
 # ********************************************************
 # Copy our default.vhost file into Nginx /sites-available/
@@ -57,21 +74,12 @@ sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/def
 
 sudo cp $TRAVIS_BUILD_DIR/.dev-tools/index.php /var/www/html/index.php
 
-# ***********************************************************************
-# Download the Nginx Bad Bot Blocker setup files from the Live Repository
-# ***********************************************************************
+# ***********************************************
+# Fetch our install-ngxblocker file from the repo
+# ***********************************************
 
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O /usr/sbin/setup-ngxblocker
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O /usr/sbin/update-ngxblocker
-
-# **************************************************
-# Set our install and setup scripts to be executable
-# **************************************************
-
 sudo chmod +x /usr/sbin/install-ngxblocker
-sudo chmod +x /usr/sbin/setup-ngxblocker
-sudo chmod +x /usr/sbin/update-ngxblocker
 
 # *************************************************************************
 # Let's create a folder for the bots.d and conf.d not using Nginx standards
@@ -86,14 +94,22 @@ sudo mkdir /usr/local/nginx/bots.d
 # **********************
 
 cd /usr/sbin
-sudo ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
+sudo bash ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
+
+# **************************************************
+# Set our install and setup scripts to be executable
+# **************************************************
+
+sudo chmod +x /usr/sbin/install-ngxblocker
+sudo chmod +x /usr/sbin/setup-ngxblocker
+sudo chmod +x /usr/sbin/update-ngxblocker
 
 # ********************
 # Run setup-ngxblocker
 # ********************
 
 cd /usr/sbin
-sudo ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
+sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
 
 # ************************
 # Load our Nginx.conf file
@@ -107,14 +123,72 @@ sudo nginx -c /etc/nginx/nginx.conf
 # location of /usr/local/nginx/bots.d
 # ******************************************************************************************
 
+# ****************************************************************************************
+# Copy a dummy version of globalblacklist.conf with an older version number to test update
+# ****************************************************************************************
+
+sudo cp $TRAVIS_BUILD_DIR/.dev-tools/globalblacklist-dummy.conf /usr/local/nginx/conf.d/globalblacklist.conf
+
+# ****************************************************************************************
+# Run update-ngxblocker test which downloads latest globalblacklist.conf and reloads Nginx
+# ****************************************************************************************
+
 cd /usr/sbin
-sudo ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -e mitchellkrog@gmail.com
+sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
 
 # *********************
 # Force reload of Nginx
 # *********************
 
 sudo service nginx reload
+
+# *******************************************************************************************
+# Test that update-ngxblocker can install all missing required files by deleting some of them
+# *******************************************************************************************
+
+sudo rm /usr/local/nginx/conf.d/*.conf
+sudo rm /usr/local/nginx/bots.d/*.conf
+
+# *************************************
+# List Directories to Confirm Deletions
+# *************************************
+
+ls -la /usr/local/nginx/conf.d/
+ls -la /usr/local/nginx/bots.d/
+
+# *********************************************************************************************************
+# Run update-ngxblocker to test for missing files and download latest globalblacklist.conf and reload Nginx
+# *********************************************************************************************************
+
+cd /usr/sbin
+sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
+
+# ****************************************************
+# List Directories to Confirm Downloaded Missing Files
+# ****************************************************
+
+ls -la /usr/local/nginx/conf.d/
+ls -la /usr/local/nginx/bots.d/
+
+# ****************************************************************************************
+# Copy a dummy version of globalblacklist.conf with an older version number to test update
+# ****************************************************************************************
+
+sudo cp $TRAVIS_BUILD_DIR/.dev-tools/globalblacklist-dummy.conf /usr/local/nginx/conf.d/globalblacklist.conf
+
+# *********************************************************************************************************
+# Run update-ngxblocker to test for missing files and download latest globalblacklist.conf and reload Nginx
+# *********************************************************************************************************
+
+cd /usr/sbin
+sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
+
+# *********************
+# Force reload of Nginx
+# *********************
+
+sudo service nginx reload
+
 
 # ************************************************************
 # Copy all .conf files used in Test 2 to a folder for checking

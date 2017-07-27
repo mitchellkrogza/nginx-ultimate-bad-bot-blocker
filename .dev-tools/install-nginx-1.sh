@@ -117,6 +117,11 @@ sudo service nginx reload
 
 sudo rm /etc/nginx/conf.d/*.conf
 sudo rm /etc/nginx/bots.d/*.conf
+
+# *************************************
+# List Directories to Confirm Deletions
+# *************************************
+
 ls -la /etc/nginx/conf.d/
 ls -la /etc/nginx/bots.d/
 
@@ -126,6 +131,11 @@ ls -la /etc/nginx/bots.d/
 
 cd /usr/sbin
 sudo bash ./update-ngxblocker -n
+
+# ****************************************************
+# List Directories to Confirm Downloaded Missing Files
+# ****************************************************
+
 ls -la /etc/nginx/conf.d/
 ls -la /etc/nginx/bots.d/
 
