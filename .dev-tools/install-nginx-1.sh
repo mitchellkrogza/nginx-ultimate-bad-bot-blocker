@@ -57,6 +57,13 @@ sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/def
 
 sudo cp $TRAVIS_BUILD_DIR/.dev-tools/index.php /var/www/html/index.php
 
+# ***********************************************
+# Fetch our install-ngxblocker file from the repo
+# ***********************************************
+
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
+sudo chmod +x /usr/sbin/install-ngxblocker
+
 # **********************
 # Run Install-NgxBlocker
 # **********************
