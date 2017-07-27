@@ -57,20 +57,11 @@ sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/def
 
 sudo cp $TRAVIS_BUILD_DIR/.dev-tools/index.php /var/www/html/index.php
 
-# ***********************************************************************
-# Download the Nginx Bad Bot Blocker setup files from the Live Repository
-# ***********************************************************************
-
-#sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
-#sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O /usr/sbin/setup-ngxblocker
-#sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O /usr/sbin/update-ngxblocker
-
-
 # **********************
 # Run Install-NgxBlocker
 # **********************
 
-#cd /usr/sbin
+cd /usr/sbin
 sudo bash ./install-ngxblocker -x
 
 # **************************************************
@@ -105,7 +96,7 @@ sudo cp $TRAVIS_BUILD_DIR/.dev-tools/globalblacklist-dummy.conf /etc/nginx/conf.
 # ****************************************************************************************
 
 cd /usr/sbin
-sudo bash ./update-ngxblocker -e mitchellkrog@gmail.com
+sudo bash ./update-ngxblocker -n
 
 # *********************
 # Force reload of Nginx
@@ -119,13 +110,15 @@ sudo service nginx reload
 
 sudo rm /etc/nginx/conf.d/*.conf
 sudo rm /etc/nginx/bots.d/*.conf
+ls -la /etc/nginx/conf.d/
+ls -la /etc/nginx/bots.d/
 
 # *********************************************************************************************************
 # Run update-ngxblocker to test for missing files and download latest globalblacklist.conf and reload Nginx
 # *********************************************************************************************************
 
 cd /usr/sbin
-sudo bash ./update-ngxblocker -e mitchellkrog@gmail.com
+sudo bash ./update-ngxblocker -n
 
 # ****************************************************************************************
 # Copy a dummy version of globalblacklist.conf with an older version number to test update
@@ -138,7 +131,7 @@ sudo cp $TRAVIS_BUILD_DIR/.dev-tools/globalblacklist-dummy.conf /etc/nginx/conf.
 # *********************************************************************************************************
 
 cd /usr/sbin
-sudo bash ./update-ngxblocker -e mitchellkrog@gmail.com
+sudo bash ./update-ngxblocker -n
 
 # *********************
 # Force reload of Nginx
