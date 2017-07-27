@@ -122,9 +122,11 @@ sudo rm /etc/nginx/bots.d/*.conf
 # List Directories to Confirm Deletions
 # *************************************
 
-echo "Confirming /etc/nginx/conf.d/ directory is EMPTY"
+printf '%s\n%s\n%s\n' "################################################" "Confirming /etc/nginx/conf.d/ directory is EMPTY" "################################################"
+#echo "Confirming /etc/nginx/conf.d/ directory is EMPTY"
 ls -la /etc/nginx/conf.d/
-echo "Confirming /etc/nginx/bots.d/ directory is EMPTY"
+printf '%s\n%s\n%s\n' "################################################" "Confirming /etc/nginx/bots.d/ directory is EMPTY" "################################################"
+#echo "Confirming /etc/nginx/bots.d/ directory is EMPTY"
 ls -la /etc/nginx/bots.d/
 
 # *********************************************************************************************************
