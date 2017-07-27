@@ -111,14 +111,17 @@ sudo bash ./update-ngxblocker -n
 
 sudo service nginx reload
 
-# ******************************************************************
-# Test that update-ngxblocker can install all missing required files
-# ******************************************************************
+# *******************************************************************************************
+# Test that update-ngxblocker can install all missing required files by deleting some of them
+# *******************************************************************************************
 
 sudo rm /etc/nginx/conf.d/*.conf
 sudo rm /etc/nginx/bots.d/*.conf
+sudo rm /usr/sbin/install-ngxblocker
+sudo rm /usr/sbin/setup-ngxblocker
 ls -la /etc/nginx/conf.d/
 ls -la /etc/nginx/bots.d/
+ls -la /usr/sbin/
 
 # *********************************************************************************************************
 # Run update-ngxblocker to test for missing files and download latest globalblacklist.conf and reload Nginx
@@ -128,6 +131,7 @@ cd /usr/sbin
 sudo bash ./update-ngxblocker -n
 ls -la /etc/nginx/conf.d/
 ls -la /etc/nginx/bots.d/
+ls -la /usr/sbin/
 
 # ****************************************************************************************
 # Copy a dummy version of globalblacklist.conf with an older version number to test update
