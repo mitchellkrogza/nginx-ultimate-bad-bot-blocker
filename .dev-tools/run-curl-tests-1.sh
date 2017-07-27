@@ -133,7 +133,7 @@ if grep -i 'Welcome' $_curltest7; then
    echo 'GOOD REFERRER DETECTED - TEST PASSED'
 else
    echo 'GOOD REFERRER NOT DETECTED - TEST FAILED'
-   #exit 1
+   exit 1
 fi
 }
 
@@ -150,7 +150,7 @@ if grep -i 'Welcome' $_curltest8; then
    echo 'GOOD REFERRER DETECTED - TEST PASSED'
 else
    echo 'GOOD REFERRER NOT DETECTED - TEST FAILED'
-   #exit 1
+   exit 1
 fi
 }
 
