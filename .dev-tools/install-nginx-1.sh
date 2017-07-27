@@ -156,6 +156,13 @@ sudo cp $TRAVIS_BUILD_DIR/.dev-tools/globalblacklist-dummy.conf /etc/nginx/conf.
 cd /usr/sbin
 sudo bash ./update-ngxblocker -n
 
+# **************************
+# Run setup-ngxblocker again
+# **************************
+
+cd /usr/sbin
+sudo bash ./setup-ngxblocker -x
+
 # *********************
 # Force reload of Nginx
 # *********************
