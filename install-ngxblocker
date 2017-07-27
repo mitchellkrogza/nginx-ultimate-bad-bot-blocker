@@ -28,12 +28,13 @@
 # Make it Executable:
 # 	chmod 700 /usr/sbin/install-ngxblocker
 # Run it from the command line:
-#	sudo /usr/sbin/install-ngxblocker [ --help ]
+#	sudo /usr/sbin/install-ngxblocker [ -h ]
 
 ######## LETS INSTALL NOW ###############################
 
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
+SCRIPT_DIR=/usr/sbin
 REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 
 ####### end user configuration ##########################
@@ -46,6 +47,7 @@ $script: INSTALL Nginx Bad Bot Blocker configuration to: [ $CONF_DIR ] [ $BOTS_D
 Usage: $script [OPTIONS]
         [ -b ] : Bot rules directory           (default: $BOTS_DIR)
         [ -c ] : NGINX conf directory          (default: $CONF_DIR)
+        [ -s ] : Script directory              (default: $SCRIPT_DIR)
         [ -r ] : Change repo url               (default: $REPO)
         [ -x ] : Actually change the files     (default: don't change anything)
         [ -v ] : Print blacklist version
@@ -90,7 +92,7 @@ check_if_updating() {
 }
 
 download_files() {
-	local url= x= local_file= remote_dir=$1 local_dir=$2    # rm leading whitespace
+	local url= x= local_file= remote_path= remote_dir=$1 local_dir=$2 # rm leading whitespace
 	local file_list="$(echo $@ | awk '{$1=$2=""; print $0}' | sed -e 's/^[ \t]*//')"
 	local col_size=$(( $(longest_str $file_list) + $(echo $remote_dir | wc -m) ))
 
@@ -101,13 +103,19 @@ download_files() {
 			local_file=$local_dir/$x
 
 			if [ ! -f $local_file ]; then
+				if [ "$remote_dir" = "/" ]; then
+					remote_path=$x
+				else
+					remote_path="$remote_dir/$x"
+				fi
+
 				if [ "$DRY_RUN" = "N" ]; then
 					printf "%-21s %-$(( $col_size +8 ))s %s" \
 					"Downloading [FROM]=>" \
-					"[REPO]/$remote_dir/$x" \
+					"[REPO]/$remote_path" \
 					"[TO]=>  $local_file"
 
-					url=$REPO/$remote_dir/$x
+					url=$REPO/$remote_path
 					wget -q $url -O $local_file
 
 					if [ $? = 0 ]; then
@@ -118,7 +126,7 @@ download_files() {
 				else
 					printf "%-21s %-$(( $col_size +8 ))s %s\n" \
 					"Downloading [FROM]=>" \
-					"[REPO]/$remote_dir/$x" \
+					"[REPO]/$remote_path" \
 					"[TO]=>  $local_file"
 				fi
 			fi
@@ -173,7 +181,7 @@ check_args() {
 get_options() {
         local arg= opts=
 
-        while getopts :b:c:r:xvh opts "$@"
+        while getopts :b:c:s:r:xvh opts "$@"
         do
                 if [ -n "${OPTARG}" ]; then
                         case "$opts" in
@@ -185,6 +193,7 @@ get_options() {
                 case "$opts" in
                         b) BOTS_DIR=$arg; check_args $opts path $arg ;;
                         c) CONF_DIR=$arg; check_args $opts path $arg ;;
+                        s) SCRIPT_DIR=$arg; check_args $opts path $arg ;;
                         r) REPO=$arg; check_args $opts url $arg ;;
                         x) DRY_RUN=N ;;
                         v) check_version ;;
@@ -253,21 +262,22 @@ main() {
 	fi
 
 	# double check we have some files sourced
-	if [ -z "$CONF_FILES" ] || [ -z "$BOT_FILES" ]; then
+	if [ -z "$CONF_FILES" ] || [ -z "$BOT_FILES" ] || [ -z "$SCRIPT_FILES" ]; then
 		printf "Error sourcing variables from: $include_url\n"
 		exit 1
 	fi
 
 	# by default do not change any files
 	if [ -z "$DRY_RUN" ]; then
-		printf "\n** Dry Run ** | -x or --exec to download files\n\n"
+		printf "\n** Dry Run ** | not updating files | run  as '$(basename $0) -x' to install files.\n\n"
 	else
 		printf "\n"
 	fi
 
-	check_config $CONF_DIR $BOTS_DIR
+	check_config $CONF_DIR $BOTS_DIR $SCRIPT_DIR
 	download_files conf.d $CONF_DIR $CONF_FILES
 	download_files bots.d $BOTS_DIR $BOT_FILES
+	download_files / $SCRIPT_DIR $SCRIPT_FILES
 }
 
 ## START ##

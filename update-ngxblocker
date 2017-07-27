@@ -32,6 +32,7 @@ EMAIL="me@myemail.com"
 SEND_EMAIL="Y"
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
+INSTALLER=/usr/sbin/install-ngxblocker
 
 ##### end user configuration ##############################################################
 
@@ -50,6 +51,7 @@ $script: UPDATE Nginx Bad Bot Blocker blacklist in: [ $CONF_DIR ]
 Usage: $script [OPTIONS]
         [ -c ] : NGINX conf directory          (default: $CONF_DIR)
         [ -b ] : NGINX bots directory          (default: $BOTS_DIR)
+        [ -i ] : Change installer path         (default: $INSTALLER)
         [ -r ] : Change repo url               (default: $REPO)
         [ -e ] : Change email address          (default: $EMAIL)
         [ -n ] : Do not send email report      (default: $SEND_EMAIL)
@@ -61,6 +63,7 @@ Examples:
  $script -c /my/custom/conf.d    (Download globalblacklist.conf to a custom location)
  $script -b /my/custom/bots.d    (Download globalblacklist.conf & update with your custom bots.d location)
  $script -e yourname@youremailaddress.com (Download globalblacklist.conf specifying your email address for the notification)
+ $script -u /path/to/install-ngxblocker   (Use custom path to install-ngxblocker to update bots.d / conf.d include files)
 EOF
         exit 0
 }
@@ -90,20 +93,35 @@ check_version() {
 			printf "\nLatest Blacklist Already Installed: $BOLDGREEN$version$RESET\n\n"
 		fi
 	else
-		printf "Missing '$file' (pass -c \$path before -v)\n"
+		printf "${BOLDRED}ERROR${RESET}: Missing '$file' => ${BOLDWHITE}running $INSTALLER:${RESET}\n"
+		$INSTALL_INC
+		if [ -f $file ]; then
+			check_version
+		fi
 	fi
 
 	exit 0
 }
 
+check_dirs() {
+	local x= dirs=$@
+
+	for x in $dirs; do
+		if [ ! -d $x ]; then
+			printf "${BOLDRED}ERROR${RESET}: Missing directory: $x => ${BOLDWHITE}running $INSTALLER:${RESET}\n"
+			$INSTALL_INC
+		fi
+	done
+}
+
 update_paths() {
 	# variables in nginx include files not currently possible
 	# updates hard coded bots.d path in globalblacklist.conf
-	local blacklist=$1 email_report=$2 include_paths= dir= x=
+	local blacklist=$1 include_paths= dir= x=
 
 	if ! grep "$BOTS_DIR" $blacklist 1>/dev/null; then
 		if [ -d $BOTS_DIR ]; then
-			printf "Updating bots.d path: $BOTS_DIR => $blacklist\n" | tee -a $email_report
+			printf "${BOLDGREEN}Updating bots.d path${RESET}: ${BOLDWHITE}$BOTS_DIR => $blacklist${RESET}\n"
 			include_paths=$(grep -E "include /.*.conf;$" $blacklist | awk '{print $2}' | tr -d ';')
 
 			for x in $include_paths; do
@@ -111,8 +129,9 @@ update_paths() {
 				sed -i "s|$dir|$BOTS_DIR|" $blacklist
 			done
 		else
-			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => NOT updating $blacklist\n" \
-				| tee -a $email_report
+			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}.\n"
+			$INSTALL_INC
+			update_paths $blacklist
 		fi
 	fi
 }
@@ -142,41 +161,46 @@ wget_opts() {
 }
 
 sanitize_path() {
-        echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=/=] [=_=]' \
-                |tr -s '@.-/_' |awk '{print tolower($0)}'
+	echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=/=] [=_=]' \
+		|tr -s '@.-/_' |awk '{print tolower($0)}'
 }
 
 sanitize_url() {
-        echo $1 |tr -cd '[:alnum:] [=:=] [=.=] [=-=] [=/=]' \
-                |tr -s ':.-' |awk '{print tolower($0)}'
+	echo $1 |tr -cd '[:alnum:] [=:=] [=.=] [=-=] [=/=]' \
+		|tr -s ':.-' |awk '{print tolower($0)}'
 }
 
 sanitize_email() {
-        echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=_=]' \
-                |tr -s '@-_.' |awk '{print tolower($0)}'
+	echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=_=]' \
+		|tr -s '@-_.' |awk '{print tolower($0)}'
 }
 
 check_args() {
-        local option=$1 type=$2 arg=$3
-        local msg="ERROR: option '-$option' argument '$arg' requires:"
+	local option=$1 type=$2 arg=$3
+	local msg="ERROR: option '-$option' argument '$arg' requires:"
 
-        case "$type" in
-                path)   if ! echo $arg | grep ^/ 1>/dev/null; then
-                                printf "$msg absolute path.\n"
-                                exit 1
-                        fi
-                        ;;
-                email)  if ! echo $arg | grep -E ^[-_[:alnum:]]+@[-_[:alnum:]]+[\.][\.a-z]+ 1>/dev/null; then
-                                printf "$msg email@domain.com\n"
-                                exit 1
-                        fi
-                        ;;
-                url)    if ! echo $arg | grep -E ^http[s]?://[0-9a-zA-Z-]+[.]+[/0-9a-zA-Z.]+ 1>/dev/null; then
-                                printf "$msg url => http[s]://the.url\n"
-                                exit 1
-                        fi
-                        ;;
-                none)   printf "$msg argument.\n"; exit 1;;
+	case "$type" in
+	        path)   if ! echo $arg | grep ^/ 1>/dev/null; then
+				printf "$msg absolute path.\n"
+				exit 1
+			fi
+			;;
+	       email)   if ! echo $arg | grep -E ^[-_[:alnum:]]+@[-_[:alnum:]]+[\.][\.a-z]+ 1>/dev/null; then
+				printf "$msg email@domain.com\n"
+				exit 1
+			fi
+			;;
+	         url)   if ! echo $arg | grep -E ^http[s]?://[0-9a-zA-Z-]+[.]+[/0-9a-zA-Z.]+ 1>/dev/null; then
+				printf "$msg url => http[s]://the.url\n"
+				exit 1
+			fi
+			;;
+	      script)	if [ ! -x $arg ]; then
+				printf "$msg '$arg' is not executable / does not exist.\n"
+				exit 1
+			fi
+			;;
+	        none)   printf "$msg argument.\n"; exit 1;;
         esac
 }
 
@@ -190,48 +214,56 @@ check_mail_depends() {
 check_depends() {
 	# centos does not have wget installed by default
 	if ! wget --help >/dev/null 2>&1; then
-		printf "$0 requires: wget => cannot download files.\n"
+		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'wget' => ${BOLDWHITE}cannot download files.${RESET}\n"
 		exit 1
 	fi
 
 	# centos also does not have which by default
 	if [ ! -x /usr/bin/curl ]; then
-		printf "$0 requires: curl => cannot check remote version.\n"
+		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}\n"
+		exit 1
+	fi
+
+	# install-ngxblocker downloads missing scripts / includes as part of the update process
+	if [ ! -x $INSTALLER ]; then
+		printf "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}\n"
 		exit 1
 	fi
 }
 
 get_options() {
-        local arg= opts=
+	local arg= opts=
 
-        while getopts :c:b:r:e:nvh opts "$@"
-        do
-                if [ -n "${OPTARG}" ]; then
-                        case "$opts" in
-                                r) arg=$(sanitize_url ${OPTARG});;
-                                e) arg=$(sanitize_email ${OPTARG});;
-                                *) arg=$(sanitize_path ${OPTARG});;
-                        esac
-                fi
+	while getopts :c:b:u:r:e:nvh opts "$@"
+	do
+		if [ -n "${OPTARG}" ]; then
+			case "$opts" in
+				r) arg=$(sanitize_url ${OPTARG});;
+				e) arg=$(sanitize_email ${OPTARG});;
+				*) arg=$(sanitize_path ${OPTARG});;
+			esac
+		fi
 
-                case "$opts" in
-                        c) CONF_DIR=$arg; check_args $opts path $arg ;;
-                        b) BOTS_DIR=$arg; check_args $opts path $arg ;;
-                        r) REPO=$arg; check_args $opts url $arg ;;
-                        e) EMAIL=$arg; check_args $opts email $arg ;;
-                        n) SEND_EMAIL=N ;;
-                        v) check_version ;;
-                        h) usage ;;
-                       \?) usage ;;
-                        :) check_args $OPTARG none none ;;
-                esac
-        done
+		case "$opts" in
+			c) CONF_DIR=$arg; check_args $opts path $arg ;;
+			b) BOTS_DIR=$arg; check_args $opts path $arg ;;
+			u) INSTALLER=$arg; check_args $opts script $arg ;;
+			r) REPO=$arg; check_args $opts url $arg ;;
+			e) EMAIL=$arg; check_args $opts email $arg ;;
+			n) SEND_EMAIL=N ;;
+			v) check_depends; check_version ;;
+			h) usage ;;
+			\?) usage ;;
+			:) check_args $OPTARG none none ;;
+		esac
+	done
+
+	INSTALL_INC="$INSTALLER -b $BOTS_DIR -c $CONF_DIR -x"
 }
 
 main() {
-	local email_report=$(mktemp) file=globalblacklist.conf
 	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
-	local remote_dir=conf.d url= output= update= status=
+	local file=globalblacklist.conf remote_dir=conf.d url= output= update= status=
 	# default to service (centos does not have 'which' by default)
 	local service=${service_cmd:-"service"}
 
@@ -242,6 +274,7 @@ main() {
 	fi
 
 	check_depends
+	check_dirs $BOTS_DIR $CONF_DIR $SCRIPT_DIR
 
 	# parse command line
 	get_options $@
@@ -250,19 +283,22 @@ main() {
 
 	# check for updated blacklist
 	update=$(check_version | tail -n 2)
-	printf "\n$update\n\n" | tee $email_report
+	printf "\n$update\n\n"
 
 	if echo $update | grep ^Update 1>/dev/null; then
 
-		# download update
+		# download globalblacklist update
 		mkdir -p $CONF_DIR
-		wget $url $(wget_opts) -O $output 2>&1 | tee -a $email_report
+		wget $url $(wget_opts) -O $output 2>&1
+
+		# download new bots.d / conf.d files
+		$INSTALL_INC
 
 		# re-read nginx configuration
-		if ! grep "Not Found" $email_report; then
+		if ! grep "Not Found" $EMAIL_REPORT; then
 
 			# set custom bots.d path
-			update_paths $output $email_report
+			update_paths $output
 
 			$service nginx reload
 			if [ $? = 0 ]; then
@@ -270,13 +306,13 @@ main() {
 			else
 				status="${BOLDRED}[FAILED]${RESET}"
 			fi
-			printf "\nReloading NGINX configuration...$status\n" | tee -a $email_report
+			printf "\nReloading NGINX configuration...$status\n"
 		else
-			printf "\n${BOLDRED}Download failed${RESET}: not reloading NGINX config\n" | tee -a $email_report
+			printf "\n${BOLDRED}Download failed${RESET}: not reloading NGINX config\n"
 		fi
 	else
 		# set custom bots.d path
-		update_paths $output $email_report
+		update_paths $output
 	fi
 
 	# email report
@@ -284,16 +320,18 @@ main() {
 	case "$SEND_EMAIL" in
 		 y*|Y*)	printf "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
 			# remove ansi colour codes
-			sed -i 's/\x1b\[[0-9;]*m//g' $email_report
-			cat $email_report | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
+			sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
+			cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
 			;;
 	esac
 
-	rm -f $email_report
+	rm -f $EMAIL_REPORT
 }
 
 ## start ##
-main $@
+EMAIL_REPORT=$(mktemp)
+main $@ | tee $EMAIL_REPORT
+
 exit $?
 
 # Add this as a cron to run daily / weekly as you like

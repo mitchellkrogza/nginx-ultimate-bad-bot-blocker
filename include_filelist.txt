@@ -25,3 +25,8 @@ VHOST_INCLUDES="
 	ddos.conf
 	"
 
+SCRIPT_FILES="
+	install-ngxblocker
+	setup-ngxblocker
+	update-ngxblocker
+	"
