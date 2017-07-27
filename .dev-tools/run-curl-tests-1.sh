@@ -128,7 +128,7 @@ run_curltest7 () {
 truncate -s 0 $_curltest7
 printf '\n%s\n%s\n%s\n\n' "################################" "TESTING GOOD REFERRER IS ALLOWED" "################################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest7"
-curl -I http://localhost:9000/index.php -e http://google.com 2>> $_curltest7
+curl http://localhost:9000/index.php -e http://google.com 2>> $_curltest7
 if grep -i 'Welcome' $_curltest7; then
    echo 'GOOD REFERRER DETECTED - TEST PASSED'
 else
@@ -145,7 +145,7 @@ run_curltest8 () {
 truncate -s 0 $_curltest8
 printf '\n%s\n%s\n%s\n\n' "################################" "TESTING GOOD REFERRER IS ALLOWED" "################################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest8"
-curl -I http://localhost:9000/index.php -e http://bing.com 2>> $_curltest8
+curl http://localhost:9000/index.php -e http://bing.com 2>> $_curltest8
 if grep -i 'Welcome' $_curltest8; then
    echo 'GOOD REFERRER DETECTED - TEST PASSED'
 else
