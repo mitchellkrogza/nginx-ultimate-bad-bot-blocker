@@ -60,6 +60,7 @@ printf '\n%s\n%s\n%s\n\n' "#####################################################
 ls -la /etc/nginx/sites-enabled/
 printf '\n%s\n%s\n%s\n\n' "############################################" "Confirming /var/www/html/ directory is EMPTY" "############################################"
 ls -la /var/www/html/
+printf '\n%s\n\n' "                                      "
 
 # ********************************************************
 # Copy our default.vhost file into Nginx /sites-available/
