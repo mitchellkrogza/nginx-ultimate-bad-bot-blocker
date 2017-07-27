@@ -8,6 +8,7 @@ env:
     - GIT_BRANCH: master
 sudo: required
 dist: trusty
+
 matrix:
   include:
     - php: 7.0
@@ -15,6 +16,7 @@ matrix:
     - php: 7.0
     - php: hhvm
   fast_finish: true
+
 cache:
   - apt
 addons:
