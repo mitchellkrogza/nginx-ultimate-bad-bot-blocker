@@ -71,7 +71,7 @@ sudo cp $TRAVIS_BUILD_DIR/.dev-tools/index.php /var/www/html/index.php
 # **********************
 
 #cd /usr/sbin
-sudo ./install-ngxblocker -x
+sudo bash ./install-ngxblocker -x
 
 # **************************************************
 # Set our install and setup scripts to be executable
@@ -86,7 +86,7 @@ sudo chmod +x /usr/sbin/update-ngxblocker
 # ********************
 
 cd /usr/sbin
-sudo ./setup-ngxblocker -x
+sudo bash ./setup-ngxblocker -x
 
 # ************************
 # Load our Nginx.conf file
@@ -99,7 +99,7 @@ sudo nginx -c /etc/nginx/nginx.conf
 # ****************************************************************************************
 
 cd /usr/sbin
-sudo ./update-ngxblocker -e mitchellkrog@gmail.com
+sudo bash ./update-ngxblocker -e mitchellkrog@gmail.com
 
 # *********************
 # Force reload of Nginx
@@ -111,10 +111,10 @@ sudo service nginx reload
 # Test that update-ngxblocker can install all missing required files
 # ******************************************************************
 
-sudo rm /etc/nginx/conf.d/*
-sudo rm /etc/nginx/bots.d/*
+sudo rm /etc/nginx/conf.d/*.conf
+sudo rm /etc/nginx/bots.d/*.conf
 cd /usr/sbin
-sudo ./update-ngxblocker -e mitchellkrog@gmail.com
+sudo bash ./update-ngxblocker -e mitchellkrog@gmail.com
 
 # *********************
 # Force reload of Nginx
