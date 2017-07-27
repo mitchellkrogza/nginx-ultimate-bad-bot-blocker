@@ -1,5 +1,7 @@
-Last Tested: Thu Jul 27 15:24:16 SAST 2017
+Last Tested: Thu Jul 27 15:29:38 SAST 2017
 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   202  100   202    0     0  39284      0 --:--:-- --:--:-- --:--:-- 40400
+<?php
+
+echo "Welcome to Nginx\n";
+echo "This is the Travis Testing Environment for the Nginx Ultimate Bad Bot Blocker\n";
+echo "Visit https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker\n";
