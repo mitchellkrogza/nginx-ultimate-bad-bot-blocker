@@ -61,9 +61,17 @@ sudo cp $TRAVIS_BUILD_DIR/.dev-tools/index.php /var/www/html/index.php
 # Download the Nginx Bad Bot Blocker setup files from the Live Repository
 # ***********************************************************************
 
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O /usr/sbin/setup-ngxblocker
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O /usr/sbin/update-ngxblocker
+#sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
+#sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O /usr/sbin/setup-ngxblocker
+#sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O /usr/sbin/update-ngxblocker
+
+
+# **********************
+# Run Install-NgxBlocker
+# **********************
+
+#cd /usr/sbin
+sudo ./install-ngxblocker -x
 
 # **************************************************
 # Set our install and setup scripts to be executable
@@ -73,25 +81,12 @@ sudo chmod +x /usr/sbin/install-ngxblocker
 sudo chmod +x /usr/sbin/setup-ngxblocker
 sudo chmod +x /usr/sbin/update-ngxblocker
 
-# **********************
-# Run Install-NgxBlocker
-# **********************
-
-cd /usr/sbin
-sudo ./install-ngxblocker -x
-
 # ********************
 # Run setup-ngxblocker
 # ********************
 
 cd /usr/sbin
 sudo ./setup-ngxblocker -x
-
-# ******************************************************************************************************
-# NOTE: for Verbose Testing of any shell scripts use below format adding sh -x before running the script
-# this helps a lot inside the TravisCI environment to see where a shell script may be failing 
-# sudo sh -x ./setup-ngxblocker -x
-# *******************************************************************************************************
 
 # ************************
 # Load our Nginx.conf file
@@ -103,6 +98,21 @@ sudo nginx -c /etc/nginx/nginx.conf
 # Run update-ngxblocker test which downloads latest globalblacklist.conf and reloads Nginx
 # ****************************************************************************************
 
+cd /usr/sbin
+sudo ./update-ngxblocker -e mitchellkrog@gmail.com
+
+# *********************
+# Force reload of Nginx
+# *********************
+
+sudo service nginx reload
+
+# ******************************************************************
+# Test that update-ngxblocker can install all missing required files
+# ******************************************************************
+
+sudo rm /etc/nginx/conf.d/*
+sudo rm /etc/nginx/bots.d/*
 cd /usr/sbin
 sudo ./update-ngxblocker -e mitchellkrog@gmail.com
 
