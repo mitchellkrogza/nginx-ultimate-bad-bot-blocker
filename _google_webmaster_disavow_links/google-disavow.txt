@@ -32,6 +32,7 @@ domain:1314dh.com
 domain:178evakuator178.ru
 domain:1adult.com
 domain:1bet.com
+domain:1flag.co.za
 domain:1hwy.com
 domain:1j7740kd.website
 domain:1kinobig.ru
@@ -329,6 +330,7 @@ domain:amanda-porn.ga
 domain:amateurgalls.com
 domain:amateurlivechat.org
 domain:amateurmatch.com
+domain:amazingninja.com
 domain:amazon-adsystem.com
 domain:amazon-seo-service.com
 domain:amehdaily.com
@@ -734,6 +736,7 @@ domain:blog-hits.com
 domain:blog.axant.it
 domain:blog.f00kclan.de
 domain:blog.koorg.ru
+domain:blog.koreadaily.com
 domain:blog.remote-computer.de
 domain:blog.yam.com
 domain:bloggedporn.com
@@ -840,6 +843,7 @@ domain:burger-imperia.com
 domain:burkesales.com
 domain:burn-fat.ga
 domain:bus-offer.com
+domain:businesn.men
 domain:business-made-fun.com
 domain:businesxxl.com
 domain:buttons-for-website.com
@@ -963,6 +967,7 @@ domain:cbcseward.com
 domain:cbox.ws
 domain:ccbill.com
 domain:cctva.tv
+domain:cdn.walkme.com
 domain:cdncash.com
 domain:cdncash.net
 domain:cdncash.org
@@ -1049,6 +1054,7 @@ domain:cineacademy.ru
 domain:cinemaenergy-hd.ru
 domain:cinemaflix.website
 domain:ciproandtizanidine.blogspot.com
+domain:circlesl.com
 domain:citizenclsdriveri7.pen.io
 domain:cityadspix.com
 domain:citysecurity.nu
@@ -2067,6 +2073,7 @@ domain:gotomontenegro.net
 domain:gotorussia.com
 domain:gotwebsite1.com
 domain:gourcy.altervista.org
+domain:gov.yanao.ru
 domain:gowreckdiving.com
 domain:gox.com.ua
 domain:gpirate.com
@@ -2564,6 +2571,7 @@ domain:kinostorm.net
 domain:kinotorka.ru
 domain:kiprinform.com
 domain:kirov.zrus.org
+domain:kit-opt.ru
 domain:kiwe-analytics.com
 domain:kiwi237au.tk
 domain:kladrus.ru
@@ -2764,6 +2772,7 @@ domain:lodki-pvh.dp.ua
 domain:loftdigital.eu
 domain:loginduepunti.it
 domain:lol-smurfs.com
+domain:lollypopgaming.com
 domain:lomb.co
 domain:lombardfinder.ru
 domain:lombia.co
@@ -2815,6 +2824,7 @@ domain:mackeeper-center.club
 domain:mackeeper-land-672695126.us-east-1.elb.amazonaws.com
 domain:macnewtech.com
 domain:macresource.co.uk
+domain:macrotek.ru
 domain:mactechinfo.info
 domain:madot.onlinewebshop.net
 domain:mafcards.ru
@@ -2962,6 +2972,7 @@ domain:midst.eu
 domain:mielec.pl
 domain:migente.com
 domain:mikrobiologies.ru
+domain:mil-stak.com
 domain:milblueprint.com
 domain:militarysale.pro
 domain:millionare.com
@@ -3946,6 +3957,7 @@ domain:rvzr-a.akamaihd.net
 domain:rybalka-opt.ru
 domain:ryetaw.com
 domain:s-iwantyou.com
+domain:s.lollypopgaming.com
 domain:s8-nowy-wygraj.comli.com
 domain:sa-live.com
 domain:sabaapress.com
@@ -3953,6 +3965,7 @@ domain:sabizonline.com
 domain:sack.net
 domain:sad-torg.com.ua
 domain:sadaholding.com
+domain:saddiechoua.com
 domain:sady-urala.ru
 domain:safe-app.net
 domain:saitevpatorii.com
@@ -4185,6 +4198,7 @@ domain:shop.acim.org
 domain:shop.xz618.com
 domain:shopcheermakeup.info
 domain:shoplvlv.us
+domain:shopperifymac.com
 domain:shoppingjequiti.com.br
 domain:shoppingmiracles.co.uk
 domain:shoppytoolmac.com
@@ -4414,6 +4428,7 @@ domain:steelmaster.lv
 domain:stefanbakosab.se
 domain:stevemonsen.com
 domain:stickers-market.ru
+domain:stillmiracle.com
 domain:stmassage.ru
 domain:stockquotes.wooeb.com
 domain:stoki.ru
@@ -4527,6 +4542,7 @@ domain:tdsing.ru
 domain:teastory.co
 domain:tech4master.com
 domain:techart24.com
+domain:technika-remont.ru
 domain:technopellet.gr
 domain:tecspb.ru
 domain:tedxrj.com

@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.07.798
-### Updated: Thu Jul 27 17:23:30 SAST 2017
-### Bad Bot Count: 502
+### Version: V3.2017.07.799
+### Updated: Fri Jul 28 14:21:25 SAST 2017
+### Bad Bot Count: 504
 ###################################################
 ### Version Information ##
 
@@ -142,6 +142,8 @@ Disallow:/
 User-agent: cognitiveseo
 Disallow:/
 User-agent: Collector
+Disallow:/
+User-agent: com.plumanalytics
 Disallow:/
 User-agent: Copier
 Disallow:/
@@ -610,6 +612,8 @@ Disallow:/
 User-agent: Pixray
 Disallow:/
 User-agent: PleaseCrawl
+Disallow:/
+User-agent: plumanalytics
 Disallow:/
 User-agent: Pockey
 Disallow:/

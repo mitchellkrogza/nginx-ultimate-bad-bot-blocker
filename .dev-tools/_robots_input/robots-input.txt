@@ -65,6 +65,7 @@ Cliqzbot
 Cogentbot
 cognitiveseo
 Collector
+com.plumanalytics
 Copier
 CopyRightCheck
 Copyscape
@@ -299,6 +300,7 @@ Pimonster
 Pi-Monster
 Pixray
 PleaseCrawl
+plumanalytics
 Pockey
 POE-Component-Client-HTTP
 Probethenet
