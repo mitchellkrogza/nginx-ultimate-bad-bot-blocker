@@ -2642,6 +2642,7 @@
 "~*kvartiry\-remont\.ucoz\.ru" 	1;
 "~*kw21\.org" 	1;
 "~*kwzf\.net" 	1;
+"~*laapp\.com" 	1;
 "~*labelwater\.se" 	1;
 "~*labplus\.ru" 	1;
 "~*labvis\.host\.sk" 	1;

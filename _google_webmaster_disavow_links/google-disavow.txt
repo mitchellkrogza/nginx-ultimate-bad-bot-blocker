@@ -2643,6 +2643,7 @@ domain:kvartiry-remont.ucoz.ru
 domain:kw21.org
 domain:kwzf.net
 domain:la-fa.ru
+domain:laapp.com
 domain:labelwater.se
 domain:labplus.ru
 domain:labvis.host.sk
