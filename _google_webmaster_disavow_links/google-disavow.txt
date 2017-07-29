@@ -35,6 +35,7 @@ domain:1bet.com
 domain:1flag.co.za
 domain:1hwy.com
 domain:1j7740kd.website
+domain:1kdailyprofit.me
 domain:1kinobig.ru
 domain:1millionusd.xyz
 domain:1pamm.ru
@@ -143,6 +144,7 @@ domain:aaronabel.com
 domain:abbanreddy.com
 domain:abcdefh.xyz
 domain:abcdeg.xyz
+domain:abcguru.xyz
 domain:abclauncher.com
 domain:abctoppictures.net
 domain:abiente.ru
@@ -2689,6 +2691,7 @@ domain:lechenie-gemorroya.com
 domain:ledis.top
 domain:ledpolice.ru
 domain:legalrc.biz
+domain:legionalpha.com
 domain:lego4x4.ru
 domain:lenvred.org
 domain:lernur.net
@@ -3029,6 +3032,7 @@ domain:moetomnenie.com
 domain:moi-glazki.ru
 domain:moivestiy.biz
 domain:mojaocena.com
+domain:moje-recenze.cz
 domain:mojowhois.com
 domain:mojpregled.com
 domain:mojpreskumanie.com
@@ -3564,6 +3568,7 @@ domain:plohaya-kreditnaya-istoriya.ru
 domain:plusnetwork.com
 domain:pobeiranie.pl
 domain:pochemychka.net
+domain:pochtovyi-index.ru
 domain:podshipniki-nsk.ru
 domain:podshipniki-ntn.ru
 domain:poems.com.ua
@@ -3970,6 +3975,7 @@ domain:saddiechoua.com
 domain:sady-urala.ru
 domain:safe-app.net
 domain:saitevpatorii.com
+domain:sajatvelemeny.com
 domain:sakhboard.ru
 domain:sale-japan.com
 domain:saletool.ru

@@ -35,6 +35,7 @@
 "~*1\-free\-share\-buttons\.com" 	1;
 "~*1hwy\.com" 	1;
 "~*1j7740kd\.website" 	1;
+"~*1kdailyprofit\.me" 	1;
 "~*1kinobig\.ru" 	1;
 "~*1millionusd\.xyz" 	1;
 "~*1pamm\.ru" 	1;
@@ -142,6 +143,7 @@
 "~*abbanreddy\.com" 	1;
 "~*abcdefh\.xyz" 	1;
 "~*abcdeg\.xyz" 	1;
+"~*abcguru\.xyz" 	1;
 "~*abclauncher\.com" 	1;
 "~*abctoppictures\.net" 	1;
 "~*abiente\.ru" 	1;
@@ -2689,6 +2691,7 @@
 "~*ledis\.top" 	1;
 "~*ledpolice\.ru" 	1;
 "~*legalrc\.biz" 	1;
+"~*legionalpha\.com" 	1;
 "~*lego4x4\.ru" 	1;
 "~*lenvred\.org" 	1;
 "~*lernur\.net" 	1;
@@ -3029,6 +3032,7 @@
 "~*moi\-glazki\.ru" 	1;
 "~*moivestiy\.biz" 	1;
 "~*mojaocena\.com" 	1;
+"~*moje\-recenze\.cz" 	1;
 "~*mojowhois\.com" 	1;
 "~*mojpregled\.com" 	1;
 "~*mojpreskumanie\.com" 	1;
@@ -3564,6 +3568,7 @@
 "~*pl\-vouchers\.com" 	1;
 "~*pobeiranie\.pl" 	1;
 "~*pochemychka\.net" 	1;
+"~*pochtovyi\-index\.ru" 	1;
 "~*podshipniki\-nsk\.ru" 	1;
 "~*podshipniki\-ntn\.ru" 	1;
 "~*poems\.com\.ua" 	1;
@@ -3967,6 +3972,7 @@
 "~*sady\-urala\.ru" 	1;
 "~*safe\-app\.net" 	1;
 "~*saitevpatorii\.com" 	1;
+"~*sajatvelemeny\.com" 	1;
 "~*sakhboard\.ru" 	1;
 "~*sale\-japan\.com" 	1;
 "~*saletool\.ru" 	1;
