@@ -327,19 +327,19 @@ Run the following commands one by one from a terminal on another linux machine a
 
 `curl -A "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)" http://yourdomain.com`
 
-Should respond with 200 OK
+**Should respond with 200 OK**
 
 `curl -A "Xenu Link Sleuth/1.3.8" http://yourdomain.com`
 
 `curl -A "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)" http://yourdomain.com`
 
-Should respond with: curl: (52) Empty reply from server
+**Should respond with: curl: (52) Empty reply from server**
 
 `curl -I http://yourdomain.com -e http://100dollars-seo.com`
 
 `curl -I http://yourdomain.com -e http://zx6.ru`
 
-Should respond with: curl: (52) Empty reply from server
+**Should respond with: curl: (52) Empty reply from server**
 
 The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 
