@@ -223,7 +223,7 @@ sudo service nginx reload
 # Make sure we test latest generated globalblacklist.conf
 # *******************************************************
 
-printf '\n%s\n%s\n%s\n\n' "####################################################" "Copy latest generated globalblacklist.conf file to test for errors" "####################################################"
+printf '\n%s\n%s\n%s\n\n' "##############################################################################" "Copy latest generated globalblacklist.conf file to test for any compile errors" "##############################################################################"
 sudo cp $TRAVIS_BUILD_DIR/conf.d/globalblacklist.conf /usr/local/nginx/conf.d/globalblacklist.conf
 
 # *********************

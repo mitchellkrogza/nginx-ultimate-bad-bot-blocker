@@ -61,20 +61,6 @@ git config --global push.default simple
 
 git checkout master
 
-# ***************************************************
-# Modify our files with build and version information
-# ***************************************************
-
-# Now Moved to an earlier phase of the build
-
-#php ./.dev-tools/generate-regex-format-referrers.php
-#sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-blacklist.sh
-#sudo $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
-#sudo $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
-#sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
-#sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
-#php ./.dev-tools/generate-google-exclude.php
-
 # ***************************************************************
 # Gzip Our Latest Release So We can Include it the Travis Release
 # ***************************************************************
