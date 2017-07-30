@@ -234,6 +234,7 @@ domain:advertex.info
 domain:advertisingtag.net
 domain:adviceforum.info
 domain:advocatemsk.ru
+domain:advokat-grodno.by
 domain:advokateg.ru
 domain:advokateg.xyz
 domain:adzerg.com
@@ -2614,6 +2615,7 @@ domain:kostenlos-sexvideos.com
 domain:kostenloser-sex.com
 domain:kosynka-games.ru
 domain:kotaku.com
+domain:koversite.info
 domain:kovesszucs.atw.hu
 domain:kozhniebolezni.com
 domain:krafte.ru
@@ -3227,6 +3229,7 @@ domain:nfljerseys.online
 domain:nfljerseyscheapbiz.us
 domain:nfljerseyscheapchinabiz.com
 domain:nfljerseysforsalewholesaler.com
+domain:nfvsz.com
 domain:ngps1.ru
 domain:nhl09.ru
 domain:nhl17coins.exblog.jp
@@ -3409,6 +3412,7 @@ domain:owathemes.com
 domain:ownshop.cf
 domain:owohho.com
 domain:oxford-book.com.ua
+domain:oxotl.com
 domain:oynat.info
 domain:oz-offers.com
 domain:ozas.net

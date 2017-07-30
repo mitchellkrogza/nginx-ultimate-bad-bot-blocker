@@ -234,6 +234,7 @@
 "~*advocatemsk\.ru" 	1;
 "~*advokateg\.ru" 	1;
 "~*advokateg\.xyz" 	1;
+"~*advokat\-grodno\.by" 	1;
 "~*ad\-words\.ru" 	1;
 "~*adzerg\.com" 	1;
 "~*adzpower\.com" 	1;
@@ -2614,6 +2615,7 @@
 "~*kostenlos\-sexvideos\.com" 	1;
 "~*kosynka\-games\.ru" 	1;
 "~*kotaku\.com" 	1;
+"~*koversite\.info" 	1;
 "~*kovesszucs\.atw\.hu" 	1;
 "~*kozhniebolezni\.com" 	1;
 "~*krafte\.ru" 	1;
@@ -3227,6 +3229,7 @@
 "~*nfljerseyscheapchinabiz\.com" 	1;
 "~*nfljerseysforsalewholesaler\.com" 	1;
 "~*nfljerseys\.online" 	1;
+"~*nfvsz\.com" 	1;
 "~*ngps1\.ru" 	1;
 "~*nhl09\.ru" 	1;
 "~*nhl17coins\.exblog\.jp" 	1;
@@ -3409,6 +3412,7 @@
 "~*ownshop\.cf" 	1;
 "~*owohho\.com" 	1;
 "~*oxford\-book\.com\.ua" 	1;
+"~*oxotl\.com" 	1;
 "~*oynat\.info" 	1;
 "~*ozas\.net" 	1;
 "~*oz\-offers\.com" 	1;
