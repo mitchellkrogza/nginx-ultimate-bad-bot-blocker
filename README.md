@@ -47,34 +47,25 @@ Please make sure you are subscribed to notifications to be notified when the blo
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-1.png"/>
 
-Download the install, setup and update scripts to your /usr/sbin/ directory and make the scripts executable
+Download install-ngxblocker to your /usr/sbin/directory and make the script executable.
 
 ```
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O /usr/sbin/setup-ngxblocker
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O /usr/sbin/update-ngxblocker
 sudo chmod +x /usr/sbin/install-ngxblocker
-sudo chmod +x /usr/sbin/setup-ngxblocker
-sudo chmod +x /usr/sbin/update-ngxblocker
 ```
 
-**setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line.** 
-
-**Run any of the setup, install or update scripts with --help or -h to view options.**
-
-If your Linux distribution does not have wget you can replace the wget commands above using curl as follows:
+If your Linux distribution does not have wget you can replace the wget command above using curl as follows:
 
 ```
 curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -o /usr/sbin/install-ngxblocker
-curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -o /usr/sbin/setup-ngxblocker
-curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -o /usr/sbin/update-ngxblocker
 ```
 
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-2.png"/>
 
-Now run the install-ngxblocker script in DRY-MODE which will show you what changes it will make and what files it will download for you. This is only a DRY-RUN so no changes are being made yet.
+Now run the install-ngxblocker script in DRY-MODE which will show you what changes it will make and what files it will download for you. This is only a DRY-RUN so no changes are being made yet. 
 
+The install-ngxblocker downloads all required files including the setup and update scripts.
 
 ```
 cd /usr/sbin
@@ -87,8 +78,9 @@ This will show you output as follows of the changes that will be made
 ```
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
-** Dry Run ** | -x or --exec to download files
+** Dry Run ** | not updating files | run  as 'install-ngxblocker -x' to install files.
 
+Creating directory: /etc/nginx/bots.d
 
 REPO = https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 
@@ -105,6 +97,11 @@ Downloading [FROM]=>  [REPO]/bots.d/blacklist-user-agents.conf  [TO]=>  /etc/ngi
 Downloading [FROM]=>  [REPO]/bots.d/blacklist-ips.conf          [TO]=>  /etc/nginx/bots.d/blacklist-ips.conf
 Downloading [FROM]=>  [REPO]/bots.d/bad-referrer-words.conf     [TO]=>  /etc/nginx/bots.d/bad-referrer-words.conf
 Downloading [FROM]=>  [REPO]/bots.d/custom-bad-referrers.conf   [TO]=>  /etc/nginx/bots.d/custom-bad-referrers.conf
+
+REPO = https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+
+Downloading [FROM]=>  [REPO]/setup-ngxblocker      [TO]=>  /usr/sbin/setup-ngxblocker
+Downloading [FROM]=>  [REPO]/update-ngxblocker     [TO]=>  /usr/sbin/update-ngxblocker
 ```
 
 **setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line.** 
@@ -126,6 +123,7 @@ This will give you the following output:
 ```
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
+Creating directory: /etc/nginx/bots.d
 
 REPO = https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 
@@ -142,9 +140,21 @@ Downloading [FROM]=>  [REPO]/bots.d/blacklist-user-agents.conf  [TO]=>  /etc/ngi
 Downloading [FROM]=>  [REPO]/bots.d/blacklist-ips.conf          [TO]=>  /etc/nginx/bots.d/blacklist-ips.conf...OK
 Downloading [FROM]=>  [REPO]/bots.d/bad-referrer-words.conf     [TO]=>  /etc/nginx/bots.d/bad-referrer-words.conf...OK
 Downloading [FROM]=>  [REPO]/bots.d/custom-bad-referrers.conf   [TO]=>  /etc/nginx/bots.d/custom-bad-referrers.conf...OK
+
+REPO = https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+
+Downloading [FROM]=>  [REPO]/setup-ngxblocker      [TO]=>  /usr/sbin/setup-ngxblocker...OK
+Downloading [FROM]=>  [REPO]/update-ngxblocker     [TO]=>  /usr/sbin/update-ngxblocker...OK
 ```
 
-The required files have now been downloaded to the correct folders on Nginx for you direct from the repository.
+All the required files have now been downloaded to the correct folders on Nginx for you direct from the repository.
+
+**MAKE SURE you set your setup and update scripts to be executable by running the following two commands. This is important before continuing with Step 4 and onwards.**
+
+```
+sudo chmod +x /usr/sbin/setup-ngxblocker
+sudo chmod +x /usr/sbin/update-ngxblocker
+```
 
 **setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line.** 
 
@@ -166,19 +176,15 @@ All Nginx installations I know of have this default include in the nginx.conf fi
 ```
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
-** Dry Run ** | not updating files | -x or --exec to change files
+** Dry Run ** | not updating files | run  as 'setup-ngxblocker -x' to setup files.
 
 INFO:      /etc/nginx/conf.d/* detected               => /etc/nginx/nginx.conf
-inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/default.vhost
-inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/default.vhost
-inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site1.com.vhost
-inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site1.com.vhost
-inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site3.com.vhost
-inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site3.com.vhost
-inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site2.com.vhost
-inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site2.com.vhost
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/mydomain2.com.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/mydomain2.com.vhost
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/mydomain1.com.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/mydomain1.com.vhost
 
-Whitelisting ip:  x.x.x.x    => /etc/nginx/bots.d/whitelist-ips.conf
+Whitelisting ip:  x.x.x.x  => /etc/nginx/bots.d/whitelist-ips.conf
 ```
 
 This script also whitelists your IP in the whitelist-ips.conf file for you. 
@@ -213,21 +219,17 @@ You will see output as follows:
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
 INFO:      /etc/nginx/conf.d/* detected               => /etc/nginx/nginx.conf
-inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/default.vhost
-inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/default.vhost
-inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site1.com.vhost
-inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site1.com.vhost
-inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site3.com.vhost
-inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site3.com.vhost
-inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/site2.com.vhost
-inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/site2.com.vhost
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/mydomain2.com.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/mydomain2.com.vhost
+inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/mydomain1.com.vhost
+inserting: include /etc/nginx/bots.d/ddos.conf;       => /etc/nginx/sites-available/mydomain1.com.vhost
 
-Whitelisting ip:  x.x.x.x    => /etc/nginx/bots.d/whitelist-ips.conf
+Whitelisting ip:  x.x.x.x  => /etc/nginx/bots.d/whitelist-ips.conf
 ```
 
 You will note it has done the includes in all the .vhost files on my test bed server and also whitelisted your own IP address in the whitelist-ips.conf file for you. Further IP's or IP ranges can be added to your customizable whitelits-ips.conf file located in /etc/nginx/bots.d/whitelist-ips.conf.
 
-What this setup script has done has added the following include statements into your .vhost files for you.
+What this setup script has done has simply added the following include statements into your .vhost files for you.
 
 ```
 # Bad Bot Blocker
@@ -322,13 +324,15 @@ All include files are commented for your convenience.
 Run the following commands one by one from a terminal on another linux machine against your own domain name. 
 **substitute yourdomain.com in the examples below with your REAL domain name**
 
-`curl -A "googlebot" http://yourdomain.com`
+`curl -A "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" http://yourdomain.com`
+
+`curl -A "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)" http://yourdomain.com`
 
 Should respond with 200 OK
 
-`curl -A "80legs" http://yourdomain.com`
+`curl -A "Xenu Link Sleuth/1.3.8" http://yourdomain.com`
 
-`curl -A "masscan" http://yourdomain.com`
+`curl -A "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)" http://yourdomain.com`
 
 Should respond with: curl: (52) Empty reply from server
 
@@ -648,6 +652,7 @@ Thousand of hours of programming and testing have gone into this project, show s
 - https://github.com/mitchellkrogza/Travis-CI-for-Apache-For-Testing-Apache-and-PHP-Configurations
 - https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
 - https://github.com/funilrys/funceble
+- https://github.com/funilrys/dead-hosts
 
 ************************************************
 ### ALSO CHECKOUT THE NEW BIG LIST OF HACKED MALWARE & WORDPRESS WEB SITES
