@@ -3,7 +3,7 @@
 # EASY CONFIGURATION INSTRUCTIONS FOR STOPPING GOOGLE ANALYTICS "GHOST" SPAM
 
 _______________
-#### Version: V3.2017.07.805
+#### Version: V3.2017.07.806
 #### Bad Referrer Count: 5504
 #### Bad Bot Count: 504
 ____________________
