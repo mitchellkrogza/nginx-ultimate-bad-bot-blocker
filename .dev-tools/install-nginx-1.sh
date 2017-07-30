@@ -186,24 +186,25 @@ sudo bash ./setup-ngxblocker -x
 printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
 sudo service nginx reload
 
+# *******************************************************
+# Make sure we test latest generated globalblacklist.conf
+# *******************************************************
+
+printf '\n%s\n%s\n%s\n\n' "####################################################" "Copy latest generated globalblacklist.conf file to test for errors" "####################################################"
+sudo cp $TRAVIS_BUILD_DIR/conf.d/globalblacklist.conf /etc/nginx/conf.d/globalblacklist.conf
+
+# *********************
+# Force reload of Nginx
+# *********************
+
+printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
+sudo service nginx reload
+
+# **********************
+# Now Run our Curl Tests
+# **********************
+
 printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "######################"
-
-# ***********************************************************
-# Set all our other setup and deploy scripts to be executable
-# ***********************************************************
-
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/deploy-package.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-blacklist.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-google-exclude.php
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-regex-format-referrers.php
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-files-and-commit.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests-1.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests-2.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-2.sh
 
 # ************************************************************
 # Copy all .conf files used in Test 1 to a folder for checking

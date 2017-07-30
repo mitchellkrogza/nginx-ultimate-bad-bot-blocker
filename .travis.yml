@@ -34,6 +34,7 @@ install:
   - sudo apt-get install -y --assume-yes nginx-extras
 
 script:
+  - bash .dev-tools/generate-files.sh
   - bash .dev-tools/install-nginx-1.sh
   - bash .dev-tools/run-curl-tests-1.sh
   - bash .dev-tools/install-nginx-2.sh

@@ -27,90 +27,38 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# ******************
-# Set Some Variables
-# ******************
+# *****************************************************
+# Set all our setup and deploy scripts to be executable
+# *****************************************************
 
-YEAR=$(date +"%Y")
-MONTH=$(date +"%m")
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/deploy-package.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-blacklist.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-files.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-google-exclude.php
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-regex-format-referrers.php
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-files-and-commit.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests-1.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests-2.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-2.sh
+
 cd $TRAVIS_BUILD_DIR
-
-# *******************************
-# Remove Remote Added by TravisCI
-# *******************************
-
-git remote rm origin
-
-# **************************
-# Add Remote with Secure Key
-# **************************
-
-git remote add origin https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git
-
-# *********************
-# Set Our Git Variables
-# *********************
-
-git config --global user.email "${GIT_EMAIL}"
-git config --global user.name "${GIT_NAME}"
-git config --global push.default simple
-
-# *******************************************
-# Make sure we have checked out master branch
-# *******************************************
-
-git checkout master
 
 # ***************************************************
 # Modify our files with build and version information
 # ***************************************************
 
-# Now Moved to an earlier phase of the build
+php ./.dev-tools/generate-regex-format-referrers.php
+sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-blacklist.sh
+sudo $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
+sudo $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
+sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
+sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
+php ./.dev-tools/generate-google-exclude.php
 
-#php ./.dev-tools/generate-regex-format-referrers.php
-#sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-blacklist.sh
-#sudo $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
-#sudo $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
-#sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
-#sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
-#php ./.dev-tools/generate-google-exclude.php
-
-# ***************************************************************
-# Gzip Our Latest Release So We can Include it the Travis Release
-# ***************************************************************
-
-cd $TRAVIS_BUILD_DIR/.latest_release/
-tar -czf conf.d.tar.gz -C $TRAVIS_BUILD_DIR/conf.d/ .
-tar -czf bots.d.tar.gz -C $TRAVIS_BUILD_DIR/bots.d/ .
-
-# *************************************
-# Add all the modified files and commit
-# *************************************
-
-git add -A
-git commit -am "V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER [ci skip]"
-
-# ***************************************************
-# Try pushing changes to Google Ghost Spam Repository
-# ***************************************************
-
-#cd /tmp/
-#sudo git clone https://github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO.git
-#sudo cp $TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list /tmp/Stop.Google.Analytics.Ghost.Spam.HOWTO/.dev-tools/_input_source/bad-referrers.list
-#cd /tmp/Stop.Google.Analytics.Ghost.Spam.HOWTO/
-#ls -la
-#sudo git remote -v
-#sudo git remote rm origin
-#sudo git remote add origin https://${GOOGLESPAM_TOKEN}@github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO.git
-#sudo git remote -v
-#sudo git add -A
-#sudo git commit -am "Referrers (+)"
-#sudo git push origin master
-
-
-# *************************************************************
-# Travis now moves to the before_deploy: section of .travis.yml
-# *************************************************************
 
 # MIT License
 

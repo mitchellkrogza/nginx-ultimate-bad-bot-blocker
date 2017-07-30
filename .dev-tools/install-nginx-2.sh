@@ -218,6 +218,25 @@ sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/b
 
 printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
 sudo service nginx reload
+
+# *******************************************************
+# Make sure we test latest generated globalblacklist.conf
+# *******************************************************
+
+printf '\n%s\n%s\n%s\n\n' "####################################################" "Copy latest generated globalblacklist.conf file to test for errors" "####################################################"
+sudo cp $TRAVIS_BUILD_DIR/conf.d/globalblacklist.conf /usr/local/nginx/conf.d/globalblacklist.conf
+
+# *********************
+# Force reload of Nginx
+# *********************
+
+printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
+sudo service nginx reload
+
+# **********************
+# Now Run our Curl Tests
+# **********************
+
 printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "######################"
 
 # ************************************************************
