@@ -27,6 +27,7 @@
 "~*12bet\.com" 	1;
 "~*12masterov\.com" 	1;
 "~*1314dh\.com" 	1;
+"~*13tabs\.com" 	1;
 "~*178evakuator178\.ru" 	1;
 "~*1\-99seo\.com" 	1;
 "~*1adult\.com" 	1;
@@ -309,6 +310,7 @@
 "~*alloysteel\.ru" 	1;
 "~*allpdfmags\.net" 	1;
 "~*allsilver925\.co\.il" 	1;
+"~*allstatesugarbowl\.org" 	1;
 "~*all\-streaming\-media\.com" 	1;
 "~*alltheviews\.com" 	1;
 "~*allwidewallpapers\.com" 	1;
@@ -334,6 +336,7 @@
 "~*amazingninja\.com" 	1;
 "~*amazon\-adsystem\.com" 	1;
 "~*amazon\-seo\-service\.com" 	1;
+"~*ameblo\.jp" 	1;
 "~*amehdaily\.com" 	1;
 "~*amigobulls\.com" 	1;
 "~*amoi\.tn" 	1;
@@ -563,6 +566,7 @@
 "~*babespcs\.com" 	1;
 "~*babieca\.com" 	1;
 "~*bablonow\.ru" 	1;
+"~*babs\.com\.ua" 	1;
 "~*babyfactory\.fr" 	1;
 "~*babyguns\.ru" 	1;
 "~*back\.dog" 	1;
@@ -954,6 +958,7 @@
 "~*cartierwatch\.xyz" 	1;
 "~*cartujano\-pre\.de" 	1;
 "~*casablancamanor\.co\.za" 	1;
+"~*cascadelink\.org" 	1;
 "~*cashkitten\-a\.akamaihd\.net" 	1;
 "~*cashonads\.com" 	1;
 "~*casinorewards\.info" 	1;
@@ -1016,6 +1021,7 @@
 "~*cheapmoncler\.win" 	1;
 "~*cheap\-pills\-norx\.com" 	1;
 "~*cheapsergiorossi\.online" 	1;
+"~*cheapwebsitehoster\.com" 	1;
 "~*cheatcode\-lita12\.rhcloud\.com" 	1;
 "~*checkhit\.com" 	1;
 "~*checkm8\.com" 	1;
@@ -1115,6 +1121,7 @@
 "~*coldfilm\.ru" 	1;
 "~*colehaanoutlet\.store" 	1;
 "~*collegeessay19\.blogspot\.ru" 	1;
+"~*collegerentals\.com" 	1;
 "~*co\.lumb\.co" 	1;
 "~*cometorussia\.net" 	1;
 "~*comissionka\.net" 	1;
@@ -1166,6 +1173,7 @@
 "~*compliance\-walt\.top" 	1;
 "~*compliance\-willy\.top" 	1;
 "~*compucelunlock\.net" 	1;
+"~*computernetworksonline\.com" 	1;
 "~*com\-secure\.download" 	1;
 "~*com\-supportcenter\.website" 	1;
 "~*comsysnet\.com" 	1;
@@ -1173,6 +1181,7 @@
 "~*conciergegroup\.org" 	1;
 "~*concordexoticrentals\.com" 	1;
 "~*confib\.ifmo\.ru" 	1;
+"~*connectingsingles\.com" 	1;
 "~*connectionstrenth\.com" 	1;
 "~*conocer\-sanabria\.com" 	1;
 "~*consorzioilmosaico\.org" 	1;
@@ -1195,6 +1204,7 @@
 "~*coolyarddecorations\.com" 	1;
 "~*coop\-gamers\.ru" 	1;
 "~*copblock\.org" 	1;
+"~*copro\.pw" 	1;
 "~*copypaste\.traderzplanet\.in" 	1;
 "~*copyrightclaims\.org" 	1;
 "~*cordstrap\.cc" 	1;
@@ -1334,6 +1344,7 @@
 "~*detskie\-konstruktory\.ru" 	1;
 "~*detskie\-zabavi\.ru" 	1;
 "~*deutschehobbyhuren\.net" 	1;
+"~*deutschland123\.de" 	1;
 "~*dev33\.dioniqlabb\.se" 	1;
 "~*dev78\.dioniqlabb\.se" 	1;
 "~*devochki\.top" 	1;
@@ -1540,6 +1551,7 @@
 "~*elektrozigaretten1\.tumblr\.com" 	1;
 "~*elektrozigaretten1\.webs\.com" 	1;
 "~*elektrozigaretten2\.yn\.lt" 	1;
+"~*eliasonrealty\.com" 	1;
 "~*elidelcream\.weebly\.com" 	1;
 "~*elitedollars\.com" 	1;
 "~*elitepcgames\.com" 	1;
@@ -1771,6 +1783,7 @@
 "~*findpik\.com" 	1;
 "~*findsexguide\.com" 	1;
 "~*findthe\.pet" 	1;
+"~*finemanteam\.com" 	1;
 "~*finstroy\.net" 	1;
 "~*finteks\.ru" 	1;
 "~*finuse\.com" 	1;
@@ -1928,6 +1941,7 @@
 "~*gallery\.rennlist\.com" 	1;
 "~*gallictures\.com" 	1;
 "~*gamblingnerd\.com" 	1;
+"~*gamedayassist\.com" 	1;
 "~*gamedayhouse\.com" 	1;
 "~*game\-mmorpg\.net" 	1;
 "~*gameonasia\.com" 	1;
@@ -2190,6 +2204,7 @@
 "~*herokuapp\.com" 	1;
 "~*hesteel\.pl" 	1;
 "~*hetmanship\.xyz" 	1;
+"~*heygidday\.biz" 	1;
 "~*hidefiles\.org" 	1;
 "~*hidemyass\.com" 	1;
 "~*hifidesign\.ru" 	1;
@@ -2465,6 +2480,7 @@
 "~*javitas\.info" 	1;
 "~*javrip\.net" 	1;
 "~*jaxcube\.info" 	1;
+"~*jbl\-charge\.info" 	1;
 "~*je7\.us" 	1;
 "~*jennyfire\.ru" 	1;
 "~*jerseychinabizwholesale\.com" 	1;
@@ -2493,6 +2509,8 @@
 "~*journalhome\.com" 	1;
 "~*journeydownthescale\.info" 	1;
 "~*jpcycles\.com" 	1;
+"~*jrcigars\.com" 	1;
+"~*jrpmakati\.com" 	1;
 "~*j\-times\.ru" 	1;
 "~*juliadiets\.com" 	1;
 "~*juliaworld\.net" 	1;
@@ -2615,6 +2633,7 @@
 "~*kostenlos\-sexvideos\.com" 	1;
 "~*kosynka\-games\.ru" 	1;
 "~*kotaku\.com" 	1;
+"~*kountrylife\.com" 	1;
 "~*koversite\.info" 	1;
 "~*kovesszucs\.atw\.hu" 	1;
 "~*kozhniebolezni\.com" 	1;
@@ -2884,6 +2903,7 @@
 "~*master\-muznachas\.ru" 	1;
 "~*masterseek\.com" 	1;
 "~*mastershef\.club" 	1;
+"~*masthopehomes\.com" 	1;
 "~*masturbate\.co\.uk" 	1;
 "~*matb3aa\.com" 	1;
 "~*matchpal\-a\.akamaihd\.net" 	1;
@@ -3013,6 +3033,7 @@
 "~*mmofreegames\.online" 	1;
 "~*mmog\-play\.ru" 	1;
 "~*mmoguider\.ru" 	1;
+"~*mmostrike\.ru" 	1;
 "~*mmstat\.com" 	1;
 "~*mncrftpcs\.com" 	1;
 "~*mnogabukaff\.net" 	1;
@@ -3312,6 +3333,7 @@
 "~*office\-windows\.ru" 	1;
 "~*offside2\.5v\.pl" 	1;
 "~*offtime\.ru" 	1;
+"~*offtopic\.biz" 	1;
 "~*ohmyrings\.com" 	1;
 "~*oil\-td\.ru" 	1;
 "~*okel\.co" 	1;
@@ -3397,6 +3419,7 @@
 "~*ororodnik\.goodbb\.ru" 	1;
 "~*orsonet\.ru" 	1;
 "~*osb\.se11\.ru" 	1;
+"~*osnova3\.ru" 	1;
 "~*osoznanie\-narkotikam\.net" 	1;
 "~*ossmalta\.com" 	1;
 "~*ostroike\.org" 	1;
@@ -3856,6 +3879,7 @@
 "~*registratciya\-v\-moskve\.ru" 	1;
 "~*registry\-cleaner\.net" 	1;
 "~*registry\-clean\-up\.net" 	1;
+"~*registrydomainservices\.com" 	1;
 "~*registrysweeper\.com" 	1;
 "~*reimageplus\.com" 	1;
 "~*reklama1\.ru" 	1;
@@ -3881,6 +3905,7 @@
 "~*rennlist\.com" 	1;
 "~*rentaremotecomputer\.com" 	1;
 "~*rentehno\.ru" 	1;
+"~*rep\-am\.com" 	1;
 "~*repeatlogo\.co\.uk" 	1;
 "~*replicaclub\.ru" 	1;
 "~*replicalouboutin\.xyz" 	1;
@@ -4078,6 +4103,7 @@
 "~*searchengineranker\.email" 	1;
 "~*search\-error\.com" 	1;
 "~*searchimage\.co" 	1;
+"~*searchimpression\.com" 	1;
 "~*searchinquire\.com" 	1;
 "~*searchinterneat\-a\.akamaihd\.net" 	1;
 "~*searchkut\.com" 	1;
@@ -4420,6 +4446,7 @@
 "~*stairliftsarea\.com" 	1;
 "~*stairliftstrue\.com" 	1;
 "~*stal\-rulon\.ru" 	1;
+"~*standardchartered\-forex\.com" 	1;
 "~*stanthonyscatholicchurch\.org" 	1;
 "~*star61\.de" 	1;
 "~*stardevine\.com" 	1;
@@ -4891,6 +4918,7 @@
 "~*url2image\.com" 	1;
 "~*urlcut\.ru" 	1;
 "~*url\-img\.link" 	1;
+"~*urll\.eu" 	1;
 "~*urlopener\.blogspot\.com\.au" 	1;
 "~*urlopener\.com" 	1;
 "~*uroffer\.link" 	1;
@@ -4919,6 +4947,7 @@
 "~*valkiria\-tk\.ru" 	1;
 "~*valmetrundan\.se" 	1;
 "~*valoresito\.com" 	1;
+"~*valsalud\.com" 	1;
 "~*valuado\.com" 	1;
 "~*valueclick\.com" 	1;
 "~*vancleefreplica\.pw" 	1;
@@ -5075,6 +5104,7 @@
 "~*watchmyfb\.pl" 	1;
 "~*watchmygf\.net" 	1;
 "~*waterpurifier\.club" 	1;
+"~*watsonrealtycorp\.com" 	1;
 "~*waycash\.net" 	1;
 "~*wcb\.su" 	1;
 "~*wdfdocando\.com" 	1;
@@ -5114,6 +5144,7 @@
 "~*websitevaluebot\.com" 	1;
 "~*webtherapy\.ru" 	1;
 "~*weburlopener\.com" 	1;
+"~*weburok\.com" 	1;
 "~*wechatdownload10\.com" 	1;
 "~*weclipart\.com" 	1;
 "~*wedding0venues\.tk" 	1;
@@ -5354,6 +5385,7 @@
 "~*yebocasino\.co\.za" 	1;
 "~*yellocloud\.be" 	1;
 "~*yellowads\.men" 	1;
+"~*yellowfootprints\.com" 	1;
 "~*yellowstonesafaritours\.com" 	1;
 "~*yellowstonevisitortours\.com" 	1;
 "~*yhit\.press" 	1;

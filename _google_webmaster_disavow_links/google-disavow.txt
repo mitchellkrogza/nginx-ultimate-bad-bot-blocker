@@ -29,6 +29,7 @@ domain:123locker.com
 domain:12bet.com
 domain:12masterov.com
 domain:1314dh.com
+domain:13tabs.com
 domain:178evakuator178.ru
 domain:1adult.com
 domain:1bet.com
@@ -311,6 +312,7 @@ domain:allnews24.in
 domain:alloysteel.ru
 domain:allpdfmags.net
 domain:allsilver925.co.il
+domain:allstatesugarbowl.org
 domain:alltheviews.com
 domain:allwidewallpapers.com
 domain:allwomen.info
@@ -336,6 +338,7 @@ domain:amateurmatch.com
 domain:amazingninja.com
 domain:amazon-adsystem.com
 domain:amazon-seo-service.com
+domain:ameblo.jp
 domain:amehdaily.com
 domain:amigobulls.com
 domain:amoi.tn
@@ -564,6 +567,7 @@ domain:b2b-lounge.com
 domain:babespcs.com
 domain:babieca.com
 domain:bablonow.ru
+domain:babs.com.ua
 domain:babyfactory.fr
 domain:babyguns.ru
 domain:back.dog
@@ -956,6 +960,7 @@ domain:cartiertrinity.xyz
 domain:cartierwatch.xyz
 domain:cartujano-pre.de
 domain:casablancamanor.co.za
+domain:cascadelink.org
 domain:cashkitten-a.akamaihd.net
 domain:cashonads.com
 domain:casinorewards.info
@@ -1016,6 +1021,7 @@ domain:cheapmarmot.online
 domain:cheapmoncler.pw
 domain:cheapmoncler.win
 domain:cheapsergiorossi.online
+domain:cheapwebsitehoster.com
 domain:cheatcode-lita12.rhcloud.com
 domain:checkhit.com
 domain:checkm8.com
@@ -1116,6 +1122,7 @@ domain:coinsspb.com
 domain:coldfilm.ru
 domain:colehaanoutlet.store
 domain:collegeessay19.blogspot.ru
+domain:collegerentals.com
 domain:com-onlinesupport.host
 domain:com-onlinesupport.site
 domain:com-secure.download
@@ -1168,11 +1175,13 @@ domain:compliance-walt.top
 domain:compliance-walter.top
 domain:compliance-willy.top
 domain:compucelunlock.net
+domain:computernetworksonline.com
 domain:comsysnet.com
 domain:concealthyself.com
 domain:conciergegroup.org
 domain:concordexoticrentals.com
 domain:confib.ifmo.ru
+domain:connectingsingles.com
 domain:connectionstrenth.com
 domain:conocer-sanabria.com
 domain:consorzioilmosaico.org
@@ -1195,6 +1204,7 @@ domain:coolwallpapers-hd.com
 domain:coolyarddecorations.com
 domain:coop-gamers.ru
 domain:copblock.org
+domain:copro.pw
 domain:copypaste.traderzplanet.in
 domain:copyrightclaims.org
 domain:cordstrap.cc
@@ -1335,6 +1345,7 @@ domain:detki-opt.ru
 domain:detskie-konstruktory.ru
 domain:detskie-zabavi.ru
 domain:deutschehobbyhuren.net
+domain:deutschland123.de
 domain:dev-seo.blog
 domain:dev33.dioniqlabb.se
 domain:dev78.dioniqlabb.se
@@ -1542,6 +1553,7 @@ domain:elektrozigaretten1.postbit.com
 domain:elektrozigaretten1.tumblr.com
 domain:elektrozigaretten1.webs.com
 domain:elektrozigaretten2.yn.lt
+domain:eliasonrealty.com
 domain:elidelcream.weebly.com
 domain:elitedollars.com
 domain:elitepcgames.com
@@ -1773,6 +1785,7 @@ domain:findclan.org
 domain:findpik.com
 domain:findsexguide.com
 domain:findthe.pet
+domain:finemanteam.com
 domain:finstroy.net
 domain:finteks.ru
 domain:finuse.com
@@ -1931,6 +1944,7 @@ domain:gallictures.com
 domain:gamblingnerd.com
 domain:game-mmorpg.net
 domain:game-top.su
+domain:gamedayassist.com
 domain:gamedayhouse.com
 domain:gameonasia.com
 domain:gameplexcity.com
@@ -2190,6 +2204,7 @@ domain:hermesreplica.win
 domain:herokuapp.com
 domain:hesteel.pl
 domain:hetmanship.xyz
+domain:heygidday.biz
 domain:hidefiles.org
 domain:hidemyass.com
 domain:hifidesign.ru
@@ -2466,6 +2481,7 @@ domain:javatex.co.id
 domain:javitas.info
 domain:javrip.net
 domain:jaxcube.info
+domain:jbl-charge.info
 domain:je7.us
 domain:jennyfire.ru
 domain:jerseychinabizwholesale.com
@@ -2494,6 +2510,8 @@ domain:jongose.ninja
 domain:journalhome.com
 domain:journeydownthescale.info
 domain:jpcycles.com
+domain:jrcigars.com
+domain:jrpmakati.com
 domain:juliadiets.com
 domain:juliaworld.net
 domain:jumptap.com
@@ -2615,6 +2633,7 @@ domain:kostenlos-sexvideos.com
 domain:kostenloser-sex.com
 domain:kosynka-games.ru
 domain:kotaku.com
+domain:kountrylife.com
 domain:koversite.info
 domain:kovesszucs.atw.hu
 domain:kozhniebolezni.com
@@ -2885,6 +2904,7 @@ domain:masserect.com
 domain:master-muznachas.ru
 domain:masterseek.com
 domain:mastershef.club
+domain:masthopehomes.com
 domain:masturbate.co.uk
 domain:matb3aa.com
 domain:matchpal-a.akamaihd.net
@@ -3013,6 +3033,7 @@ domain:mmgq.ru
 domain:mmofreegames.online
 domain:mmog-play.ru
 domain:mmoguider.ru
+domain:mmostrike.ru
 domain:mmstat.com
 domain:mncrftpcs.com
 domain:mnogabukaff.net
@@ -3318,6 +3339,7 @@ domain:offf.info
 domain:office-windows.ru
 domain:offside2.5v.pl
 domain:offtime.ru
+domain:offtopic.biz
 domain:ohmyrings.com
 domain:oil-td.ru
 domain:ok-ua.info
@@ -3397,6 +3419,7 @@ domain:orion-v.com
 domain:ororodnik.goodbb.ru
 domain:orsonet.ru
 domain:osb.se11.ru
+domain:osnova3.ru
 domain:osoznanie-narkotikam.net
 domain:ossmalta.com
 domain:ostroike.org
@@ -3856,6 +3879,7 @@ domain:regionshop.biz
 domain:registratciya-v-moskve.ru
 domain:registry-clean-up.net
 domain:registry-cleaner.net
+domain:registrydomainservices.com
 domain:registrysweeper.com
 domain:reimageplus.com
 domain:reklama-i-rabota.ru
@@ -3881,6 +3905,7 @@ domain:renewablewealth.com
 domain:rennlist.com
 domain:rentaremotecomputer.com
 domain:rentehno.ru
+domain:rep-am.com
 domain:repeatlogo.co.uk
 domain:replica-watch.ru
 domain:replicaclub.ru
@@ -4084,6 +4109,7 @@ domain:search.xtconnect.com
 domain:searchencrypt.com
 domain:searchengineranker.email
 domain:searchimage.co
+domain:searchimpression.com
 domain:searchinquire.com
 domain:searchinterneat-a.akamaihd.net
 domain:searchkut.com
@@ -4420,6 +4446,7 @@ domain:staff.prairiesouth.ca
 domain:stairliftsarea.com
 domain:stairliftstrue.com
 domain:stal-rulon.ru
+domain:standardchartered-forex.com
 domain:stanthonyscatholicchurch.org
 domain:star61.de
 domain:stardevine.com
@@ -4891,6 +4918,7 @@ domain:urdoot.win
 domain:url-img.link
 domain:url2image.com
 domain:urlcut.ru
+domain:urll.eu
 domain:urlopener.blogspot.com.au
 domain:urlopener.com
 domain:uroffer.link
@@ -4919,6 +4947,7 @@ domain:validdomain.xyz
 domain:valkiria-tk.ru
 domain:valmetrundan.se
 domain:valoresito.com
+domain:valsalud.com
 domain:valuado.com
 domain:valueclick.com
 domain:vancleefreplica.pw
@@ -5076,6 +5105,7 @@ domain:watchdogs-2.ru
 domain:watchmyfb.pl
 domain:watchmygf.net
 domain:waterpurifier.club
+domain:watsonrealtycorp.com
 domain:waycash.net
 domain:wcb.su
 domain:wdfdocando.com
@@ -5115,6 +5145,7 @@ domain:websites-reviews.com
 domain:websitevaluebot.com
 domain:webtherapy.ru
 domain:weburlopener.com
+domain:weburok.com
 domain:wechatdownload10.com
 domain:weclipart.com
 domain:wedding-salon.net
@@ -5354,6 +5385,7 @@ domain:yebocasino.co.za
 domain:yebocasino.com
 domain:yellocloud.be
 domain:yellowads.men
+domain:yellowfootprints.com
 domain:yellowstonesafaritours.com
 domain:yellowstonevisitortours.com
 domain:yhit.press
