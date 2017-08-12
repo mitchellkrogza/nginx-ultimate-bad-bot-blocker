@@ -327,6 +327,7 @@
 "~*alta\-realestate\.com" 	1;
 "~*alt\-servis\.ru" 	1;
 "~*alveris\.ru" 	1;
+"~*alvtank\.se" 	1;
 "~*alyeskaresort\.com" 	1;
 "~*am15\.net" 	1;
 "~*amanda\-porn\.ga" 	1;
@@ -1063,6 +1064,7 @@
 "~*cinemaflix\.website" 	1;
 "~*ciproandtizanidine\.blogspot\.com" 	1;
 "~*circlesl\.com" 	1;
+"~*citetick\.com" 	1;
 "~*citizenclsdriveri7\.pen\.io" 	1;
 "~*cityadspix\.com" 	1;
 "~*citysecurity\.nu" 	1;
@@ -1300,6 +1302,7 @@
 "~*datsun\-do\.com" 	1;
 "~*davebestdeals\.com" 	1;
 "~*daydream\-studio\.ru" 	1;
+"~*dayibiao\.com" 	1;
 "~*daymusam\.com" 	1;
 "~*day\-news\.info" 	1;
 "~*dbmkfhqk\.bloger\.index\.hr" 	1;
@@ -1347,6 +1350,7 @@
 "~*deutschland123\.de" 	1;
 "~*dev33\.dioniqlabb\.se" 	1;
 "~*dev78\.dioniqlabb\.se" 	1;
+"~*dev\.citetick\.com" 	1;
 "~*devochki\.top" 	1;
 "~*dev\-seo\.blog" 	1;
 "~*de\.zapmeta\.com" 	1;
@@ -2163,6 +2167,7 @@
 "~*hatdc\.org" 	1;
 "~*hauleddes\.com" 	1;
 "~*hausfrauensex18\.com" 	1;
+"~*haveinc\.xyz" 	1;
 "~*havepussy\.com" 	1;
 "~*hayate\.biz" 	1;
 "~*hazardky\.net" 	1;
@@ -2828,6 +2833,7 @@
 "~*lubetube\.com" 	1;
 "~*luckyday\.world" 	1;
 "~*luckyshop\.net\.ua" 	1;
+"~*lulea\-auktionsverk\.se" 	1;
 "~*lumb\.co" 	1;
 "~*lutherstable\.org" 	1;
 "~*luxmagazine\.cf" 	1;
@@ -3134,6 +3140,7 @@
 "~*muschisexbilder\.com" 	1;
 "~*musezone\.ru" 	1;
 "~*musezone\.su" 	1;
+"~*musflashtv\.com" 	1;
 "~*musicas\.baixar\-musicas\-gratis\.com" 	1;
 "~*musicdaddy\.net" 	1;
 "~*musicktab\.com" 	1;
@@ -3946,6 +3953,7 @@
 "~*rn\-to\-bsn\.com" 	1;
 "~*robot\-forex\.biz" 	1;
 "~*rockingclicks\.com" 	1;
+"~*rockma\.se" 	1;
 "~*rogervivierforsale\.com" 	1;
 "~*roleforum\.ru" 	1;
 "~*roll123\.com" 	1;
@@ -4962,6 +4970,7 @@
 "~*vavilone\.com" 	1;
 "~*vbabule\.net" 	1;
 "~*vclicks\.net" 	1;
+"~*v\-doc\.co" 	1;
 "~*vduplo\.ru" 	1;
 "~*vedomstvo\.net" 	1;
 "~*veerotech\.com" 	1;

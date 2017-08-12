@@ -328,6 +328,7 @@ domain:alt-servis.ru
 domain:alta-realestate.com
 domain:altamayoztourism.com
 domain:alveris.ru
+domain:alvtank.se
 domain:alyeskaresort.com
 domain:am-se.com
 domain:am15.net
@@ -1064,6 +1065,7 @@ domain:cinemaenergy-hd.ru
 domain:cinemaflix.website
 domain:ciproandtizanidine.blogspot.com
 domain:circlesl.com
+domain:citetick.com
 domain:citizenclsdriveri7.pen.io
 domain:cityadspix.com
 domain:citysecurity.nu
@@ -1301,6 +1303,7 @@ domain:datsun-do.com
 domain:davebestdeals.com
 domain:day-news.info
 domain:daydream-studio.ru
+domain:dayibiao.com
 domain:daymusam.com
 domain:dbmkfhqk.bloger.index.hr
 domain:dcj-nn.ru
@@ -1347,6 +1350,7 @@ domain:detskie-zabavi.ru
 domain:deutschehobbyhuren.net
 domain:deutschland123.de
 domain:dev-seo.blog
+domain:dev.citetick.com
 domain:dev33.dioniqlabb.se
 domain:dev78.dioniqlabb.se
 domain:devochki.top
@@ -2163,6 +2167,7 @@ domain:hasfun.com
 domain:hatdc.org
 domain:hauleddes.com
 domain:hausfrauensex18.com
+domain:haveinc.xyz
 domain:havepussy.com
 domain:hayate.biz
 domain:hazardky.net
@@ -2828,6 +2833,7 @@ domain:ltvperf.com
 domain:lubetube.com
 domain:luckyday.world
 domain:luckyshop.net.ua
+domain:lulea-auktionsverk.se
 domain:lumb.co
 domain:lutherstable.org
 domain:luxmagazine.cf
@@ -3134,6 +3140,7 @@ domain:mundoaberrante.com
 domain:muschisexbilder.com
 domain:musezone.ru
 domain:musezone.su
+domain:musflashtv.com
 domain:music.utrolive.ru
 domain:musicas.baixar-musicas-gratis.com
 domain:musicdaddy.net
@@ -3946,6 +3953,7 @@ domain:rixpix.ru
 domain:rn-to-bsn.com
 domain:robot-forex.biz
 domain:rockingclicks.com
+domain:rockma.se
 domain:rogervivierforsale.com
 domain:roleforum.ru
 domain:roll123.com
@@ -4938,6 +4946,7 @@ domain:utrolive.ru
 domain:uvozdeckych.info
 domain:uytmaster.ru
 domain:uzungil.com
+domain:v-doc.co
 domain:v24s.net
 domain:v720hd.ru
 domain:vabasa.inwtrade.com
