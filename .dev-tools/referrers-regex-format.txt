@@ -51,6 +51,7 @@
 "~*214jaluwobapef\.cf" 	1;
 "~*21h2o\.com" 	1;
 "~*2345\.com" 	1;
+"~*23kw\.ru" 	1;
 "~*24videos\.tv" 	1;
 "~*24x7\-server\-support\.site" 	1;
 "~*256bit\.by" 	1;
@@ -607,6 +608,7 @@
 "~*bannerspace\.com" 	1;
 "~*bannerswap\.com" 	1;
 "~*bannertesting\.com" 	1;
+"~*baoxaydung\.com\.vn" 	1;
 "~*barbourjackets\.online" 	1;
 "~*bard\-real\.com\.ua" 	1;
 "~*barnfurnituremart\.com" 	1;
@@ -616,6 +618,7 @@
 "~*batanga\.net" 	1;
 "~*battlecarnival\.su" 	1;
 "~*battleforupdating\.site" 	1;
+"~*battle\.net" 	1;
 "~*bausparen\.bz\.it" 	1;
 "~*bayareaaeroclub\.org" 	1;
 "~*bazaronline24\.ru" 	1;
@@ -641,6 +644,7 @@
 "~*berdasovivan\.ru" 	1;
 "~*berlininsl\.com" 	1;
 "~*berrymall\.ru" 	1;
+"~*bestbrainprod\.win" 	1;
 "~*best\-businessman\.ru" 	1;
 "~*bestbuy\.ca" 	1;
 "~*bestcalovebracelet\.cn" 	1;
@@ -802,7 +806,9 @@
 "~*brainboostingsupplements\.org" 	1;
 "~*brains2\.biz" 	1;
 "~*brainsandeggs\.blogspot\.com" 	1;
+"~*braintobe\.win" 	1;
 "~*brainxs\.us" 	1;
+"~*brainzpod\.win" 	1;
 "~*braip\.com\.br" 	1;
 "~*brakehawk\.com" 	1;
 "~*brandedleadgeneration\.com" 	1;
@@ -1025,6 +1031,7 @@
 "~*cheapwebsitehoster\.com" 	1;
 "~*cheatcode\-lita12\.rhcloud\.com" 	1;
 "~*checkhit\.com" 	1;
+"~*check\-host\.net" 	1;
 "~*checkm8\.com" 	1;
 "~*checkpagerank\.net" 	1;
 "~*checktext\.org" 	1;
@@ -1337,6 +1344,7 @@
 "~*depositfiles\-porn\.ga" 	1;
 "~*derevesendeco\.com" 	1;
 "~*descargar\-musica\-gratis\.net" 	1;
+"~*deshevo\-nedorogo\.ru" 	1;
 "~*designdevise\.com" 	1;
 "~*design\-ideas\.info" 	1;
 "~*design\-lands\.ru" 	1;
@@ -1508,6 +1516,7 @@
 "~*ed\-shop01\.ru" 	1;
 "~*educatemetv\.com" 	1;
 "~*education\-cz\.ru" 	1;
+"~*educontest\.net" 	1;
 "~*edwinkonijn\.com\.au" 	1;
 "~*ee77ee\.com" 	1;
 "~*efkt\.jp" 	1;
@@ -1922,6 +1931,7 @@
 "~*fungamelands\.com" 	1;
 "~*fungirlsgames\.net" 	1;
 "~*fun\-mobi\.pl" 	1;
+"~*funnymama\.com" 	1;
 "~*funnypica\.com" 	1;
 "~*funponsel\.com" 	1;
 "~*funtoonez\.com" 	1;
@@ -2500,6 +2510,7 @@
 "~*jestr\.org" 	1;
 "~*jetsli\.de" 	1;
 "~*jewelryandfiligree\.com" 	1;
+"~*jikoman\.info" 	1;
 "~*jillepille\.com" 	1;
 "~*jimmychoosale\.online" 	1;
 "~*jjbabskoe\.ru" 	1;
@@ -3012,6 +3023,7 @@
 "~*minecraft\-neo\.ru" 	1;
 "~*minecraft\-rus\.org" 	1;
 "~*minegam\.com" 	1;
+"~*minharevisao\.com" 	1;
 "~*mini\.7zap\.com" 	1;
 "~*miniads\.ca" 	1;
 "~*minneapoliscopiers\.com" 	1;
@@ -3412,6 +3424,7 @@
 "~*optibuymac\.com" 	1;
 "~*optikremont\.ru" 	1;
 "~*optitrade24\.com" 	1;
+"~*optom\-deshevo\.ru" 	1;
 "~*oralsexfilme\.net" 	1;
 "~*oranga\.host\.sk" 	1;
 "~*ordernorxx\.com" 	1;
@@ -3926,6 +3939,7 @@
 "~*restorator\-msk\.ru" 	1;
 "~*resultshub\-a\.akamaihd\.net" 	1;
 "~*retailwith\.com" 	1;
+"~*rethinkwasteni\.info" 	1;
 "~*retreatia\.com" 	1;
 "~*reversing\.cc" 	1;
 "~*revistaindustria\.com" 	1;
@@ -5436,6 +5450,7 @@
 "~*youtube\-downloader\.savetubevideo\.com" 	1;
 "~*youtubedownload\.org" 	1;
 "~*youtuhe\.com" 	1;
+"~*ytmnd\.com" 	1;
 "~*yuarra\.pluto\.ro" 	1;
 "~*yubikk\.info" 	1;
 "~*yugk\.net" 	1;

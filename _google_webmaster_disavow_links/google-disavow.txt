@@ -51,6 +51,7 @@ domain:20pascals.nl
 domain:214jaluwobapef.cf
 domain:21h2o.com
 domain:2345.com
+domain:23kw.ru
 domain:24videos.tv
 domain:24x7-server-support.site
 domain:256bit.by
@@ -608,6 +609,7 @@ domain:bannerpower.com
 domain:bannerspace.com
 domain:bannerswap.com
 domain:bannertesting.com
+domain:baoxaydung.com.vn
 domain:barbourjackets.online
 domain:bard-real.com.ua
 domain:barnfurnituremart.com
@@ -615,6 +617,7 @@ domain:basedecor.ru
 domain:bashtime.ru
 domain:basisches-wasser.net
 domain:batanga.net
+domain:battle.net
 domain:battlecarnival.su
 domain:battleforupdating.site
 domain:bausparen.bz.it
@@ -648,6 +651,7 @@ domain:best-games.today
 domain:best-seo-offer.com
 domain:best-seo-software.xyz
 domain:best-seo-solution.com
+domain:bestbrainprod.win
 domain:bestbuy.ca
 domain:bestcalovebracelet.cn
 domain:bestchoice.cf
@@ -803,7 +807,9 @@ domain:brainboosting.club
 domain:brainboostingsupplements.org
 domain:brains2.biz
 domain:brainsandeggs.blogspot.com
+domain:braintobe.win
 domain:brainxs.us
+domain:brainzpod.win
 domain:braip.com.br
 domain:brakehawk.com
 domain:brandedleadgeneration.com
@@ -1024,6 +1030,7 @@ domain:cheapmoncler.win
 domain:cheapsergiorossi.online
 domain:cheapwebsitehoster.com
 domain:cheatcode-lita12.rhcloud.com
+domain:check-host.net
 domain:checkhit.com
 domain:checkm8.com
 domain:checkpagerank.net
@@ -1338,6 +1345,7 @@ domain:dentalpearls.com.au
 domain:depositfiles-porn.ga
 domain:derevesendeco.com
 domain:descargar-musica-gratis.net
+domain:deshevo-nedorogo.ru
 domain:design-ideas.info
 domain:design-lands.ru
 domain:designdevise.com
@@ -1510,6 +1518,7 @@ domain:editmedios.com
 domain:editors.choice6912650.hulfingtonpost.com
 domain:educatemetv.com
 domain:education-cz.ru
+domain:educontest.net
 domain:edwinkonijn.com.au
 domain:ee77ee.com
 domain:efkt.jp
@@ -1922,6 +1931,7 @@ domain:fun2cell.net
 domain:funcrushgames.com
 domain:fungamelands.com
 domain:fungirlsgames.net
+domain:funnymama.com
 domain:funnypica.com
 domain:funponsel.com
 domain:funtoonez.com
@@ -2501,6 +2511,7 @@ domain:jerseywholesaleelitestore.com
 domain:jestr.org
 domain:jetsli.de
 domain:jewelryandfiligree.com
+domain:jikoman.info
 domain:jillepille.com
 domain:jimmychoosale.online
 domain:jjbabskoe.ru
@@ -3012,6 +3023,7 @@ domain:mindbox.co.za
 domain:minecraft-neo.ru
 domain:minecraft-rus.org
 domain:minegam.com
+domain:minharevisao.com
 domain:mini.7zap.com
 domain:miniads.ca
 domain:minneapoliscopiers.com
@@ -3412,6 +3424,7 @@ domain:ops.picscout.com
 domain:optibuymac.com
 domain:optikremont.ru
 domain:optitrade24.com
+domain:optom-deshevo.ru
 domain:oralsexfilme.net
 domain:oranga.host.sk
 domain:ordernorxx.com
@@ -3926,6 +3939,7 @@ domain:restaurantlescampi.com
 domain:restorator-msk.ru
 domain:resultshub-a.akamaihd.net
 domain:retailwith.com
+domain:rethinkwasteni.info
 domain:retreatia.com
 domain:reversing.cc
 domain:revistaindustria.com
@@ -5436,6 +5450,7 @@ domain:youtoner.it
 domain:youtube-downloader.savetubevideo.com
 domain:youtubedownload.org
 domain:youtuhe.com
+domain:ytmnd.com
 domain:yuarra.pluto.ro
 domain:yubikk.info
 domain:yugk.net
