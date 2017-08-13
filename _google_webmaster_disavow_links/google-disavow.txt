@@ -3884,6 +3884,7 @@ domain:recipedays.ru
 domain:recordpage-a.akamaihd.net
 domain:redbottomheels.xyz
 domain:redhotfreebies.co.uk
+domain:redirect.trafficreceiver.club
 domain:redirectingat.com
 domain:redirectme.net
 domain:redirlock.com
@@ -4809,7 +4810,9 @@ domain:trafficmania.com
 domain:trafficmonetize.org
 domain:trafficmp.com
 domain:trafficnetzwerk.de
+domain:trafficreceiver.club
 domain:trafficstars.com
+domain:traffictrade.life
 domain:traffique.net
 domain:traffixer.com
 domain:traffmonster.info

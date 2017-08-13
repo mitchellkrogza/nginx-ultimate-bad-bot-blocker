@@ -3885,6 +3885,7 @@
 "~*redhotfreebies\.co\.uk" 	1;
 "~*redirectingat\.com" 	1;
 "~*redirectme\.net" 	1;
+"~*redirect\.trafficreceiver\.club" 	1;
 "~*redirlock\.com" 	1;
 "~*rednise\.com" 	1;
 "~*reelheroes\.net" 	1;
@@ -4809,7 +4810,9 @@
 "~*trafficmonetize\.org" 	1;
 "~*trafficmp\.com" 	1;
 "~*trafficnetzwerk\.de" 	1;
+"~*trafficreceiver\.club" 	1;
 "~*trafficstars\.com" 	1;
+"~*traffictrade\.life" 	1;
 "~*traffique\.net" 	1;
 "~*traffixer\.com" 	1;
 "~*traffmonster\.info" 	1;
