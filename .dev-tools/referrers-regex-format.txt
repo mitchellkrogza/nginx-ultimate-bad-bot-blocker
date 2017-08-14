@@ -804,6 +804,7 @@
 "~*bpro1\.top" 	1;
 "~*brainboosting\.club" 	1;
 "~*brainboostingsupplements\.org" 	1;
+"~*braindaily\.xyz" 	1;
 "~*brains2\.biz" 	1;
 "~*brainsandeggs\.blogspot\.com" 	1;
 "~*braintobe\.win" 	1;
@@ -2269,6 +2270,7 @@
 "~*hostnow\.men" 	1;
 "~*host\-protection\.com" 	1;
 "~*hostsshop\.ru" 	1;
+"~*host\-tracker\.com" 	1;
 "~*hotblog\.top" 	1;
 "~*hotchatdate\.com" 	1;
 "~*hotdl\.in" 	1;
@@ -2464,6 +2466,7 @@
 "~*istock\-mebel\.ru" 	1;
 "~*istripper\.com" 	1;
 "~*itbc\.kiev\.ua" 	1;
+"~*itch\.io" 	1;
 "~*itis4you\.com" 	1;
 "~*it\-max\.com\.ua" 	1;
 "~*itrevolution\.cf" 	1;
@@ -4766,6 +4769,7 @@
 "~*topmira\.com" 	1;
 "~*topquality\.cf" 	1;
 "~*topshef\.ru" 	1;
+"~*topsiteminecraft\.com" 	1;
 "~*topsy\.com" 	1;
 "~*topvidos\.ru" 	1;
 "~*torontoplumbinggroup\.com" 	1;

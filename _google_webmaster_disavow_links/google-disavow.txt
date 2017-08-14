@@ -805,6 +805,7 @@ domain:bouda.kvalitne.cz
 domain:bpro1.top
 domain:brainboosting.club
 domain:brainboostingsupplements.org
+domain:braindaily.xyz
 domain:brains2.biz
 domain:brainsandeggs.blogspot.com
 domain:braintobe.win
@@ -2263,6 +2264,7 @@ domain:hoporno.com
 domain:hornymatches.com
 domain:horoshieokna.com
 domain:host-protection.com
+domain:host-tracker.com
 domain:hostcritique.com
 domain:hoste.octopis.com
 domain:hosting-tracker.com
@@ -2465,6 +2467,7 @@ domain:istock-mebel.ru
 domain:istripper.com
 domain:it-max.com.ua
 domain:itbc.kiev.ua
+domain:itch.io
 domain:itis4you.com
 domain:itrevolution.cf
 domain:itronics.ca
@@ -4766,6 +4769,7 @@ domain:topkarkas.com
 domain:topmira.com
 domain:topquality.cf
 domain:topshef.ru
+domain:topsiteminecraft.com
 domain:topsy.com
 domain:topvidos.ru
 domain:torontoplumbinggroup.com
