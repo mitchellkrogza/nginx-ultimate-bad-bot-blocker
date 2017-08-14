@@ -404,12 +404,15 @@ domain:apifasterlightin-a.akamaihd.net
 domain:apiholdingmypage-a.akamaihd.net
 domain:apiitsthirteende-a.akamaihd.net
 domain:apilinkswiftco-a.akamaihd.net
+domain:apiluckyleapnet-a.akamaihd.net
 domain:apimegabrowsebiz-a.akamaihd.net
 domain:apimossnetinfo-a.akamaihd.net
 domain:apimountainbikei-a.akamaihd.net
 domain:apioasisspacenet-a.akamaihd.net
 domain:apioutoboxnet-a.akamaihd.net
 domain:apiportalmorecom-a.akamaihd.net
+domain:apiqualitinknet-a.akamaihd.net
+domain:apisecretsaucebi-a.akamaihd.net
 domain:apishops.ru
 domain:apispringsmartne-a.akamaihd.net
 domain:apiwebwebgetcom-a.akamaihd.net
@@ -651,6 +654,7 @@ domain:best-games.today
 domain:best-seo-offer.com
 domain:best-seo-software.xyz
 domain:best-seo-solution.com
+domain:best-way.men
 domain:bestbrainprod.win
 domain:bestbuy.ca
 domain:bestcalovebracelet.cn
@@ -1428,6 +1432,7 @@ domain:dokumentalkino.net
 domain:domain-submit.info
 domain:domain-tracker.com
 domain:domain2008.com
+domain:domainanalyzing.xyz
 domain:domaincdn.xyz
 domain:domaincrawler.com
 domain:domaineaneblanc.com
@@ -2233,6 +2238,7 @@ domain:hildinghr.se
 domain:histats.com
 domain:histock.info
 domain:historichometeam.com
+domain:hit-men.men
 domain:hitsbox.info
 domain:hiwibyh.bugs3.com
 domain:hjaoopoa.top
@@ -2313,6 +2319,7 @@ domain:huhn.altervista.org
 domain:huimin764128.com
 domain:hulfingtonpost.com
 domain:hully.altervista.org
+domain:humanelydrew.com
 domain:humanorightswatch.org
 domain:hundejo.com
 domain:hunterboots.online
@@ -3014,6 +3021,7 @@ domain:michaelkorssaleoutletonline.net
 domain:microsearch.ru
 domain:microsoftportal.net
 domain:microstatic.pl
+domain:middlerush-a.akamaihd.net
 domain:midst.eu
 domain:mielec.pl
 domain:migente.com
@@ -3255,6 +3263,7 @@ domain:netfacet.net
 domain:netoil.no
 domain:netpics.org
 domain:networkad.net
+domain:networkcheck.xyz
 domain:nevansk.ru
 domain:new-apps.ru
 domain:new-post.tk
@@ -3752,6 +3761,7 @@ domain:professionaldieselcare.com
 domain:professionalwritingservices15.blogspot.ru
 domain:profit-opportunity.com
 domain:profitfx.online
+domain:profitkode.com
 domain:profitsport.club
 domain:profolan.pl
 domain:proftests.net
@@ -3884,6 +3894,7 @@ domain:rebuildermedical.com
 domain:recinziireale.com
 domain:recipedays.com
 domain:recipedays.ru
+domain:reckonstat.info
 domain:recordpage-a.akamaihd.net
 domain:redbottomheels.xyz
 domain:redhotfreebies.co.uk
@@ -4836,6 +4847,8 @@ domain:trk-4.net
 domain:trkdf.com
 domain:trkur.com
 domain:trubywriting.com
+domain:truck-addzilla.life
+domain:truck-land.life
 domain:trucri.me
 domain:trudogolik.net
 domain:truemfilelj.gq
@@ -4843,6 +4856,7 @@ domain:trumpetedextremes.com
 domain:trustaffs.com
 domain:trustedhealthtips.com
 domain:trustedmaccleaner.com
+domain:trustl.life
 domain:try-rx.com
 domain:tsan.net
 domain:tsstcorpcddvdwshbbdriverfb.aircus.com
@@ -5192,6 +5206,7 @@ domain:weprik.ru
 domain:wesharepics.com
 domain:wesharepics.info
 domain:wesharepics.site
+domain:westen-v.life
 domain:westermarkanjou.se
 domain:westsextube.com
 domain:westum.se

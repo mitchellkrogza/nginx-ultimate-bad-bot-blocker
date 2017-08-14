@@ -401,12 +401,15 @@
 "~*apiholdingmypage\-a\.akamaihd\.net" 	1;
 "~*apiitsthirteende\-a\.akamaihd\.net" 	1;
 "~*apilinkswiftco\-a\.akamaihd\.net" 	1;
+"~*apiluckyleapnet\-a\.akamaihd\.net" 	1;
 "~*apimegabrowsebiz\-a\.akamaihd\.net" 	1;
 "~*apimossnetinfo\-a\.akamaihd\.net" 	1;
 "~*apimountainbikei\-a\.akamaihd\.net" 	1;
 "~*apioasisspacenet\-a\.akamaihd\.net" 	1;
 "~*apioutoboxnet\-a\.akamaihd\.net" 	1;
 "~*apiportalmorecom\-a\.akamaihd\.net" 	1;
+"~*apiqualitinknet\-a\.akamaihd\.net" 	1;
+"~*apisecretsaucebi\-a\.akamaihd\.net" 	1;
 "~*apishops\.ru" 	1;
 "~*apispringsmartne\-a\.akamaihd\.net" 	1;
 "~*api\.stathat\.com" 	1;
@@ -670,6 +673,7 @@
 "~*best\-seo\-solution\.com" 	1;
 "~*bestserials\.com" 	1;
 "~*bestssaker\.com" 	1;
+"~*best\-way\.men" 	1;
 "~*bestwaystogetpaid\.us" 	1;
 "~*bestwebsiteawards\.com" 	1;
 "~*bestwebsitesawards\.com" 	1;
@@ -1426,6 +1430,7 @@
 "~*doktoronline\.no" 	1;
 "~*dokumentalkino\.net" 	1;
 "~*domain2008\.com" 	1;
+"~*domainanalyzing\.xyz" 	1;
 "~*domaincdn\.xyz" 	1;
 "~*domaincrawler\.com" 	1;
 "~*domaineaneblanc\.com" 	1;
@@ -2233,6 +2238,7 @@
 "~*histats\.com" 	1;
 "~*histock\.info" 	1;
 "~*historichometeam\.com" 	1;
+"~*hit\-men\.men" 	1;
 "~*hitsbox\.info" 	1;
 "~*hiwibyh\.bugs3\.com" 	1;
 "~*hjaoopoa\.top" 	1;
@@ -2313,6 +2319,7 @@
 "~*huimin764128\.com" 	1;
 "~*hulfingtonpost\.com" 	1;
 "~*hully\.altervista\.org" 	1;
+"~*humanelydrew\.com" 	1;
 "~*humanorightswatch\.org" 	1;
 "~*hundejo\.com" 	1;
 "~*hunterboots\.online" 	1;
@@ -3014,6 +3021,7 @@
 "~*microsearch\.ru" 	1;
 "~*microsoftportal\.net" 	1;
 "~*microstatic\.pl" 	1;
+"~*middlerush\-a\.akamaihd\.net" 	1;
 "~*midst\.eu" 	1;
 "~*mielec\.pl" 	1;
 "~*migente\.com" 	1;
@@ -3255,6 +3263,7 @@
 "~*net\-profits\.xyz" 	1;
 "~*net\-radar\.com" 	1;
 "~*networkad\.net" 	1;
+"~*networkcheck\.xyz" 	1;
 "~*nevansk\.ru" 	1;
 "~*new7ob\.com" 	1;
 "~*new\-apps\.ru" 	1;
@@ -3749,6 +3758,7 @@
 "~*professionaldieselcare\.com" 	1;
 "~*professionalwritingservices15\.blogspot\.ru" 	1;
 "~*profitfx\.online" 	1;
+"~*profitkode\.com" 	1;
 "~*profit\-opportunity\.com" 	1;
 "~*profitsport\.club" 	1;
 "~*profolan\.pl" 	1;
@@ -3883,6 +3893,7 @@
 "~*recinziireale\.com" 	1;
 "~*recipedays\.com" 	1;
 "~*recipedays\.ru" 	1;
+"~*reckonstat\.info" 	1;
 "~*recordpage\-a\.akamaihd\.net" 	1;
 "~*redbottomheels\.xyz" 	1;
 "~*redhotfreebies\.co\.uk" 	1;
@@ -4836,6 +4847,8 @@
 "~*trkdf\.com" 	1;
 "~*trkur\.com" 	1;
 "~*trubywriting\.com" 	1;
+"~*truck\-addzilla\.life" 	1;
+"~*truck\-land\.life" 	1;
 "~*trucri\.me" 	1;
 "~*trudogolik\.net" 	1;
 "~*truemfilelj\.gq" 	1;
@@ -4843,6 +4856,7 @@
 "~*trustaffs\.com" 	1;
 "~*trustedhealthtips\.com" 	1;
 "~*trustedmaccleaner\.com" 	1;
+"~*trustl\.life" 	1;
 "~*try\-rx\.com" 	1;
 "~*tsan\.net" 	1;
 "~*tsstcorpcddvdwshbbdriverfb\.aircus\.com" 	1;
@@ -5191,6 +5205,7 @@
 "~*wesharepics\.com" 	1;
 "~*wesharepics\.info" 	1;
 "~*wesharepics\.site" 	1;
+"~*westen\-v\.life" 	1;
 "~*westermarkanjou\.se" 	1;
 "~*westsextube\.com" 	1;
 "~*westum\.se" 	1;
