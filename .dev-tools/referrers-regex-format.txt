@@ -297,6 +297,7 @@
 "~*alive\-ua\.com" 	1;
 "~*all4invest\.info" 	1;
 "~*all4invest\.ru" 	1;
+"~*allblogroll\.com" 	1;
 "~*allboard\.xobor\.de" 	1;
 "~*allcredits\.su" 	1;
 "~*alldownload\.pw" 	1;
@@ -1031,6 +1032,7 @@
 "~*cheapmarmot\.online" 	1;
 "~*cheapmoncler\.pw" 	1;
 "~*cheapmoncler\.win" 	1;
+"~*cheapmoncler\.xyz" 	1;
 "~*cheap\-pills\-norx\.com" 	1;
 "~*cheapsergiorossi\.online" 	1;
 "~*cheapwebsitehoster\.com" 	1;
@@ -2346,6 +2348,7 @@
 "~*idegenvezeto\.eu" 	1;
 "~*ideibiznesa2015\.ru" 	1;
 "~*ideoworld\.org" 	1;
+"~*id\-forex\.com" 	1;
 "~*ido3\.com" 	1;
 "~*ie\.57883\.net" 	1;
 "~*ifirestarter\.ru" 	1;

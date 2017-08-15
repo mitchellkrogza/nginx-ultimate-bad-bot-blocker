@@ -300,6 +300,7 @@ domain:all-number.com
 domain:all-streaming-media.com
 domain:all4invest.info
 domain:all4invest.ru
+domain:allblogroll.com
 domain:allboard.xobor.de
 domain:allcredits.su
 domain:alldownload.pw
@@ -1032,6 +1033,7 @@ domain:cheapjerseysfootballshop.com
 domain:cheapmarmot.online
 domain:cheapmoncler.pw
 domain:cheapmoncler.win
+domain:cheapmoncler.xyz
 domain:cheapsergiorossi.online
 domain:cheapwebsitehoster.com
 domain:cheatcode-lita12.rhcloud.com
@@ -2342,6 +2344,7 @@ domain:ibb.com.ua
 domain:icaseclub.ru
 domain:ico.re
 domain:ictizanidinehcl4mg.blogspot.com
+domain:id-forex.com
 domain:idc.com.ua
 domain:idealtits.net
 domain:ideashome.id
