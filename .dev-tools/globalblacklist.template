@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.08.814
-### Updated: Tue Aug 15 16:42:26 SAST 2017
-### Bad Referrer Count: 5585
+### Version: V3.2017.08.815
+### Updated: Wed Aug 16 10:09:32 SAST 2017
+### Bad Referrer Count: 5594
 ### Bad Bot Count: 504
 ###################################################
 ### VERSION INFORMATION ##
@@ -2300,6 +2300,7 @@ map $http_referer $bad_referer {
 	"~*domain2008\.com" 	1;
 	"~*domainanalyzing\.xyz" 	1;
 	"~*domaincdn\.xyz" 	1;
+	"~*domaincheck\.io" 	1;
 	"~*domaincrawler\.com" 	1;
 	"~*domaineaneblanc\.com" 	1;
 	"~*domainsatcost\.com" 	1;
@@ -2442,6 +2443,7 @@ map $http_referer $bad_referer {
 	"~*elidelcream\.weebly\.com" 	1;
 	"~*elitedollars\.com" 	1;
 	"~*elitepcgames\.com" 	1;
+	"~*elite\-sex\-finders\.com" 	1;
 	"~*elitesportsadvisor\.com" 	1;
 	"~*elkacentr\.ru" 	1;
 	"~*elmacho\.xyz" 	1;
@@ -3205,6 +3207,7 @@ map $http_referer $bad_referer {
 	"~*iamsport\.org" 	1;
 	"~*ibb\.com\.ua" 	1;
 	"~*icaseclub\.ru" 	1;
+	"~*iccornacircri\.cf" 	1;
 	"~*ico\.re" 	1;
 	"~*ictizanidinehcl4mg\.blogspot\.com" 	1;
 	"~*idc\.com\.ua" 	1;
@@ -3431,6 +3434,7 @@ map $http_referer $bad_referer {
 	"~*kanimage\.com" 	1;
 	"~*karachev\-city\.ru" 	1;
 	"~*karadene\.com" 	1;
+	"~*kareliatobacco\.ru" 	1;
 	"~*karpun\-iris\.ru" 	1;
 	"~*karting196\.ru" 	1;
 	"~*kartiniresto\.com" 	1;
@@ -3460,6 +3464,7 @@ map $http_referer $bad_referer {
 	"~*keywordsuggests\.com" 	1;
 	"~*keywordteam\.net" 	1;
 	"~*kfon\.eu" 	1;
+	"~*khafre\.us" 	1;
 	"~*kichenaid\.ru" 	1;
 	"~*kidd\.reunionwatch\.com" 	1;
 	"~*kiev\.ua" 	1;
@@ -3492,6 +3497,7 @@ map $http_referer $bad_referer {
 	"~*kiwi237au\.tk" 	1;
 	"~*kladrus\.ru" 	1;
 	"~*kleine\-titten\.biz" 	1;
+	"~*klejonka\.info" 	1;
 	"~*kletkimehan\.ru" 	1;
 	"~*klikbonus\.com" 	1;
 	"~*kliksaya\.com" 	1;
@@ -4293,6 +4299,7 @@ map $http_referer $bad_referer {
 	"~*o\-o\-8\-o\-o\.ru" 	1;
 	"~*ooo\-gotovie\.ru" 	1;
 	"~*ooo\-olni\.ru" 	1;
+	"~*oops\-cinema\.ru" 	1;
 	"~*openfrost\.com" 	1;
 	"~*openfrost\.net" 	1;
 	"~*openlibrary\.org" 	1;
@@ -4781,6 +4788,7 @@ map $http_referer $bad_referer {
 	"~*regdefense\.com" 	1;
 	"~*regionshop\.biz" 	1;
 	"~*registratciya\-v\-moskve\.ru" 	1;
+	"~*registrationdomainsite\.com" 	1;
 	"~*registry\-cleaner\.net" 	1;
 	"~*registry\-clean\-up\.net" 	1;
 	"~*registrydomainservices\.com" 	1;
@@ -5410,6 +5418,7 @@ map $http_referer $bad_referer {
 	"~*success\-seo\.com" 	1;
 	"~*suchenindeutschland\.com" 	1;
 	"~*suche\.t\-online\.de" 	1;
+	"~*sudexpert66\.ru" 	1;
 	"~*sugarkun\.com" 	1;
 	"~*suggest\-keywords\.com" 	1;
 	"~*sugvant\.ru" 	1;
