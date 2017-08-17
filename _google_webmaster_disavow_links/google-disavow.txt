@@ -2148,6 +2148,7 @@ domain:gsasearchenginerankerdiscount.com
 domain:gsbs.com.ua
 domain:gsmlab.pl
 domain:gsmtlf.ru
+domain:gsou.cf
 domain:gstatey.net
 domain:gta-club.ru
 domain:gta-top.ru

@@ -2147,6 +2147,7 @@
 "~*gsbs\.com\.ua" 	1;
 "~*gsmlab\.pl" 	1;
 "~*gsmtlf\.ru" 	1;
+"~*gsou\.cf" 	1;
 "~*g\.starmoe\.xyz" 	1;
 "~*gstatey\.net" 	1;
 "~*gta\-club\.ru" 	1;
