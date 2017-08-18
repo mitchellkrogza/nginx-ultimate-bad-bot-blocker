@@ -52,6 +52,7 @@ domain:214jaluwobapef.cf
 domain:21h2o.com
 domain:2345.com
 domain:23kw.ru
+domain:24-ak.ru
 domain:24videos.tv
 domain:24x7-server-support.site
 domain:256bit.by
@@ -3385,6 +3386,7 @@ domain:ohmyrings.com
 domain:oil-td.ru
 domain:ok-ua.info
 domain:ok.ru
+domain:okayimage.com
 domain:okel.co
 domain:oklogistic.ru
 domain:okmusic.jp
@@ -4066,6 +4068,7 @@ domain:sampleletters.net
 domain:sanatorrii.ru
 domain:sandhillsonline.com
 domain:saneitconsulting.com
+domain:sanidumps.com
 domain:sanjosestartups.com
 domain:sankt-peterburg.nodup.ru
 domain:santasgift.ml
@@ -4887,6 +4890,7 @@ domain:tula.howotorg.ru
 domain:tula.mdverey.ru
 domain:tupper-posuda.ru
 domain:tupper-shop.ru
+domain:turbabitload.weebly.com
 domain:turbo-suslik.org
 domain:turist-strani.ru
 domain:turizm.bz
@@ -5519,6 +5523,7 @@ domain:zarenica.net
 domain:zarepta.com
 domain:zastenchivosti.net
 domain:zastroyka.org
+domain:zatjmuzu.info
 domain:zazagames.org
 domain:zdesformula.ru
 domain:zdesoboi.com

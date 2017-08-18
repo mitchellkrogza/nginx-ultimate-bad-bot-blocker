@@ -52,6 +52,7 @@
 "~*21h2o\.com" 	1;
 "~*2345\.com" 	1;
 "~*23kw\.ru" 	1;
+"~*24\-ak\.ru" 	1;
 "~*24videos\.tv" 	1;
 "~*24x7\-server\-support\.site" 	1;
 "~*256bit\.by" 	1;
@@ -3377,6 +3378,7 @@
 "~*offtopic\.biz" 	1;
 "~*ohmyrings\.com" 	1;
 "~*oil\-td\.ru" 	1;
+"~*okayimage\.com" 	1;
 "~*okel\.co" 	1;
 "~*oklogistic\.ru" 	1;
 "~*okmusic\.jp" 	1;
@@ -4064,6 +4066,7 @@
 "~*sanatorrii\.ru" 	1;
 "~*sandhillsonline\.com" 	1;
 "~*saneitconsulting\.com" 	1;
+"~*sanidumps\.com" 	1;
 "~*sanjosestartups\.com" 	1;
 "~*sankt\-peterburg\.nodup\.ru" 	1;
 "~*santasgift\.ml" 	1;
@@ -4887,6 +4890,7 @@
 "~*tula\.mdverey\.ru" 	1;
 "~*tupper\-posuda\.ru" 	1;
 "~*tupper\-shop\.ru" 	1;
+"~*turbabitload\.weebly\.com" 	1;
 "~*turbo\-suslik\.org" 	1;
 "~*turist\-strani\.ru" 	1;
 "~*turizm\.bz" 	1;
@@ -5518,6 +5522,7 @@
 "~*zarepta\.com" 	1;
 "~*zastenchivosti\.net" 	1;
 "~*zastroyka\.org" 	1;
+"~*zatjmuzu\.info" 	1;
 "~*zazagames\.org" 	1;
 "~*zdesformula\.ru" 	1;
 "~*zdesoboi\.com" 	1;
