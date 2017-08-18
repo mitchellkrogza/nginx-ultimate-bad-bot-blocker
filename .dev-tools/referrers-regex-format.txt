@@ -2468,6 +2468,7 @@
 "~*iqoption\.com" 	1;
 "~*iqoption\.pro" 	1;
 "~*iqs\.biz\.ua" 	1;
+"~*iqupdatetmz\.win" 	1;
 "~*iradiology\.ru" 	1;
 "~*irunfar\.com" 	1;
 "~*iscblog\.info" 	1;
@@ -4779,6 +4780,7 @@
 "~*tmtrck\.com" 	1;
 "~*tnaionline\.org" 	1;
 "~*tnctrx\.com" 	1;
+"~*tobeyouday\.win" 	1;
 "~*todohr\.com" 	1;
 "~*toloka\.hurtom\.com" 	1;
 "~*tomatis\.gospartner\.com" 	1;
@@ -5176,6 +5178,7 @@
 "~*waterpurifier\.club" 	1;
 "~*watsonrealtycorp\.com" 	1;
 "~*waycash\.net" 	1;
+"~*waysbetter\.cn" 	1;
 "~*wcb\.su" 	1;
 "~*wdfdocando\.com" 	1;
 "~*wdrake\.com" 	1;

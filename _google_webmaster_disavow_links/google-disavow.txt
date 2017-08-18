@@ -2469,6 +2469,7 @@ domain:iqoption-bin.com
 domain:iqoption.com
 domain:iqoption.pro
 domain:iqs.biz.ua
+domain:iqupdatetmz.win
 domain:iradiology.ru
 domain:irunfar.com
 domain:iscblog.info
@@ -4779,6 +4780,7 @@ domain:tmm-kurs.ru
 domain:tmtrck.com
 domain:tnaionline.org
 domain:tnctrx.com
+domain:tobeyouday.win
 domain:todohr.com
 domain:toloka.hurtom.com
 domain:tomatis.gospartner.com
@@ -5177,6 +5179,7 @@ domain:watchmygf.net
 domain:waterpurifier.club
 domain:watsonrealtycorp.com
 domain:waycash.net
+domain:waysbetter.cn
 domain:wcb.su
 domain:wdfdocando.com
 domain:wdrake.com
