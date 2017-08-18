@@ -210,6 +210,7 @@
 "~*adsfresh\.men" 	1;
 "~*ads\.gold" 	1;
 "~*adsland\.men" 	1;
+"~*adsloads\.com" 	1;
 "~*adsref\.men" 	1;
 "~*adssafeprotected\.com" 	1;
 "~*ads\-seo\.men" 	1;
@@ -984,9 +985,11 @@
 "~*cayado\.snn\.gr" 	1;
 "~*cbb1smartlist12\.click" 	1;
 "~*cbcseward\.com" 	1;
+"~*cb\.iphantom\.com" 	1;
 "~*cbox\.ws" 	1;
 "~*ccbill\.com" 	1;
 "~*cctva\.tv" 	1;
+"~*cdnanalytics\.xyz" 	1;
 "~*cdncash\.com" 	1;
 "~*cdncash\.net" 	1;
 "~*cdncash\.org" 	1;
@@ -1342,6 +1345,7 @@
 "~*delayreferat\.ru" 	1;
 "~*delfin\-aqua\.com\.ua" 	1;
 "~*dellalimov\.com" 	1;
+"~*delta\-line\.men" 	1;
 "~*deluxedumps\.com" 	1;
 "~*demenageur\.com" 	1;
 "~*demian\.kz" 	1;
@@ -1952,6 +1956,7 @@
 "~*fxtips\.ru" 	1;
 "~*fyl\.com\.ru" 	1;
 "~*fym\.com\.ru" 	1;
+"~*fz139\.ttk\.ru" 	1;
 "~*g33\.org" 	1;
 "~*g7m\.pl" 	1;
 "~*gabeshop\.ru" 	1;
@@ -2360,6 +2365,7 @@
 "~*iflycapetown\.co\.za" 	1;
 "~*ifmo\.ru" 	1;
 "~*igadgetsworld\.com" 	1;
+"~*igithab\.com" 	1;
 "~*igrovyeavtomaty777\.ru" 	1;
 "~*igru\-xbox\.net" 	1;
 "~*i\-hobot\.ru" 	1;
@@ -3509,6 +3515,7 @@
 "~*paramountmarble\.co\.uk" 	1;
 "~*park\.above\.com" 	1;
 "~*parlament\.biz" 	1;
+"~*partnerads\.men" 	1;
 "~*partner\-cdn\.men" 	1;
 "~*partner\-high\.men" 	1;
 "~*partnerline\.men" 	1;
@@ -3827,6 +3834,7 @@
 "~*purchasepillsnorx\.com" 	1;
 "~*purplesphere\.in" 	1;
 "~*purplestats\.com" 	1;
+"~*puserving\.com" 	1;
 "~*push\-ad\.com" 	1;
 "~*pushdata\.sendpulse\.com" 	1;
 "~*pussyfleet\.com" 	1;
@@ -4704,6 +4712,7 @@
 "~*timer4web\.com" 	1;
 "~*timetorelax\.biz" 	1;
 "~*timhost\.ru" 	1;
+"~*titan\-cloud\.life" 	1;
 "~*titelhelden\.eu" 	1;
 "~*titslove\.yopoint\.in" 	1;
 "~*tizanidine4mg\.blogspot\.com" 	1;

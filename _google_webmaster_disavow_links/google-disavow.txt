@@ -214,6 +214,7 @@ domain:adserver-e7.com
 domain:adservme.com
 domain:adsfresh.men
 domain:adsland.men
+domain:adsloads.com
 domain:adsref.men
 domain:adssafeprotected.com
 domain:adtech.de
@@ -984,12 +985,14 @@ domain:castingbank.ru
 domain:catalogs-parts.com
 domain:caveavins.fr
 domain:cayado.snn.gr
+domain:cb.iphantom.com
 domain:cbb1smartlist12.click
 domain:cbcseward.com
 domain:cbox.ws
 domain:ccbill.com
 domain:cctva.tv
 domain:cdn.walkme.com
+domain:cdnanalytics.xyz
 domain:cdncash.com
 domain:cdncash.net
 domain:cdncash.org
@@ -1343,6 +1346,7 @@ domain:dekorkeramik.ru
 domain:delayreferat.ru
 domain:delfin-aqua.com.ua
 domain:dellalimov.com
+domain:delta-line.men
 domain:deluxedumps.com
 domain:demenageur.com
 domain:demian.kz
@@ -1952,6 +1956,7 @@ domain:fxgallery.com
 domain:fxtips.ru
 domain:fyl.com.ru
 domain:fym.com.ru
+domain:fz139.ttk.ru
 domain:g.starmoe.xyz
 domain:g33.org
 domain:g7m.pl
@@ -2363,6 +2368,7 @@ domain:ifirestarter.ru
 domain:iflycapetown.co.za
 domain:ifmo.ru
 domain:igadgetsworld.com
+domain:igithab.com
 domain:igrovyeavtomaty777.ru
 domain:igru-xbox.net
 domain:iinstalll-fii1leis.jus0wil.pp.ua
@@ -3516,6 +3522,7 @@ domain:partner-pop.men
 domain:partner-print.men
 domain:partner-stop.men
 domain:partner-trustworthy.men
+domain:partnerads.men
 domain:partnerline.men
 domain:partners-ship.pro
 domain:partnersafe.men
@@ -3827,6 +3834,7 @@ domain:pulseonclick.com
 domain:purchasepillsnorx.com
 domain:purplesphere.in
 domain:purplestats.com
+domain:puserving.com
 domain:push-ad.com
 domain:pushdata.sendpulse.com
 domain:pussyfleet.com
@@ -4704,6 +4712,7 @@ domain:timecrimea.ru
 domain:timer4web.com
 domain:timetorelax.biz
 domain:timhost.ru
+domain:titan-cloud.life
 domain:titelhelden.eu
 domain:titslove.yopoint.in
 domain:tizanidine4mg.blogspot.com
