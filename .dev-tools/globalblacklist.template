@@ -15,9 +15,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.08.821
-### Updated: Sun Aug 20 13:22:02 SAST 2017
-### Bad Referrer Count: 5612
+### Version: V3.2017.08.822
+### Updated: Sun Aug 20 15:40:17 SAST 2017
+### Bad Referrer Count: 5622
 ### Bad Bot Count: 504
 ###################################################
 ### VERSION INFORMATION ##
@@ -949,6 +949,7 @@ map $http_referer $bad_referer {
 	"~*3dracergames\.com" 	1;
 	"~*3\-letter\-domains\.net" 	1;
 	"~*3rbseyes\.com" 	1;
+	"~*3w24\.com" 	1;
 	"~*3weekdiet\.com" 	1;
 	"~*3xforum\.ro" 	1;
 	"~*40cg\.com" 	1;
@@ -2171,6 +2172,7 @@ map $http_referer $bad_referer {
 	"~*cyse\.tk" 	1;
 	"~*czat\.wp\.pl" 	1;
 	"~*d0t\.ru" 	1;
+	"~*dafatiri\.com" 	1;
 	"~*dailyfinancefix\.com" 	1;
 	"~*dailyrank\.net" 	1;
 	"~*dailystrength\.org" 	1;
@@ -2725,6 +2727,7 @@ map $http_referer $bad_referer {
 	"~*fok\.nl" 	1;
 	"~*folowsite\.com" 	1;
 	"~*f\-online\.de" 	1;
+	"~*food\.dtu\.dk" 	1;
 	"~*footbalive\.org" 	1;
 	"~*footballfarrago\.com" 	1;
 	"~*forensicpsychiatry\.ru" 	1;
@@ -3377,6 +3380,7 @@ map $http_referer $bad_referer {
 	"~*ivoiretechnocom\.ci" 	1;
 	"~*iwantmyfreecash\.com" 	1;
 	"~*iwanttodeliver\.com" 	1;
+	"~*iweblist\.info" 	1;
 	"~*ix20\.ru" 	1;
 	"~*iyasimasennka\.com" 	1;
 	"~*izhevsk\.xrus\.org" 	1;
@@ -3747,6 +3751,7 @@ map $http_referer $bad_referer {
 	"~*lsp\-awak\-perikanan\.com" 	1;
 	"~*ltvperf\.com" 	1;
 	"~*lubetube\.com" 	1;
+	"~*luciddiagnostics\.in" 	1;
 	"~*luckyday\.world" 	1;
 	"~*luckyshop\.net\.ua" 	1;
 	"~*lulea\-auktionsverk\.se" 	1;
@@ -4135,6 +4140,7 @@ map $http_referer $bad_referer {
 	"~*narkologiya\-voronezh\.ru" 	1;
 	"~*narosty\.com" 	1;
 	"~*narutonaruto\.ru" 	1;
+	"~*nash\-krym\.info" 	1;
 	"~*nastroyke\.net" 	1;
 	"~*nastydollars\.com" 	1;
 	"~*nate\.com" 	1;
@@ -4321,6 +4327,7 @@ map $http_referer $bad_referer {
 	"~*ooo\-gotovie\.ru" 	1;
 	"~*ooo\-olni\.ru" 	1;
 	"~*oops\-cinema\.ru" 	1;
+	"~*openallurls\.com" 	1;
 	"~*openfrost\.com" 	1;
 	"~*openfrost\.net" 	1;
 	"~*openlibrary\.org" 	1;
@@ -4620,6 +4627,7 @@ map $http_referer $bad_referer {
 	"~*preparevideosafesystem4unow\.space" 	1;
 	"~*presleycollectibles\.com" 	1;
 	"~*pretty\-mart\.com" 	1;
+	"~*preventheadacheguide\.info" 	1;
 	"~*priceg\.com" 	1;
 	"~*pricheskaonline\.ru" 	1;
 	"~*pricheski\-video\.com" 	1;
@@ -5100,6 +5108,7 @@ map $http_referer $bad_referer {
 	"~*servethis\.com" 	1;
 	"~*service\.adtech\.fr" 	1;
 	"~*service\.adtech\.us" 	1;
+	"~*servicecenter\.co\.ua" 	1;
 	"~*service\-core\.ru" 	1;
 	"~*servingnotice\.com" 	1;
 	"~*servisural\.ru" 	1;
@@ -6447,6 +6456,7 @@ map $http_referer $bad_referer {
 	"~*zigarettenonlinekaufen\.tumblr\.com" 	1;
 	"~*zigzog\.ru" 	1;
 	"~*zionstar\.net" 	1;
+	"~*zixizop\.net\.ru" 	1;
 	"~*zkjovpdgxivg\.ga" 	1;
 	"~*zlatnajesen\.com" 	1;
 	"~*z\-master\.ru" 	1;
