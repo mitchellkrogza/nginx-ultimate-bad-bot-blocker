@@ -72,6 +72,7 @@ domain:300richmond.co.nz
 domain:34.gs
 domain:3dracergames.com
 domain:3rbseyes.com
+domain:3w24.com
 domain:3weekdiet.com
 domain:3xforum.ro
 domain:40cg.com
@@ -1294,6 +1295,7 @@ domain:cyprusbuyproperties.com
 domain:cyse.tk
 domain:czat.wp.pl
 domain:d0t.ru
+domain:dafatiri.com
 domain:dailyfinancefix.com
 domain:dailyrank.net
 domain:dailystrength.org
@@ -1848,6 +1850,7 @@ domain:focalink.com
 domain:fodelsedagspresenter.nu
 domain:fok.nl
 domain:folowsite.com
+domain:food.dtu.dk
 domain:footbalive.org
 domain:footballfarrago.com
 domain:forensicpsychiatry.ru
@@ -2500,6 +2503,7 @@ domain:ivanstroi.ru
 domain:ivoiretechnocom.ci
 domain:iwantmyfreecash.com
 domain:iwanttodeliver.com
+domain:iweblist.info
 domain:ix20.ru
 domain:iyasimasennka.com
 domain:izhevsk.xrus.org
@@ -2870,6 +2874,7 @@ domain:lsex.xyz
 domain:lsp-awak-perikanan.com
 domain:ltvperf.com
 domain:lubetube.com
+domain:luciddiagnostics.in
 domain:luckyday.world
 domain:luckyshop.net.ua
 domain:lulea-auktionsverk.se
@@ -3259,6 +3264,7 @@ domain:narkologiya-peterburg.ru
 domain:narkologiya-voronezh.ru
 domain:narosty.com
 domain:narutonaruto.ru
+domain:nash-krym.info
 domain:nastroyke.net
 domain:nastydollars.com
 domain:nate.com
@@ -3445,6 +3451,7 @@ domain:ooo-gotovie.ru
 domain:ooo-olni.ru
 domain:oops-cinema.ru
 domain:open-odyssey.org
+domain:openallurls.com
 domain:openfrost.com
 domain:openfrost.net
 domain:openlibrary.org
@@ -3744,6 +3751,7 @@ domain:preparevideosafesystem4unow.site
 domain:preparevideosafesystem4unow.space
 domain:presleycollectibles.com
 domain:pretty-mart.com
+domain:preventheadacheguide.info
 domain:priceg.com
 domain:pricheskaonline.ru
 domain:pricheski-video.com
@@ -4227,6 +4235,7 @@ domain:servethis.com
 domain:service-core.ru
 domain:service.adtech.fr
 domain:service.adtech.us
+domain:servicecenter.co.ua
 domain:servingnotice.com
 domain:servisural.ru
 domain:serw.clicksor.com
@@ -5571,6 +5580,7 @@ domain:zigarettenonlinekaufen2.bloog.pl
 domain:zigarettenonlinekaufen2.drupalgardens.com
 domain:zigzog.ru
 domain:zionstar.net
+domain:zixizop.net.ru
 domain:zkjovpdgxivg.ga
 domain:zlatnajesen.com
 domain:zmoda.hostreo.com
