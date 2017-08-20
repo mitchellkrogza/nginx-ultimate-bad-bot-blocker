@@ -24,7 +24,11 @@ Not Using Nginx? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img
 ************************************************
 ### Update Notification System - Stay up to date on New Builds and Major Feature Changes 
 
-It is important to please <a href="https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker">subscribe your email address to the mailing list</a> or <a href="mailto:nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com">simply send a blank email here</a> to subscribe.
+**It is important to please**
+
+- <a href="https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker">Join the Google Group Mailing List</a> 
+- <a href="mailto:nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com">Click Here to Join Mailing List via Email</a>
+- <a href="mailto:mitchellkrog@gmail.com?subject=Please Add Me To the Slack Channel"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/slack.png"/>Ask For an Invite to #Slack</a>
 
 Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical (potentially breaking) changes take place.
 
