@@ -679,8 +679,9 @@ Many Thanks to those contributing to this project.
 Many parts of the generator scripts and code running behind this project have been adapted from snippets from hundreds of sources. 
 In fact it is so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. Show them some love and check out some of their projects too.
 
+- Konstantin Goretzki @konstantingoretzki https://github.com/konstantingoretzki (Improved Regex on Fail2Ban Filter)
 - Stuart Cardall - https://github.com/itoffshore (Install, Update and Setup Scripts & Alpine Linux Package Maintainer)
-- Nissar Chababy - https://github.com/funilrys/funceble (Excellent script for checking ACTIVE, INACTIVE and EXPIRED Domain Names)
+- Nissar Chababy @funilrys - https://github.com/funilrys/funceble (Excellent script for checking ACTIVE, INACTIVE and EXPIRED Domain Names)
 - Marius Voila https://github.com/mariusv
 - Cătălin Mariș https://github.com/alrra
 - deformhead https://github.com/deformhead
