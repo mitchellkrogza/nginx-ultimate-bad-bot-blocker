@@ -28,7 +28,7 @@ Not Using Nginx? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img
 
 - <a href="https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker">Join the Google Group Mailing List</a> 
 - <a href="mailto:nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com">Click Here to Join Mailing List via Email</a>
-- <a href="mailto:mitchellkrog@gmail.com?subject=Please Add Me To the Slack Channel"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/slack.png"/>Ask For an Invite to #Slack</a>
+- <a href="mailto:mitchellkrog@gmail.com?subject=Please Add Me To the Slack Channel (Nginx Bad Bot Blocker)">Ask For an Invite to<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/slack.png"/></a>
 
 Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical (potentially breaking) changes take place.
 
