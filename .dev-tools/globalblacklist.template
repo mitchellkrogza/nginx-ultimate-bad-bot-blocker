@@ -2,6 +2,15 @@
 ### THE ULTIMATE NGINX BAD BOT BLOCKER
 ### **********************************
 
+### VERSION INFORMATION #
+###################################################
+### Version: V3.2017.08.826
+### Updated: Tue Aug 22 09:42:34 SAST 2017
+### Bad Referrer Count: 5622
+### Bad Bot Count: 504
+###################################################
+### VERSION INFORMATION ##
+
 ##############################################################################                                                                
 #       _  __     _                                                          #
 #      / |/ /__ _(_)__ __ __                                                 #
@@ -13,15 +22,6 @@
 #    /____/\_,_/\_,_/  /____/\___/\__/  /____/_/\___/\__/_/\_\\__/_/         #
 #                                                                            #
 ##############################################################################                                                                
-
-### VERSION INFORMATION #
-###################################################
-### Version: V3.2017.08.826
-### Updated: Tue Aug 22 09:42:34 SAST 2017
-### Bad Referrer Count: 5622
-### Bad Bot Count: 504
-###################################################
-### VERSION INFORMATION ##
 
 ### This file implements a checklist / blacklist for good user agents, bad user agents and
 ### bad referrers on Nginx Web Server. It also has whitelisting for your own IP's and known good IP Ranges
