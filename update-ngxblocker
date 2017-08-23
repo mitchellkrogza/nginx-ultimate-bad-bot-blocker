@@ -263,7 +263,7 @@ get_options() {
 
 main() {
 	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
-	local file=globalblacklist.conf remote_dir=conf.d url= output= update= status=
+	local file=globalblacklist.conf remote_dir=conf.d url= output= update= status= tmp=
 	# default to service (centos does not have 'which' by default)
 	local service=${service_cmd:-"service"}
 
@@ -288,8 +288,18 @@ main() {
 	if echo $update | grep ^Update 1>/dev/null; then
 
 		# download globalblacklist update
+		tmp=$(mktemp)
 		mkdir -p $CONF_DIR
-		wget $url $(wget_opts) -O $output 2>&1
+		printf "${BOLDWHITE}Downloading: $file "
+		curl --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so $tmp $url
+
+		case "$?" in
+			 0) printf "...${BOLDGREEN}OK${RESET}\n\n"
+			    mv $tmp $output
+			    ;;
+			22) printf "...${BOLDRED}ERROR 404: $url${RESET}\n\n";;
+			28) printf "...${BOLDRED}ERROR TIMEOUT: $url${RESET}\n\n";;
+		esac
 
 		# download new bots.d / conf.d files
 		$INSTALL_INC
