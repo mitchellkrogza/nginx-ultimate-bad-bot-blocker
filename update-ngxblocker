@@ -104,7 +104,7 @@ check_version() {
 }
 
 check_dirs() {
-	local x= dirs=$@
+	local x= dirs="$@"
 
 	for x in $dirs; do
 		if [ ! -d $x ]; then
@@ -274,10 +274,10 @@ main() {
 	fi
 
 	check_depends
-	check_dirs $BOTS_DIR $CONF_DIR $SCRIPT_DIR
 
 	# parse command line
 	get_options $@
+	check_dirs $BOTS_DIR $CONF_DIR
 	url=$REPO/$remote_dir/$file
 	output=$CONF_DIR/$file
 
