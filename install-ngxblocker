@@ -92,7 +92,7 @@ check_if_updating() {
 }
 
 download_files() {
-	local url= x= local_file= remote_path= remote_dir=$1 local_dir=$2 # rm leading whitespace
+	local url= x= local_file= remote_path= remote_dir=$1 local_dir=$2 tmp= # rm leading whitespace
 	local file_list="$(echo $@ | awk '{$1=$2=""; print $0}' | sed -e 's/^[ \t]*//')"
 	local col_size=$(( $(longest_str $file_list) + $(echo $remote_dir | wc -m) ))
 
@@ -102,7 +102,7 @@ download_files() {
 		for x in $file_list; do
 			local_file=$local_dir/$x
 
-			if [ ! -f $local_file ]; then
+			if [ ! -f $local_file ] || [ ! -s $local_file ]; then
 				if [ "$remote_dir" = "/" ]; then
 					remote_path=$x
 				else
@@ -115,14 +115,17 @@ download_files() {
 					"[REPO]/$remote_path" \
 					"[TO]=>  $local_file"
 
+					tmp=$(mktemp)
 					url=$REPO/$remote_path
-					wget -q $url -O $local_file
+					curl --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so $tmp $url
 
-					if [ $? = 0 ]; then
-						printf "...OK\n"
-					else
-						printf "...ERROR downloading: $url\n"
-					fi
+					case "$?" in
+						 0) printf "...OK\n"
+						    mv $tmp $local_file
+						    ;;
+						22) printf "...ERROR 404: $url\n";;
+						28) printf "...ERROR TIMEOUT: $url\n";;
+					esac
 				else
 					printf "%-21s %-$(( $col_size +8 ))s %s\n" \
 					"Downloading [FROM]=>" \
