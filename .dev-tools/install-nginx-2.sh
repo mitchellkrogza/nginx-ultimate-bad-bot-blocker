@@ -258,8 +258,8 @@ printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "###
 ls -la /usr/local/nginx/bots.d/
 ls -la /usr/local/nginx/conf.d/
 
-sudo chown -r www-data:www-data /usr/local/nginx/bots.d/
-sudo chown -r www-data:www-data /usr/local/nginx/conf.d/
+sudo chown -R www-data:www-data /usr/local/nginx/bots.d/
+sudo chown -R www-data:www-data /usr/local/nginx/conf.d/
 
 
 cp /usr/local/nginx/bots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test2/bots.d/

@@ -226,8 +226,8 @@ ls -la /etc/nginx/bots.d/
 ls -la /etc/nginx/bots.d/
 ls -la /etx/nginx/
 
-sudo chown -r www-data:www-data /etc/nginx/bots.d/
-sudo chown -r www-data:www-data /etc/nginx/conf.d/
+sudo chown -R www-data:www-data /etc/nginx/bots.d/
+sudo chown -R www-data:www-data /etc/nginx/conf.d/
 
 cp /etc/nginx/bots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test1/bots.d/
 cp /etc/nginx/conf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test1/conf.d/
