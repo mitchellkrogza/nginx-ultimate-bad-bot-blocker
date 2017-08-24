@@ -224,7 +224,7 @@ printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "###
 
 ls -la /etc/nginx/bots.d/
 ls -la /etc/nginx/bots.d/
-ls -la /etx/nginx/
+ls -la /etc/nginx/
 
 sudo chown -R www-data:www-data /etc/nginx/bots.d/
 sudo chown -R www-data:www-data /etc/nginx/conf.d/
