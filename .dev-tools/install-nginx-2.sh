@@ -255,6 +255,10 @@ printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "###
 # Copy all .conf files used in Test 2 to a folder for checking
 # ************************************************************
 
+sudo chown -r www-data:www-data /usr/local/nginx/bots.d/
+sudo chown -r www-data:www-data /usr/local/nginx/conf.d/
+
+
 cp /usr/local/nginx/bots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test2/bots.d/
 cp /usr/local/nginx/conf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test2/conf.d/
 
