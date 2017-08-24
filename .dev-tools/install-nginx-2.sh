@@ -255,15 +255,15 @@ printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "###
 # Copy all .conf files used in Test 2 to a folder for checking
 # ************************************************************
 
-ls -la /usr/local/nginx/bots.d/
-ls -la /usr/local/nginx/conf.d/
+#ls -la /usr/local/nginx/bots.d/
+#ls -la /usr/local/nginx/conf.d/
 
-sudo chown -R www-data:www-data /usr/local/nginx/bots.d/
-sudo chown -R www-data:www-data /usr/local/nginx/conf.d/
+#sudo chown -R www-data:www-data /usr/local/nginx/bots.d/
+#sudo chown -R www-data:www-data /usr/local/nginx/conf.d/
 
 
-cp /usr/local/nginx/bots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test2/bots.d/
-cp /usr/local/nginx/conf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test2/conf.d/
+sudo cp /usr/local/nginx/bots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test2/bots.d/
+sudo cp /usr/local/nginx/conf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test2/conf.d/
 
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml
