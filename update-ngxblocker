@@ -104,7 +104,7 @@ check_version() {
 }
 
 check_dirs() {
-	local x= dirs="$@"
+	local x= dirs="$*"
 
 	for x in $dirs; do
 		if [ ! -d $x ]; then
@@ -147,17 +147,6 @@ service_cmd() {
 			exit 0
 		fi
 	done
-}
-
-wget_opts() {
-	local opts=
-
-	# Busybox wget gives less verbose output by default
-	if [ -n "$(wget --help 2>/dev/null | grep "\-nv")" ]; then
-		opts="-nv"
-	fi
-
-	echo $opts
 }
 
 sanitize_path() {
