@@ -255,6 +255,9 @@ printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "###
 # Copy all .conf files used in Test 2 to a folder for checking
 # ************************************************************
 
+ls -la /usr/local/nginx/bots.d/
+ls -la /usr/local/nginx/conf.d/
+
 sudo chown -r www-data:www-data /usr/local/nginx/bots.d/
 sudo chown -r www-data:www-data /usr/local/nginx/conf.d/
 
