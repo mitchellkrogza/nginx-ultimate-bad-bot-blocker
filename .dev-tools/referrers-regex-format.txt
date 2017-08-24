@@ -340,6 +340,7 @@
 "~*amateurlivechat\.org" 	1;
 "~*amateurmatch\.com" 	1;
 "~*amazingninja\.com" 	1;
+"~*amazingpic\.net" 	1;
 "~*amazon\-adsystem\.com" 	1;
 "~*amazon\-seo\-service\.com" 	1;
 "~*ameblo\.jp" 	1;
@@ -687,6 +688,7 @@
 "~*betonka\.pro" 	1;
 "~*bet\-prognoz\.com" 	1;
 "~*betterhdporn\.com" 	1;
+"~*betteroffers\.review" 	1;
 "~*betterscooter\.com" 	1;
 "~*betune\.onlinewebshop\.net" 	1;
 "~*betwinservice\.com" 	1;
@@ -1495,6 +1497,7 @@
 "~*duplicashapp\.com" 	1;
 "~*dustyorate\.com" 	1;
 "~*dvd\-famille\.com" 	1;
+"~*dverimegapolis\.ru" 	1;
 "~*dvervmoskvu\.ru" 	1;
 "~*dvr\.biz\.ua" 	1;
 "~*dvrlists\.com" 	1;
@@ -1675,6 +1678,7 @@
 "~*evidencecleanergold\.com" 	1;
 "~*evogarage\.com" 	1;
 "~*evrotekhservis\.ru" 	1;
+"~*ewebarticle\.info" 	1;
 "~*excaliburfilms\.com" 	1;
 "~*exchangeit\.gq" 	1;
 "~*exchanges\-bet\.com" 	1;
@@ -2473,6 +2477,7 @@
 "~*iqs\.biz\.ua" 	1;
 "~*iqupdatetmz\.win" 	1;
 "~*iradiology\.ru" 	1;
+"~*irkutsk\.online\-podarki\.com" 	1;
 "~*irunfar\.com" 	1;
 "~*iscblog\.info" 	1;
 "~*i\-service\.kz" 	1;
@@ -2596,6 +2601,7 @@
 "~*kazrent\.com" 	1;
 "~*kchaxton\.com" 	1;
 "~*keenoutlet\.online" 	1;
+"~*kenaba\.su" 	1;
 "~*kerei\.ru" 	1;
 "~*kerwinandcariza\.com" 	1;
 "~*ketoanhanoi\.info" 	1;
@@ -2714,6 +2720,7 @@
 "~*kw21\.org" 	1;
 "~*kwzf\.net" 	1;
 "~*laapp\.com" 	1;
+"~*labafydjxa\.su" 	1;
 "~*labelwater\.se" 	1;
 "~*labplus\.ru" 	1;
 "~*labvis\.host\.sk" 	1;
@@ -3034,6 +3041,7 @@
 "~*mex\-annushka\.ru" 	1;
 "~*mexicosleevegastrectomy\.com" 	1;
 "~*mexicotravelnet\.com" 	1;
+"~*mezaruk\.info" 	1;
 "~*m\-google\.xyz" 	1;
 "~*mhi\-systems\.ru" 	1;
 "~*mhtr\.be" 	1;
@@ -3222,6 +3230,7 @@
 "~*myftpupload\.com" 	1;
 "~*mygameplus\.com" 	1;
 "~*mygameplus\.ru" 	1;
+"~*myghillie\.info" 	1;
 "~*myhealthcare\.com" 	1;
 "~*myhitmp3\.club" 	1;
 "~*myindospace\.com" 	1;
@@ -3299,8 +3308,10 @@
 "~*newstudio\.tv" 	1;
 "~*newtechspb\.ru" 	1;
 "~*newyorkhotelsmotels\.info" 	1;
+"~*nextbackgroundcheck\.gq" 	1;
 "~*nextconseil\.com" 	1;
 "~*nextlnk12\.com" 	1;
+"~*nextrent\-crimea\.ru" 	1;
 "~*nfljerseyscheapbiz\.us" 	1;
 "~*nfljerseyscheapchinabiz\.com" 	1;
 "~*nfljerseysforsalewholesaler\.com" 	1;
@@ -3430,6 +3441,7 @@
 "~*onlineku\.com" 	1;
 "~*onlinemeetingnow\.com" 	1;
 "~*onlinemegax\.com" 	1;
+"~*online\-podarki\.com" 	1;
 "~*onlineserialy\.ru" 	1;
 "~*onlineslotmaschine\.com" 	1;
 "~*online\-templatestore\.com" 	1;
@@ -4076,6 +4088,7 @@
 "~*sa\-live\.com" 	1;
 "~*salmonfishingsacramentoriver\.com" 	1;
 "~*salutmontreal\.com" 	1;
+"~*sammyweaver\.com" 	1;
 "~*samoiedo\.it" 	1;
 "~*samolet\.fr" 	1;
 "~*samo\-soznanie\.ru" 	1;
@@ -4601,6 +4614,7 @@
 "~*surflinksmedical\.com" 	1;
 "~*surgut\.zrus\.org" 	1;
 "~*surintech\.ac\.th" 	1;
+"~*survival\.betteroffers\.review" 	1;
 "~*susanholtphotography\.com" 	1;
 "~*svarbit\.com" 	1;
 "~*svarkagid\.com" 	1;
@@ -4961,6 +4975,7 @@
 "~*ukkelberg\.no" 	1;
 "~*ukrobstep\.com" 	1;
 "~*ukrup\.com" 	1;
+"~*uk\-zheu20\.ru" 	1;
 "~*ultimateclassicrock\.com" 	1;
 "~*ultimatesetnewfreeallsoftupgradesystems\.pw" 	1;
 "~*ultramart\.biz" 	1;
@@ -5101,6 +5116,7 @@
 "~*villacoloniale\.com" 	1;
 "~*villakohlanta\.nu" 	1;
 "~*vinsit\.ru" 	1;
+"~*vintontech\.info" 	1;
 "~*vinylvault\.co\.uk" 	1;
 "~*vip2ch\.com" 	1;
 "~*vip\.51\.la" 	1;
@@ -5164,6 +5180,7 @@
 "~*vvon\.co\.uk" 	1;
 "~*vykup\-avto\-krasnodar\.ru" 	1;
 "~*vykupavto\-krasnodar\.ru" 	1;
+"~*vysigy\.su" 	1;
 "~*vzglyadriv\.kg" 	1;
 "~*vzlom\-na\-zakaz\.com" 	1;
 "~*w3data\.co" 	1;
@@ -5518,6 +5535,7 @@
 "~*yunque\.pluto\.ro" 	1;
 "~*yurgorod\.ru" 	1;
 "~*yur\-p\.ru" 	1;
+"~*zaapplesales\.blogspot\.com" 	1;
 "~*za\-fun\-offer\.com" 	1;
 "~*zahvat\.ru" 	1;
 "~*zaidia\.xhost\.ro" 	1;
@@ -5589,6 +5607,7 @@
 "~*znakomstva\-piter78\.ru" 	1;
 "~*znaniyapolza\.ru" 	1;
 "~*znaturaloriginal\.com" 	1;
+"~*zocaparj\.kz" 	1;
 "~*zog\.link" 	1;
 "~*zojirushi\-products\.ru" 	1;
 "~*zolotoy\-lis\.ru" 	1;

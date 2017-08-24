@@ -342,6 +342,7 @@ domain:amateurgalls.com
 domain:amateurlivechat.org
 domain:amateurmatch.com
 domain:amazingninja.com
+domain:amazingpic.net
 domain:amazon-adsystem.com
 domain:amazon-seo-service.com
 domain:ameblo.jp
@@ -688,6 +689,7 @@ domain:bet365.com
 domain:beta.hotkeys.com
 domain:betonka.pro
 domain:betterhdporn.com
+domain:betteroffers.review
 domain:betterscooter.com
 domain:betune.onlinewebshop.net
 domain:betwinservice.com
@@ -1495,6 +1497,7 @@ domain:dtnlyss.com
 domain:duplicashapp.com
 domain:dustyorate.com
 domain:dvd-famille.com
+domain:dverimegapolis.ru
 domain:dvervmoskvu.ru
 domain:dvr.biz.ua
 domain:dvrlists.com
@@ -1675,6 +1678,7 @@ domain:everypony.ru
 domain:evidencecleanergold.com
 domain:evogarage.com
 domain:evrotekhservis.ru
+domain:ewebarticle.info
 domain:excaliburfilms.com
 domain:exchangeit.gq
 domain:exchanges-bet.com
@@ -2474,6 +2478,7 @@ domain:iqoption.pro
 domain:iqs.biz.ua
 domain:iqupdatetmz.win
 domain:iradiology.ru
+domain:irkutsk.online-podarki.com
 domain:irunfar.com
 domain:iscblog.info
 domain:isistaylorporn.info
@@ -2596,6 +2601,7 @@ domain:kazinogames.lv
 domain:kazrent.com
 domain:kchaxton.com
 domain:keenoutlet.online
+domain:kenaba.su
 domain:kerei.ru
 domain:kerwinandcariza.com
 domain:ketoanhanoi.info
@@ -2715,6 +2721,7 @@ domain:kw21.org
 domain:kwzf.net
 domain:la-fa.ru
 domain:laapp.com
+domain:labafydjxa.su
 domain:labelwater.se
 domain:labplus.ru
 domain:labvis.host.sk
@@ -3035,6 +3042,7 @@ domain:methodsmarketing.com
 domain:mex-annushka.ru
 domain:mexicosleevegastrectomy.com
 domain:mexicotravelnet.com
+domain:mezaruk.info
 domain:mhi-systems.ru
 domain:mhtr.be
 domain:micasainvest.com
@@ -3222,6 +3230,7 @@ domain:myfreetutorials.com
 domain:myftpupload.com
 domain:mygameplus.com
 domain:mygameplus.ru
+domain:myghillie.info
 domain:myhealthcare.com
 domain:myhitmp3.club
 domain:myindospace.com
@@ -3299,8 +3308,10 @@ domain:newstraveller.ru
 domain:newstudio.tv
 domain:newtechspb.ru
 domain:newyorkhotelsmotels.info
+domain:nextbackgroundcheck.gq
 domain:nextconseil.com
 domain:nextlnk12.com
+domain:nextrent-crimea.ru
 domain:nfljerseys.online
 domain:nfljerseyscheapbiz.us
 domain:nfljerseyscheapchinabiz.com
@@ -3426,6 +3437,7 @@ domain:onlainbesplatno.ru
 domain:onlinadverts.com
 domain:online-hd.pl
 domain:online-hit.info
+domain:online-podarki.com
 domain:online-templatestore.com
 domain:online-x.ru
 domain:online.ktc45.ru
@@ -4078,6 +4090,7 @@ domain:sale-japan.com
 domain:saletool.ru
 domain:salmonfishingsacramentoriver.com
 domain:salutmontreal.com
+domain:sammyweaver.com
 domain:samo-soznanie.ru
 domain:samoiedo.it
 domain:samolet.fr
@@ -4601,6 +4614,7 @@ domain:surffoundation.nl
 domain:surflinksmedical.com
 domain:surgut.zrus.org
 domain:surintech.ac.th
+domain:survival.betteroffers.review
 domain:susanholtphotography.com
 domain:svarbit.com
 domain:svarkagid.com
@@ -4958,6 +4972,7 @@ domain:ugogo.info
 domain:uhdtv.website
 domain:uhod-za-sobakoj.ru
 domain:uhodzalijami.ru
+domain:uk-zheu20.ru
 domain:ukkelberg.no
 domain:ukrobstep.com
 domain:ukrup.com
@@ -5101,6 +5116,7 @@ domain:vilingstore.net
 domain:villacoloniale.com
 domain:villakohlanta.nu
 domain:vinsit.ru
+domain:vintontech.info
 domain:vinylvault.co.uk
 domain:vip-dom.in
 domain:vip-file.com
@@ -5164,6 +5180,7 @@ domain:vut.com.ru
 domain:vvon.co.uk
 domain:vykup-avto-krasnodar.ru
 domain:vykupavto-krasnodar.ru
+domain:vysigy.su
 domain:vzglyadriv.kg
 domain:vzlom-na-zakaz.com
 domain:w-journal.ru
@@ -5521,6 +5538,7 @@ domain:yurgorod.ru
 domain:z-master.ru
 domain:za-fun-offer.com
 domain:za-music.mymobiplanet.com
+domain:zaapplesales.blogspot.com
 domain:zahvat.ru
 domain:zaidia.xhost.ro
 domain:zaim-pod-zalog-krasnodar.ru
@@ -5589,6 +5607,7 @@ domain:znakomstva-piter78.ru
 domain:znakomstvaonlain.ru
 domain:znaniyapolza.ru
 domain:znaturaloriginal.com
+domain:zocaparj.kz
 domain:zog.link
 domain:zojirushi-products.ru
 domain:zolotoy-lis.ru
