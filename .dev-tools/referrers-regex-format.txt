@@ -269,6 +269,7 @@
 "~*akama\.com" 	1;
 "~*akita\.kz" 	1;
 "~*aktivator\-windows10\.blogspot\.com" 	1;
+"~*aktobe\.xkaz\.org" 	1;
 "~*akuhni\.by" 	1;
 "~*akusherok\.ru" 	1;
 "~*akvamaster\.dp\.ua" 	1;
@@ -513,6 +514,7 @@
 "~*autobrennero\.it" 	1;
 "~*autobudpostach\.club" 	1;
 "~*autochoixspinelli\.com" 	1;
+"~*autodo\.info" 	1;
 "~*autogrep\.ru" 	1;
 "~*autoloans\.com" 	1;
 "~*autolombard\-krasnodar\.ru" 	1;
@@ -572,6 +574,7 @@
 "~*azbuka\-mo\.ru" 	1;
 "~*azlex\.uz" 	1;
 "~*azte\.ch" 	1;
+"~*b00kmarks\.com" 	1;
 "~*b2b\-lounge\.com" 	1;
 "~*babespcs\.com" 	1;
 "~*babieca\.com" 	1;
@@ -1220,6 +1223,7 @@
 "~*cookie\-law\-enforcement\-hh\.xyz" 	1;
 "~*cookingmeat\.ru" 	1;
 "~*coolbar\.pro" 	1;
+"~*coolgamechannel\.com" 	1;
 "~*coolgramgoods\.com" 	1;
 "~*coolingoods\.com" 	1;
 "~*coolwallpapers\-hd\.com" 	1;
@@ -1598,6 +1602,7 @@
 "~*elstal\.com\.pl" 	1;
 "~*elvel\.com\.ua" 	1;
 "~*elvenar\.com" 	1;
+"~*elvenmachine\.com" 	1;
 "~*emailaccountlogin\.co" 	1;
 "~*embedle\.com" 	1;
 "~*emediate\.eu" 	1;
@@ -1737,6 +1742,7 @@
 "~*failingmarriege\.blogspot\.com" 	1;
 "~*fakehandbags\.xyz" 	1;
 "~*falcoware\.com" 	1;
+"~*falllow\.gq" 	1;
 "~*familienzahnaerzte\.com" 	1;
 "~*family1st\.ca" 	1;
 "~*familyholiday\.ml" 	1;
@@ -1798,6 +1804,7 @@
 "~*filesmonster\.porn" 	1;
 "~*filesvine\.com" 	1;
 "~*filkhbr\.com" 	1;
+"~*fillmewithhappiness\.com" 	1;
 "~*filmbokep69\.com" 	1;
 "~*filmetricsasia\.com" 	1;
 "~*filmfanatic\.com" 	1;
@@ -1993,6 +2000,7 @@
 "~*gaming\-journal\.com" 	1;
 "~*gamingspark\.com" 	1;
 "~*gardene\.ru" 	1;
+"~*gate5\.co\.za" 	1;
 "~*gay\.adultgalls\.com" 	1;
 "~*gay\-file\.com" 	1;
 "~*gaygalls\.net" 	1;
@@ -2243,6 +2251,7 @@
 "~*herokuapp\.com" 	1;
 "~*hesteel\.pl" 	1;
 "~*hetmanship\.xyz" 	1;
+"~*hexpilot\.com" 	1;
 "~*heygidday\.biz" 	1;
 "~*hidefiles\.org" 	1;
 "~*hidemyass\.com" 	1;
@@ -2354,6 +2363,7 @@
 "~*i4track\.net" 	1;
 "~*iamsport\.org" 	1;
 "~*ibb\.com\.ua" 	1;
+"~*iboss\.com" 	1;
 "~*icaseclub\.ru" 	1;
 "~*iccornacircri\.cf" 	1;
 "~*ico\.re" 	1;
@@ -2466,6 +2476,7 @@
 "~*iomoio\.net" 	1;
 "~*iopeninghours\.co\.uk" 	1;
 "~*ip\-guide\.com" 	1;
+"~*iphantom\.com" 	1;
 "~*iplogger\.org" 	1;
 "~*iplusbit\.blogspot\.co\.za" 	1;
 "~*ipostroika\.ru" 	1;
@@ -2478,6 +2489,7 @@
 "~*iqupdatetmz\.win" 	1;
 "~*iradiology\.ru" 	1;
 "~*irkutsk\.online\-podarki\.com" 	1;
+"~*irkutsk\.zrus\.org" 	1;
 "~*irunfar\.com" 	1;
 "~*iscblog\.info" 	1;
 "~*i\-service\.kz" 	1;
@@ -2565,6 +2577,7 @@
 "~*juliadiets\.com" 	1;
 "~*juliaworld\.net" 	1;
 "~*jumptap\.com" 	1;
+"~*junglenet\-a\.akamaihd\.net" 	1;
 "~*jus0wil\.pp\.ua" 	1;
 "~*justbcause\.com" 	1;
 "~*justdating\.online" 	1;
@@ -2586,6 +2599,7 @@
 "~*kanimage\.com" 	1;
 "~*karachev\-city\.ru" 	1;
 "~*karadene\.com" 	1;
+"~*karaganda\.xkaz\.org" 	1;
 "~*kareliatobacco\.ru" 	1;
 "~*karpun\-iris\.ru" 	1;
 "~*karting196\.ru" 	1;
@@ -2974,6 +2988,7 @@
 "~*maxthon\.com" 	1;
 "~*maxxtor\.eu" 	1;
 "~*mazda\-roadsters\.com" 	1;
+"~*m\.b00kmarks\.com" 	1;
 "~*mb140\.ru" 	1;
 "~*mbiologi\.ru" 	1;
 "~*mcadamssupplyco\.com" 	1;
@@ -3097,6 +3112,7 @@
 "~*mmstat\.com" 	1;
 "~*mncrftpcs\.com" 	1;
 "~*mnogabukaff\.net" 	1;
+"~*mnogolok\.info" 	1;
 "~*mobifunapp\.weebly\.com" 	1;
 "~*mobilemedia\.md" 	1;
 "~*mobilierland\.com" 	1;
@@ -3395,6 +3411,7 @@
 "~*offer\.camp" 	1;
 "~*offergroup\.info" 	1;
 "~*offers\.bycontext\.com" 	1;
+"~*offer\.wpsecurity\.website" 	1;
 "~*offf\.info" 	1;
 "~*office\-windows\.ru" 	1;
 "~*offside2\.5v\.pl" 	1;
@@ -3547,11 +3564,13 @@
 "~*partner\-trustworthy\.men" 	1;
 "~*partnerworkroom\.men" 	1;
 "~*partybunny\.ru" 	1;
+"~*pastaleads\.com" 	1;
 "~*pateaswing\.com" 	1;
 "~*pathwhelp\.org" 	1;
 "~*patol01\.pw" 	1;
 "~*patterntrader\-en\.com" 	1;
 "~*pattersonsweb\.com" 	1;
+"~*pavlodar\.xkaz\.org" 	1;
 "~*pay2me\.pl" 	1;
 "~*paydayloanslocal\.com" 	1;
 "~*paydayonlinecom\.com" 	1;
@@ -3904,6 +3923,7 @@
 "~*randki\-sex\.com" 	1;
 "~*rank\-checker\.online" 	1;
 "~*rankexperience\.com" 	1;
+"~*rankia\.com" 	1;
 "~*ranking2017\.ga" 	1;
 "~*rankingchart\.de" 	1;
 "~*rankings\-analytics\.com" 	1;
@@ -4026,6 +4046,7 @@
 "~*robot\-forex\.biz" 	1;
 "~*rockingclicks\.com" 	1;
 "~*rockma\.se" 	1;
+"~*rockprogblog\.com" 	1;
 "~*rogervivierforsale\.com" 	1;
 "~*roleforum\.ru" 	1;
 "~*roll123\.com" 	1;
@@ -4324,6 +4345,7 @@
 "~*shop\.xz618\.com" 	1;
 "~*shtaketniki\.ru" 	1;
 "~*shtora66\.ru" 	1;
+"~*shymkent\.xkaz\.org" 	1;
 "~*sibdevice\.ru" 	1;
 "~*sibecoprom\.ru" 	1;
 "~*sibtest\.ru" 	1;
@@ -4494,6 +4516,7 @@
 "~*spasswelt\.xyz" 	1;
 "~*spb\.afora\.ru" 	1;
 "~*spbchampionat\.ru" 	1;
+"~*spb\-plitka\.ru" 	1;
 "~*spb\.ru" 	1;
 "~*special\-porn\.com" 	1;
 "~*speedup\-my\.site" 	1;
@@ -4580,6 +4603,7 @@
 "~*stroyhelp\-dv\.ru" 	1;
 "~*stroymonolit\.su" 	1;
 "~*stroyplus\.ru" 	1;
+"~*stroy\-portal22\.ru" 	1;
 "~*strv\.se" 	1;
 "~*studiofaca\.com" 	1;
 "~*stuff\-about\-money\.com" 	1;
@@ -4632,6 +4656,7 @@
 "~*swiped\.su" 	1;
 "~*swsociety\.se" 	1;
 "~*sygraem\.com" 	1;
+"~*symbaloo\.com" 	1;
 "~*symphonyintegratedhealthcare\.com" 	1;
 "~*syvertsen\-da\.no" 	1;
 "~*szamponrevita\.pl" 	1;
@@ -4642,6 +4667,7 @@
 "~*tacbelarus\.ru" 	1;
 "~*tagil\.zrus\.org" 	1;
 "~*taihouse\.ru" 	1;
+"~*takeflyte\.com" 	1;
 "~*takeprofitsystem\.com" 	1;
 "~*takethatad\.com" 	1;
 "~*tako3\.com" 	1;
@@ -4651,6 +4677,7 @@
 "~*tanieaukcje\.com\.pl" 	1;
 "~*taqywu51\.soup\.io" 	1;
 "~*tarad\.com" 	1;
+"~*taraz\.xkaz\.org" 	1;
 "~*tasteidea\.com" 	1;
 "~*tastyfoodideas\.com" 	1;
 "~*tattomedia\.com" 	1;
@@ -4690,6 +4717,7 @@
 "~*tetracsaudi\.com" 	1;
 "~*texbaza\.by" 	1;
 "~*textads\.men" 	1;
+"~*tfxiq\.com" 	1;
 "~*thaisamkok\.com" 	1;
 "~*thebestweightlosspills\.ovh" 	1;
 "~*thebluenoodle\.com" 	1;
@@ -4899,6 +4927,7 @@
 "~*trubywriting\.com" 	1;
 "~*truck\-addzilla\.life" 	1;
 "~*truck\-land\.life" 	1;
+"~*truck\-rece\.life" 	1;
 "~*trucri\.me" 	1;
 "~*trudogolik\.net" 	1;
 "~*truemfilelj\.gq" 	1;
@@ -4925,6 +4954,7 @@
 "~*tupper\-posuda\.ru" 	1;
 "~*tupper\-shop\.ru" 	1;
 "~*turbabitload\.weebly\.com" 	1;
+"~*turbodsp\.com" 	1;
 "~*turbo\-suslik\.org" 	1;
 "~*turist\-strani\.ru" 	1;
 "~*turizm\.bz" 	1;
@@ -5320,6 +5350,7 @@
 "~*womensterritory\.ru" 	1;
 "~*wonderfulflowers\.biz" 	1;
 "~*woodyguthrie\.se" 	1;
+"~*wordkeyhelper\.com" 	1;
 "~*wordpresscore\.com" 	1;
 "~*wordpress\-crew\.net" 	1;
 "~*word\-vorlagen\.net" 	1;
@@ -5337,6 +5368,7 @@
 "~*wosik\-dach\.service\-for\-web\.de" 	1;
 "~*wowas31\.ucoz\.ru" 	1;
 "~*woweb\.com\.ua" 	1;
+"~*wpsecurity\.website" 	1;
 "~*wpthemedetector\.co\.uk" 	1;
 "~*writersgroup580\.web\.fc2\.com" 	1;
 "~*writingservices17\.blogspot\.ru" 	1;
@@ -5496,6 +5528,7 @@
 "~*yopoint\.in" 	1;
 "~*yorkshireccc\.com" 	1;
 "~*yorkshire\.com" 	1;
+"~*yoshkarola\.zrus\.org" 	1;
 "~*yottos\.com" 	1;
 "~*youandcredit\.ru" 	1;
 "~*youbloodyripper\.com" 	1;

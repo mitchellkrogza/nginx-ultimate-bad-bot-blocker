@@ -270,6 +270,7 @@ domain:airmaxshoes-2016.com
 domain:akama.com
 domain:akita.kz
 domain:aktivator-windows10.blogspot.com
+domain:aktobe.xkaz.org
 domain:akuhni.by
 domain:akusherok.ru
 domain:akvamaster.dp.ua
@@ -516,6 +517,7 @@ domain:autoblogger24.info
 domain:autobrennero.it
 domain:autobudpostach.club
 domain:autochoixspinelli.com
+domain:autodo.info
 domain:autogrep.ru
 domain:autoloans.com
 domain:autolombard-krasnodar.ru
@@ -573,6 +575,7 @@ domain:azbukafree.com
 domain:azlex.uz
 domain:azte.ch
 domain:b-styles.xyz
+domain:b00kmarks.com
 domain:b2b-lounge.com
 domain:babespcs.com
 domain:babieca.com
@@ -1221,6 +1224,7 @@ domain:cookielawblog.wordpress.com
 domain:cookingmeat.ru
 domain:cool-wedding.net
 domain:coolbar.pro
+domain:coolgamechannel.com
 domain:coolgramgoods.com
 domain:coolingoods.com
 domain:coolwallpapers-hd.com
@@ -1599,6 +1603,7 @@ domain:eloxal.ru
 domain:elstal.com.pl
 domain:elvel.com.ua
 domain:elvenar.com
+domain:elvenmachine.com
 domain:emailaccountlogin.co
 domain:embedle.com
 domain:emediate.eu
@@ -1739,6 +1744,7 @@ domain:factorynightclub.com
 domain:failingmarriege.blogspot.com
 domain:fakehandbags.xyz
 domain:falcoware.com
+domain:falllow.gq
 domain:familienzahnaerzte.com
 domain:family1st.ca
 domain:familyholiday.ml
@@ -1801,6 +1807,7 @@ domain:filerockstar298.weebly.com
 domain:filesmonster.porn
 domain:filesvine.com
 domain:filkhbr.com
+domain:fillmewithhappiness.com
 domain:film-one.ru
 domain:filmbokep69.com
 domain:filmetricsasia.com
@@ -1994,6 +2001,7 @@ domain:gamewrath.com
 domain:gaming-journal.com
 domain:gamingspark.com
 domain:gardene.ru
+domain:gate5.co.za
 domain:gay-file.com
 domain:gay.adultgalls.com
 domain:gaygalls.net
@@ -2243,6 +2251,7 @@ domain:hermesreplica.win
 domain:herokuapp.com
 domain:hesteel.pl
 domain:hetmanship.xyz
+domain:hexpilot.com
 domain:heygidday.biz
 domain:hidefiles.org
 domain:hidemyass.com
@@ -2357,6 +2366,7 @@ domain:i-service.kz
 domain:i4track.net
 domain:iamsport.org
 domain:ibb.com.ua
+domain:iboss.com
 domain:icaseclub.ru
 domain:iccornacircri.cf
 domain:ico.re
@@ -2467,6 +2477,7 @@ domain:io9.com
 domain:iomoio.net
 domain:iopeninghours.co.uk
 domain:ip-guide.com
+domain:iphantom.com
 domain:iplogger.org
 domain:iplusbit.blogspot.co.za
 domain:ipostroika.ru
@@ -2479,6 +2490,7 @@ domain:iqs.biz.ua
 domain:iqupdatetmz.win
 domain:iradiology.ru
 domain:irkutsk.online-podarki.com
+domain:irkutsk.zrus.org
 domain:irunfar.com
 domain:iscblog.info
 domain:isistaylorporn.info
@@ -2565,6 +2577,7 @@ domain:jrpmakati.com
 domain:juliadiets.com
 domain:juliaworld.net
 domain:jumptap.com
+domain:junglenet-a.akamaihd.net
 domain:jus0wil.pp.ua
 domain:justbcause.com
 domain:justdating.online
@@ -2586,6 +2599,7 @@ domain:kamorel.com
 domain:kanimage.com
 domain:karachev-city.ru
 domain:karadene.com
+domain:karaganda.xkaz.org
 domain:kareliatobacco.ru
 domain:karpun-iris.ru
 domain:karting196.ru
@@ -2892,6 +2906,7 @@ domain:luxup.ru
 domain:lyngdalhudterapi.no
 domain:lyrster.com
 domain:m-google.xyz
+domain:m.b00kmarks.com
 domain:m0r0zk0-krava.ru
 domain:m1media.net
 domain:m3gadownload.pl
@@ -3097,6 +3112,7 @@ domain:mmostrike.ru
 domain:mmstat.com
 domain:mncrftpcs.com
 domain:mnogabukaff.net
+domain:mnogolok.info
 domain:mobifunapp.weebly.com
 domain:mobilemedia.md
 domain:mobilierland.com
@@ -3399,6 +3415,7 @@ domain:odesproperty.com
 domain:odoratus.net
 domain:odywpjtw.bloger.index.hr
 domain:offer.camp
+domain:offer.wpsecurity.website
 domain:offergroup.info
 domain:offers.bycontext.com
 domain:offf.info
@@ -3548,11 +3565,13 @@ domain:partners-ship.pro
 domain:partnersafe.men
 domain:partnerworkroom.men
 domain:partybunny.ru
+domain:pastaleads.com
 domain:pateaswing.com
 domain:pathwhelp.org
 domain:patol01.pw
 domain:patterntrader-en.com
 domain:pattersonsweb.com
+domain:pavlodar.xkaz.org
 domain:pay2me.pl
 domain:paydayloanslocal.com
 domain:paydayonlinecom.com
@@ -3906,6 +3925,7 @@ domain:randalljhoward.com
 domain:randki-sex.com
 domain:rank-checker.online
 domain:rankexperience.com
+domain:rankia.com
 domain:ranking2017.ga
 domain:rankingchart.de
 domain:rankings-analytics.com
@@ -4026,6 +4046,7 @@ domain:rn-to-bsn.com
 domain:robot-forex.biz
 domain:rockingclicks.com
 domain:rockma.se
+domain:rockprogblog.com
 domain:rogervivierforsale.com
 domain:roleforum.ru
 domain:roll123.com
@@ -4326,6 +4347,7 @@ domain:shopvilleroyboch.com.ua
 domain:shopwme.ru
 domain:shtaketniki.ru
 domain:shtora66.ru
+domain:shymkent.xkaz.org
 domain:si-unique.com
 domain:sibdevice.ru
 domain:sibecoprom.ru
@@ -4492,6 +4514,7 @@ domain:spammen.de
 domain:spamnuker.com
 domain:spasswelt.net
 domain:spasswelt.xyz
+domain:spb-plitka.ru
 domain:spb.afora.ru
 domain:spb.ru
 domain:spbchampionat.ru
@@ -4576,6 +4599,7 @@ domain:stroiminsk.org
 domain:stromerrealty.com
 domain:strongholdsb.ru
 domain:strongsignal-a.akamaihd.net
+domain:stroy-portal22.ru
 domain:stroydetali.ru
 domain:stroyhelp-dv.ru
 domain:stroymonolit.su
@@ -4632,6 +4656,7 @@ domain:swinon.site
 domain:swiped.su
 domain:swsociety.se
 domain:sygraem.com
+domain:symbaloo.com
 domain:symphonyintegratedhealthcare.com
 domain:syvertsen-da.no
 domain:szamponrevita.pl
@@ -4643,6 +4668,7 @@ domain:taboola.com
 domain:tacbelarus.ru
 domain:tagil.zrus.org
 domain:taihouse.ru
+domain:takeflyte.com
 domain:takeprofitsystem.com
 domain:takethatad.com
 domain:tako3.com
@@ -4652,6 +4678,7 @@ domain:tandvardshuset.net
 domain:tanieaukcje.com.pl
 domain:taqywu51.soup.io
 domain:tarad.com
+domain:taraz.xkaz.org
 domain:tasteidea.com
 domain:tastyfoodideas.com
 domain:tattomedia.com
@@ -4690,6 +4717,7 @@ domain:teslathemes.com
 domain:tetracsaudi.com
 domain:texbaza.by
 domain:textads.men
+domain:tfxiq.com
 domain:thaisamkok.com
 domain:the-torrent-tracker.blogspot.com
 domain:the-trader.net
@@ -4899,6 +4927,7 @@ domain:trkur.com
 domain:trubywriting.com
 domain:truck-addzilla.life
 domain:truck-land.life
+domain:truck-rece.life
 domain:trucri.me
 domain:trudogolik.net
 domain:truemfilelj.gq
@@ -4926,6 +4955,7 @@ domain:tupper-posuda.ru
 domain:tupper-shop.ru
 domain:turbabitload.weebly.com
 domain:turbo-suslik.org
+domain:turbodsp.com
 domain:turist-strani.ru
 domain:turizm.bz
 domain:turkeyreport.tk
@@ -5322,6 +5352,7 @@ domain:wonderfulflowers.biz
 domain:woodyguthrie.se
 domain:word-vorlagen.net
 domain:word-vorlagen.xyz
+domain:wordkeyhelper.com
 domain:wordpress-crew.net
 domain:wordpresscore.com
 domain:works.if.ua
@@ -5337,6 +5368,7 @@ domain:wormix-cheats.ru
 domain:wosik-dach.service-for-web.de
 domain:wowas31.ucoz.ru
 domain:woweb.com.ua
+domain:wpsecurity.website
 domain:wpthemedetector.co.uk
 domain:writersgroup580.web.fc2.com
 domain:writingservices17.blogspot.ru
@@ -5496,6 +5528,7 @@ domain:yoopsie.com
 domain:yopoint.in
 domain:yorkshire.com
 domain:yorkshireccc.com
+domain:yoshkarola.zrus.org
 domain:yottos.com
 domain:you-shall-not-pass.is74.ru
 domain:youandcredit.ru
