@@ -252,7 +252,7 @@ get_options() {
 
 main() {
 	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
-	local file=globalblacklist.conf remote_dir=conf.d url= output= update= status= tmp=
+	local file=globalblacklist.conf remote_dir=conf.d url= output= update= status= tmp= retval=
 	# default to service (centos does not have 'which' by default)
 	local service=${service_cmd:-"service"}
 
@@ -281,8 +281,9 @@ main() {
 		mkdir -p $CONF_DIR
 		printf "${BOLDWHITE}Downloading: $file "
 		curl --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so $tmp $url
+		retval=$?
 
-		case "$?" in
+		case "$retval" in
 			 0) printf "...${BOLDGREEN}OK${RESET}\n\n"
 			    mv $tmp $output
 			    ;;
@@ -293,11 +294,11 @@ main() {
 		# download new bots.d / conf.d files
 		$INSTALL_INC
 
-		# re-read nginx configuration
-		if ! grep "Not Found" $EMAIL_REPORT; then
+		# set custom bots.d path
+		update_paths $output
 
-			# set custom bots.d path
-			update_paths $output
+		# re-read nginx configuration
+		if [ $retval = 0 ]; then
 
 			$service nginx reload
 			if [ $? = 0 ]; then
@@ -310,7 +311,7 @@ main() {
 			printf "\n${BOLDRED}Download failed${RESET}: not reloading NGINX config\n"
 		fi
 	else
-		# set custom bots.d path
+	        # set custom bots.d path
 		update_paths $output
 	fi
 
