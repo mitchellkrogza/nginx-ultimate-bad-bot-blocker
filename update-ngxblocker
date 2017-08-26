@@ -289,6 +289,7 @@ main() {
 			    ;;
 			22) printf "...${BOLDRED}ERROR 404: $url${RESET}\n\n";;
 			28) printf "...${BOLDRED}ERROR TIMEOUT: $url${RESET}\n\n";;
+			 *) printf "...${BOLDRED}ERROR CURL: ($retval){RESET}\n\n";;
 		esac
 
 		# download new bots.d / conf.d files
