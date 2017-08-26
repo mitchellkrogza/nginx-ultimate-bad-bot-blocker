@@ -236,7 +236,7 @@ get_options() {
 		case "$opts" in
 			c) CONF_DIR=$arg; check_args $opts path $arg ;;
 			b) BOTS_DIR=$arg; check_args $opts path $arg ;;
-			u) INSTALLER=$arg; check_args $opts script $arg ;;
+			i) INSTALLER=$arg; check_args $opts script $arg ;;
 			r) REPO=$arg; check_args $opts url $arg ;;
 			e) EMAIL=$arg; check_args $opts email $arg ;;
 			n) SEND_EMAIL=N ;;
