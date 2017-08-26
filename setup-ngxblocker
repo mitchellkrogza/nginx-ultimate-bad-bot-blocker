@@ -251,6 +251,26 @@ check_args() {
 	esac
 }
 
+check_depends() {
+	# centos does not have wget installed by default
+	if ! wget --help >/dev/null 2>&1; then
+		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'wget' => ${BOLDWHITE}cannot download files.${RESET}\n"
+		exit 1
+	fi
+
+	# centos also does not have which by default
+	if [ ! -x /usr/bin/curl ]; then
+		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}\n"
+		exit 1
+	fi
+
+	# install-ngxblocker downloads missing scripts / includes as part of the update process
+	if [ ! -x $INSTALLER ]; then
+		printf "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}\n"
+		exit 1
+	fi
+}
+
 get_options() {
 	local arg= opts=
 
@@ -314,6 +334,8 @@ main() {
 		echo "This script must be run as root" 1>&2
 		exit 1
 	fi
+
+	check_depends
 
 	# parse command line
 	get_options $@
