@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.08.847
-### Updated: Sat Aug 26 11:30:18 SAST 2017
-### Bad Bot Count: 504
+### Version: V3.2017.08.848
+### Updated: Sat Aug 26 12:25:17 SAST 2017
+### Bad Bot Count: 506
 ###################################################
 ### Version Information ##
 
@@ -286,6 +286,10 @@ Disallow:/
 User-agent: Gigablast
 Disallow:/
 User-agent: Gigabot
+Disallow:/
+User-agent: G-i-g-a-b-o-t
+Disallow:/
+User-agent: G\-i\-g\-a\-b\-o\-t
 Disallow:/
 User-agent: Go-Ahead-Got-It
 Disallow:/

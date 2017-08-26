@@ -1765,6 +1765,7 @@ domain:fashionindeed.ml
 domain:fast-wordpress-start.com
 domain:fastcrawl.com
 domain:fastfixing.tech
+domain:fatfasts-4tmz.com
 domain:fatmaelgarny.com
 domain:favorcosmetics.com
 domain:favoritemoney.ru
@@ -4579,6 +4580,7 @@ domain:stoki.ru
 domain:stop-gepatit.te.ua
 domain:store-rx.com
 domain:storehouse.ua
+domain:stpicks.com
 domain:stpolice.com
 domain:strag-invest.ru
 domain:strana-krasoty.ru

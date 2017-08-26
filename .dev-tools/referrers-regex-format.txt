@@ -1763,6 +1763,7 @@
 "~*fastcrawl\.com" 	1;
 "~*fastfixing\.tech" 	1;
 "~*fast\-wordpress\-start\.com" 	1;
+"~*fatfasts\-4tmz\.com" 	1;
 "~*fatmaelgarny\.com" 	1;
 "~*favorcosmetics\.com" 	1;
 "~*favoritemoney\.ru" 	1;
@@ -4579,6 +4580,7 @@
 "~*stop\-gepatit\.te\.ua" 	1;
 "~*storehouse\.ua" 	1;
 "~*store\-rx\.com" 	1;
+"~*stpicks\.com" 	1;
 "~*stpolice\.com" 	1;
 "~*strag\-invest\.ru" 	1;
 "~*strana\-krasoty\.ru" 	1;
