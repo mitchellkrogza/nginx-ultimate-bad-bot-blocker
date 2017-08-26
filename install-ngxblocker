@@ -92,8 +92,8 @@ check_if_updating() {
 }
 
 download_files() {
-	local url= x= local_file= remote_path= remote_dir=$1 local_dir=$2 tmp= # rm leading whitespace
-	local file_list="$(echo $@ | awk '{$1=$2=""; print $0}' | sed -e 's/^[ \t]*//')"
+	local url= x= local_file= remote_path= remote_dir=$1 local_dir=$2 tmp= retval=
+	local file_list="$(echo $@ | awk '{$1=$2=""; print $0}' | sed -e 's/^[ \t]*//')" # rm leading whitespace
 	local col_size=$(( $(longest_str $file_list) + $(echo $remote_dir | wc -m) ))
 
 	if [ -n "$(check_if_updating $local_dir $file_list)" ]; then
@@ -118,13 +118,15 @@ download_files() {
 					tmp=$(mktemp)
 					url=$REPO/$remote_path
 					curl --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so $tmp $url
+					retval=$?
 
-					case "$?" in
+					case "$retval" in
 						 0) printf "...OK\n"
 						    mv $tmp $local_file
 						    ;;
 						22) printf "...ERROR 404: $url\n";;
 						28) printf "...ERROR TIMEOUT: $url\n";;
+						 *) printf "...ERROR CURL: ($retval)\n";;
 					esac
 				else
 					printf "%-21s %-$(( $col_size +8 ))s %s\n" \
