@@ -12,6 +12,7 @@ VHOST_DIR=/etc/nginx/sites-available
 BOTS_DIR=/etc/nginx/bots.d
 CONF_DIR=/etc/nginx/conf.d
 MAIN_CONF=/etc/nginx/nginx.conf
+INSTALLER=/usr/sbin/install-ngxblocker
 # setting Y / yes will whitelist only directories in $www
 # that look like domain.names
 DOT_NAMES="Y"
@@ -21,22 +22,30 @@ INC_DDOS="Y"
 
 ####### end user configuration ###########################
 
+BOLDGREEN="\033[1m\033[32m"
+BOLDMAGENTA="\033[1m\033[35m"
+BOLDRED="\033[1m\033[31m"
+BOLDYELLOW="\033[1m\033[33m"
+BOLDWHITE="\033[1m\033[37m"
+RESET="\033[0m"
+
 usage() {
         local script=$(basename $0)
         cat <<EOF
 $script: SETUP Nginx Bad Bot Blocker configuration in [ $MAIN_CONF ] [ $VHOST_DIR/* ]
 
 Usage: $script [OPTIONS]
-        [ -w ] : WWW path                      (default: $WWW)
-        [ -e ] : Vhost file extension          (default: .$VHOST_EXT)
-        [ -v ] : Vhost directory               (default: $VHOST_DIR)
-        [ -b ] : Bot rules directory           (default: $BOTS_DIR)
-        [ -c ] : NGINX conf directory          (default: $CONF_DIR)
-        [ -m ] : NGINX main configuration      (default: $MAIN_CONF)
-        [ -n ] : NO whitelist of .names only   (default: $DOT_NAMES)
-        [ -d ] : NO insert of DDOS rule        (default: $INC_DDOS)
-        [ -x ] : Actually change the files     (default: don't change anything)
-        [ -h ] : this help message
+	[ -w ] : WWW path                      (default: $WWW)
+	[ -e ] : Vhost file extension          (default: .$VHOST_EXT)
+	[ -v ] : Vhost directory               (default: $VHOST_DIR)
+	[ -b ] : Bot rules directory           (default: $BOTS_DIR)
+	[ -c ] : NGINX conf directory          (default: $CONF_DIR)
+	[ -m ] : NGINX main configuration      (default: $MAIN_CONF)
+	[ -i ] : Change installer path         (default: $INSTALLER)
+	[ -n ] : NO whitelist of .names only   (default: $DOT_NAMES)
+	[ -d ] : NO insert of DDOS rule        (default: $INC_DDOS)
+	[ -x ] : Actually change the files     (default: don't change anything)
+	[ -h ] : this help message
 
 Examples:
  $script -n    (Whitelist all directory names in $WWW as domains: not just dot.name directories)
@@ -45,6 +54,28 @@ Examples:
  $script -x    (Change / update config files)
 EOF
         exit 0
+}
+
+update_paths() {
+	# variables in nginx include files not currently possible
+	# updates hard coded bots.d path in globalblacklist.conf
+	local blacklist=$1 include_paths= dir= x=
+
+	if ! grep "$BOTS_DIR" $blacklist 1>/dev/null; then
+		if [ -d $BOTS_DIR ]; then
+			printf "${BOLDGREEN}Updating bots.d path${RESET}: ${BOLDWHITE}$BOTS_DIR => $blacklist${RESET}\n"
+			include_paths=$(grep -E "include /.*.conf;$" $blacklist | awk '{print $2}' | tr -d ';')
+
+			for x in $include_paths; do
+				dir=$(dirname $x)
+				sed -i "s|$dir|$BOTS_DIR|" $blacklist
+			done
+		else
+			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}.\n"
+			$INSTALL_INC
+			update_paths $blacklist
+		fi
+	fi
 }
 
 check_config() {
@@ -193,55 +224,63 @@ find_includes() {
 }
 
 sanitize_path() {
-        echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=/=] [=_=]' \
-                |tr -s '@.-/_' |awk '{print tolower($0)}'
+	echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=/=] [=_=]' \
+		|tr -s '@.-/_' |awk '{print tolower($0)}'
 }
 
 sanitize_ext() {
-        echo $1 |tr -cd '[:alnum:]' |awk '{print tolower($0)}'
+	echo $1 |tr -cd '[:alnum:]' |awk '{print tolower($0)}'
 }
 
 check_args() {
-        local option=$1 type=$2 arg=$3
-        local msg="ERROR: option '-$option' argument '$arg' requires:"
+	local option=$1 type=$2 arg=$3
+	local msg="ERROR: option '-$option' argument '$arg' requires:"
 
-        case "$type" in
-                path)   if ! echo $arg | grep ^/ 1>/dev/null; then
-                                printf "$msg absolute path.\n"
-                                exit 1
-                        fi
-                        ;;
-                none)   printf "$msg argument.\n"; exit 1;;
-        esac
+	case "$type" in
+		path)   if ! echo $arg | grep ^/ 1>/dev/null; then
+				printf "$msg absolute path.\n"
+				exit 1
+			fi
+			;;
+	      script)	if [ ! -x $arg ]; then
+				printf "$msg '$arg' is not executable / does not exist.\n"
+				exit 1
+			fi
+			;;
+		none)   printf "$msg argument.\n"; exit 1;;
+	esac
 }
 
 get_options() {
-        local arg= opts=
+	local arg= opts=
 
-        while getopts :w:e:v:b:c:m:ndxh opts "$@"
-        do
-                if [ -n "${OPTARG}" ]; then
-                        case "$opts" in
-                                e) arg=$(sanitize_ext ${OPTARG});;
-                                *) arg=$(sanitize_path ${OPTARG});;
-                        esac
-                fi
+	while getopts :w:e:v:b:c:m:ndxh opts "$@"
+	do
+		if [ -n "${OPTARG}" ]; then
+			case "$opts" in
+				e) arg=$(sanitize_ext ${OPTARG});;
+				*) arg=$(sanitize_path ${OPTARG});;
+			esac
+		fi
 
-                case "$opts" in
-                        w) WWW=$arg; check_args $opts path $arg ;;
-                        e) VHOST_EXT=$arg;;
-                        v) VHOST_DIR=$arg; check_args $opts path $arg ;;
-                        b) BOTS_DIR=$arg; check_args $opts path $arg ;;
-                        c) CONF_DIR=$arg; check_args $opts path $arg ;;
-                        m) MAIN_CONF=$arg; check_args $opts path $arg ;;
-                        n) DOT_NAMES=N ;;
-                        d) INC_DDOS=N ;;
-                        x) DRY_RUN=N ;;
-                        h) usage ;;
-                       \?) usage ;;
-                        :) check_args $OPTARG none none ;;
-                esac
-        done
+		case "$opts" in
+			w) WWW=$arg; check_args $opts path $arg ;;
+			e) VHOST_EXT=$arg;;
+			v) VHOST_DIR=$arg; check_args $opts path $arg ;;
+			b) BOTS_DIR=$arg; check_args $opts path $arg ;;
+			c) CONF_DIR=$arg; check_args $opts path $arg ;;
+			m) MAIN_CONF=$arg; check_args $opts path $arg ;;
+			i) INSTALLER=$arg; check_args $opts script $arg ;;
+			n) DOT_NAMES=N ;;
+			d) INC_DDOS=N ;;
+			x) DRY_RUN=N ;;
+			h) usage ;;
+			\?) usage ;;
+			:) check_args $OPTARG none none ;;
+		esac
+	done
+
+	INSTALL_INC="$INSTALLER -b $BOTS_DIR -c $CONF_DIR -x"
 }
 
 wget_opts() {
@@ -266,7 +305,7 @@ check_online() {
 }
 
 main() {
-	local include_url= file= line= file_list= col_size=
+	local include_url= file= line= file_list= col_size= blacklist=
 	local CONF_FILES= VHOST_INCLUDES=
 	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 
@@ -342,9 +381,15 @@ main() {
 	else
 		printf "\nWeb directory not found ('$WWW'): not whitelisting domains.\n"
 	fi
+
+	# download new bots.d / conf.d files
+	printf "\nChecking for missing includes:\n\n"
+	$INSTALL_INC
+	blacklist=$(find $CONF_DIR -type f -name globalblacklist.conf)
+	# set custom bots.d path
+	update_paths $blacklist
 }
 
 ## START ##
 main $@
 exit $?
-
