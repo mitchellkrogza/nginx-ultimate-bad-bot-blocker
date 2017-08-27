@@ -54,6 +54,7 @@ sudo cp /etc/nginx/nginx.conf $TRAVIS_BUILD_DIR/.dev-tools/_nginx_conf_backup/ng
 # Delete default site created by Nginx Installation
 # *************************************************
 
+printf '\n%s\n%s\n%s\n\n' "###################################" "STARTING NGINX TEST 1" "###################################"
 printf '\n%s\n%s\n%s\n\n' "###########################################" "Delete any default files installed by Nginx" "###########################################"
 sudo rm /etc/nginx/sites-available/default
 sudo rm /etc/nginx/sites-enabled/default
