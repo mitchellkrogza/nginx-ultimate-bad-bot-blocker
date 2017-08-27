@@ -47,7 +47,7 @@
 # Make Sure We Cleanup From Nginx Test 1
 # **************************************
 
-printf '\n%s\n%s\n%s\n\n' "###################################" "STARTING NGINX TEST 2" "###################################"
+printf '\n%s\n%s\n%s\n\n' "###################################" "       STARTING NGINX TEST 2" "###################################"
 printf '\n%s\n%s\n%s\n\n' "###################################" "Cleaning up Files from Nginx Test 1" "###################################"
 sudo rm /etc/nginx/sites-available/default.vhost
 sudo rm /etc/nginx/sites-enabled/default.vhost
@@ -234,7 +234,7 @@ sudo cp $TRAVIS_BUILD_DIR/conf.d/globalblacklist.conf /usr/local/nginx/conf.d/gl
 # Run setup-ngxblocker Again
 # **************************
 
-printf '\n%s\n%s\n%s\n\n' "####################" "Run setup-ngxblocker to fix includes in globalblacklist.conf" "####################"
+printf '\n%s\n%s\n%s\n\n' "############################################################" "Run setup-ngxblocker to fix includes in globalblacklist.conf" "############################################################"
 cd /usr/sbin
 sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
 

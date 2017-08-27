@@ -43,18 +43,20 @@
 # Start Getting Nginx Ready for Testing the Nginx Bad Bot Blocker
 # ***************************************************************
 
+printf '\n%s\n%s\n%s\n\n' "###################################" "       STARTING NGINX TEST 1" "###################################"
+
 # ******************************************************
 # Make a backup of the clean and default nginx.conf file
 # Needed to run Nginx test 3
 # ******************************************************
 
+printf '\n%s\n%s\n%s\n\n' "###################################" "Making backup of default nginx.conf" "###################################"
 sudo cp /etc/nginx/nginx.conf $TRAVIS_BUILD_DIR/.dev-tools/_nginx_conf_backup/nginx.conf
 
 # *************************************************
 # Delete default site created by Nginx Installation
 # *************************************************
 
-printf '\n%s\n%s\n%s\n\n' "###################################" "STARTING NGINX TEST 1" "###################################"
 printf '\n%s\n%s\n%s\n\n' "###########################################" "Delete any default files installed by Nginx" "###########################################"
 sudo rm /etc/nginx/sites-available/default
 sudo rm /etc/nginx/sites-enabled/default

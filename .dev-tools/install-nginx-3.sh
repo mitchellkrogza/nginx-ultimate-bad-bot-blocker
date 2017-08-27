@@ -47,7 +47,7 @@
 # Make Sure We Cleanup From Nginx Test 2
 # **************************************
 
-printf '\n%s\n%s\n%s\n\n' "###################################" "STARTING NGINX TEST 3" "###################################"
+printf '\n%s\n%s\n%s\n\n' "###################################" "       STARTING NGINX TEST 3" "###################################"
 printf '\n%s\n%s\n%s\n\n' "###################################" "Cleaning up Files from Nginx Test 2" "###################################"
 sudo rm /etc/nginx/sites-available/default.vhost
 sudo rm /etc/nginx/sites-enabled/default.vhost
@@ -60,15 +60,16 @@ printf '\n%s\n%s\n%s\n\n' "########################################" "Cleaning u
 # Restore backup of the clean and default nginx.conf file
 # ******************************************************
 
+printf '\n%s\n%s\n%s\n\n' "#################################" "Restoring Default nginx.conf file" "#################################"
 sudo cp $TRAVIS_BUILD_DIR/.dev-tools/_nginx_conf_backup/nginx.conf /etc/nginx/nginx.conf
 
 # *************************************
 # List Directories to Confirm Deletions
 # *************************************
 
-printf '\n%s\n%s\n%s\n\n' "################################################" "Confirming /usr/local/nginx/conf.d/ directory is EMPTY" "################################################"
+printf '\n%s\n%s\n%s\n\n' "######################################################" "Confirming /usr/local/nginx/conf.d/ directory is EMPTY" "######################################################"
 ls -la /usr/local/nginx/conf.d/
-printf '\n%s\n%s\n%s\n\n' "################################################" "Confirming /usr/local/nginx/bots.d/ directory is EMPTY" "################################################"
+printf '\n%s\n%s\n%s\n\n' "######################################################" "Confirming /usr/local/nginx/bots.d/ directory is EMPTY" "######################################################"
 ls -la /usr/local/nginx/bots.d/
 printf '\n%s\n%s\n%s\n\n' "#########################################################" "Confirming /etc/nginx/sites-available/ directory is EMPTY" "#########################################################"
 ls -la /etc/nginx/sites-available/
@@ -240,7 +241,7 @@ sudo cp $TRAVIS_BUILD_DIR/conf.d/globalblacklist.conf /etc/nginx/myconf.d/global
 # Run setup-ngxblocker Again
 # **************************
 
-printf '\n%s\n%s\n%s\n\n' "####################" "Run setup-ngxblocker to fix includes in globalblacklist.conf" "####################"
+printf '\n%s\n%s\n%s\n\n' "############################################################" "Run setup-ngxblocker to fix includes in globalblacklist.conf" "############################################################"
 cd /usr/sbin
 sudo bash ./setup-ngxblocker -x -c /etc/nginx/myconf.d -b /etc/nginx/mybots.d
 
