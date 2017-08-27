@@ -103,10 +103,10 @@ sudo chmod +x /usr/sbin/install-ngxblocker
 # Let's create a folder for the bots.d and conf.d not using Nginx standards
 # *************************************************************************
 
-printf '\n%s\n%s\n%s\n\n' "#####################################" "Create our Non-Standard Nginx Folders" "#####################################"
-sudo mkdir /usr/local/nginx
-sudo mkdir /usr/local/nginx/conf.d
-sudo mkdir /usr/local/nginx/bots.d
+#printf '\n%s\n%s\n%s\n\n' "#####################################" "Create our Non-Standard Nginx Folders" "#####################################"
+#sudo mkdir /usr/local/nginx
+#sudo mkdir /usr/local/nginx/conf.d
+#sudo mkdir /usr/local/nginx/bots.d
 
 # **********************
 # Run Install-NgxBlocker
