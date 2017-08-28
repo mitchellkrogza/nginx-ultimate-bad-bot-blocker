@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.08.859
-### Updated: Sun Aug 27 11:35:32 SAST 2017
-### Bad Bot Count: 506
+### Version: V3.2017.08.860
+### Updated: Mon Aug 28 11:02:23 SAST 2017
+### Bad Bot Count: 512
 ###################################################
 ### Version Information ##
 
@@ -173,11 +173,15 @@ User-agent: DataCha0s
 Disallow:/
 User-agent: DBLBot
 Disallow:/
+User-agent: demandbase-bot
+Disallow:/
 User-agent: Demon
 Disallow:/
 User-agent: Deusu
 Disallow:/
 User-agent: Devil
+Disallow:/
+User-agent: Digincore
 Disallow:/
 User-agent: DIIbot
 Disallow:/
@@ -276,6 +280,8 @@ Disallow:/
 User-agent: GalaxyBot
 Disallow:/
 User-agent: Genieo
+Disallow:/
+User-agent: GermCrawler
 Disallow:/
 User-agent: Getintent
 Disallow:/
@@ -399,6 +405,8 @@ User-agent: Kenjin Spider
 Disallow:/
 User-agent: Keyword Density
 Disallow:/
+User-agent: Kozmosbot
+Disallow:/
 User-agent: Lanshanbot
 Disallow:/
 User-agent: Larbin
@@ -475,6 +483,8 @@ User-agent: Mata Hari
 Disallow:/
 User-agent: Meanpathbot
 Disallow:/
+User-agent: mediawords
+Disallow:/
 User-agent: MegaIndex.ru
 Disallow:/
 User-agent: Metauri
@@ -536,6 +546,8 @@ Disallow:/
 User-agent: Nettrack
 Disallow:/
 User-agent: Net Vampire
+Disallow:/
+User-agent: Netvibes
 Disallow:/
 User-agent: NetZIP
 Disallow:/

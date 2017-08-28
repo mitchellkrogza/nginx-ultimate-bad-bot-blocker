@@ -2519,6 +2519,7 @@
 "~*iusstf\.org" 	1;
 "~*ivanstroi\.ru" 	1;
 "~*ivoiretechnocom\.ci" 	1;
+"~*iwantedmoney\.com" 	1;
 "~*iwantmyfreecash\.com" 	1;
 "~*iwanttodeliver\.com" 	1;
 "~*iweblist\.info" 	1;
@@ -2591,6 +2592,7 @@
 "~*kaidalibor\.de" 	1;
 "~*kalandranis\.gr" 	1;
 "~*kalb\.ru" 	1;
+"~*kaliningrad\.zrus\.org" 	1;
 "~*kamagragelusa\.net" 	1;
 "~*kamalsinha\.com" 	1;
 "~*kambasoft\.com" 	1;
@@ -2981,6 +2983,7 @@
 "~*matchpal\-a\.akamaihd\.net" 	1;
 "~*matematikus\.info" 	1;
 "~*mathgym\.com\.au" 	1;
+"~*matrixalchemy\.com" 	1;
 "~*matsdale\.com" 	1;
 "~*mature\.free\-websites\.com" 	1;
 "~*max\-eclat\.men" 	1;
@@ -3281,6 +3284,7 @@
 "~*napalm51\.nut\.cc" 	1;
 "~*naperehresti\.info" 	1;
 "~*naphukete\.ru" 	1;
+"~*narco24\.me" 	1;
 "~*nardulan\.com" 	1;
 "~*narkologiya\-belgorod\.ru" 	1;
 "~*narkologiya\-orel\.ru" 	1;
@@ -5541,6 +5545,7 @@
 "~*yougetsignal\.com" 	1;
 "~*youghbould\.wordpress\.com" 	1;
 "~*yougotanewdomain\.com" 	1;
+"~*youjizz\.com" 	1;
 "~*youjizz\.vc" 	1;
 "~*youporn\-forum\.ga" 	1;
 "~*youporn\-ru\.com" 	1;

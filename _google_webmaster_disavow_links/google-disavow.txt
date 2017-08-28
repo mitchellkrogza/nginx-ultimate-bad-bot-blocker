@@ -2519,6 +2519,7 @@ domain:itservicesthatworkforyou.com
 domain:iusstf.org
 domain:ivanstroi.ru
 domain:ivoiretechnocom.ci
+domain:iwantedmoney.com
 domain:iwantmyfreecash.com
 domain:iwanttodeliver.com
 domain:iweblist.info
@@ -2591,6 +2592,7 @@ domain:kadashihotel.com
 domain:kaidalibor.de
 domain:kalandranis.gr
 domain:kalb.ru
+domain:kaliningrad.zrus.org
 domain:kam-dom.ru
 domain:kamagragelusa.net
 domain:kamalsinha.com
@@ -2983,6 +2985,7 @@ domain:matb3aa.com
 domain:matchpal-a.akamaihd.net
 domain:matematikus.info
 domain:mathgym.com.au
+domain:matrixalchemy.com
 domain:matsdale.com
 domain:mature.free-websites.com
 domain:max-eclat.men
@@ -3282,6 +3285,7 @@ domain:namenectar.com
 domain:napalm51.nut.cc
 domain:naperehresti.info
 domain:naphukete.ru
+domain:narco24.me
 domain:nardulan.com
 domain:narkologiya-belgorod.ru
 domain:narkologiya-orel.ru
@@ -5542,6 +5546,7 @@ domain:yougame.biz
 domain:yougetsignal.com
 domain:youghbould.wordpress.com
 domain:yougotanewdomain.com
+domain:youjizz.com
 domain:youjizz.vc
 domain:youporn-forum.ga
 domain:youporn-ru.com
