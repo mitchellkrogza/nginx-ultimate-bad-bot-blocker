@@ -1965,6 +1965,7 @@
 "~*funnypica\.com" 	1;
 "~*funponsel\.com" 	1;
 "~*funtoonez\.com" 	1;
+"~*fusoradio\.info" 	1;
 "~*futbolkisales\.ru" 	1;
 "~*fx\-brokers\-review\.com" 	1;
 "~*fxgallery\.com" 	1;
@@ -1985,6 +1986,7 @@
 "~*gallerylisting\.com" 	1;
 "~*gallery\.rennlist\.com" 	1;
 "~*gallictures\.com" 	1;
+"~*gambarxkata\.co" 	1;
 "~*gamblingnerd\.com" 	1;
 "~*gamedayassist\.com" 	1;
 "~*gamedayhouse\.com" 	1;
@@ -4277,6 +4279,7 @@
 "~*serw\.clicksor\.com" 	1;
 "~*seryeznie\-znakomstva\.ru" 	1;
 "~*sethrollins\.net" 	1;
+"~*sevendays\.com\.ua" 	1;
 "~*sevenstars7\.com" 	1;
 "~*se\-welding\.ru" 	1;
 "~*sexad\.net" 	1;
@@ -4390,6 +4393,7 @@
 "~*sitebeam\.net" 	1;
 "~*siteexpress\.co\.il" 	1;
 "~*siteheart\.net" 	1;
+"~*siteimprove\.com" 	1;
 "~*siteonomy\.com" 	1;
 "~*siteripz\.net" 	1;
 "~*site\-speed\-checker\.site" 	1;
