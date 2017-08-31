@@ -497,6 +497,7 @@ WWW-Collector-E
 WWW-Mechanize
 WWW::Mechanize
 WWWOFFLE
+x09Mozilla
 x22Mozilla
 Xaldon WebSpider
 Xaldon_WebSpider

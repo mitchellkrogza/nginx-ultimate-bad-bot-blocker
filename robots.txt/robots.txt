@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.08.862
-### Updated: Wed Aug 30 15:23:31 SAST 2017
-### Bad Bot Count: 512
+### Version: V3.2017.08.863
+### Updated: Thu Aug 31 11:19:38 SAST 2017
+### Bad Bot Count: 513
 ###################################################
 ### Version Information ##
 
@@ -1006,6 +1006,8 @@ Disallow:/
 User-agent: WWW::Mechanize
 Disallow:/
 User-agent: WWWOFFLE
+Disallow:/
+User-agent: x09Mozilla
 Disallow:/
 User-agent: x22Mozilla
 Disallow:/

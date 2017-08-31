@@ -177,6 +177,7 @@ domain:acunetix-referrer.com
 domain:ad-words.ru
 domain:adamoads.com
 domain:adanih.com
+domain:adbetclickin.pink
 domain:adcash.com
 domain:adclickservice.com
 domain:adclickthru.net
@@ -971,6 +972,7 @@ domain:cartierlove2u.xyz
 domain:cartierlovebracelet.xyz
 domain:cartierlovebraceletreplica.xyz
 domain:cartierloveringreplica.xyz
+domain:cartierlovestore.com
 domain:cartierlovestore.xyz
 domain:cartierreplica.pw
 domain:cartierreplica.top
@@ -1269,6 +1271,7 @@ domain:crazyprotocol.com
 domain:crd.clan.su
 domain:creams.makeforum.eu
 domain:creativehutindia.com
+domain:creatives.adbetclickin.pink
 domain:creditmoney.com.ua
 domain:crest-poloski.ru
 domain:crest3d.ru
@@ -1827,6 +1830,7 @@ domain:findclan.org
 domain:findpik.com
 domain:findsexguide.com
 domain:findthe.pet
+domain:finejewelryshop.ru
 domain:finemanteam.com
 domain:finstroy.net
 domain:finteks.ru
@@ -3315,6 +3319,7 @@ domain:nerudlogistik.ru
 domain:net-profits.xyz
 domain:net-radar.com
 domain:netallergy.ru
+domain:netanalytics.xyz
 domain:netfacet.net
 domain:netoil.no
 domain:netpics.org
@@ -3441,6 +3446,7 @@ domain:okmusic.jp
 domain:okout.ru
 domain:okroshki.ru
 domain:oktube.ru
+domain:okuos.com
 domain:old-rock.com
 domain:olgacvetmet.com
 domain:olvanto.ru
@@ -4277,6 +4283,7 @@ domain:service-core.ru
 domain:service.adtech.fr
 domain:service.adtech.us
 domain:servicecenter.co.ua
+domain:serving.adbetclickin.pink
 domain:servingnotice.com
 domain:servisural.ru
 domain:serw.clicksor.com
@@ -5302,6 +5309,7 @@ domain:wesharepics.com
 domain:wesharepics.info
 domain:wesharepics.site
 domain:westen-v.life
+domain:westen-z.life
 domain:westermarkanjou.se
 domain:westsextube.com
 domain:westum.se

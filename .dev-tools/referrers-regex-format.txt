@@ -175,6 +175,7 @@
 "~*acunetix\-referrer\.com" 	1;
 "~*adamoads\.com" 	1;
 "~*adanih\.com" 	1;
+"~*adbetclickin\.pink" 	1;
 "~*adcash\.com" 	1;
 "~*adclickservice\.com" 	1;
 "~*adclickthru\.net" 	1;
@@ -968,6 +969,7 @@
 "~*cartierlovebraceletreplica\.xyz" 	1;
 "~*cartierlovebracelet\.xyz" 	1;
 "~*cartierloveringreplica\.xyz" 	1;
+"~*cartierlovestore\.com" 	1;
 "~*cartierlovestore\.xyz" 	1;
 "~*cartierlove\.xyz" 	1;
 "~*cartierreplica\.pw" 	1;
@@ -1269,6 +1271,7 @@
 "~*crd\.clan\.su" 	1;
 "~*creams\.makeforum\.eu" 	1;
 "~*creativehutindia\.com" 	1;
+"~*creatives\.adbetclickin\.pink" 	1;
 "~*creditmoney\.com\.ua" 	1;
 "~*crest3d\.ru" 	1;
 "~*crest\-poloski\.ru" 	1;
@@ -1825,6 +1828,7 @@
 "~*findpik\.com" 	1;
 "~*findsexguide\.com" 	1;
 "~*findthe\.pet" 	1;
+"~*finejewelryshop\.ru" 	1;
 "~*finemanteam\.com" 	1;
 "~*finstroy\.net" 	1;
 "~*finteks\.ru" 	1;
@@ -3313,6 +3317,7 @@
 "~*nero\-us\.com" 	1;
 "~*nerudlogistik\.ru" 	1;
 "~*netallergy\.ru" 	1;
+"~*netanalytics\.xyz" 	1;
 "~*netfacet\.net" 	1;
 "~*netoil\.no" 	1;
 "~*netpics\.org" 	1;
@@ -3435,6 +3440,7 @@
 "~*ok\.ru" 	1;
 "~*oktube\.ru" 	1;
 "~*ok\-ua\.info" 	1;
+"~*okuos\.com" 	1;
 "~*old\-rock\.com" 	1;
 "~*olgacvetmet\.com" 	1;
 "~*o\.light\.d0t\.ru" 	1;
@@ -4274,6 +4280,7 @@
 "~*service\.adtech\.us" 	1;
 "~*servicecenter\.co\.ua" 	1;
 "~*service\-core\.ru" 	1;
+"~*serving\.adbetclickin\.pink" 	1;
 "~*servingnotice\.com" 	1;
 "~*servisural\.ru" 	1;
 "~*serw\.clicksor\.com" 	1;
@@ -5301,6 +5308,7 @@
 "~*wesharepics\.info" 	1;
 "~*wesharepics\.site" 	1;
 "~*westen\-v\.life" 	1;
+"~*westen\-z\.life" 	1;
 "~*westermarkanjou\.se" 	1;
 "~*westsextube\.com" 	1;
 "~*westum\.se" 	1;
