@@ -911,6 +911,7 @@
 "~*byme\.se" 	1;
 "~*bytimedance\.ru" 	1;
 "~*bzero1jewelry\.net" 	1;
+"~*c1\.onedmp\.com" 	1;
 "~*cablecar\.us" 	1;
 "~*cacheimages\.com" 	1;
 "~*cactussoft\.biz" 	1;
@@ -1904,6 +1905,7 @@
 "~*foxtechfpv\.com" 	1;
 "~*foxweber\.com" 	1;
 "~*foxydeal\.com" 	1;
+"~*franecki\.net" 	1;
 "~*fr\-bearings\.ru" 	1;
 "~*freakycheats\.com" 	1;
 "~*freecamdollars\.com" 	1;
@@ -3660,6 +3662,7 @@
 "~*pinwallpaper\.top" 	1;
 "~*pinwallpaper\.xyz" 	1;
 "~*pio\.polytopesexempt\.com" 	1;
+"~*pipki\.r\.acdnpro\.com" 	1;
 "~*piratecams\.com" 	1;
 "~*pirateday\.ru" 	1;
 "~*piter\.xrus\.org" 	1;

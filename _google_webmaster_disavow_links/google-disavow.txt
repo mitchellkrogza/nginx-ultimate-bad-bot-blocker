@@ -913,6 +913,7 @@ domain:bytimedance.ru
 domain:bzero1jewelry.net
 domain:c-english.ru
 domain:c-gainsbourg.com
+domain:c1.onedmp.com
 domain:cablecar.us
 domain:cacheimages.com
 domain:cactussoft.biz
@@ -1906,6 +1907,7 @@ domain:foxweber.com
 domain:foxydeal.com
 domain:fr-bearings.ru
 domain:fr.netlog.com
+domain:franecki.net
 domain:freakycheats.com
 domain:free-deals.faith
 domain:free-fb-traffic.com
@@ -3660,6 +3662,7 @@ domain:pintattoos.com
 domain:pinwallpaper.top
 domain:pinwallpaper.xyz
 domain:pio.polytopesexempt.com
+domain:pipki.r.acdnpro.com
 domain:piratecams.com
 domain:pirateday.ru
 domain:piter.xrus.org
