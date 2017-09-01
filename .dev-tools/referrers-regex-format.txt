@@ -4630,7 +4630,6 @@
 "~*styro\.ru" 	1;
 "~*success\-seo\.com" 	1;
 "~*suchenindeutschland\.com" 	1;
-"~*suche\.t\-online\.de" 	1;
 "~*sudexpert66\.ru" 	1;
 "~*sugarkun\.com" 	1;
 "~*suggest\-keywords\.com" 	1;
