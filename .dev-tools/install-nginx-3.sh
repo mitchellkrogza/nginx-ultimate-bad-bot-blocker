@@ -263,6 +263,7 @@ printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "###
 # ************************************************************
 
 sudo chown -R travis:travis $TRAVIS_BUILD_DIR/
+sudo chown -R travis:travis $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test3/
 sudo cp /etc/nginx/mybots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test3/bots.d/
 sudo cp /etc/nginx/myconf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test3/conf.d/
 
