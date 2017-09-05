@@ -262,6 +262,7 @@ printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "###
 # Copy all .conf files used in Test 3 to a folder for checking
 # ************************************************************
 
+sudo chown -R travis:travis $TRAVIS_BUILD_DIR/
 sudo cp /etc/nginx/mybots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test3/bots.d/
 sudo cp /etc/nginx/myconf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test3/conf.d/
 
