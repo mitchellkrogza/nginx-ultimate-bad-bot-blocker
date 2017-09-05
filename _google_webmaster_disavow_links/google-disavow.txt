@@ -6,6 +6,7 @@ domain:00it.com
 domain:00webcams.com
 domain:01apple.com
 domain:03e.info
+domain:03p.info
 domain:0912701309f8ce.com
 domain:0c47f8422d3f.com
 domain:0daymusic.org
@@ -30,6 +31,7 @@ domain:12bet.com
 domain:12masterov.com
 domain:1314dh.com
 domain:13tabs.com
+domain:14b.info
 domain:178evakuator178.ru
 domain:1adult.com
 domain:1bet.com
@@ -126,6 +128,7 @@ domain:98oi.ru
 domain:999webdesign.com
 domain:9icmzvn6.website
 domain:9med.net
+domain:a.frcls.fr
 domain:a.pr-cy.ru
 domain:a14download.com
 domain:a1security.com.ua
@@ -145,6 +148,7 @@ domain:aad1f4acb0a373420d9b0c4202d38d94fa.com
 domain:aadroid.net
 domain:aarbur.com
 domain:aaronabel.com
+domain:aasoldes.fr
 domain:abbanreddy.com
 domain:abcdefh.xyz
 domain:abcdeg.xyz
@@ -468,6 +472,7 @@ domain:arpelsreplica.xyz
 domain:arraty.altervista.org
 domain:artavenuegardenstudios.com
 domain:artdeko.info
+domain:artdestshop.eu
 domain:artefakct.com
 domain:articlesdirectoryme.info
 domain:artparquet.ru
@@ -635,6 +640,7 @@ domain:battleforupdating.site
 domain:bausparen.bz.it
 domain:bayareaaeroclub.org
 domain:bazaronline24.ru
+domain:bbsoldes.fr
 domain:bbtec.net
 domain:bcmp.org
 domain:bdsmgalls.net
@@ -745,6 +751,7 @@ domain:biznesschat.net
 domain:bizru.info
 domain:bjanshee.ru
 domain:bjetjt.com
+domain:bjgugu.net.ua
 domain:bjorkbacken.nu
 domain:bkgr.se
 domain:bkns.vn
@@ -1219,6 +1226,7 @@ domain:construmac.com.mx
 domain:contentlook.co
 domain:contentsexpress.com
 domain:contextualyield.com
+domain:converse.ddsoldes.fr
 domain:cookie-law-enforcement-aa.xyz
 domain:cookie-law-enforcement-ee.xyz
 domain:cookie-law-enforcement-ff.xyz
@@ -1340,6 +1348,7 @@ domain:dcj-nn.ru
 domain:ddlmega.net
 domain:ddospanel.com
 domain:ddpills.com
+domain:ddsoldes.fr
 domain:de.zapmeta.com
 domain:deadlinkchecker.com
 domain:dealighted.com
@@ -1403,6 +1412,7 @@ domain:digital-sale.su
 domain:digital-video-processing.com
 domain:digitalfaq.com
 domain:dignitasdata.se
+domain:dikqlyremy.info
 domain:dikx.gdn
 domain:dildofotzen.net
 domain:diminishedvalueoforegon.com
@@ -1908,6 +1918,8 @@ domain:foxydeal.com
 domain:fr-bearings.ru
 domain:fr.netlog.com
 domain:franecki.net
+domain:frbizlist.com
+domain:frcls.fr
 domain:freakycheats.com
 domain:free-deals.faith
 domain:free-fb-traffic.com
@@ -2198,6 +2210,7 @@ domain:gwebtools.com
 domain:gwebtools.com.br
 domain:gwhwpxbw.bloger.index.hr
 domain:gyffu.com
+domain:gz2.bbsoldes.fr
 domain:h2monline.com
 domain:habermetre.com
 domain:hacktougroup.ru
@@ -2325,6 +2338,7 @@ domain:hotkeys.com
 domain:hotloans.ru
 domain:hotshoppymac.com
 domain:hotsocialz.com
+domain:hotxnights.info
 domain:houdom.net
 domain:house.sieraddns.com
 domain:housediz.com
@@ -2366,6 +2380,7 @@ domain:hut1.ru
 domain:hvd-store.com
 domain:hybrid.ru
 domain:hydropump.su
+domain:hyhj.info
 domain:hyiphunter.org
 domain:hyipmanager.in
 domain:hystersister.com
@@ -3215,6 +3230,7 @@ domain:msk-diplomat.com
 domain:msk.afora.ru
 domain:mttwtrack.com
 domain:mturkcontent.com
+domain:muabancantho.info
 domain:mug-na-chas-moscow.ru
 domain:muizre.ru
 domain:mulberryoutletonlineeu.com
@@ -3445,6 +3461,7 @@ domain:okayimage.com
 domain:okel.co
 domain:oklogistic.ru
 domain:okmusic.jp
+domain:okonich.com.ua
 domain:okout.ru
 domain:okroshki.ru
 domain:oktube.ru
@@ -3521,6 +3538,7 @@ domain:orion-code-access.net
 domain:orion-v.com
 domain:ororodnik.goodbb.ru
 domain:orsonet.ru
+domain:osagonline.ru
 domain:osb.se11.ru
 domain:osnova3.ru
 domain:osoznanie-narkotikam.net
@@ -3682,6 +3700,7 @@ domain:pk-services.ru
 domain:pkr1hand.com
 domain:pl-top.pl
 domain:pl-vouchers.com
+domain:pl.aasoldes.fr
 domain:pladform.ru
 domain:plaff-go.ru
 domain:plastgran.com
@@ -3874,6 +3893,7 @@ domain:prostitutki-rostova.org
 domain:prostitutki-tolyatti.org
 domain:prostitutki-tyumeni.org
 domain:prostitutki-yaroslavlya.org
+domain:proxyelite.biz
 domain:proxyradar.com
 domain:prpops.com
 domain:psa48.ru
@@ -5001,6 +5021,7 @@ domain:tytoona.com
 domain:tyumen.xrus.org
 domain:u-cheats.ru
 domain:u17795.netangels.ru
+domain:u555u.info
 domain:ua-company.ru
 domain:ua.tc
 domain:uac.net.au
@@ -5438,6 +5459,7 @@ domain:xfluro.com
 domain:xgames-04.com
 domain:xgftnlrt.bloger.index.hr
 domain:xingzi-vision.com
+domain:xitjw.info
 domain:xjlottery.com
 domain:xjrul.com
 domain:xkaz.org
@@ -5462,6 +5484,7 @@ domain:xn----7sbifcamovvfggw9d.xn--p1ai
 domain:xn----8sbdbjgb1ap7a9c4czbh.xn--p1acf
 domain:xn----8sbhefaln6acifdaon5c6f4axh.xn--p1ai
 domain:xn----9sbebi2bvzr7h.xn--p1ai
+domain:xn----dtbndd4ae7eub.top
 domain:xn----itbeirbjbi7bc6bh2d.xn--p1ai
 domain:xn----itbkqkfiq.xn--p1ai
 domain:xn--1-8sbcpb0bdm8k6a.xn--p1ai
@@ -5691,5 +5714,6 @@ domain:zverokruh-shop.cz
 domain:zvetki.ru
 domain:zvezdagedon.ru
 domain:zx6.ru
+domain:zynax.ua
 domain:zytpirwai.net
 domain:zzbroya.com.ua
