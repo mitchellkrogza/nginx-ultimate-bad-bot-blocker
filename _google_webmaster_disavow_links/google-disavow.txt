@@ -10,6 +10,7 @@ domain:03p.info
 domain:0912701309f8ce.com
 domain:0c47f8422d3f.com
 domain:0daymusic.org
+domain:0lovespells0.blogspot.com
 domain:0n-line.tv
 domain:1-99seo.com
 domain:1-free-share-buttons.com
@@ -1243,6 +1244,7 @@ domain:coolyarddecorations.com
 domain:coop-gamers.ru
 domain:copblock.org
 domain:copro.pw
+domain:coprofam.org
 domain:copypaste.traderzplanet.in
 domain:copyrightclaims.org
 domain:cordstrap.cc
@@ -1495,6 +1497,7 @@ domain:downloadkakaotalk.com
 domain:downloadmefiranaratb1972.xpg.com.br
 domain:downloads-whatsapp.com
 domain:downtuptv.gq
+domain:downvids.net
 domain:doxyporno.com
 domain:doyouknowtheword-flummox.ml
 domain:dpihatinh.gov.vn
@@ -3012,6 +3015,7 @@ domain:matrixalchemy.com
 domain:matsdale.com
 domain:mature.free-websites.com
 domain:max-eclat.men
+domain:max-p.men
 domain:maximilitary.ru
 domain:maximpartnerspr.com
 domain:maxthon.com
@@ -3263,6 +3267,7 @@ domain:myanyone.net
 domain:mybinaryoptionsrobot.com
 domain:myblogregistercm.tk
 domain:mycaf.it
+domain:mycouponizemac.com
 domain:mydeathspace.com
 domain:mydirtyhobby.com
 domain:mydirtystuff.com
@@ -4381,6 +4386,7 @@ domain:shopperifymac.com
 domain:shoppingjequiti.com.br
 domain:shoppingmiracles.co.uk
 domain:shoppytoolmac.com
+domain:shopsellcardsdumps.com
 domain:shopvilleroyboch.com.ua
 domain:shopwme.ru
 domain:shtaketniki.ru
@@ -4511,6 +4517,7 @@ domain:socialmadesimple.com
 domain:socialmediasuggest.com
 domain:socialseet.ru
 domain:socialtrade.biz
+domain:sockshare.net
 domain:soda.media
 domain:sodexo.com
 domain:sofit-dmd.ru
@@ -4602,6 +4609,7 @@ domain:startufa.ru
 domain:startwp.org
 domain:statistici.ro
 domain:statoutlook.info
+domain:stats-collector.org
 domain:stats-public.grammarly.io
 domain:statustroll.com
 domain:stauga.altervista.org
@@ -4659,6 +4667,7 @@ domain:sukarame.net
 domain:sukirgenk.dvrlists.com
 domain:summerlinhomes411.info
 domain:sumo.com
+domain:superfish.com
 domain:superiends.org
 domain:superinterstitial.com
 domain:superkanpo.com
@@ -4761,6 +4770,7 @@ domain:thaisamkok.com
 domain:the-torrent-tracker.blogspot.com
 domain:the-trader.net
 domain:the-usa-games.blogspot.com
+domain:theallgirlarcade.com
 domain:thebestweightlosspills.ovh
 domain:thebluenoodle.com
 domain:thebluffs.com
@@ -5348,6 +5358,7 @@ domain:whengirlsgowild.com
 domain:where-toget.com
 domain:whereiskentoday.com
 domain:whipme.yopoint.in
+domain:white-truck.life
 domain:whiteelephantwellington.com
 domain:whiteproduct.com
 domain:wholesalecheapjerseysfree.com
@@ -5497,6 +5508,7 @@ domain:xn--80aafb2a.xn--p1ai
 domain:xn--80aagddcgkbcqbad7amllnejg6dya.xn--p1ai
 domain:xn--80aanaardaperhcem4a6i.com
 domain:xn--80ab4aa2g.xn--p1ai
+domain:xn--80abgj3a5acid6ghs.top
 domain:xn--80adaggc5bdhlfamsfdij4p7b.xn--p1ai
 domain:xn--80aeahghtf8ac5i.xn--p1ai
 domain:xn--80aebbcbcdemfkhba4byaehoejh8dza3v.xn--p1ai

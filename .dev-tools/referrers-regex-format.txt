@@ -10,6 +10,7 @@
 "~*0912701309f8ce\.com" 	1;
 "~*0c47f8422d3f\.com" 	1;
 "~*0daymusic\.org" 	1;
+"~*0lovespells0\.blogspot\.com" 	1;
 "~*0n\-line\.tv" 	1;
 "~*100dollars\-seo\.com" 	1;
 "~*100searchengines\.com" 	1;
@@ -1242,6 +1243,7 @@
 "~*coolyarddecorations\.com" 	1;
 "~*coop\-gamers\.ru" 	1;
 "~*copblock\.org" 	1;
+"~*coprofam\.org" 	1;
 "~*copro\.pw" 	1;
 "~*copypaste\.traderzplanet\.in" 	1;
 "~*copyrightclaims\.org" 	1;
@@ -1495,6 +1497,7 @@
 "~*downloads\-whatsapp\.com" 	1;
 "~*download\-wallpaper\.net" 	1;
 "~*downtuptv\.gq" 	1;
+"~*downvids\.net" 	1;
 "~*doxyporno\.com" 	1;
 "~*doyouknowtheword\-flummox\.ml" 	1;
 "~*dpihatinh\.gov\.vn" 	1;
@@ -3012,6 +3015,7 @@
 "~*max\-eclat\.men" 	1;
 "~*maximilitary\.ru" 	1;
 "~*maximpartnerspr\.com" 	1;
+"~*max\-p\.men" 	1;
 "~*maxthon\.com" 	1;
 "~*maxxtor\.eu" 	1;
 "~*mazda\-roadsters\.com" 	1;
@@ -3263,6 +3267,7 @@
 "~*myblogregistercm\.tk" 	1;
 "~*mycaf\.it" 	1;
 "~*my\-cash\-bot\.co" 	1;
+"~*mycouponizemac\.com" 	1;
 "~*mydeathspace\.com" 	1;
 "~*mydirtyhobby\.com" 	1;
 "~*mydirtystuff\.com" 	1;
@@ -4378,6 +4383,7 @@
 "~*shoppingjequiti\.com\.br" 	1;
 "~*shoppingmiracles\.co\.uk" 	1;
 "~*shoppytoolmac\.com" 	1;
+"~*shopsellcardsdumps\.com" 	1;
 "~*shopvilleroyboch\.com\.ua" 	1;
 "~*shopwme\.ru" 	1;
 "~*shop\.xz618\.com" 	1;
@@ -4510,6 +4516,7 @@
 "~*social\-s\-iii\.xyz" 	1;
 "~*socialtrade\.biz" 	1;
 "~*social\-vestnik\.ru" 	1;
+"~*sockshare\.net" 	1;
 "~*soc\-proof\.su" 	1;
 "~*soda\.media" 	1;
 "~*sodexo\.com" 	1;
@@ -4602,6 +4609,7 @@
 "~*startwp\.org" 	1;
 "~*statistici\.ro" 	1;
 "~*statoutlook\.info" 	1;
+"~*stats\-collector\.org" 	1;
 "~*stats\-public\.grammarly\.io" 	1;
 "~*statustroll\.com" 	1;
 "~*stauga\.altervista\.org" 	1;
@@ -4659,6 +4667,7 @@
 "~*sukirgenk\.dvrlists\.com" 	1;
 "~*summerlinhomes411\.info" 	1;
 "~*sumo\.com" 	1;
+"~*superfish\.com" 	1;
 "~*superiends\.org" 	1;
 "~*superinterstitial\.com" 	1;
 "~*superkanpo\.com" 	1;
@@ -4758,6 +4767,7 @@
 "~*textads\.men" 	1;
 "~*tfxiq\.com" 	1;
 "~*thaisamkok\.com" 	1;
+"~*theallgirlarcade\.com" 	1;
 "~*thebestweightlosspills\.ovh" 	1;
 "~*thebluenoodle\.com" 	1;
 "~*thebluffs\.com" 	1;
@@ -5349,6 +5359,7 @@
 "~*whipme\.yopoint\.in" 	1;
 "~*whiteelephantwellington\.com" 	1;
 "~*whiteproduct\.com" 	1;
+"~*white\-truck\.life" 	1;
 "~*wholesalecheapjerseysfree\.com" 	1;
 "~*wholesalejerseychinaoutlet\.com" 	1;
 "~*wholesalejerseychinashop\.com" 	1;
@@ -5487,6 +5498,7 @@
 "~*xn\-\-80aagddcgkbcqbad7amllnejg6dya\.xn\-\-p1ai" 	1;
 "~*xn\-\-80aanaardaperhcem4a6i\.com" 	1;
 "~*xn\-\-80ab4aa2g\.xn\-\-p1ai" 	1;
+"~*xn\-\-80abgj3a5acid6ghs\.top" 	1;
 "~*xn\-\-80adaggc5bdhlfamsfdij4p7b\.xn\-\-p1ai" 	1;
 "~*xn\-\-80aeahghtf8ac5i\.xn\-\-p1ai" 	1;
 "~*xn\-\-80aebbcbcdemfkhba4byaehoejh8dza3v\.xn\-\-p1ai" 	1;
