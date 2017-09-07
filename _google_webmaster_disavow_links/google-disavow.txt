@@ -740,6 +740,7 @@ domain:bioca.org
 domain:bioscorp.ru
 domain:birzha-truda.eu
 domain:bitcoinpile.com
+domain:bitcoinremote.com
 domain:bitcoins-live.ru
 domain:biteg.xyz
 domain:bitnote.co
@@ -1314,6 +1315,7 @@ domain:cypernhuset.se
 domain:cyprusbuyproperties.com
 domain:cyse.tk
 domain:czat.wp.pl
+domain:d-black.bz
 domain:d0t.ru
 domain:dafatiri.com
 domain:dailyfinancefix.com
@@ -1468,6 +1470,7 @@ domain:domaincdn.xyz
 domain:domaincheck.io
 domain:domaincrawler.com
 domain:domaineaneblanc.com
+domain:domainroam.win
 domain:domainsatcost.com
 domain:domashneeruporno.com
 domain:domcran.net
@@ -2846,6 +2849,7 @@ domain:limads.men
 domain:limtu.ifmo.ru
 domain:lincolntheatre.com
 domain:linerdrilling.com
+domain:lineshops.biz
 domain:link.ac
 domain:linkarena.com
 domain:linkbolic.com
@@ -3199,6 +3203,7 @@ domain:morlat.altervista.org
 domain:moroccosurfadventures.com
 domain:moscow-clining.ru
 domain:moscow-region.ru
+domain:moscow.online-podarki.com
 domain:moscow.xrus.org
 domain:mosdverka.ru
 domain:moskva.nodup.ru
@@ -3255,6 +3260,7 @@ domain:mustat.com
 domain:mustwineblog.com
 domain:muz-baza.net
 domain:muz-shoes.ru
+domain:muz-tracker.net
 domain:muzaporn.com
 domain:muznachas-service.ru
 domain:muztops.ru
@@ -3449,6 +3455,7 @@ domain:oddamzadarmo.eu
 domain:odesproperty.com
 domain:odoratus.net
 domain:odywpjtw.bloger.index.hr
+domain:oecnhs.info
 domain:offer.camp
 domain:offer.wpsecurity.website
 domain:offergroup.info

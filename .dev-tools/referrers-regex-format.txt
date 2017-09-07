@@ -739,6 +739,7 @@
 "~*bio\.trade\-jp\.net" 	1;
 "~*birzha\-truda\.eu" 	1;
 "~*bitcoinpile\.com" 	1;
+"~*bitcoinremote\.com" 	1;
 "~*bitcoins\-live\.ru" 	1;
 "~*biteg\.xyz" 	1;
 "~*bitnote\.co" 	1;
@@ -1345,6 +1346,7 @@
 "~*dayibiao\.com" 	1;
 "~*daymusam\.com" 	1;
 "~*day\-news\.info" 	1;
+"~*d\-black\.bz" 	1;
 "~*dbmkfhqk\.bloger\.index\.hr" 	1;
 "~*dcj\-nn\.ru" 	1;
 "~*ddlmega\.net" 	1;
@@ -1466,6 +1468,7 @@
 "~*domaincheck\.io" 	1;
 "~*domaincrawler\.com" 	1;
 "~*domaineaneblanc\.com" 	1;
+"~*domainroam\.win" 	1;
 "~*domainsatcost\.com" 	1;
 "~*domain\-submit\.info" 	1;
 "~*domain\-tracker\.com" 	1;
@@ -2846,6 +2849,7 @@
 "~*limtu\.ifmo\.ru" 	1;
 "~*lincolntheatre\.com" 	1;
 "~*linerdrilling\.com" 	1;
+"~*lineshops\.biz" 	1;
 "~*link\.ac" 	1;
 "~*linkarena\.com" 	1;
 "~*linkbolic\.com" 	1;
@@ -3198,6 +3202,7 @@
 "~*morlat\.altervista\.org" 	1;
 "~*moroccosurfadventures\.com" 	1;
 "~*moscow\-clining\.ru" 	1;
+"~*moscow\.online\-podarki\.com" 	1;
 "~*moscow\-region\.ru" 	1;
 "~*moscow\.xrus\.org" 	1;
 "~*mosdverka\.ru" 	1;
@@ -3258,6 +3263,7 @@
 "~*muznachas\-service\.ru" 	1;
 "~*muz\-shoes\.ru" 	1;
 "~*muztops\.ru" 	1;
+"~*muz\-tracker\.net" 	1;
 "~*mvpicton\.co\.uk" 	1;
 "~*mwtpludn\.review" 	1;
 "~*myanyone\.net" 	1;
@@ -3443,6 +3449,7 @@
 "~*odesproperty\.com" 	1;
 "~*odoratus\.net" 	1;
 "~*odywpjtw\.bloger\.index\.hr" 	1;
+"~*oecnhs\.info" 	1;
 "~*offer\.camp" 	1;
 "~*offergroup\.info" 	1;
 "~*offers\.bycontext\.com" 	1;
