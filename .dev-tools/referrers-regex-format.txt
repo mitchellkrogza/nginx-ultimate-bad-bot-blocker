@@ -2628,6 +2628,7 @@
 "~*kam\-dom\.ru" 	1;
 "~*kamen\-e\.ru" 	1;
 "~*kamorel\.com" 	1;
+"~*kandidos\.com" 	1;
 "~*kanimage\.com" 	1;
 "~*karachev\-city\.ru" 	1;
 "~*karadene\.com" 	1;
@@ -2976,6 +2977,7 @@
 "~*mall\.uk" 	1;
 "~*malwareremovalcenter\.com" 	1;
 "~*managerpak204\.weebly\.com" 	1;
+"~*manifestation\.betteroffers\.review" 	1;
 "~*manipulyator\-peterburg\.ru" 	1;
 "~*mansparskats\.com" 	1;
 "~*mantramusic\.ru" 	1;
@@ -3695,6 +3697,7 @@
 "~*pipki\.r\.acdnpro\.com" 	1;
 "~*piratecams\.com" 	1;
 "~*pirateday\.ru" 	1;
+"~*pisanieprac\.info" 	1;
 "~*piter\.xrus\.org" 	1;
 "~*piulatte\.cz" 	1;
 "~*piuminiita\.com" 	1;
@@ -5343,6 +5346,7 @@
 "~*welcomeauto\.ru" 	1;
 "~*wellcome2slovenia\.ru" 	1;
 "~*wemarketing\.se" 	1;
+"~*wemedinc\.com" 	1;
 "~*weprik\.ru" 	1;
 "~*wesharepics\.com" 	1;
 "~*wesharepics\.info" 	1;

@@ -2628,6 +2628,7 @@ domain:kamalsinha.com
 domain:kambasoft.com
 domain:kamen-e.ru
 domain:kamorel.com
+domain:kandidos.com
 domain:kanimage.com
 domain:karachev-city.ru
 domain:karadene.com
@@ -2978,6 +2979,7 @@ domain:mall.uk
 domain:malls.com
 domain:malwareremovalcenter.com
 domain:managerpak204.weebly.com
+domain:manifestation.betteroffers.review
 domain:manipulyator-peterburg.ru
 domain:mansparskats.com
 domain:mantramusic.ru
@@ -3695,6 +3697,7 @@ domain:pio.polytopesexempt.com
 domain:pipki.r.acdnpro.com
 domain:piratecams.com
 domain:pirateday.ru
+domain:pisanieprac.info
 domain:piter.xrus.org
 domain:piulatte.cz
 domain:piuminiita.com
@@ -5344,6 +5347,7 @@ domain:welck.octopis.com
 domain:welcomeauto.ru
 domain:wellcome2slovenia.ru
 domain:wemarketing.se
+domain:wemedinc.com
 domain:weprik.ru
 domain:wesharepics.com
 domain:wesharepics.info
