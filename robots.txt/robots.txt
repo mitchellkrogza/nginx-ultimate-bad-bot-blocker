@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.09.877
-### Updated: Fri Sep  8 10:45:16 SAST 2017
-### Bad Bot Count: 513
+### Version: V3.2017.09.879
+### Updated: Fri Sep  8 11:02:44 SAST 2017
+### Bad Bot Count: 512
 ###################################################
 ### Version Information ##
 
@@ -258,8 +258,6 @@ Disallow:/
 User-agent: FHscan
 Disallow:/
 User-agent: Fimap
-Disallow:/
-User-agent: Findxbot
 Disallow:/
 User-agent: Firefox/7.0
 Disallow:/
