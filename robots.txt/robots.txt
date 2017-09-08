@@ -259,8 +259,6 @@ User-agent: FHscan
 Disallow:/
 User-agent: Fimap
 Disallow:/
-User-agent: Findxbot
-Disallow:/
 User-agent: Firefox/7.0
 Disallow:/
 User-agent: FlashGet
