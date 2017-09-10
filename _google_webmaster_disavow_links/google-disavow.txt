@@ -972,6 +972,7 @@ domain:cars-modification.net
 domain:carsdined.org
 domain:carson.getenjoyment.net
 domain:carsplate.com
+domain:carstrends2015.com
 domain:cartechnic.ru
 domain:cartierbracelet.xyz
 domain:cartierbraceletsreplica.pw
@@ -1910,6 +1911,7 @@ domain:forum20.smailik.org
 domain:forum69.info
 domain:forumprofi.de
 domain:forums.toucharcade.com
+domain:foto-basa.com
 domain:foto-sisek.porngalleries.top
 domain:foto-telok.net
 domain:foto-weinberger.at
@@ -1996,6 +1998,7 @@ domain:fxgallery.com
 domain:fxtips.ru
 domain:fyl.com.ru
 domain:fym.com.ru
+domain:fyxabomiw.ru
 domain:fz139.ttk.ru
 domain:g.starmoe.xyz
 domain:g33.org
@@ -2029,6 +2032,8 @@ domain:gaming-journal.com
 domain:gamingspark.com
 domain:gardene.ru
 domain:gate5.co.za
+domain:gateway.zscalerone.net
+domain:gateway.zscalertwo.net
 domain:gay-file.com
 domain:gay.adultgalls.com
 domain:gaygalls.net
@@ -2803,6 +2808,7 @@ domain:law-check-eight.xyz
 domain:law-check-nine.xyz
 domain:law-check-seven.xyz
 domain:law-check-two.xyz
+domain:lawyers.cafe
 domain:laxdrills.com
 domain:layola.biz.tc
 domain:lazy-z.com
@@ -2862,6 +2868,7 @@ domain:linkredirect.biz
 domain:linkrr.com
 domain:linksharingt.com
 domain:linkwithin.com
+domain:lion.bolegapakistan.com
 domain:liquimondo.com
 domain:liran-locks.com
 domain:lirunet.ru
@@ -3894,6 +3901,7 @@ domain:pronekut.com
 domain:pronorm.fr
 domain:proposal-engine.com
 domain:propranolol40mg.blogspot.com
+domain:proprostatit.com
 domain:prosmibank.ru
 domain:prospekt-st.ru
 domain:prosperent.com
@@ -4904,6 +4912,7 @@ domain:tooplay.com
 domain:tootoo.to
 domain:top-deal.com.pl
 domain:top-karkas.ru
+domain:top-study.work
 domain:top1-seo-service.com
 domain:top10-way.com
 domain:top10registrycleaners.com
@@ -5070,6 +5079,7 @@ domain:ultimateclassicrock.com
 domain:ultimatesetnewfreeallsoftupgradesystems.pw
 domain:ultramart.biz
 domain:um-razum.ru
+domain:umaseh.com
 domain:umg-stroy.ru
 domain:umityangin.net
 domain:umnovocaminho.com

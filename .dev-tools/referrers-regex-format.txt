@@ -970,6 +970,7 @@
 "~*cars\-modification\.net" 	1;
 "~*carson\.getenjoyment\.net" 	1;
 "~*carsplate\.com" 	1;
+"~*carstrends2015\.com" 	1;
 "~*cartechnic\.ru" 	1;
 "~*cartierbraceletsreplica\.pw" 	1;
 "~*cartierbracelet\.xyz" 	1;
@@ -1910,6 +1911,7 @@
 "~*forumprofi\.de" 	1;
 "~*forums\.toucharcade\.com" 	1;
 "~*forum\.tvmir\.org" 	1;
+"~*foto\-basa\.com" 	1;
 "~*fotopop\.club" 	1;
 "~*foto\-sisek\.porngalleries\.top" 	1;
 "~*foto\-telok\.net" 	1;
@@ -1996,6 +1998,7 @@
 "~*fxtips\.ru" 	1;
 "~*fyl\.com\.ru" 	1;
 "~*fym\.com\.ru" 	1;
+"~*fyxabomiw\.ru" 	1;
 "~*fz139\.ttk\.ru" 	1;
 "~*g33\.org" 	1;
 "~*g7m\.pl" 	1;
@@ -2028,6 +2031,8 @@
 "~*gamingspark\.com" 	1;
 "~*gardene\.ru" 	1;
 "~*gate5\.co\.za" 	1;
+"~*gateway\.zscalerone\.net" 	1;
+"~*gateway\.zscalertwo\.net" 	1;
 "~*gay\.adultgalls\.com" 	1;
 "~*gay\-file\.com" 	1;
 "~*gaygalls\.net" 	1;
@@ -2803,6 +2808,7 @@
 "~*law\-check\-nine\.xyz" 	1;
 "~*law\-check\-seven\.xyz" 	1;
 "~*law\-check\-two\.xyz" 	1;
+"~*lawyers\.cafe" 	1;
 "~*laxdrills\.com" 	1;
 "~*layola\.biz\.tc" 	1;
 "~*lazy\-z\.com" 	1;
@@ -2862,6 +2868,7 @@
 "~*linkrr\.com" 	1;
 "~*linksharingt\.com" 	1;
 "~*linkwithin\.com" 	1;
+"~*lion\.bolegapakistan\.com" 	1;
 "~*liquimondo\.com" 	1;
 "~*liran\-locks\.com" 	1;
 "~*lirunet\.ru" 	1;
@@ -3893,6 +3900,7 @@
 "~*pro\-okis\.ru" 	1;
 "~*proposal\-engine\.com" 	1;
 "~*propranolol40mg\.blogspot\.com" 	1;
+"~*proprostatit\.com" 	1;
 "~*prosmibank\.ru" 	1;
 "~*prospekt\-st\.ru" 	1;
 "~*prosperent\.com" 	1;
@@ -4918,6 +4926,7 @@
 "~*topquality\.cf" 	1;
 "~*topshef\.ru" 	1;
 "~*topsiteminecraft\.com" 	1;
+"~*top\-study\.work" 	1;
 "~*topsy\.com" 	1;
 "~*topvidos\.ru" 	1;
 "~*torontoplumbinggroup\.com" 	1;
@@ -5069,6 +5078,7 @@
 "~*ultimateclassicrock\.com" 	1;
 "~*ultimatesetnewfreeallsoftupgradesystems\.pw" 	1;
 "~*ultramart\.biz" 	1;
+"~*umaseh\.com" 	1;
 "~*umg\-stroy\.ru" 	1;
 "~*umityangin\.net" 	1;
 "~*umnovocaminho\.com" 	1;
