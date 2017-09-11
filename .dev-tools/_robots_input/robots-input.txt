@@ -396,6 +396,7 @@ Surfbot
 SurveyBot
 Suzuran
 Swiftbot
+sysscan
 Szukacz
 T0PHackTeam
 T8Abot

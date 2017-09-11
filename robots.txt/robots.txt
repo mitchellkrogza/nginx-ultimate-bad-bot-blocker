@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.09.882
-### Updated: Mon Sep 11 09:41:27 SAST 2017
-### Bad Bot Count: 512
+### Version: V3.2017.09.883
+### Updated: Mon Sep 11 10:27:44 SAST 2017
+### Bad Bot Count: 513
 ###################################################
 ### Version Information ##
 
@@ -804,6 +804,8 @@ Disallow:/
 User-agent: Suzuran
 Disallow:/
 User-agent: Swiftbot
+Disallow:/
+User-agent: sysscan
 Disallow:/
 User-agent: Szukacz
 Disallow:/
