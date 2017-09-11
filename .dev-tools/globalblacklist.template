@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.09.886
-### Updated: Mon Sep 11 12:20:25 SAST 2017
+### Version: V3.2017.09.887
+### Updated: Mon Sep 11 17:01:46 SAST 2017
 ### Bad Referrer Count: 5768
-### Bad Bot Count: 513
+### Bad Bot Count: 514
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -240,6 +240,7 @@ map $http_user_agent $bad_bot {
 	"~*\bBackWeb\b"		3;
 	"~*\bBadass\b"		3;
 	"~*\bBandit\b"		3;
+	"~*\bBarkrowler\b"		3;
 	"~*\bBatchFTP\b"		3;
 	"~*\bBattleztar\ Bazinga\b"		3;
 	"~*\bBBBike\b"		3;

@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.09.886
-### Updated: Mon Sep 11 12:20:26 SAST 2017
-### Bad Bot Count: 513
+### Version: V3.2017.09.887
+### Updated: Mon Sep 11 17:01:46 SAST 2017
+### Bad Bot Count: 514
 ###################################################
 ### Version Information ##
 
@@ -62,6 +62,8 @@ Disallow:/
 User-agent: Badass
 Disallow:/
 User-agent: Bandit
+Disallow:/
+User-agent: Barkrowler
 Disallow:/
 User-agent: BatchFTP
 Disallow:/
