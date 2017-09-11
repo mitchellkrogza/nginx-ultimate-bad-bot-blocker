@@ -261,6 +261,7 @@ domain:afora.ru
 domain:afslankpillen2017nl.eu
 domain:agadelha.com.br
 domain:agahinameh.com
+domain:agapovdg.ru
 domain:agardomains.com
 domain:agecheckadult.com
 domain:aghanyna.com
@@ -836,6 +837,7 @@ domain:brainxs.us
 domain:brainzpod.win
 domain:braip.com.br
 domain:brakehawk.com
+domain:brandbucket.com
 domain:brandedleadgeneration.com
 domain:brandehk.dk
 domain:brandov.ru
@@ -1856,6 +1858,7 @@ domain:finuse.com
 domain:fireads.men
 domain:firesub.pl
 domain:firma-legion.ru
+domain:firstsiteguide.com
 domain:fishingwholesale.us
 domain:fitfloponline.store
 domain:fitness-video.net
@@ -2443,6 +2446,7 @@ domain:images-graphics-pics.com
 domain:images.gyffu.com
 domain:imediadesk.com
 domain:imfamous.info
+domain:img.wallpaperstock.net
 domain:imgarcade.com
 domain:imgata.com
 domain:iminent.com
@@ -4003,6 +4007,7 @@ domain:razamicroelectronics.com
 domain:razorweb-a.akamaihd.net
 domain:razyboard.com
 domain:rcb101.ru
+domain:rcpmda.ikan1080.xyz
 domain:real-time-analytics.com
 domain:realitykings.com
 domain:realizmobi.com
@@ -4635,6 +4640,7 @@ domain:staynplay.net
 domain:steame.ru
 domain:steelmaster.lv
 domain:stefanbakosab.se
+domain:sterva.cc
 domain:stevemonsen.com
 domain:stickers-market.ru
 domain:stillmiracle.com
@@ -4742,6 +4748,7 @@ domain:talant-factory.ru
 domain:tampabaywatch.org
 domain:tandvardshuset.net
 domain:tanieaukcje.com.pl
+domain:taqplayer.info
 domain:taqywu51.soup.io
 domain:tarad.com
 domain:taraz.xkaz.org
@@ -5170,6 +5177,7 @@ domain:velobikestock.com
 domain:venerologiya.com
 domain:venta-prom.ru
 domain:ventelnos.com
+domain:vepad.com
 domain:vereo.eu
 domain:versaut.xxx-cam.webcam
 domain:vertaform.com
@@ -5292,6 +5300,7 @@ domain:wait3sec.org
 domain:walkme.com
 domain:wallpapers-best.com
 domain:wallpapersdesk.info
+domain:wallpaperstock.net
 domain:wapsite.me
 domain:wareseeker.com
 domain:warezaccess.com
