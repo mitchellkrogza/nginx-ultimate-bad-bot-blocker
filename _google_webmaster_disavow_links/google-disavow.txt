@@ -886,6 +886,7 @@ domain:bus-offer.com
 domain:businesn.men
 domain:business-made-fun.com
 domain:businesxxl.com
+domain:butstrap.space
 domain:buttons-for-website.com
 domain:buttons-for-your-website.com
 domain:buy-cheap-online.info
@@ -1308,6 +1309,7 @@ domain:customchocolate.business-for-home.com
 domain:customcollegeessays.net
 domain:customergrowthsystems.com
 domain:customerguru.in
+domain:customerpromos-a.akamaihd.net
 domain:customsua.com.ua
 domain:cutalltheshit.com
 domain:cvety24.by
@@ -1723,6 +1725,7 @@ domain:exportshop.us
 domain:expresstoplivo.ru
 domain:extads.net
 domain:extener.org
+domain:extlabs.io
 domain:extrabot.com
 domain:extractorandburner.com
 domain:extremal-blog.com
@@ -1947,6 +1950,7 @@ domain:free-stock-illustration.com
 domain:free-today.com
 domain:free-traffic.xyz
 domain:free-video-tool.com
+domain:free411games.com
 domain:freecamdollars.com
 domain:freegamesplay.online
 domain:freejabs.com
@@ -2243,6 +2247,7 @@ domain:hao123.com
 domain:happy.new.yeartwit.com
 domain:hasfun.com
 domain:hatdc.org
+domain:hatedriveapart.com
 domain:hauleddes.com
 domain:hausfrauensex18.com
 domain:haveinc.xyz
@@ -2965,6 +2970,7 @@ domain:macfix.life
 domain:mackeeper-center.club
 domain:mackeeper-land-672695126.us-east-1.elb.amazonaws.com
 domain:macnewtech.com
+domain:macotool.com
 domain:macresource.co.uk
 domain:macrotek.ru
 domain:mactechinfo.info
@@ -5378,6 +5384,7 @@ domain:westsextube.com
 domain:westum.se
 domain:westvilletowingservices.co.za
 domain:wetgames.ru
+domain:wfb.hatedriveapart.com
 domain:whatistizanidine2mg.blogspot.com
 domain:whatistizanidinehclusedfor.blogspot.com
 domain:whatsappdownload10.com

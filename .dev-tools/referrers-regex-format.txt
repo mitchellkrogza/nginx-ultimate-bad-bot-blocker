@@ -886,6 +886,7 @@
 "~*business\-made\-fun\.com" 	1;
 "~*businesxxl\.com" 	1;
 "~*bus\-offer\.com" 	1;
+"~*butstrap\.space" 	1;
 "~*buttons\-for\-website\.com" 	1;
 "~*buttons\-for\-your\-website\.com" 	1;
 "~*buyantiviralwp\.com" 	1;
@@ -1307,6 +1308,7 @@
 "~*custom\-electric\-guitar\.com" 	1;
 "~*customergrowthsystems\.com" 	1;
 "~*customerguru\.in" 	1;
+"~*customerpromos\-a\.akamaihd\.net" 	1;
 "~*custom\-product\-labels\.com" 	1;
 "~*customsua\.com\.ua" 	1;
 "~*cutalltheshit\.com" 	1;
@@ -1723,6 +1725,7 @@
 "~*expresstoplivo\.ru" 	1;
 "~*extads\.net" 	1;
 "~*extener\.org" 	1;
+"~*extlabs\.io" 	1;
 "~*extrabot\.com" 	1;
 "~*extractorandburner\.com" 	1;
 "~*extremal\-blog\.com" 	1;
@@ -1931,6 +1934,7 @@
 "~*frbizlist\.com" 	1;
 "~*frcls\.fr" 	1;
 "~*freakycheats\.com" 	1;
+"~*free411games\.com" 	1;
 "~*freecamdollars\.com" 	1;
 "~*free\-deals\.faith" 	1;
 "~*free\-fbook\-traffic\.com" 	1;
@@ -2243,6 +2247,7 @@
 "~*happy\.new\.yeartwit\.com" 	1;
 "~*hasfun\.com" 	1;
 "~*hatdc\.org" 	1;
+"~*hatedriveapart\.com" 	1;
 "~*hauleddes\.com" 	1;
 "~*hausfrauensex18\.com" 	1;
 "~*haveinc\.xyz" 	1;
@@ -2962,6 +2967,7 @@
 "~*mackeeper\-center\.club" 	1;
 "~*mackeeper\-land\-672695126\.us\-east\-1\.elb\.amazonaws\.com" 	1;
 "~*macnewtech\.com" 	1;
+"~*macotool\.com" 	1;
 "~*macresource\.co\.uk" 	1;
 "~*macrotek\.ru" 	1;
 "~*mac\-shield\.com" 	1;
@@ -5377,6 +5383,7 @@
 "~*westum\.se" 	1;
 "~*westvilletowingservices\.co\.za" 	1;
 "~*wetgames\.ru" 	1;
+"~*wfb\.hatedriveapart\.com" 	1;
 "~*whatistizanidine2mg\.blogspot\.com" 	1;
 "~*whatistizanidinehclusedfor\.blogspot\.com" 	1;
 "~*whatsappdownload10\.com" 	1;
