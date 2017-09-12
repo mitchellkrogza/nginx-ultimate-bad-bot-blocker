@@ -476,6 +476,7 @@
 "~*artdeko\.info" 	1;
 "~*artdestshop\.eu" 	1;
 "~*artefakct\.com" 	1;
+"~*artel116\.ru" 	1;
 "~*articlesdirectoryme\.info" 	1;
 "~*artparquet\.ru" 	1;
 "~*artpicso\.com" 	1;
@@ -1396,6 +1397,7 @@
 "~*detki\-opt\.ru" 	1;
 "~*detskie\-konstruktory\.ru" 	1;
 "~*detskie\-zabavi\.ru" 	1;
+"~*detsky\-nabytek\.info" 	1;
 "~*deutschehobbyhuren\.net" 	1;
 "~*deutschland123\.de" 	1;
 "~*dev33\.dioniqlabb\.se" 	1;
@@ -1865,6 +1867,7 @@
 "~*fitnesspiks\.com" 	1;
 "~*fitness\-video\.net" 	1;
 "~*fiuxy\.com" 	1;
+"~*fivedwld\.cf" 	1;
 "~*fiverr\.com" 	1;
 "~*fix\-website\-errors\.com" 	1;
 "~*flash4fun\.com" 	1;
@@ -4596,6 +4599,7 @@
 "~*special\-porn\.com" 	1;
 "~*speedup\-my\.site" 	1;
 "~*spidtest\.org" 	1;
+"~*spidtest\.space" 	1;
 "~*spin2016\.cf" 	1;
 "~*spinnerco\.ca" 	1;
 "~*spitfiremusic\.com" 	1;

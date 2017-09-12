@@ -476,6 +476,7 @@ domain:artavenuegardenstudios.com
 domain:artdeko.info
 domain:artdestshop.eu
 domain:artefakct.com
+domain:artel116.ru
 domain:articlesdirectoryme.info
 domain:artparquet.ru
 domain:artpicso.com
@@ -1397,6 +1398,7 @@ domain:detective01.ru
 domain:detki-opt.ru
 domain:detskie-konstruktory.ru
 domain:detskie-zabavi.ru
+domain:detsky-nabytek.info
 domain:deutschehobbyhuren.net
 domain:deutschland123.de
 domain:dev-seo.blog
@@ -1867,6 +1869,7 @@ domain:fitfloponline.store
 domain:fitness-video.net
 domain:fitnesspiks.com
 domain:fiuxy.com
+domain:fivedwld.cf
 domain:fiverr.com
 domain:fix-website-errors.com
 domain:flash4fun.com
@@ -4596,6 +4599,7 @@ domain:spbchampionat.ru
 domain:special-porn.com
 domain:speedup-my.site
 domain:spidtest.org
+domain:spidtest.space
 domain:spin2016.cf
 domain:spinnerco.ca
 domain:spitfiremusic.com

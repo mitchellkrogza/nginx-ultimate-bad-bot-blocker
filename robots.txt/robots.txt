@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.09.887
-### Updated: Mon Sep 11 17:01:46 SAST 2017
-### Bad Bot Count: 514
+### Version: V3.2017.09.888
+### Updated: Tue Sep 12 14:46:54 SAST 2017
+### Bad Bot Count: 515
 ###################################################
 ### Version Information ##
 
@@ -202,6 +202,8 @@ Disallow:/
 User-agent: DomainCrawler
 Disallow:/
 User-agent: DomainSigmaCrawler
+Disallow:/
+User-agent: DomainStatsBot
 Disallow:/
 User-agent: Dotbot
 Disallow:/
