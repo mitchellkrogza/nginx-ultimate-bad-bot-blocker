@@ -1525,6 +1525,7 @@ domain:druzhbany.ru
 domain:druzhininevgeniy63.blogspot.com
 domain:dstroy.su
 domain:dtnlyss.com
+domain:dumpsmania24.com
 domain:duplicashapp.com
 domain:dustyorate.com
 domain:dvd-famille.com
@@ -3211,6 +3212,7 @@ domain:monetizer.com-01.site
 domain:money-every-day.com
 domain:money-for-placing-articles.com
 domain:moneymaster.ru
+domain:moneyteam24.com
 domain:moneytop.ru
 domain:moneyviking-a.akamaihd.net
 domain:monitorwebsitespeed.com
@@ -4654,8 +4656,10 @@ domain:sterva.cc
 domain:stevemonsen.com
 domain:stickers-market.ru
 domain:stillmiracle.com
+domain:stjamesschool.info
 domain:stmassage.ru
 domain:stockquotes.wooeb.com
+domain:stockspmb.info
 domain:stoki.ru
 domain:stop-gepatit.te.ua
 domain:store-rx.com
@@ -4998,6 +5002,7 @@ domain:traffpartners.com
 domain:trahic.ru
 domain:trahvid.com
 domain:trailer.cinemaflix.website
+domain:trainoffend.ml
 domain:tramadolandtizanidine.blogspot.com
 domain:traxdom.ru
 domain:treasuretrack-a.akamaihd.net
