@@ -966,6 +966,7 @@ domain:capture-room.com
 domain:carabela.com.do
 domain:carapics.com
 domain:cardiosport.com.ua
+domain:cardsdumps.com
 domain:cardsharp1.ru
 domain:cardul.ru
 domain:carfax.com.ua
@@ -2033,6 +2034,7 @@ domain:gamedayassist.com
 domain:gamedayhouse.com
 domain:gameonasia.com
 domain:gameplexcity.com
+domain:gameprimary.com
 domain:gamerextra.com
 domain:gamerscorps.com
 domain:games.kolossale.ru
@@ -3415,6 +3417,7 @@ domain:ningessaybe.me
 domain:nippon-bearings.ru
 domain:niroo.info
 domain:njkmznnb.ru
+domain:njpalletremoval.com
 domain:nl.netlog.com
 domain:nmrk.ru
 domain:noclegonline.info
@@ -5034,6 +5037,7 @@ domain:ttrraacckkrr.com
 domain:ttsq.fr
 domain:tube8.com
 domain:tubeline.biz
+domain:tubeoffline.com
 domain:tuberkulezanet.ru
 domain:tuberkuleznik.ru
 domain:tubo360.com
@@ -5161,6 +5165,7 @@ domain:v720hd.ru
 domain:vabasa.inwtrade.com
 domain:vacuumscleaner.com
 domain:vadimkravtcov.ru
+domain:validccseller.com
 domain:validdomain.xyz
 domain:valkiria-tk.ru
 domain:valmetrundan.se

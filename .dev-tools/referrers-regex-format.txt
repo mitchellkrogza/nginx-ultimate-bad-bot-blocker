@@ -964,6 +964,7 @@
 "~*carabela\.com\.do" 	1;
 "~*carapics\.com" 	1;
 "~*cardiosport\.com\.ua" 	1;
+"~*cardsdumps\.com" 	1;
 "~*cardsharp1\.ru" 	1;
 "~*cardul\.ru" 	1;
 "~*carfax\.com\.ua" 	1;
@@ -2031,6 +2032,7 @@
 "~*game\-mmorpg\.net" 	1;
 "~*gameonasia\.com" 	1;
 "~*gameplexcity\.com" 	1;
+"~*gameprimary\.com" 	1;
 "~*gamerextra\.com" 	1;
 "~*gamerscorps\.com" 	1;
 "~*games\.kolossale\.ru" 	1;
@@ -3415,6 +3417,7 @@
 "~*nippon\-bearings\.ru" 	1;
 "~*niroo\.info" 	1;
 "~*njkmznnb\.ru" 	1;
+"~*njpalletremoval\.com" 	1;
 "~*nl\.netlog\.com" 	1;
 "~*nmrk\.ru" 	1;
 "~*noclegonline\.info" 	1;
@@ -5034,6 +5037,7 @@
 "~*ttsq\.fr" 	1;
 "~*tube8\.com" 	1;
 "~*tubeline\.biz" 	1;
+"~*tubeoffline\.com" 	1;
 "~*tuberkulezanet\.ru" 	1;
 "~*tuberkuleznik\.ru" 	1;
 "~*tubo360\.com" 	1;
@@ -5160,6 +5164,7 @@
 "~*vabasa\.inwtrade\.com" 	1;
 "~*vacuumscleaner\.com" 	1;
 "~*vadimkravtcov\.ru" 	1;
+"~*validccseller\.com" 	1;
 "~*validdomain\.xyz" 	1;
 "~*valkiria\-tk\.ru" 	1;
 "~*valmetrundan\.se" 	1;
