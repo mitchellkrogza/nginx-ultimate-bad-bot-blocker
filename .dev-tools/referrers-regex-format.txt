@@ -2296,6 +2296,7 @@
 "~*hermesreplica\.pw" 	1;
 "~*hermesreplica\.win" 	1;
 "~*herokuapp\.com" 	1;
+"~*heroz\.fr" 	1;
 "~*hesteel\.pl" 	1;
 "~*hetmanship\.xyz" 	1;
 "~*hexpilot\.com" 	1;
@@ -2832,6 +2833,7 @@
 "~*leadwayau\.com" 	1;
 "~*leboard\.ru" 	1;
 "~*lechenie\-gemorroya\.com" 	1;
+"~*le\-clos\-des\-alouettes\.com" 	1;
 "~*ledis\.top" 	1;
 "~*ledpolice\.ru" 	1;
 "~*legalrc\.biz" 	1;
@@ -5118,6 +5120,7 @@
 "~*unisexjewelry\.org" 	1;
 "~*unitexindia\.com" 	1;
 "~*unitygame3d\.com" 	1;
+"~*univerfiles\.com" 	1;
 "~*universals\.com\.ua" 	1;
 "~*unmaroll\.ya\.ru" 	1;
 "~*unpredictable\.ga" 	1;
@@ -5702,6 +5705,7 @@
 "~*zastenchivosti\.net" 	1;
 "~*zastroyka\.org" 	1;
 "~*zatjmuzu\.info" 	1;
+"~*zawyna\.ua" 	1;
 "~*zazagames\.org" 	1;
 "~*zdesformula\.ru" 	1;
 "~*zdesoboi\.com" 	1;

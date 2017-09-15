@@ -2296,6 +2296,7 @@ domain:hermesbracelets.xyz
 domain:hermesreplica.pw
 domain:hermesreplica.win
 domain:herokuapp.com
+domain:heroz.fr
 domain:hesteel.pl
 domain:hetmanship.xyz
 domain:hexpilot.com
@@ -2828,6 +2829,7 @@ domain:laxdrills.com
 domain:layola.biz.tc
 domain:lazy-z.com
 domain:ldrtrack.com
+domain:le-clos-des-alouettes.com
 domain:leadn.pl
 domain:leadwayau.com
 domain:leboard.ru
@@ -5118,6 +5120,7 @@ domain:unionmarkt.de
 domain:unisexjewelry.org
 domain:unitexindia.com
 domain:unitygame3d.com
+domain:univerfiles.com
 domain:universals.com.ua
 domain:unmaroll.ya.ru
 domain:unpredictable.ga
@@ -5703,6 +5706,7 @@ domain:zarepta.com
 domain:zastenchivosti.net
 domain:zastroyka.org
 domain:zatjmuzu.info
+domain:zawyna.ua
 domain:zazagames.org
 domain:zdesformula.ru
 domain:zdesoboi.com
