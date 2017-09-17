@@ -1162,6 +1162,7 @@
 "~*codysbbq\.com" 	1;
 "~*cognitiveseo\.com" 	1;
 "~*coindirect\.io" 	1;
+"~*coin\-hive\.com" 	1;
 "~*coinsspb\.com" 	1;
 "~*coldfilm\.ru" 	1;
 "~*colehaanoutlet\.store" 	1;
@@ -1831,6 +1832,7 @@
 "~*fidelityfunding\.com" 	1;
 "~*fifa\-coins\.online" 	1;
 "~*figuringmoneyout\.com" 	1;
+"~*fikasound\.tk" 	1;
 "~*filefilter\.weebly\.com" 	1;
 "~*filerockstar298\.weebly\.com" 	1;
 "~*filesmonster\.porn" 	1;
@@ -2026,6 +2028,7 @@
 "~*gallerylisting\.com" 	1;
 "~*gallery\.rennlist\.com" 	1;
 "~*gallictures\.com" 	1;
+"~*gambarkatabaru\.com" 	1;
 "~*gambarxkata\.co" 	1;
 "~*gamblingnerd\.com" 	1;
 "~*gamedayassist\.com" 	1;
@@ -3703,6 +3706,7 @@
 "~*piccdata\.com" 	1;
 "~*piccshare\.com" 	1;
 "~*picphotos\.net" 	1;
+"~*picquery\.com" 	1;
 "~*picscout\.com" 	1;
 "~*picsearch\.com" 	1;
 "~*picsfair\.com" 	1;
@@ -4979,6 +4983,7 @@
 "~*tpu\.ru" 	1;
 "~*tracfone\.com" 	1;
 "~*track112\.site" 	1;
+"~*track2\.shop" 	1;
 "~*tracklead\.net" 	1;
 "~*trackmedia101\.com" 	1;
 "~*track\-rankings\.online" 	1;

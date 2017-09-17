@@ -1162,6 +1162,7 @@ domain:coderstate.com
 domain:codq.info
 domain:codysbbq.com
 domain:cognitiveseo.com
+domain:coin-hive.com
 domain:coindirect.io
 domain:coinsspb.com
 domain:coldfilm.ru
@@ -1833,6 +1834,7 @@ domain:fickluder69.com
 domain:fidelityfunding.com
 domain:fifa-coins.online
 domain:figuringmoneyout.com
+domain:fikasound.tk
 domain:fil.ru
 domain:filefilter.weebly.com
 domain:filerockstar298.weebly.com
@@ -2027,6 +2029,7 @@ domain:gallery.rennlist.com
 domain:galleryawesome.com
 domain:gallerylisting.com
 domain:gallictures.com
+domain:gambarkatabaru.com
 domain:gambarxkata.co
 domain:gamblingnerd.com
 domain:game-mmorpg.net
@@ -3703,6 +3706,7 @@ domain:pic2fly.com
 domain:piccdata.com
 domain:piccshare.com
 domain:picphotos.net
+domain:picquery.com
 domain:pics-group.com
 domain:picscout.com
 domain:picsearch.com
@@ -4980,6 +4984,7 @@ domain:tpu.ru
 domain:tracfone.com
 domain:track-rankings.online
 domain:track112.site
+domain:track2.shop
 domain:tracklead.net
 domain:trackmedia101.com
 domain:tracksurf.daooda.com
