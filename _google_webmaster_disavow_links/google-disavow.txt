@@ -1346,6 +1346,7 @@ domain:darmebel.com.ua
 domain:darodar.com
 domain:data-mining.tk
 domain:data.vtc.pw
+domain:data1.scopich.com
 domain:dataloading.net
 domain:date-withme.com
 domain:dating-time-now.com
@@ -2205,6 +2206,7 @@ domain:gribkovye-zabolevaniya.com
 domain:gribokstop.com
 domain:grizzlysgrill.com
 domain:groupmoney.ru
+domain:growboxbl.ru
 domain:growmyfunds.ca
 domain:growshop.es
 domain:grtyi.com
@@ -4277,6 +4279,7 @@ domain:scenicmissouri.us
 domain:schlampen-treffen.com
 domain:school-diplomat.ru
 domain:scoopquest.com
+domain:scopich.com
 domain:score-ads.men
 domain:scrapy.org
 domain:screentoolkit.com
@@ -4575,6 +4578,7 @@ domain:softomix.com
 domain:softomix.net
 domain:softonicads.com
 domain:softtor.com
+domain:softwaretrend.net
 domain:softxaker.ru
 domain:soheavyblog.com
 domain:sohoindia.net
@@ -4654,6 +4658,7 @@ domain:starpages.net
 domain:start.myplaycity.com
 domain:startufa.ru
 domain:startwp.org
+domain:starwars.wikia.com
 domain:statistici.ro
 domain:statoutlook.info
 domain:stats-collector.org
