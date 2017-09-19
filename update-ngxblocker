@@ -194,8 +194,8 @@ check_args() {
 }
 
 check_mail_depends() {
-	if [ ! -f /usr/bin/mail ]; then # mailx + ssmtp are enough to send emails
-		printf "${BOLDYELLOW}WARN${RESET}: missing /usr/bin/mail => ${BOLDWHITE}disabling emails${RESET}.\n\n"
+	if [ ! -f /usr/bin/mail ] && [ ! -f /bin/mail ]; then # mailx + ssmtp are enough to send emails
+		printf "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}.\n\n"
 		SEND_EMAIL="N"
 	fi
 }
