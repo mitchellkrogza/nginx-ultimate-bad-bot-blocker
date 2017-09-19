@@ -3723,6 +3723,7 @@
 "~*pihl\.se" 	1;
 "~*pijoto\.net" 	1;
 "~*pila\.pl" 	1;
+"~*pills24h\.com" 	1;
 "~*pinkduck\.ga" 	1;
 "~*pinsdaddy\.com" 	1;
 "~*pinstake\.com" 	1;
@@ -4401,6 +4402,7 @@
 "~*sfd\-chess\.ru" 	1;
 "~*sfj\-ror\.no" 	1;
 "~*shakhtar\-doneck\.ru" 	1;
+"~*shama\-rc\.net" 	1;
 "~*sharebutton\.net" 	1;
 "~*sharebutton\.org" 	1;
 "~*share\-buttons\-for\-free\.com" 	1;

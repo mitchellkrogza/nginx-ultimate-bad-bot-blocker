@@ -3723,6 +3723,7 @@ domain:pigrafix.at
 domain:pihl.se
 domain:pijoto.net
 domain:pila.pl
+domain:pills24h.com
 domain:pinkduck.ga
 domain:pinsdaddy.com
 domain:pinstake.com
@@ -4403,6 +4404,7 @@ domain:sexytrend.ru
 domain:sfd-chess.ru
 domain:sfj-ror.no
 domain:shakhtar-doneck.ru
+domain:shama-rc.net
 domain:share-buttons-for-free.com
 domain:sharebutton.net
 domain:sharebutton.org
