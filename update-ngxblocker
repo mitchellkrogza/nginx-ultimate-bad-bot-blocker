@@ -201,13 +201,7 @@ check_mail_depends() {
 }
 
 check_depends() {
-	# centos does not have wget installed by default
-	if ! wget --help >/dev/null 2>&1; then
-		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'wget' => ${BOLDWHITE}cannot download files.${RESET}\n"
-		exit 1
-	fi
-
-	# centos also does not have which by default
+	# centos does not have which by default
 	if [ ! -x /usr/bin/curl ]; then
 		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}\n"
 		exit 1
