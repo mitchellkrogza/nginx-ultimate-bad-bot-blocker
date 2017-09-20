@@ -141,16 +141,6 @@ download_files() {
 	fi
 }
 
-set_mode() {
-	local mode=$1 dir=$2 file=
-	local file_list="$(echo $@ | awk '{$1=$2=""; print}' | sed -e 's/^[ \t]*//')"
-
-	for file in $file_list; do
-		printf "Setting mode: $mode => $dir/$file\n"
-		chmod $mode $dir/$file
-	done
-}
-
 check_config() {
 	local x= dirs="$*"
 
@@ -293,11 +283,6 @@ main() {
 	download_files conf.d $CONF_DIR $CONF_FILES
 	download_files bots.d $BOTS_DIR $BOT_FILES
 	download_files / $SCRIPT_DIR $SCRIPT_FILES
-
-	# ensures scripts are executable
-	if [ "$DRY_RUN" = "N" ]; then
-		set_mode 700 $SCRIPT_DIR $SCRIPT_FILES
-	fi
 }
 
 ## START ##
