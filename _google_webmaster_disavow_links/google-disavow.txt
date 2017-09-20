@@ -14,6 +14,7 @@ domain:0lovespells0.blogspot.com
 domain:0n-line.tv
 domain:1-99seo.com
 domain:1-free-share-buttons.com
+domain:1000n1.ru
 domain:100dollars-seo.com
 domain:100searchengines.com
 domain:101billion.com
@@ -571,6 +572,7 @@ domain:awency.com
 domain:axbocz.net
 domain:ayakino.net
 domain:ayanaspa.com
+domain:ayeartoforget.com
 domain:ayerbo.xhost.ro
 domain:azadnegar.com
 domain:azartclub.org
@@ -2003,6 +2005,7 @@ domain:fun2cell.net
 domain:funcrushgames.com
 domain:fungamelands.com
 domain:fungirlsgames.net
+domain:funnel.co.za
 domain:funnymama.com
 domain:funnypica.com
 domain:funponsel.com
@@ -2719,6 +2722,7 @@ domain:kinostorm.net
 domain:kinotorka.ru
 domain:kiprinform.com
 domain:kirov.zrus.org
+domain:kiskinhouse.com
 domain:kit-opt.ru
 domain:kiwe-analytics.com
 domain:kiwi237au.tk
@@ -3228,6 +3232,7 @@ domain:moneyteam24.com
 domain:moneytop.ru
 domain:moneyviking-a.akamaihd.net
 domain:monitorwebsitespeed.com
+domain:montazhnic.ru
 domain:monthlywinners.com
 domain:montredemarque.nl
 domain:moomi-daeri.com
@@ -3863,6 +3868,7 @@ domain:pr0fit-b0x.com
 domain:praisong.net
 domain:pravoholding.ru
 domain:prchecker.info
+domain:predominant-invent.tk
 domain:prefersurvey.net
 domain:pregnant.guru
 domain:preparevideosafesystem4unow.site
@@ -4326,6 +4332,8 @@ domain:seinterface.com
 domain:seksotur.ru
 domain:semalt.com
 domain:semaltmedia.com
+domain:seminarygeorgia59.ga
+domain:seminarykansas904.ml
 domain:semp.net
 domain:semprofile.com
 domain:semrush.com

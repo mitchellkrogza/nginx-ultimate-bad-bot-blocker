@@ -12,6 +12,7 @@
 "~*0daymusic\.org" 	1;
 "~*0lovespells0\.blogspot\.com" 	1;
 "~*0n\-line\.tv" 	1;
+"~*1000n1\.ru" 	1;
 "~*100dollars\-seo\.com" 	1;
 "~*100searchengines\.com" 	1;
 "~*101billion\.com" 	1;
@@ -571,6 +572,7 @@
 "~*axbocz\.net" 	1;
 "~*ayakino\.net" 	1;
 "~*ayanaspa\.com" 	1;
+"~*ayeartoforget\.com" 	1;
 "~*ayerbo\.xhost\.ro" 	1;
 "~*azadnegar\.com" 	1;
 "~*azartclub\.org" 	1;
@@ -2003,6 +2005,7 @@
 "~*fungamelands\.com" 	1;
 "~*fungirlsgames\.net" 	1;
 "~*fun\-mobi\.pl" 	1;
+"~*funnel\.co\.za" 	1;
 "~*funnymama\.com" 	1;
 "~*funnypica\.com" 	1;
 "~*funponsel\.com" 	1;
@@ -2719,6 +2722,7 @@
 "~*kinotorka\.ru" 	1;
 "~*kiprinform\.com" 	1;
 "~*kirov\.zrus\.org" 	1;
+"~*kiskinhouse\.com" 	1;
 "~*kit\-opt\.ru" 	1;
 "~*kiwe\-analytics\.com" 	1;
 "~*kiwi237au\.tk" 	1;
@@ -3228,6 +3232,7 @@
 "~*moneytop\.ru" 	1;
 "~*moneyviking\-a\.akamaihd\.net" 	1;
 "~*monitorwebsitespeed\.com" 	1;
+"~*montazhnic\.ru" 	1;
 "~*monthlywinners\.com" 	1;
 "~*montredemarque\.nl" 	1;
 "~*moomi\-daeri\.com" 	1;
@@ -3862,6 +3867,7 @@
 "~*praisong\.net" 	1;
 "~*pravoholding\.ru" 	1;
 "~*prchecker\.info" 	1;
+"~*predominant\-invent\.tk" 	1;
 "~*prefersurvey\.net" 	1;
 "~*pregnant\.guru" 	1;
 "~*preparevideosafesystem4unow\.site" 	1;
@@ -4323,6 +4329,8 @@
 "~*seksotur\.ru" 	1;
 "~*semalt\.com" 	1;
 "~*semaltmedia\.com" 	1;
+"~*seminarygeorgia59\.ga" 	1;
+"~*seminarykansas904\.ml" 	1;
 "~*semp\.net" 	1;
 "~*semprofile\.com" 	1;
 "~*semrush\.com" 	1;
