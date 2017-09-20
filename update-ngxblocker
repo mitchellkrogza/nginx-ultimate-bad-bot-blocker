@@ -53,7 +53,7 @@ Usage: $script [OPTIONS]
         [ -b ] : NGINX bots directory          (default: $BOTS_DIR)
         [ -i ] : Change installer path         (default: $INSTALLER)
         [ -r ] : Change repo url               (default: $REPO)
-        [ -e ] : Change email address          (default: $EMAIL)
+        [ -m ] : Change email address          (default: $EMAIL)
         [ -n ] : Do not send email report      (default: $SEND_EMAIL)
         [ -v ] : Print blacklist version
         [ -h ] : this help message
@@ -194,20 +194,14 @@ check_args() {
 }
 
 check_mail_depends() {
-	if [ ! -f /usr/bin/mail ]; then # mailx + ssmtp are enough to send emails
-		printf "${BOLDYELLOW}WARN${RESET}: missing /usr/bin/mail => ${BOLDWHITE}disabling emails${RESET}.\n\n"
+	if [ ! -f /usr/bin/mail ] && [ ! -f /bin/mail ]; then # mailx + ssmtp are enough to send emails
+		printf "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}.\n\n"
 		SEND_EMAIL="N"
 	fi
 }
 
 check_depends() {
-	# centos does not have wget installed by default
-	if ! wget --help >/dev/null 2>&1; then
-		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'wget' => ${BOLDWHITE}cannot download files.${RESET}\n"
-		exit 1
-	fi
-
-	# centos also does not have which by default
+	# centos does not have which by default
 	if [ ! -x /usr/bin/curl ]; then
 		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}\n"
 		exit 1
@@ -223,7 +217,7 @@ check_depends() {
 get_options() {
 	local arg= opts=
 
-	while getopts :c:b:u:r:e:nvh opts "$@"
+	while getopts :c:b:u:r:e:m:nvh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
@@ -239,6 +233,7 @@ get_options() {
 			i) INSTALLER=$arg; check_args $opts script $arg ;;
 			r) REPO=$arg; check_args $opts url $arg ;;
 			e) EMAIL=$arg; check_args $opts email $arg ;;
+			m) EMAIL=$arg; check_args $opts email $arg ;;
 			n) SEND_EMAIL=N ;;
 			v) check_depends; check_version ;;
 			h) usage ;;
