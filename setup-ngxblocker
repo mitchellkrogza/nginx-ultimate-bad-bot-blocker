@@ -186,8 +186,9 @@ find_line() {
 	local file=$1 find_str=$2 first_last=$3
 
 	case "$first_last" in
-		first) awk "/$find_str/{ print NR; exit }" $file;;
-		 last) awk "/$find_str/{ print NR }" $file | tail -n1;;
+		# ignore file #comments
+		first) grep -nE "^[ ]+$find_str" $file | head -n1 | awk -F: '{print $1}'
+		 last) grep -nE "^[ ]+$find_str" $file | tail -n1 | awk -F: '{print $1}'
 	esac
 }
 
