@@ -23,12 +23,13 @@ CONF_FILES="
 BOT_FILES="
         blockbots.conf
         ddos.conf
-        whitelist-ips.conf
-        whitelist-domains.conf
-        blacklist-user-agents.conf
-        blacklist-ips.conf
-        bad-referrer-words.conf
         custom-bad-referrers.conf
+        bad-referrer-words.conf
+        blacklist-domains.conf
+        blacklist-ips.conf
+        blacklist-user-agents.conf
+        whitelist-domains.conf
+        whitelist-ips.conf
         "
 
 VHOST_INCLUDES="
