@@ -277,6 +277,7 @@ domain:airlandsea.info
 domain:airmaxshoes-2016.com
 domain:akama.com
 domain:akita.kz
+domain:aksonural.ru
 domain:aktivator-windows10.blogspot.com
 domain:aktobe.xkaz.org
 domain:akuhni.by
@@ -900,6 +901,7 @@ domain:buy-loft.ru
 domain:buy-meds24.com
 domain:buyantiviralwp.com
 domain:buybest1.biz
+domain:buyclomidonlaine.com
 domain:buydissertation.net
 domain:buyessay3.blogspot.ru
 domain:buyessaynow.biz
@@ -1102,6 +1104,7 @@ domain:cialis-samples.com
 domain:cialisovercounteratwalmartusa.com
 domain:cialiswithoutadoctor.net
 domain:cibpenonptib.flu.cc
+domain:cicaki.net
 domain:ciekawinki.pl
 domain:cienum.fr
 domain:cigarpass.com
@@ -3851,6 +3854,7 @@ domain:porto.abuilder.net
 domain:portside.cc
 domain:portside.xyz
 domain:poshiv-chehol.ru
+domain:posible.net
 domain:positive2b.ru
 domain:pospr.waw.pl
 domain:postclass.com

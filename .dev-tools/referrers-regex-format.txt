@@ -276,6 +276,7 @@
 "~*airmaxshoes\-2016\.com" 	1;
 "~*akama\.com" 	1;
 "~*akita\.kz" 	1;
+"~*aksonural\.ru" 	1;
 "~*aktivator\-windows10\.blogspot\.com" 	1;
 "~*aktobe\.xkaz\.org" 	1;
 "~*akuhni\.by" 	1;
@@ -897,6 +898,7 @@
 "~*buybest1\.biz" 	1;
 "~*buy\-cheap\-online\.info" 	1;
 "~*buy\-cheap\-pills\-order\-online\.com" 	1;
+"~*buyclomidonlaine\.com" 	1;
 "~*buydissertation\.net" 	1;
 "~*buyessay3\.blogspot\.ru" 	1;
 "~*buyessaynow\.biz" 	1;
@@ -1101,6 +1103,7 @@
 "~*cialis\-samples\.com" 	1;
 "~*cialiswithoutadoctor\.net" 	1;
 "~*cibpenonptib\.flu\.cc" 	1;
+"~*cicaki\.net" 	1;
 "~*ciekawinki\.pl" 	1;
 "~*cienum\.fr" 	1;
 "~*cigarpass\.com" 	1;
@@ -3851,6 +3854,7 @@
 "~*portside\.cc" 	1;
 "~*portside\.xyz" 	1;
 "~*poshiv\-chehol\.ru" 	1;
+"~*posible\.net" 	1;
 "~*positive2b\.ru" 	1;
 "~*pospr\.waw\.pl" 	1;
 "~*postclass\.com" 	1;
