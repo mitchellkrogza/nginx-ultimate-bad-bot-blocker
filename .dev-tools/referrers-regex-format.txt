@@ -123,6 +123,7 @@
 "~*888\.com" 	1;
 "~*8gold\.com" 	1;
 "~*8kisses\.eu" 	1;
+"~*8lufu\.com" 	1;
 "~*8si\.ru" 	1;
 "~*8xv8\.com" 	1;
 "~*91abcw\.com" 	1;
@@ -2125,6 +2126,7 @@
 "~*girlspicsa\.com" 	1;
 "~*girls\-ufa\.ru" 	1;
 "~*given2\.com" 	1;
+"~*gk170\.ru" 	1;
 "~*gk\-atlant\.info" 	1;
 "~*gktt\.ru" 	1;
 "~*gkvector\.ru" 	1;
@@ -2681,6 +2683,7 @@
 "~*kazrent\.com" 	1;
 "~*kchaxton\.com" 	1;
 "~*keenoutlet\.online" 	1;
+"~*kemerovo\.zrus\.org" 	1;
 "~*kenaba\.su" 	1;
 "~*kerei\.ru" 	1;
 "~*kerwinandcariza\.com" 	1;
@@ -2736,6 +2739,7 @@
 "~*klikbonus\.com" 	1;
 "~*kliksaya\.com" 	1;
 "~*klosetkitten\.com" 	1;
+"~*klumba55\.ru" 	1;
 "~*kmd\-pto\.ru" 	1;
 "~*kmgamex\.cf" 	1;
 "~*kndxbkdx\.bloger\.index\.hr" 	1;
@@ -4121,6 +4125,7 @@
 "~*retreatia\.com" 	1;
 "~*reversing\.cc" 	1;
 "~*revistaindustria\.com" 	1;
+"~*rewardit\.com" 	1;
 "~*rewardpoll\.com" 	1;
 "~*reward\-survey\.net" 	1;
 "~*reyel1985\.webnode\.fr" 	1;
@@ -4765,6 +4770,7 @@
 "~*svnuppsalaorebro\.se" 	1;
 "~*svtrd\.com" 	1;
 "~*swagbucks\.com" 	1;
+"~*sweepstakes\.rewardit\.com" 	1;
 "~*swimpool\.ca" 	1;
 "~*swinger\-mobil\.net" 	1;
 "~*swingerseiten\.com" 	1;

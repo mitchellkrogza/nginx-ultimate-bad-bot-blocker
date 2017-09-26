@@ -123,6 +123,7 @@ domain:883zy.com
 domain:888.com
 domain:8gold.com
 domain:8kisses.eu
+domain:8lufu.com
 domain:8si.ru
 domain:8xv8.com
 domain:91abcw.com
@@ -2127,6 +2128,7 @@ domain:girlsatgames.ru
 domain:girlspicsa.com
 domain:given2.com
 domain:gk-atlant.info
+domain:gk170.ru
 domain:gktt.ru
 domain:gkvector.ru
 domain:glall.ru
@@ -2681,6 +2683,7 @@ domain:kazinogames.lv
 domain:kazrent.com
 domain:kchaxton.com
 domain:keenoutlet.online
+domain:kemerovo.zrus.org
 domain:kenaba.su
 domain:kerei.ru
 domain:kerwinandcariza.com
@@ -2736,6 +2739,7 @@ domain:kletkimehan.ru
 domain:klikbonus.com
 domain:kliksaya.com
 domain:klosetkitten.com
+domain:klumba55.ru
 domain:kmd-pto.ru
 domain:kmgamex.cf
 domain:kndxbkdx.bloger.index.hr
@@ -4122,6 +4126,7 @@ domain:retreatia.com
 domain:reversing.cc
 domain:revistaindustria.com
 domain:reward-survey.net
+domain:rewardit.com
 domain:rewardpoll.com
 domain:reyel1985.webnode.fr
 domain:rezeptiblud.ru
@@ -4765,6 +4770,7 @@ domain:svetodiodoff.ru
 domain:svnuppsalaorebro.se
 domain:svtrd.com
 domain:swagbucks.com
+domain:sweepstakes.rewardit.com
 domain:swimpool.ca
 domain:swinger-mobil.net
 domain:swingerseiten.com
