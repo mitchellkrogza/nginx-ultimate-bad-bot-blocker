@@ -1489,6 +1489,7 @@
 "~*domainsatcost\.com" 	1;
 "~*domain\-submit\.info" 	1;
 "~*domain\-tracker\.com" 	1;
+"~*domain\.webkeyit\.com" 	1;
 "~*domashneeruporno\.com" 	1;
 "~*domcran\.net" 	1;
 "~*domik\-derevne\.ru" 	1;
@@ -1695,8 +1696,10 @@
 "~*esnm\.ru" 	1;
 "~*esopini\.com" 	1;
 "~*espaceinventoristes\.com" 	1;
+"~*essay\-edu\.biz" 	1;
 "~*essaypro\.com" 	1;
 "~*essayservicewriting\.org" 	1;
+"~*essay\-writing\.work" 	1;
 "~*estelight\.ru" 	1;
 "~*este\-line\.com\.ua" 	1;
 "~*estibot\.com" 	1;
@@ -3175,6 +3178,7 @@
 "~*mirzonru\.net" 	1;
 "~*misandesign\.se" 	1;
 "~*missclub\.info" 	1;
+"~*missis\.top" 	1;
 "~*missvietnam\.org" 	1;
 "~*misswell\.net" 	1;
 "~*misterjtbarbers\.com" 	1;
@@ -3400,6 +3404,7 @@
 "~*netpics\.org" 	1;
 "~*net\-profits\.xyz" 	1;
 "~*net\-radar\.com" 	1;
+"~*netvouz\.com" 	1;
 "~*networkad\.net" 	1;
 "~*networkcheck\.xyz" 	1;
 "~*nevansk\.ru" 	1;
@@ -3777,6 +3782,7 @@
 "~*play\-movie\.pl" 	1;
 "~*play\-mp3\.com" 	1;
 "~*playmsn\.com" 	1;
+"~*pl\.id\-forex\.com" 	1;
 "~*pliks\.pl" 	1;
 "~*ploenjitmedia\.azurewebsites\.net" 	1;
 "~*plohaya\-kreditnaya\-istoriya\.ru" 	1;
@@ -3966,6 +3972,7 @@
 "~*psa48\.ru" 	1;
 "~*pskcijdc\.bloger\.index\.hr" 	1;
 "~*psoriasis\-file\.trade" 	1;
+"~*pssucai\.info" 	1;
 "~*pst2017\.onlinewebshop\.net" 	1;
 "~*psvita\.ru" 	1;
 "~*ptr\.ruvds\.com" 	1;
@@ -4214,6 +4221,7 @@
 "~*sa\-live\.com" 	1;
 "~*salmonfishingsacramentoriver\.com" 	1;
 "~*salutmontreal\.com" 	1;
+"~*sammlungfotos\.online" 	1;
 "~*sammyweaver\.com" 	1;
 "~*samoiedo\.it" 	1;
 "~*samolet\.fr" 	1;
@@ -5336,6 +5344,7 @@
 "~*vriel\.batcave\.net" 	1;
 "~*vrnelectro\.ru" 	1;
 "~*vrotike\.ru" 	1;
+"~*vsdshnik\.com" 	1;
 "~*vsesubwaysurfers\.com" 	1;
 "~*vseuznaem\.com" 	1;
 "~*vsexkontakte\.net" 	1;
@@ -5384,6 +5393,7 @@
 "~*webix\.biz" 	1;
 "~*webix\.me" 	1;
 "~*webjam\.com" 	1;
+"~*webkeyit\.com" 	1;
 "~*weblo\.com" 	1;
 "~*webmasterhome\.cn" 	1;
 "~*webmasters\.stackexchange\.com" 	1;
