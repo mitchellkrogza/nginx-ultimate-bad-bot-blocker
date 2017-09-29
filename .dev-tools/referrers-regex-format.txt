@@ -753,6 +753,7 @@
 "~*bitporno\.sx" 	1;
 "~*bizcheapjerseyswholesalechina\.com" 	1;
 "~*bizfly\.info" 	1;
+"~*bizlist\.com\.de" 	1;
 "~*biznesluxe\.ru" 	1;
 "~*biznesrealnost\.ru" 	1;
 "~*biznesschat\.net" 	1;
@@ -847,6 +848,7 @@
 "~*brandehk\.dk" 	1;
 "~*brandov\.ru" 	1;
 "~*brateg\.xyz" 	1;
+"~*bravegirlsclub\.com" 	1;
 "~*break\-the\-chains\.com" 	1;
 "~*breastaugmentation\.co\.za" 	1;
 "~*breget74\.ru" 	1;
@@ -1665,6 +1667,7 @@
 "~*enhand\.se" 	1;
 "~*enskedesquashclub\.se" 	1;
 "~*enternet\.ee" 	1;
+"~*enthuse\.computernetworksonline\.com" 	1;
 "~*envaseslotusama\.com" 	1;
 "~*eonpal\.com" 	1;
 "~*eorogo\.top" 	1;
@@ -2928,6 +2931,7 @@
 "~*liveu\.infoteka\.hu" 	1;
 "~*livingcanarias\.com" 	1;
 "~*livingroomdecor\.info" 	1;
+"~*lizace\.com" 	1;
 "~*ljusihus\.se" 	1;
 "~*lkbennettoutlet\.online" 	1;
 "~*lkbennettstore\.online" 	1;
@@ -4315,6 +4319,7 @@
 "~*seadragonherbery\.com" 	1;
 "~*seansonline24\.pl" 	1;
 "~*search\.1and1\.com" 	1;
+"~*searchaddis\.com" 	1;
 "~*search\.alot\.com" 	1;
 "~*searchencrypt\.com" 	1;
 "~*searchengineranker\.email" 	1;
@@ -4568,6 +4573,7 @@
 "~*snomer1\.ru" 	1;
 "~*snow\.nvr163\.com" 	1;
 "~*snowplanes\.com" 	1;
+"~*snsdeainavi\.info" 	1;
 "~*snts\.shell\-pmr\.ru" 	1;
 "~*snworks\.com" 	1;
 "~*snyatie\-lomki\-v\-stacionare\.ru" 	1;
@@ -5155,6 +5161,7 @@
 "~*unacittaconte\.org" 	1;
 "~*unblocksit\.es" 	1;
 "~*underthesite\.com" 	1;
+"~*unece\.org" 	1;
 "~*uni\.me" 	1;
 "~*unimodemhalfduplefw\.pen\.io" 	1;
 "~*unionmarkt\.de" 	1;
@@ -5207,6 +5214,7 @@
 "~*v24s\.net" 	1;
 "~*v720hd\.ru" 	1;
 "~*vabasa\.inwtrade\.com" 	1;
+"~*vacances\-voyages\.info" 	1;
 "~*vacuumscleaner\.com" 	1;
 "~*vadimkravtcov\.ru" 	1;
 "~*validccseller\.com" 	1;
@@ -5388,6 +5396,7 @@
 "~*webalan\.ru" 	1;
 "~*web\-betting\.ru" 	1;
 "~*web\.cvut\.cz" 	1;
+"~*webenlace\.com\.ar" 	1;
 "~*webextract\.profound\.net" 	1;
 "~*webinstantservice\.com" 	1;
 "~*webix\.biz" 	1;
