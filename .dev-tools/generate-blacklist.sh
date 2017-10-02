@@ -258,7 +258,7 @@ rm $_inputdb4
 printf '%s\n' "$_start5" >> "$_tmpnginx5"
 while IFS= read -r LINE
 do
-printf '\t%s%s%s\n' "\b" "${LINE}" "\b" >> "$_tmpnginx5"
+printf '\t%s\n' "${LINE}" >> "$_tmpnginx5"
 done < $_input5
 printf '%s\n' "$_end5"  >> "$_tmpnginx5"
 mv $_tmpnginx5 $_inputdb5
