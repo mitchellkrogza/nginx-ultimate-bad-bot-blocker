@@ -43,18 +43,25 @@
 # Start Getting Nginx Ready for Testing the Nginx Bad Bot Blocker
 # ***************************************************************
 
-# *****************************
-# Lets Install Mainstream Nginx
-# *****************************
+# ***********************************
+# Lets Uninstall Current Nginx 1.12.1
+# ***********************************
 
 sudo apt-get -y remove nginx
 sudo apt-get -y remove nginx-extras
 sudo apt-get -y install software-properties-common
+sudo apt-get -y autoremove
+
+# *****************************
+# Lets Install Mainstream Nginx
+# *****************************
+
 mainstreamnginx=development
 sudo add-apt-repository -y ppa:nginx/$mainstreamnginx
 sudo apt-get update
 sudo apt-get install -y --assume-yes nginx-extras
 sudo nginx -V
+sudo nginx -t
 sudo service nginx start
 
 # Find where Nginx Mainstream Installed to and Find The Service or We Have to Enable it
