@@ -283,6 +283,9 @@ sudo bash ./setup-ngxblocker -x
 printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
 sudo service nginx reload
 
+sudo cp $TRAVIS_BUILD_DIR/.dev-tools/default13.vhost /etc/nginx/sites-available/default.vhost
+sudo service nginx reload
+
 # **********************
 # Now Run our Curl Tests
 # **********************
