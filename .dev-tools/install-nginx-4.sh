@@ -47,10 +47,10 @@
 # Lets Uninstall Current Nginx 1.12.1
 # ***********************************
 
-sudo apt-get -y remove nginx
-sudo apt-get -y remove nginx-extras
+#sudo apt-get -y remove nginx
+#sudo apt-get -y remove nginx-extras
 sudo apt-get -y install software-properties-common
-sudo apt-get -y autoremove
+#sudo apt-get -y autoremove
 sudo rm -rf /etc/nginx/mybots.d/
 sudo rm -rf /etc/nginx/myconf.d/
 
@@ -61,7 +61,8 @@ sudo rm -rf /etc/nginx/myconf.d/
 mainstreamnginx=development
 sudo add-apt-repository -y ppa:nginx/$mainstreamnginx
 sudo apt-get update
-sudo apt-get install -y --assume-yes nginx-extras
+#sudo apt-get install -y --assume-yes nginx-extras
+sudo apt-get -y dist-upgrade
 sudo nginx -V
 sudo nginx -t
 sudo service nginx start
@@ -72,9 +73,9 @@ sudo service nginx start
 ls -la /etc/nginx/
 sudo service nginx restart
 sudo service nginx reload
-sudo systemctl status nginx.service
-sudo systemctl enable nginx.service
-sudo systemctl status nginx.service
+#sudo systemctl status nginx.service
+#sudo systemctl enable nginx.service
+#sudo systemctl status nginx.service
 
 # **************************************
 # Make Sure We Cleanup From Nginx Test 3
