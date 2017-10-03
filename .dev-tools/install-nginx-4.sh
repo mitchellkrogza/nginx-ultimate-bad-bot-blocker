@@ -302,6 +302,7 @@ sudo cp /etc/nginx/bots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test4/bots.
 sudo cp /etc/nginx/conf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test4/conf.d/
 sudo cp /etc/nginx/sites-available/default.vhost $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test4/default.vhost
 ls -la /etc/nginx/sites-available/
+ls -la /var/www/
 sudo chown -R travis:travis $TRAVIS_BUILD_DIR/
 
 # *****************************************************************************************
