@@ -1,5 +1,5 @@
-Last Tested: Tue Oct  3 16:28:12 SAST 2017
+Last Tested: Tue Oct  3 16:46:36 SAST 2017
 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Failed to connect to localhost port 9000: Connection refused
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   612  100   612    0     0   127k      0 --:--:-- --:--:-- --:--:--  149k
