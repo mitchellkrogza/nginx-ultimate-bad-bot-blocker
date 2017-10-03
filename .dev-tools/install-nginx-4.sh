@@ -86,6 +86,8 @@ printf '\n%s\n%s\n%s\n\n' "###################################" "       STARTING
 printf '\n%s\n%s\n%s\n\n' "###################################" "Cleaning up Files from Nginx Test 3" "###################################"
 sudo rm /etc/nginx/sites-available/default.vhost
 sudo rm /etc/nginx/sites-enabled/default.vhost
+sudo rm /etc/nginx/sites-available/*
+sudo rm /etc/nginx/sites-enabled/*
 sudo rm /var/www/html/*
 sudo rm /etc/nginx/conf.d/*.conf
 sudo rm /etc/nginx/bots.d/*.conf
@@ -295,6 +297,8 @@ sudo chown -R travis:travis $TRAVIS_BUILD_DIR/
 sudo chown -R travis:travis $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test4/
 sudo cp /etc/nginx/bots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test4/bots.d/
 sudo cp /etc/nginx/conf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test4/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test4/default.vhost
+ls -la /etc/nginx/sites-available/
 sudo chown -R travis:travis $TRAVIS_BUILD_DIR/
 
 # *****************************************************************************************
