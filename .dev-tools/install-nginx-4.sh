@@ -53,10 +53,12 @@
 #sudo apt-get -y autoremove
 sudo rm -rfv /etc/nginx/mybots.d/
 sudo rm -rfv /etc/nginx/myconf.d/
-sudo rm /etc/nginx/conf.d/*
-sudo rm /etc/nginx/bots.d/*
+sudo rm /etc/nginx/conf.d/*.conf
+sudo rm /etc/nginx/bots.d/*.conf
 sudo rm /etc/nginx/sites-available/default
 sudo rm /etc/nginx/nginx.conf
+ls -la /etc/nginx/
+sudo cp $TRAVIS_BUILD_DIR/.dev-tools/_nginx_conf_backup/nginx13.conf /etc/nginx/nginx.conf
 ls -la /etc/nginx/
 
 # *****************************
@@ -67,10 +69,11 @@ mainstreamnginx=development
 sudo add-apt-repository -y ppa:nginx/$mainstreamnginx
 sudo apt-get update
 sudo apt-get install -y --assume-yes nginx-extras
-#sudo apt-get -y dist-upgrade
 sudo nginx -V
 sudo nginx -t
 #sudo service nginx start
+sudo /etc/init.d/nginx start
+sudo /etc/init.d/nginx reload
 
 # Find where Nginx Mainstream Installed to and Find The Service or We Have to Enable it
 
