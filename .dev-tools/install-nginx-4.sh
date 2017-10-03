@@ -68,7 +68,7 @@ printf '\n%s\n%s\n%s\n\n' "########################################" "Cleaning u
 
 # Lets Install Mainstream Nginx
 mainstreamnginx=development
-sudo add-apt-repository ppa:nginx/$mainstreamnginx
+sudo add-apt-repository -y ppa:nginx/$mainstreamnginx
 sudo apt-get update
 #sudo apt-get -y dist-upgrade
 sudo apt-get install -y --assume-yes nginx-extras
