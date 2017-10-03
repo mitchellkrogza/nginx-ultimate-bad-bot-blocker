@@ -54,8 +54,8 @@ sudo rm /etc/nginx/sites-enabled/default.vhost
 sudo rm /var/www/html/*
 sudo rm /usr/local/nginx/conf.d/*.conf
 sudo rm /usr/local/nginx/bots.d/*.conf
-#sudo apt-get -y remove nginx
-#sudo apt-get -y remove nginx-extras
+sudo apt-get -y remove nginx
+sudo apt-get -y remove nginx-extras
 sudo apt-get -y install software-properties-common
 printf '\n%s\n%s\n%s\n\n' "########################################" "Cleaning up Files from Nginx Test 3 DONE" "########################################"
 
@@ -67,10 +67,11 @@ printf '\n%s\n%s\n%s\n\n' "########################################" "Cleaning u
 #sudo cp $TRAVIS_BUILD_DIR/.dev-tools/_nginx_conf_backup/nginx.conf /etc/nginx/nginx.conf
 
 # Lets Install Mainstream Nginx
-mainstreamnginx=mainstream
+mainstreamnginx=development
 sudo add-apt-repository ppa:nginx/$mainstreamnginx
 sudo apt-get update
-sudo apt-get -y dist-upgrade
+#sudo apt-get -y dist-upgrade
+sudo apt-get install -y --assume-yes nginx-extras
 sudo nginx -V
 
 # *************************************
