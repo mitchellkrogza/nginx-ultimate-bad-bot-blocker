@@ -114,7 +114,7 @@ printf '\n%s\n\n' "                                      "
 # Copy our default.vhost file into Nginx /sites-available/
 # ********************************************************
 
-printf '\n%s\n%s\n%s\n\n' "################################" "Get Nginx Setup for Nginx Test 3" "################################"
+printf '\n%s\n%s\n%s\n\n' "################################" "Get Nginx Setup for Nginx Test 4" "################################"
 sudo cp $TRAVIS_BUILD_DIR/.dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
 
 # **********************************************
@@ -127,8 +127,8 @@ sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/def
 # Copy our index.php file into the default site's root folder
 # ***********************************************************
 
-sudo cp $TRAVIS_BUILD_DIR/.dev-tools/index.php /var/www/html/index.php
-printf '\n%s\n%s\n%s\n\n' "#####################################" "Finished Nginx Setup for Nginx Test 3" "#####################################"
+sudo cp $TRAVIS_BUILD_DIR/.dev-tools/index.html /var/www/html/index.html
+printf '\n%s\n%s\n%s\n\n' "#####################################" "Finished Nginx Setup for Nginx Test 4" "#####################################"
 
 # ***********************************************
 # Fetch our install-ngxblocker file from the repo
