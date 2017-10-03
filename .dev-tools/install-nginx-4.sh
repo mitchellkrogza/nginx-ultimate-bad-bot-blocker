@@ -47,10 +47,6 @@
 # Lets Uninstall Current Nginx 1.12.1
 # ***********************************
 
-#sudo apt-get -y remove nginx
-#sudo apt-get -y remove nginx-extras
-#sudo apt-get -y install software-properties-common
-#sudo apt-get -y autoremove
 sudo rm -rfv /etc/nginx/mybots.d/
 sudo rm -rfv /etc/nginx/myconf.d/
 sudo rm /etc/nginx/conf.d/*.conf
@@ -81,9 +77,6 @@ sudo /etc/init.d/nginx reload
 ls -la /etc/nginx/
 sudo service nginx restart
 sudo service nginx reload
-#sudo systemctl status nginx.service
-#sudo systemctl enable nginx.service
-#sudo systemctl status nginx.service
 
 # **************************************
 # Make Sure We Cleanup From Nginx Test 3
@@ -292,16 +285,17 @@ sudo service nginx reload
 # Now Run our Curl Tests
 # **********************
 
-#printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "######################"
+printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "######################"
 
 # ************************************************************
 # Copy all .conf files used in Test 3 to a folder for checking
 # ************************************************************
 
-#sudo chown -R travis:travis $TRAVIS_BUILD_DIR/
-#sudo chown -R travis:travis $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test3/
-#sudo cp /etc/nginx/mybots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test3/bots.d/
-#sudo cp /etc/nginx/myconf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test3/conf.d/
+sudo chown -R travis:travis $TRAVIS_BUILD_DIR/
+sudo chown -R travis:travis $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test4/
+sudo cp /etc/nginx/bots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test4/bots.d/
+sudo cp /etc/nginx/conf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test4/conf.d/
+sudo chown -R travis:travis $TRAVIS_BUILD_DIR/
 
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml
