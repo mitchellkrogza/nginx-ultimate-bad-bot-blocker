@@ -56,11 +56,13 @@ sudo apt-get update
 sudo apt-get install -y --assume-yes nginx-extras
 sudo nginx -V
 
-# Find where Nginx Mainstream Installed to
+# Find where Nginx Mainstream Installed to and Find The Service or We Have to Enable it
+
 ls -la /etc/
+ls -la /etc/nginx/
 sudo service nginx restart
 sudo service nginx reload
-
+sudo systemctl status nginx.service 
 
 # **************************************
 # Make Sure We Cleanup From Nginx Test 3
