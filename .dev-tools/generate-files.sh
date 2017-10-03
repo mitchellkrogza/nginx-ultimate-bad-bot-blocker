@@ -54,8 +54,12 @@ sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-files-and-commit.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests-1.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests-2.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests-3.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-1.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-2.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-3.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-4.sh
 
 cd $TRAVIS_BUILD_DIR
 
