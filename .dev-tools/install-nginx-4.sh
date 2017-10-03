@@ -51,6 +51,8 @@ sudo apt-get -y remove nginx
 sudo apt-get -y remove nginx-extras
 sudo apt-get -y install software-properties-common
 sudo apt-get -y autoremove
+sudo rm -rf /etc/nginx/mybots.d/
+sudo rm -rf /etc/nginx/myconf.d/
 
 # *****************************
 # Lets Install Mainstream Nginx
