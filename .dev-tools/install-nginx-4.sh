@@ -305,6 +305,8 @@ ls -la /etc/nginx/sites-available/
 ls -la /var/www/
 sudo chown -R travis:travis $TRAVIS_BUILD_DIR/
 
+###
+
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml
 # *****************************************************************************************
