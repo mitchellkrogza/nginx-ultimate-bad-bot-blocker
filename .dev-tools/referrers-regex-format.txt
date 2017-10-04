@@ -883,6 +883,7 @@
 "~*\bbuiltwith\.com\b" 	1;
 "~*\bbuketeg\.xyz\b" 	1;
 "~*\bbukleteg\.xyz\b" 	1;
+"~*\bbumble\.cheapwebsitehoster\.com\b" 	1;
 "~*\bbum\.com\.ru\b" 	1;
 "~*\bbumskontakte\.org\b" 	1;
 "~*\bbupropion\-sr\-150\-mg\.us\b" 	1;
@@ -4682,6 +4683,7 @@
 "~*\bstaff\.prairiesouth\.ca\b" 	1;
 "~*\bstairliftsarea\.com\b" 	1;
 "~*\bstairliftstrue\.com\b" 	1;
+"~*\bstair\.registrydomainservices\.com\b" 	1;
 "~*\bstal\-rulon\.ru\b" 	1;
 "~*\bstandardchartered\-forex\.com\b" 	1;
 "~*\bstanthonyscatholicchurch\.org\b" 	1;
@@ -5464,6 +5466,7 @@
 "~*\bwhengirlsgowild\.com\b" 	1;
 "~*\bwhereiskentoday\.com\b" 	1;
 "~*\bwhere\-toget\.com\b" 	1;
+"~*\bwhile\.cheapwebsitehoster\.com\b" 	1;
 "~*\bwhipme\.yopoint\.in\b" 	1;
 "~*\bwhiteelephantwellington\.com\b" 	1;
 "~*\bwhiteproduct\.com\b" 	1;
