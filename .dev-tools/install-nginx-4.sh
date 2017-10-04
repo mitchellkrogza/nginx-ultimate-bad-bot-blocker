@@ -81,6 +81,8 @@ sudo service nginx reload
 sudo systemctl enable nginx.service
 sudo systemctl status nginx.service
 sudo service nginx start
+sudo service --status-all
+ls -la /etc/init.d/
 
 printf '\n%s\n%s\n%s\n\n' "###################################" " END NGINX SERVICE ISSUES" "###################################"
 
