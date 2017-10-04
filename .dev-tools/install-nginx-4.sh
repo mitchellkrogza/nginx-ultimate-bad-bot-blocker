@@ -75,6 +75,14 @@ sudo service nginx status
 sudo service nginx start
 cat /etc/init/nginx.conf
 
+systemctl status nginx.service
+systemctl enable nginx.service
+systemctl is-enabled nginx.service
+systemctl start nginx.service
+systemctl stop nginx.service
+systemctl restart nginx.service
+
+
 #sudo /etc/init.d/nginx stop
 #sudo /etc/init.d/nginx start
 #sudo /etc/init.d/nginx reload
