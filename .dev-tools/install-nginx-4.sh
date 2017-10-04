@@ -56,14 +56,13 @@ sudo rm /etc/nginx/nginx.conf
 ls -la /etc/nginx/
 sudo cp $TRAVIS_BUILD_DIR/.dev-tools/_nginx_conf_backup/nginx13.conf /etc/nginx/nginx.conf
 ls -la /etc/nginx/
+sudo apt-get purge nginx-full
+sudo apt-get purge nginx-common
+sudo apt-get purge nginx*
 
 # *****************************
 # Lets Install Mainstream Nginx
 # *****************************
-
-sudo apt-get purge nginx-full
-sudo apt-get purge nginx-common
-sudo apt-get purge nginx*
 
 mainstreamnginx=development
 sudo add-apt-repository -y ppa:nginx/$mainstreamnginx
@@ -71,47 +70,20 @@ sudo apt-get update
 sudo apt-get install -y --assume-yes nginx-full
 sudo nginx -V
 sudo nginx -t
-
-# Try fix starting the Nginx Service
-printf '\n%s\n%s\n%s\n\n' "###################################" " FIX NGINX SERVICE ISSUES" "###################################"
-
-#sudo service nginx status
-
-sudo service nginx start
 sudo service nginx reload
-
-#cat /etc/init/nginx.conf
-
-#systemctl status nginx.service
-#systemctl enable nginx.service
-#systemctl is-enabled nginx.service
-#systemctl start nginx.service
-#systemctl stop nginx.service
-#systemctl restart nginx.service
-
-
-#sudo /etc/init.d/nginx stop
-#sudo service status nginx
-#sudo /etc/init.d/nginx start
-#sudo /etc/init.d/nginx reload
-#sudo /etc/init.d/nginx restart
-#sudo nginx -s reload
-#ls -la /etc/nginx/
-#sudo service nginx restart
-#sudo service nginx reload
-#sudo systemctl enable nginx.service
-#sudo systemctl status nginx.service
-#sudo service nginx start
-#sudo service --status-all
-#ls -la /etc/init.d/
-
-printf '\n%s\n%s\n%s\n\n' "###################################" " END NGINX SERVICE ISSUES" "###################################"
 
 # **************************************
 # Make Sure We Cleanup From Nginx Test 3
 # **************************************
 
+printf '\n%s\n\n' "################################################################################################################"
+printf '\n%s\n\n' "################################################################################################################"
+printf '\n%s\n\n' "################################################################################################################"
 printf '\n%s\n%s\n%s\n\n' "###################################" "       STARTING NGINX TEST 4" "###################################"
+printf '\n%s\n\n' "################################################################################################################"
+printf '\n%s\n\n' "################################################################################################################"
+printf '\n%s\n\n\n\n\n\n' "################################################################################################################"
+
 printf '\n%s\n%s\n%s\n\n' "###################################" "Cleaning up Files from Nginx Test 3" "###################################"
 sudo rm /etc/nginx/sites-available/default.vhost
 sudo rm /etc/nginx/sites-enabled/default.vhost
