@@ -72,15 +72,15 @@ sudo nginx -t
 printf '\n%s\n%s\n%s\n\n' "###################################" " FIX NGINX SERVICE ISSUES" "###################################"
 
 sudo service nginx start
-sudo /etc/init.d/nginx stop
-sudo /etc/init.d/nginx start
-sudo /etc/init.d/nginx reload
-ls -la /etc/nginx/
-sudo service nginx restart
+#sudo /etc/init.d/nginx stop
+#sudo /etc/init.d/nginx start
+#sudo /etc/init.d/nginx reload
+#ls -la /etc/nginx/
+#sudo service nginx restart
 sudo service nginx reload
-sudo systemctl enable nginx.service
-sudo systemctl status nginx.service
-sudo service nginx start
+#sudo systemctl enable nginx.service
+#sudo systemctl status nginx.service
+#sudo service nginx start
 sudo service --status-all
 ls -la /etc/init.d/
 
