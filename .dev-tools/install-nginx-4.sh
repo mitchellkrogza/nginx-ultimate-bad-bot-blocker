@@ -84,11 +84,14 @@ printf '\n%s\n%s\n%s\n\n' "###################################" " FIX NGINX SERV
 
 
 #sudo /etc/init.d/nginx stop
+sudo service status nginx
 sudo /etc/init.d/nginx start
 sudo /etc/init.d/nginx reload
+sudo /etc/init.d/nginx restart
+sudo nginx -s reload
 #ls -la /etc/nginx/
 #sudo service nginx restart
-sudo service nginx reload
+#sudo service nginx reload
 #sudo systemctl enable nginx.service
 #sudo systemctl status nginx.service
 #sudo service nginx start
