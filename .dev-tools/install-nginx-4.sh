@@ -61,10 +61,14 @@ ls -la /etc/nginx/
 # Lets Install Mainstream Nginx
 # *****************************
 
+sudo apt-get purge nginx-full
+sudo apt-get purge nginx-common
+sudo apt-get purge nginx*
+
 mainstreamnginx=development
 sudo add-apt-repository -y ppa:nginx/$mainstreamnginx
 sudo apt-get update
-sudo apt-get install -y --assume-yes nginx-extras
+sudo apt-get install -y --assume-yes nginx-full
 sudo nginx -V
 sudo nginx -t
 
@@ -72,7 +76,10 @@ sudo nginx -t
 printf '\n%s\n%s\n%s\n\n' "###################################" " FIX NGINX SERVICE ISSUES" "###################################"
 
 #sudo service nginx status
-#sudo service nginx start
+
+sudo service nginx start
+sudo service nginx reload
+
 #cat /etc/init/nginx.conf
 
 #systemctl status nginx.service
@@ -84,19 +91,19 @@ printf '\n%s\n%s\n%s\n\n' "###################################" " FIX NGINX SERV
 
 
 #sudo /etc/init.d/nginx stop
-sudo service status nginx
-sudo /etc/init.d/nginx start
-sudo /etc/init.d/nginx reload
-sudo /etc/init.d/nginx restart
-sudo nginx -s reload
+#sudo service status nginx
+#sudo /etc/init.d/nginx start
+#sudo /etc/init.d/nginx reload
+#sudo /etc/init.d/nginx restart
+#sudo nginx -s reload
 #ls -la /etc/nginx/
 #sudo service nginx restart
 #sudo service nginx reload
 #sudo systemctl enable nginx.service
 #sudo systemctl status nginx.service
 #sudo service nginx start
-sudo service --status-all
-ls -la /etc/init.d/
+#sudo service --status-all
+#ls -la /etc/init.d/
 
 printf '\n%s\n%s\n%s\n\n' "###################################" " END NGINX SERVICE ISSUES" "###################################"
 
