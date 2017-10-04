@@ -38,7 +38,7 @@ run_curltest1 () {
 truncate -s 0 $_curltest1
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest1"
-curl -A "80legs" http://localhost:80/index.html 2>> $_curltest1
+curl -A "80legs" http://localhost:9000/index.html 2>> $_curltest1
 if grep -i '(52)' $_curltest1; then
    echo 'BAD BOT DETECTED - TEST PASSED'
 else
@@ -55,7 +55,7 @@ run_curltest2 () {
 truncate -s 0 $_curltest2
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest2"
-curl -A "masscan" http://localhost:80/index.html 2>> $_curltest2
+curl -A "masscan" http://localhost:9000/index.html 2>> $_curltest2
 if grep -i '(52)' $_curltest2; then
    echo 'BAD BOT DETECTED - TEST PASSED'
 else
@@ -72,7 +72,7 @@ run_curltest3 () {
 truncate -s 0 $_curltest3
 printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER IS DENIED" "##############################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest3"
-curl -I http://localhost:80/index.html -e http://100dollars-seo.com 2>> $_curltest3
+curl -I http://localhost:9000/index.html -e http://100dollars-seo.com 2>> $_curltest3
 if grep -i '(52)' $_curltest3; then
    echo 'BAD REFERRER DETECTED - TEST PASSED'
 else
@@ -89,7 +89,7 @@ run_curltest4 () {
 truncate -s 0 $_curltest4
 printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER IS DENIED" "##############################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest4"
-curl -I http://localhost:80/index.html -e http://zx6.ru 2>> $_curltest4
+curl -I http://localhost:9000/index.html -e http://zx6.ru 2>> $_curltest4
 if grep -i '(52)' $_curltest4; then
    echo 'BAD REFERRER DETECTED - TEST PASSED'
 else
@@ -106,7 +106,7 @@ run_curltest5 () {
 truncate -s 0 $_curltest5
 printf '\n%s\n%s\n%s\n\n' "###########################" "TESTING GOOD BOT IS ALLOWED" "###########################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest5"
-curl -v -A "GoogleBot" http://localhost:80/index.html 2>&1 >> $_curltest5
+curl -v -A "GoogleBot" http://localhost:9000/index.html 2>&1 >> $_curltest5
 if grep -i 'Welcome' $_curltest5; then
    echo 'GOOD BOT ALLOWED THROUGH - TEST PASSED'
 else
@@ -123,7 +123,7 @@ run_curltest6 () {
 truncate -s 0 $_curltest6
 printf '\n%s\n%s\n%s\n\n' "###########################" "TESTING GOOD BOT IS ALLOWED" "###########################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest6"
-curl -v -A "BingBot" http://localhost:80/index.html 2>&1 >> $_curltest6
+curl -v -A "BingBot" http://localhost:9000/index.html 2>&1 >> $_curltest6
 if grep -i 'Welcome' $_curltest6; then
    echo 'GOOD BOT ALLOWED THROUGH - TEST PASSED'
 else
@@ -140,7 +140,7 @@ run_curltest7 () {
 truncate -s 0 $_curltest7
 printf '\n%s\n%s\n%s\n\n' "################################" "TESTING GOOD REFERRER IS ALLOWED" "################################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest7"
-curl http://localhost:80/index.html -e http://google.com 2>&1 >> $_curltest7
+curl http://localhost:9000/index.html -e http://google.com 2>&1 >> $_curltest7
 if grep -i 'Welcome' $_curltest7; then
    echo 'GOOD REFERRER DETECTED - TEST PASSED'
 else
@@ -157,7 +157,7 @@ run_curltest8 () {
 truncate -s 0 $_curltest8
 printf '\n%s\n%s\n%s\n\n' "################################" "TESTING GOOD REFERRER IS ALLOWED" "################################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest8"
-curl http://localhost:80/index.html -e http://bing.com 2>&1 >> $_curltest8
+curl http://localhost:9000/index.html -e http://bing.com 2>&1 >> $_curltest8
 if grep -i 'Welcome' $_curltest8; then
    echo 'GOOD REFERRER DETECTED - TEST PASSED'
 else
