@@ -76,6 +76,21 @@ sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
 sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
 php ./.dev-tools/generate-google-exclude.php
 
+# ************************************
+# Convert All Our Files to Unix Format
+# ************************************
+
+sudo dos2unix $TRAVIS_BUILD_DIR/bots.d/*.conf
+sudo dos2unix $TRAVIS_BUILD_DIR/conf.d/*.conf
+sudo dos2unix $TRAVIS_BUILD_DIR/_sample_config_files/Engintron_for_CPanel_WHM_Configuration_Example/etc/nginx/bots.d/*.conf
+sudo dos2unix $TRAVIS_BUILD_DIR/_sample_config_files/Engintron_for_CPanel_WHM_Configuration_Example/etc/nginx/bots.d/*.conf
+sudo dos2unix $TRAVIS_BUILD_DIR/_generator_lists/*.list
+sudo dos2unix $TRAVIS_BUILD_DIR/.dev-tools/referrers-regex-format.txt
+
+# *************************************************
+# Move On to the Rest of Our TravisCI Build Testing
+# *************************************************
+
 
 # MIT License
 
