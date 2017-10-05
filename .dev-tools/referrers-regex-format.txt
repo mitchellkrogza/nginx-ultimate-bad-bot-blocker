@@ -3259,6 +3259,7 @@
 "~*\bmorepoweronmac\.trade\b" 	1;
 "~*\bmorf\.snn\.gr\b" 	1;
 "~*\bmorlat\.altervista\.org\b" 	1;
+"~*\bmorocco\-nomad\-excursions\.com\b" 	1;
 "~*\bmoroccosurfadventures\.com\b" 	1;
 "~*\bmoscow\-clining\.ru\b" 	1;
 "~*\bmoscow\.online\-podarki\.com\b" 	1;
@@ -5328,6 +5329,7 @@
 "~*\bvizag\.kharkov\.ua\b" 	1;
 "~*\bvizitki\.net\b" 	1;
 "~*\bvkak\.ru\b" 	1;
+"~*\bvkgaleria\.com\b" 	1;
 "~*\bvk\-mus\.ru\b" 	1;
 "~*\bvkontaktemusic\.ru\b" 	1;
 "~*\bvkontarkte\.com\b" 	1;
