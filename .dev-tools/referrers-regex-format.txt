@@ -2464,6 +2464,7 @@
 "~*\bilbe\.club\b" 	1;
 "~*\bilikevitaly\.com\b" 	1;
 "~*\bilmen\.net\b" 	1;
+"~*\bilmexico\.com\b" 	1;
 "~*\biloveitaly\.ru\b" 	1;
 "~*\bilovevitaly\.com\b" 	1;
 "~*\bilovevitaly\.ru\b" 	1;
@@ -3758,6 +3759,7 @@
 "~*\bpiratecams\.com\b" 	1;
 "~*\bpirateday\.ru\b" 	1;
 "~*\bpisanieprac\.info\b" 	1;
+"~*\bpiski\.top\b" 	1;
 "~*\bpiter\.xrus\.org\b" 	1;
 "~*\bpiulatte\.cz\b" 	1;
 "~*\bpiuminiita\.com\b" 	1;
@@ -3854,6 +3856,7 @@
 "~*\bporno\-play\.net\b" 	1;
 "~*\bporno\-raskazy\.ru\b" 	1;
 "~*\bpornosee\.info\b" 	1;
+"~*\bporno\.simple\-image\.com\.ua\b" 	1;
 "~*\bpornoslive\.net\b" 	1;
 "~*\bporno\-transsexuals\.ru\b" 	1;
 "~*\bpornotubexxx\.name\b" 	1;
@@ -4556,6 +4559,7 @@
 "~*\bsmailik\.org\b" 	1;
 "~*\bsmall\-game\.com\b" 	1;
 "~*\bsmall\-games\.biz\b" 	1;
+"~*\bsmallseotools\.com\b" 	1;
 "~*\bsmartadserver\.com\b" 	1;
 "~*\bsmart\-balancewheel\.com\b" 	1;
 "~*\bsmartbalanceworld\.com\b" 	1;
@@ -5543,6 +5547,7 @@
 "~*\bwttavern\.com\b" 	1;
 "~*\bwurr\.voila\.net\b" 	1;
 "~*\bww1943\.ru\b" 	1;
+"~*\bww2awards\.info\b" 	1;
 "~*\bwww\.888\.com\b" 	1;
 "~*\bwwwadultcheck\.com\b" 	1;
 "~*\bwww\.arenda\-yeisk\.ru\b" 	1;
@@ -5613,6 +5618,7 @@
 "~*\bxn\-\-80adaggc5bdhlfamsfdij4p7b\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-80aeahghtf8ac5i\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-80aebbcbcdemfkhba4byaehoejh8dza3v\.xn\-\-p1ai\b" 	1;
+"~*\bxn\-\-80ahdheogk5l\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-80ahvj9e\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-80aikhbrhr\.net\b" 	1;
 "~*\bxn\-\-80ajbshivpvn2i\.xn\-\-p1ai\b" 	1;

@@ -2466,6 +2466,7 @@ domain:ikritikimou.gr
 domain:ilbe.club
 domain:ilikevitaly.com
 domain:ilmen.net
+domain:ilmexico.com
 domain:iloveitaly.ru
 domain:ilovevitaly.com
 domain:ilovevitaly.ru
@@ -3758,6 +3759,7 @@ domain:pipki.r.acdnpro.com
 domain:piratecams.com
 domain:pirateday.ru
 domain:pisanieprac.info
+domain:piski.top
 domain:piter.xrus.org
 domain:piulatte.cz
 domain:piuminiita.com
@@ -3844,6 +3846,7 @@ domain:porno-play.net
 domain:porno-raskazy.ru
 domain:porno-transsexuals.ru
 domain:porno-video-chati.ru
+domain:porno.simple-image.com.ua
 domain:pornoblood.com
 domain:pornobrazzers.biz
 domain:pornodojd.ru
@@ -4556,6 +4559,7 @@ domain:slutloadlive.com
 domain:smailik.org
 domain:small-game.com
 domain:small-games.biz
+domain:smallseotools.com
 domain:smart-balancewheel.com
 domain:smart-scripts.com
 domain:smartadserver.com
@@ -5543,6 +5547,7 @@ domain:wtsindia.in
 domain:wttavern.com
 domain:wurr.voila.net
 domain:ww1943.ru
+domain:ww2awards.info
 domain:www.888.com
 domain:www.arenda-yeisk.ru
 domain:www.event-tracking.com
@@ -5623,6 +5628,7 @@ domain:xn--80abgj3a5acid6ghs.top
 domain:xn--80adaggc5bdhlfamsfdij4p7b.xn--p1ai
 domain:xn--80aeahghtf8ac5i.xn--p1ai
 domain:xn--80aebbcbcdemfkhba4byaehoejh8dza3v.xn--p1ai
+domain:xn--80ahdheogk5l.xn--p1ai
 domain:xn--80ahvj9e.xn--p1ai
 domain:xn--80aikhbrhr.net
 domain:xn--80ajbshivpvn2i.xn--p1ai
