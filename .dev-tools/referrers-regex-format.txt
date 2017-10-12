@@ -3368,6 +3368,7 @@
 "~*\bmyshopmatemac\.com\b" 	1;
 "~*\bmystats\.xyz\b" 	1;
 "~*\bmywallpaper\.top\b" 	1;
+"~*\bmyxdate\.info\b" 	1;
 "~*\bmyyour\.eu\b" 	1;
 "~*\bna15\.ru\b" 	1;
 "~*\bnacap\.ru\b" 	1;
