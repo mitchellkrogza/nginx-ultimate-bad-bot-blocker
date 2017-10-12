@@ -687,6 +687,7 @@ domain:bestcurs.org
 domain:bestdooz.com
 domain:bestdraws.com
 domain:bestempresas.es
+domain:besthoro.ru
 domain:bestimagecoollibrary.com
 domain:bestkfiledxd.cf
 domain:bestmarriages.com
@@ -2869,6 +2870,7 @@ domain:legionalpha.com
 domain:lego4x4.ru
 domain:lenvred.org
 domain:lernur.net
+domain:lerporn.info
 domain:lesbian.xyz
 domain:lescinq.com
 domain:letmacwork.world
@@ -3686,6 +3688,7 @@ domain:pb-dv.ru
 domain:pc-services.ru
 domain:pc-test.net
 domain:pc-virus-d0l92j2.pw
+domain:pc4download.co
 domain:pcads.ru
 domain:pcboa.se
 domain:pcgroup.com.uy
@@ -3926,6 +3929,7 @@ domain:prizesbook.online
 domain:prizestohandle.club
 domain:prlog.ru
 domain:pro-okis.ru
+domain:pro-tec.kz
 domain:prod2016.com
 domain:prodess.ru
 domain:producm.ru
@@ -5000,6 +5004,7 @@ domain:top250movies.ru
 domain:topads.men
 domain:topappspro.com
 domain:topbestgames.com
+domain:topcar-krasnodar.ru
 domain:topclickguru.com
 domain:topdownloads.ru
 domain:topkarkas.com
@@ -5188,6 +5193,8 @@ domain:upproar.com
 domain:uprour.com
 domain:upstore.me
 domain:uptime-alpha.net
+domain:uptime-delta.net
+domain:uptime-gamma.net
 domain:uptime.com
 domain:uptimebot.net
 domain:uptimechecker.com
@@ -5694,6 +5701,7 @@ domain:yellowads.men
 domain:yellowfootprints.com
 domain:yellowstonesafaritours.com
 domain:yellowstonevisitortours.com
+domain:yes-com.com
 domain:yhit.press
 domain:ynymnwbm.bloger.index.hr
 domain:yogamatsexpert.com
