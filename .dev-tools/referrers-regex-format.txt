@@ -1179,6 +1179,7 @@
 "~*\bcolehaanoutlet\.store\b" 	1;
 "~*\bcollegeessay19\.blogspot\.ru\b" 	1;
 "~*\bcollegerentals\.com\b" 	1;
+"~*\bcolobit\.biz\b" 	1;
 "~*\bco\.lumb\.co\b" 	1;
 "~*\bcometorussia\.net\b" 	1;
 "~*\bcomissionka\.net\b" 	1;
@@ -2046,6 +2047,7 @@
 "~*\bgallery\.rennlist\.com\b" 	1;
 "~*\bgallictures\.com\b" 	1;
 "~*\bgambarkatabaru\.com\b" 	1;
+"~*\bgambarkataku\.co\b" 	1;
 "~*\bgambarxkata\.co\b" 	1;
 "~*\bgamblingnerd\.com\b" 	1;
 "~*\bgamedayassist\.com\b" 	1;
@@ -2591,6 +2593,7 @@
 "~*\bitsdp3\.com\b" 	1;
 "~*\bitservicesthatworkforyou\.com\b" 	1;
 "~*\biusstf\.org\b" 	1;
+"~*\bivanovo\.zrus\.org\b" 	1;
 "~*\bivanstroi\.ru\b" 	1;
 "~*\bivoiretechnocom\.ci\b" 	1;
 "~*\biwantedmoney\.com\b" 	1;
@@ -2717,6 +2720,7 @@
 "~*\bkihi\.gdn\b" 	1;
 "~*\bkiinomaniak\.pl\b" 	1;
 "~*\bkimcurlrvsms\.com\b" 	1;
+"~*\bkino2018\.club\b" 	1;
 "~*\bkinobaks\.com\b" 	1;
 "~*\bkinobest\.pl\b" 	1;
 "~*\bkinocccp\.net\b" 	1;
@@ -2796,6 +2800,7 @@
 "~*\bkrasnodar\.xrus\.org\b" 	1;
 "~*\bkrasnodar\.zrus\.org\b" 	1;
 "~*\bkrassh\.ru\b" 	1;
+"~*\bkrasula\.pp\.ua\b" 	1;
 "~*\bkreativperlen\.ch\b" 	1;
 "~*\bkredit\-pod\-zalog\-krasnodar\.ru\b" 	1;
 "~*\bkriokomora\.info\b" 	1;
@@ -2854,6 +2859,7 @@
 "~*\blaw\-check\-seven\.xyz\b" 	1;
 "~*\blaw\-check\-two\.xyz\b" 	1;
 "~*\blawyers\.cafe\b" 	1;
+"~*\blawyersinfo\.org\b" 	1;
 "~*\blaxdrills\.com\b" 	1;
 "~*\blayola\.biz\.tc\b" 	1;
 "~*\blazy\-z\.com\b" 	1;
@@ -3305,6 +3311,7 @@
 "~*\bmug\-na\-chas\-moscow\.ru\b" 	1;
 "~*\bmuizre\.ru\b" 	1;
 "~*\bmulberryoutletonlineeu\.com\b" 	1;
+"~*\bmultgo\.ru\b" 	1;
 "~*\bmundoaberrante\.com\b" 	1;
 "~*\bmuschisexbilder\.com\b" 	1;
 "~*\bmusezone\.ru\b" 	1;
@@ -3744,6 +3751,7 @@
 "~*\bpicsforkeywordsuggestion\.com\b" 	1;
 "~*\bpics\-group\.com\b" 	1;
 "~*\bpicture\-group\.com\b" 	1;
+"~*\bpictures\-and\-images\.net\b" 	1;
 "~*\bpicturesfrom\.com\b" 	1;
 "~*\bpicturesify\.com\b" 	1;
 "~*\bpicturesmania\.com\b" 	1;
@@ -4687,6 +4695,7 @@
 "~*\bsrdrvp\.com\b" 	1;
 "~*\bsrecorder\.com\b" 	1;
 "~*\bsrgwebmail\.nl\b" 	1;
+"~*\bsribno\.net\b" 	1;
 "~*\bsr\-rekneskap\.no\b" 	1;
 "~*\bsstroy44\.ru\b" 	1;
 "~*\bstackthatbucks\.com\b" 	1;
@@ -5820,6 +5829,7 @@
 "~*\bzlatnajesen\.com\b" 	1;
 "~*\bz\-master\.ru\b" 	1;
 "~*\bzmoda\.hostreo\.com\b" 	1;
+"~*\bznakom\.sibtest\.ru\b" 	1;
 "~*\bznakomstva\-moskva77\.ru\b" 	1;
 "~*\bznakomstvaonlain\.ru\b" 	1;
 "~*\bznakomstva\-piter78\.ru\b" 	1;
