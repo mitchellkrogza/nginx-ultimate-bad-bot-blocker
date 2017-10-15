@@ -1,7 +1,7 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.10.964
-### Updated: Fri Oct 13 12:15:26 SAST 2017
+### Version: V3.2017.10.965
+### Updated: Sun Oct 15 15:41:21 SAST 2017
 ### Bad Bot Count: 515
 ###################################################
 ### Version Information ##
@@ -861,9 +861,9 @@ User-agent: Typhoeus
 Disallow:/
 User-agent: UnisterBot
 Disallow:/
-User-agent: URLy Warning
-Disallow:/
 User-agent: URLy.Warning
+Disallow:/
+User-agent: URLy Warning
 Disallow:/
 User-agent: Vacuum
 Disallow:/
@@ -1015,9 +1015,9 @@ User-agent: x09Mozilla
 Disallow:/
 User-agent: x22Mozilla
 Disallow:/
-User-agent: Xaldon WebSpider
-Disallow:/
 User-agent: Xaldon_WebSpider
+Disallow:/
+User-agent: Xaldon WebSpider
 Disallow:/
 User-agent: Xenu
 Disallow:/

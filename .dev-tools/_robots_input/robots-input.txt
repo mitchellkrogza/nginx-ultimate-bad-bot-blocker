@@ -424,8 +424,8 @@ TwengaBot
 Twice
 Typhoeus
 UnisterBot
-URLy Warning
 URLy.Warning
+URLy Warning
 Vacuum
 Vagabondo
 VB Project
@@ -501,8 +501,8 @@ WWW::Mechanize
 WWWOFFLE
 x09Mozilla
 x22Mozilla
-Xaldon WebSpider
 Xaldon_WebSpider
+Xaldon WebSpider
 Xenu
 YoudaoBot
 Zade
