@@ -799,6 +799,7 @@ domain:blpmovies.com
 domain:blue-square.biz
 domain:bluejays-jerseys.us
 domain:bluerobot.info
+domain:bluesalt.co
 domain:bluesman.nu
 domain:bmw-ark.ru
 domain:bmw.afora.ru
@@ -876,6 +877,7 @@ domain:btc4u.ru
 domain:btnativenav.com
 domain:btvn.ru
 domain:buchananshardware.com
+domain:buckspar.gq
 domain:budilneg.xyz
 domain:budpost.com.ua
 domain:buehne-fuer-menschenrechte.de
@@ -1142,6 +1144,7 @@ domain:cleanpcnow.com
 domain:cleansearch.net
 domain:clevernt.com
 domain:clickaider.com
+domain:clickbank.net
 domain:clickbanksites.info
 domain:clickcash.com
 domain:clickhype.com
@@ -1980,6 +1983,7 @@ domain:freecamdollars.com
 domain:freegamesplay.online
 domain:freejabs.com
 domain:freelifetimefuckbook.com
+domain:freelinkbuilding.website.tk
 domain:freelotto.com
 domain:freemags.cc
 domain:freemaintenancesysforpcandmac.top
@@ -2365,6 +2369,7 @@ domain:homelygarden.com
 domain:homemade.gq
 domain:homemature.net
 domain:honyaku.yahoofs.jp
+domain:hop.clickbank.net
 domain:hopeonthestreet.co.uk
 domain:hoporno.com
 domain:hornymatches.com
@@ -3032,6 +3037,7 @@ domain:maglid.ru
 domain:magnetpress.sk
 domain:mail.allnews24.in
 domain:mainlinehobby.net
+domain:maju.bluesalt.co
 domain:make-money-online.com
 domain:makedo.ru
 domain:makemoneyonline.com
@@ -4617,6 +4623,7 @@ domain:socialbutton.xyz
 domain:socialbuttons.xyz
 domain:socialmadesimple.com
 domain:socialmediasuggest.com
+domain:socialmonkee.com
 domain:socialseet.ru
 domain:socialtrade.biz
 domain:sockshare.net
