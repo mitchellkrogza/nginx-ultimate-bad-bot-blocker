@@ -209,6 +209,7 @@
 "~*\badminshop\.com\b" 	1;
 "~*\badmitad\.com\b" 	1;
 "~*\badnotbad\.com\b" 	1;
+"~*\badobereader\-free\.ru\b" 	1;
 "~*\badpremium\.org\b" 	1;
 "~*\badprotect\.net\b" 	1;
 "~*\badrenalin\-stk\.ru\b" 	1;
@@ -3063,6 +3064,7 @@
 "~*\bmaridan\.com\.ua\b" 	1;
 "~*\bmarinetraffic\.com\b" 	1;
 "~*\bmarketingtechniques\.info\b" 	1;
+"~*\bmarketingvici\.com\b" 	1;
 "~*\bmarketland\.ml\b" 	1;
 "~*\bmarkjaybeefractal\.com\b" 	1;
 "~*\bmarktforschung\-stuttgart\.com\b" 	1;
@@ -3911,6 +3913,7 @@
 "~*\bprchecker\.info\b" 	1;
 "~*\bpredominant\-invent\.tk\b" 	1;
 "~*\bprefersurvey\.net\b" 	1;
+"~*\bpreg\.marketingvici\.com\b" 	1;
 "~*\bpregnant\.guru\b" 	1;
 "~*\bpreparevideosafesystem4unow\.site\b" 	1;
 "~*\bpreparevideosafesystem4unow\.space\b" 	1;

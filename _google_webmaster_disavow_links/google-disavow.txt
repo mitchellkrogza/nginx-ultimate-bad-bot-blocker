@@ -212,6 +212,7 @@ domain:admeasures.com
 domain:adminshop.com
 domain:admitad.com
 domain:adnotbad.com
+domain:adobereader-free.ru
 domain:adpremium.org
 domain:adprotect.net
 domain:adrenalin-stk.ru
@@ -3065,6 +3066,7 @@ domain:marcowebonyodziezowe.pl
 domain:maridan.com.ua
 domain:marinetraffic.com
 domain:marketingtechniques.info
+domain:marketingvici.com
 domain:marketland.ml
 domain:markjaybeefractal.com
 domain:marktforschung-stuttgart.com
@@ -3912,6 +3914,7 @@ domain:pravoholding.ru
 domain:prchecker.info
 domain:predominant-invent.tk
 domain:prefersurvey.net
+domain:preg.marketingvici.com
 domain:pregnant.guru
 domain:preparevideosafesystem4unow.site
 domain:preparevideosafesystem4unow.space
