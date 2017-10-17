@@ -5583,6 +5583,7 @@
 "~*\bwww\.event\-tracking\.com\b" 	1;
 "~*\bwww\.get\-free\-traffic\-now\.com\b" 	1;
 "~*\bwww\.kabbalah\-red\-bracelets\.com\b" 	1;
+"~*\bwww\.timer4web\.com\b" 	1;
 "~*\bwygraj\-skiny\.win\b" 	1;
 "~*\bwygraj\-teraz\.com\b" 	1;
 "~*\bwyniki\-lista\.pl\b" 	1;
