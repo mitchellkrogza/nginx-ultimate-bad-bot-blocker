@@ -1563,6 +1563,7 @@
 "~*\beandsgallery\.com\b" 	1;
 "~*\beaplay\.ru\b" 	1;
 "~*\bearl\-brown\.info\b" 	1;
+"~*\bearncash\.com\.ua\b" 	1;
 "~*\beas\-seo\.com\b" 	1;
 "~*\beasycommerce\.cf\b" 	1;
 "~*\beasync\.io\b" 	1;
@@ -2663,6 +2664,7 @@
 "~*\bjuliaworld\.net\b" 	1;
 "~*\bjumptap\.com\b" 	1;
 "~*\bjunglenet\-a\.akamaihd\.net\b" 	1;
+"~*\bjurajskie\.info\b" 	1;
 "~*\bjus0wil\.pp\.ua\b" 	1;
 "~*\bjustbcause\.com\b" 	1;
 "~*\bjustdating\.online\b" 	1;
@@ -3669,6 +3671,7 @@
 "~*\bpandarastore\.top\b" 	1;
 "~*\bpanouri\-solare\-acoperis\.com\b" 	1;
 "~*\bpaparazzistudios\.com\.au\b" 	1;
+"~*\bpapasdelivery\.ru\b" 	1;
 "~*\bpaperwritingservice17\.blogspot\.ru\b" 	1;
 "~*\bpaphoselectricianandplumber\.com\b" 	1;
 "~*\bparadontozanet\.ru\b" 	1;
@@ -4221,6 +4224,7 @@
 "~*\brumamba\.com\b" 	1;
 "~*\brunning\-line\.ru\b" 	1;
 "~*\brunstocks\.com\b" 	1;
+"~*\bruscoininvest\.company\b" 	1;
 "~*\bruscopybook\.com\b" 	1;
 "~*\brusenvironmental\.net\b" 	1;
 "~*\brusexy\.xyz\b" 	1;

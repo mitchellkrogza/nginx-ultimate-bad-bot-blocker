@@ -1571,6 +1571,7 @@ domain:eachdayisagift.review
 domain:eandsgallery.com
 domain:eaplay.ru
 domain:earl-brown.info
+domain:earncash.com.ua
 domain:eas-seo.com
 domain:easycommerce.cf
 domain:easync.io
@@ -2663,6 +2664,7 @@ domain:juliadiets.com
 domain:juliaworld.net
 domain:jumptap.com
 domain:junglenet-a.akamaihd.net
+domain:jurajskie.info
 domain:jus0wil.pp.ua
 domain:justbcause.com
 domain:justdating.online
@@ -3670,6 +3672,7 @@ domain:panchro.xyz
 domain:pandarastore.top
 domain:panouri-solare-acoperis.com
 domain:paparazzistudios.com.au
+domain:papasdelivery.ru
 domain:paperwritingservice17.blogspot.ru
 domain:paphoselectricianandplumber.com
 domain:paradontozanet.ru
@@ -4222,6 +4225,7 @@ domain:rumamba.com
 domain:running-line.ru
 domain:runstocks.com
 domain:rus-teh.narod.ru
+domain:ruscoininvest.company
 domain:ruscopybook.com
 domain:rusenvironmental.net
 domain:rusexy.xyz
