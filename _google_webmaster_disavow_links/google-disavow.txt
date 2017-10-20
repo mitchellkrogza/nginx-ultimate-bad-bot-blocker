@@ -408,6 +408,7 @@ domain:apartmentbay.ru
 domain:apartmentratings.com
 domain:apccargo.com
 domain:apelsinnik.website
+domain:apessay.com
 domain:api.stathat.com
 domain:apiadanaknet-a.akamaihd.net
 domain:apiallgeniusinfo-a.akamaihd.net
@@ -1533,6 +1534,7 @@ domain:doxyporno.com
 domain:doyouknowtheword-flummox.ml
 domain:dpihatinh.gov.vn
 domain:dprtb.com
+domain:drhomes.biz
 domain:drillsaw.ru
 domain:driving.kiev.ua
 domain:drivotracker.com
@@ -1998,6 +2000,7 @@ domain:freeuploader.com
 domain:freeuploader.ml
 domain:freewebs.com
 domain:freewhatsappload.com
+domain:freewlan.info
 domain:frequiry.com
 domain:freshberry.com.ua
 domain:freshdz.com
@@ -2471,6 +2474,7 @@ domain:igithab.com
 domain:igrovyeavtomaty777.ru
 domain:igru-xbox.net
 domain:iinstalll-fii1leis.jus0wil.pp.ua
+domain:ikearugs.xyz
 domain:iklysha.ml
 domain:ikritikimou.gr
 domain:ilbe.club
@@ -3604,6 +3608,7 @@ domain:ons-add.men
 domain:onstrapon.purplesphere.in
 domain:ooo-gotovie.ru
 domain:ooo-olni.ru
+domain:ooomeru.ru
 domain:oops-cinema.ru
 domain:open-odyssey.org
 domain:openallurls.com
@@ -5375,6 +5380,7 @@ domain:vodaodessa.com
 domain:voditeltrezviy.ru
 domain:vodkoved.ru
 domain:volgograd.xrus.org
+domain:voloo.ru
 domain:voloomoney.com
 domain:voltrknc1.com
 domain:volume-pills.biz
@@ -5540,6 +5546,7 @@ domain:witherrom55.eklablog.fr
 domain:withstandingheartwarming.com
 domain:wladimirpayen.com
 domain:wma-x.com
+domain:wnhjavlhezp.gq
 domain:wnoz.de
 domain:womama.ru
 domain:woman-h.ru

@@ -406,6 +406,7 @@
 "~*\bapartment\.ru\b" 	1;
 "~*\bapccargo\.com\b" 	1;
 "~*\bapelsinnik\.website\b" 	1;
+"~*\bapessay\.com\b" 	1;
 "~*\bapiadanaknet\-a\.akamaihd\.net\b" 	1;
 "~*\bapiallgeniusinfo\-a\.akamaihd\.net\b" 	1;
 "~*\bapiappenableinfo\-a\.akamaihd\.net\b" 	1;
@@ -1533,6 +1534,7 @@
 "~*\bdoyouknowtheword\-flummox\.ml\b" 	1;
 "~*\bdpihatinh\.gov\.vn\b" 	1;
 "~*\bdprtb\.com\b" 	1;
+"~*\bdrhomes\.biz\b" 	1;
 "~*\bdrillsaw\.ru\b" 	1;
 "~*\bdriving\.kiev\.ua\b" 	1;
 "~*\bdrivotracker\.com\b" 	1;
@@ -1997,6 +1999,7 @@
 "~*\bfree\-video\-tool\.com\b" 	1;
 "~*\bfreewebs\.com\b" 	1;
 "~*\bfreewhatsappload\.com\b" 	1;
+"~*\bfreewlan\.info\b" 	1;
 "~*\bfrequiry\.com\b" 	1;
 "~*\bfreshberry\.com\.ua\b" 	1;
 "~*\bfreshdz\.com\b" 	1;
@@ -2469,6 +2472,7 @@
 "~*\bigru\-xbox\.net\b" 	1;
 "~*\bi\-hobot\.ru\b" 	1;
 "~*\biinstalll\-fii1leis\.jus0wil\.pp\.ua\b" 	1;
+"~*\bikearugs\.xyz\b" 	1;
 "~*\biklysha\.ml\b" 	1;
 "~*\bikritikimou\.gr\b" 	1;
 "~*\bilbe\.club\b" 	1;
@@ -3603,6 +3607,7 @@
 "~*\bo\-o\-8\-o\-o\.com\b" 	1;
 "~*\bo\-o\-8\-o\-o\.ru\b" 	1;
 "~*\booo\-gotovie\.ru\b" 	1;
+"~*\booomeru\.ru\b" 	1;
 "~*\booo\-olni\.ru\b" 	1;
 "~*\boops\-cinema\.ru\b" 	1;
 "~*\bopenallurls\.com\b" 	1;
@@ -5376,6 +5381,7 @@
 "~*\bvodkoved\.ru\b" 	1;
 "~*\bvolgograd\.xrus\.org\b" 	1;
 "~*\bvoloomoney\.com\b" 	1;
+"~*\bvoloo\.ru\b" 	1;
 "~*\bvoltrknc1\.com\b" 	1;
 "~*\bvolume\-pills\.biz\b" 	1;
 "~*\bvoluumtracker1\.com\b" 	1;
@@ -5540,6 +5546,7 @@
 "~*\bw\-journal\.ru\b" 	1;
 "~*\bwladimirpayen\.com\b" 	1;
 "~*\bwma\-x\.com\b" 	1;
+"~*\bwnhjavlhezp\.gq\b" 	1;
 "~*\bwnoz\.de\b" 	1;
 "~*\bwomama\.ru\b" 	1;
 "~*\bwoman\-h\.ru\b" 	1;
