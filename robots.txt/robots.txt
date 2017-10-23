@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.10.973
-### Updated: Fri Oct 20 14:37:51 SAST 2017
-### Bad Bot Count: 514
+### Version: V3.2017.10.974
+### Updated: Mon Oct 23 11:17:37 SAST 2017
+### Bad Bot Count: 513
 ###################################################
 ### Version Information ##
 
@@ -640,8 +640,6 @@ Disallow:/
 User-agent: ProPowerBot
 Disallow:/
 User-agent: ProWebWalker
-Disallow:/
-User-agent: Proximic
 Disallow:/
 User-agent: Psbot
 Disallow:/
