@@ -1387,6 +1387,7 @@
 "~*\bdeanmoore\.ie\b" 	1;
 "~*\bdear\-diary\.ru\b" 	1;
 "~*\bdecenttools\.com\b" 	1;
+"~*\bdecoratinghomes\.ga\b" 	1;
 "~*\bdecorationspcs\.com\b" 	1;
 "~*\bdecorazilla\.com\b" 	1;
 "~*\bdeda\-moroza\-zakaz\.ru\b" 	1;
@@ -1747,6 +1748,7 @@
 "~*\bexhibitionplus\.eu\b" 	1;
 "~*\bexmasters\.com\b" 	1;
 "~*\bexoclick\.com\b" 	1;
+"~*\bexoneration\-project\.us\b" 	1;
 "~*\bexonline\.info\b" 	1;
 "~*\bexpdom\.com\b" 	1;
 "~*\bexpertblog\.info\b" 	1;
@@ -2074,6 +2076,7 @@
 "~*\bgamewrath\.com\b" 	1;
 "~*\bgaming\-journal\.com\b" 	1;
 "~*\bgamingspark\.com\b" 	1;
+"~*\bgarciniaxt\.us\b" 	1;
 "~*\bgardene\.ru\b" 	1;
 "~*\bgate5\.co\.za\b" 	1;
 "~*\bgateway\.zscalerone\.net\b" 	1;
@@ -2496,6 +2499,7 @@
 "~*\bimgarcade\.com\b" 	1;
 "~*\bimgata\.com\b" 	1;
 "~*\bimg\.wallpaperstock\.net\b" 	1;
+"~*\bimicrovision\.com\b" 	1;
 "~*\bi\-midias\.net\.br\b" 	1;
 "~*\biminent\.com\b" 	1;
 "~*\bimitex\-plus\.ru\b" 	1;
@@ -4550,6 +4554,7 @@
 "~*\bsiteimprove\.com\b" 	1;
 "~*\bsiteonomy\.com\b" 	1;
 "~*\bsiteripz\.net\b" 	1;
+"~*\bsite\.ru\b" 	1;
 "~*\bsite\-speed\-checker\.site\b" 	1;
 "~*\bsite\-speed\-check\.site\b" 	1;
 "~*\bsitevaluation\.com\b" 	1;
@@ -5165,6 +5170,7 @@
 "~*\btyper\.one\b" 	1;
 "~*\btytoona\.com\b" 	1;
 "~*\btyumen\.xrus\.org\b" 	1;
+"~*\btzritel\.tk\b" 	1;
 "~*\bu17795\.netangels\.ru\b" 	1;
 "~*\bu555u\.info\b" 	1;
 "~*\buac\.net\.au\b" 	1;
@@ -5361,6 +5367,7 @@
 "~*\bvitalads\.net\b" 	1;
 "~*\bvitanail\.ru\b" 	1;
 "~*\bviteonlusarezzo\.it\b" 	1;
+"~*\bvitoriacabos\.com\b" 	1;
 "~*\bviven\.host\.sk\b" 	1;
 "~*\bvizag\.kharkov\.ua\b" 	1;
 "~*\bvizitki\.net\b" 	1;

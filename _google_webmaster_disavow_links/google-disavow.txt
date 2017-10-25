@@ -1388,6 +1388,7 @@ domain:dealwifi.com
 domain:deanmoore.ie
 domain:dear-diary.ru
 domain:decenttools.com
+domain:decoratinghomes.ga
 domain:decorationspcs.com
 domain:decorazilla.com
 domain:deda-moroza-zakaz.ru
@@ -1747,6 +1748,7 @@ domain:executehosting.com
 domain:exhibitionplus.eu
 domain:exmasters.com
 domain:exoclick.com
+domain:exoneration-project.us
 domain:exonline.info
 domain:expdom.com
 domain:expertblog.info
@@ -2075,6 +2077,7 @@ domain:gamevalue7.weebly.com
 domain:gamewrath.com
 domain:gaming-journal.com
 domain:gamingspark.com
+domain:garciniaxt.us
 domain:gardene.ru
 domain:gate5.co.za
 domain:gateway.zscalerone.net
@@ -2498,6 +2501,7 @@ domain:imfamous.info
 domain:img.wallpaperstock.net
 domain:imgarcade.com
 domain:imgata.com
+domain:imicrovision.com
 domain:iminent.com
 domain:imitex-plus.ru
 domain:immobiliaremassaro.com
@@ -4547,6 +4551,7 @@ domain:site-analyzer.com
 domain:site-auditor.online
 domain:site-speed-check.site
 domain:site-speed-checker.site
+domain:site.ru
 domain:site3.free-share-buttons.com
 domain:site5.com
 domain:sitebeam.net
@@ -5165,6 +5170,7 @@ domain:txxx.com
 domain:typer.one
 domain:tytoona.com
 domain:tyumen.xrus.org
+domain:tzritel.tk
 domain:u-cheats.ru
 domain:u17795.netangels.ru
 domain:u555u.info
@@ -5361,6 +5367,7 @@ domain:vita.com.hr
 domain:vitalads.net
 domain:vitanail.ru
 domain:viteonlusarezzo.it
+domain:vitoriacabos.com
 domain:viven.host.sk
 domain:vizag.kharkov.ua
 domain:vizitki.net
