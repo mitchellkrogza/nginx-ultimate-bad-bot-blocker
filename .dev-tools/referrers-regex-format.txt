@@ -236,6 +236,7 @@
 "~*\badultgalls\.com\b" 	1;
 "~*\badultmeetonline\.info\b" 	1;
 "~*\badultnet\.in\b" 	1;
+"~*\badult\-shop\.com\.ua\b" 	1;
 "~*\badultwebhosting\.info\b" 	1;
 "~*\badvancedcleaner\.com\b" 	1;
 "~*\badvancedsoftwaresupport\.com\b" 	1;
@@ -700,6 +701,7 @@
 "~*\bbest\-seo\-solution\.com\b" 	1;
 "~*\bbestserials\.com\b" 	1;
 "~*\bbestssaker\.com\b" 	1;
+"~*\bbesttorrentknifta\.weebly\.com\b" 	1;
 "~*\bbest\-way\.men\b" 	1;
 "~*\bbestwaystogetpaid\.us\b" 	1;
 "~*\bbestwebsiteawards\.com\b" 	1;
@@ -2977,6 +2979,7 @@
 "~*\bloftdigital\.eu\b" 	1;
 "~*\bloginduepunti\.it\b" 	1;
 "~*\blollypopgaming\.com\b" 	1;
+"~*\blolnex\.us\b" 	1;
 "~*\blol\-smurfs\.com\b" 	1;
 "~*\blombardfinder\.ru\b" 	1;
 "~*\blomb\.co\b" 	1;
@@ -4210,6 +4213,7 @@
 "~*\brome2rio\.com\b" 	1;
 "~*\broofers\.org\.uk\b" 	1;
 "~*\brootandroid\.org\b" 	1;
+"~*\brosbalt\.com\.ua\b" 	1;
 "~*\bros\-ctm\.ru\b" 	1;
 "~*\brospromtest\.ru\b" 	1;
 "~*\brossanasaavedra\.net\b" 	1;
@@ -5413,6 +5417,7 @@
 "~*\bvucms\.com\b" 	1;
 "~*\bvut\.com\.ru\b" 	1;
 "~*\bvvon\.co\.uk\b" 	1;
+"~*\bvvpg\.ru\b" 	1;
 "~*\bvykup\-avto\-krasnodar\.ru\b" 	1;
 "~*\bvykupavto\-krasnodar\.ru\b" 	1;
 "~*\bvysigy\.su\b" 	1;

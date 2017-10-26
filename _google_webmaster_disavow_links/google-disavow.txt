@@ -232,6 +232,7 @@ domain:adtech.fr
 domain:adtech.us
 domain:adtiger.tk
 domain:adtology.com
+domain:adult-shop.com.ua
 domain:adult3dgames.com
 domain:adultactioncam.com
 domain:adultfriendfinder.com
@@ -702,6 +703,7 @@ domain:bestpriceninja.com
 domain:bestprofits-there.com
 domain:bestserials.com
 domain:bestssaker.com
+domain:besttorrentknifta.weebly.com
 domain:bestwaystogetpaid.us
 domain:bestwebsiteawards.com
 domain:bestwebsitesawards.com
@@ -2978,6 +2980,7 @@ domain:loftdigital.eu
 domain:loginduepunti.it
 domain:lol-smurfs.com
 domain:lollypopgaming.com
+domain:lolnex.us
 domain:lomb.co
 domain:lombardfinder.ru
 domain:lombia.co
@@ -4211,6 +4214,7 @@ domain:rome2rio.com
 domain:roofers.org.uk
 domain:rootandroid.org
 domain:ros-ctm.ru
+domain:rosbalt.com.ua
 domain:rospromtest.ru
 domain:rossanasaavedra.net
 domain:rossmark.ru
@@ -5413,6 +5417,7 @@ domain:vtc.pw
 domain:vucms.com
 domain:vut.com.ru
 domain:vvon.co.uk
+domain:vvpg.ru
 domain:vykup-avto-krasnodar.ru
 domain:vykupavto-krasnodar.ru
 domain:vysigy.su
