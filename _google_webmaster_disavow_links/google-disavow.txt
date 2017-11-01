@@ -76,6 +76,7 @@ domain:300richmond.co.nz
 domain:34.gs
 domain:3dracergames.com
 domain:3rbseyes.com
+domain:3th.co.in
 domain:3w24.com
 domain:3weekdiet.com
 domain:3xforum.ro
@@ -449,6 +450,7 @@ domain:appleid-verification.com
 domain:applicationg29.com
 domain:applyneedy.xyz
 domain:approved.su
+domain:approvedlocal.co.za
 domain:apps-analytics.net
 domain:appsaurus.com
 domain:apptester.tk
@@ -629,6 +631,7 @@ domain:bangla-chat-uk-paralud.ga
 domain:bankcrediti.ru
 domain:banki76.ru
 domain:bankiem.pl
+domain:bankmib.ru
 domain:bankofthewext.com
 domain:bannerads.de
 domain:bannerbank.ru
@@ -750,6 +753,7 @@ domain:bio-market.kz
 domain:bio-optomarket.ru
 domain:bio.trade-jp.net
 domain:bioca.org
+domain:biographiya.com
 domain:bioscorp.ru
 domain:birzha-truda.eu
 domain:bitcoinpile.com
@@ -2318,6 +2322,7 @@ domain:healbio.ru
 domain:healgastro.com
 domain:healing-dysplasia.ru
 domain:healmytrauma.info
+domain:health-medical-portal.info
 domain:heartofbeijing.blogspot.com
 domain:heatpower.ru
 domain:hebr.myddns-flir.com
@@ -3761,6 +3766,7 @@ domain:photochki.com
 domain:photokitchendesign.com
 domain:photorepair.ru
 domain:photostudiolightings.com
+domain:phpdevops.com
 domain:phuketscreen.com
 domain:physfunc.ru
 domain:pic2fly.com
@@ -3927,6 +3933,7 @@ domain:pr0fit-b0x.com
 domain:praisong.net
 domain:pravoholding.ru
 domain:prchecker.info
+domain:predmety.in.ua
 domain:predominant-invent.tk
 domain:prefersurvey.net
 domain:preg.marketingvici.com
@@ -4351,6 +4358,7 @@ domain:scenarii-1-sentyabrya.uroki.org.ua
 domain:scenicmissouri.us
 domain:schlampen-treffen.com
 domain:school-diplomat.ru
+domain:schoolfiles.net
 domain:scoopquest.com
 domain:scopich.com
 domain:score-ads.men
@@ -5241,6 +5249,7 @@ domain:upupa.net
 domain:ural-buldozer.ru
 domain:urccvfmc.bloger.index.hr
 domain:urdoot.win
+domain:urengoy.pro
 domain:url-img.link
 domain:url2image.com
 domain:urlcut.ru
@@ -5556,6 +5565,7 @@ domain:winx-play.ru
 domain:wiosenny-bon-1500.pl
 domain:witherrom55.eklablog.fr
 domain:withstandingheartwarming.com
+domain:wjgony.com
 domain:wladimirpayen.com
 domain:wma-x.com
 domain:wnhjavlhezp.gq
@@ -5799,6 +5809,7 @@ domain:z-master.ru
 domain:za-fun-offer.com
 domain:za-music.mymobiplanet.com
 domain:zaapplesales.blogspot.com
+domain:zacreditom.ru
 domain:zahvat.ru
 domain:zaidia.xhost.ro
 domain:zaim-pod-zalog-krasnodar.ru

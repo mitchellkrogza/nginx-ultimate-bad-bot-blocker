@@ -76,6 +76,7 @@
 "~*\b3dracergames\.com\b" 	1;
 "~*\b3\-letter\-domains\.net\b" 	1;
 "~*\b3rbseyes\.com\b" 	1;
+"~*\b3th\.co\.in\b" 	1;
 "~*\b3w24\.com\b" 	1;
 "~*\b3weekdiet\.com\b" 	1;
 "~*\b3xforum\.ro\b" 	1;
@@ -446,6 +447,7 @@
 "~*\bapplicationg29\.com\b" 	1;
 "~*\bapplyneedy\.xyz\b" 	1;
 "~*\bapp\-ready\.xyz\b" 	1;
+"~*\bapprovedlocal\.co\.za\b" 	1;
 "~*\bapproved\.su\b" 	1;
 "~*\bapps\-analytics\.net\b" 	1;
 "~*\bappsaurus\.com\b" 	1;
@@ -628,6 +630,7 @@
 "~*\bbankcrediti\.ru\b" 	1;
 "~*\bbanki76\.ru\b" 	1;
 "~*\bbankiem\.pl\b" 	1;
+"~*\bbankmib\.ru\b" 	1;
 "~*\bbankofthewext\.com\b" 	1;
 "~*\bbannerads\.de\b" 	1;
 "~*\bbannerbank\.ru\b" 	1;
@@ -745,6 +748,7 @@
 "~*\bbinomo\.com\b" 	1;
 "~*\bbinomo\.kz\b" 	1;
 "~*\bbioca\.org\b" 	1;
+"~*\bbiographiya\.com\b" 	1;
 "~*\bbio\-japan\.net\b" 	1;
 "~*\bbio\-market\.kz\b" 	1;
 "~*\bbio\-optomarket\.ru\b" 	1;
@@ -2318,6 +2322,7 @@
 "~*\bhealgastro\.com\b" 	1;
 "~*\bhealing\-dysplasia\.ru\b" 	1;
 "~*\bhealmytrauma\.info\b" 	1;
+"~*\bhealth\-medical\-portal\.info\b" 	1;
 "~*\bheartofbeijing\.blogspot\.com\b" 	1;
 "~*\bheatpower\.ru\b" 	1;
 "~*\bhebr\.myddns\-flir\.com\b" 	1;
@@ -3761,6 +3766,7 @@
 "~*\bphotokitchendesign\.com\b" 	1;
 "~*\bphotorepair\.ru\b" 	1;
 "~*\bphotostudiolightings\.com\b" 	1;
+"~*\bphpdevops\.com\b" 	1;
 "~*\bphuketscreen\.com\b" 	1;
 "~*\bphysfunc\.ru\b" 	1;
 "~*\bpic2fly\.com\b" 	1;
@@ -3926,6 +3932,7 @@
 "~*\bpraisong\.net\b" 	1;
 "~*\bpravoholding\.ru\b" 	1;
 "~*\bprchecker\.info\b" 	1;
+"~*\bpredmety\.in\.ua\b" 	1;
 "~*\bpredominant\-invent\.tk\b" 	1;
 "~*\bprefersurvey\.net\b" 	1;
 "~*\bpreg\.marketingvici\.com\b" 	1;
@@ -4348,6 +4355,7 @@
 "~*\bscenicmissouri\.us\b" 	1;
 "~*\bschlampen\-treffen\.com\b" 	1;
 "~*\bschool\-diplomat\.ru\b" 	1;
+"~*\bschoolfiles\.net\b" 	1;
 "~*\bscoopquest\.com\b" 	1;
 "~*\bscopich\.com\b" 	1;
 "~*\bscore\-ads\.men\b" 	1;
@@ -5241,6 +5249,7 @@
 "~*\bural\-buldozer\.ru\b" 	1;
 "~*\burccvfmc\.bloger\.index\.hr\b" 	1;
 "~*\burdoot\.win\b" 	1;
+"~*\burengoy\.pro\b" 	1;
 "~*\burl2image\.com\b" 	1;
 "~*\burlcut\.ru\b" 	1;
 "~*\burl\-img\.link\b" 	1;
@@ -5555,6 +5564,7 @@
 "~*\bwiosenny\-bon\-1500\.pl\b" 	1;
 "~*\bwitherrom55\.eklablog\.fr\b" 	1;
 "~*\bwithstandingheartwarming\.com\b" 	1;
+"~*\bwjgony\.com\b" 	1;
 "~*\bw\-journal\.ru\b" 	1;
 "~*\bwladimirpayen\.com\b" 	1;
 "~*\bwma\-x\.com\b" 	1;
@@ -5796,6 +5806,7 @@
 "~*\byurgorod\.ru\b" 	1;
 "~*\byur\-p\.ru\b" 	1;
 "~*\bzaapplesales\.blogspot\.com\b" 	1;
+"~*\bzacreditom\.ru\b" 	1;
 "~*\bza\-fun\-offer\.com\b" 	1;
 "~*\bzahvat\.ru\b" 	1;
 "~*\bzaidia\.xhost\.ro\b" 	1;
