@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.10.979
-### Updated: Thu Oct 26 14:47:07 SAST 2017
-### Bad Bot Count: 513
+### Version: V3.2017.11.980
+### Updated: Wed Nov  1 12:59:38 SAST 2017
+### Bad Bot Count: 496
 ###################################################
 ### Version Information ##
 
@@ -99,8 +99,6 @@ User-agent: BotALot
 Disallow:/
 User-agent: Brandprotect
 Disallow:/
-User-agent: BrandProtect
-Disallow:/
 User-agent: Brandwatch
 Disallow:/
 User-agent: Bubing
@@ -159,8 +157,6 @@ User-agent: Craftbot
 Disallow:/
 User-agent: CrazyWebCrawler
 Disallow:/
-User-agent: CRAZYWEBCRAWLER
-Disallow:/
 User-agent: Crescent
 Disallow:/
 User-agent: CSHttp
@@ -207,10 +203,6 @@ User-agent: DomainStatsBot
 Disallow:/
 User-agent: Dotbot
 Disallow:/
-User-agent: Download Demon
-Disallow:/
-User-agent: Download Devil
-Disallow:/
 User-agent: Download Wonder
 Disallow:/
 User-agent: Dragonfly
@@ -230,10 +222,6 @@ Disallow:/
 User-agent: Ecxi
 Disallow:/
 User-agent: EirGrabber
-Disallow:/
-User-agent: EMail Collector
-Disallow:/
-User-agent: EMail Extractor
 Disallow:/
 User-agent: EMail Siphon
 Disallow:/
@@ -352,8 +340,6 @@ Disallow:/
 User-agent: IlseBot
 Disallow:/
 User-agent: Image Fetch
-Disallow:/
-User-agent: Image Stripper
 Disallow:/
 User-agent: Image Sucker
 Disallow:/
@@ -595,8 +581,6 @@ User-agent: Page Analyzer
 Disallow:/
 User-agent: PageGrabber
 Disallow:/
-User-agent: Page Grabber
-Disallow:/
 User-agent: page scorer
 Disallow:/
 User-agent: PageScorer
@@ -697,8 +681,6 @@ User-agent: Scrapy
 Disallow:/
 User-agent: Screaming
 Disallow:/
-User-agent: Screaming Frog SEO Spider
-Disallow:/
 User-agent: ScreenerBot
 Disallow:/
 User-agent: Searchestate
@@ -710,8 +692,6 @@ Disallow:/
 User-agent: SemrushBot
 Disallow:/
 User-agent: SEOkicks
-Disallow:/
-User-agent: SEOkicks-Robot
 Disallow:/
 User-agent: SEOlyticsCrawler
 Disallow:/
@@ -726,8 +706,6 @@ Disallow:/
 User-agent: Siphon
 Disallow:/
 User-agent: SISTRIX
-Disallow:/
-User-agent: SISTRIX Crawler
 Disallow:/
 User-agent: Sitebeam
 Disallow:/
@@ -837,17 +815,21 @@ User-agent: Toata
 Disallow:/
 User-agent: Toweyabot
 Disallow:/
+User-agent: Trendiction
+Disallow:/
 User-agent: Trendictionbot
+Disallow:/
+User-agent: trendiction.com
+Disallow:/
+User-agent: trendiction.de
 Disallow:/
 User-agent: True_Robot
 Disallow:/
 User-agent: Turingos
 Disallow:/
+User-agent: Turnitin
+Disallow:/
 User-agent: TurnitinBot
-Disallow:/
-User-agent: Turnitin Bot
-Disallow:/
-User-agent: Turnitin Robot
 Disallow:/
 User-agent: TwengaBot
 Disallow:/
@@ -897,19 +879,13 @@ User-agent: Web Auto
 Disallow:/
 User-agent: WebBandit
 Disallow:/
-User-agent: Web Bandit
-Disallow:/
 User-agent: WebCollage
 Disallow:/
 User-agent: Web Collage
 Disallow:/
 User-agent: WebCopier
 Disallow:/
-User-agent: Web Copier
-Disallow:/
 User-agent: WEBDAV
-Disallow:/
-User-agent: WEBDAV Client
 Disallow:/
 User-agent: WebEnhancer
 Disallow:/
@@ -927,8 +903,6 @@ User-agent: WebGo IS
 Disallow:/
 User-agent: WebImageCollector
 Disallow:/
-User-agent: Web Image Collector
-Disallow:/
 User-agent: WebLeacher
 Disallow:/
 User-agent: WebmasterWorldForumBot
@@ -941,8 +915,6 @@ User-agent: Web Pix
 Disallow:/
 User-agent: WebReaper
 Disallow:/
-User-agent: Web Reaper
-Disallow:/
 User-agent: WebSauger
 Disallow:/
 User-agent: Web Sauger
@@ -950,8 +922,6 @@ Disallow:/
 User-agent: Webshag
 Disallow:/
 User-agent: WebsiteExtractor
-Disallow:/
-User-agent: Website Extractor
 Disallow:/
 User-agent: WebsiteQuester
 Disallow:/
@@ -961,15 +931,11 @@ User-agent: Webster
 Disallow:/
 User-agent: WebStripper
 Disallow:/
-User-agent: Web Stripper
-Disallow:/
 User-agent: WebSucker
 Disallow:/
 User-agent: Web Sucker
 Disallow:/
 User-agent: WebWhacker
-Disallow:/
-User-agent: Web Whacker
 Disallow:/
 User-agent: WebZIP
 Disallow:/
