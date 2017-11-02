@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.11.982
-### Updated: Thu Nov  2 14:09:39 SAST 2017
-### Bad Bot Count: 496
+### Version: V3.2017.11.983
+### Updated: Thu Nov  2 17:31:49 SAST 2017
+### Bad Bot Count: 503
 ###################################################
 ### Version Information ##
 
@@ -137,6 +137,8 @@ User-agent: Claritybot
 Disallow:/
 User-agent: Cliqzbot
 Disallow:/
+User-agent: Cloud mapping
+Disallow:/
 User-agent: Cogentbot
 Disallow:/
 User-agent: cognitiveseo
@@ -228,6 +230,8 @@ Disallow:/
 User-agent: EMail Wolf
 Disallow:/
 User-agent: EroCrawler
+Disallow:/
+User-agent: evc-batch
 Disallow:/
 User-agent: Evil
 Disallow:/
@@ -703,6 +707,12 @@ User-agent: seoscanners
 Disallow:/
 User-agent: SEOstats
 Disallow:/
+User-agent: sexsearcher
+Disallow:/
+User-agent: Seznam
+Disallow:/
+User-agent: SeznamBot
+Disallow:/
 User-agent: Siphon
 Disallow:/
 User-agent: SISTRIX
@@ -946,6 +956,10 @@ Disallow:/
 User-agent: Whacker
 Disallow:/
 User-agent: Whatweb
+Disallow:/
+User-agent: Who.is
+Disallow:/
+User-agent: Who.is Bot
 Disallow:/
 User-agent: Widow
 Disallow:/

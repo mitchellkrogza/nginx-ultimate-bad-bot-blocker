@@ -62,6 +62,7 @@ ChinaClaw
 Chlooe
 Claritybot
 Cliqzbot
+Cloud mapping
 Cogentbot
 cognitiveseo
 Collector
@@ -108,6 +109,7 @@ EirGrabber
 EMail Siphon
 EMail Wolf
 EroCrawler
+evc-batch
 Evil
 Exabot
 Express WebPictures
@@ -345,6 +347,9 @@ Seomoz
 SEOprofiler
 seoscanners
 SEOstats
+sexsearcher
+Seznam
+SeznamBot
 Siphon
 SISTRIX
 Sitebeam
@@ -467,6 +472,8 @@ WeSEE
 Whack
 Whacker
 Whatweb
+Who.is
+Who.is Bot
 Widow
 WinHTTrack
 WiseGuys Robot
