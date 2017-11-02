@@ -1316,6 +1316,7 @@ domain:creams.makeforum.eu
 domain:creativehutindia.com
 domain:creatives.adbetclickin.pink
 domain:creditmoney.com.ua
+domain:creditwell.ru
 domain:crest-poloski.ru
 domain:crest3d.ru
 domain:crirussian.ru
@@ -2304,6 +2305,7 @@ domain:havepussy.com
 domain:hayate.biz
 domain:hazardky.net
 domain:hcate.com
+domain:hchha.com
 domain:hd-film.pl
 domain:hd-filmy.net
 domain:hd720kino.ru
@@ -2874,6 +2876,7 @@ domain:larchik.net
 domain:larger.io
 domain:larose.jb2c.me
 domain:larutti.ru
+domain:lashstudia.ru
 domain:lasvegaslockandsafe.com
 domain:laudit.ru
 domain:laulini.soclog.se
@@ -4173,6 +4176,7 @@ domain:repeatlogo.co.uk
 domain:replica-watch.ru
 domain:replicaclub.ru
 domain:replicalouboutin.xyz
+domain:resant.ru
 domain:research.ifmo.ru
 domain:resellerclub.com
 domain:responsinator.com
@@ -5068,6 +5072,7 @@ domain:torrents.cd
 domain:torrnada.ru
 domain:torture.ml
 domain:totu.info
+domain:totu.us
 domain:touchmods.fr
 domain:tour-line.net
 domain:tourcroatia.co.uk
