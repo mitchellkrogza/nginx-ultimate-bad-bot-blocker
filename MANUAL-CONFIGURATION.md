@@ -181,7 +181,7 @@ The server_names_hash settings allows Nginx Server to load this very large list 
 
 **MAKE SURE** that your nginx.conf file contains the following include directive. If it's commented out make sure to uncomment it or none of this will work.
 
-- `include /etc/nginx/conf.d/*`
+- `include /etc/nginx/conf.d/*;`
 
 
 ************************************************
