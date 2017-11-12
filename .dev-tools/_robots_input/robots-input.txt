@@ -4,6 +4,7 @@ Abonti
 Aboundex
 Acunetix
 ADmantX
+AfD-Verbotsverfahren
 AhrefsBot
 AIBOT
 AiHitBot
@@ -472,7 +473,6 @@ WeSEE
 Whack
 Whacker
 Whatweb
-Who.is
 Who.is Bot
 Widow
 WinHTTrack

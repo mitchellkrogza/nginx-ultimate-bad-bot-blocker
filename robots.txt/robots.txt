@@ -1,7 +1,7 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.11.986
-### Updated: Fri Nov 10 09:48:58 SAST 2017
+### Version: V3.2017.11.987
+### Updated: Sun Nov 12 11:51:09 SAST 2017
 ### Bad Bot Count: 503
 ###################################################
 ### Version Information ##
@@ -20,6 +20,8 @@ Disallow:/
 User-agent: Acunetix
 Disallow:/
 User-agent: ADmantX
+Disallow:/
+User-agent: AfD-Verbotsverfahren
 Disallow:/
 User-agent: AhrefsBot
 Disallow:/
@@ -956,8 +958,6 @@ Disallow:/
 User-agent: Whacker
 Disallow:/
 User-agent: Whatweb
-Disallow:/
-User-agent: Who.is
 Disallow:/
 User-agent: Who.is Bot
 Disallow:/
