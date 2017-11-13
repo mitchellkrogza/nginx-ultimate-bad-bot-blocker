@@ -257,7 +257,7 @@ NearSite
 Needle
 Nessus
 NetAnts
-NetcraftSurveyAgent/1
+Netcraft
 netEstate NE Crawler
 NetLyzer
 NetMechanic
@@ -497,7 +497,7 @@ YoudaoBot
 Zade
 Zermelo
 Zeus
-zgrab/0
+zgrab
 Zitebot
 ZmEu
 ZumBot
