@@ -1,7 +1,7 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.11.988
-### Updated: Mon Nov 13 09:23:09 SAST 2017
+### Version: V3.2017.11.989
+### Updated: Mon Nov 13 10:06:47 SAST 2017
 ### Bad Bot Count: 504
 ###################################################
 ### Version Information ##
@@ -527,7 +527,7 @@ User-agent: Nessus
 Disallow:/
 User-agent: NetAnts
 Disallow:/
-User-agent: Netcraft
+User-agent: NetcraftSurveyAgent/1
 Disallow:/
 User-agent: netEstate NE Crawler
 Disallow:/
@@ -1007,7 +1007,7 @@ User-agent: Zermelo
 Disallow:/
 User-agent: Zeus
 Disallow:/
-User-agent: Zgrab
+User-agent: zgrab/0
 Disallow:/
 User-agent: Zitebot
 Disallow:/
