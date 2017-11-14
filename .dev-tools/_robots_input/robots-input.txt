@@ -244,6 +244,7 @@ MJ12bot
 Mojeek
 Morfeus Fucking Scanner
 Mozilla/4
+Mozilla/4.0
 MSFrontPage
 MSIE 6.0
 MSIECrawler

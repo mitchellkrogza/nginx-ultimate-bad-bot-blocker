@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.11.990
-### Updated: Mon Nov 13 11:32:50 SAST 2017
-### Bad Bot Count: 504
+### Version: V3.2017.11.991
+### Updated: Tue Nov 14 10:21:02 SAST 2017
+### Bad Bot Count: 505
 ###################################################
 ### Version Information ##
 
@@ -500,6 +500,8 @@ Disallow:/
 User-agent: Morfeus Fucking Scanner
 Disallow:/
 User-agent: Mozilla/4
+Disallow:/
+User-agent: Mozilla/4.0
 Disallow:/
 User-agent: MSFrontPage
 Disallow:/
