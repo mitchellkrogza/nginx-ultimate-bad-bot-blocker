@@ -437,6 +437,7 @@
 "~*\bapiwoodensealcom\-a\.akamaihd\.net\b" 	1;
 "~*\bapparel\-offer\.com\b" 	1;
 "~*\bappartement\-stumm\.at\b" 	1;
+"~*\bappearance\-cool\.com\b" 	1;
 "~*\bapper\.de\b" 	1;
 "~*\bappfastplay\.com\b" 	1;
 "~*\bappfixing\.space\b" 	1;
@@ -684,6 +685,7 @@
 "~*\bbestchoice\.cf\b" 	1;
 "~*\bbest\-coupon\-offer\.com\b" 	1;
 "~*\bbestcurs\.org\b" 	1;
+"~*\bbest\-deals\-products\.com\b" 	1;
 "~*\bbestdooz\.com\b" 	1;
 "~*\bbestdraws\.com\b" 	1;
 "~*\bbestempresas\.es\b" 	1;
@@ -903,6 +905,7 @@
 "~*\bburger\-imperia\.com\b" 	1;
 "~*\bburkesales\.com\b" 	1;
 "~*\bburn\-fat\.ga\b" 	1;
+"~*\bbusinescoop\.men\b" 	1;
 "~*\bbusinesn\.men\b" 	1;
 "~*\bbusiness\-made\-fun\.com\b" 	1;
 "~*\bbusinesxxl\.com\b" 	1;
@@ -937,6 +940,7 @@
 "~*\bbuzzonclick\.com\b" 	1;
 "~*\bbuzzsumo\.com\b" 	1;
 "~*\bbuzzurl\.jp\b" 	1;
+"~*\bbuzzzg\.men\b" 	1;
 "~*\bbvlgaribracelet\.xyz\b" 	1;
 "~*\bbvlgariring\.xyz\b" 	1;
 "~*\bbvlgariwallet\.xyz\b" 	1;
@@ -1660,6 +1664,7 @@
 "~*\beloconcream\.blogspot\.com\b" 	1;
 "~*\beloxal\.ru\b" 	1;
 "~*\belstal\.com\.pl\b" 	1;
+"~*\beluxer\.net\b" 	1;
 "~*\belvel\.com\.ua\b" 	1;
 "~*\belvenar\.com\b" 	1;
 "~*\belvenmachine\.com\b" 	1;
@@ -1822,6 +1827,7 @@
 "~*\bfarm26\.ru\b" 	1;
 "~*\bfarmingworm\.com\b" 	1;
 "~*\bfarmprofi\.net\b" 	1;
+"~*\bfashionavenuegame\.com\b" 	1;
 "~*\bfashionindeed\.ml\b" 	1;
 "~*\bfashion\-mk\.net\b" 	1;
 "~*\bfashion\-stickers\.ru\b" 	1;
@@ -2081,6 +2087,7 @@
 "~*\bgame\-top\.su\b" 	1;
 "~*\bgamevalue7\.weebly\.com\b" 	1;
 "~*\bgamewrath\.com\b" 	1;
+"~*\bgamezblox\.com\b" 	1;
 "~*\bgaming\-journal\.com\b" 	1;
 "~*\bgamingspark\.com\b" 	1;
 "~*\bgarciniaxt\.us\b" 	1;
@@ -2995,6 +3002,7 @@
 "~*\blombia\.com\b" 	1;
 "~*\blomza\.info\b" 	1;
 "~*\blonely\-mature\.com\b" 	1;
+"~*\blonerangergames\.com\b" 	1;
 "~*\blongadventure\.com\b" 	1;
 "~*\blong\-beach\-air\-conditioning\.com\b" 	1;
 "~*\blonggreen\.info\b" 	1;
@@ -3164,6 +3172,7 @@
 "~*\bmeget\.co\.za\b" 	1;
 "~*\bme\-ke\.com\b" 	1;
 "~*\bmeltwater\.com\b" 	1;
+"~*\bmember\-quiz\.com\b" 	1;
 "~*\bmembers\.ghanaweb\.com\b" 	1;
 "~*\bmemberty\.com\b" 	1;
 "~*\bmenetie\.ru\b" 	1;
@@ -3205,6 +3214,7 @@
 "~*\bmillionare\.com\b" 	1;
 "~*\bmil\-stak\.com\b" 	1;
 "~*\bmindbox\.co\.za\b" 	1;
+"~*\bmindeyegames\.com\b" 	1;
 "~*\bminecraft\-neo\.ru\b" 	1;
 "~*\bminecraft\-rus\.org\b" 	1;
 "~*\bminegam\.com\b" 	1;
@@ -3287,6 +3297,8 @@
 "~*\bmoneytop\.ru\b" 	1;
 "~*\bmoneyviking\-a\.akamaihd\.net\b" 	1;
 "~*\bmonitorwebsitespeed\.com\b" 	1;
+"~*\bmonsterdivx\.com\b" 	1;
+"~*\bmonsterdivx\.tv\b" 	1;
 "~*\bmontazhnic\.ru\b" 	1;
 "~*\bmonthlywinners\.com\b" 	1;
 "~*\bmontredemarque\.nl\b" 	1;
@@ -3364,6 +3376,7 @@
 "~*\bmuz\-tracker\.net\b" 	1;
 "~*\bmvpicton\.co\.uk\b" 	1;
 "~*\bmwtpludn\.review\b" 	1;
+"~*\bmxgetcode\.com\b" 	1;
 "~*\bmyanyone\.net\b" 	1;
 "~*\bmy\-bc\.ru\b" 	1;
 "~*\bmy\-big\-family\.com\b" 	1;
@@ -3446,6 +3459,7 @@
 "~*\bnerudlogistik\.ru\b" 	1;
 "~*\bnetallergy\.ru\b" 	1;
 "~*\bnetanalytics\.xyz\b" 	1;
+"~*\bnetcheckcdn\.xyz\b" 	1;
 "~*\bnetfacet\.net\b" 	1;
 "~*\bnetoil\.no\b" 	1;
 "~*\bnetpics\.org\b" 	1;
@@ -3492,6 +3506,7 @@
 "~*\bniroo\.info\b" 	1;
 "~*\bnjkmznnb\.ru\b" 	1;
 "~*\bnjpalletremoval\.com\b" 	1;
+"~*\bnlfjjunb5\.ru\b" 	1;
 "~*\bnl\.netlog\.com\b" 	1;
 "~*\bnmrk\.ru\b" 	1;
 "~*\bnoclegonline\.info\b" 	1;
@@ -3672,6 +3687,7 @@
 "~*\boxford\-book\.com\.ua\b" 	1;
 "~*\boxotl\.com\b" 	1;
 "~*\boynat\.info\b" 	1;
+"~*\boyster\-green\.com\b" 	1;
 "~*\bozas\.net\b" 	1;
 "~*\boz\-offers\.com\b" 	1;
 "~*\bozoz\.it\b" 	1;
@@ -3703,6 +3719,7 @@
 "~*\bpartnerads\.men\b" 	1;
 "~*\bpartner\-cdn\.men\b" 	1;
 "~*\bpartner\-high\.men\b" 	1;
+"~*\bpartner\-host\.men\b" 	1;
 "~*\bpartnerline\.men\b" 	1;
 "~*\bpartner\-pop\.men\b" 	1;
 "~*\bpartner\-print\.men\b" 	1;
@@ -4381,6 +4398,7 @@
 "~*\bsearchencrypt\.com\b" 	1;
 "~*\bsearchengineranker\.email\b" 	1;
 "~*\bsearch\-error\.com\b" 	1;
+"~*\bsearch\-goo\.com\b" 	1;
 "~*\bsearchimage\.co\b" 	1;
 "~*\bsearchimpression\.com\b" 	1;
 "~*\bsearchinquire\.com\b" 	1;
@@ -4406,6 +4424,7 @@
 "~*\bsegol\.tv\b" 	1;
 "~*\bseinterface\.com\b" 	1;
 "~*\bseksotur\.ru\b" 	1;
+"~*\bselectads\.men\b" 	1;
 "~*\bsemalt\.com\b" 	1;
 "~*\bsemaltmedia\.com\b" 	1;
 "~*\bseminarygeorgia59\.ga\b" 	1;
@@ -4754,6 +4773,7 @@
 "~*\bstartufa\.ru\b" 	1;
 "~*\bstartwp\.org\b" 	1;
 "~*\bstarwars\.wikia\.com\b" 	1;
+"~*\bstathat\.com\b" 	1;
 "~*\bstatistici\.ro\b" 	1;
 "~*\bstatoutlook\.info\b" 	1;
 "~*\bstats\-collector\.org\b" 	1;
@@ -4914,6 +4934,7 @@
 "~*\bterraclicks\.com\b" 	1;
 "~*\bterrafootwear\.us\b" 	1;
 "~*\bteslathemes\.com\b" 	1;
+"~*\btestingads\.pro\b" 	1;
 "~*\btetracsaudi\.com\b" 	1;
 "~*\btexbaza\.by\b" 	1;
 "~*\btextads\.men\b" 	1;
@@ -4930,6 +4951,8 @@
 "~*\bthedownloadfromwarez\.blogspot\.com\b" 	1;
 "~*\bthefarmergame\.com\b" 	1;
 "~*\bthefds\.net\b" 	1;
+"~*\bthegameriders\.com\b" 	1;
+"~*\bthegamerznetwork\.com\b" 	1;
 "~*\bthegioixekhach\.com\b" 	1;
 "~*\btheguardlan\.com\b" 	1;
 "~*\btheheroes\.ru\b" 	1;
@@ -4965,6 +4988,7 @@
 "~*\btimer4web\.com\b" 	1;
 "~*\btimetorelax\.biz\b" 	1;
 "~*\btimhost\.ru\b" 	1;
+"~*\btitan\-ads\.life\b" 	1;
 "~*\btitan\-cloud\.life\b" 	1;
 "~*\btitelhelden\.eu\b" 	1;
 "~*\btitslove\.yopoint\.in\b" 	1;
@@ -5166,6 +5190,7 @@
 "~*\bturist\-strani\.ru\b" 	1;
 "~*\bturizm\.bz\b" 	1;
 "~*\bturkeyreport\.tk\b" 	1;
+"~*\bturn\-up\-life\.life\b" 	1;
 "~*\bturvgori\.ru\b" 	1;
 "~*\btvand\.ru\b" 	1;
 "~*\btversvet\.ru\b" 	1;
@@ -5183,6 +5208,7 @@
 "~*\btwodollarshows\.com\b" 	1;
 "~*\btwojebook\.pl\b" 	1;
 "~*\btwu\.com\.ua\b" 	1;
+"~*\btx41tclega\.ru\b" 	1;
 "~*\btxxx\.com\b" 	1;
 "~*\btyper\.one\b" 	1;
 "~*\btytoona\.com\b" 	1;
@@ -5219,6 +5245,7 @@
 "~*\bultimatesetnewfreeallsoftupgradesystems\.pw\b" 	1;
 "~*\bultramart\.biz\b" 	1;
 "~*\bumaseh\.com\b" 	1;
+"~*\bumekana\.ru\b" 	1;
 "~*\bumg\-stroy\.ru\b" 	1;
 "~*\bumityangin\.net\b" 	1;
 "~*\bumnovocaminho\.com\b" 	1;

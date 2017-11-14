@@ -440,6 +440,7 @@ domain:apiwoodensealcom-a.akamaihd.net
 domain:app-ready.xyz
 domain:apparel-offer.com
 domain:appartement-stumm.at
+domain:appearance-cool.com
 domain:apper.de
 domain:appfastplay.com
 domain:appfixing.space
@@ -680,6 +681,7 @@ domain:berlininsl.com
 domain:berrymall.ru
 domain:best-businessman.ru
 domain:best-coupon-offer.com
+domain:best-deals-products.com
 domain:best-games.today
 domain:best-seo-offer.com
 domain:best-seo-software.xyz
@@ -904,6 +906,7 @@ domain:burger-imperia.com
 domain:burkesales.com
 domain:burn-fat.ga
 domain:bus-offer.com
+domain:businescoop.men
 domain:businesn.men
 domain:business-made-fun.com
 domain:businesxxl.com
@@ -937,6 +940,7 @@ domain:buyviagraa.blogspot.com
 domain:buzzonclick.com
 domain:buzzsumo.com
 domain:buzzurl.jp
+domain:buzzzg.men
 domain:bvlgaribracelet.xyz
 domain:bvlgariring.xyz
 domain:bvlgariwallet.xyz
@@ -1661,6 +1665,7 @@ domain:elmifarhangi.com
 domain:eloconcream.blogspot.com
 domain:eloxal.ru
 domain:elstal.com.pl
+domain:eluxer.net
 domain:elvel.com.ua
 domain:elvenar.com
 domain:elvenmachine.com
@@ -1826,6 +1831,7 @@ domain:farmingworm.com
 domain:farmprofi.net
 domain:fashion-mk.net
 domain:fashion-stickers.ru
+domain:fashionavenuegame.com
 domain:fashionindeed.ml
 domain:fast-wordpress-start.com
 domain:fastcrawl.com
@@ -2082,6 +2088,7 @@ domain:games.kolossale.ru
 domain:gamesprite.me
 domain:gamevalue7.weebly.com
 domain:gamewrath.com
+domain:gamezblox.com
 domain:gaming-journal.com
 domain:gamingspark.com
 domain:garciniaxt.us
@@ -2995,6 +3002,7 @@ domain:lombia.co
 domain:lombia.com
 domain:lomza.info
 domain:lonely-mature.com
+domain:lonerangergames.com
 domain:long-beach-air-conditioning.com
 domain:longadventure.com
 domain:longgreen.info
@@ -3165,6 +3173,7 @@ domain:megakino.net
 domain:megavolt.net.ua
 domain:meget.co.za
 domain:meltwater.com
+domain:member-quiz.com
 domain:members.ghanaweb.com
 domain:memberty.com
 domain:menetie.ru
@@ -3205,6 +3214,7 @@ domain:milblueprint.com
 domain:militarysale.pro
 domain:millionare.com
 domain:mindbox.co.za
+domain:mindeyegames.com
 domain:minecraft-neo.ru
 domain:minecraft-rus.org
 domain:minegam.com
@@ -3287,6 +3297,8 @@ domain:moneyteam24.com
 domain:moneytop.ru
 domain:moneyviking-a.akamaihd.net
 domain:monitorwebsitespeed.com
+domain:monsterdivx.com
+domain:monsterdivx.tv
 domain:montazhnic.ru
 domain:monthlywinners.com
 domain:montredemarque.nl
@@ -3364,6 +3376,7 @@ domain:muznachas-service.ru
 domain:muztops.ru
 domain:mvpicton.co.uk
 domain:mwtpludn.review
+domain:mxgetcode.com
 domain:my-bc.ru
 domain:my-big-family.com
 domain:my-cash-bot.co
@@ -3448,6 +3461,7 @@ domain:net-profits.xyz
 domain:net-radar.com
 domain:netallergy.ru
 domain:netanalytics.xyz
+domain:netcheckcdn.xyz
 domain:netfacet.net
 domain:netoil.no
 domain:netpics.org
@@ -3493,6 +3507,7 @@ domain:niroo.info
 domain:njkmznnb.ru
 domain:njpalletremoval.com
 domain:nl.netlog.com
+domain:nlfjjunb5.ru
 domain:nmrk.ru
 domain:noclegonline.info
 domain:nodup.ru
@@ -3672,6 +3687,7 @@ domain:owohho.com
 domain:oxford-book.com.ua
 domain:oxotl.com
 domain:oynat.info
+domain:oyster-green.com
 domain:oz-offers.com
 domain:ozas.net
 domain:ozoz.it
@@ -3703,6 +3719,7 @@ domain:park.above.com
 domain:parlament.biz
 domain:partner-cdn.men
 domain:partner-high.men
+domain:partner-host.men
 domain:partner-pop.men
 domain:partner-print.men
 domain:partner-stop.men
@@ -4380,6 +4397,7 @@ domain:se.bnt-team.com
 domain:seadragonherbery.com
 domain:seansonline24.pl
 domain:search-error.com
+domain:search-goo.com
 domain:search.1and1.com
 domain:search.alot.com
 domain:search.pch.com
@@ -4409,6 +4427,7 @@ domain:seeresultshub-a.akamaihd.net
 domain:segol.tv
 domain:seinterface.com
 domain:seksotur.ru
+domain:selectads.men
 domain:semalt.com
 domain:semaltmedia.com
 domain:seminarygeorgia59.ga
@@ -4754,6 +4773,7 @@ domain:start.myplaycity.com
 domain:startufa.ru
 domain:startwp.org
 domain:starwars.wikia.com
+domain:stathat.com
 domain:statistici.ro
 domain:statoutlook.info
 domain:stats-collector.org
@@ -4914,6 +4934,7 @@ domain:tengohydar.tk
 domain:terraclicks.com
 domain:terrafootwear.us
 domain:teslathemes.com
+domain:testingads.pro
 domain:tetracsaudi.com
 domain:texbaza.by
 domain:textads.men
@@ -4933,6 +4954,8 @@ domain:thedownloadfreeonlinegames.blogspot.com
 domain:thedownloadfromwarez.blogspot.com
 domain:thefarmergame.com
 domain:thefds.net
+domain:thegameriders.com
+domain:thegamerznetwork.com
 domain:thegioixekhach.com
 domain:theguardlan.com
 domain:theheroes.ru
@@ -4965,6 +4988,7 @@ domain:timecrimea.ru
 domain:timer4web.com
 domain:timetorelax.biz
 domain:timhost.ru
+domain:titan-ads.life
 domain:titan-cloud.life
 domain:titelhelden.eu
 domain:titslove.yopoint.in
@@ -5166,6 +5190,7 @@ domain:turbodsp.com
 domain:turist-strani.ru
 domain:turizm.bz
 domain:turkeyreport.tk
+domain:turn-up-life.life
 domain:turvgori.ru
 domain:tv-spoty.info
 domain:tvand.ru
@@ -5183,6 +5208,7 @@ domain:twittruth.com
 domain:twodollarshows.com
 domain:twojebook.pl
 domain:twu.com.ua
+domain:tx41tclega.ru
 domain:txxx.com
 domain:typer.one
 domain:tytoona.com
@@ -5220,6 +5246,7 @@ domain:ultimatesetnewfreeallsoftupgradesystems.pw
 domain:ultramart.biz
 domain:um-razum.ru
 domain:umaseh.com
+domain:umekana.ru
 domain:umg-stroy.ru
 domain:umityangin.net
 domain:umnovocaminho.com
