@@ -477,6 +477,7 @@
 "~*\barenda\-yeisk\.ru\b" 	1;
 "~*\barendovalka\.xyz\b" 	1;
 "~*\barewater\.com\b" 	1;
+"~*\barius\.tech\b" 	1;
 "~*\barkartex\.ru\b" 	1;
 "~*\barkkivoltti\.net\b" 	1;
 "~*\barpelsreplica\.xyz\b" 	1;
@@ -633,6 +634,7 @@
 "~*\bbankiem\.pl\b" 	1;
 "~*\bbankmib\.ru\b" 	1;
 "~*\bbankofthewext\.com\b" 	1;
+"~*\bbank\.uz\b" 	1;
 "~*\bbannerads\.de\b" 	1;
 "~*\bbannerbank\.ru\b" 	1;
 "~*\bbannerconnect\.net\b" 	1;
@@ -1320,6 +1322,7 @@
 "~*\bcreativehutindia\.com\b" 	1;
 "~*\bcreatives\.adbetclickin\.pink\b" 	1;
 "~*\bcreditmoney\.com\.ua\b" 	1;
+"~*\bcreditnation\.ru\b" 	1;
 "~*\bcreditwell\.ru\b" 	1;
 "~*\bcrest3d\.ru\b" 	1;
 "~*\bcrest\-poloski\.ru\b" 	1;
@@ -2193,6 +2196,7 @@
 "~*\bgogps\.me\b" 	1;
 "~*\bgojiberriess\.apishops\.ru\b" 	1;
 "~*\bgok\-kasten\.net\b" 	1;
+"~*\bgolaya\.pw\b" 	1;
 "~*\bgoldadpremium\.com\b" 	1;
 "~*\bgoldandcard\.ru\b" 	1;
 "~*\bgolden\-catalog\.pro\b" 	1;
@@ -2719,6 +2723,7 @@
 "~*\bkartiniresto\.com\b" 	1;
 "~*\bkarusel\-market\.ru\b" 	1;
 "~*\bkashubadesign\.ru\b" 	1;
+"~*\bkasino\-money\.pw\b" 	1;
 "~*\bkatjimej\.blog\.fc2\.com\b" 	1;
 "~*\bkatushka\.net\b" 	1;
 "~*\bkazan\.xrus\.org\b" 	1;
@@ -3619,6 +3624,7 @@
 "~*\bonlinemeetingnow\.com\b" 	1;
 "~*\bonlinemegax\.com\b" 	1;
 "~*\bonline\-podarki\.com\b" 	1;
+"~*\bonlineporno\.site\b" 	1;
 "~*\bonlineserialy\.ru\b" 	1;
 "~*\bonlineslotmaschine\.com\b" 	1;
 "~*\bonline\-templatestore\.com\b" 	1;
@@ -4264,6 +4270,7 @@
 "~*\brukino\.org\b" 	1;
 "~*\brumamba\.com\b" 	1;
 "~*\brunning\-line\.ru\b" 	1;
+"~*\brunofilms\.ru\b" 	1;
 "~*\brunstocks\.com\b" 	1;
 "~*\bruscoininvest\.company\b" 	1;
 "~*\bruscopybook\.com\b" 	1;
@@ -4271,6 +4278,7 @@
 "~*\brusexy\.xyz\b" 	1;
 "~*\brusoft\-zone\.ru\b" 	1;
 "~*\bruspdd\.com\b" 	1;
+"~*\brusprostitute\.com\b" 	1;
 "~*\brussia\-tao\.ru\b" 	1;
 "~*\brussia\-today\-video\.ru\b" 	1;
 "~*\brussintv\.fr\b" 	1;
@@ -4478,6 +4486,7 @@
 "~*\bsexcamamateurchat\.com\b" 	1;
 "~*\bsex\-dating\.co\b" 	1;
 "~*\bsexflirtbook\.com\b" 	1;
+"~*\bsex\-foto\.pw\b" 	1;
 "~*\bsex\.hotblog\.top\b" 	1;
 "~*\bsexkontakteao\.info\b" 	1;
 "~*\bsexkontakte\-seite\.com\b" 	1;
@@ -5480,6 +5489,7 @@
 "~*\bwarningwar\.ru\b" 	1;
 "~*\bwarningzscaler\.heraeus\.com\b" 	1;
 "~*\bwatchdogs\-2\.ru\b" 	1;
+"~*\bwatchinf\.com\b" 	1;
 "~*\bwatch\-movies\.ru\b" 	1;
 "~*\bwatchmyfb\.pl\b" 	1;
 "~*\bwatchmygf\.net\b" 	1;
@@ -5931,6 +5941,7 @@
 "~*\bzootoplist\.com\b" 	1;
 "~*\bzootravel\.com\b" 	1;
 "~*\bzophim\.me\b" 	1;
+"~*\bzrelaya\.pw\b" 	1;
 "~*\bzrizvtrnpale\.tk\b" 	1;
 "~*\bzrus\.org\b" 	1;
 "~*\bzryydi\.com\b" 	1;
