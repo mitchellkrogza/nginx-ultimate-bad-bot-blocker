@@ -1908,6 +1908,7 @@
 "~*\bfireads\.men\b" 	1;
 "~*\bfiresub\.pl\b" 	1;
 "~*\bfirma\-legion\.ru\b" 	1;
+"~*\bfirstdrugmall\.ru\b" 	1;
 "~*\bfirstsiteguide\.com\b" 	1;
 "~*\bfishingwholesale\.us\b" 	1;
 "~*\bfitfloponline\.store\b" 	1;
@@ -2077,6 +2078,7 @@
 "~*\bgambarkataku\.co\b" 	1;
 "~*\bgambarxkata\.co\b" 	1;
 "~*\bgamblingnerd\.com\b" 	1;
+"~*\bgamebackyard\.com\b" 	1;
 "~*\bgamedayassist\.com\b" 	1;
 "~*\bgamedayhouse\.com\b" 	1;
 "~*\bgame\-mmorpg\.net\b" 	1;
@@ -2163,6 +2165,7 @@
 "~*\bgirlgamerdaily\.com\b" 	1;
 "~*\bgirlporn\.ru\b" 	1;
 "~*\bgirlsatgames\.ru\b" 	1;
+"~*\bgirlsfuckdick\.com\b" 	1;
 "~*\bgirlspicsa\.com\b" 	1;
 "~*\bgirls\-ufa\.ru\b" 	1;
 "~*\bgiven2\.com\b" 	1;
@@ -5381,6 +5384,7 @@
 "~*\bvideochat\.tv\.br\b" 	1;
 "~*\bvideochat\.world\b" 	1;
 "~*\bvideochaty\.ru\b" 	1;
+"~*\bvideogamesecrets\.com\b" 	1;
 "~*\bvideo\-hollywood\.ru\b" 	1;
 "~*\bvideojam\.tv\b" 	1;
 "~*\bvideokrik\.net\b" 	1;
