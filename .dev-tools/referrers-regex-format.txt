@@ -317,6 +317,7 @@
 "~*\ballblogroll\.com\b" 	1;
 "~*\ballboard\.xobor\.de\b" 	1;
 "~*\ballcredits\.su\b" 	1;
+"~*\balldezservice\.kz\b" 	1;
 "~*\balldownload\.pw\b" 	1;
 "~*\balldubai\.biz\b" 	1;
 "~*\ballesohnegirls\.net\b" 	1;
@@ -394,6 +395,7 @@
 "~*\banime\.dougasouko\.com\b" 	1;
 "~*\banjalika\.co\.in\b" 	1;
 "~*\banlimebel\.kiev\.ua\b" 	1;
+"~*\banmysite\.com\b" 	1;
 "~*\banniemation\.com\b" 	1;
 "~*\banonymizeme\.pro\b" 	1;
 "~*\banonymous\-redirect\.com\b" 	1;
@@ -1691,6 +1693,7 @@
 "~*\benglate\.com\b" 	1;
 "~*\benglishdictionaryfree\.com\b" 	1;
 "~*\benglishgamer\.com\b" 	1;
+"~*\beng\-lyrics\.com\b" 	1;
 "~*\benhand\.se\b" 	1;
 "~*\benskedesquashclub\.se\b" 	1;
 "~*\benternet\.ee\b" 	1;
@@ -1734,6 +1737,7 @@
 "~*\beste\-line\.com\.ua\b" 	1;
 "~*\bestibot\.com\b" 	1;
 "~*\betm\-consult\.de\b" 	1;
+"~*\betur\.ru\b" 	1;
 "~*\beu\-cookie\-law\.blogspot\.com\b" 	1;
 "~*\beu\-cookie\-law\.info\b" 	1;
 "~*\beugenevaultstorage\.com\b" 	1;
@@ -1959,6 +1963,7 @@
 "~*\bforpackningsutveckling\.se\b" 	1;
 "~*\bforpostlock\.ru\b" 	1;
 "~*\bforsex\.info\b" 	1;
+"~*\bfortevidyoze\.net\b" 	1;
 "~*\bfortunejack\.com\b" 	1;
 "~*\bforum20\.smailik\.org\b" 	1;
 "~*\bforum69\.info\b" 	1;
@@ -4556,6 +4561,7 @@
 "~*\bshopvilleroyboch\.com\.ua\b" 	1;
 "~*\bshopwme\.ru\b" 	1;
 "~*\bshop\.xz618\.com\b" 	1;
+"~*\bshtaketniki\.kz\b" 	1;
 "~*\bshtaketniki\.ru\b" 	1;
 "~*\bshtora66\.ru\b" 	1;
 "~*\bshymkent\.xkaz\.org\b" 	1;
@@ -4891,6 +4897,7 @@
 "~*\bsymphonyintegratedhealthcare\.com\b" 	1;
 "~*\bsyvertsen\-da\.no\b" 	1;
 "~*\bszamponrevita\.pl\b" 	1;
+"~*\bszucs\.ru\b" 	1;
 "~*\bt3chtonic\.com\b" 	1;
 "~*\btaaaak\.com\b" 	1;
 "~*\btabletkinaodchudzanie\.com\.pl\b" 	1;
@@ -5767,6 +5774,7 @@
 "~*\bxrus\.org\b" 	1;
 "~*\bxsion\.net\b" 	1;
 "~*\bx\-stars\.ru\b" 	1;
+"~*\bx\-true\.info\b" 	1;
 "~*\bxtube\.com\b" 	1;
 "~*\bxtubeporno\.net\b" 	1;
 "~*\bxuki\.us\b" 	1;
@@ -5857,6 +5865,7 @@
 "~*\bzahvat\.ru\b" 	1;
 "~*\bzaidia\.xhost\.ro\b" 	1;
 "~*\bzaimhelp\.ru\b" 	1;
+"~*\bzaimite\.ru\b" 	1;
 "~*\bzaim\-pod\-zalog\-krasnodar\.ru\b" 	1;
 "~*\bzajm\-pod\-zalog\-nedvizhimosti\.ru\b" 	1;
 "~*\bzajm\-zalog\-krasnodar\.ru\b" 	1;

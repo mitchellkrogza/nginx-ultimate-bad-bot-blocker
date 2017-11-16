@@ -320,6 +320,7 @@ domain:all4invest.ru
 domain:allblogroll.com
 domain:allboard.xobor.de
 domain:allcredits.su
+domain:alldezservice.kz
 domain:alldownload.pw
 domain:alldubai.biz
 domain:allesohnegirls.net
@@ -395,6 +396,7 @@ domain:anime.dougasouko.com
 domain:animebox.com.ua
 domain:anjalika.co.in
 domain:anlimebel.kiev.ua
+domain:anmysite.com
 domain:anniemation.com
 domain:anonymizeme.pro
 domain:anonymous-redirect.com
@@ -1686,6 +1688,7 @@ domain:encodable.com
 domain:energy-ua.com
 domain:energydiet-info.ru
 domain:energydiet24.ru
+domain:eng-lyrics.com
 domain:enge-fotzen.info
 domain:enginebay.ru
 domain:engines-usa.com
@@ -1734,6 +1737,7 @@ domain:este-line.com.ua
 domain:estelight.ru
 domain:estibot.com
 domain:etm-consult.de
+domain:etur.ru
 domain:eu-cookie-law.blogspot.com
 domain:eu-cookie-law.info
 domain:eugenevaultstorage.com
@@ -1959,6 +1963,7 @@ domain:forodvd.com
 domain:forpackningsutveckling.se
 domain:forpostlock.ru
 domain:forsex.info
+domain:fortevidyoze.net
 domain:fortunejack.com
 domain:forum-engineering.ru
 domain:forum.doctissimo.fr
@@ -4558,6 +4563,7 @@ domain:shoppytoolmac.com
 domain:shopsellcardsdumps.com
 domain:shopvilleroyboch.com.ua
 domain:shopwme.ru
+domain:shtaketniki.kz
 domain:shtaketniki.ru
 domain:shtora66.ru
 domain:shymkent.xkaz.org
@@ -4891,6 +4897,7 @@ domain:symbaloo.com
 domain:symphonyintegratedhealthcare.com
 domain:syvertsen-da.no
 domain:szamponrevita.pl
+domain:szucs.ru
 domain:t-bygg.com
 domain:t3chtonic.com
 domain:taaaak.com
@@ -5676,6 +5683,7 @@ domain:x-musics.com
 domain:x-porno.video
 domain:x-rates.ru
 domain:x-stars.ru
+domain:x-true.info
 domain:xaijo.com
 domain:xaylapdiendanang.com
 domain:xbaboon.com
@@ -5860,6 +5868,7 @@ domain:zahvat.ru
 domain:zaidia.xhost.ro
 domain:zaim-pod-zalog-krasnodar.ru
 domain:zaimhelp.ru
+domain:zaimite.ru
 domain:zajm-pod-zalog-nedvizhimosti.ru
 domain:zajm-zalog-krasnodar.ru
 domain:zakazfutbolki.com
