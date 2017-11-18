@@ -1783,6 +1783,7 @@
 "~*\bextads\.net\b" 	1;
 "~*\bextener\.org\b" 	1;
 "~*\bextlabs\.io\b" 	1;
+"~*\bextlinks\.com\b" 	1;
 "~*\bextrabot\.com\b" 	1;
 "~*\bextractorandburner\.com\b" 	1;
 "~*\bextremal\-blog\.com\b" 	1;
