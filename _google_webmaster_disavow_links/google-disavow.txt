@@ -441,6 +441,7 @@ domain:apispringsmartne-a.akamaihd.net
 domain:apiwebwebgetcom-a.akamaihd.net
 domain:apiwoodensealcom-a.akamaihd.net
 domain:app-ready.xyz
+domain:app5.letmacworkfaster.world
 domain:apparel-offer.com
 domain:appartement-stumm.at
 domain:appearance-cool.com
@@ -448,6 +449,7 @@ domain:apper.de
 domain:appfastplay.com
 domain:appfixing.space
 domain:appiq.mobi
+domain:apple.com-cleaner.systems
 domain:apple.com-webbrowsing-security.review
 domain:apple.com-webbrowsing-security.science
 domain:appleid-verification.com
@@ -457,6 +459,7 @@ domain:approved.su
 domain:approvedlocal.co.za
 domain:apps-analytics.net
 domain:appsaurus.com
+domain:appsecurityr.com
 domain:apptester.tk
 domain:aproposde.com
 domain:apxeo.info
@@ -692,6 +695,7 @@ domain:best-seo-offer.com
 domain:best-seo-software.xyz
 domain:best-seo-solution.com
 domain:best-way.men
+domain:bestadbid.com
 domain:bestbrainprod.win
 domain:bestbuy.ca
 domain:bestcalovebracelet.cn
@@ -1201,6 +1205,7 @@ domain:colehaanoutlet.store
 domain:collegeessay19.blogspot.ru
 domain:collegerentals.com
 domain:colobit.biz
+domain:com-cleaner.systems
 domain:com-onlinesupport.host
 domain:com-onlinesupport.site
 domain:com-secure.download
@@ -2929,6 +2934,7 @@ domain:lesbian.xyz
 domain:lescinq.com
 domain:letmacwork.world
 domain:letmacworkfaster.site
+domain:letmacworkfaster.world
 domain:letolove.ru
 domain:letsart.ru
 domain:letslowbefast.site
@@ -3621,6 +3627,7 @@ domain:onclkads.com
 domain:one-gear.com
 domain:oneclickfiles.com
 domain:onefilms.net
+domain:onemactrckr.com
 domain:onemantrip.com
 domain:oneminutesite.it
 domain:onescreen.cc
@@ -5519,6 +5526,7 @@ domain:we-are-gamers.com
 domain:web-betting.ru
 domain:web.cvut.cz
 domain:webads.co.nz
+domain:webadvance.club
 domain:webalan.ru
 domain:webenlace.com.ar
 domain:webextract.profound.net
@@ -5850,6 +5858,7 @@ domain:yoursearch.me
 domain:yourserverisdown.com
 domain:yoursite.com
 domain:yourtemplatefinder.com
+domain:youthreaders.com
 domain:youtoner.it
 domain:youtube-downloader.savetubevideo.com
 domain:youtubedownload.org

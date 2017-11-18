@@ -438,6 +438,7 @@
 "~*\bapi\.stathat\.com\b" 	1;
 "~*\bapiwebwebgetcom\-a\.akamaihd\.net\b" 	1;
 "~*\bapiwoodensealcom\-a\.akamaihd\.net\b" 	1;
+"~*\bapp5\.letmacworkfaster\.world\b" 	1;
 "~*\bapparel\-offer\.com\b" 	1;
 "~*\bappartement\-stumm\.at\b" 	1;
 "~*\bappearance\-cool\.com\b" 	1;
@@ -445,6 +446,7 @@
 "~*\bappfastplay\.com\b" 	1;
 "~*\bappfixing\.space\b" 	1;
 "~*\bappiq\.mobi\b" 	1;
+"~*\bapple\.com\-cleaner\.systems\b" 	1;
 "~*\bapple\.com\-webbrowsing\-security\.review\b" 	1;
 "~*\bapple\.com\-webbrowsing\-security\.science\b" 	1;
 "~*\bappleid\-verification\.com\b" 	1;
@@ -455,6 +457,7 @@
 "~*\bapproved\.su\b" 	1;
 "~*\bapps\-analytics\.net\b" 	1;
 "~*\bappsaurus\.com\b" 	1;
+"~*\bappsecurityr\.com\b" 	1;
 "~*\bapptester\.tk\b" 	1;
 "~*\ba\.pr\-cy\.ru\b" 	1;
 "~*\baproposde\.com\b" 	1;
@@ -683,6 +686,7 @@
 "~*\bberdasovivan\.ru\b" 	1;
 "~*\bberlininsl\.com\b" 	1;
 "~*\bberrymall\.ru\b" 	1;
+"~*\bbestadbid\.com\b" 	1;
 "~*\bbestbrainprod\.win\b" 	1;
 "~*\bbest\-businessman\.ru\b" 	1;
 "~*\bbestbuy\.ca\b" 	1;
@@ -1201,6 +1205,7 @@
 "~*\bcollegerentals\.com\b" 	1;
 "~*\bcolobit\.biz\b" 	1;
 "~*\bco\.lumb\.co\b" 	1;
+"~*\bcom\-cleaner\.systems\b" 	1;
 "~*\bcometorussia\.net\b" 	1;
 "~*\bcomissionka\.net\b" 	1;
 "~*\bcommunisave\.co\.za\b" 	1;
@@ -2928,6 +2933,7 @@
 "~*\blesbian\.xyz\b" 	1;
 "~*\blescinq\.com\b" 	1;
 "~*\bletmacworkfaster\.site\b" 	1;
+"~*\bletmacworkfaster\.world\b" 	1;
 "~*\bletmacwork\.world\b" 	1;
 "~*\bletolove\.ru\b" 	1;
 "~*\bletsart\.ru\b" 	1;
@@ -3616,6 +3622,7 @@
 "~*\boneclickfiles\.com\b" 	1;
 "~*\bonefilms\.net\b" 	1;
 "~*\bone\-gear\.com\b" 	1;
+"~*\bonemactrckr\.com\b" 	1;
 "~*\bonemantrip\.com\b" 	1;
 "~*\boneminutesite\.it\b" 	1;
 "~*\bonescreen\.cc\b" 	1;
@@ -5516,6 +5523,7 @@
 "~*\bwdrake\.com\b" 	1;
 "~*\bwe\-are\-gamers\.com\b" 	1;
 "~*\bwebads\.co\.nz\b" 	1;
+"~*\bwebadvance\.club\b" 	1;
 "~*\bwebalan\.ru\b" 	1;
 "~*\bweb\-betting\.ru\b" 	1;
 "~*\bweb\.cvut\.cz\b" 	1;
@@ -5850,6 +5858,7 @@
 "~*\byoursite\.com\b" 	1;
 "~*\byourtemplatefinder\.com\b" 	1;
 "~*\byou\-shall\-not\-pass\.is74\.ru\b" 	1;
+"~*\byouthreaders\.com\b" 	1;
 "~*\byoutoner\.it\b" 	1;
 "~*\byoutube\-downloader\.savetubevideo\.com\b" 	1;
 "~*\byoutubedownload\.org\b" 	1;
