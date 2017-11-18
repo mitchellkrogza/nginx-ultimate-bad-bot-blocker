@@ -129,6 +129,7 @@
 "~*\b8xv8\.com\b" 	1;
 "~*\b91abcw\.com\b" 	1;
 "~*\b98oi\.ru\b" 	1;
+"~*\b991mostfm\.co\.id\b" 	1;
 "~*\b999webdesign\.com\b" 	1;
 "~*\b9icmzvn6\.website\b" 	1;
 "~*\b9med\.net\b" 	1;
@@ -2378,6 +2379,7 @@
 "~*\bhistats\.com\b" 	1;
 "~*\bhistock\.info\b" 	1;
 "~*\bhistorichometeam\.com\b" 	1;
+"~*\bhitcpm\.com\b" 	1;
 "~*\bhit\-men\.men\b" 	1;
 "~*\bhitsbox\.info\b" 	1;
 "~*\bhiwibyh\.bugs3\.com\b" 	1;
@@ -2925,6 +2927,7 @@
 "~*\blerporn\.info\b" 	1;
 "~*\blesbian\.xyz\b" 	1;
 "~*\blescinq\.com\b" 	1;
+"~*\bletmacworkfaster\.site\b" 	1;
 "~*\bletmacwork\.world\b" 	1;
 "~*\bletolove\.ru\b" 	1;
 "~*\bletsart\.ru\b" 	1;

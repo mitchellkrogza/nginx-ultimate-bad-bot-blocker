@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.11.996
-### Updated: Thu Nov 16 14:52:07 SAST 2017
-### Bad Bot Count: 502
+### Version: V3.2017.11.998
+### Updated: Sat Nov 18 14:56:55 SAST 2017
+### Bad Bot Count: 503
 ###################################################
 ### Version Information ##
 
@@ -240,6 +240,8 @@ Disallow:/
 User-agent: Exabot
 Disallow:/
 User-agent: Express WebPictures
+Disallow:/
+User-agent: ExtLinksBot
 Disallow:/
 User-agent: Extractor
 Disallow:/
