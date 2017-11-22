@@ -315,6 +315,7 @@ domain:aliexpress.com
 domain:aliexpresscashback.club
 domain:alif-ba-ta.com
 domain:alive-ua.com
+domain:alkoravto.ru
 domain:all-number.com
 domain:all-streaming-media.com
 domain:all4invest.info
@@ -2147,6 +2148,7 @@ domain:geileweiber.tk
 domain:gelezki.com
 domain:gemara.com
 domain:gembird.com
+domain:gemgrab-a.akamaihd.net
 domain:generalporn.org
 domain:generic-pills-online.com
 domain:genericlowlatencyasiodriverhq.aircus.com
@@ -4349,6 +4351,7 @@ domain:sale-japan.com
 domain:saletool.ru
 domain:salmonfishingsacramentoriver.com
 domain:salutmontreal.com
+domain:samara.rosfirm.ru
 domain:sammlungfotos.online
 domain:sammyweaver.com
 domain:samo-soznanie.ru

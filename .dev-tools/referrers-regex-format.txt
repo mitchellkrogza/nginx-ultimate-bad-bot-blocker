@@ -314,6 +314,7 @@
 "~*\baliexpress\.com\b" 	1;
 "~*\balif\-ba\-ta\.com\b" 	1;
 "~*\balive\-ua\.com\b" 	1;
+"~*\balkoravto\.ru\b" 	1;
 "~*\ball4invest\.info\b" 	1;
 "~*\ball4invest\.ru\b" 	1;
 "~*\ballblogroll\.com\b" 	1;
@@ -2146,6 +2147,7 @@
 "~*\bgelezki\.com\b" 	1;
 "~*\bgemara\.com\b" 	1;
 "~*\bgembird\.com\b" 	1;
+"~*\bgemgrab\-a\.akamaihd\.net\b" 	1;
 "~*\bgeneralporn\.org\b" 	1;
 "~*\bgenericlowlatencyasiodriverhq\.aircus\.com\b" 	1;
 "~*\bgeneric\-pills\-online\.com\b" 	1;
@@ -4347,6 +4349,7 @@
 "~*\bsa\-live\.com\b" 	1;
 "~*\bsalmonfishingsacramentoriver\.com\b" 	1;
 "~*\bsalutmontreal\.com\b" 	1;
+"~*\bsamara\.rosfirm\.ru\b" 	1;
 "~*\bsammlungfotos\.online\b" 	1;
 "~*\bsammyweaver\.com\b" 	1;
 "~*\bsamoiedo\.it\b" 	1;
