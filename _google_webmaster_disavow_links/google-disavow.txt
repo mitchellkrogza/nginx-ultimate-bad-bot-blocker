@@ -1186,6 +1186,7 @@ domain:clickzzs.nl
 domain:clipartnew.com
 domain:clippingphotoindia.com
 domain:clips.ua.ac.be
+domain:clknsee.com
 domain:clksite.com
 domain:clmforexeu.com
 domain:clodo.ru

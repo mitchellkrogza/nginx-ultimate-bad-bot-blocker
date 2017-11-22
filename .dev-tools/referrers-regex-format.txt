@@ -1185,6 +1185,7 @@
 "~*\bclipartnew\.com\b" 	1;
 "~*\bclippingphotoindia\.com\b" 	1;
 "~*\bclips\.ua\.ac\.be\b" 	1;
+"~*\bclknsee\.com\b" 	1;
 "~*\bclksite\.com\b" 	1;
 "~*\bclmforexeu\.com\b" 	1;
 "~*\bclodo\.ru\b" 	1;
