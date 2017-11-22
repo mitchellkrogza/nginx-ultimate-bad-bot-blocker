@@ -3687,7 +3687,6 @@
 "~*\booomeru\.ru\b" 	1;
 "~*\booo\-olni\.ru\b" 	1;
 "~*\boops\-cinema\.ru\b" 	1;
-"~*\bopenallurls\.com\b" 	1;
 "~*\bopenfrost\.com\b" 	1;
 "~*\bopenfrost\.net\b" 	1;
 "~*\bopenlibrary\.org\b" 	1;

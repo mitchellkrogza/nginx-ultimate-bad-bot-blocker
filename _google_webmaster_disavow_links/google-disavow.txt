@@ -3688,7 +3688,6 @@ domain:ooo-olni.ru
 domain:ooomeru.ru
 domain:oops-cinema.ru
 domain:open-odyssey.org
-domain:openallurls.com
 domain:openfrost.com
 domain:openfrost.net
 domain:openlibrary.org
