@@ -627,6 +627,7 @@ domain:baixar-musicas-gratis.com
 domain:baksman.com
 domain:bala.getenjoyment.net
 domain:baladur.ru
+domain:balans.shahterworld.org
 domain:balitouroffice.com
 domain:balkanfarma.org
 domain:balkanfarma.ru
@@ -2731,6 +2732,7 @@ domain:justbcause.com
 domain:justdating.online
 domain:justkillingti.me
 domain:justprofit.xyz
+domain:justucalling32211123456789.tk
 domain:jwss.cc
 domain:kaac.ru
 domain:kabbalah-red-bracelets.com
@@ -3899,6 +3901,7 @@ domain:platezhka.net
 domain:platinumdeals.gr
 domain:play-movie.pl
 domain:play-mp3.com
+domain:play.leadzupc.com
 domain:playboyfiles.xblog.in
 domain:playlott.com
 domain:playmsn.com
@@ -4337,6 +4340,7 @@ domain:s-iwantyou.com
 domain:s.lollypopgaming.com
 domain:s8-nowy-wygraj.comli.com
 domain:sa-live.com
+domain:sa-rewards.co.za
 domain:sabaapress.com
 domain:sabizonline.com
 domain:sack.net

@@ -626,6 +626,7 @@
 "~*\bbaksman\.com\b" 	1;
 "~*\bbaladur\.ru\b" 	1;
 "~*\bbala\.getenjoyment\.net\b" 	1;
+"~*\bbalans\.shahterworld\.org\b" 	1;
 "~*\bbalitouroffice\.com\b" 	1;
 "~*\bbalkanfarma\.org\b" 	1;
 "~*\bbalkanfarma\.ru\b" 	1;
@@ -2731,6 +2732,7 @@
 "~*\bjustdating\.online\b" 	1;
 "~*\bjustkillingti\.me\b" 	1;
 "~*\bjustprofit\.xyz\b" 	1;
+"~*\bjustucalling32211123456789\.tk\b" 	1;
 "~*\bjwss\.cc\b" 	1;
 "~*\bkaac\.ru\b" 	1;
 "~*\bkabbalah\-red\-bracelets\.com\b" 	1;
@@ -3895,6 +3897,7 @@
 "~*\bplatezhka\.net\b" 	1;
 "~*\bplatinumdeals\.gr\b" 	1;
 "~*\bplayboyfiles\.xblog\.in\b" 	1;
+"~*\bplay\.leadzupc\.com\b" 	1;
 "~*\bplaylott\.com\b" 	1;
 "~*\bplay\-movie\.pl\b" 	1;
 "~*\bplay\-mp3\.com\b" 	1;
@@ -4369,6 +4372,7 @@
 "~*\bsarafangel\.ru\b" 	1;
 "~*\bsaratov\.xrus\.org\b" 	1;
 "~*\bsardinie\.us\b" 	1;
+"~*\bsa\-rewards\.co\.za\b" 	1;
 "~*\bsarf3omlat\.com\b" 	1;
 "~*\bsarm\.tk\b" 	1;
 "~*\bsashagreyblog\.ga\b" 	1;
