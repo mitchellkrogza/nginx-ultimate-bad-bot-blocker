@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.11.1005
-### Updated: Wed Nov 22 17:36:29 SAST 2017
-### Bad Referrer Count: 6018
+### Version: V3.2017.11.1006
+### Updated: Thu Nov 23 11:38:09 SAST 2017
+### Bad Referrer Count: 6021
 ### Bad Bot Count: 503
 ###################################################
 ### VERSION INFORMATION ##
@@ -3349,6 +3349,7 @@ map $http_referer $bad_referer {
 	"~*\bhowlongdoestizanidinestayinyoursystem\.blogspot\.com\b" 	1;
 	"~*\bhowmuchdoestizanidinecost\.blogspot\.com\b" 	1;
 	"~*\bhowopen\.ru\b" 	1;
+	"~*\bhowtoclean\.club\b" 	1;
 	"~*\bhowtowhitenteethfast\.xyz\b" 	1;
 	"~*\bhplaserjetpdriver8y\.pen\.io\b" 	1;
 	"~*\bhptwaakw\.blog\.fc2\.com\b" 	1;
@@ -5879,6 +5880,7 @@ map $http_referer $bad_referer {
 	"~*\bthaisamkok\.com\b" 	1;
 	"~*\btheallgirlarcade\.com\b" 	1;
 	"~*\bthebestweightlosspills\.ovh\b" 	1;
+	"~*\bthebitcoincode\.com\b" 	1;
 	"~*\bthebluenoodle\.com\b" 	1;
 	"~*\bthebluffs\.com\b" 	1;
 	"~*\bthecoolimages\.net\b" 	1;
@@ -6437,6 +6439,7 @@ map $http_referer $bad_referer {
 	"~*\bwebadvance\.club\b" 	1;
 	"~*\bwebalan\.ru\b" 	1;
 	"~*\bweb\-betting\.ru\b" 	1;
+	"~*\bwebcamdevochka\.com\b" 	1;
 	"~*\bweb\.cvut\.cz\b" 	1;
 	"~*\bwebenlace\.com\.ar\b" 	1;
 	"~*\bwebextract\.profound\.net\b" 	1;
