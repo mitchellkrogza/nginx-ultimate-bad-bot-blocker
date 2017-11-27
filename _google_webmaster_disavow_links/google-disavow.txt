@@ -704,6 +704,7 @@ domain:bestbrainprod.win
 domain:bestbuy.ca
 domain:bestcalovebracelet.cn
 domain:bestchoice.cf
+domain:bestcoin.cc
 domain:bestcurs.org
 domain:bestdooz.com
 domain:bestdraws.com
@@ -1046,6 +1047,7 @@ domain:casinos4dummies.co.uk
 domain:casite-513049.cloudaccess.net
 domain:castingbank.ru
 domain:catalogs-parts.com
+domain:caulderwoodkennels.com
 domain:caveavins.fr
 domain:cayado.snn.gr
 domain:cb.iphantom.com
@@ -1123,6 +1125,8 @@ domain:chinajerseyswholesalecoupons.com
 domain:chinese-amezon.com
 domain:chiptuninger.com
 domain:chlooe.com
+domain:chocolateslim-en-espana.com
+domain:chocolateslim-en-france.com
 domain:chocolateslim-original.com
 domain:chocoslim.pro
 domain:choice-credit.ru
@@ -1338,6 +1342,7 @@ domain:crd.clan.su
 domain:creams.makeforum.eu
 domain:creativehutindia.com
 domain:creatives.adbetclickin.pink
+domain:credit-respect.ru
 domain:creditmoney.com.ua
 domain:creditnation.ru
 domain:creditwell.ru
@@ -1533,6 +1538,7 @@ domain:domaincrawler.com
 domain:domaineaneblanc.com
 domain:domainroam.win
 domain:domainsatcost.com
+domain:domainsphoto.com
 domain:domashneeruporno.com
 domain:domcran.net
 domain:domik-derevne.ru
@@ -1877,6 +1883,7 @@ domain:feargames.ru
 domain:feel-planet.com
 domain:feeriaclub.ru
 domain:fefo.gdn
+domain:fellowshipoftheminds.com
 domain:femdom.twiclub.in
 domain:femmesdenudees.com
 domain:fenoyl.batcave.net
@@ -2042,6 +2049,7 @@ domain:freesitetest.com
 domain:freetangodownload.com
 domain:freeuploader.com
 domain:freeuploader.ml
+domain:freewareseek.com
 domain:freewebs.com
 domain:freewhatsappload.com
 domain:freewlan.info
@@ -2557,6 +2565,7 @@ domain:imgata.com
 domain:imicrovision.com
 domain:iminent.com
 domain:imitex-plus.ru
+domain:imk.com.ua
 domain:immobiliaremassaro.com
 domain:imperia31.ru
 domain:imperiafilm.ru
@@ -2874,6 +2883,7 @@ domain:krasnodar.zrus.org
 domain:krassh.ru
 domain:krasula.pp.ua
 domain:kreativperlen.ch
+domain:kredit-blog.ru
 domain:kredit-pod-zalog-krasnodar.ru
 domain:kriokomora.info
 domain:krynica.info
@@ -2936,12 +2946,14 @@ domain:lawyersinfo.org
 domain:laxdrills.com
 domain:layola.biz.tc
 domain:lazy-z.com
+domain:lazymanyoga.com
 domain:ldrtrack.com
 domain:le-clos-des-alouettes.com
 domain:leadn.pl
 domain:leadwayau.com
 domain:leboard.ru
 domain:lechenie-gemorroya.com
+domain:lechtaczka.net
 domain:ledis.top
 domain:ledpolice.ru
 domain:legalrc.biz
@@ -3953,6 +3965,7 @@ domain:pornhub-forum.ga
 domain:pornhub-ru.com
 domain:pornhubforum.tk
 domain:pornmania.pl
+domain:porno-chaman.info
 domain:porno-dojki.net
 domain:porno-play.net
 domain:porno-raskazy.ru
@@ -4134,6 +4147,7 @@ domain:quality-traffic.com
 domain:qualitymarketzone.com
 domain:quangcaons.com
 domain:quebec-bin.com
+domain:queerspace.com
 domain:quelle.ru
 domain:questionmarque.ch
 domain:quick-offer.com
@@ -4189,6 +4203,7 @@ domain:realresultslist.com
 domain:realting-moscow.ru
 domain:realtytimes.com
 domain:rebelmouse.com
+domain:rebrand.ly
 domain:rebuildermedical.com
 domain:recinziireale.com
 domain:recipedays.com
@@ -4441,6 +4456,7 @@ domain:scmor.ilxc.cc
 domain:scoopquest.com
 domain:scopich.com
 domain:score-ads.men
+domain:scottbywater.com
 domain:scrapy.org
 domain:screentoolkit.com
 domain:scripted.com
@@ -4472,6 +4488,7 @@ domain:searchlock.com
 domain:searchmywindow-a.akamaihd.net
 domain:searchtooknow-a.akamaihd.net
 domain:searchwebknow-a.akamaihd.net
+domain:seasaltwithfood.com
 domain:seasonvar.ru
 domain:seccioncontrabajo.com
 domain:secret.xn--oogle-wmc.com
@@ -4502,6 +4519,7 @@ domain:seo-smm.kz
 domain:seo-tools-optimizing.com
 domain:seo-traffic-ranking.info
 domain:seoanalyses.com
+domain:seocheckupx.com
 domain:seocheki.net
 domain:seoexperimenty.ru
 domain:seofied.com
@@ -4800,6 +4818,7 @@ domain:sport-video-obzor.ru
 domain:sport7777.net
 domain:sportbetfair.com
 domain:sports-supplements.us
+domain:spravka-medosmotr.ru
 domain:spravka130.ru
 domain:sprttrack.com
 domain:sps-shop.com
@@ -5428,6 +5447,7 @@ domain:viagra.pp.ua
 domain:viagroid.ru
 domain:viandpet.com
 domain:viberdownload10.com
+domain:viddyoze.com
 domain:video--production.com
 domain:video-chat.cn
 domain:video-chat.in
@@ -5542,6 +5562,7 @@ domain:wait3sec.org
 domain:walkme.com
 domain:wallpapers-best.com
 domain:wallpapersdesk.info
+domain:wallpapersist.com
 domain:wallpaperstock.net
 domain:wapsite.me
 domain:wareseeker.com
@@ -5750,6 +5771,7 @@ domain:xcombear.ru
 domain:xdoza.com
 domain:xedserver.com
 domain:xep.info
+domain:xerox-douglas.cf
 domain:xev.ru
 domain:xfire.com
 domain:xfluro.com
@@ -5905,6 +5927,7 @@ domain:youtoner.it
 domain:youtube-downloader.savetubevideo.com
 domain:youtubedownload.org
 domain:youtuhe.com
+domain:ypmuseum.ru
 domain:ytmnd.com
 domain:yuarra.pluto.ro
 domain:yubikk.info
