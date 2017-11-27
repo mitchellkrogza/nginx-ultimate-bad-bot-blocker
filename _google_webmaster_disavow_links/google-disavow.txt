@@ -845,6 +845,7 @@ domain:bombla.org
 domain:bonanza-fortune.men
 domain:bongacams.com
 domain:bongiornos.info
+domain:bonky.biz
 domain:bonux.nextview.ru
 domain:bonvillan.com
 domain:bonzbuddy.com
@@ -4334,6 +4335,7 @@ domain:rumamba.com
 domain:running-line.ru
 domain:runofilms.ru
 domain:runstocks.com
+domain:runtnc.net
 domain:rus-teh.narod.ru
 domain:ruscoininvest.company
 domain:ruscopybook.com
@@ -4807,6 +4809,7 @@ domain:spb.afora.ru
 domain:spb.ru
 domain:spbchampionat.ru
 domain:special-porn.com
+domain:specialfinanceoffers.com
 domain:speedup-my.site
 domain:spidtest.org
 domain:spidtest.space
@@ -5918,6 +5921,8 @@ domain:yourdesires.ru
 domain:youresponsive.com
 domain:yourmovies.pl
 domain:yourothersite.com
+domain:yourporn.com
+domain:yourporngay.com
 domain:yoursearch.me
 domain:yourserverisdown.com
 domain:yoursite.com

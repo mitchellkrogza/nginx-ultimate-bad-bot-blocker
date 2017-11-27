@@ -844,6 +844,7 @@
 "~*\bbonanza\-fortune\.men\b" 	1;
 "~*\bbongacams\.com\b" 	1;
 "~*\bbongiornos\.info\b" 	1;
+"~*\bbonky\.biz\b" 	1;
 "~*\bbonux\.nextview\.ru\b" 	1;
 "~*\bbonvillan\.com\b" 	1;
 "~*\bbonzbuddy\.com\b" 	1;
@@ -4334,6 +4335,7 @@
 "~*\brunning\-line\.ru\b" 	1;
 "~*\brunofilms\.ru\b" 	1;
 "~*\brunstocks\.com\b" 	1;
+"~*\bruntnc\.net\b" 	1;
 "~*\bruscoininvest\.company\b" 	1;
 "~*\bruscopybook\.com\b" 	1;
 "~*\brusenvironmental\.net\b" 	1;
@@ -4806,6 +4808,7 @@
 "~*\bspbchampionat\.ru\b" 	1;
 "~*\bspb\-plitka\.ru\b" 	1;
 "~*\bspb\.ru\b" 	1;
+"~*\bspecialfinanceoffers\.com\b" 	1;
 "~*\bspecial\-porn\.com\b" 	1;
 "~*\bspeedup\-my\.site\b" 	1;
 "~*\bspidtest\.org\b" 	1;
@@ -5917,6 +5920,8 @@
 "~*\byouresponsive\.com\b" 	1;
 "~*\byourmovies\.pl\b" 	1;
 "~*\byourothersite\.com\b" 	1;
+"~*\byourporn\.com\b" 	1;
+"~*\byourporngay\.com\b" 	1;
 "~*\byoursearch\.me\b" 	1;
 "~*\byourserverisdown\.com\b" 	1;
 "~*\byoursite\.com\b" 	1;
