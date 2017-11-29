@@ -13,6 +13,7 @@
 "~*\b0lovespells0\.blogspot\.com\b" 	1;
 "~*\b0n\-line\.tv\b" 	1;
 "~*\b1000n1\.ru\b" 	1;
+"~*\b1001watch\.com\.ua\b" 	1;
 "~*\b100dollars\-seo\.com\b" 	1;
 "~*\b100searchengines\.com\b" 	1;
 "~*\b101billion\.com\b" 	1;
@@ -317,6 +318,7 @@
 "~*\balkoravto\.ru\b" 	1;
 "~*\ball4invest\.info\b" 	1;
 "~*\ball4invest\.ru\b" 	1;
+"~*\ball4wap\.ru\b" 	1;
 "~*\ballblogroll\.com\b" 	1;
 "~*\ballboard\.xobor\.de\b" 	1;
 "~*\ballcredits\.su\b" 	1;
@@ -519,6 +521,7 @@
 "~*\basscenihotosidea\.blogspot\.co\.za\b" 	1;
 "~*\basseenontvonline\.ru\b" 	1;
 "~*\basseenontv\.ru\b" 	1;
+"~*\bastana\.xxxkaz\.org\b" 	1;
 "~*\bastrochicks\.com\b" 	1;
 "~*\batelielembrancaqueencanta\.com\.br\b" 	1;
 "~*\batlant\-auto\.info\b" 	1;
@@ -1129,6 +1132,7 @@
 "~*\bchocolateslim\-en\-espana\.com\b" 	1;
 "~*\bchocolateslim\-en\-france\.com\b" 	1;
 "~*\bchocolateslim\-original\.com\b" 	1;
+"~*\bchocolateslim\-u\-srbiji\.com\b" 	1;
 "~*\bchocoslim\.pro\b" 	1;
 "~*\bchoice\-credit\.ru\b" 	1;
 "~*\bchoosecuisine\.com\b" 	1;
@@ -1159,6 +1163,7 @@
 "~*\bcitysecurity\.nu\b" 	1;
 "~*\bci\.ua\b" 	1;
 "~*\bcivilwartheater\.com\b" 	1;
+"~*\bcjmc\.info\b" 	1;
 "~*\bcjs\.com\.ru\b" 	1;
 "~*\bclarithromycin500mg\.com\b" 	1;
 "~*\bclash\-clans\.ru\b" 	1;
@@ -1786,6 +1791,7 @@
 "~*\bexcaliburfilms\.com\b" 	1;
 "~*\bexchangeit\.gq\b" 	1;
 "~*\bexchanges\-bet\.com\b" 	1;
+"~*\bexcitacion\.info\b" 	1;
 "~*\bexct\.net\b" 	1;
 "~*\bexecutehosting\.com\b" 	1;
 "~*\bexhibitionplus\.eu\b" 	1;
@@ -2352,6 +2358,7 @@
 "~*\bhausfrauensex18\.com\b" 	1;
 "~*\bhaveinc\.xyz\b" 	1;
 "~*\bhavepussy\.com\b" 	1;
+"~*\bhawaiielectriclight\.com\b" 	1;
 "~*\bhawaiisurf\.com\b" 	1;
 "~*\bhayate\.biz\b" 	1;
 "~*\bhazardky\.net\b" 	1;
@@ -5316,6 +5323,7 @@
 "~*\buchil\.net\b" 	1;
 "~*\bucoz\.ru\b" 	1;
 "~*\bucsol\.ru\b" 	1;
+"~*\budayavani\.com\b" 	1;
 "~*\budsgame\.online\b" 	1;
 "~*\bufa\.xrus\.org\b" 	1;
 "~*\buggbootsoutletsale\.us\b" 	1;
@@ -5864,6 +5872,7 @@
 "~*\bxxx\-cam\.webcam\b" 	1;
 "~*\bxxxdatinglocal\.us\b" 	1;
 "~*\bxxxguitars\.com\b" 	1;
+"~*\bxxxkaz\.org\b" 	1;
 "~*\bxxxnatelefon\.ru\b" 	1;
 "~*\bxxxrus\.org\b" 	1;
 "~*\bxxx\-treker\.ru\b" 	1;

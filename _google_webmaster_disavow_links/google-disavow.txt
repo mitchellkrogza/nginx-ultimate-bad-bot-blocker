@@ -15,6 +15,7 @@ domain:0n-line.tv
 domain:1-99seo.com
 domain:1-free-share-buttons.com
 domain:1000n1.ru
+domain:1001watch.com.ua
 domain:100dollars-seo.com
 domain:100searchengines.com
 domain:101billion.com
@@ -320,6 +321,7 @@ domain:all-number.com
 domain:all-streaming-media.com
 domain:all4invest.info
 domain:all4invest.ru
+domain:all4wap.ru
 domain:allblogroll.com
 domain:allboard.xobor.de
 domain:allcredits.su
@@ -519,6 +521,7 @@ domain:asscenihotosidea.blogspot.co.za
 domain:asscenihotosidea.blogspot.com
 domain:asseenontv.ru
 domain:asseenontvonline.ru
+domain:astana.xxxkaz.org
 domain:astrochicks.com
 domain:atelielembrancaqueencanta.com.br
 domain:atlant-auto.info
@@ -1129,6 +1132,7 @@ domain:chlooe.com
 domain:chocolateslim-en-espana.com
 domain:chocolateslim-en-france.com
 domain:chocolateslim-original.com
+domain:chocolateslim-u-srbiji.com
 domain:chocoslim.pro
 domain:choice-credit.ru
 domain:choosecuisine.com
@@ -1159,6 +1163,7 @@ domain:citizenclsdriveri7.pen.io
 domain:cityadspix.com
 domain:citysecurity.nu
 domain:civilwartheater.com
+domain:cjmc.info
 domain:cjs.com.ru
 domain:cl.s7.exct.net
 domain:clarithromycin500mg.com
@@ -1786,6 +1791,7 @@ domain:ewebarticle.info
 domain:excaliburfilms.com
 domain:exchangeit.gq
 domain:exchanges-bet.com
+domain:excitacion.info
 domain:exct.net
 domain:executehosting.com
 domain:exhibitionplus.eu
@@ -2352,6 +2358,7 @@ domain:hauleddes.com
 domain:hausfrauensex18.com
 domain:haveinc.xyz
 domain:havepussy.com
+domain:hawaiielectriclight.com
 domain:hawaiisurf.com
 domain:hayate.biz
 domain:hazardky.net
@@ -5316,6 +5323,7 @@ domain:uchetunet.su
 domain:uchil.net
 domain:ucoz.ru
 domain:ucsol.ru
+domain:udayavani.com
 domain:udsgame.online
 domain:ufa.xrus.org
 domain:uggbootsoutletsale.us
@@ -5865,6 +5873,7 @@ domain:xxx-cam.webcam
 domain:xxx-treker.ru
 domain:xxxdatinglocal.us
 domain:xxxguitars.com
+domain:xxxkaz.org
 domain:xxxnatelefon.ru
 domain:xxxrus.org
 domain:xxxtube69.com
