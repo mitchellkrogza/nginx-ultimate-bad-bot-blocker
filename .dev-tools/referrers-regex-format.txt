@@ -1957,6 +1957,7 @@
 "~*\bfix\-website\-errors\.com\b" 	1;
 "~*\bflash4fun\.com\b" 	1;
 "~*\bflashbannernow\.com\b" 	1;
+"~*\bflashlarevista\.com\b" 	1;
 "~*\bflavors\.me\b" 	1;
 "~*\bflex4launch\.ru\b" 	1;
 "~*\bflipper\.top\b" 	1;
@@ -3423,6 +3424,7 @@
 "~*\bmusezone\.ru\b" 	1;
 "~*\bmusezone\.su\b" 	1;
 "~*\bmusflashtv\.com\b" 	1;
+"~*\bmusic7s\.me\b" 	1;
 "~*\bmusicas\.baixar\-musicas\-gratis\.com\b" 	1;
 "~*\bmusicdaddy\.net\b" 	1;
 "~*\bmusicktab\.com\b" 	1;
@@ -5084,6 +5086,7 @@
 "~*\btimhost\.ru\b" 	1;
 "~*\btitan\-ads\.life\b" 	1;
 "~*\btitan\-cloud\.life\b" 	1;
+"~*\btitangel\-vietnam\.com\b" 	1;
 "~*\btitelhelden\.eu\b" 	1;
 "~*\btitslove\.yopoint\.in\b" 	1;
 "~*\btizanidine4mg\.blogspot\.com\b" 	1;

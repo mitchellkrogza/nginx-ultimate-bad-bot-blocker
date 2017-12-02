@@ -1959,6 +1959,7 @@ domain:fiverr.com
 domain:fix-website-errors.com
 domain:flash4fun.com
 domain:flashbannernow.com
+domain:flashlarevista.com
 domain:flavors.me
 domain:flex4launch.ru
 domain:flipper.top
@@ -3424,6 +3425,7 @@ domain:musezone.ru
 domain:musezone.su
 domain:musflashtv.com
 domain:music.utrolive.ru
+domain:music7s.me
 domain:musicas.baixar-musicas-gratis.com
 domain:musicdaddy.net
 domain:musicktab.com
@@ -5084,6 +5086,7 @@ domain:timetorelax.biz
 domain:timhost.ru
 domain:titan-ads.life
 domain:titan-cloud.life
+domain:titangel-vietnam.com
 domain:titelhelden.eu
 domain:titslove.yopoint.in
 domain:tizanidine4mg.blogspot.com

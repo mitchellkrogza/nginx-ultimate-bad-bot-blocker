@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2017.11.1010
-### Updated: Wed Nov 29 11:19:03 SAST 2017
-### Bad Referrer Count: 6062
+### Version: V3.2017.12.1011
+### Updated: Sat Dec  2 10:29:25 SAST 2017
+### Bad Referrer Count: 6065
 ### Bad Bot Count: 503
 ###################################################
 ### VERSION INFORMATION ##
@@ -2835,6 +2835,7 @@ map $http_referer $bad_referer {
 	"~*\bfix\-website\-errors\.com\b" 	1;
 	"~*\bflash4fun\.com\b" 	1;
 	"~*\bflashbannernow\.com\b" 	1;
+	"~*\bflashlarevista\.com\b" 	1;
 	"~*\bflavors\.me\b" 	1;
 	"~*\bflex4launch\.ru\b" 	1;
 	"~*\bflipper\.top\b" 	1;
@@ -4301,6 +4302,7 @@ map $http_referer $bad_referer {
 	"~*\bmusezone\.ru\b" 	1;
 	"~*\bmusezone\.su\b" 	1;
 	"~*\bmusflashtv\.com\b" 	1;
+	"~*\bmusic7s\.me\b" 	1;
 	"~*\bmusicas\.baixar\-musicas\-gratis\.com\b" 	1;
 	"~*\bmusicdaddy\.net\b" 	1;
 	"~*\bmusicktab\.com\b" 	1;
@@ -5962,6 +5964,7 @@ map $http_referer $bad_referer {
 	"~*\btimhost\.ru\b" 	1;
 	"~*\btitan\-ads\.life\b" 	1;
 	"~*\btitan\-cloud\.life\b" 	1;
+	"~*\btitangel\-vietnam\.com\b" 	1;
 	"~*\btitelhelden\.eu\b" 	1;
 	"~*\btitslove\.yopoint\.in\b" 	1;
 	"~*\btizanidine4mg\.blogspot\.com\b" 	1;
