@@ -105,6 +105,7 @@ domain:5i2.net
 domain:5kstore.com
 domain:5tey7463.weebly.com
 domain:5u.com
+domain:5ws.dating-app.ru
 domain:6128786.com
 domain:66cpwgln.space
 domain:6hopping.com
@@ -1408,6 +1409,7 @@ domain:data.vtc.pw
 domain:data1.scopich.com
 domain:dataloading.net
 domain:date-withme.com
+domain:dating-app.ru
 domain:dating-time-now.com
 domain:datract.com
 domain:datsun-do.com
@@ -3120,6 +3122,7 @@ domain:macresource.co.uk
 domain:macrotek.ru
 domain:mactechinfo.info
 domain:madot.onlinewebshop.net
+domain:mafa-free.com
 domain:mafcards.ru
 domain:magazin-pics.ru
 domain:magazintiande.ru
@@ -5578,6 +5581,7 @@ domain:wallpapers-best.com
 domain:wallpapersdesk.info
 domain:wallpapersist.com
 domain:wallpaperstock.net
+domain:wanker.us
 domain:wapsite.me
 domain:wareseeker.com
 domain:warezaccess.com
