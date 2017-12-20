@@ -1,14 +1,16 @@
 ### Version Information #
 ###################################################
-### Version: V3.2017.12.1012
-### Updated: Sun Dec  3 10:16:48 SAST 2017
-### Bad Bot Count: 503
+### Version: V3.2017.12.1013
+### Updated: Wed Dec 20 11:29:46 SAST 2017
+### Bad Bot Count: 510
 ###################################################
 ### Version Information ##
 
 User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
+User-agent: 
+Disallow:/
 User-agent: 360Spider
 Disallow:/
 User-agent: 80legs
@@ -141,6 +143,8 @@ User-agent: Cliqzbot
 Disallow:/
 User-agent: Cloud mapping
 Disallow:/
+User-agent: coccocbot-web
+Disallow:/
 User-agent: Cogentbot
 Disallow:/
 User-agent: cognitiveseo
@@ -184,6 +188,8 @@ Disallow:/
 User-agent: Devil
 Disallow:/
 User-agent: Digincore
+Disallow:/
+User-agent: DigitalPebble
 Disallow:/
 User-agent: DIIbot
 Disallow:/
@@ -254,6 +260,8 @@ Disallow:/
 User-agent: Ezooms
 Disallow:/
 User-agent: FDM
+Disallow:/
+User-agent: FemtosearchBot
 Disallow:/
 User-agent: FHscan
 Disallow:/
@@ -368,6 +376,8 @@ Disallow:/
 User-agent: InternetSeer
 Disallow:/
 User-agent: internetVista monitor
+Disallow:/
+User-agent: ips-agent
 Disallow:/
 User-agent: Iria
 Disallow:/
@@ -563,6 +573,8 @@ User-agent: NPbot
 Disallow:/
 User-agent: Nutch
 Disallow:/
+User-agent: oBot
+Disallow:/
 User-agent: Octopus
 Disallow:/
 User-agent: Offline Explorer
@@ -740,6 +752,8 @@ Disallow:/
 User-agent: SlySearch
 Disallow:/
 User-agent: SmartDownload
+Disallow:/
+User-agent: SMTBot
 Disallow:/
 User-agent: Snake
 Disallow:/

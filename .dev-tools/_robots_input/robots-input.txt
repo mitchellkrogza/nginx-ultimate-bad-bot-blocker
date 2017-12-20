@@ -1,3 +1,4 @@
+
 360Spider
 80legs
 Abonti
@@ -64,6 +65,7 @@ Chlooe
 Claritybot
 Cliqzbot
 Cloud mapping
+coccocbot-web
 Cogentbot
 cognitiveseo
 Collector
@@ -86,6 +88,7 @@ Demon
 Deusu
 Devil
 Digincore
+DigitalPebble
 DIIbot
 Dirbuster
 Disco
@@ -121,6 +124,7 @@ Extreme Picture Finder
 EyeNetIE
 Ezooms
 FDM
+FemtosearchBot
 FHscan
 Fimap
 Firefox/7.0
@@ -178,6 +182,7 @@ InterGET
 Internet Ninja
 InternetSeer
 internetVista monitor
+ips-agent
 Iria
 IRLbot
 Iskanie
@@ -275,6 +280,7 @@ Ninja
 Nmap
 NPbot
 Nutch
+oBot
 Octopus
 Offline Explorer
 Offline Navigator
@@ -364,6 +370,7 @@ Sitevigil
 Slackbot-LinkExpanding
 SlySearch
 SmartDownload
+SMTBot
 Snake
 Snapbot
 Snoopy
