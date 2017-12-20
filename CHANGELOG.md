@@ -1,5 +1,7 @@
 # CHANGELOG - Nginx Bad Bot Blocker
 
+#
+
 ### 2017-07-21
 - Fixed generation of robots.txt picked up an issue with it using the list which includes escaped spaces.
 - Some minor syntax fixes to some of the generator scripts.
