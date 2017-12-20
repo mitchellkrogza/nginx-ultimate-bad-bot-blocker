@@ -126,6 +126,7 @@ domain:8558l.jobs.net
 domain:883zy.com
 domain:888.com
 domain:8gold.com
+domain:8jn.dating-app.ru
 domain:8kisses.eu
 domain:8lufu.com
 domain:8si.ru
@@ -493,6 +494,7 @@ domain:arius.tech
 domain:arkartex.ru
 domain:arkkivoltti.net
 domain:arpelsreplica.xyz
+domain:arquapetrarca.info
 domain:arraty.altervista.org
 domain:artavenuegardenstudios.com
 domain:artdeko.info
@@ -683,6 +685,7 @@ domain:beauty-b0x.pl
 domain:beauty-bracelet.com
 domain:beauty-clinic.ru
 domain:beauty-things.com
+domain:beclean-nn.ru
 domain:becuo.com
 domain:bedandbreakfast.com
 domain:bedcapdealers.com
@@ -829,6 +832,7 @@ domain:bluejays-jerseys.us
 domain:bluerobot.info
 domain:bluesalt.co
 domain:bluesman.nu
+domain:bmsco.co
 domain:bmw-ark.ru
 domain:bmw.afora.ru
 domain:bmwhighperformers.com
@@ -841,6 +845,7 @@ domain:boc.kz
 domain:bochemit.com.ua
 domain:bocoarchives.org
 domain:bodybuilding-shop.biz
+domain:bolegapakistan.com
 domain:boleznikogi.com
 domain:bolezniorganov.ru
 domain:bolitgorlo.net
@@ -1279,6 +1284,7 @@ domain:compliance-willy.top
 domain:compucelunlock.net
 domain:computernetworksonline.com
 domain:comsysnet.com
+domain:conboy.us
 domain:concealthyself.com
 domain:conciergegroup.org
 domain:concordexoticrentals.com
@@ -1292,6 +1298,7 @@ domain:construmac.com.mx
 domain:contentlook.co
 domain:contentsexpress.com
 domain:contextualyield.com
+domain:continent-e.tv
 domain:converse.ddsoldes.fr
 domain:cookie-law-enforcement-aa.xyz
 domain:cookie-law-enforcement-ee.xyz
@@ -1793,6 +1800,7 @@ domain:ewebarticle.info
 domain:excaliburfilms.com
 domain:exchangeit.gq
 domain:exchanges-bet.com
+domain:excitacao.com
 domain:excitacion.info
 domain:exct.net
 domain:executehosting.com
@@ -1952,6 +1960,7 @@ domain:firma-legion.ru
 domain:firstdrugmall.ru
 domain:firstsiteguide.com
 domain:fishingwholesale.us
+domain:fishtauto.ru
 domain:fitfloponline.store
 domain:fitness-video.net
 domain:fitnesspiks.com
@@ -1959,6 +1968,7 @@ domain:fiuxy.com
 domain:fivedwld.cf
 domain:fiverr.com
 domain:fix-website-errors.com
+domain:flagcounter.me
 domain:flash4fun.com
 domain:flashbannernow.com
 domain:flashlarevista.com
@@ -2844,6 +2854,7 @@ domain:klejonka.info
 domain:kletkimehan.ru
 domain:klikbonus.com
 domain:kliksaya.com
+domain:klin3952.ru
 domain:klosetkitten.com
 domain:klumba55.ru
 domain:kmd-pto.ru
@@ -3020,6 +3031,7 @@ domain:linkrr.com
 domain:linksharingt.com
 domain:linkwithin.com
 domain:lion.bolegapakistan.com
+domain:lion.conboy.us
 domain:lion.misba.us
 domain:lion.snapmap.us
 domain:liquimondo.com
@@ -3027,6 +3039,7 @@ domain:liran-locks.com
 domain:lirunet.ru
 domain:lisque.batcave.net
 domain:littleberry.ru
+domain:littlecity.ch
 domain:littlesunraiser.com
 domain:liupis.com
 domain:live-sexcam.tk
@@ -3086,6 +3099,7 @@ domain:louboutinshoes.xyz
 domain:louisvuittonoutletstore.net
 domain:love-baby.cz
 domain:lovelycraftyhome.com
+domain:lovi-moment.com.ua
 domain:low-format.ru
 domain:lowephotos.info
 domain:lsex.xyz
@@ -3498,6 +3512,7 @@ domain:nailsimg.com
 domain:naj-filmy24.pl
 domain:najaden.no
 domain:nalogovyy-kodeks.ru
+domain:nalogovyykodeks.ru
 domain:namenectar.com
 domain:napalm51.nut.cc
 domain:naperehresti.info
@@ -3592,7 +3607,9 @@ domain:nordvpn.com
 domain:normalegal.ru
 domain:northfacestore.online
 domain:norththeface.store
+domain:nosecret.com.ua
 domain:notaria-desalas.com
+domain:notasprensa.info
 domain:notebook-pro.ru
 domain:notfastfood.ru
 domain:nottyu.xyz
@@ -3789,6 +3806,7 @@ domain:paradontozanet.ru
 domain:parajumpersoutlet.online
 domain:parajumpersstore.online
 domain:paramountmarble.co.uk
+domain:parfusale.se
 domain:park.above.com
 domain:parlament.biz
 domain:partner-cdn.men
@@ -3963,6 +3981,7 @@ domain:popmarker.com
 domain:poppen-nw.net
 domain:popserve.adscpm.net
 domain:poptool.net
+domain:popugauka.ru
 domain:popunder.net
 domain:popunder.ru
 domain:popup-fdm.xyz
@@ -4311,6 +4330,7 @@ domain:ritlweb.com
 domain:rixpix.ru
 domain:rn-to-bsn.com
 domain:robot-forex.biz
+domain:rocketchange.ru
 domain:rockingclicks.com
 domain:rockma.se
 domain:rockprogblog.com
@@ -4822,6 +4842,7 @@ domain:spb.ru
 domain:spbchampionat.ru
 domain:special-porn.com
 domain:specialfinanceoffers.com
+domain:speechfoodie.com
 domain:speedup-my.site
 domain:spidtest.org
 domain:spidtest.space
@@ -4938,6 +4959,7 @@ domain:superiends.org
 domain:superinterstitial.com
 domain:superkanpo.com
 domain:superlist.biz
+domain:supermama.top
 domain:supermesta.ru
 domain:supernew.org
 domain:supers.com.ua
@@ -4979,6 +5001,7 @@ domain:szucs.ru
 domain:t-bygg.com
 domain:t3chtonic.com
 domain:taaaak.com
+domain:tabakur77.com
 domain:tabletkinaodchudzanie.com.pl
 domain:taboola.com
 domain:tacbelarus.ru
@@ -5205,6 +5228,7 @@ domain:tourismvictoria.com
 domain:toursmaps.com
 domain:tovaroboom.vast.ru
 domain:toxicwap.com
+domain:toy-shop.top
 domain:toyota.7zap.com
 domain:toys.erolove.in
 domain:tozup.com
@@ -5586,6 +5610,7 @@ domain:wapsite.me
 domain:wareseeker.com
 domain:warezaccess.com
 domain:warezkeeper.com
+domain:warning.or.kr
 domain:warningwar.ru
 domain:warningzscaler.heraeus.com
 domain:watch-movies.ru
@@ -5637,6 +5662,7 @@ domain:websiteaccountant.de
 domain:websiteexplorer.info
 domain:websites-reviews.com
 domain:websitevaluebot.com
+domain:webstatsdomain.org
 domain:webtherapy.ru
 domain:weburlopener.com
 domain:weburok.com
@@ -5868,6 +5894,7 @@ domain:xportvusbdriver8i.snack.ws
 domain:xpresscare.ru
 domain:xrus.org
 domain:xsion.net
+domain:xtremeeagles.net
 domain:xtube.com
 domain:xtubeporno.net
 domain:xuki.us
