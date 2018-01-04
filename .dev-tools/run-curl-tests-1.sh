@@ -160,6 +160,7 @@ printf '%s%s\n\n' "Last Tested: " "$_now" >> "$_curltest8"
 curl http://localhost:9000/index.php -e http://bing.com 2>&1 >> $_curltest8
 if grep -i 'Welcome' $_curltest8; then
    echo 'GOOD REFERRER DETECTED - TEST PASSED'
+   exit 0
 else
    echo 'GOOD REFERRER NOT DETECTED - TEST FAILED'
    exit 1
