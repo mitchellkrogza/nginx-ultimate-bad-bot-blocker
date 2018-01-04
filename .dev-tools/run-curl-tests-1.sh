@@ -43,7 +43,7 @@ if grep -i '(52)' $_curltest1; then
    echo 'BAD BOT DETECTED - TEST PASSED'
 else
    echo 'BAD BOT NOT DETECTED - TEST FAILED'
-   exit 0
+   exit 1
 fi
 }
 
@@ -60,7 +60,7 @@ if grep -i '(52)' $_curltest2; then
    echo 'BAD BOT DETECTED - TEST PASSED'
 else
    echo 'BAD BOT NOT DETECTED - TEST FAILED'
-   exit 0
+   exit 1
 fi
 }
 
@@ -77,7 +77,7 @@ if grep -i '(52)' $_curltest3; then
    echo 'BAD REFERRER DETECTED - TEST PASSED'
 else
    echo 'BAD REFERRER NOT DETECTED - TEST FAILED'
-   exit 0
+   exit 1
 fi
 }
 
@@ -94,7 +94,7 @@ if grep -i '(52)' $_curltest4; then
    echo 'BAD REFERRER DETECTED - TEST PASSED'
 else
    echo 'BAD REFERRER NOT DETECTED - TEST FAILED'
-   exit 0
+   exit 1
 fi
 }
 
@@ -111,7 +111,7 @@ if grep -i 'Welcome' $_curltest5; then
    echo 'GOOD BOT ALLOWED THROUGH - TEST PASSED'
 else
    echo 'GOOD BOT NOT ALLOWED THROUGH - TEST FAILED'
-   exit 0
+   exit 1
 fi
 }
 
@@ -128,7 +128,7 @@ if grep -i 'Welcome' $_curltest6; then
    echo 'GOOD BOT ALLOWED THROUGH - TEST PASSED'
 else
    echo 'GOOD BOT NOT ALLOWED THROUGH - TEST FAILED'
-   exit 0
+   exit 1
 fi
 }
 
@@ -145,7 +145,7 @@ if grep -i 'Welcome' $_curltest7; then
    echo 'GOOD REFERRER DETECTED - TEST PASSED'
 else
    echo 'GOOD REFERRER NOT DETECTED - TEST FAILED'
-   exit 0
+   exit 1
 fi
 }
 
@@ -162,7 +162,7 @@ if grep -i 'Welcome' $_curltest8; then
    echo 'GOOD REFERRER DETECTED - TEST PASSED'
 else
    echo 'GOOD REFERRER NOT DETECTED - TEST FAILED'
-   exit 0
+   exit 1
 fi
 }
 
@@ -178,10 +178,4 @@ run_curltest5
 run_curltest6
 run_curltest7
 run_curltest8
-
-# ****************************************
-# If everything passed then we exit with 0
-# ****************************************
-
-exit 0
 
