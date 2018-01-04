@@ -1,2 +1,13 @@
-Last Tested: Wed Dec 20 13:21:03 SAST 2017
+Last Tested: Thu Jan  4 09:39:32 SAST 2018
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to the Nginx</title>
+</head>
+<body>
+<div align=center>
+<h1>Welcome to the Nginx Ultimate Bad Bot Blocker</h1>
+<p>This is merely used for testing !!!</p>
+</body>
+</html>

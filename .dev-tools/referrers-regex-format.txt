@@ -1587,6 +1587,7 @@
 "~*\bdoyouknowtheword\-flummox\.ml\b" 	1;
 "~*\bdpihatinh\.gov\.vn\b" 	1;
 "~*\bdprtb\.com\b" 	1;
+"~*\bdptaughtme\.com\b" 	1;
 "~*\bdrhomes\.biz\b" 	1;
 "~*\bdrillsaw\.ru\b" 	1;
 "~*\bdriving\.kiev\.ua\b" 	1;
@@ -5039,6 +5040,7 @@
 "~*\btedy\.su\b" 	1;
 "~*\bteenbbw\.yopoint\.in\b" 	1;
 "~*\bteesdaleflyballclub\.co\.uk\b" 	1;
+"~*\bteguh\.info\b" 	1;
 "~*\btehngr\.ru\b" 	1;
 "~*\btelefonsexi\.com\b" 	1;
 "~*\btelefonsexkostenlos\.tk\b" 	1;
