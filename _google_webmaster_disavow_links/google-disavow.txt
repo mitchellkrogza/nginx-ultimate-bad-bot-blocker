@@ -1093,6 +1093,7 @@ domain:cfsrating.sonicwall.com
 domain:cgi2.nintendo.co.jp
 domain:charmstroy.info
 domain:chastnoeporno.com
+domain:chatroulette.life
 domain:chatroulette.online
 domain:chatroulette.si
 domain:chatroulette.video
@@ -2653,6 +2654,7 @@ domain:io9.com
 domain:iomoio.net
 domain:iopeninghours.co.uk
 domain:ip-guide.com
+domain:ipchicken.com
 domain:iphantom.com
 domain:iplogger.org
 domain:iplusbit.blogspot.co.za
@@ -5551,6 +5553,7 @@ domain:vizitki.net
 domain:vk-mus.ru
 domain:vkak.ru
 domain:vkgaleria.com
+domain:vkonche.com
 domain:vkontaktemusic.ru
 domain:vkontarkte.com
 domain:vksaver-all.ru
