@@ -53,7 +53,8 @@ Usage: $script [OPTIONS]
         [ -b ] : NGINX bots directory          (default: $BOTS_DIR)
         [ -i ] : Change installer path         (default: $INSTALLER)
         [ -r ] : Change repo url               (default: $REPO)
-        [ -m ] : Change email address          (default: $EMAIL)
+        [ -e ] : Change @email address         (default: $EMAIL)
+        [ -m ] : Change mail (system alias)    (default: $EMAIL)
         [ -n ] : Do not send email report      (default: $SEND_EMAIL)
         [ -v ] : Print blacklist version
         [ -h ] : this help message
@@ -233,7 +234,7 @@ get_options() {
 			i) INSTALLER=$arg; check_args $opts script $arg ;;
 			r) REPO=$arg; check_args $opts url $arg ;;
 			e) EMAIL=$arg; check_args $opts email $arg ;;
-			m) EMAIL=$arg; check_args $opts email $arg ;;
+			m) EMAIL=$arg ;; # /etc/aliases no sanity checks
 			n) SEND_EMAIL=N ;;
 			v) check_depends; check_version ;;
 			h) usage ;;
