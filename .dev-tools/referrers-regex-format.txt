@@ -1364,6 +1364,7 @@
 "~*\bcrest3d\.ru\b" 	1;
 "~*\bcrest\-poloski\.ru\b" 	1;
 "~*\bcrirussian\.ru\b" 	1;
+"~*\bcrynet\.cc\b" 	1;
 "~*\bcrystalslot\.com\b" 	1;
 "~*\bcscwtalkto\.site\b" 	1;
 "~*\bcsgo4\.win\b" 	1;
@@ -5066,6 +5067,7 @@
 "~*\btgtclick\.com\b" 	1;
 "~*\bthaisamkok\.com\b" 	1;
 "~*\btheallgirlarcade\.com\b" 	1;
+"~*\btheautoprofit\.ml\b" 	1;
 "~*\bthebestweightlosspills\.ovh\b" 	1;
 "~*\bthebitcoincode\.com\b" 	1;
 "~*\bthebluenoodle\.com\b" 	1;

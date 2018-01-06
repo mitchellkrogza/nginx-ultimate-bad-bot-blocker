@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2018.01.1022
-### Updated: Fri Jan  5 14:00:24 SAST 2018
-### Bad Referrer Count: 6101
+### Version: V3.2018.01.1023
+### Updated: Sat Jan  6 10:26:40 SAST 2018
+### Bad Referrer Count: 6103
 ### Bad Bot Count: 509
 ###################################################
 ### VERSION INFORMATION ##
@@ -2248,6 +2248,7 @@ map $http_referer $bad_referer {
 	"~*\bcrest3d\.ru\b" 	1;
 	"~*\bcrest\-poloski\.ru\b" 	1;
 	"~*\bcrirussian\.ru\b" 	1;
+	"~*\bcrynet\.cc\b" 	1;
 	"~*\bcrystalslot\.com\b" 	1;
 	"~*\bcscwtalkto\.site\b" 	1;
 	"~*\bcsgo4\.win\b" 	1;
@@ -5950,6 +5951,7 @@ map $http_referer $bad_referer {
 	"~*\btgtclick\.com\b" 	1;
 	"~*\bthaisamkok\.com\b" 	1;
 	"~*\btheallgirlarcade\.com\b" 	1;
+	"~*\btheautoprofit\.ml\b" 	1;
 	"~*\bthebestweightlosspills\.ovh\b" 	1;
 	"~*\bthebitcoincode\.com\b" 	1;
 	"~*\bthebluenoodle\.com\b" 	1;
