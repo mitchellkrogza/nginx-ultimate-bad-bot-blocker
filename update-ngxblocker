@@ -56,6 +56,7 @@ Usage: $script [OPTIONS]
         [ -e ] : Change @email address         (default: $EMAIL)
         [ -m ] : Change mail (system alias)    (default: $EMAIL)
         [ -n ] : Do not send email report      (default: $SEND_EMAIL)
+        [ -s ] : Suppress non error messages
         [ -v ] : Print blacklist version
         [ -h ] : this help message
 
@@ -65,6 +66,7 @@ Examples:
  $script -b /my/custom/bots.d    (Download globalblacklist.conf & update with your custom bots.d location)
  $script -e yourname@youremailaddress.com (Download globalblacklist.conf specifying your email address for the notification)
  $script -u /path/to/install-ngxblocker   (Use custom path to install-ngxblocker to update bots.d / conf.d include files)
+ $script -s -m webmaster         (Send mail to a system alias address & give less verbose messages for cron)
 EOF
         exit 0
 }
@@ -77,21 +79,22 @@ check_version() {
 		# local version
 		version=$(grep "Version:" $file | sed 's|^.*: V||g')
 		date=$(grep "Updated:" $file | sed 's|^.*: ||g')
-		printf "\nLOCAL Version: $BOLDWHITE$version$RESET\n"
-		printf "Updated: $date\n\n"
+		print_message "\nLOCAL Version: $BOLDWHITE$version$RESET\n"
+		print_message "Updated: $date\n\n"
 
 		# remote version
 		curl -s --limit-rate 5k -r $range --location $url -o $tmp
 		remote_ver=$(grep "Version:" $tmp | sed 's|^.*: V||g')
 		remote_date=$(grep "Updated:" $tmp | sed 's|^.*: ||g')
-		printf "REMOTE Version: $BOLDWHITE$remote_ver$RESET\n"
-		printf "Updated: $remote_date\n"
+		print_message "REMOTE Version: $BOLDWHITE$remote_ver$RESET\n"
+		print_message "Updated: $remote_date\n"
 		rm -f $tmp
 
 		if [ "$version" != "$remote_ver" ]; then
-			printf "\nUpdate Available => $BOLDMAGENTA$remote_ver$RESET\n\n"
+			print_message "\nUpdate Available => $BOLDMAGENTA$remote_ver$RESET\n\n"
+			return 1
 		else
-			printf "\nLatest Blacklist Already Installed: $BOLDGREEN$version$RESET\n\n"
+			print_message "\nLatest Blacklist Already Installed: $BOLDGREEN$version$RESET\n\n"
 		fi
 	else
 		printf "${BOLDRED}ERROR${RESET}: Missing '$file' => ${BOLDWHITE}running $INSTALLER:${RESET}\n"
@@ -100,8 +103,6 @@ check_version() {
 			check_version
 		fi
 	fi
-
-	exit 0
 }
 
 check_dirs() {
@@ -215,10 +216,18 @@ check_depends() {
 	fi
 }
 
+print_message() {
+	local msg="$@"
+
+	if [ "$VERBOSE" != "N" ]; then
+		printf "$msg"
+	fi
+}
+
 get_options() {
 	local arg= opts=
 
-	while getopts :c:b:u:r:e:m:nvh opts "$@"
+	while getopts :c:b:u:r:e:m:nvsh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
@@ -237,6 +246,7 @@ get_options() {
 			m) EMAIL=$arg ;; # /etc/aliases no sanity checks
 			n) SEND_EMAIL=N ;;
 			v) check_depends; check_version ;;
+			s) export VERBOSE=N ;;
 			h) usage ;;
 			\?) usage ;;
 			:) check_args $OPTARG none none ;;
@@ -267,25 +277,25 @@ main() {
 	output=$CONF_DIR/$file
 
 	# check for updated blacklist
-	update=$(check_version | tail -n 2)
-	printf "\n$update\n\n"
+	check_version
+	update=$?
 
-	if echo $update | grep ^Update 1>/dev/null; then
+	if [ $update = 1 ]; then
 
 		# download globalblacklist update
 		tmp=$(mktemp)
 		mkdir -p $CONF_DIR
-		printf "${BOLDWHITE}Downloading: $file "
+		local dl_msg="${BOLDWHITE}Downloading: $file "
 		curl --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so $tmp $url
 		retval=$?
 
 		case "$retval" in
-			 0) printf "...${BOLDGREEN}OK${RESET}\n\n"
+			 0) print_message "$dl_msg...${BOLDGREEN}[OK]${RESET}\n\n"
 			    mv $tmp $output
 			    ;;
-			22) printf "...${BOLDRED}ERROR 404: $url${RESET}\n\n";;
-			28) printf "...${BOLDRED}ERROR TIMEOUT: $url${RESET}\n\n";;
-			 *) printf "...${BOLDRED}ERROR CURL: ($retval){RESET}\n\n";;
+			22) printf "$dl_msg...${BOLDRED}ERROR 404: $url${RESET}\n\n";;
+			28) printf "$dl_msg...${BOLDRED}ERROR TIMEOUT: $url${RESET}\n\n";;
+			 *) printf "$dl_msg...${BOLDRED}ERROR CURL: ($retval){RESET}\n\n";;
 		esac
 
 		# download new bots.d / conf.d files
@@ -297,13 +307,16 @@ main() {
 		# re-read nginx configuration
 		if [ $retval = 0 ]; then
 
-			$service nginx reload
+			$service nginx reload 2>&1 >/dev/null
 			if [ $? = 0 ]; then
 				status="${BOLDGREEN}[OK]${RESET}"
+				print_message "\nReloading NGINX configuration...$status\n"
+
 			else
 				status="${BOLDRED}[FAILED]${RESET}"
+				printf "\nReloading NGINX configuration...$status\n"
+
 			fi
-			printf "\nReloading NGINX configuration...$status\n"
 		else
 			printf "\n${BOLDRED}Download failed${RESET}: not reloading NGINX config\n"
 		fi
@@ -315,7 +328,10 @@ main() {
 	# email report
 	check_mail_depends
 	case "$SEND_EMAIL" in
-		 y*|Y*)	printf "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
+		 y*|Y*)	if [ "$VERBOSE" = "N" ]; then
+				grep "Version:" $CONF_DIR/globalblacklist.conf | tr -d '#'
+			fi
+			print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
 			# remove ansi colour codes
 			sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
 			cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
@@ -337,6 +353,9 @@ exit $?
 
 # Here's another example to run it daily at midday using a command line switch to set the email address for the notification
 # 00 12 * * * sudo /usr/sbin/update-ngxblocker -e yourname@youremailprovider.com
+
+# Less verbose logging to a system alias mail address (root crontab)
+# 00 12 * * * /usr/sbin/update-ngxblocker -s -m webmaster
 
 # better logging for cron jobs:
 # https://serverfault.com/questions/137468/better-logging-for-cronjobs-send-cron-output-to-syslog
