@@ -50,12 +50,14 @@ Usage: $script [OPTIONS]
         [ -s ] : Script directory              (default: $SCRIPT_DIR)
         [ -r ] : Change repo url               (default: $REPO)
         [ -x ] : Actually change the files     (default: don't change anything)
+        [ -s ] : Suppress non error messages
         [ -v ] : Print blacklist version
         [ -h ] : this help message
 
 Examples:
  $script       (Don't change anything: display results on stdout)
  $script -x    (Download / update config files)
+ $script -s    (Less verbose messages for cron)
 EOF
         exit 0
 }
@@ -137,7 +139,7 @@ download_files() {
 			fi
 		done
 	else
-		printf "Nothing to update for directory: $local_dir\n"
+		print_message "Nothing to update for directory: $local_dir\n"
 	fi
 }
 
@@ -146,7 +148,7 @@ set_mode() {
 	local file_list="$(echo $@ | awk '{$1=$2=""; print}' | sed -e 's/^[ \t]*//')"
 
 	for file in $file_list; do
-		printf "Setting mode: $mode => $dir/$file\n"
+		print_message "Setting mode: $mode => $dir/$file\n"
 		chmod $mode $dir/$file
 	done
 }
@@ -193,10 +195,18 @@ check_args() {
         esac
 }
 
+print_message() {
+        local msg="$@"
+
+        if [ "$VERBOSE" != "N" ]; then
+                printf "$msg"
+        fi
+}
+
 get_options() {
         local arg= opts=
 
-        while getopts :b:c:s:r:xvh opts "$@"
+        while getopts :b:c:s:r:xvsh opts "$@"
         do
                 if [ -n "${OPTARG}" ]; then
                         case "$opts" in
@@ -212,6 +222,7 @@ get_options() {
                         r) REPO=$arg; check_args $opts url $arg ;;
                         x) DRY_RUN=N ;;
                         v) check_version ;;
+                        s) VERBOSE=N ;;
                         h) usage ;;
                        \?) usage ;;
                         :) check_args $OPTARG none none ;;
@@ -264,7 +275,7 @@ main() {
 	include_url=$REPO/include_filelist.txt
 
 	# check repo is online & source includes
-	printf "Checking url: $include_url\n"
+	print_message "Checking url: $include_url\n"
 	if [ -n "$(check_online $include_url)" ]; then
 		local tmp=$(mktemp)
 		wget -q $include_url -O $tmp
