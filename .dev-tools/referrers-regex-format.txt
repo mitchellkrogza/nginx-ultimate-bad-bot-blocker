@@ -1653,6 +1653,7 @@
 "~*\bee77ee\.com\b" 	1;
 "~*\befkt\.jp\b" 	1;
 "~*\befnor\-ac\.com\b" 	1;
+"~*\bege\-russian\.ru\b" 	1;
 "~*\begovaleo\.it\b" 	1;
 "~*\begvar\.net\b" 	1;
 "~*\bekaterinburg\.xrus\.org\b" 	1;
@@ -1735,6 +1736,7 @@
 "~*\benglishgamer\.com\b" 	1;
 "~*\beng\-lyrics\.com\b" 	1;
 "~*\benhand\.se\b" 	1;
+"~*\ben\.home\-task\.com\b" 	1;
 "~*\benskedesquashclub\.se\b" 	1;
 "~*\benternet\.ee\b" 	1;
 "~*\benthuse\.computernetworksonline\.com\b" 	1;
@@ -1769,6 +1771,7 @@
 "~*\besnm\.ru\b" 	1;
 "~*\besopini\.com\b" 	1;
 "~*\bespaceinventoristes\.com\b" 	1;
+"~*\bessayassist\.com\b" 	1;
 "~*\bessay\-edu\.biz\b" 	1;
 "~*\bessaypro\.com\b" 	1;
 "~*\bessayservicewriting\.org\b" 	1;
@@ -2236,6 +2239,7 @@
 "~*\bglass\-msk\.ru\b" 	1;
 "~*\bglastecfilms\.com\.my\b" 	1;
 "~*\bglavprofit\.ru\b" 	1;
+"~*\bglavtral\.ru\b" 	1;
 "~*\bglcomputers\.ru\b" 	1;
 "~*\bglicol\.kz\b" 	1;
 "~*\bglobal\-ics\.co\.za\b" 	1;
@@ -2460,6 +2464,7 @@
 "~*\bhomemade\.gq\b" 	1;
 "~*\bhomemature\.net\b" 	1;
 "~*\bhome\.myplaycity\.com\b" 	1;
+"~*\bhome\-task\.com\b" 	1;
 "~*\bhonyaku\.yahoofs\.jp\b" 	1;
 "~*\bhop\.clickbank\.net\b" 	1;
 "~*\bhopeonthestreet\.co\.uk\b" 	1;
@@ -3119,6 +3124,7 @@
 "~*\bluxmagazine\.cf\b" 	1;
 "~*\bluxup\.ru\b" 	1;
 "~*\blyngdalhudterapi\.no\b" 	1;
+"~*\blyrics\.home\-task\.com\b" 	1;
 "~*\blyrster\.com\b" 	1;
 "~*\bm0r0zk0\-krava\.ru\b" 	1;
 "~*\bm1media\.net\b" 	1;
@@ -5744,6 +5750,7 @@
 "~*\bwjgony\.com\b" 	1;
 "~*\bw\-journal\.ru\b" 	1;
 "~*\bwladimirpayen\.com\b" 	1;
+"~*\bwleuaprpxuvr\.ga\b" 	1;
 "~*\bwma\-x\.com\b" 	1;
 "~*\bwnhjavlhezp\.gq\b" 	1;
 "~*\bwnoz\.de\b" 	1;

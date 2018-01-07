@@ -1655,6 +1655,7 @@ domain:edwinkonijn.com.au
 domain:ee77ee.com
 domain:efkt.jp
 domain:efnor-ac.com
+domain:ege-russian.ru
 domain:egovaleo.it
 domain:egvar.net
 domain:ekaterinburg.xrus.org
@@ -1723,6 +1724,7 @@ domain:empathica.com
 domain:empirepoker.com
 domain:empis.magix.net
 domain:en.altezza.travel
+domain:en.home-task.com
 domain:enbersoft.com
 domain:encodable.com
 domain:energy-ua.com
@@ -1771,6 +1773,7 @@ domain:esopini.com
 domain:espaceinventoristes.com
 domain:essay-edu.biz
 domain:essay-writing.work
+domain:essayassist.com
 domain:essaypro.com
 domain:essayservicewriting.org
 domain:este-line.com.ua
@@ -2237,6 +2240,7 @@ domain:glasof.es
 domain:glass-msk.ru
 domain:glastecfilms.com.my
 domain:glavprofit.ru
+domain:glavtral.ru
 domain:glcomputers.ru
 domain:glicol.kz
 domain:global-ics.co.za
@@ -2450,6 +2454,7 @@ domain:hoholikik.club
 domain:hol.es
 domain:holidaypics.org
 domain:hollywoodactress.info
+domain:home-task.com
 domain:home.myplaycity.com
 domain:homeandhealth.ru
 domain:homedecoguide.info
@@ -3119,6 +3124,7 @@ domain:lutherstable.org
 domain:luxmagazine.cf
 domain:luxup.ru
 domain:lyngdalhudterapi.no
+domain:lyrics.home-task.com
 domain:lyrster.com
 domain:m-google.xyz
 domain:m.b00kmarks.com
@@ -5744,6 +5750,7 @@ domain:witherrom55.eklablog.fr
 domain:withstandingheartwarming.com
 domain:wjgony.com
 domain:wladimirpayen.com
+domain:wleuaprpxuvr.ga
 domain:wma-x.com
 domain:wnhjavlhezp.gq
 domain:wnoz.de
