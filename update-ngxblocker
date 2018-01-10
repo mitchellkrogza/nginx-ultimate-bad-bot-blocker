@@ -245,7 +245,7 @@ get_options() {
 			e) EMAIL=$arg; check_args $opts email $arg ;;
 			m) EMAIL=$arg ;; # /etc/aliases no sanity checks
 			n) SEND_EMAIL=N ;;
-			v) check_depends; check_version; exit 0 ;;
+			v) check_version; exit 0 ;;
 			s) export VERBOSE=N ;;
 			h) usage ;;
 			\?) usage ;;
