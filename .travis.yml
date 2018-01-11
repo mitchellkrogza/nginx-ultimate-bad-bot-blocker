@@ -9,6 +9,9 @@ env:
 sudo: required
 dist: trusty
 
+cache:
+  - apt
+
 matrix:
   include:
     - php: 7.0
@@ -17,8 +20,6 @@ matrix:
     - php: hhvm
   fast_finish: true
 
-cache:
-  - apt
 addons:
   apt:
     packages:
