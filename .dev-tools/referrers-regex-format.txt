@@ -482,6 +482,7 @@
 "~*\barclk\.net\b" 	1;
 "~*\barcteryxsale\.online\b" 	1;
 "~*\barcteryxstore\.online\b" 	1;
+"~*\bardimobileinfo\.ml\b" 	1;
 "~*\barenanews\.com\.ua\b" 	1;
 "~*\barenda\-avtoprokat\-krasnodar\.ru\b" 	1;
 "~*\barendakvartir\.kz\b" 	1;
@@ -893,6 +894,7 @@
 "~*\bbrewdom\.ru\b" 	1;
 "~*\bbrg8\.com\b" 	1;
 "~*\bbrimstonehillfortress\.org\b" 	1;
+"~*\bbriomotor\.co\b" 	1;
 "~*\bbristolhostel\.com\b" 	1;
 "~*\bbristolhotel\.com\b" 	1;
 "~*\bbristolhotel\.com\.ua\b" 	1;
@@ -1231,6 +1233,7 @@
 "~*\bcolobit\.biz\b" 	1;
 "~*\bco\.lumb\.co\b" 	1;
 "~*\bcom\-cleaner\.systems\b" 	1;
+"~*\bcomeondog\.info\b" 	1;
 "~*\bcometorussia\.net\b" 	1;
 "~*\bcomissionka\.net\b" 	1;
 "~*\bcommunisave\.co\.za\b" 	1;
@@ -1780,6 +1783,7 @@
 "~*\beste\-line\.com\.ua\b" 	1;
 "~*\bestibot\.com\b" 	1;
 "~*\betm\-consult\.de\b" 	1;
+"~*\betotupo\.ru\b" 	1;
 "~*\betur\.ru\b" 	1;
 "~*\beu\-cookie\-law\.blogspot\.com\b" 	1;
 "~*\beu\-cookie\-law\.info\b" 	1;
@@ -2749,6 +2753,7 @@
 "~*\bjjbabskoe\.ru\b" 	1;
 "~*\bjmat\.cn\b" 	1;
 "~*\bjob\.icivil\.ir\b" 	1;
+"~*\bjobmarket\.com\.ua\b" 	1;
 "~*\bjoessmogtestonly\.com\b" 	1;
 "~*\bjohannesburgsingles\.co\.za\b" 	1;
 "~*\bjohnrobertsoninc\.com\b" 	1;
@@ -2876,6 +2881,7 @@
 "~*\bkochanelli\.com\b" 	1;
 "~*\bkol\-energo\.ru\b" 	1;
 "~*\bkoleso24\.com\.ua\b" 	1;
+"~*\bkollekcioner\.ru\b" 	1;
 "~*\bkollesa\.ru\b" 	1;
 "~*\bkolotiloff\.ru\b" 	1;
 "~*\bkomp\-pomosch\.ru\b" 	1;
@@ -2946,6 +2952,7 @@
 "~*\bla\-fa\.ru\b" 	1;
 "~*\blafourmiliaire\.com\b" 	1;
 "~*\blafriore\.ru\b" 	1;
+"~*\blakomka\.com\.ua\b" 	1;
 "~*\blampokrat\.ws\b" 	1;
 "~*\blanadelreyfans\.us\b" 	1;
 "~*\blanasshop\.ru\b" 	1;
@@ -3106,6 +3113,7 @@
 "~*\blouboutinreplica\.xyz\b" 	1;
 "~*\blouboutinshoes\.xyz\b" 	1;
 "~*\blouisvuittonoutletstore\.net\b" 	1;
+"~*\blovasszovetseg\.hu\b" 	1;
 "~*\blove\-baby\.cz\b" 	1;
 "~*\blovelycraftyhome\.com\b" 	1;
 "~*\blovi\-moment\.com\.ua\b" 	1;
@@ -3508,6 +3516,7 @@
 "~*\bmypornfree\.ru\b" 	1;
 "~*\bmyprintscreen\.com\b" 	1;
 "~*\bmyseoconsultant\.com\b" 	1;
+"~*\bmysexpics\.ru\b" 	1;
 "~*\bmyshopmatemac\.com\b" 	1;
 "~*\bmystats\.xyz\b" 	1;
 "~*\bmywallpaper\.top\b" 	1;
@@ -3784,6 +3793,7 @@
 "~*\bovirus\.ru\b" 	1;
 "~*\bowathemes\.com\b" 	1;
 "~*\bownshop\.cf\b" 	1;
+"~*\bownshop\.win\b" 	1;
 "~*\bowohho\.com\b" 	1;
 "~*\boxford\-book\.com\.ua\b" 	1;
 "~*\boxotl\.com\b" 	1;
@@ -3868,6 +3878,7 @@
 "~*\bpercin\.biz\.ly\b" 	1;
 "~*\bperfection\-pleasure\.ru\b" 	1;
 "~*\bperfectpracticeweb\.com\b" 	1;
+"~*\bperl\.dp\.ua\b" 	1;
 "~*\bperm\-profnastil\.ru\b" 	1;
 "~*\bperm\.xrus\.org\b" 	1;
 "~*\bperosan\.com\b" 	1;
@@ -4194,6 +4205,7 @@
 "~*\bquestionmarque\.ch\b" 	1;
 "~*\bquickbuck\.com\b" 	1;
 "~*\bquickcashlimited\.com\b" 	1;
+"~*\bquickchange\.cc\b" 	1;
 "~*\bquickloanbank\.com\b" 	1;
 "~*\bquick\-offer\.com\b" 	1;
 "~*\bquick\-seeker\.com\b" 	1;
@@ -4274,6 +4286,7 @@
 "~*\bregistrydomainservices\.com\b" 	1;
 "~*\bregistrysweeper\.com\b" 	1;
 "~*\breimageplus\.com\b" 	1;
+"~*\breining\.lovasszovetseg\.hu\b" 	1;
 "~*\breklama1\.ru\b" 	1;
 "~*\breklama\-i\-rabota\.ru\b" 	1;
 "~*\breklamuss\.ru\b" 	1;
@@ -4705,6 +4718,7 @@
 "~*\bsispe\.com\.br\b" 	1;
 "~*\bsite3\.free\-share\-buttons\.com\b" 	1;
 "~*\bsite5\.com\b" 	1;
+"~*\bsiteaero\.com\b" 	1;
 "~*\bsite\-analyzer\.com\b" 	1;
 "~*\bsite\-auditor\.online\b" 	1;
 "~*\bsitebeam\.net\b" 	1;
@@ -5021,6 +5035,7 @@
 "~*\btakethatad\.com\b" 	1;
 "~*\btako3\.com\b" 	1;
 "~*\btalant\-factory\.ru\b" 	1;
+"~*\btam\-gde\-more\.ru\b" 	1;
 "~*\btampabaywatch\.org\b" 	1;
 "~*\btandvardshuset\.net\b" 	1;
 "~*\btanieaukcje\.com\.pl\b" 	1;
@@ -5411,6 +5426,7 @@
 "~*\buprour\.com\b" 	1;
 "~*\bupstore\.me\b" 	1;
 "~*\buptime\-alpha\.net\b" 	1;
+"~*\buptime\-as\.net\b" 	1;
 "~*\buptimebot\.net\b" 	1;
 "~*\buptimechecker\.com\b" 	1;
 "~*\buptime\.com\b" 	1;
@@ -6052,6 +6068,7 @@
 "~*\bzeroredirect\.com\b" 	1;
 "~*\bzetgie\.com\.pl\b" 	1;
 "~*\bzetmaster\.ru\b" 	1;
+"~*\bzhacker\.net\b" 	1;
 "~*\bzhongwenlink\.com\b" 	1;
 "~*\bzhorapankratov7\.blogspot\.com\b" 	1;
 "~*\bzhuravlev\.info\b" 	1;

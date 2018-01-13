@@ -482,6 +482,7 @@ domain:architecturebest.com
 domain:arclk.net
 domain:arcteryxsale.online
 domain:arcteryxstore.online
+domain:ardimobileinfo.ml
 domain:arenanews.com.ua
 domain:arenda-avtoprokat-krasnodar.ru
 domain:arenda-yeisk.ru
@@ -894,6 +895,7 @@ domain:brendbutik.ru
 domain:brewdom.ru
 domain:brg8.com
 domain:brimstonehillfortress.org
+domain:briomotor.co
 domain:bristolhostel.com
 domain:bristolhotel.com
 domain:bristolhotel.com.ua
@@ -1235,6 +1237,7 @@ domain:com-onlinesupport.host
 domain:com-onlinesupport.site
 domain:com-secure.download
 domain:com-supportcenter.website
+domain:comeondog.info
 domain:cometorussia.net
 domain:comissionka.net
 domain:communisave.co.za
@@ -1780,6 +1783,7 @@ domain:este-line.com.ua
 domain:estelight.ru
 domain:estibot.com
 domain:etm-consult.de
+domain:etotupo.ru
 domain:etur.ru
 domain:eu-cookie-law.blogspot.com
 domain:eu-cookie-law.info
@@ -2750,6 +2754,7 @@ domain:jimmychoosale.online
 domain:jjbabskoe.ru
 domain:jmat.cn
 domain:job.icivil.ir
+domain:jobmarket.com.ua
 domain:joessmogtestonly.com
 domain:johannesburgsingles.co.za
 domain:johnrobertsoninc.com
@@ -2876,6 +2881,7 @@ domain:knowyournextmove.com
 domain:kochanelli.com
 domain:kol-energo.ru
 domain:koleso24.com.ua
+domain:kollekcioner.ru
 domain:kollesa.ru
 domain:kolotiloff.ru
 domain:komp-pomosch.ru
@@ -2946,6 +2952,7 @@ domain:ladov.ru
 domain:laexotic.com
 domain:lafourmiliaire.com
 domain:lafriore.ru
+domain:lakomka.com.ua
 domain:lampokrat.ws
 domain:lanadelreyfans.us
 domain:lanasshop.ru
@@ -3106,6 +3113,7 @@ domain:louboutinreplica.pw
 domain:louboutinreplica.xyz
 domain:louboutinshoes.xyz
 domain:louisvuittonoutletstore.net
+domain:lovasszovetseg.hu
 domain:love-baby.cz
 domain:lovelycraftyhome.com
 domain:lovi-moment.com.ua
@@ -3508,6 +3516,7 @@ domain:myplaycity.com
 domain:mypornfree.ru
 domain:myprintscreen.com
 domain:myseoconsultant.com
+domain:mysexpics.ru
 domain:myshopmatemac.com
 domain:mystats.xyz
 domain:mywallpaper.top
@@ -3784,6 +3793,7 @@ domain:outshop.ru
 domain:ovirus.ru
 domain:owathemes.com
 domain:ownshop.cf
+domain:ownshop.win
 domain:owohho.com
 domain:oxford-book.com.ua
 domain:oxotl.com
@@ -3868,6 +3878,7 @@ domain:pepperstyle.ru
 domain:percin.biz.ly
 domain:perfection-pleasure.ru
 domain:perfectpracticeweb.com
+domain:perl.dp.ua
 domain:perm-profnastil.ru
 domain:perm.xrus.org
 domain:perosan.com
@@ -4196,6 +4207,7 @@ domain:quick-offer.com
 domain:quick-seeker.com
 domain:quickbuck.com
 domain:quickcashlimited.com
+domain:quickchange.cc
 domain:quickloanbank.com
 domain:quit-smoking.ga
 domain:quizzitch.net
@@ -4274,6 +4286,7 @@ domain:registry-cleaner.net
 domain:registrydomainservices.com
 domain:registrysweeper.com
 domain:reimageplus.com
+domain:reining.lovasszovetseg.hu
 domain:reklama-i-rabota.ru
 domain:reklama1.ru
 domain:reklamuss.ru
@@ -4713,6 +4726,7 @@ domain:site-speed-checker.site
 domain:site.ru
 domain:site3.free-share-buttons.com
 domain:site5.com
+domain:siteaero.com
 domain:sitebeam.net
 domain:siteexpress.co.il
 domain:siteheart.net
@@ -5022,6 +5036,7 @@ domain:takeprofitsystem.com
 domain:takethatad.com
 domain:tako3.com
 domain:talant-factory.ru
+domain:tam-gde-more.ru
 domain:tampabaywatch.org
 domain:tandvardshuset.net
 domain:tanieaukcje.com.pl
@@ -5411,6 +5426,7 @@ domain:upproar.com
 domain:uprour.com
 domain:upstore.me
 domain:uptime-alpha.net
+domain:uptime-as.net
 domain:uptime-delta.net
 domain:uptime-gamma.net
 domain:uptime.com
@@ -6053,6 +6069,7 @@ domain:zeroredirect8.com
 domain:zeroredirect9.com
 domain:zetgie.com.pl
 domain:zetmaster.ru
+domain:zhacker.net
 domain:zhongwenlink.com
 domain:zhorapankratov7.blogspot.com
 domain:zhuravlev.info
