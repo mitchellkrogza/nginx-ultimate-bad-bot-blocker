@@ -29,7 +29,7 @@
 # Here our script runs, pulls the latest update, reloads nginx and emails you a notification
 
 EMAIL="me@myemail.com"
-SEND_EMAIL="Y"
+SEND_EMAIL="N"
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
 INSTALLER=/usr/sbin/install-ngxblocker
@@ -242,8 +242,8 @@ get_options() {
 			b) BOTS_DIR=$arg; check_args $opts path $arg ;;
 			i) INSTALLER=$arg; check_args $opts script $arg ;;
 			r) REPO=$arg; check_args $opts url $arg ;;
-			e) EMAIL=$arg; check_args $opts email $arg ;;
-			m) EMAIL=$arg ;; # /etc/aliases no sanity checks
+			e) EMAIL=$arg; SEND_EMAIL=Y; check_args $opts email $arg ;;
+			m) EMAIL=$arg; SEND_EMAIL=Y ;; # /etc/aliases no sanity checks
 			n) SEND_EMAIL=N ;;
 			v) check_version; exit 0 ;;
 			s) export VERBOSE=N ;;
@@ -320,6 +320,11 @@ main() {
 		else
 			printf "\n${BOLDRED}Download failed${RESET}: not reloading NGINX config\n"
 		fi
+
+		# in silent mode print a single message after an update
+		if [ "$VERBOSE" = "N" ]; then
+			printf "NGINX Blacklist updated =>$(grep "Version:" $CONF_DIR/globalblacklist.conf | tr -d '#')\n"
+		fi
 	else
 	        # set custom bots.d path
 		update_paths $output
@@ -328,10 +333,7 @@ main() {
 	# email report
 	check_mail_depends
 	case "$SEND_EMAIL" in
-		 y*|Y*)	if [ "$VERBOSE" = "N" ]; then
-				grep "Version:" $CONF_DIR/globalblacklist.conf | tr -d '#'
-			fi
-			print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
+		 y*|Y*)	print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
 			# remove ansi colour codes
 			sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
 			cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
