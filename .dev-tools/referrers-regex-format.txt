@@ -757,6 +757,7 @@
 "~*\bbigames\.online\b" 	1;
 "~*\bbig\-boards\.info\b" 	1;
 "~*\bbigcareer\.info\b" 	1;
+"~*\bbig\-cash\.net\b" 	1;
 "~*\bbigcities\.org\b" 	1;
 "~*\bbiglistofwebsites\.com\b" 	1;
 "~*\bbigpenisguide\.com\b" 	1;
@@ -1374,6 +1375,7 @@
 "~*\bcs\-passion\.pl\b" 	1;
 "~*\bcubook\.supernew\.org\b" 	1;
 "~*\bcubs\-jerseys\.us\b" 	1;
+"~*\bculad\.com\b" 	1;
 "~*\bculturevie\.info\b" 	1;
 "~*\bcupday\.com\b" 	1;
 "~*\bcustodieva\.ru\b" 	1;
@@ -2043,6 +2045,7 @@
 "~*\bfoxweber\.com\b" 	1;
 "~*\bfoxydeal\.com\b" 	1;
 "~*\bfranecki\.net\b" 	1;
+"~*\bfranklinfire\.co\b" 	1;
 "~*\bfr\-bearings\.ru\b" 	1;
 "~*\bfrbizlist\.com\b" 	1;
 "~*\bfrcls\.fr\b" 	1;
@@ -2131,6 +2134,7 @@
 "~*\bgagrasector\.ru\b" 	1;
 "~*\bgalaxy\-family\.ru\b" 	1;
 "~*\bgalaxyflowers\.ru\b" 	1;
+"~*\bgalaxys6manual\.info\b" 	1;
 "~*\bgaleon\.com\b" 	1;
 "~*\bgallerily\.com\b" 	1;
 "~*\bgalleryawesome\.com\b" 	1;
@@ -2895,6 +2899,7 @@
 "~*\bkonteiner24\.com\b" 	1;
 "~*\bkonturkrasoty\.ru\b" 	1;
 "~*\bkoopilka\.com\b" 	1;
+"~*\bkopihijau\.info\b" 	1;
 "~*\bkoptims\.tiu\.ru\b" 	1;
 "~*\bkoral\.se\b" 	1;
 "~*\bkoronirealestate\.gr\b" 	1;
@@ -2931,6 +2936,7 @@
 "~*\bkung\-fu\-ru\.com\b" 	1;
 "~*\bkupit\-adenu\.ru\b" 	1;
 "~*\bkursy\-ege\.ru\b" 	1;
+"~*\bkurwa\.win\b" 	1;
 "~*\bkustanay\.kz\b" 	1;
 "~*\bkutikomi\.net\b" 	1;
 "~*\bkuzinsp\.ru\b" 	1;
@@ -3425,6 +3431,7 @@
 "~*\bmotherboard\.vice\.com\b" 	1;
 "~*\bmototsikl\.org\b" 	1;
 "~*\bmountainstream\.ms\b" 	1;
+"~*\bmouselink\.co\b" 	1;
 "~*\bmoviemail\-online\.co\.uk\b" 	1;
 "~*\bmovies\-in\-theaters\.net\b" 	1;
 "~*\bmoviezbonkerssk\.cf\b" 	1;
@@ -4217,6 +4224,7 @@
 "~*\brabotaetvse\.ru\b" 	1;
 "~*\brabot\.host\.sk\b" 	1;
 "~*\brada\.ru\b" 	1;
+"~*\bradiodigital\.co\b" 	1;
 "~*\bradiogambling\.com\b" 	1;
 "~*\bragecash\.com\b" 	1;
 "~*\brainbowice\.ru\b" 	1;
@@ -4554,6 +4562,7 @@
 "~*\bseeresultshub\-a\.akamaihd\.net\b" 	1;
 "~*\bsee\-your\-website\-here\.com\b" 	1;
 "~*\bsegol\.tv\b" 	1;
+"~*\bsei80\.com\b" 	1;
 "~*\bseinterface\.com\b" 	1;
 "~*\bseksotur\.ru\b" 	1;
 "~*\bselectads\.men\b" 	1;
@@ -4588,6 +4597,7 @@
 "~*\bseorankinglinks\.us\b" 	1;
 "~*\bseorankinglinks\.xyz\b" 	1;
 "~*\bseo\-smm\.kz\b" 	1;
+"~*\bseotoolsagency\.com\b" 	1;
 "~*\bseo\-tools\-optimizing\.com\b" 	1;
 "~*\bseo\-traffic\-ranking\.info\b" 	1;
 "~*\bserdcenebolit\.com\b" 	1;
@@ -4657,6 +4667,7 @@
 "~*\bsherlock\.se\b" 	1;
 "~*\bshijian\.ac\.cn\b" 	1;
 "~*\bshiksabd\.com\b" 	1;
+"~*\bshillyourcoins\.com\b" 	1;
 "~*\bshinikiev\.com\.ua\b" 	1;
 "~*\bship\-marvel\.co\.ua\b" 	1;
 "~*\bshisha\-swag\.de\b" 	1;
@@ -4690,6 +4701,7 @@
 "~*\bsibvitr\.ru\b" 	1;
 "~*\bsicfor\.bcu\.cc\b" 	1;
 "~*\bsideeffectsoftizanidine\.blogspot\.com\b" 	1;
+"~*\bsientalyric\.co\b" 	1;
 "~*\bsierraapps\.com\b" 	1;
 "~*\bsigmund\-freud\.co\.uk\b" 	1;
 "~*\bsignal03\.ru\b" 	1;
@@ -4733,6 +4745,7 @@
 "~*\bsitevaluation\.com\b" 	1;
 "~*\bsitevaluation\.org\b" 	1;
 "~*\bsitevalued\.com\b" 	1;
+"~*\bsitiz\.club\b" 	1;
 "~*\bsitopreferito\.it\b" 	1;
 "~*\bsi\-unique\.com\b" 	1;
 "~*\bsivs\.ru\b" 	1;
@@ -5076,6 +5089,8 @@
 "~*\btelesvoboda\.ru\b" 	1;
 "~*\btelsis\.com\b" 	1;
 "~*\btemplate\-kid\.com\b" 	1;
+"~*\btemplates\.franklinfire\.co\b" 	1;
+"~*\btemplates\.radiodigital\.co\b" 	1;
 "~*\btengohydar\.tk\b" 	1;
 "~*\bterraclicks\.com\b" 	1;
 "~*\bterrafootwear\.us\b" 	1;
@@ -5895,6 +5910,7 @@
 "~*\bxn\-\-\-\-8sbhefaln6acifdaon5c6f4axh\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-90acenikpebbdd4f6d\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-\-\-9sbebi2bvzr7h\.xn\-\-p1ai\b" 	1;
+"~*\bxn\-\-\-\-9sbubg3ambdfl1j\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-b1adccaf1bzj\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-b1ag5cfn\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-b1agm2d\.net\b" 	1;

@@ -756,6 +756,7 @@ domain:bidbuy.co.kr
 domain:bidr.trellian.com
 domain:bif-ru.info
 domain:big-boards.info
+domain:big-cash.net
 domain:bigames.online
 domain:bigcareer.info
 domain:bigcities.org
@@ -1374,6 +1375,7 @@ domain:cscwtalkto.site
 domain:csgo4.win
 domain:cubook.supernew.org
 domain:cubs-jerseys.us
+domain:culad.com
 domain:culturevie.info
 domain:cupday.com
 domain:custodieva.ru
@@ -2045,6 +2047,7 @@ domain:foxydeal.com
 domain:fr-bearings.ru
 domain:fr.netlog.com
 domain:franecki.net
+domain:franklinfire.co
 domain:frbizlist.com
 domain:frcls.fr
 domain:freakycheats.com
@@ -2132,6 +2135,7 @@ domain:gael-s.ru
 domain:gagrasector.ru
 domain:galaxy-family.ru
 domain:galaxyflowers.ru
+domain:galaxys6manual.info
 domain:galeon.com
 domain:gallerily.com
 domain:gallery.rennlist.com
@@ -2895,6 +2899,7 @@ domain:konoplisemena.com
 domain:konteiner24.com
 domain:konturkrasoty.ru
 domain:koopilka.com
+domain:kopihijau.info
 domain:koptims.tiu.ru
 domain:koral.se
 domain:koronirealestate.gr
@@ -2931,6 +2936,7 @@ domain:kumuk.info
 domain:kung-fu-ru.com
 domain:kupit-adenu.ru
 domain:kursy-ege.ru
+domain:kurwa.win
 domain:kustanay.kz
 domain:kutikomi.net
 domain:kuzinsp.ru
@@ -3425,6 +3431,7 @@ domain:mostantikor.ru
 domain:motherboard.vice.com
 domain:mototsikl.org
 domain:mountainstream.ms
+domain:mouselink.co
 domain:moviemail-online.co.uk
 domain:movies-in-theaters.net
 domain:moviezbonkerssk.cf
@@ -4219,6 +4226,7 @@ domain:raavidesigns.com
 domain:rabot.host.sk
 domain:rabotaetvse.ru
 domain:rada.ru
+domain:radiodigital.co
 domain:radiogambling.com
 domain:ragecash.com
 domain:rainbowice.ru
@@ -4557,6 +4565,7 @@ domain:seeingmeerkat.com
 domain:seemoreresultshu-a.akamaihd.net
 domain:seeresultshub-a.akamaihd.net
 domain:segol.tv
+domain:sei80.com
 domain:seinterface.com
 domain:seksotur.ru
 domain:selectads.men
@@ -4593,6 +4602,7 @@ domain:seorank.info
 domain:seorankinglinks.com
 domain:seorankinglinks.us
 domain:seorankinglinks.xyz
+domain:seotoolsagency.com
 domain:serdcenebolit.com
 domain:sergiorossistore.online
 domain:serialsway.ucoz.ru
@@ -4659,6 +4669,7 @@ domain:shemalegalls.blogporn.in
 domain:sherlock.se
 domain:shijian.ac.cn
 domain:shiksabd.com
+domain:shillyourcoins.com
 domain:shinikiev.com.ua
 domain:ship-marvel.co.ua
 domain:shisha-swag.de
@@ -4693,6 +4704,7 @@ domain:sibtest.ru
 domain:sibvitr.ru
 domain:sicfor.bcu.cc
 domain:sideeffectsoftizanidine.blogspot.com
+domain:sientalyric.co
 domain:sierraapps.com
 domain:sigmund-freud.co.uk
 domain:signal03.ru
@@ -4736,6 +4748,7 @@ domain:siteripz.net
 domain:sitevaluation.com
 domain:sitevaluation.org
 domain:sitevalued.com
+domain:sitiz.club
 domain:sitopreferito.it
 domain:sivs.ru
 domain:sixcooler.de
@@ -5076,6 +5089,8 @@ domain:telemetryverification.net
 domain:telesvoboda.ru
 domain:telsis.com
 domain:template-kid.com
+domain:templates.franklinfire.co
+domain:templates.radiodigital.co
 domain:tengohydar.tk
 domain:terraclicks.com
 domain:terrafootwear.us
@@ -5877,6 +5892,7 @@ domain:xn----7sbifcamovvfggw9d.xn--p1ai
 domain:xn----8sbdbjgb1ap7a9c4czbh.xn--p1acf
 domain:xn----8sbhefaln6acifdaon5c6f4axh.xn--p1ai
 domain:xn----9sbebi2bvzr7h.xn--p1ai
+domain:xn----9sbubg3ambdfl1j.xn--p1ai
 domain:xn----dtbndd4ae7eub.top
 domain:xn----itbeirbjbi7bc6bh2d.xn--p1ai
 domain:xn----itbkqkfiq.xn--p1ai
