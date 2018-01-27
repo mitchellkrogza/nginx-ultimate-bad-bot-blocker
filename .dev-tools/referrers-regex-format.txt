@@ -139,6 +139,7 @@
 "~*\b9med\.net\b" 	1;
 "~*\ba14download\.com\b" 	1;
 "~*\ba1security\.com\.ua\b" 	1;
+"~*\ba96527gi\.beget\.tech\b" 	1;
 "~*\baa08daf7e13b6345e09e92f771507fa5f4\.com\b" 	1;
 "~*\baa14ab57a3339c4064bd9ae6fad7495b5f\.com\b" 	1;
 "~*\baa625d84f1587749c1ab011d6f269f7d64\.com\b" 	1;
@@ -153,6 +154,7 @@
 "~*\baac52006ec82a24e08b665f4db2b5013f7\.com\b" 	1;
 "~*\baad1f4acb0a373420d9b0c4202d38d94fa\.com\b" 	1;
 "~*\baadroid\.net\b" 	1;
+"~*\baanapa\.ru\b" 	1;
 "~*\baarbur\.com\b" 	1;
 "~*\baaronabel\.com\b" 	1;
 "~*\baasoldes\.fr\b" 	1;
@@ -690,6 +692,7 @@
 "~*\bbedandbreakfast\.com\b" 	1;
 "~*\bbedcapdealers\.com\b" 	1;
 "~*\bbegalka\.xyz\b" 	1;
+"~*\bbeget\.tech\b" 	1;
 "~*\bbelinka\.com\.ua\b" 	1;
 "~*\bbelinvestdom\.by\b" 	1;
 "~*\bbelstaffstore\.online\b" 	1;
@@ -1369,6 +1372,7 @@
 "~*\bcrest\-poloski\.ru\b" 	1;
 "~*\bcrirussian\.ru\b" 	1;
 "~*\bcrynet\.cc\b" 	1;
+"~*\bcryptoswap\.biz\b" 	1;
 "~*\bcrystalslot\.com\b" 	1;
 "~*\bcscwtalkto\.site\b" 	1;
 "~*\bcsgo4\.win\b" 	1;
@@ -1399,6 +1403,7 @@
 "~*\bcyse\.tk\b" 	1;
 "~*\bczat\.wp\.pl\b" 	1;
 "~*\bd0t\.ru\b" 	1;
+"~*\bd2jsp\.org\b" 	1;
 "~*\bdafatiri\.com\b" 	1;
 "~*\bdailyfinancefix\.com\b" 	1;
 "~*\bdailyrank\.net\b" 	1;
@@ -1526,6 +1531,7 @@
 "~*\bdivku\.ru\b" 	1;
 "~*\bdiy\-handmade\-ideas\.com\b" 	1;
 "~*\bdjekxa\.ru\b" 	1;
+"~*\bdjihispano\.com\b" 	1;
 "~*\bdjonwatch\.ru\b" 	1;
 "~*\bdjstools\.com\b" 	1;
 "~*\bdktr\.ru\b" 	1;
@@ -2030,6 +2036,7 @@
 "~*\bforum\-engineering\.ru\b" 	1;
 "~*\bforum\.poker4life\.ru\b" 	1;
 "~*\bforumprofi\.de\b" 	1;
+"~*\bforums\.d2jsp\.org\b" 	1;
 "~*\bforums\.toucharcade\.com\b" 	1;
 "~*\bforum\.tvmir\.org\b" 	1;
 "~*\bfoto\-basa\.com\b" 	1;
@@ -2410,6 +2417,7 @@
 "~*\bhealgastro\.com\b" 	1;
 "~*\bhealing\-dysplasia\.ru\b" 	1;
 "~*\bhealmytrauma\.info\b" 	1;
+"~*\bhealthcarestore\.info\b" 	1;
 "~*\bhealth\-medical\-portal\.info\b" 	1;
 "~*\bheartofbeijing\.blogspot\.com\b" 	1;
 "~*\bheatpower\.ru\b" 	1;
@@ -3055,6 +3063,7 @@
 "~*\blion\.bolegapakistan\.com\b" 	1;
 "~*\blion\.conboy\.us\b" 	1;
 "~*\blion\.misba\.us\b" 	1;
+"~*\blion\.playtap\.us\b" 	1;
 "~*\blion\.snapmap\.us\b" 	1;
 "~*\bliquimondo\.com\b" 	1;
 "~*\bliran\-locks\.com\b" 	1;
@@ -3633,6 +3642,7 @@
 "~*\bnormalegal\.ru\b" 	1;
 "~*\bnorthfacestore\.online\b" 	1;
 "~*\bnorththeface\.store\b" 	1;
+"~*\bno\-rx\.info\b" 	1;
 "~*\bnosecret\.com\.ua\b" 	1;
 "~*\bnotaria\-desalas\.com\b" 	1;
 "~*\bnotasprensa\.info\b" 	1;
@@ -3973,6 +3983,7 @@
 "~*\bplay\-movie\.pl\b" 	1;
 "~*\bplay\-mp3\.com\b" 	1;
 "~*\bplaymsn\.com\b" 	1;
+"~*\bplaytap\.us\b" 	1;
 "~*\bpl\.id\-forex\.com\b" 	1;
 "~*\bpliks\.pl\b" 	1;
 "~*\bploenjitmedia\.azurewebsites\.net\b" 	1;
@@ -4029,6 +4040,7 @@
 "~*\bporno\-chaman\.info\b" 	1;
 "~*\bpornodojd\.ru\b" 	1;
 "~*\bporno\-dojki\.net\b" 	1;
+"~*\bpornoelita\.info\b" 	1;
 "~*\bpornofiljmi\.com\b" 	1;
 "~*\bpornoforadult\.com\b" 	1;
 "~*\bpornogig\.com\b" 	1;
@@ -4043,6 +4055,7 @@
 "~*\bpornosee\.info\b" 	1;
 "~*\bporno\.simple\-image\.com\.ua\b" 	1;
 "~*\bpornoslive\.net\b" 	1;
+"~*\bpornosmola\.info\b" 	1;
 "~*\bporno\-transsexuals\.ru\b" 	1;
 "~*\bpornotubexxx\.name\b" 	1;
 "~*\bporno\-video\-chati\.ru\b" 	1;
@@ -4126,6 +4139,7 @@
 "~*\bprofitsport\.club\b" 	1;
 "~*\bprofolan\.pl\b" 	1;
 "~*\bproftests\.net\b" 	1;
+"~*\bprogonrumarket\.ru\b" 	1;
 "~*\bprogress\-upakovka\.ru\b" 	1;
 "~*\bprohoster\.info\b" 	1;
 "~*\bprointer\.net\.ua\b" 	1;
@@ -4231,6 +4245,7 @@
 "~*\braisedseo\.com\b" 	1;
 "~*\brandalljhoward\.com\b" 	1;
 "~*\brandki\-sex\.com\b" 	1;
+"~*\brangjued\.com\b" 	1;
 "~*\brank\-checker\.online\b" 	1;
 "~*\brankexperience\.com\b" 	1;
 "~*\brankia\.com\b" 	1;
@@ -4896,6 +4911,7 @@
 "~*\bsprttrack\.com\b" 	1;
 "~*\bsps\-shop\.com\b" 	1;
 "~*\bsptslmtrafms\.com\b" 	1;
+"~*\bspy\-app\.info\b" 	1;
 "~*\bspyfu\.com\b" 	1;
 "~*\bspylog\.com\b" 	1;
 "~*\bspymac\.net\b" 	1;
@@ -4999,6 +5015,7 @@
 "~*\bsupermama\.top\b" 	1;
 "~*\bsupermesta\.ru\b" 	1;
 "~*\bsupernew\.org\b" 	1;
+"~*\bsuperoboi\.com\.ua\b" 	1;
 "~*\bsupers\.com\.ua\b" 	1;
 "~*\bsuperstats\.com\b" 	1;
 "~*\bsupervesti\.ru\b" 	1;
@@ -5066,6 +5083,7 @@
 "~*\btaxi\-v\-eisk\.ru\b" 	1;
 "~*\bt\-bygg\.com\b" 	1;
 "~*\btd\-33\.ru\b" 	1;
+"~*\btd\-l\-market\.ru\b" 	1;
 "~*\btdsing\.ru\b" 	1;
 "~*\bteastory\.co\b" 	1;
 "~*\btech4master\.com\b" 	1;
@@ -5327,6 +5345,7 @@
 "~*\btruck\-rece\.life\b" 	1;
 "~*\btrucri\.me\b" 	1;
 "~*\btrudogolik\.net\b" 	1;
+"~*\btruebeauty\.cc\b" 	1;
 "~*\btruemfilelj\.gq\b" 	1;
 "~*\btrumpetedextremes\.com\b" 	1;
 "~*\btrustaffs\.com\b" 	1;

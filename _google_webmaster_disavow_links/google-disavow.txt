@@ -141,6 +141,7 @@ domain:a.frcls.fr
 domain:a.pr-cy.ru
 domain:a14download.com
 domain:a1security.com.ua
+domain:a96527gi.beget.tech
 domain:aa08daf7e13b6345e09e92f771507fa5f4.com
 domain:aa14ab57a3339c4064bd9ae6fad7495b5f.com
 domain:aa625d84f1587749c1ab011d6f269f7d64.com
@@ -155,6 +156,7 @@ domain:aac500b7a15b2646968f6bd8c6305869d7.com
 domain:aac52006ec82a24e08b665f4db2b5013f7.com
 domain:aad1f4acb0a373420d9b0c4202d38d94fa.com
 domain:aadroid.net
+domain:aanapa.ru
 domain:aarbur.com
 domain:aaronabel.com
 domain:aasoldes.fr
@@ -691,6 +693,7 @@ domain:becuo.com
 domain:bedandbreakfast.com
 domain:bedcapdealers.com
 domain:begalka.xyz
+domain:beget.tech
 domain:belinka.com.ua
 domain:belinvestdom.by
 domain:belstaffstore.online
@@ -1369,6 +1372,7 @@ domain:crest-poloski.ru
 domain:crest3d.ru
 domain:crirussian.ru
 domain:crynet.cc
+domain:cryptoswap.biz
 domain:crystalslot.com
 domain:cs-passion.pl
 domain:cscwtalkto.site
@@ -1400,6 +1404,7 @@ domain:cyse.tk
 domain:czat.wp.pl
 domain:d-black.bz
 domain:d0t.ru
+domain:d2jsp.org
 domain:dafatiri.com
 domain:dailyfinancefix.com
 domain:dailyrank.net
@@ -1526,6 +1531,7 @@ domain:divisioncore.com
 domain:divku.ru
 domain:diy-handmade-ideas.com
 domain:djekxa.ru
+domain:djihispano.com
 domain:djonwatch.ru
 domain:djstools.com
 domain:dktr.ru
@@ -2031,6 +2037,7 @@ domain:forum.tvmir.org
 domain:forum20.smailik.org
 domain:forum69.info
 domain:forumprofi.de
+domain:forums.d2jsp.org
 domain:forums.toucharcade.com
 domain:foto-basa.com
 domain:foto-sisek.porngalleries.top
@@ -2411,6 +2418,7 @@ domain:healgastro.com
 domain:healing-dysplasia.ru
 domain:healmytrauma.info
 domain:health-medical-portal.info
+domain:healthcarestore.info
 domain:heartofbeijing.blogspot.com
 domain:heatpower.ru
 domain:hebr.myddns-flir.com
@@ -3055,6 +3063,7 @@ domain:linkwithin.com
 domain:lion.bolegapakistan.com
 domain:lion.conboy.us
 domain:lion.misba.us
+domain:lion.playtap.us
 domain:lion.snapmap.us
 domain:liquimondo.com
 domain:liran-locks.com
@@ -3622,6 +3631,7 @@ domain:njpalletremoval.com
 domain:nl.netlog.com
 domain:nlfjjunb5.ru
 domain:nmrk.ru
+domain:no-rx.info
 domain:noclegonline.info
 domain:nodup.ru
 domain:nofreezingmac.click
@@ -3976,6 +3986,7 @@ domain:play.leadzupc.com
 domain:playboyfiles.xblog.in
 domain:playlott.com
 domain:playmsn.com
+domain:playtap.us
 domain:pliks.pl
 domain:ploenjitmedia.azurewebsites.net
 domain:plohaya-kreditnaya-istoriya.ru
@@ -4035,6 +4046,7 @@ domain:porno.simple-image.com.ua
 domain:pornoblood.com
 domain:pornobrazzers.biz
 domain:pornodojd.ru
+domain:pornoelita.info
 domain:pornofiljmi.com
 domain:pornoforadult.com
 domain:pornogig.com
@@ -4046,6 +4058,7 @@ domain:pornolook.net
 domain:pornophoto.xyz
 domain:pornosee.info
 domain:pornoslive.net
+domain:pornosmola.info
 domain:pornotubexxx.name
 domain:pornpost.in
 domain:pornstartits.xblog.in
@@ -4129,6 +4142,7 @@ domain:profitkode.com
 domain:profitsport.club
 domain:profolan.pl
 domain:proftests.net
+domain:progonrumarket.ru
 domain:progress-upakovka.ru
 domain:prohoster.info
 domain:prointer.net.ua
@@ -4233,6 +4247,7 @@ domain:rainbowice.ru
 domain:raisedseo.com
 domain:randalljhoward.com
 domain:randki-sex.com
+domain:rangjued.com
 domain:rank-checker.online
 domain:rankexperience.com
 domain:rankia.com
@@ -4896,6 +4911,7 @@ domain:spravka130.ru
 domain:sprttrack.com
 domain:sps-shop.com
 domain:sptslmtrafms.com
+domain:spy-app.info
 domain:spy-sts.com
 domain:spyfu.com
 domain:spylog.com
@@ -4999,6 +5015,7 @@ domain:superlist.biz
 domain:supermama.top
 domain:supermesta.ru
 domain:supernew.org
+domain:superoboi.com.ua
 domain:supers.com.ua
 domain:superstats.com
 domain:supervesti.ru
@@ -5066,6 +5083,7 @@ domain:tattooreligion.ru
 domain:taxi-v-eisk.ru
 domain:taximytishi.ru
 domain:td-33.ru
+domain:td-l-market.ru
 domain:tdsing.ru
 domain:teastory.co
 domain:tech4master.com
@@ -5327,6 +5345,7 @@ domain:truck-land.life
 domain:truck-rece.life
 domain:trucri.me
 domain:trudogolik.net
+domain:truebeauty.cc
 domain:truemfilelj.gq
 domain:trumpetedextremes.com
 domain:trustaffs.com
