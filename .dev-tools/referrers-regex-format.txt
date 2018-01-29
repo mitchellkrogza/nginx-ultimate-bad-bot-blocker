@@ -280,6 +280,7 @@
 "~*\bagroeconom\.kz\b" 	1;
 "~*\bagysya\.ru\b" 	1;
 "~*\bahrefs\.com\b" 	1;
+"~*\bahrntal\.verymes\.xyz\b" 	1;
 "~*\baihelen\.net\b" 	1;
 "~*\baimayangzhi\.com\b" 	1;
 "~*\bair\-edem\.ru\b" 	1;
@@ -681,6 +682,7 @@
 "~*\bbdsmgalls\.net\b" 	1;
 "~*\bbeachdriveblog\.com\b" 	1;
 "~*\bbeachpics\.com\b" 	1;
+"~*\bbear\.gotcher\.us\b" 	1;
 "~*\bbeatifullandscape\.co\b" 	1;
 "~*\bbeauby\.ru\b" 	1;
 "~*\bbeauty\-b0x\.pl\b" 	1;
@@ -858,6 +860,7 @@
 "~*\bbonanza\-fortune\.men\b" 	1;
 "~*\bbongacams\.com\b" 	1;
 "~*\bbongiornos\.info\b" 	1;
+"~*\bbonkers\.name\b" 	1;
 "~*\bbonky\.biz\b" 	1;
 "~*\bbonux\.nextview\.ru\b" 	1;
 "~*\bbonvillan\.com\b" 	1;
@@ -1415,6 +1418,7 @@
 "~*\bdanashop\.ru\b" 	1;
 "~*\bdanceuniverse\.ru\b" 	1;
 "~*\bdandiyabeats\.in\b" 	1;
+"~*\bdaneshetabiat\.com\b" 	1;
 "~*\bdangphoto\.trade\b" 	1;
 "~*\bdanschawbel\.com\b" 	1;
 "~*\bdaooda\.com\b" 	1;
@@ -1656,6 +1660,7 @@
 "~*\bedge\.sharethis\.com\b" 	1;
 "~*\beditmedios\.com\b" 	1;
 "~*\beditors\.choice6912650\.hulfingtonpost\.com\b" 	1;
+"~*\bednorxmed\.com\b" 	1;
 "~*\bed\-shop01\.ru\b" 	1;
 "~*\beducatemetv\.com\b" 	1;
 "~*\beducation\-cz\.ru\b" 	1;
@@ -2174,6 +2179,7 @@
 "~*\bgate5\.co\.za\b" 	1;
 "~*\bgateway\.zscalerone\.net\b" 	1;
 "~*\bgateway\.zscalertwo\.net\b" 	1;
+"~*\bgavuer\.ru\b" 	1;
 "~*\bgay\.adultgalls\.com\b" 	1;
 "~*\bgay\-file\.com\b" 	1;
 "~*\bgaygalls\.net\b" 	1;
@@ -2309,6 +2315,7 @@
 "~*\bgosarhivrt\.ru\b" 	1;
 "~*\bgosmeb\.ru\b" 	1;
 "~*\bgosreg\.amchs\.ru\b" 	1;
+"~*\bgotcher\.us\b" 	1;
 "~*\bgotomontenegro\.net\b" 	1;
 "~*\bgotorussia\.com\b" 	1;
 "~*\bgotwebsite1\.com\b" 	1;
@@ -2852,6 +2859,7 @@
 "~*\bkinobaks\.com\b" 	1;
 "~*\bkinobest\.pl\b" 	1;
 "~*\bkinocccp\.net\b" 	1;
+"~*\bkinoduh\.ru\b" 	1;
 "~*\bkino\-ecran\.ru\b" 	1;
 "~*\bkinofak\.net\b" 	1;
 "~*\bkino\-filmi\.com\b" 	1;
@@ -2904,6 +2912,7 @@
 "~*\bkonkursov\.net\b" 	1;
 "~*\bkonkursowo\-24\.pl\b" 	1;
 "~*\bkonoplisemena\.com\b" 	1;
+"~*\bkonpax\.com\b" 	1;
 "~*\bkonteiner24\.com\b" 	1;
 "~*\bkonturkrasoty\.ru\b" 	1;
 "~*\bkoopilka\.com\b" 	1;
@@ -4724,6 +4733,7 @@
 "~*\bsignx\.info\b" 	1;
 "~*\bsiha\.de\b" 	1;
 "~*\bsildenafilcitratemed\.com\b" 	1;
+"~*\bsildenafil\-tadalafil\.info\b" 	1;
 "~*\bsilktide\.com\b" 	1;
 "~*\bsilverage\.ru\b" 	1;
 "~*\bsilvercash\.com\b" 	1;
@@ -5538,6 +5548,7 @@
 "~*\bvereo\.eu\b" 	1;
 "~*\bversaut\.xxx\-cam\.webcam\b" 	1;
 "~*\bvertaform\.com\b" 	1;
+"~*\bverymes\.xyz\b" 	1;
 "~*\bvesnatehno\.com\b" 	1;
 "~*\bvesnatehno\.ru\b" 	1;
 "~*\bvezuviy\.su\b" 	1;
@@ -5818,6 +5829,7 @@
 "~*\bwordpress\-crew\.net\b" 	1;
 "~*\bword\-vorlagen\.net\b" 	1;
 "~*\bword\-vorlagen\.xyz\b" 	1;
+"~*\bworkle\.website\b" 	1;
 "~*\bworks\.if\.ua\b" 	1;
 "~*\bworldhistory\.biz\b" 	1;
 "~*\bworldinternetauthority\.com\b" 	1;
