@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.01.1041
-### Updated: Mon Jan 29 11:09:39 SAST 2018
-### Bad Bot Count: 509
+### Version: V3.2018.01.1042
+### Updated: Wed Jan 31 09:22:48 SAST 2018
+### Bad Bot Count: 510
 ###################################################
 ### Version Information ##
 
@@ -516,6 +516,8 @@ Disallow:/
 User-agent: Msrabot
 Disallow:/
 User-agent: MS Web Services Client Protocol
+Disallow:/
+User-agent: muhstik-scan
 Disallow:/
 User-agent: Musobot
 Disallow:/
