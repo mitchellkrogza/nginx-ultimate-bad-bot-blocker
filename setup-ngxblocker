@@ -275,7 +275,7 @@ check_depends() {
 get_options() {
 	local arg= opts=
 
-	while getopts :w:e:v:b:c:m:ndxh opts "$@"
+	while getopts :w:e:v:b:c:m:i:ndxh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
@@ -336,10 +336,10 @@ main() {
 		exit 1
 	fi
 
-	check_depends
-
 	# parse command line
 	get_options $@
+	check_depends
+
 	include_url=$REPO/include_filelist.txt
 
 	# check repo is online & source includes
