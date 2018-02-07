@@ -50,14 +50,14 @@ Usage: $script [OPTIONS]
         [ -s ] : Script directory              (default: $SCRIPT_DIR)
         [ -r ] : Change repo url               (default: $REPO)
         [ -x ] : Actually change the files     (default: don't change anything)
-        [ -s ] : Suppress non error messages
+        [ -q ] : Suppress non error messages
         [ -v ] : Print blacklist version
         [ -h ] : this help message
 
 Examples:
  $script       (Don't change anything: display results on stdout)
  $script -x    (Download / update config files)
- $script -s    (Less verbose messages for cron)
+ $script -q    (Less verbose messages for cron)
 EOF
         exit 0
 }
@@ -206,7 +206,7 @@ print_message() {
 get_options() {
         local arg= opts=
 
-        while getopts :b:c:s:r:xvsh opts "$@"
+        while getopts :b:c:s:r:xvqh opts "$@"
         do
                 if [ -n "${OPTARG}" ]; then
                         case "$opts" in
@@ -222,7 +222,7 @@ get_options() {
                         r) REPO=$arg; check_args $opts url $arg ;;
                         x) DRY_RUN=N ;;
                         v) check_version ;;
-                        s) VERBOSE=N ;;
+                        q) VERBOSE=N ;;
                         h) usage ;;
                        \?) usage ;;
                         :) check_args $OPTARG none none ;;

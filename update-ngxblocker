@@ -56,7 +56,7 @@ Usage: $script [OPTIONS]
         [ -e ] : Change @email address         (default: $EMAIL)
         [ -m ] : Change mail (system alias)    (default: $EMAIL)
         [ -n ] : Do not send email report      (default: $SEND_EMAIL)
-        [ -s ] : Suppress non error messages
+        [ -q ] : Suppress non error messages
         [ -v ] : Print blacklist version
         [ -h ] : this help message
 
@@ -66,7 +66,7 @@ Examples:
  $script -b /my/custom/bots.d    (Download globalblacklist.conf & update with your custom bots.d location)
  $script -e yourname@youremailaddress.com (Download globalblacklist.conf specifying your email address for the notification)
  $script -u /path/to/install-ngxblocker   (Use custom path to install-ngxblocker to update bots.d / conf.d include files)
- $script -s -m webmaster         (Send mail to a system alias address & give less verbose messages for cron)
+ $script -q -m webmaster         (Send mail to a system alias address & give less verbose messages for cron)
 EOF
         exit 0
 }
@@ -227,7 +227,7 @@ print_message() {
 get_options() {
 	local arg= opts=
 
-	while getopts :c:b:u:r:e:m:nvsh opts "$@"
+	while getopts :c:b:u:r:e:m:nvqh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
@@ -246,7 +246,7 @@ get_options() {
 			m) EMAIL=$arg; SEND_EMAIL=Y ;; # /etc/aliases no sanity checks
 			n) SEND_EMAIL=N ;;
 			v) check_version; exit 0 ;;
-			s) export VERBOSE=N ;;
+			q) export VERBOSE=N ;;
 			h) usage ;;
 			\?) usage ;;
 			:) check_args $OPTARG none none ;;
@@ -351,7 +351,7 @@ exit $?
 
 # Add this as a cron to run daily / weekly as you like
 # Here's a sample CRON entry to update every day at 10pm
-# 00 22 * * * sudo /usr/sbin/update-ngxblocker
+# 00 22 * * * sudo /usr/sbin/update-ngxblocker -q
 
 # Here's another example to run it daily at midday using a command line switch to set the email address for the notification
 # 00 12 * * * sudo /usr/sbin/update-ngxblocker -e yourname@youremailprovider.com
