@@ -12,7 +12,8 @@ VHOST_DIR=/etc/nginx/sites-available
 BOTS_DIR=/etc/nginx/bots.d
 CONF_DIR=/etc/nginx/conf.d
 MAIN_CONF=/etc/nginx/nginx.conf
-INSTALLER=/usr/sbin/install-ngxblocker
+INSTALL_DIR=/usr/sbin/
+INSTALLER=install-ngxblocker
 # setting Y / yes will whitelist only directories in $www
 # that look like domain.names
 DOT_NAMES="Y"
@@ -41,7 +42,7 @@ Usage: $script [OPTIONS]
 	[ -b ] : Bot rules directory           (default: $BOTS_DIR)
 	[ -c ] : NGINX conf directory          (default: $CONF_DIR)
 	[ -m ] : NGINX main configuration      (default: $MAIN_CONF)
-	[ -i ] : Change installer path         (default: $INSTALLER)
+	[ -i ] : Script installation directory (default: $INSTALL_DIR)
 	[ -n ] : NO whitelist of .names only   (default: $DOT_NAMES)
 	[ -d ] : NO insert of DDOS rule        (default: $INC_DDOS)
 	[ -x ] : Actually change the files     (default: don't change anything)
@@ -71,7 +72,7 @@ update_paths() {
 				sed -i "s|$dir|$BOTS_DIR|" $blacklist
 			done
 		else
-			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}.\n"
+			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALL_DIR/$INSTALLER${RESET}.\n"
 			$INSTALL_INC
 			update_paths $blacklist
 		fi
@@ -266,8 +267,8 @@ check_depends() {
 	fi
 
 	# install-ngxblocker downloads missing scripts / includes as part of the update process
-	if [ ! -x $INSTALLER ]; then
-		printf "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}\n"
+	if [ ! -x $INSTALL_DIR/$INSTALLER ]; then
+		printf "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALL_DIR/$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}\n"
 		exit 1
 	fi
 }
@@ -291,7 +292,7 @@ get_options() {
 			b) BOTS_DIR=$arg; check_args $opts path $arg ;;
 			c) CONF_DIR=$arg; check_args $opts path $arg ;;
 			m) MAIN_CONF=$arg; check_args $opts path $arg ;;
-			i) INSTALLER=$arg; check_args $opts script $arg ;;
+			i) INSTALL_DIR=$arg; check_args $opts path $arg ;;
 			n) DOT_NAMES=N ;;
 			d) INC_DDOS=N ;;
 			x) DRY_RUN=N ;;
@@ -301,7 +302,7 @@ get_options() {
 		esac
 	done
 
-	INSTALL_INC="$INSTALLER -b $BOTS_DIR -c $CONF_DIR -x"
+	INSTALL_INC="$INSTALL_DIR/$INSTALLER -b $BOTS_DIR -c $CONF_DIR -i $INSTALL_DIR -x"
 }
 
 wget_opts() {

@@ -47,17 +47,17 @@ $script: INSTALL Nginx Bad Bot Blocker configuration to: [ $CONF_DIR ] [ $BOTS_D
 Usage: $script [OPTIONS]
         [ -b ] : Bot rules directory           (default: $BOTS_DIR)
         [ -c ] : NGINX conf directory          (default: $CONF_DIR)
-        [ -s ] : Script directory              (default: $SCRIPT_DIR)
+        [ -i ] : Script installation directory (default: $SCRIPT_DIR)
         [ -r ] : Change repo url               (default: $REPO)
         [ -x ] : Actually change the files     (default: don't change anything)
-        [ -q ] : Suppress non error messages
+        [ -s ] : Suppress non error messages
         [ -v ] : Print blacklist version
         [ -h ] : this help message
 
 Examples:
  $script       (Don't change anything: display results on stdout)
  $script -x    (Download / update config files)
- $script -q    (Less verbose messages for cron)
+ $script -s    (Less verbose messages for cron)
 EOF
         exit 0
 }
@@ -206,7 +206,7 @@ print_message() {
 get_options() {
         local arg= opts=
 
-        while getopts :b:c:s:r:xvqh opts "$@"
+        while getopts :b:c:i:r:xvsh opts "$@"
         do
                 if [ -n "${OPTARG}" ]; then
                         case "$opts" in
@@ -218,11 +218,11 @@ get_options() {
                 case "$opts" in
                         b) BOTS_DIR=$arg; check_args $opts path $arg ;;
                         c) CONF_DIR=$arg; check_args $opts path $arg ;;
-                        s) SCRIPT_DIR=$arg; check_args $opts path $arg ;;
+                        i) SCRIPT_DIR=$arg; check_args $opts path $arg ;;
                         r) REPO=$arg; check_args $opts url $arg ;;
                         x) DRY_RUN=N ;;
                         v) check_version ;;
-                        q) VERBOSE=N ;;
+                        s) VERBOSE=N ;;
                         h) usage ;;
                        \?) usage ;;
                         :) check_args $OPTARG none none ;;
