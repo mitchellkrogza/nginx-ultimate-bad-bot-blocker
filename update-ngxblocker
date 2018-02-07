@@ -32,7 +32,8 @@ EMAIL="me@myemail.com"
 SEND_EMAIL="N"
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
-INSTALLER=/usr/sbin/install-ngxblocker
+INSTALL_DIR=/usr/sbin/
+INSTALLER=install-ngxblocker
 
 ##### end user configuration ##############################################################
 
@@ -51,7 +52,7 @@ $script: UPDATE Nginx Bad Bot Blocker blacklist in: [ $CONF_DIR ]
 Usage: $script [OPTIONS]
         [ -c ] : NGINX conf directory          (default: $CONF_DIR)
         [ -b ] : NGINX bots directory          (default: $BOTS_DIR)
-        [ -i ] : Change installer path         (default: $INSTALLER)
+        [ -i ] : Script installation directory (default: $INSTALL_DIR)
         [ -r ] : Change repo url               (default: $REPO)
         [ -e ] : Change @email address         (default: $EMAIL)
         [ -m ] : Change mail (system alias)    (default: $EMAIL)
@@ -65,7 +66,7 @@ Examples:
  $script -c /my/custom/conf.d    (Download globalblacklist.conf to a custom location)
  $script -b /my/custom/bots.d    (Download globalblacklist.conf & update with your custom bots.d location)
  $script -e yourname@youremailaddress.com (Download globalblacklist.conf specifying your email address for the notification)
- $script -u /path/to/install-ngxblocker   (Use custom path to install-ngxblocker to update bots.d / conf.d include files)
+ $script -i /path/to/scripts/    (Use custom path to install-ngxblocker to update bots.d / conf.d include files)
  $script -s -m webmaster         (Send mail to a system alias address & give less verbose messages for cron)
 EOF
         exit 0
@@ -97,7 +98,7 @@ check_version() {
 			print_message "\nLatest Blacklist Already Installed: $BOLDGREEN$version$RESET\n\n"
 		fi
 	else
-		printf "${BOLDRED}ERROR${RESET}: Missing '$file' => ${BOLDWHITE}running $INSTALLER:${RESET}\n"
+		printf "${BOLDRED}ERROR${RESET}: Missing '$file' => ${BOLDWHITE}running $INSTALL_DIR/$INSTALLER:${RESET}\n"
 		$INSTALL_INC
 		if [ -f $file ]; then
 			check_version
@@ -110,7 +111,7 @@ check_dirs() {
 
 	for x in $dirs; do
 		if [ ! -d $x ]; then
-			printf "${BOLDRED}ERROR${RESET}: Missing directory: $x => ${BOLDWHITE}running $INSTALLER:${RESET}\n"
+			printf "${BOLDRED}ERROR${RESET}: Missing directory: $x => ${BOLDWHITE}running $INSTALL_DIR/$INSTALLER:${RESET}\n"
 			$INSTALL_INC
 		fi
 	done
@@ -131,7 +132,7 @@ update_paths() {
 				sed -i "s|$dir|$BOTS_DIR|" $blacklist
 			done
 		else
-			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}.\n"
+			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALL_DIR/$INSTALLER${RESET}.\n"
 			$INSTALL_INC
 			update_paths $blacklist
 		fi
@@ -210,8 +211,8 @@ check_depends() {
 	fi
 
 	# install-ngxblocker downloads missing scripts / includes as part of the update process
-	if [ ! -x $INSTALLER ]; then
-		printf "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}\n"
+	if [ ! -x $INSTALL_DIR/$INSTALLER ]; then
+		printf "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALL_DIR/$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}\n"
 		exit 1
 	fi
 }
@@ -253,7 +254,7 @@ get_options() {
 		esac
 	done
 
-	INSTALL_INC="$INSTALLER -b $BOTS_DIR -c $CONF_DIR -x"
+	INSTALL_INC="$INSTALL_DIR/$INSTALLER -b $BOTS_DIR -c $CONF_DIR -x"
 }
 
 main() {
