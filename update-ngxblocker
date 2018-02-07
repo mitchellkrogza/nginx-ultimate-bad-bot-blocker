@@ -254,7 +254,7 @@ get_options() {
 		esac
 	done
 
-	INSTALL_INC="$INSTALL_DIR/$INSTALLER -b $BOTS_DIR -c $CONF_DIR -x"
+	INSTALL_INC="$INSTALL_DIR/$INSTALLER -b $BOTS_DIR -c $CONF_DIR -i $INSTALL_DIR -x"
 }
 
 main() {
