@@ -143,7 +143,7 @@ service_cmd() {
 	local x= svc= svc_list="service systemctl rc-service"
 
 	for x in $svc_list; do
-		svc=$(which $svc 2>/dev/null)
+		svc=$(which $x 2>/dev/null)
 		if [ -n "$svc" ]; then
 			case "$x" in
 				service) svc="$svc nginx reload";;
@@ -268,7 +268,7 @@ get_options() {
 main() {
 	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 	local file=globalblacklist.conf remote_dir=conf.d url= output= update= status= tmp= retval=
-	local reload_service=$(service_cmd)
+	local reload_service="$(service_cmd)"
 
 	# require root
 	if [ "$(id -u)" != "0" ]; then
@@ -276,10 +276,9 @@ main() {
 		exit 1
 	fi
 
-	check_depends
-
 	# parse command line
 	get_options $@
+	check_depends
 	check_dirs $BOTS_DIR $CONF_DIR
 	url=$REPO/$remote_dir/$file
 	output=$CONF_DIR/$file
