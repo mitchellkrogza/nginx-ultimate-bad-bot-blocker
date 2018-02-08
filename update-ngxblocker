@@ -20,10 +20,10 @@
 
 # PLEASE READ UPDATED CONFIGURATION INSTRUCTIONS BEFORE USING THIS
 
-# Save this file as /usr/sbin/update-ngxblocker
-# cd /usr/sbin
+# Save this file as /usr/local/sbin/update-ngxblocker
+# cd /usr/local/sbin
 # sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O update-ngxblocker
-# Make it Executable chmod 700 /usr/sbin/update-ngxblocker
+# Make it Executable chmod 700 /usr/local/sbin/update-ngxblocker
 
 # RUN THE UPDATE
 # Here our script runs, pulls the latest update, reloads nginx and emails you a notification
@@ -32,7 +32,7 @@ EMAIL="me@myemail.com"
 SEND_EMAIL="N"
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
-INSTALLER=/usr/sbin/install-ngxblocker
+INSTALLER=/usr/local/sbin/install-ngxblocker
 
 ##### end user configuration ##############################################################
 
@@ -359,13 +359,13 @@ exit $?
 
 # Add this as a cron to run daily / weekly as you like
 # Here's a sample CRON entry to update every day at 10pm
-# 00 22 * * * sudo /usr/sbin/update-ngxblocker -q
+# 00 22 * * * sudo /usr/local/sbin/update-ngxblocker -q
 
 # Here's another example to run it daily at midday using a command line switch to set the email address for the notification
-# 00 12 * * * sudo /usr/sbin/update-ngxblocker -e yourname@youremailprovider.com
+# 00 12 * * * sudo /usr/local/sbin/update-ngxblocker -e yourname@youremailprovider.com
 
 # Less verbose logging to a system alias mail address (root crontab)
-# 00 12 * * * /usr/sbin/update-ngxblocker -q -m webmaster
+# 00 12 * * * /usr/local/sbin/update-ngxblocker -q -m webmaster
 
 # better logging for cron jobs:
 # https://serverfault.com/questions/137468/better-logging-for-cronjobs-send-cron-output-to-syslog

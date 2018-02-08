@@ -23,18 +23,18 @@
 ### You can also now use a setup script contributed by Stuart Cardall to automatically insert the includes for you
 ### See - https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker
 
-# Save this file as /usr/sbin/install-ngxblocker
-# 	sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
+# Save this file as /usr/local/sbin/install-ngxblocker
+# 	sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/local/sbin/install-ngxblocker
 # Make it Executable:
-# 	chmod 700 /usr/sbin/install-ngxblocker
+# 	chmod 700 /usr/local/sbin/install-ngxblocker
 # Run it from the command line:
-#	sudo /usr/sbin/install-ngxblocker [ -h ]
+#	sudo /usr/local/sbin/install-ngxblocker [ -h ]
 
 ######## LETS INSTALL NOW ###############################
 
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
-SCRIPT_DIR=/usr/sbin
+SCRIPT_DIR=/usr/local/sbin
 REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 
 ####### end user configuration ##########################

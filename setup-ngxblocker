@@ -12,7 +12,7 @@ VHOST_DIR=/etc/nginx/sites-available
 BOTS_DIR=/etc/nginx/bots.d
 CONF_DIR=/etc/nginx/conf.d
 MAIN_CONF=/etc/nginx/nginx.conf
-INSTALLER=/usr/sbin/install-ngxblocker
+INSTALLER=/usr/local/sbin/install-ngxblocker
 # setting Y / yes will whitelist only directories in $www
 # that look like domain.names
 DOT_NAMES="Y"
