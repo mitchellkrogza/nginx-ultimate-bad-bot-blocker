@@ -357,7 +357,7 @@ exit $?
 # 00 12 * * * sudo /usr/sbin/update-ngxblocker -e yourname@youremailprovider.com
 
 # Less verbose logging to a system alias mail address (root crontab)
-# 00 12 * * * /usr/sbin/update-ngxblocker -s -m webmaster
+# 00 12 * * * /usr/sbin/update-ngxblocker -q -m webmaster
 
 # better logging for cron jobs:
 # https://serverfault.com/questions/137468/better-logging-for-cronjobs-send-cron-output-to-syslog
