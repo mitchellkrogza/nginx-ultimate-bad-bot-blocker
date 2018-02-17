@@ -3554,6 +3554,7 @@
 "~*\bnailsimg\.com\b" 	1;
 "~*\bnajaden\.no\b" 	1;
 "~*\bnaj\-filmy24\.pl\b" 	1;
+"~*\bnakozhe\.com\b" 	1;
 "~*\bnalogovyy\-kodeks\.ru\b" 	1;
 "~*\bnalogovyykodeks\.ru\b" 	1;
 "~*\bnamenectar\.com\b" 	1;
@@ -4085,6 +4086,7 @@
 "~*\bpospr\.waw\.pl\b" 	1;
 "~*\bpostclass\.com\b" 	1;
 "~*\bpotoideas\.us\b" 	1;
+"~*\bpotolokelekor\.ru\b" 	1;
 "~*\bpowc\.r\.ca\.d\.sendibm2\.com\b" 	1;
 "~*\bpowenlite24\.ru\b" 	1;
 "~*\bpowitania\.pl\b" 	1;
@@ -4271,6 +4273,7 @@
 "~*\brapidgator\-porn\.ga\b" 	1;
 "~*\brapidokbrain\.com\b" 	1;
 "~*\brapidsites\.pro\b" 	1;
+"~*\braschtextil\.com\.ua\b" 	1;
 "~*\brasteniya\-vs\-zombi\.ru\b" 	1;
 "~*\bratemodels\.net\b" 	1;
 "~*\brazamicroelectronics\.com\b" 	1;
