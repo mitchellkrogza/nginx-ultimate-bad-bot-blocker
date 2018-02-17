@@ -97,7 +97,7 @@ sudo chmod +x /usr/sbin/install-ngxblocker
 
 printf '\n%s\n%s\n%s\n\n' "######################" "Run install-ngxblocker" "######################"
 cd /usr/sbin
-sudo bash ./install-ngxblocker -x
+sudo bash ./install-ngxblocker -s /usr/sbin/ -x
 
 # **************************************************
 # Set our install and setup scripts to be executable
@@ -114,7 +114,7 @@ sudo chmod +x /usr/sbin/update-ngxblocker
 
 printf '\n%s\n%s\n%s\n\n' "####################" "Run setup-ngxblocker" "####################"
 cd /usr/sbin
-sudo bash ./setup-ngxblocker -x
+sudo bash ./setup-ngxblocker -i /usr/sbin/install-ngxblocker -x
 
 # ************************
 # Load our Nginx.conf file
