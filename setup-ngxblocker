@@ -390,10 +390,14 @@ main() {
 	# update vhosts
 	for file in $file_list; do
 		line=$(find_includes $file include last server_ last location first )
+
 		if [ -n "$(check_wildcard $file $BOTS_DIR)" ]; then
+			# do not use wildcards in vhost files
 			printf "%-10s %-${col_size}s %s\n" "WARN:" "$BOTS_DIR/* detected" "=> $file"
-		else						# don't use wildcards in vhost files
-			add_includes $line $file $BOTS_DIR $col_size $VHOST_INCLUDES
+		else    # do not add includes to vhosts without root directive (i.e redirects)
+			if grep -Ew [[:space:]]+root $file 1>/dev/null; then
+				add_includes $line $file $BOTS_DIR $col_size $VHOST_INCLUDES
+			fi
 		fi
 	done
 
