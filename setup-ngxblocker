@@ -82,13 +82,17 @@ check_config() {
 	local files="$*"
 
 	if [ -z "$files" ]; then
-		echo "no vhost files in: $VHOST_DIR/*.$VHOST_EXT => exiting."
-		exit 1
+		printf "${BOLDGREEN}using a file extension for vhost files allows multiple domains to be included with a single directive in nginx.conf:\n\n"
+		printf "${BOLDWHITE}include /etc/nginx/sites-enabled/*.vhost;\n\n"
+		printf "${BOLDYELLOW}see command line switches below: ${BOLDGREEN}-e ${RESET}to customise the vhost file extension\n\n"
+		printf "${BOLDMAGENTA}no vhost files in:${RESET} [ $VHOST_DIR/*.$VHOST_EXT ] ${BOLDWHITE}=> exiting${RESET}.\n\n"
+		usage
 	fi
 
 	if [ ! -f "$MAIN_CONF" ]; then
-		echo "NGINX main configuration ('$MAIN_CONF') not found => exiting."
-		exit 1
+		printf "${BOLDYELLOW}see command line switches below: ${BOLDGREEN}-m ${RESET}to customise the location of ${BOLDWHITE}nginx.conf${RESET}\n\n"
+		printf "${BOLDWHITE}NGINX main configuration${RESET} [ $MAIN_CONF ] ${BOLDMAGENTA}not found ${BOLDWHITE}=> exiting${RESET}.\n\n"
+		usage
 	fi
 }
 
