@@ -344,9 +344,13 @@ main() {
 	get_options $@
 	check_depends
 
-	include_url=$REPO/include_filelist.txt
+	# check vhosts
+	file_list=$(find_vhosts)
+	check_config $file_list
 
 	# check repo is online & source includes
+	include_url=$REPO/include_filelist.txt
+
 	printf "Checking url: $include_url\n"
 	if [ -n "$(check_online $include_url)" ]; then
 		local tmp=$(mktemp)
@@ -370,17 +374,15 @@ main() {
 		n*|N*) VHOST_INCLUDES=$(echo $VHOST_INCLUDES | sed 's|ddos.conf||');;
 	esac
 
-	# gather vhosts
-	file_list=$(find_vhosts)
-	check_config $file_list
-	col_size=$(( $(longest_str $CONF_FILES) + $(echo $CONF_DIR | wc -m) + 10 ))
-
 	# by default do not change any files
 	if [ -z "$DRY_RUN" ]; then
 		printf "\n** Dry Run ** | not updating files | run  as '$(basename $0) -x' to setup files.\n\n"
 	else
 		printf "\n"
 	fi
+
+	# calculate column size for better message printing
+	col_size=$(( $(longest_str $CONF_FILES) + $(echo $CONF_DIR | wc -m) + 10 ))
 
 	# update main config
 	line=$(find_includes $MAIN_CONF include last http first '\}' last )
