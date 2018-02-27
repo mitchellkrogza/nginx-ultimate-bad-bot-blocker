@@ -1219,6 +1219,7 @@
 "~*\bclothesforcash\.com\b" 	1;
 "~*\bcl\.s7\.exct\.net\b" 	1;
 "~*\bclubfashionista\.com\b" 	1;
+"~*\bclub\-lukojl\.ru\b" 	1;
 "~*\bclub\-musics\.ru\b" 	1;
 "~*\bclub\-samodelkin\.ru\b" 	1;
 "~*\bcmd\.kz\b" 	1;
@@ -1610,6 +1611,7 @@
 "~*\bdriving\.kiev\.ua\b" 	1;
 "~*\bdrivotracker\.com\b" 	1;
 "~*\bdroidlook\.net\b" 	1;
+"~*\bdrugs\-no\-rx\.info\b" 	1;
 "~*\bdrugspowerstore\.com\b" 	1;
 "~*\bdrugstoreforyou\.com\b" 	1;
 "~*\bdrunkenstepfather\.com\b" 	1;
@@ -2327,6 +2329,7 @@
 "~*\bgpms\.org\.my\b" 	1;
 "~*\bgq\-catalog\.gq\b" 	1;
 "~*\bgrand\-chlen\.ru\b" 	1;
+"~*\bgraphics8\.info\b" 	1;
 "~*\bgraphicwe\.org\b" 	1;
 "~*\bgraphid\.com\b" 	1;
 "~*\bgratis\-sexkontakte\.com\b" 	1;
@@ -2419,6 +2422,7 @@
 "~*\bhdwallpapers\-free\.com\b" 	1;
 "~*\bhdwalls\.xyz\b" 	1;
 "~*\bhdxnxxtube\.mobi\b" 	1;
+"~*\bheadpharmacy\.com\b" 	1;
 "~*\bheadpress\.ru\b" 	1;
 "~*\bhealbio\.ru\b" 	1;
 "~*\bhealgastro\.com\b" 	1;
@@ -2436,6 +2440,7 @@
 "~*\bhelvetia\.com\.ua\b" 	1;
 "~*\bhem\.passagen\.se\b" 	1;
 "~*\bhentaiheroes\.com\b" 	1;
+"~*\bhentai\-manga\.porn\b" 	1;
 "~*\bherehloadibs\.cf\b" 	1;
 "~*\bhermesbelts\.xyz\b" 	1;
 "~*\bhermesbirkinhandbagoutlets\.com\b" 	1;
@@ -3198,6 +3203,7 @@
 "~*\bmalls\.com\b" 	1;
 "~*\bmall\.uk\b" 	1;
 "~*\bmalwareremovalcenter\.com\b" 	1;
+"~*\bmamasuper\.prom\.ua\b" 	1;
 "~*\bmanagerpak204\.weebly\.com\b" 	1;
 "~*\bmanifestation\.betteroffers\.review\b" 	1;
 "~*\bmanipulyator\-peterburg\.ru\b" 	1;
@@ -3366,6 +3372,7 @@
 "~*\bmixed\-wrestling\.ru\b" 	1;
 "~*\bmixtapetorrent\.com\b" 	1;
 "~*\bmjchamonix\.org\b" 	1;
+"~*\bmlf\.hordo\.win\b" 	1;
 "~*\bmlvc4zzw\.space\b" 	1;
 "~*\bmmgq\.ru\b" 	1;
 "~*\bmmofreegames\.online\b" 	1;
@@ -3757,6 +3764,7 @@
 "~*\bonlinemegax\.com\b" 	1;
 "~*\bonline\-podarki\.com\b" 	1;
 "~*\bonlineporno\.site\b" 	1;
+"~*\bonline\-sbank\.ru\b" 	1;
 "~*\bonlineserialy\.ru\b" 	1;
 "~*\bonlineslotmaschine\.com\b" 	1;
 "~*\bonline\-templatestore\.com\b" 	1;
@@ -4063,6 +4071,7 @@
 "~*\bporno\-play\.net\b" 	1;
 "~*\bporno\-raskazy\.ru\b" 	1;
 "~*\bpornosee\.info\b" 	1;
+"~*\bpornosemki\.info\b" 	1;
 "~*\bporno\.simple\-image\.com\.ua\b" 	1;
 "~*\bpornoslive\.net\b" 	1;
 "~*\bpornosmola\.info\b" 	1;
@@ -4148,6 +4157,7 @@
 "~*\bprofitkode\.com\b" 	1;
 "~*\bprofit\-opportunity\.com\b" 	1;
 "~*\bprofitsport\.club\b" 	1;
+"~*\bprofitwithalex\.info\b" 	1;
 "~*\bprofolan\.pl\b" 	1;
 "~*\bproftests\.net\b" 	1;
 "~*\bprogonrumarket\.ru\b" 	1;
@@ -4605,6 +4615,7 @@
 "~*\bsenger\.atspace\.co\.uk\b" 	1;
 "~*\bseo\-2\-0\.com\b" 	1;
 "~*\bseoanalyses\.com\b" 	1;
+"~*\bseocdvig\.ru\b" 	1;
 "~*\bseocheckupx\.com\b" 	1;
 "~*\bseocheki\.net\b" 	1;
 "~*\bseoexperimenty\.ru\b" 	1;
@@ -4623,6 +4634,7 @@
 "~*\bseorankinglinks\.com\b" 	1;
 "~*\bseorankinglinks\.us\b" 	1;
 "~*\bseorankinglinks\.xyz\b" 	1;
+"~*\bseorussian\.ru\b" 	1;
 "~*\bseo\-smm\.kz\b" 	1;
 "~*\bseotoolsagency\.com\b" 	1;
 "~*\bseo\-tools\-optimizing\.com\b" 	1;
@@ -4801,6 +4813,7 @@
 "~*\bslim\.sellany\.ru\b" 	1;
 "~*\bslkrm\.ru\b" 	1;
 "~*\bs\.lollypopgaming\.com\b" 	1;
+"~*\bslomm\.ru\b" 	1;
 "~*\bslonechka\.ru\b" 	1;
 "~*\bslowmacfaster\.trade\b" 	1;
 "~*\bslowmac\.tech\b" 	1;
@@ -5315,6 +5328,7 @@
 "~*\btracksurf\.daooda\.com\b" 	1;
 "~*\btracksz\.co\b" 	1;
 "~*\btrackzapper\.com\b" 	1;
+"~*\btracxn\.com\b" 	1;
 "~*\btradedeals\.biz\b" 	1;
 "~*\btraderzplanet\.in\b" 	1;
 "~*\btradgardspartner\.se\b" 	1;

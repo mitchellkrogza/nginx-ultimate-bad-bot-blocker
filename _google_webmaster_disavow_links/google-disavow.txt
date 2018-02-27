@@ -1218,6 +1218,7 @@ domain:clksite.com
 domain:clmforexeu.com
 domain:clodo.ru
 domain:clothesforcash.com
+domain:club-lukojl.ru
 domain:club-musics.ru
 domain:club-samodelkin.ru
 domain:clubfashionista.com
@@ -1610,6 +1611,7 @@ domain:drillsaw.ru
 domain:driving.kiev.ua
 domain:drivotracker.com
 domain:droidlook.net
+domain:drugs-no-rx.info
 domain:drugspowerstore.com
 domain:drugstoreforyou.com
 domain:drunkenstepfather.com
@@ -2328,6 +2330,7 @@ domain:gpirate.com
 domain:gpms.org.my
 domain:gq-catalog.gq
 domain:grand-chlen.ru
+domain:graphics8.info
 domain:graphicwe.org
 domain:graphid.com
 domain:gratis-sexkontakte.com
@@ -2419,6 +2422,7 @@ domain:hdseriale.pl
 domain:hdwallpapers-free.com
 domain:hdwalls.xyz
 domain:hdxnxxtube.mobi
+domain:headpharmacy.com
 domain:headpress.ru
 domain:healbio.ru
 domain:healgastro.com
@@ -2435,6 +2439,7 @@ domain:help.tpu.ru
 domain:helpmymacfaster.trade
 domain:helvetia.com.ua
 domain:hem.passagen.se
+domain:hentai-manga.porn
 domain:hentaiheroes.com
 domain:herehloadibs.cf
 domain:hermesbelts.xyz
@@ -3200,6 +3205,7 @@ domain:maladot.com
 domain:mall.uk
 domain:malls.com
 domain:malwareremovalcenter.com
+domain:mamasuper.prom.ua
 domain:managerpak204.weebly.com
 domain:manifestation.betteroffers.review
 domain:manipulyator-peterburg.ru
@@ -3366,6 +3372,7 @@ domain:mitrasound.ru
 domain:mixed-wrestling.ru
 domain:mixtapetorrent.com
 domain:mjchamonix.org
+domain:mlf.hordo.win
 domain:mlvc4zzw.space
 domain:mmgq.ru
 domain:mmofreegames.online
@@ -3752,6 +3759,7 @@ domain:onlinadverts.com
 domain:online-hd.pl
 domain:online-hit.info
 domain:online-podarki.com
+domain:online-sbank.ru
 domain:online-templatestore.com
 domain:online-x.ru
 domain:online.ktc45.ru
@@ -4067,6 +4075,7 @@ domain:pornokorol.com
 domain:pornolook.net
 domain:pornophoto.xyz
 domain:pornosee.info
+domain:pornosemki.info
 domain:pornoslive.net
 domain:pornosmola.info
 domain:pornotubexxx.name
@@ -4151,6 +4160,7 @@ domain:profit-opportunity.com
 domain:profitfx.online
 domain:profitkode.com
 domain:profitsport.club
+domain:profitwithalex.info
 domain:profolan.pl
 domain:proftests.net
 domain:progonrumarket.ru
@@ -4612,6 +4622,7 @@ domain:seo-smm.kz
 domain:seo-tools-optimizing.com
 domain:seo-traffic-ranking.info
 domain:seoanalyses.com
+domain:seocdvig.ru
 domain:seocheckupx.com
 domain:seocheki.net
 domain:seoexperimenty.ru
@@ -4629,6 +4640,7 @@ domain:seorank.info
 domain:seorankinglinks.com
 domain:seorankinglinks.us
 domain:seorankinglinks.xyz
+domain:seorussian.ru
 domain:seotoolsagency.com
 domain:serdcenebolit.com
 domain:sergiorossistore.online
@@ -4801,6 +4813,7 @@ domain:sledstvie-veli.net
 domain:slim.sellany.ru
 domain:slimcdn.com
 domain:slkrm.ru
+domain:slomm.ru
 domain:slonechka.ru
 domain:slowmac.tech
 domain:slowmacfaster.trade
@@ -5315,6 +5328,7 @@ domain:trackmedia101.com
 domain:tracksurf.daooda.com
 domain:tracksz.co
 domain:trackzapper.com
+domain:tracxn.com
 domain:tradedeals.biz
 domain:traderzplanet.in
 domain:tradgardspartner.se
