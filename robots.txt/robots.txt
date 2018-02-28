@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.02.1059
-### Updated: Tue Feb 27 14:24:02 SAST 2018
-### Bad Bot Count: 510
+### Version: V3.2018.02.1060
+### Updated: Wed Feb 28 09:53:49 SAST 2018
+### Bad Bot Count: 509
 ###################################################
 ### Version Information ##
 
@@ -469,7 +469,7 @@ User-agent: Mag-Net
 Disallow:/
 User-agent: magpie-crawler
 Disallow:/
-User-agent: Mail.ru
+User-agent: Mail.RU_Bot
 Disallow:/
 User-agent: Majestic12
 Disallow:/
@@ -650,8 +650,6 @@ Disallow:/
 User-agent: PyCurl
 Disallow:/
 User-agent: QueryN Metasearch
-Disallow:/
-User-agent: Qwantify
 Disallow:/
 User-agent: RankActive
 Disallow:/

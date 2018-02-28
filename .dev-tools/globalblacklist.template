@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2018.02.1059
-### Updated: Tue Feb 27 14:24:02 SAST 2018
+### Version: V3.2018.02.1060
+### Updated: Wed Feb 28 09:53:48 SAST 2018
 ### Bad Referrer Count: 6191
-### Bad Bot Count: 510
+### Bad Bot Count: 509
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -442,7 +442,7 @@ map $http_user_agent $bad_bot {
 	"~*\bMagnet\b"		3;
 	"~*\bMag-Net\b"		3;
 	"~*\bmagpie-crawler\b"		3;
-	"~*\bMail.ru\b"		3;
+	"~*\bMail.RU_Bot\b"		3;
 	"~*\bMajestic12\b"		3;
 	"~*\bMarkMonitor\b"		3;
 	"~*\bMarkWatch\b"		3;
@@ -533,7 +533,6 @@ map $http_user_agent $bad_bot {
 	"~*\bPump\b"		3;
 	"~*\bPyCurl\b"		3;
 	"~*\bQueryN\ Metasearch\b"		3;
-	"~*\bQwantify\b"		3;
 	"~*\bRankActive\b"		3;
 	"~*\bRankActiveLinkBot\b"		3;
 	"~*\bRankFlex\b"		3;
