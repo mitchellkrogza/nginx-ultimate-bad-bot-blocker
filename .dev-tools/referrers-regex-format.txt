@@ -938,6 +938,7 @@
 "~*\bburger\-imperia\.com\b" 	1;
 "~*\bburkesales\.com\b" 	1;
 "~*\bburn\-fat\.ga\b" 	1;
+"~*\bburon\.pw\b" 	1;
 "~*\bbusinescoop\.men\b" 	1;
 "~*\bbusinesn\.men\b" 	1;
 "~*\bbusiness\-made\-fun\.com\b" 	1;
@@ -5885,6 +5886,7 @@
 "~*\bwygraj\-teraz\.com\b" 	1;
 "~*\bwyniki\-lista\.pl\b" 	1;
 "~*\bwzgyyq\.com\b" 	1;
+"~*\bx69ty\.ru\b" 	1;
 "~*\bxaijo\.com\b" 	1;
 "~*\bxaylapdiendanang\.com\b" 	1;
 "~*\bxbaboon\.com\b" 	1;

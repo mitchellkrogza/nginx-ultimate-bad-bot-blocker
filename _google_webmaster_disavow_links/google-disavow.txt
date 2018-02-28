@@ -938,6 +938,7 @@ domain:buqyxa.rincian.info
 domain:burger-imperia.com
 domain:burkesales.com
 domain:burn-fat.ga
+domain:buron.pw
 domain:bus-offer.com
 domain:businescoop.men
 domain:businesn.men
@@ -5895,6 +5896,7 @@ domain:x-porno.video
 domain:x-rates.ru
 domain:x-stars.ru
 domain:x-true.info
+domain:x69ty.ru
 domain:xaijo.com
 domain:xaylapdiendanang.com
 domain:xbaboon.com
