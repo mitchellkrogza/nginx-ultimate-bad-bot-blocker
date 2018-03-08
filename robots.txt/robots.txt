@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.02.1061
-### Updated: Wed Feb 28 10:12:36 SAST 2018
-### Bad Bot Count: 509
+### Version: V3.2018.03.1062
+### Updated: Thu Mar  8 10:25:01 SAST 2018
+### Bad Bot Count: 510
 ###################################################
 ### Version Information ##
 
@@ -1008,6 +1008,8 @@ Disallow:/
 User-agent: Xaldon WebSpider
 Disallow:/
 User-agent: Xenu
+Disallow:/
+User-agent: xpymep1.exe
 Disallow:/
 User-agent: YoudaoBot
 Disallow:/
