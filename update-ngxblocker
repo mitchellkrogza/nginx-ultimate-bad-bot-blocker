@@ -30,6 +30,7 @@
 
 EMAIL="me@myemail.com"
 SEND_EMAIL="N"
+SEND_EMAIL_UPDATE="N"
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
 INSTALLER=/usr/local/sbin/install-ngxblocker
@@ -56,6 +57,7 @@ Usage: $script [OPTIONS]
         [ -e ] : Change @email address         (default: $EMAIL)
         [ -m ] : Change mail (system alias)    (default: $EMAIL)
         [ -n ] : Do not send email report      (default: $SEND_EMAIL)
+        [ -o ] : Only send email on update     (default: $SEND_EMAIL_UPDATE)
         [ -q ] : Suppress non error messages
         [ -v ] : Print blacklist version
         [ -h ] : this help message
@@ -64,9 +66,10 @@ Examples:
  $script                         (Download globalblacklist.conf to: $CONF_DIR)
  $script -c /my/custom/conf.d    (Download globalblacklist.conf to a custom location)
  $script -b /my/custom/bots.d    (Download globalblacklist.conf & update with your custom bots.d location)
- $script -e yourname@youremailaddress.com (Download globalblacklist.conf specifying your email address for the notification)
+ $script -e you@youremail.com    (Download globalblacklist.conf specifying your email address for the notification)
  $script -u /path/to/install-ngxblocker   (Use custom path to install-ngxblocker to update bots.d / conf.d include files)
  $script -q -m webmaster         (Send mail to a system alias address & give less verbose messages for cron)
+ $script -o -e you@youremail.com (Send mail notification only on updates)
 EOF
         exit 0
 }
@@ -207,7 +210,7 @@ check_args() {
 check_mail_depends() {
 	if [ ! -f /usr/bin/mail ] && [ ! -f /bin/mail ]; then # mailx + ssmtp are enough to send emails
 		printf "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}.\n\n"
-		SEND_EMAIL="N"
+		return 1
 	fi
 }
 
@@ -233,10 +236,21 @@ print_message() {
 	fi
 }
 
+send_email() {
+	# email report
+	if check_mail_depends; then
+		print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
+		# remove ansi colour codes
+		sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
+		cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
+		rm -f $EMAIL_REPORT
+	fi
+}
+
 get_options() {
 	local arg= opts=
 
-	while getopts :c:b:u:r:e:m:nvqh opts "$@"
+	while getopts :c:b:u:r:e:m:novqh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
@@ -254,6 +268,7 @@ get_options() {
 			e) EMAIL=$arg; SEND_EMAIL=Y; check_args $opts email $arg ;;
 			m) EMAIL=$arg; SEND_EMAIL=Y ;; # /etc/aliases no sanity checks
 			n) SEND_EMAIL=N ;;
+			o) SEND_EMAIL_UPDATE=Y ;;
 			v) check_version; exit 0 ;;
 			q) export VERBOSE=N ;;
 			h) usage ;;
@@ -332,22 +347,26 @@ main() {
 		if [ "$VERBOSE" = "N" ]; then
 			printf "NGINX Blacklist updated =>$(grep "Version:" $CONF_DIR/globalblacklist.conf | tr -d '#')\n"
 		fi
+
+		# enable update only email
+		if [ "$SEND_EMAIL_UPDATE" = "Y" ] ; then
+			SEND_EMAIL=Y
+		fi
+
 	else
-	        # set custom bots.d path
+		# set custom bots.d path
 		update_paths $output
+
+		# disable update only email
+		if [ "$SEND_EMAIL_UPDATE" = "Y" ] ; then
+			SEND_EMAIL=N
+		fi
 	fi
 
 	# email report
-	check_mail_depends
 	case "$SEND_EMAIL" in
-		 y*|Y*)	print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
-			# remove ansi colour codes
-			sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
-			cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
-			;;
+		y*|Y*) send_email;;
 	esac
-
-	rm -f $EMAIL_REPORT
 }
 
 ## start ##
