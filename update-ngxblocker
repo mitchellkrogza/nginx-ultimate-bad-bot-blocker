@@ -67,9 +67,9 @@ Examples:
  $script -c /my/custom/conf.d    (Download globalblacklist.conf to a custom location)
  $script -b /my/custom/bots.d    (Download globalblacklist.conf & update with your custom bots.d location)
  $script -e you@youremail.com    (Download globalblacklist.conf specifying your email address for the notification)
- $script -u /path/to/install-ngxblocker   (Use custom path to install-ngxblocker to update bots.d / conf.d include files)
  $script -q -m webmaster         (Send mail to a system alias address & give less verbose messages for cron)
  $script -o -e you@youremail.com (Send mail notification only on updates)
+ $script -i /path/to/install-ngxblocker (Use custom path to install-ngxblocker to update bots.d / conf.d include files)
 EOF
         exit 0
 }
@@ -250,7 +250,7 @@ send_email() {
 get_options() {
 	local arg= opts=
 
-	while getopts :c:b:u:r:e:m:novqh opts "$@"
+	while getopts :c:b:i:r:e:m:novqh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
