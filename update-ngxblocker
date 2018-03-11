@@ -30,6 +30,7 @@
 
 EMAIL="me@myemail.com"
 SEND_EMAIL="N"
+SEND_EMAIL_UPDATE="N"
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
 INSTALLER=/usr/local/sbin/install-ngxblocker
@@ -56,6 +57,7 @@ Usage: $script [OPTIONS]
         [ -e ] : Change @email address         (default: $EMAIL)
         [ -m ] : Change mail (system alias)    (default: $EMAIL)
         [ -n ] : Do not send email report      (default: $SEND_EMAIL)
+	[ -o ] : Only send email on update     (default: $SEND_EMAIL_UPDATE)
         [ -q ] : Suppress non error messages
         [ -v ] : Print blacklist version
         [ -h ] : this help message
@@ -236,7 +238,7 @@ print_message() {
 get_options() {
 	local arg= opts=
 
-	while getopts :c:b:u:r:e:m:nvqh opts "$@"
+	while getopts :c:b:u:r:e:m:novqh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
@@ -254,6 +256,7 @@ get_options() {
 			e) EMAIL=$arg; SEND_EMAIL=Y; check_args $opts email $arg ;;
 			m) EMAIL=$arg; SEND_EMAIL=Y ;; # /etc/aliases no sanity checks
 			n) SEND_EMAIL=N ;;
+			o) SEND_EMAIL_UPDATE=Y ;;
 			v) check_version; exit 0 ;;
 			q) export VERBOSE=N ;;
 			h) usage ;;
@@ -339,14 +342,15 @@ main() {
 
 	# email report
 	check_mail_depends
-	case "$SEND_EMAIL" in
-		 y*|Y*)	print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
-			# remove ansi colour codes
-			sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
-			cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
-			;;
-	esac
-
+	if [ $update = 1 ] || [ "$SEND_EMAIL_UPDATE" = "N" ] ; then
+		case "$SEND_EMAIL" in
+			 y*|Y*)	print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
+				# remove ansi colour codes
+				sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
+				cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
+				;;
+		esac
+	fi
 	rm -f $EMAIL_REPORT
 }
 
