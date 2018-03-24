@@ -32,6 +32,7 @@ domain:123kuma.com
 domain:123locker.com
 domain:12bet.com
 domain:12masterov.com
+domain:12u.info
 domain:1314dh.com
 domain:13tabs.com
 domain:14b.info
@@ -83,6 +84,7 @@ domain:3weekdiet.com
 domain:3xforum.ro
 domain:40cg.com
 domain:45en.ru
+domain:4inn.ru
 domain:4istoshop.com
 domain:4k-player.pl
 domain:4kplayer.pl
@@ -930,6 +932,7 @@ domain:builtwith.com
 domain:buketeg.xyz
 domain:bukleteg.xyz
 domain:bum.com.ru
+domain:bumascloset.com
 domain:bumble.cheapwebsitehoster.com
 domain:bumskontakte.org
 domain:bupropion-sr-150-mg.us
@@ -943,6 +946,7 @@ domain:bus-offer.com
 domain:businescoop.men
 domain:businesn.men
 domain:business-made-fun.com
+domain:business-suggested.tk
 domain:businesxxl.com
 domain:butstrap.space
 domain:buttons-for-website.com
@@ -1139,6 +1143,7 @@ domain:chelyabinsk.xrus.org
 domain:cherrypointplace.ca
 domain:cherubinimobili.it
 domain:chiblackhawks-jerseys.com
+domain:chidporn.com
 domain:chimiver.info
 domain:chinacheapelitejerseys.com
 domain:chinaelitecheapjerseys.com
@@ -1252,6 +1257,7 @@ domain:comissionka.net
 domain:communisave.co.za
 domain:community.allhiphop.com
 domain:companies-catalog.com
+domain:compiko.info
 domain:compliance-alex.top
 domain:compliance-alex.xyz
 domain:compliance-alexa.top
@@ -2020,6 +2026,7 @@ domain:folowsite.com
 domain:food.dtu.dk
 domain:footbalive.org
 domain:footballfarrago.com
+domain:fordsonmajbor.cf
 domain:forensicpsychiatry.ru
 domain:forex-indextop20.ru
 domain:forex-procto.ru
@@ -2108,10 +2115,12 @@ domain:freshmac.space
 domain:freshsuperbloop.com
 domain:freshwallpapers.info
 domain:freza-sverlo.ru
+domain:frighteningremain.cf
 domain:frivgame250.com
 domain:froggytube.com
 domain:front.ru
 domain:front.to
+domain:frustrated-favorable.gq
 domain:frvo.alptandem.ru
 domain:fsakhalin.ru
 domain:fsalas.com
@@ -2540,6 +2549,7 @@ domain:howmuchdoestizanidinecost.blogspot.com
 domain:howopen.ru
 domain:howtoclean.club
 domain:howtowhitenteethfast.xyz
+domain:hoztorg-opt.ru
 domain:hplaserjetpdriver8y.pen.io
 domain:hptwaakw.blog.fc2.com
 domain:hreade.com
@@ -2834,11 +2844,13 @@ domain:kaz.kz
 domain:kazan.xrus.org
 domain:kazan.zrus.org
 domain:kazinogames.lv
+domain:kazka.ru
 domain:kazrent.com
 domain:kchaxton.com
 domain:keenoutlet.online
 domain:kemerovo.zrus.org
 domain:kenaba.su
+domain:kerch.site
 domain:kerei.ru
 domain:kerwinandcariza.com
 domain:ketoanhanoi.info
@@ -3058,6 +3070,7 @@ domain:lightinghomes.net
 domain:lignofix.ua
 domain:likesdesign.com
 domain:likesuccess.com
+domain:likrot.com
 domain:liky.co.ua
 domain:limads.men
 domain:limtu.ifmo.ru
@@ -3195,6 +3208,7 @@ domain:magicdiet.gq
 domain:magicplayer-s.acestream.net
 domain:maglid.ru
 domain:magnetpress.sk
+domain:mahnwachen-helfen.info
 domain:mail.allnews24.in
 domain:mainlinehobby.net
 domain:maju.bluesalt.co
@@ -3339,6 +3353,7 @@ domain:middlerush-a.akamaihd.net
 domain:midst.eu
 domain:mielec.pl
 domain:migente.com
+domain:mikozstop.com
 domain:mikrobiologies.ru
 domain:mil-stak.com
 domain:milblueprint.com
@@ -3651,6 +3666,7 @@ domain:nlfjjunb5.ru
 domain:nmrk.ru
 domain:no-rx.info
 domain:noclegonline.info
+domain:nodding-passion.tk
 domain:nodup.ru
 domain:nofreezingmac.click
 domain:nofreezingmac.work
@@ -3858,6 +3874,7 @@ domain:paparazzistudios.com.au
 domain:papasdelivery.ru
 domain:paperwritingservice17.blogspot.ru
 domain:paphoselectricianandplumber.com
+domain:par-fallen.ga
 domain:paradontozanet.ru
 domain:parajumpersoutlet.online
 domain:parajumpersstore.online
@@ -3930,6 +3947,7 @@ domain:pflexads.com
 domain:pharmacyincity.com
 domain:phobia.us
 domain:phormchina.com
+domain:photo-clip.ru
 domain:photo.houseofgaga.ru
 domain:photochki.com
 domain:photokitchendesign.com
@@ -3979,6 +3997,7 @@ domain:pix24x7.com
 domain:pixell.club
 domain:pixelrz.com
 domain:pixgood.com
+domain:pixshark.com
 domain:pizda.lol
 domain:pizdopletka.club
 domain:pizza-imperia.com
@@ -4069,6 +4088,7 @@ domain:pornoelita.info
 domain:pornofiljmi.com
 domain:pornoforadult.com
 domain:pornogig.com
+domain:pornohd1080.online
 domain:pornokajf.com
 domain:pornoklad.net
 domain:pornoklad.ru
@@ -4908,6 +4928,7 @@ domain:sovetogorod.ru
 domain:soviet-portal.do.am
 domain:sovinsteel.ru
 domain:spacash.com
+domain:space-worry.ml
 domain:space4update.pw
 domain:space4updating.win
 domain:spaceshipad.com
@@ -5034,6 +5055,7 @@ domain:sukarame.net
 domain:sukirgenk.dvrlists.com
 domain:summerlinhomes411.info
 domain:sumo.com
+domain:sundrugstore.com
 domain:superfish.com
 domain:superiends.org
 domain:superinterstitial.com
