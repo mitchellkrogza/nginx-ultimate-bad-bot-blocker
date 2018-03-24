@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.03.1067
-### Updated: Sat Mar 24 12:04:23 SAST 2018
-### Bad Bot Count: 508
+### Version: V3.2018.03.1068
+### Updated: Sat Mar 24 16:17:24 SAST 2018
+### Bad Bot Count: 509
 ###################################################
 ### Version Information ##
 
@@ -720,6 +720,8 @@ Disallow:/
 User-agent: Seznam
 Disallow:/
 User-agent: SeznamBot
+Disallow:/
+User-agent: Shodan
 Disallow:/
 User-agent: Siphon
 Disallow:/

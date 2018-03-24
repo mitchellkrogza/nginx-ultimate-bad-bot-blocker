@@ -354,6 +354,7 @@ SEOstats
 sexsearcher
 Seznam
 SeznamBot
+Shodan
 Siphon
 SISTRIX
 Sitebeam
