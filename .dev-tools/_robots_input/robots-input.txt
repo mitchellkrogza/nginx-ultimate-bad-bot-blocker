@@ -12,6 +12,7 @@ Aipbot
 Alexibot
 Alligator
 AllSubmitter
+AlphaBot
 Anarchie
 Apexoo
 ASPSeek
@@ -30,6 +31,7 @@ Barkrowler
 BatchFTP
 Battleztar Bazinga
 BBBike
+BDCbot
 BDFetch
 BetaBot
 Bigfoot
@@ -94,6 +96,7 @@ Disco
 Discobot
 Discoverybot
 DittoSpyder
+DnyzBot
 DomainAppender
 DomainCrawler
 DomainSigmaCrawler
@@ -185,6 +188,7 @@ ips-agent
 Iria
 IRLbot
 Iskanie
+IstellaBot
 JamesBOT
 Jbrofuzz
 JennyBot
