@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.03.1066
-### Updated: Sat Mar 24 10:49:32 SAST 2018
-### Bad Bot Count: 510
+### Version: V3.2018.03.1067
+### Updated: Sat Mar 24 12:04:23 SAST 2018
+### Bad Bot Count: 508
 ###################################################
 ### Version Information ##
 
@@ -656,10 +656,6 @@ Disallow:/
 User-agent: RankActiveLinkBot
 Disallow:/
 User-agent: RankFlex
-Disallow:/
-User-agent: RankingBot
-Disallow:/
-User-agent: RankingBot2
 Disallow:/
 User-agent: Rankivabot
 Disallow:/
