@@ -1009,6 +1009,7 @@
 "~*\bcamel\-beach\.com\b" 	1;
 "~*\bcam\-kontakte\.org\b" 	1;
 "~*\bcamsex\.xxx\-cam\.webcam\b" 	1;
+"~*\bcanacopegdl\.com\b" 	1;
 "~*\bcandcstuccoandstone\.com\b" 	1;
 "~*\bcandelluxsklep\.pl\b" 	1;
 "~*\bcandiceloves\.us\b" 	1;
@@ -1144,6 +1145,7 @@
 "~*\bcherubinimobili\.it\b" 	1;
 "~*\bchiblackhawks\-jerseys\.com\b" 	1;
 "~*\bchidporn\.com\b" 	1;
+"~*\bchildren\-learningreading\.info\b" 	1;
 "~*\bchimiver\.info\b" 	1;
 "~*\bchinacheapelitejerseys\.com\b" 	1;
 "~*\bchinaelitecheapjerseys\.com\b" 	1;
@@ -1956,6 +1958,7 @@
 "~*\bfikasound\.tk\b" 	1;
 "~*\bfilefilter\.weebly\.com\b" 	1;
 "~*\bfilerockstar298\.weebly\.com\b" 	1;
+"~*\bfilesclub\.net\b" 	1;
 "~*\bfilesmonster\.porn\b" 	1;
 "~*\bfilesvine\.com\b" 	1;
 "~*\bfilkhbr\.com\b" 	1;
@@ -5316,6 +5319,7 @@
 "~*\btop\-karkas\.ru\b" 	1;
 "~*\btopmira\.com\b" 	1;
 "~*\btopquality\.cf\b" 	1;
+"~*\btoproadrunner5\.info\b" 	1;
 "~*\btopshef\.ru\b" 	1;
 "~*\btopsiteminecraft\.com\b" 	1;
 "~*\btop\-study\.work\b" 	1;
@@ -5645,6 +5649,7 @@
 "~*\bvip\-parfumeria\.ru\b" 	1;
 "~*\bvipps\.com\.my\b" 	1;
 "~*\bvipromoffers\.com\b" 	1;
+"~*\bvipsexfinders\.com\b" 	1;
 "~*\bvipsiterip\.org\b" 	1;
 "~*\bvirtuagirl\.com\b" 	1;
 "~*\bvisa\-china\.ru\b" 	1;
