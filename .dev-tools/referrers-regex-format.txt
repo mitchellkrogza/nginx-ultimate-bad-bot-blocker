@@ -34,6 +34,7 @@
 "~*\b1314dh\.com\b" 	1;
 "~*\b13tabs\.com\b" 	1;
 "~*\b14b\.info\b" 	1;
+"~*\b1688\.com\b" 	1;
 "~*\b178evakuator178\.ru\b" 	1;
 "~*\b1\-99seo\.com\b" 	1;
 "~*\b1adult\.com\b" 	1;
@@ -283,6 +284,7 @@
 "~*\bagysya\.ru\b" 	1;
 "~*\bahrefs\.com\b" 	1;
 "~*\bahrntal\.verymes\.xyz\b" 	1;
+"~*\baibolita\.com\b" 	1;
 "~*\baihelen\.net\b" 	1;
 "~*\baimayangzhi\.com\b" 	1;
 "~*\bair\-edem\.ru\b" 	1;
@@ -684,6 +686,7 @@
 "~*\bbdsmgalls\.net\b" 	1;
 "~*\bbeachdriveblog\.com\b" 	1;
 "~*\bbeachpics\.com\b" 	1;
+"~*\bbeachtoday\.ru\b" 	1;
 "~*\bbear\.gotcher\.us\b" 	1;
 "~*\bbeatifullandscape\.co\b" 	1;
 "~*\bbeauby\.ru\b" 	1;
@@ -1559,6 +1562,7 @@
 "~*\bdocstoc\.com\b" 	1;
 "~*\bdoctissimo\.fr\b" 	1;
 "~*\bdoctormakarova\.ru\b" 	1;
+"~*\bdocumentbase\.net\b" 	1;
 "~*\bdodlive\.mil\b" 	1;
 "~*\bdoeco\.ru\b" 	1;
 "~*\bdogbreedspicture\.net\b" 	1;
@@ -1837,6 +1841,7 @@
 "~*\bexcitacao\.com\b" 	1;
 "~*\bexcitacion\.info\b" 	1;
 "~*\bexct\.net\b" 	1;
+"~*\bexdocsfiles\.com\b" 	1;
 "~*\bexecutehosting\.com\b" 	1;
 "~*\bexhibitionplus\.eu\b" 	1;
 "~*\bexmasters\.com\b" 	1;
@@ -2308,6 +2313,8 @@
 "~*\bgolmau\.host\.sk\b" 	1;
 "~*\bgomusix\.com\b" 	1;
 "~*\bgonextmedia\.com\b" 	1;
+"~*\bgoodhousekeeping\.com\b" 	1;
+"~*\bgoodhumor24\.com\b" 	1;
 "~*\bgood\-mummy\.ru\b" 	1;
 "~*\bgoodnightjournal\.com\b" 	1;
 "~*\bgoodprotein\.ru\b" 	1;
@@ -4829,6 +4836,7 @@
 "~*\bsky\-mine\.ru\b" 	1;
 "~*\bskytraf\.xyz\b" 	1;
 "~*\bskyway24\.ru\b" 	1;
+"~*\bslavia\.info\b" 	1;
 "~*\bslavic\-magic\.ru\b" 	1;
 "~*\bslavkokacunko\.de\b" 	1;
 "~*\bslayerlife\.com\b" 	1;
@@ -4995,6 +5003,7 @@
 "~*\bstartwp\.org\b" 	1;
 "~*\bstarwars\.wikia\.com\b" 	1;
 "~*\bstathat\.com\b" 	1;
+"~*\bstaticfs\.host\b" 	1;
 "~*\bstatistici\.ro\b" 	1;
 "~*\bstatoutlook\.info\b" 	1;
 "~*\bstats\-collector\.org\b" 	1;

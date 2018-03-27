@@ -36,6 +36,7 @@ domain:12u.info
 domain:1314dh.com
 domain:13tabs.com
 domain:14b.info
+domain:1688.com
 domain:178evakuator178.ru
 domain:1adult.com
 domain:1bet.com
@@ -284,6 +285,7 @@ domain:agroeconom.kz
 domain:agysya.ru
 domain:ahrefs.com
 domain:ahrntal.verymes.xyz
+domain:aibolita.com
 domain:aihelen.net
 domain:aimayangzhi.com
 domain:air-edem.ru
@@ -685,6 +687,7 @@ domain:bcmp.org
 domain:bdsmgalls.net
 domain:beachdriveblog.com
 domain:beachpics.com
+domain:beachtoday.ru
 domain:bear.gotcher.us
 domain:beatifullandscape.co
 domain:beauby.ru
@@ -1559,6 +1562,7 @@ domain:dnsrsearch.com
 domain:docstoc.com
 domain:doctissimo.fr
 domain:doctormakarova.ru
+domain:documentbase.net
 domain:dodlive.mil
 domain:doeco.ru
 domain:dogbreedspicture.net
@@ -1837,6 +1841,7 @@ domain:exchanges-bet.com
 domain:excitacao.com
 domain:excitacion.info
 domain:exct.net
+domain:exdocsfiles.com
 domain:executehosting.com
 domain:exhibitionplus.eu
 domain:exmasters.com
@@ -2311,6 +2316,8 @@ domain:gomusix.com
 domain:gonextmedia.com
 domain:goo.ne.jp
 domain:good-mummy.ru
+domain:goodhousekeeping.com
+domain:goodhumor24.com
 domain:goodnightjournal.com
 domain:goodprotein.ru
 domain:goodwriterssales.com
@@ -4830,6 +4837,7 @@ domain:sky-mine.ru
 domain:skylta.com
 domain:skytraf.xyz
 domain:skyway24.ru
+domain:slavia.info
 domain:slavic-magic.ru
 domain:slavkokacunko.de
 domain:slayerlife.com
@@ -4995,6 +5003,7 @@ domain:startufa.ru
 domain:startwp.org
 domain:starwars.wikia.com
 domain:stathat.com
+domain:staticfs.host
 domain:statistici.ro
 domain:statoutlook.info
 domain:stats-collector.org
