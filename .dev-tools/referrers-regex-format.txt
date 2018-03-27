@@ -4646,6 +4646,7 @@
 "~*\bsenger\.atspace\.co\.uk\b" 	1;
 "~*\bseo\-2\-0\.com\b" 	1;
 "~*\bseoanalyses\.com\b" 	1;
+"~*\bseoboxes\.com\b" 	1;
 "~*\bseocdvig\.ru\b" 	1;
 "~*\bseocheckupx\.com\b" 	1;
 "~*\bseocheki\.net\b" 	1;
