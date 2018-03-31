@@ -408,6 +408,7 @@
 "~*\banimaltoplist\.com\b" 	1;
 "~*\banimebox\.com\.ua\b" 	1;
 "~*\banime\.dougasouko\.com\b" 	1;
+"~*\banimenime\.ru\b" 	1;
 "~*\banjalika\.co\.in\b" 	1;
 "~*\banlimebel\.kiev\.ua\b" 	1;
 "~*\banmysite\.com\b" 	1;
@@ -938,6 +939,7 @@
 "~*\bbumble\.cheapwebsitehoster\.com\b" 	1;
 "~*\bbum\.com\.ru\b" 	1;
 "~*\bbumskontakte\.org\b" 	1;
+"~*\bbuntube\.net\b" 	1;
 "~*\bbupropion\-sr\-150\-mg\.us\b" 	1;
 "~*\bbuqayy0\.livejournal\.com\b" 	1;
 "~*\bbuqyxa\.rincian\.info\b" 	1;
@@ -1559,6 +1561,7 @@
 "~*\bdnepropetrovsk\.mistr\-x\.org\b" 	1;
 "~*\bdneprsvet\.com\.ua\b" 	1;
 "~*\bdnsrsearch\.com\b" 	1;
+"~*\bdocs4all\.com\b" 	1;
 "~*\bdocstoc\.com\b" 	1;
 "~*\bdoctissimo\.fr\b" 	1;
 "~*\bdoctormakarova\.ru\b" 	1;
@@ -1680,6 +1683,7 @@
 "~*\beducatemetv\.com\b" 	1;
 "~*\beducation\-cz\.ru\b" 	1;
 "~*\beducontest\.net\b" 	1;
+"~*\bedudocs\.net\b" 	1;
 "~*\bedwinkonijn\.com\.au\b" 	1;
 "~*\bee77ee\.com\b" 	1;
 "~*\befkt\.jp\b" 	1;
@@ -2177,6 +2181,7 @@
 "~*\bgambarkataku\.co\b" 	1;
 "~*\bgambarxkata\.co\b" 	1;
 "~*\bgamblingnerd\.com\b" 	1;
+"~*\bgame300\.ru\b" 	1;
 "~*\bgamebackyard\.com\b" 	1;
 "~*\bgamedayassist\.com\b" 	1;
 "~*\bgamedayhouse\.com\b" 	1;
@@ -2428,6 +2433,7 @@
 "~*\bhayate\.biz\b" 	1;
 "~*\bhazardky\.net\b" 	1;
 "~*\bhcate\.com\b" 	1;
+"~*\bhccoder\.info\b" 	1;
 "~*\bhchha\.com\b" 	1;
 "~*\bhd720kino\.ru\b" 	1;
 "~*\bhdapp1008\-a\.akamaihd\.net\b" 	1;
@@ -2665,6 +2671,7 @@
 "~*\binet\-traffic\.com\b" 	1;
 "~*\binfazavr\.ru\b" 	1;
 "~*\binfobabki\.ru\b" 	1;
+"~*\binfodocsportal\.com\b" 	1;
 "~*\binfokonkurs\.ru\b" 	1;
 "~*\binformatiecentro\.be\b" 	1;
 "~*\binfospot\.pt\b" 	1;
@@ -3397,6 +3404,7 @@
 "~*\bmitrasound\.ru\b" 	1;
 "~*\bmixed\-wrestling\.ru\b" 	1;
 "~*\bmixtapetorrent\.com\b" 	1;
+"~*\bmixx\.com\b" 	1;
 "~*\bmjchamonix\.org\b" 	1;
 "~*\bmlf\.hordo\.win\b" 	1;
 "~*\bmlvc4zzw\.space\b" 	1;
@@ -3987,6 +3995,7 @@
 "~*\bpijoto\.net\b" 	1;
 "~*\bpila\.pl\b" 	1;
 "~*\bpills24h\.com\b" 	1;
+"~*\bpillscheap24h\.com\b" 	1;
 "~*\bpinkduck\.ga\b" 	1;
 "~*\bpinsdaddy\.com\b" 	1;
 "~*\bpinstake\.com\b" 	1;
@@ -4511,6 +4520,7 @@
 "~*\bsanatorrii\.ru\b" 	1;
 "~*\bsandhillsonline\.com\b" 	1;
 "~*\bsaneitconsulting\.com\b" 	1;
+"~*\bsaneyes\.com\b" 	1;
 "~*\bsanidumps\.com\b" 	1;
 "~*\bsanjosestartups\.com\b" 	1;
 "~*\bsankt\-peterburg\.nodup\.ru\b" 	1;
@@ -5603,6 +5613,7 @@
 "~*\bversaut\.xxx\-cam\.webcam\b" 	1;
 "~*\bvertaform\.com\b" 	1;
 "~*\bverymes\.xyz\b" 	1;
+"~*\bveselokloun\.ru\b" 	1;
 "~*\bvesnatehno\.com\b" 	1;
 "~*\bvesnatehno\.ru\b" 	1;
 "~*\bvezuviy\.su\b" 	1;
@@ -5723,6 +5734,7 @@
 "~*\bvysigy\.su\b" 	1;
 "~*\bvzglyadriv\.kg\b" 	1;
 "~*\bvzlom\-na\-zakaz\.com\b" 	1;
+"~*\bvzube\.com\b" 	1;
 "~*\bw3data\.co\b" 	1;
 "~*\bw3javascript\.com\b" 	1;
 "~*\bw7s\.ru\b" 	1;
@@ -6114,6 +6126,7 @@
 "~*\byubikk\.info\b" 	1;
 "~*\byugk\.net\b" 	1;
 "~*\byugo\-star\.ru\b" 	1;
+"~*\byun56\.co\b" 	1;
 "~*\byunque\.pluto\.ro\b" 	1;
 "~*\byurgorod\.ru\b" 	1;
 "~*\byur\-p\.ru\b" 	1;

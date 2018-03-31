@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.03.1077
-### Updated: Fri Mar 30 10:22:34 SAST 2018
-### Bad Bot Count: 516
+### Version: V3.2018.03.1078
+### Updated: Sat Mar 31 12:26:25 SAST 2018
+### Bad Bot Count: 519
 ###################################################
 ### Version Information ##
 
@@ -497,6 +497,8 @@ User-agent: Mass Downloader
 Disallow:/
 User-agent: Mata Hari
 Disallow:/
+User-agent: MauiBot
+Disallow:/
 User-agent: Meanpathbot
 Disallow:/
 User-agent: mediawords
@@ -586,6 +588,8 @@ Disallow:/
 User-agent: NPbot
 Disallow:/
 User-agent: Nutch
+Disallow:/
+User-agent: NYU
 Disallow:/
 User-agent: oBot
 Disallow:/
@@ -702,6 +706,8 @@ Disallow:/
 User-agent: ScanAlert
 Disallow:/
 User-agent: Scanbot
+Disallow:/
+User-agent: scan.lol
 Disallow:/
 User-agent: Scrapy
 Disallow:/

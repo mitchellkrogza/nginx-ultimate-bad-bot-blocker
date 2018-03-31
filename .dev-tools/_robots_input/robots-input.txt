@@ -242,6 +242,7 @@ MarkWatch
 Masscan
 Mass Downloader
 Mata Hari
+MauiBot
 Meanpathbot
 mediawords
 MegaIndex.ru
@@ -287,6 +288,7 @@ Ninja
 Nmap
 NPbot
 Nutch
+NYU
 oBot
 Octopus
 Offline Explorer
@@ -345,6 +347,7 @@ SalesIntelligent
 SBIder
 ScanAlert
 Scanbot
+scan.lol
 Scrapy
 Screaming
 ScreenerBot
