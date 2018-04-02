@@ -5156,6 +5156,7 @@
 "~*\bt\-bygg\.com\b" 	1;
 "~*\btd\-33\.ru\b" 	1;
 "~*\btd\-l\-market\.ru\b" 	1;
+"~*\btds\-advert005\.info\b" 	1;
 "~*\btdsing\.ru\b" 	1;
 "~*\bteastory\.co\b" 	1;
 "~*\btech4master\.com\b" 	1;
