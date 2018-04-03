@@ -174,8 +174,8 @@ sanitize_url() {
 }
 
 sanitize_email() {
-	echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=_=]' \
-		|tr -s '@-_.' |awk '{print tolower($0)}'
+	echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=_=] [=+=]' \
+		|tr -s '@-_.+' |awk '{print tolower($0)}'
 }
 
 check_args() {
