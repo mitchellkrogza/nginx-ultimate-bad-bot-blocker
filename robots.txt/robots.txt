@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.04.1081
-### Updated: Tue Apr  3 09:34:44 SAST 2018
-### Bad Bot Count: 519
+### Version: V3.2018.04.1082
+### Updated: Tue Apr  3 09:40:53 SAST 2018
+### Bad Bot Count: 520
 ###################################################
 ### Version Information ##
 
@@ -168,6 +168,8 @@ Disallow:/
 User-agent: Cosmos
 Disallow:/
 User-agent: Craftbot
+Disallow:/
+User-agent: crawler4j
 Disallow:/
 User-agent: crawler.feedback
 Disallow:/

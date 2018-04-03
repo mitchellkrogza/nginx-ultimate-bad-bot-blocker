@@ -78,6 +78,7 @@ CopyRightCheck
 Copyscape
 Cosmos
 Craftbot
+crawler4j
 crawler.feedback
 CrazyWebCrawler
 Crescent
