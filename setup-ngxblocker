@@ -283,6 +283,23 @@ check_depends() {
 	fi
 }
 
+check_nginx_directives() {
+	# avoid directive conflicts with nginx.conf
+	local x= bot_config="$CONF_DIR"/botblocker-nginx-settings.conf
+
+	# directives sourced from include_filelist.txt
+	for x in $NGINX_DIRECTIVES; do
+		if grep -E "(^$x|^[[:space:]]+$x)" 1>/dev/null $MAIN_CONF; then
+			printf "${BOLDYELLOW}setup will fix conflict from: '$x' in $bot_config${RESET}\n"
+			if [ "$DRY_RUN" = "N" ]; then
+				printf "${BOLDRED}disabling '$x' in: $bot_config${RESET}\n"
+				sed "s|$x|#$x|" $bot_config | grep $x
+				printf " ${BOLDGREEN}disabled OK${RESET}\n\n"
+			fi
+		fi
+	done
+}
+
 get_options() {
 	local arg= opts=
 
@@ -414,6 +431,10 @@ main() {
 		fi
 	done
 
+	# check nginx.conf for settings that clash
+	check_nginx_directives
+
+	# whitelisting
 	whitelist_ips $col_size
 
 	if [ -d $WWW ]; then

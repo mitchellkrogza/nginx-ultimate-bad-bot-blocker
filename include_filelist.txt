@@ -4,7 +4,7 @@
 #    setup-ngxblocker	   #
 ############################
 
-#########################################################################                                                                
+#########################################################################
 #        _  __     _                                                    #
 #       / |/ /__ _(_)__ __ __                                           #
 #      /    / _ `/ / _ \\ \ /                                           #
@@ -13,24 +13,24 @@
 #       / _ )___ ____/ / / _ )___  / /_  / _ )/ /__  ____/ /_____ ____  #
 #      / _  / _ `/ _  / / _  / _ \/ __/ / _  / / _ \/ __/  '_/ -_) __/  #
 #     /____/\_,_/\_,_/ /____/\___/\__/ /____/_/\___/\__/_/\_\\__/_/     #
-#########################################################################  
+#########################################################################
 
 CONF_FILES="
-        globalblacklist.conf
-        botblocker-nginx-settings.conf
-        "
+	globalblacklist.conf
+	botblocker-nginx-settings.conf
+	"
 
 BOT_FILES="
-        blockbots.conf
-        ddos.conf
-        custom-bad-referrers.conf
-        bad-referrer-words.conf
-        blacklist-domains.conf
-        blacklist-ips.conf
-        blacklist-user-agents.conf
-        whitelist-domains.conf
-        whitelist-ips.conf
-        "
+	blockbots.conf
+	ddos.conf
+	custom-bad-referrers.conf
+	bad-referrer-words.conf
+	blacklist-domains.conf
+	blacklist-ips.conf
+	blacklist-user-agents.conf
+	whitelist-domains.conf
+	whitelist-ips.conf
+	"
 
 VHOST_INCLUDES="
 	blockbots.conf
@@ -41,4 +41,11 @@ SCRIPT_FILES="
 	install-ngxblocker
 	setup-ngxblocker
 	update-ngxblocker
+	"
+
+NGINX_DIRECTIVES="
+	server_names_hash_bucket_size
+	server_names_hash_max_size
+	limit_req_zone
+	limit_conn_zone
 	"
