@@ -188,7 +188,7 @@ check_args() {
 				exit 1
 			fi
 			;;
-	       email)   if ! echo $arg | grep -E ^[-_\.[:alnum:]]+@[-_\.[:alnum:]]+ 1>/dev/null; then
+	       email)   if ! echo $arg | grep -E ^[+-_\.[:alnum:]]+@[-_\.[:alnum:]]+ 1>/dev/null; then
 				printf "$msg email@domain.com\n"
 				exit 1
 			fi
