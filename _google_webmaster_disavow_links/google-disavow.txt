@@ -1030,6 +1030,7 @@ domain:candypeople.se
 domain:candytiner.com
 domain:canoncdriverq3.pen.io
 domain:canrole.com
+domain:canvas.gloverid.site
 domain:canyougethighofftizanidine.blogspot.com
 domain:canzoni.ru
 domain:capacitacionyaprendizaje.com
@@ -1240,6 +1241,7 @@ domain:cmd.kz
 domain:cmhomestayagency.com
 domain:cntravelre.com
 domain:co.lumb.co
+domain:coaching-netz.info
 domain:cobaltpro.ru
 domain:cocyq.inwtrade.com
 domain:coderstate.com
@@ -1490,6 +1492,7 @@ domain:den-noch24.ru
 domain:dengi-pod-zalog-nedvizhimosti.ru
 domain:deniven.1bb.ru
 domain:dentalpearls.com.au
+domain:deplim.com
 domain:depositfiles-porn.ga
 domain:derevesendeco.com
 domain:descargar-musica-gratis.net
@@ -1563,10 +1566,12 @@ domain:dnepropetrovsk.mistr-x.org
 domain:dneprsvet.com.ua
 domain:dnsrsearch.com
 domain:docs4all.com
+domain:docsportal.net
 domain:docstoc.com
 domain:doctissimo.fr
 domain:doctormakarova.ru
 domain:documentbase.net
+domain:documentsite.net
 domain:dodlive.mil
 domain:doeco.ru
 domain:dogbreedspicture.net
@@ -1577,6 +1582,7 @@ domain:dojki-hd.com
 domain:dokfilms.net
 domain:doktoronline.no
 domain:dokumentalkino.net
+domain:dollartree.info
 domain:domain-submit.info
 domain:domain-tracker.com
 domain:domain.webkeyit.com
@@ -2050,6 +2056,7 @@ domain:forexunion.net
 domain:forminecrafters.ru
 domain:forms-mtm.ru
 domain:formseo.com
+domain:formulaantiuban.com
 domain:formularz-konkurs.tk
 domain:forodvd.com
 domain:forpackningsutveckling.se
@@ -2297,6 +2304,7 @@ domain:globatur.ru
 domain:globetrotting-culture.ru
 domain:glogow.pl
 domain:glopages.ru
+domain:gloverid.site
 domain:gne8.com
 domain:gnuetella.com
 domain:go2album.com
@@ -2512,6 +2520,7 @@ domain:hollywoodactress.info
 domain:home-task.com
 domain:home.myplaycity.com
 domain:homeandhealth.ru
+domain:homeart.space
 domain:homedecoguide.info
 domain:homedecorpicture.us
 domain:homedo.fabpage.com
@@ -2664,6 +2673,7 @@ domain:inboundlinks.win
 domain:inboxdollars.com
 domain:inclk.com
 domain:incolors.club
+domain:incomekey.net
 domain:increasewwwtraffic.info
 domain:indetiske.ya.ru
 domain:indiakino.net
@@ -2887,6 +2897,7 @@ domain:keywordteam.net
 domain:kfon.eu
 domain:khafre.us
 domain:kichenaid.ru
+domain:kicknights.gq
 domain:kidd.reunionwatch.com
 domain:kiev.ua
 domain:kihi.gdn
@@ -2989,6 +3000,7 @@ domain:ku6.com
 domain:kumuk.info
 domain:kung-fu-ru.com
 domain:kupit-adenu.ru
+domain:kurbappeal.info
 domain:kursy-ege.ru
 domain:kurwa.win
 domain:kustanay.kz
@@ -3054,6 +3066,7 @@ domain:lechenie-gemorroya.com
 domain:lechtaczka.net
 domain:ledis.top
 domain:ledpolice.ru
+domain:leftofcentrist.com
 domain:legalrc.biz
 domain:legionalpha.com
 domain:lego4x4.ru
@@ -3208,6 +3221,7 @@ domain:mac-shield.com
 domain:macdamaged.space
 domain:macdamaged.tech
 domain:macfix.life
+domain:machicon-akihabara.info
 domain:mackeeper-center.club
 domain:mackeeper-land-672695126.us-east-1.elb.amazonaws.com
 domain:macnewtech.com
@@ -3226,9 +3240,11 @@ domain:magicalfind-a.akamaihd.net
 domain:magicdiet.gq
 domain:magicplayer-s.acestream.net
 domain:maglid.ru
+domain:magnetic-bracelets.ru
 domain:magnetpress.sk
 domain:mahnwachen-helfen.info
 domain:mail.allnews24.in
+domain:mailemedicinals.com
 domain:mainlinehobby.net
 domain:maju.bluesalt.co
 domain:make-money-online.com
@@ -4424,6 +4440,7 @@ domain:reyel1985.webnode.fr
 domain:rezeptiblud.ru
 domain:rfd-split.hr
 domain:rff-cfal.info
+domain:rfid-locker.co
 domain:rialp.getenjoyment.net
 domain:ribieiendom.no
 domain:ric.info
@@ -5111,6 +5128,7 @@ domain:svbur.ru
 domain:svetlotorg.ru
 domain:svetodiodoff.ru
 domain:svnuppsalaorebro.se
+domain:svolze.com
 domain:svtrd.com
 domain:swagbucks.com
 domain:sweepstakes.rewardit.com
@@ -5528,6 +5546,7 @@ domain:unitexindia.com
 domain:unitygame3d.com
 domain:univerfiles.com
 domain:universals.com.ua
+domain:unlimitdocs.net
 domain:unmaroll.ya.ru
 domain:unpredictable.ga
 domain:unrealcommander.biz
@@ -6044,6 +6063,7 @@ domain:xportvusbdriver8i.snack.ws
 domain:xpresscare.ru
 domain:xrus.org
 domain:xsion.net
+domain:xtrafficplus.com
 domain:xtremeeagles.net
 domain:xtube.com
 domain:xtubeporno.net

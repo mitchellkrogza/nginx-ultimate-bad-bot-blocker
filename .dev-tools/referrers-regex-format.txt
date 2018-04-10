@@ -1028,6 +1028,7 @@
 "~*\bcandytiner\.com\b" 	1;
 "~*\bcanoncdriverq3\.pen\.io\b" 	1;
 "~*\bcanrole\.com\b" 	1;
+"~*\bcanvas\.gloverid\.site\b" 	1;
 "~*\bcanyougethighofftizanidine\.blogspot\.com\b" 	1;
 "~*\bcanzoni\.ru\b" 	1;
 "~*\bcapacitacionyaprendizaje\.com\b" 	1;
@@ -1239,6 +1240,7 @@
 "~*\bcmd\.kz\b" 	1;
 "~*\bcmhomestayagency\.com\b" 	1;
 "~*\bcntravelre\.com\b" 	1;
+"~*\bcoaching\-netz\.info\b" 	1;
 "~*\bcobaltpro\.ru\b" 	1;
 "~*\bcocyq\.inwtrade\.com\b" 	1;
 "~*\bcoderstate\.com\b" 	1;
@@ -1489,6 +1491,7 @@
 "~*\bdeniven\.1bb\.ru\b" 	1;
 "~*\bden\-noch24\.ru\b" 	1;
 "~*\bdentalpearls\.com\.au\b" 	1;
+"~*\bdeplim\.com\b" 	1;
 "~*\bdepositfiles\-porn\.ga\b" 	1;
 "~*\bderevesendeco\.com\b" 	1;
 "~*\bdescargar\-musica\-gratis\.net\b" 	1;
@@ -1563,10 +1566,12 @@
 "~*\bdneprsvet\.com\.ua\b" 	1;
 "~*\bdnsrsearch\.com\b" 	1;
 "~*\bdocs4all\.com\b" 	1;
+"~*\bdocsportal\.net\b" 	1;
 "~*\bdocstoc\.com\b" 	1;
 "~*\bdoctissimo\.fr\b" 	1;
 "~*\bdoctormakarova\.ru\b" 	1;
 "~*\bdocumentbase\.net\b" 	1;
+"~*\bdocumentsite\.net\b" 	1;
 "~*\bdodlive\.mil\b" 	1;
 "~*\bdoeco\.ru\b" 	1;
 "~*\bdogbreedspicture\.net\b" 	1;
@@ -1577,6 +1582,7 @@
 "~*\bdokfilms\.net\b" 	1;
 "~*\bdoktoronline\.no\b" 	1;
 "~*\bdokumentalkino\.net\b" 	1;
+"~*\bdollartree\.info\b" 	1;
 "~*\bdomain2008\.com\b" 	1;
 "~*\bdomainanalyzing\.xyz\b" 	1;
 "~*\bdomaincdn\.xyz\b" 	1;
@@ -2050,6 +2056,7 @@
 "~*\bforminecrafters\.ru\b" 	1;
 "~*\bformseo\.com\b" 	1;
 "~*\bforms\-mtm\.ru\b" 	1;
+"~*\bformulaantiuban\.com\b" 	1;
 "~*\bformularz\-konkurs\.tk\b" 	1;
 "~*\bforodvd\.com\b" 	1;
 "~*\bforpackningsutveckling\.se\b" 	1;
@@ -2296,6 +2303,7 @@
 "~*\bglobetrotting\-culture\.ru\b" 	1;
 "~*\bglogow\.pl\b" 	1;
 "~*\bglopages\.ru\b" 	1;
+"~*\bgloverid\.site\b" 	1;
 "~*\bgne8\.com\b" 	1;
 "~*\bgnuetella\.com\b" 	1;
 "~*\bgo2album\.com\b" 	1;
@@ -2510,6 +2518,7 @@
 "~*\bholidaypics\.org\b" 	1;
 "~*\bhollywoodactress\.info\b" 	1;
 "~*\bhomeandhealth\.ru\b" 	1;
+"~*\bhomeart\.space\b" 	1;
 "~*\bhomedecoguide\.info\b" 	1;
 "~*\bhomedecorpicture\.us\b" 	1;
 "~*\bhomedo\.fabpage\.com\b" 	1;
@@ -2663,6 +2672,7 @@
 "~*\binboxdollars\.com\b" 	1;
 "~*\binclk\.com\b" 	1;
 "~*\bincolors\.club\b" 	1;
+"~*\bincomekey\.net\b" 	1;
 "~*\bincreasewwwtraffic\.info\b" 	1;
 "~*\bindetiske\.ya\.ru\b" 	1;
 "~*\bindiakino\.net\b" 	1;
@@ -2887,6 +2897,7 @@
 "~*\bkfon\.eu\b" 	1;
 "~*\bkhafre\.us\b" 	1;
 "~*\bkichenaid\.ru\b" 	1;
+"~*\bkicknights\.gq\b" 	1;
 "~*\bkidd\.reunionwatch\.com\b" 	1;
 "~*\bkiev\.ua\b" 	1;
 "~*\bkihi\.gdn\b" 	1;
@@ -2989,6 +3000,7 @@
 "~*\bkumuk\.info\b" 	1;
 "~*\bkung\-fu\-ru\.com\b" 	1;
 "~*\bkupit\-adenu\.ru\b" 	1;
+"~*\bkurbappeal\.info\b" 	1;
 "~*\bkursy\-ege\.ru\b" 	1;
 "~*\bkurwa\.win\b" 	1;
 "~*\bkustanay\.kz\b" 	1;
@@ -3054,6 +3066,7 @@
 "~*\ble\-clos\-des\-alouettes\.com\b" 	1;
 "~*\bledis\.top\b" 	1;
 "~*\bledpolice\.ru\b" 	1;
+"~*\bleftofcentrist\.com\b" 	1;
 "~*\blegalrc\.biz\b" 	1;
 "~*\blegionalpha\.com\b" 	1;
 "~*\blego4x4\.ru\b" 	1;
@@ -3205,6 +3218,7 @@
 "~*\bmacdamaged\.space\b" 	1;
 "~*\bmacdamaged\.tech\b" 	1;
 "~*\bmacfix\.life\b" 	1;
+"~*\bmachicon\-akihabara\.info\b" 	1;
 "~*\bmackeeper\-center\.club\b" 	1;
 "~*\bmackeeper\-land\-672695126\.us\-east\-1\.elb\.amazonaws\.com\b" 	1;
 "~*\bmacnewtech\.com\b" 	1;
@@ -3224,9 +3238,11 @@
 "~*\bmagicdiet\.gq\b" 	1;
 "~*\bmagicplayer\-s\.acestream\.net\b" 	1;
 "~*\bmaglid\.ru\b" 	1;
+"~*\bmagnetic\-bracelets\.ru\b" 	1;
 "~*\bmagnetpress\.sk\b" 	1;
 "~*\bmahnwachen\-helfen\.info\b" 	1;
 "~*\bmail\.allnews24\.in\b" 	1;
+"~*\bmailemedicinals\.com\b" 	1;
 "~*\bmainlinehobby\.net\b" 	1;
 "~*\bmaju\.bluesalt\.co\b" 	1;
 "~*\bmakedo\.ru\b" 	1;
@@ -4424,6 +4440,7 @@
 "~*\brezeptiblud\.ru\b" 	1;
 "~*\brfd\-split\.hr\b" 	1;
 "~*\brff\-cfal\.info\b" 	1;
+"~*\brfid\-locker\.co\b" 	1;
 "~*\brialp\.getenjoyment\.net\b" 	1;
 "~*\bribieiendom\.no\b" 	1;
 "~*\brichinvestmonitor\.com\b" 	1;
@@ -5111,6 +5128,7 @@
 "~*\bsvetlotorg\.ru\b" 	1;
 "~*\bsvetodiodoff\.ru\b" 	1;
 "~*\bsvnuppsalaorebro\.se\b" 	1;
+"~*\bsvolze\.com\b" 	1;
 "~*\bsvtrd\.com\b" 	1;
 "~*\bswagbucks\.com\b" 	1;
 "~*\bsweepstakes\.rewardit\.com\b" 	1;
@@ -5528,6 +5546,7 @@
 "~*\bunitygame3d\.com\b" 	1;
 "~*\buniverfiles\.com\b" 	1;
 "~*\buniversals\.com\.ua\b" 	1;
+"~*\bunlimitdocs\.net\b" 	1;
 "~*\bunmaroll\.ya\.ru\b" 	1;
 "~*\bunpredictable\.ga\b" 	1;
 "~*\bunrealcommander\.biz\b" 	1;
@@ -6043,6 +6062,7 @@
 "~*\bxrus\.org\b" 	1;
 "~*\bxsion\.net\b" 	1;
 "~*\bx\-stars\.ru\b" 	1;
+"~*\bxtrafficplus\.com\b" 	1;
 "~*\bxtremeeagles\.net\b" 	1;
 "~*\bx\-true\.info\b" 	1;
 "~*\bxtube\.com\b" 	1;
