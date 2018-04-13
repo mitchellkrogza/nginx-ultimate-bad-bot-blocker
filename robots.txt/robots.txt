@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.04.1089
-### Updated: Tue Apr 10 13:14:22 SAST 2018
-### Bad Bot Count: 520
+### Version: V3.2018.04.1090
+### Updated: Fri Apr 13 08:59:30 SAST 2018
+### Bad Bot Count: 521
 ###################################################
 ### Version Information ##
 
@@ -370,6 +370,8 @@ Disallow:/
 User-agent: Image Fetch
 Disallow:/
 User-agent: Image Sucker
+Disallow:/
+User-agent: IndeedBot
 Disallow:/
 User-agent: Indy Library
 Disallow:/

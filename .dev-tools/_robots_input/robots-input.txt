@@ -179,6 +179,7 @@ Id-search
 IlseBot
 Image Fetch
 Image Sucker
+IndeedBot
 Indy Library
 InfoNaviRobot
 InfoTekies
