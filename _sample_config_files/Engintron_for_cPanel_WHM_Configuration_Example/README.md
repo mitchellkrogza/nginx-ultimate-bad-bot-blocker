@@ -12,11 +12,13 @@
 
 - PLEASE Follow the main configuration instructions at https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/MANUAL-CONFIGURATION.md
 
-- If you follow the main configuration instructions all you need to to is make the changes required in your **/etc/conf.d/default.conf** and **/etc/conf.d/default_https.conf** files as per this example. **FOLLOW THE EXAMPLES IN THIS FOLDER > https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/tree/master/_sample_config_files/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx**
+- If you follow the main configuration instructions all you need to to is make the changes required in your **/etc/conf.d/default.conf** and **/etc/conf.d/default_https.conf** files as per this example. 
+
+- **FOLLOW THE EXAMPLES IN THIS FOLDER > https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/tree/master/_sample_config_files/Engintron_for_cPanel_WHM_Configuration_Example/etc/nginx** :exclamation:
 
 - This example contains a modified file in **/utilities/https_vhosts.php** which will do the includes for you on any SSL vhosts you create.
 
-### Version 2.2018.05
+### Version 2.2018.06
 
 ##### Created by: https://github.com/mitchellkrogza
 ##### Copyright Mitchell Krog <mitchellkrog@gmail.com>
