@@ -648,6 +648,7 @@ Thousand of hours of programming and testing have gone into this project, show s
 
 - https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
 - https://github.com/mitchellkrogza/Badd-Boyz-Hosts
+- https://github.com/mitchellkrogza/Ultimate.Hosts.Blacklist
 - https://github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO
 - https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
 - https://github.com/mitchellkrogza/fail2ban-useful-scripts
@@ -655,8 +656,11 @@ Thousand of hours of programming and testing have gone into this project, show s
 - https://github.com/mitchellkrogza/Travis-CI-Nginx-for-Testing-Nginx-Configuration
 - https://github.com/mitchellkrogza/Travis-CI-for-Apache-For-Testing-Apache-and-PHP-Configurations
 - https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
-- https://github.com/funilrys/funceble
+- https://github.com/funilrys/PyFunceble
 - https://github.com/funilrys/dead-hosts
+- https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
+- https://github.com/mitchellkrogza/Suspicious.Snooping.Sniffing.Hacking.IP.Addresses
+- https://github.com/mitchellkrogza/Fail2Ban.WebExploits
 
 ************************************************
 ### ALSO CHECKOUT THE NEW BIG LIST OF HACKED MALWARE & WORDPRESS WEB SITES
@@ -669,7 +673,7 @@ Check it out at: https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malwar
 ************************************************
 ### INTO PHOTOGRAPHY?
 
-Come drop by and visit me at https://mitchellkrog.com or <a href='https://twitter.com/MitchellKrog'><img src='https://img.shields.io/twitter/follow/MitchellKrog.svg?style=social&label=Follow' alt='Follow @MitchellKrog'></a>
+Come drop by and visit me at [mitchellkrog.com](https://mitchellkrog.com) or [Facebook](https://www.facebook.com/MitchellKrogPhotography) or Follow Me on Twitter <a href='https://twitter.com/MitchellKrog'><img src='https://img.shields.io/twitter/follow/MitchellKrog.svg?style=social&label=Follow' alt='Follow @MitchellKrog'></a>
 
 ************************************************
 ### ACKNOWLEDGMENTS & CONTRIBUTORS:
@@ -681,7 +685,7 @@ In fact it is so hard to mention everyone but here are a few key people whose li
 
 - Konstantin Goretzki @konstantingoretzki https://github.com/konstantingoretzki (Improved Regex on Fail2Ban Filter)
 - Stuart Cardall - https://github.com/itoffshore (Install, Update and Setup Scripts & Alpine Linux Package Maintainer)
-- Nissar Chababy @funilrys - https://github.com/funilrys/funceble (Excellent script for checking ACTIVE, INACTIVE and EXPIRED Domain Names)
+- Nissar Chababy @funilrys - https://github.com/funilrys/PyFunceble (Excellent script for checking ACTIVE, INACTIVE and EXPIRED Domain Names)
 - Marius Voila https://github.com/mariusv
 - Cătălin Mariș https://github.com/alrra
 - deformhead https://github.com/deformhead

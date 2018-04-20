@@ -27,7 +27,7 @@
 
 [![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
 
-
+************************************************
 # MIT License
 
 ## Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
@@ -51,18 +51,29 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+************************************************
 ##### Some other free projects
 
 - https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
 - https://github.com/mitchellkrogza/Badd-Boyz-Hosts
+- https://github.com/mitchellkrogza/Ultimate.Hosts.Blacklist
+- https://github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO
+- https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
 - https://github.com/mitchellkrogza/fail2ban-useful-scripts
 - https://github.com/mitchellkrogza/linux-server-administration-scripts
 - https://github.com/mitchellkrogza/Travis-CI-Nginx-for-Testing-Nginx-Configuration
 - https://github.com/mitchellkrogza/Travis-CI-for-Apache-For-Testing-Apache-and-PHP-Configurations
 - https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
-- https://github.com/mariusv/nginx-badbot-blocker
+- https://github.com/funilrys/PyFunceble
+- https://github.com/funilrys/dead-hosts
+- https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
+- https://github.com/mitchellkrogza/Suspicious.Snooping.Sniffing.Hacking.IP.Addresses
+- https://github.com/mitchellkrogza/Fail2Ban.WebExploits
 
-##### Into Photography?
-Come drop by and visit me at https://mitchellkrog.com
+************************************************
+### INTO PHOTOGRAPHY?
 
+Come drop by and visit me at [mitchellkrog.com](https://mitchellkrog.com) or [Facebook](https://www.facebook.com/MitchellKrogPhotography) or Follow Me on Twitter <a href='https://twitter.com/MitchellKrog'><img src='https://img.shields.io/twitter/follow/MitchellKrog.svg?style=social&label=Follow' alt='Follow @MitchellKrog'></a>
+
+************************************************
 ### Coding makes me very thirsty [why not buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKF9XT6WHATLG):beer:

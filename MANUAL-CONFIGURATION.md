@@ -294,6 +294,7 @@ Relax now and sleep better at night knowing your site is telling all those baddi
 
 - https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
 - https://github.com/mitchellkrogza/Badd-Boyz-Hosts
+- https://github.com/mitchellkrogza/Ultimate.Hosts.Blacklist
 - https://github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO
 - https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
 - https://github.com/mitchellkrogza/fail2ban-useful-scripts
@@ -301,7 +302,11 @@ Relax now and sleep better at night knowing your site is telling all those baddi
 - https://github.com/mitchellkrogza/Travis-CI-Nginx-for-Testing-Nginx-Configuration
 - https://github.com/mitchellkrogza/Travis-CI-for-Apache-For-Testing-Apache-and-PHP-Configurations
 - https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
-- https://github.com/funilrys/funceble
+- https://github.com/funilrys/PyFunceble
+- https://github.com/funilrys/dead-hosts
+- https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
+- https://github.com/mitchellkrogza/Suspicious.Snooping.Sniffing.Hacking.IP.Addresses
+- https://github.com/mitchellkrogza/Fail2Ban.WebExploits
 
 ************************************************
 ### ALSO CHECKOUT THE NEW BIG LIST OF HACKED MALWARE & WORDPRESS WEB SITES
@@ -314,7 +319,7 @@ Check it out at: https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malwar
 ************************************************
 ### INTO PHOTOGRAPHY?
 
-Come drop by and visit me at https://mitchellkrog.com or <a href='https://twitter.com/MitchellKrog'><img src='https://img.shields.io/twitter/follow/MitchellKrog.svg?style=social&label=Follow' alt='Follow @MitchellKrog'></a>
+Come drop by and visit me at [mitchellkrog.com](https://mitchellkrog.com) or [Facebook](https://www.facebook.com/MitchellKrogPhotography) or Follow Me on Twitter <a href='https://twitter.com/MitchellKrog'><img src='https://img.shields.io/twitter/follow/MitchellKrog.svg?style=social&label=Follow' alt='Follow @MitchellKrog'></a>
 
 ************************************************
 ### ACKNOWLEDGMENTS & CONTRIBUTORS:
