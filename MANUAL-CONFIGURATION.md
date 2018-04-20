@@ -280,11 +280,6 @@ Relax now and sleep better at night knowing your site is telling all those baddi
 [![Log an Issue](https://img.shields.io/badge/LOG%20-%20an%20issue%20%F0%9F%9A%A6-blue.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/issues) regarding incorrect listings or any other problems on the issues system and they will be investigated and removed if necessary. I responde very quickly to user problems and have helped countless users for days on end to get their bot blocker working. You could say I am mad (disputable) but I love helping people and do not ignore issues or people with problems getting this to work.
 
 ************************************************
-## CHECK FOR FREE IF YOUR WEB SITE IS COMPROMISED OR BLACKLISTED
-
-<a href="https://www.gravityscan.com/" target="_blank"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/gravity-scan-by-wordfence.png" alt="Check if your web site is blacklisted, hacked or compromised using the awesome Free GravityScan tool"/></a>
-
-************************************************
 # HAS YOUR WEB SITE BEEN HACKED?
 
 [![Contact me for help](https://img.shields.io/badge/Contact%20-%20me%20for%20help%20%F0%9F%9A%91-blue.svg)](mailto:mitchellkrog@gmail.com) to help you clean up and secure your web site. 

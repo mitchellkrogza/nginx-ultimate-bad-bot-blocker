@@ -75,11 +75,6 @@ Follow the step by step visual instructions below to add these google-exclude fi
 I have added the creation of a Google Disavow text file called google-disavow.txt. This file can be used in Google's Webmaster Tools to block all these domains out as spammy or bad links. Use with caution.
 
 ************************************************
-## CHECK FOR FREE IF YOUR WEB SITE IS COMPROMISED OR BLACKLISTED
-
-<a href="https://www.gravityscan.com/" target="_blank"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/gravity-scan-by-wordfence.png" alt="Check if your web site is blacklisted, hacked or compromised using the awesome Free GravityScan tool"/></a>
-
-************************************************
 # HAS YOUR WEB SITE BEEN HACKED?
 
 [![Contact me for help](https://img.shields.io/badge/Contact%20-%20me%20for%20help%20%F0%9F%9A%91-blue.svg)](mailto:mitchellkrog@gmail.com) to help you clean up and secure your web site. 

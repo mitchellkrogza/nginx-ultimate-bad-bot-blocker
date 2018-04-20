@@ -87,12 +87,6 @@ An example of the jail settings for your jail.local file is included in the jail
 This works great at picking up wp-login attacks.
 Be sure to add the rate limiting zone to your nginx.conf as per instructions in /filter.d/nginx-limit-req.local
 
-
-************************************************
-## CHECK FOR FREE IF YOUR WEB SITE IS COMPROMISED OR BLACKLISTED
-
-<a href="https://www.gravityscan.com/" target="_blank"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/gravity-scan-by-wordfence.png" alt="Check if your web site is blacklisted, hacked or compromised using the awesome Free GravityScan tool"/></a>
-
 ************************************************
 # HAS YOUR WEB SITE BEEN HACKED?
 
