@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.04.1094
-### Updated: Fri Apr 20 09:27:24 SAST 2018
-### Bad Bot Count: 525
+### Version: V3.2018.04.1095
+### Updated: Fri Apr 20 11:22:54 SAST 2018
+### Bad Bot Count: 526
 ###################################################
 ### Version Information ##
 
@@ -612,6 +612,8 @@ Disallow:/
 User-agent: OrangeBot
 Disallow:/
 User-agent: OrangeSpider
+Disallow:/
+User-agent: OutclicksBot
 Disallow:/
 User-agent: OutfoxBot
 Disallow:/

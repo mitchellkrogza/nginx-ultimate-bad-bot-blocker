@@ -300,6 +300,7 @@ OpenLinkProfiler
 Openvas
 OrangeBot
 OrangeSpider
+OutclicksBot
 OutfoxBot
 PageAnalyzer
 Page Analyzer
