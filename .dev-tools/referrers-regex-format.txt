@@ -5819,6 +5819,7 @@
 "~*\bwebmasters\.stackexchange\.com\b" 	1;
 "~*\bwebmonetizer\.net\b" 	1;
 "~*\bwebnode\.me\b" 	1;
+"~*\bweboptimizes\.com\b" 	1;
 "~*\bwebpromotion\.ae\b" 	1;
 "~*\bwebradiology\.ru\b" 	1;
 "~*\bwebs\.com\b" 	1;
