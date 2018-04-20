@@ -332,6 +332,7 @@ domain:all-streaming-media.com
 domain:all4invest.info
 domain:all4invest.ru
 domain:all4wap.ru
+domain:allbizne.co.ua
 domain:allblogroll.com
 domain:allboard.xobor.de
 domain:allcredits.su
@@ -1029,6 +1030,7 @@ domain:candycrushshop.com
 domain:candypeople.se
 domain:candytiner.com
 domain:canoncdriverq3.pen.io
+domain:canrioloadm.gq
 domain:canrole.com
 domain:canvas.gloverid.site
 domain:canyougethighofftizanidine.blogspot.com
@@ -1415,6 +1417,7 @@ domain:customerguru.in
 domain:customerpromos-a.akamaihd.net
 domain:customsua.com.ua
 domain:cutalltheshit.com
+domain:cv.wallhade.co
 domain:cvety24.by
 domain:cxpromote.com
 domain:cyclobenzaprinevstizanidine.blogspot.com
@@ -2649,6 +2652,7 @@ domain:imadedinner.net
 domain:imagecoolpub.com
 domain:imagefinder.site
 domain:imagerydatabase.com
+domain:images-free.net
 domain:images-graphics-pics.com
 domain:images.gyffu.com
 domain:imediadesk.com
@@ -2771,6 +2775,7 @@ domain:itservicesthatworkforyou.com
 domain:iusstf.org
 domain:ivanovo.zrus.org
 domain:ivanstroi.ru
+domain:ivearchenceinflu.cf
 domain:ivoiretechnocom.ci
 domain:iwantedmoney.com
 domain:iwantmyfreecash.com
@@ -3638,6 +3643,7 @@ domain:nationalbreakdown.com
 domain:naturalbreakthroughsresearch.com
 domain:naughtyconnect.com
 domain:naval.jislaaik.com
+domain:navalwiki.info
 domain:nbsproject.ru
 domain:needtosellmyhousefast.com
 domain:negociosdasha.com
@@ -3876,6 +3882,7 @@ domain:ostrovtaxi.ru
 domain:otbelivanie-zubov.com
 domain:ourtherapy.ru
 domain:ourville.info
+domain:outclicks.net
 domain:outpersonals.com
 domain:outrageousdeal-a.akamaihd.net
 domain:outshop.ru
@@ -4004,6 +4011,7 @@ domain:picsearch.com
 domain:picsfair.com
 domain:picsforkeywordsuggestion.com
 domain:picture-group.com
+domain:pictures-and-images.com
 domain:pictures-and-images.net
 domain:picturesfrom.com
 domain:picturesify.com
@@ -4072,6 +4080,7 @@ domain:pochemychka.net
 domain:pochtovyi-index.ru
 domain:podshipniki-nsk.ru
 domain:podshipniki-ntn.ru
+domain:poem-paying.gq
 domain:poems.com.ua
 domain:poffet.net
 domain:pogodnyyeavarii.gq
@@ -4509,6 +4518,7 @@ domain:russia-today-video.ru
 domain:russintv.fr
 domain:russkie-gorki.ru
 domain:russkoe-zdorovie.ru
+domain:rustic-quiver.win
 domain:rvtv.ru
 domain:rvzr-a.akamaihd.net
 domain:rybalka-opt.ru
@@ -5471,6 +5481,7 @@ domain:turbo-suslik.org
 domain:turbodsp.com
 domain:turist-strani.ru
 domain:turizm.bz
+domain:turizmus.us
 domain:turkeyreport.tk
 domain:turn-up-life.life
 domain:turvgori.ru
