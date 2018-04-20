@@ -514,6 +514,8 @@ Xenu
 xpymep1.exe
 YoudaoBot
 Zade
+Zauba
+zauba.io
 Zermelo
 Zeus
 zgrab

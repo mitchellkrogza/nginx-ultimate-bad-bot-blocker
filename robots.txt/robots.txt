@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.04.1093
-### Updated: Tue Apr 17 23:57:49 SAST 2018
-### Bad Bot Count: 523
+### Version: V3.2018.04.1094
+### Updated: Fri Apr 20 09:27:24 SAST 2018
+### Bad Bot Count: 525
 ###################################################
 ### Version Information ##
 
@@ -1040,6 +1040,10 @@ Disallow:/
 User-agent: YoudaoBot
 Disallow:/
 User-agent: Zade
+Disallow:/
+User-agent: Zauba
+Disallow:/
+User-agent: zauba.io
 Disallow:/
 User-agent: Zermelo
 Disallow:/
