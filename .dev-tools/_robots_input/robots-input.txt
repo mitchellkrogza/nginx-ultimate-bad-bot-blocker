@@ -161,6 +161,7 @@ GrapeFX
 GrapeshotCrawler
 GridBot
 GT::WWW
+Haansoft
 HaosouSpider
 Harvest
 Havij

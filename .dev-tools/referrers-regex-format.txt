@@ -1537,6 +1537,7 @@
 "~*\bdikqlyremy\.info\b" 	1;
 "~*\bdikx\.gdn\b" 	1;
 "~*\bdildofotzen\.net\b" 	1;
+"~*\bdimaka\.info\b" 	1;
 "~*\bdiminishedvalueoforegon\.com\b" 	1;
 "~*\bdimkino\.ru\b" 	1;
 "~*\bdinkolove\.ya\.ru\b" 	1;
@@ -2022,6 +2023,7 @@
 "~*\bfix\-website\-errors\.com\b" 	1;
 "~*\bflagcounter\.me\b" 	1;
 "~*\bflash4fun\.com\b" 	1;
+"~*\bflashahead\.info\b" 	1;
 "~*\bflashbannernow\.com\b" 	1;
 "~*\bflashlarevista\.com\b" 	1;
 "~*\bflavors\.me\b" 	1;
@@ -2045,6 +2047,7 @@
 "~*\bfok\.nl\b" 	1;
 "~*\bfolowsite\.com\b" 	1;
 "~*\bf\-online\.de\b" 	1;
+"~*\bfoodcrafts\.website\b" 	1;
 "~*\bfood\.dtu\.dk\b" 	1;
 "~*\bfootbalive\.org\b" 	1;
 "~*\bfootballfarrago\.com\b" 	1;
