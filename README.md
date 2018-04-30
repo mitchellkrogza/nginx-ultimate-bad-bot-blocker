@@ -368,7 +368,7 @@ folder location in the command lines as follows.
 This will automatically put the files into the locations you specify, it will do the includes into your vhosts using your custom locations  and when update-ngblocker pulls a new update it will also now automatically re-write the "Include" sections inside the globalblacklist.conf file your own custom locations. Thanks again to Stuart Cardall @itoffshore for his contributions of these excellent scripts.
 
 ************************************************
-#WHY BLOCK BAD BOTS ?
+#WHY BLOCK BAD BOTS
 
 ##### Bad bots are:
 
