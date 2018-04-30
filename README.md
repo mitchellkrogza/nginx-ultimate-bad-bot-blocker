@@ -376,11 +376,13 @@ This will automatically put the files into the locations you specify, it will do
 -    Bad User-Agent Strings
 -    Spam Referrers
 -    Spam Bots and Bad Bots
+-    Nuisance or Unwanted Bots
 -    Sites Linked to Lucrative Malware, Adware and Ransomware Clickjacking Campaigns
 -    Vulnerability scanners
 -    Gambling and Porn Web Sites
 -    E-mail harvesters
 -    Content scrapers
+-    Link Ranking Bots
 -    Aggressive bots that scrape content
 -    Image Hotlinking Sites and Image Thieves
 -    Bots or Servers linked to viruses or malware
