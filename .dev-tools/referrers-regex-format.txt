@@ -1748,7 +1748,6 @@
 "~*\belektrozigaretten1\.tumblr\.com\b" 	1;
 "~*\belektrozigaretten1\.webs\.com\b" 	1;
 "~*\belektrozigaretten2\.yn\.lt\b" 	1;
-"~*\beliasonrealty\.com\b" 	1;
 "~*\belidelcream\.weebly\.com\b" 	1;
 "~*\belitedollars\.com\b" 	1;
 "~*\belitepcgames\.com\b" 	1;
