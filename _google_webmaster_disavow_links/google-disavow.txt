@@ -7,6 +7,7 @@ domain:00webcams.com
 domain:01apple.com
 domain:03e.info
 domain:03p.info
+domain:08800.top
 domain:0912701309f8ce.com
 domain:0c47f8422d3f.com
 domain:0daymusic.org
@@ -710,6 +711,7 @@ domain:belstaffstore.online
 domain:benchmarkcommunications.co.uk
 domain:bensbargains.net
 domain:berdasovivan.ru
+domain:beremenyashka.com
 domain:berlininsl.com
 domain:berrymall.ru
 domain:best-businessman.ru
@@ -793,6 +795,7 @@ domain:bio.trade-jp.net
 domain:bioca.org
 domain:biographiya.com
 domain:bioscorp.ru
+domain:bird1.ru
 domain:birzha-truda.eu
 domain:bitcoinpile.com
 domain:bitcoinremote.com
@@ -909,6 +912,7 @@ domain:breget74.ru
 domain:brendbutik.ru
 domain:brewdom.ru
 domain:brg8.com
+domain:brillianty.info
 domain:brimstonehillfortress.org
 domain:briomotor.co
 domain:bristolhostel.com
@@ -1697,6 +1701,7 @@ domain:educatemetv.com
 domain:education-cz.ru
 domain:educontest.net
 domain:edudocs.net
+domain:eduinfosite.com
 domain:edwinkonijn.com.au
 domain:ee77ee.com
 domain:efkt.jp
@@ -3221,6 +3226,7 @@ domain:m-google.xyz
 domain:m.b00kmarks.com
 domain:m0r0zk0-krava.ru
 domain:m1media.net
+domain:m292.info
 domain:m3gadownload.pl
 domain:m4ever.net
 domain:m5home.ru
@@ -3777,6 +3783,7 @@ domain:odesproperty.com
 domain:odoratus.net
 domain:odywpjtw.bloger.index.hr
 domain:oecnhs.info
+domain:of-ireland.info
 domain:offer.camp
 domain:offer.wpsecurity.website
 domain:offergroup.info
@@ -3923,6 +3930,7 @@ domain:paperwritingservice17.blogspot.ru
 domain:paphoselectricianandplumber.com
 domain:par-fallen.ga
 domain:paradontozanet.ru
+domain:parajumpersjakkesalgnorge.info
 domain:parajumpersoutlet.online
 domain:parajumpersstore.online
 domain:paramountmarble.co.uk
@@ -4109,6 +4117,7 @@ domain:poppen-nw.net
 domain:popserve.adscpm.net
 domain:poptool.net
 domain:popugauka.ru
+domain:popugaychiki.com
 domain:popunder.net
 domain:popunder.ru
 domain:popup-fdm.xyz
@@ -4623,6 +4632,7 @@ domain:scanner-walter.top
 domain:scanner-willy.top
 domain:scansafe.net
 domain:scanspyware.net
+domain:scat.porn
 domain:scenarii-1-sentyabrya.uroki.org.ua
 domain:scenicmissouri.us
 domain:schlampen-treffen.com
@@ -5253,6 +5263,7 @@ domain:thelottosecrets.com
 domain:themeforest.net
 domain:themestotal.com
 domain:thenetinfo.com
+domain:thenews-today.info
 domain:theplacetoupdating.pw
 domain:thepokertimer.com
 domain:theprofitsmaker.net

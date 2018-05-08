@@ -7,6 +7,7 @@
 "~*\b01apple\.com\b" 	1;
 "~*\b03e\.info\b" 	1;
 "~*\b03p\.info\b" 	1;
+"~*\b08800\.top\b" 	1;
 "~*\b0912701309f8ce\.com\b" 	1;
 "~*\b0c47f8422d3f\.com\b" 	1;
 "~*\b0daymusic\.org\b" 	1;
@@ -709,6 +710,7 @@
 "~*\bbenchmarkcommunications\.co\.uk\b" 	1;
 "~*\bbensbargains\.net\b" 	1;
 "~*\bberdasovivan\.ru\b" 	1;
+"~*\bberemenyashka\.com\b" 	1;
 "~*\bberlininsl\.com\b" 	1;
 "~*\bberrymall\.ru\b" 	1;
 "~*\bbestadbid\.com\b" 	1;
@@ -792,6 +794,7 @@
 "~*\bbio\-optomarket\.ru\b" 	1;
 "~*\bbioscorp\.ru\b" 	1;
 "~*\bbio\.trade\-jp\.net\b" 	1;
+"~*\bbird1\.ru\b" 	1;
 "~*\bbirzha\-truda\.eu\b" 	1;
 "~*\bbitcoinpile\.com\b" 	1;
 "~*\bbitcoinremote\.com\b" 	1;
@@ -908,6 +911,7 @@
 "~*\bbrendbutik\.ru\b" 	1;
 "~*\bbrewdom\.ru\b" 	1;
 "~*\bbrg8\.com\b" 	1;
+"~*\bbrillianty\.info\b" 	1;
 "~*\bbrimstonehillfortress\.org\b" 	1;
 "~*\bbriomotor\.co\b" 	1;
 "~*\bbristolhostel\.com\b" 	1;
@@ -1695,6 +1699,7 @@
 "~*\beducation\-cz\.ru\b" 	1;
 "~*\beducontest\.net\b" 	1;
 "~*\bedudocs\.net\b" 	1;
+"~*\beduinfosite\.com\b" 	1;
 "~*\bedwinkonijn\.com\.au\b" 	1;
 "~*\bee77ee\.com\b" 	1;
 "~*\befkt\.jp\b" 	1;
@@ -3219,6 +3224,7 @@
 "~*\blyrster\.com\b" 	1;
 "~*\bm0r0zk0\-krava\.ru\b" 	1;
 "~*\bm1media\.net\b" 	1;
+"~*\bm292\.info\b" 	1;
 "~*\bm3gadownload\.pl\b" 	1;
 "~*\bm4ever\.net\b" 	1;
 "~*\bm5home\.ru\b" 	1;
@@ -3780,6 +3786,7 @@
 "~*\boffside2\.5v\.pl\b" 	1;
 "~*\bofftime\.ru\b" 	1;
 "~*\bofftopic\.biz\b" 	1;
+"~*\bof\-ireland\.info\b" 	1;
 "~*\bohmyrings\.com\b" 	1;
 "~*\boil\-td\.ru\b" 	1;
 "~*\bokayimage\.com\b" 	1;
@@ -3921,6 +3928,7 @@
 "~*\bpaperwritingservice17\.blogspot\.ru\b" 	1;
 "~*\bpaphoselectricianandplumber\.com\b" 	1;
 "~*\bparadontozanet\.ru\b" 	1;
+"~*\bparajumpersjakkesalgnorge\.info\b" 	1;
 "~*\bparajumpersoutlet\.online\b" 	1;
 "~*\bparajumpersstore\.online\b" 	1;
 "~*\bparamountmarble\.co\.uk\b" 	1;
@@ -4109,6 +4117,7 @@
 "~*\bpopserve\.adscpm\.net\b" 	1;
 "~*\bpoptool\.net\b" 	1;
 "~*\bpopugauka\.ru\b" 	1;
+"~*\bpopugaychiki\.com\b" 	1;
 "~*\bpopunder\.net\b" 	1;
 "~*\bpopunder\.ru\b" 	1;
 "~*\bpopup\-fdm\.xyz\b" 	1;
@@ -4620,6 +4629,7 @@
 "~*\bscanner\-willy\.top\b" 	1;
 "~*\bscansafe\.net\b" 	1;
 "~*\bscanspyware\.net\b" 	1;
+"~*\bscat\.porn\b" 	1;
 "~*\bscenarii\-1\-sentyabrya\.uroki\.org\.ua\b" 	1;
 "~*\bscenicmissouri\.us\b" 	1;
 "~*\bschlampen\-treffen\.com\b" 	1;
@@ -5250,6 +5260,7 @@
 "~*\bthemeforest\.net\b" 	1;
 "~*\bthemestotal\.com\b" 	1;
 "~*\bthenetinfo\.com\b" 	1;
+"~*\bthenews\-today\.info\b" 	1;
 "~*\btheplacetoupdating\.pw\b" 	1;
 "~*\bthepokertimer\.com\b" 	1;
 "~*\btheprofitsmaker\.net\b" 	1;
