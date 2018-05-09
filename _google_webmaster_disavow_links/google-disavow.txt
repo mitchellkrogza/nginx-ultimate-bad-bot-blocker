@@ -637,6 +637,7 @@ domain:backlink4u.net
 domain:backlinkwatch.com
 domain:backuperwebcam.weebly.com
 domain:bad-stars.net
+domain:baditri.com
 domain:baersaratov.ru
 domain:bag77.ru
 domain:bagcionderlab.com
@@ -1702,6 +1703,7 @@ domain:education-cz.ru
 domain:educontest.net
 domain:edudocs.net
 domain:eduinfosite.com
+domain:eduserver.net
 domain:edwinkonijn.com.au
 domain:ee77ee.com
 domain:efkt.jp
@@ -1986,6 +1988,7 @@ domain:fil.ru
 domain:filefilter.weebly.com
 domain:filerockstar298.weebly.com
 domain:filesclub.net
+domain:filesdatabase.net
 domain:filesmonster.porn
 domain:filesvine.com
 domain:filkhbr.com
@@ -2934,6 +2937,7 @@ domain:kinohit1.ru
 domain:kinomaniatv.pl
 domain:kinoplen.ru
 domain:kinopolet.net
+domain:kinosed.net
 domain:kinostorm.net
 domain:kinotorka.ru
 domain:kiprinform.com
@@ -3789,6 +3793,8 @@ domain:offergroup.info
 domain:offers.bycontext.com
 domain:offf.info
 domain:office-windows.ru
+domain:office2web.com
+domain:officedocuments.net
 domain:offside2.5v.pl
 domain:offtime.ru
 domain:offtopic.biz
@@ -4152,6 +4158,7 @@ domain:pornoklad.net
 domain:pornoklad.ru
 domain:pornokorol.com
 domain:pornolook.net
+domain:pornonik.com
 domain:pornophoto.xyz
 domain:pornosee.info
 domain:pornosemki.info

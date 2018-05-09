@@ -635,6 +635,7 @@
 "~*\bbacklink4u\.net\b" 	1;
 "~*\bbacklinkwatch\.com\b" 	1;
 "~*\bbackuperwebcam\.weebly\.com\b" 	1;
+"~*\bbaditri\.com\b" 	1;
 "~*\bbad\-stars\.net\b" 	1;
 "~*\bbaersaratov\.ru\b" 	1;
 "~*\bbag77\.ru\b" 	1;
@@ -1700,6 +1701,7 @@
 "~*\beducontest\.net\b" 	1;
 "~*\bedudocs\.net\b" 	1;
 "~*\beduinfosite\.com\b" 	1;
+"~*\beduserver\.net\b" 	1;
 "~*\bedwinkonijn\.com\.au\b" 	1;
 "~*\bee77ee\.com\b" 	1;
 "~*\befkt\.jp\b" 	1;
@@ -1983,6 +1985,7 @@
 "~*\bfilefilter\.weebly\.com\b" 	1;
 "~*\bfilerockstar298\.weebly\.com\b" 	1;
 "~*\bfilesclub\.net\b" 	1;
+"~*\bfilesdatabase\.net\b" 	1;
 "~*\bfilesmonster\.porn\b" 	1;
 "~*\bfilesvine\.com\b" 	1;
 "~*\bfilkhbr\.com\b" 	1;
@@ -2934,6 +2937,7 @@
 "~*\bkinoplen\.ru\b" 	1;
 "~*\bkinopolet\.net\b" 	1;
 "~*\bkino\-rating\.ru\b" 	1;
+"~*\bkinosed\.net\b" 	1;
 "~*\bkinostorm\.net\b" 	1;
 "~*\bkinotorka\.ru\b" 	1;
 "~*\bkiprinform\.com\b" 	1;
@@ -3781,6 +3785,8 @@
 "~*\boffers\.bycontext\.com\b" 	1;
 "~*\boffer\.wpsecurity\.website\b" 	1;
 "~*\bofff\.info\b" 	1;
+"~*\boffice2web\.com\b" 	1;
+"~*\bofficedocuments\.net\b" 	1;
 "~*\boffice\-windows\.ru\b" 	1;
 "~*\boffside2\.5v\.pl\b" 	1;
 "~*\bofftime\.ru\b" 	1;
@@ -4146,6 +4152,7 @@
 "~*\bpornoklad\.ru\b" 	1;
 "~*\bpornokorol\.com\b" 	1;
 "~*\bpornolook\.net\b" 	1;
+"~*\bpornonik\.com\b" 	1;
 "~*\bpornophoto\.xyz\b" 	1;
 "~*\bporno\-play\.net\b" 	1;
 "~*\bporno\-raskazy\.ru\b" 	1;
