@@ -6139,8 +6139,6 @@ domain:yogamatsexpert.com
 domain:yoluxuryevents.com
 domain:yoopsie.com
 domain:yopoint.in
-domain:yorkshire.com
-domain:yorkshireccc.com
 domain:yoshkarola.zrus.org
 domain:yottos.com
 domain:you-shall-not-pass.is74.ru

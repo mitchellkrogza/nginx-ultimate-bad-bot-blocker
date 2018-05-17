@@ -6139,8 +6139,6 @@
 "~*\byoluxuryevents\.com\b" 	1;
 "~*\byoopsie\.com\b" 	1;
 "~*\byopoint\.in\b" 	1;
-"~*\byorkshireccc\.com\b" 	1;
-"~*\byorkshire\.com\b" 	1;
 "~*\byoshkarola\.zrus\.org\b" 	1;
 "~*\byottos\.com\b" 	1;
 "~*\byouandcredit\.ru\b" 	1;
