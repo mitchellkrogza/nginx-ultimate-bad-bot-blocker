@@ -137,7 +137,6 @@ Firefox/7.0
 FlashGet
 Flunky
 Foobot
-fq
 Freeuploader
 FrontPage
 Fyrebot
