@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.06.1108
-### Updated: Wed Jun  6 08:55:53 SAST 2018
-### Bad Bot Count: 525
+### Version: V3.2018.06.1109
+### Updated: Wed Jun  6 16:45:51 SAST 2018
+### Bad Bot Count: 526
 ###################################################
 ### Version Information ##
 
@@ -528,6 +528,8 @@ Disallow:/
 User-agent: Mojeek
 Disallow:/
 User-agent: Morfeus Fucking Scanner
+Disallow:/
+User-agent: Mr.4x3
 Disallow:/
 User-agent: MSFrontPage
 Disallow:/
