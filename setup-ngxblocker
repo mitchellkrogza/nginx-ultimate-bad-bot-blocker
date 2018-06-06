@@ -108,21 +108,16 @@ find_vhosts() {
 }
 
 whitelist_ips() {
-	local ip= conf=$BOTS_DIR/whitelist-ips.conf col_size=$1
+	local ip= conf=$BOTS_DIR/whitelist-ips.conf
 
 	mkdir -p $BOTS_DIR
 
-	if [ -n "$(which dig)" ]; then
-		ip=$(dig +short myip.opendns.com @resolver1.opendns.com)
-		if ! grep "$ip" $conf >/dev/null 2>&1; then
-			printf "\n%-17s %-15s %-s\n" "Whitelisting ip:" "$ip" "=> $conf"
-			if [ "$DRY_RUN" = "N" ]; then
-				printf "%-23s %-s\n" "$ip" "0;" >> $conf
-			fi
+	ip=$(curl -s ifconfig.co)
+	if ! grep "$ip" $conf >/dev/null 2>&1; then
+		printf "\n%-17s %-15s %-s\n" "Whitelisting ip:" "$ip" "=> $conf"
+		if [ "$DRY_RUN" = "N" ]; then
+			printf "%-23s %-s\n" "$ip" "0;" >> $conf
 		fi
-	else
-		printf "%-10s %-${col_size}s %-s\n" \
-			"WARN:" "dig binary missing" "=> install bind-tools to whitelist external ip address"
 	fi
 }
 
@@ -435,7 +430,7 @@ main() {
 	check_nginx_directives
 
 	# whitelisting
-	whitelist_ips $col_size
+	whitelist_ips
 
 	if [ -d $WWW ]; then
 		whitelist_domains
