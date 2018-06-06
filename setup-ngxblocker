@@ -42,6 +42,7 @@ Usage: $script [OPTIONS]
 	[ -c ] : NGINX conf directory          (default: $CONF_DIR)
 	[ -m ] : NGINX main configuration      (default: $MAIN_CONF)
 	[ -i ] : Change installer path         (default: $INSTALLER)
+	[ -l ] : Manual whitelist of domain    (default: none)
 	[ -n ] : NO whitelist of .names only   (default: $DOT_NAMES)
 	[ -d ] : NO insert of DDOS rule        (default: $INC_DDOS)
 	[ -x ] : Actually change the files     (default: don't change anything)
@@ -49,6 +50,7 @@ Usage: $script [OPTIONS]
 
 Examples:
  $script -n    (Whitelist all directory names in $WWW as domains: not just dot.name directories)
+ $script -l domain1.com -l domain2.com (Whitelist these manual domain name args)
  $script -d    (Do not insert DDOS rule: these may clash with existing 'limit_conn addr' rules)
  $script       (Don't change anything: display results on stdout)
  $script -x    (Change / update config files)
@@ -108,21 +110,16 @@ find_vhosts() {
 }
 
 whitelist_ips() {
-	local ip= conf=$BOTS_DIR/whitelist-ips.conf col_size=$1
+	local ip= conf=$BOTS_DIR/whitelist-ips.conf
 
 	mkdir -p $BOTS_DIR
 
-	if [ -n "$(which dig)" ]; then
-		ip=$(dig +short myip.opendns.com @resolver1.opendns.com)
-		if ! grep "$ip" $conf >/dev/null 2>&1; then
-			printf "\n%-17s %-15s %-s\n" "Whitelisting ip:" "$ip" "=> $conf"
-			if [ "$DRY_RUN" = "N" ]; then
-				printf "%-23s %-s\n" "$ip" "0;" >> $conf
-			fi
+	ip=$(curl -s ifconfig.co)
+	if ! grep "$ip" $conf >/dev/null 2>&1; then
+		printf "\n%-17s %-15s %-s\n" "Whitelisting ip:" "$ip" "=> $conf"
+		if [ "$DRY_RUN" = "N" ]; then
+			printf "%-23s %-s\n" "$ip" "0;" >> $conf
 		fi
-	else
-		printf "%-10s %-${col_size}s %-s\n" \
-			"WARN:" "dig binary missing" "=> install bind-tools to whitelist external ip address"
 	fi
 }
 
@@ -138,15 +135,39 @@ whitelist_domains() {
 	domain_len=$(find $WWW -mindepth 1 -maxdepth 1 -type d  -exec basename {} \; \
 		| awk '{ print length ($0) }' | sort -nr | head -1)
 
-	for domain in $domain_list; do
-		if ! grep "$domain" $conf >/dev/null 2>&1; then
-			printf "%-s %-$(( $domain_len +2))s %s\n" "Whitelist:" "$domain" "=> $conf"
-			if [ "$DRY_RUN" = "N" ]; then
-				printf "%-$(( $domain_len +8))s %s\n" "\"~*$domain\"" "0;" >> $conf
-			fi
+	whitelist_print Auto $domain_len $domain_list
+}
+
+whitelist_manual_domains() {
+	local x= domain= domain_len=0
+	local conf=$BOTS_DIR/whitelist-domains.conf
+
+	for domain in $DOMAINS; do
+		x=$(echo $domain | wc -m)
+
+		if [ $x -gt $domain_len ]; then
+			domain_len=$x
 		fi
 	done
+
+	whitelist_print Manual $domain_len $DOMAINS
 }
+
+whitelist_print() {
+	local type=$1 domain= domain_len=$2 domain_list=$(echo $@ | cut -f3- -d ' ')
+	local conf=$BOTS_DIR/whitelist-domains.conf
+
+        for domain in $domain_list; do
+                if ! grep "$domain" $conf >/dev/null 2>&1; then
+                        printf "%-s %-$(( $domain_len +2))s %s\n" "$type Whitelist:" "$domain" "=> $conf"
+                        if [ "$DRY_RUN" = "N" ]; then
+                                printf "%-$(( $domain_len +8))s %s\n" "\"~*$domain\"" "0;" >> $conf
+                        fi
+                fi
+        done
+}
+
+
 
 longest_str() {
 	echo $@ | tr " " "\n" | awk '{print length ($0)}' | sort -nr | head -n1
@@ -303,7 +324,7 @@ check_nginx_directives() {
 get_options() {
 	local arg= opts=
 
-	while getopts :w:e:v:b:c:m:i:ndxh opts "$@"
+	while getopts :w:l:e:v:b:c:m:i:ndxh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
@@ -314,6 +335,7 @@ get_options() {
 
 		case "$opts" in
 			w) WWW=$arg; check_args $opts path $arg ;;
+			l) DOMAINS="$DOMAINS $arg" ;;
 			e) VHOST_EXT=$arg;;
 			v) VHOST_DIR=$arg; check_args $opts path $arg ;;
 			b) BOTS_DIR=$arg; check_args $opts path $arg ;;
@@ -435,12 +457,16 @@ main() {
 	check_nginx_directives
 
 	# whitelisting
-	whitelist_ips $col_size
+	whitelist_ips
 
 	if [ -d $WWW ]; then
 		whitelist_domains
 	else
-		printf "\nWeb directory not found ('$WWW'): not whitelisting domains.\n"
+		printf "\nWeb directory not found ('$WWW'): not automatically whitelisting domains.\n"
+	fi
+
+	if [ -n "$DOMAINS" ]; then
+		whitelist_manual_domains
 	fi
 
 	# download new bots.d / conf.d files
