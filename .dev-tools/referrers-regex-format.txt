@@ -1468,6 +1468,7 @@
 "~*\bday\-news\.info\b" 	1;
 "~*\bd\-black\.bz\b" 	1;
 "~*\bdbmkfhqk\.bloger\.index\.hr\b" 	1;
+"~*\bdb\.speedup\.gdn\b" 	1;
 "~*\bdcj\-nn\.ru\b" 	1;
 "~*\bddlmega\.net\b" 	1;
 "~*\bddospanel\.com\b" 	1;

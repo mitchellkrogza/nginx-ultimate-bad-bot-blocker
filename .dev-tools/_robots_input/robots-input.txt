@@ -329,6 +329,7 @@ ProPowerBot
 ProWebWalker
 Psbot
 Pump
+PxBroker
 PyCurl
 QueryN Metasearch
 RankActive

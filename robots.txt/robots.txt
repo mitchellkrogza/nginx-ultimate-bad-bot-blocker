@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.06.1111
-### Updated: Wed Jun  6 23:43:37 SAST 2018
-### Bad Bot Count: 526
+### Version: V3.2018.06.1112
+### Updated: Thu Jun  7 11:20:31 SAST 2018
+### Bad Bot Count: 527
 ###################################################
 ### Version Information ##
 
@@ -670,6 +670,8 @@ Disallow:/
 User-agent: Psbot
 Disallow:/
 User-agent: Pump
+Disallow:/
+User-agent: PxBroker
 Disallow:/
 User-agent: PyCurl
 Disallow:/
