@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.06.1112
-### Updated: Thu Jun  7 11:20:31 SAST 2018
-### Bad Bot Count: 527
+### Version: V3.2018.06.1113
+### Updated: Fri Jun  8 10:43:13 SAST 2018
+### Bad Bot Count: 528
 ###################################################
 ### Version Information ##
 
@@ -676,6 +676,8 @@ Disallow:/
 User-agent: PyCurl
 Disallow:/
 User-agent: QueryN Metasearch
+Disallow:/
+User-agent: Quick-Crawler
 Disallow:/
 User-agent: RankActive
 Disallow:/

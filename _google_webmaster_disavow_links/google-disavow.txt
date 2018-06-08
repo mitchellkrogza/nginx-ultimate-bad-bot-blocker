@@ -4650,6 +4650,7 @@ domain:scoopquest.com
 domain:scopich.com
 domain:score-ads.men
 domain:scottbywater.com
+domain:scrapinghub.com
 domain:scrapy.org
 domain:screentoolkit.com
 domain:scripted.com

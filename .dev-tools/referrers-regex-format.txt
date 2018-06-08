@@ -4647,6 +4647,7 @@
 "~*\bscopich\.com\b" 	1;
 "~*\bscore\-ads\.men\b" 	1;
 "~*\bscottbywater\.com\b" 	1;
+"~*\bscrapinghub\.com\b" 	1;
 "~*\bscrapy\.org\b" 	1;
 "~*\bscreentoolkit\.com\b" 	1;
 "~*\bscripted\.com\b" 	1;
