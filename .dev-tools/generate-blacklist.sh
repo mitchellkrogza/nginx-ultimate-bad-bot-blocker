@@ -413,8 +413,8 @@ done < $_input11
 printf '%s\n' "$_end11"  >> "$_tmpnginx11"
 mv $_tmpnginx11 $_inputdb11
 ed -s $_inputdb11<<\IN
-1,/# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/d
-/# END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/,$d
+1,/# START KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###/d
+/# END KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist.template
 /# START KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###/x
