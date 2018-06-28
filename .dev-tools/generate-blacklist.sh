@@ -408,7 +408,7 @@ rm $_inputdb10
 printf '%s\n' "$_start11" >> "$_tmpnginx11"
 while IFS= read -r LINE
 do
-printf '\t%s\t\t%s\n' "${LINE}" "$_action1" >> "$_tmpnginx11"
+printf '\t%s\t\t%s\n' "${LINE}" "$_action2" >> "$_tmpnginx11"
 done < $_input11
 printf '%s\n' "$_end11"  >> "$_tmpnginx11"
 mv $_tmpnginx11 $_inputdb11
