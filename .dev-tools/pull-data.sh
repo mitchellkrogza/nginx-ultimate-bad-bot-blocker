@@ -30,7 +30,7 @@ fetch () {
 initiate () {
 
     # Prepare Feed 1
-    sort -u ${outputfile} -o ${outputfile}
+    sudo sort -u ${outputfile} -o ${outputfile}
     grep '[^[:blank:]]' < ${outputfile} > ${tmp}
     sudo mv ${tmp} ${outputfile}
 	sudo dos2unix ${outputfile}
