@@ -57,16 +57,18 @@ _now="$(date)"
 # Specify input lists for the generator
 # *************************************
 
-_input1=$TRAVIS_BUILD_DIR/_generator_lists/good-user-agents.list
-_input2=$TRAVIS_BUILD_DIR/_generator_lists/allowed-user-agents.list
-_input3=$TRAVIS_BUILD_DIR/_generator_lists/limited-user-agents.list
-_input4=$TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list
-_input5=$TRAVIS_BUILD_DIR/.dev-tools/referrers-regex-format.txt
-_input6=$TRAVIS_BUILD_DIR/_generator_lists/google-ip-ranges.list
-_input7=$TRAVIS_BUILD_DIR/_generator_lists/bing-ip-ranges.list
-_input8=$TRAVIS_BUILD_DIR/_generator_lists/wordpress-theme-detectors.list
-_input9=$TRAVIS_BUILD_DIR/_generator_lists/nibbler-seo.list
-_input10=$TRAVIS_BUILD_DIR/_generator_lists/cloudflare-ip-ranges.list
+_input1=${TRAVIS_BUILD_DIR}/_generator_lists/good-user-agents.list
+_input2=${TRAVIS_BUILD_DIR}/_generator_lists/allowed-user-agents.list
+_input3=${TRAVIS_BUILD_DIR}/_generator_lists/limited-user-agents.list
+_input4=${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list
+_input5=${TRAVIS_BUILD_DIR}/.dev-tools/referrers-regex-format.txt
+_input6=${TRAVIS_BUILD_DIR}/_generator_lists/google-ip-ranges.list
+_input7=${TRAVIS_BUILD_DIR}/_generator_lists/bing-ip-ranges.list
+_input8=${TRAVIS_BUILD_DIR}/_generator_lists/wordpress-theme-detectors.list
+_input9=${TRAVIS_BUILD_DIR}/_generator_lists/nibbler-seo.list
+_input10=${TRAVIS_BUILD_DIR}/_generator_lists/cloudflare-ip-ranges.list
+_input11=${TRAVIS_BUILD_DIR}/_generator_lists/bad-ip-addresses.list
+
 
 # *******************************************************
 # Declare temporary database files used during generation
@@ -83,6 +85,7 @@ _inputdb7=/tmp/bing-ip-ranges.db
 _inputdb8=/tmp/wordpress-theme-detectors.db
 _inputdb9=/tmp/nibbler-seo.db
 _inputdb10=/tmp/cloudflare-ip-ranges.db
+_inputdb11=/tmp/bad-ip-addresses.db
 
 # **************************************************
 # Declare temporary variables used during generation
@@ -100,6 +103,7 @@ _tmpnginx7=_tmpnginx7
 _tmpnginx8=_tmpnginx8
 _tmpnginx9=_tmpnginx9
 _tmpnginx10=_tmpnginx10
+_tmpnginx11=_tmpnginx11
 
 # *************************************************************
 # Sort all input lists alphabetically and remove any duplicates
@@ -140,6 +144,8 @@ _start9="# START NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###"
 _end9="# END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###"
 _start10="# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
 _end10="# END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
+_start11="# START KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###"
+_end11="# END KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###"
 _startmarker="### VERSION INFORMATION #"
 _endmarker="### VERSION INFORMATION ##"
 
@@ -395,6 +401,29 @@ q
 IN
 rm $_inputdb10
 
+# ****************************************
+# KNOWN BAD IP RANGES - Create and Insert
+# ****************************************
+
+printf '%s\n' "$_start11" >> "$_tmpnginx11"
+while IFS= read -r LINE
+do
+printf '\t%s\t\t%s\n' "${LINE}" "$_action1" >> "$_tmpnginx11"
+done < $_input11
+printf '%s\n' "$_end11"  >> "$_tmpnginx11"
+mv $_tmpnginx11 $_inputdb11
+ed -s $_inputdb11<<\IN
+1,/# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/d
+/# END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/,$d
+,d
+.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist.template
+/# START KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###/x
+.t.
+.,/# END KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###/-d
+w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist.template
+q
+IN
+rm $_inputdb11
 
 # *******************************************************************************
 # PRINT VERSION, SCRIPT RUNTIME and UPDATE INFORMATION INTO GLOBALBLACKLIST FILES

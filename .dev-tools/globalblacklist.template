@@ -7414,6 +7414,18 @@ geo $validate_client {
 # END BLACKLISTED IPS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
 # ******************************************************************
 
+# *********************************************************************************************
+# KNOWN BAD IP ADDRESSES
+# Source: https://github.com/mitchellkrogza/Suspicious.Snooping.Sniffing.Hacking.IP.Addresses
+# A Reliable Daily Updated List Included Below of Known Bad IP Addresses, Snoopers and Sniffers
+# *********************************************************************************************
+
+# START KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###
+
+
+# END KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###
+
+
 }
 
 # WHITELIST your own IPs from the DDOS Filter

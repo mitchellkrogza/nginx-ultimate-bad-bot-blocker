@@ -61,6 +61,7 @@ sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-1.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-2.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-3.sh
 sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-4.sh
+sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/pull-data.sh
 
 cd $TRAVIS_BUILD_DIR
 
