@@ -2352,7 +2352,6 @@
 "~*\bgoogle\-liar\.ru\b" 	1;
 "~*\bgooglemare\.com\b" 	1;
 "~*\bgooglepositions\.com\b" 	1;
-"~*\bgoogleweblight\.com\b" 	1;
 "~*\bgooglsucks\.com\b" 	1;
 "~*\bgoogst2\.ru\b" 	1;
 "~*\bgoo\.ne\.jp\b" 	1;

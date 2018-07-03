@@ -2354,7 +2354,6 @@ domain:google-liar.ru
 domain:googlefeud.com
 domain:googlemare.com
 domain:googlepositions.com
-domain:googleweblight.com
 domain:googlsucks.com
 domain:googst2.ru
 domain:goosefishpost.bid
