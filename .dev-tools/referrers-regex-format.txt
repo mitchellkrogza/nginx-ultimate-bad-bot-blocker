@@ -2443,6 +2443,7 @@
 "~*\bhannasolution\.ru\b" 	1;
 "~*\bhao123\.com\b" 	1;
 "~*\bhappy\.new\.yeartwit\.com\b" 	1;
+"~*\bhard\-porn\.mobi\b" 	1;
 "~*\bhasfun\.com\b" 	1;
 "~*\bhatdc\.org\b" 	1;
 "~*\bhatedriveapart\.com\b" 	1;
@@ -2684,6 +2685,7 @@
 "~*\binbabes\.sexushost\.com\b" 	1;
 "~*\binboundlinks\.win\b" 	1;
 "~*\binboxdollars\.com\b" 	1;
+"~*\bincep\.imagine\-ex\.co\b" 	1;
 "~*\binclk\.com\b" 	1;
 "~*\bincolors\.club\b" 	1;
 "~*\bincomekey\.net\b" 	1;
@@ -2695,6 +2697,7 @@
 "~*\bindo\-export\.ru\b" 	1;
 "~*\binet\-traffic\.com\b" 	1;
 "~*\binfazavr\.ru\b" 	1;
+"~*\binfektsii\.com\b" 	1;
 "~*\binfobabki\.ru\b" 	1;
 "~*\binfodocsportal\.com\b" 	1;
 "~*\binfokonkurs\.ru\b" 	1;
@@ -2839,6 +2842,7 @@
 "~*\bjoingames\.org\b" 	1;
 "~*\bjolic2\.com\b" 	1;
 "~*\bjongose\.ninja\b" 	1;
+"~*\bjose\.mulinohouse\.co\b" 	1;
 "~*\bjournalhome\.com\b" 	1;
 "~*\bjourneydownthescale\.info\b" 	1;
 "~*\bjpcycles\.com\b" 	1;
@@ -2918,6 +2922,7 @@
 "~*\bkihi\.gdn\b" 	1;
 "~*\bkiinomaniak\.pl\b" 	1;
 "~*\bkimcurlrvsms\.com\b" 	1;
+"~*\bkino2018\.cc\b" 	1;
 "~*\bkino2018\.club\b" 	1;
 "~*\bkinobaks\.com\b" 	1;
 "~*\bkinobest\.pl\b" 	1;
@@ -3280,6 +3285,7 @@
 "~*\bmanuscript\.su\b" 	1;
 "~*\bmanve\.info\b" 	1;
 "~*\bmanyresultshub\-a\.akamaihd\.net\b" 	1;
+"~*\bmap028\.com\b" 	1;
 "~*\bmapquestz\.us\b" 	1;
 "~*\bmaranbrinfo\.com\.br\b" 	1;
 "~*\bmararoom\.ru\b" 	1;
@@ -3342,6 +3348,7 @@
 "~*\bmedicinacom\.ru\b" 	1;
 "~*\bmedicine\-4u\.org\b" 	1;
 "~*\bmedicines\-choice\.com\b" 	1;
+"~*\bmedicineseasybuy\.com\b" 	1;
 "~*\bmedicovi\.com\b" 	1;
 "~*\bmedictube\.ru\b" 	1;
 "~*\bmedi\-fitt\.hu\b" 	1;
@@ -3465,6 +3472,7 @@
 "~*\bmockupui\.com\b" 	1;
 "~*\bmodabutik\.ru\b" 	1;
 "~*\bmodenamebel\.ru\b" 	1;
+"~*\bmodnie\-futbolki\.net\b" 	1;
 "~*\bmoesen\-ficken\.com\b" 	1;
 "~*\bmoesonce\.com\b" 	1;
 "~*\bmoetomnenie\.com\b" 	1;
@@ -3548,6 +3556,7 @@
 "~*\bmsfsaar\.de\b" 	1;
 "~*\bmsk\.afora\.ru\b" 	1;
 "~*\bmsk\-diplomat\.com\b" 	1;
+"~*\bmtmtv\.info\b" 	1;
 "~*\bmttwtrack\.com\b" 	1;
 "~*\bmturkcontent\.com\b" 	1;
 "~*\bmuabancantho\.info\b" 	1;
@@ -4155,6 +4164,7 @@
 "~*\bpornonik\.com\b" 	1;
 "~*\bpornophoto\.xyz\b" 	1;
 "~*\bporno\-play\.net\b" 	1;
+"~*\bpornoplen\.com\b" 	1;
 "~*\bporno\-raskazy\.ru\b" 	1;
 "~*\bpornosee\.info\b" 	1;
 "~*\bpornosemki\.info\b" 	1;
@@ -5678,6 +5688,7 @@
 "~*\bvia\-energy\-cumpara\.com\b" 	1;
 "~*\bvia\-energy\-order\.com\b" 	1;
 "~*\bviagra\.pp\.ua\b" 	1;
+"~*\bviagra\-soft\.ru\b" 	1;
 "~*\bvia\-gra\.webstarts\.com\b" 	1;
 "~*\bviagroid\.ru\b" 	1;
 "~*\bviandpet\.com\b" 	1;
