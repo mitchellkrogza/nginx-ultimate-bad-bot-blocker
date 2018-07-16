@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2018.07.1133
-### Updated: Mon Jul 16 16:11:17 SAST 2018
-### Bad Referrer Count: 6314
+### Version: V3.2018.07.1134
+### Updated: Mon Jul 16 16:31:35 SAST 2018
+### Bad Referrer Count: 6320
 ### Bad Bot Count: 528
 ###################################################
 ### VERSION INFORMATION ##
@@ -2094,6 +2094,7 @@ map $http_referer $bad_referer {
 	"~*\bciekawinki\.pl\b" 	1;
 	"~*\bcienum\.fr\b" 	1;
 	"~*\bcigarpass\.com\b" 	1;
+	"~*\bcindymatches\.com\b" 	1;
 	"~*\bcineacademy\.ru\b" 	1;
 	"~*\bcinemaenergy\-hd\.ru\b" 	1;
 	"~*\bcinemaflix\.website\b" 	1;
@@ -2122,6 +2123,7 @@ map $http_referer $bad_referer {
 	"~*\bclean\-start\.net\b" 	1;
 	"~*\bclean\-virus\-mac\.com\b" 	1;
 	"~*\bclevernt\.com\b" 	1;
+	"~*\bclick2pawn\.com\b" 	1;
 	"~*\bclickaider\.com\b" 	1;
 	"~*\bclickbank\.net\b" 	1;
 	"~*\bclickbanksites\.info\b" 	1;
@@ -3979,6 +3981,7 @@ map $http_referer $bad_referer {
 	"~*\blawyers\.cafe\b" 	1;
 	"~*\blawyersinfo\.org\b" 	1;
 	"~*\blaxdrills\.com\b" 	1;
+	"~*\blaxob\.com\b" 	1;
 	"~*\blayola\.biz\.tc\b" 	1;
 	"~*\blazymanyoga\.com\b" 	1;
 	"~*\blazy\-z\.com\b" 	1;
@@ -5268,6 +5271,7 @@ map $http_referer $bad_referer {
 	"~*\brandalljhoward\.com\b" 	1;
 	"~*\brandki\-sex\.com\b" 	1;
 	"~*\brangjued\.com\b" 	1;
+	"~*\brangoman\.date\b" 	1;
 	"~*\brank\-checker\.online\b" 	1;
 	"~*\brankexperience\.com\b" 	1;
 	"~*\brankia\.com\b" 	1;
@@ -5473,6 +5477,7 @@ map $http_referer $bad_referer {
 	"~*\bsaletool\.ru\b" 	1;
 	"~*\bsa\-live\.com\b" 	1;
 	"~*\bsalmonfishingsacramentoriver\.com\b" 	1;
+	"~*\bsalut\-camp\.ru\b" 	1;
 	"~*\bsalutmontreal\.com\b" 	1;
 	"~*\bsamara\.rosfirm\.ru\b" 	1;
 	"~*\bsammlungfotos\.online\b" 	1;
@@ -6089,6 +6094,7 @@ map $http_referer $bad_referer {
 	"~*\bsygraem\.com\b" 	1;
 	"~*\bsymbaloo\.com\b" 	1;
 	"~*\bsymphonyintegratedhealthcare\.com\b" 	1;
+	"~*\bsyndicate\.fun\b" 	1;
 	"~*\bsyvertsen\-da\.no\b" 	1;
 	"~*\bszamponrevita\.pl\b" 	1;
 	"~*\bszucs\.ru\b" 	1;

@@ -1192,6 +1192,7 @@ domain:cicaki.net
 domain:ciekawinki.pl
 domain:cienum.fr
 domain:cigarpass.com
+domain:cindymatches.com
 domain:cineacademy.ru
 domain:cinemaenergy-hd.ru
 domain:cinemaflix.website
@@ -1220,6 +1221,7 @@ domain:cleanmypc.com
 domain:cleanpcnow.com
 domain:cleansearch.net
 domain:clevernt.com
+domain:click2pawn.com
 domain:clickaider.com
 domain:clickbank.net
 domain:clickbanksites.info
@@ -3076,6 +3078,7 @@ domain:law-check-two.xyz
 domain:lawyers.cafe
 domain:lawyersinfo.org
 domain:laxdrills.com
+domain:laxob.com
 domain:layola.biz.tc
 domain:lazy-z.com
 domain:lazymanyoga.com
@@ -4367,6 +4370,7 @@ domain:raisedseo.com
 domain:randalljhoward.com
 domain:randki-sex.com
 domain:rangjued.com
+domain:rangoman.date
 domain:rank-checker.online
 domain:rankexperience.com
 domain:rankia.com
@@ -4573,6 +4577,7 @@ domain:sakhboard.ru
 domain:sale-japan.com
 domain:saletool.ru
 domain:salmonfishingsacramentoriver.com
+domain:salut-camp.ru
 domain:salutmontreal.com
 domain:samara.rosfirm.ru
 domain:sammlungfotos.online
@@ -5186,6 +5191,7 @@ domain:swsociety.se
 domain:sygraem.com
 domain:symbaloo.com
 domain:symphonyintegratedhealthcare.com
+domain:syndicate.fun
 domain:syvertsen-da.no
 domain:szamponrevita.pl
 domain:szucs.ru
