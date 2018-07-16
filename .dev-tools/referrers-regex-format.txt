@@ -1120,6 +1120,7 @@
 "~*\bcfsrating\.sonicwall\.com\b" 	1;
 "~*\bc\-gainsbourg\.com\b" 	1;
 "~*\bcgi2\.nintendo\.co\.jp\b" 	1;
+"~*\bchangde\.58\.com\b" 	1;
 "~*\bcharmstroy\.info\b" 	1;
 "~*\bchastnoeporno\.com\b" 	1;
 "~*\bchatroulette\.life\b" 	1;
@@ -3505,6 +3506,7 @@
 "~*\bmoneyteam24\.com\b" 	1;
 "~*\bmoneytop\.ru\b" 	1;
 "~*\bmoneyviking\-a\.akamaihd\.net\b" 	1;
+"~*\bmoneyzzz\.ru\b" 	1;
 "~*\bmonitorwebsitespeed\.com\b" 	1;
 "~*\bmonsterdivx\.com\b" 	1;
 "~*\bmonsterdivx\.tv\b" 	1;
@@ -4540,6 +4542,7 @@
 "~*\brusoft\-zone\.ru\b" 	1;
 "~*\bruspdd\.com\b" 	1;
 "~*\brusprostitute\.com\b" 	1;
+"~*\brussian\-postindex\.ru\b" 	1;
 "~*\brussia\-tao\.ru\b" 	1;
 "~*\brussia\-today\-video\.ru\b" 	1;
 "~*\brussintv\.fr\b" 	1;
@@ -4907,6 +4910,7 @@
 "~*\bsky\-mine\.ru\b" 	1;
 "~*\bskytraf\.xyz\b" 	1;
 "~*\bskyway24\.ru\b" 	1;
+"~*\bsladkoevideo\.com\b" 	1;
 "~*\bslavia\.info\b" 	1;
 "~*\bslavic\-magic\.ru\b" 	1;
 "~*\bslavkokacunko\.de\b" 	1;

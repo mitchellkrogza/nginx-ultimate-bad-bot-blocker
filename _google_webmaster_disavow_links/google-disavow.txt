@@ -1120,6 +1120,7 @@ domain:cfcl.co.uk
 domain:cfjump.com
 domain:cfsrating.sonicwall.com
 domain:cgi2.nintendo.co.jp
+domain:changde.58.com
 domain:charmstroy.info
 domain:chastnoeporno.com
 domain:chatroulette.life
@@ -3505,6 +3506,7 @@ domain:moneymaster.ru
 domain:moneyteam24.com
 domain:moneytop.ru
 domain:moneyviking-a.akamaihd.net
+domain:moneyzzz.ru
 domain:monitorwebsitespeed.com
 domain:monsterdivx.com
 domain:monsterdivx.tv
@@ -4543,6 +4545,7 @@ domain:ruspdd.com
 domain:rusprostitute.com
 domain:russia-tao.ru
 domain:russia-today-video.ru
+domain:russian-postindex.ru
 domain:russintv.fr
 domain:russkie-gorki.ru
 domain:russkoe-zdorovie.ru
@@ -4908,6 +4911,7 @@ domain:sky-mine.ru
 domain:skylta.com
 domain:skytraf.xyz
 domain:skyway24.ru
+domain:sladkoevideo.com
 domain:slavia.info
 domain:slavic-magic.ru
 domain:slavkokacunko.de
