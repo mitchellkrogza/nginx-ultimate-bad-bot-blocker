@@ -94,6 +94,7 @@
 "~*\b4pp13\.com\b" 	1;
 "~*\b4rent\.ru\b" 	1;
 "~*\b4replicawatch\.net\b" 	1;
+"~*\b4senses\.co\b" 	1;
 "~*\b4ur\.click\b" 	1;
 "~*\b4ureyesonly\.com\b" 	1;
 "~*\b4webmasters\.com\b" 	1;
@@ -790,6 +791,7 @@
 "~*\bbinomo\.kz\b" 	1;
 "~*\bbioca\.org\b" 	1;
 "~*\bbiographiya\.com\b" 	1;
+"~*\bbioinnovate\.co\b" 	1;
 "~*\bbio\-japan\.net\b" 	1;
 "~*\bbio\-market\.kz\b" 	1;
 "~*\bbio\-optomarket\.ru\b" 	1;
@@ -1494,6 +1496,7 @@
 "~*\bdekorkeramik\.ru\b" 	1;
 "~*\bdelayreferat\.ru\b" 	1;
 "~*\bdelfin\-aqua\.com\.ua\b" 	1;
+"~*\bdelitime\.info\b" 	1;
 "~*\bdellalimov\.com\b" 	1;
 "~*\bdelta\-line\.men\b" 	1;
 "~*\bdeluxedumps\.com\b" 	1;
@@ -1550,6 +1553,7 @@
 "~*\bdiminishedvalueoforegon\.com\b" 	1;
 "~*\bdimkino\.ru\b" 	1;
 "~*\bdinkolove\.ya\.ru\b" 	1;
+"~*\bdinosaurus\.site\b" 	1;
 "~*\bdipstar\.org\b" 	1;
 "~*\bdirectivepub\.com\b" 	1;
 "~*\bdirectrev\.com\b" 	1;
@@ -1684,6 +1688,7 @@
 "~*\beasyukraine\.com\b" 	1;
 "~*\be\-avon\.ru\b" 	1;
 "~*\be\-biznes\.info\b" 	1;
+"~*\bebooknovel\.club\b" 	1;
 "~*\be\-buyeasy\.com\b" 	1;
 "~*\bec\-file\.info\b" 	1;
 "~*\be\-collantes\.com\b" 	1;
@@ -1934,6 +1939,7 @@
 "~*\bfandlr\.com\b" 	1;
 "~*\bfanoboi\.com\b" 	1;
 "~*\bfanpagerobot\.com\b" 	1;
+"~*\bfanrto\.com\b" 	1;
 "~*\bfantasticpixcool\.com\b" 	1;
 "~*\bfaptitans\.com\b" 	1;
 "~*\bfaracontrol\.ir\b" 	1;
@@ -2667,6 +2673,7 @@
 "~*\bimages\-free\.net\b" 	1;
 "~*\bimages\-graphics\-pics\.com\b" 	1;
 "~*\bimages\.gyffu\.com\b" 	1;
+"~*\bimagine\-ex\.co\b" 	1;
 "~*\bimediadesk\.com\b" 	1;
 "~*\bimfamous\.info\b" 	1;
 "~*\bimgarcade\.com\b" 	1;
@@ -3622,6 +3629,7 @@
 "~*\bmylesosibirsk\.ru\b" 	1;
 "~*\bmylida\.org\b" 	1;
 "~*\bmyliveblog\.ru\b" 	1;
+"~*\bmymercy\.info\b" 	1;
 "~*\bmymobilemoneypages\.com\b" 	1;
 "~*\bmyonigroup\.com\b" 	1;
 "~*\bmyonlinepayday\.co\b" 	1;
@@ -3667,6 +3675,7 @@
 "~*\bna\-telefon\.biz\b" 	1;
 "~*\bnationalbreakdown\.com\b" 	1;
 "~*\bnaturalbreakthroughsresearch\.com\b" 	1;
+"~*\bnaturalshair\.site\b" 	1;
 "~*\bnaughtyconnect\.com\b" 	1;
 "~*\bnaval\.jislaaik\.com\b" 	1;
 "~*\bnavalwiki\.info\b" 	1;
@@ -3745,6 +3754,7 @@
 "~*\bnorthfacestore\.online\b" 	1;
 "~*\bnorththeface\.store\b" 	1;
 "~*\bno\-rx\.info\b" 	1;
+"~*\bnoscrapleftbehind\.co\b" 	1;
 "~*\bnosecret\.com\.ua\b" 	1;
 "~*\bnotaria\-desalas\.com\b" 	1;
 "~*\bnotasprensa\.info\b" 	1;
@@ -5133,6 +5143,7 @@
 "~*\bstroyplus\.ru\b" 	1;
 "~*\bstroy\-portal22\.ru\b" 	1;
 "~*\bstrv\.se\b" 	1;
+"~*\bstudents\-cheapskate\.ml\b" 	1;
 "~*\bstudiofaca\.com\b" 	1;
 "~*\bstuff\-about\-money\.com\b" 	1;
 "~*\bstyro\.ru\b" 	1;
@@ -5835,6 +5846,7 @@
 "~*\bwatch\-movies\.ru\b" 	1;
 "~*\bwatchmyfb\.pl\b" 	1;
 "~*\bwatchmygf\.net\b" 	1;
+"~*\bwaterefficiency\.co\b" 	1;
 "~*\bwaterpurifier\.club\b" 	1;
 "~*\bwatsonrealtycorp\.com\b" 	1;
 "~*\bwaycash\.net\b" 	1;
@@ -6083,6 +6095,7 @@
 "~*\bxn\-\-80ak6aa92e\.com\b" 	1;
 "~*\bxn\-\-80aodinpgi\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-\-\-\-8kcatubaocd1bneepefojs1h2e\.xn\-\-p1ai\b" 	1;
+"~*\bxn\-\-\-\-8sbarihbihxpxqgaf0g1e\.xn\-\-80adxhks\b" 	1;
 "~*\bxn\-\-\-\-8sbdbjgb1ap7a9c4czbh\.xn\-\-p1acf\b" 	1;
 "~*\bxn\-\-\-\-8sbhefaln6acifdaon5c6f4axh\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-90acenikpebbdd4f6d\.xn\-\-p1ai\b" 	1;
