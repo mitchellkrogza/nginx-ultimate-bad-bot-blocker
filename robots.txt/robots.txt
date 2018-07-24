@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.07.1139
-### Updated: Sun Jul 22 16:51:44 SAST 2018
-### Bad Bot Count: 528
+### Version: V3.2018.07.1140
+### Updated: Tue Jul 24 09:12:47 SAST 2018
+### Bad Bot Count: 529
 ###################################################
 ### Version Information ##
 
@@ -608,6 +608,8 @@ Disallow:/
 User-agent: OpenLinkProfiler
 Disallow:/
 User-agent: Openvas
+Disallow:/
+User-agent: OpenVAS
 Disallow:/
 User-agent: OrangeBot
 Disallow:/
