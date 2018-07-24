@@ -603,7 +603,6 @@ domain:avtointeres.ru
 domain:avtolombard-krasnodar.com
 domain:avtolombard-krasnodar.ru
 domain:avtovolop.ru
-domain:away.vk.com
 domain:awaybird.ru
 domain:awency.com
 domain:axbocz.net

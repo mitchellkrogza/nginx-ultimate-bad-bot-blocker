@@ -604,7 +604,6 @@
 "~*\bavtolombard\-krasnodar\.ru\b" 	1;
 "~*\bavtovolop\.ru\b" 	1;
 "~*\bawaybird\.ru\b" 	1;
-"~*\baway\.vk\.com\b" 	1;
 "~*\bawency\.com\b" 	1;
 "~*\baxbocz\.net\b" 	1;
 "~*\bayakino\.net\b" 	1;
