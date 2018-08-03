@@ -401,6 +401,7 @@
 "~*\bandroid\-style\.com\b" 	1;
 "~*\bandroid\-systems\.ru\b" 	1;
 "~*\bandroid\-vsem\.org\b" 	1;
+"~*\bangel1777\.kz\b" 	1;
 "~*\bangigreene\.com\b" 	1;
 "~*\bangkortours\.vn\b" 	1;
 "~*\bangry\-fermi\-7633\.arukascloud\.io\b" 	1;
@@ -602,6 +603,7 @@
 "~*\bavtointeres\.ru\b" 	1;
 "~*\bavtolombard\-krasnodar\.com\b" 	1;
 "~*\bavtolombard\-krasnodar\.ru\b" 	1;
+"~*\bavto\-oligarh\.ru\b" 	1;
 "~*\bavtovolop\.ru\b" 	1;
 "~*\bawaybird\.ru\b" 	1;
 "~*\bawency\.com\b" 	1;
@@ -2987,6 +2989,7 @@
 "~*\bkomputers\-best\.ru\b" 	1;
 "~*\bkongoultry\.net\b" 	1;
 "~*\bkongruan\.com\b" 	1;
+"~*\bkonica\.kz\b" 	1;
 "~*\bkonkursov\.net\b" 	1;
 "~*\bkonkursowo\-24\.pl\b" 	1;
 "~*\bkonoplisemena\.com\b" 	1;
@@ -3007,6 +3010,7 @@
 "~*\bkountrylife\.com\b" 	1;
 "~*\bkoversite\.info\b" 	1;
 "~*\bkovesszucs\.atw\.hu\b" 	1;
+"~*\bkovrenok\.ru\b" 	1;
 "~*\bkozhniebolezni\.com\b" 	1;
 "~*\bkrafte\.ru\b" 	1;
 "~*\bkraljeva\-sutjeska\.com\b" 	1;
@@ -3613,6 +3617,7 @@
 "~*\bmydirtystuff\.com\b" 	1;
 "~*\bmydownloadengine\.com\b" 	1;
 "~*\bmydownlodablefiles\.com\b" 	1;
+"~*\bmy\-floor\.in\.ua\b" 	1;
 "~*\bmyfreecams\.com\b" 	1;
 "~*\bmyfreemp3\.eu\b" 	1;
 "~*\bmyfreetutorials\.com\b" 	1;
@@ -5400,6 +5405,7 @@
 "~*\btoloka\.hurtom\.com\b" 	1;
 "~*\btomatis\.gospartner\.com\b" 	1;
 "~*\btomck\.com\b" 	1;
+"~*\btonerbox\.kz\b" 	1;
 "~*\btongkatmadura\.info\b" 	1;
 "~*\btoolsky\.com\b" 	1;
 "~*\btoondinsey\.com\b" 	1;

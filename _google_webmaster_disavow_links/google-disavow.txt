@@ -402,6 +402,7 @@ domain:android-systems.ru
 domain:android-vsem.org
 domain:android4fun.org
 domain:androids-store.com
+domain:angel1777.kz
 domain:angigreene.com
 domain:angkortours.vn
 domain:angry-fermi-7633.arukascloud.io
@@ -596,6 +597,7 @@ domain:avon-novosib.ru
 domain:avon-severozapad.ru
 domain:avon-ukraine.com
 domain:avramstroy.ru
+domain:avto-oligarh.ru
 domain:avtoarenda.by
 domain:avtochehli.by
 domain:avtocredit-legko.ru
@@ -2987,6 +2989,7 @@ domain:komputernaya-pomosh-moscow.ru
 domain:komputers-best.ru
 domain:kongoultry.net
 domain:kongruan.com
+domain:konica.kz
 domain:konkursov.net
 domain:konkursowo-24.pl
 domain:konoplisemena.com
@@ -3007,6 +3010,7 @@ domain:kotaku.com
 domain:kountrylife.com
 domain:koversite.info
 domain:kovesszucs.atw.hu
+domain:kovrenok.ru
 domain:kozhniebolezni.com
 domain:krafte.ru
 domain:kraljeva-sutjeska.com
@@ -3603,6 +3607,7 @@ domain:mxgetcode.com
 domain:my-bc.ru
 domain:my-big-family.com
 domain:my-cash-bot.co
+domain:my-floor.in.ua
 domain:myanyone.net
 domain:mybinaryoptionsrobot.com
 domain:myblogregistercm.tk
@@ -5400,6 +5405,7 @@ domain:todohr.com
 domain:toloka.hurtom.com
 domain:tomatis.gospartner.com
 domain:tomck.com
+domain:tonerbox.kz
 domain:tongkatmadura.info
 domain:toolsky.com
 domain:toon-families.com
