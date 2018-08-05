@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.08.1148
-### Updated: Sat Aug  4 17:14:09 SAST 2018
-### Bad Bot Count: 529
+### Version: V3.2018.08.1149
+### Updated: Sun Aug  5 17:40:34 SAST 2018
+### Bad Bot Count: 530
 ###################################################
 ### Version Information ##
 
@@ -46,6 +46,8 @@ Disallow:/
 User-agent: Anarchie
 Disallow:/
 User-agent: Apexoo
+Disallow:/
+User-agent: archive.org_bot
 Disallow:/
 User-agent: ASPSeek
 Disallow:/

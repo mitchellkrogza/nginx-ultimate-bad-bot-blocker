@@ -17,6 +17,7 @@ AllSubmitter
 AlphaBot
 Anarchie
 Apexoo
+archive.org_bot
 ASPSeek
 Asterias
 Attach
