@@ -1,8 +1,8 @@
 ### Version Information #
 ###################################################
-### Version: V3.2018.08.1149
-### Updated: Sun Aug  5 17:40:34 SAST 2018
-### Bad Bot Count: 530
+### Version: V3.2018.08.1150
+### Updated: Sun Aug  5 17:44:36 SAST 2018
+### Bad Bot Count: 531
 ###################################################
 ### Version Information ##
 
@@ -292,6 +292,8 @@ Disallow:/
 User-agent: Freeuploader
 Disallow:/
 User-agent: FrontPage
+Disallow:/
+User-agent: FyberSpider
 Disallow:/
 User-agent: Fyrebot
 Disallow:/

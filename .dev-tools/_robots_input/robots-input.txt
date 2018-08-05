@@ -140,6 +140,7 @@ Flunky
 Foobot
 Freeuploader
 FrontPage
+FyberSpider
 Fyrebot
 GalaxyBot
 Genieo
