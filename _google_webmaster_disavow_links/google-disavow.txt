@@ -3105,6 +3105,7 @@ domain:leftofcentrist.com
 domain:legalrc.biz
 domain:legionalpha.com
 domain:lego4x4.ru
+domain:lennatin.info
 domain:lenvred.org
 domain:lernur.net
 domain:lerporn.info
@@ -3258,6 +3259,7 @@ domain:macdamaged.space
 domain:macdamaged.tech
 domain:macfix.life
 domain:machicon-akihabara.info
+domain:machicon-ueno.info
 domain:mackeeper-center.club
 domain:mackeeper-land-672695126.us-east-1.elb.amazonaws.com
 domain:macnewtech.com
@@ -3294,6 +3296,7 @@ domain:malwareremovalcenter.com
 domain:mamasuper.prom.ua
 domain:managerpak204.weebly.com
 domain:manifestation.betteroffers.review
+domain:manimpotence.com
 domain:manipulyator-peterburg.ru
 domain:mansparskats.com
 domain:mantramusic.ru
@@ -4469,6 +4472,7 @@ domain:renecaovilla.online
 domain:renecaovillasale.online
 domain:renewablewealth.com
 domain:rennlist.com
+domain:rent2spb.ru
 domain:rentaremotecomputer.com
 domain:rentehno.ru
 domain:rep-am.com
@@ -4962,6 +4966,7 @@ domain:sms2x2.ru
 domain:smsactivator.ru
 domain:smstraf.ru
 domain:sneakyboy.com
+domain:snegozaderzhatel.ru
 domain:snip.to
 domain:snip.tw
 domain:snjack.info

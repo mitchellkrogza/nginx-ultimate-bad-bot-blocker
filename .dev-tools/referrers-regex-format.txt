@@ -3105,6 +3105,7 @@
 "~*\blegalrc\.biz\b" 	1;
 "~*\blegionalpha\.com\b" 	1;
 "~*\blego4x4\.ru\b" 	1;
+"~*\blennatin\.info\b" 	1;
 "~*\blenvred\.org\b" 	1;
 "~*\blernur\.net\b" 	1;
 "~*\blerporn\.info\b" 	1;
@@ -3255,6 +3256,7 @@
 "~*\bmacdamaged\.tech\b" 	1;
 "~*\bmacfix\.life\b" 	1;
 "~*\bmachicon\-akihabara\.info\b" 	1;
+"~*\bmachicon\-ueno\.info\b" 	1;
 "~*\bmackeeper\-center\.club\b" 	1;
 "~*\bmackeeper\-land\-672695126\.us\-east\-1\.elb\.amazonaws\.com\b" 	1;
 "~*\bmacnewtech\.com\b" 	1;
@@ -3292,6 +3294,7 @@
 "~*\bmamasuper\.prom\.ua\b" 	1;
 "~*\bmanagerpak204\.weebly\.com\b" 	1;
 "~*\bmanifestation\.betteroffers\.review\b" 	1;
+"~*\bmanimpotence\.com\b" 	1;
 "~*\bmanipulyator\-peterburg\.ru\b" 	1;
 "~*\bmansparskats\.com\b" 	1;
 "~*\bmantramusic\.ru\b" 	1;
@@ -4469,6 +4472,7 @@
 "~*\brenecaovillasale\.online\b" 	1;
 "~*\brenewablewealth\.com\b" 	1;
 "~*\brennlist\.com\b" 	1;
+"~*\brent2spb\.ru\b" 	1;
 "~*\brentaremotecomputer\.com\b" 	1;
 "~*\brentehno\.ru\b" 	1;
 "~*\brep\-am\.com\b" 	1;
@@ -4962,6 +4966,7 @@
 "~*\bsmsactivator\.ru\b" 	1;
 "~*\bsmstraf\.ru\b" 	1;
 "~*\bsneakyboy\.com\b" 	1;
+"~*\bsnegozaderzhatel\.ru\b" 	1;
 "~*\bsnip\.to\b" 	1;
 "~*\bsnip\.tw\b" 	1;
 "~*\bsnjack\.info\b" 	1;
