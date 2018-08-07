@@ -1,7 +1,13 @@
+###################################################################
+# The Ultimate robots.txt Bot and User-Agent Blocker
+# Copyright:
+# https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
+###################################################################
+
 ### Version Information #
 ###################################################
-### Version: V3.2018.08.1152
-### Updated: Tue Aug  7 10:47:51 SAST 2018
+### Version: V3.2018.08.1153
+### Updated: Tue Aug  7 12:52:38 SAST 2018
 ### Bad Bot Count: 531
 ###################################################
 ### Version Information ##
