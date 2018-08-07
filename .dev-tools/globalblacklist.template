@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2018.08.1151
-### Updated: Mon Aug  6 09:44:37 SAST 2018
-### Bad Referrer Count: 6343
+### Version: V3.2018.08.1152
+### Updated: Tue Aug  7 10:47:50 SAST 2018
+### Bad Referrer Count: 6349
 ### Bad Bot Count: 531
 ###################################################
 ### VERSION INFORMATION ##
@@ -2536,6 +2536,7 @@ map $http_referer $bad_referer {
 	"~*\bdostavka\-v\-krym\.com\b" 	1;
 	"~*\bdostavka\-v\-ukrainu\.ru\b" 	1;
 	"~*\bdosug\-lux\.ru\b" 	1;
+	"~*\bdosugrostov\.site\b" 	1;
 	"~*\bdotnetdotcom\.org\b" 	1;
 	"~*\bdoublepimp\.com\b" 	1;
 	"~*\bdownloaddy\.net\b" 	1;
@@ -3598,6 +3599,7 @@ map $http_referer $bad_referer {
 	"~*\bimpisr\.ru\b" 	1;
 	"~*\bimportchinacoach\-teach\.com\b" 	1;
 	"~*\bimport\-sales\.com\b" 	1;
+	"~*\bimpotentik\.com\b" 	1;
 	"~*\bimpresagaia\.it\b" 	1;
 	"~*\binbabes\.sexushost\.com\b" 	1;
 	"~*\binboundlinks\.win\b" 	1;
@@ -4400,6 +4402,7 @@ map $http_referer $bad_referer {
 	"~*\bmoesonce\.com\b" 	1;
 	"~*\bmoetomnenie\.com\b" 	1;
 	"~*\bmoi\-glazki\.ru\b" 	1;
+	"~*\bmoinozhki\.com\b" 	1;
 	"~*\bmoivestiy\.biz\b" 	1;
 	"~*\bmojaocena\.com\b" 	1;
 	"~*\bmoje\-recenze\.cz\b" 	1;
@@ -5423,6 +5426,7 @@ map $http_referer $bad_referer {
 	"~*\brisparmiocasa\.bz\.it\b" 	1;
 	"~*\britlweb\.com\b" 	1;
 	"~*\brixpix\.ru\b" 	1;
+	"~*\brniaeba\.ga\b" 	1;
 	"~*\brn\-to\-bsn\.com\b" 	1;
 	"~*\brobot\-forex\.biz\b" 	1;
 	"~*\brocketchange\.ru\b" 	1;
@@ -7021,6 +7025,8 @@ map $http_referer $bad_referer {
 	"~*\bxn\-\-b1ag5cfn\.xn\-\-p1ai\b" 	1;
 	"~*\bxn\-\-b1agm2d\.net\b" 	1;
 	"~*\bxn\-\-c1acygb\.xn\-\-p1ai\b" 	1;
+	"~*\bxn\-\-\-\-ctbbcjd3dbsehgi\.xn\-\-p1ai\b" 	1;
+	"~*\bxn\-\-\-\-ctbigni3aj4h\.xn\-\-p1ai\b" 	1;
 	"~*\bxn\-\-d1abj0abs9d\.in\.ua\b" 	1;
 	"~*\bxn\-\-d1aifoe0a9a\.top\b" 	1;
 	"~*\bxn\-\-\-\-dtbndd4ae7eub\.top\b" 	1;
@@ -8355,6 +8361,7 @@ geo $validate_client {
 	181.41.89.132		1;
 	181.59.194.180		1;
 	18.188.44.167		1;
+	182.100.67.235		1;
 	182.100.67.59		1;
 	182.100.67.60		1;
 	182.150.28.230		1;
@@ -9507,6 +9514,7 @@ geo $validate_client {
 	54.37.148.71		1;
 	54.37.149.75		1;
 	54.37.160.36		1;
+	54.37.161.71		1;
 	54.37.191.248		1;
 	54.37.226.230		1;
 	54.37.233.195		1;

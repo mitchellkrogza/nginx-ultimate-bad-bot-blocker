@@ -1630,6 +1630,7 @@ domain:dostavimvdom.ru
 domain:dostavka-v-krym.com
 domain:dostavka-v-ukrainu.ru
 domain:dosug-lux.ru
+domain:dosugrostov.site
 domain:dotnetdotcom.org
 domain:doublepimp.com
 domain:download-of-the-warez.blogspot.com
@@ -2693,6 +2694,7 @@ domain:impisr.edunsk.ru
 domain:impisr.ru
 domain:import-sales.com
 domain:importchinacoach-teach.com
+domain:impotentik.com
 domain:impresagaia.it
 domain:inbabes.sexushost.com
 domain:inboundlinks.win
@@ -3494,6 +3496,7 @@ domain:moesen-ficken.com
 domain:moesonce.com
 domain:moetomnenie.com
 domain:moi-glazki.ru
+domain:moinozhki.com
 domain:moivestiy.biz
 domain:mojaocena.com
 domain:moje-recenze.cz
@@ -4518,6 +4521,7 @@ domain:risparmiocasa.bz.it
 domain:ritlweb.com
 domain:rixpix.ru
 domain:rn-to-bsn.com
+domain:rniaeba.ga
 domain:robot-forex.biz
 domain:rocketchange.ru
 domain:rockingclicks.com
@@ -6093,6 +6097,8 @@ domain:xn----8sbdbjgb1ap7a9c4czbh.xn--p1acf
 domain:xn----8sbhefaln6acifdaon5c6f4axh.xn--p1ai
 domain:xn----9sbebi2bvzr7h.xn--p1ai
 domain:xn----9sbubg3ambdfl1j.xn--p1ai
+domain:xn----ctbbcjd3dbsehgi.xn--p1ai
+domain:xn----ctbigni3aj4h.xn--p1ai
 domain:xn----dtbndd4ae7eub.top
 domain:xn----itbeirbjbi7bc6bh2d.xn--p1ai
 domain:xn----itbkqkfiq.xn--p1ai
