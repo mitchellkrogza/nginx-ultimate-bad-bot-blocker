@@ -1,4 +1,4 @@
-Last Tested: Tue Aug  7 12:52:50 SAST 2018
+Last Tested: Wed Aug  8 17:01:05 SAST 2018
 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
