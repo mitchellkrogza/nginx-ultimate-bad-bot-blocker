@@ -2171,6 +2171,7 @@ domain:fsakhalin.ru
 domain:fsalas.com
 domain:ftns.ru
 domain:fuck-paid-share-buttons.xyz
+domain:fuckbuddybestgilf.info
 domain:fuckingawesome.com
 domain:fuckmill.com
 domain:fuel-gas.com
@@ -3053,6 +3054,7 @@ domain:labafydjxa.su
 domain:labelwater.se
 domain:labplus.ru
 domain:labvis.host.sk
+domain:lacapilla.info
 domain:lacasamorett.com
 domain:lacave.ntic.fr
 domain:lacloop.info
@@ -5158,6 +5160,7 @@ domain:stroyplus.ru
 domain:strv.se
 domain:students-cheapskate.ml
 domain:studiofaca.com
+domain:studiokamyk.com.pl
 domain:stuff-about-money.com
 domain:styro.ru
 domain:success-seo.com
@@ -5554,6 +5557,7 @@ domain:turvgori.ru
 domain:tv-spoty.info
 domain:tvand.ru
 domain:tversvet.ru
+domain:tvnewsclips.info
 domain:tvorozhnaja-zapekanka-recept.ru
 domain:tvoystartup.ru
 domain:tvteleport.ru

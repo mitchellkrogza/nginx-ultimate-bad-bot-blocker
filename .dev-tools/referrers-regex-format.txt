@@ -2170,6 +2170,7 @@
 "~*\bfsakhalin\.ru\b" 	1;
 "~*\bfsalas\.com\b" 	1;
 "~*\bftns\.ru\b" 	1;
+"~*\bfuckbuddybestgilf\.info\b" 	1;
 "~*\bfuckingawesome\.com\b" 	1;
 "~*\bfuckmill\.com\b" 	1;
 "~*\bfuck\-paid\-share\-buttons\.xyz\b" 	1;
@@ -3052,6 +3053,7 @@
 "~*\blabelwater\.se\b" 	1;
 "~*\blabplus\.ru\b" 	1;
 "~*\blabvis\.host\.sk\b" 	1;
+"~*\blacapilla\.info\b" 	1;
 "~*\blacasamorett\.com\b" 	1;
 "~*\blacave\.ntic\.fr\b" 	1;
 "~*\blacloop\.info\b" 	1;
@@ -5158,6 +5160,7 @@
 "~*\bstrv\.se\b" 	1;
 "~*\bstudents\-cheapskate\.ml\b" 	1;
 "~*\bstudiofaca\.com\b" 	1;
+"~*\bstudiokamyk\.com\.pl\b" 	1;
 "~*\bstuff\-about\-money\.com\b" 	1;
 "~*\bstyro\.ru\b" 	1;
 "~*\bsuccess\-seo\.com\b" 	1;
@@ -5553,6 +5556,7 @@
 "~*\bturvgori\.ru\b" 	1;
 "~*\btvand\.ru\b" 	1;
 "~*\btversvet\.ru\b" 	1;
+"~*\btvnewsclips\.info\b" 	1;
 "~*\btvorozhnaja\-zapekanka\-recept\.ru\b" 	1;
 "~*\btvoystartup\.ru\b" 	1;
 "~*\btv\-spoty\.info\b" 	1;
