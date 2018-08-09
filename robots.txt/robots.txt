@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2018.08.1154
-### Updated: Wed Aug  8 17:00:53 SAST 2018
-### Bad Bot Count: 531
+### Version: V3.2018.08.1155
+### Updated: Thu Aug  9 11:35:17 SAST 2018
+### Bad Bot Count: 532
 ###################################################
 ### Version Information ##
 
@@ -882,6 +882,8 @@ Disallow:/
 User-agent: Toata
 Disallow:/
 User-agent: Toweyabot
+Disallow:/
+User-agent: Tracemyfile
 Disallow:/
 User-agent: Trendiction
 Disallow:/
