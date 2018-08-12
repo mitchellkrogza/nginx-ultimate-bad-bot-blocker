@@ -51,7 +51,7 @@ Please make sure you are subscribed to notifications to be notified when the blo
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-1.png"/>
 
-Download install-ngxblocker to your /usr/sbin/directory and make the script executable.
+Download install-ngxblocker to your /usr/local/sbin/directory and make the script executable.
 
 ```
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/local/sbin/install-ngxblocker
@@ -233,7 +233,7 @@ Whitelisting ip:  x.x.x.x  => /etc/nginx/bots.d/whitelist-ips.conf
 
 You will note it has done the includes in all the .vhost files on my test bed server and also whitelisted your own IP address in the whitelist-ips.conf file for you. Further IP's or IP ranges can be added to your customizable whitelits-ips.conf file located in /etc/nginx/bots.d/whitelist-ips.conf.
 
-What this setup script has done has simply added the following include statements into your .vhost files for you.
+What this setup script has done has simply added the following include statements into your .vhost files for you, it also adds /etc/nginx/conf.d/* to the includes in nginx.conf (if not already in nginx.conf), otherwise, the whole script will fail.
 
 ```
 # Bad Bot Blocker
