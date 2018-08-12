@@ -2351,6 +2351,7 @@
 "~*\bgoldpanningtools\.com\b" 	1;
 "~*\bgolfresa\.lucania\.se\b" 	1;
 "~*\bgolmau\.host\.sk\b" 	1;
+"~*\bgombita\.info\b" 	1;
 "~*\bgomusix\.com\b" 	1;
 "~*\bgonextmedia\.com\b" 	1;
 "~*\bgoodhousekeeping\.com\b" 	1;
@@ -4125,6 +4126,7 @@
 "~*\bploenjitmedia\.azurewebsites\.net\b" 	1;
 "~*\bplohaya\-kreditnaya\-istoriya\.ru\b" 	1;
 "~*\bpl\-top\.pl\b" 	1;
+"~*\bplugingeorgia\.com\b" 	1;
 "~*\bplusnetwork\.com\b" 	1;
 "~*\bpl\-vouchers\.com\b" 	1;
 "~*\bpobeiranie\.pl\b" 	1;

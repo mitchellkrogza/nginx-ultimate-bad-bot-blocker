@@ -2352,6 +2352,7 @@ domain:goldenggames.com
 domain:goldpanningtools.com
 domain:golfresa.lucania.se
 domain:golmau.host.sk
+domain:gombita.info
 domain:gomusix.com
 domain:gonextmedia.com
 domain:goo.ne.jp
@@ -4126,6 +4127,7 @@ domain:playtap.us
 domain:pliks.pl
 domain:ploenjitmedia.azurewebsites.net
 domain:plohaya-kreditnaya-istoriya.ru
+domain:plugingeorgia.com
 domain:plusnetwork.com
 domain:pobeiranie.pl
 domain:pochemychka.net
