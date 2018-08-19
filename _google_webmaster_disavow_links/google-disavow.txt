@@ -1437,6 +1437,7 @@ domain:cypernhuset.se
 domain:cyprusbuyproperties.com
 domain:cyse.tk
 domain:czat.wp.pl
+domain:czeshop.info
 domain:d-black.bz
 domain:d0t.ru
 domain:d2jsp.org
@@ -1456,6 +1457,7 @@ domain:dangphoto.trade
 domain:danschawbel.com
 domain:daooda.com
 domain:daptravel.com
+domain:darkages.info
 domain:darkbooks.org
 domain:darmebel.com.ua
 domain:darodar.com
@@ -1533,6 +1535,8 @@ domain:devochki.top
 domain:dfiles.me
 domain:dfwu1013.info
 domain:dfwu1019.info
+domain:dgfitness.co
+domain:diamond-necklace.info
 domain:diarioaconcagua.com
 domain:dichvuvesinhhanoi.com
 domain:dickssportinggoods.com
@@ -2733,6 +2737,7 @@ domain:int.search.mywebsearch.com
 domain:int.search.tb.ask.com
 domain:integritylandscapeservices.com
 domain:intelhdgraphicsgtdrive6w.metroblog.com
+domain:intellego.info
 domain:intellekt21.ru
 domain:intellektmedia.at
 domain:interesnie-faktu.ru
@@ -2833,6 +2838,7 @@ domain:jaxcube.info
 domain:jbl-charge.info
 domain:je7.us
 domain:jennyfire.ru
+domain:jeremyeaton.co
 domain:jerseychinabizwholesale.com
 domain:jerseychinabizwholesale.us
 domain:jerseysbizwholesalecheap.com
@@ -3068,6 +3074,7 @@ domain:lampokrat.ws
 domain:lanadelreyfans.us
 domain:lanasshop.ru
 domain:lancheck.net
+domain:landinez.co
 domain:landmania.ru
 domain:landoftracking.com
 domain:landreferat.ru
@@ -3202,6 +3209,7 @@ domain:locatellicorretor.com.br
 domain:locationdesaison.com
 domain:lockerz.com
 domain:locksmith.jp
+domain:locustdesign.co
 domain:lodki-pvh.dp.ua
 domain:loftdigital.eu
 domain:loginduepunti.it
@@ -3244,6 +3252,7 @@ domain:luckyday.world
 domain:luckyshop.net.ua
 domain:lulea-auktionsverk.se
 domain:lumb.co
+domain:lunamedia.co
 domain:lutherstable.org
 domain:luxmagazine.cf
 domain:luxup.ru
@@ -5026,6 +5035,7 @@ domain:softxaker.ru
 domain:soheavyblog.com
 domain:sohoindia.net
 domain:solicita.info
+domain:solinf.co
 domain:solitaire-game.ru
 domain:solmarket.by
 domain:solnplast.ru
@@ -5429,6 +5439,7 @@ domain:tooplay.com
 domain:tootoo.to
 domain:top-deal.com.pl
 domain:top-karkas.ru
+domain:top-l2.com
 domain:top-study.work
 domain:top1-seo-service.com
 domain:top10-way.com
@@ -6101,6 +6112,7 @@ domain:xn----7sbifcamovvfggw9d.xn--p1ai
 domain:xn----8sbarihbihxpxqgaf0g1e.xn--80adxhks
 domain:xn----8sbdbjgb1ap7a9c4czbh.xn--p1acf
 domain:xn----8sbhefaln6acifdaon5c6f4axh.xn--p1ai
+domain:xn----8sblgmbj1a1bk8l.xn----161-4vemb6cjl7anbaea3afninj.xn--p1ai
 domain:xn----9sbebi2bvzr7h.xn--p1ai
 domain:xn----9sbubg3ambdfl1j.xn--p1ai
 domain:xn----ctbbcjd3dbsehgi.xn--p1ai
@@ -6190,6 +6202,7 @@ domain:yellowfootprints.com
 domain:yellowstonesafaritours.com
 domain:yellowstonevisitortours.com
 domain:yes-com.com
+domain:yginekologa.com
 domain:yhit.press
 domain:ynymnwbm.bloger.index.hr
 domain:yogamatsexpert.com

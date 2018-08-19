@@ -1437,6 +1437,7 @@
 "~*\bcyprusbuyproperties\.com\b" 	1;
 "~*\bcyse\.tk\b" 	1;
 "~*\bczat\.wp\.pl\b" 	1;
+"~*\bczeshop\.info\b" 	1;
 "~*\bd0t\.ru\b" 	1;
 "~*\bd2jsp\.org\b" 	1;
 "~*\bdafatiri\.com\b" 	1;
@@ -1455,6 +1456,7 @@
 "~*\bdanschawbel\.com\b" 	1;
 "~*\bdaooda\.com\b" 	1;
 "~*\bdaptravel\.com\b" 	1;
+"~*\bdarkages\.info\b" 	1;
 "~*\bdarkbooks\.org\b" 	1;
 "~*\bdarmebel\.com\.ua\b" 	1;
 "~*\bdarodar\.com\b" 	1;
@@ -1533,6 +1535,8 @@
 "~*\bdfiles\.me\b" 	1;
 "~*\bdfwu1013\.info\b" 	1;
 "~*\bdfwu1019\.info\b" 	1;
+"~*\bdgfitness\.co\b" 	1;
+"~*\bdiamond\-necklace\.info\b" 	1;
 "~*\bdiarioaconcagua\.com\b" 	1;
 "~*\bdichvuvesinhhanoi\.com\b" 	1;
 "~*\bdickssportinggoods\.com\b" 	1;
@@ -2730,6 +2734,7 @@
 "~*\binsurple\.com\b" 	1;
 "~*\bintegritylandscapeservices\.com\b" 	1;
 "~*\bintelhdgraphicsgtdrive6w\.metroblog\.com\b" 	1;
+"~*\bintellego\.info\b" 	1;
 "~*\bintellekt21\.ru\b" 	1;
 "~*\bintellektmedia\.at\b" 	1;
 "~*\binteresnie\-faktu\.ru\b" 	1;
@@ -2832,6 +2837,7 @@
 "~*\bjbl\-charge\.info\b" 	1;
 "~*\bje7\.us\b" 	1;
 "~*\bjennyfire\.ru\b" 	1;
+"~*\bjeremyeaton\.co\b" 	1;
 "~*\bjerseychinabizwholesale\.com\b" 	1;
 "~*\bjerseychinabizwholesale\.us\b" 	1;
 "~*\bjerseysbizwholesalecheap\.com\b" 	1;
@@ -3068,6 +3074,7 @@
 "~*\blanadelreyfans\.us\b" 	1;
 "~*\blanasshop\.ru\b" 	1;
 "~*\blancheck\.net\b" 	1;
+"~*\blandinez\.co\b" 	1;
 "~*\blandmania\.ru\b" 	1;
 "~*\blandoftracking\.com\b" 	1;
 "~*\blandreferat\.ru\b" 	1;
@@ -3202,6 +3209,7 @@
 "~*\blocationdesaison\.com\b" 	1;
 "~*\blockerz\.com\b" 	1;
 "~*\blocksmith\.jp\b" 	1;
+"~*\blocustdesign\.co\b" 	1;
 "~*\blodki\-pvh\.dp\.ua\b" 	1;
 "~*\bloftdigital\.eu\b" 	1;
 "~*\bloginduepunti\.it\b" 	1;
@@ -3244,6 +3252,7 @@
 "~*\bluckyshop\.net\.ua\b" 	1;
 "~*\blulea\-auktionsverk\.se\b" 	1;
 "~*\blumb\.co\b" 	1;
+"~*\blunamedia\.co\b" 	1;
 "~*\blutherstable\.org\b" 	1;
 "~*\bluxmagazine\.cf\b" 	1;
 "~*\bluxup\.ru\b" 	1;
@@ -5026,6 +5035,7 @@
 "~*\bsoheavyblog\.com\b" 	1;
 "~*\bsohoindia\.net\b" 	1;
 "~*\bsolicita\.info\b" 	1;
+"~*\bsolinf\.co\b" 	1;
 "~*\bsolitaire\-game\.ru\b" 	1;
 "~*\bsolmarket\.by\b" 	1;
 "~*\bsolnplast\.ru\b" 	1;
@@ -5440,6 +5450,7 @@
 "~*\btopdownloads\.ru\b" 	1;
 "~*\btopkarkas\.com\b" 	1;
 "~*\btop\-karkas\.ru\b" 	1;
+"~*\btop\-l2\.com\b" 	1;
 "~*\btopmira\.com\b" 	1;
 "~*\btopquality\.cf\b" 	1;
 "~*\btoproadrunner5\.info\b" 	1;
@@ -6118,6 +6129,7 @@
 "~*\bxn\-\-\-\-8sbarihbihxpxqgaf0g1e\.xn\-\-80adxhks\b" 	1;
 "~*\bxn\-\-\-\-8sbdbjgb1ap7a9c4czbh\.xn\-\-p1acf\b" 	1;
 "~*\bxn\-\-\-\-8sbhefaln6acifdaon5c6f4axh\.xn\-\-p1ai\b" 	1;
+"~*\bxn\-\-\-\-8sblgmbj1a1bk8l\.xn\-\-\-\-161\-4vemb6cjl7anbaea3afninj\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-90acenikpebbdd4f6d\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-\-\-9sbebi2bvzr7h\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-\-\-9sbubg3ambdfl1j\.xn\-\-p1ai\b" 	1;
@@ -6190,6 +6202,7 @@
 "~*\byellowstonesafaritours\.com\b" 	1;
 "~*\byellowstonevisitortours\.com\b" 	1;
 "~*\byes\-com\.com\b" 	1;
+"~*\byginekologa\.com\b" 	1;
 "~*\byhit\.press\b" 	1;
 "~*\bynymnwbm\.bloger\.index\.hr\b" 	1;
 "~*\byogamatsexpert\.com\b" 	1;
