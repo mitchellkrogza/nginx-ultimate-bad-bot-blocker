@@ -50,20 +50,20 @@ MONTH=$(date +"%m")
 # Make Sure we are in the Build Directory
 # ***************************************
 
-cd $TRAVIS_BUILD_DIR
+cd ${TRAVIS_BUILD_DIR}
 sudo git remote -v
 
 # *************************
 # Create our Version Number
 # *************************
 
-export GIT_TAG=V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER
+export GIT_TAG=V3.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
 
 # ***************
 # Tag our release
 # ***************
 
-git tag $GIT_TAG -a -m "V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER"
+git tag ${GIT_TAG} -a -m "V3.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}"
 
 # *****************************************
 # Push our commit and tags back to the repo

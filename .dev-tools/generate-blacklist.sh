@@ -91,7 +91,7 @@ _inputdb11=/tmp/bad-ip-addresses.db
 # Declare temporary variables used during generation
 # **************************************************
 
-_nginx=$TRAVIS_BUILD_DIR/.dev-tools/globalblacklist.template
+_nginx=${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist.template
 _tmpnginxA=_tmpnginxA
 _tmpnginx1=_tmpnginx1
 _tmpnginx2=_tmpnginx2
@@ -109,16 +109,16 @@ _tmpnginx11=_tmpnginx11
 # Sort all input lists alphabetically and remove any duplicates
 # *************************************************************
 
-sort -u $_input1 -o $_input1
-sort -u $_input2 -o $_input2
-sort -u $_input3 -o $_input3
-sort -u $_input4 -o $_input4
-sort -u $_input5 -o $_input5
-sort -u $_input6 -o $_input6
-sort -u $_input7 -o $_input7
-sort -u $_input8 -o $_input8
-sort -u $_input9 -o $_input9
-sort -u $_input10 -o $_input10
+sort -u ${_input1} -o ${_input1}
+sort -u ${_input2} -o ${_input2}
+sort -u ${_input3} -o ${_input3}
+sort -u ${_input4} -o ${_input4}
+sort -u ${_input5} -o ${_input5}
+sort -u ${_input6} -o ${_input6}
+sort -u ${_input7} -o ${_input7}
+sort -u ${_input8} -o ${_input8}
+sort -u ${_input9} -o ${_input9}
+sort -u ${_input10} -o ${_input10}
 
 # ***************************************************************
 # Start and End Strings to Search for to do inserts into template
@@ -163,14 +163,14 @@ _action4="3;"
 # GOOD USER AGENTS - Create and Insert
 # ************************************
 
-printf '%s\n' "$_start1" >> "$_tmpnginx1"
+printf '%s\n' "${_start1}" >> ${_tmpnginx1}
 while IFS= read -r LINE
 do
-printf '\t"~*%s%s%s"\t\t%s\n' "\b" "${LINE}" "\b" "$_action1" >> "$_tmpnginx1"
-done < $_input1
-printf '%s\n' "$_end1"  >> "$_tmpnginx1"
-mv $_tmpnginx1 $_inputdb1
-ed -s $_inputdb1<<\IN
+printf '\t"~*%s%s%s"\t\t%s\n' "\b" "${LINE}" "\b" "${_action1}" >> ${_tmpnginx1}
+done < ${_input1}
+printf '%s\n' "${_end1}"  >> ${_tmpnginx1}
+mv ${_tmpnginx1} ${_inputdb1}
+ed -s ${_inputdb1}<<\IN
 1,/# START GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
@@ -183,7 +183,7 @@ ed -s $_inputdb1<<\IN
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist.template
 q
 IN
-rm $_inputdb1
+rm ${_inputdb1}
 
 # ********************************
 # ALLOWED BOTS - Create and Insert
