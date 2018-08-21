@@ -45,9 +45,9 @@
 
 YEAR=$(date +%Y)
 MONTH=$(date +%m)
-MY_GIT_TAG=V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER
-BAD_REFERRERS=$(wc -l < $TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list)
-BAD_BOTS=$(wc -l < $TRAVIS_BUILD_DIR/_generator_lists/bad-user-agents.list)
+MY_GIT_TAG=V3.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
+BAD_REFERRERS=$(wc -l < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list)
+BAD_BOTS=$(wc -l < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list)
 
 # **********************************
 # Temporary database files we create
@@ -68,8 +68,8 @@ _endmarker="____________________"
 # ****************************************
 
 printf '%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "$_endmarker" >> "$_tmpnginxA"
-mv $_tmpnginxA $_inputdbA
-ed -s $_inputdbA<<\IN
+mv ${_tmpnginxA} ${_inputdbA}
+ed -s ${_inputdbA}<<\IN
 1,/_______________/d
 /____________________/,$d
 ,d
@@ -82,15 +82,15 @@ ed -s $_inputdbA<<\IN
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
 q
 IN
-rm $_inputdbA
+rm ${_inputdbA}
 
 # ****************************************************
 # PRINT VERSION INFORMATION INTO AUTO-CONFIGURATION.md
 # ****************************************************
 
-printf '%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "$_endmarker" >> "$_tmpnginxA"
-mv $_tmpnginxA $_inputdbA
-ed -s $_inputdbA<<\IN
+printf '%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "$_endmarker" >> "${_tmpnginxA}"
+mv ${_tmpnginxA} ${_inputdbA}
+ed -s ${_inputdbA}<<\IN
 1,/_______________/d
 /____________________/,$d
 ,d
@@ -103,15 +103,15 @@ ed -s $_inputdbA<<\IN
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/AUTO-CONFIGURATION.md
 q
 IN
-rm $_inputdbA
+rm ${_inputdbA}
 
 # ******************************************************
 # PRINT VERSION INFORMATION INTO MANUAL-CONFIGURATION.md
 # ******************************************************
 
-printf '%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "$_endmarker" >> "$_tmpnginxA"
-mv $_tmpnginxA $_inputdbA
-ed -s $_inputdbA<<\IN
+printf '%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "$_endmarker" >> "${_tmpnginxA}"
+mv ${_tmpnginxA} ${_inputdbA}
+ed -s ${_inputdbA}<<\IN
 1,/_______________/d
 /____________________/,$d
 ,d
@@ -124,15 +124,15 @@ ed -s $_inputdbA<<\IN
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/MANUAL-CONFIGURATION.md
 q
 IN
-rm $_inputdbA
+rm ${_inputdbA}
 
 # *******************************************************
 # PRINT VERSION INFORMATION INTO Google Ghost Spam README
 # *******************************************************
 
-printf '%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "$_endmarker" >> "$_tmpnginxA"
-mv $_tmpnginxA $_inputdbA
-ed -s $_inputdbA<<\IN
+printf '%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "$BAD_REFERRERS" "#### Bad Bot Count: " "$BAD_BOTS" "$_endmarker" >> "${_tmpnginxA}"
+mv ${_tmpnginxA} ${_inputdbA}
+ed -s ${_inputdbA}<<\IN
 1,/_______________/d
 /____________________/,$d
 ,d
@@ -145,10 +145,16 @@ ed -s $_inputdbA<<\IN
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_google_analytics_ghost_spam/README.md
 q
 IN
-rm $_inputdbA
+rm ${_inputdbA}
 
 
-exit 0
+# **********************
+# Exit With Error Number
+# **********************
+
+exit ${?}
+
+
 
 # MIT License
 

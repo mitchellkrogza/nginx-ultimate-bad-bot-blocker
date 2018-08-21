@@ -61,7 +61,7 @@ printf '\n%s\n%s\n%s\n\n' "########################################" "Cleaning u
 # ******************************************************
 
 printf '\n%s\n%s\n%s\n\n' "#################################" "Restoring Default nginx.conf file" "#################################"
-sudo cp $TRAVIS_BUILD_DIR/.dev-tools/_nginx_conf_backup/nginx.conf /etc/nginx/nginx.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/_nginx_conf_backup/nginx.conf /etc/nginx/nginx.conf
 
 # *************************************
 # List Directories to Confirm Deletions
@@ -84,7 +84,7 @@ printf '\n%s\n\n' "                                      "
 # ********************************************************
 
 printf '\n%s\n%s\n%s\n\n' "################################" "Get Nginx Setup for Nginx Test 3" "################################"
-sudo cp $TRAVIS_BUILD_DIR/.dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
 
 # **********************************************
 # Link the vhost file into Nginx /sites-enabled/
@@ -96,7 +96,7 @@ sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/def
 # Copy our index.php file into the default site's root folder
 # ***********************************************************
 
-sudo cp $TRAVIS_BUILD_DIR/.dev-tools/index.php /var/www/html/index.php
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/index.php /var/www/html/index.php
 printf '\n%s\n%s\n%s\n\n' "#####################################" "Finished Nginx Setup for Nginx Test 3" "#####################################"
 
 # ***********************************************
@@ -149,7 +149,7 @@ sudo nginx -c /etc/nginx/nginx.conf
 # ****************************************************************************************
 
 printf '\n%s\n%s\n%s\n\n' "####################################################" "Copy older globalblacklist.conf file to force update" "####################################################"
-sudo cp $TRAVIS_BUILD_DIR/.dev-tools/globalblacklist-dummy.conf /etc/nginx/myconf.d/globalblacklist.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /etc/nginx/myconf.d/globalblacklist.conf
 
 # ****************************************************************************************
 # Run update-ngxblocker test which downloads latest globalblacklist.conf and reloads Nginx
@@ -205,7 +205,7 @@ ls -la /etc/nginx/mybots.d/
 # ****************************************************************************************
 
 printf '\n%s\n%s\n%s\n\n' "####################################################" "Copy older globalblacklist.conf file to force update" "####################################################"
-sudo cp $TRAVIS_BUILD_DIR/.dev-tools/globalblacklist-dummy.conf /etc/nginx/myconf.d/globalblacklist.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /etc/nginx/myconf.d/globalblacklist.conf
 
 # *********************************************************************************************************
 # Run update-ngxblocker to test for missing files and download latest globalblacklist.conf and reload Nginx
@@ -235,7 +235,7 @@ sudo service nginx reload
 # *******************************************************
 
 printf '\n%s\n%s\n%s\n\n' "##############################################################################" "Copy latest generated globalblacklist.conf file to test for any compile errors" "##############################################################################"
-sudo cp $TRAVIS_BUILD_DIR/conf.d/globalblacklist.conf /etc/nginx/myconf.d/globalblacklist.conf
+sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist.conf /etc/nginx/myconf.d/globalblacklist.conf
 
 # **************************
 # Run setup-ngxblocker Again
@@ -262,14 +262,20 @@ printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "###
 # Copy all .conf files used in Test 3 to a folder for checking
 # ************************************************************
 
-sudo chown -R travis:travis $TRAVIS_BUILD_DIR/
-sudo chown -R travis:travis $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test3/
-sudo cp /etc/nginx/mybots.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test3/bots.d/
-sudo cp /etc/nginx/myconf.d/* $TRAVIS_BUILD_DIR/.dev-tools/_conf_files_test3/conf.d/
+sudo chown -R travis:travis ${TRAVIS_BUILD_DIR}/
+sudo chown -R travis:travis ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test3/
+sudo cp /etc/nginx/mybots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test3/bots.d/
+sudo cp /etc/nginx/myconf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test3/conf.d/
 
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml
 # *****************************************************************************************
+
+# **********************
+# Exit With Error Number
+# **********************
+
+exit ${?}
 
 # MIT License
 

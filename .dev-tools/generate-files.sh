@@ -43,53 +43,58 @@
 # Set all our setup and deploy scripts to be executable
 # *****************************************************
 
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/deploy-package.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-blacklist.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-files.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-google-exclude.php
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/generate-regex-format-referrers.php
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/modify-files-and-commit.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests-1.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests-2.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests-3.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/run-curl-tests-4.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-1.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-2.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-3.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/install-nginx-4.sh
-sudo chmod +x $TRAVIS_BUILD_DIR/.dev-tools/pull-data.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/deploy-package.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-files.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-robots.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-google-disavow.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-google-exclude.php
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-regex-format-referrers.php
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/modify-config-readme-files.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/modify-files-and-commit.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/run-curl-tests-1.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/run-curl-tests-2.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/run-curl-tests-3.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/run-curl-tests-4.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/prepare-robots-input.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/install-nginx-1.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/install-nginx-2.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/install-nginx-3.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/install-nginx-4.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/pull-data.sh
 
-cd $TRAVIS_BUILD_DIR
+cd ${TRAVIS_BUILD_DIR}
 
 # ***************************************************
 # Modify our files with build and version information
 # ***************************************************
 
 php ./.dev-tools/generate-regex-format-referrers.php
-sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-blacklist.sh
-sudo $TRAVIS_BUILD_DIR/.dev-tools/modify-config-readme-files.sh
-sudo $TRAVIS_BUILD_DIR/.dev-tools/prepare-robots-input.sh
-sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-robots.sh
-sudo $TRAVIS_BUILD_DIR/.dev-tools/generate-google-disavow.sh
+sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist.sh
+sudo ${TRAVIS_BUILD_DIR}/.dev-tools/modify-config-readme-files.sh
+sudo ${TRAVIS_BUILD_DIR}/.dev-tools/prepare-robots-input.sh
+sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-robots.sh
+sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-google-disavow.sh
 php ./.dev-tools/generate-google-exclude.php
 
 # ************************************
 # Convert All Our Files to Unix Format
 # ************************************
 
-sudo dos2unix $TRAVIS_BUILD_DIR/bots.d/*.conf
-sudo dos2unix $TRAVIS_BUILD_DIR/conf.d/*.conf
-sudo dos2unix $TRAVIS_BUILD_DIR/_generator_lists/*.list
-sudo dos2unix $TRAVIS_BUILD_DIR/.dev-tools/referrers-regex-format.txt
+sudo dos2unix ${TRAVIS_BUILD_DIR}/bots.d/*.conf
+sudo dos2unix ${TRAVIS_BUILD_DIR}/conf.d/*.conf
+sudo dos2unix ${TRAVIS_BUILD_DIR}/_generator_lists/*.list
+sudo dos2unix ${TRAVIS_BUILD_DIR}/.dev-tools/referrers-regex-format.txt
 
 # *************************************************
 # Move On to the Rest of Our TravisCI Build Testing
 # *************************************************
 
+# **********************
+# Exit With Error Number
+# **********************
+
+exit ${?}
 
 # MIT License
 

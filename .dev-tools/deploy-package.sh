@@ -75,6 +75,13 @@ sudo git push origin master && git push origin master --tags
 # Now TravisCI moves into the deploy: section of TravisCI - see .travis.yml
 # *************************************************************************
 
+# **********************
+# Exit With Error Number
+# **********************
+
+exit ${?}
+
+
 # MIT License
 
 # Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com

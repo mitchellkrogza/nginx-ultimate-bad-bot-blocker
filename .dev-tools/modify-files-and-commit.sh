@@ -45,7 +45,7 @@
 
 YEAR=$(date +"%Y")
 MONTH=$(date +"%m")
-cd $TRAVIS_BUILD_DIR
+cd ${TRAVIS_BUILD_DIR}
 
 # *******************************
 # Remove Remote Added by TravisCI
@@ -77,38 +77,26 @@ git checkout master
 # Gzip Our Latest Release So We can Include it the Travis Release
 # ***************************************************************
 
-cd $TRAVIS_BUILD_DIR/.latest_release/
-tar -czf conf.d.tar.gz -C $TRAVIS_BUILD_DIR/conf.d/ .
-tar -czf bots.d.tar.gz -C $TRAVIS_BUILD_DIR/bots.d/ .
+cd ${TRAVIS_BUILD_DIR}/.latest_release/
+tar -czf conf.d.tar.gz -C ${TRAVIS_BUILD_DIR}/conf.d/ .
+tar -czf bots.d.tar.gz -C ${TRAVIS_BUILD_DIR}/bots.d/ .
 
 # *************************************
 # Add all the modified files and commit
 # *************************************
 
 git add -A
-git commit -am "V3.$YEAR.$MONTH.$TRAVIS_BUILD_NUMBER [ci skip]"
-
-# ***************************************************
-# Try pushing changes to Google Ghost Spam Repository
-# ***************************************************
-
-#cd /tmp/
-#sudo git clone https://github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO.git
-#sudo cp $TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list /tmp/Stop.Google.Analytics.Ghost.Spam.HOWTO/.dev-tools/_input_source/bad-referrers.list
-#cd /tmp/Stop.Google.Analytics.Ghost.Spam.HOWTO/
-#ls -la
-#sudo git remote -v
-#sudo git remote rm origin
-#sudo git remote add origin https://${GOOGLESPAM_TOKEN}@github.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO.git
-#sudo git remote -v
-#sudo git add -A
-#sudo git commit -am "Referrers (+)"
-#sudo git push origin master
-
+git commit -am "V3.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER} [ci skip]"
 
 # *************************************************************
 # Travis now moves to the before_deploy: section of .travis.yml
 # *************************************************************
+
+# **********************
+# Exit With Error Number
+# **********************
+
+exit ${?}
 
 # MIT License
 

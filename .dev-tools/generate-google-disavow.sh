@@ -43,19 +43,23 @@
 # Specify input list for the generator
 # ************************************
 
-_input1=$TRAVIS_BUILD_DIR/_generator_lists/bad-referrers.list
+_input1=${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list
 
 # **************************
 # Create Google Disavow File
 # **************************
 
-sudo truncate -s 0 $TRAVIS_BUILD_DIR/_google_webmaster_disavow_links/google-disavow.txt
+sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/_google_webmaster_disavow_links/google-disavow.txt
 while IFS= read -r LINE
 do
-printf '%s%s\n' "domain:" "${LINE}" >> $TRAVIS_BUILD_DIR/_google_webmaster_disavow_links/google-disavow.txt
-done < $_input1
+printf '%s%s\n' "domain:" "${LINE}" >> ${TRAVIS_BUILD_DIR}/_google_webmaster_disavow_links/google-disavow.txt
+done < ${_input1}
 
-exit 0
+# **********************
+# Exit With Error Number
+# **********************
+
+exit ${?}
 
 # MIT License
 
