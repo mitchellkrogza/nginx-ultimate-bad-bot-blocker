@@ -1629,6 +1629,7 @@ domain:domoysshop.ru
 domain:domznaniy.ru
 domain:donna7753191.ru
 domain:donvito.unas.cz
+domain:dood.live
 domain:dorratex.tn
 domain:doska-vsem.ru
 domain:dostavimvdom.ru
@@ -1957,6 +1958,7 @@ domain:farmingworm.com
 domain:farmprofi.net
 domain:fashion-mk.net
 domain:fashion-stickers.ru
+domain:fashion.stellaconstance.co
 domain:fashionavenuegame.com
 domain:fashionindeed.ml
 domain:fast-wordpress-start.com
@@ -2405,6 +2407,7 @@ domain:greatgrace.ru
 domain:greatzip.com
 domain:green-tea.tv
 domain:greendream.com.ua
+domain:greenidesign.co
 domain:greenzaim.ru
 domain:gribkovye-zabolevaniya.com
 domain:gribokstop.com
@@ -2664,6 +2667,7 @@ domain:igadgetsworld.com
 domain:igithab.com
 domain:igrovyeavtomaty777.ru
 domain:igru-xbox.net
+domain:igtools.club
 domain:iinstalll-fii1leis.jus0wil.pp.ua
 domain:ikearugs.xyz
 domain:iklysha.ml
@@ -2932,6 +2936,7 @@ domain:keywordblocks.com
 domain:keywordhut.com
 domain:keywords-monitoring-success.com
 domain:keywords-monitoring-your-success.com
+domain:keywordsdoctor.com
 domain:keywordsking.com
 domain:keywordsuggest.org
 domain:keywordsuggests.com
@@ -3092,6 +3097,7 @@ domain:larchik.net
 domain:larger.io
 domain:larose.jb2c.me
 domain:larutti.ru
+domain:laserpen.club
 domain:lashstudia.ru
 domain:lasvegaslockandsafe.com
 domain:laudit.ru
@@ -3425,6 +3431,7 @@ domain:mesbuta.info
 domain:message-warning.net
 domain:mesto-x.com
 domain:metabar.ru
+domain:metallosajding.ru
 domain:metalonly.info
 domain:metarip.ru
 domain:metascephe.com
@@ -5026,6 +5033,7 @@ domain:socialmadesimple.com
 domain:socialmediasuggest.com
 domain:socialmonkee.com
 domain:socialseet.ru
+domain:socialsignals24.com
 domain:socialtrade.biz
 domain:sockshare.net
 domain:soda.media
@@ -6284,6 +6292,7 @@ domain:zaloadi.ru
 domain:zaloro.com
 domain:zambini.ru
 domain:zaobao.com.sg
+domain:zapatosenventa.info
 domain:zapiszto.pl
 domain:zarabiaj-dzis.pl
 domain:zarabotat-na-sajte.ru

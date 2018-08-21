@@ -1629,6 +1629,7 @@
 "~*\bdomznaniy\.ru\b" 	1;
 "~*\bdonna7753191\.ru\b" 	1;
 "~*\bdonvito\.unas\.cz\b" 	1;
+"~*\bdood\.live\b" 	1;
 "~*\bdorratex\.tn\b" 	1;
 "~*\bdoska\-vsem\.ru\b" 	1;
 "~*\bdostavimvdom\.ru\b" 	1;
@@ -1956,6 +1957,7 @@
 "~*\bfashionavenuegame\.com\b" 	1;
 "~*\bfashionindeed\.ml\b" 	1;
 "~*\bfashion\-mk\.net\b" 	1;
+"~*\bfashion\.stellaconstance\.co\b" 	1;
 "~*\bfashion\-stickers\.ru\b" 	1;
 "~*\bfastcrawl\.com\b" 	1;
 "~*\bfastfixing\.tech\b" 	1;
@@ -2403,6 +2405,7 @@
 "~*\bgreatgrace\.ru\b" 	1;
 "~*\bgreatzip\.com\b" 	1;
 "~*\bgreendream\.com\.ua\b" 	1;
+"~*\bgreenidesign\.co\b" 	1;
 "~*\bgreen\-tea\.tv\b" 	1;
 "~*\bgreenzaim\.ru\b" 	1;
 "~*\bgribkovye\-zabolevaniya\.com\b" 	1;
@@ -2661,6 +2664,7 @@
 "~*\bigithab\.com\b" 	1;
 "~*\bigrovyeavtomaty777\.ru\b" 	1;
 "~*\bigru\-xbox\.net\b" 	1;
+"~*\bigtools\.club\b" 	1;
 "~*\bi\-hobot\.ru\b" 	1;
 "~*\biinstalll\-fii1leis\.jus0wil\.pp\.ua\b" 	1;
 "~*\bikearugs\.xyz\b" 	1;
@@ -2929,6 +2933,7 @@
 "~*\bkeyhantercume\.com\b" 	1;
 "~*\bkeywordblocks\.com\b" 	1;
 "~*\bkeywordhut\.com\b" 	1;
+"~*\bkeywordsdoctor\.com\b" 	1;
 "~*\bkeywordsking\.com\b" 	1;
 "~*\bkeywords\-monitoring\-success\.com\b" 	1;
 "~*\bkeywords\-monitoring\-your\-success\.com\b" 	1;
@@ -3092,6 +3097,7 @@
 "~*\blarger\.io\b" 	1;
 "~*\blarose\.jb2c\.me\b" 	1;
 "~*\blarutti\.ru\b" 	1;
+"~*\blaserpen\.club\b" 	1;
 "~*\blashstudia\.ru\b" 	1;
 "~*\blasvegaslockandsafe\.com\b" 	1;
 "~*\blaudit\.ru\b" 	1;
@@ -3424,6 +3430,7 @@
 "~*\bmessage\-warning\.net\b" 	1;
 "~*\bmesto\-x\.com\b" 	1;
 "~*\bmetabar\.ru\b" 	1;
+"~*\bmetallosajding\.ru\b" 	1;
 "~*\bmetalonly\.info\b" 	1;
 "~*\bmetarip\.ru\b" 	1;
 "~*\bmetascephe\.com\b" 	1;
@@ -5023,6 +5030,7 @@
 "~*\bsocialseet\.ru\b" 	1;
 "~*\bsocial\-s\-ggg\.xyz\b" 	1;
 "~*\bsocial\-s\-hhh\.xyz\b" 	1;
+"~*\bsocialsignals24\.com\b" 	1;
 "~*\bsocial\-s\-iii\.xyz\b" 	1;
 "~*\bsocialtrade\.biz\b" 	1;
 "~*\bsocial\-vestnik\.ru\b" 	1;
@@ -6283,6 +6291,7 @@
 "~*\bzambini\.ru\b" 	1;
 "~*\bza\-music\.mymobiplanet\.com\b" 	1;
 "~*\bzaobao\.com\.sg\b" 	1;
+"~*\bzapatosenventa\.info\b" 	1;
 "~*\bzapiszto\.pl\b" 	1;
 "~*\bzarabiaj\-dzis\.pl\b" 	1;
 "~*\bzarabotat\-na\-sajte\.ru\b" 	1;
