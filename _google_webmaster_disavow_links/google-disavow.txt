@@ -721,6 +721,7 @@ domain:best-businessman.ru
 domain:best-coupon-offer.com
 domain:best-deals-products.com
 domain:best-games.today
+domain:best-mam.ru
 domain:best-seo-offer.com
 domain:best-seo-software.xyz
 domain:best-seo-solution.com
@@ -2582,6 +2583,7 @@ domain:hotelcrocenzi.sm
 domain:hotenergy.ru
 domain:hotgirlhdwallpaper.com
 domain:hothor.se
+domain:hothot.ru
 domain:hotkeys.com
 domain:hotloans.ru
 domain:hotshoppymac.com
@@ -3043,6 +3045,7 @@ domain:ktotut.net
 domain:ku6.com
 domain:kumuk.info
 domain:kung-fu-ru.com
+domain:kupiproday.com.ua
 domain:kupit-adenu.ru
 domain:kurbappeal.info
 domain:kursy-ege.ru
@@ -3368,6 +3371,7 @@ domain:mcnamaratech.com
 domain:me-ke.com
 domain:mearns-tractors.co.uk
 domain:mebel-alait.ru
+domain:mebel-ekb.com
 domain:mebel-vstroika.ru
 domain:mebelcomplekt.ru
 domain:mebeldekor.com.ua
@@ -3545,6 +3549,7 @@ domain:montazhnic.ru
 domain:monthlywinners.com
 domain:montredemarque.nl
 domain:moomi-daeri.com
+domain:moonci.ru
 domain:more-letom.ru
 domain:morefastermac.trade
 domain:morepoweronmac.trade
@@ -4161,6 +4166,7 @@ domain:pomoc-drogowa.cba.pl
 domain:pons-presse.com
 domain:pontiacsolstice.info
 domain:pony-business.com
+domain:pooleroadmedicalcentre.co.uk
 domain:popads.net
 domain:popander.mobi
 domain:popcash.net
@@ -4612,6 +4618,7 @@ domain:sakhboard.ru
 domain:sale-japan.com
 domain:saletool.ru
 domain:salmonfishingsacramentoriver.com
+domain:saltspray.ru
 domain:salut-camp.ru
 domain:salutmontreal.com
 domain:samara.rosfirm.ru
@@ -4816,6 +4823,7 @@ domain:sexad.net
 domain:sexblog.pw
 domain:sexcamamateurchat.com
 domain:sexflirtbook.com
+domain:sexgalleries.top
 domain:sexkontakte-seite.com
 domain:sexkontakteao.info
 domain:sexkrasivo.net
@@ -4833,6 +4841,7 @@ domain:sexvideo-sex.com
 domain:sexvporno.ru
 domain:sexy-pings.com
 domain:sexy-screen-savers.com
+domain:sexy.babes.frontend-stack.top
 domain:sexyali.com
 domain:sexystrippe.info
 domain:sexyteens.hol.es

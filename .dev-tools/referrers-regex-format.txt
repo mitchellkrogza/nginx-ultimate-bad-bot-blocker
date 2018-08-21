@@ -733,6 +733,7 @@
 "~*\bbesthoro\.ru\b" 	1;
 "~*\bbestimagecoollibrary\.com\b" 	1;
 "~*\bbestkfiledxd\.cf\b" 	1;
+"~*\bbest\-mam\.ru\b" 	1;
 "~*\bbestmarriages\.com\b" 	1;
 "~*\bbestmobilityscooterstoday\.com\b" 	1;
 "~*\bbestofferswalkmydogouteveryday\.gq\b" 	1;
@@ -2582,6 +2583,7 @@
 "~*\bhotenergy\.ru\b" 	1;
 "~*\bhotgirlhdwallpaper\.com\b" 	1;
 "~*\bhothor\.se\b" 	1;
+"~*\bhothot\.ru\b" 	1;
 "~*\bhotkeys\.com\b" 	1;
 "~*\bhotloans\.ru\b" 	1;
 "~*\bhotshoppymac\.com\b" 	1;
@@ -3043,6 +3045,7 @@
 "~*\bku6\.com\b" 	1;
 "~*\bkumuk\.info\b" 	1;
 "~*\bkung\-fu\-ru\.com\b" 	1;
+"~*\bkupiproday\.com\.ua\b" 	1;
 "~*\bkupit\-adenu\.ru\b" 	1;
 "~*\bkurbappeal\.info\b" 	1;
 "~*\bkursy\-ege\.ru\b" 	1;
@@ -3368,6 +3371,7 @@
 "~*\bmebel\-alait\.ru\b" 	1;
 "~*\bmebelcomplekt\.ru\b" 	1;
 "~*\bmebeldekor\.com\.ua\b" 	1;
+"~*\bmebel\-ekb\.com\b" 	1;
 "~*\bmebel\-vstroika\.ru\b" 	1;
 "~*\bmeble\-bogart\.info\b" 	1;
 "~*\bmecash\.ru\b" 	1;
@@ -3545,6 +3549,7 @@
 "~*\bmonthlywinners\.com\b" 	1;
 "~*\bmontredemarque\.nl\b" 	1;
 "~*\bmoomi\-daeri\.com\b" 	1;
+"~*\bmoonci\.ru\b" 	1;
 "~*\bmorefastermac\.trade\b" 	1;
 "~*\bmore\-letom\.ru\b" 	1;
 "~*\bmorepoweronmac\.trade\b" 	1;
@@ -4161,6 +4166,7 @@
 "~*\bpons\-presse\.com\b" 	1;
 "~*\bpontiacsolstice\.info\b" 	1;
 "~*\bpony\-business\.com\b" 	1;
+"~*\bpooleroadmedicalcentre\.co\.uk\b" 	1;
 "~*\bpopads\.net\b" 	1;
 "~*\bpopander\.mobi\b" 	1;
 "~*\bpopcash\.net\b" 	1;
@@ -4609,6 +4615,7 @@
 "~*\bsaletool\.ru\b" 	1;
 "~*\bsa\-live\.com\b" 	1;
 "~*\bsalmonfishingsacramentoriver\.com\b" 	1;
+"~*\bsaltspray\.ru\b" 	1;
 "~*\bsalut\-camp\.ru\b" 	1;
 "~*\bsalutmontreal\.com\b" 	1;
 "~*\bsamara\.rosfirm\.ru\b" 	1;
@@ -4808,6 +4815,7 @@
 "~*\bsex\-dating\.co\b" 	1;
 "~*\bsexflirtbook\.com\b" 	1;
 "~*\bsex\-foto\.pw\b" 	1;
+"~*\bsexgalleries\.top\b" 	1;
 "~*\bsex\.hotblog\.top\b" 	1;
 "~*\bsexkontakteao\.info\b" 	1;
 "~*\bsexkontakte\-seite\.com\b" 	1;
@@ -4830,6 +4838,7 @@
 "~*\bsexvporno\.ru\b" 	1;
 "~*\bsex\-watch\.com\b" 	1;
 "~*\bsexyali\.com\b" 	1;
+"~*\bsexy\.babes\.frontend\-stack\.top\b" 	1;
 "~*\bsexy\-pings\.com\b" 	1;
 "~*\bsexy\-screen\-savers\.com\b" 	1;
 "~*\bsexystrippe\.info\b" 	1;
