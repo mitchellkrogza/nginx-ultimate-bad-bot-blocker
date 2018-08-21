@@ -16,7 +16,7 @@ ____________________
 ************************************************
 - Created by: https://github.com/mitchellkrogza for use on Nginx Web Server https://www.nginx.com/
 - Copyright Mitchell Krog <mitchellkrog@gmail.com>
-- Tested on Nginx 1.10 > 1.13
+- Tested on Nginx **1.10 > 1.15**
 ************************************************
 
 Not Using Nginx? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img.shields.io/badge/APACHE%20-%20ULTIMATE%20BAD%20BOT%20BLOCKER%20%E2%9B%94-blue.svg)](https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker)
