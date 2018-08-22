@@ -1471,6 +1471,7 @@
 "~*\bdatract\.com\b" 	1;
 "~*\bdatsun\-do\.com\b" 	1;
 "~*\bdavebestdeals\.com\b" 	1;
+"~*\bdavidovic\.info\b" 	1;
 "~*\bdaydream\-studio\.ru\b" 	1;
 "~*\bdayibiao\.com\b" 	1;
 "~*\bdaymusam\.com\b" 	1;
@@ -3747,6 +3748,7 @@
 "~*\bnewyorkhotelsmotels\.info\b" 	1;
 "~*\bnextbackgroundcheck\.gq\b" 	1;
 "~*\bnextconseil\.com\b" 	1;
+"~*\bnext\-dentists\.tk\b" 	1;
 "~*\bnextlnk12\.com\b" 	1;
 "~*\bnextrent\-crimea\.ru\b" 	1;
 "~*\bnfljerseyscheapbiz\.us\b" 	1;
@@ -4077,6 +4079,7 @@
 "~*\bpic2fly\.com\b" 	1;
 "~*\bpiccdata\.com\b" 	1;
 "~*\bpiccshare\.com\b" 	1;
+"~*\bpicmoonco\.pw\b" 	1;
 "~*\bpicphotos\.net\b" 	1;
 "~*\bpicquery\.com\b" 	1;
 "~*\bpicscout\.com\b" 	1;
@@ -5257,6 +5260,7 @@
 "~*\btabletkinaodchudzanie\.com\.pl\b" 	1;
 "~*\btaboola\.com\b" 	1;
 "~*\btacbelarus\.ru\b" 	1;
+"~*\btackletarts\.co\b" 	1;
 "~*\btagil\.zrus\.org\b" 	1;
 "~*\btaihouse\.ru\b" 	1;
 "~*\btakeflyte\.com\b" 	1;
@@ -5356,6 +5360,7 @@
 "~*\bthe\-usa\-games\.blogspot\.com\b" 	1;
 "~*\bthewebsitetemplate\.info\b" 	1;
 "~*\bthewomenlife\.com\b" 	1;
+"~*\bthexart\.club\b" 	1;
 "~*\bthfox\.com\b" 	1;
 "~*\bthiegs\.reco\.ws\b" 	1;
 "~*\bthin\.me\.pn\b" 	1;

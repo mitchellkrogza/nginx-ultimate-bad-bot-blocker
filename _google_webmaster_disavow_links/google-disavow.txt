@@ -1472,6 +1472,7 @@ domain:dating-time-now.com
 domain:datract.com
 domain:datsun-do.com
 domain:davebestdeals.com
+domain:davidovic.info
 domain:day-news.info
 domain:daydream-studio.ru
 domain:dayibiao.com
@@ -3745,6 +3746,7 @@ domain:newstraveller.ru
 domain:newstudio.tv
 domain:newtechspb.ru
 domain:newyorkhotelsmotels.info
+domain:next-dentists.tk
 domain:nextbackgroundcheck.gq
 domain:nextconseil.com
 domain:nextlnk12.com
@@ -4077,6 +4079,7 @@ domain:physfunc.ru
 domain:pic2fly.com
 domain:piccdata.com
 domain:piccshare.com
+domain:picmoonco.pw
 domain:picphotos.net
 domain:picquery.com
 domain:pics-group.com
@@ -5258,6 +5261,7 @@ domain:tabakur77.com
 domain:tabletkinaodchudzanie.com.pl
 domain:taboola.com
 domain:tacbelarus.ru
+domain:tackletarts.co
 domain:tagil.zrus.org
 domain:taihouse.ru
 domain:takeflyte.com
@@ -5356,6 +5360,7 @@ domain:thetattoohut.com
 domain:thetoiletpaper.com
 domain:thewebsitetemplate.info
 domain:thewomenlife.com
+domain:thexart.club
 domain:thfox.com
 domain:thiegs.reco.ws
 domain:thin.me.pn
