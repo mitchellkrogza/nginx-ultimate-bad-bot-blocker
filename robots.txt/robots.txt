@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2018.08.1175
-### Updated: Fri Aug 24 10:45:42 SAST 2018
-### Bad Bot Count: 532
+### Version: V3.2018.08.1176
+### Updated: Fri Aug 24 16:56:13 SAST 2018
+### Bad Bot Count: 534
 ###################################################
 ### Version Information ##
 
@@ -180,6 +180,8 @@ Disallow:/
 User-agent: crawler4j
 Disallow:/
 User-agent: crawler.feedback
+Disallow:/
+User-agent: crawl.sogou.com
 Disallow:/
 User-agent: CrazyWebCrawler
 Disallow:/
@@ -804,6 +806,8 @@ Disallow:/
 User-agent: Snoopy
 Disallow:/
 User-agent: SocialRankIOBot
+Disallow:/
+User-agent: sogouspider
 Disallow:/
 User-agent: Sogou web spider
 Disallow:/

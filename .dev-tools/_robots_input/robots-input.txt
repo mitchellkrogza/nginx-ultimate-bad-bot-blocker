@@ -81,6 +81,7 @@ Cosmos
 Craftbot
 crawler4j
 crawler.feedback
+crawl.sogou.com
 CrazyWebCrawler
 Crescent
 CSHttp
@@ -393,6 +394,7 @@ Snake
 Snapbot
 Snoopy
 SocialRankIOBot
+sogouspider
 Sogou web spider
 Sosospider
 Sottopop
