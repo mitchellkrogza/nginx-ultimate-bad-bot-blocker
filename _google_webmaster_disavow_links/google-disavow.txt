@@ -917,6 +917,7 @@ domain:breget74.ru
 domain:brendbutik.ru
 domain:brewdom.ru
 domain:brg8.com
+domain:brianhenry.co
 domain:brillianty.info
 domain:brimstonehillfortress.org
 domain:briomotor.co
@@ -1018,6 +1019,7 @@ domain:californianews.cf
 domain:call-of-duty.info
 domain:callawaygolfoutlet.online
 domain:callawaygolfstore.online
+domain:callcafe.info
 domain:callejondelpozo.es
 domain:callmd5map.com
 domain:calstaterealty.us
@@ -1473,6 +1475,7 @@ domain:datract.com
 domain:datsun-do.com
 domain:davebestdeals.com
 domain:davidovic.info
+domain:dawlenie.com
 domain:day-news.info
 domain:daydream-studio.ru
 domain:dayibiao.com
@@ -2463,6 +2466,7 @@ domain:handicapvantoday.com
 domain:handsandlegs.ru
 domain:hanink.biz.ly
 domain:hannasolution.ru
+domain:hanwei.us
 domain:hao123.com
 domain:happy.new.yeartwit.com
 domain:hard-porn.mobi
@@ -2737,6 +2741,7 @@ domain:innodgfdriverhm.aircus.com
 domain:inome.com.ua
 domain:insider.pro
 domain:insomniagamingfestival.com
+domain:inspiring-desperate.tk
 domain:insta-add.pro
 domain:instabid.tech
 domain:insurple.com
@@ -3155,6 +3160,7 @@ domain:life-instyle.com
 domain:life.biz.ua
 domain:lifebyleese.com
 domain:lifehacĸer.com
+domain:liffa.ru
 domain:light.ifmo.ru
 domain:lightinghomes.net
 domain:lignofix.ua
@@ -4440,6 +4446,7 @@ domain:raschtextil.com.ua
 domain:rasteniya-vs-zombi.ru
 domain:ratemodels.net
 domain:razamicroelectronics.com
+domain:razleton.com
 domain:razorweb-a.akamaihd.net
 domain:razyboard.com
 domain:rcb101.ru
@@ -5566,6 +5573,7 @@ domain:try-rx.com
 domain:tsan.net
 domain:tsstcorpcddvdwshbbdriverfb.aircus.com
 domain:tsyndicate.com
+domain:tt-ipd.info
 domain:ttrraacckkrr.com
 domain:ttsq.fr
 domain:tube8.com

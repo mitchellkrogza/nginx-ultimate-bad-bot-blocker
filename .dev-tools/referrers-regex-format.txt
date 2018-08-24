@@ -916,6 +916,7 @@
 "~*\bbrendbutik\.ru\b" 	1;
 "~*\bbrewdom\.ru\b" 	1;
 "~*\bbrg8\.com\b" 	1;
+"~*\bbrianhenry\.co\b" 	1;
 "~*\bbrillianty\.info\b" 	1;
 "~*\bbrimstonehillfortress\.org\b" 	1;
 "~*\bbriomotor\.co\b" 	1;
@@ -1015,6 +1016,7 @@
 "~*\bcalifornianews\.cf\b" 	1;
 "~*\bcallawaygolfoutlet\.online\b" 	1;
 "~*\bcallawaygolfstore\.online\b" 	1;
+"~*\bcallcafe\.info\b" 	1;
 "~*\bcallejondelpozo\.es\b" 	1;
 "~*\bcallmd5map\.com\b" 	1;
 "~*\bcall\-of\-duty\.info\b" 	1;
@@ -1472,6 +1474,7 @@
 "~*\bdatsun\-do\.com\b" 	1;
 "~*\bdavebestdeals\.com\b" 	1;
 "~*\bdavidovic\.info\b" 	1;
+"~*\bdawlenie\.com\b" 	1;
 "~*\bdaydream\-studio\.ru\b" 	1;
 "~*\bdayibiao\.com\b" 	1;
 "~*\bdaymusam\.com\b" 	1;
@@ -2463,6 +2466,7 @@
 "~*\bhandsandlegs\.ru\b" 	1;
 "~*\bhanink\.biz\.ly\b" 	1;
 "~*\bhannasolution\.ru\b" 	1;
+"~*\bhanwei\.us\b" 	1;
 "~*\bhao123\.com\b" 	1;
 "~*\bhappy\.new\.yeartwit\.com\b" 	1;
 "~*\bhard\-porn\.mobi\b" 	1;
@@ -2736,6 +2740,7 @@
 "~*\binome\.com\.ua\b" 	1;
 "~*\binsider\.pro\b" 	1;
 "~*\binsomniagamingfestival\.com\b" 	1;
+"~*\binspiring\-desperate\.tk\b" 	1;
 "~*\binsta\-add\.pro\b" 	1;
 "~*\binstabid\.tech\b" 	1;
 "~*\binsurple\.com\b" 	1;
@@ -3155,6 +3160,7 @@
 "~*\blifebyleese\.com\b" 	1;
 "~*\blifehacĸer\.com\b" 	1;
 "~*\blife\-instyle\.com\b" 	1;
+"~*\bliffa\.ru\b" 	1;
 "~*\blight\.ifmo\.ru\b" 	1;
 "~*\blightinghomes\.net\b" 	1;
 "~*\blignofix\.ua\b" 	1;
@@ -4438,6 +4444,7 @@
 "~*\brasteniya\-vs\-zombi\.ru\b" 	1;
 "~*\bratemodels\.net\b" 	1;
 "~*\brazamicroelectronics\.com\b" 	1;
+"~*\brazleton\.com\b" 	1;
 "~*\brazorweb\-a\.akamaihd\.net\b" 	1;
 "~*\brazyboard\.com\b" 	1;
 "~*\brcb101\.ru\b" 	1;
@@ -5566,6 +5573,7 @@
 "~*\btsan\.net\b" 	1;
 "~*\btsstcorpcddvdwshbbdriverfb\.aircus\.com\b" 	1;
 "~*\btsyndicate\.com\b" 	1;
+"~*\btt\-ipd\.info\b" 	1;
 "~*\bttrraacckkrr\.com\b" 	1;
 "~*\bttsq\.fr\b" 	1;
 "~*\btube8\.com\b" 	1;
