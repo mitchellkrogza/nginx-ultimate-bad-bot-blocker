@@ -643,6 +643,7 @@
 "~*\bbag77\.ru\b" 	1;
 "~*\bbagcionderlab\.com\b" 	1;
 "~*\bbagsonsale\.online\b" 	1;
+"~*\bbaikaleminer\.com\b" 	1;
 "~*\bbaixar\-musicas\-gratis\.com\b" 	1;
 "~*\bbaksman\.com\b" 	1;
 "~*\bbaladur\.ru\b" 	1;
@@ -1852,6 +1853,7 @@
 "~*\bestelight\.ru\b" 	1;
 "~*\beste\-line\.com\.ua\b" 	1;
 "~*\bestibot\.com\b" 	1;
+"~*\betenininrade\.ga\b" 	1;
 "~*\betm\-consult\.de\b" 	1;
 "~*\betotupo\.ru\b" 	1;
 "~*\betur\.ru\b" 	1;
@@ -2018,6 +2020,7 @@
 "~*\bfilmfanatic\.com\b" 	1;
 "~*\bfilmgo\.ru\b" 	1;
 "~*\bfilmidivx\.com\b" 	1;
+"~*\bfilmi\-onlain\.info\b" 	1;
 "~*\bfilm\-one\.ru\b" 	1;
 "~*\bfil\.ru\b" 	1;
 "~*\bfilunika\.com\.ru\b" 	1;
@@ -2737,6 +2740,7 @@
 "~*\binfowarcraft\.ru\b" 	1;
 "~*\binmate\-locator\.us\b" 	1;
 "~*\binnodgfdriverhm\.aircus\.com\b" 	1;
+"~*\binnoslicon\.com\b" 	1;
 "~*\binome\.com\.ua\b" 	1;
 "~*\binsider\.pro\b" 	1;
 "~*\binsomniagamingfestival\.com\b" 	1;
@@ -3269,6 +3273,7 @@
 "~*\blulea\-auktionsverk\.se\b" 	1;
 "~*\blumb\.co\b" 	1;
 "~*\blunamedia\.co\b" 	1;
+"~*\blunchrock\.co\b" 	1;
 "~*\blutherstable\.org\b" 	1;
 "~*\bluxmagazine\.cf\b" 	1;
 "~*\bluxup\.ru\b" 	1;
@@ -4612,6 +4617,7 @@
 "~*\brusskoe\-zdorovie\.ru\b" 	1;
 "~*\brus\-teh\.narod\.ru\b" 	1;
 "~*\brustic\-quiver\.win\b" 	1;
+"~*\brutor\.vip\b" 	1;
 "~*\brvtv\.ru\b" 	1;
 "~*\brvzr\-a\.akamaihd\.net\b" 	1;
 "~*\brybalka\-opt\.ru\b" 	1;

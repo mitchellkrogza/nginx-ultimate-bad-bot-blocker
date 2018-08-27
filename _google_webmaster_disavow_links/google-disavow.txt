@@ -644,6 +644,7 @@ domain:baersaratov.ru
 domain:bag77.ru
 domain:bagcionderlab.com
 domain:bagsonsale.online
+domain:baikaleminer.com
 domain:baixar-musicas-gratis.com
 domain:baksman.com
 domain:bala.getenjoyment.net
@@ -1852,6 +1853,7 @@ domain:essayservicewriting.org
 domain:este-line.com.ua
 domain:estelight.ru
 domain:estibot.com
+domain:etenininrade.ga
 domain:etm-consult.de
 domain:etotupo.ru
 domain:etur.ru
@@ -2021,6 +2023,7 @@ domain:filmbokep69.com
 domain:filmetricsasia.com
 domain:filmfanatic.com
 domain:filmgo.ru
+domain:filmi-onlain.info
 domain:filmidivx.com
 domain:filunika.com.ru
 domain:financehint.eu
@@ -2738,6 +2741,7 @@ domain:infostatsvc.com
 domain:infowarcraft.ru
 domain:inmate-locator.us
 domain:innodgfdriverhm.aircus.com
+domain:innoslicon.com
 domain:inome.com.ua
 domain:insider.pro
 domain:insomniagamingfestival.com
@@ -3269,6 +3273,7 @@ domain:luckyshop.net.ua
 domain:lulea-auktionsverk.se
 domain:lumb.co
 domain:lunamedia.co
+domain:lunchrock.co
 domain:lutherstable.org
 domain:luxmagazine.cf
 domain:luxup.ru
@@ -4612,6 +4617,7 @@ domain:russintv.fr
 domain:russkie-gorki.ru
 domain:russkoe-zdorovie.ru
 domain:rustic-quiver.win
+domain:rutor.vip
 domain:rvtv.ru
 domain:rvzr-a.akamaihd.net
 domain:rybalka-opt.ru
