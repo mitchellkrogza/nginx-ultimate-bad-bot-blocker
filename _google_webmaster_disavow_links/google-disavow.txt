@@ -2030,6 +2030,7 @@ domain:financehint.eu
 domain:financeloan.us
 domain:financepoints.eu
 domain:financetip.eu
+domain:finansov.info
 domain:find1friend.com
 domain:findacheaplawyers.com
 domain:findanysex.com
@@ -5364,6 +5365,7 @@ domain:themeforest.net
 domain:themestotal.com
 domain:thenetinfo.com
 domain:thenews-today.info
+domain:thepantonpractice.co.uk
 domain:theplacetoupdating.pw
 domain:thepokertimer.com
 domain:theprofitsmaker.net

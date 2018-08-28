@@ -2028,6 +2028,7 @@
 "~*\bfinanceloan\.us\b" 	1;
 "~*\bfinancepoints\.eu\b" 	1;
 "~*\bfinancetip\.eu\b" 	1;
+"~*\bfinansov\.info\b" 	1;
 "~*\bfind1friend\.com\b" 	1;
 "~*\bfindacheaplawyers\.com\b" 	1;
 "~*\bfindanysex\.com\b" 	1;
@@ -5361,6 +5362,7 @@
 "~*\bthemestotal\.com\b" 	1;
 "~*\bthenetinfo\.com\b" 	1;
 "~*\bthenews\-today\.info\b" 	1;
+"~*\bthepantonpractice\.co\.uk\b" 	1;
 "~*\btheplacetoupdating\.pw\b" 	1;
 "~*\bthepokertimer\.com\b" 	1;
 "~*\btheprofitsmaker\.net\b" 	1;
