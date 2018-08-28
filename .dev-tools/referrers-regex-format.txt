@@ -2493,6 +2493,7 @@
 "~*\bhd\-film\.pl\b" 	1;
 "~*\bhd\-filmy\.net\b" 	1;
 "~*\bhdfreeporno\.net\b" 	1;
+"~*\bhdhc\.ru\b" 	1;
 "~*\bhdimagegallery\.net\b" 	1;
 "~*\bhdimagelib\.com\b" 	1;
 "~*\bhdpixent\.com\b" 	1;
@@ -2719,6 +2720,7 @@
 "~*\binbabes\.sexushost\.com\b" 	1;
 "~*\binboundlinks\.win\b" 	1;
 "~*\binboxdollars\.com\b" 	1;
+"~*\bincanto\.in\.ua\b" 	1;
 "~*\bincep\.imagine\-ex\.co\b" 	1;
 "~*\binclk\.com\b" 	1;
 "~*\bincolors\.club\b" 	1;
@@ -3128,6 +3130,7 @@
 "~*\bleadn\.pl\b" 	1;
 "~*\bleadwayau\.com\b" 	1;
 "~*\bleboard\.ru\b" 	1;
+"~*\blecbter\-relationships\.ga\b" 	1;
 "~*\blechenie\-gemorroya\.com\b" 	1;
 "~*\blechtaczka\.net\b" 	1;
 "~*\ble\-clos\-des\-alouettes\.com\b" 	1;
@@ -4258,6 +4261,7 @@
 "~*\bpostclass\.com\b" 	1;
 "~*\bpotoideas\.us\b" 	1;
 "~*\bpotolokelekor\.ru\b" 	1;
+"~*\bpourvous\.info\b" 	1;
 "~*\bpowc\.r\.ca\.d\.sendibm2\.com\b" 	1;
 "~*\bpowenlite24\.ru\b" 	1;
 "~*\bpowitania\.pl\b" 	1;
@@ -5463,6 +5467,7 @@
 "~*\btnctrx\.com\b" 	1;
 "~*\btobeyouday\.win\b" 	1;
 "~*\btodohr\.com\b" 	1;
+"~*\btoken\-lab\.org\b" 	1;
 "~*\btoloka\.hurtom\.com\b" 	1;
 "~*\btomatis\.gospartner\.com\b" 	1;
 "~*\btomck\.com\b" 	1;
@@ -6094,6 +6099,7 @@
 "~*\bwygraj\-teraz\.com\b" 	1;
 "~*\bwyniki\-lista\.pl\b" 	1;
 "~*\bwzgyyq\.com\b" 	1;
+"~*\bx5market\.ru\b" 	1;
 "~*\bx69ty\.ru\b" 	1;
 "~*\bxaijo\.com\b" 	1;
 "~*\bxaylapdiendanang\.com\b" 	1;

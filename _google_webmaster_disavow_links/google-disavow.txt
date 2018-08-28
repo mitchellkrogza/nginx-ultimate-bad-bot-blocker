@@ -2493,6 +2493,7 @@ domain:hd-filmy.net
 domain:hd720kino.ru
 domain:hdapp1008-a.akamaihd.net
 domain:hdfreeporno.net
+domain:hdhc.ru
 domain:hdimagegallery.net
 domain:hdimagelib.com
 domain:hdpixent.com
@@ -2720,6 +2721,7 @@ domain:impresagaia.it
 domain:inbabes.sexushost.com
 domain:inboundlinks.win
 domain:inboxdollars.com
+domain:incanto.in.ua
 domain:incep.imagine-ex.co
 domain:inclk.com
 domain:incolors.club
@@ -3129,6 +3131,7 @@ domain:le-clos-des-alouettes.com
 domain:leadn.pl
 domain:leadwayau.com
 domain:leboard.ru
+domain:lecbter-relationships.ga
 domain:lechenie-gemorroya.com
 domain:lechtaczka.net
 domain:ledis.top
@@ -4258,6 +4261,7 @@ domain:pospr.waw.pl
 domain:postclass.com
 domain:potoideas.us
 domain:potolokelekor.ru
+domain:pourvous.info
 domain:powc.r.ca.d.sendibm2.com
 domain:powenlite24.ru
 domain:powitania.pl
@@ -5463,6 +5467,7 @@ domain:tnaionline.org
 domain:tnctrx.com
 domain:tobeyouday.win
 domain:todohr.com
+domain:token-lab.org
 domain:toloka.hurtom.com
 domain:tomatis.gospartner.com
 domain:tomck.com
@@ -6104,6 +6109,7 @@ domain:x-porno.video
 domain:x-rates.ru
 domain:x-stars.ru
 domain:x-true.info
+domain:x5market.ru
 domain:x69ty.ru
 domain:xaijo.com
 domain:xaylapdiendanang.com
