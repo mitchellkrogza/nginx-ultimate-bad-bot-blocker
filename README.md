@@ -48,6 +48,9 @@ Please make sure you are subscribed to notifications to be notified when the blo
 - setup-ngxblocker, install-ngxblocker and update-ngxblocker can all be configured with custom installation / update locations from the command line. **(See Step 11 of the instructions to show you how use these scripts and non-standard Nginx locations)**
 
 - Run any of the setup, install or update scripts with --help or -h to view options.
+
+> PLEASE NOTE: For those using Let's Encrypt SSL Certificates the preferred and 100% working method is to use the **Webroot Authenticator Method**. There appears to be some issues with people using the http challenge method but can confirm that webroot work flawlessly. We are uncertain at this point whether the http-01 challenge method is a certbot or nginx bug.
+
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-1.png"/>
 
