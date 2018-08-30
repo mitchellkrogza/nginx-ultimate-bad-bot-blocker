@@ -319,6 +319,7 @@ domain:alfa-medosmotr.ru
 domain:alfa9.com
 domain:alfabot.xyz
 domain:alfapro.ru
+domain:algarveglobal.com
 domain:algerianembassy.co.in
 domain:alibestsale.com
 domain:alice.it
@@ -694,6 +695,7 @@ domain:bbtec.net
 domain:bcmp.org
 domain:bdsmgalls.net
 domain:beachdriveblog.com
+domain:beachfix.co
 domain:beachpics.com
 domain:beachtoday.ru
 domain:bear.gotcher.us
@@ -5094,6 +5096,7 @@ domain:souvenirua.com
 domain:sovetogorod.ru
 domain:soviet-portal.do.am
 domain:sovinsteel.ru
+domain:spabali.org
 domain:spacash.com
 domain:space-worry.ml
 domain:space4update.pw

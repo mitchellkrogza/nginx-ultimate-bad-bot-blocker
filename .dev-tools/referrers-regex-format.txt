@@ -318,6 +318,7 @@
 "~*\balfa\-medosmotr\.ru\b" 	1;
 "~*\balfapro\.ru\b" 	1;
 "~*\balf\-img\.com\b" 	1;
+"~*\balgarveglobal\.com\b" 	1;
 "~*\balgerianembassy\.co\.in\b" 	1;
 "~*\balibestsale\.com\b" 	1;
 "~*\balice\.it\b" 	1;
@@ -693,6 +694,7 @@
 "~*\bbcmp\.org\b" 	1;
 "~*\bbdsmgalls\.net\b" 	1;
 "~*\bbeachdriveblog\.com\b" 	1;
+"~*\bbeachfix\.co\b" 	1;
 "~*\bbeachpics\.com\b" 	1;
 "~*\bbeachtoday\.ru\b" 	1;
 "~*\bbear\.gotcher\.us\b" 	1;
@@ -5094,6 +5096,7 @@
 "~*\bsovetogorod\.ru\b" 	1;
 "~*\bsoviet\-portal\.do\.am\b" 	1;
 "~*\bsovinsteel\.ru\b" 	1;
+"~*\bspabali\.org\b" 	1;
 "~*\bspacash\.com\b" 	1;
 "~*\bspace4update\.pw\b" 	1;
 "~*\bspace4updating\.win\b" 	1;
