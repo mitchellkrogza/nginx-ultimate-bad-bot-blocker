@@ -28,9 +28,9 @@ Not Using Nginx? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img
 
 <a href="https://keybase.io/team/nginxbotblocker">Join the Team on Keybase<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/keybase.png"/></a>
 
-Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical (potentially breaking) changes take place.
+Please make sure you are subscribed to Github Notifications to be notified when the blocker is updated or when any important or mission critical (potentially breaking) changes may take place.
 
-##### Also follow me on twitter @ubuntu101za for update notifications
+##### Also follow me on twitter @ubuntu101za 
 
 <a href='https://twitter.com/ubuntu101za'><img src='https://img.shields.io/twitter/follow/ubuntu101za.svg?style=social&label=Follow' alt='Follow @ubuntu101za'></a>
 ************************************************
