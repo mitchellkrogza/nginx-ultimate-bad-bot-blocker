@@ -22,9 +22,7 @@ ____________________
 Not Using Nginx? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img.shields.io/badge/APACHE%20-%20ULTIMATE%20BAD%20BOT%20BLOCKER%20%E2%9B%94-blue.svg)](https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker)
 
 ************************************************
-### Update Notification System - Stay up to date on New Builds and Major Feature Changes 
-
-**For Support, Contributions & Idea Sharing**
+### For Support, Contributions & Idea Sharing
 
 <a href="https://keybase.io/team/nginxbotblocker">Join the Team on Keybase<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/keybase.png"/></a>
 
