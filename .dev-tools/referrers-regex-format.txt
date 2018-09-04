@@ -2476,6 +2476,7 @@
 "~*\bhao123\.com\b" 	1;
 "~*\bhappy\.new\.yeartwit\.com\b" 	1;
 "~*\bhard\-porn\.mobi\b" 	1;
+"~*\bharmonyglen\.us\b" 	1;
 "~*\bhasfun\.com\b" 	1;
 "~*\bhatdc\.org\b" 	1;
 "~*\bhatedriveapart\.com\b" 	1;
@@ -2753,6 +2754,7 @@
 "~*\binsta\-add\.pro\b" 	1;
 "~*\binstabid\.tech\b" 	1;
 "~*\binsurple\.com\b" 	1;
+"~*\bin\-tandem\.co\b" 	1;
 "~*\bintegritylandscapeservices\.com\b" 	1;
 "~*\bintelhdgraphicsgtdrive6w\.metroblog\.com\b" 	1;
 "~*\bintellego\.info\b" 	1;
@@ -2907,6 +2909,7 @@
 "~*\bkabbalah\-red\-bracelets\.com\b" 	1;
 "~*\bkadashihotel\.com\b" 	1;
 "~*\bkaidalibor\.de\b" 	1;
+"~*\bkakablog\.net\b" 	1;
 "~*\bkalandranis\.gr\b" 	1;
 "~*\bkalb\.ru\b" 	1;
 "~*\bkaliningrad\.zrus\.org\b" 	1;
@@ -2946,7 +2949,9 @@
 "~*\bketoanhanoi\.info\b" 	1;
 "~*\bketrzyn\.pl\b" 	1;
 "~*\bkeyhantercume\.com\b" 	1;
+"~*\bkeywesthideaways\.co\b" 	1;
 "~*\bkeywordblocks\.com\b" 	1;
+"~*\bkeywordglobal\.co\.za\b" 	1;
 "~*\bkeywordhut\.com\b" 	1;
 "~*\bkeywordsdoctor\.com\b" 	1;
 "~*\bkeywordsking\.com\b" 	1;

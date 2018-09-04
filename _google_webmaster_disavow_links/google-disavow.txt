@@ -2476,6 +2476,7 @@ domain:hanwei.us
 domain:hao123.com
 domain:happy.new.yeartwit.com
 domain:hard-porn.mobi
+domain:harmonyglen.us
 domain:hasfun.com
 domain:hatdc.org
 domain:hatedriveapart.com
@@ -2720,6 +2721,7 @@ domain:import-sales.com
 domain:importchinacoach-teach.com
 domain:impotentik.com
 domain:impresagaia.it
+domain:in-tandem.co
 domain:inbabes.sexushost.com
 domain:inboundlinks.win
 domain:inboxdollars.com
@@ -2907,6 +2909,7 @@ domain:kaac.ru
 domain:kabbalah-red-bracelets.com
 domain:kadashihotel.com
 domain:kaidalibor.de
+domain:kakablog.net
 domain:kalandranis.gr
 domain:kalb.ru
 domain:kaliningrad.zrus.org
@@ -2946,8 +2949,10 @@ domain:kerwinandcariza.com
 domain:ketoanhanoi.info
 domain:ketrzyn.pl
 domain:keyhantercume.com
+domain:keywesthideaways.co
 domain:keyword-suggestions.com
 domain:keywordblocks.com
+domain:keywordglobal.co.za
 domain:keywordhut.com
 domain:keywords-monitoring-success.com
 domain:keywords-monitoring-your-success.com
