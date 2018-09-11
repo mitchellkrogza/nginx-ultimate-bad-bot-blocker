@@ -90,6 +90,7 @@ domain:45en.ru
 domain:4inn.ru
 domain:4istoshop.com
 domain:4k-player.pl
+domain:4kpics.rocks
 domain:4kplayer.pl
 domain:4pp13.com
 domain:4rent.ru
@@ -1894,6 +1895,7 @@ domain:exct.net
 domain:exdocsfiles.com
 domain:executehosting.com
 domain:exhibitionplus.eu
+domain:exlarseva.webblog.es
 domain:exmasters.com
 domain:exoclick.com
 domain:exoneration-project.us
@@ -2135,6 +2137,7 @@ domain:foxweber.com
 domain:foxydeal.com
 domain:fr-bearings.ru
 domain:fr.netlog.com
+domain:franch.info
 domain:franecki.net
 domain:franklinfire.co
 domain:frbizlist.com
@@ -2383,6 +2386,7 @@ domain:goodhousekeeping.com
 domain:goodhumor24.com
 domain:goodnightjournal.com
 domain:goodprotein.ru
+domain:goodwinmetals.co
 domain:goodwriterssales.com
 domain:googglet.com
 domain:google-liar.ru
@@ -2554,6 +2558,7 @@ domain:hildinghr.se
 domain:histats.com
 domain:histock.info
 domain:historichometeam.com
+domain:hit-kino.ru
 domain:hit-men.men
 domain:hitcpm.com
 domain:hitsbox.info
@@ -5872,6 +5877,7 @@ domain:vizitki.net
 domain:vk-mus.ru
 domain:vkak.ru
 domain:vkgaleria.com
+domain:vkmusics.ru
 domain:vkonche.com
 domain:vkontaktemusic.ru
 domain:vkontarkte.com

@@ -89,6 +89,7 @@
 "~*\b45en\.ru\b" 	1;
 "~*\b4inn\.ru\b" 	1;
 "~*\b4istoshop\.com\b" 	1;
+"~*\b4kpics\.rocks\b" 	1;
 "~*\b4k\-player\.pl\b" 	1;
 "~*\b4kplayer\.pl\b" 	1;
 "~*\b4pp13\.com\b" 	1;
@@ -1894,6 +1895,7 @@
 "~*\bexdocsfiles\.com\b" 	1;
 "~*\bexecutehosting\.com\b" 	1;
 "~*\bexhibitionplus\.eu\b" 	1;
+"~*\bexlarseva\.webblog\.es\b" 	1;
 "~*\bexmasters\.com\b" 	1;
 "~*\bexoclick\.com\b" 	1;
 "~*\bexoneration\-project\.us\b" 	1;
@@ -2133,6 +2135,7 @@
 "~*\bfoxtechfpv\.com\b" 	1;
 "~*\bfoxweber\.com\b" 	1;
 "~*\bfoxydeal\.com\b" 	1;
+"~*\bfranch\.info\b" 	1;
 "~*\bfranecki\.net\b" 	1;
 "~*\bfranklinfire\.co\b" 	1;
 "~*\bfr\-bearings\.ru\b" 	1;
@@ -2381,6 +2384,7 @@
 "~*\bgood\-mummy\.ru\b" 	1;
 "~*\bgoodnightjournal\.com\b" 	1;
 "~*\bgoodprotein\.ru\b" 	1;
+"~*\bgoodwinmetals\.co\b" 	1;
 "~*\bgoodwriterssales\.com\b" 	1;
 "~*\bgoogglet\.com\b" 	1;
 "~*\bgooglefeud\.com\b" 	1;
@@ -2555,6 +2559,7 @@
 "~*\bhistock\.info\b" 	1;
 "~*\bhistorichometeam\.com\b" 	1;
 "~*\bhitcpm\.com\b" 	1;
+"~*\bhit\-kino\.ru\b" 	1;
 "~*\bhit\-men\.men\b" 	1;
 "~*\bhitsbox\.info\b" 	1;
 "~*\bhiwibyh\.bugs3\.com\b" 	1;
@@ -5871,6 +5876,7 @@
 "~*\bvizitki\.net\b" 	1;
 "~*\bvkak\.ru\b" 	1;
 "~*\bvkgaleria\.com\b" 	1;
+"~*\bvkmusics\.ru\b" 	1;
 "~*\bvk\-mus\.ru\b" 	1;
 "~*\bvkonche\.com\b" 	1;
 "~*\bvkontaktemusic\.ru\b" 	1;
