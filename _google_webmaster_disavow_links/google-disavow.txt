@@ -90,6 +90,7 @@ domain:45en.ru
 domain:4inn.ru
 domain:4istoshop.com
 domain:4k-player.pl
+domain:4kepics.com
 domain:4kpics.rocks
 domain:4kplayer.pl
 domain:4pp13.com
@@ -257,6 +258,7 @@ domain:adultmeetonline.info
 domain:adultnet.in
 domain:adultwebhosting.info
 domain:advancedcleaner.com
+domain:advancedmassagebysara.com
 domain:advancedsoftwaresupport.com
 domain:adventureparkcostarica.com
 domain:adverster.com
@@ -836,6 +838,7 @@ domain:blackwitchcraft.ru
 domain:blagovest-med.ru
 domain:blavia.00author.com
 domain:blobar.org
+domain:blockety.co
 domain:blockworld.ru
 domain:blog-hits.com
 domain:blog.axant.it
@@ -2814,9 +2817,11 @@ domain:iqupdatetmz.win
 domain:iradiology.ru
 domain:irkutsk.online-podarki.com
 domain:irkutsk.zrus.org
+domain:iron-age.info
 domain:irunfar.com
 domain:iscblog.info
 domain:isistaylorporn.info
+domain:isitpaleo.info
 domain:iskalko.ru
 domain:islamtoday.co.za
 domain:islandminingsupply.wordpress.com
@@ -2859,6 +2864,7 @@ domain:j-times.ru
 domain:j33x.com
 domain:jacago.com
 domain:jackwolfskinoutlet.online
+domain:james13prix.info
 domain:jamiembrown.com
 domain:janavibekken.no
 domain:janerikholst.se
@@ -3906,6 +3912,7 @@ domain:okmusic.jp
 domain:okonich.com.ua
 domain:okout.ru
 domain:okroshki.ru
+domain:oksrv.com
 domain:oktube.ru
 domain:okuos.com
 domain:old-rock.com
@@ -4026,6 +4033,7 @@ domain:panamaforbeginners.com
 domain:panchro.co.uk
 domain:panchro.xyz
 domain:pandarastore.top
+domain:pandroid.co
 domain:panouri-solare-acoperis.com
 domain:paparazzistudios.com.au
 domain:papasdelivery.ru
@@ -5107,6 +5115,7 @@ domain:sonata-arctica.wz.cz
 domain:songoo.wz.cz
 domain:songplanet.ru
 domain:sonnikforme.ru
+domain:soochi.co
 domain:sophang8.com
 domain:sortthemesitesby.com
 domain:sosdepotdebilan.com
@@ -5275,6 +5284,7 @@ domain:surgut.zrus.org
 domain:surintech.ac.th
 domain:survival.betteroffers.review
 domain:susanholtphotography.com
+domain:suture.co
 domain:svarbit.com
 domain:svarkagid.com
 domain:svbur.ru
@@ -5332,6 +5342,7 @@ domain:taxi-v-eisk.ru
 domain:taximytishi.ru
 domain:td-33.ru
 domain:td-l-market.ru
+domain:tds-advert002.info
 domain:tds-advert005.info
 domain:tdsing.ru
 domain:teastory.co
@@ -6099,6 +6110,7 @@ domain:worldmusicfests.com
 domain:worldoffiles.ru
 domain:worldtraveler.world
 domain:wormix-cheats.ru
+domain:worst-sites.online
 domain:wosik-dach.service-for-web.de
 domain:wowas31.ucoz.ru
 domain:woweb.com.ua
