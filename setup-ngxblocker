@@ -284,9 +284,22 @@ check_args() {
 	esac
 }
 
+find_binary() {
+        local x= path= bin=$1 bin_paths='/usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
+
+        for x in $bin_paths; do
+                path="$x/$bin"
+
+                if [ -x $path ]; then
+                        echo $path
+                        return
+                fi
+        done
+}
+
 check_depends() {
-	# centos also does not have which by default
-	if [ ! -x /usr/bin/curl ]; then
+	# centos does not have which by default
+	if [ -z $(find_binary curl) ]; then
 		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}\n"
 		exit 1
 	fi
