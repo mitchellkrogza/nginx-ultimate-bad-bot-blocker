@@ -28,12 +28,13 @@
 # RUN THE UPDATE
 # Here our script runs, pulls the latest update, reloads nginx and emails you a notification
 
-EMAIL="me@myemail.com"
+EMAIL="me@example.com"
 SEND_EMAIL="N"
 SEND_EMAIL_UPDATE="N"
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
 INSTALLER=/usr/local/sbin/install-ngxblocker
+LOGGING="N"
 
 ##### end user configuration ##############################################################
 
@@ -45,7 +46,7 @@ BOLDWHITE="\033[1m\033[37m"
 RESET="\033[0m"
 
 usage() {
-        local script=$(basename $0)
+        #local script=$(basename $0)
         cat <<EOF
 $script: UPDATE Nginx Bad Bot Blocker blacklist in: [ $CONF_DIR ]
 
@@ -53,7 +54,8 @@ Usage: $script [OPTIONS]
         [ -c ] : NGINX conf directory          (default: $CONF_DIR)
         [ -b ] : NGINX bots directory          (default: $BOTS_DIR)
         [ -i ] : Change installer path         (default: $INSTALLER)
-        [ -r ] : Change repo url               (default: $REPO)
+	[ -l ] : Output to syslog via logger   (default: $LOGGING)
+	[ -r ] : Change repo url               (default: $REPO)
         [ -e ] : Change @email address         (default: $EMAIL)
         [ -m ] : Change mail (system alias)    (default: $EMAIL)
         [ -n ] : Do not send email report      (default: $SEND_EMAIL)
@@ -68,8 +70,9 @@ Examples:
  $script -b /my/custom/bots.d    (Download globalblacklist.conf & update with your custom bots.d location)
  $script -e you@youremail.com    (Download globalblacklist.conf specifying your email address for the notification)
  $script -q -m webmaster         (Send mail to a system alias address & give less verbose messages for cron)
- $script -o -e you@youremail.com (Send mail notification only on updates)
+ $script -o -e you@example.com   (Send mail notification only on updates)
  $script -i /path/to/install-ngxblocker (Use custom path to install-ngxblocker to update bots.d / conf.d include files)
+ $script -l                      (Log to syslog using logger command)
 EOF
         exit 0
 }
@@ -214,6 +217,13 @@ check_mail_depends() {
 	fi
 }
 
+log_out_depends() {
+	if [ ! -f /usr/bin/logger ]; then
+		printf "${BOLDYELLOW}WARN${RESET}: missing /usr/bin/logger command => ${BOLDWHITE}disabling loggings${RESET}.\n\n"
+                return 1
+        fi
+}
+
 check_depends() {
 	# centos does not have which by default
 	if [ ! -x /usr/bin/curl ]; then
@@ -242,15 +252,31 @@ send_email() {
 		print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
 		# remove ansi colour codes
 		sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
-		cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
-		rm -f $EMAIL_REPORT
+		cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated - $(hostname)" $EMAIL
+	fi
+}
+
+log_out() {
+	# log output
+	if log_out_depends; then
+		# remove ansi color codes
+		sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
+		# remove blank lines
+		sed -i '/^\s*$/d' $EMAIL_REPORT
+		# attempt to capture errors if logging issues
+		error=$( /usr/bin/logger -t $script -f $EMAIL_REPORT 2>&1)
+		if [ -z $error ];then
+			print_message "Logged to syslog\n";
+		else
+			print_message "${BOLDRED}ERROR LOGGING: $error${RESET}\n\n";
+		fi
 	fi
 }
 
 get_options() {
 	local arg= opts=
 
-	while getopts :c:b:i:r:e:m:novqh opts "$@"
+	while getopts :c:b:i:r:e:m:lnovqh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
@@ -265,6 +291,7 @@ get_options() {
 			b) BOTS_DIR=$arg; check_args $opts path $arg ;;
 			i) INSTALLER=$arg; check_args $opts script $arg ;;
 			r) REPO=$arg; check_args $opts url $arg ;;
+			l) LOGGING=Y ;;
 			e) EMAIL=$arg; SEND_EMAIL=Y; check_args $opts email $arg ;;
 			m) EMAIL=$arg; SEND_EMAIL=Y ;; # /etc/aliases no sanity checks
 			n) SEND_EMAIL=N ;;
@@ -367,11 +394,20 @@ main() {
 	case "$SEND_EMAIL" in
 		y*|Y*) send_email;;
 	esac
+
+	# log report
+	case "$LOGGING" in
+		y*|Y*) log_out;;
+	esac
+
 }
 
 ## start ##
-EMAIL_REPORT=$(mktemp)
+script=$(basename $0)
+EMAIL_REPORT=$(mktemp -t $script.XXXXXXXX)
 main $@ | tee $EMAIL_REPORT
+
+rm -f $EMAIL_REPORT
 
 exit $?
 
