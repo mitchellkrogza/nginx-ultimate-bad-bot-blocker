@@ -120,7 +120,7 @@ check_dirs() {
 }
 
 find_binary() {
-	local x= path= bin=$1 bin_paths='/usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
+	local x= path= bin=$1 bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
 
 	for x in $bin_paths; do
 		path="$x/$bin"
@@ -221,7 +221,7 @@ check_args() {
 }
 
 check_mail_depends() {
-	if [ ! -f /usr/bin/mail ] && [ ! -f /bin/mail ]; then # mailx + ssmtp are enough to send emails
+	if [ -z $(find_binary mail) ]; then # mailx + ssmtp are enough to send emails
 		printf "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}.\n\n"
 		return 1
 	fi
@@ -229,7 +229,7 @@ check_mail_depends() {
 
 check_depends() {
 	# centos does not have which by default
-	if [ ! -x /usr/bin/curl ]; then
+	if [ -z $(find_binary curl) ]; then
 		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}\n"
 		exit 1
 	fi
