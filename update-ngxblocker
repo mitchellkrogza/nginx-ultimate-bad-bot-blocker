@@ -34,6 +34,7 @@ SEND_EMAIL_UPDATE="N"
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
 INSTALLER=/usr/local/sbin/install-ngxblocker
+LOGGING="N"
 
 ##### end user configuration ##############################################################
 
@@ -249,6 +250,23 @@ print_message() {
 	fi
 }
 
+log_output() {
+	local logger=$(find_binary logger)
+	local script=$(basename $0)
+
+	if [ -n "$logger" ]; then
+		# remove ansi color codes
+		sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
+		# remove blank lines
+		sed -i '/^\s*$/d' $EMAIL_REPORT
+		# log output
+		$logger -t $script -f $EMAIL_REPORT 2>&1
+		print_message "Output logged to syslog\n";
+	else
+		print_message "${BOLDRED}ERROR: cannot find logger${RESET}\n\n";
+	fi
+}
+
 send_email() {
 	# email report
 	if check_mail_depends; then
@@ -256,14 +274,13 @@ send_email() {
 		# remove ansi colour codes
 		sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
 		cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
-		rm -f $EMAIL_REPORT
 	fi
 }
 
 get_options() {
 	local arg= opts=
 
-	while getopts :c:b:i:r:e:m:novqh opts "$@"
+	while getopts :c:b:i:r:e:m:lnovqh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
@@ -280,6 +297,7 @@ get_options() {
 			r) REPO=$arg; check_args $opts url $arg ;;
 			e) EMAIL=$arg; SEND_EMAIL=Y; check_args $opts email $arg ;;
 			m) EMAIL=$arg; SEND_EMAIL=Y ;; # /etc/aliases no sanity checks
+			l) LOGGING=Y ;;
 			n) SEND_EMAIL=N ;;
 			o) SEND_EMAIL_UPDATE=Y ;;
 			v) check_version; exit 0 ;;
@@ -380,11 +398,17 @@ main() {
 	case "$SEND_EMAIL" in
 		y*|Y*) send_email;;
 	esac
+
+	# log report
+	case "$LOGGING" in
+		y*|Y*) log_output;;
+	esac
 }
 
 ## start ##
 EMAIL_REPORT=$(mktemp)
 main $@ | tee $EMAIL_REPORT
+rm -f $EMAIL_REPORT
 
 exit $?
 
