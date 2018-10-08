@@ -221,13 +221,6 @@ check_args() {
         esac
 }
 
-check_mail_depends() {
-	if [ -z $(find_binary mail) ]; then # mailx + ssmtp are enough to send emails
-		printf "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}.\n\n"
-		return 1
-	fi
-}
-
 check_depends() {
 	# centos does not have which by default
 	if [ -z $(find_binary curl) ]; then
@@ -268,12 +261,14 @@ log_output() {
 }
 
 send_email() {
-	# email report
-	if check_mail_depends; then
+	# email report (mailx + ssmtp are enough to send emails)
+	if [ -n $(find_binary mail) ]; then
 		print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
 		# remove ansi colour codes
 		sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
 		cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
+	else
+		print_message "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}.\n\n"
 	fi
 }
 
