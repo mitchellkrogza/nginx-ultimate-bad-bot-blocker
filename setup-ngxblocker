@@ -154,7 +154,7 @@ whitelist_manual_domains() {
 }
 
 whitelist_print() {
-	local type=$1 domain= domain_len=$2 domain_list=$(echo $@ | cut -f3- -d ' ')
+	local type=$1 domain= domain_len=$2 domain_list="$(echo $@ | cut -f3- -d ' ')"
 	local conf=$BOTS_DIR/whitelist-domains.conf
 
         for domain in $domain_list; do
