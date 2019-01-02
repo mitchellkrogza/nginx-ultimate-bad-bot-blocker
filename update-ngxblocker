@@ -88,7 +88,7 @@ check_version() {
 		print_message "Updated: $date" "2n"
 
 		# remote version
-		curl -s --limit-rate 5k -r "$range" --location "$url" -o "$tmp"
+		$CURL -s --limit-rate 5k -r "$range" --location "$url" -o "$tmp"
 		remote_ver=$(grep "Version:" "$tmp" | sed 's|^.*: V||g')
 		remote_date=$(grep "Updated:" "$tmp" | sed 's|^.*: ||g')
 		print_message "REMOTE Version: $BOLDWHITE$remote_ver$RESET"  "high"
@@ -225,7 +225,8 @@ check_args() {
 
 check_depends() {
 	# centos does not have which by default
-	if [ -z "$(find_binary curl)" ]; then
+    CURL=$(find_binary curl)
+	if [ -z "$CURL" ]; then
 		print_message "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}"
 		exit 1
 	fi
@@ -341,7 +342,7 @@ main() {
 		tmp=$(mktemp)
 		mkdir -p "$CONF_DIR"
 		dl_msg="${BOLDWHITE}Downloading: $file "
-		curl --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so "$tmp" "$url"
+		$CURL --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so "$tmp" "$url"
 		retval=$?
 
 		case "$retval" in
