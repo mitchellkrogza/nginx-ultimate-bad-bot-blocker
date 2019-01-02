@@ -203,12 +203,12 @@ check_args() {
 				exit 1
 			fi
 			;;
-	       email)   if ! echo "$arg" | grep -E ^[-+_\.[:alnum:]]+@[-_\.[:alnum:]]+ 1>/dev/null; then
+	       email)   if ! echo "$arg" | grep -E "^[-+_\.[:alnum:]]+@[-_\.[:alnum:]]+" 1>/dev/null; then
 				printf '%s\n' "$msg email@domain.com"
 				exit 1
 			fi
 			;;
-	         url)   if ! echo "$arg" | grep -E ^http[s]?://[0-9a-zA-Z-]+[.]+[/0-9a-zA-Z.]+ 1>/dev/null; then
+	         url)   if ! echo "$arg" | grep -E "^http[s]?://[0-9a-zA-Z-]+[.]+[/0-9a-zA-Z.]+" 1>/dev/null; then
 				printf '%s\n' "$msg url => http[s]://the.url"
 				exit 1
 			fi
