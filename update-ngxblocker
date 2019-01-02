@@ -319,7 +319,7 @@ main() {
 	fi
 
 	# parse command line
-	get_options $@
+	get_options "$@"
 	check_depends
 	check_dirs "$BOTS_DIR" "$CONF_DIR"
 	url=$REPO/$remote_dir/$file
