@@ -362,7 +362,7 @@ main() {
 		# re-read nginx configuration
 		if [ $retval = 0 ]; then
 
-			$reload_service 2>&1 >/dev/null
+			$reload_service >/dev/null 2>&1 
 			if [ $? = 0 ]; then
 				status="${BOLDGREEN}[OK]${RESET}"
 				print_message "Reloading NGINX configuration...$status"
