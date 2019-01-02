@@ -46,7 +46,7 @@ BOLDWHITE="\033[1m\033[37m"
 RESET="\033[0m"
 
 usage() {
-        local script=$(basename $0)
+        script=$(basename $0)
         cat <<EOF
 $script: UPDATE Nginx Bad Bot Blocker blacklist in: [ $CONF_DIR ]
 
@@ -76,14 +76,14 @@ EOF
 }
 
 check_version() {
-	local remote_ver= remote_date= version= date= file=$CONF_DIR/globalblacklist.conf
-	local tmp=$(mktemp) url=$REPO/conf.d/globalblacklist.conf range="145-345"
+	remote_ver= remote_date= version= date= file=$CONF_DIR/globalblacklist.conf
+	tmp=$(mktemp) url=$REPO/conf.d/globalblacklist.conf range="145-345"
 
 	if [ -f $file ]; then
-		# local version
+		# version
 		version=$(grep "Version:" $file | sed 's|^.*: V||g')
 		date=$(grep "Updated:" $file | sed 's|^.*: ||g')
-		print_message "\nLOCAL Version: $BOLDWHITE$version$RESET\n"
+		print_message "\nVersion: $BOLDWHITE$version$RESET\n"
 		print_message "Updated: $date\n\n"
 
 		# remote version
@@ -110,7 +110,7 @@ check_version() {
 }
 
 check_dirs() {
-	local x= dirs="$*"
+	x= dirs="$*"
 
 	for x in $dirs; do
 		if [ ! -d $x ]; then
@@ -121,7 +121,7 @@ check_dirs() {
 }
 
 find_binary() {
-	local x= path= binary=$1 bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
+	x= path= binary=$1 bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
 
 	for x in $bin_paths; do
 		path="$x/$binary"
@@ -136,7 +136,7 @@ find_binary() {
 update_paths() {
 	# variables in nginx include files not currently possible
 	# updates hard coded bots.d path in globalblacklist.conf
-	local blacklist=$1 include_paths= dir= x=
+	blacklist=$1 include_paths= dir= x=
 
 	if ! grep "$BOTS_DIR" $blacklist 1>/dev/null; then
 		if [ -d $BOTS_DIR ]; then
@@ -157,7 +157,7 @@ update_paths() {
 
 service_cmd() {
 	# arch linux does not have a 'service' command
-	local x= svc= svc_list="service systemctl rc-service rcctl"
+	x= svc= svc_list="service systemctl rc-service rcctl"
 
 	for x in $svc_list; do
 		svc=$(which $x 2>/dev/null)
@@ -194,8 +194,8 @@ sanitize_email() {
 }
 
 check_args() {
-	local option=$1 type=$2 arg=$3
-	local msg="ERROR: option '-$option' argument '$arg' requires:"
+	option=$1 type=$2 arg=$3
+	msg="ERROR: option '-$option' argument '$arg' requires:"
 
 	case "$type" in
 	        path)   if ! echo $arg | grep ^/ 1>/dev/null; then
@@ -237,7 +237,7 @@ check_depends() {
 }
 
 print_message() {
-	local msg="$@"
+	msg="$@"
 
 	if [ "$VERBOSE" != "N" ]; then
 		printf "$msg"
@@ -245,8 +245,8 @@ print_message() {
 }
 
 log_output() {
-	local logger=$(find_binary logger)
-	local script=$(basename $0)
+	logger=$(find_binary logger)
+	script=$(basename $0)
 
 	if [ -n "$logger" ]; then
 		# remove ansi color codes
@@ -274,7 +274,7 @@ send_email() {
 }
 
 get_options() {
-	local arg= opts=
+	arg= opts=
 
 	while getopts :c:b:i:r:e:m:lnovqh opts "$@"
 	do
@@ -308,9 +308,9 @@ get_options() {
 }
 
 main() {
-	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
-	local file=globalblacklist.conf remote_dir=conf.d url= output= update= status= tmp= retval=
-	local reload_service="$(service_cmd)"
+	REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+	file=globalblacklist.conf remote_dir=conf.d url= output= update= status= tmp= retval=
+	reload_service="$(service_cmd)"
 
 	# require root
 	if [ "$(id -u)" != "0" ]; then
@@ -334,7 +334,7 @@ main() {
 		# download globalblacklist update
 		tmp=$(mktemp)
 		mkdir -p $CONF_DIR
-		local dl_msg="${BOLDWHITE}Downloading: $file "
+		dl_msg="${BOLDWHITE}Downloading: $file "
 		curl --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so $tmp $url
 		retval=$?
 
