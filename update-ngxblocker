@@ -274,7 +274,7 @@ send_email() {
 		print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}";
 		# remove ansi colour codes
 		sed -i 's/\x1b\[[0-9;]*m//g' "$EMAIL_REPORT"
-		cat "$EMAIL_REPORT" | mail -s "Nginx Bad Bot Blocker Updated" "$EMAIL"
+		printf '%s\n' "$EMAIL_REPORT" | mail -s "Nginx Bad Bot Blocker Updated" "$EMAIL"
 	else
 		print_message "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}." "2n"
 	fi
