@@ -157,7 +157,7 @@ update_paths() {
 
 service_cmd() {
 	# arch linux does not have a 'service' command
-	local x= svc= svc_list="service systemctl rc-service"
+	local x= svc= svc_list="service systemctl rc-service rcctl"
 
 	for x in $svc_list; do
 		svc=$(which $x 2>/dev/null)
@@ -166,6 +166,7 @@ service_cmd() {
 				service) svc="$svc nginx reload";;
 				systemctl) svc="$svc reload nginx.service";;
 				rc-service) svc="$svc nginx reload";;
+				rcctl) svc="$svc reload nginx";;
 			esac
 			break
 		else
