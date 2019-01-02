@@ -224,7 +224,7 @@ check_args() {
 
 check_depends() {
 	# centos does not have which by default
-	if [ -z $(find_binary curl) ]; then
+	if [ -z "$(find_binary curl)" ]; then
 		printf '%s\n' "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}"
 		exit 1
 	fi
@@ -263,7 +263,7 @@ log_output() {
 
 send_email() {
 	# email report (mailx + ssmtp are enough to send emails)
-	if [ -n $(find_binary mail) ]; then
+	if [ -n "$(find_binary mail)" ]; then
 		print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
 		# remove ansi colour codes
 		sed -i 's/\x1b\[[0-9;]*m//g' "$EMAIL_REPORT"
