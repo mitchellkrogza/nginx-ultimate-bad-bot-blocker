@@ -285,10 +285,10 @@ check_args() {
 }
 
 find_binary() {
-        local x= path= bin=$1 bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
+        local x= path= binary=$1 bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
 
         for x in $bin_paths; do
-                path="$x/$bin"
+                path="$x/$binary"
 
                 if [ -x $path ]; then
                         echo $path
