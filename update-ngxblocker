@@ -237,7 +237,7 @@ check_depends() {
 }
 
 print_message() {
-	msg="$@"
+	msg="$*"
 
 	if [ "$VERBOSE" != "N" ]; then
 		printf '%s\n' "$msg"
