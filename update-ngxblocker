@@ -46,7 +46,7 @@ BOLDWHITE="\033[1m\033[37m"
 RESET="\033[0m"
 
 usage() {
-        script=$(basename $0)
+        script=$(basename "$0")
         cat <<EOF
 $script: UPDATE Nginx Bad Bot Blocker blacklist in: [ $CONF_DIR ]
 
@@ -76,10 +76,10 @@ EOF
 }
 
 check_version() {
-	remote_ver='' remote_date='' version='' date='' file=$CONF_DIR/globalblacklist.conf
-	tmp=$(mktemp) url=$REPO/conf.d/globalblacklist.conf range="145-345"
+	remote_ver='' remote_date='' version='' date='' file="$CONF_DIR/globalblacklist.conf"
+	tmp="$(mktemp)" url="$REPO/conf.d/globalblacklist.conf" range="145-345"
 
-	if [ -f $file ]; then
+	if [ -f "$file" ]; then
 		# version
 		version=$(grep "Version:" $file | sed 's|^.*: V||g')
 		date=$(grep "Updated:" $file | sed 's|^.*: ||g')
@@ -87,12 +87,12 @@ check_version() {
 		print_message "Updated: $date\n\n"
 
 		# remote version
-		curl -s --limit-rate 5k -r $range --location $url -o $tmp
-		remote_ver=$(grep "Version:" $tmp | sed 's|^.*: V||g')
-		remote_date=$(grep "Updated:" $tmp | sed 's|^.*: ||g')
+		curl -s --limit-rate 5k -r "$range" --location "$url" -o "$tmp"
+		remote_ver=$(grep "Version:" "$tmp" | sed 's|^.*: V||g')
+		remote_date=$(grep "Updated:" "$tmp" | sed 's|^.*: ||g')
 		print_message "REMOTE Version: $BOLDWHITE$remote_ver$RESET\n"
 		print_message "Updated: $remote_date\n"
-		rm -f $tmp
+		rm -f "$tmp"
 
 		if [ "$version" != "$remote_ver" ]; then
 			print_message "\nUpdate Available => $BOLDMAGENTA$remote_ver$RESET\n\n"
@@ -103,7 +103,7 @@ check_version() {
 	else
 		printf "${BOLDRED}ERROR${RESET}: Missing '$file' => ${BOLDWHITE}running $INSTALLER:${RESET}\n"
 		$INSTALL_INC
-		if [ -f $file ]; then
+		if [ -f "$file" ]; then
 			check_version
 		fi
 	fi
@@ -113,7 +113,7 @@ check_dirs() {
 	x='' dirs="$*"
 
 	for x in $dirs; do
-		if [ ! -d $x ]; then
+		if [ ! -d "$x" ]; then
 			printf "${BOLDRED}ERROR${RESET}: Missing directory: $x => ${BOLDWHITE}running $INSTALLER:${RESET}\n"
 			$INSTALL_INC
 		fi
@@ -121,13 +121,13 @@ check_dirs() {
 }
 
 find_binary() {
-	x='' path='' binary=$1 bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
+	x='' path='' binary="$1" bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
 
 	for x in $bin_paths; do
 		path="$x/$binary"
 
-		if [ -x $path ]; then
-			echo $path
+		if [ -x "$path" ]; then
+			echo "$path"
 			return
 		fi
 	done
@@ -136,21 +136,21 @@ find_binary() {
 update_paths() {
 	# variables in nginx include files not currently possible
 	# updates hard coded bots.d path in globalblacklist.conf
-	blacklist=$1 include_paths='' dir='' x=''
+	blacklist="$1" include_paths='' dir='' x=''
 
-	if ! grep "$BOTS_DIR" $blacklist 1>/dev/null; then
-		if [ -d $BOTS_DIR ]; then
+	if ! grep "$BOTS_DIR" "$blacklist" 1>/dev/null; then
+		if [ -d "$BOTS_DIR" ]; then
 			printf "${BOLDGREEN}Updating bots.d path${RESET}: ${BOLDWHITE}$BOTS_DIR => $blacklist${RESET}\n"
-			include_paths=$(grep -E "include /.*.conf;$" $blacklist | awk '{print $2}' | tr -d ';')
+			include_paths=$(grep -E "include /.*.conf;$" "$blacklist" | awk '{print $2}' | tr -d ';')
 
 			for x in $include_paths; do
-				dir=$(dirname $x)
-				sed -i "s|$dir|$BOTS_DIR|" $blacklist
+				dir=$(dirname "$x")
+				sed -i "s|$dir|$BOTS_DIR|" "$blacklist"
 			done
 		else
 			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}.\n"
 			$INSTALL_INC
-			update_paths $blacklist
+			update_paths "$blacklist"
 		fi
 	fi
 }
@@ -160,7 +160,7 @@ service_cmd() {
 	x='' svc='' svc_list="service systemctl rc-service rcctl"
 
 	for x in $svc_list; do
-		svc=$(which $x 2>/dev/null)
+		svc=$(which "$x" 2>/dev/null)
 		if [ -n "$svc" ]; then
 			case "$x" in
 				service) svc="$svc nginx reload";;
@@ -175,45 +175,45 @@ service_cmd() {
 		fi
 	done
 
-	echo $svc
+	echo "$svc"
 }
 
 sanitize_path() {
-	echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=/=] [=_=]' \
+	echo "$1" |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=/=] [=_=]' \
 		|tr -s '@.-/_' |awk '{print tolower($0)}'
 }
 
 sanitize_url() {
-	echo $1 |tr -cd '[:alnum:] [=:=] [=.=] [=-=] [=/=]' \
+	echo "$1" |tr -cd '[:alnum:] [=:=] [=.=] [=-=] [=/=]' \
 		|tr -s ':.-' |awk '{print tolower($0)}'
 }
 
 sanitize_email() {
-	echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=_=] [=+=]' \
+	echo "$1" |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=_=] [=+=]' \
 		|tr -s '@-_.+' |awk '{print tolower($0)}'
 }
 
 check_args() {
-	option=$1 type=$2 arg=$3
+	option="$1" type="$2" arg="$3"
 	msg="ERROR: option '-$option' argument '$arg' requires:"
 
 	case "$type" in
-	        path)   if ! echo $arg | grep ^/ 1>/dev/null; then
+	        path)   if ! echo "$arg" | grep ^/ 1>/dev/null; then
 				printf "$msg absolute path.\n"
 				exit 1
 			fi
 			;;
-	       email)   if ! echo $arg | grep -E ^[-+_\.[:alnum:]]+@[-_\.[:alnum:]]+ 1>/dev/null; then
+	       email)   if ! echo "$arg" | grep -E ^[-+_\.[:alnum:]]+@[-_\.[:alnum:]]+ 1>/dev/null; then
 				printf "$msg email@domain.com\n"
 				exit 1
 			fi
 			;;
-	         url)   if ! echo $arg | grep -E ^http[s]?://[0-9a-zA-Z-]+[.]+[/0-9a-zA-Z.]+ 1>/dev/null; then
+	         url)   if ! echo "$arg" | grep -E ^http[s]?://[0-9a-zA-Z-]+[.]+[/0-9a-zA-Z.]+ 1>/dev/null; then
 				printf "$msg url => http[s]://the.url\n"
 				exit 1
 			fi
 			;;
-	      script)	if [ ! -x $arg ]; then
+	      script)	if [ ! -x "$arg" ]; then
 				printf "$msg '$arg' is not executable / does not exist.\n"
 				exit 1
 			fi
@@ -246,15 +246,15 @@ print_message() {
 
 log_output() {
 	logger=$(find_binary logger)
-	script=$(basename $0)
+	script=$(basename "$0")
 
 	if [ -n "$logger" ]; then
 		# remove ansi color codes
-		sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
+		sed -i 's/\x1b\[[0-9;]*m//g' "$EMAIL_REPORT"
 		# remove blank lines
-		sed -i '/^\s*$/d' $EMAIL_REPORT
+		sed -i '/^\s*$/d' "$EMAIL_REPORT"
 		# log output
-		$logger -t $script -f $EMAIL_REPORT 2>&1
+		$logger -t "$script" -f "$EMAIL_REPORT" 2>&1
 		print_message "Output logged to syslog\n";
 	else
 		print_message "${BOLDRED}ERROR: cannot find logger${RESET}\n\n";
@@ -266,8 +266,8 @@ send_email() {
 	if [ -n $(find_binary mail) ]; then
 		print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
 		# remove ansi colour codes
-		sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
-		cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
+		sed -i 's/\x1b\[[0-9;]*m//g' "$EMAIL_REPORT"
+		cat "$EMAIL_REPORT" | mail -s "Nginx Bad Bot Blocker Updated" "$EMAIL"
 	else
 		print_message "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}.\n\n"
 	fi
@@ -280,18 +280,18 @@ get_options() {
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
-				r) arg=$(sanitize_url ${OPTARG});;
-				e) arg=$(sanitize_email ${OPTARG});;
-				*) arg=$(sanitize_path ${OPTARG});;
+				r) arg=$(sanitize_url "${OPTARG}");;
+				e) arg=$(sanitize_email "${OPTARG}");;
+				*) arg=$(sanitize_path "${OPTARG}");;
 			esac
 		fi
 
 		case "$opts" in
-			c) CONF_DIR=$arg; check_args $opts path $arg ;;
-			b) BOTS_DIR=$arg; check_args $opts path $arg ;;
-			i) INSTALLER=$arg; check_args $opts script $arg ;;
-			r) REPO=$arg; check_args $opts url $arg ;;
-			e) EMAIL=$arg; SEND_EMAIL=Y; check_args $opts email $arg ;;
+			c) CONF_DIR=$arg; check_args "$opts" path "$arg" ;;
+			b) BOTS_DIR=$arg; check_args "$opts" path "$arg" ;;
+			i) INSTALLER=$arg; check_args "$opts" script "$arg" ;;
+			r) REPO=$arg; check_args "$opts" url "$arg" ;;
+			e) EMAIL=$arg; SEND_EMAIL=Y; check_args "$opts" email "$arg" ;;
 			m) EMAIL=$arg; SEND_EMAIL=Y ;; # /etc/aliases no sanity checks
 			l) LOGGING=Y ;;
 			n) SEND_EMAIL=N ;;
@@ -300,7 +300,7 @@ get_options() {
 			q) export VERBOSE=N ;;
 			h) usage ;;
 			\?) usage ;;
-			:) check_args $OPTARG none none ;;
+			:) check_args "$OPTARG" none none ;;
 		esac
 	done
 
@@ -321,7 +321,7 @@ main() {
 	# parse command line
 	get_options $@
 	check_depends
-	check_dirs $BOTS_DIR $CONF_DIR
+	check_dirs "$BOTS_DIR" "$CONF_DIR"
 	url=$REPO/$remote_dir/$file
 	output=$CONF_DIR/$file
 
@@ -333,14 +333,14 @@ main() {
 
 		# download globalblacklist update
 		tmp=$(mktemp)
-		mkdir -p $CONF_DIR
+		mkdir -p "$CONF_DIR"
 		dl_msg="${BOLDWHITE}Downloading: $file "
-		curl --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so $tmp $url
+		curl --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so "$tmp" "$url"
 		retval=$?
 
 		case "$retval" in
 			 0) print_message "$dl_msg...${BOLDGREEN}[OK]${RESET}\n\n"
-			    mv $tmp $output
+			    mv "$tmp" "$output"
 			    ;;
 			22) printf "$dl_msg...${BOLDRED}ERROR 404: $url${RESET}\n\n";;
 			28) printf "$dl_msg...${BOLDRED}ERROR TIMEOUT: $url${RESET}\n\n";;
@@ -351,7 +351,7 @@ main() {
 		$INSTALL_INC
 
 		# set custom bots.d path
-		update_paths $output
+		update_paths "$output"
 
 		# re-read nginx configuration
 		if [ $retval = 0 ]; then
@@ -372,7 +372,7 @@ main() {
 
 		# in silent mode print a single message after an update
 		if [ "$VERBOSE" = "N" ]; then
-			printf "NGINX Blacklist updated =>$(grep "Version:" $CONF_DIR/globalblacklist.conf | tr -d '#')\n"
+			printf "NGINX Blacklist updated =>$(grep "Version:" "$CONF_DIR"/globalblacklist.conf | tr -d '#')\n"
 		fi
 
 		# enable update only email
@@ -382,7 +382,7 @@ main() {
 
 	else
 		# set custom bots.d path
-		update_paths $output
+		update_paths "$output"
 
 		# disable update only email
 		if [ "$SEND_EMAIL_UPDATE" = "Y" ] ; then
@@ -403,8 +403,8 @@ main() {
 
 ## start ##
 EMAIL_REPORT=$(mktemp)
-main $@ | tee $EMAIL_REPORT
-rm -f $EMAIL_REPORT
+main "$@" | tee "$EMAIL_REPORT"
+rm -f "$EMAIL_REPORT"
 
 exit $?
 
