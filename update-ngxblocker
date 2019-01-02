@@ -83,25 +83,26 @@ check_version() {
 		# version
 		version=$(grep "Version:" $file | sed 's|^.*: V||g')
 		date=$(grep "Updated:" $file | sed 's|^.*: ||g')
-		print_message "\nVersion: $BOLDWHITE$version$RESET\n"
-		print_message "Updated: $date\n\n"
+        
+		print_message "Version: $BOLDWHITE$version$RESET" "high"
+		print_message "Updated: $date" "2n"
 
 		# remote version
 		curl -s --limit-rate 5k -r "$range" --location "$url" -o "$tmp"
 		remote_ver=$(grep "Version:" "$tmp" | sed 's|^.*: V||g')
 		remote_date=$(grep "Updated:" "$tmp" | sed 's|^.*: ||g')
-		print_message "REMOTE Version: $BOLDWHITE$remote_ver$RESET\n"
-		print_message "Updated: $remote_date\n"
+		print_message "REMOTE Version: $BOLDWHITE$remote_ver$RESET"  "high"
+		print_message "Updated: $remote_date"
 		rm -f "$tmp"
 
 		if [ "$version" != "$remote_ver" ]; then
-			print_message "\nUpdate Available => $BOLDMAGENTA$remote_ver$RESET\n\n"
+			print_message "Update Available => $BOLDMAGENTA$remote_ver$RESET" "2n"
 			return 1
 		else
-			print_message "\nLatest Blacklist Already Installed: $BOLDGREEN$version$RESET\n\n"
+			print_message "Latest Blacklist Already Installed: $BOLDGREEN$version$RESET" "2n"
 		fi
 	else
-		printf '%s\n' "${BOLDRED}ERROR${RESET}: Missing '$file' => ${BOLDWHITE}running $INSTALLER:${RESET}"
+		print_message "${BOLDRED}ERROR${RESET}: Missing '$file' => ${BOLDWHITE}running $INSTALLER:${RESET}"
 		$INSTALL_INC
 		if [ -f "$file" ]; then
 			check_version
@@ -114,7 +115,7 @@ check_dirs() {
 
 	for x in $dirs; do
 		if [ ! -d "$x" ]; then
-			printf '%s\n' "${BOLDRED}ERROR${RESET}: Missing directory: $x => ${BOLDWHITE}running $INSTALLER:${RESET}"
+			print_message "${BOLDRED}ERROR${RESET}: Missing directory: $x => ${BOLDWHITE}running $INSTALLER:${RESET}"
 			$INSTALL_INC
 		fi
 	done
@@ -127,7 +128,7 @@ find_binary() {
 		path="$x/$binary"
 
 		if [ -x "$path" ]; then
-			echo "$path"
+			print_message "$path"
 			return
 		fi
 	done
@@ -140,7 +141,7 @@ update_paths() {
 
 	if ! grep "$BOTS_DIR" "$blacklist" 1>/dev/null; then
 		if [ -d "$BOTS_DIR" ]; then
-			printf '%s\n' "${BOLDGREEN}Updating bots.d path${RESET}: ${BOLDWHITE}$BOTS_DIR => $blacklist${RESET}"
+			print_message "${BOLDGREEN}Updating bots.d path${RESET}: ${BOLDWHITE}$BOTS_DIR => $blacklist${RESET}"
 			include_paths=$(grep -E "include /.*.conf;$" "$blacklist" | awk '{print $2}' | tr -d ';')
 
 			for x in $include_paths; do
@@ -148,7 +149,7 @@ update_paths() {
 				sed -i "s|$dir|$BOTS_DIR|" "$blacklist"
 			done
 		else
-			printf '%s\n' "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}."
+			print_message "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}."
 			$INSTALL_INC
 			update_paths "$blacklist"
 		fi
@@ -175,7 +176,7 @@ service_cmd() {
 		fi
 	done
 
-	echo "$svc"
+	print_message "$svc"
 }
 
 sanitize_path() {
@@ -199,48 +200,53 @@ check_args() {
 
 	case "$type" in
 	        path)   if ! echo "$arg" | grep ^/ 1>/dev/null; then
-				printf '%s\n' "$msg absolute path."
+				print_message "$msg absolute path."
 				exit 1
 			fi
 			;;
 	       email)   if ! echo "$arg" | grep -E "^[-+_\.[:alnum:]]+@[-_\.[:alnum:]]+" 1>/dev/null; then
-				printf '%s\n' "$msg email@domain.com"
+				print_message "$msg email@domain.com"
 				exit 1
 			fi
 			;;
 	         url)   if ! echo "$arg" | grep -E "^http[s]?://[0-9a-zA-Z-]+[.]+[/0-9a-zA-Z.]+" 1>/dev/null; then
-				printf '%s\n' "$msg url => http[s]://the.url"
+				print_message "$msg url => http[s]://the.url"
 				exit 1
 			fi
 			;;
 	      script)	if [ ! -x "$arg" ]; then
-				printf '%s\n' "$msg '$arg' is not executable / does not exist."
+				print_message "$msg '$arg' is not executable / does not exist."
 				exit 1
 			fi
 			;;
-	        none)   printf '%s\n' "$msg argument."; exit 1;;
+	        none)   print_message "$msg argument."; exit 1;;
         esac
 }
 
 check_depends() {
 	# centos does not have which by default
 	if [ -z "$(find_binary curl)" ]; then
-		printf '%s\n' "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}"
+		print_message "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}"
 		exit 1
 	fi
 
 	# install-ngxblocker downloads missing scripts / includes as part of the update process
 	if [ ! -x $INSTALLER ]; then
-		printf '%s\n' "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}"
+		print_message "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}"
 		exit 1
 	fi
 }
 
 print_message() {
-	msg="$*"
+	msg="$1" 
+    [ -z "$2" ] && status="0" || status="$2"
 
 	if [ "$VERBOSE" != "N" ]; then
-		printf '%s\n' "$msg"
+        case "$status" in
+            "high") printf '\n%s\n' "$msg" ;;
+            "2n") printf '%s\n\n' "$msg" ;; 
+            *) printf '%s\n' "$msg" ;;
+        esac
 	fi
 }
 
@@ -255,21 +261,21 @@ log_output() {
 		sed -i '/^\s*$/d' "$EMAIL_REPORT"
 		# log output
 		$logger -t "$script" -f "$EMAIL_REPORT" 2>&1
-		print_message "Output logged to syslog\n";
+		print_message "Output logged to syslog";
 	else
-		print_message "${BOLDRED}ERROR: cannot find logger${RESET}\n\n";
+		print_message "${BOLDRED}ERROR: cannot find logger${RESET}" "2n"
 	fi
 }
 
 send_email() {
 	# email report (mailx + ssmtp are enough to send emails)
 	if [ -n "$(find_binary mail)" ]; then
-		print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
+		print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}";
 		# remove ansi colour codes
 		sed -i 's/\x1b\[[0-9;]*m//g' "$EMAIL_REPORT"
 		cat "$EMAIL_REPORT" | mail -s "Nginx Bad Bot Blocker Updated" "$EMAIL"
 	else
-		print_message "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}.\n\n"
+		print_message "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}." "2n"
 	fi
 }
 
@@ -314,7 +320,7 @@ main() {
 
 	# require root
 	if [ "$(id -u)" != "0" ]; then
-		echo "This script must be run as root" 1>&2
+		print_message "This script must be run as root" 
 		exit 1
 	fi
 
@@ -339,12 +345,12 @@ main() {
 		retval=$?
 
 		case "$retval" in
-			 0) print_message "$dl_msg...${BOLDGREEN}[OK]${RESET}\n\n"
+			 0) print_message "$dl_msg...${BOLDGREEN}[OK]${RESET}" "2n"
 			    mv "$tmp" "$output"
 			    ;;
-			22) printf '%s\n\n' "$dl_msg...${BOLDRED}ERROR 404: $url${RESET}";;
-			28) printf '%s\n\n' "$dl_msg...${BOLDRED}ERROR TIMEOUT: $url${RESET}";;
-			 *) printf '%s\n\n' "$dl_msg...${BOLDRED}ERROR CURL: ($retval){RESET}";;
+			22) print_message "$dl_msg...${BOLDRED}ERROR 404: $url${RESET}" "2n";;
+			28) print_message "$dl_msg...${BOLDRED}ERROR TIMEOUT: $url${RESET}" "2n";;
+			 *)   print_message "$dl_msg...${BOLDRED}ERROR CURL: ($retval){RESET}" "2n";;
 		esac
 
 		# download new bots.d / conf.d files
@@ -359,20 +365,20 @@ main() {
 			$reload_service 2>&1 >/dev/null
 			if [ $? = 0 ]; then
 				status="${BOLDGREEN}[OK]${RESET}"
-				print_message "\nReloading NGINX configuration...$status\n"
+				print_message "Reloading NGINX configuration...$status"
 
 			else
 				status="${BOLDRED}[FAILED]${RESET}"
-				printf '%s\n' "\nReloading NGINX configuration...$status"
+				print_message "\nReloading NGINX configuration...$status" "high"
 
 			fi
 		else
-			printf '\n%s\n' "${BOLDRED}Download failed${RESET}: not reloading NGINX config"
+			print_message "${BOLDRED}Download failed${RESET}: not reloading NGINX config" "high"
 		fi
 
 		# in silent mode print a single message after an update
 		if [ "$VERBOSE" = "N" ]; then
-			printf '%s\n' "NGINX Blacklist updated =>$(grep "Version:" "$CONF_DIR"/globalblacklist.conf | tr -d '#')"
+			print_message "NGINX Blacklist updated =>$(grep "Version:" "$CONF_DIR"/globalblacklist.conf | tr -d '#')"
 		fi
 
 		# enable update only email
