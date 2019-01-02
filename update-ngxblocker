@@ -76,7 +76,7 @@ EOF
 }
 
 check_version() {
-	remote_ver= remote_date= version= date= file=$CONF_DIR/globalblacklist.conf
+	remote_ver='' remote_date='' version='' date='' file=$CONF_DIR/globalblacklist.conf
 	tmp=$(mktemp) url=$REPO/conf.d/globalblacklist.conf range="145-345"
 
 	if [ -f $file ]; then
@@ -110,7 +110,7 @@ check_version() {
 }
 
 check_dirs() {
-	x= dirs="$*"
+	x='' dirs="$*"
 
 	for x in $dirs; do
 		if [ ! -d $x ]; then
@@ -121,7 +121,7 @@ check_dirs() {
 }
 
 find_binary() {
-	x= path= binary=$1 bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
+	x='' path='' binary=$1 bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
 
 	for x in $bin_paths; do
 		path="$x/$binary"
@@ -136,7 +136,7 @@ find_binary() {
 update_paths() {
 	# variables in nginx include files not currently possible
 	# updates hard coded bots.d path in globalblacklist.conf
-	blacklist=$1 include_paths= dir= x=
+	blacklist=$1 include_paths='' dir='' x=''
 
 	if ! grep "$BOTS_DIR" $blacklist 1>/dev/null; then
 		if [ -d $BOTS_DIR ]; then
@@ -157,7 +157,7 @@ update_paths() {
 
 service_cmd() {
 	# arch linux does not have a 'service' command
-	x= svc= svc_list="service systemctl rc-service rcctl"
+	x='' svc='' svc_list="service systemctl rc-service rcctl"
 
 	for x in $svc_list; do
 		svc=$(which $x 2>/dev/null)
@@ -274,7 +274,7 @@ send_email() {
 }
 
 get_options() {
-	arg= opts=
+	arg='' opts=''
 
 	while getopts :c:b:i:r:e:m:lnovqh opts "$@"
 	do
@@ -309,7 +309,7 @@ get_options() {
 
 main() {
 	REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
-	file=globalblacklist.conf remote_dir=conf.d url= output= update= status= tmp= retval=
+	file=globalblacklist.conf remote_dir=conf.d url='' output='' update='' status='' tmp='' retval=''
 	reload_service="$(service_cmd)"
 
 	# require root
