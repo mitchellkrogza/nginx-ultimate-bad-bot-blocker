@@ -81,16 +81,16 @@ check_version() {
 
 	if [ -f "$file" ]; then
 		# version
-		version=$(grep "Version:" $file | sed 's|^.*: V||g')
-		date=$(grep "Updated:" $file | sed 's|^.*: ||g')
+        version=$(awk -F':' '/Version/ { sub(/ V/, "", $2); print $2 }' "$file")
+        date=$(awk '/Updated:/ { sub(/### Updated: /, "", $0); print $0 }'  "$file")
         
 		print_message "Version: $BOLDWHITE$version$RESET" "high"
 		print_message "Updated: $date" "2n"
 
 		# remote version
 		$CURL -s --limit-rate 5k -r "$range" --location "$url" -o "$tmp"
-		remote_ver=$(grep "Version:" "$tmp" | sed 's|^.*: V||g')
-		remote_date=$(grep "Updated:" "$tmp" | sed 's|^.*: ||g')
+        remote_ver=$(awk -F':' '/Version/ { sub(/ V/, "", $2); print $2 }' "$tmp")
+        remote_date=$(awk '/Updated:/ { sub(/### Updated: /, "", $0); print $0 }'  "$tmp")
 		print_message "REMOTE Version: $BOLDWHITE$remote_ver$RESET"  "high"
 		print_message "Updated: $remote_date"
 		rm -f "$tmp"
@@ -369,7 +369,7 @@ main() {
 
 			else
 				status="${BOLDRED}[FAILED]${RESET}"
-				print_message "\nReloading NGINX configuration...$status" "high"
+				print_message "Reloading NGINX configuration...$status" "high"
 
 			fi
 		else
