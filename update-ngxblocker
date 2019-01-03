@@ -25,6 +25,9 @@
 # sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O update-ngxblocker
 # Make it Executable chmod 700 /usr/local/sbin/update-ngxblocker
 
+# Cron task:
+# Add variable IS_CRON=1 to disable colored message
+
 # RUN THE UPDATE
 # Here our script runs, pulls the latest update, reloads nginx and emails you a notification
 
@@ -37,13 +40,14 @@ INSTALLER=/usr/local/sbin/install-ngxblocker
 LOGGING="N"
 
 ##### end user configuration ##############################################################
-
-BOLDGREEN="\033[1m\033[32m"
-BOLDMAGENTA="\033[1m\033[35m"
-BOLDRED="\033[1m\033[31m"
-BOLDYELLOW="\033[1m\033[33m"
-BOLDWHITE="\033[1m\033[37m"
-RESET="\033[0m"
+if [ "$IS_CRON" = 0 ]; then
+    BOLDGREEN="\033[1m\033[32m"
+    BOLDMAGENTA="\033[1m\033[35m"
+    BOLDRED="\033[1m\033[31m"
+    BOLDYELLOW="\033[1m\033[33m"
+    BOLDWHITE="\033[1m\033[37m"
+    RESET="\033[0m"
+fi
 
 usage() {
         script=$(basename "$0")
