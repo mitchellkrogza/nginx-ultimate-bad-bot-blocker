@@ -101,7 +101,7 @@ check_version() {
             print_message "\nLatest Blacklist Already Installed: $BOLDGREEN$version$RESET\n\n"
         fi
     else
-        printf "${BOLDRED}ERROR${RESET}: Missing '$file' => ${BOLDWHITE}running $INSTALLER:${RESET}\n"
+        printf '%s\n' "${BOLDRED}ERROR${RESET}: Missing '$file' => ${BOLDWHITE}running $INSTALLER:${RESET}"
         $INSTALL_INC
         if [ -f $file ]; then
             check_version
@@ -114,7 +114,7 @@ check_dirs() {
 
     for x in $dirs; do
         if [ ! -d $x ]; then
-            printf "${BOLDRED}ERROR${RESET}: Missing directory: $x => ${BOLDWHITE}running $INSTALLER:${RESET}\n"
+            printf '%s\n' "${BOLDRED}ERROR${RESET}: Missing directory: $x => ${BOLDWHITE}running $INSTALLER:${RESET}"
             $INSTALL_INC
         fi
     done
@@ -140,7 +140,7 @@ update_paths() {
 
     if ! grep "$BOTS_DIR" $blacklist 1>/dev/null; then
         if [ -d $BOTS_DIR ]; then
-            printf "${BOLDGREEN}Updating bots.d path${RESET}: ${BOLDWHITE}$BOTS_DIR => $blacklist${RESET}\n"
+            printf '%s\n' "${BOLDGREEN}Updating bots.d path${RESET}: ${BOLDWHITE}$BOTS_DIR => $blacklist${RESET}"
             include_paths=$(grep -E "include /.*.conf;$" $blacklist | awk '{print $2}' | tr -d ';')
 
             for x in $include_paths; do
@@ -148,7 +148,7 @@ update_paths() {
                 sed -i "s|$dir|$BOTS_DIR|" $blacklist
             done
         else
-            printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}.\n"
+            printf '%s\n' "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}."
             $INSTALL_INC
             update_paths $blacklist
         fi
@@ -199,39 +199,39 @@ check_args() {
 
     case "$type" in
             path)   if ! echo $arg | grep ^/ 1>/dev/null; then
-                printf "$msg absolute path.\n"
+                printf '%s\n' "$msg absolute path."
                 exit 1
             fi
             ;;
            email)   if ! echo $arg | grep -E ^[-+_\.[:alnum:]]+@[-_\.[:alnum:]]+ 1>/dev/null; then
-                printf "$msg email@domain.com\n"
+                printf '%s\n' "$msg email@domain.com"
                 exit 1
             fi
             ;;
              url)   if ! echo $arg | grep -E ^http[s]?://[0-9a-zA-Z-]+[.]+[/0-9a-zA-Z.]+ 1>/dev/null; then
-                printf "$msg url => http[s]://the.url\n"
+                printf '%s\n' "$msg url => http[s]://the.url"
                 exit 1
             fi
             ;;
           script)   if [ ! -x $arg ]; then
-                printf "$msg '$arg' is not executable / does not exist.\n"
+                printf '%s\n' "$msg '$arg' is not executable / does not exist."
                 exit 1
             fi
             ;;
-            none)   printf "$msg argument.\n"; exit 1;;
+            none)   printf '%s\n' "$msg argument."; exit 1;;
         esac
 }
 
 check_depends() {
     # centos does not have which by default
     if [ -z $(find_binary curl) ]; then
-        printf "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}\n"
+        printf '%s\n' "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}"
         exit 1
     fi
 
     # install-ngxblocker downloads missing scripts / includes as part of the update process
     if [ ! -x $INSTALLER ]; then
-        printf "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}\n"
+        printf '%s\n' "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}"
         exit 1
     fi
 }
@@ -240,7 +240,7 @@ print_message() {
     local msg="$@"
 
     if [ "$VERBOSE" != "N" ]; then
-        printf "$msg"
+        printf '%s\n' "$msg"
     fi
 }
 
@@ -342,9 +342,9 @@ main() {
              0) print_message "$dl_msg...${BOLDGREEN}[OK]${RESET}\n\n"
                 mv $tmp $output
                 ;;
-            22) printf "$dl_msg...${BOLDRED}ERROR 404: $url${RESET}\n\n";;
-            28) printf "$dl_msg...${BOLDRED}ERROR TIMEOUT: $url${RESET}\n\n";;
-             *) printf "$dl_msg...${BOLDRED}ERROR CURL: ($retval){RESET}\n\n";;
+            22) printf '%s\n\n' "$dl_msg...${BOLDRED}ERROR 404: $url${RESET}";;
+            28) printf '%s\n\n' "$dl_msg...${BOLDRED}ERROR TIMEOUT: $url${RESET}";;
+             *) printf '%s\n\n' "$dl_msg...${BOLDRED}ERROR CURL: ($retval){RESET}";;
         esac
 
         # download new bots.d / conf.d files
@@ -363,16 +363,16 @@ main() {
 
             else
                 status="${BOLDRED}[FAILED]${RESET}"
-                printf "\nReloading NGINX configuration...$status\n"
+                printf '%s\n' "\nReloading NGINX configuration...$status"
 
             fi
         else
-            printf "\n${BOLDRED}Download failed${RESET}: not reloading NGINX config\n"
+            printf '%s\n' "\n${BOLDRED}Download failed${RESET}: not reloading NGINX config"
         fi
 
         # in silent mode print a single message after an update
         if [ "$VERBOSE" = "N" ]; then
-            printf "NGINX Blacklist updated =>$(grep "Version:" $CONF_DIR/globalblacklist.conf | tr -d '#')\n"
+            printf '%s\n' "NGINX Blacklist updated =>$(grep "Version:" $CONF_DIR/globalblacklist.conf | tr -d '#')"
         fi
 
         # enable update only email
