@@ -160,7 +160,7 @@ service_cmd() {
     local x= svc= svc_list="service systemctl rc-service rcctl"
 
     for x in $svc_list; do
-        svc=$(which $x 2>/dev/null)
+        svc=$(command -v $x 2>/dev/null)
         if [ -n "$svc" ]; then
             case "$x" in
                 service) svc="$svc nginx reload";;
