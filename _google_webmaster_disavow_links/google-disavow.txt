@@ -31,6 +31,7 @@ domain:123any.com
 domain:123cha.com
 domain:123kuma.com
 domain:123locker.com
+domain:123movies.love
 domain:12bet.com
 domain:12masterov.com
 domain:12u.info
@@ -743,6 +744,7 @@ domain:bestcurs.org
 domain:bestdooz.com
 domain:bestdraws.com
 domain:bestempresas.es
+domain:bestfortraders.com
 domain:besthoro.ru
 domain:bestimagecoollibrary.com
 domain:bestkfiledxd.cf
@@ -796,6 +798,7 @@ domain:bildsuche.ru
 domain:billiard-classic.com.ua
 domain:bimatoprost-careprost.com
 domain:bimatoprost-careprost.com.ua
+domain:bin-brokers.com
 domain:binaryoptionscops.info
 domain:bingo8888.com
 domain:binomo.com
@@ -1669,6 +1672,8 @@ domain:doyouknowtheword-flummox.ml
 domain:dpihatinh.gov.vn
 domain:dprtb.com
 domain:dptaughtme.com
+domain:draniki.org
+domain:drev.biz
 domain:drhomes.biz
 domain:drillsaw.ru
 domain:driving.kiev.ua
@@ -1740,6 +1745,7 @@ domain:edwinkonijn.com.au
 domain:ee77ee.com
 domain:efkt.jp
 domain:efnor-ac.com
+domain:ege-essay.ru
 domain:ege-russian.ru
 domain:egovaleo.it
 domain:egvar.net
@@ -1835,6 +1841,7 @@ domain:erectile.bid
 domain:eredijovon.com
 domain:ereko.ru
 domain:ero-advertising.com
+domain:eropho.com
 domain:eropornosex.ru
 domain:erot.co
 domain:erotik-kostenlos.net
@@ -2327,6 +2334,7 @@ domain:ghazel.ru
 domain:ghernnqr.skyrock.com
 domain:gheus.altervista.org
 domain:ghostvisitor.com
+domain:gidonline.one
 domain:gifspics.com
 domain:gigablast.com
 domain:gigapeta.com
@@ -2424,6 +2432,7 @@ domain:graphicwe.org
 domain:graphid.com
 domain:gratis-sexkontakte.com
 domain:gratuitbaise.com
+domain:greatdealshop.com
 domain:greatfind-a.akamaihd.net
 domain:greatgrace.ru
 domain:greatzip.com
@@ -2872,7 +2881,10 @@ domain:janettabridal.com
 domain:japan-bearings.ru
 domain:japfm.com
 domain:jasonpartington.com
+domain:jav-fetish.com
+domain:jav-fetish.site
 domain:javatex.co.id
+domain:javcoast.com
 domain:javitas.info
 domain:javrip.net
 domain:jaxcube.info
@@ -2928,6 +2940,7 @@ domain:kabbalah-red-bracelets.com
 domain:kadashihotel.com
 domain:kaidalibor.de
 domain:kakablog.net
+domain:kakadu-interior.com.ua
 domain:kalandranis.gr
 domain:kalb.ru
 domain:kaliningrad.zrus.org
@@ -3635,6 +3648,7 @@ domain:mp3downloadhq.com
 domain:mp3films.ru
 domain:mp3ringtone.info
 domain:mrbitsandbytes.com
+domain:mrbojikobi4.biz
 domain:mrcsa.com.au
 domain:mrinsidesales.com
 domain:mriyadh.com
@@ -3690,6 +3704,7 @@ domain:mycouponizemac.com
 domain:mydeathspace.com
 domain:mydirtyhobby.com
 domain:mydirtystuff.com
+domain:mydoctorok.ru
 domain:mydownloadengine.com
 domain:mydownlodablefiles.com
 domain:myfreecams.com
@@ -3750,6 +3765,7 @@ domain:narutonaruto.ru
 domain:nash-krym.info
 domain:nastroyke.net
 domain:nastydollars.com
+domain:natali-forex.com
 domain:nate.com
 domain:nationalbreakdown.com
 domain:naturalbreakthroughsresearch.com
@@ -4034,6 +4050,7 @@ domain:panchro.co.uk
 domain:panchro.xyz
 domain:pandarastore.top
 domain:pandroid.co
+domain:panicatack.com
 domain:panouri-solare-acoperis.com
 domain:paparazzistudios.com.au
 domain:papasdelivery.ru
@@ -4119,6 +4136,7 @@ domain:photochki.com
 domain:photokitchendesign.com
 domain:photorepair.ru
 domain:photostudiolightings.com
+domain:php-market.ru
 domain:phpdevops.com
 domain:phuketscreen.com
 domain:physfunc.ru
@@ -4146,6 +4164,7 @@ domain:pijoto.net
 domain:pila.pl
 domain:pills24h.com
 domain:pillscheap24h.com
+domain:piluli.info
 domain:pinkduck.ga
 domain:pinsdaddy.com
 domain:pinstake.com
@@ -4243,7 +4262,9 @@ domain:poquoson.org
 domain:porn-w.org
 domain:porn555.com
 domain:porndairy.in
+domain:porndl.org
 domain:porngalleries.top
+domain:pornhive.org
 domain:pornhub-forum.ga
 domain:pornhub-ru.com
 domain:pornhubforum.tk
@@ -4654,6 +4675,7 @@ domain:russintv.fr
 domain:russkie-gorki.ru
 domain:russkoe-zdorovie.ru
 domain:rustic-quiver.win
+domain:rutor.group
 domain:rutor.vip
 domain:rvtv.ru
 domain:rvzr-a.akamaihd.net
@@ -4817,6 +4839,7 @@ domain:segol.tv
 domain:sei80.com
 domain:seinterface.com
 domain:seksotur.ru
+domain:sel-hoz.com
 domain:selectads.men
 domain:sell-fb-group-here.com
 domain:semalt.com
@@ -4939,6 +4962,7 @@ domain:shop-electron.ru
 domain:shop.acim.org
 domain:shop.xz618.com
 domain:shopcheermakeup.info
+domain:shopfishing.com.ua
 domain:shoplvlv.us
 domain:shopperifymac.com
 domain:shoppingjequiti.com.br
@@ -5288,6 +5312,7 @@ domain:suture.co
 domain:svarbit.com
 domain:svarkagid.com
 domain:svbur.ru
+domain:svensk-poesi.com
 domain:svetlotorg.ru
 domain:svetodiodoff.ru
 domain:svnuppsalaorebro.se
@@ -5542,6 +5567,7 @@ domain:topvidos.ru
 domain:torontoplumbinggroup.com
 domain:torrent-newgames.com
 domain:torrent-to-magnet.com
+domain:torrentgamer.net
 domain:torrents-tracker.com
 domain:torrents.cd
 domain:torrnada.ru
@@ -5691,6 +5717,7 @@ domain:ufa.xrus.org
 domain:uggbootsoutletsale.us
 domain:uggsale.online
 domain:ugguk.online
+domain:uginekologa.com
 domain:ugogo.info
 domain:uhdtv.website
 domain:uhod-za-sobakoj.ru
@@ -5794,6 +5821,7 @@ domain:vashsvet.com
 domain:vasileostrovsky-rayon.ru
 domain:vavilone.com
 domain:vbabule.net
+domain:vchulkax.com
 domain:vclicks.net
 domain:vduplo.ru
 domain:vedomstvo.net
@@ -5922,6 +5950,7 @@ domain:vriel.batcave.net
 domain:vrnelectro.ru
 domain:vrotike.ru
 domain:vsdshnik.com
+domain:vseigru.one
 domain:vsesubwaysurfers.com
 domain:vseuznaem.com
 domain:vsexkontakte.net
@@ -6344,6 +6373,7 @@ domain:za-fun-offer.com
 domain:za-music.mymobiplanet.com
 domain:zaapplesales.blogspot.com
 domain:zacreditom.ru
+domain:zagadki.in.ua
 domain:zahvat.ru
 domain:zaidia.xhost.ro
 domain:zaim-pod-zalog-krasnodar.ru
