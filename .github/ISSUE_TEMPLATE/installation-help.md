@@ -1,7 +1,7 @@
 ---
 name: Installation Help
 about: Users needing help with installation problems.
-title: ''
+title: "[INSTALLATION] (add a descriptive title here)"
 labels: ''
 assignees: ''
 
