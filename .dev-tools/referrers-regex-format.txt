@@ -969,6 +969,7 @@
 "~*\bbuqayy0\.livejournal\.com\b" 	1;
 "~*\bbuqyxa\.rincian\.info\b" 	1;
 "~*\bburger\-imperia\.com\b" 	1;
+"~*\bburger\-tycoon\.com\b" 	1;
 "~*\bburkesales\.com\b" 	1;
 "~*\bburn\-fat\.ga\b" 	1;
 "~*\bburon\.pw\b" 	1;
@@ -1581,6 +1582,7 @@
 "~*\bdipstar\.org\b" 	1;
 "~*\bdirectivepub\.com\b" 	1;
 "~*\bdirectrev\.com\b" 	1;
+"~*\bdirtpics\.pw\b" 	1;
 "~*\bdiscountbarbour\.online\b" 	1;
 "~*\bdiscountliv\.com\b" 	1;
 "~*\bdiscovertreasure\-a\.akamaihd\.net\b" 	1;
@@ -1913,6 +1915,7 @@
 "~*\bexpdom\.com\b" 	1;
 "~*\bexpertblog\.info\b" 	1;
 "~*\bexpertnaya\-ocenka\.ru\b" 	1;
+"~*\bexpolicenciaslatam\.co\b" 	1;
 "~*\bexportshop\.us\b" 	1;
 "~*\bexpresstoplivo\.ru\b" 	1;
 "~*\bextads\.net\b" 	1;
@@ -1963,6 +1966,7 @@
 "~*\bfakehandbags\.xyz\b" 	1;
 "~*\bfalcoware\.com\b" 	1;
 "~*\bfalllow\.gq\b" 	1;
+"~*\bfalopicm\.pw\b" 	1;
 "~*\bfamilienzahnaerzte\.com\b" 	1;
 "~*\bfamily1st\.ca\b" 	1;
 "~*\bfamilyholiday\.ml\b" 	1;
@@ -2012,6 +2016,7 @@
 "~*\bferrotodo\.com\b" 	1;
 "~*\bfertilitetsradgivningen\.se\b" 	1;
 "~*\bfetishinside\.com\b" 	1;
+"~*\bfetlifeblog\.com\b" 	1;
 "~*\bfetroshok\.ru\b" 	1;
 "~*\bfettefrauen\.net\b" 	1;
 "~*\bff30236ddef1465f88547e760973d70a\.com\b" 	1;
@@ -2135,6 +2140,7 @@
 "~*\bforum\.tvmir\.org\b" 	1;
 "~*\bfoto\-basa\.com\b" 	1;
 "~*\bfotopop\.club\b" 	1;
+"~*\bfotosfotos\.eu\b" 	1;
 "~*\bfoto\-sisek\.porngalleries\.top\b" 	1;
 "~*\bfoto\-telok\.net\b" 	1;
 "~*\bfototravel\.eu\b" 	1;
@@ -2324,6 +2330,7 @@
 "~*\bgetridofstretchmarks\.org\b" 	1;
 "~*\bget\-seo\-domain\.com\b" 	1;
 "~*\bgettpromos\.com\b" 	1;
+"~*\bgetyourimage\.club\b" 	1;
 "~*\bget\-your\-social\-buttons\.info\b" 	1;
 "~*\bgfaq\.ru\b" 	1;
 "~*\bgg\-arena\.ru\b" 	1;
@@ -2567,6 +2574,7 @@
 "~*\bhighstairs\-a\.akamaihd\.net\b" 	1;
 "~*\bhikesearch\.net\b" 	1;
 "~*\bhildinghr\.se\b" 	1;
+"~*\bhimazin\.info\b" 	1;
 "~*\bhistats\.com\b" 	1;
 "~*\bhistock\.info\b" 	1;
 "~*\bhistorichometeam\.com\b" 	1;
@@ -2728,6 +2736,7 @@
 "~*\bimfamous\.info\b" 	1;
 "~*\bimgarcade\.com\b" 	1;
 "~*\bimgata\.com\b" 	1;
+"~*\bimguramx\.pw\b" 	1;
 "~*\bimg\.wallpaperstock\.net\b" 	1;
 "~*\bimicrovision\.com\b" 	1;
 "~*\bi\-midias\.net\.br\b" 	1;
@@ -2871,6 +2880,7 @@
 "~*\bizoll\.ru\b" 	1;
 "~*\bj33x\.com\b" 	1;
 "~*\bjacago\.com\b" 	1;
+"~*\bjackpotchances\.com\b" 	1;
 "~*\bjackwolfskinoutlet\.online\b" 	1;
 "~*\bjames13prix\.info\b" 	1;
 "~*\bjamiembrown\.com\b" 	1;
@@ -2986,6 +2996,7 @@
 "~*\bkeywesthideaways\.co\b" 	1;
 "~*\bkeywordblocks\.com\b" 	1;
 "~*\bkeywordglobal\.co\.za\b" 	1;
+"~*\bkeywordhouse\.com\b" 	1;
 "~*\bkeywordhut\.com\b" 	1;
 "~*\bkeywordsdoctor\.com\b" 	1;
 "~*\bkeywordsking\.com\b" 	1;
@@ -3291,6 +3302,7 @@
 "~*\blongadventure\.com\b" 	1;
 "~*\blong\-beach\-air\-conditioning\.com\b" 	1;
 "~*\blonggreen\.info\b" 	1;
+"~*\blonglifelomilomi\.info\b" 	1;
 "~*\blookingglassemb\.com\b" 	1;
 "~*\blosangeles\-ads\.com\b" 	1;
 "~*\blost\-alpha\.ru\b" 	1;
@@ -3700,6 +3712,7 @@
 "~*\bmycaf\.it\b" 	1;
 "~*\bmy\-cash\-bot\.co\b" 	1;
 "~*\bmycouponizemac\.com\b" 	1;
+"~*\bmydearest\.co\b" 	1;
 "~*\bmydeathspace\.com\b" 	1;
 "~*\bmydirtyhobby\.com\b" 	1;
 "~*\bmydirtystuff\.com\b" 	1;
@@ -3769,6 +3782,7 @@
 "~*\bna\-telefon\.biz\b" 	1;
 "~*\bnationalbreakdown\.com\b" 	1;
 "~*\bnaturalbreakthroughsresearch\.com\b" 	1;
+"~*\bnaturalpharm\.com\.ua\b" 	1;
 "~*\bnaturalshair\.site\b" 	1;
 "~*\bnaughtyconnect\.com\b" 	1;
 "~*\bnaval\.jislaaik\.com\b" 	1;
@@ -3841,6 +3855,7 @@
 "~*\bnodup\.ru\b" 	1;
 "~*\bnofreezingmac\.click\b" 	1;
 "~*\bnofreezingmac\.work\b" 	1;
+"~*\bno\-fuel\.org\b" 	1;
 "~*\bnonews\.co\b" 	1;
 "~*\bnootrino\.com\b" 	1;
 "~*\bnordstar\.pro\b" 	1;
@@ -4135,6 +4150,7 @@
 "~*\bphoto\.houseofgaga\.ru\b" 	1;
 "~*\bphotokitchendesign\.com\b" 	1;
 "~*\bphotorepair\.ru\b" 	1;
+"~*\bphotosaga\.info\b" 	1;
 "~*\bphotostudiolightings\.com\b" 	1;
 "~*\bphpdevops\.com\b" 	1;
 "~*\bphp\-market\.ru\b" 	1;
@@ -4398,6 +4414,7 @@
 "~*\bpronorm\.fr\b" 	1;
 "~*\bpron\.pro\b" 	1;
 "~*\bpro\-okis\.ru\b" 	1;
+"~*\bpro\-poly\.ru\b" 	1;
 "~*\bproposal\-engine\.com\b" 	1;
 "~*\bpropranolol40mg\.blogspot\.com\b" 	1;
 "~*\bproprostatit\.com\b" 	1;
@@ -4918,6 +4935,7 @@
 "~*\bsextracker\.com\b" 	1;
 "~*\bsex\-tracker\.de\b" 	1;
 "~*\bsextracker\.de\b" 	1;
+"~*\bsexuria\.net\b" 	1;
 "~*\bsexvideo\-sex\.com\b" 	1;
 "~*\bsexvporno\.ru\b" 	1;
 "~*\bsex\-watch\.com\b" 	1;
@@ -5153,6 +5171,7 @@
 "~*\bsovinsteel\.ru\b" 	1;
 "~*\bspabali\.org\b" 	1;
 "~*\bspacash\.com\b" 	1;
+"~*\bspace2019\.top\b" 	1;
 "~*\bspace4update\.pw\b" 	1;
 "~*\bspace4updating\.win\b" 	1;
 "~*\bspaceshipad\.com\b" 	1;
@@ -5276,6 +5295,7 @@
 "~*\bsuchenindeutschland\.com\b" 	1;
 "~*\bsudexpert66\.ru\b" 	1;
 "~*\bsugarkun\.com\b" 	1;
+"~*\bsugarlyflex\.pw\b" 	1;
 "~*\bsuggest\-keywords\.com\b" 	1;
 "~*\bsugvant\.ru\b" 	1;
 "~*\bsuhanpacktech\.com\b" 	1;
@@ -5418,6 +5438,7 @@
 "~*\bthedownloadfromwarez\.blogspot\.com\b" 	1;
 "~*\bthefarmergame\.com\b" 	1;
 "~*\bthefds\.net\b" 	1;
+"~*\bthefotosgratis\.eu\b" 	1;
 "~*\bthegameriders\.com\b" 	1;
 "~*\bthegamerznetwork\.com\b" 	1;
 "~*\bthegioixekhach\.com\b" 	1;
@@ -5542,6 +5563,7 @@
 "~*\btoonfamilies\.net\b" 	1;
 "~*\btooplay\.com\b" 	1;
 "~*\btootoo\.to\b" 	1;
+"~*\btop10\-online\-games\.com\b" 	1;
 "~*\btop10registrycleaners\.com\b" 	1;
 "~*\btop10\-way\.com\b" 	1;
 "~*\btop1\-seo\-service\.com\b" 	1;
@@ -5830,6 +5852,7 @@
 "~*\bvegascosmetics\.ru\b" 	1;
 "~*\bvektorpress\.ru\b" 	1;
 "~*\bvekzdorov\.ru\b" 	1;
+"~*\bveles\.shop\b" 	1;
 "~*\bvellings\.info\b" 	1;
 "~*\bvelobikestock\.com\b" 	1;
 "~*\bvenerologiya\.com\b" 	1;
@@ -5881,6 +5904,7 @@
 "~*\bvidetubs\.pl\b" 	1;
 "~*\bvielporno\.net\b" 	1;
 "~*\bviel\.su\b" 	1;
+"~*\bvietimgy\.pw\b" 	1;
 "~*\bvigrx\-original\.ru\b" 	1;
 "~*\bvikistars\.com\b" 	1;
 "~*\bviktoria\-center\.ru\b" 	1;
@@ -6249,6 +6273,7 @@
 "~*\bxn\-\-b1adccaf1bzj\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-b1ag5cfn\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-b1agm2d\.net\b" 	1;
+"~*\bxn\-\-\-\-btbdvdh4aafrfciljm6k\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-c1acygb\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-\-\-ctbbcjd3dbsehgi\.xn\-\-p1ai\b" 	1;
 "~*\bxn\-\-\-\-ctbigni3aj4h\.xn\-\-p1ai\b" 	1;
@@ -6352,6 +6377,7 @@
 "~*\byourserverisdown\.com\b" 	1;
 "~*\byoursite\.com\b" 	1;
 "~*\byourtemplatefinder\.com\b" 	1;
+"~*\byousense\.info\b" 	1;
 "~*\byou\-shall\-not\-pass\.is74\.ru\b" 	1;
 "~*\byouthreaders\.com\b" 	1;
 "~*\byoutoner\.it\b" 	1;
