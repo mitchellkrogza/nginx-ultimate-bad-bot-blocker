@@ -355,6 +355,7 @@ domain:allnews.md
 domain:allnews24.in
 domain:alloysteel.ru
 domain:allpdfmags.net
+domain:allproblog.com
 domain:allsilver925.co.il
 domain:allstatesugarbowl.org
 domain:alltheviews.com
@@ -1592,6 +1593,7 @@ domain:disruptingdinnerparties.com
 domain:distver.ru
 domain:div.as
 domain:divatraffic.com
+domain:divci-hry.info
 domain:dividendo.ru
 domain:divisioncore.com
 domain:divku.ru
@@ -2439,6 +2441,7 @@ domain:graphicwe.org
 domain:graphid.com
 domain:gratis-sexkontakte.com
 domain:gratuitbaise.com
+domain:gratuitxblcodes.com
 domain:greatdealshop.com
 domain:greatfind-a.akamaihd.net
 domain:greatgrace.ru
@@ -2623,6 +2626,7 @@ domain:hostingclub.lk
 domain:hostnow.men
 domain:hostsshop.ru
 domain:hotblog.top
+domain:hotblognetwork.com
 domain:hotchatdate.com
 domain:hotdl.in
 domain:hotel-mkad.ru
@@ -2773,6 +2777,7 @@ domain:infazavr.ru
 domain:infektsii.com
 domain:infobabki.ru
 domain:infodocsportal.com
+domain:infogame.name
 domain:infokonkurs.ru
 domain:informatiecentro.be
 domain:infospot.pt
@@ -3011,6 +3016,7 @@ domain:khafre.us
 domain:kichenaid.ru
 domain:kicknights.gq
 domain:kidd.reunionwatch.com
+domain:kidskunst.info
 domain:kiev.ua
 domain:kihi.gdn
 domain:kiinomaniak.pl
@@ -3108,6 +3114,7 @@ domain:krasula.pp.ua
 domain:kreativperlen.ch
 domain:kredit-blog.ru
 domain:kredit-pod-zalog-krasnodar.ru
+domain:kretpicf.pw
 domain:kriokomora.info
 domain:krynica.info
 domain:ks1234.com
@@ -3375,6 +3382,7 @@ domain:magnetpress.sk
 domain:mahnwachen-helfen.info
 domain:mail.allnews24.in
 domain:mailemedicinals.com
+domain:mainhp.net
 domain:mainlinehobby.net
 domain:maju.bluesalt.co
 domain:make-money-online.com
@@ -3741,6 +3749,7 @@ domain:myonigroup.com
 domain:myonlinepayday.co
 domain:myperiod.club
 domain:mypets.by
+domain:myphotopipe.com
 domain:myplaycity.com
 domain:mypornfree.ru
 domain:myprintscreen.com
@@ -3784,6 +3793,7 @@ domain:nationalbreakdown.com
 domain:naturalbreakthroughsresearch.com
 domain:naturalpharm.com.ua
 domain:naturalshair.site
+domain:naturtreenspicerx.pw
 domain:naughtyconnect.com
 domain:naval.jislaaik.com
 domain:navalwiki.info
@@ -5425,6 +5435,7 @@ domain:textads.men
 domain:tfxiq.com
 domain:tgtclick.com
 domain:thaisamkok.com
+domain:thaismartloan.com
 domain:the-torrent-tracker.blogspot.com
 domain:the-trader.net
 domain:the-usa-games.blogspot.com
@@ -5467,6 +5478,7 @@ domain:thexart.club
 domain:thfox.com
 domain:thiegs.reco.ws
 domain:thin.me.pn
+domain:threecolumnblogger.com
 domain:thruport.com
 domain:tiandeural.ru
 domain:ticketsys.inetwd.com

@@ -353,6 +353,7 @@
 "~*\ball\-number\.com\b" 	1;
 "~*\balloysteel\.ru\b" 	1;
 "~*\ballpdfmags\.net\b" 	1;
+"~*\ballproblog\.com\b" 	1;
 "~*\ballsilver925\.co\.il\b" 	1;
 "~*\ballstatesugarbowl\.org\b" 	1;
 "~*\ball\-streaming\-media\.com\b" 	1;
@@ -1592,6 +1593,7 @@
 "~*\bdistver\.ru\b" 	1;
 "~*\bdiv\.as\b" 	1;
 "~*\bdivatraffic\.com\b" 	1;
+"~*\bdivci\-hry\.info\b" 	1;
 "~*\bdividendo\.ru\b" 	1;
 "~*\bdivisioncore\.com\b" 	1;
 "~*\bdivku\.ru\b" 	1;
@@ -2438,6 +2440,7 @@
 "~*\bgraphid\.com\b" 	1;
 "~*\bgratis\-sexkontakte\.com\b" 	1;
 "~*\bgratuitbaise\.com\b" 	1;
+"~*\bgratuitxblcodes\.com\b" 	1;
 "~*\bgreatdealshop\.com\b" 	1;
 "~*\bgreatfind\-a\.akamaihd\.net\b" 	1;
 "~*\bgreatgrace\.ru\b" 	1;
@@ -2622,6 +2625,7 @@
 "~*\bhost\-protection\.com\b" 	1;
 "~*\bhostsshop\.ru\b" 	1;
 "~*\bhost\-tracker\.com\b" 	1;
+"~*\bhotblognetwork\.com\b" 	1;
 "~*\bhotblog\.top\b" 	1;
 "~*\bhotchatdate\.com\b" 	1;
 "~*\bhotdl\.in\b" 	1;
@@ -2771,6 +2775,7 @@
 "~*\binfektsii\.com\b" 	1;
 "~*\binfobabki\.ru\b" 	1;
 "~*\binfodocsportal\.com\b" 	1;
+"~*\binfogame\.name\b" 	1;
 "~*\binfokonkurs\.ru\b" 	1;
 "~*\binformatiecentro\.be\b" 	1;
 "~*\binfospot\.pt\b" 	1;
@@ -3011,6 +3016,7 @@
 "~*\bkichenaid\.ru\b" 	1;
 "~*\bkicknights\.gq\b" 	1;
 "~*\bkidd\.reunionwatch\.com\b" 	1;
+"~*\bkidskunst\.info\b" 	1;
 "~*\bkiev\.ua\b" 	1;
 "~*\bkihi\.gdn\b" 	1;
 "~*\bkiinomaniak\.pl\b" 	1;
@@ -3108,6 +3114,7 @@
 "~*\bkreativperlen\.ch\b" 	1;
 "~*\bkredit\-blog\.ru\b" 	1;
 "~*\bkredit\-pod\-zalog\-krasnodar\.ru\b" 	1;
+"~*\bkretpicf\.pw\b" 	1;
 "~*\bkriokomora\.info\b" 	1;
 "~*\bkrynica\.info\b" 	1;
 "~*\bks1234\.com\b" 	1;
@@ -3373,6 +3380,7 @@
 "~*\bmahnwachen\-helfen\.info\b" 	1;
 "~*\bmail\.allnews24\.in\b" 	1;
 "~*\bmailemedicinals\.com\b" 	1;
+"~*\bmainhp\.net\b" 	1;
 "~*\bmainlinehobby\.net\b" 	1;
 "~*\bmaju\.bluesalt\.co\b" 	1;
 "~*\bmakedo\.ru\b" 	1;
@@ -3741,6 +3749,7 @@
 "~*\bmyonlinepayday\.co\b" 	1;
 "~*\bmyperiod\.club\b" 	1;
 "~*\bmypets\.by\b" 	1;
+"~*\bmyphotopipe\.com\b" 	1;
 "~*\bmyplaycity\.com\b" 	1;
 "~*\bmypornfree\.ru\b" 	1;
 "~*\bmyprintscreen\.com\b" 	1;
@@ -3784,6 +3793,7 @@
 "~*\bnaturalbreakthroughsresearch\.com\b" 	1;
 "~*\bnaturalpharm\.com\.ua\b" 	1;
 "~*\bnaturalshair\.site\b" 	1;
+"~*\bnaturtreenspicerx\.pw\b" 	1;
 "~*\bnaughtyconnect\.com\b" 	1;
 "~*\bnaval\.jislaaik\.com\b" 	1;
 "~*\bnavalwiki\.info\b" 	1;
@@ -5425,6 +5435,7 @@
 "~*\btfxiq\.com\b" 	1;
 "~*\btgtclick\.com\b" 	1;
 "~*\bthaisamkok\.com\b" 	1;
+"~*\bthaismartloan\.com\b" 	1;
 "~*\btheallgirlarcade\.com\b" 	1;
 "~*\btheautoprofit\.ml\b" 	1;
 "~*\bthebestweightlosspills\.ovh\b" 	1;
@@ -5467,6 +5478,7 @@
 "~*\bthfox\.com\b" 	1;
 "~*\bthiegs\.reco\.ws\b" 	1;
 "~*\bthin\.me\.pn\b" 	1;
+"~*\bthreecolumnblogger\.com\b" 	1;
 "~*\bthruport\.com\b" 	1;
 "~*\btiandeural\.ru\b" 	1;
 "~*\bticketsys\.inetwd\.com\b" 	1;
