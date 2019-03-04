@@ -1122,6 +1122,7 @@
 "~*\bcdn\.walkme\.com\b" 	1;
 "~*\bcejewelry\.xyz\b" 	1;
 "~*\bcelebsopics\.com\b" 	1;
+"~*\bcelejihad\.info\b" 	1;
 "~*\bcellfun\.mobi\b" 	1;
 "~*\bcementaresearch\.se\b" 	1;
 "~*\bc\-english\.ru\b" 	1;
@@ -3396,6 +3397,7 @@
 "~*\bmanifestation\.betteroffers\.review\b" 	1;
 "~*\bmanimpotence\.com\b" 	1;
 "~*\bmanipulyator\-peterburg\.ru\b" 	1;
+"~*\bmansiondelrio\.co\b" 	1;
 "~*\bmansparskats\.com\b" 	1;
 "~*\bmantramusic\.ru\b" 	1;
 "~*\bmanualterap\.roleforum\.ru\b" 	1;
