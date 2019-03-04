@@ -1114,6 +1114,7 @@ domain:cb.iphantom.com
 domain:cbb1smartlist12.click
 domain:cbcseward.com
 domain:cbox.ws
+domain:cbozhe.com
 domain:ccbill.com
 domain:cctva.tv
 domain:cdn.walkme.com

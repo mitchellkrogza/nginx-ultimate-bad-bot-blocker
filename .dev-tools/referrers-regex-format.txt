@@ -1112,6 +1112,7 @@
 "~*\bcbcseward\.com\b" 	1;
 "~*\bcb\.iphantom\.com\b" 	1;
 "~*\bcbox\.ws\b" 	1;
+"~*\bcbozhe\.com\b" 	1;
 "~*\bccbill\.com\b" 	1;
 "~*\bcctva\.tv\b" 	1;
 "~*\bcdnanalytics\.xyz\b" 	1;
