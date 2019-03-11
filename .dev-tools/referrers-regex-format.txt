@@ -714,6 +714,7 @@
 "~*\bbecuo\.com\b" 	1;
 "~*\bbedandbreakfast\.com\b" 	1;
 "~*\bbedcapdealers\.com\b" 	1;
+"~*\bbeetpics\.pw\b" 	1;
 "~*\bbegalka\.xyz\b" 	1;
 "~*\bbeget\.tech\b" 	1;
 "~*\bbelinka\.com\.ua\b" 	1;
@@ -779,6 +780,7 @@
 "~*\bbeztuberkuleza\.ru\b" 	1;
 "~*\bbfz\.biz\b" 	1;
 "~*\bbg6s0\.com\b" 	1;
+"~*\bbget\.ru\b" 	1;
 "~*\bbharatdefencekavach\.com\b" 	1;
 "~*\bbibys\.com\b" 	1;
 "~*\bbidbuy\.co\.kr\b" 	1;
@@ -2494,6 +2496,7 @@
 "~*\bgz2\.bbsoldes\.fr\b" 	1;
 "~*\bh2monline\.com\b" 	1;
 "~*\bhabermetre\.com\b" 	1;
+"~*\bhackers\-crackers\.tk\b" 	1;
 "~*\bhacktougroup\.ru\b" 	1;
 "~*\bhahashka\.ru\b" 	1;
 "~*\bhaikuware\.com\b" 	1;
@@ -2692,6 +2695,7 @@
 "~*\bi4track\.net\b" 	1;
 "~*\biamsport\.org\b" 	1;
 "~*\bibb\.com\.ua\b" 	1;
+"~*\bibmdatamanagement\.co\b" 	1;
 "~*\biboss\.com\b" 	1;
 "~*\bicaseclub\.ru\b" 	1;
 "~*\biccornacircri\.cf\b" 	1;
@@ -2716,6 +2720,7 @@
 "~*\bigru\-xbox\.net\b" 	1;
 "~*\bigtools\.club\b" 	1;
 "~*\bi\-hobot\.ru\b" 	1;
+"~*\biideaidekonkatu\.info\b" 	1;
 "~*\biinstalll\-fii1leis\.jus0wil\.pp\.ua\b" 	1;
 "~*\bikearugs\.xyz\b" 	1;
 "~*\biklysha\.ml\b" 	1;
@@ -3152,6 +3157,7 @@
 "~*\blafourmiliaire\.com\b" 	1;
 "~*\blafriore\.ru\b" 	1;
 "~*\blakomka\.com\.ua\b" 	1;
+"~*\blalalove\.ru\b" 	1;
 "~*\blampokrat\.ws\b" 	1;
 "~*\blanadelreyfans\.us\b" 	1;
 "~*\blanasshop\.ru\b" 	1;
@@ -3667,6 +3673,7 @@
 "~*\bmoyakuhnia\.ru\b" 	1;
 "~*\bmoyaterapiya\.ru\b" 	1;
 "~*\bmoz\.com\b" 	1;
+"~*\bmozello\.ru\b" 	1;
 "~*\bmp3downloadhq\.com\b" 	1;
 "~*\bmp3films\.ru\b" 	1;
 "~*\bmp3ringtone\.info\b" 	1;
@@ -4587,6 +4594,7 @@
 "~*\breklama\-i\-rabota\.ru\b" 	1;
 "~*\breklamuss\.ru\b" 	1;
 "~*\brelax\.ru\b" 	1;
+"~*\brelayblog\.com\b" 	1;
 "~*\bremedyotc\.com\b" 	1;
 "~*\bremmling\.de\b" 	1;
 "~*\bremontbiz\.ru\b" 	1;
@@ -6003,6 +6011,7 @@
 "~*\bvysigy\.su\b" 	1;
 "~*\bvzglyadriv\.kg\b" 	1;
 "~*\bvzlom\-na\-zakaz\.com\b" 	1;
+"~*\bvzubah\.com\b" 	1;
 "~*\bvzube\.com\b" 	1;
 "~*\bw3data\.co\b" 	1;
 "~*\bw3javascript\.com\b" 	1;
