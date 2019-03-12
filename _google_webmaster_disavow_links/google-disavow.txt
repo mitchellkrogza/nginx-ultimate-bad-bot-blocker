@@ -747,6 +747,7 @@ domain:bestdooz.com
 domain:bestdraws.com
 domain:bestempresas.es
 domain:bestfortraders.com
+domain:besthomemadepornsites.com
 domain:besthoro.ru
 domain:bestimagecoollibrary.com
 domain:bestkfiledxd.cf
@@ -759,6 +760,7 @@ domain:bestplacetobuyeriacta.jw.lt
 domain:bestpriceninja.com
 domain:bestprofits-there.com
 domain:bestserials.com
+domain:bestsexyblog.com
 domain:bestssaker.com
 domain:besttorrentknifta.weebly.com
 domain:bestwaystogetpaid.us
@@ -1696,6 +1698,7 @@ domain:drupa.com
 domain:druzhbany.ru
 domain:druzhininevgeniy63.blogspot.com
 domain:dstroy.su
+domain:dtm-spain.com
 domain:dtnlyss.com
 domain:dumpsmania24.com
 domain:duplicashapp.com
@@ -2092,6 +2095,7 @@ domain:flash4fun.com
 domain:flashahead.info
 domain:flashbannernow.com
 domain:flashlarevista.com
+domain:flauntyoursite.com
 domain:flavors.me
 domain:flex4launch.ru
 domain:flipper.top
@@ -2799,6 +2803,8 @@ domain:insomniagamingfestival.com
 domain:inspiring-desperate.tk
 domain:insta-add.pro
 domain:instabid.tech
+domain:instakink.com
+domain:instasexyblog.com
 domain:insurple.com
 domain:int.search.mywebsearch.com
 domain:int.search.tb.ask.com
@@ -4120,6 +4126,7 @@ domain:patol01.pw
 domain:patterntrader-en.com
 domain:pattersonsweb.com
 domain:pavlodar.xkaz.org
+domain:pawli.eu
 domain:pay2me.pl
 domain:paydayloanslocal.com
 domain:paydayonlinecom.com
@@ -6232,6 +6239,7 @@ domain:xaijo.com
 domain:xaylapdiendanang.com
 domain:xbaboon.com
 domain:xblog.in
+domain:xblognetwork.com
 domain:xboxster.ru
 domain:xcc24.pl
 domain:xchangetrak.com

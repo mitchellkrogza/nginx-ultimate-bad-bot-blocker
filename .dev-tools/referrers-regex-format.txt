@@ -741,6 +741,7 @@
 "~*\bbestempresas\.es\b" 	1;
 "~*\bbestfortraders\.com\b" 	1;
 "~*\bbest\-games\.today\b" 	1;
+"~*\bbesthomemadepornsites\.com\b" 	1;
 "~*\bbesthoro\.ru\b" 	1;
 "~*\bbestimagecoollibrary\.com\b" 	1;
 "~*\bbestkfiledxd\.cf\b" 	1;
@@ -757,6 +758,7 @@
 "~*\bbest\-seo\-software\.xyz\b" 	1;
 "~*\bbest\-seo\-solution\.com\b" 	1;
 "~*\bbestserials\.com\b" 	1;
+"~*\bbestsexyblog\.com\b" 	1;
 "~*\bbestssaker\.com\b" 	1;
 "~*\bbesttorrentknifta\.weebly\.com\b" 	1;
 "~*\bbest\-way\.men\b" 	1;
@@ -1696,6 +1698,7 @@
 "~*\bdruzhbany\.ru\b" 	1;
 "~*\bdruzhininevgeniy63\.blogspot\.com\b" 	1;
 "~*\bdstroy\.su\b" 	1;
+"~*\bdtm\-spain\.com\b" 	1;
 "~*\bdtnlyss\.com\b" 	1;
 "~*\bdumpsmania24\.com\b" 	1;
 "~*\bduplicashapp\.com\b" 	1;
@@ -2090,6 +2093,7 @@
 "~*\bflashahead\.info\b" 	1;
 "~*\bflashbannernow\.com\b" 	1;
 "~*\bflashlarevista\.com\b" 	1;
+"~*\bflauntyoursite\.com\b" 	1;
 "~*\bflavors\.me\b" 	1;
 "~*\bflex4launch\.ru\b" 	1;
 "~*\bflipper\.top\b" 	1;
@@ -2797,6 +2801,8 @@
 "~*\binspiring\-desperate\.tk\b" 	1;
 "~*\binsta\-add\.pro\b" 	1;
 "~*\binstabid\.tech\b" 	1;
+"~*\binstakink\.com\b" 	1;
+"~*\binstasexyblog\.com\b" 	1;
 "~*\binsurple\.com\b" 	1;
 "~*\bin\-tandem\.co\b" 	1;
 "~*\bintegritylandscapeservices\.com\b" 	1;
@@ -4119,6 +4125,7 @@
 "~*\bpatterntrader\-en\.com\b" 	1;
 "~*\bpattersonsweb\.com\b" 	1;
 "~*\bpavlodar\.xkaz\.org\b" 	1;
+"~*\bpawli\.eu\b" 	1;
 "~*\bpay2me\.pl\b" 	1;
 "~*\bpaydayloanslocal\.com\b" 	1;
 "~*\bpaydayonlinecom\.com\b" 	1;
@@ -6222,6 +6229,7 @@
 "~*\bxaylapdiendanang\.com\b" 	1;
 "~*\bxbaboon\.com\b" 	1;
 "~*\bxblog\.in\b" 	1;
+"~*\bxblognetwork\.com\b" 	1;
 "~*\bxboxster\.ru\b" 	1;
 "~*\bxcc24\.pl\b" 	1;
 "~*\bxchangetrak\.com\b" 	1;
