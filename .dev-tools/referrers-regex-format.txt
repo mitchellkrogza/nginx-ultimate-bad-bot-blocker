@@ -189,6 +189,7 @@
 "~*\bacc\.eu\.org\b" 	1;
 "~*\bacgs\.tk\b" 	1;
 "~*\bacheterviagrafr24\.com\b" 	1;
+"~*\bacmebtn\.ml\b" 	1;
 "~*\bacortarurl\.es\b" 	1;
 "~*\bactices\.com\b" 	1;
 "~*\bactionnooz\.com\b" 	1;
@@ -371,6 +372,7 @@
 "~*\baltamayoztourism\.com\b" 	1;
 "~*\balta\-realestate\.com\b" 	1;
 "~*\balt\-servis\.ru\b" 	1;
+"~*\baludecor\.info\b" 	1;
 "~*\balveris\.ru\b" 	1;
 "~*\balvtank\.se\b" 	1;
 "~*\balyeskaresort\.com\b" 	1;
@@ -2587,6 +2589,7 @@
 "~*\bhikesearch\.net\b" 	1;
 "~*\bhildinghr\.se\b" 	1;
 "~*\bhimazin\.info\b" 	1;
+"~*\bhimgaws\.pw\b" 	1;
 "~*\bhistats\.com\b" 	1;
 "~*\bhistock\.info\b" 	1;
 "~*\bhistorichometeam\.com\b" 	1;
@@ -3304,6 +3307,7 @@
 "~*\blocalmatchbook\.com\b" 	1;
 "~*\blocatellicorretor\.com\.br\b" 	1;
 "~*\blocationdesaison\.com\b" 	1;
+"~*\blocimge\.pw\b" 	1;
 "~*\blockerz\.com\b" 	1;
 "~*\blocksmith\.jp\b" 	1;
 "~*\blocustdesign\.co\b" 	1;
@@ -4620,6 +4624,7 @@
 "~*\brenewablewealth\.com\b" 	1;
 "~*\brennlist\.com\b" 	1;
 "~*\brent2spb\.ru\b" 	1;
+"~*\brentalcarnavi\.info\b" 	1;
 "~*\brentaremotecomputer\.com\b" 	1;
 "~*\brentehno\.ru\b" 	1;
 "~*\brep\-am\.com\b" 	1;
@@ -5456,6 +5461,7 @@
 "~*\bthaismartloan\.com\b" 	1;
 "~*\btheallgirlarcade\.com\b" 	1;
 "~*\btheautoprofit\.ml\b" 	1;
+"~*\bthebestphotos\.eu\b" 	1;
 "~*\bthebestweightlosspills\.ovh\b" 	1;
 "~*\bthebitcoincode\.com\b" 	1;
 "~*\bthebluenoodle\.com\b" 	1;
@@ -5468,6 +5474,7 @@
 "~*\bthefarmergame\.com\b" 	1;
 "~*\bthefds\.net\b" 	1;
 "~*\bthefotosgratis\.eu\b" 	1;
+"~*\bthegalerie\.eu\b" 	1;
 "~*\bthegameriders\.com\b" 	1;
 "~*\bthegamerznetwork\.com\b" 	1;
 "~*\bthegioixekhach\.com\b" 	1;

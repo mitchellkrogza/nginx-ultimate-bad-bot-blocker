@@ -191,6 +191,7 @@ domain:acc.eu.org
 domain:accessoires-mode.in
 domain:acgs.tk
 domain:acheterviagrafr24.com
+domain:acmebtn.ml
 domain:acortarurl.es
 domain:actices.com
 domain:actionnooz.com
@@ -372,6 +373,7 @@ domain:alpinism.ru
 domain:alt-servis.ru
 domain:alta-realestate.com
 domain:altamayoztourism.com
+domain:aludecor.info
 domain:alveris.ru
 domain:alvtank.se
 domain:alyeskaresort.com
@@ -2587,6 +2589,7 @@ domain:highstairs-a.akamaihd.net
 domain:hikesearch.net
 domain:hildinghr.se
 domain:himazin.info
+domain:himgaws.pw
 domain:histats.com
 domain:histock.info
 domain:historichometeam.com
@@ -3304,6 +3307,7 @@ domain:localflirtbuddies.com
 domain:localmatchbook.com
 domain:locatellicorretor.com.br
 domain:locationdesaison.com
+domain:locimge.pw
 domain:lockerz.com
 domain:locksmith.jp
 domain:locustdesign.co
@@ -4620,6 +4624,7 @@ domain:renecaovillasale.online
 domain:renewablewealth.com
 domain:rennlist.com
 domain:rent2spb.ru
+domain:rentalcarnavi.info
 domain:rentaremotecomputer.com
 domain:rentehno.ru
 domain:rep-am.com
@@ -5459,6 +5464,7 @@ domain:the-trader.net
 domain:the-usa-games.blogspot.com
 domain:theallgirlarcade.com
 domain:theautoprofit.ml
+domain:thebestphotos.eu
 domain:thebestweightlosspills.ovh
 domain:thebitcoincode.com
 domain:thebluenoodle.com
@@ -5471,6 +5477,7 @@ domain:thedownloadfromwarez.blogspot.com
 domain:thefarmergame.com
 domain:thefds.net
 domain:thefotosgratis.eu
+domain:thegalerie.eu
 domain:thegameriders.com
 domain:thegamerznetwork.com
 domain:thegioixekhach.com
