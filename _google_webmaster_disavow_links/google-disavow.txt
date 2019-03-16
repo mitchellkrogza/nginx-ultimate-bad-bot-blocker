@@ -1043,6 +1043,7 @@ domain:callawaygolfstore.online
 domain:callcafe.info
 domain:callejondelpozo.es
 domain:callmd5map.com
+domain:callstevens.com
 domain:calstaterealty.us
 domain:calvet.altervista.org
 domain:cam-kontakte.org
@@ -1079,6 +1080,7 @@ domain:carfax.com.ua
 domain:carina-sy.de
 domain:carloans.com
 domain:carmuffler.net
+domain:carrauterie.be
 domain:cars-modification.net
 domain:carsdined.org
 domain:carson.getenjoyment.net
@@ -3513,6 +3515,7 @@ domain:megaindex.ru
 domain:megakino.net
 domain:megavolt.net.ua
 domain:meget.co.za
+domain:mejoresfotos.eu
 domain:meltwater.com
 domain:member-quiz.com
 domain:members.ghanaweb.com
@@ -4727,10 +4730,12 @@ domain:russkoe-zdorovie.ru
 domain:rustic-quiver.win
 domain:rutor.group
 domain:rutor.vip
+domain:rvi.biz
 domain:rvtv.ru
 domain:rvzr-a.akamaihd.net
 domain:rybalka-opt.ru
 domain:ryetaw.com
+domain:s-forum.biz
 domain:s-iwantyou.com
 domain:s.lollypopgaming.com
 domain:s8-nowy-wygraj.comli.com

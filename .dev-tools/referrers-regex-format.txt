@@ -1041,6 +1041,7 @@
 "~*\bcallejondelpozo\.es\b" 	1;
 "~*\bcallmd5map\.com\b" 	1;
 "~*\bcall\-of\-duty\.info\b" 	1;
+"~*\bcallstevens\.com\b" 	1;
 "~*\bcalstaterealty\.us\b" 	1;
 "~*\bcalvet\.altervista\.org\b" 	1;
 "~*\bcamdenmemorials\.com\b" 	1;
@@ -1077,6 +1078,7 @@
 "~*\bcarina\-sy\.de\b" 	1;
 "~*\bcarloans\.com\b" 	1;
 "~*\bcarmuffler\.net\b" 	1;
+"~*\bcarrauterie\.be\b" 	1;
 "~*\bcarsdined\.org\b" 	1;
 "~*\bcars\-modification\.net\b" 	1;
 "~*\bcarson\.getenjoyment\.net\b" 	1;
@@ -3511,6 +3513,7 @@
 "~*\bmega\-polis\.biz\.ua\b" 	1;
 "~*\bmegavolt\.net\.ua\b" 	1;
 "~*\bmeget\.co\.za\b" 	1;
+"~*\bmejoresfotos\.eu\b" 	1;
 "~*\bme\-ke\.com\b" 	1;
 "~*\bmeltwater\.com\b" 	1;
 "~*\bmember\-quiz\.com\b" 	1;
@@ -4727,6 +4730,7 @@
 "~*\brustic\-quiver\.win\b" 	1;
 "~*\brutor\.group\b" 	1;
 "~*\brutor\.vip\b" 	1;
+"~*\brvi\.biz\b" 	1;
 "~*\brvtv\.ru\b" 	1;
 "~*\brvzr\-a\.akamaihd\.net\b" 	1;
 "~*\brybalka\-opt\.ru\b" 	1;
@@ -4981,6 +4985,7 @@
 "~*\bsexytrend\.ru\b" 	1;
 "~*\bsfd\-chess\.ru\b" 	1;
 "~*\bsfj\-ror\.no\b" 	1;
+"~*\bs\-forum\.biz\b" 	1;
 "~*\bshakhtar\-doneck\.ru\b" 	1;
 "~*\bshama\-rc\.net\b" 	1;
 "~*\bsharebutton\.net\b" 	1;
