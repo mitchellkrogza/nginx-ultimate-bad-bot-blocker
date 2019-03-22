@@ -914,6 +914,7 @@
 "~*\bbosman\.pluto\.ro\b" 	1;
 "~*\bbouda\.kvalitne\.cz\b" 	1;
 "~*\bbpro1\.top\b" 	1;
+"~*\bbracketsmackdown\.com\b" 	1;
 "~*\bbrainboosting\.club\b" 	1;
 "~*\bbrainboostingsupplements\.org\b" 	1;
 "~*\bbraindaily\.xyz\b" 	1;
@@ -1143,6 +1144,7 @@
 "~*\bcentrumcoachingu\.com\b" 	1;
 "~*\bceotrk\.com\b" 	1;
 "~*\bcercacamion\.it\b" 	1;
+"~*\bcerev\.info\b" 	1;
 "~*\bcete\.ru\b" 	1;
 "~*\bcezartabac\.ro\b" 	1;
 "~*\bcfacarrosserie74\.com\b" 	1;
@@ -2327,6 +2329,7 @@
 "~*\bgenetworx\.com\b" 	1;
 "~*\bgentamicineyedrops\.blogspot\.com\b" 	1;
 "~*\bgeoads\.com\b" 	1;
+"~*\bgerhardhealer\.com\b" 	1;
 "~*\bgermes\-trans\.com\b" 	1;
 "~*\bgermetiki\.com\.ua\b" 	1;
 "~*\bgetaclueamerica\.com\b" 	1;
@@ -2559,6 +2562,7 @@
 "~*\bhealthcarestore\.info\b" 	1;
 "~*\bhealth\-medical\-portal\.info\b" 	1;
 "~*\bheartofbeijing\.blogspot\.com\b" 	1;
+"~*\bheartofpayne\.xyz\b" 	1;
 "~*\bheatpower\.ru\b" 	1;
 "~*\bhebr\.myddns\-flir\.com\b" 	1;
 "~*\bhelicalpile\.us\b" 	1;
@@ -2896,6 +2900,7 @@
 "~*\biwanttodeliver\.com\b" 	1;
 "~*\biweblist\.info\b" 	1;
 "~*\bix20\.ru\b" 	1;
+"~*\bixora\.pro\b" 	1;
 "~*\biyasimasennka\.com\b" 	1;
 "~*\bizhevsk\.xrus\.org\b" 	1;
 "~*\bizhevsk\.zrus\.org\b" 	1;
@@ -3140,6 +3145,7 @@
 "~*\bku6\.com\b" 	1;
 "~*\bkumuk\.info\b" 	1;
 "~*\bkung\-fu\-ru\.com\b" 	1;
+"~*\bkunstaktien\.info\b" 	1;
 "~*\bkupiproday\.com\.ua\b" 	1;
 "~*\bkupit\-adenu\.ru\b" 	1;
 "~*\bkurbappeal\.info\b" 	1;
@@ -3824,6 +3830,7 @@
 "~*\bneedtosellmyhousefast\.com\b" 	1;
 "~*\bnegociosdasha\.com\b" 	1;
 "~*\bnegral\.pluto\.ro\b" 	1;
+"~*\bneks\.info\b" 	1;
 "~*\bnelc\.edu\.eg\b" 	1;
 "~*\bneobux\-bg\.info\b" 	1;
 "~*\bneodownload\.webcam\b" 	1;
@@ -4207,6 +4214,7 @@
 "~*\bpicturesfrom\.com\b" 	1;
 "~*\bpicturesify\.com\b" 	1;
 "~*\bpicturesmania\.com\b" 	1;
+"~*\bpicurams\.pw\b" 	1;
 "~*\bpierrehardysale\.online\b" 	1;
 "~*\bpigrafix\.at\b" 	1;
 "~*\bpihl\.se\b" 	1;
@@ -4392,6 +4400,7 @@
 "~*\bpricheski\-video\.com\b" 	1;
 "~*\bprimedice\.com\b" 	1;
 "~*\bprinceadvantagesales\.com\b" 	1;
+"~*\bprincevc\.com\b" 	1;
 "~*\bprintdirectforless\.com\b" 	1;
 "~*\bprintie\.com\b" 	1;
 "~*\bprintingpeach\.com\b" 	1;

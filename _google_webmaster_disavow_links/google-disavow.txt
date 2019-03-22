@@ -915,6 +915,7 @@ domain:bosefux.esy.es
 domain:bosman.pluto.ro
 domain:bouda.kvalitne.cz
 domain:bpro1.top
+domain:bracketsmackdown.com
 domain:brainboosting.club
 domain:brainboostingsupplements.org
 domain:braindaily.xyz
@@ -1144,6 +1145,7 @@ domain:centre-indigo.org.ua
 domain:centrumcoachingu.com
 domain:ceotrk.com
 domain:cercacamion.it
+domain:cerev.info
 domain:cete.ru
 domain:cezartabac.ro
 domain:cfacarrosserie74.com
@@ -2328,6 +2330,7 @@ domain:generousdeal-a.akamaihd.net
 domain:genetworx.com
 domain:gentamicineyedrops.blogspot.com
 domain:geoads.com
+domain:gerhardhealer.com
 domain:germes-trans.com
 domain:germetiki.com.ua
 domain:get-free-social-traffic.com
@@ -2559,6 +2562,7 @@ domain:healmytrauma.info
 domain:health-medical-portal.info
 domain:healthcarestore.info
 domain:heartofbeijing.blogspot.com
+domain:heartofpayne.xyz
 domain:heatpower.ru
 domain:hebr.myddns-flir.com
 domain:helicalpile.us
@@ -2896,6 +2900,7 @@ domain:iwantmyfreecash.com
 domain:iwanttodeliver.com
 domain:iweblist.info
 domain:ix20.ru
+domain:ixora.pro
 domain:iyasimasennka.com
 domain:izhevsk.xrus.org
 domain:izhevsk.zrus.org
@@ -3140,6 +3145,7 @@ domain:ktotut.net
 domain:ku6.com
 domain:kumuk.info
 domain:kung-fu-ru.com
+domain:kunstaktien.info
 domain:kupiproday.com.ua
 domain:kupit-adenu.ru
 domain:kurbappeal.info
@@ -3824,6 +3830,7 @@ domain:nbsproject.ru
 domain:needtosellmyhousefast.com
 domain:negociosdasha.com
 domain:negral.pluto.ro
+domain:neks.info
 domain:nelc.edu.eg
 domain:neobux-bg.info
 domain:neodownload.webcam
@@ -4207,6 +4214,7 @@ domain:pictures-and-images.net
 domain:picturesfrom.com
 domain:picturesify.com
 domain:picturesmania.com
+domain:picurams.pw
 domain:pierrehardysale.online
 domain:pigrafix.at
 domain:pihl.se
@@ -4393,6 +4401,7 @@ domain:pricheskaonline.ru
 domain:pricheski-video.com
 domain:primedice.com
 domain:princeadvantagesales.com
+domain:princevc.com
 domain:printdirectforless.com
 domain:printie.com
 domain:printingpeach.com
