@@ -638,6 +638,7 @@
 "~*\bbabespcs\.com\b" 	1;
 "~*\bbabieca\.com\b" 	1;
 "~*\bbablonow\.ru\b" 	1;
+"~*\bbabosas\.com\b" 	1;
 "~*\bbabs\.com\.ua\b" 	1;
 "~*\bbabyfactory\.fr\b" 	1;
 "~*\bbabyguns\.ru\b" 	1;
@@ -807,6 +808,7 @@
 "~*\bbinaryoptionscops\.info\b" 	1;
 "~*\bbin\-brokers\.com\b" 	1;
 "~*\bbingo8888\.com\b" 	1;
+"~*\bbingoporno\.com\b" 	1;
 "~*\bbinomo\.com\b" 	1;
 "~*\bbinomo\.kz\b" 	1;
 "~*\bbioca\.org\b" 	1;
@@ -1695,6 +1697,7 @@
 "~*\bdriving\.kiev\.ua\b" 	1;
 "~*\bdrivotracker\.com\b" 	1;
 "~*\bdroidlook\.net\b" 	1;
+"~*\bdrpornogratisx\.xxx\b" 	1;
 "~*\bdrugs\-no\-rx\.info\b" 	1;
 "~*\bdrugspowerstore\.com\b" 	1;
 "~*\bdrugstoreforyou\.com\b" 	1;
@@ -2020,6 +2023,7 @@
 "~*\bfeel\-planet\.com\b" 	1;
 "~*\bfeeriaclub\.ru\b" 	1;
 "~*\bfefo\.gdn\b" 	1;
+"~*\bfelizporno\.com\b" 	1;
 "~*\bfellowshipoftheminds\.com\b" 	1;
 "~*\bfemdom\.twiclub\.in\b" 	1;
 "~*\bfemmesdenudees\.com\b" 	1;
@@ -2491,6 +2495,7 @@
 "~*\bgtopstats\.com\b" 	1;
 "~*\bguardlink\.com\b" 	1;
 "~*\bguardlink\.org\b" 	1;
+"~*\bguarrasdelporno\.xxx\b" 	1;
 "~*\bguge\.io\b" 	1;
 "~*\bguiadeserraazul\.com\b" 	1;
 "~*\bguigyverpo\.cf\b" 	1;
@@ -2850,6 +2855,7 @@
 "~*\biphantom\.com\b" 	1;
 "~*\biplogger\.org\b" 	1;
 "~*\biplusbit\.blogspot\.co\.za\b" 	1;
+"~*\bipornox\.xxx\b" 	1;
 "~*\bipostroika\.ru\b" 	1;
 "~*\biptool\.xyz\b" 	1;
 "~*\biqbazar\.ru\b" 	1;
@@ -2957,6 +2963,7 @@
 "~*\bjose\.mulinohouse\.co\b" 	1;
 "~*\bjournalhome\.com\b" 	1;
 "~*\bjourneydownthescale\.info\b" 	1;
+"~*\bjovencitas\.gratis\b" 	1;
 "~*\bjpcycles\.com\b" 	1;
 "~*\bjrcigars\.com\b" 	1;
 "~*\bjrpmakati\.com\b" 	1;
@@ -3703,7 +3710,9 @@
 "~*\bmriyadh\.com\b" 	1;
 "~*\bmrlmedia\.net\b" 	1;
 "~*\bmrmoneymustache\.com\b" 	1;
+"~*\bmrpornogratis\.xxx\b" 	1;
 "~*\bmrsdalloways\.com\b" 	1;
+"~*\bmrvideospornogratis\.xxx\b" 	1;
 "~*\bmrwhite\.biz\b" 	1;
 "~*\bmsfsaar\.de\b" 	1;
 "~*\bmsk\.afora\.ru\b" 	1;
@@ -3732,6 +3741,7 @@
 "~*\bmusirc\.com\b" 	1;
 "~*\bmustat\.com\b" 	1;
 "~*\bmustwineblog\.com\b" 	1;
+"~*\bmuycerdas\.xxx\b" 	1;
 "~*\bmuzaporn\.com\b" 	1;
 "~*\bmuz\-baza\.net\b" 	1;
 "~*\bmuznachas\-service\.ru\b" 	1;
@@ -4056,6 +4066,7 @@
 "~*\borel\-reshka\.net\b" 	1;
 "~*\borenburg\-gsm\.ru\b" 	1;
 "~*\boren\-cats\.ru\b" 	1;
+"~*\borgasmatrix\.com\b" 	1;
 "~*\borgasmus\-virtual\.com\b" 	1;
 "~*\borhonit\.com\b" 	1;
 "~*\borigin\-my\.ru\b" 	1;
@@ -4320,6 +4331,7 @@
 "~*\bporn555\.com\b" 	1;
 "~*\bporndairy\.in\b" 	1;
 "~*\bporndl\.org\b" 	1;
+"~*\bporndroids\.com\b" 	1;
 "~*\bporngalleries\.top\b" 	1;
 "~*\bpornhive\.org\b" 	1;
 "~*\bpornhub\-forum\.ga\b" 	1;
@@ -4332,9 +4344,11 @@
 "~*\bpornodojd\.ru\b" 	1;
 "~*\bporno\-dojki\.net\b" 	1;
 "~*\bpornoelita\.info\b" 	1;
+"~*\bpornofeuer\.com\b" 	1;
 "~*\bpornofiljmi\.com\b" 	1;
 "~*\bpornoforadult\.com\b" 	1;
 "~*\bpornogig\.com\b" 	1;
+"~*\bpornogratisdiario\.com\b" 	1;
 "~*\bpornohd1080\.online\b" 	1;
 "~*\bpornokajf\.com\b" 	1;
 "~*\bpornoklad\.net\b" 	1;
@@ -4346,6 +4360,7 @@
 "~*\bporno\-play\.net\b" 	1;
 "~*\bpornoplen\.com\b" 	1;
 "~*\bporno\-raskazy\.ru\b" 	1;
+"~*\bpornoreino\.com\b" 	1;
 "~*\bpornosee\.info\b" 	1;
 "~*\bpornosemki\.info\b" 	1;
 "~*\bporno\.simple\-image\.com\.ua\b" 	1;
@@ -4354,6 +4369,7 @@
 "~*\bporno\-transsexuals\.ru\b" 	1;
 "~*\bpornotubexxx\.name\b" 	1;
 "~*\bporno\-video\-chati\.ru\b" 	1;
+"~*\bpornoxxx\.com\.mx\b" 	1;
 "~*\bpornpost\.in\b" 	1;
 "~*\bpornstartits\.xblog\.in\b" 	1;
 "~*\bporn\-w\.org\b" 	1;
@@ -4949,6 +4965,7 @@
 "~*\bservice\-core\.ru\b" 	1;
 "~*\bserving\.adbetclickin\.pink\b" 	1;
 "~*\bservingnotice\.com\b" 	1;
+"~*\bserviporno\.com\b" 	1;
 "~*\bservisural\.ru\b" 	1;
 "~*\bserw\.clicksor\.com\b" 	1;
 "~*\bseryeznie\-znakomstva\.ru\b" 	1;
@@ -5070,6 +5087,7 @@
 "~*\bsindragosa\.comxa\.com\b" 	1;
 "~*\bsinel\.info\b" 	1;
 "~*\bsinestesia\.host\.sk\b" 	1;
+"~*\bsirpornogratis\.xxx\b" 	1;
 "~*\bsisiynas\.ru\b" 	1;
 "~*\bsispe\.com\.br\b" 	1;
 "~*\bsite3\.free\-share\-buttons\.com\b" 	1;
@@ -5909,6 +5927,7 @@
 "~*\bvenerologiya\.com\b" 	1;
 "~*\bventa\-prom\.ru\b" 	1;
 "~*\bventelnos\.com\b" 	1;
+"~*\bveopornogratis\.xxx\b" 	1;
 "~*\bvepad\.com\b" 	1;
 "~*\bvereo\.eu\b" 	1;
 "~*\bversaut\.xxx\-cam\.webcam\b" 	1;
@@ -5950,6 +5969,7 @@
 "~*\bvideosbox\.ru\b" 	1;
 "~*\bvideos\-for\-your\-business\.com\b" 	1;
 "~*\bvideositename\.com\b" 	1;
+"~*\bvideospornogratisx\.net\b" 	1;
 "~*\bvideotuber\.ru\b" 	1;
 "~*\bvideo\-woman\.com\b" 	1;
 "~*\bvidetubs\.pl\b" 	1;
