@@ -372,6 +372,7 @@ SEOlyticsCrawler
 Seomoz
 SEOprofiler
 seoscanners
+SeoSiteCheckup
 SEOstats
 sexsearcher
 Shodan

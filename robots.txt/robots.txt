@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2019.03.1354
-### Updated: Thu Mar 28 10:40:22 SAST 2019
-### Bad Bot Count: 533
+### Version: V3.2019.03.1355
+### Updated: Thu Mar 28 11:52:35 SAST 2019
+### Bad Bot Count: 534
 ###################################################
 ### Version Information ##
 
@@ -762,6 +762,8 @@ Disallow:/
 User-agent: SEOprofiler
 Disallow:/
 User-agent: seoscanners
+Disallow:/
+User-agent: SeoSiteCheckup
 Disallow:/
 User-agent: SEOstats
 Disallow:/
