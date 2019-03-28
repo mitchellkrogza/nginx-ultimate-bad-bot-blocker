@@ -291,6 +291,7 @@ domain:aghanyna.com
 domain:agreda.pluto.ro
 domain:agroeconom.kz
 domain:agysya.ru
+domain:ahmedabadwebs.com
 domain:ahrefs.com
 domain:ahrntal.verymes.xyz
 domain:aibolita.com
@@ -318,6 +319,7 @@ domain:alert-hgd.xyz
 domain:alert-jdh.xyz
 domain:alert.scansafe.net
 domain:alessandraleone.com
+domain:alevinefesleri.com
 domain:alf-img.com
 domain:alfa-img.com
 domain:alfa-medosmotr.ru
@@ -906,6 +908,7 @@ domain:bonvillan.com
 domain:bonzbuddy.com
 domain:bonzibuddi.com
 domain:bonzybuddy.com
+domain:boo-arts.com
 domain:boobsimge.com
 domain:bookhome.info
 domain:bookmaker-bet.com
@@ -1642,6 +1645,7 @@ domain:dokfilms.net
 domain:doktoronline.no
 domain:dokumentalkino.net
 domain:dollartree.info
+domain:dolohen.com
 domain:domain-submit.info
 domain:domain-tracker.com
 domain:domain.webkeyit.com
@@ -2763,6 +2767,7 @@ domain:images-free.net
 domain:images-graphics-pics.com
 domain:images.gyffu.com
 domain:imagine-ex.co
+domain:imagui.eu
 domain:imediadesk.com
 domain:imfamous.info
 domain:img.wallpaperstock.net
@@ -3087,6 +3092,7 @@ domain:kletkimehan.ru
 domain:klikbonus.com
 domain:kliksaya.com
 domain:klin3952.ru
+domain:klitimg.pw
 domain:klosetkitten.com
 domain:klumba55.ru
 domain:kmd-pto.ru
@@ -3863,6 +3869,7 @@ domain:new-post.tk
 domain:new7ob.com
 domain:newhairstylesformen2014.com
 domain:news-readers.ru
+domain:news-speaker.com
 domain:newsperuse.com
 domain:newstaffadsshop.club
 domain:newstraveller.ru
@@ -5293,6 +5300,7 @@ domain:stal-rulon.ru
 domain:standardchartered-forex.com
 domain:stanthonyscatholicchurch.org
 domain:star61.de
+domain:stard.shop
 domain:stardevine.com
 domain:stariy-baku.com
 domain:starpages.net
@@ -5506,6 +5514,7 @@ domain:thecoral.com.br
 domain:thecounter.com
 domain:thedownloadfreeonlinegames.blogspot.com
 domain:thedownloadfromwarez.blogspot.com
+domain:theendivechronicles.com
 domain:thefarmergame.com
 domain:thefds.net
 domain:thefotosgratis.eu

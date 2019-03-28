@@ -290,6 +290,7 @@
 "~*\bagreda\.pluto\.ro\b" 	1;
 "~*\bagroeconom\.kz\b" 	1;
 "~*\bagysya\.ru\b" 	1;
+"~*\bahmedabadwebs\.com\b" 	1;
 "~*\bahrefs\.com\b" 	1;
 "~*\bahrntal\.verymes\.xyz\b" 	1;
 "~*\baibolita\.com\b" 	1;
@@ -317,6 +318,7 @@
 "~*\balert\-jdh\.xyz\b" 	1;
 "~*\balert\.scansafe\.net\b" 	1;
 "~*\balessandraleone\.com\b" 	1;
+"~*\balevinefesleri\.com\b" 	1;
 "~*\balfa9\.com\b" 	1;
 "~*\balfabot\.xyz\b" 	1;
 "~*\balfa\-img\.com\b" 	1;
@@ -905,6 +907,7 @@
 "~*\bbonzbuddy\.com\b" 	1;
 "~*\bbonzibuddi\.com\b" 	1;
 "~*\bbonzybuddy\.com\b" 	1;
+"~*\bboo\-arts\.com\b" 	1;
 "~*\bboobsimge\.com\b" 	1;
 "~*\bbookhome\.info\b" 	1;
 "~*\bbookmaker\-bet\.com\b" 	1;
@@ -1642,6 +1645,7 @@
 "~*\bdoktoronline\.no\b" 	1;
 "~*\bdokumentalkino\.net\b" 	1;
 "~*\bdollartree\.info\b" 	1;
+"~*\bdolohen\.com\b" 	1;
 "~*\bdomain2008\.com\b" 	1;
 "~*\bdomainanalyzing\.xyz\b" 	1;
 "~*\bdomaincdn\.xyz\b" 	1;
@@ -2761,6 +2765,7 @@
 "~*\bimages\-graphics\-pics\.com\b" 	1;
 "~*\bimages\.gyffu\.com\b" 	1;
 "~*\bimagine\-ex\.co\b" 	1;
+"~*\bimagui\.eu\b" 	1;
 "~*\bimediadesk\.com\b" 	1;
 "~*\bimfamous\.info\b" 	1;
 "~*\bimgarcade\.com\b" 	1;
@@ -3087,6 +3092,7 @@
 "~*\bklikbonus\.com\b" 	1;
 "~*\bkliksaya\.com\b" 	1;
 "~*\bklin3952\.ru\b" 	1;
+"~*\bklitimg\.pw\b" 	1;
 "~*\bklosetkitten\.com\b" 	1;
 "~*\bklumba55\.ru\b" 	1;
 "~*\bkmd\-pto\.ru\b" 	1;
@@ -3864,6 +3870,7 @@
 "~*\bnew\-post\.tk\b" 	1;
 "~*\bnewsperuse\.com\b" 	1;
 "~*\bnews\-readers\.ru\b" 	1;
+"~*\bnews\-speaker\.com\b" 	1;
 "~*\bnewstaffadsshop\.club\b" 	1;
 "~*\bnewstraveller\.ru\b" 	1;
 "~*\bnewstudio\.tv\b" 	1;
@@ -5294,6 +5301,7 @@
 "~*\bstanthonyscatholicchurch\.org\b" 	1;
 "~*\bstar61\.de\b" 	1;
 "~*\bstardevine\.com\b" 	1;
+"~*\bstard\.shop\b" 	1;
 "~*\bstariy\-baku\.com\b" 	1;
 "~*\bstarpages\.net\b" 	1;
 "~*\bstart\.myplaycity\.com\b" 	1;
@@ -5503,6 +5511,7 @@
 "~*\bthecounter\.com\b" 	1;
 "~*\bthedownloadfreeonlinegames\.blogspot\.com\b" 	1;
 "~*\bthedownloadfromwarez\.blogspot\.com\b" 	1;
+"~*\btheendivechronicles\.com\b" 	1;
 "~*\bthefarmergame\.com\b" 	1;
 "~*\bthefds\.net\b" 	1;
 "~*\bthefotosgratis\.eu\b" 	1;
