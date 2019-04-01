@@ -1,13 +1,3 @@
-x22JDatabase
-x22JSimple
-x22cache
-x22assert
-x22sanitize
-x22init
-x22feed
-x22num
-s1z.ru
-CheTeam
 360Spider
 404checker
 404enemy
@@ -74,6 +64,7 @@ CCBot
 Cegbfeieh
 CheeseBot
 CherryPicker
+CheTeam
 ChinaClaw
 Chlooe
 Claritybot
@@ -365,6 +356,7 @@ RepoMonkey
 Ripper
 RocketCrawler
 Rogerbot
+s1z.ru
 SalesIntelligent
 SBIder
 ScanAlert
@@ -526,7 +518,15 @@ WWW-Mechanize
 WWW::Mechanize
 WWWOFFLE
 x09Mozilla
+x22assert
+x22cache
+x22feed
+x22init
+x22JDatabase
+x22JSimple
 x22Mozilla
+x22num
+x22sanitize
 Xaldon_WebSpider
 Xaldon\ WebSpider
 Xenu

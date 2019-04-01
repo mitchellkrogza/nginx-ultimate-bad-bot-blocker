@@ -4767,6 +4767,7 @@
 "~*\brvzr\-a\.akamaihd\.net\b" 	1;
 "~*\brybalka\-opt\.ru\b" 	1;
 "~*\bryetaw\.com\b" 	1;
+"~*\bs1z\.ru\b" 	1;
 "~*\bs8\-nowy\-wygraj\.comli\.com\b" 	1;
 "~*\bsabaapress\.com\b" 	1;
 "~*\bsabizonline\.com\b" 	1;
