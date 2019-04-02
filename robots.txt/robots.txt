@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2019.04.1358
-### Updated: Mon Apr  1 13:31:14 SAST 2019
-### Bad Bot Count: 544
+### Version: V3.2019.04.1359
+### Updated: Tue Apr  2 11:23:41 SAST 2019
+### Bad Bot Count: 536
 ###################################################
 ### Version Information ##
 
@@ -1055,23 +1055,7 @@ User-agent: WWWOFFLE
 Disallow:/
 User-agent: x09Mozilla
 Disallow:/
-User-agent: x22assert
-Disallow:/
-User-agent: x22cache
-Disallow:/
-User-agent: x22feed
-Disallow:/
-User-agent: x22init
-Disallow:/
-User-agent: x22JDatabase
-Disallow:/
-User-agent: x22JSimple
-Disallow:/
 User-agent: x22Mozilla
-Disallow:/
-User-agent: x22num
-Disallow:/
-User-agent: x22sanitize
 Disallow:/
 User-agent: Xaldon_WebSpider
 Disallow:/
