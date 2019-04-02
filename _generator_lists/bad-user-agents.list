@@ -518,15 +518,7 @@ WWW-Mechanize
 WWW::Mechanize
 WWWOFFLE
 x09Mozilla
-x22assert
-x22cache
-x22feed
-x22init
-x22JDatabase
-x22JSimple
 x22Mozilla
-x22num
-x22sanitize
 Xaldon_WebSpider
 Xaldon\ WebSpider
 Xenu
