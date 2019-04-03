@@ -2791,6 +2791,7 @@
 "~*\binboxdollars\.com\b" 	1;
 "~*\bincanto\.in\.ua\b" 	1;
 "~*\bincep\.imagine\-ex\.co\b" 	1;
+"~*\bincest\-ru\.com\b" 	1;
 "~*\binclk\.com\b" 	1;
 "~*\bincolors\.club\b" 	1;
 "~*\bincomekey\.net\b" 	1;
@@ -4376,6 +4377,7 @@
 "~*\bporno\-transsexuals\.ru\b" 	1;
 "~*\bpornotubexxx\.name\b" 	1;
 "~*\bporno\-video\-chati\.ru\b" 	1;
+"~*\bpornowarp\.info\b" 	1;
 "~*\bpornoxxx\.com\.mx\b" 	1;
 "~*\bpornpost\.in\b" 	1;
 "~*\bpornstartits\.xblog\.in\b" 	1;
@@ -4923,6 +4925,7 @@
 "~*\bsei80\.com\b" 	1;
 "~*\bseinterface\.com\b" 	1;
 "~*\bseksotur\.ru\b" 	1;
+"~*\bseksvideoonlain\.com\b" 	1;
 "~*\bselectads\.men\b" 	1;
 "~*\bsel\-hoz\.com\b" 	1;
 "~*\bsell\-fb\-group\-here\.com\b" 	1;

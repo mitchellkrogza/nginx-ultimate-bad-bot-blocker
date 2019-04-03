@@ -4,8 +4,8 @@
 ### PLEASE READ CONFIGURATION INSTRUCTIONS BELOW THOROUGHLY :exclamation:
 
 _______________
-#### Version: V3.2019.04.1359
-#### Bad Referrer Count: 6592
+#### Version: V3.2019.04.1360
+#### Bad Referrer Count: 6595
 #### Bad Bot Count: 536
 ____________________
 
