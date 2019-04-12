@@ -69,6 +69,7 @@ domain:2728fb936f0.com
 domain:273-fz.ru
 domain:28n2gl3wfyb0.ru
 domain:2ads.co.uk
+domain:2daytrendingnews.com
 domain:2drittel.de
 domain:2girls1cup-free.com
 domain:2itech.ru
@@ -234,6 +235,7 @@ domain:adobereader-free.ru
 domain:adpremium.org
 domain:adprotect.net
 domain:adrenalin-stk.ru
+domain:adrunnr.com
 domain:ads-cool.pro
 domain:ads-seo.men
 domain:ads.gold
@@ -356,6 +358,7 @@ domain:allkrim.com
 domain:allmarketsnewdayli.gdn
 domain:allnews.md
 domain:allnews24.in
+domain:allornamenti.com
 domain:alloysteel.ru
 domain:allpdfmags.net
 domain:allproblog.com
@@ -866,6 +869,7 @@ domain:bloggen.be
 domain:bloggerads.net
 domain:bloggers.nl
 domain:blogig.org
+domain:bloglag.com
 domain:blogos.kz
 domain:blogporn.in
 domain:blogqpot.com
@@ -2071,6 +2075,7 @@ domain:filmetricsasia.com
 domain:filmfanatic.com
 domain:filmgo.ru
 domain:filmi-onlain.info
+domain:filmi-v.online
 domain:filmidivx.com
 domain:filunika.com.ru
 domain:financehint.eu
@@ -2306,6 +2311,7 @@ domain:gateway.zscalerone.net
 domain:gateway.zscalertwo.net
 domain:gavuer.ru
 domain:gay-file.com
+domain:gay-site.store
 domain:gay.adultgalls.com
 domain:gaygalls.net
 domain:gaytube.com
@@ -2933,10 +2939,12 @@ domain:japfm.com
 domain:jasonpartington.com
 domain:jav-fetish.com
 domain:jav-fetish.site
+domain:jav-way.site
 domain:javatex.co.id
 domain:javcoast.com
 domain:javitas.info
 domain:javrip.net
+domain:javstock.com
 domain:jaxcube.info
 domain:jbl-charge.info
 domain:je7.us
@@ -3302,6 +3310,7 @@ domain:lisque.batcave.net
 domain:littleberry.ru
 domain:littlecity.ch
 domain:littlesunraiser.com
+domain:liumimgx.pw
 domain:liupis.com
 domain:live-sexcam.tk
 domain:live-sexchat.ru
@@ -3683,6 +3692,7 @@ domain:morf.snn.gr
 domain:morlat.altervista.org
 domain:morocco-nomad-excursions.com
 domain:moroccosurfadventures.com
+domain:morpicert.pw
 domain:moscow-clining.ru
 domain:moscow-region.ru
 domain:moscow.online-podarki.com
@@ -4264,6 +4274,7 @@ domain:pixelrz.com
 domain:pixgood.com
 domain:pixshark.com
 domain:pizda.lol
+domain:pizdeishn.com
 domain:pizdopletka.club
 domain:pizza-imperia.com
 domain:pizza-tycoon.com
@@ -4747,6 +4758,7 @@ domain:running-line.ru
 domain:runofilms.ru
 domain:runstocks.com
 domain:runtnc.net
+domain:rus-pornuha.com
 domain:rus-teh.narod.ru
 domain:ruscoininvest.company
 domain:ruscopybook.com
@@ -5009,6 +5021,7 @@ domain:sexphoto.site
 domain:sexreliz.com
 domain:sexsaoy.com
 domain:sexsearch.com
+domain:sexspornotub.com
 domain:sexstream.pl
 domain:sextracker.be
 domain:sextracker.com
@@ -6395,6 +6408,7 @@ domain:xtubeporno.net
 domain:xuki.us
 domain:xvideosbay.com
 domain:xvideosporn.biz
+domain:xvideospornoru.com
 domain:xwatt.ru
 domain:xxart.ru
 domain:xxlargepop.com

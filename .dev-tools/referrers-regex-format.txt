@@ -69,6 +69,7 @@
 "~*\b273\-fz\.ru\b" 	1;
 "~*\b28n2gl3wfyb0\.ru\b" 	1;
 "~*\b2ads\.co\.uk\b" 	1;
+"~*\b2daytrendingnews\.com\b" 	1;
 "~*\b2drittel\.de\b" 	1;
 "~*\b2girls1cup\-free\.com\b" 	1;
 "~*\b2itech\.ru\b" 	1;
@@ -231,6 +232,7 @@
 "~*\badpremium\.org\b" 	1;
 "~*\badprotect\.net\b" 	1;
 "~*\badrenalin\-stk\.ru\b" 	1;
+"~*\badrunnr\.com\b" 	1;
 "~*\bads\-cool\.pro\b" 	1;
 "~*\badserver\-e7\.com\b" 	1;
 "~*\badservme\.com\b" 	1;
@@ -354,6 +356,7 @@
 "~*\ballnews24\.in\b" 	1;
 "~*\ballnews\.md\b" 	1;
 "~*\ball\-number\.com\b" 	1;
+"~*\ballornamenti\.com\b" 	1;
 "~*\balloysteel\.ru\b" 	1;
 "~*\ballpdfmags\.net\b" 	1;
 "~*\ballproblog\.com\b" 	1;
@@ -863,6 +866,7 @@
 "~*\bblogig\.org\b" 	1;
 "~*\bblog\.koorg\.ru\b" 	1;
 "~*\bblog\.koreadaily\.com\b" 	1;
+"~*\bbloglag\.com\b" 	1;
 "~*\bblogos\.kz\b" 	1;
 "~*\bblogporn\.in\b" 	1;
 "~*\bblogqpot\.com\b" 	1;
@@ -2068,6 +2072,7 @@
 "~*\bfilmgo\.ru\b" 	1;
 "~*\bfilmidivx\.com\b" 	1;
 "~*\bfilmi\-onlain\.info\b" 	1;
+"~*\bfilmi\-v\.online\b" 	1;
 "~*\bfilm\-one\.ru\b" 	1;
 "~*\bfil\.ru\b" 	1;
 "~*\bfilunika\.com\.ru\b" 	1;
@@ -2307,6 +2312,7 @@
 "~*\bgay\.adultgalls\.com\b" 	1;
 "~*\bgay\-file\.com\b" 	1;
 "~*\bgaygalls\.net\b" 	1;
+"~*\bgay\-site\.store\b" 	1;
 "~*\bgaytube\.com\b" 	1;
 "~*\bgayxperience\.com\b" 	1;
 "~*\bgazobeton\-p\.com\.ua\b" 	1;
@@ -2936,6 +2942,8 @@
 "~*\bjav\-fetish\.site\b" 	1;
 "~*\bjavitas\.info\b" 	1;
 "~*\bjavrip\.net\b" 	1;
+"~*\bjavstock\.com\b" 	1;
+"~*\bjav\-way\.site\b" 	1;
 "~*\bjaxcube\.info\b" 	1;
 "~*\bjbl\-charge\.info\b" 	1;
 "~*\bje7\.us\b" 	1;
@@ -3302,6 +3310,7 @@
 "~*\blittleberry\.ru\b" 	1;
 "~*\blittlecity\.ch\b" 	1;
 "~*\blittlesunraiser\.com\b" 	1;
+"~*\bliumimgx\.pw\b" 	1;
 "~*\bliupis\.com\b" 	1;
 "~*\blivefixer\.com\b" 	1;
 "~*\bliveinternet\.ro\b" 	1;
@@ -3683,6 +3692,7 @@
 "~*\bmorlat\.altervista\.org\b" 	1;
 "~*\bmorocco\-nomad\-excursions\.com\b" 	1;
 "~*\bmoroccosurfadventures\.com\b" 	1;
+"~*\bmorpicert\.pw\b" 	1;
 "~*\bmoscow\-clining\.ru\b" 	1;
 "~*\bmoscow\.online\-podarki\.com\b" 	1;
 "~*\bmoscow\-region\.ru\b" 	1;
@@ -4264,6 +4274,7 @@
 "~*\bpix\-hd\.com\b" 	1;
 "~*\bpixshark\.com\b" 	1;
 "~*\bpizda\.lol\b" 	1;
+"~*\bpizdeishn\.com\b" 	1;
 "~*\bpizdopletka\.club\b" 	1;
 "~*\bpizza\-imperia\.com\b" 	1;
 "~*\bpizza\-tycoon\.com\b" 	1;
@@ -4753,6 +4764,7 @@
 "~*\brusexy\.xyz\b" 	1;
 "~*\brusoft\-zone\.ru\b" 	1;
 "~*\bruspdd\.com\b" 	1;
+"~*\brus\-pornuha\.com\b" 	1;
 "~*\brusprostitute\.com\b" 	1;
 "~*\brussian\-postindex\.ru\b" 	1;
 "~*\brussia\-tao\.ru\b" 	1;
@@ -5003,6 +5015,7 @@
 "~*\bsexsaoy\.com\b" 	1;
 "~*\bsexsearch\.com\b" 	1;
 "~*\bsex\-sex\-sex5\.com\b" 	1;
+"~*\bsexspornotub\.com\b" 	1;
 "~*\bsexstream\.pl\b" 	1;
 "~*\bsextracker\.be\b" 	1;
 "~*\bsex\-tracker\.com\b" 	1;
@@ -6395,6 +6408,7 @@
 "~*\bxuki\.us\b" 	1;
 "~*\bxvideosbay\.com\b" 	1;
 "~*\bxvideosporn\.biz\b" 	1;
+"~*\bxvideospornoru\.com\b" 	1;
 "~*\bxwatt\.ru\b" 	1;
 "~*\bxxart\.ru\b" 	1;
 "~*\bxxlargepop\.com\b" 	1;
