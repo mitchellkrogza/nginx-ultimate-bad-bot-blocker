@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2019.04.1368
-### Updated: Sun Apr 14 19:01:58 SAST 2019
-### Bad Referrer Count: 6609
+### Version: V3.2019.04.1369
+### Updated: Mon Apr 15 09:28:39 SAST 2019
+### Bad Referrer Count: 6613
 ### Bad Bot Count: 536
 ###################################################
 ### VERSION INFORMATION ##
@@ -1537,6 +1537,7 @@ map $http_referer $bad_referer {
 	"~*\bayanaspa\.com\b" 	1;
 	"~*\bayeartoforget\.com\b" 	1;
 	"~*\bayerbo\.xhost\.ro\b" 	1;
+	"~*\bayodhya\.co\b" 	1;
 	"~*\bazadnegar\.com\b" 	1;
 	"~*\bazartclub\.org\b" 	1;
 	"~*\bazartmix\.com\b" 	1;
@@ -2636,6 +2637,7 @@ map $http_referer $bad_referer {
 	"~*\bdvervmoskvu\.ru\b" 	1;
 	"~*\bdvr\.biz\.ua\b" 	1;
 	"~*\bdvrlists\.com\b" 	1;
+	"~*\bdwomlink\.info\b" 	1;
 	"~*\bdynainbox\.com\b" 	1;
 	"~*\bdyshagi\.ru\b" 	1;
 	"~*\bdyt\.net\b" 	1;
@@ -6218,6 +6220,7 @@ map $http_referer $bad_referer {
 	"~*\bsrgwebmail\.nl\b" 	1;
 	"~*\bsribno\.net\b" 	1;
 	"~*\bsr\-rekneskap\.no\b" 	1;
+	"~*\bssconstruction\.co\b" 	1;
 	"~*\bsstroy44\.ru\b" 	1;
 	"~*\bstackthatbucks\.com\b" 	1;
 	"~*\bstaff\.prairiesouth\.ca\b" 	1;
@@ -6840,6 +6843,7 @@ map $http_referer $bad_referer {
 	"~*\bvancleefreplica\.pw\b" 	1;
 	"~*\bvandrie\-ict\.nl\b" 	1;
 	"~*\bvapeface\.club\b" 	1;
+	"~*\bvapomnoncri\.tk\b" 	1;
 	"~*\bvapsy\.com\b" 	1;
 	"~*\bvarbergsvind\.se\b" 	1;
 	"~*\bvarikoz24\.com\b" 	1;
@@ -9576,6 +9580,7 @@ geo $validate_client {
 	51.38.64.33		1;
 	51.38.68.96		1;
 	51.38.81.250		1;
+	51.38.99.169		1;
 	5.140.233.110		1;
 	5.141.200.248		1;
 	5.141.211.185		1;

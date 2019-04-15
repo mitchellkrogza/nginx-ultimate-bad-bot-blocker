@@ -626,6 +626,7 @@
 "~*\bayanaspa\.com\b" 	1;
 "~*\bayeartoforget\.com\b" 	1;
 "~*\bayerbo\.xhost\.ro\b" 	1;
+"~*\bayodhya\.co\b" 	1;
 "~*\bazadnegar\.com\b" 	1;
 "~*\bazartclub\.org\b" 	1;
 "~*\bazartmix\.com\b" 	1;
@@ -1725,6 +1726,7 @@
 "~*\bdvervmoskvu\.ru\b" 	1;
 "~*\bdvr\.biz\.ua\b" 	1;
 "~*\bdvrlists\.com\b" 	1;
+"~*\bdwomlink\.info\b" 	1;
 "~*\bdynainbox\.com\b" 	1;
 "~*\bdyshagi\.ru\b" 	1;
 "~*\bdyt\.net\b" 	1;
@@ -5307,6 +5309,7 @@
 "~*\bsrgwebmail\.nl\b" 	1;
 "~*\bsribno\.net\b" 	1;
 "~*\bsr\-rekneskap\.no\b" 	1;
+"~*\bssconstruction\.co\b" 	1;
 "~*\bsstroy44\.ru\b" 	1;
 "~*\bstackthatbucks\.com\b" 	1;
 "~*\bstaff\.prairiesouth\.ca\b" 	1;
@@ -5929,6 +5932,7 @@
 "~*\bvancleefreplica\.pw\b" 	1;
 "~*\bvandrie\-ict\.nl\b" 	1;
 "~*\bvapeface\.club\b" 	1;
+"~*\bvapomnoncri\.tk\b" 	1;
 "~*\bvapsy\.com\b" 	1;
 "~*\bvarbergsvind\.se\b" 	1;
 "~*\bvarikoz24\.com\b" 	1;

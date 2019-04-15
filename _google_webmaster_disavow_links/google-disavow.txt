@@ -626,6 +626,7 @@ domain:ayakino.net
 domain:ayanaspa.com
 domain:ayeartoforget.com
 domain:ayerbo.xhost.ro
+domain:ayodhya.co
 domain:azadnegar.com
 domain:azartclub.org
 domain:azartmix.com
@@ -1725,6 +1726,7 @@ domain:dverimegapolis.ru
 domain:dvervmoskvu.ru
 domain:dvr.biz.ua
 domain:dvrlists.com
+domain:dwomlink.info
 domain:dynainbox.com
 domain:dyshagi.ru
 domain:dyt.net
@@ -5307,6 +5309,7 @@ domain:srdrvp.com
 domain:srecorder.com
 domain:srgwebmail.nl
 domain:sribno.net
+domain:ssconstruction.co
 domain:sstroy44.ru
 domain:stackthatbucks.com
 domain:staff.prairiesouth.ca
@@ -5930,6 +5933,7 @@ domain:valueclick.com
 domain:vancleefreplica.pw
 domain:vandrie-ict.nl
 domain:vapeface.club
+domain:vapomnoncri.tk
 domain:vapsy.com
 domain:varbergsvind.se
 domain:varikoz24.com
