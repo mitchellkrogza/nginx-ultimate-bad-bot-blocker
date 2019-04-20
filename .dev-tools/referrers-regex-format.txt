@@ -4389,6 +4389,7 @@
 "~*\bpornosmola\.info\b" 	1;
 "~*\bporno\-transsexuals\.ru\b" 	1;
 "~*\bpornotubexxx\.name\b" 	1;
+"~*\bpornotubs\.com\b" 	1;
 "~*\bporno\-video\-chati\.ru\b" 	1;
 "~*\bpornowarp\.info\b" 	1;
 "~*\bpornoxxx\.com\.mx\b" 	1;
@@ -4731,6 +4732,7 @@
 "~*\broll123\.com\b" 	1;
 "~*\broma\-kukareku\.livejournal\.com\b" 	1;
 "~*\brome2rio\.com\b" 	1;
+"~*\bromhacking\.ru\b" 	1;
 "~*\broofers\.org\.uk\b" 	1;
 "~*\brootandroid\.org\b" 	1;
 "~*\brosbalt\.com\.ua\b" 	1;
@@ -5004,8 +5006,10 @@
 "~*\bsex\-dating\.co\b" 	1;
 "~*\bsexflirtbook\.com\b" 	1;
 "~*\bsex\-foto\.pw\b" 	1;
+"~*\bsexfreepornoxxx\.com\b" 	1;
 "~*\bsexgalleries\.top\b" 	1;
 "~*\bsex\.hotblog\.top\b" 	1;
+"~*\bsexiporno\.net\b" 	1;
 "~*\bsexkontakteao\.info\b" 	1;
 "~*\bsexkontakte\-seite\.com\b" 	1;
 "~*\bsexkrasivo\.net\b" 	1;
@@ -5170,6 +5174,7 @@
 "~*\bsluganarodu\.ru\b" 	1;
 "~*\bslujbauborki\.ru\b" 	1;
 "~*\bslutloadlive\.com\b" 	1;
+"~*\bsmadihome\.com\b" 	1;
 "~*\bsmailik\.org\b" 	1;
 "~*\bsmall\-game\.com\b" 	1;
 "~*\bsmall\-games\.biz\b" 	1;
