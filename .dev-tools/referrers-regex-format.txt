@@ -1738,6 +1738,7 @@
 "~*\bearl\-brown\.info\b" 	1;
 "~*\bearncash\.com\.ua\b" 	1;
 "~*\bearn\-from\-articles\.com\b" 	1;
+"~*\bearthmagic\.info\b" 	1;
 "~*\beas\-seo\.com\b" 	1;
 "~*\beasycommerce\.cf\b" 	1;
 "~*\beasync\.io\b" 	1;
@@ -1793,6 +1794,7 @@
 "~*\belectrik\-avenue\.com\b" 	1;
 "~*\belectronicadirect\.com\b" 	1;
 "~*\belectro\-prom\.com\b" 	1;
+"~*\beleimgo\.pw\b" 	1;
 "~*\belektir\.ru\b" 	1;
 "~*\belektrischezi\.canalblog\.com\b" 	1;
 "~*\belektrischeziga\.livejournal\.com\b" 	1;
