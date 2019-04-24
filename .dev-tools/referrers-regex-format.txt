@@ -1590,6 +1590,7 @@
 "~*\bdiffbot\.com\b" 	1;
 "~*\bdigest\-project\.ru\b" 	1;
 "~*\bdigilander\.libero\.it\b" 	1;
+"~*\bdigitalassetmanagement\.site\b" 	1;
 "~*\bdigitalfaq\.com\b" 	1;
 "~*\bdigital\-sale\.su\b" 	1;
 "~*\bdigital\-video\-processing\.com\b" 	1;
@@ -3535,6 +3536,7 @@
 "~*\bmeduza\-consult\.ru\b" 	1;
 "~*\bmed\-zdorovie\.com\.ua\b" 	1;
 "~*\bmeendo\-free\-traffic\.ga\b" 	1;
+"~*\bmeet\-flirt\-dating\.com\b" 	1;
 "~*\bmeetingrainstorm\.bid\b" 	1;
 "~*\bmeetlocalchicks\.com\b" 	1;
 "~*\bmegaapteka\.ru\b" 	1;
@@ -4241,9 +4243,11 @@
 "~*\bpicsfair\.com\b" 	1;
 "~*\bpicsforkeywordsuggestion\.com\b" 	1;
 "~*\bpics\-group\.com\b" 	1;
+"~*\bpicswe\.com\b" 	1;
 "~*\bpicture\-group\.com\b" 	1;
 "~*\bpictures\-and\-images\.com\b" 	1;
 "~*\bpictures\-and\-images\.net\b" 	1;
+"~*\bpicturesboss\.com\b" 	1;
 "~*\bpicturesfrom\.com\b" 	1;
 "~*\bpicturesify\.com\b" 	1;
 "~*\bpicturesmania\.com\b" 	1;
@@ -5388,6 +5392,7 @@
 "~*\bstrv\.se\b" 	1;
 "~*\bstudents\-cheapskate\.ml\b" 	1;
 "~*\bstudiofaca\.com\b" 	1;
+"~*\bstudiofmp\.com\b" 	1;
 "~*\bstudiokamyk\.com\.pl\b" 	1;
 "~*\bstuff\-about\-money\.com\b" 	1;
 "~*\bstyro\.ru\b" 	1;

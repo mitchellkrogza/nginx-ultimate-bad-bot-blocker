@@ -1592,6 +1592,7 @@ domain:digest-project.ru
 domain:digilander.libero.it
 domain:digital-sale.su
 domain:digital-video-processing.com
+domain:digitalassetmanagement.site
 domain:digitalfaq.com
 domain:dignitasdata.se
 domain:dikqlyremy.info
@@ -3537,6 +3538,7 @@ domain:meds-online24.com
 domain:medtherapy.ru
 domain:meduza-consult.ru
 domain:meendo-free-traffic.ga
+domain:meet-flirt-dating.com
 domain:meetingrainstorm.bid
 domain:meetlocalchicks.com
 domain:mega-bony-2017.pl
@@ -4241,9 +4243,11 @@ domain:picscout.com
 domain:picsearch.com
 domain:picsfair.com
 domain:picsforkeywordsuggestion.com
+domain:picswe.com
 domain:picture-group.com
 domain:pictures-and-images.com
 domain:pictures-and-images.net
+domain:picturesboss.com
 domain:picturesfrom.com
 domain:picturesify.com
 domain:picturesmania.com
@@ -5388,6 +5392,7 @@ domain:stroyplus.ru
 domain:strv.se
 domain:students-cheapskate.ml
 domain:studiofaca.com
+domain:studiofmp.com
 domain:studiokamyk.com.pl
 domain:stuff-about-money.com
 domain:styro.ru
