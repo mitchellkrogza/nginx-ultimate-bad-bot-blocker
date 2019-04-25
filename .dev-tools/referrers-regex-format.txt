@@ -1454,6 +1454,7 @@
 "~*\bcubook\.supernew\.org\b" 	1;
 "~*\bcubs\-jerseys\.us\b" 	1;
 "~*\bculad\.com\b" 	1;
+"~*\bculmimg\.pw\b" 	1;
 "~*\bculturevie\.info\b" 	1;
 "~*\bcupday\.com\b" 	1;
 "~*\bcustodieva\.ru\b" 	1;
@@ -4003,6 +4004,7 @@
 "~*\bohmyrings\.com\b" 	1;
 "~*\boil\-td\.ru\b" 	1;
 "~*\bokayimage\.com\b" 	1;
+"~*\bokeinfo\.online\b" 	1;
 "~*\bokel\.co\b" 	1;
 "~*\boklogistic\.ru\b" 	1;
 "~*\bokmusic\.jp\b" 	1;
@@ -5061,6 +5063,7 @@
 "~*\bshemale\-sex\.net\b" 	1;
 "~*\bsherlock\.se\b" 	1;
 "~*\bshijian\.ac\.cn\b" 	1;
+"~*\bshikiso\.info\b" 	1;
 "~*\bshiksabd\.com\b" 	1;
 "~*\bshillyourcoins\.com\b" 	1;
 "~*\bshinikiev\.com\.ua\b" 	1;
