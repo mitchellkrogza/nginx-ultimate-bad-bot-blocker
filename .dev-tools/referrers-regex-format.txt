@@ -1133,6 +1133,7 @@
 "~*\bcbox\.ws\b" 	1;
 "~*\bcbozhe\.com\b" 	1;
 "~*\bccbill\.com\b" 	1;
+"~*\bccjp\.eu\b" 	1;
 "~*\bcctva\.tv\b" 	1;
 "~*\bcdnanalytics\.xyz\b" 	1;
 "~*\bcdncash\.com\b" 	1;
@@ -2547,6 +2548,7 @@
 "~*\bhard\-porn\.mobi\b" 	1;
 "~*\bharmonyglen\.us\b" 	1;
 "~*\bhasfun\.com\b" 	1;
+"~*\bhasshe\.com\b" 	1;
 "~*\bhatdc\.org\b" 	1;
 "~*\bhatedriveapart\.com\b" 	1;
 "~*\bhauleddes\.com\b" 	1;
@@ -2650,6 +2652,7 @@
 "~*\bhomemature\.net\b" 	1;
 "~*\bhome\.myplaycity\.com\b" 	1;
 "~*\bhome\-task\.com\b" 	1;
+"~*\bhomik\.pw\b" 	1;
 "~*\bhonyaku\.yahoofs\.jp\b" 	1;
 "~*\bhop\.clickbank\.net\b" 	1;
 "~*\bhopeonthestreet\.co\.uk\b" 	1;
@@ -4731,6 +4734,7 @@
 "~*\brniaeba\.ga\b" 	1;
 "~*\brn\-to\-bsn\.com\b" 	1;
 "~*\brobot\-forex\.biz\b" 	1;
+"~*\brock\-cafe\.info\b" 	1;
 "~*\brocketchange\.ru\b" 	1;
 "~*\brockingclicks\.com\b" 	1;
 "~*\brockma\.se\b" 	1;
@@ -5024,6 +5028,7 @@
 "~*\bsexobzor\.info\b" 	1;
 "~*\bsexpartygirls\.net\b" 	1;
 "~*\bsexphoto\.site\b" 	1;
+"~*\bsexpornotales\.com\b" 	1;
 "~*\bsex\-pr\.net\b" 	1;
 "~*\bsexreliz\.com\b" 	1;
 "~*\bsexsaoy\.com\b" 	1;
@@ -5127,6 +5132,7 @@
 "~*\bsinel\.info\b" 	1;
 "~*\bsinestesia\.host\.sk\b" 	1;
 "~*\bsirpornogratis\.xxx\b" 	1;
+"~*\bsisi\-go\.ru\b" 	1;
 "~*\bsisiynas\.ru\b" 	1;
 "~*\bsispe\.com\.br\b" 	1;
 "~*\bsite3\.free\-share\-buttons\.com\b" 	1;
@@ -6283,6 +6289,7 @@
 "~*\bworst\-sites\.online\b" 	1;
 "~*\bwosik\-dach\.service\-for\-web\.de\b" 	1;
 "~*\bwowas31\.ucoz\.ru\b" 	1;
+"~*\bwowcasinoonline\.ooo\b" 	1;
 "~*\bwoweb\.com\.ua\b" 	1;
 "~*\bwpsecurity\.website\b" 	1;
 "~*\bwpthemedetector\.co\.uk\b" 	1;
@@ -6343,6 +6350,7 @@
 "~*\bx\-lime\.net\b" 	1;
 "~*\bxlolitka\.com\b" 	1;
 "~*\bxlovecam\.com\b" 	1;
+"~*\bx\-mix\.info\b" 	1;
 "~*\bxmladserver\.com\b" 	1;
 "~*\bxmlinde\.com\b" 	1;
 "~*\bxmronta\.com\b" 	1;

@@ -1135,6 +1135,7 @@ domain:cbcseward.com
 domain:cbox.ws
 domain:cbozhe.com
 domain:ccbill.com
+domain:ccjp.eu
 domain:cctva.tv
 domain:cdn.walkme.com
 domain:cdnanalytics.xyz
@@ -2547,6 +2548,7 @@ domain:happy.new.yeartwit.com
 domain:hard-porn.mobi
 domain:harmonyglen.us
 domain:hasfun.com
+domain:hasshe.com
 domain:hatdc.org
 domain:hatedriveapart.com
 domain:hauleddes.com
@@ -2650,6 +2652,7 @@ domain:homeinns.com
 domain:homelygarden.com
 domain:homemade.gq
 domain:homemature.net
+domain:homik.pw
 domain:honyaku.yahoofs.jp
 domain:hop.clickbank.net
 domain:hopeonthestreet.co.uk
@@ -4731,6 +4734,7 @@ domain:rixpix.ru
 domain:rn-to-bsn.com
 domain:rniaeba.ga
 domain:robot-forex.biz
+domain:rock-cafe.info
 domain:rocketchange.ru
 domain:rockingclicks.com
 domain:rockma.se
@@ -5032,6 +5036,7 @@ domain:sexkrasivo.net
 domain:sexobzor.info
 domain:sexpartygirls.net
 domain:sexphoto.site
+domain:sexpornotales.com
 domain:sexreliz.com
 domain:sexsaoy.com
 domain:sexsearch.com
@@ -5130,6 +5135,7 @@ domain:sindragosa.comxa.com
 domain:sinel.info
 domain:sinestesia.host.sk
 domain:sirpornogratis.xxx
+domain:sisi-go.ru
 domain:sisiynas.ru
 domain:sispe.com.br
 domain:site-analyzer.com
@@ -6283,6 +6289,7 @@ domain:wormix-cheats.ru
 domain:worst-sites.online
 domain:wosik-dach.service-for-web.de
 domain:wowas31.ucoz.ru
+domain:wowcasinoonline.ooo
 domain:woweb.com.ua
 domain:wpsecurity.website
 domain:wpthemedetector.co.uk
@@ -6314,6 +6321,7 @@ domain:x-diesel.com
 domain:x-diesel.info
 domain:x-diesel.org
 domain:x-lime.net
+domain:x-mix.info
 domain:x-musics.com
 domain:x-porno.video
 domain:x-rates.ru
