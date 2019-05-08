@@ -1698,6 +1698,7 @@
 "~*\bdowntuptv\.gq\b" 	1;
 "~*\bdownvids\.net\b" 	1;
 "~*\bdoxyporno\.com\b" 	1;
+"~*\bdoxysexy\.com\b" 	1;
 "~*\bdoyouknowtheword\-flummox\.ml\b" 	1;
 "~*\bdpihatinh\.gov\.vn\b" 	1;
 "~*\bdprtb\.com\b" 	1;
@@ -2283,6 +2284,7 @@
 "~*\bgalaxyflowers\.ru\b" 	1;
 "~*\bgalaxys6manual\.info\b" 	1;
 "~*\bgaleon\.com\b" 	1;
+"~*\bgaleria\-zdjec\.com\b" 	1;
 "~*\bgallerily\.com\b" 	1;
 "~*\bgalleryawesome\.com\b" 	1;
 "~*\bgallerylisting\.com\b" 	1;
@@ -5358,6 +5360,7 @@
 "~*\bstauga\.altervista\.org\b" 	1;
 "~*\bstaynplay\.net\b" 	1;
 "~*\bsteame\.ru\b" 	1;
+"~*\bsteamoff\.net\b" 	1;
 "~*\bsteelmaster\.lv\b" 	1;
 "~*\bstefanbakosab\.se\b" 	1;
 "~*\bsterva\.cc\b" 	1;
@@ -5571,6 +5574,7 @@
 "~*\bthepantonpractice\.co\.uk\b" 	1;
 "~*\btheplacetoupdating\.pw\b" 	1;
 "~*\bthepokertimer\.com\b" 	1;
+"~*\btheporndude\.com\b" 	1;
 "~*\btheprofitsmaker\.net\b" 	1;
 "~*\bthesmartsearch\.net\b" 	1;
 "~*\bthetardistimes\.ovh\b" 	1;

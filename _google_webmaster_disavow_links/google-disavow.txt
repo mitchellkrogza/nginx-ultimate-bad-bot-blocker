@@ -1698,6 +1698,7 @@ domain:downloads-whatsapp.com
 domain:downtuptv.gq
 domain:downvids.net
 domain:doxyporno.com
+domain:doxysexy.com
 domain:doyouknowtheword-flummox.ml
 domain:dpihatinh.gov.vn
 domain:dprtb.com
@@ -2284,6 +2285,7 @@ domain:galaxy-family.ru
 domain:galaxyflowers.ru
 domain:galaxys6manual.info
 domain:galeon.com
+domain:galeria-zdjec.com
 domain:gallerily.com
 domain:gallery.rennlist.com
 domain:galleryawesome.com
@@ -5358,6 +5360,7 @@ domain:statustroll.com
 domain:stauga.altervista.org
 domain:staynplay.net
 domain:steame.ru
+domain:steamoff.net
 domain:steelmaster.lv
 domain:stefanbakosab.se
 domain:sterva.cc
@@ -5574,6 +5577,7 @@ domain:thenews-today.info
 domain:thepantonpractice.co.uk
 domain:theplacetoupdating.pw
 domain:thepokertimer.com
+domain:theporndude.com
 domain:theprofitsmaker.net
 domain:thesmartsearch.net
 domain:thetardistimes.ovh
