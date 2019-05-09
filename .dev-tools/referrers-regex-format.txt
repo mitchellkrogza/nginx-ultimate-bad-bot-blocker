@@ -2758,6 +2758,7 @@
 "~*\bigrovyeavtomaty777\.ru\b" 	1;
 "~*\bigru\-xbox\.net\b" 	1;
 "~*\bigtools\.club\b" 	1;
+"~*\bihc2015\.info\b" 	1;
 "~*\bi\-hobot\.ru\b" 	1;
 "~*\biideaidekonkatu\.info\b" 	1;
 "~*\biinstalll\-fii1leis\.jus0wil\.pp\.ua\b" 	1;
@@ -4307,6 +4308,7 @@
 "~*\bplatezhka\.net\b" 	1;
 "~*\bplatinumdeals\.gr\b" 	1;
 "~*\bplayboyfiles\.xblog\.in\b" 	1;
+"~*\bplayfortuna\-play\.ru\b" 	1;
 "~*\bplay\.leadzupc\.com\b" 	1;
 "~*\bplaylott\.com\b" 	1;
 "~*\bplay\-movie\.pl\b" 	1;
@@ -4552,6 +4554,7 @@
 "~*\bpushdata\.sendpulse\.com\b" 	1;
 "~*\bpussyfleet\.com\b" 	1;
 "~*\bpussysaga\.com\b" 	1;
+"~*\bpussyspace\.net\b" 	1;
 "~*\bputeshestvennik\.com\b" 	1;
 "~*\bputevka24\.ru\b" 	1;
 "~*\bputitin\.me\b" 	1;
@@ -5710,6 +5713,7 @@
 "~*\btopsy\.com\b" 	1;
 "~*\btopvidos\.ru\b" 	1;
 "~*\btorontoplumbinggroup\.com\b" 	1;
+"~*\btorrentdownloadhub\.com\b" 	1;
 "~*\btorrentgamer\.net\b" 	1;
 "~*\btorrent\-newgames\.com\b" 	1;
 "~*\btorrents\.cd\b" 	1;
