@@ -2188,6 +2188,7 @@
 "~*\bfoxtechfpv\.com\b" 	1;
 "~*\bfoxweber\.com\b" 	1;
 "~*\bfoxydeal\.com\b" 	1;
+"~*\bframeimage\.org\b" 	1;
 "~*\bfranch\.info\b" 	1;
 "~*\bfranecki\.net\b" 	1;
 "~*\bfranklinfire\.co\b" 	1;
@@ -3806,6 +3807,7 @@
 "~*\bmyghillie\.info\b" 	1;
 "~*\bmyhealthcare\.com\b" 	1;
 "~*\bmyhitmp3\.club\b" 	1;
+"~*\bmyhydros\.org\b" 	1;
 "~*\bmyindospace\.com\b" 	1;
 "~*\bmyiptest\.com\b" 	1;
 "~*\bmykings\.pw\b" 	1;

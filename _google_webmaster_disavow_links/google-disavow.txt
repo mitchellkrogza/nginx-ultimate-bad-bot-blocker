@@ -2190,6 +2190,7 @@ domain:foxweber.com
 domain:foxydeal.com
 domain:fr-bearings.ru
 domain:fr.netlog.com
+domain:frameimage.org
 domain:franch.info
 domain:franecki.net
 domain:franklinfire.co
@@ -3806,6 +3807,7 @@ domain:mygameplus.ru
 domain:myghillie.info
 domain:myhealthcare.com
 domain:myhitmp3.club
+domain:myhydros.org
 domain:myindospace.com
 domain:myiptest.com
 domain:mykings.pw
