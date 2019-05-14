@@ -4987,6 +4987,7 @@
 "~*\bseoholding\.com\b" 	1;
 "~*\bseojokes\.net\b" 	1;
 "~*\bseokicks\.de\b" 	1;
+"~*\bseolab\.top\b" 	1;
 "~*\bseomarketings\.online\b" 	1;
 "~*\bseonetwizard\.com\b" 	1;
 "~*\bseo\-platform\.com\b" 	1;
@@ -6357,6 +6358,7 @@
 "~*\bxjlottery\.com\b" 	1;
 "~*\bxjrul\.com\b" 	1;
 "~*\bxkaz\.org\b" 	1;
+"~*\bx\-lime\.com\b" 	1;
 "~*\bx\-lime\.net\b" 	1;
 "~*\bxlolitka\.com\b" 	1;
 "~*\bxlovecam\.com\b" 	1;

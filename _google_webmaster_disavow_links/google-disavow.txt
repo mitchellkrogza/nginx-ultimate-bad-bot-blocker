@@ -4995,6 +4995,7 @@ domain:seoheap.com
 domain:seoholding.com
 domain:seojokes.net
 domain:seokicks.de
+domain:seolab.top
 domain:seomarketings.online
 domain:seonetwizard.com
 domain:seoprofiler.com
@@ -6330,6 +6331,7 @@ domain:x-diesel.biz
 domain:x-diesel.com
 domain:x-diesel.info
 domain:x-diesel.org
+domain:x-lime.com
 domain:x-lime.net
 domain:x-mix.info
 domain:x-musics.com
