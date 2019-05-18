@@ -3290,6 +3290,7 @@ domain:life-instyle.com
 domain:life.biz.ua
 domain:lifebyleese.com
 domain:lifehacĸer.com
+domain:lifeinsurancekb.com
 domain:liffa.ru
 domain:light.ifmo.ru
 domain:lightinghomes.net
@@ -4982,6 +4983,7 @@ domain:sendearnings.com
 domain:senger.atspace.co.uk
 domain:seo-2-0.com
 domain:seo-platform.com
+domain:seo-prof1.xyz
 domain:seo-smm.kz
 domain:seo-tools-optimizing.com
 domain:seo-traffic-ranking.info

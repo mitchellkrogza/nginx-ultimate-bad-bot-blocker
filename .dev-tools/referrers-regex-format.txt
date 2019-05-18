@@ -3290,6 +3290,7 @@
 "~*\blifebyleese\.com\b" 	1;
 "~*\blifehacĸer\.com\b" 	1;
 "~*\blife\-instyle\.com\b" 	1;
+"~*\blifeinsurancekb\.com\b" 	1;
 "~*\bliffa\.ru\b" 	1;
 "~*\blight\.ifmo\.ru\b" 	1;
 "~*\blightinghomes\.net\b" 	1;
@@ -4994,6 +4995,7 @@
 "~*\bseomarketings\.online\b" 	1;
 "~*\bseonetwizard\.com\b" 	1;
 "~*\bseo\-platform\.com\b" 	1;
+"~*\bseo\-prof1\.xyz\b" 	1;
 "~*\bseoprofiler\.com\b" 	1;
 "~*\bseorank\.info\b" 	1;
 "~*\bseorankinglinks\.com\b" 	1;
