@@ -1753,6 +1753,7 @@
 "~*\be\-biznes\.info\b" 	1;
 "~*\bebooknovel\.club\b" 	1;
 "~*\be\-buyeasy\.com\b" 	1;
+"~*\be\-c\.al\b" 	1;
 "~*\bec\-file\.info\b" 	1;
 "~*\be\-collantes\.com\b" 	1;
 "~*\be\-commerce\-seo1\.com\b" 	1;
@@ -2938,6 +2939,7 @@
 "~*\bizismile\.com\b" 	1;
 "~*\bizoll\.ru\b" 	1;
 "~*\bj33x\.com\b" 	1;
+"~*\bjabimgo\.pw\b" 	1;
 "~*\bjacago\.com\b" 	1;
 "~*\bjackpotchances\.com\b" 	1;
 "~*\bjackwolfskinoutlet\.online\b" 	1;
@@ -2957,6 +2959,7 @@
 "~*\bjavrip\.net\b" 	1;
 "~*\bjavstock\.com\b" 	1;
 "~*\bjav\-way\.site\b" 	1;
+"~*\bjavxxx18\.com\b" 	1;
 "~*\bjaxcube\.info\b" 	1;
 "~*\bjbl\-charge\.info\b" 	1;
 "~*\bje7\.us\b" 	1;

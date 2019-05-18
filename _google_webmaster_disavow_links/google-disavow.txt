@@ -1737,6 +1737,7 @@ domain:dyt.net
 domain:e-avon.ru
 domain:e-biznes.info
 domain:e-buyeasy.com
+domain:e-c.al
 domain:e-collantes.com
 domain:e-commerce-seo.com
 domain:e-commerce-seo1.com
@@ -2939,6 +2940,7 @@ domain:izismile.com
 domain:izoll.ru
 domain:j-times.ru
 domain:j33x.com
+domain:jabimgo.pw
 domain:jacago.com
 domain:jackpotchances.com
 domain:jackwolfskinoutlet.online
@@ -2958,6 +2960,7 @@ domain:javcoast.com
 domain:javitas.info
 domain:javrip.net
 domain:javstock.com
+domain:javxxx18.com
 domain:jaxcube.info
 domain:jbl-charge.info
 domain:je7.us
