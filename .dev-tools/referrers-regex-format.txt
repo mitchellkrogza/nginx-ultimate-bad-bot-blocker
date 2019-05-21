@@ -1232,6 +1232,7 @@
 "~*\bcialiswithoutadoctor\.net\b" 	1;
 "~*\bcibpenonptib\.flu\.cc\b" 	1;
 "~*\bcicaki\.net\b" 	1;
+"~*\bciceros\.co\b" 	1;
 "~*\bciekawinki\.pl\b" 	1;
 "~*\bcienum\.fr\b" 	1;
 "~*\bcigarpass\.com\b" 	1;
