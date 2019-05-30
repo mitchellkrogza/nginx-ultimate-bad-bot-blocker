@@ -83,7 +83,7 @@ sentimentBotToxicityThreshold: .7
 
 # *Required* Comment to reply with
 sentimentBotReplyComment: >
-  Your comment seemed to go against our community code of conduct and ethics. Please be respectful of other users. cc/ @mitchellkrog
+  Your comment seemed to go against our community code of conduct and ethics. Please be respectful of other users. cc/ @mitchellkrogza @itoffshore
 
 # *********
 # STALE BOT
