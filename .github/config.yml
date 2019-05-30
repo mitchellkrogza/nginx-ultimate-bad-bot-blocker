@@ -1,3 +1,7 @@
+# ***********
+# WELCOME BOT
+# ***********
+
 # Configuration for welcome - https://github.com/behaviorbot/welcome
 
 # Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
@@ -19,3 +23,129 @@ firstPRMergeComment: >
   :1st_place_medal: Congrats on merging your first pull request! The community here at Nginx Ultimate Bad Bot Blocker are proud of you!
 
 # It is recommended to include as many gifs and emojis as possible!
+
+# ****************
+# REQUEST INFO BOT
+# ****************
+
+# Configuration for request-info - https://github.com/behaviorbot/request-info
+
+# *OPTIONAL* Comment to reply with
+# Can be either a string :
+requestInfoReplyComment: >
+  :confused: We would appreciate it if you could provide us with more info about this issue/pr!
+
+# Or an array:
+# requestInfoReplyComment:
+#  - Ah no! young blade! That was a trifle short!
+#  - Tell me more !
+#  - I am sure you can be more effusive
+
+
+# *OPTIONAL* default titles to check against for lack of descriptiveness
+# MUST BE ALL LOWERCASE
+requestInfoDefaultTitles:
+  - update readme.md
+  - updates
+
+# *OPTIONAL* Label to be added to Issues and Pull Requests with insufficient information given
+requestInfoLabelToAdd: Needs More Info
+
+# *OPTIONAL* Require Issues to contain more information than what is provided in the issue templates
+# Will fail if the issue's body is equal to a provided template
+checkIssueTemplate: true
+
+# *OPTIONAL* Require Pull Requests to contain more information than what is provided in the PR template
+# Will fail if the pull request's body is equal to the provided template
+checkPullRequestTemplate: true
+
+# *OPTIONAL* Only warn about insufficient information on these events type
+# Keys must be lowercase. Valid values are 'issue' and 'pullRequest'
+requestInfoOn:
+  pullRequest: true
+  issue: true
+
+# *OPTIONAL* Add a list of people whose Issues/PRs will not be commented on
+# keys must be GitHub usernames
+requestInfoUserstoExclude:
+  - mitchellkrogza
+  - itoffshore
+
+# *************
+# SENTIMENT BOT
+# *************
+
+# Configuration for sentiment-bot - https://github.com/behaviorbot/sentiment-bot
+
+# *Required* toxicity threshold between 0 and .99 with the higher numbers being the most toxic
+# Anything higher than this threshold will be marked as toxic and commented on
+sentimentBotToxicityThreshold: .7
+
+# *Required* Comment to reply with
+sentimentBotReplyComment: >
+  Your comment seemed to go against our community code of conduct and ethics. Please be respectful of other users. cc/ @mitchellkrog
+
+# *********
+# STALE BOT
+# *********
+
+# Number of days of inactivity before an issue becomes stale
+daysUntilStale: 60
+# Number of days of inactivity before a stale issue is closed
+daysUntilClose: 7
+# Issues with these labels will never be considered stale
+exemptLabels:
+  - pinned
+  - security
+# Label to use when marking an issue as stale
+staleLabel: wontfix
+# Comment to post when marking an issue as stale. Set to `false` to disable
+markComment: >
+  :exclamation: This issue has been automatically marked as stale because it has not had
+  recent activity. It will be closed if no further activity occurs. Thank you
+  for your contributions.
+# Comment to post when closing a stale issue. Set to `false` to disable
+closeComment: true
+
+# *********
+# TO DO BOT
+# *********
+
+todo:
+  keyword: "@todo"
+  keyword: "@createissue"
+  autoAssign: true
+  label: true
+  reopenClosed: true
+
+# ***************
+# AUTO ASSIGN BOT
+# ***************
+
+# Set to true to add reviewers to pull requests
+addReviewers: true
+
+# Set to true to add assignees to pull requests
+addAssignees: true
+
+# A list of reviewers to be added to pull requests (GitHub user name)
+reviewers:
+  - mitchellkrogza
+  - itoffshore
+
+# A number of reviewers added to the pull request
+# Set 0 to add all the reviewers (default: 0)
+numberOfReviewers: 0
+
+# A list of assignees, overrides reviewers if set
+# assignees:
+#   - assigneeA
+
+# A number of assignees to add to the pull request
+# Set to 0 to add all of the assignees.
+# Uses numberOfReviewers if unset.
+# numberOfAssignees: 2
+
+# A list of keywords to be skipped the process that add reviewers if pull requests include it
+skipKeywords:
+   - wip
