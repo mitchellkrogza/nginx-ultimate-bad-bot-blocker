@@ -3796,6 +3796,7 @@
 "~*\bmvpicton\.co\.uk\b" 	1;
 "~*\bmwtpludn\.review\b" 	1;
 "~*\bmxgetcode\.com\b" 	1;
+"~*\bmy\-aladin\.com\b" 	1;
 "~*\bmyanyone\.net\b" 	1;
 "~*\bmy\-bc\.ru\b" 	1;
 "~*\bmy\-big\-family\.com\b" 	1;
