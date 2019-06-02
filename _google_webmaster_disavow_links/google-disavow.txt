@@ -314,6 +314,7 @@ domain:alarmobninsk.ru
 domain:albamargroup.com
 domain:alborzan.com
 domain:albumsuper.info
+domain:albuteroli.com
 domain:alekseevec.ru
 domain:alert-fdm.xyz
 domain:alert-fjg.xyz
@@ -684,6 +685,7 @@ domain:banki76.ru
 domain:bankiem.pl
 domain:bankmib.ru
 domain:bankofthewext.com
+domain:banksrf.ru
 domain:bannerads.de
 domain:bannerbank.ru
 domain:bannerconnect.net
@@ -897,6 +899,7 @@ domain:boc.kz
 domain:bochemit.com.ua
 domain:bocoarchives.org
 domain:bodybuilding-shop.biz
+domain:boeuklad.com
 domain:bolegapakistan.com
 domain:boleznikogi.com
 domain:bolezniorganov.ru
@@ -1489,6 +1492,7 @@ domain:dailyfinancefix.com
 domain:dailyrank.net
 domain:dailystrength.org
 domain:dairyindia.in
+domain:daisye.top
 domain:dalavia.ru
 domain:dame-ns.kz
 domain:damedingel.ya.ru
@@ -1617,6 +1621,7 @@ domain:discovertreasurenow.com
 domain:dispo.de
 domain:disruptingdinnerparties.com
 domain:distver.ru
+domain:diusyawiga.tk
 domain:div.as
 domain:divatraffic.com
 domain:divci-hry.info
@@ -2187,6 +2192,7 @@ domain:fototravel.eu
 domain:fotoxxxru.com
 domain:fotzen-ficken.com
 domain:foxinsocks.ru
+domain:foxjuegos.com
 domain:foxtechfpv.com
 domain:foxweber.com
 domain:foxydeal.com
@@ -2960,6 +2966,7 @@ domain:javatex.co.id
 domain:javcoast.com
 domain:javitas.info
 domain:javrip.net
+domain:javspace.net
 domain:javstock.com
 domain:javxxx18.com
 domain:jaxcube.info
@@ -3380,6 +3387,7 @@ domain:longlifelomilomi.info
 domain:lookingglassemb.com
 domain:losangeles-ads.com
 domain:lost-alpha.ru
+domain:lostaruban.com
 domain:lostfilm-online.ru
 domain:lotto6888.com
 domain:lottospring.com
@@ -3649,6 +3657,7 @@ domain:mncrftpcs.com
 domain:mnogabukaff.net
 domain:mnogolok.info
 domain:mobifunapp.weebly.com
+domain:mobile-appster.ru
 domain:mobile.ok.ru
 domain:mobilemedia.md
 domain:mobilierland.com
@@ -4287,6 +4296,7 @@ domain:piratecams.com
 domain:pirateday.ru
 domain:pisanieprac.info
 domain:piski.top
+domain:pistonclasico.com
 domain:piter.xrus.org
 domain:piulatte.cz
 domain:piuminiita.com
@@ -4396,6 +4406,7 @@ domain:pornoelita.info
 domain:pornofeuer.com
 domain:pornofiljmi.com
 domain:pornoforadult.com
+domain:pornogad.com
 domain:pornogig.com
 domain:pornogratisdiario.com
 domain:pornohd1080.online
@@ -4416,6 +4427,7 @@ domain:pornotubexxx.name
 domain:pornotubs.com
 domain:pornowarp.info
 domain:pornoxxx.com.mx
+domain:pornozhara.com
 domain:pornpost.in
 domain:pornstartits.xblog.in
 domain:pornzone.tv
@@ -4869,6 +4881,7 @@ domain:sax-sex.com
 domain:sayyoethe.blogspot.co.za
 domain:sbdl.no
 domain:sbetodiodnye-lampy.ru
+domain:sbf441.com
 domain:sbornik-zakonov.ru
 domain:sbprabooks.com
 domain:sbricur.com
@@ -5578,6 +5591,7 @@ domain:thegalerie.eu
 domain:thegameriders.com
 domain:thegamerznetwork.com
 domain:thegioixekhach.com
+domain:thegolfclub.info
 domain:theguardlan.com
 domain:theheroes.ru
 domain:thejournal.ru
@@ -5852,6 +5866,7 @@ domain:twu.com.ua
 domain:tx41tclega.ru
 domain:txxx.com
 domain:typer.one
+domain:typimga.pw
 domain:tytoona.com
 domain:tyumen.xrus.org
 domain:tzritel.tk
@@ -6378,6 +6393,7 @@ domain:xmladserver.com
 domain:xmlinde.com
 domain:xmronta.com
 domain:xn------7cdbapdecfd4ak1bn0amjffj7afu3y.xn--p1ai
+domain:xn-----6kcaabbafhu7cskl7akvongwpo7hvjj.xn--p1ai
 domain:xn-----6kcaacnblni5c5bicdpcmficy.xn--p1ai
 domain:xn-----6kccaibs5cb8afhjrfmix2n.xn--p1ai
 domain:xn-----7kcabaipgeakzcss7bjdqdwpfnhv.xn--p1ai
@@ -6446,6 +6462,7 @@ domain:xportvusbdriver8i.snack.ws
 domain:xpresscare.ru
 domain:xrus.org
 domain:xsion.net
+domain:xtraffic.plus
 domain:xtrafficplus.com
 domain:xtremeeagles.net
 domain:xtube.com
@@ -6539,6 +6556,7 @@ domain:yun56.co
 domain:yunque.pluto.ro
 domain:yur-p.ru
 domain:yurgorod.ru
+domain:yuweng.info
 domain:z-master.ru
 domain:za-fun-offer.com
 domain:za-music.mymobiplanet.com
