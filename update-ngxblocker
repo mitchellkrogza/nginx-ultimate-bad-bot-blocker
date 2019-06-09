@@ -30,7 +30,12 @@
 
 EMAIL="you@example.com"
 SEND_EMAIL="N"
+SEND_MG_EMAIL="N"
 SEND_EMAIL_UPDATE="N"
+#Mailgun
+MG_API_KEY="key-yadayadayada"
+MG_DOMAIN="mg.example.com"
+MG_FROM="botblocker@mg.example.com"
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
 INSTALLER=/usr/local/sbin/install-ngxblocker
@@ -56,6 +61,10 @@ Usage: $script [OPTIONS]
         [ -i ] : Change installer path         (default: $INSTALLER)
         [ -r ] : Change repo url               (default: $REPO)
         [ -e ] : Change @email address         (default: $EMAIL)
+        [ -g ] : Change @email address Mailgun (default: $EMAIL)
+        [ -d ] : Mailgun Domain
+        [ -a ] : Mailgun API Key
+        [ -f ] : Mailgun From Address
         [ -m ] : Change mail (system alias)    (default: $EMAIL)
         [ -n ] : Do not send email report      (default: $SEND_EMAIL)
         [ -o ] : Only send email on update     (default: $SEND_EMAIL_UPDATE)
@@ -68,6 +77,7 @@ Examples:
  $script -c /my/custom/conf.d    (Download globalblacklist.conf to a custom location)
  $script -b /my/custom/bots.d    (Download globalblacklist.conf & update with your custom bots.d location)
  $script -e you@example.com    (Download globalblacklist.conf specifying your email address for the notification)
+ $script -g you@example.com -d domain -a mailgunapikey -f fromaddress   (Download globalblacklist.conf specifying your email address for the notification sent via mailgun)
  $script -q -m webmaster         (Send mail to a system alias address & give less verbose messages for cron)
  $script -o -e you@example.com (Send mail notification only on updates)
  $script -i /path/to/install-ngxblocker (Use custom path to install-ngxblocker to update bots.d / conf.d include files)
@@ -85,7 +95,6 @@ check_version() {
 		date=$(grep "Updated:" $file | sed 's|^.*: ||g')
 		print_message "\nLOCAL Version: $BOLDWHITE$version$RESET\n"
 		print_message "Updated: $date\n\n"
-
 		# remote version
 		curl -s --limit-rate 5k -r $range --location $url -o $tmp
 		remote_ver=$(grep "Version:" $tmp | sed 's|^.*: V||g')
@@ -273,15 +282,27 @@ send_email() {
 	fi
 }
 
+send_email_via_mailgun() {
+	local report= subject= endpoint="https://api.mailgun.net/v3/$MG_DOMAIN/messages"
+	
+	echo "Mailgunning report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
+	sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
+	report="$(cat $EMAIL_REPORT)"
+	subject='Nginx Bad Bot Blocker Updated'
+	
+	curl -s --user api:$MG_API_KEY $endpoint -F from='botblocker<'$MG_FROM'>' -F to=$EMAIL -F subject="$subject" -F text="$report"
+}
+
 get_options() {
 	local arg= opts=
 
-	while getopts :c:b:i:r:e:m:lnovqh opts "$@"
+	while getopts :c:b:i:r:e:g:a:d:f:m:lnovqh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
 				r) arg=$(sanitize_url ${OPTARG});;
 				e) arg=$(sanitize_email ${OPTARG});;
+				g) arg=$(sanitize_email ${OPTARG});;
 				*) arg=$(sanitize_path ${OPTARG});;
 			esac
 		fi
@@ -292,6 +313,10 @@ get_options() {
 			i) INSTALLER=$arg; check_args $opts script $arg ;;
 			r) REPO=$arg; check_args $opts url $arg ;;
 			e) EMAIL=$arg; SEND_EMAIL=Y; check_args $opts email $arg ;;
+			g) EMAIL=$arg; SEND_MG_EMAIL=Y; check_args $opts email $arg ;;
+			a) MG_API_KEY=$arg;; 
+			d) MG_DOMAIN=$arg;;
+			f) MG_FROM=$arg;;
 			m) EMAIL=$arg; SEND_EMAIL=Y ;; # /etc/aliases no sanity checks
 			l) LOGGING=Y ;;
 			n) SEND_EMAIL=N ;;
@@ -393,6 +418,10 @@ main() {
 	# email report
 	case "$SEND_EMAIL" in
 		y*|Y*) send_email;;
+	esac
+	# email report via mailgun
+	case "$SEND_MG_EMAIL" in
+		y*|Y*) send_email_via_mailgun;;
 	esac
 
 	# log report
