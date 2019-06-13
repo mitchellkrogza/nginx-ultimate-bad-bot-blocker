@@ -1493,6 +1493,7 @@
 "~*\bdairyindia\.in\b" 	1;
 "~*\bdaisye\.top\b" 	1;
 "~*\bdalavia\.ru\b" 	1;
+"~*\bdamasarenai\.info\b" 	1;
 "~*\bdamedingel\.ya\.ru\b" 	1;
 "~*\bdame\-ns\.kz\b" 	1;
 "~*\bdanashop\.ru\b" 	1;
@@ -3018,6 +3019,7 @@
 "~*\bjustprofit\.xyz\b" 	1;
 "~*\bjustucalling32211123456789\.tk\b" 	1;
 "~*\bjwss\.cc\b" 	1;
+"~*\bjyvopys\.com\b" 	1;
 "~*\bkaac\.ru\b" 	1;
 "~*\bkabbalah\-red\-bracelets\.com\b" 	1;
 "~*\bkadashihotel\.com\b" 	1;
@@ -3089,6 +3091,7 @@
 "~*\bkihi\.gdn\b" 	1;
 "~*\bkiinomaniak\.pl\b" 	1;
 "~*\bkimcurlrvsms\.com\b" 	1;
+"~*\bkinky\-fetishes\.com\b" 	1;
 "~*\bkino2018\.cc\b" 	1;
 "~*\bkino2018\.club\b" 	1;
 "~*\bkinobaks\.com\b" 	1;
@@ -3620,6 +3623,7 @@
 "~*\bminecraft\-neo\.ru\b" 	1;
 "~*\bminecraft\-rus\.org\b" 	1;
 "~*\bminegam\.com\b" 	1;
+"~*\bminet\.club\b" 	1;
 "~*\bminharevisao\.com\b" 	1;
 "~*\bmini\.7zap\.com\b" 	1;
 "~*\bminiads\.ca\b" 	1;
@@ -4030,6 +4034,7 @@
 "~*\bokeinfo\.online\b" 	1;
 "~*\bokel\.co\b" 	1;
 "~*\boklogistic\.ru\b" 	1;
+"~*\bokmedia\.sk\b" 	1;
 "~*\bokmusic\.jp\b" 	1;
 "~*\bokonich\.com\.ua\b" 	1;
 "~*\bokout\.ru\b" 	1;
@@ -4155,6 +4160,7 @@
 "~*\bpage2rss\.com\b" 	1;
 "~*\bpagesense\.com\b" 	1;
 "~*\bpaidonlinesites\.com\b" 	1;
+"~*\bpaintingplanet\.ru\b" 	1;
 "~*\bpaleohub\.info\b" 	1;
 "~*\bpalocco\.it\b" 	1;
 "~*\bpalvira\.com\.ua\b" 	1;
@@ -4860,6 +4866,7 @@
 "~*\bsantasgift\.ml\b" 	1;
 "~*\bsantechnik\.jimdo\.com\b" 	1;
 "~*\bsanyuprojects\.com\b" 	1;
+"~*\bsape\.top\b" 	1;
 "~*\bsarafangel\.ru\b" 	1;
 "~*\bsaratov\.xrus\.org\b" 	1;
 "~*\bsardinie\.us\b" 	1;
@@ -5391,6 +5398,7 @@
 "~*\bstefanbakosab\.se\b" 	1;
 "~*\bsterva\.cc\b" 	1;
 "~*\bstevemonsen\.com\b" 	1;
+"~*\bsticken\.co\b" 	1;
 "~*\bstickers\-market\.ru\b" 	1;
 "~*\bstillmiracle\.com\b" 	1;
 "~*\bstjamesschool\.info\b" 	1;
@@ -5511,6 +5519,7 @@
 "~*\btakethatad\.com\b" 	1;
 "~*\btako3\.com\b" 	1;
 "~*\btalant\-factory\.ru\b" 	1;
+"~*\btamada69\.com\b" 	1;
 "~*\btam\-gde\-more\.ru\b" 	1;
 "~*\btampabaywatch\.org\b" 	1;
 "~*\btandvardshuset\.net\b" 	1;
@@ -6112,6 +6121,7 @@
 "~*\bvolgograd\.xrus\.org\b" 	1;
 "~*\bvoloomoney\.com\b" 	1;
 "~*\bvoloo\.ru\b" 	1;
+"~*\bvoloslove\.ru\b" 	1;
 "~*\bvoltrknc1\.com\b" 	1;
 "~*\bvolume\-pills\.biz\b" 	1;
 "~*\bvoluumtracker1\.com\b" 	1;

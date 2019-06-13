@@ -1494,6 +1494,7 @@ domain:dailystrength.org
 domain:dairyindia.in
 domain:daisye.top
 domain:dalavia.ru
+domain:damasarenai.info
 domain:dame-ns.kz
 domain:damedingel.ya.ru
 domain:danashop.ru
@@ -3018,6 +3019,7 @@ domain:justkillingti.me
 domain:justprofit.xyz
 domain:justucalling32211123456789.tk
 domain:jwss.cc
+domain:jyvopys.com
 domain:kaac.ru
 domain:kabbalah-red-bracelets.com
 domain:kadashihotel.com
@@ -3089,6 +3091,7 @@ domain:kiev.ua
 domain:kihi.gdn
 domain:kiinomaniak.pl
 domain:kimcurlrvsms.com
+domain:kinky-fetishes.com
 domain:kino-ecran.ru
 domain:kino-filmi.com
 domain:kino-fun.ru
@@ -3620,6 +3623,7 @@ domain:mindeyegames.com
 domain:minecraft-neo.ru
 domain:minecraft-rus.org
 domain:minegam.com
+domain:minet.club
 domain:minharevisao.com
 domain:mini.7zap.com
 domain:miniads.ca
@@ -4038,6 +4042,7 @@ domain:okayimage.com
 domain:okeinfo.online
 domain:okel.co
 domain:oklogistic.ru
+domain:okmedia.sk
 domain:okmusic.jp
 domain:okonich.com.ua
 domain:okout.ru
@@ -4156,6 +4161,7 @@ domain:paclitor.com
 domain:page2rss.com
 domain:pagesense.com
 domain:paidonlinesites.com
+domain:paintingplanet.ru
 domain:paleohub.info
 domain:palocco.it
 domain:palvira.com.ua
@@ -4864,6 +4870,7 @@ domain:sankt-peterburg.nodup.ru
 domain:santasgift.ml
 domain:santechnik.jimdo.com
 domain:sanyuprojects.com
+domain:sape.top
 domain:sarafangel.ru
 domain:saratov.xrus.org
 domain:sardinie.us
@@ -5391,6 +5398,7 @@ domain:steelmaster.lv
 domain:stefanbakosab.se
 domain:sterva.cc
 domain:stevemonsen.com
+domain:sticken.co
 domain:stickers-market.ru
 domain:stillmiracle.com
 domain:stjamesschool.info
@@ -5513,6 +5521,7 @@ domain:takethatad.com
 domain:tako3.com
 domain:talant-factory.ru
 domain:tam-gde-more.ru
+domain:tamada69.com
 domain:tampabaywatch.org
 domain:tandvardshuset.net
 domain:tanieaukcje.com.pl
@@ -6112,6 +6121,7 @@ domain:vodkoved.ru
 domain:volgograd.xrus.org
 domain:voloo.ru
 domain:voloomoney.com
+domain:voloslove.ru
 domain:voltrknc1.com
 domain:volume-pills.biz
 domain:voluumtracker1.com
