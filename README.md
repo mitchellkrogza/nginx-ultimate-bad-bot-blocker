@@ -291,6 +291,10 @@ If you don't want any email notification after an update (not advisable in case 
 
 `00 */8 * * * sudo /usr/local/sbin/update-ngxblocker -n`       
 
+If you would rather send e-mail via <a href="https://www.mailgun.com/">mailgun</a> then run your cron as so:
+
+`00 22 * * * sudo /usr/local/sbin/update-ngxblocker -g yourname@yourdomain.com -d yourdomain.com -a mailgun api key -f from@yourdomain.com`
+
 That's it, the blocker will automatically keep itself up to date and also reload Nginx once it has downloaded the latest version of the globalblacklist.conf file.
 
 ************************************************
