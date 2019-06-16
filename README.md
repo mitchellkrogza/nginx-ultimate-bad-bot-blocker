@@ -328,7 +328,9 @@ All include files are commented for your convenience.
 **TESTING**
 
 Run the following commands one by one from a terminal on another linux machine against your own domain name. 
-**substitute yourdomain.com in the examples below with your REAL domain name**
+
+:exclamation: 
+**substitute http://yourdomain.com in the examples below with your own REAL domain name**
 
 `curl -A "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" http://yourdomain.com`
 
@@ -349,6 +351,9 @@ Run the following commands one by one from a terminal on another linux machine a
 **Should respond with: curl: (52) Empty reply from server**
 
 The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
+
+:exclamation: 
+**substitute http://yourdomain.com in the examples below with your own REAL domain name**
 
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-11.png"/>
