@@ -355,6 +355,8 @@ The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 :exclamation: 
 **substitute http:// yourdomain.com :exclamation: in the examples below with your own REAL domain name :exclamation:**
 
+<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/nginx-ultimate-bad-bot-blocker-testing-instructions.jpg"/>
+
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-11.png"/>
 
