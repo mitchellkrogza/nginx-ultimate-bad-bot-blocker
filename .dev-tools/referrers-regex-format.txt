@@ -1692,6 +1692,7 @@
 "~*\bdostavka\-v\-ukrainu\.ru\b" 	1;
 "~*\bdosug\-lux\.ru\b" 	1;
 "~*\bdosugrostov\.site\b" 	1;
+"~*\bdotmass\.top\b" 	1;
 "~*\bdotnetdotcom\.org\b" 	1;
 "~*\bdoublepimp\.com\b" 	1;
 "~*\bdownloaddy\.net\b" 	1;
@@ -1862,6 +1863,7 @@
 "~*\benergydiet24\.ru\b" 	1;
 "~*\benergydiet\-info\.ru\b" 	1;
 "~*\benergy\-ua\.com\b" 	1;
+"~*\benews\.tech\b" 	1;
 "~*\benge\-fotzen\.info\b" 	1;
 "~*\benginebay\.ru\b" 	1;
 "~*\bengines\-usa\.com\b" 	1;
@@ -2951,6 +2953,7 @@
 "~*\bjacago\.com\b" 	1;
 "~*\bjackpotchances\.com\b" 	1;
 "~*\bjackwolfskinoutlet\.online\b" 	1;
+"~*\bjagg\.info\b" 	1;
 "~*\bjames13prix\.info\b" 	1;
 "~*\bjamiembrown\.com\b" 	1;
 "~*\bjanavibekken\.no\b" 	1;
@@ -4424,6 +4427,7 @@
 "~*\bpornoreino\.com\b" 	1;
 "~*\bpornosee\.info\b" 	1;
 "~*\bpornosemki\.info\b" 	1;
+"~*\bpornosexrolik\.com\b" 	1;
 "~*\bporno\.simple\-image\.com\.ua\b" 	1;
 "~*\bpornoslive\.net\b" 	1;
 "~*\bpornosmola\.info\b" 	1;
@@ -5069,6 +5073,7 @@
 "~*\bsexsaoy\.com\b" 	1;
 "~*\bsexsearch\.com\b" 	1;
 "~*\bsex\-sex\-sex5\.com\b" 	1;
+"~*\bsexs\-foto\.top\b" 	1;
 "~*\bsexspornotub\.com\b" 	1;
 "~*\bsexstream\.pl\b" 	1;
 "~*\bsextracker\.be\b" 	1;
