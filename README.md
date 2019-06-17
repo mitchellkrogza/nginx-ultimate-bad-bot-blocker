@@ -342,13 +342,19 @@ Run the following commands one by one from a terminal on another linux machine a
 
 `curl -A "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)" http://yourdomain.com`
 
-**Should respond with: curl: (52) Empty reply from server**
+**Should respond with either of the following error messages:**
+- curl: (52) Empty reply from server
+- curl: (56) TCP connection reset by peer
+- curl: (92) HTTP/2 stream 0 was not closed cleanly: PROTOCOL_ERROR (err 1)
 
 `curl -I http://yourdomain.com -e http://100dollars-seo.com`
 
 `curl -I http://yourdomain.com -e http://zx6.ru`
 
-**Should respond with: curl: (52) Empty reply from server**
+**Should respond with either of the following error messages:**
+- curl: (52) Empty reply from server
+- curl: (56) TCP connection reset by peer
+- curl: (92) HTTP/2 stream 0 was not closed cleanly: PROTOCOL_ERROR (err 1)
 
 The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 
