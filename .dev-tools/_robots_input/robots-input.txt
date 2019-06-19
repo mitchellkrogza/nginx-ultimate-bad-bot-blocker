@@ -231,6 +231,7 @@ LinqiaMetadataDownloaderBot
 LinqiaRSSBot
 LinqiaScrapeBot
 Lipperhey
+Lipperhey Spider
 Litemage_walker
 Lmspider
 LNSpiderguy
@@ -249,7 +250,9 @@ Masscan
 Mass Downloader
 Mata Hari
 MauiBot
+meanpathbot
 Meanpathbot
+MeanPath Bot
 Mediatoolkitbot
 mediawords
 MegaIndex.ru
@@ -370,12 +373,14 @@ SearchmetricsBot
 Semrush
 SemrushBot
 SEOkicks
+SEOkicks-Robot
 SEOlyticsCrawler
 Seomoz
 SEOprofiler
 seoscanners
 SeoSiteCheckup
 SEOstats
+serpstatbot
 sexsearcher
 Shodan
 Siphon
@@ -404,9 +409,11 @@ SpaceBison
 Spammen
 SpankBot
 Spanner
+sp_auditbot
 Spbot
 Spinn3r
 SputnikBot
+spyfu
 Sqlmap
 Sqlworm
 Sqworm

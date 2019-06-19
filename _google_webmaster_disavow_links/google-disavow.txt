@@ -2802,6 +2802,7 @@ domain:imediadesk.com
 domain:imfamous.info
 domain:img.wallpaperstock.net
 domain:imgarcade.com
+domain:imgarit.pw
 domain:imgata.com
 domain:imguramx.pw
 domain:imicrovision.com
@@ -3343,6 +3344,7 @@ domain:littlecity.ch
 domain:littlesunraiser.com
 domain:liumimgx.pw
 domain:liupis.com
+domain:live-cam6.info
 domain:live-sexcam.tk
 domain:live-sexchat.ru
 domain:livefixer.com
@@ -3547,6 +3549,7 @@ domain:med-zdorovie.com.ua
 domain:medanestesia.ru
 domain:meddesk.ru
 domain:medi-fitt.hu
+domain:mediafresh.online
 domain:mediaoffers.click
 domain:mediawhirl.net
 domain:medicinacom.ru
@@ -5039,6 +5042,7 @@ domain:seotoolsagency.com
 domain:serdcenebolit.com
 domain:sergiorossistore.online
 domain:serialsway.ucoz.ru
+domain:serpstat.com
 domain:serptehnika.ru
 domain:servethis.com
 domain:service-core.ru
@@ -6047,6 +6051,7 @@ domain:viandpet.com
 domain:viberdownload10.com
 domain:viddyoze.com
 domain:video--production.com
+domain:video-camer.com
 domain:video-chat.cn
 domain:video-chat.in
 domain:video-chat.love

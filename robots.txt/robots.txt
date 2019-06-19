@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2019.06.1431
-### Updated: Mon Jun 17 19:35:58 SAST 2019
-### Bad Bot Count: 536
+### Version: V3.2019.06.1432
+### Updated: Wed Jun 19 09:52:30 SAST 2019
+### Bad Bot Count: 543
 ###################################################
 ### Version Information ##
 
@@ -481,6 +481,8 @@ User-agent: LinqiaScrapeBot
 Disallow:/
 User-agent: Lipperhey
 Disallow:/
+User-agent: Lipperhey Spider
+Disallow:/
 User-agent: Litemage_walker
 Disallow:/
 User-agent: Lmspider
@@ -517,7 +519,11 @@ User-agent: Mata Hari
 Disallow:/
 User-agent: MauiBot
 Disallow:/
+User-agent: meanpathbot
+Disallow:/
 User-agent: Meanpathbot
+Disallow:/
+User-agent: MeanPath Bot
 Disallow:/
 User-agent: Mediatoolkitbot
 Disallow:/
@@ -759,6 +765,8 @@ User-agent: SemrushBot
 Disallow:/
 User-agent: SEOkicks
 Disallow:/
+User-agent: SEOkicks-Robot
+Disallow:/
 User-agent: SEOlyticsCrawler
 Disallow:/
 User-agent: Seomoz
@@ -770,6 +778,8 @@ Disallow:/
 User-agent: SeoSiteCheckup
 Disallow:/
 User-agent: SEOstats
+Disallow:/
+User-agent: serpstatbot
 Disallow:/
 User-agent: sexsearcher
 Disallow:/
@@ -827,11 +837,15 @@ User-agent: SpankBot
 Disallow:/
 User-agent: Spanner
 Disallow:/
+User-agent: sp_auditbot
+Disallow:/
 User-agent: Spbot
 Disallow:/
 User-agent: Spinn3r
 Disallow:/
 User-agent: SputnikBot
+Disallow:/
+User-agent: spyfu
 Disallow:/
 User-agent: Sqlmap
 Disallow:/

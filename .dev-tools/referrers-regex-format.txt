@@ -2799,6 +2799,7 @@
 "~*\bimediadesk\.com\b" 	1;
 "~*\bimfamous\.info\b" 	1;
 "~*\bimgarcade\.com\b" 	1;
+"~*\bimgarit\.pw\b" 	1;
 "~*\bimgata\.com\b" 	1;
 "~*\bimguramx\.pw\b" 	1;
 "~*\bimg\.wallpaperstock\.net\b" 	1;
@@ -3343,6 +3344,7 @@
 "~*\blittlesunraiser\.com\b" 	1;
 "~*\bliumimgx\.pw\b" 	1;
 "~*\bliupis\.com\b" 	1;
+"~*\blive\-cam6\.info\b" 	1;
 "~*\blivefixer\.com\b" 	1;
 "~*\bliveinternet\.ro\b" 	1;
 "~*\bliveinternet\.ru\b" 	1;
@@ -3543,6 +3545,7 @@
 "~*\bmeccadumps\.net\b" 	1;
 "~*\bmedanestesia\.ru\b" 	1;
 "~*\bmeddesk\.ru\b" 	1;
+"~*\bmediafresh\.online\b" 	1;
 "~*\bmediaoffers\.click\b" 	1;
 "~*\bmediawhirl\.net\b" 	1;
 "~*\bmedicinacom\.ru\b" 	1;
@@ -5035,6 +5038,7 @@
 "~*\bserdcenebolit\.com\b" 	1;
 "~*\bsergiorossistore\.online\b" 	1;
 "~*\bserialsway\.ucoz\.ru\b" 	1;
+"~*\bserpstat\.com\b" 	1;
 "~*\bserptehnika\.ru\b" 	1;
 "~*\bservethis\.com\b" 	1;
 "~*\bservice\.adtech\.fr\b" 	1;
@@ -6046,6 +6050,7 @@
 "~*\bviandpet\.com\b" 	1;
 "~*\bviberdownload10\.com\b" 	1;
 "~*\bviddyoze\.com\b" 	1;
+"~*\bvideo\-camer\.com\b" 	1;
 "~*\bvideochat\.bz\b" 	1;
 "~*\bvideochat\.cafe\b" 	1;
 "~*\bvideo\-chat\.cn\b" 	1;
