@@ -85,6 +85,7 @@ crawler.feedback
 crawl.sogou.com
 CrazyWebCrawler
 Crescent
+CrunchBot
 CSHttp
 Curious
 Custo
@@ -132,6 +133,7 @@ ExtractorPro
 Extreme Picture Finder
 EyeNetIE
 Ezooms
+facebookscraper
 FDM
 FemtosearchBot
 FHscan
@@ -316,6 +318,7 @@ Page Analyzer
 PageGrabber
 page scorer
 PageScorer
+Pandalytics
 Panscient
 Papa Foto
 Pavuk
@@ -401,6 +404,7 @@ Snake
 Snapbot
 Snoopy
 SocialRankIOBot
+Sociscraper
 sogouspider
 Sogou web spider
 Sosospider
@@ -456,6 +460,7 @@ TwengaBot
 Twice
 Typhoeus
 UnisterBot
+Upflow
 URLy.Warning
 URLy Warning
 Vacuum
