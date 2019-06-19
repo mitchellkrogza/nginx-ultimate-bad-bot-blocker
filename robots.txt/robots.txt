@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2019.06.1433
-### Updated: Wed Jun 19 09:59:08 SAST 2019
-### Bad Bot Count: 548
+### Version: V3.2019.06.1434
+### Updated: Wed Jun 19 10:21:16 SAST 2019
+### Bad Bot Count: 553
 ###################################################
 ### Version Information ##
 
@@ -26,6 +26,8 @@ Disallow:/
 User-agent: Abonti
 Disallow:/
 User-agent: Aboundex
+Disallow:/
+User-agent: Aboundexbot
 Disallow:/
 User-agent: Acunetix
 Disallow:/
@@ -244,6 +246,8 @@ Disallow:/
 User-agent: Dragonfly
 Disallow:/
 User-agent: Drip
+Disallow:/
+User-agent: DSearch
 Disallow:/
 User-agent: DTS Agent
 Disallow:/
@@ -511,6 +515,10 @@ User-agent: Mail.RU_Bot
 Disallow:/
 User-agent: Majestic12
 Disallow:/
+User-agent: Majestic-SEO
+Disallow:/
+User-agent: Majestic SEO
+Disallow:/
 User-agent: MarkMonitor
 Disallow:/
 User-agent: MarkWatch
@@ -754,6 +762,8 @@ Disallow:/
 User-agent: Scanbot
 Disallow:/
 User-agent: scan.lol
+Disallow:/
+User-agent: ScoutJet
 Disallow:/
 User-agent: Scrapy
 Disallow:/
