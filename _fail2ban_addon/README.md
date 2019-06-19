@@ -4,7 +4,7 @@
 ************************************************
 ## Help Support This Project 
 
-[![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
 
 ************************************************
 ### Version: 1.1
@@ -29,29 +29,83 @@ Please make sure you are subscribed to notifications to be notified when the blo
 ##### Also follow me on twitter @ubuntu101za for update notifications
 
 <a href='https://twitter.com/ubuntu101za'><img src='https://img.shields.io/twitter/follow/ubuntu101za.svg?style=social&label=Follow' alt='Follow @ubuntu101za'></a>
+
 ************************************************
-- Tested On: Fail2Ban 0.9.3
-- Server: Ubuntu 16.04.2
+- Tested On: Fail2Ban 0.9.3 > 0.10.2
+- Server: Ubuntu 16.04.2 / Ubuntu 18.04.2
 - Firewall: IPTables
 ************************************************
-### Dependancies: 
+
+## Dependancies: 
 
 - requires nginxrepeatoffender.conf in /etc/fail2ban/filter.d folder
 - requires nginxrepeatoffender.conf in /etc/fail2ban/action.d folder
 - requires jail settings called [nginxrepeatoffender]
 - requires nginx.repeatoffender file in /etc/fail2ban
 
-`create with sudo touch /etc/fail2ban/nginx.repeatoffender`
+Create With:
+
+`sudo touch /etc/fail2ban/nginx.repeatoffender`
 
 `chmod +x /etc/fail2ban/nginx.repeatoffender`
 
 ************************************************
-#### Drawbacks: 
+## Drawbacks: 
 
 Only works with IPTables
 
 ************************************************
-#### Based on: 
+:exclamation::exclamation::exclamation:
+## Important Configuration Notes:
+
+**You MUST have your file paths and default status for "enabled" declared by means of the recommended include in your [INCLUDES] section of your jail.conf or jail.local otherwise fail2ban will fail reloading when it cannot find the location `apache_access_log` or `nginx_access_log` you can also hard code log locations in your jail settings but this NOT a recommended or good practice. Your jail.local or jail.conf should have the includes as below.**
+
+```
+[INCLUDES]
+before = paths-common.conf
+enabled - false
+```
+or
+```
+[INCLUDES]
+before = paths-debian.conf
+enabled - false
+```
+
+**Please Note:**
+
+Above we have the recommended default of "enabled = false" this is recommended good practice. 
+It disables all jails until you enable each one manually. 
+
+**To DEBUG Fail2Ban when it will not reload PLEASE follow the following commands in this exact order. Then post your error messages in a NEW ISSUE. ONLY post the last 3-4 lines where the error starts NOT the whole log message.**
+
+`sudo service fail2ban stop`
+
+`sudo fail2ban-client -vvv -x stop`
+
+`sudo fail2ban-client -vvv -x start`
+
+The 3rd step runs fail2ban in verbose client mode and will point you to the exact location where Fail2Ban stopped loading. Once you have this error message copy ONLY the last 3-4 lines and post them in a new ISSUE although if you read the message you shold quickly understand why you broke Fail2Ban and why it is not loading.
+
+Once you have the error message or have fixed your error you just restart Fail2Ban as follows:
+
+`sudo service fail2ban restart`
+
+************************************************
+## DOES NOT WORK - MY FAIL2BAN WON'T RESTART???
+
+**Yes it does work**, if you followed the instructions that is. It works and has been tested on almost every version of Fail2Ban.
+The most IMPORTANT steps of DEBUGGING Fail2Ban and why it fails reloading are posted just above this message. 
+For your convenience I will post them again as they are extremely important steps for debugging Fail2Ban not only for this jail but any jail.
+
+`sudo service fail2ban stop`
+
+`sudo fail2ban-client -vvv -x stop`
+
+`sudo fail2ban-client -vvv -x start`
+
+************************************************
+## Based on: 
 
 The Recidive Jail from Fail2Ban
 
@@ -152,9 +206,9 @@ If you believe your name should be here, drop me a line.
 ************************************************
 ### Writing Code like this takes lots of time !!
 
-Thousand of hours of programming and testing have gone into this project, show some love
+## Help Support This Project 
 
-[![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
 
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/zuko.png"/>
 
