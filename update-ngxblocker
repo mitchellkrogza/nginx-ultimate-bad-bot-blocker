@@ -155,29 +155,6 @@ update_paths() {
 	fi
 }
 
-service_cmd() {
-	# arch linux does not have a 'service' command
-	local x= svc= svc_list="service systemctl rc-service rcctl"
-
-	for x in $svc_list; do
-		svc=$(which $x 2>/dev/null)
-		if [ -n "$svc" ]; then
-			case "$x" in
-				service) svc="$svc nginx reload";;
-				systemctl) svc="$svc reload nginx.service";;
-				rc-service) svc="$svc nginx reload";;
-				rcctl) svc="$svc reload nginx";;
-			esac
-			break
-		else
-			# centos does not have 'which' by default
-			svc="/usr/sbin/service nginx reload"
-		fi
-	done
-
-	echo $svc
-}
-
 sanitize_path() {
 	echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=/=] [=_=]' \
 		|tr -s '@.-/_' |awk '{print tolower($0)}'
@@ -310,7 +287,7 @@ get_options() {
 main() {
 	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 	local file=globalblacklist.conf remote_dir=conf.d url= output= update= status= tmp= retval=
-	local reload_service="$(service_cmd)"
+	local nginx_path=$(find_binary nginx)
 
 	# require root
 	if [ "$(id -u)" != "0" ]; then
@@ -356,15 +333,19 @@ main() {
 		# re-read nginx configuration
 		if [ $retval = 0 ]; then
 
-			$reload_service 2>&1 >/dev/null
-			if [ $? = 0 ]; then
-				status="${BOLDGREEN}[OK]${RESET}"
-				print_message "\nReloading NGINX configuration...$status\n"
+			if pidof nginx 1>/dev/null; then
 
+				$nginx_path -s reload 2>&1 >/dev/null
+
+				if [ $? = 0 ]; then
+					status="${BOLDGREEN}[OK]${RESET}"
+					print_message "\nReloading NGINX configuration...$status\n"
+				else
+					status="${BOLDRED}[FAILED]${RESET}"
+					printf "\nReloading NGINX configuration...$status\n"
+				fi
 			else
-				status="${BOLDRED}[FAILED]${RESET}"
-				printf "\nReloading NGINX configuration...$status\n"
-
+				printf "\n${BOLDRED}NGINX is not running${RESET}: not reloading NGINX config\n"
 			fi
 		else
 			printf "\n${BOLDRED}Download failed${RESET}: not reloading NGINX config\n"
