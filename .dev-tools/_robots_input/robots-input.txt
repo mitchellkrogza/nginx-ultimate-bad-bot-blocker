@@ -303,6 +303,7 @@ NICErsPRO
 Niki-bot
 Nikto
 NimbleCrawler
+Nimbostratus
 Ninja
 Nmap
 NPbot
