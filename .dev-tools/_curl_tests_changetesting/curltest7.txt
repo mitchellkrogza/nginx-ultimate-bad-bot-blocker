@@ -1,9 +1,7 @@
-Last Tested: Thu Jun 20 13:40:22 SAST 2019
+Last Tested: Thu Jun 20 13:48:25 SAST 2019
 
-<html>
-<head><title>404 Not Found</title></head>
-<body bgcolor="white">
-<center><h1>404 Not Found</h1></center>
-<hr><center>nginx/1.14.2</center>
-</body>
-</html>
+<?php
+
+echo "Welcome to Nginx\n";
+echo "This is the Travis Testing Environment for the Nginx Ultimate Bad Bot Blocker\n";
+echo "Visit https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker\n";
