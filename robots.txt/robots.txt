@@ -6,8 +6,8 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2019.06.1440
-### Updated: Thu Jun 20 12:30:12 SAST 2019
+### Version: V3.2019.06.1441
+### Updated: Thu Jun 20 12:37:39 SAST 2019
 ### Bad Bot Count: 557
 ###################################################
 ### Version Information ##
