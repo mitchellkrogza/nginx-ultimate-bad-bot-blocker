@@ -157,7 +157,7 @@ sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bot
 # *********************
 
 printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
-sudo service nginx reload
+sudo nginx -t && sudo nginx -s reload
 
 # *******************************************************************************************
 # Test that update-ngxblocker can install all missing required files by deleting some of them
@@ -221,7 +221,7 @@ sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/b
 # *********************
 
 printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
-sudo service nginx reload
+sudo nginx -t && sudo nginx -s reload
 
 # *******************************************************
 # Make sure we test latest generated globalblacklist.conf
@@ -243,7 +243,7 @@ sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/b
 # *********************
 
 printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
-sudo service nginx reload
+sudo nginx -t && sudo nginx -s reload
 
 # **********************
 # Now Run our Curl Tests

@@ -69,8 +69,7 @@ sudo add-apt-repository -y ppa:nginx/${mainstreamnginx}
 sudo apt-get update
 sudo apt-get install -y --assume-yes nginx-full
 sudo nginx -V
-sudo nginx -t
-sudo service nginx reload
+sudo nginx -t && sudo nginx -s reload
 
 # **************************************
 # Make Sure We Cleanup From Nginx Test 3
@@ -196,7 +195,7 @@ sudo bash ./update-ngxblocker -n
 # *********************
 
 printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
-sudo service nginx reload
+sudo nginx -t && sudo nginx -s reload
 
 # *******************************************************************************************
 # Test that update-ngxblocker can install all missing required files by deleting some of them
@@ -260,7 +259,7 @@ sudo bash ./setup-ngxblocker -x
 # *********************
 
 printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
-sudo service nginx reload
+sudo nginx -t && sudo nginx -s reload
 
 # *******************************************************
 # Make sure we test latest generated globalblacklist.conf
@@ -282,10 +281,10 @@ sudo bash ./setup-ngxblocker -x
 # *********************
 
 printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
-sudo service nginx reload
+sudo nginx -t && sudo nginx -s reload
 
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/default13.vhost /etc/nginx/sites-available/default.vhost
-sudo service nginx reload
+sudo nginx -t && sudo nginx -s reload
 
 # **********************
 # Now Run our Curl Tests

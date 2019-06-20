@@ -209,15 +209,25 @@ fi
 # Trigger our curl functions to run
 # *********************************
 
+echo "Test 1"
 run_curltest1
+echo "Test 2"
 run_curltest2
+echo "Test 3"
 run_curltest3
+echo "Test 4"
 run_curltest4
+echo "Test 5"
 run_curltest5
+echo "Test 6"
 run_curltest6
+echo "Test 6"
 run_curltest7
+echo "Test 8"
 run_curltest8
+echo "Test 9"
 run_curltest9
+echo "Test 10"
 run_curltest10
 
 echo "Tests Completed"
