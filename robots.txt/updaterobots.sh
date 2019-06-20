@@ -79,6 +79,6 @@ done
 # ***********************
 
 # Put your own email address below and uncomment the line if you want an email notification
-#echo "Done" | mail -s "Robots.txt Updated" someone@somewhere.com
+#echo "robots.txt has just been updated on all web sites" | mail -s "Robots.txt Updated" someone@somewhere.com
 
 exit ${?}
