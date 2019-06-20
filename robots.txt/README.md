@@ -1,15 +1,19 @@
-# Robots.txt Directives ONLY for People unable to use the full Nginx Bad Bot, User-Agent and Spam Referrer Blocker
-## DO NOT use this on any of your sites if you are running the real Bad Bot Blocker (not needed)
+# Robots.txt Directives
 
-The robots.txt file residing in this directory can be used to ADD onto your existing robots.txt file by placing this after anything you already have in your robots.txt file.
+The robots.txt file residing in this directory should be used in addition to using the Nginx Bad Bot Blocker.
 
-************************************************
-## Do NOT make this file the only contents of your robots.txt file !!!
+There is good reason for this.
+
+It is considered good practice to actually tell a bot whether it is allowed or denied access. 
+
+So as a webmaster or server operator it is the right and also responsible thing to tell any of our listed bad bots to go away first.
+
+If a bot ignores robots.txt (which many do) it will then be blocked outright by the blocker, make no mistake about that.
 
 ************************************************
 ## Help Support This Project 
 
-[![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
 
 ************************************************
 - Created by: https://github.com/mitchellkrogza for use on Nginx Web Server https://www.nginx.com/
@@ -18,55 +22,48 @@ The robots.txt file residing in this directory can be used to ADD onto your exis
 Not Using Nginx? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img.shields.io/badge/APACHE%20-%20ULTIMATE%20BAD%20BOT%20BLOCKER%20%E2%9B%94-blue.svg)](https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker)
 
 ************************************************
+##Optimized for Wordpress Sites
 
-- 1. Click on the robots.txt file in this directory
-- 2. Then click on the button that says RAW, this will give you clear unformatted code
-- 3. Then copy those contents to paste into your robots.txt file
+This robots.txt file is designed primarily for wordpress sites.
+This is revealed in the starting lines.
 
-If your existing robots.txt file looks like this:
+```
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+```
 
-    User-agent: *
-    Allow: /wp-admin/admin-ajax.php
+This means all user agents are ALLOWED to access all parts of the web sites by default
+- they are NOT allowed to crawl the Wordpress /wp-admin/ folder
+- they ARE allowed to access /wp-admin/admin-ajax.php
 
-Then your new file will look like this:
+You can modify these beginning lines to your liking.
 
-    User-agent: *
-    Allow: /wp-admin/admin-ajax.php
-    User-agent: Acunetix
-    Disallow:/ 
-    User-agent: FHscan
-    Disallow:/ 
-    User-agent: masscan
-    Disallow:/ 
-    ........ rest of file contents
+Then after the beginning lines we start explicitly telling bots to go away.
+
+Example:
+
+```
+User-agent: 360Spider
+Disallow:/
+User-agent: 404checker
+Disallow:/
+.....
+.....
+.....
+.....
+```
 
 ************************************************
-# You use this at your own risk
+##### Keeping your robots.txt updated
 
-This will only help stop some bad bots from gaining access to your site
-this certainly does not provide nearly as much protection as the full
-Nginx Bad Bot, User-Agent and Spam Referrer Blocker
+Check out the updaterobots.sh bash script for a simple updater for all your web sites.
+
 
 ************************************************
-### Update Notification System - Stay up to date on New Builds and Major Feature Changes 
-
-It is important to please <a href="https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker">subscribe your email address to the mailing list</a> or <a href="mailto:nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com">simply send a blank email here</a> to subscribe.
-
-Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical (potentially breaking) changes take place.
-
-##### Also follow me on twitter @ubuntu101za for update notifications
+##### Follow me on twitter @ubuntu101za
 
 <a href='https://twitter.com/ubuntu101za'><img src='https://img.shields.io/twitter/follow/ubuntu101za.svg?style=social&label=Follow' alt='Follow @ubuntu101za'></a>
-
-************************************************
-## CHECK FOR FREE IF YOUR WEB SITE IS COMPROMISED OR BLACKLISTED
-
-<a href="https://www.gravityscan.com/" target="_blank"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/gravity-scan-by-wordfence.png" alt="Check if your web site is blacklisted, hacked or compromised using the awesome Free GravityScan tool"/></a>
-
-************************************************
-# HAS YOUR WEB SITE BEEN HACKED?
-
-[![Contact me for help](https://img.shields.io/badge/Contact%20-%20me%20for%20help%20%F0%9F%9A%91-blue.svg)](mailto:mitchellkrog@gmail.com) to help you clean up and secure your web site. 
 
 ************************************************
 ### SOME OTHER AWESOME FREE PROJECTS
@@ -81,14 +78,6 @@ Please make sure you are subscribed to notifications to be notified when the blo
 - https://github.com/mitchellkrogza/Travis-CI-for-Apache-For-Testing-Apache-and-PHP-Configurations
 - https://github.com/mitchellkrogza/Fail2Ban-Blacklist-JAIL-for-Repeat-Offenders-with-Perma-Extended-Banning
 - https://github.com/funilrys/funceble
-
-************************************************
-### ALSO CHECKOUT THE NEW BIG LIST OF HACKED MALWARE & WORDPRESS WEB SITES
-
-This repository contains a list of all web sites I come across that are hacked with malware. 
-Most site owners are unaware their sites have been hacked and are being used to plant malware.
-
-Check it out at: https://github.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites
 
 ************************************************
 ### INTO PHOTOGRAPHY?
@@ -124,7 +113,7 @@ If you believe your name should be here, drop me a line.
 
 Thousand of hours of programming and testing have gone into this project, show some love
 
-[![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
 
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/zuko.png"/>
 

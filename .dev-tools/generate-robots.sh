@@ -85,7 +85,7 @@ _endmarker="### Version Information ##"
 # Create the robots.txt file
 # **************************
 
-printf '###################################################################\n# The Ultimate robots.txt Bot and User-Agent Blocker\n# Copyright:\n# https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker\n###################################################################\n\n' >> "${_tmprobots}"
+printf '###################################################################\n# The Ultimate robots.txt Bot and User-Agent Blocker\n# Copyright:\n# https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker\n###################################################################\n\n' >> "${_tmprobots}"
 
 printf '%s\n%s\n%s%s\n%s%s\n%s%s\n%s\n%s\n\n%s\n%s\n%s\n' "$_startmarker" "###################################################" "### Version: " "$MY_GIT_TAG" "### Updated: " "$_now" "### Bad Bot Count: " "$BAD_BOTS" "###################################################" "$_endmarker" "User-agent: *" "Disallow: /wp-admin/" "Allow: /wp-admin/admin-ajax.php" >> "${_tmprobots}"
 
