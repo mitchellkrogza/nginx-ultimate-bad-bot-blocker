@@ -58,15 +58,19 @@ sudo service nginx reload
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/default13.vhost /etc/nginx/sites-available/default.vhost
 sudo service nginx reload
 
+sudo systemctl enable nginx
+sudo systemctl start nginx
+sudo systemctl reload nginx
+
 # **********************
 # Now Run our Curl Tests
 # **********************
 
 printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "######################"
 
-# ************************************************************
-# Copy all .conf files used in Test 3 to a folder for checking
-# ************************************************************
+# *************************************************************
+# Copy all .conf files used in Testing to a folder for checking
+# *************************************************************
 
 sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes/bots.d/
 sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes/conf.d/

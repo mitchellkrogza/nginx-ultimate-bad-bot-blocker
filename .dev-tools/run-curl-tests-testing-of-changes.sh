@@ -218,6 +218,8 @@ run_curltest8
 run_curltest9
 run_curltest10
 
+echo "Tests Completed"
+
 # **********************
 # Exit With Error Number
 # **********************
