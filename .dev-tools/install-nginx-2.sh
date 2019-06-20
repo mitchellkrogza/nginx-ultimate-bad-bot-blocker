@@ -106,7 +106,7 @@ sudo chmod +x /usr/sbin/install-ngxblocker
 
 printf '\n%s\n%s\n%s\n\n' "######################" "Run install-ngxblocker" "######################"
 cd /usr/sbin
-sudo bash -x ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
+sudo bash ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
 
 # **************************************************
 # Set our install and setup scripts to be executable
@@ -150,7 +150,7 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /usr/local/ngi
 
 printf '\n%s\n%s\n%s\n\n' "######################" "Run update-ngxblocker" "######################"
 cd /usr/sbin
-sudo bash -x ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
+sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
 
 # *********************
 # Force reload of Nginx
@@ -182,7 +182,7 @@ ls -la /usr/local/nginx/bots.d/
 
 printf '\n%s\n%s\n%s\n\n' "######################" "Run update-ngxblocker" "######################"
 cd /usr/sbin
-sudo bash -x ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
+sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
 
 # ****************************************************
 # List Directories to Confirm Downloaded Missing Files
@@ -206,7 +206,7 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /usr/local/ngi
 
 printf '\n%s\n%s\n%s\n\n' "######################" "Run update-ngxblocker" "######################"
 cd /usr/sbin
-sudo bash -x ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
+sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
 
 # **************************
 # Run setup-ngxblocker Again
@@ -214,7 +214,7 @@ sudo bash -x ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/
 
 printf '\n%s\n%s\n%s\n\n' "####################" "Run setup-ngxblocker" "####################"
 cd /usr/sbin
-sudo bash -x ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
+sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
 
 # *********************
 # Force reload of Nginx
@@ -236,7 +236,7 @@ sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist.conf /usr/local/nginx/conf.d/
 
 printf '\n%s\n%s\n%s\n\n' "############################################################" "Run setup-ngxblocker to fix includes in globalblacklist.conf" "############################################################"
 cd /usr/sbin
-sudo bash -x ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
+sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
 
 # *********************
 # Force reload of Nginx
