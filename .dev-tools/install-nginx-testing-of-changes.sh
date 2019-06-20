@@ -55,6 +55,10 @@ sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version.conf /etc/ngi
 printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
 sudo service nginx reload
 
+# Debug Nginx on Travis
+sudo nginx -t
+sudo nginx -s reload
+
 # **********************
 # Now Run our Curl Tests
 # **********************
