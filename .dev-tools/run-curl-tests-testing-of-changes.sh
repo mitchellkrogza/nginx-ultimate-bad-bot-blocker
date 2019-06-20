@@ -20,6 +20,8 @@
 # Set Location of our Curl Test Results Files
 # *******************************************
 
+echo "Tests Starting"
+
 _curltest1=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest1.txt
 _curltest2=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest2.txt
 _curltest3=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest3.txt
@@ -187,7 +189,7 @@ fi
 }
 
 # **************************************************
-# Function Curl Test 9 - Check for Bad Bot "Nutch"
+# Function Curl Test 10 - Check for Bad Bot "Nutch"
 # **************************************************
 
 run_curltest10 () {

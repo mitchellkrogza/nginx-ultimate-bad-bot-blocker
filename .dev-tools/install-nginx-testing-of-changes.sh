@@ -41,9 +41,9 @@
 
 # Run testing of test version
 
-# *******************************************************
-# Make sure we test latest generated globalblacklist.conf
-# *******************************************************
+# ***********************************************************************
+# Make sure we test latest generated globalblacklist-testing-version.conf
+# ***********************************************************************
 
 printf '\n%s\n%s\n%s\n\n' "##############################################################################" "Copy latest generated globalblacklist.conf file to test for any compile errors" "##############################################################################"
 sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version.conf /etc/nginx/conf.d/globalblacklist.conf
@@ -54,13 +54,6 @@ sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version.conf /etc/ngi
 
 printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
 sudo service nginx reload
-
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/default13.vhost /etc/nginx/sites-available/default.vhost
-sudo service nginx reload
-
-sudo systemctl enable nginx
-sudo systemctl start nginx
-sudo systemctl reload nginx
 
 # **********************
 # Now Run our Curl Tests
