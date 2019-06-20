@@ -1,5 +1,3 @@
-git:
-  depth: 1
 addons:
     apt:
         packages:
@@ -43,12 +41,12 @@ script:
   - bash .dev-tools/install-nginx-1.sh
   - bash .dev-tools/run-curl-tests-1.sh
   - bash .dev-tools/install-nginx-testing-of-changes.sh
-  - bash .dev-tools/run-curl-tests-testing-of-changes.sh
-  - bash .dev-tools/install-nginx-2.sh
+  - bash -x .dev-tools/run-curl-tests-testing-of-changes.sh
+  - bash -x .dev-tools/install-nginx-2.sh
   - bash .dev-tools/run-curl-tests-2.sh
-  - bash .dev-tools/install-nginx-3.sh
+  - bash -x .dev-tools/install-nginx-3.sh
   - bash .dev-tools/run-curl-tests-3.sh
-  - bash .dev-tools/install-nginx-4.sh
+  - bash -x .dev-tools/install-nginx-4.sh
   - bash .dev-tools/run-curl-tests-4.sh
   - bash .dev-tools/modify-files-and-commit.sh
 
