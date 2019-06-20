@@ -266,6 +266,7 @@ sudo chown -R travis:travis ${TRAVIS_BUILD_DIR}/
 sudo chown -R travis:travis ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test3/
 sudo cp /etc/nginx/mybots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test3/bots.d/
 sudo cp /etc/nginx/myconf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test3/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test3/default.vhost
 
 # *****************************************************************************************
 # Travis now moves into running the rest of the tests in the script: section of .travis.yml
