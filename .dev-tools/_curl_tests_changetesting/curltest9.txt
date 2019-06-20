@@ -1,5 +1,5 @@
-Last Tested: Thu Jun 20 12:31:17 SAST 2019
+Last Tested: Thu Jun 20 13:22:23 SAST 2019
 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   153  100   153    0     0  30417      0 --:--:-- --:--:-- --:--:-- 38250
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0   189k      0 --:--:-- --:--:-- --:--:--  165k

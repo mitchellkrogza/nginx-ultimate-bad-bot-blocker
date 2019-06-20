@@ -1,13 +1,9 @@
-Last Tested: Thu Jun 20 13:09:35 SAST 2019
+Last Tested: Thu Jun 20 13:22:23 SAST 2019
 
-<!DOCTYPE html>
 <html>
-<head>
-<title>Welcome to the Nginx</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the Nginx Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.14.2</center>
 </body>
 </html>
