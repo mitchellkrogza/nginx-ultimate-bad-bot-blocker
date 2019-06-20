@@ -1,0 +1,13 @@
+server {
+ 	listen *:9000;
+
+	root /var/www/html;
+	server_name localhost;
+	charset UTF-8;
+	index index.html;
+	
+ 	# Bad Bot Blocker
+	include /etc/nginx/bots.d/ddos.conf; 
+ 	include /etc/nginx/bots.d/blockbots.conf;
+
+}

@@ -45,6 +45,7 @@
 
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/deploy-package.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist-testing-of-changes.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-files.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-robots.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-google-disavow.sh
@@ -71,6 +72,7 @@ cd ${TRAVIS_BUILD_DIR}
 
 php ./.dev-tools/generate-regex-format-referrers.php
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist.sh
+sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist-testing-of-changes.sh
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/modify-config-readme-files.sh
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/prepare-robots-input.sh
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-robots.sh

@@ -46,6 +46,8 @@ script:
   - bash .dev-tools/run-curl-tests-3.sh
   - bash .dev-tools/install-nginx-4.sh
   - bash .dev-tools/run-curl-tests-4.sh
+  - bash .dev-tools/install-nginx-testing-of-changes.sh
+  - bash .dev-tools/run-curl-tests-testing-of-changes.sh
   - bash .dev-tools/modify-files-and-commit.sh
 
 before_deploy:
