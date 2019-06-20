@@ -50,6 +50,8 @@ else
    #exit 1
 fi
 }
+run_curltest1
+
 
 # **************************************************
 # Function Curl Test 2 - Check for Bad Bot "Nutch"
@@ -67,6 +69,8 @@ else
    #exit 1
 fi
 }
+run_curltest2
+
 
 # ******************************************************************
 # Function Curl Test 3 - Check for Bad Referrer "100dollars-seo.com"
@@ -84,6 +88,8 @@ else
    #exit 1
 fi
 }
+run_curltest3
+
 
 # ******************************************************
 # Function Curl Test 4 - Check for Bad Referrer "zx6.ru"
@@ -101,6 +107,7 @@ else
    #exit 1
 fi
 }
+run_curltest4
 
 # *****************************************************
 # Function Curl Test 5 - Check for Good Bot "GoogleBot"
@@ -118,6 +125,7 @@ else
    #exit 1
 fi
 }
+run_curltest5
 
 # ***************************************************
 # Function Curl Test 6 - Check for Good Bot "BingBot"
@@ -135,6 +143,7 @@ else
    #exit 1
 fi
 }
+run_curltest6
 
 # ***********************************************************
 # Function Curl Test 7 - Check for Good Referrer "google.com"
@@ -152,6 +161,7 @@ else
    #exit 1
 fi
 }
+run_curltest7
 
 # ***********************************************************
 # Function Curl Test 8 - Check for Good Referrer "bing.com"
@@ -170,6 +180,7 @@ else
    #exit 1
 fi
 }
+run_curltest8
 
 # **************************************************
 # Function Curl Test 9 - Check for Bad Bot "Nutch"
@@ -187,6 +198,7 @@ else
    #exit 1
 fi
 }
+run_curltest9
 
 # **************************************************
 # Function Curl Test 10 - Check for Bad Bot "Nutch"
@@ -204,31 +216,12 @@ else
    #exit 1
 fi
 }
+run_curltest10
 
 # *********************************
 # Trigger our curl functions to run
 # *********************************
 
-echo "Test 1"
-run_curltest1
-echo "Test 2"
-run_curltest2
-echo "Test 3"
-run_curltest3
-echo "Test 4"
-run_curltest4
-echo "Test 5"
-run_curltest5
-echo "Test 6"
-run_curltest6
-echo "Test 6"
-run_curltest7
-echo "Test 8"
-run_curltest8
-echo "Test 9"
-run_curltest9
-echo "Test 10"
-run_curltest10
 
 echo "Tests Completed"
 
