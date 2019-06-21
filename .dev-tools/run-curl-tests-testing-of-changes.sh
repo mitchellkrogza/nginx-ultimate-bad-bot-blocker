@@ -246,13 +246,13 @@ run_curltest11
 
 run_curltest12 () {
 truncate -s 0 ${_curltest12}
-printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
+printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING FALSE POSITIVE CASES" "#########################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest12}"
 curl -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest12}
 if grep -i '(52)' ${_curltest12}; then
-   echo 'BAD BOT DETECTED - TEST PASSED'
+   echo 'NO FALSE POSITIVE - TEST PASSED'
 else
-   echo 'BAD BOT NOT DETECTED - TEST FAILED'
+   echo 'FALSE POSITIVE - TEST FAILED'
    #exit 1
 fi
 }
@@ -264,13 +264,13 @@ run_curltest12
 
 run_curltest13 () {
 truncate -s 0 ${_curltest13}
-printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
+printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING FALSE POSITIVE CASES" "#########################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest13}"
 curl -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest13}
 if grep -i '(52)' ${_curltest13}; then
-   echo 'BAD BOT DETECTED - TEST PASSED'
+   echo 'NO FALSE POSITIVE - TEST PASSED'
 else
-   echo 'BAD BOT NOT DETECTED - TEST FAILED'
+   echo 'FALSE POSITIVE - TEST FAILED'
    #exit 1
 fi
 }
@@ -282,13 +282,13 @@ run_curltest13
 
 run_curltest14 () {
 truncate -s 0 ${_curltest14}
-printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING GOOD BOT IS ALLOWED" "#########################"
+printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING FALSE POSITIVE CASES" "#########################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest14}"
 curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>> ${_curltest14}
 if grep -i 'Welcome' ${_curltest14}; then
-   echo 'GOOD REFERRER DETECTED - TEST PASSED'
+   echo 'NO FALSE POSITIVE - TEST PASSED'
 else
-   echo 'GOOD REFERRER NOT DETECTED - TEST FAILED'
+   echo 'FALSE POSITIVE - TEST FAILED'
    #exit 1
 fi
 }
@@ -301,13 +301,13 @@ run_curltest14
 
 run_curltest15 () {
 truncate -s 0 ${_curltest15}
-printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING CASES" "#########################"
+printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING FALSE POSITIVE CASES" "#########################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest15}"
 curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>> ${_curltest15}
 if grep -i '(52)' ${_curltest15}; then
-   echo 'TEST CASE DETECTED - TEST FAILED'
+   echo 'NO FALSE POSITIVE - TEST FAILED'
 else
-   echo 'TEST CASE NOT DETECTED - TEST PASSED'
+   echo 'FALSE POSITIVE - TEST PASSED'
    #exit 1
 fi
 }
