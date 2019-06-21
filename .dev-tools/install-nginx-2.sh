@@ -92,21 +92,14 @@ sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/def
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/index.php /var/www/html/index.php
 printf '\n%s\n%s\n%s\n\n' "#####################################" "Finished Nginx Setup for Nginx Test 2" "#####################################"
 
-# ***********************************************
-# Fetch our install-ngxblocker file from the repo
-# ***********************************************
+# *********************************************************
+# Fetch our install, updater and setup scriptsfrom the repo
+# *********************************************************
 
-printf '\n%s\n%s\n%s\n\n' "######################################" "Fetch install-ngxblocker from the repo" "######################################"
+printf '\n%s\n%s\n%s\n\n' "######################################" "Fetch setup and installer scripts from the repo" "######################################"
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
-sudo chmod +x /usr/sbin/install-ngxblocker
-
-# **********************
-# Run Install-NgxBlocker
-# **********************
-
-printf '\n%s\n%s\n%s\n\n' "######################" "Run install-ngxblocker" "######################"
-cd /usr/sbin
-sudo bash ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O /usr/sbin/setup-ngxblocker
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O /usr/sbin/update-ngxblocker
 
 # **************************************************
 # Set our install and setup scripts to be executable
@@ -116,6 +109,14 @@ printf '\n%s\n%s\n%s\n\n' "#####################################################
 sudo chmod +x /usr/sbin/install-ngxblocker
 sudo chmod +x /usr/sbin/setup-ngxblocker
 sudo chmod +x /usr/sbin/update-ngxblocker
+
+# **********************
+# Run Install-NgxBlocker
+# **********************
+
+printf '\n%s\n%s\n%s\n\n' "######################" "Run install-ngxblocker" "######################"
+cd /usr/sbin
+sudo bash ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
 
 # ********************
 # Run setup-ngxblocker

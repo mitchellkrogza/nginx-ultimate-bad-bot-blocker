@@ -42,8 +42,8 @@ script:
   - bash .dev-tools/run-curl-tests-1.sh
   - bash .dev-tools/install-nginx-testing-of-changes.sh
   - bash .dev-tools/run-curl-tests-testing-of-changes.sh
-  #- bash .dev-tools/install-nginx-2.sh
-  #- bash .dev-tools/run-curl-tests-2.sh
+  - bash .dev-tools/install-nginx-2.sh
+  - bash .dev-tools/run-curl-tests-2.sh
   #- bash .dev-tools/install-nginx-3.sh
   #- bash .dev-tools/run-curl-tests-3.sh
   #- bash .dev-tools/install-nginx-4.sh
