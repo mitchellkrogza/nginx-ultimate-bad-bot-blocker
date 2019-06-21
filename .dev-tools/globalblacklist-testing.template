@@ -139,7 +139,7 @@ map $http_user_agent $bad_bot {
 
 # TEST CASES 
 # **********
-	"~*(?:\b|)ozilla(?:|\s|,|\.|\b|\/)"		3;
+	"~*(?:\b)ozilla(?:|\s|,|\.|\b|\/)"		3;
 
 
 # START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
@@ -708,7 +708,7 @@ map $http_user_agent $bad_bot {
 
 # TEST CASES 
 # **********
-	"~*(?:\b|)Mozilla(?:|\s|,|\.|\b|\/|)"		0;
+	#"~*(?:\b)Mozilla(?:|\s|,|\.|\b|\/|)"		0;
 
 # START GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 	"~*\badidxbot\b"		0;
