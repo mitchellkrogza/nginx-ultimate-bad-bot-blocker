@@ -32,6 +32,8 @@ _curltest7=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest7.tx
 _curltest8=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest8.txt
 _curltest9=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest9.txt
 _curltest10=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest10.txt
+_curltest11=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest11.txt
+_curltest12=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest12.txt
 _now="$(date)"
 
 # *************************************************
@@ -217,7 +219,41 @@ fi
 }
 run_curltest10
 
+# **************************************************
+# Function Curl Test 11 - Check for Bad Bot "Nutch"
+# **************************************************
 
+run_curltest11 () {
+truncate -s 0 ${_curltest11}
+printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
+printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest11}"
+curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest11}
+if grep -i '(52)' ${_curltest11}; then
+   echo 'BAD BOT DETECTED - TEST PASSED'
+else
+   echo 'BAD BOT NOT DETECTED - TEST FAILED'
+   #exit 1
+fi
+}
+run_curltest11
+
+# **************************************************
+# Function Curl Test 12 - Check for Bad Bot "Nutch"
+# **************************************************
+
+run_curltest12 () {
+truncate -s 0 ${_curltest12}
+printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
+printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest12}"
+curl -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest12}
+if grep -i '(52)' ${_curltest12}; then
+   echo 'BAD BOT DETECTED - TEST PASSED'
+else
+   echo 'BAD BOT NOT DETECTED - TEST FAILED'
+   #exit 1
+fi
+}
+run_curltest12
 
 echo "Tests Completed"
 
