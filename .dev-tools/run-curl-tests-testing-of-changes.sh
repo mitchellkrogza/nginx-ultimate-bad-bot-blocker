@@ -34,6 +34,8 @@ _curltest9=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest9.tx
 _curltest10=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest10.txt
 _curltest11=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest11.txt
 _curltest12=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest12.txt
+_curltest13=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest13.txt
+_curltest14=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest14.txt
 _now="$(date)"
 
 # *************************************************
@@ -254,6 +256,42 @@ else
 fi
 }
 run_curltest12
+
+# **************************************************
+# Function Curl Test 13 - Check for Bad Bot "Nutch"
+# **************************************************
+
+run_curltest13 () {
+truncate -s 0 ${_curltest13}
+printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
+printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest13}"
+curl -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest13}
+if grep -i '(52)' ${_curltest13}; then
+   echo 'BAD BOT DETECTED - TEST PASSED'
+else
+   echo 'BAD BOT NOT DETECTED - TEST FAILED'
+   #exit 1
+fi
+}
+run_curltest13
+
+# **************************************************
+# Function Curl Test 14 - Check for Good Bot
+# **************************************************
+
+run_curltest14 () {
+truncate -s 0 ${_curltest14}
+printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
+printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest14}"
+curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>> ${_curltest14}
+if grep -i 'Welcome' ${_curltest14}; then
+   echo 'GOOD REFERRER DETECTED - TEST PASSED'
+else
+   echo 'GOOD REFERRER NOT DETECTED - TEST FAILED'
+   #exit 1
+fi
+}
+run_curltest14
 
 echo "Tests Completed"
 
