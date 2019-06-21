@@ -139,7 +139,7 @@ map $http_user_agent $bad_bot {
 
 # TEST CASES 
 # **********
-	"~*(?:\b)ozilla(?:|\s|,|\.|\b|\/)"		3;
+	#"~*(?:\b)ozilla(?:|\s|,|\.|\b|\/)"		3;
 
 
 # START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###

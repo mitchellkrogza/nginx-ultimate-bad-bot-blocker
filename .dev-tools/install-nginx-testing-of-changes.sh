@@ -45,7 +45,7 @@
 # Make sure we test latest generated globalblacklist-testing-version.conf
 # ***********************************************************************
 
-printf '\n%s\n%s\n%s\n\n' "##############################################################################" "Copy latest generated globalblacklist.conf file to test for any compile errors" "##############################################################################"
+printf '\n%s\n%s\n%s\n\n' "##############################################################################" "Copy Test Unit of globalblacklist.conf file to test for any compile errors" "##############################################################################"
 sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version.conf /etc/nginx/conf.d/globalblacklist.conf
 
 # *********************
