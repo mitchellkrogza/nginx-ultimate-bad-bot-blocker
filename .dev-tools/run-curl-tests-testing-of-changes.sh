@@ -36,6 +36,7 @@ _curltest11=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest11.
 _curltest12=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest12.txt
 _curltest13=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest13.txt
 _curltest14=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest14.txt
+_curltest15=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest15.txt
 _now="$(date)"
 
 # *************************************************
@@ -292,6 +293,26 @@ else
 fi
 }
 run_curltest14
+
+
+# **************************************************
+# Function Curl Test 15 - TEST CASES
+# **************************************************
+
+run_curltest15 () {
+truncate -s 0 ${_curltest15}
+printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING CASES" "#########################"
+printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest15}"
+curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>> ${_curltest15}
+if grep -i '(52)' ${_curltest15}; then
+   echo 'TEST CASE DETECTED - TEST FAILED'
+else
+   echo 'TEST CASE NOT DETECTED - TEST PASSED'
+   #exit 1
+fi
+}
+run_curltest15
+
 
 echo "Tests Completed"
 

@@ -137,6 +137,11 @@ map $http_user_agent $bad_bot {
 # This includes:
 # Known Vulnerability Scanners (now merged into one section)
 
+# TEST CASES 
+# **********
+	"~*(?:\b|)ozilla(?:|\s|,|\.|\b|\/)"		3;
+
+
 # START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 	"~*(?:\b|)360Spider(?:|\s|,|\.|\b|\/)"		3;
 	"~*(?:\b|)404checker(?:|\s|,|\.|\b|\/)"		3;
