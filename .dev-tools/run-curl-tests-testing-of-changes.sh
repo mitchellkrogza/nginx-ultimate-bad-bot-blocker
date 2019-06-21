@@ -39,6 +39,7 @@ _curltest14=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest14.
 _curltest15=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest15.txt
 _now="$(date)"
 
+
 # *************************************************
 # Function Curl Test 1 - Check for Bad Bot "80legs"
 # *************************************************
@@ -49,13 +50,13 @@ printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest1}"
 curl -A "80legs" http://localhost:9000/index.php 2>> ${_curltest1}
 if grep -i '(52)' ${_curltest1}; then
-   echo 'BAD BOT DETECTED - TEST PASSED'
+   echo '$(tput setaf 2)BAD BOT DETECTED - TEST PASSED'
 else
-   echo 'BAD BOT NOT DETECTED - TEST FAILED'
-   #exit 1
+   echo '$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED'
 fi
 }
 run_curltest1
+echo "$(tput setaf 1)Red text $(tput setab 7)and white background$(tput sgr 0)"
 
 
 # **************************************************
