@@ -281,7 +281,7 @@ run_curltest13
 
 run_curltest14 () {
 truncate -s 0 ${_curltest14}
-printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
+printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING GOOD BOT IS ALLOWED" "#########################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest14}"
 curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>> ${_curltest14}
 if grep -i 'Welcome' ${_curltest14}; then
