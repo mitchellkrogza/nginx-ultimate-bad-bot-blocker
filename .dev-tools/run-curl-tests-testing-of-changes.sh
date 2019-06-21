@@ -248,7 +248,7 @@ run_curltest12 () {
 truncate -s 0 ${_curltest12}
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest12}"
-curl -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest12}
+curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>&1 >> ${_curltest12}
 if grep -i 'Welcome' ${_curltest12}; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
@@ -265,7 +265,7 @@ run_curltest13 () {
 truncate -s 0 ${_curltest13}
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest13}"
-curl -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest13}
+curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>&1 >> ${_curltest13}
 if grep -i 'Welcome' ${_curltest13}; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
@@ -282,7 +282,7 @@ run_curltest14 () {
 truncate -s 0 ${_curltest14}
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest14}"
-curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>> ${_curltest14}
+curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1 >> ${_curltest14}
 if grep -i 'Welcome' ${_curltest14}; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
@@ -300,7 +300,7 @@ run_curltest15 () {
 truncate -s 0 ${_curltest15}
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest15}"
-curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>> ${_curltest15}
+curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1 >> ${_curltest15}
 if grep -i 'Welcome' ${_curltest15}; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
