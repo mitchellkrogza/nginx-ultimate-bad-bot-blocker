@@ -50,13 +50,12 @@ printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest1}"
 curl -A "80legs" http://localhost:9000/index.php 2>> ${_curltest1}
 if grep -i '(52)' ${_curltest1}; then
-   echo '$(tput setaf 2)BAD BOT DETECTED - TEST PASSED'
+   echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
-   echo '$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED'
+   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
 fi
 }
 run_curltest1
-echo "$(tput setaf 1)Red text $(tput setab 7)and white background$(tput sgr 0)"
 
 
 # **************************************************
@@ -69,9 +68,9 @@ printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest2}"
 curl -A "Nutch" http://localhost:9000/index.php 2>> ${_curltest2}
 if grep -i '(52)' ${_curltest2}; then
-   echo 'BAD BOT DETECTED - TEST PASSED'
+   echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
-   echo 'BAD BOT NOT DETECTED - TEST FAILED'
+   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
    #exit 1
 fi
 }
@@ -88,9 +87,9 @@ printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest3}"
 curl -I http://localhost:9000/index.php -e http://100dollars-seo.com 2>> ${_curltest3}
 if grep -i '(52)' ${_curltest3}; then
-   echo 'BAD REFERRER DETECTED - TEST PASSED'
+   echo "$(tput setaf 2)BAD REFERRER DETECTED - TEST PASSED"
 else
-   echo 'BAD REFERRER NOT DETECTED - TEST FAILED'
+   echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
    #exit 1
 fi
 }
@@ -107,9 +106,9 @@ printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest4}"
 curl -I http://localhost:9000/index.php -e http://zx6.ru 2>> ${_curltest4}
 if grep -i '(52)' ${_curltest4}; then
-   echo 'BAD REFERRER DETECTED - TEST PASSED'
+   echo "$(tput setaf 2)BAD REFERRER DETECTED - TEST PASSED"
 else
-   echo 'BAD REFERRER NOT DETECTED - TEST FAILED'
+   echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
    #exit 1
 fi
 }
@@ -125,9 +124,9 @@ printf '\n%s\n%s\n%s\n\n' "###########################" "TESTING GOOD BOT IS ALL
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest5}"
 curl -v -A "GoogleBot" http://localhost:9000/index.php 2>&1 >> ${_curltest5}
 if grep -i 'Welcome' ${_curltest5}; then
-   echo 'GOOD BOT ALLOWED THROUGH - TEST PASSED'
+   echo "$(tput setaf 2)GOOD BOT ALLOWED THROUGH - TEST PASSED"
 else
-   echo 'GOOD BOT NOT ALLOWED THROUGH - TEST FAILED'
+   echo "$(tput setaf 1)GOOD BOT NOT ALLOWED THROUGH - TEST FAILED"
    #exit 1
 fi
 }
@@ -143,9 +142,9 @@ printf '\n%s\n%s\n%s\n\n' "###########################" "TESTING GOOD BOT IS ALL
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest6}"
 curl -v -A "BingBot" http://localhost:9000/index.php 2>&1 >> ${_curltest6}
 if grep -i 'Welcome' ${_curltest6}; then
-   echo 'GOOD BOT ALLOWED THROUGH - TEST PASSED'
+   echo "$(tput setaf 2)GOOD BOT ALLOWED THROUGH - TEST PASSED"
 else
-   echo 'GOOD BOT NOT ALLOWED THROUGH - TEST FAILED'
+   echo "$(tput setaf 1)GOOD BOT NOT ALLOWED THROUGH - TEST FAILED"
    #exit 1
 fi
 }
@@ -161,9 +160,9 @@ printf '\n%s\n%s\n%s\n\n' "################################" "TESTING GOOD REFER
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest7}"
 curl http://localhost:9000/index.php -e http://google.com 2>&1 >> ${_curltest7}
 if grep -i 'Welcome' ${_curltest7}; then
-   echo 'GOOD REFERRER DETECTED - TEST PASSED'
+   echo "$(tput setaf 2)GOOD REFERRER DETECTED - TEST PASSED"
 else
-   echo 'GOOD REFERRER NOT DETECTED - TEST FAILED'
+   echo "$(tput setaf 1)GOOD REFERRER NOT DETECTED - TEST FAILED"
    #exit 1
 fi
 }
@@ -179,9 +178,9 @@ printf '\n%s\n%s\n%s\n\n' "################################" "TESTING GOOD REFER
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest8}"
 curl http://localhost:9000/index.php -e http://bing.com 2>&1 >> ${_curltest8}
 if grep -i 'Welcome' ${_curltest8}; then
-   echo 'GOOD REFERRER DETECTED - TEST PASSED'
+   echo "$(tput setaf 2)GOOD REFERRER DETECTED - TEST PASSED"
 else
-   echo 'GOOD REFERRER NOT DETECTED - TEST FAILED'
+   echo "$(tput setaf 1)GOOD REFERRER NOT DETECTED - TEST FAILED"
    #exit 1
 fi
 }
@@ -197,9 +196,9 @@ printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest9}"
 curl -A "Googlebot/Nutch-1.7" http://localhost:9000/index.php 2>> ${_curltest9}
 if grep -i '(52)' ${_curltest9}; then
-   echo 'BAD BOT DETECTED - TEST PASSED'
+   echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
-   echo 'BAD BOT NOT DETECTED - TEST FAILED'
+   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
    #exit 1
 fi
 }
@@ -215,9 +214,9 @@ printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest10}"
 curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest10}
 if grep -i '(52)' ${_curltest10}; then
-   echo 'BAD BOT DETECTED - TEST PASSED'
+   echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
-   echo 'BAD BOT NOT DETECTED - TEST FAILED'
+   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
    #exit 1
 fi
 }
@@ -233,9 +232,9 @@ printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest11}"
 curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest11}
 if grep -i '(52)' ${_curltest11}; then
-   echo 'BAD BOT DETECTED - TEST PASSED'
+   echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
-   echo 'BAD BOT NOT DETECTED - TEST FAILED'
+   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
    #exit 1
 fi
 }
@@ -251,9 +250,9 @@ printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest12}"
 curl -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest12}
 if grep -i 'Welcome' ${_curltest12}; then
-   echo 'NO FALSE POSITIVE - TEST PASSED'
+   echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
-   echo 'FALSE POSITIVE - TEST FAILED'
+   echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
 fi
 }
 run_curltest12
@@ -268,9 +267,9 @@ printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest13}"
 curl -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest13}
 if grep -i 'Welcome' ${_curltest13}; then
-   echo 'NO FALSE POSITIVE - TEST PASSED'
+   echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
-   echo 'FALSE POSITIVE - TEST FAILED'
+   echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
 fi
 }
 run_curltest13
@@ -285,9 +284,9 @@ printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest14}"
 curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>> ${_curltest14}
 if grep -i 'Welcome' ${_curltest14}; then
-   echo 'NO FALSE POSITIVE - TEST PASSED'
+   echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
-   echo 'FALSE POSITIVE - TEST FAILED'
+   echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
 fi
 }
 run_curltest14
@@ -303,9 +302,9 @@ printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE
 printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest15}"
 curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>> ${_curltest15}
 if grep -i 'Welcome' ${_curltest15}; then
-   echo 'NO FALSE POSITIVE - TEST PASSED'
+   echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
-   echo 'FALSE POSITIVE - TEST FAILED'
+   echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
 fi
 }
 run_curltest15
