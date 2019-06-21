@@ -237,7 +237,7 @@ rm ${_inputdb3}
 printf '%s\n' "$_start4" >> ${_tmpnginx4}
 while IFS= read -r LINE
 do
-printf '\t"~*%s%s"\t\t%s\n' "(?:\.|\b|\/|[1-9])${LINE}" "(?:\.|\b|\/|[1-9])" "$_action4" >> ${_tmpnginx4}
+printf '\t"~*%s%s"\t\t%s\n' "(?:\b|)${LINE}" "(?:|\s|,|\.|\b|\/)" "$_action4" >> ${_tmpnginx4}
 #printf '\t"~*%s"\t\t%s\n' "${LINE}" "$_action4" >> ${_tmpnginx4}
 done < ${_input4}
 printf '%s\n' "$_end4"  >> ${_tmpnginx4}
