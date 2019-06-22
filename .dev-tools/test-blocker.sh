@@ -263,7 +263,7 @@ IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list
 lines=`cat $file`
 for line in $lines; do
-        echo "$line"
+        curl -v -A "$line" http://localhost:9000 2>&1
 done
 
 
