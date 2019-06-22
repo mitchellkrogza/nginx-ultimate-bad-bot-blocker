@@ -296,19 +296,28 @@ run_curltest14
 # Function Curl Test 15 - TEST CASES
 # **************************************************
 
+#run_curltest15 () {
+#truncate -s 0 ${_curltest15}
+#printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
+#printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest15}"
+#curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1 >> ${_curltest15}
+#if grep -i 'Welcome' ${_curltest15}; then
+#   echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
+#else
+#   echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
+#fi
+#}
+#run_curltest15
+
 run_curltest15 () {
-truncate -s 0 ${_curltest15}
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest15}"
-curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1 >> ${_curltest15}
-if grep -i 'Welcome' ${_curltest15}; then
+if grep -i 'Welcome' | curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
 fi
 }
 run_curltest15
-
 
 echo "Tests Completed"
 
