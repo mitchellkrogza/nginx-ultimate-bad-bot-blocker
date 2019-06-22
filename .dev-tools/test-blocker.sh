@@ -32,6 +32,7 @@ if curl -v -A "80legs" http://localhost:9000/index.php 2>&1 | grep -i '(52)'; th
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
+   exit 1
 fi
 }
 run_curltest1
@@ -47,7 +48,7 @@ if curl -v -A "Nutch" http://localhost:9000/index.php 2>&1 | grep -i '(52)'; the
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest2
@@ -63,7 +64,7 @@ if curl -I http://localhost:9000/index.php -e http://100dollars-seo.com 2>&1 | g
    echo "$(tput setaf 1)BAD REFERRER DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest3
@@ -79,7 +80,7 @@ if curl -I http://localhost:9000/index.php -e http://zx6.ru 2>&1 | grep -i '(52)
    echo "$(tput setaf 1)BAD REFERRER DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest4
@@ -94,7 +95,7 @@ if curl -v -A "GoogleBot" http://localhost:9000/index.php 2>&1 | grep -i 'Welcom
    echo "$(tput setaf 2)GOOD BOT ALLOWED THROUGH - TEST PASSED"
 else
    echo "$(tput setaf 1)GOOD BOT NOT ALLOWED THROUGH - TEST FAILED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest5
@@ -109,7 +110,7 @@ if curl -v -A "BingBot" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome'
    echo "$(tput setaf 2)GOOD BOT ALLOWED THROUGH - TEST PASSED"
 else
    echo "$(tput setaf 1)GOOD BOT NOT ALLOWED THROUGH - TEST FAILED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest6
@@ -124,7 +125,7 @@ if curl http://localhost:9000/index.php -e http://google.com 2>&1 | grep -i 'Wel
    echo "$(tput setaf 2)GOOD REFERRER DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)GOOD REFERRER NOT DETECTED - TEST FAILED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest7
@@ -139,7 +140,7 @@ if curl http://localhost:9000/index.php -e http://bing.com 2>&1 | grep -i 'Welco
    echo "$(tput setaf 2)GOOD REFERRER DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)GOOD REFERRER NOT DETECTED - TEST FAILED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest8
@@ -154,7 +155,7 @@ if curl -A "Googlebot/Nutch-1.7" http://localhost:9000/index.php 2>&1 | grep -i 
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest9
@@ -169,7 +170,7 @@ if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest10
@@ -184,7 +185,7 @@ if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.co
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest11
@@ -199,6 +200,7 @@ if curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://w
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
+   exit 1
 fi
 }
 run_curltest12
@@ -213,6 +215,7 @@ if curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +ht
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
+   exit 1
 fi
 }
 run_curltest13
@@ -227,6 +230,7 @@ if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/6
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
+   exit 1
 fi
 }
 run_curltest14
@@ -242,9 +246,26 @@ if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/6
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
+   exit 1
 fi
 }
 run_curltest15
+
+# *******************************************************
+# Function Curl Test 16 - Test User Whitelist for "Nutch"
+# *******************************************************
+
+run_curltest16 () {
+printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING USER WHITELIST" "#########################"
+if curl -v -A "Nutch" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome'; then
+   echo "$(tput setaf 2)BAD BOT ALLOWED - TEST PASSED"
+else
+   echo "$(tput setaf 1)WHITELISTING FAILED - TEST FAILED"
+   #exit 1
+fi
+}
+run_curltest16
+
 
 echo "Tests Completed"
 
