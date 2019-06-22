@@ -262,6 +262,7 @@ if curl -v -A "Nutch" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome'; 
 else
    echo "$(tput setaf 1)WHITELISTING FAILED - TEST FAILED"
    #exit 1
+   curl -v -A "Nutch" http://localhost:9000/index.php 2>&1
 fi
 }
 run_curltest16
