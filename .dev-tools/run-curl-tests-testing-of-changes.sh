@@ -311,7 +311,7 @@ run_curltest14
 
 run_curltest15 () {
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-if grep -i 'Welcome' | curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1; then
+if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome'; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
