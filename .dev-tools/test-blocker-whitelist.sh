@@ -18,16 +18,19 @@
 
 echo "Whitelist Tests Starting"
 
-echo "Activating User Whitelist/Blacklist"
+echo "Activating Users User-Agents Whitelist/Blacklist"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/blacklist-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
+echo "Activating Users Referrers Whitelist/Blacklist"
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/custom-bad-referrers.conf /etc/nginx/bots.d/custom-bad-referrers.conf
 echo "Reloading Nginx"
 sudo nginx -t && sudo nginx -s reload
 
-echo "Sleeping for 30 seconds to allow Nginx reload"
+
+echo "Sleeping for 30 seconds to allow Nginx Properly Reload inside Travis"
 sleep 30s
 
 # *******************************************************
-# Function Curl Test 16 - Test User Whitelist for "Nutch"
+# Function Curl Test 1 - Test User Whitelist for "Nutch"
 # *******************************************************
 
 run_curltest1 () {
@@ -42,9 +45,13 @@ fi
 }
 run_curltest1
 
+# **************************************************************
+# Function Curl Test 2 - Check for Whitelisted Referrer "zx6.ru"
+# **************************************************************
+
 run_curltest2 () {
-printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING USER WHITELIST" "#########################"
-if curl -v -A "Nutch" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER IS DENIED" "##############################"
+if curl -I http://localhost:9000/index.html -e http://zx6.ru 2>&1 | grep -i 'Welcome'; then
    echo "$(tput setaf 2)WHITELISTING OF BAD BOT ALLOWED - TEST PASSED"
 else
    echo "$(tput setaf 1)WHITELISTING FAILED - TEST FAILED"
