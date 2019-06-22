@@ -52,11 +52,11 @@ run_curltest1
 run_curltest2 () {
 printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER IS DENIED" "##############################"
 if curl -I http://localhost:9000/index.html -e http://zx6.ru 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)WHITELISTING OF BAD BOT ALLOWED - TEST PASSED"
+   echo "$(tput setaf 2)WHITELISTING OF REFERRER ALLOWED - TEST PASSED"
 else
-   echo "$(tput setaf 1)WHITELISTING FAILED - TEST FAILED"
+   echo "$(tput setaf 1)WHITELISTING REFERRER FAILED - TEST FAILED"
    #exit 1
-   curl -v -A "Nutch" http://localhost:9000 2>&1
+   curl -I http://localhost:9000/index.html -e http://zx6.ru 2>&1
 fi
 }
 run_curltest2
