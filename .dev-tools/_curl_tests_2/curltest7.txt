@@ -1,7 +1,0 @@
-Last Tested: Thu Jun 20 18:54:47 SAST 2019
-
-<?php
-
-echo "Welcome to Nginx\n";
-echo "This is the Travis Testing Environment for the Nginx Ultimate Bad Bot Blocker\n";
-echo "Visit https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker\n";
