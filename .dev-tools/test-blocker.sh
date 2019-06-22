@@ -155,7 +155,7 @@ if curl -A "Googlebot/Nutch-1.7" http://localhost:9000/index.php 2>&1 | grep -i 
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
-   exit 1
+   #exit 1
 fi
 }
 run_curltest9
@@ -170,7 +170,7 @@ if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
-   exit 1
+   #exit 1
 fi
 }
 run_curltest10
@@ -185,7 +185,7 @@ if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.co
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
-   exit 1
+   #exit 1
 fi
 }
 run_curltest11
@@ -200,7 +200,7 @@ if curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://w
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
-   exit 1
+   #exit 1
 fi
 }
 run_curltest12
@@ -215,7 +215,7 @@ if curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +ht
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
-   exit 1
+   #exit 1
 fi
 }
 run_curltest13
@@ -230,7 +230,7 @@ if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/6
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
-   exit 1
+   #exit 1
 fi
 }
 run_curltest14
@@ -246,7 +246,7 @@ if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/6
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
-   exit 1
+   #exit 1
 fi
 }
 run_curltest15
