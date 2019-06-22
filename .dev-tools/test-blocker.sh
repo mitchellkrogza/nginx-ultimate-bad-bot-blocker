@@ -22,6 +22,12 @@
 
 echo "Tests Starting"
 
+echo "Set Whitelisting to Default"
+sudo cp ${TRAVIS_BUILD_DIR}/bots.d/blacklist-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
+echo "Reloading Nginx"
+sudo nginx -t && sudo nginx -s reload
+
+
 # *************************************************
 # Function Curl Test 1 - Check for Bad Bot "80legs"
 # *************************************************
