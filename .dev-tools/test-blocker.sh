@@ -257,6 +257,8 @@ fi
 }
 run_curltest15
 
+IFS=$'\n' read -d '' -r -a lines < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list
+echo "${lines[@]}"
 
 echo "Tests Completed"
 
