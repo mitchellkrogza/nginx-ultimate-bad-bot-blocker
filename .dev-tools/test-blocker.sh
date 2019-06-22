@@ -257,8 +257,13 @@ fi
 }
 run_curltest15
 
-IFS=$'\n' read -d '' -r -a lines < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list
-echo "${lines[@]}"
+#IFS=$'\n' read -d '' -r -a lines < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list
+#echo "${lines[@]}"
+file=${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list
+lines=`cat $file`
+for line in $lines; do
+        echo "$line"
+done
 
 echo "Tests Completed"
 
