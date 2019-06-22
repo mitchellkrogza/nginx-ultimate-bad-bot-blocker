@@ -22,24 +22,6 @@
 
 echo "Tests Starting"
 
-_curltest1=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest1.txt
-_curltest2=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest2.txt
-_curltest3=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest3.txt
-_curltest4=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest4.txt
-_curltest5=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest5.txt
-_curltest6=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest6.txt
-_curltest7=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest7.txt
-_curltest8=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest8.txt
-_curltest9=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest9.txt
-_curltest10=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest10.txt
-_curltest11=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest11.txt
-_curltest12=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest12.txt
-_curltest13=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest13.txt
-_curltest14=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest14.txt
-_curltest15=${TRAVIS_BUILD_DIR}/.dev-tools/_curl_tests_changetesting/curltest15.txt
-_now="$(date)"
-
-
 # *************************************************
 # Function Curl Test 1 - Check for Bad Bot "80legs"
 # *************************************************
@@ -209,11 +191,8 @@ run_curltest9
 # **************************************************
 
 run_curltest10 () {
-truncate -s 0 ${_curltest10}
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest10}"
-curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest10}
-if grep -i '(52)' ${_curltest10}; then
+if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2 | grep -i '(52)' ${_curltest10}; then
    echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
@@ -227,11 +206,8 @@ run_curltest10
 # **************************************************
 
 run_curltest11 () {
-truncate -s 0 ${_curltest11}
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest11}"
-curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>> ${_curltest11}
-if grep -i '(52)' ${_curltest11}; then
+if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2 | grep -i '(52)' ${_curltest11}; then
    echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
@@ -245,11 +221,8 @@ run_curltest11
 # **************************************************
 
 run_curltest12 () {
-truncate -s 0 ${_curltest12}
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest12}"
-curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>&1 >> ${_curltest12}
-if grep -i 'Welcome' ${_curltest12}; then
+if curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome' ${_curltest12}; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
@@ -262,11 +235,8 @@ run_curltest12
 # **************************************************
 
 run_curltest13 () {
-truncate -s 0 ${_curltest13}
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest13}"
-curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>&1 >> ${_curltest13}
-if grep -i 'Welcome' ${_curltest13}; then
+if curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome' ${_curltest13}; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
@@ -279,11 +249,8 @@ run_curltest13
 # **************************************************
 
 run_curltest14 () {
-truncate -s 0 ${_curltest14}
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest14}"
-curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1 >> ${_curltest14}
-if grep -i 'Welcome' ${_curltest14}; then
+if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome' ${_curltest14}; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
@@ -295,19 +262,6 @@ run_curltest14
 # **************************************************
 # Function Curl Test 15 - TEST CASES
 # **************************************************
-
-#run_curltest15 () {
-#truncate -s 0 ${_curltest15}
-#printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-#printf '%s%s\n\n' "Last Tested: " "$_now" >> "${_curltest15}"
-#curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1 >> ${_curltest15}
-#if grep -i 'Welcome' ${_curltest15}; then
-#   echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
-#else
-#   echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
-#fi
-#}
-#run_curltest15
 
 run_curltest15 () {
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
