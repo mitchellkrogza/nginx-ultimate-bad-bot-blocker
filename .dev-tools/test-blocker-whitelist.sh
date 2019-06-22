@@ -40,7 +40,7 @@ fi
 }
 run_curltest1
 
-cat /etc/nginx/bots.d/blacklist-user-agents.conf
+sudo cat /etc/nginx/bots.d/blacklist-user-agents.conf
 
 echo "Whitelist Tests Completed"
 
