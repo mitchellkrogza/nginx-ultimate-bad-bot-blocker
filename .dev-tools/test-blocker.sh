@@ -23,7 +23,7 @@
 echo "Tests Starting"
 
 echo "Set Whitelisting to Default"
-sudo cp ${TRAVIS_BUILD_DIR}/bots.d/blacklist-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/blacklist-user-agents-none.conf /etc/nginx/bots.d/blacklist-user-agents.conf
 echo "Reloading Nginx"
 sudo nginx -t && sudo nginx -s reload
 
