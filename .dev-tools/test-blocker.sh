@@ -251,22 +251,6 @@ fi
 }
 run_curltest15
 
-# *******************************************************
-# Function Curl Test 16 - Test User Whitelist for "Nutch"
-# *******************************************************
-
-run_curltest16 () {
-printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING USER WHITELIST" "#########################"
-if curl -v -A "Nutch" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)BAD BOT ALLOWED - TEST PASSED"
-else
-   echo "$(tput setaf 1)WHITELISTING FAILED - TEST FAILED"
-   #exit 1
-   curl -v -A "Nutch" http://localhost:9000/index.php 2>&1
-fi
-}
-run_curltest16
-
 
 echo "Tests Completed"
 

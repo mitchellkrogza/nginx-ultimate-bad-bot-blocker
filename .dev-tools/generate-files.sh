@@ -54,6 +54,7 @@ sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-regex-format-referrers.php
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/modify-config-readme-files.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/modify-files-and-commit.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-whitelist.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/prepare-robots-input.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/install-nginx-1.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/install-nginx-2.sh

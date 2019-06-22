@@ -131,8 +131,6 @@ map $http_user_agent $bad_bot {
 # END CUSTOM BLACKLISTED USER AGENTS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
 # *********************************************************************************
 
-# Test User Whitelisting 
-	"~*(?:\b)Nutch(?:\b|)"		0;
 
 # *********************************************
 # Bad User-Agent Strings That We Block Outright
