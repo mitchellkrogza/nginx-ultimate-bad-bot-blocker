@@ -23,6 +23,7 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/blacklist-user-agents.conf /etc/nginx/bot
 echo "Reloading Nginx"
 sudo nginx -t && sudo nginx -s reload
 
+sleep 30s
 
 # *******************************************************
 # Function Curl Test 16 - Test User Whitelist for "Nutch"
@@ -35,7 +36,7 @@ if curl -v -A "Nutch" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
 else
    echo "$(tput setaf 1)WHITELISTING FAILED - TEST FAILED"
    #exit 1
-   curl -v -A "Nutch" http://localhost:9000/index.php 2>&1
+   curl -v -A "Nutch" http://localhost:9000 2>&1
 fi
 }
 run_curltest1
@@ -47,7 +48,7 @@ if curl -v -A "Nutch" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
 else
    echo "$(tput setaf 1)WHITELISTING FAILED - TEST FAILED"
    #exit 1
-   curl -v -A "Nutch" http://localhost:9000/index.php 2>&1
+   curl -v -A "Nutch" http://localhost:9000 2>&1
 fi
 }
 run_curltest2
