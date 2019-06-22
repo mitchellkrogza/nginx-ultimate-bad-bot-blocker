@@ -28,7 +28,7 @@ echo "Tests Starting"
 
 run_curltest1 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -A "80legs" http://localhost:9000/index.php 2 | grep -i '(52)'; then
+if curl -A "80legs" http://localhost:9000/index.php | grep -i '(52)'; then
    echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
@@ -43,7 +43,7 @@ run_curltest1
 
 run_curltest2 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -A "Nutch" http://localhost:9000/index.php 2 | grep -i '(52)'; then
+if curl -A "Nutch" http://localhost:9000/index.php | grep -i '(52)'; then
    echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
@@ -59,7 +59,7 @@ run_curltest2
 
 run_curltest3 () {
 printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER IS DENIED" "##############################"
-if curl -I http://localhost:9000/index.php -e http://100dollars-seo.com 2 | grep -i '(52)'; then
+if curl -I http://localhost:9000/index.php -e http://100dollars-seo.com | grep -i '(52)'; then
    echo "$(tput setaf 2)BAD REFERRER DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
@@ -75,7 +75,7 @@ run_curltest3
 
 run_curltest4 () {
 printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER IS DENIED" "##############################"
-if curl -I http://localhost:9000/index.php -e http://zx6.ru 2 | grep -i '(52)'; then
+if curl -I http://localhost:9000/index.php -e http://zx6.ru | grep -i '(52)'; then
    echo "$(tput setaf 2)BAD REFERRER DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
@@ -150,7 +150,7 @@ run_curltest8
 
 run_curltest9 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -A "Googlebot/Nutch-1.7" http://localhost:9000/index.php 2 | grep -i '(52)'; then
+if curl -A "Googlebot/Nutch-1.7" http://localhost:9000/index.php | grep -i '(52)'; then
    echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
@@ -165,7 +165,7 @@ run_curltest9
 
 run_curltest10 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2 | grep -i '(52)'; then
+if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php | grep -i '(52)'; then
    echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
@@ -180,7 +180,7 @@ run_curltest10
 
 run_curltest11 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2 | grep -i '(52)'; then
+if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php | grep -i '(52)'; then
    echo "$(tput setaf 2)BAD BOT DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
