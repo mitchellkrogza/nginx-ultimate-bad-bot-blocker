@@ -23,6 +23,7 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/blacklist-user-agents.conf /etc/nginx/bot
 echo "Reloading Nginx"
 sudo nginx -t && sudo nginx -s reload
 
+echo "Sleeping for 30 seconds to allow Nginx reload"
 sleep 30s
 
 # *******************************************************
@@ -53,8 +54,6 @@ fi
 }
 run_curltest2
 
-
-sudo cat /etc/nginx/bots.d/blacklist-user-agents.conf
 
 echo "Whitelist Tests Completed"
 
