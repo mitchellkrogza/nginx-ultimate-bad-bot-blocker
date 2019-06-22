@@ -43,7 +43,7 @@ script:
   #- bash .dev-tools/test-blocker-whitelist.sh
   - bash .dev-tools/install-nginx-testing-of-changes.sh
   - bash .dev-tools/test-blocker.sh
-  #- bash .dev-tools/test-blocker-whitelist.sh
+  - bash .dev-tools/test-blocker-whitelist.sh
   #- bash .dev-tools/install-nginx-2.sh
   #- bash .dev-tools/test-blocker.sh
   #- bash .dev-tools/install-nginx-3.sh
