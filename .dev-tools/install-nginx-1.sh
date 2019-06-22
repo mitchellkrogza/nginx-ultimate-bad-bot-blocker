@@ -80,7 +80,7 @@ sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/def
 # Copy our index.php file into the default site's root folder
 # ***********************************************************
 
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/index.php /var/www/html/index.php
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/index.html /var/www/html/index.html
 printf '\n%s\n%s\n%s\n\n' "#####################################" "Finished Nginx Setup for Nginx Test 1" "#####################################"
 
 # ***********************************************

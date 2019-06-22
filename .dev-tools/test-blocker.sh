@@ -34,7 +34,7 @@ echo "Reloading Nginx"
 
 run_curltest1 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -v -A "80legs" http://localhost:9000/index.php 2>&1 | grep -i '(52)'; then
+if curl -v -A "80legs" http://localhost:9000/index.html 2>&1 | grep -i '(52)'; then
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
@@ -50,7 +50,7 @@ run_curltest1
 
 run_curltest2 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -v -A "Nutch" http://localhost:9000/index.php 2>&1 | grep -i '(52)'; then
+if curl -v -A "Nutch" http://localhost:9000/index.html 2>&1 | grep -i '(52)'; then
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
@@ -66,7 +66,7 @@ run_curltest2
 
 run_curltest3 () {
 printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER IS DENIED" "##############################"
-if curl -I http://localhost:9000/index.php -e http://100dollars-seo.com 2>&1 | grep -i '(52)'; then
+if curl -I http://localhost:9000/index.html -e http://100dollars-seo.com 2>&1 | grep -i '(52)'; then
    echo "$(tput setaf 1)BAD REFERRER DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
@@ -82,7 +82,7 @@ run_curltest3
 
 run_curltest4 () {
 printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER IS DENIED" "##############################"
-if curl -I http://localhost:9000/index.php -e http://zx6.ru 2>&1 | grep -i '(52)'; then
+if curl -I http://localhost:9000/index.html -e http://zx6.ru 2>&1 | grep -i '(52)'; then
    echo "$(tput setaf 1)BAD REFERRER DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
@@ -97,7 +97,7 @@ run_curltest4
 
 run_curltest5 () {
 printf '\n%s\n%s\n%s\n\n' "###########################" "TESTING GOOD BOT IS ALLOWED" "###########################"
-if curl -v -A "GoogleBot" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome'; then
+if curl -v -A "GoogleBot" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
    echo "$(tput setaf 2)GOOD BOT ALLOWED THROUGH - TEST PASSED"
 else
    echo "$(tput setaf 1)GOOD BOT NOT ALLOWED THROUGH - TEST FAILED"
@@ -112,7 +112,7 @@ run_curltest5
 
 run_curltest6 () {
 printf '\n%s\n%s\n%s\n\n' "###########################" "TESTING GOOD BOT IS ALLOWED" "###########################"
-if curl -v -A "BingBot" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome'; then
+if curl -v -A "BingBot" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
    echo "$(tput setaf 2)GOOD BOT ALLOWED THROUGH - TEST PASSED"
 else
    echo "$(tput setaf 1)GOOD BOT NOT ALLOWED THROUGH - TEST FAILED"
@@ -127,7 +127,7 @@ run_curltest6
 
 run_curltest7 () {
 printf '\n%s\n%s\n%s\n\n' "################################" "TESTING GOOD REFERRER IS ALLOWED" "################################"
-if curl http://localhost:9000/index.php -e http://google.com 2>&1 | grep -i 'Welcome'; then
+if curl http://localhost:9000/index.html -e http://google.com 2>&1 | grep -i 'Welcome'; then
    echo "$(tput setaf 2)GOOD REFERRER DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)GOOD REFERRER NOT DETECTED - TEST FAILED"
@@ -142,7 +142,7 @@ run_curltest7
 
 run_curltest8 () {
 printf '\n%s\n%s\n%s\n\n' "################################" "TESTING GOOD REFERRER IS ALLOWED" "################################"
-if curl http://localhost:9000/index.php -e http://bing.com 2>&1 | grep -i 'Welcome'; then
+if curl http://localhost:9000/index.html -e http://bing.com 2>&1 | grep -i 'Welcome'; then
    echo "$(tput setaf 2)GOOD REFERRER DETECTED - TEST PASSED"
 else
    echo "$(tput setaf 1)GOOD REFERRER NOT DETECTED - TEST FAILED"
@@ -157,7 +157,7 @@ run_curltest8
 
 run_curltest9 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -A "Googlebot/Nutch-1.7" http://localhost:9000/index.php 2>&1 | grep -i '(52)'; then
+if curl -A "Googlebot/Nutch-1.7" http://localhost:9000/index.html 2>&1 | grep -i '(52)'; then
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
@@ -172,7 +172,7 @@ run_curltest9
 
 run_curltest10 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>&1 | grep -i '(52)'; then
+if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.html 2>&1 | grep -i '(52)'; then
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
@@ -187,7 +187,7 @@ run_curltest10
 
 run_curltest11 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>&1 | grep -i '(52)'; then
+if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.html 2>&1 | grep -i '(52)'; then
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
 else
    echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
@@ -202,7 +202,7 @@ run_curltest11
 
 run_curltest12 () {
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-if curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome'; then
+if curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
@@ -217,7 +217,7 @@ run_curltest12
 
 run_curltest13 () {
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-if curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome'; then
+if curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
@@ -232,7 +232,7 @@ run_curltest13
 
 run_curltest14 () {
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome'; then
+if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
@@ -248,7 +248,7 @@ run_curltest14
 
 run_curltest15 () {
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.php 2>&1 | grep -i 'Welcome'; then
+if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
    echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
 else
    echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
