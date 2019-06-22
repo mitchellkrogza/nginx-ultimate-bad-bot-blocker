@@ -114,6 +114,26 @@ map $http_user_agent $bad_bot {
 
 	default		0;
 
+
+# ***********************************************
+# Include your Own Custom List of Bad User Agents
+# ***********************************************
+
+# Use the include file below to further customize your own list of additional user-agents you wish to permanently block
+
+# ***********************************************************************************
+# START CUSTOM BLACKLISTED USER AGENTS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
+# ***********************************************************************************
+
+	include /etc/nginx/bots.d/blacklist-user-agents.conf;
+
+# *********************************************************************************
+# END CUSTOM BLACKLISTED USER AGENTS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
+# *********************************************************************************
+
+# Test User Whitelisting 
+	"~*(?:\b)Nutch(?:\b|)"		0;
+
 # *********************************************
 # Bad User-Agent Strings That We Block Outright
 # *********************************************
@@ -770,24 +790,6 @@ map $http_user_agent $bad_bot {
 # END LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 
 
-# ***********************************************
-# Include your Own Custom List of Bad User Agents
-# ***********************************************
-
-# Use the include file below to further customize your own list of additional user-agents you wish to permanently block
-
-# ***********************************************************************************
-# START CUSTOM BLACKLISTED USER AGENTS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
-# ***********************************************************************************
-
-	include /etc/nginx/bots.d/blacklist-user-agents.conf;
-
-# *********************************************************************************
-# END CUSTOM BLACKLISTED USER AGENTS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
-# *********************************************************************************
-
-# Test User Whitelisting 
-	"~*(?:\b)Nutch(?:\b|)"		0;
 
 
 }	
