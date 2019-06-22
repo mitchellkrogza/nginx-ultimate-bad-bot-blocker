@@ -119,6 +119,7 @@ map $http_user_agent $bad_bot {
 # ***********************************************
 
 # Use the include file below to further customize your own list of additional user-agents you wish to permanently block
+# This include file allows whitelisting and blacklisting of anything specified below it, meaning you can over-ride anything in this blocker to your liking.
 
 # ***********************************************************************************
 # START CUSTOM BLACKLISTED USER AGENTS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
@@ -130,20 +131,9 @@ map $http_user_agent $bad_bot {
 # END CUSTOM BLACKLISTED USER AGENTS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
 # *********************************************************************************
 
-
-
-
-
 # *********************************************
 # Bad User-Agent Strings That We Block Outright
 # *********************************************
-
-# This includes:
-# Known Vulnerability Scanners (now merged into one section)
-
-# TEST CASES 
-# **********
-	#"~*(?:\b)ozilla(?:|\s|,|\.|\b|\/)"		3;
 
 
 # START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
