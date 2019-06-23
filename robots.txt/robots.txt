@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2019.06.1541
-### Updated: Sun Jun 23 16:11:02 SAST 2019
-### Bad Bot Count: 556
+### Version: V3.2019.06.1542
+### Updated: Sun Jun 23 16:45:59 SAST 2019
+### Bad Bot Count: 555
 ###################################################
 ### Version Information ##
 
@@ -826,8 +826,6 @@ Disallow:/
 User-agent: Site Sucker
 Disallow:/
 User-agent: Sitevigil
-Disallow:/
-User-agent: Slackbot-LinkExpanding
 Disallow:/
 User-agent: SlySearch
 Disallow:/

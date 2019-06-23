@@ -404,7 +404,6 @@ SiteSnagger
 SiteSucker
 Site Sucker
 Sitevigil
-Slackbot-LinkExpanding
 SlySearch
 SmartDownload
 SMTBot
