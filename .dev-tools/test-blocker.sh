@@ -272,9 +272,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i '(52)'; then
-   echo "${bold}$(tput setaf 1)${line} $(tput setaf 2)was BLOCKED - $(tput setaf 2)TEST PASSED"
+   echo "${bold}$(tput setaf 1)${line} $(tput setaf 1)was BLOCKED - $(tput setaf 2)TEST PASSED"
    else
-   echo "${bold}$(tput setaf 1)${line} was NOT BLOCKED - TEST FAILED"
+   echo "${bold}$(tput setaf 1)${line} $(tput setaf 1)was NOT BLOCKED - ${bold}$(tput setaf 1)TEST FAILED"
    fi
 done
 IFS=""
@@ -291,9 +291,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}$(tput setaf 2)${line} was ALLOWED - TEST PASSED"
+   echo "${bold}$(tput setaf 2)${line} $(tput setaf 2)was ALLOWED - ${bold}$(tput setaf 2)TEST PASSED"
    else
-   echo "${bold}$(tput setaf 1)${line} was NOT ALLOWED - TEST FAILED"
+   echo "${bold}$(tput setaf 1)${line} $(tput setaf 1)was NOT ALLOWED - ${bold}$(tput setaf 1)TEST FAILED"
    fi
 done
 IFS=""
@@ -311,9 +311,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}$(tput setaf 2)${line} was ALLOWED - TEST PASSED"
+   echo "${bold}$(tput setaf 2)${line} $(tput setaf 2)was ALLOWED - ${bold}$(tput setaf 2)TEST PASSED"
    else
-   echo "${bold}$(tput setaf 1)${line} was NOT ALLOWED - TEST FAILED"
+   echo "${bold}$(tput setaf 1)${line} $(tput setaf 1)was NOT ALLOWED - ${bold}$(tput setaf 1)TEST FAILED"
    fi
 done
 IFS=""
@@ -330,9 +330,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}$(tput setaf 2)${line} was ALLOWED - TEST PASSED"
+   echo "${bold}$(tput setaf 2)${line} $(tput setaf 2)was ALLOWED - ${bold}$(tput setaf 2)TEST PASSED"
    else
-   echo "${bold}$(tput setaf 1)${line} was NOT ALLOWED - TEST FAILED"
+   echo "${bold}$(tput setaf 1)${line} $(tput setaf 1)was NOT ALLOWED - ${bold}$(tput setaf 1)TEST FAILED"
    fi
 done
 IFS=""
@@ -349,9 +349,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -I http://localhost:9000 -e "http://${line}" 2>&1 | grep -i '(52)'; then
-   echo "${bold}$(tput setaf 1)${line} was BLOCKED - $(tput setaf 2)TEST PASSED"
+   echo "${bold}$(tput setaf 1)${line} $(tput setaf 1)was BLOCKED - ${bold}$(tput setaf 2)TEST PASSED"
    else
-   echo "${bold}$(tput setaf 1)${line} was NOT BLOCKED - TEST FAILED"
+   echo "${bold}$(tput setaf 1)${line} $(tput setaf 1)was NOT BLOCKED - ${bold}$(tput setaf 1)TEST FAILED"
    fi
 done
 IFS=""
