@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V3.2019.06.1533
-### Updated: Sun Jun 23 11:14:07 SAST 2019
-### Bad Bot Count: 557
+### Version: V3.2019.06.1534
+### Updated: Sun Jun 23 11:27:23 SAST 2019
+### Bad Bot Count: 556
 ###################################################
 ### Version Information ##
 
@@ -120,8 +120,6 @@ Disallow:/
 User-agent: Brandprotect
 Disallow:/
 User-agent: Brandwatch
-Disallow:/
-User-agent: Bubing
 Disallow:/
 User-agent: Buddy
 Disallow:/
