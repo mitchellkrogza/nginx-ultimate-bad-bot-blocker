@@ -297,6 +297,45 @@ for line in ${lines}; do
 done
 IFS=""
 
+
+# *****************************************************
+# Test All Allowed User-Agents from Allowed-User-Agents
+# *****************************************************
+sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/allowed-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
+
+echo "Testing All Allowed Bots"
+IFS=$'\n'
+file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
+lines=$(cat ${file})
+for line in ${lines}; do
+   if
+   curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "$(tput setaf 2)ALLOWED BOT ALLOWED - TEST PASSED"
+   else
+   echo "$(tput setaf 1)ALLOWED BOT NOT ALLOWED - TEST FAILED"
+   fi
+done
+IFS=""
+
+# *****************************************************
+# Test All Limited User-Agents from Limited-User-Agents
+# *****************************************************
+sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/limited-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
+
+echo "Testing All Limited Bots"
+IFS=$'\n'
+file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
+lines=$(cat ${file})
+for line in ${lines}; do
+   if
+   curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "$(tput setaf 2)LIMITED BOT ALLOWED - TEST PASSED"
+   else
+   echo "$(tput setaf 1)LIMITED BOT NOT ALLOWED - TEST FAILED"
+   fi
+done
+IFS=""
+
 echo "Tests Completed"
 
 # **********************
