@@ -257,7 +257,9 @@ fi
 }
 run_curltest15
 
-#Test 100 Random User-Agents from Bad-User-Agents
+# ************************************************
+# Test 100 Random User-Agents from Bad-User-Agents
+# ************************************************
 shuf -n 100 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
@@ -274,7 +276,26 @@ for line in ${lines}; do
    echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
    fi
 done
+IFS=""
 
+# ************************************************
+# Test All Good User-Agents from Good-User-Agents
+# ************************************************
+sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/good-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
+
+echo "Testing All Good Bots"
+IFS=$'\n'
+file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
+lines=$(cat ${file})
+for line in ${lines}; do
+   if
+   curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "$(tput setaf 2)GOOD BOT ALLOWED - TEST PASSED"
+   else
+   echo "$(tput setaf 1)GOOD BOT NOT ALLOWED - TEST FAILED"
+   fi
+done
+IFS=""
 
 echo "Tests Completed"
 
