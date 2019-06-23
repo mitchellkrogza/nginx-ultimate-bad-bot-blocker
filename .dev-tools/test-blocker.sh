@@ -273,7 +273,7 @@ for line in ${lines}; do
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i '(52)'; then
    echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
    else
-   echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
+   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
    fi
 done
 IFS=""
@@ -335,6 +335,26 @@ for line in ${lines}; do
    fi
 done
 IFS=""
+
+# ********************************************
+# Test 200 Random Referrers from Bad-Referrers
+# ********************************************
+shuf -n 200 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
+
+echo "Testing 200 Random Referrers"
+IFS=$'\n'
+file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
+lines=$(cat ${file})
+for line in ${lines}; do
+   if
+   curl -I http://localhost:9000 -e "http://${line}" 2>&1 | grep -i '(52)'; then
+   echo "$(tput setaf 1)BAD REFERRER DETECTED - $(tput setaf 2)TEST PASSED"
+   else
+   echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
+   fi
+done
+IFS=""
+
 
 echo "Tests Completed"
 
