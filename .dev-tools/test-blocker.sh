@@ -263,13 +263,13 @@ green=$(tput setaf 2)
 # ************************************************
 # Test ALL User-Agents from Bad-User-Agents
 # ************************************************
-#shuf -n 200 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
-cat ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
+shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
+#cat ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 
-echo "Testing Bad Bots"
+echo "Testing 250 Random Bad Bots"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 lines=$(cat ${file})
@@ -342,15 +342,14 @@ done
 IFS=""
 
 # ********************************************
-# Test 500 Random Referrers from Bad-Referrers
+# Test 1000 Random Referrers from Bad-Referrers
 # ********************************************
-#shuf -n 500 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
+shuf -n 1000 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
+sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 
-#sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
-
-echo "Testing Referrers"
+echo "Testing 1000 Random Bad Referrers"
 IFS=$'\n'
-file=${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list
+file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 lines=$(cat ${file})
 for line in ${lines}; do
    if
