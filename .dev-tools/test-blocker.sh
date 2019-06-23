@@ -341,12 +341,12 @@ done
 IFS=""
 
 # ********************************************
-# Test 200 Random Referrers from Bad-Referrers
+# Test 500 Random Referrers from Bad-Referrers
 # ********************************************
-shuf -n 200 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
+shuf -n 500 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 
-echo "Testing 200 Random Referrers"
+echo "Testing 500 Random Referrers"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 lines=$(cat ${file})
