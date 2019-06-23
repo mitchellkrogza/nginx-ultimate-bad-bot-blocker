@@ -271,9 +271,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i '(52)'; then
-   echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
+   echo "$(tput setaf 1)BAD BOT ${line} DETECTED - $(tput setaf 2)TEST PASSED"
    else
-   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
+   echo "$(tput setaf 1)BAD BOT ${line} NOT DETECTED - TEST FAILED"
    fi
 done
 IFS=""
@@ -290,9 +290,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)GOOD BOT ALLOWED - TEST PASSED"
+   echo "$(tput setaf 2)GOOD BOT ${line} ALLOWED - TEST PASSED"
    else
-   echo "$(tput setaf 1)GOOD BOT NOT ALLOWED - TEST FAILED"
+   echo "$(tput setaf 1)GOOD BOT ${line} NOT ALLOWED - TEST FAILED"
    fi
 done
 IFS=""
@@ -310,9 +310,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)ALLOWED BOT ALLOWED - TEST PASSED"
+   echo "$(tput setaf 2)ALLOWED BOT ${line} ALLOWED - TEST PASSED"
    else
-   echo "$(tput setaf 1)ALLOWED BOT NOT ALLOWED - TEST FAILED"
+   echo "$(tput setaf 1)ALLOWED BOT NOT ${line} ALLOWED - TEST FAILED"
    fi
 done
 IFS=""
@@ -329,9 +329,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)LIMITED BOT ALLOWED - TEST PASSED"
+   echo "$(tput setaf 2)LIMITED BOT ${line} ALLOWED - TEST PASSED"
    else
-   echo "$(tput setaf 1)LIMITED BOT NOT ALLOWED - TEST FAILED"
+   echo "$(tput setaf 1)LIMITED BOT ${line} NOT ALLOWED - TEST FAILED"
    fi
 done
 IFS=""
@@ -348,9 +348,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -I http://localhost:9000 -e "http://${line}" 2>&1 | grep -i '(52)'; then
-   echo "$(tput setaf 1)BAD REFERRER DETECTED - $(tput setaf 2)TEST PASSED"
+   echo "$(tput setaf 1)BAD REFERRER ${line} DETECTED - $(tput setaf 2)TEST PASSED"
    else
-   echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
+   echo "$(tput setaf 1)BAD REFERRER ${line} NOT DETECTED - TEST FAILED"
    fi
 done
 IFS=""
