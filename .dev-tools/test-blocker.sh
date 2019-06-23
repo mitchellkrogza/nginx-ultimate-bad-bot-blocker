@@ -258,6 +258,8 @@ fi
 run_curltest15
 
 bold=$(tput bold)
+red=$(tput setaf 1)
+green=$(tput setaf 2)
 # ************************************************
 # Test 100 Random User-Agents from Bad-User-Agents
 # ************************************************
@@ -273,9 +275,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i '(52)'; then
-   echo "${bold}$(tput setaf 1)${line} $(tput setaf 1)was BLOCKED - $(tput setaf 2)TEST PASSED"
+   echo "${bold}${green}PASSED - ${red}${line} was BLOCKED"
    else
-   echo "${bold}$(tput setaf 1)${line} $(tput setaf 1)was NOT BLOCKED - ${bold}$(tput setaf 1)TEST FAILED"
+   echo "${bold}${red}FAILED - ${red}${line} was NOT BLOCKED"
    fi
 done
 IFS=""
