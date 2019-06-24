@@ -22,11 +22,13 @@
 
 echo "Tests Starting"
 
-echo "Set Whitelisting to Default"
-#sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/blacklist-user-agents-none.conf /etc/nginx/bots.d/blacklist-user-agents.conf
+echo "Disable any User Whitelisting and set to Default"
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-user-agents-none.conf /etc/nginx/bots.d/blacklist-user-agents.conf
 echo "Reloading Nginx"
-#sudo nginx -t && sudo nginx -s reload
+sudo nginx -t && sudo nginx -s reload
 
+echo "Sleeping for 30 seconds to allow Nginx Properly Reload inside Travis"
+sleep 30s
 
 # *************************************************
 # Function Curl Test 1 - Check for Bad Bot "80legs"
@@ -357,6 +359,24 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${red}${line} was BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was NOT BLOCKED"
+   fi
+done
+IFS=""
+
+# **************************
+# Test Good Referrer Domains
+# **************************
+
+echo "Testing Good Referrers"
+IFS=$'\n'
+file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-referrers-for-test.list
+lines=$(cat ${file})
+for line in ${lines}; do
+   if
+   curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - ${green}${line} was ALLOWED"
+   else
+   echo "${bold}${green}FAILED - ${red}${line} was BLOCKED"
    fi
 done
 IFS=""

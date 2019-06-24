@@ -19,9 +19,9 @@
 echo "Whitelist Tests Starting"
 
 echo "Activating Users User-Agents Whitelist/Blacklist"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/blacklist-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
 echo "Activating Users Referrers Whitelist/Blacklist"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/custom-bad-referrers.conf /etc/nginx/bots.d/custom-bad-referrers.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/custom-bad-referrers.conf /etc/nginx/bots.d/custom-bad-referrers.conf
 echo "Reloading Nginx"
 sudo nginx -t && sudo nginx -s reload
 
