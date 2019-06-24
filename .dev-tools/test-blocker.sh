@@ -34,27 +34,27 @@ defaultcolor=$(tput setaf default)
 # Set Location of our Curl Test Results Files
 # *******************************************
 
-echo "${bold}${green}************************************************"
+echo "${bold}${green}------------------------------------------------"
 echo "${bold}${green}Disable any User Whitelisting and set to Default"
-echo "${bold}${green}************************************************"
+echo "${bold}${green}------------------------------------------------"
 printf "\n\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-user-agents-none.conf /etc/nginx/bots.d/blacklist-user-agents.conf
 
-echo "${bold}${green}***************"
+echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
-echo "${bold}${green}***************"
+echo "${bold}${green}---------------"
 printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
 
-echo "${bold}${yellow}********************************************************************"
+echo "${bold}${yellow}--------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 30 seconds to allow Nginx Properly Reload inside Travis"
-echo "${bold}${yellow}********************************************************************"
+echo "${bold}${yellow}--------------------------------------------------------------------"
 printf "\n\n"
 sleep 30s
 
-echo "${bold}${green}**************"
+echo "${bold}${green}--------------"
 echo "${bold}${green}Tests Starting"
-echo "${bold}${green}**************"
+echo "${bold}${green}--------------"
 printf "\n\n"
 
 
@@ -296,9 +296,9 @@ sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 
 printf "\n\n"
-echo "${bold}${magenta}***************************"
+echo "${bold}${magenta}---------------------------"
 echo "${bold}${magenta}Testing 250 Random Bad Bots"
-echo "${bold}${magenta}***************************"
+echo "${bold}${magenta}---------------------------"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
@@ -319,9 +319,9 @@ IFS=""
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/good-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
 
 printf "\n\n"
-echo "${bold}${magenta}*********************"
+echo "${bold}${magenta}---------------------"
 echo "${bold}${magenta}Testing All Good Bots"
-echo "${bold}${magenta}*********************"
+echo "${bold}${magenta}---------------------"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
@@ -435,10 +435,10 @@ echo "${bold}${green}Tests Completed"
 printf "\n"
 echo "${bold}${cyan}All Tests Passed"
 printf "\n"
-echo "${bold}${magenta}Releasing a new build"
+echo "${bold}${magenta}Now Test Whitelisting and then Release a new build"
 
 printf "\n\n"
-tput ${yellow};cat ${TRAVIS_BUILD_DIR}/.dev-tools/banner.txt;${defaultcolor}
+${bold}${yellow};cat ${TRAVIS_BUILD_DIR}/.dev-tools/banner.txt;${defaultcolor}
 
 
 # **********************
