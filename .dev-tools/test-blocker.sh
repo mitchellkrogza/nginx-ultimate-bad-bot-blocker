@@ -16,18 +16,36 @@
 #                                                                            #
 ##############################################################################                                                                
 
+# ************************
+# Set Terminal Font Colors
+# ************************
+
+bold=$(tput bold)
+red=$(tput setaf 1)
+green=$(tput setaf 2)
+yellow=$(tput setaf 3)
+blue=$(tput setaf 4)
+magenta=$(tput setaf 5)
+cyan=$(tput setaf 6)
+white=$(tput setaf 7)
+
 # *******************************************
 # Set Location of our Curl Test Results Files
 # *******************************************
 
-echo "Tests Starting"
+echo "${bold}${green}Tests Starting"
+printf "\n\n"
 
-echo "Disable any User Whitelisting and set to Default"
+echo "${bold}${green}Disable any User Whitelisting and set to Default"
+printf "\n\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-user-agents-none.conf /etc/nginx/bots.d/blacklist-user-agents.conf
-echo "Reloading Nginx"
+
+echo "${bold}${green}Reloading Nginx"
+printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
 
-echo "Sleeping for 30 seconds to allow Nginx Properly Reload inside Travis"
+echo "${bold}${yellow}Sleeping for 30 seconds to allow Nginx Properly Reload inside Travis"
+printf "\n\n"
 sleep 30s
 
 # *************************************************
@@ -36,10 +54,10 @@ sleep 30s
 
 run_curltest1 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -v -A "80legs" http://localhost:9000/index.html 2>&1 | grep -i '(52)'; then
-   echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
+if curl -v -A "80legs" http://localhost:9000 2>&1 | grep -i '(52)'; then
+   echo "${bold}${green}PASSED - ${red}BAD BOT DETECTED"
 else
-   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
+   echo "${bold}${red}FAILED - ${red}BAD BOT NOT DETECTED"
    exit 1
 fi
 }
@@ -52,10 +70,10 @@ run_curltest1
 
 run_curltest2 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -v -A "Nutch" http://localhost:9000/index.html 2>&1 | grep -i '(52)'; then
-   echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
+if curl -v -A "Nutch" http://localhost:9000 2>&1 | grep -i '(52)'; then
+   echo "${bold}${green}PASSED - ${red}BAD BOT DETECTED"
 else
-   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
+   echo "${bold}${red}FAILED - ${red}BAD BOT NOT DETECTED"
    exit 1
 fi
 }
@@ -68,10 +86,10 @@ run_curltest2
 
 run_curltest3 () {
 printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER IS DENIED" "##############################"
-if curl -I http://localhost:9000/index.html -e http://100dollars-seo.com 2>&1 | grep -i '(52)'; then
-   echo "$(tput setaf 1)BAD REFERRER DETECTED - $(tput setaf 2)TEST PASSED"
+if curl -I http://localhost:9000 -e http://100dollars-seo.com 2>&1 | grep -i '(52)'; then
+   echo "${bold}${green}PASSED - ${red}BAD REFERRER DETECTED"
 else
-   echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
+   echo "${bold}${red}FAILED - ${red}BAD REFERRER NOT DETECTED"
    exit 1
 fi
 }
@@ -84,10 +102,10 @@ run_curltest3
 
 run_curltest4 () {
 printf '\n%s\n%s\n%s\n\n' "##############################" "TESTING BAD REFERRER IS DENIED" "##############################"
-if curl -I http://localhost:9000/index.html -e http://zx6.ru 2>&1 | grep -i '(52)'; then
-   echo "$(tput setaf 1)BAD REFERRER DETECTED - $(tput setaf 2)TEST PASSED"
+if curl -I http://localhost:9000 -e http://zx6.ru 2>&1 | grep -i '(52)'; then
+   echo "${bold}${green}PASSED - ${red}BAD REFERRER DETECTED"
 else
-   echo "$(tput setaf 1)BAD REFERRER NOT DETECTED - TEST FAILED"
+   echo "${bold}${red}FAILED - ${red}BAD REFERRER NOT DETECTED"
    exit 1
 fi
 }
@@ -99,10 +117,10 @@ run_curltest4
 
 run_curltest5 () {
 printf '\n%s\n%s\n%s\n\n' "###########################" "TESTING GOOD BOT IS ALLOWED" "###########################"
-if curl -v -A "GoogleBot" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)GOOD BOT ALLOWED THROUGH - TEST PASSED"
+if curl -v -A "GoogleBot" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - ${green}GOOD BOT ALLOWED THROUGH"
 else
-   echo "$(tput setaf 1)GOOD BOT NOT ALLOWED THROUGH - TEST FAILED"
+   echo "${bold}${red}FAILED - ${red}GOOD BOT NOT ALLOWED THROUGH"
    exit 1
 fi
 }
@@ -114,10 +132,10 @@ run_curltest5
 
 run_curltest6 () {
 printf '\n%s\n%s\n%s\n\n' "###########################" "TESTING GOOD BOT IS ALLOWED" "###########################"
-if curl -v -A "BingBot" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)GOOD BOT ALLOWED THROUGH - TEST PASSED"
+if curl -v -A "BingBot" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - ${green}GOOD BOT ALLOWED THROUGH"
 else
-   echo "$(tput setaf 1)GOOD BOT NOT ALLOWED THROUGH - TEST FAILED"
+   echo "${bold}${red}FAILED - ${red}GOOD BOT NOT ALLOWED THROUGH"
    exit 1
 fi
 }
@@ -129,10 +147,10 @@ run_curltest6
 
 run_curltest7 () {
 printf '\n%s\n%s\n%s\n\n' "################################" "TESTING GOOD REFERRER IS ALLOWED" "################################"
-if curl http://localhost:9000/index.html -e http://google.com 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)GOOD REFERRER DETECTED - TEST PASSED"
+if curl http://localhost:9000 -e http://google.com 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - ${green}GOOD REFERRER DETECTED"
 else
-   echo "$(tput setaf 1)GOOD REFERRER NOT DETECTED - TEST FAILED"
+   echo "${bold}${red}FAILED - ${red}GOOD REFERRER NOT DETECTED"
    exit 1
 fi
 }
@@ -144,10 +162,10 @@ run_curltest7
 
 run_curltest8 () {
 printf '\n%s\n%s\n%s\n\n' "################################" "TESTING GOOD REFERRER IS ALLOWED" "################################"
-if curl http://localhost:9000/index.html -e http://bing.com 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)GOOD REFERRER DETECTED - TEST PASSED"
+if curl http://localhost:9000 -e http://bing.com 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - ${red}GOOD REFERRER DETECTED"
 else
-   echo "$(tput setaf 1)GOOD REFERRER NOT DETECTED - TEST FAILED"
+   echo "${bold}${red}FAILED - ${red}GOOD REFERRER NOT DETECTED"
    exit 1
 fi
 }
@@ -159,10 +177,10 @@ run_curltest8
 
 run_curltest9 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -A "Googlebot/Nutch-1.7" http://localhost:9000/index.html 2>&1 | grep -i '(52)'; then
-   echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
+if curl -A "Googlebot/Nutch-1.7" http://localhost:9000 2>&1 | grep -i '(52)'; then
+   echo "${bold}${green}PASSED - ${red}BAD BOT DETECTED"
 else
-   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
+   echo "${bold}${red}FAILED - ${red}BAD BOT NOT DETECTED"
    #exit 1
 fi
 }
@@ -174,10 +192,10 @@ run_curltest9
 
 run_curltest10 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.html 2>&1 | grep -i '(52)'; then
-   echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
+if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i '(52)'; then
+   echo "${bold}${green}PASSED - ${red}BAD BOT DETECTED"
 else
-   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
+   echo "${bold}${red}FAILED - ${red}BAD BOT NOT DETECTED"
    #exit 1
 fi
 }
@@ -189,10 +207,10 @@ run_curltest10
 
 run_curltest11 () {
 printf '\n%s\n%s\n%s\n\n' "#########################" "TESTING BAD BOT IS DENIED" "#########################"
-if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.html 2>&1 | grep -i '(52)'; then
-   echo "$(tput setaf 1)BAD BOT DETECTED - $(tput setaf 2)TEST PASSED"
+if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i '(52)'; then
+   echo "${bold}${green}PASSED - ${red}BAD BOT DETECTED"
 else
-   echo "$(tput setaf 1)BAD BOT NOT DETECTED - TEST FAILED"
+   echo "${bold}${red}FAILED - BAD BOT NOT DETECTED"
    #exit 1
 fi
 }
@@ -204,10 +222,10 @@ run_curltest11
 
 run_curltest12 () {
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-if curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
+if curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - NO FALSE POSITIVE"
 else
-   echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
+   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND"
    #exit 1
 fi
 }
@@ -219,10 +237,10 @@ run_curltest12
 
 run_curltest13 () {
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-if curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
+if curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - NO FALSE POSITIVE"
 else
-   echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
+   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND"
    #exit 1
 fi
 }
@@ -234,10 +252,10 @@ run_curltest13
 
 run_curltest14 () {
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
+if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - NO FALSE POSITIVE"
 else
-   echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
+   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND"
    #exit 1
 fi
 }
@@ -250,28 +268,25 @@ run_curltest14
 
 run_curltest15 () {
 printf '\n%s\n%s\n%s\n\n' "############################" "TESTING FALSE POSITIVE CASES" "############################"
-if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000/index.html 2>&1 | grep -i 'Welcome'; then
-   echo "$(tput setaf 2)NO FALSE POSITIVE - TEST PASSED"
+if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - NO FALSE POSITIVE"
 else
-   echo "$(tput setaf 1)FALSE POSITIVE - TEST FAILED"
+   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND"
    #exit 1
 fi
 }
 run_curltest15
 
-bold=$(tput bold)
-red=$(tput setaf 1)
-green=$(tput setaf 2)
 # ************************************************
-# Test ALL User-Agents from Bad-User-Agents
+# Test 250 User-Agents from Bad-User-Agents
 # ************************************************
 shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
-#cat ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 
-echo "Testing 250 Random Bad Bots"
+echo "${bold}${magenta}Testing 250 Random Bad Bots"
+printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 lines=$(cat ${file})
@@ -290,7 +305,8 @@ IFS=""
 # ************************************************
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/good-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
 
-echo "Testing All Good Bots"
+echo "${bold}${magenta}Testing All Good Bots"
+printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
 lines=$(cat ${file})
@@ -310,7 +326,8 @@ IFS=""
 # *****************************************************
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/allowed-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
 
-echo "Testing All Allowed Bots"
+echo "${bold}${magenta}Testing All Allowed Bots"
+printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
 lines=$(cat ${file})
@@ -329,7 +346,8 @@ IFS=""
 # *****************************************************
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/limited-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
 
-echo "Testing All Limited Bots"
+echo "${bold}${magenta}Testing All Limited Bots"
+printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
 lines=$(cat ${file})
@@ -349,7 +367,8 @@ IFS=""
 shuf -n 1000 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 
-echo "Testing 1000 Random Bad Referrers"
+echo "${bold}${magenta}Testing 1000 Random Bad Referrers"
+printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 lines=$(cat ${file})
@@ -367,7 +386,8 @@ IFS=""
 # Test Good Referrer Domains
 # **************************
 
-echo "Testing Good Referrers"
+echo "${bold}${magenta}Testing Good Referrers"
+printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-referrers-for-test.list
 lines=$(cat ${file})
@@ -382,7 +402,12 @@ done
 IFS=""
 
 
-echo "Tests Completed"
+printf "\n"
+echo "${bold}${green}Tests Completed"
+printf "\n"
+echo "${bold}${cyan}All Tests Passed"
+printf "\n"
+echo "${bold}${magenta}Now we can release a new build"
 
 # **********************
 # Exit With Error Number
