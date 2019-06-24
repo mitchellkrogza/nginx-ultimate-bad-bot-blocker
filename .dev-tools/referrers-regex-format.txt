@@ -763,6 +763,7 @@
 "~*\bbestofpicture\.com\b" 	1;
 "~*\bbestofupload\.info\b" 	1;
 "~*\bbestplacetobuyeriacta\.jw\.lt\b" 	1;
+"~*\bbestpornuha\.com\b" 	1;
 "~*\bbestpriceninja\.com\b" 	1;
 "~*\bbestprofits\-there\.com\b" 	1;
 "~*\bbest\-seo\-offer\.com\b" 	1;
@@ -794,6 +795,7 @@
 "~*\bbfz\.biz\b" 	1;
 "~*\bbg6s0\.com\b" 	1;
 "~*\bbget\.ru\b" 	1;
+"~*\bbgviagrachrx\.com\b" 	1;
 "~*\bbharatdefencekavach\.com\b" 	1;
 "~*\bbibys\.com\b" 	1;
 "~*\bbidbuy\.co\.kr\b" 	1;
@@ -1230,6 +1232,10 @@
 "~*\bchristianlouboutinsaleoutletonline\.us\b" 	1;
 "~*\bchristianlouboutinshoes\.xyz\b" 	1;
 "~*\bchuckguilford\.com\b" 	1;
+"~*\bcialgenisrx\.com\b" 	1;
+"~*\bcialischmrx\.com\b" 	1;
+"~*\bcialischsrx\.com\b" 	1;
+"~*\bcialischstgerts\.com\b" 	1;
 "~*\bcialisovercounteratwalmartusa\.com\b" 	1;
 "~*\bcialis\-samples\.com\b" 	1;
 "~*\bcialiswithoutadoctor\.net\b" 	1;
@@ -1572,6 +1578,7 @@
 "~*\bdetalizaciya\-tut\.biz\b" 	1;
 "~*\bdetective01\.ru\b" 	1;
 "~*\bdetki\-opt\.ru\b" 	1;
+"~*\bdetmebel\.su\b" 	1;
 "~*\bdetskie\-konstruktory\.ru\b" 	1;
 "~*\bdetskie\-zabavi\.ru\b" 	1;
 "~*\bdetsky\-nabytek\.info\b" 	1;
@@ -1978,6 +1985,7 @@
 "~*\beyessurgery\.ru\b" 	1;
 "~*\beywords\-monitoring\-your\-success\.com\b" 	1;
 "~*\bez8motelseaworldsandiego\.com\b" 	1;
+"~*\bezaz\.info\b" 	1;
 "~*\bezb\.elvenmachine\.com\b" 	1;
 "~*\bezigarettekaufen1\.hpage\.com\b" 	1;
 "~*\bezigarettekaufen2\.blox\.pl\b" 	1;
@@ -2364,6 +2372,7 @@
 "~*\bgenetworx\.com\b" 	1;
 "~*\bgentamicineyedrops\.blogspot\.com\b" 	1;
 "~*\bgeoads\.com\b" 	1;
+"~*\bgepezz\.info\b" 	1;
 "~*\bgerhardhealer\.com\b" 	1;
 "~*\bgermes\-trans\.com\b" 	1;
 "~*\bgermetiki\.com\.ua\b" 	1;
@@ -2730,6 +2739,7 @@
 "~*\bhully\.altervista\.org\b" 	1;
 "~*\bhumanelydrew\.com\b" 	1;
 "~*\bhumanorightswatch\.org\b" 	1;
+"~*\bhumbmosquina\.tk\b" 	1;
 "~*\bhundejo\.com\b" 	1;
 "~*\bhunterboots\.online\b" 	1;
 "~*\bhunthillfarmtrust\.org\b" 	1;
@@ -2967,7 +2977,9 @@
 "~*\bjavcoast\.com\b" 	1;
 "~*\bjav\-fetish\.com\b" 	1;
 "~*\bjav\-fetish\.site\b" 	1;
+"~*\bjavidol\.site\b" 	1;
 "~*\bjavitas\.info\b" 	1;
+"~*\bjavlibrary\.cc\b" 	1;
 "~*\bjavrip\.net\b" 	1;
 "~*\bjavspace\.net\b" 	1;
 "~*\bjavstock\.com\b" 	1;
@@ -3518,6 +3530,7 @@
 "~*\bmatchpal\-a\.akamaihd\.net\b" 	1;
 "~*\bmatematikus\.info\b" 	1;
 "~*\bmathgym\.com\.au\b" 	1;
+"~*\bmatpre\.top\b" 	1;
 "~*\bmatrixalchemy\.com\b" 	1;
 "~*\bmatsdale\.com\b" 	1;
 "~*\bmature\.free\-websites\.com\b" 	1;
@@ -3633,6 +3646,7 @@
 "~*\bminharevisao\.com\b" 	1;
 "~*\bmini\.7zap\.com\b" 	1;
 "~*\bminiads\.ca\b" 	1;
+"~*\bminiature\.io\b" 	1;
 "~*\bminneapoliscopiers\.com\b" 	1;
 "~*\bminyetki\.ru\b" 	1;
 "~*\bmir\-betting\.ru\b" 	1;
@@ -4371,6 +4385,7 @@
 "~*\bpokemon\-go\-play\.online\b" 	1;
 "~*\bpokerniydom\.ru\b" 	1;
 "~*\bpolcin\.de\b" 	1;
+"~*\bpolimga\.pw\b" 	1;
 "~*\bpolybuild\.ru\b" 	1;
 "~*\bpolytopesexempt\.com\b" 	1;
 "~*\bpomoc\-drogowa\.cba\.pl\b" 	1;
@@ -4771,6 +4786,7 @@
 "~*\brixpix\.ru\b" 	1;
 "~*\brniaeba\.ga\b" 	1;
 "~*\brn\-to\-bsn\.com\b" 	1;
+"~*\brobertefuller\.com\b" 	1;
 "~*\brobot\-forex\.biz\b" 	1;
 "~*\brock\-cafe\.info\b" 	1;
 "~*\brocketchange\.ru\b" 	1;
@@ -5077,6 +5093,7 @@
 "~*\bsexsaoy\.com\b" 	1;
 "~*\bsexsearch\.com\b" 	1;
 "~*\bsex\-sex\-sex5\.com\b" 	1;
+"~*\bsexs\-foto\.com\b" 	1;
 "~*\bsexs\-foto\.top\b" 	1;
 "~*\bsexspornotub\.com\b" 	1;
 "~*\bsexstream\.pl\b" 	1;
@@ -6043,6 +6060,8 @@
 "~*\bvia\-energy\-acquistare\.com\b" 	1;
 "~*\bvia\-energy\-cumpara\.com\b" 	1;
 "~*\bvia\-energy\-order\.com\b" 	1;
+"~*\bviagengrarx\.com\b" 	1;
+"~*\bviagraneggrx\.com\b" 	1;
 "~*\bviagra\.pp\.ua\b" 	1;
 "~*\bviagra\-soft\.ru\b" 	1;
 "~*\bvia\-gra\.webstarts\.com\b" 	1;
