@@ -58,7 +58,7 @@ sleep 30s
 # *******************************************************
 
 run_curltest1 () {
-if curl -v -A "thisisabadword" http://localhost:9000 2>&1 | grep -i '(52)'; then
+if curl -I http://localhost:9000 -e "thisisabadword" 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - User bad-referrer-words.conf working"
 else
    echo "${bold}${red}FAILED - User bad-referrer-words.conf NOT working"
@@ -72,7 +72,7 @@ run_curltest1
 # **************************************************************
 
 run_curltest2 () {
-if curl -v -A "thisisanotherbadword" http://localhost:9000 2>&1 | grep -i '(52)'; then
+if curl -I http://localhost:9000 -e "thisisanotherbadword" 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - User bad-referrer-words.conf working"
 else
    echo "${bold}${red}FAILED - User bad-referrer-words.conf NOT working"
