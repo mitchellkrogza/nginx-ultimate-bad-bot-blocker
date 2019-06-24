@@ -41,30 +41,62 @@
 
 # Run testing of test version
 
+# ************************
+# Set Terminal Font Colors
+# ************************
+
+bold=$(tput bold)
+red=$(tput setaf 1)
+green=$(tput setaf 2)
+yellow=$(tput setaf 3)
+blue=$(tput setaf 4)
+magenta=$(tput setaf 5)
+cyan=$(tput setaf 6)
+white=$(tput setaf 7)
+defaultcolor=$(tput setaf default)
+
 # ***********************************************************************
 # Make sure we test latest generated globalblacklist-testing-version.conf
 # ***********************************************************************
 
-printf '\n%s\n%s\n%s\n\n' "##############################################################################" "Copy Test Unit of globalblacklist.conf file to test for any compile errors" "##############################################################################"
+printf "\n"
+echo "${bold}${yellow}---------------------------------------------------"
+echo "${bold}${yellow}Copy Test Unit of globalblacklist.conf file to test"
+echo "${bold}${yellow}---------------------------------------------------"
+printf "\n"
+
 sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version.conf /etc/nginx/conf.d/globalblacklist.conf
 
 # *********************
 # Force reload of Nginx
 # *********************
 
-printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
+printf "\n"
+echo "${bold}${green}------------"
+echo "${bold}${green}Reload Nginx"
+echo "${bold}${green}------------"
+printf "\n"
 sudo nginx -t && sudo nginx -s reload
 
 # **********************
 # Now Run our Curl Tests
 # **********************
 
-printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "######################"
+printf "\n"
+echo "${bold}${green}---------------------------"
+echo "${bold}${green}Run Bot and Referrer Checks"
+echo "${bold}${green}---------------------------"
+printf "\n"
 
 # *************************************************************
 # Copy all .conf files used in Testing to a folder for checking
 # *************************************************************
 
+printf "\n"
+echo "${bold}${green}------------------------------------------------------------"
+echo "${bold}${green}Make Backup all conf files and folders used during this test"
+echo "${bold}${green}------------------------------------------------------------"
+printf "\n"
 sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes/bots.d/
 sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes/conf.d/
 sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes/default.vhost

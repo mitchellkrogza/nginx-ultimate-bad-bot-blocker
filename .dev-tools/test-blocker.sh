@@ -419,7 +419,7 @@ IFS=""
 
 printf "\n"
 echo "${bold}${cyan}Tests Completed"
-echo "${bold}${gren}All Tests Passed"
+echo "${bold}${green}All Tests Passed"
 echo "${bold}${magenta}Now We Test Whitelisting and then Release a new build"
 
 # **********************
