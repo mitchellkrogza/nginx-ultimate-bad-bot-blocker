@@ -438,7 +438,7 @@ printf "\n"
 echo "${bold}${magenta}Now Test Whitelisting and then Release a new build"
 
 printf "\n\n"
-${bold}${yellow};cat ${TRAVIS_BUILD_DIR}/.dev-tools/banner.txt;${defaultcolor}
+${bold}${yellow};cat ${TRAVIS_BUILD_DIR}/.dev-tools/banner.txt;
 
 
 # **********************
