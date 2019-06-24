@@ -29,6 +29,7 @@ magenta=$(tput setaf 5)
 cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
+banner=$(cat ${TRAVIS_BUILD_DIR}/.dev-tools/banner.txt)
 
 # *******************************************
 # Set Location of our Curl Test Results Files
@@ -436,9 +437,7 @@ echo "${bold}${gren}All Tests Passed"
 echo "${bold}${magenta}Now We Test Whitelisting and then Release a new build"
 
 printf "\n"
-${bold}${yellow}
-cat ${TRAVIS_BUILD_DIR}/.dev-tools/banner.txt
-${defaultcolor}
+${bold}${yellow}${banner}${defaultcolor}
 
 # **********************
 # Exit With Error Number
