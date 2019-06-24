@@ -48,6 +48,7 @@ script:
   #- bash .dev-tools/test-blocker-quick.sh
   - bash .dev-tools/install-nginx-testing-of-changes.sh
   - bash .dev-tools/test-blocker.sh
+  - bash .dev-tools/test-blocker-badwords.sh
   - bash .dev-tools/test-blocker-whitelist.sh
   - bash .dev-tools/modify-files-and-commit.sh
 
