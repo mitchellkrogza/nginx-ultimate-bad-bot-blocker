@@ -38,7 +38,19 @@ echo "${bold}${green}------------------------------------------------"
 echo "${bold}${green}Disable any User Whitelisting and set to Default"
 echo "${bold}${green}------------------------------------------------"
 printf "\n\n"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-user-agents-none.conf /etc/nginx/bots.d/blacklist-user-agents.conf
+
+sudo rm /etc/nginx/conf.d/*.conf
+sudo rm /etc/nginx/bots.d/*.conf
+ls -la /etc/nginx/conf.d/
+ls -la /etc/nginx/bots.d/
+
+printf "\n"
+echo "${bold}${magenta}-------------------------"
+echo "${bold}${magenta}Execute update-ngxblocker"
+echo "${bold}${magenta}-------------------------"
+printf "\n"
+cd /usr/sbin
+sudo bash ./update-ngxblocker -n
 
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
