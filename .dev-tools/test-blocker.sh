@@ -63,13 +63,10 @@ printf "\n\n"
 # *************************************************
 
 run_curltest1 () {
-echo "${bold}${green}-----------------------"
-echo "${bold}${green}Checking for 80legs Bot"
-echo "${bold}${green}-----------------------"
 if curl -v -A "80legs" http://localhost:9000 2>&1 | grep -i '(52)'; then
-   echo "${bold}${green}PASSED - ${red}BAD BOT DETECTED"
+   echo "${bold}${green}PASSED - ${red}80legs BAD BOT DETECTED"
 else
-   echo "${bold}${red}FAILED - ${red}BAD BOT NOT DETECTED"
+   echo "${bold}${red}FAILED - ${red}80legs BAD BOT NOT DETECTED"
    exit 1
 fi
 }
@@ -81,13 +78,10 @@ run_curltest1
 # **************************************************
 
 run_curltest2 () {
-echo "${bold}${green}----------------------"
-echo "${bold}${green}Checking for Nutch Bot"
-echo "${bold}${green}----------------------"
 if curl -v -A "Nutch" http://localhost:9000 2>&1 | grep -i '(52)'; then
-   echo "${bold}${green}PASSED - ${red}BAD BOT DETECTED"
+   echo "${bold}${green}PASSED - ${red}Nutch BAD BOT DETECTED"
 else
-   echo "${bold}${red}FAILED - ${red}BAD BOT NOT DETECTED"
+   echo "${bold}${red}FAILED - ${red}Nutch BAD BOT NOT DETECTED"
    exit 1
 fi
 }
@@ -99,13 +93,10 @@ run_curltest2
 # ******************************************************************
 
 run_curltest3 () {
-echo "${bold}${green}----------------------------------------"
-echo "${bold}${green}Checking for 100dollars-seo.com Referrer"
-echo "${bold}${green}----------------------------------------"
 if curl -I http://localhost:9000 -e http://100dollars-seo.com 2>&1 | grep -i '(52)'; then
-   echo "${bold}${green}PASSED - ${red}BAD REFERRER DETECTED"
+   echo "${bold}${green}PASSED - ${red}100dollars-seo.com BAD REFERRER DETECTED"
 else
-   echo "${bold}${red}FAILED - ${red}BAD REFERRER NOT DETECTED"
+   echo "${bold}${red}FAILED - ${red}100dollars-seo.com BAD REFERRER NOT DETECTED"
    exit 1
 fi
 }
@@ -117,13 +108,10 @@ run_curltest3
 # ******************************************************
 
 run_curltest4 () {
-echo "${bold}${green}----------------------------"
-echo "${bold}${green}Checking for zx6.ru Referrer"
-echo "${bold}${green}----------------------------"
 if curl -I http://localhost:9000 -e http://zx6.ru 2>&1 | grep -i '(52)'; then
-   echo "${bold}${green}PASSED - ${red}BAD REFERRER DETECTED"
+   echo "${bold}${green}PASSED - ${red}zx6.ru BAD REFERRER DETECTED"
 else
-   echo "${bold}${red}FAILED - ${red}BAD REFERRER NOT DETECTED"
+   echo "${bold}${red}FAILED - ${red}zx6.ru BAD REFERRER NOT DETECTED"
    exit 1
 fi
 }
@@ -134,13 +122,10 @@ run_curltest4
 # *****************************************************
 
 run_curltest5 () {
-echo "${bold}${green}-------------------------"
-echo "${bold}${green}Checking for GoogleBot UA"
-echo "${bold}${green}-------------------------"
 if curl -v -A "GoogleBot" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - ${green}GOOD BOT ALLOWED THROUGH"
+   echo "${bold}${green}PASSED - ${green}GoogleBot GOOD BOT ALLOWED THROUGH"
 else
-   echo "${bold}${red}FAILED - ${red}GOOD BOT NOT ALLOWED THROUGH"
+   echo "${bold}${red}FAILED - ${red}GoogleBot GOOD BOT NOT ALLOWED THROUGH"
    exit 1
 fi
 }
@@ -151,13 +136,10 @@ run_curltest5
 # ***************************************************
 
 run_curltest6 () {
-echo "${bold}${green}-----------------------"
-echo "${bold}${green}Checking for BingBot UA"
-echo "${bold}${green}-----------------------"
 if curl -v -A "BingBot" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - ${green}GOOD BOT ALLOWED THROUGH"
+   echo "${bold}${green}PASSED - ${green}BingBot GOOD BOT ALLOWED THROUGH"
 else
-   echo "${bold}${red}FAILED - ${red}GOOD BOT NOT ALLOWED THROUGH"
+   echo "${bold}${red}FAILED - ${red}BingBot GOOD BOT NOT ALLOWED THROUGH"
    exit 1
 fi
 }
@@ -168,13 +150,10 @@ run_curltest6
 # ***********************************************************
 
 run_curltest7 () {
-echo "${bold}${green}--------------------------------"
-echo "${bold}${green}Checking for google.com Referrer"
-echo "${bold}${green}--------------------------------"
 if curl http://localhost:9000 -e http://google.com 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - ${green}GOOD REFERRER DETECTED"
+   echo "${bold}${green}PASSED - ${green}google.com GOOD REFERRER DETECTED"
 else
-   echo "${bold}${red}FAILED - ${red}GOOD REFERRER NOT DETECTED"
+   echo "${bold}${red}FAILED - ${red}google.com GOOD REFERRER NOT DETECTED"
    exit 1
 fi
 }
@@ -185,13 +164,10 @@ run_curltest7
 # ***********************************************************
 
 run_curltest8 () {
-echo "${bold}${green}------------------------------"
-echo "${bold}${green}Checking for bing.com Referrer"
-echo "${bold}${green}------------------------------"
 if curl http://localhost:9000 -e http://bing.com 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - ${red}GOOD REFERRER DETECTED"
+   echo "${bold}${green}PASSED - ${red}bing.com GOOD REFERRER DETECTED"
 else
-   echo "${bold}${red}FAILED - ${red}GOOD REFERRER NOT DETECTED"
+   echo "${bold}${red}FAILED - ${red}bing.com GOOD REFERRER NOT DETECTED"
    exit 1
 fi
 }
@@ -202,13 +178,10 @@ run_curltest8
 # **************************************************
 
 run_curltest9 () {
-echo "${bold}${green}-----------------------------------"
-echo "${bold}${green}Checking for Googlebot/Nutch-1.7 UA"
-echo "${bold}${green}-----------------------------------"
 if curl -A "Googlebot/Nutch-1.7" http://localhost:9000 2>&1 | grep -i '(52)'; then
-   echo "${bold}${green}PASSED - ${red}BAD BOT DETECTED"
+   echo "${bold}${green}PASSED - ${red}Googlebot/Nutch-1.7 BAD BOT DETECTED"
 else
-   echo "${bold}${red}FAILED - ${red}BAD BOT NOT DETECTED"
+   echo "${bold}${red}FAILED - ${red}Googlebot/Nutch-1.7 BAD BOT NOT DETECTED"
    #exit 1
 fi
 }
@@ -219,13 +192,10 @@ run_curltest9
 # **************************************************
 
 run_curltest10 () {
-echo "${bold}${green}----------------------------------"
-echo "${bold}${green}Checking for Googlebot/Nutch2.1 UA"
-echo "${bold}${green}----------------------------------"
 if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i '(52)'; then
-   echo "${bold}${green}PASSED - ${red}BAD BOT DETECTED"
+   echo "${bold}${green}PASSED - ${red}Googlebot/Nutch2.1 BAD BOT DETECTED"
 else
-   echo "${bold}${red}FAILED - ${red}BAD BOT NOT DETECTED"
+   echo "${bold}${red}FAILED - ${red}Googlebot/Nutch2.1 BAD BOT NOT DETECTED"
    #exit 1
 fi
 }
@@ -236,13 +206,10 @@ run_curltest10
 # **************************************************
 
 run_curltest11 () {
-echo "${bold}${green}------------------------------------"
-echo "${bold}${green}Checking for Googlebot/nutch/-2.1 UA"
-echo "${bold}${green}------------------------------------"
 if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i '(52)'; then
-   echo "${bold}${green}PASSED - ${red}BAD BOT DETECTED"
+   echo "${bold}${green}PASSED - ${red}Googlebot/nutch/-2.1 BAD BOT DETECTED"
 else
-   echo "${bold}${red}FAILED - BAD BOT NOT DETECTED"
+   echo "${bold}${red}FAILED - Googlebot/nutch/-2.1 BAD BOT NOT DETECTED"
    #exit 1
 fi
 }
@@ -253,13 +220,10 @@ run_curltest11
 # **************************************************
 
 run_curltest12 () {
-echo "${bold}${green}---------------------------------------------------------"
-echo "${bold}${green}False Positive Checking for Googlebot-Image/Snutch\-/-2.1"
-echo "${bold}${green}---------------------------------------------------------"
 if curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - NO FALSE POSITIVE"
+   echo "${bold}${green}PASSED - NO FALSE POSITIVE on Googlebot-Image/Snutch\-/-2.1"
 else
-   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND"
+   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on Googlebot-Image/Snutch\-/-2.1"
    #exit 1
 fi
 }
@@ -270,13 +234,10 @@ run_curltest12
 # **************************************************
 
 run_curltest13 () {
-echo "${bold}${green}---------------------------------------------"
-echo "${bold}${green}False Positive Checking for SnutchMozilla/5.0"
-echo "${bold}${green}---------------------------------------------"
 if curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - NO FALSE POSITIVE"
+   echo "${bold}${green}PASSED - NO FALSE POSITIVE on SnutchMozilla/5.0"
 else
-   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND"
+   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on SnutchMozilla/5.0"
    #exit 1
 fi
 }
@@ -287,13 +248,10 @@ run_curltest13
 # **************************************************
 
 run_curltest14 () {
-echo "${bold}${green}---------------------------------------"
-echo "${bold}${green}False Positive Checking for Mozilla/5.0"
-echo "${bold}${green}---------------------------------------"
 if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - NO FALSE POSITIVE"
+   echo "${bold}${green}PASSED - NO FALSE POSITIVE on Mozilla/5.0"
 else
-   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND"
+   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on Mozilla/5.0"
    #exit 1
 fi
 }
@@ -305,13 +263,10 @@ run_curltest14
 # **************************************************
 
 run_curltest15 () {
-echo "${bold}${green}----------------------------------"
-echo "${bold}${green}False Positive Checking for Safari"
-echo "${bold}${green}----------------------------------"
 if curl -v -A "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - NO FALSE POSITIVE"
+   echo "${bold}${green}PASSED - NO FALSE POSITIVE on Safari"
 else
-   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND"
+   echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on Safari"
    #exit 1
 fi
 }
