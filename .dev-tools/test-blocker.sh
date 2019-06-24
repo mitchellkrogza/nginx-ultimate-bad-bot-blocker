@@ -431,15 +431,14 @@ IFS=""
 
 
 printf "\n"
-echo "${bold}${green}Tests Completed"
-printf "\n"
-echo "${bold}${cyan}All Tests Passed"
-printf "\n"
-echo "${bold}${magenta}Now Test Whitelisting and then Release a new build"
+echo "${bold}${cyan}Tests Completed"
+echo "${bold}${gren}All Tests Passed"
+echo "${bold}${magenta}Now We Test Whitelisting and then Release a new build"
 
-printf "\n\n"
-${bold}${yellow};cat ${TRAVIS_BUILD_DIR}/.dev-tools/banner.txt;
-
+printf "\n"
+${bold}${yellow}
+cat ${TRAVIS_BUILD_DIR}/.dev-tools/banner.txt
+${defaultcolor}
 
 # **********************
 # Exit With Error Number
