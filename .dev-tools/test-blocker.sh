@@ -278,9 +278,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i '(52)'; then
-   echo "${bold}${green}PASSED - ${red}${line} was ${bold}BLOCKED"
+   echo "${bold}${green}PASSED - ${red}${line} was ${bold}${red}BLOCKED"
    else
-   echo "${bold}${red}FAILED - ${red}${line} was ${bold}NOT BLOCKED"
+   echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT BLOCKED"
    fi
 done
 IFS=""
@@ -297,9 +297,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - ${green}${line} was ${bold}ALLOWED"
+   echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
-   echo "${bold}${red}FAILED - ${red}${line} was ${bold}BLOCKED"
+   echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
    fi
 done
 IFS=""
@@ -317,9 +317,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - ${green}${line} was ${bold}ALLOWED"
+   echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
-   echo "${bold}${red}FAILED - ${red}${line} was ${bold}BLOCKED"
+   echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
    fi
 done
 IFS=""
@@ -336,9 +336,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - ${green}${line} was ${bold}ALLOWED"
+   echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
-   echo "${bold}${green}FAILED - ${red}${line} was ${bold}BLOCKED"
+   echo "${bold}${green}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
    fi
 done
 IFS=""
@@ -356,9 +356,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -I http://localhost:9000 -e "http://${line}" 2>&1 | grep -i '(52)'; then
-   echo "${bold}${green}PASSED - ${red}${line} was ${bold}BLOCKED"
+   echo "${bold}${green}PASSED - ${red}${line} was ${bold}${red}BLOCKED"
    else
-   echo "${bold}${red}FAILED - ${red}${line} was NOT ${bold}BLOCKED"
+   echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT BLOCKED"
    fi
 done
 IFS=""
@@ -374,9 +374,9 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - ${green}${line} was ${bold}ALLOWED"
+   echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
-   echo "${bold}${green}FAILED - ${red}${line} was ${bold}BLOCKED"
+   echo "${bold}${green}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
    fi
 done
 IFS=""
