@@ -46,9 +46,9 @@ echo "${bold}${green}---------------"
 printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
 
-echo "${bold}${yellow}--------------------------------------------------------------------"
-echo "${bold}${yellow}Sleeping for 30 seconds to allow Nginx Properly Reload inside Travis"
-echo "${bold}${yellow}--------------------------------------------------------------------"
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+echo "${bold}${yellow}Sleeping for 30 seconds to allow Nginx to Properly Reload inside Travis"
+echo "${bold}${yellow}-----------------------------------------------------------------------"
 printf "\n\n"
 sleep 30s
 

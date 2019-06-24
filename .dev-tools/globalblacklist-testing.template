@@ -135,7 +135,6 @@ map $http_user_agent $bad_bot {
 # Bad User-Agent Strings That We Block Outright
 # *********************************************
 
-
 # START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 	"~*(?:\b)360Spider(?:\b|)"		3;
 	"~*(?:\b)404checker(?:\b|)"		3;
@@ -698,10 +697,6 @@ map $http_user_agent $bad_bot {
 # Allow Good User-Agent Strings We Know and Trust
 # ***********************************************
 
-# TEST CASES 
-# **********
-	#"~*(?:\b)Mozilla(?:|\s|,|\.|\b|\/|)"		0;
-
 # START GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
 	"~*\badidxbot\b"		0;
 	"~*\bAdsBot-Google\b"		0;
@@ -776,8 +771,6 @@ map $http_user_agent $bad_bot {
 	"~*\bYandexBot\b"		2;
 	"~*\bYandexImages\b"		2;
 # END LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
-
-
 
 }	
 	
