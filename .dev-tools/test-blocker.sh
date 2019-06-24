@@ -28,6 +28,7 @@ blue=$(tput setaf 4)
 magenta=$(tput setaf 5)
 cyan=$(tput setaf 6)
 white=$(tput setaf 7)
+defaultcolor=$(tput setaf default)
 
 # *******************************************
 # Set Location of our Curl Test Results Files
@@ -342,9 +343,9 @@ IFS=""
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/allowed-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
 
 printf "\n\n"
-echo "${bold}${magenta}************************"
+echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Testing All Allowed Bots"
-echo "${bold}${magenta}************************"
+echo "${bold}${magenta}------------------------"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
@@ -365,9 +366,9 @@ IFS=""
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/limited-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
 
 printf "\n\n"
-echo "${bold}${magenta}************************"
+echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Testing All Limited Bots"
-echo "${bold}${magenta}************************"
+echo "${bold}${magenta}------------------------"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
@@ -389,9 +390,9 @@ shuf -n 1000 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 
 printf "\n\n"
-echo "${bold}${magenta}*********************************"
+echo "${bold}${magenta}---------------------------------"
 echo "${bold}${magenta}Testing 1000 Random Bad Referrers"
-echo "${bold}${magenta}*********************************"
+echo "${bold}${magenta}---------------------------------"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
@@ -411,9 +412,9 @@ IFS=""
 # **************************
 
 printf "\n\n"
-echo "${bold}${magenta}**********************"
+echo "${bold}${magenta}----------------------"
 echo "${bold}${magenta}Testing Good Referrers"
-echo "${bold}${magenta}**********************"
+echo "${bold}${magenta}----------------------"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-referrers-for-test.list
@@ -437,17 +438,7 @@ printf "\n"
 echo "${bold}${magenta}Releasing a new build"
 
 printf "\n\n"
-echo "${bold}${green}##############################################################################"
-echo "${bold}${green}#       _  __     _                                                          #"
-echo "${bold}${green}#      / |/ /__ _(_)__ __ __                                                 #"
-echo "${bold}${green}#     /    / _ `/ / _ \\ \ /                                                 #"
-echo "${bold}${green}#    /_/|_/\_, /_/_//_/_\_\                                                  #"
-echo "${bold}${green}#       __/___/      __   ___       __     ___  __         __                #"
-echo "${bold}${green}#      / _ )___ ____/ /  / _ )___  / /_   / _ )/ /__  ____/ /_____ ____      #"
-echo "${bold}${green}#     / _  / _ `/ _  /  / _  / _ \/ __/  / _  / / _ \/ __/  '_/ -_) __/      #"
-echo "${bold}${green}#    /____/\_,_/\_,_/  /____/\___/\__/  /____/_/\___/\__/_/\_\\__/_/         #"
-echo "${bold}${green}#                                                                            #"
-echo "${bold}${green}##############################################################################"
+tput ${yellow};cat ${TRAVIS_BUILD_DIR}/.dev-tools/banner.txt;${defaultcolor}
 
 
 # **********************
