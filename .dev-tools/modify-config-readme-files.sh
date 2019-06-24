@@ -45,7 +45,7 @@
 
 YEAR=$(date +%Y)
 MONTH=$(date +%m)
-MY_GIT_TAG=V3.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
+MY_GIT_TAG=V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
 BAD_REFERRERS=$(wc -l < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list)
 BAD_BOTS=$(wc -l < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list)
 

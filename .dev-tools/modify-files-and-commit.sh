@@ -86,7 +86,7 @@ tar -czf bots.d.tar.gz -C ${TRAVIS_BUILD_DIR}/bots.d/ .
 # *************************************
 
 git add -A
-git commit -am "V3.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER} [ci skip]"
+git commit -am "V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER} [ci skip]"
 
 # *************************************************************
 # Travis now moves to the before_deploy: section of .travis.yml

@@ -63,7 +63,7 @@ export GIT_TAG=V3.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
 # Tag our release
 # ***************
 
-git tag ${GIT_TAG} -a -m "V3.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}"
+git tag ${GIT_TAG} -a -m "V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}"
 
 # *****************************************
 # Push our commit and tags back to the repo
