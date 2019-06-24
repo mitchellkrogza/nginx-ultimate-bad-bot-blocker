@@ -95,6 +95,11 @@ echo "${bold}${green}Whitelisting Test Complete"
 echo "${bold}${green}--------------------------"
 printf "\n\n"
 
+# *******************
+# RELEASE NEW VERSION
+# *******************
+YEAR=$(date +"%Y")
+MONTH=$(date +"%m")
 latestbuild=V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
 printf "\n"
 echo "${bold}${green}All Nginx Tests Completed"
