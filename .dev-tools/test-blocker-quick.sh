@@ -182,7 +182,7 @@ if curl -A "Googlebot/Nutch-1.7" http://localhost:9000 2>&1 | grep -i '(52)'; th
    echo "${bold}${green}PASSED - ${red}Googlebot/Nutch-1.7 BAD BOT DETECTED"
 else
    echo "${bold}${red}FAILED - ${red}Googlebot/Nutch-1.7 BAD BOT NOT DETECTED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest9
@@ -196,7 +196,7 @@ if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/
    echo "${bold}${green}PASSED - ${red}Googlebot/Nutch2.1 BAD BOT DETECTED"
 else
    echo "${bold}${red}FAILED - ${red}Googlebot/Nutch2.1 BAD BOT NOT DETECTED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest10
@@ -210,7 +210,7 @@ if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.co
    echo "${bold}${green}PASSED - ${red}Googlebot/nutch/-2.1 BAD BOT DETECTED"
 else
    echo "${bold}${red}FAILED - Googlebot/nutch/-2.1 BAD BOT NOT DETECTED"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest11
@@ -224,7 +224,7 @@ if curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://w
    echo "${bold}${green}PASSED - NO FALSE POSITIVE on Googlebot-Image/Snutch\-/-2.1"
 else
    echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on Googlebot-Image/Snutch\-/-2.1"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest12
@@ -238,7 +238,7 @@ if curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +ht
    echo "${bold}${green}PASSED - NO FALSE POSITIVE on SnutchMozilla/5.0"
 else
    echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on SnutchMozilla/5.0"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest13
@@ -252,7 +252,7 @@ if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/6
    echo "${bold}${green}PASSED - NO FALSE POSITIVE on Mozilla/5.0"
 else
    echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on Mozilla/5.0"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest14
@@ -267,7 +267,7 @@ if curl -v -A "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKi
    echo "${bold}${green}PASSED - NO FALSE POSITIVE on Safari"
 else
    echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on Safari"
-   #exit 1
+   exit 1
 fi
 }
 run_curltest15
