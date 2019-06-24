@@ -33,20 +33,29 @@ white=$(tput setaf 7)
 # Set Location of our Curl Test Results Files
 # *******************************************
 
-echo "${bold}${green}Tests Starting"
-printf "\n\n"
-
+echo "${bold}${green}************************************************"
 echo "${bold}${green}Disable any User Whitelisting and set to Default"
+echo "${bold}${green}************************************************"
 printf "\n\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-user-agents-none.conf /etc/nginx/bots.d/blacklist-user-agents.conf
 
+echo "${bold}${green}***************"
 echo "${bold}${green}Reloading Nginx"
+echo "${bold}${green}***************"
 printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
 
+echo "${bold}${yellow}********************************************************************"
 echo "${bold}${yellow}Sleeping for 30 seconds to allow Nginx Properly Reload inside Travis"
+echo "${bold}${yellow}********************************************************************"
 printf "\n\n"
 sleep 30s
+
+echo "${bold}${green}**************"
+echo "${bold}${green}Tests Starting"
+echo "${bold}${green}**************"
+printf "\n\n"
+
 
 # *************************************************
 # Function Curl Test 1 - Check for Bad Bot "80legs"
@@ -285,7 +294,10 @@ sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 
+printf "\n\n"
+echo "${bold}${magenta}***************************"
 echo "${bold}${magenta}Testing 250 Random Bad Bots"
+echo "${bold}${magenta}***************************"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
@@ -305,7 +317,10 @@ IFS=""
 # ************************************************
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/good-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
 
+printf "\n\n"
+echo "${bold}${magenta}*********************"
 echo "${bold}${magenta}Testing All Good Bots"
+echo "${bold}${magenta}*********************"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
@@ -326,7 +341,10 @@ IFS=""
 # *****************************************************
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/allowed-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
 
+printf "\n\n"
+echo "${bold}${magenta}************************"
 echo "${bold}${magenta}Testing All Allowed Bots"
+echo "${bold}${magenta}************************"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
@@ -346,7 +364,10 @@ IFS=""
 # *****************************************************
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/limited-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
 
+printf "\n\n"
+echo "${bold}${magenta}************************"
 echo "${bold}${magenta}Testing All Limited Bots"
+echo "${bold}${magenta}************************"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
@@ -367,7 +388,10 @@ IFS=""
 shuf -n 1000 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 
+printf "\n\n"
+echo "${bold}${magenta}*********************************"
 echo "${bold}${magenta}Testing 1000 Random Bad Referrers"
+echo "${bold}${magenta}*********************************"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
@@ -386,7 +410,10 @@ IFS=""
 # Test Good Referrer Domains
 # **************************
 
+printf "\n\n"
+echo "${bold}${magenta}**********************"
 echo "${bold}${magenta}Testing Good Referrers"
+echo "${bold}${magenta}**********************"
 printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-referrers-for-test.list
@@ -407,7 +434,21 @@ echo "${bold}${green}Tests Completed"
 printf "\n"
 echo "${bold}${cyan}All Tests Passed"
 printf "\n"
-echo "${bold}${magenta}Now we can release a new build"
+echo "${bold}${magenta}Releasing a new build"
+
+printf "\n\n"
+echo "${bold}${green}##############################################################################"
+echo "${bold}${green}#       _  __     _                                                          #"
+echo "${bold}${green}#      / |/ /__ _(_)__ __ __                                                 #"
+echo "${bold}${green}#     /    / _ `/ / _ \\ \ /                                                 #"
+echo "${bold}${green}#    /_/|_/\_, /_/_//_/_\_\                                                  #"
+echo "${bold}${green}#       __/___/      __   ___       __     ___  __         __                #"
+echo "${bold}${green}#      / _ )___ ____/ /  / _ )___  / /_   / _ )/ /__  ____/ /_____ ____      #"
+echo "${bold}${green}#     / _  / _ `/ _  /  / _  / _ \/ __/  / _  / / _ \/ __/  '_/ -_) __/      #"
+echo "${bold}${green}#    /____/\_,_/\_,_/  /____/\___/\__/  /____/_/\___/\__/_/\_\\__/_/         #"
+echo "${bold}${green}#                                                                            #"
+echo "${bold}${green}##############################################################################"
+
 
 # **********************
 # Exit With Error Number
