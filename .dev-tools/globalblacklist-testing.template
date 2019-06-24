@@ -39,7 +39,7 @@
 ### Copyright Mitchell Krog - <mitchellkrog@gmail.com>
 ### Contributors: Stuart Cardall - https://github.com/itoffshore
 
-### Tested on: nginx/1.10.3 (Ubuntu 16.04)
+### Tested on: nginx/1.10.3 up to latest Mainstream Version (Ubuntu 16.04)
 
 ### This list was developed and is in use on a live Nginx server running some very busy web sites.
 ### It was built from the ground up using real data from daily logs and is updated almost daily.
