@@ -437,7 +437,9 @@ echo "${bold}${gren}All Tests Passed"
 echo "${bold}${magenta}Now We Test Whitelisting and then Release a new build"
 
 printf "\n"
-${bold}${yellow}${banner}${defaultcolor}
+${bold}${yellow}
+${banner}
+${defaultcolor}
 
 # **********************
 # Exit With Error Number
