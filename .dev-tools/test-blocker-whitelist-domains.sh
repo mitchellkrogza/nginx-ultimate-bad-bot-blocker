@@ -58,11 +58,10 @@ sleep 30s
 # *************************************************
 
 run_curltest1 () {
-if curl -I http://localhost:9000 -e http://myowndomain.com 2>&1 | grep -i 'Welcome'; then
+if curl http://localhost:9000 -e http://www.myowndomain.com 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - User whitelist-domains.conf working"
 else
    echo "${bold}${red}FAILED - User whitelist-domains.conf NOT working"
-   curl -I http://localhost:9000 -e http://myowndomain.com 2>&1
    #exit 1
 fi
 }
@@ -73,11 +72,10 @@ run_curltest1
 # *************************************************
 
 run_curltest2 () {
-if curl -I http://localhost:9000 -e http://www.myotherdomain.com 2>&1 | grep -i 'Welcome'; then
+if curl http://localhost:9000 -e http://www.myotherdomain.com 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - User whitelist-domains.conf working"
 else
    echo "${bold}${red}FAILED - User whitelist-domains.conf NOT working"
-   curl -I http://localhost:9000 -e http://www.myotherdomain.com 2>&1
    #exit 1
 fi
 }
