@@ -57,7 +57,7 @@ sudo git remote -v
 # Create our Version Number
 # *************************
 
-export GIT_TAG=V3.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
+export GIT_TAG=V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
 
 # ***************
 # Tag our release
