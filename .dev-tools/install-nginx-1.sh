@@ -58,9 +58,9 @@ defaultcolor=$(tput setaf default)
 # ***************************************************************
 
 printf "\n"
-echo "${bold}${magenta}------------------"
-echo "${bold}${magenta}Start Nginx Test 1"
-echo "${bold}${magenta}------------------"
+echo "${bold}${green}------------------"
+echo "${bold}${green}Start Nginx Test 1"
+echo "${bold}${green}------------------"
 printf "\n"
 
 # ******************************************************
@@ -69,9 +69,9 @@ printf "\n"
 # ******************************************************
 
 printf "\n"
-echo "${bold}${cyan}---------------------------"
-echo "${bold}${cyan}Making backup of nginx.conf"
-echo "${bold}${cyan}---------------------------"
+echo "${bold}${yellow}---------------------------"
+echo "${bold}${yellow}Making backup of nginx.conf"
+echo "${bold}${yellow}---------------------------"
 printf "\n"
 sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_nginx_conf_backup/nginx.conf
 
@@ -80,9 +80,9 @@ sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_nginx_conf_backup/
 # *************************************************
 
 printf "\n"
-echo "${bold}${cyan}-------------------------------------------"
-echo "${bold}${cyan}Delete any default files installed by Nginx"
-echo "${bold}${cyan}-------------------------------------------"
+echo "${bold}${yellow}-------------------------------------------"
+echo "${bold}${yellow}Delete any default files installed by Nginx"
+echo "${bold}${yellow}-------------------------------------------"
 printf "\n"
 sudo rm /etc/nginx/sites-available/default
 sudo rm /etc/nginx/sites-enabled/default
@@ -93,9 +93,9 @@ sudo rm /var/www/html/*
 # ********************************************************
 
 printf "\n"
-echo "${bold}${cyan}---------------------"
-echo "${bold}${cyan}Setup Vhost for Nginx"
-echo "${bold}${cyan}---------------------"
+echo "${bold}${yellow}---------------------"
+echo "${bold}${yellow}Setup Vhost for Nginx"
+echo "${bold}${yellow}---------------------"
 printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
 
@@ -167,9 +167,9 @@ sudo nginx -c /etc/nginx/nginx.conf
 # ****************************************************************************************
 
 printf "\n"
-echo "${bold}${magenta}----------------------------------------------------"
-echo "${bold}${magenta}Copy older globalblacklist.conf file to force update"
-echo "${bold}${magenta}----------------------------------------------------"
+echo "${bold}${yellow}----------------------------------------------------"
+echo "${bold}${yellow}Copy older globalblacklist.conf file to force update"
+echo "${bold}${yellow}----------------------------------------------------"
 printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /etc/nginx/conf.d/globalblacklist.conf
 
@@ -227,9 +227,9 @@ sudo bash ./update-ngxblocker -n
 # ****************************************************************************************
 
 printf "\n"
-echo "${bold}${magenta}----------------------------------------------------"
-echo "${bold}${magenta}Copy older globalblacklist.conf file to force update"
-echo "${bold}${magenta}----------------------------------------------------"
+echo "${bold}${yellow}----------------------------------------------------"
+echo "${bold}${yellow}Copy older globalblacklist.conf file to force update"
+echo "${bold}${yellow}----------------------------------------------------"
 printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /etc/nginx/conf.d/globalblacklist.conf
 
@@ -273,9 +273,9 @@ sudo nginx -t && sudo nginx -s reload
 # *******************************************************
 
 printf "\n"
-echo "${bold}${magenta}------------------------------------------------------------"
-echo "${bold}${magenta}Make sure we test with latest generated globalblacklist.conf"
-echo "${bold}${magenta}------------------------------------------------------------"
+echo "${bold}${yellow}------------------------------------------------------------"
+echo "${bold}${yellow}Make sure we test with latest generated globalblacklist.conf"
+echo "${bold}${yellow}------------------------------------------------------------"
 printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist.conf /etc/nginx/conf.d/globalblacklist.conf
 
