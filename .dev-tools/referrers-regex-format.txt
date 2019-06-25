@@ -3103,7 +3103,6 @@
 "~*\bkicknights\.gq\b" 	1;
 "~*\bkidd\.reunionwatch\.com\b" 	1;
 "~*\bkidskunst\.info\b" 	1;
-"~*\bkiev\.ua\b" 	1;
 "~*\bkihi\.gdn\b" 	1;
 "~*\bkiinomaniak\.pl\b" 	1;
 "~*\bkimcurlrvsms\.com\b" 	1;

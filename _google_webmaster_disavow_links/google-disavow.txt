@@ -3103,7 +3103,6 @@ domain:kichenaid.ru
 domain:kicknights.gq
 domain:kidd.reunionwatch.com
 domain:kidskunst.info
-domain:kiev.ua
 domain:kihi.gdn
 domain:kiinomaniak.pl
 domain:kimcurlrvsms.com
