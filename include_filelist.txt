@@ -25,7 +25,6 @@ BOT_FILES="
 	ddos.conf
 	custom-bad-referrers.conf
 	bad-referrer-words.conf
-	blacklist-domains.conf
 	blacklist-ips.conf
 	blacklist-user-agents.conf
 	whitelist-domains.conf
