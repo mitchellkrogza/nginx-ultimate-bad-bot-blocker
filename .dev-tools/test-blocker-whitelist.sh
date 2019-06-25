@@ -46,8 +46,8 @@ printf "\n\n"
 # **************************************************************************
 _input1=${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list
 _input2=${TRAVIS_BUILD_DIR}/.dev-tools/referrers-regex-format-whitelist-test.txt
-_inputdb1=/tmp/good-bad-user-agents.db
-_inputdb2=/tmp/good-bad-referrers.db
+_inputdb1=${TRAVIS_BUILD_DIR}/.dev-tools/good-bad-user-agents.db
+_inputdb2=${TRAVIS_BUILD_DIR}/.dev-tools/good-bad-referrers.db
 _tmpnginx1=_tmpnginx1
 _tmpnginx2=_tmpnginx2
 _start1="# START MAKE BAD BOTS GOOD ### DO NOT EDIT THIS LINE AT ALL ###"
