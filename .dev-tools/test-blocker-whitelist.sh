@@ -170,6 +170,57 @@ fi
 }
 run_curltest2
 
+# ************************************************
+# Test 250 User-Agents from Bad-User-Agents
+# ************************************************
+shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp
+sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
+sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp
+sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
+
+printf "\n\n"
+echo "${bold}${magenta}---------------------------"
+echo "${bold}${magenta}Testing 250 Random Bad Bots"
+echo "${bold}${magenta}---------------------------"
+printf "\n\n"
+IFS=$'\n'
+file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
+lines=$(cat ${file})
+for line in ${lines}; do
+   if
+   curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - ${red}${line} was ${bold}${green}ALLOWED"
+   else
+   echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT ALLOWED"
+   fi
+done
+IFS=""
+
+# ************************************************
+# Test 250 Referrers from Bad-Referrers
+# ************************************************
+shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp
+sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
+sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp
+sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
+
+printf "\n\n"
+echo "${bold}${magenta}----------------------------"
+echo "${bold}${magenta}Testing 250 Random Referrers"
+echo "${bold}${magenta}----------------------------"
+printf "\n\n"
+IFS=$'\n'
+file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
+lines=$(cat ${file})
+for line in ${lines}; do
+   if
+   curl http://localhost:9000 -e "http://${line}" 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - ${red}${line} was ${bold}${green}ALLOWED"
+   else
+   echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT ALLOWED"
+   fi
+done
+IFS=""
 
 printf "\n"
 echo "${bold}${green}--------------------------"
