@@ -353,6 +353,7 @@ domain:alldezservice.kz
 domain:alldownload.pw
 domain:alldubai.biz
 domain:allesohnegirls.net
+domain:allfinweb.com
 domain:allforminecraft.ru
 domain:allknow.info
 domain:allkrim.com
@@ -1644,6 +1645,7 @@ domain:djstools.com
 domain:dktr.ru
 domain:dkvorota.ru
 domain:dlya-android.org
+domain:dmmspy.com
 domain:dms-sw.ru
 domain:dnepr-avtospar.com.ua
 domain:dnepropetrovsk.mistr-x.org

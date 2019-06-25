@@ -350,6 +350,7 @@
 "~*(?:\b)alldownload\.pw(?:\b|)" 	1;
 "~*(?:\b)alldubai\.biz(?:\b|)" 	1;
 "~*(?:\b)allesohnegirls\.net(?:\b|)" 	1;
+"~*(?:\b)allfinweb\.com(?:\b|)" 	1;
 "~*(?:\b)allforminecraft\.ru(?:\b|)" 	1;
 "~*(?:\b)allknow\.info(?:\b|)" 	1;
 "~*(?:\b)allkrim\.com(?:\b|)" 	1;
@@ -1644,6 +1645,7 @@
 "~*(?:\b)dktr\.ru(?:\b|)" 	1;
 "~*(?:\b)dkvorota\.ru(?:\b|)" 	1;
 "~*(?:\b)dlya\-android\.org(?:\b|)" 	1;
+"~*(?:\b)dmmspy\.com(?:\b|)" 	1;
 "~*(?:\b)dms\-sw\.ru(?:\b|)" 	1;
 "~*(?:\b)dnepr\-avtospar\.com\.ua(?:\b|)" 	1;
 "~*(?:\b)dnepropetrovsk\.mistr\-x\.org(?:\b|)" 	1;
