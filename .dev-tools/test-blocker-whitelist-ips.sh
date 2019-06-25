@@ -102,6 +102,21 @@ echo "${bold}${green}Whitelisting IP Test Complete"
 echo "${bold}${green}-----------------------------"
 printf "\n\n"
 
+# *************************************************************
+# Copy all .conf files used in Testing to a folder for checking
+# *************************************************************
+
+printf "\n"
+echo "${bold}${green}------------------------------------------------------------"
+echo "${bold}${green}Make Backup all conf files and folders used during this test"
+echo "${bold}${green}------------------------------------------------------------"
+printf "\n"
+sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes/bots.d/
+sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes/default.vhost
+sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes/nginx.conf
+
+
 # **********************
 # Exit With Error Number
 # **********************
