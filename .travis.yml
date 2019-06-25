@@ -50,7 +50,7 @@ script:
   - bash .dev-tools/test-blocker.sh
   - bash .dev-tools/test-blocker-badwords.sh
   - bash .dev-tools/test-blocker-whitelist-domains.sh
-  - bash .dev-tools/test-blocker-whitelist.sh
+  - bash -x .dev-tools/test-blocker-whitelist.sh
   - bash .dev-tools/modify-files-and-commit.sh
 
 before_deploy:
