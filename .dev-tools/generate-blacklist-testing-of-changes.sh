@@ -163,7 +163,7 @@ _action4="3;"
 printf '%s\n' "${_start1}" >> ${_tmpnginx1}
 while IFS= read -r LINE
 do
-printf '\t"~*%s%s%s"\t\t%s\n' "\b" "${LINE}" "\b" "${_action1}" >> ${_tmpnginx1}
+printf '\t"~*%s%s%s"\t\t%s\n' "(?:\b)" "${LINE}" "(?:\b|)" "${_action1}" >> ${_tmpnginx1}
 done < ${_input1}
 printf '%s\n' "${_end1}"  >> ${_tmpnginx1}
 mv ${_tmpnginx1} ${_inputdb1}
@@ -189,7 +189,7 @@ rm ${_inputdb1}
 printf '%s\n' "$_start2" >> ${_tmpnginx2}
 while IFS= read -r LINE
 do
-printf '\t"~*%s%s%s"\t\t%s\n' "\b" "${LINE}" "\b" "$_action2" >> ${_tmpnginx2}
+printf '\t"~*%s%s%s"\t\t%s\n' "(?:\b)" "${LINE}" "(?:\b|)" "$_action2" >> ${_tmpnginx2}
 done < ${_input2}
 printf '%s\n' "$_end2"  >> ${_tmpnginx2}
 mv ${_tmpnginx2} ${_inputdb2}
@@ -213,7 +213,7 @@ rm ${_inputdb2}
 printf '%s\n' "$_start3" >> ${_tmpnginx3}
 while IFS= read -r LINE
 do
-printf '\t"~*%s%s%s"\t\t%s\n' "\b" "${LINE}" "\b" "$_action3" >> ${_tmpnginx3}
+printf '\t"~*%s%s%s"\t\t%s\n' "(?:\b)" "${LINE}" "(?:\b|)" "$_action3" >> ${_tmpnginx3}
 done < ${_input3}
 printf '%s\n' "$_end3"  >> ${_tmpnginx3}
 mv ${_tmpnginx3} ${_inputdb3}
