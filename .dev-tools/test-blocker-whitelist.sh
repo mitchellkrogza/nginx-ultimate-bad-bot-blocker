@@ -52,8 +52,8 @@ _tmpnginx1=_tmpnginx1
 _tmpnginx2=_tmpnginx2
 _start1="# START MAKE BAD BOTS GOOD ### DO NOT EDIT THIS LINE AT ALL ###"
 _end1="# END MAKE BAD BOTS GOOD ### DO NOT EDIT THIS LINE AT ALL ###"
-_start1="# START MAKE BAD REFERRERS GOOD ### DO NOT EDIT THIS LINE AT ALL ###"
-_end1="# END MAKE BAD REFERRERS GOOD ### DO NOT EDIT THIS LINE AT ALL ###"
+_start2="# START MAKE BAD REFERRERS GOOD ### DO NOT EDIT THIS LINE AT ALL ###"
+_end2="# END MAKE BAD REFERRERS GOOD ### DO NOT EDIT THIS LINE AT ALL ###"
 _action1="0;"
 
 # ****************************
