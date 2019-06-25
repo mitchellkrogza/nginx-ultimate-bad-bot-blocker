@@ -35,6 +35,88 @@ echo "${bold}${green}Whitelisting Test Starting"
 echo "${bold}${green}--------------------------"
 printf "\n\n"
 
+echo "${bold}${magenta}-----------------------------------------------------------------"
+echo "${bold}${magenta}Generating blacklist-user-agents.conf & custom-bad-referrers.conf"
+echo "${bold}${magenta}-----------------------------------------------------------------"
+printf "\n\n"
+
+
+# **************************************************************************
+# Generate our custom test units turning all good to bad and all bad to good
+# **************************************************************************
+_input1=${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list
+_input2=${TRAVIS_BUILD_DIR}/.dev-tools/referrers-regex-format-whitelist-test.txt
+_inputdb1=/tmp/good-bad-user-agents.db
+_inputdb2=/tmp/good-bad-referrers.db
+_tmpnginx1=_tmpnginx1
+_tmpnginx2=_tmpnginx2
+_start1="# START MAKE BAD BOTS GOOD ### DO NOT EDIT THIS LINE AT ALL ###"
+_end1="# END MAKE BAD BOTS GOOD ### DO NOT EDIT THIS LINE AT ALL ###"
+_start1="# START MAKE BAD REFERRERS GOOD ### DO NOT EDIT THIS LINE AT ALL ###"
+_end1="# END MAKE BAD REFERRERS GOOD ### DO NOT EDIT THIS LINE AT ALL ###"
+_action1="0;"
+
+# ****************************
+# BAD BOTS - Create and Insert
+# ****************************
+
+echo "${bold}${yellow}------------------------"
+echo "${bold}${green}Making all ${red}Bad Bots ${green}GOOD"
+echo "${bold}${yellow}------------------------"
+printf "\n\n"
+
+printf '%s\n' "$_start1" >> ${_tmpnginx1}
+while IFS= read -r LINE
+do
+printf '\t"~*%s%s"\t\t%s\n' "(?:\b)${LINE}" "(?:\b|)" "$_action1" >> ${_tmpnginx1}
+done < ${_input1}
+printf '%s\n' "$_end1"  >> ${_tmpnginx1}
+mv ${_tmpnginx1} ${_inputdb1}
+ed -s ${_inputdb1}<<\IN
+1,/# START MAKE BAD BOTS GOOD ### DO NOT EDIT THIS LINE AT ALL ###/d
+/# END MAKE BAD BOTS GOOD ### DO NOT EDIT THIS LINE AT ALL ###/,$d
+,d
+.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/test_units/blacklist-user-agents.conf
+/# START MAKE BAD BOTS GOOD ### DO NOT EDIT THIS LINE AT ALL ###/x
+.t.
+.,/# END MAKE BAD BOTS GOOD ### DO NOT EDIT THIS LINE AT ALL ###/-d
+w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/test_units/blacklist-user-agents.conf
+q
+IN
+rm ${_inputdb1}
+
+# ********************************
+# BAD REFERERS - Create and Insert
+# ********************************
+
+echo "${bold}${yellow}-----------------------------"
+echo "${bold}${green}Making all ${red}Bad Referrers ${green}GOOD"
+echo "${bold}${yellow}-----------------------------"
+printf "\n\n"
+
+
+printf '%s\n' "$_start2" >> ${_tmpnginx2}
+while IFS= read -r LINE
+do
+printf '\t%s\n' "${LINE}" >> ${_tmpnginx2}
+done < ${_input2}
+printf '%s\n' "$_end2"  >> ${_tmpnginx2}
+mv ${_tmpnginx2} ${_inputdb2}
+ed -s ${_inputdb2}<<\IN
+1,/# START MAKE BAD REFERRERS GOOD ### DO NOT EDIT THIS LINE AT ALL ###/d
+/# END MAKE BAD REFERRERS GOOD ### DO NOT EDIT THIS LINE AT ALL ###/,$d
+,d
+.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/test_units/custom-bad-referrers.conf
+/# START MAKE BAD REFERRERS GOOD ### DO NOT EDIT THIS LINE AT ALL ###/x
+.t.
+.,/# END MAKE BAD REFERRERS GOOD ### DO NOT EDIT THIS LINE AT ALL ###/-d
+w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/test_units/custom-bad-referrers.conf
+q
+IN
+rm ${_inputdb2}
+
+
+
 echo "${bold}${green}------------------------------------------------"
 echo "${bold}${green}Activating Users User-Agents Whitelist/Blacklist"
 echo "${bold}${green}------------------------------------------------"
