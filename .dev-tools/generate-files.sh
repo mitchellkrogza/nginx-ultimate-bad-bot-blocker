@@ -51,6 +51,7 @@ sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-robots.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-google-disavow.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-google-exclude.php
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-regex-format-referrers.php
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-regex-format-referrers-whitelist-test.php
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/modify-config-readme-files.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/modify-files-and-commit.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker.sh
@@ -73,6 +74,7 @@ cd ${TRAVIS_BUILD_DIR}
 # ***************************************************
 
 php ./.dev-tools/generate-regex-format-referrers.php
+php ./.dev-tools/generate-regex-format-referrers-whitelist-test.php
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist.sh
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist-testing-of-changes.sh
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/modify-config-readme-files.sh
