@@ -29,7 +29,10 @@ magenta=$(tput setaf 5)
 cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
-ip=$(curl -s ifconfig.co)
+thisip=$(curl -s ifconfig.co)
+
+# Print IP info of system
+ip addr
 
 echo "${bold}${green}--------------------------"
 echo "${bold}${green}Whitelist IP Test Starting"
@@ -42,7 +45,7 @@ echo "${bold}${green}-------------------------"
 printf "\n\n"
 
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf /etc/nginx/bots.d/blacklist-ips.conf
-printf '%s%s\n' "${ip}" "1;" >> /etc/nginx/bots.d/blacklist-ips.conf
+printf '%s%s\n' "${thisip}" "1;" >> /etc/nginx/bots.d/blacklist-ips.conf
 
 echo "${bold}${green}--------------------"
 echo "${bold}${green}Now Whitelist own IP"
@@ -50,7 +53,7 @@ echo "${bold}${green}--------------------"
 printf "\n\n"
 
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
-printf '%s%s\n' "${ip}" "0;" >> /etc/nginx/bots.d/whitelist-ips.conf
+printf '%s%s\n' "${thisip}" "0;" >> /etc/nginx/bots.d/whitelist-ips.conf
 
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
