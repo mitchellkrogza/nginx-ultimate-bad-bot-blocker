@@ -46,6 +46,7 @@ printf "\n\n"
 
 sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
 printf '%s\t%s\n' "${thisip}" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
+printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf /etc/nginx/bots.d/blacklist-ips.conf
 
 echo "${bold}${green}--------------------"
@@ -55,6 +56,7 @@ printf "\n\n"
 
 sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
 printf '%s\t%s\n' "${thisip}" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
+printf '%s\t%s\n' "127.0.0.1" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
 
 echo "${bold}${green}---------------"
@@ -65,10 +67,10 @@ sudo nginx -t && sudo nginx -s reload
 
 
 echo "${bold}${yellow}-----------------------------------------------------------------------"
-echo "${bold}${yellow}Sleeping for 30 seconds to allow Nginx to Properly Reload inside Travis"
+echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 printf "\n\n"
-#sleep 30s
+sleep 10s
 
 # *************************************************
 # Function Curl Test 1 - Test User Domain Whitelist
