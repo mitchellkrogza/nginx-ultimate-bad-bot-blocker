@@ -266,7 +266,7 @@ file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limit-googlebot.list
 lines=$(cat ${file})
 for line in ${lines}; do
    if
-   curl -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   time curl -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - ${red}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT ALLOWED"
