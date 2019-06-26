@@ -44,18 +44,18 @@ echo "${bold}${green}Blacklisting own IP First"
 echo "${bold}${green}-------------------------"
 printf "\n\n"
 
+sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
 printf '%s\t%s\n' "${thisip}" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf /etc/nginx/bots.d/blacklist-ips.conf
-#printf '%s%s\n' "${thisip}" "1;" >> /etc/nginx/bots.d/blacklist-ips.conf
 
 echo "${bold}${green}--------------------"
 echo "${bold}${green}Now Whitelist own IP"
 echo "${bold}${green}--------------------"
 printf "\n\n"
 
+sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
 printf '%s\t%s\n' "${thisip}" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
-#printf '%s%s\n' "${thisip}" "0;" >> /etc/nginx/bots.d/whitelist-ips.conf
 
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
