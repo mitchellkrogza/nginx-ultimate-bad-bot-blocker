@@ -261,6 +261,7 @@ echo "${bold}${yellow}----------------------------------------------------------
 printf "\n\n"
 sleep 10s
 
+if 
 curl -A "GoogleBot" http://localhost:9000 2>&1 &
 curl -A "GoogleBot" http://localhost:9000 2>&1 &
 curl -A "GoogleBot" http://localhost:9000 2>&1 &
@@ -277,7 +278,11 @@ curl -A "GoogleBot" http://localhost:9000 2>&1 &
 curl -A "GoogleBot" http://localhost:9000 2>&1 &
 curl -A "GoogleBot" http://localhost:9000 2>&1 &
 curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1
+curl -A "GoogleBot" http://localhost:9000 2>&1 | grep -i 'Unavailable'; then
+   echo "${bold}${green}PASSED - ${red}GoogleBot was ${bold}${red}RATE LIMITED"
+   else
+   echo "${bold}${red}FAILED - ${red}GoogleBot was ${bold}${red}NOT RATE LIMITED"
+   fi
 
 printf "\n"
 echo "${bold}${green}---------------------------"
