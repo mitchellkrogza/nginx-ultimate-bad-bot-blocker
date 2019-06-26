@@ -116,7 +116,6 @@ IN
 rm ${_inputdb2}
 
 
-
 echo "${bold}${green}------------------------------------------------"
 echo "${bold}${green}Activating Users User-Agents Whitelist/Blacklist"
 echo "${bold}${green}------------------------------------------------"
@@ -138,7 +137,7 @@ echo "${bold}${yellow}----------------------------------------------------------
 echo "${bold}${yellow}Sleeping for 30 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 printf "\n\n"
-sleep 30s
+sleep 10s
 
 # *******************************************************
 # Function Curl Test 1 - Test User Whitelist for "Nutch"
@@ -173,6 +172,7 @@ run_curltest2
 # ************************************************
 # Test 250 User-Agents from Bad-User-Agents
 # ************************************************
+
 shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp
@@ -199,6 +199,7 @@ IFS=""
 # ************************************************
 # Test 250 Referrers from Bad-Referrers
 # ************************************************
+
 shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp
@@ -248,7 +249,6 @@ echo "${bold}${yellow}-----------------------------"
 printf "\n\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limiting-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
 
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/custom-bad-referrers.conf /etc/nginx/bots.d/custom-bad-referrers.conf
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
@@ -259,8 +259,13 @@ echo "${bold}${yellow}----------------------------------------------------------
 echo "${bold}${yellow}Sleeping for 30 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 printf "\n\n"
-sleep 30s
+sleep 10s
 
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
 curl -A "GoogleBot" http://localhost:9000 2>&1 &
 curl -A "GoogleBot" http://localhost:9000 2>&1 &
 curl -A "GoogleBot" http://localhost:9000 2>&1 &
@@ -273,19 +278,6 @@ curl -A "GoogleBot" http://localhost:9000 2>&1 &
 curl -A "GoogleBot" http://localhost:9000 2>&1 &
 curl -A "GoogleBot" http://localhost:9000 2>&1 &
 curl -A "GoogleBot" http://localhost:9000 2>&1
-
-#IFS=$'\n'
-#file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limit-googlebot.list
-#lines=$(cat ${file})
-#for line in ${lines}; do
-#   if
-#   time curl -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-#   echo "${bold}${green}PASSED - ${red}${line} was ${bold}${green}ALLOWED"
-#   else
-#   echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT ALLOWED"
-#   fi
-#done
-#IFS=""
 
 printf "\n"
 echo "${bold}${green}---------------------------"
