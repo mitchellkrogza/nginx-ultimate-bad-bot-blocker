@@ -10631,7 +10631,7 @@ geo $ratelimited {
 # this rate limiting will only take effect if you change any of the bots and change
 # their block value from 1 to 2.
 	limit_conn_zone $bot_iplimit zone=bot2_connlimit:16m;
-	limit_req_zone  $bot_iplimit zone=bot2_reqlimitip:16m  rate=2r/s;
+	limit_req_zone  $bot_iplimit zone=bot2_reqlimitip:16m  rate=2r/s burst=5;
 
 ### *** MAKE SURE TO ADD to your nginx.conf ***
 ### server_names_hash_bucket_size 64;
