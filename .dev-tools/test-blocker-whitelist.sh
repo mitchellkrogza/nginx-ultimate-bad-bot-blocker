@@ -261,18 +261,31 @@ echo "${bold}${yellow}----------------------------------------------------------
 printf "\n\n"
 sleep 30s
 
-IFS=$'\n'
-file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limit-googlebot.list
-lines=$(cat ${file})
-for line in ${lines}; do
-   if
-   time curl -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - ${red}${line} was ${bold}${green}ALLOWED"
-   else
-   echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT ALLOWED"
-   fi
-done
-IFS=""
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1 &
+curl -A "GoogleBot" http://localhost:9000 2>&1
+
+#IFS=$'\n'
+#file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limit-googlebot.list
+#lines=$(cat ${file})
+#for line in ${lines}; do
+#   if
+#   time curl -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+#   echo "${bold}${green}PASSED - ${red}${line} was ${bold}${green}ALLOWED"
+#   else
+#   echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT ALLOWED"
+#   fi
+#done
+#IFS=""
 
 printf "\n"
 echo "${bold}${green}---------------------------"
