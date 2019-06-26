@@ -229,68 +229,6 @@ echo "${bold}${green}Whitelisting Test Complete"
 echo "${bold}${green}--------------------------"
 printf "\n\n"
 
-# ******************
-# TEST RATE LIMITING
-# ******************
-
-printf "\n"
-echo "${bold}${green}---------------------------"
-echo "${bold}${green}Starting Rate Limiting Test"
-echo "${bold}${green}---------------------------"
-printf "\n\n"
-
-# ***************************
-# Make GoogleBot Rate Limited
-# ***************************
-
-echo "${bold}${yellow}-----------------------------"
-echo "${bold}${yellow}Making GoogleBot ${yellow}RATE LIMITED"
-echo "${bold}${yellow}-----------------------------"
-printf "\n\n"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limiting-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
-
-echo "${bold}${green}---------------"
-echo "${bold}${green}Reloading Nginx"
-echo "${bold}${green}---------------"
-printf "\n\n"
-sudo nginx -t && sudo nginx -s reload
-
-echo "${bold}${yellow}-----------------------------------------------------------------------"
-echo "${bold}${yellow}Sleeping for 30 seconds to allow Nginx to Properly Reload inside Travis"
-echo "${bold}${yellow}-----------------------------------------------------------------------"
-printf "\n\n"
-sleep 10s
-
-ratelimittestfile=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/ratelimittest.txt
-truncate -s 0 ${ratelimittestfile}
-curl -A "GoogleBot" http://localhost:9000 2>&1 > ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} 
-
-if grep -i 'Unavailable' < ${ratelimittestfile}; then
-   echo "${bold}${green}PASSED - ${red}GoogleBot was ${bold}${red}RATE LIMITED"
-   else
-   echo "${bold}${red}FAILED - ${red}GoogleBot was ${bold}${red}NOT RATE LIMITED"
-   fi
-
-printf "\n"
-echo "${bold}${green}---------------------------"
-echo "${bold}${green}Rate Limiting Test Complete"
-echo "${bold}${green}---------------------------"
-printf "\n\n"
-
 # *******************
 # RELEASE NEW VERSION
 # *******************

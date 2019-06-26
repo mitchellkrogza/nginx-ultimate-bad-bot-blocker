@@ -60,6 +60,7 @@ sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-badwords.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-whitelist-domains.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-whitelist-ips.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-blacklist-domains.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-rate-limiting.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-whitelist.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/prepare-robots-input.sh
 sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/install-nginx-1.sh
