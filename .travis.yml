@@ -36,7 +36,7 @@ install:
   - sudo apt-get -y install dos2unix
 
 script:
-  - bash .dev-tools/pull-data.sh
+  #- bash .dev-tools/pull-data.sh
   - bash .dev-tools/generate-files.sh
   - bash .dev-tools/install-nginx-1.sh
   - bash .dev-tools/test-blocker-quick.sh
