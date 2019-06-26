@@ -228,6 +228,58 @@ echo "${bold}${green}Whitelisting Test Complete"
 echo "${bold}${green}--------------------------"
 printf "\n\n"
 
+# ******************
+# TEST RATE LIMITING
+# ******************
+
+printf "\n"
+echo "${bold}${green}---------------------------"
+echo "${bold}${green}Starting Rate Limiting Test"
+echo "${bold}${green}---------------------------"
+printf "\n\n"
+
+# ***************************
+# Make GoogleBot Rate Limited
+# ***************************
+
+echo "${bold}${yellow}-----------------------------"
+echo "${bold}${yellow}Making GoogleBot ${yellow}RATE LIMITED"
+echo "${bold}${yellow}-----------------------------"
+printf "\n\n"
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limiting-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
+
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/custom-bad-referrers.conf /etc/nginx/bots.d/custom-bad-referrers.conf
+echo "${bold}${green}---------------"
+echo "${bold}${green}Reloading Nginx"
+echo "${bold}${green}---------------"
+printf "\n\n"
+sudo nginx -t && sudo nginx -s reload
+
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+echo "${bold}${yellow}Sleeping for 30 seconds to allow Nginx to Properly Reload inside Travis"
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+printf "\n\n"
+sleep 30s
+
+IFS=$'\n'
+file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limit-googlebot.list
+lines=$(cat ${file})
+for line in ${lines}; do
+   if
+   curl http://localhost:9000 -e "http://${line}" 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - ${red}${line} was ${bold}${green}ALLOWED"
+   else
+   echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT ALLOWED"
+   fi
+done
+IFS=""
+
+printf "\n"
+echo "${bold}${green}---------------------------"
+echo "${bold}${green}Rate Limiting Test Complete"
+echo "${bold}${green}---------------------------"
+printf "\n\n"
+
 # *******************
 # RELEASE NEW VERSION
 # *******************
