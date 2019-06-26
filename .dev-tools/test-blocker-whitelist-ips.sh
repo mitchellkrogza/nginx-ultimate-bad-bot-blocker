@@ -45,7 +45,7 @@ echo "${bold}${green}-------------------------"
 printf "\n\n"
 
 sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
-printf '%s\t%s\n' "${thisip}" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
+#printf '%s\t%s\n' "${thisip}" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
 printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf /etc/nginx/bots.d/blacklist-ips.conf
 
@@ -55,9 +55,16 @@ echo "${bold}${green}--------------------"
 printf "\n\n"
 
 sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-printf '%s\t%s\n' "${thisip}" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
+#printf '%s\t%s\n' "${thisip}" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
 printf '%s\t%s\n' "127.0.0.1" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
+
+echo "${bold}${green}----------------------------"
+echo "${bold}${green}Copy modified blockbots.conf"
+echo "${bold}${green}----------------------------"
+printf "\n\n"
+
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blockbots.conf /etc/nginx/bots.d/blockbots.conf
 
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
@@ -76,29 +83,14 @@ sleep 10s
 # Function Curl Test 1 - Test User Domain Whitelist
 # *************************************************
 
-#run_curltest1 () {
-#if curl http://localhost:9000 -e http://www.myowndomain.com 2>&1 | grep -i 'Welcome'; then
-#   echo "${bold}${green}PASSED - User whitelist-domains.conf working"
-#else
-#   echo "${bold}${red}FAILED - User whitelist-domains.conf NOT working"
-#   #exit 1
-#fi
-#}
-#run_curltest1
-
-# *************************************************
-# Function Curl Test 2 - Test User Domain Whitelist
-# *************************************************
-
-#run_curltest2 () {
-#if curl http://localhost:9000 -e http://www.myotherdomain.com 2>&1 | grep -i 'Welcome'; then
-#   echo "${bold}${green}PASSED - User whitelist-domains.conf working"
-#else
-#   echo "${bold}${red}FAILED - User whitelist-domains.conf NOT working"
-#   #exit 1
-#fi
-#}
-#run_curltest2
+run_curltest1 () {
+if curl http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - whitelist own ip is WORKING"
+else
+   echo "${bold}${red}FAILED - whitelist own ip is NOT working"
+fi
+}
+run_curltest1
 
 
 echo "${bold}${green}-----------------------------"
