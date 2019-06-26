@@ -261,24 +261,25 @@ echo "${bold}${yellow}----------------------------------------------------------
 printf "\n\n"
 sleep 10s
 
-if 
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 &
-curl -A "GoogleBot" http://localhost:9000 2>&1 | grep -i 'Unavailable'; then
+ratelimittestfile=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/ratelimittest.txt
+truncate -s 0 ${ratelimittestfile}
+curl -A "GoogleBot" http://localhost:9000 2>&1 > ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} 
+
+if grep -i 'Unavailable' < ${ratelimittestfile}; then
    echo "${bold}${green}PASSED - ${red}GoogleBot was ${bold}${red}RATE LIMITED"
    else
    echo "${bold}${red}FAILED - ${red}GoogleBot was ${bold}${red}NOT RATE LIMITED"
