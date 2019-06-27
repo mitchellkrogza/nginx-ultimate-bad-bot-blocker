@@ -75,7 +75,7 @@ echo "${bold}${yellow}----------------------------------------------------------
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 printf "\n\n"
-sleep 30s
+sleep 10s
 
 # *************************************************
 # Function Curl Test 1 - Test User Domain Whitelist

@@ -47,6 +47,16 @@ YEAR=$(date +"%Y")
 MONTH=$(date +"%m")
 cd ${TRAVIS_BUILD_DIR}
 
+# *******************
+# RELEASE NEW VERSION
+# *******************
+latestbuild=V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
+printf "\n"
+echo "${bold}${green}All Nginx Tests Completed"
+echo "${bold}${green}All Bot and Referrer Testing Completed"
+echo "${bold}${green}All Function Testing Completed"
+echo "${bold}${magenta}Releasing ${latestbuild}"
+
 # *******************************
 # Remove Remote Added by TravisCI
 # *******************************

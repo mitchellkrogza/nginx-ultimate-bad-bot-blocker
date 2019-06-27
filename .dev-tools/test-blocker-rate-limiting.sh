@@ -62,7 +62,7 @@ echo "${bold}${yellow}----------------------------------------------------------
 printf "\n\n"
 sleep 10s
 
-ratelimittestfile=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/ratelimittest.txt
+ratelimittestfile=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/ratelimittest-master.txt
 truncate -s 0 ${ratelimittestfile}
 curl -A "GoogleBot" http://localhost:9000 2>&1 > ${ratelimittestfile} &
 curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
@@ -95,10 +95,10 @@ echo "${bold}${green}-----------------------------------------------------------
 echo "${bold}${green}Make Backup all conf files and folders used during this test"
 echo "${bold}${green}------------------------------------------------------------"
 printf "\n"
-sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_ratelimiting/bots.d/
-sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_ratelimiting/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_ratelimiting/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_ratelimiting/nginx.conf
+sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ratelimiting/bots.d/
+sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ratelimiting/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ratelimiting/default.vhost
+sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ratelimiting/nginx.conf
 
 
 

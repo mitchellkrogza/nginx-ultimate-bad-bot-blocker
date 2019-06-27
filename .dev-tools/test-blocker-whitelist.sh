@@ -170,17 +170,17 @@ fi
 run_curltest2
 
 # ************************************************
-# Test 250 User-Agents from Bad-User-Agents
+# Test 100 User-Agents from Bad-User-Agents
 # ************************************************
 
-shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp
+shuf -n 100 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
 
 printf "\n\n"
 echo "${bold}${magenta}---------------------------"
-echo "${bold}${magenta}Testing 250 Random Bad Bots"
+echo "${bold}${magenta}Testing 100 Random Bad Bots"
 echo "${bold}${magenta}---------------------------"
 printf "\n\n"
 IFS=$'\n'
@@ -197,17 +197,17 @@ done
 IFS=""
 
 # ************************************************
-# Test 250 Referrers from Bad-Referrers
+# Test 100 Referrers from Bad-Referrers
 # ************************************************
 
-shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp
+shuf -n 100 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
 
 printf "\n\n"
 echo "${bold}${magenta}----------------------------"
-echo "${bold}${magenta}Testing 250 Random Referrers"
+echo "${bold}${magenta}Testing 100 Random Referrers"
 echo "${bold}${magenta}----------------------------"
 printf "\n\n"
 IFS=$'\n'
@@ -238,22 +238,10 @@ echo "${bold}${green}-----------------------------------------------------------
 echo "${bold}${green}Make Backup all conf files and folders used during this test"
 echo "${bold}${green}------------------------------------------------------------"
 printf "\n"
-sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_whitelist/bots.d/
-sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_whitelist/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_whitelist/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_whitelist/nginx.conf
-
-# *******************
-# RELEASE NEW VERSION
-# *******************
-YEAR=$(date +"%Y")
-MONTH=$(date +"%m")
-latestbuild=V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
-printf "\n"
-echo "${bold}${green}All Nginx Tests Completed"
-echo "${bold}${green}All Bot and Referrer Testing Completed"
-echo "${bold}${green}All Function Testing Completed"
-echo "${bold}${magenta}Releasing ${latestbuild}"
+sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_whitelist/bots.d/
+sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_whitelist/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_whitelist/default.vhost
+sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_whitelist/nginx.conf
 
 # **********************
 # Exit With Error Number
