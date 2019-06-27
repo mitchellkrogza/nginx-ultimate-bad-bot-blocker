@@ -60,6 +60,13 @@ printf '%s\t%s\n' "127.0.0.1" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
 
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/botblocker-nginx-settings.conf /etc/nginx/conf.d/botblocker-nginx-settings.conf
+printf "\n"
+echo "${bold}${yellow}---------------------------------------------------"
+echo "${bold}${yellow}Copy Test Unit of globalblacklist.conf file to test"
+echo "${bold}${yellow}---------------------------------------------------"
+printf "\n"
+
+sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version.conf /etc/nginx/conf.d/globalblacklist.conf
 
 
 echo "${bold}${green}---------------"
