@@ -62,6 +62,9 @@ printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/
 printf '%s\t%s\n' "127.0.0.1" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
 
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/botblocker-nginx-settings.conf /etc/nginx/conf.d/botblocker-nginx-settings.conf
+
+
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
