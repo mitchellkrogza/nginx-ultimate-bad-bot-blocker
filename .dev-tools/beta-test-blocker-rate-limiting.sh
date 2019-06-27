@@ -62,7 +62,7 @@ echo "${bold}${yellow}----------------------------------------------------------
 printf "\n\n"
 sleep 10s
 
-ratelimittestfile=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/ratelimittest.txt
+ratelimittestfile=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/ratelimittest-beta.txt
 truncate -s 0 ${ratelimittestfile}
 curl -A "GoogleBot" http://localhost:9000 2>&1 > ${ratelimittestfile} &
 curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
