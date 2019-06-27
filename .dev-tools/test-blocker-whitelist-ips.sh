@@ -45,7 +45,7 @@ echo "${bold}${green}-------------------------"
 printf "\n\n"
 
 sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
-printf '%s\t%s\n' "${thisip}" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
+#printf '%s\t%s\n' "${thisip}" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
 printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf /etc/nginx/bots.d/blacklist-ips.conf
 
@@ -55,14 +55,10 @@ echo "${bold}${green}--------------------"
 printf "\n\n"
 
 sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-printf '%s\t%s\n' "${thisip}" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
-printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
-printf '%s\t%s\n' "127.0.0.1" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-printf '%s\t%s\n' "127.0.0.1" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-printf '%s\t%s\n' "127.0.0.1" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
-printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
+#printf '%s\t%s\n' "${thisip}" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
+printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
+printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
+printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
 printf '%s\t%s\n' "127.0.0.1" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
 
@@ -77,7 +73,7 @@ echo "${bold}${yellow}----------------------------------------------------------
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 printf "\n\n"
-sleep 10s
+sleep 30s
 
 # *************************************************
 # Function Curl Test 1 - Test User Domain Whitelist
@@ -88,6 +84,7 @@ if curl http://localhost:9000 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - whitelist own ip is WORKING"
 else
    echo "${bold}${red}FAILED - whitelist own ip is NOT working"
+   curl http://localhost:9000
 fi
 }
 run_curltest1
