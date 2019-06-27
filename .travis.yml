@@ -47,13 +47,13 @@ script:
   #- bash .dev-tools/install-nginx-4.sh
   #- bash .dev-tools/test-blocker-quick.sh
   # FROM HERE WE TEST ANY NEW CHANGES TO THE BLOCKER
-  - bash .dev-tools/install-nginx-testing-of-changes.sh
-  - bash .dev-tools/test-blocker.sh
-  - bash .dev-tools/test-blocker-badwords.sh
-  - bash .dev-tools/test-blocker-whitelist-domains.sh
-  - bash .dev-tools/test-blocker-whitelist-ips.sh
-  - bash .dev-tools/test-blocker-rate-limiting.sh
-  - bash .dev-tools/test-blocker-whitelist.sh
+  - bash .dev-tools/beta-install-nginx-testing-of-changes.sh
+  - bash .dev-tools/beta-test-blocker.sh
+  - bash .dev-tools/beta-test-blocker-badwords.sh
+  - bash .dev-tools/beta-test-blocker-whitelist-domains.sh
+  - bash .dev-tools/beta-test-blocker-whitelist-ips.sh
+  - bash .dev-tools/beta-test-blocker-rate-limiting.sh
+  - bash .dev-tools/beta-test-blocker-whitelist.sh
   - bash .dev-tools/modify-files-and-commit.sh
 
 before_deploy:
