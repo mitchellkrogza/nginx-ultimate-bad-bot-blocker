@@ -45,7 +45,7 @@ script:
   - bash .dev-tools/test-blocker-whitelist-ips.sh
   - bash .dev-tools/test-blocker-rate-limiting.sh
   - bash .dev-tools/test-blocker-whitelist.sh
-  # HERE WE TEST update-ngxblocker setup-ngxblocker
+  # HERE WE TEST update-ngxblocker setup-ngxblocker - DISABLED UNTIL FIXED
   #- bash .dev-tools/install-nginx-2.sh
   #- bash .dev-tools/test-blocker-quick.sh
   #- bash .dev-tools/install-nginx-3.sh
