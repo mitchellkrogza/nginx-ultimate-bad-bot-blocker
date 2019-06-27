@@ -7728,29 +7728,6 @@ geo $validate_client {
 	54.242.250.203		1;
 # END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###
 
-
-# ****************************
-# Known Bad IP's and IP Ranges
-# *************************************************
-# Blacklist IP addresses and IP Ranges Customizable
-# *************************************************
-
-# BLACKLIST all your IP addresses and Ranges using the new include file below.
-  # New Method Uses the include file below so that when pulling future updates your
-  # Custom Blacklisted IP addresses are automatically now included for you.
-  # Read Comments inside blacklist-ips.conf for customization tips.
-  # Updating the main globalblacklist.conf file will not touch your custom include files
-
-# ********************************************************************
-# START BLACKLISTED IPS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
-# ********************************************************************
-
-	include /etc/nginx/bots.d/blacklist-ips.conf;
-
-# ******************************************************************
-# END BLACKLISTED IPS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
-# ******************************************************************
-
 # *********************************************************************************************
 # KNOWN BAD IP ADDRESSES
 # Source: https://github.com/mitchellkrogza/Suspicious.Snooping.Sniffing.Hacking.IP.Addresses
@@ -17759,27 +17736,6 @@ geo $validate_client {
 	46.101.115.65		1;
 # END KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###
 
-
-# ***********************************
-# Whitelist all your OWN IP addresses
-# ***********************************
-
-# WHITELIST all your own IP addresses using the include file below.
-  # New Method Uses the include file below so that when pulling future updates your
-  # whitelisted IP addresses are automatically now included for you.
-  # Read Comments inside whitelist-ips.conf for customization tips.
-  # Updating the main globalblacklist.conf file will not touch your custom include files
-  
-# **************************************************************************
-# START WHITELISTED IP RANGES ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
-# **************************************************************************
-
-	include /etc/nginx/bots.d/whitelist-ips.conf;
-
-# ************************************************************************
-# END WHITELISTED IP RANGES ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
-# ************************************************************************
-
 # ****************
 # Google IP Ranges
 # ****************
@@ -17871,6 +17827,46 @@ geo $validate_client {
 	2c0f:f248::/32		0;
 # END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
 
+# *************************************************
+# Blacklist IP addresses and IP Ranges Customizable
+# *************************************************
+
+# BLACKLIST all your IP addresses and Ranges using the new include file below.
+  # New Method Uses the include file below so that when pulling future updates your
+  # Custom Blacklisted IP addresses are automatically now included for you.
+  # Read Comments inside blacklist-ips.conf for customization tips.
+  # Updating the main globalblacklist.conf file will not touch your custom include files
+
+# ********************************************************************
+# START BLACKLISTED IPS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
+# ********************************************************************
+
+	include /etc/nginx/bots.d/blacklist-ips.conf;
+
+# ******************************************************************
+# END BLACKLISTED IPS ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
+# ******************************************************************
+
+
+# ***********************************
+# Whitelist all your OWN IP addresses
+# ***********************************
+
+# WHITELIST all your own IP addresses using the include file below.
+  # New Method Uses the include file below so that when pulling future updates your
+  # whitelisted IP addresses are automatically now included for you.
+  # Read Comments inside whitelist-ips.conf for customization tips.
+  # Updating the main globalblacklist.conf file will not touch your custom include files
+  
+# **************************************************************************
+# START WHITELISTED IP RANGES ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
+# **************************************************************************
+
+	include /etc/nginx/bots.d/whitelist-ips.conf;
+
+# ************************************************************************
+# END WHITELISTED IP RANGES ### DO NOT EDIT OR REMOVE THIS LINE AT ALL ###
+# ************************************************************************
 
 
 
