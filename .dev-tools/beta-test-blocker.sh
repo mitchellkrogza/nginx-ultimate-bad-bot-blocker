@@ -62,6 +62,7 @@ if curl -v -A "80legs" http://localhost:9000 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${red}80legs BAD BOT DETECTED"
 else
    echo "${bold}${red}FAILED - ${red}80legs BAD BOT NOT DETECTED"
+   curl -v -A "80legs" http://localhost:9000 2>&1
    exit 1
 fi
 }

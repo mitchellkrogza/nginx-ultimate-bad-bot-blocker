@@ -55,6 +55,25 @@ cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
 
+printf "\n"
+echo "${bold}${yellow}-----------------------------------"
+echo "${bold}${yellow}Delete Files to force fresh testing"
+echo "${bold}${yellow}-----------------------------------"
+printf "\n"
+sudo rm /etc/nginx/conf.d/*.conf
+sudo rm /etc/nginx/bots.d/*.conf
+ls -la /etc/nginx/conf.d/
+ls -la /etc/nginx/bots.d/
+
+printf "\n"
+echo "${bold}${magenta}-------------------------"
+echo "${bold}${magenta}Execute update-ngxblocker"
+echo "${bold}${magenta}-------------------------"
+printf "\n"
+cd /usr/sbin
+sudo bash ./update-ngxblocker -n
+
+
 # ***********************************************************************
 # Make sure we test latest generated globalblacklist-testing-version.conf
 # ***********************************************************************
