@@ -35,6 +35,23 @@ echo "${bold}${green}Tests Starting"
 echo "${bold}${green}--------------"
 printf "\n\n"
 
+# *********************
+# Force reload of Nginx
+# *********************
+
+printf "\n"
+echo "${bold}${green}------------"
+echo "${bold}${green}Reload Nginx"
+echo "${bold}${green}------------"
+printf "\n"
+sudo nginx -t && sudo nginx -s reload
+
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+printf "\n\n"
+sleep 10s
+
 
 # *************************************************
 # Function Curl Test 1 - Check for Bad Bot "80legs"
