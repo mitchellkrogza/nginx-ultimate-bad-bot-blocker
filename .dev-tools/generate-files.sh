@@ -69,6 +69,7 @@ generateFiles () {
 cd ${TRAVIS_BUILD_DIR}
 php ./.dev-tools/generate-regex-format-referrers.php
 php ./.dev-tools/generate-regex-format-referrers-whitelist-test.php
+sudo ${TRAVIS_BUILD_DIR}/.dev-tools/update-bad-ips.sh
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist.sh
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist-testing-of-changes.sh
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/modify-config-readme-files.sh
