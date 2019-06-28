@@ -16,9 +16,9 @@
 #                                                                            #
 ##############################################################################                                                                
 
-# ************************
+# ------------------------
 # Set Terminal Font Colors
-# ************************
+# ------------------------
 
 bold=$(tput bold)
 red=$(tput setaf 1)
@@ -31,6 +31,69 @@ white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
 thisip=$(curl -s ifconfig.co)
 
+# ---------
+# FUNCTIONS
+# ---------
+
+reloadNginX () {
+echo "${bold}${green}---------------"
+echo "${bold}${green}Reloading Nginx"
+echo "${bold}${green}---------------"
+printf "\n\n"
+sudo nginx -t && sudo nginx -s reload
+}
+
+run_curltest1 () {
+if curl http://localhost:9000 2>&1 | grep -i '(52)'; then
+   echo "${bold}${green}PASSED - ${bold}${red}blacklist own ip is WORKING"
+else
+   echo "${bold}${red}FAILED - blacklist own ip is NOT working"
+fi
+}
+
+run_curltest2 () {
+if curl http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - whitelist own ip is WORKING"
+else
+   echo "${bold}${red}FAILED - whitelist own ip is NOT working"
+   curl http://localhost:9000
+fi
+}
+
+backupConfFiles () {
+printf "\n"
+echo "${bold}${green}------------------------------------------------------------"
+echo "${bold}${green}Make Backup all conf files and folders used during this test"
+echo "${bold}${green}------------------------------------------------------------"
+printf "\n"
+sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ip_whitelist/bots.d/
+sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ip_whitelist/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ip_whitelist/default.vhost
+sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ip_whitelist/nginx.conf
+}
+
+blacklistOwnIP () {
+sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
+printf '%s\t%s\n' "${thisip}" "1;" > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
+printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf /etc/nginx/bots.d/blacklist-ips.conf
+sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
+}
+
+whitelistOwnIP () {
+sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
+printf '%s\t%s\n' "${thisip}" "0;" > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
+printf '%s\t%s\n' "127.0.0.1" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
+# TEST ANY CHANGES TO botblocker-nginx-settings.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/botblocker-nginx-settings.conf /etc/nginx/conf.d/botblocker-nginx-settings.conf
+}
+
+# -----------
+# Start Tests
+# -----------
+
 echo "${bold}${green}--------------------------"
 echo "${bold}${green}Whitelist IP Test Starting"
 echo "${bold}${green}--------------------------"
@@ -41,26 +104,8 @@ echo "${bold}${green}Blacklisting own IP First"
 echo "${bold}${green}-------------------------"
 printf "\n\n"
 
-sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
-printf '%s\t%s\n' "${thisip}" "1;" > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
-printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf /etc/nginx/bots.d/blacklist-ips.conf
-
-echo "${bold}${green}--------------------"
-echo "${bold}${green}Now Whitelist own IP"
-echo "${bold}${green}--------------------"
-printf "\n\n"
-
-sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-printf '%s\t%s\n' "${thisip}" "0;" > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-printf '%s\t%s\n' "127.0.0.1" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
-
-echo "${bold}${green}---------------"
-echo "${bold}${green}Reloading Nginx"
-echo "${bold}${green}---------------"
-printf "\n\n"
-sudo nginx -t && sudo nginx -s reload
+blacklistOwnIP
+reloadNginX
 
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
@@ -69,19 +114,30 @@ printf "\n\n"
 sleep 10s
 
 # *************************************************
-# Function Curl Test 1 - Test User Domain Whitelist
+# Function Curl Test 1 - Test our IP is Blacklisted
 # *************************************************
 
-run_curltest1 () {
-if curl http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - whitelist own ip is WORKING"
-else
-   echo "${bold}${red}FAILED - whitelist own ip is NOT working"
-   curl http://localhost:9000
-fi
-}
 run_curltest1
 
+echo "${bold}${green}--------------------"
+echo "${bold}${green}Now Whitelist own IP"
+echo "${bold}${green}--------------------"
+printf "\n\n"
+
+whitelistOwnIP
+reloadNginX
+
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+printf "\n\n"
+sleep 10s
+
+# *************************************************
+# Function Curl Test 2 - Test our IP is Whitelisted
+# *************************************************
+
+run_curltest2
 
 echo "${bold}${green}-----------------------------"
 echo "${bold}${green}Whitelisting IP Test Complete"
@@ -92,21 +148,10 @@ printf "\n\n"
 # Copy all .conf files used in Testing to a folder for checking
 # *************************************************************
 
-printf "\n"
-echo "${bold}${green}------------------------------------------------------------"
-echo "${bold}${green}Make Backup all conf files and folders used during this test"
-echo "${bold}${green}------------------------------------------------------------"
-printf "\n"
-sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ip_whitelist/bots.d/
-sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ip_whitelist/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ip_whitelist/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ip_whitelist/nginx.conf
-
+backupConfFiles
 
 # **********************
 # Exit With Error Number
 # **********************
 
 exit ${?}
-
-
