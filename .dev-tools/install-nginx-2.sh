@@ -122,6 +122,9 @@ sudo bash ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx
 # Run setup-ngxblocker
 # ********************
 
+# Force Includes to be written
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/nginx.conf-newformat /etc/nginx/nginx.conf
+
 printf '\n%s\n%s\n%s\n\n' "####################" "Run setup-ngxblocker" "####################"
 cd /usr/sbin
 sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
