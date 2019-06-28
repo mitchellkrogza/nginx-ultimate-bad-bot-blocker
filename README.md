@@ -332,15 +332,15 @@ Run the following commands one by one from a terminal on another linux machine a
 :exclamation: 
 **substitute http:// yourdomain.com :exclamation: in the examples below with your own REAL domain name :exclamation:**
 
-`curl -A "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" http://yourdomain.com`
+`curl -A "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" -I http://yourdomain.com`
 
-`curl -A "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)" http://yourdomain.com`
+`curl -A "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)" -I http://yourdomain.com`
 
 **Should respond with 200 OK**
 
-`curl -A "Xenu Link Sleuth/1.3.8" http://yourdomain.com`
+`curl -A "Xenu Link Sleuth/1.3.8" -I http://yourdomain.com`
 
-`curl -A "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)" http://yourdomain.com`
+`curl -A "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)" -I http://yourdomain.com`
 
 **Should respond with either of the following error messages:**
 - curl: (52) Empty reply from server
