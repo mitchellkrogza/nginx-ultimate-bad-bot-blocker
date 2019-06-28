@@ -36,7 +36,6 @@ install:
   - sudo apt-get -y install dos2unix
 
 script:
-  #- bash .dev-tools/pull-data.sh
   - bash .dev-tools/generate-files.sh
   - bash .dev-tools/install-nginx-1.sh
   - bash .dev-tools/test-blocker-quick.sh
@@ -46,14 +45,14 @@ script:
   - bash .dev-tools/test-blocker-rate-limiting.sh
   - bash .dev-tools/test-blocker-whitelist.sh
   # HERE WE TEST update-ngxblocker setup-ngxblocker - DISABLED UNTIL FIXED
-  #- bash .dev-tools/install-nginx-2.sh
+  - bash .dev-tools/install-nginx-2.sh
   #- bash .dev-tools/test-blocker-quick.sh
   #- bash .dev-tools/install-nginx-3.sh
   #- bash .dev-tools/test-blocker-quick.sh
   #- bash .dev-tools/install-nginx-4.sh
   #- bash .dev-tools/test-blocker-quick.sh
   # FROM HERE WE TEST ANY NEW CHANGES TO THE BLOCKER
-  #- bash .dev-tools/install-nginx-1.sh
+  - bash .dev-tools/install-nginx-1.sh
   - bash .dev-tools/beta-install-nginx-testing-of-changes.sh
   - bash .dev-tools/beta-test-blocker.sh
   - bash .dev-tools/beta-test-blocker-badwords.sh
