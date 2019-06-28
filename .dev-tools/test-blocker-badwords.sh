@@ -16,9 +16,34 @@
 #                                                                            #
 ##############################################################################                                                                
 
-# ************************
+# ------------------------------------------------------------------------------
+# MIT License
+# ------------------------------------------------------------------------------
+# Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
+# https://github.com/mitchellkrogza
+# ------------------------------------------------------------------------------
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# ------------------------------------------------------------------------------
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+# ------------------------------------------------------------------------------
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# ------------------------------------------------------------------------------
+
+# ------------------------
 # Set Terminal Font Colors
-# ************************
+# ------------------------
 
 bold=$(tput bold)
 red=$(tput setaf 1)
@@ -30,32 +55,33 @@ cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
 
-echo "${bold}${green}--------------------------------"
-echo "${bold}${green}Bad Referrer Words Test Starting"
-echo "${bold}${green}--------------------------------"
-printf "\n\n"
+# ---------
+# FUNCTIONS
+# ---------
 
-echo "${bold}${green}----------------------------------------"
-echo "${bold}${green}Activating Users bad-referrer-words.conf"
-echo "${bold}${green}----------------------------------------"
-printf "\n\n"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/bad-referrer-words.conf /etc/nginx/bots.d/bad-referrer-words.conf
+reloadNginX () {
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
 printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
+}
 
-
+waitforReload () {
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 printf "\n\n"
 sleep 10s
+}
 
-# *******************************************************
-# Function Curl Test 1 - Test User Whitelist for "Nutch"
-# *******************************************************
+activateBadWords () {
+echo "${bold}${green}----------------------------------------"
+echo "${bold}${green}Activating Users bad-referrer-words.conf"
+echo "${bold}${green}----------------------------------------"
+printf "\n\n"
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/bad-referrer-words.conf /etc/nginx/bots.d/bad-referrer-words.conf
+}
 
 run_curltest1 () {
 if curl -I http://localhost:9000 -e "thisisabadword" 2>&1 | grep -i '(52)'; then
@@ -65,11 +91,6 @@ else
    #exit 1
 fi
 }
-run_curltest1
-
-# **************************************************************
-# Function Curl Test 2 - Check for Whitelisted Referrer "zx6.ru"
-# **************************************************************
 
 run_curltest2 () {
 if curl -I http://localhost:9000 -e "thisisanotherbadword" 2>&1 | grep -i '(52)'; then
@@ -79,18 +100,51 @@ else
    #exit 1
 fi
 }
-run_curltest2
 
+echo "${bold}${green}--------------------------------"
+echo "${bold}${green}Bad Referrer Words Test Starting"
+echo "${bold}${green}--------------------------------"
+printf "\n\n"
+
+activateBadWords
+reloadNginX
+waitforReload
+run_curltest1
+run_curltest2
 
 echo "${bold}${green}--------------------------------"
 echo "${bold}${green}Bad Referrer Words Test Complete"
 echo "${bold}${green}--------------------------------"
 printf "\n\n"
 
-# **********************
+# ----------------------
 # Exit With Error Number
-# **********************
+# ----------------------
 
 exit ${?}
 
+# ------------------------------------------------------------------------------
+# MIT License
+# ------------------------------------------------------------------------------
+# Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
+# https://github.com/mitchellkrogza
+# ------------------------------------------------------------------------------
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# ------------------------------------------------------------------------------
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+# ------------------------------------------------------------------------------
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# ------------------------------------------------------------------------------
 
