@@ -16,21 +16,22 @@
 #                                                                            #
 ##############################################################################                                                                
 
+# ------------------------------------------------------------------------------
 # MIT License
-
+# ------------------------------------------------------------------------------
 # Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
 # https://github.com/mitchellkrogza
-
+# ------------------------------------------------------------------------------
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
 # in the Software without restriction, including without limitation the rights
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
-
+# ------------------------------------------------------------------------------
 # The above copyright notice and this permission notice shall be included in all
 # copies or substantial portions of the Software.
-
+# ------------------------------------------------------------------------------
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -38,42 +39,34 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+# ------------------------------------------------------------------------------
 
-# *****************************************************
-# Set all our setup and deploy scripts to be executable
-# *****************************************************
+# ------------------------
+# Set Terminal Font Colors
+# ------------------------
 
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/deploy-package.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist-testing-of-changes.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-files.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-robots.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-google-disavow.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-google-exclude.php
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-regex-format-referrers.php
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/generate-regex-format-referrers-whitelist-test.php
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/modify-config-readme-files.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/modify-files-and-commit.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-quick.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-badwords.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-whitelist-domains.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-whitelist-ips.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-rate-limiting.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/test-blocker-whitelist.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/prepare-robots-input.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/install-nginx-1.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/install-nginx-2.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/install-nginx-3.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/install-nginx-4.sh
-sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/pull-data.sh
+bold=$(tput bold)
+red=$(tput setaf 1)
+green=$(tput setaf 2)
+yellow=$(tput setaf 3)
+blue=$(tput setaf 4)
+magenta=$(tput setaf 5)
+cyan=$(tput setaf 6)
+white=$(tput setaf 7)
+defaultcolor=$(tput setaf default)
 
+# ---------
+# FUNCTIONS
+# ---------
+
+makeScriptsExecutable () {
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/*.sh
+sudo chmod +x ${TRAVIS_BUILD_DIR}/.dev-tools/*.php
+}
+
+
+generateFiles () {
 cd ${TRAVIS_BUILD_DIR}
-
-# ***************************************************
-# Modify our files with build and version information
-# ***************************************************
-
 php ./.dev-tools/generate-regex-format-referrers.php
 php ./.dev-tools/generate-regex-format-referrers-whitelist-test.php
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-blacklist.sh
@@ -83,41 +76,45 @@ sudo ${TRAVIS_BUILD_DIR}/.dev-tools/prepare-robots-input.sh
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-robots.sh
 sudo ${TRAVIS_BUILD_DIR}/.dev-tools/generate-google-disavow.sh
 php ./.dev-tools/generate-google-exclude.php
-
-# ************************************
-# Convert All Our Files to Unix Format
-# ************************************
-
 sudo dos2unix ${TRAVIS_BUILD_DIR}/bots.d/*.conf
 sudo dos2unix ${TRAVIS_BUILD_DIR}/conf.d/*.conf
 sudo dos2unix ${TRAVIS_BUILD_DIR}/_generator_lists/*.list
 sudo dos2unix ${TRAVIS_BUILD_DIR}/.dev-tools/referrers-regex-format.txt
+echo "${bold}${green}-------------------------"
+echo "${bold}${green}File Generation Completed"
+echo "${bold}${green}-------------------------"
+printf "\n\n"
+}
 
-# *************************************************
-# Move On to the Rest of Our TravisCI Build Testing
-# *************************************************
+# -----------------
+# Trigger Functions
+# -----------------
 
-# **********************
+makeScriptsExecutable
+generateFiles
+
+# ----------------------
 # Exit With Error Number
-# **********************
+# ----------------------
 
 exit ${?}
 
+# ------------------------------------------------------------------------------
 # MIT License
-
+# ------------------------------------------------------------------------------
 # Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
 # https://github.com/mitchellkrogza
-
+# ------------------------------------------------------------------------------
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
 # in the Software without restriction, including without limitation the rights
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
-
+# ------------------------------------------------------------------------------
 # The above copyright notice and this permission notice shall be included in all
 # copies or substantial portions of the Software.
-
+# ------------------------------------------------------------------------------
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -125,3 +122,4 @@ exit ${?}
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+# ------------------------------------------------------------------------------
