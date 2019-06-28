@@ -206,7 +206,7 @@ add_includes() {
 
 			#add comment above inserts
 			text="include $conf_dir/$(echo $include_list | awk '{print $NF}');"
-			sed -i "s|$text|# Bad Bot Blocker\n\t$text|" $file
+			sed -i "s|$text|\n\n# Nginx Bad Bot Blocker Includes\n\t$text|" $file
 
 			# remove placeholders
 			sed -i "s|$ph||g" $file
@@ -426,7 +426,8 @@ main() {
 	col_size=$(( $(longest_str $CONF_FILES) + $(echo $CONF_DIR | wc -m) + 10 ))
 
 	# update main config
-	line=$(find_includes $MAIN_CONF include last http first '\}' last )
+	#line=$(find_includes $MAIN_CONF include last http first '\}' last )
+	line=$(find_includes $MAIN_CONF include last include last '\}' last )
 	if [ -n "$(check_wildcard $MAIN_CONF $CONF_DIR)" ]; then # also recalculate column width
 		col_size=$(( $(longest_str $VHOST_INCLUDES) + $(echo $BOTS_DIR | wc -m) + 10 ))
 		printf "%-10s %-${col_size}s %s\n" "INFO:" "$CONF_DIR/* detected" "=> $MAIN_CONF"
