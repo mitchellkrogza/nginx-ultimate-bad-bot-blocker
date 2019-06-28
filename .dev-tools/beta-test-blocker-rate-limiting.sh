@@ -16,9 +16,34 @@
 #                                                                            #
 ##############################################################################                                                                
 
-# ************************
+# ------------------------------------------------------------------------------
+# MIT License
+# ------------------------------------------------------------------------------
+# Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
+# https://github.com/mitchellkrogza
+# ------------------------------------------------------------------------------
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# ------------------------------------------------------------------------------
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+# ------------------------------------------------------------------------------
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# ------------------------------------------------------------------------------
+
+# ------------------------
 # Set Terminal Font Colors
-# ************************
+# ------------------------
 
 bold=$(tput bold)
 red=$(tput setaf 1)
@@ -30,38 +55,35 @@ cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
 
-# ******************
-# TEST RATE LIMITING
-# ******************
+# ---------
+# FUNCTIONS
+# ---------
 
-printf "\n"
-echo "${bold}${green}---------------------------"
-echo "${bold}${green}Starting Rate Limiting Test"
-echo "${bold}${green}---------------------------"
-printf "\n\n"
-
-# ***************************
-# Make GoogleBot Rate Limited
-# ***************************
-
-echo "${bold}${yellow}-----------------------------"
-echo "${bold}${yellow}Making GoogleBot ${yellow}RATE LIMITED"
-echo "${bold}${yellow}-----------------------------"
-printf "\n\n"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limiting-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
-
+reloadNginX () {
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
 printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
+}
 
+waitforReload () {
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 printf "\n\n"
 sleep 10s
+}
 
+ratelimitGoogle () {
+echo "${bold}${yellow}-----------------------------"
+echo "${bold}${yellow}Making GoogleBot ${yellow}RATE LIMITED"
+echo "${bold}${yellow}-----------------------------"
+printf "\n\n"
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limiting-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
+}
+
+testRateLimiting () {
 ratelimittestfile=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/ratelimittest-beta.txt
 truncate -s 0 ${ratelimittestfile}
 curl -A "GoogleBot" http://localhost:9000 2>&1 > ${ratelimittestfile} &
@@ -85,11 +107,9 @@ if grep -i 'Unavailable' < ${ratelimittestfile}; then
    else
    echo "${bold}${red}FAILED - ${red}GoogleBot was ${bold}${red}NOT RATE LIMITED"
    fi
+}
 
-# *************************************************************
-# Copy all .conf files used in Testing to a folder for checking
-# *************************************************************
-
+backupConfFiles () {
 printf "\n"
 echo "${bold}${green}------------------------------------------------------------"
 echo "${bold}${green}Make Backup all conf files and folders used during this test"
@@ -99,8 +119,23 @@ sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_c
 sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_ratelimiting/conf.d/
 sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_ratelimiting/default.vhost
 sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_ratelimiting/nginx.conf
+}
 
+# -----------
+# Start Tests
+# -----------
 
+printf "\n"
+echo "${bold}${green}---------------------------"
+echo "${bold}${green}Starting Rate Limiting Test"
+echo "${bold}${green}---------------------------"
+printf "\n\n"
+
+ratelimitGoogle
+reloadNginX
+waitforReload
+testRateLimiting
+backupConfFiles
 
 printf "\n"
 echo "${bold}${green}---------------------------"
@@ -108,10 +143,34 @@ echo "${bold}${green}Rate Limiting Test Complete"
 echo "${bold}${green}---------------------------"
 printf "\n\n"
 
-# **********************
+# ----------------------
 # Exit With Error Number
-# **********************
+# ----------------------
 
 exit ${?}
 
+# ------------------------------------------------------------------------------
+# MIT License
+# ------------------------------------------------------------------------------
+# Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
+# https://github.com/mitchellkrogza
+# ------------------------------------------------------------------------------
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# ------------------------------------------------------------------------------
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+# ------------------------------------------------------------------------------
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# ------------------------------------------------------------------------------
 
