@@ -20,6 +20,7 @@ Example: (serpstatbot/1.0 (advanced backlink tracking bot; http://serpstatbot.co
 
  - [ ] Addition
  - [ ] Removal
+ - [ ] Keep a watch on this one
 
 
 ## Did the User-Agent request robots.txt first?
