@@ -2,7 +2,7 @@
 name: Installation Help
 about: Users needing help with installation problems.
 title: "[INSTALLATION] (add a descriptive title here)"
-labels: 'Help Wanted'
+labels: 'Help Wanted,Installation Problems'
 assignees: 'mitchellkrogza'
 
 ---
