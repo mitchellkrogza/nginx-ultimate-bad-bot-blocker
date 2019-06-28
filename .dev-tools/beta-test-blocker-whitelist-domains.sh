@@ -88,19 +88,8 @@ printf "\n\n"
 whitelistOwnDomain
 reloadNginX
 waitforReload
-
-# *************************************************
-# Function Curl Test 1 - Test User Domain Whitelist
-# *************************************************
-
 run_curltest1
-
-# *************************************************
-# Function Curl Test 2 - Test User Domain Whitelist
-# *************************************************
-
 run_curltest2
-
 
 echo "${bold}${green}-------------------------------"
 echo "${bold}${green}Whitelist Domains Test Complete"
