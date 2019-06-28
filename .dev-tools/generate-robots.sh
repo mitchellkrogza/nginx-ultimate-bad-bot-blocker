@@ -95,6 +95,10 @@ printf 'User-agent: %s\n%s\n' "${LINE}" "Disallow:/" >> "${_tmprobots}"
 done < ${_output}
 printf '\n' >> ${_tmprobots}
 sudo cp ${_tmprobots} ${TRAVIS_BUILD_DIR}/robots.txt/robots.txt
+echo "${bold}${green}-------------------------------"
+echo "${bold}${green}robots.txt Generation Completed"
+echo "${bold}${green}-------------------------------"
+printf "\n\n"
 }
 
 # ----------------
