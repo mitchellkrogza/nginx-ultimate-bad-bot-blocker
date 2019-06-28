@@ -43,6 +43,14 @@ printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
 }
 
+waitforReload () {
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+printf "\n\n"
+sleep 10s
+}
+
 run_curltest1 () {
 if curl http://localhost:9000 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${bold}${red}blacklist own ip is WORKING"
@@ -106,12 +114,7 @@ printf "\n\n"
 
 blacklistOwnIP
 reloadNginX
-
-echo "${bold}${yellow}-----------------------------------------------------------------------"
-echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
-echo "${bold}${yellow}-----------------------------------------------------------------------"
-printf "\n\n"
-sleep 10s
+waitforReload
 
 # *************************************************
 # Function Curl Test 1 - Test our IP is Blacklisted
@@ -126,12 +129,7 @@ printf "\n\n"
 
 whitelistOwnIP
 reloadNginX
-
-echo "${bold}${yellow}-----------------------------------------------------------------------"
-echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
-echo "${bold}${yellow}-----------------------------------------------------------------------"
-printf "\n\n"
-sleep 10s
+waitforReload
 
 # *************************************************
 # Function Curl Test 2 - Test our IP is Whitelisted
