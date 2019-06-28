@@ -70,6 +70,10 @@ prepareRobots () {
 sudo truncate -s 0 ${_output}
 sed 's/\\ / /g' ${_input} > ${_output}
 sort -u ${_output} -o ${_output}
+echo "${bold}${green}--------------------------------"
+echo "${bold}${green}robots.txt Preparation Completed"
+echo "${bold}${green}--------------------------------"
+printf "\n\n"
 }
 
 # ----------------
