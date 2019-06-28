@@ -16,21 +16,22 @@
 #                                                                            #
 ##############################################################################                                                                
 
+# ------------------------------------------------------------------------------
 # MIT License
-
+# ------------------------------------------------------------------------------
 # Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
 # https://github.com/mitchellkrogza
-
+# ------------------------------------------------------------------------------
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
 # in the Software without restriction, including without limitation the rights
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
-
+# ------------------------------------------------------------------------------
 # The above copyright notice and this permission notice shall be included in all
 # copies or substantial portions of the Software.
-
+# ------------------------------------------------------------------------------
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -38,44 +39,72 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+# ------------------------------------------------------------------------------
 
-# ************************************
-# Specify input list for the generator
-# ************************************
+# ------------------------
+# Set Terminal Font Colors
+# ------------------------
+
+bold=$(tput bold)
+red=$(tput setaf 1)
+green=$(tput setaf 2)
+yellow=$(tput setaf 3)
+blue=$(tput setaf 4)
+magenta=$(tput setaf 5)
+cyan=$(tput setaf 6)
+white=$(tput setaf 7)
+defaultcolor=$(tput setaf default)
+
+# ---------
+# Variables
+# ---------
 
 _input1=${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list
 
-# **************************
-# Create Google Disavow File
-# **************************
+# ---------
+# FUNCTIONS
+# ---------
 
+createDisavow () {
 sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/_google_webmaster_disavow_links/google-disavow.txt
 while IFS= read -r LINE
 do
 printf '%s%s\n' "domain:" "${LINE}" >> ${TRAVIS_BUILD_DIR}/_google_webmaster_disavow_links/google-disavow.txt
 done < ${_input1}
+echo "${bold}${green}-----------------------"
+echo "${bold}${green}Creating Google Disavow"
+echo "${bold}${green}-----------------------"
+printf "\n\n"
+}
 
-# **********************
+# -----------------
+# Trigger Functions
+# -----------------
+
+createDisavow
+
+# ----------------------
 # Exit With Error Number
-# **********************
+# ----------------------
 
 exit ${?}
 
+# ------------------------------------------------------------------------------
 # MIT License
-
+# ------------------------------------------------------------------------------
 # Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
 # https://github.com/mitchellkrogza
-
+# ------------------------------------------------------------------------------
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
 # in the Software without restriction, including without limitation the rights
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
-
+# ------------------------------------------------------------------------------
 # The above copyright notice and this permission notice shall be included in all
 # copies or substantial portions of the Software.
-
+# ------------------------------------------------------------------------------
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -83,3 +112,4 @@ exit ${?}
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+# ------------------------------------------------------------------------------
