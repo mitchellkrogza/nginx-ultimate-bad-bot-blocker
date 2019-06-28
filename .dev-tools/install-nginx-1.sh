@@ -243,7 +243,7 @@ reloadNginX
 waitforReload
 activateLatestBlacklist
 reloadNginX
-
+backupConfFiles
 
 # ----------------------
 # Exit With Error Number
