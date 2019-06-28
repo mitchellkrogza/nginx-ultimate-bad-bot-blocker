@@ -75,6 +75,10 @@ sudo git remote -v
 export GIT_TAG=V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
 git tag ${GIT_TAG} -a -m "V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}"
 sudo git push origin master && git push origin master --tags
+echo "${bold}${green}-------------------------------"
+echo "${bold}${green}Deploying V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}"
+echo "${bold}${green}-------------------------------"
+printf "\n\n"
 }
 
 deployPackage
