@@ -132,6 +132,8 @@ sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/b
 
 cat /etc/nginx/nginx.conf
 
+cat /usr/sbin/setup-ngxblocker
+
 # ************************
 # Load our Nginx.conf file
 # ************************
