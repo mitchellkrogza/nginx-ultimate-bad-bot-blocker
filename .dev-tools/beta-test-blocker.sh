@@ -16,9 +16,34 @@
 #                                                                            #
 ##############################################################################                                                                
 
-# ************************
+# ------------------------------------------------------------------------------
+# MIT License
+# ------------------------------------------------------------------------------
+# Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
+# https://github.com/mitchellkrogza
+# ------------------------------------------------------------------------------
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# ------------------------------------------------------------------------------
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+# ------------------------------------------------------------------------------
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# ------------------------------------------------------------------------------
+
+# ------------------------
 # Set Terminal Font Colors
-# ************************
+# ------------------------
 
 bold=$(tput bold)
 red=$(tput setaf 1)
@@ -30,32 +55,26 @@ cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
 
-echo "${bold}${green}--------------"
-echo "${bold}${green}Tests Starting"
-echo "${bold}${green}--------------"
+# ---------
+# FUNCTIONS
+# ---------
+
+
+reloadNginX () {
+echo "${bold}${green}---------------"
+echo "${bold}${green}Reloading Nginx"
+echo "${bold}${green}---------------"
 printf "\n\n"
-
-# *********************
-# Force reload of Nginx
-# *********************
-
-printf "\n"
-echo "${bold}${green}------------"
-echo "${bold}${green}Reload Nginx"
-echo "${bold}${green}------------"
-printf "\n"
 sudo nginx -t && sudo nginx -s reload
+}
 
+waitforReload () {
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 printf "\n\n"
 sleep 10s
-
-
-# *************************************************
-# Function Curl Test 1 - Check for Bad Bot "80legs"
-# *************************************************
+}
 
 run_curltest1 () {
 if curl -v -A "80legs" http://localhost:9000 2>&1 | grep -i '(52)'; then
@@ -66,12 +85,6 @@ else
    exit 1
 fi
 }
-run_curltest1
-
-
-# **************************************************
-# Function Curl Test 2 - Check for Bad Bot "Nutch"
-# **************************************************
 
 run_curltest2 () {
 if curl -v -A "Nutch" http://localhost:9000 2>&1 | grep -i '(52)'; then
@@ -81,12 +94,6 @@ else
    exit 1
 fi
 }
-run_curltest2
-
-
-# ******************************************************************
-# Function Curl Test 3 - Check for Bad Referrer "100dollars-seo.com"
-# ******************************************************************
 
 run_curltest3 () {
 if curl -I http://localhost:9000 -e http://100dollars-seo.com 2>&1 | grep -i '(52)'; then
@@ -96,12 +103,6 @@ else
    exit 1
 fi
 }
-run_curltest3
-
-
-# ******************************************************
-# Function Curl Test 4 - Check for Bad Referrer "zx6.ru"
-# ******************************************************
 
 run_curltest4 () {
 if curl -I http://localhost:9000 -e http://zx6.ru 2>&1 | grep -i '(52)'; then
@@ -111,11 +112,6 @@ else
    exit 1
 fi
 }
-run_curltest4
-
-# *****************************************************
-# Function Curl Test 5 - Check for Good Bot "GoogleBot"
-# *****************************************************
 
 run_curltest5 () {
 if curl -v -A "GoogleBot" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
@@ -125,11 +121,6 @@ else
    exit 1
 fi
 }
-run_curltest5
-
-# ***************************************************
-# Function Curl Test 6 - Check for Good Bot "BingBot"
-# ***************************************************
 
 run_curltest6 () {
 if curl -v -A "BingBot" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
@@ -139,11 +130,6 @@ else
    exit 1
 fi
 }
-run_curltest6
-
-# ***********************************************************
-# Function Curl Test 7 - Check for Good Referrer "google.com"
-# ***********************************************************
 
 run_curltest7 () {
 if curl http://localhost:9000 -e http://google.com 2>&1 | grep -i 'Welcome'; then
@@ -153,11 +139,6 @@ else
    exit 1
 fi
 }
-run_curltest7
-
-# ***********************************************************
-# Function Curl Test 8 - Check for Good Referrer "bing.com"
-# ***********************************************************
 
 run_curltest8 () {
 if curl http://localhost:9000 -e http://bing.com 2>&1 | grep -i 'Welcome'; then
@@ -167,11 +148,6 @@ else
    exit 1
 fi
 }
-run_curltest8
-
-# **************************************************
-# Function Curl Test 9 - Check for Bad Bot "Nutch"
-# **************************************************
 
 run_curltest9 () {
 if curl -A "Googlebot/Nutch-1.7" http://localhost:9000 2>&1 | grep -i '(52)'; then
@@ -181,11 +157,6 @@ else
    #exit 1
 fi
 }
-run_curltest9
-
-# **************************************************
-# Function Curl Test 10 - Check for Bad Bot "Nutch"
-# **************************************************
 
 run_curltest10 () {
 if curl -A "Mozilla/5.0 (compatible; Googlebot/Nutch2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i '(52)'; then
@@ -195,11 +166,6 @@ else
    #exit 1
 fi
 }
-run_curltest10
-
-# **************************************************
-# Function Curl Test 11 - Check for Bad Bot "Nutch"
-# **************************************************
 
 run_curltest11 () {
 if curl -A "Mozilla/5.0 (compatible; Googlebot/nutch/-2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i '(52)'; then
@@ -209,11 +175,6 @@ else
    #exit 1
 fi
 }
-run_curltest11
-
-# **************************************************
-# Function Curl Test 12 - Check for Bad Bot "Nutch"
-# **************************************************
 
 run_curltest12 () {
 if curl -v -A "Mozilla/5.0 (compatible; Googlebot-Image/Snutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
@@ -223,11 +184,6 @@ else
    #exit 1
 fi
 }
-run_curltest12
-
-# **************************************************
-# Function Curl Test 13 - Check for Bad Bot "Nutch"
-# **************************************************
 
 run_curltest13 () {
 if curl -v -A "SnutchMozilla/5.0 (compatible; Googlebot-Image/SMutch\-/-2.1; +http://www.google.com/bot.html)" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
@@ -237,11 +193,6 @@ else
    #exit 1
 fi
 }
-run_curltest13
-
-# **************************************************
-# Function Curl Test 14 - Check for Good Bot
-# **************************************************
 
 run_curltest14 () {
 if curl -v -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
@@ -251,12 +202,6 @@ else
    #exit 1
 fi
 }
-run_curltest14
-
-
-# **************************************************
-# Function Curl Test 15 - TEST CASES
-# **************************************************
 
 run_curltest15 () {
 if curl -v -A "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
@@ -266,18 +211,12 @@ else
    #exit 1
 fi
 }
-run_curltest15
 
-# Add Any More Tests Here for False Positives
-
-# ************************************************
-# Test 250 User-Agents from Bad-User-Agents
-# ************************************************
+testBadUserAgents () {
 shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
-
 printf "\n\n"
 echo "${bold}${magenta}---------------------------"
 echo "${bold}${magenta}Testing 250 Random Bad Bots"
@@ -295,12 +234,10 @@ for line in ${lines}; do
    fi
 done
 IFS=""
+}
 
-# ************************************************
-# Test All Good User-Agents from Good-User-Agents
-# ************************************************
+testGoodUserAgents () {
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/good-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
-
 printf "\n\n"
 echo "${bold}${magenta}---------------------"
 echo "${bold}${magenta}Testing All Good Bots"
@@ -318,13 +255,10 @@ for line in ${lines}; do
    fi
 done
 IFS=""
+}
 
-
-# *****************************************************
-# Test All Allowed User-Agents from Allowed-User-Agents
-# *****************************************************
+testAllowedUserAgents () {
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/allowed-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
-
 printf "\n\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Testing All Allowed Bots"
@@ -342,12 +276,10 @@ for line in ${lines}; do
    fi
 done
 IFS=""
+}
 
-# *****************************************************
-# Test All Limited User-Agents from Limited-User-Agents
-# *****************************************************
+testLimitedUserAgents () {
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/limited-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
-
 printf "\n\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Testing All Limited Bots"
@@ -365,13 +297,11 @@ for line in ${lines}; do
    fi
 done
 IFS=""
+}
 
-# ********************************************
-# Test 1000 Random Referrers from Bad-Referrers
-# ********************************************
+testRandomReferrers () {
 shuf -n 1000 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
-
 printf "\n\n"
 echo "${bold}${magenta}---------------------------------"
 echo "${bold}${magenta}Testing 1000 Random Bad Referrers"
@@ -389,11 +319,9 @@ for line in ${lines}; do
    fi
 done
 IFS=""
+}
 
-# **************************
-# Test Good Referrer Domains
-# **************************
-
+testGoodReferrers () {
 printf "\n\n"
 echo "${bold}${magenta}----------------------"
 echo "${bold}${magenta}Testing Good Referrers"
@@ -411,17 +339,74 @@ for line in ${lines}; do
    fi
 done
 IFS=""
+}
 
+# -----------
+# Start Tests
+# -----------
+
+echo "${bold}${green}--------------"
+echo "${bold}${green}Tests Starting"
+echo "${bold}${green}--------------"
+printf "\n\n"
+
+reloadNginX
+waitforReload
+run_curltest1
+run_curltest2
+run_curltest3
+run_curltest4
+run_curltest5
+run_curltest6
+run_curltest7
+run_curltest8
+run_curltest9
+run_curltest10
+run_curltest11
+run_curltest12
+run_curltest13
+run_curltest14
+run_curltest15
+testBadUserAgents
+testGoodUserAgents
+testAllowedUserAgents
+testLimitedUserAgents
+testRandomReferrers
+testGoodReferrers
 
 printf "\n"
 echo "${bold}${cyan}Tests Completed"
 echo "${bold}${green}All Tests Passed"
 echo "${bold}${magenta}Now We Test Whitelisting and then Release a new build"
 
-# **********************
+# ----------------------
 # Exit With Error Number
-# **********************
+# ----------------------
 
 exit ${?}
 
+# ------------------------------------------------------------------------------
+# MIT License
+# ------------------------------------------------------------------------------
+# Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
+# https://github.com/mitchellkrogza
+# ------------------------------------------------------------------------------
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# ------------------------------------------------------------------------------
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+# ------------------------------------------------------------------------------
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# ------------------------------------------------------------------------------
 
