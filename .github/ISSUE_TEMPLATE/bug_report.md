@@ -7,23 +7,23 @@ assignees: 'mitchellkrogza'
 
 ---
 
-##Describe the bug
+## Describe the bug
 
 A clear and concise description of what the bug is.
 
-##To Reproduce
+## To Reproduce
 
 Steps to reproduce the behavior:
 
-##Expected behavior
+## Expected behavior
 
 A clear and concise description of what you expected to happen.
 
-##Screenshots
+## Screenshots
 
 If applicable, add screenshots to help explain your problem.
 
-##Copy of nginx.conf
+## Copy of nginx.conf
 
 If applicable please paste your nginx.conf file here
 (paste in between the ```     ``` markers)
@@ -34,7 +34,7 @@ Paste nginx.conf here
 
 ```
 
-##Copy of vhost / website / host .conf file
+## Copy of vhost / website / host .conf file
 
 If applicable please paste your site/vhost configuration file in between the code ticks
 (paste in between the ```     ``` markers)
@@ -45,7 +45,7 @@ Paste site config here
 
 ```
 
-##Server (please complete the following information):
+## Server (please complete the following information):
  
  - Operating System: 
 
@@ -92,6 +92,6 @@ Paste any log / error messages here (paste in between the ```     ``` markers)
 
 ```
 
-##Additional information
+## Additional information
 
 Add any other context about the problem here.
