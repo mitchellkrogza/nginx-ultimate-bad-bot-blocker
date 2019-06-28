@@ -1,13 +1,16 @@
 server {
- 	# Bad Bot Blocker
-	include /etc/nginx/mybots.d/ddos.conf; 
- 	include /etc/nginx/mybots.d/blockbots.conf;
- 
 	listen *:9000;
 
 	root /var/www/html;
 	server_name localhost;
 	charset UTF-8;
+ 	
+
+# Nginx Bad Bot Blocker Includes
+	include /etc/nginx/mybots.d/ddos.conf; 
+ 	include /etc/nginx/mybots.d/blockbots.conf;
+ 
+	index index.html;
 
     location / {
       root /var/www/html/;
