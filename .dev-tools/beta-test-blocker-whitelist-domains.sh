@@ -16,9 +16,9 @@
 #                                                                            #
 ##############################################################################                                                                
 
-# ************************
+# ------------------------
 # Set Terminal Font Colors
-# ************************
+# ------------------------
 
 bold=$(tput bold)
 red=$(tput setaf 1)
@@ -30,32 +30,33 @@ cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
 
-echo "${bold}${green}-------------------------------"
-echo "${bold}${green}Whitelist Domains Test Starting"
-echo "${bold}${green}-------------------------------"
-printf "\n\n"
+# ---------
+# FUNCTIONS
+# ---------
 
-echo "${bold}${green}---------------------------------------"
-echo "${bold}${green}Activating Users whitelist-domains.conf"
-echo "${bold}${green}---------------------------------------"
-printf "\n\n"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-domains.conf /etc/nginx/bots.d/whitelist-domains.conf
+reloadNginX () {
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
 printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
+}
 
-
+waitforReload () {
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 printf "\n\n"
 sleep 10s
+}
 
-# *************************************************
-# Function Curl Test 1 - Test User Domain Whitelist
-# *************************************************
+whitelistOwnDomain () {
+echo "${bold}${green}---------------------------------------"
+echo "${bold}${green}Activating Users whitelist-domains.conf"
+echo "${bold}${green}---------------------------------------"
+printf "\n\n"
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-domains.conf /etc/nginx/bots.d/whitelist-domains.conf
+}
 
 run_curltest1 () {
 if curl http://localhost:9000 -e http://www.myowndomain.com 2>&1 | grep -i 'Welcome'; then
@@ -65,11 +66,6 @@ else
    #exit 1
 fi
 }
-run_curltest1
-
-# *************************************************
-# Function Curl Test 2 - Test User Domain Whitelist
-# *************************************************
 
 run_curltest2 () {
 if curl http://localhost:9000 -e http://www.myotherdomain.com 2>&1 | grep -i 'Welcome'; then
@@ -79,6 +75,30 @@ else
    #exit 1
 fi
 }
+
+# -----------
+# Start Tests
+# -----------
+
+echo "${bold}${green}-------------------------------"
+echo "${bold}${green}Whitelist Domains Test Starting"
+echo "${bold}${green}-------------------------------"
+printf "\n\n"
+
+whitelistOwnDomain
+reloadNginX
+waitforReload
+
+# *************************************************
+# Function Curl Test 1 - Test User Domain Whitelist
+# *************************************************
+
+run_curltest1
+
+# *************************************************
+# Function Curl Test 2 - Test User Domain Whitelist
+# *************************************************
+
 run_curltest2
 
 
