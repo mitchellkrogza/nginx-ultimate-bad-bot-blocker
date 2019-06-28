@@ -16,9 +16,9 @@
 #                                                                            #
 ##############################################################################                                                                
 
-# ************************
+# ------------------------
 # Set Terminal Font Colors
-# ************************
+# ------------------------
 
 bold=$(tput bold)
 red=$(tput setaf 1)
@@ -30,17 +30,51 @@ cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
 
-echo "${bold}${green}--------------------------"
-echo "${bold}${green}Whitelisting Test Starting"
-echo "${bold}${green}--------------------------"
-printf "\n\n"
+# ---------
+# FUNCTIONS
+# ---------
 
+reloadNginX () {
+echo "${bold}${green}---------------"
+echo "${bold}${green}Reloading Nginx"
+echo "${bold}${green}---------------"
+printf "\n\n"
+sudo nginx -t && sudo nginx -s reload
+}
+
+waitforReload () {
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+printf "\n\n"
+sleep 10s
+}
+
+run_curltest1 () {
+if curl -v -A "Nutch" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - WHITELISTING OF BAD BOT Nutch ALLOWED"
+else
+   echo "${bold}${red}FAILED - WHITELISTING of BAD BOT Nutch FAILED"
+   #exit 1
+   curl -v -A "Nutch" http://localhost:9000 2>&1
+fi
+}
+
+run_curltest2 () {
+if curl http://localhost:9000 -e http://zx6.ru 2>&1 | grep -i 'Welcome'; then
+   echo "${bold}${green}PASSED - WHITELISTING OF REFERRER zx6.ru ALLOWED"
+else
+   echo "${bold}${red}FAILED - WHITELISTING OF REFERRER zx6.ru FAILED"
+   #exit 1
+   curl http://localhost:9000 -e http://zx6.ru 2>&1
+fi
+}
+
+generateCustomBlacklists () {
 echo "${bold}${magenta}-----------------------------------------------------------------"
 echo "${bold}${magenta}Generating blacklist-user-agents.conf & custom-bad-referrers.conf"
 echo "${bold}${magenta}-----------------------------------------------------------------"
 printf "\n\n"
-
-
 # **************************************************************************
 # Generate our custom test units turning all good to bad and all bad to good
 # **************************************************************************
@@ -114,8 +148,9 @@ w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/te
 q
 IN
 rm ${_inputdb2}
+}
 
-
+activateCustomBlacklists () {
 echo "${bold}${green}------------------------------------------------"
 echo "${bold}${green}Activating Users User-Agents Whitelist/Blacklist"
 echo "${bold}${green}------------------------------------------------"
@@ -126,58 +161,13 @@ echo "${bold}${green}Activating Users Referrers Whitelist/Blacklist"
 echo "${bold}${green}----------------------------------------------"
 printf "\n\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/custom-bad-referrers.conf /etc/nginx/bots.d/custom-bad-referrers.conf
-echo "${bold}${green}---------------"
-echo "${bold}${green}Reloading Nginx"
-echo "${bold}${green}---------------"
-printf "\n\n"
-sudo nginx -t && sudo nginx -s reload
-
-
-echo "${bold}${yellow}-----------------------------------------------------------------------"
-echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
-echo "${bold}${yellow}-----------------------------------------------------------------------"
-printf "\n\n"
-sleep 10s
-
-# *******************************************************
-# Function Curl Test 1 - Test User Whitelist for "Nutch"
-# *******************************************************
-
-run_curltest1 () {
-if curl -v -A "Nutch" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - WHITELISTING OF BAD BOT Nutch ALLOWED"
-else
-   echo "${bold}${red}FAILED - WHITELISTING of BAD BOT Nutch FAILED"
-   #exit 1
-   curl -v -A "Nutch" http://localhost:9000 2>&1
-fi
 }
-run_curltest1
 
-# **************************************************************
-# Function Curl Test 2 - Check for Whitelisted Referrer "zx6.ru"
-# **************************************************************
-
-run_curltest2 () {
-if curl http://localhost:9000 -e http://zx6.ru 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - WHITELISTING OF REFERRER zx6.ru ALLOWED"
-else
-   echo "${bold}${red}FAILED - WHITELISTING OF REFERRER zx6.ru FAILED"
-   #exit 1
-   curl http://localhost:9000 -e http://zx6.ru 2>&1
-fi
-}
-run_curltest2
-
-# ************************************************
-# Test 100 User-Agents from Bad-User-Agents
-# ************************************************
-
+testBadUserAgents () {
 shuf -n 100 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
-
 printf "\n\n"
 echo "${bold}${magenta}---------------------------"
 echo "${bold}${magenta}Testing 100 Random Bad Bots"
@@ -195,16 +185,13 @@ for line in ${lines}; do
    fi
 done
 IFS=""
+}
 
-# ************************************************
-# Test 100 Referrers from Bad-Referrers
-# ************************************************
-
+testBadReferrers () {
 shuf -n 100 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
-
 printf "\n\n"
 echo "${bold}${magenta}----------------------------"
 echo "${bold}${magenta}Testing 100 Random Referrers"
@@ -222,17 +209,9 @@ for line in ${lines}; do
    fi
 done
 IFS=""
+}
 
-printf "\n"
-echo "${bold}${green}--------------------------"
-echo "${bold}${green}Whitelisting Test Complete"
-echo "${bold}${green}--------------------------"
-printf "\n\n"
-
-# *************************************************************
-# Copy all .conf files used in Testing to a folder for checking
-# *************************************************************
-
+backupConfFiles () {
 printf "\n"
 echo "${bold}${green}------------------------------------------------------------"
 echo "${bold}${green}Make Backup all conf files and folders used during this test"
@@ -242,6 +221,31 @@ sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_whitelist
 sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_whitelist/conf.d/
 sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_whitelist/default.vhost
 sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_whitelist/nginx.conf
+}
+
+# -----------
+# Start Tests
+# -----------
+
+echo "${bold}${green}--------------------------"
+echo "${bold}${green}Whitelisting Test Starting"
+echo "${bold}${green}--------------------------"
+printf "\n\n"
+
+generateCustomBlacklists
+activateCustomBlacklists
+reloadNginX
+waitforReload
+run_curltest1
+run_curltest2
+testBadUserAgents
+testBadReferrers
+backupConfFiles
+
+echo "${bold}${green}--------------------------"
+echo "${bold}${green}Whitelisting Test Complete"
+echo "${bold}${green}--------------------------"
+printf "\n\n"
 
 # **********************
 # Exit With Error Number

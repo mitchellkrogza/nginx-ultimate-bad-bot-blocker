@@ -165,7 +165,6 @@ shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
-
 printf "\n\n"
 echo "${bold}${magenta}---------------------------"
 echo "${bold}${magenta}Testing 250 Random Bad Bots"
@@ -190,7 +189,6 @@ shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_B
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
-
 printf "\n\n"
 echo "${bold}${magenta}----------------------------"
 echo "${bold}${magenta}Testing 250 Random Referrers"
@@ -241,7 +239,6 @@ testBadUserAgents
 testBadReferrers
 backupConfFiles
 
-printf "\n"
 echo "${bold}${green}--------------------------"
 echo "${bold}${green}Whitelisting Test Complete"
 echo "${bold}${green}--------------------------"
