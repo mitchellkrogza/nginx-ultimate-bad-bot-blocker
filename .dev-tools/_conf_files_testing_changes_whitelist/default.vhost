@@ -1,5 +1,7 @@
 server {
- 	# Bad Bot Blocker
+ 	
+
+# Nginx Bad Bot Blocker Includes
 	include /etc/nginx/bots.d/ddos.conf; 
  	include /etc/nginx/bots.d/blockbots.conf;
  

@@ -1,5 +1,7 @@
 server {
- 	# Bad Bot Blocker
+ 	
+
+# Nginx Bad Bot Blocker Includes
 	include /usr/local/nginx/bots.d/ddos.conf; 
  	include /usr/local/nginx/bots.d/blockbots.conf;
  
@@ -8,6 +10,7 @@ server {
 	root /var/www/html;
 	server_name localhost;
 	charset UTF-8;
+	index index.html;
 
     location / {
       root /var/www/html/;
