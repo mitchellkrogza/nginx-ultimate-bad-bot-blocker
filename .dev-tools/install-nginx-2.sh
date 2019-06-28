@@ -130,7 +130,7 @@ printf '\n%s\n%s\n%s\n\n' "####################" "Run setup-ngxblocker" "#######
 cd /usr/sbin
 sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
 
-cat /etc/nginx/nginx.conf
+#cat /etc/nginx/nginx.conf
 
 #sudo cat /usr/sbin/setup-ngxblocker
 
