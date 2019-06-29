@@ -1,1 +1,1 @@
-nginx version: nginx/1.15.8
+nginx version: nginx/1.10.3 (Ubuntu)
