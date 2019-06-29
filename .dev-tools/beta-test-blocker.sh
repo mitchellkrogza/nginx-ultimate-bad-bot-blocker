@@ -296,11 +296,11 @@ IFS=""
 }
 
 testRandomReferrers () {
-shuf -n 1000 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
+shuf -n 500 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 printf "\n"
 echo "${bold}${magenta}---------------------------------"
-echo "${bold}${magenta}Testing 1000 Random Bad Referrers"
+echo "${bold}${magenta}Testing 500 Random Bad Referrers"
 echo "${bold}${magenta}---------------------------------"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
