@@ -85,7 +85,7 @@ sudo apt-get purge nginx-full
 sudo apt-get purge nginx-common
 sudo apt-get purge nginx*
 mainstreamnginx=development
-sudo add-apt-repository --remove ppa:nginx/${mainstreamnginx}
+sudo add-apt-repository -y --remove ppa:nginx/${mainstreamnginx}
 sudo apt-get update
 stablenginx=stable
 sudo add-apt-repository -y ppa:nginx/${stable}
