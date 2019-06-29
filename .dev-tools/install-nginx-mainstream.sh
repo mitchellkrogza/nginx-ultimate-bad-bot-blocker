@@ -255,9 +255,6 @@ activateLatestBlacklist
 runsetupngxblocker1
 reloadNginX
 waitforReload
-activateVHost
-reloadNginX
-waitforReload
 backupConfFiles
 
 # ----------------------
