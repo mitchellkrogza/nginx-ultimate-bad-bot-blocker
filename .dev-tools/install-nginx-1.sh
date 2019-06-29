@@ -206,6 +206,10 @@ echo "${bold}${magenta}------------------------------"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/nginx.conf-newformat /etc/nginx/nginx.conf
 }
 
+getnginxversion () {
+sudo nginx -v &> ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv1.txt
+}
+
 # ------------------
 # Start Installation
 # ------------------
@@ -236,6 +240,7 @@ waitforReload
 activateLatestBlacklist
 reloadNginX
 backupConfFiles
+getnginxversion
 
 # ----------------------
 # Exit With Error Number

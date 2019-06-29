@@ -68,6 +68,10 @@ _inputdbA=/tmp/lastupdated.db
 _tmpnginxA=tmpnginxA
 _startmarker="_______________"
 _endmarker="____________________"
+_startmarker2="##----------- TESTED ON ------------"
+_endmarker2="##----------------------------------"
+nginxv1="1.10"
+nginxv2=$(cat ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv2.txt)
 
 # ---------
 # FUNCTIONS
@@ -88,6 +92,29 @@ ed -s ${_inputdbA}<<\IN
 /_______________/x
 .t.
 .,/____________________/-d
+#,p
+#,p used to print output replaced with w below to write
+w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
+q
+IN
+rm ${_inputdbA}
+}
+
+updateReadme2 () {
+# **********************************************
+# PRINT NGINX VERSION INFORMATION INTO README.md
+# **********************************************
+
+printf '%s\n%s\n%s\n%s' "$_startmarker2" "## ${nginxv1}" "## > ${nginxv2}" "$_endmarker2" >> "$_tmpnginxA"
+mv ${_tmpnginxA} ${_inputdbA}
+ed -s ${_inputdbA}<<\IN
+1,/##----------- TESTED ON ------------/d
+/##----------------------------------/,$d
+,d
+.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
+/##----------- TESTED ON ------------/x
+.t.
+.,/##----------------------------------/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
@@ -173,6 +200,7 @@ updateReadme
 updateAutoConfiguration
 updateManualConfiguration
 updateGoogleGhostSpam
+updateReadme2
 
 echo "${bold}${green}------------------------"
 echo "${bold}${green}All README Files Updated"

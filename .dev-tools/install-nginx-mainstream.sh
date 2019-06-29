@@ -88,12 +88,23 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_backup_nginxconf/nginx13.conf 
 sudo apt-get purge nginx-full
 sudo apt-get purge nginx-common
 sudo apt-get purge nginx*
+
+# Mainline from PPA
 mainstreamnginx=development
 sudo add-apt-repository -y ppa:nginx/${mainstreamnginx}
 sudo apt-get update
 sudo apt-get install -y --assume-yes nginx-full
 sudo nginx -V
 sudo nginx -t && sudo nginx -s reload
+
+# Mainline from Nginx
+#echo "deb http://nginx.org/packages/mainline/ubuntu/ xenial nginx
+#deb-src http://nginx.org/packages/mainline/ubuntu/ xenial nginx" > /etc/apt/sources.list.d/nginx.list
+#wget https://nginx.org/keys/nginx_signing.key -O - | sudo apt-key add -
+#apt-get -y update
+#apt-get -y install nginx
+#sudo nginx -V
+#sudo nginx -t && sudo nginx -s reload
 }
 
 cleanupNginx1 () {
@@ -230,6 +241,13 @@ sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/
 sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/test4_conf_files/nginx.conf
 }
 
+getnginxversion () {
+sudo nginx -v &> ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv2.txt
+}
+
+# -----------------
+# Trigger Functions
+# -----------------
 
 installNginxMainstream
 checkDirectories
@@ -259,6 +277,7 @@ runsetupngxblocker1
 reloadNginX
 waitforReload
 backupConfFiles
+getnginxversion
 
 # ----------------------
 # Exit With Error Number
