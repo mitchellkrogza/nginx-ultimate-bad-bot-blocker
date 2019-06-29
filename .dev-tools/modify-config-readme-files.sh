@@ -68,8 +68,8 @@ _inputdbA=/tmp/lastupdated.db
 _tmpnginxA=tmpnginxA
 _startmarker="_______________"
 _endmarker="____________________"
-_startmarker2="**********************************************************************"
-_endmarker2="********************************************************************************"
+_startmarker2="_______________________"
+_endmarker2="__________________________"
 nginxv="nginx version: nginx/1.10"
 nginxv1=$(cat ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv1.txt)
 nginxv2=$(cat ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv2.txt)
@@ -109,13 +109,13 @@ updateReadme2 () {
 printf '%s\n%s\n%s\n%s\n%s' "$_startmarker2" "##### ${nginxv}" "##### ${nginxv1}" "##### ${nginxv2}" "$_endmarker2" >> "$_tmpnginxA"
 mv ${_tmpnginxA} ${_inputdbA}
 ed -s ${_inputdbA}<<\IN
-1,/**********************************************************************/d
-/********************************************************************************/,$d
+1,/_______________________/d
+/__________________________/,$d
 ,d
 .r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
-/**********************************************************************/x
+/_______________________/x
 .t.
-.,/********************************************************************************/-d
+.,/__________________________/-d
 #,p
 #,p used to print output replaced with w below to write
 w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
