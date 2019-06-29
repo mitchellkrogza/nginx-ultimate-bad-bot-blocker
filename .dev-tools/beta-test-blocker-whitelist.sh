@@ -239,10 +239,10 @@ echo "${bold}${green}-----------------------------------------------------------
 echo "${bold}${green}Make Backup all conf files and folders used during this test"
 echo "${bold}${green}------------------------------------------------------------"
 printf "\n"
-sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_whitelist/bots.d/
-sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_whitelist/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_whitelist/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_testing_changes_whitelist/nginx.conf
+sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_whitelist/bots.d/
+sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_whitelist/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_whitelist/default.vhost
+sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_whitelist/nginx.conf
 }
 
 # -----------

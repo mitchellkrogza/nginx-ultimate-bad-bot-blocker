@@ -201,10 +201,10 @@ echo "${bold}${green}-------------------------------------------------------"
 echo "${bold}${green}Backup all conf files and folders used during this test"
 echo "${bold}${green}-------------------------------------------------------"
 printf "\n"
-sudo cp /usr/local/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_test2/bots.d/
-sudo cp /usr/local/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_test2/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_test2/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_test2/nginx.conf
+sudo cp /usr/local/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/test2_conf_files/bots.d/
+sudo cp /usr/local/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/test2_conf_files/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/test2_conf_files/default.vhost
+sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/test2_conf_files/nginx.conf
 }
 
 

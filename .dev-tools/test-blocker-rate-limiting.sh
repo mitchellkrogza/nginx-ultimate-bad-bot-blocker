@@ -115,10 +115,10 @@ echo "${bold}${green}-------------------------------------------------------"
 echo "${bold}${green}Backup all conf files and folders used during this test"
 echo "${bold}${green}-------------------------------------------------------"
 printf "\n"
-sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_ratelimiting/bots.d/
-sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_ratelimiting/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_ratelimiting/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_ratelimiting/nginx.conf
+sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_files_ratelimiting/bots.d/
+sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_files_ratelimiting/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_files_ratelimiting/default.vhost
+sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_files_ratelimiting/nginx.conf
 }
 
 # -----------

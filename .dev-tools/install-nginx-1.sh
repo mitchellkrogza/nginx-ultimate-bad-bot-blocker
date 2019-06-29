@@ -80,7 +80,7 @@ printf "\n"
 echo "${bold}${yellow}---------------------------"
 echo "${bold}${yellow}Making backup of nginx.conf"
 echo "${bold}${yellow}---------------------------"
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_nginx_conf_backup/nginx.conf
+sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_backup_nginxconf/nginx.conf
 }
 
 prepareVhost () {
@@ -192,10 +192,10 @@ printf "\n"
 echo "${bold}${green}-------------------------------------------------------"
 echo "${bold}${green}Backup all conf files and folders used during this test"
 echo "${bold}${green}-------------------------------------------------------"
-sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test1/bots.d/
-sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test1/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test1/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test1/nginx.conf
+sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_files/bots.d/
+sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_files/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_files/default.vhost
+sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_files/nginx.conf
 }
 
 # ------------------

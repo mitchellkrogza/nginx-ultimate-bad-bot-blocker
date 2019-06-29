@@ -64,7 +64,6 @@ resetNginx () {
 echo "${bold}${green}------------------------------------------------"
 echo "${bold}${green}Disable any User Whitelisting and set to Default"
 echo "${bold}${green}------------------------------------------------"
-printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-user-agents-none.conf /usr/local/nginx/bots.d/blacklist-user-agents.conf
 }
 
@@ -224,10 +223,10 @@ shuf -n 10 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.list
+printf "\n"
 echo "${bold}${magenta}---------------------------"
 echo "${bold}${magenta}Testing 10 Random Bad Bots"
 echo "${bold}${magenta}---------------------------"
-printf "\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.list
 lines=$(cat ${file})
@@ -244,10 +243,10 @@ IFS=""
 
 testGoodUserAgents () {
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/good-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
+printf "\n"
 echo "${bold}${magenta}---------------------"
 echo "${bold}${magenta}Testing All Good Bots"
 echo "${bold}${magenta}---------------------"
-printf "\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
 lines=$(cat ${file})
@@ -264,10 +263,10 @@ IFS=""
 
 testAllowedUserAgents () {
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/allowed-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
+printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Testing All Allowed Bots"
 echo "${bold}${magenta}------------------------"
-printf "\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
 lines=$(cat ${file})
@@ -284,10 +283,10 @@ IFS=""
 
 testLimitedUserAgents () {
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/limited-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
+printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Testing All Limited Bots"
 echo "${bold}${magenta}------------------------"
-printf "\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
 lines=$(cat ${file})
@@ -305,10 +304,10 @@ IFS=""
 testRandomReferrers () {
 shuf -n 10 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test-quick.list
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test-quick.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test-quick.list
+printf "\n"
 echo "${bold}${magenta}---------------------------------"
 echo "${bold}${magenta}Testing 10 Random Bad Referrers"
 echo "${bold}${magenta}---------------------------------"
-printf "\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test-quick.list
 lines=$(cat ${file})
@@ -324,10 +323,10 @@ IFS=""
 }
 
 testGoodReferrers () {
+printf "\n"
 echo "${bold}${magenta}----------------------"
 echo "${bold}${magenta}Testing Good Referrers"
 echo "${bold}${magenta}----------------------"
-printf "\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-referrers-for-test.list
 lines=$(cat ${file})

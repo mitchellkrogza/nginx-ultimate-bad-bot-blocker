@@ -61,10 +61,10 @@ defaultcolor=$(tput setaf default)
 
 
 reloadNginX () {
+printf "\n"
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
-printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
 }
 
@@ -72,7 +72,7 @@ waitforReload () {
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
-printf "\n\n"
+printf "\n"
 sleep 10s
 }
 
@@ -217,11 +217,10 @@ shuf -n 250 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
-printf "\n\n"
+printf "\n"
 echo "${bold}${magenta}---------------------------"
 echo "${bold}${magenta}Testing 250 Random Bad Bots"
 echo "${bold}${magenta}---------------------------"
-printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test.list
 lines=$(cat ${file})
@@ -238,11 +237,10 @@ IFS=""
 
 testGoodUserAgents () {
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/good-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
-printf "\n\n"
+printf "\n"
 echo "${bold}${magenta}---------------------"
 echo "${bold}${magenta}Testing All Good Bots"
 echo "${bold}${magenta}---------------------"
-printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
 lines=$(cat ${file})
@@ -259,11 +257,10 @@ IFS=""
 
 testAllowedUserAgents () {
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/allowed-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
-printf "\n\n"
+printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Testing All Allowed Bots"
 echo "${bold}${magenta}------------------------"
-printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
 lines=$(cat ${file})
@@ -280,11 +277,10 @@ IFS=""
 
 testLimitedUserAgents () {
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/limited-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
-printf "\n\n"
+printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Testing All Limited Bots"
 echo "${bold}${magenta}------------------------"
-printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
 lines=$(cat ${file})
@@ -302,11 +298,10 @@ IFS=""
 testRandomReferrers () {
 shuf -n 1000 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
-printf "\n\n"
+printf "\n"
 echo "${bold}${magenta}---------------------------------"
 echo "${bold}${magenta}Testing 1000 Random Bad Referrers"
 echo "${bold}${magenta}---------------------------------"
-printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test.list
 lines=$(cat ${file})
@@ -322,11 +317,10 @@ IFS=""
 }
 
 testGoodReferrers () {
-printf "\n\n"
+printf "\n"
 echo "${bold}${magenta}----------------------"
 echo "${bold}${magenta}Testing Good Referrers"
 echo "${bold}${magenta}----------------------"
-printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-referrers-for-test.list
 lines=$(cat ${file})
@@ -348,7 +342,7 @@ IFS=""
 echo "${bold}${green}--------------"
 echo "${bold}${green}Tests Starting"
 echo "${bold}${green}--------------"
-printf "\n\n"
+printf "\n"
 
 reloadNginX
 waitforReload
@@ -374,7 +368,6 @@ testLimitedUserAgents
 testRandomReferrers
 testGoodReferrers
 
-printf "\n"
 echo "${bold}${cyan}Tests Completed"
 echo "${bold}${green}All Tests Passed"
 echo "${bold}${magenta}Now We Test Whitelisting and then Release a new build"
