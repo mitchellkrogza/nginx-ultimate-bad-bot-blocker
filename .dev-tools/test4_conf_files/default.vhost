@@ -1,5 +1,5 @@
 server {
-	listen *:9000;
+ 	listen *:9000;
 
 	root /var/www/html;
 	server_name localhost;
@@ -11,8 +11,5 @@ server {
  	include /etc/nginx/bots.d/blockbots.conf;
  
 	index index.html;
-
-    location / {
-      root /var/www/html/;
-        }
+	
 }
