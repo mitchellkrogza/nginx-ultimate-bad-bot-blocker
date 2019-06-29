@@ -16,21 +16,22 @@
 #                                                                            #
 ##############################################################################                                                                
 
+# ------------------------------------------------------------------------------
 # MIT License
-
+# ------------------------------------------------------------------------------
 # Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
 # https://github.com/mitchellkrogza
-
+# ------------------------------------------------------------------------------
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
 # in the Software without restriction, including without limitation the rights
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
-
+# ------------------------------------------------------------------------------
 # The above copyright notice and this permission notice shall be included in all
 # copies or substantial portions of the Software.
-
+# ------------------------------------------------------------------------------
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -38,262 +39,229 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+# ------------------------------------------------------------------------------
 
-# ***************************************************************
-# Start Getting Nginx Ready for Testing the Nginx Bad Bot Blocker
-# ***************************************************************
+# ------------------------
+# Set Terminal Font Colors
+# ------------------------
 
-# **************************************
-# Make Sure We Cleanup From Nginx Test 1
-# **************************************
+bold=$(tput bold)
+red=$(tput setaf 1)
+green=$(tput setaf 2)
+yellow=$(tput setaf 3)
+blue=$(tput setaf 4)
+magenta=$(tput setaf 5)
+cyan=$(tput setaf 6)
+white=$(tput setaf 7)
+defaultcolor=$(tput setaf default)
 
-printf '\n%s\n%s\n%s\n\n' "###################################" "       STARTING NGINX TEST 2" "###################################"
-printf '\n%s\n%s\n%s\n\n' "###################################" "Cleaning up Files from Nginx Test 1" "###################################"
+# ---------
+# FUNCTIONS
+# ---------
+
+reloadNginX () {
+echo "${bold}${green}---------------"
+echo "${bold}${green}Reloading Nginx"
+echo "${bold}${green}---------------"
+printf "\n\n"
+sudo nginx -t && sudo nginx -s reload
+}
+
+waitforReload () {
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
+echo "${bold}${yellow}-----------------------------------------------------------------------"
+printf "\n\n"
+sleep 10s
+}
+
+cleanupNginx1 () {
+echo "${bold}${yellow}-----------------------------------"
+echo "${bold}${yellow}Removing Files from Install Nginx 1"
+echo "${bold}${yellow}-----------------------------------"
+printf "\n"
 sudo rm /etc/nginx/sites-available/default.vhost
 sudo rm /etc/nginx/sites-enabled/default.vhost
 sudo rm /var/www/html/*
 sudo rm /etc/nginx/conf.d/*.conf
 sudo rm /etc/nginx/bots.d/*.conf
-printf '\n%s\n%s\n%s\n\n' "########################################" "Cleaning up Files from Nginx Test 1 DONE" "########################################"
+}
 
-# *************************************
-# List Directories to Confirm Deletions
-# *************************************
-
-printf '\n%s\n%s\n%s\n\n' "################################################" "Confirming /etc/nginx/conf.d/ directory is EMPTY" "################################################"
+checkDirectories () {
 ls -la /etc/nginx/conf.d/
-printf '\n%s\n%s\n%s\n\n' "################################################" "Confirming /etc/nginx/bots.d/ directory is EMPTY" "################################################"
 ls -la /etc/nginx/bots.d/
-printf '\n%s\n%s\n%s\n\n' "#########################################################" "Confirming /etc/nginx/sites-available/ directory is EMPTY" "#########################################################"
 ls -la /etc/nginx/sites-available/
-printf '\n%s\n%s\n%s\n\n' "#######################################################" "Confirming /etc/nginx/sites-enabled/ directory is EMPTY" "#######################################################"
 ls -la /etc/nginx/sites-enabled/
-printf '\n%s\n%s\n%s\n\n' "############################################" "Confirming /var/www/html/ directory is EMPTY" "############################################"
 ls -la /var/www/html/
-printf '\n%s\n\n' "                                      "
+echo "${bold}${yellow}-------------------------------------------------"
+echo "${bold}${yellow}Confirming Files from Install Nginx 1 are Removed"
+echo "${bold}${yellow}-------------------------------------------------"
+printf "\n"
+}
 
-# ********************************************************
-# Copy our default.vhost file into Nginx /sites-available/
-# ********************************************************
-
-printf '\n%s\n%s\n%s\n\n' "################################" "Get Nginx Setup for Nginx Test 2" "################################"
+activateVHost () {
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
-
-# **********************************************
-# Link the vhost file into Nginx /sites-enabled/
-# **********************************************
-
 sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/default.vhost
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/index.html /var/www/html/index.html
+echo "${bold}${yellow}---------------------------------------------"
+echo "${bold}${yellow}Activating default.vhost and linking to Nginx"
+echo "${bold}${yellow}---------------------------------------------"
+printf "\n"
+}
 
-# ***********************************************************
-# Copy our index.php file into the default site's root folder
-# ***********************************************************
-
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/index.php /var/www/html/index.php
-printf '\n%s\n%s\n%s\n\n' "#####################################" "Finished Nginx Setup for Nginx Test 2" "#####################################"
-
-# *********************************************************
-# Fetch our install, updater and setup scriptsfrom the repo
-# *********************************************************
-
-printf '\n%s\n%s\n%s\n\n' "######################################" "Fetch setup and installer scripts from the repo" "######################################"
+getinstallngxblocker () {
+printf "\n"
+echo "${bold}${magenta}--------------------------------------"
+echo "${bold}${magenta}Fetch install-ngxblocker from the repo"
+echo "${bold}${magenta}--------------------------------------"
+printf "\n"
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker -O /usr/sbin/setup-ngxblocker
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O /usr/sbin/update-ngxblocker
+sudo chmod +x /usr/sbin/install-ngxblocker
+}
 
-# **************************************************
-# Set our install and setup scripts to be executable
-# **************************************************
+runinstallngxblocker () {
+echo "${bold}${magenta}--------------------------"
+echo "${bold}${magenta}Execute install-ngxblocker"
+echo "${bold}${magenta}--------------------------"
+printf "\n"
+cd /usr/sbin
+sudo bash ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
+}
 
-printf '\n%s\n%s\n%s\n\n' "##########################################################" "Set our install, setup and update scripts to be executable" "##########################################################"
+runsetupngxblocker1 () {
+echo "${bold}${magenta}------------------------"
+echo "${bold}${magenta}Execute setup-ngxblocker"
+echo "${bold}${magenta}------------------------"
+printf "\n"
+cd /usr/sbin
+sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
+}
+
+makeScriptsExecutable () {
 sudo chmod +x /usr/sbin/install-ngxblocker
 sudo chmod +x /usr/sbin/setup-ngxblocker
 sudo chmod +x /usr/sbin/update-ngxblocker
+}
 
-# **********************
-# Run Install-NgxBlocker
-# **********************
-
-printf '\n%s\n%s\n%s\n\n' "######################" "Run install-ngxblocker" "######################"
-cd /usr/sbin
-sudo bash ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
-
-# ********************
-# Run setup-ngxblocker
-# ********************
-
-# Force Includes to be written
-echo "Copy test nginx.conf"
+copyNginxConf () {
+echo "${bold}${magenta}------------------------------"
+echo "${bold}${magenta}Copy nginx.conf to /etc/nginx/"
+echo "${bold}${magenta}------------------------------"
+printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/nginx.conf-newformat /etc/nginx/nginx.conf
+}
 
-printf '\n%s\n%s\n%s\n\n' "####################" "Run setup-ngxblocker" "####################"
-cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
-
-#cat /etc/nginx/nginx.conf
-
-#sudo cat /usr/sbin/setup-ngxblocker
-
-# ************************
-# Load our Nginx.conf file
-# ************************
-
+loadNginxConf () {
+echo "${bold}${magenta}---------------"
+echo "${bold}${magenta}Load nginx.conf"
+echo "${bold}${magenta}---------------"
+printf "\n"
 sudo nginx -c /etc/nginx/nginx.conf
+}
 
-# ******************************************************************************************
-# Run update-ngxblocker test which downloads latest globalblacklist.conf and reloads Nginx
-# This second test forces update-ngxblocker to re-write the Include location to non standard
-# location of /usr/local/nginx/bots.d
-# ******************************************************************************************
-
-# ****************************************************************************************
-# Copy a dummy version of globalblacklist.conf with an older version number to test update
-# ****************************************************************************************
-
-printf '\n%s\n%s\n%s\n\n' "####################################################" "Copy older globalblacklist.conf file to force update" "####################################################"
+forceUpdateTest1 () {
+printf "\n"
+echo "${bold}${yellow}----------------------------------------------------"
+echo "${bold}${yellow}Copy older globalblacklist.conf file to force update"
+echo "${bold}${yellow}----------------------------------------------------"
+printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /usr/local/nginx/conf.d/globalblacklist.conf
+}
 
-# ****************************************************************************************
-# Run update-ngxblocker test which downloads latest globalblacklist.conf and reloads Nginx
-# ****************************************************************************************
-
-printf '\n%s\n%s\n%s\n\n' "######################" "Run update-ngxblocker" "######################"
-cd /usr/sbin
-sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
-
-# *********************
-# Force reload of Nginx
-# *********************
-
-printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
-sudo nginx -t && sudo nginx -s reload
-
-# *******************************************************************************************
-# Test that update-ngxblocker can install all missing required files by deleting some of them
-# *******************************************************************************************
-
-printf '\n%s\n%s\n%s\n\n' "####################################################################" "Delete existing files to force update-ngxblocker to re-download them" "####################################################################"
+forceUpdateTest2 () {
+printf "\n"
+echo "${bold}${yellow}--------------------------------------"
+echo "${bold}${yellow}Delete Files to test update-ngxblocker"
+echo "${bold}${yellow}--------------------------------------"
+printf "\n"
 sudo rm /usr/local/nginx/conf.d/*.conf
 sudo rm /usr/local/nginx/bots.d/*.conf
-
-# *************************************
-# List Directories to Confirm Deletions
-# *************************************
-
-printf '\n%s\n%s\n%s\n\n' "######################################################" "Confirming /usr/local/nginx/conf.d/ directory is EMPTY" "######################################################"
 ls -la /usr/local/nginx/conf.d/
-printf '\n%s\n%s\n%s\n\n' "######################################################" "Confirming /usr/local/nginx/bots.d/ directory is EMPTY" "######################################################"
 ls -la /usr/local/nginx/bots.d/
+}
 
-# *********************************************************************************************************
-# Run update-ngxblocker to test for missing files and download latest globalblacklist.conf and reload Nginx
-# *********************************************************************************************************
-
-printf '\n%s\n%s\n%s\n\n' "######################" "Run update-ngxblocker" "######################"
+runupdatengxblocker () {
+printf "\n"
+echo "${bold}${magenta}-------------------------"
+echo "${bold}${magenta}Execute update-ngxblocker"
+echo "${bold}${magenta}-------------------------"
+printf "\n"
 cd /usr/sbin
 sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
+}
 
-# ****************************************************
-# List Directories to Confirm Downloaded Missing Files
-# ****************************************************
-
-printf '\n%s\n%s\n%s\n\n' "#############################################################################################" "Confirming /usr/local/nginx/conf.d/ directory has missing files replaced by update-ngxblocker" "#############################################################################################"
-ls -la /usr/local/nginx/conf.d/
-printf '\n%s\n%s\n%s\n\n' "#############################################################################################" "Confirming /usr/local/nginx/bots.d/ directory has missing files replaced by update-ngxblocker" "#############################################################################################"
-ls -la /usr/local/nginx/bots.d/
-
-# ****************************************************************************************
-# Copy a dummy version of globalblacklist.conf with an older version number to test update
-# ****************************************************************************************
-
-printf '\n%s\n%s\n%s\n\n' "####################################################" "Copy older globalblacklist.conf file to force update" "####################################################"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /usr/local/nginx/conf.d/globalblacklist.conf
-
-# *********************************************************************************************************
-# Run update-ngxblocker to test for missing files and download latest globalblacklist.conf and reload Nginx
-# *********************************************************************************************************
-
-printf '\n%s\n%s\n%s\n\n' "######################" "Run update-ngxblocker" "######################"
-cd /usr/sbin
-sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
-
-# **************************
-# Run setup-ngxblocker Again
-# **************************
-
-printf '\n%s\n%s\n%s\n\n' "####################" "Run setup-ngxblocker" "####################"
-cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
-
-# *********************
-# Force reload of Nginx
-# *********************
-
-printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
-sudo nginx -t && sudo nginx -s reload
-
-# *******************************************************
-# Make sure we test latest generated globalblacklist.conf
-# *******************************************************
-
-printf '\n%s\n%s\n%s\n\n' "##############################################################################" "Copy latest generated globalblacklist.conf file to test for any compile errors" "##############################################################################"
+activateLatestBlacklist () {
+printf "\n"
+echo "${bold}${yellow}------------------------------------------------------------"
+echo "${bold}${yellow}Make sure we test with latest generated globalblacklist.conf"
+echo "${bold}${yellow}------------------------------------------------------------"
+printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist.conf /usr/local/nginx/conf.d/globalblacklist.conf
+}
 
-# **************************
-# Run setup-ngxblocker Again
-# **************************
+backupConfFiles () {
+printf "\n"
+echo "${bold}${green}------------------------------------------------------------"
+echo "${bold}${green}Make Backup all conf files and folders used during this test"
+echo "${bold}${green}------------------------------------------------------------"
+printf "\n"
+sudo cp /usr/local/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_test2/bots.d/
+sudo cp /usr/local/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_test2/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_test2/default.vhost
+sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_test2/nginx.conf
+}
 
-printf '\n%s\n%s\n%s\n\n' "############################################################" "Run setup-ngxblocker to fix includes in globalblacklist.conf" "############################################################"
-cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d
 
-# *********************
-# Force reload of Nginx
-# *********************
+# -----------------
+# Trigger Functions
+# -----------------
 
-printf '\n%s\n%s\n%s\n\n' "########################" "Force Reloading of Nginx" "########################"
-sudo nginx -t && sudo nginx -s reload
+cleanupNginx1
+checkDirectories
+activateVHost
+getinstallngxblocker
+runinstallngxblocker
+makeScriptsExecutable
+copyNginxConf
+runsetupngxblocker1
+loadNginxConf
+forceUpdateTest1
+runupdatengxblocker
+reloadNginX
+waitforReload
+forceUpdateTest2
+runupdatengxblocker
+runsetupngxblocker1
+reloadNginX
+waitforReload
+activateLatestBlacklist
+runsetupngxblocker1
+reloadNginX
+waitforReload
+backupConfFiles
 
-# **********************
-# Now Run our Curl Tests
-# **********************
-
-printf '\n%s\n%s\n%s\n\n' "######################" "Now Run our Curl Tests" "######################"
-
-# ************************************************************
-# Copy all .conf files used in Test 2 to a folder for checking
-# ************************************************************
-
-sudo cp /usr/local/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test2/bots.d/
-sudo cp /usr/local/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test2/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test2/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test2/nginx.conf
-
-# *****************************************************************************************
-# Travis now moves into running the rest of the tests in the script: section of .travis.yml
-# *****************************************************************************************
-
-# **********************
+# ----------------------
 # Exit With Error Number
-# **********************
+# ----------------------
 
 exit ${?}
 
+# ------------------------------------------------------------------------------
 # MIT License
-
+# ------------------------------------------------------------------------------
 # Copyright (c) 2017 Mitchell Krog - mitchellkrog@gmail.com
 # https://github.com/mitchellkrogza
-
+# ------------------------------------------------------------------------------
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
 # in the Software without restriction, including without limitation the rights
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
-
+# ------------------------------------------------------------------------------
 # The above copyright notice and this permission notice shall be included in all
 # copies or substantial portions of the Software.
-
+# ------------------------------------------------------------------------------
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -301,3 +269,4 @@ exit ${?}
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+# ------------------------------------------------------------------------------
