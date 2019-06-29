@@ -75,7 +75,6 @@ printf "\n"
 sleep 10s
 }
 
-
 installNginxMainstream (){
 sudo rm -rfv /etc/nginx/mybots.d/
 sudo rm -rfv /etc/nginx/myconf.d/
@@ -248,6 +247,10 @@ runupdatengxblocker
 checkDirectories
 forceUpdateTest1
 runupdatengxblocker
+runsetupngxblocker1
+reloadNginX
+waitforReload
+activateVHost2
 runsetupngxblocker1
 reloadNginX
 waitforReload

@@ -287,7 +287,7 @@ lines=$(cat ${file})
 for line in ${lines}; do
    if
    curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
-   echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
+   echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED and ${bold}${red}RATE LIMITED"
    else
    echo "${bold}${green}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
    fi
