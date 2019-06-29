@@ -262,6 +262,10 @@ echo "${bold}${magenta}------------------------------"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/nginx.conf-newformat /etc/nginx/nginx.conf
 }
 
+cleanupNginxKeys () {
+sudo rm ${TRAVIS_BUILD_DIR}/nginx_signing.key*
+}
+
 # -----------------
 # Trigger Functions
 # -----------------
@@ -296,6 +300,7 @@ reloadNginX
 waitforReload
 backupConfFiles
 getnginxversion
+cleanupNginxKeys
 
 # ----------------------
 # Exit With Error Number
