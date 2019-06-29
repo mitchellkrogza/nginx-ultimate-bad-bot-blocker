@@ -98,19 +98,23 @@ sudo apt-get purge nginx*
 #sudo nginx -t && sudo nginx -s reload
 
 # Mainline from Nginx
-echo "deb http://nginx.org/packages/mainline/ubuntu/ xenial nginx
+sudo echo "deb http://nginx.org/packages/mainline/ubuntu/ xenial nginx
 deb-src http://nginx.org/packages/mainline/ubuntu/ xenial nginx" > /etc/apt/sources.list.d/nginx.list
-wget https://nginx.org/keys/nginx_signing.key -O - | sudo apt-key add -
-apt-get -y update
-apt-get -y install nginx
+sudo wget https://nginx.org/keys/nginx_signing.key -O - | sudo apt-key add -
+sudo apt-get -y update
+sudo apt-get -y install nginx
 sudo nginx -V
 sudo nginx -t && sudo nginx -s reload
+sudo mkdir /etc/nginx/conf.d
+sudo mkdir /etc/nginx/bots.d
+sudo mkdir /etc/nginx/sites-available/
+sudo mkdir /etc/nginx/sites-enabled/
 }
 
 cleanupNginx1 () {
-echo "${bold}${yellow}-----------------------------------"
-echo "${bold}${yellow}Removing Files from Install Nginx 3"
-echo "${bold}${yellow}-----------------------------------"
+echo "${bold}${yellow}----------------------------------------------"
+echo "${bold}${yellow}Removing Files from Install Nginx Mainline PPA"
+echo "${bold}${yellow}----------------------------------------------"
 printf "\n"
 sudo rm /etc/nginx/sites-available/default.vhost
 sudo rm /etc/nginx/sites-enabled/default.vhost
@@ -127,9 +131,9 @@ ls -la /etc/nginx/bots.d/
 ls -la /etc/nginx/sites-available/
 ls -la /etc/nginx/sites-enabled/
 ls -la /var/www/html/
-echo "${bold}${yellow}-------------------------------------------------"
-echo "${bold}${yellow}Confirming Files from Install Nginx 3 are Removed"
-echo "${bold}${yellow}-------------------------------------------------"
+echo "${bold}${yellow}------------------------------------------------------------"
+echo "${bold}${yellow}Confirming Files from Install Nginx Mainline PPA are Removed"
+echo "${bold}${yellow}------------------------------------------------------------"
 printf "\n"
 }
 
