@@ -102,11 +102,12 @@ stablenginx=stable
 sudo add-apt-repository -y --remove ppa:nginx/${stablenginx}
 mainstreamnginx=development
 sudo add-apt-repository -y --remove ppa:nginx/${mainstreamnginx}
-sudo echo "deb http://nginx.org/packages/mainline/ubuntu/ xenial nginx
-deb-src http://nginx.org/packages/mainline/ubuntu/ xenial nginx" > /etc/apt/sources.list.d/nginx.list
-sudo wget https://nginx.org/keys/nginx_signing.key -O - | sudo apt-key add -
-sudo apt-get -y update
-sudo apt-get -y install nginx
+sudo sh -c "echo 'deb http://nginx.org/packages/mainline/ubuntu/ '$(lsb_release -cs)' nginx' > /etc/apt/sources.list.d/nginx.list"
+sudo wget http://nginx.org/keys/nginx_signing.key
+sudo apt-key add nginx_signing.key
+sudo apt -y update
+sudo apt remove nginx nginx-common nginx-full nginx-core nginx*
+sudo apt -y install nginx
 sudo nginx -V
 sudo nginx -t && sudo nginx -s reload
 sudo mkdir /etc/nginx/conf.d
