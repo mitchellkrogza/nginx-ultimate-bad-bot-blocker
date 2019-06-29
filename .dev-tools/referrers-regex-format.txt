@@ -1237,6 +1237,7 @@
 "~*(?:\b)cialischmrx\.com(?:\b|)" 	1;
 "~*(?:\b)cialischsrx\.com(?:\b|)" 	1;
 "~*(?:\b)cialischstgerts\.com(?:\b|)" 	1;
+"~*(?:\b)cialisndbrx\.com(?:\b|)" 	1;
 "~*(?:\b)cialisovercounteratwalmartusa\.com(?:\b|)" 	1;
 "~*(?:\b)cialis\-samples\.com(?:\b|)" 	1;
 "~*(?:\b)cialiswithoutadoctor\.net(?:\b|)" 	1;
@@ -4770,6 +4771,7 @@
 "~*(?:\b)rfd\-split\.hr(?:\b|)" 	1;
 "~*(?:\b)rff\-cfal\.info(?:\b|)" 	1;
 "~*(?:\b)rfid\-locker\.co(?:\b|)" 	1;
+"~*(?:\b)rfserial\.net(?:\b|)" 	1;
 "~*(?:\b)rialp\.getenjoyment\.net(?:\b|)" 	1;
 "~*(?:\b)ribieiendom\.no(?:\b|)" 	1;
 "~*(?:\b)richinvestmonitor\.com(?:\b|)" 	1;
@@ -5335,6 +5337,7 @@
 "~*(?:\b)sortthemesitesby\.com(?:\b|)" 	1;
 "~*(?:\b)sosdepotdebilan\.com(?:\b|)" 	1;
 "~*(?:\b)soserfis\.com(?:\b|)" 	1;
+"~*(?:\b)sotechco\.co(?:\b|)" 	1;
 "~*(?:\b)sotkal\.lark\.ru(?:\b|)" 	1;
 "~*(?:\b)soundfrost\.org(?:\b|)" 	1;
 "~*(?:\b)souvenir\.cc(?:\b|)" 	1;
@@ -5812,6 +5815,7 @@
 "~*(?:\b)traffic100\.com(?:\b|)" 	1;
 "~*(?:\b)traffic2cash\.org(?:\b|)" 	1;
 "~*(?:\b)traffic2money\.com(?:\b|)" 	1;
+"~*(?:\b)traffic\-club\.info(?:\b|)" 	1;
 "~*(?:\b)trafficfactory\.biz(?:\b|)" 	1;
 "~*(?:\b)trafficgenius\.xyz(?:\b|)" 	1;
 "~*(?:\b)trafficjunky\.com(?:\b|)" 	1;
