@@ -81,7 +81,8 @@ sudo rm -rfv /etc/nginx/mybots.d/
 sudo rm -rfv /etc/nginx/myconf.d/
 sudo rm /etc/nginx/conf.d/*.conf
 sudo rm /etc/nginx/bots.d/*.conf
-sudo rm /etc/nginx/sites-available/default
+sudo rm /etc/nginx/sites-available/*
+sudo rm /etc/nginx/sites-enabled/*
 sudo rm /etc/nginx/nginx.conf
 ls -la /etc/nginx/
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_backup_nginxconf/nginx13.conf /etc/nginx/nginx.conf
@@ -188,7 +189,7 @@ printf "\n"
 echo "${bold}${yellow}----------------------------------------------------"
 echo "${bold}${yellow}Copy older globalblacklist.conf file to force update"
 echo "${bold}${yellow}----------------------------------------------------"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /etc/nginx/myconf.d/globalblacklist.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /etc/nginx/conf.d/globalblacklist.conf
 }
 
 forceUpdateTest2 () {
@@ -216,7 +217,7 @@ echo "${bold}${yellow}----------------------------------------------------------
 echo "${bold}${yellow}Make sure we test with latest generated globalblacklist.conf"
 echo "${bold}${yellow}------------------------------------------------------------"
 printf "\n"
-sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist.conf /etc/nginx/myconf.d/globalblacklist.conf
+sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist.conf /etc/nginx/conf.d/globalblacklist.conf
 }
 
 backupConfFiles () {
@@ -233,7 +234,6 @@ sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/test4_conf_files/ng
 
 
 installNginxMainstream
-cleanupNginx1
 checkDirectories
 activateVHost
 getinstallngxblocker

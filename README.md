@@ -363,18 +363,23 @@ The Nginx Ultimate Bot Blocker is now WORKING and PROTECTING your web sites !!!
 
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/nginx-ultimate-bad-bot-blocker-testing-instructions.jpg"/>
 
-**NOTE to Cloudflare Users !!!**
+### NOTE to Cloudflare Users !!!
 
 If you are a Cloudflare user who is using the Cloudflare CDN / Cacheing System you will see the following behavior when testing.
 
 The First test of a Bad User Agent will give you:
 - curl: (56) TCP connection reset by peer
+
 The Second test will give you:
 - curl: 520 Origin Error
 
 This is by design. The CDN is doing its work, meaning, the first response from your server said to the bot, "go away" by issuing it `444` or `443` responses.
+
 Cloudflare cache's that response and hence the second test gets served a `520 Origin Error` origin error message.
-While testing the blocker, disable the CDN / cacheing system and once you are happy with your tests, re-enable the CDN/Cache on your live environment as you do want the bots to get that response from Cloudflare. Most other CDN systems will probably show the same behavior so always disable a CDN during testing to rule out anything that will interfere with your testing. Always make sure to re-enable the CDN when done testing !!
+
+While testing the blocker, disable the CDN / cacheing system and once you are happy with your tests, re-enable the CDN/Cache on your live environment as you do want the bots to get that response from Cloudflare. 
+
+Most other CDN systems will probably show the same behavior so always disable a CDN during testing to rule out anything that will interfere with your testing. Always make sure to re-enable the CDN when done testing !!
 
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-11.png"/>
