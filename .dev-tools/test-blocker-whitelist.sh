@@ -60,10 +60,10 @@ defaultcolor=$(tput setaf default)
 # ---------
 
 reloadNginX () {
+printf "\n"
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
-printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
 }
 
@@ -71,7 +71,7 @@ waitforReload () {
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
-printf "\n\n"
+printf "\n"
 sleep 10s
 }
 
@@ -99,7 +99,7 @@ generateCustomBlacklists () {
 echo "${bold}${magenta}-----------------------------------------------------------------"
 echo "${bold}${magenta}Generating blacklist-user-agents.conf & custom-bad-referrers.conf"
 echo "${bold}${magenta}-----------------------------------------------------------------"
-printf "\n\n"
+printf "\n"
 # --------------------------------------------------------------------------
 # Generate our custom test units turning all good to bad and all bad to good
 # --------------------------------------------------------------------------
@@ -122,7 +122,7 @@ _action1="0;"
 echo "${bold}${yellow}------------------------"
 echo "${bold}${green}Making all ${red}Bad Bots ${green}GOOD"
 echo "${bold}${yellow}------------------------"
-printf "\n\n"
+printf "\n"
 
 printf '%s\n' "$_start1" >> ${_tmpnginx1}
 while IFS= read -r LINE
@@ -151,7 +151,7 @@ rm ${_inputdb1}
 echo "${bold}${yellow}-----------------------------"
 echo "${bold}${green}Making all ${red}Bad Referrers ${green}GOOD"
 echo "${bold}${yellow}-----------------------------"
-printf "\n\n"
+printf "\n"
 
 
 printf '%s\n' "$_start2" >> ${_tmpnginx2}
@@ -179,12 +179,12 @@ activateCustomBlacklists () {
 echo "${bold}${green}------------------------------------------------"
 echo "${bold}${green}Activating Users User-Agents Whitelist/Blacklist"
 echo "${bold}${green}------------------------------------------------"
-printf "\n\n"
+printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
 echo "${bold}${green}----------------------------------------------"
 echo "${bold}${green}Activating Users Referrers Whitelist/Blacklist"
 echo "${bold}${green}----------------------------------------------"
-printf "\n\n"
+printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/custom-bad-referrers.conf /etc/nginx/bots.d/custom-bad-referrers.conf
 }
 
@@ -193,11 +193,10 @@ shuf -n 100 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
-printf "\n\n"
+printf "\n"
 echo "${bold}${magenta}---------------------------"
 echo "${bold}${magenta}Testing 100 Random Bad Bots"
 echo "${bold}${magenta}---------------------------"
-printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-whitelist-test.list
 lines=$(cat ${file})
@@ -217,11 +216,10 @@ shuf -n 100 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_B
 sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
 sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.tmp
 sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
-printf "\n\n"
+printf "\n"
 echo "${bold}${magenta}----------------------------"
 echo "${bold}${magenta}Testing 100 Random Referrers"
 echo "${bold}${magenta}----------------------------"
-printf "\n\n"
 IFS=$'\n'
 file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-whitelist-test.list
 lines=$(cat ${file})
@@ -255,7 +253,7 @@ sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_whiteli
 echo "${bold}${green}--------------------------"
 echo "${bold}${green}Whitelisting Test Starting"
 echo "${bold}${green}--------------------------"
-printf "\n\n"
+printf "\n"
 
 generateCustomBlacklists
 activateCustomBlacklists
@@ -270,7 +268,7 @@ backupConfFiles
 echo "${bold}${green}--------------------------"
 echo "${bold}${green}Whitelisting Test Complete"
 echo "${bold}${green}--------------------------"
-printf "\n\n"
+printf "\n"
 
 # ----------------------
 # Exit With Error Number

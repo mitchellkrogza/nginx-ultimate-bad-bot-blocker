@@ -177,7 +177,7 @@ updateGoogleGhostSpam
 echo "${bold}${green}------------------------"
 echo "${bold}${green}All README Files Updated"
 echo "${bold}${green}------------------------"
-printf "\n\n"
+printf "\n"
 
 # ----------------------
 # Exit With Error Number

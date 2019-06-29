@@ -60,10 +60,10 @@ defaultcolor=$(tput setaf default)
 # ---------
 
 reloadNginX () {
+printf "\n"
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
-printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
 }
 
@@ -71,7 +71,7 @@ waitforReload () {
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
-printf "\n\n"
+printf "\n"
 sleep 10s
 }
 
@@ -79,7 +79,7 @@ whitelistOwnDomain () {
 echo "${bold}${green}---------------------------------------"
 echo "${bold}${green}Activating Users whitelist-domains.conf"
 echo "${bold}${green}---------------------------------------"
-printf "\n\n"
+printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-domains.conf /etc/nginx/bots.d/whitelist-domains.conf
 }
 
@@ -108,7 +108,7 @@ fi
 echo "${bold}${green}-------------------------------"
 echo "${bold}${green}Whitelist Domains Test Starting"
 echo "${bold}${green}-------------------------------"
-printf "\n\n"
+printf "\n"
 
 whitelistOwnDomain
 reloadNginX
@@ -120,7 +120,7 @@ run_curltest2
 echo "${bold}${green}-------------------------------"
 echo "${bold}${green}Whitelist Domains Test Complete"
 echo "${bold}${green}-------------------------------"
-printf "\n\n"
+printf "\n"
 
 # ----------------------
 # Exit With Error Number

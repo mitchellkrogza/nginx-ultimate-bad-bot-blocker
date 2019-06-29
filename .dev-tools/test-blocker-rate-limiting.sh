@@ -60,10 +60,10 @@ defaultcolor=$(tput setaf default)
 # ---------
 
 reloadNginX () {
+printf "\n"
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
-printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
 }
 
@@ -71,7 +71,7 @@ waitforReload () {
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
-printf "\n\n"
+printf "\n"
 sleep 10s
 }
 
@@ -79,7 +79,7 @@ ratelimitGoogle () {
 echo "${bold}${yellow}-----------------------------"
 echo "${bold}${yellow}Making GoogleBot ${yellow}RATE LIMITED"
 echo "${bold}${yellow}-----------------------------"
-printf "\n\n"
+printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limiting-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
 }
 
@@ -111,14 +111,14 @@ if grep -i 'Unavailable' < ${ratelimittestfile}; then
 
 backupConfFiles () {
 printf "\n"
-echo "${bold}${green}------------------------------------------------------------"
-echo "${bold}${green}Make Backup all conf files and folders used during this test"
-echo "${bold}${green}------------------------------------------------------------"
+echo "${bold}${green}-------------------------------------------------------"
+echo "${bold}${green}Backup all conf files and folders used during this test"
+echo "${bold}${green}-------------------------------------------------------"
 printf "\n"
-sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ratelimiting/bots.d/
-sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ratelimiting/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ratelimiting/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_ratelimiting/nginx.conf
+sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_ratelimiting/bots.d/
+sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_ratelimiting/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_ratelimiting/default.vhost
+sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_ratelimiting/nginx.conf
 }
 
 # -----------
@@ -129,7 +129,7 @@ printf "\n"
 echo "${bold}${green}---------------------------"
 echo "${bold}${green}Starting Rate Limiting Test"
 echo "${bold}${green}---------------------------"
-printf "\n\n"
+printf "\n"
 
 ratelimitGoogle
 reloadNginX

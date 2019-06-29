@@ -116,7 +116,6 @@ sudo chmod +x /usr/sbin/install-ngxblocker
 }
 
 runinstallngxblocker () {
-printf "\n"
 echo "${bold}${magenta}--------------------------"
 echo "${bold}${magenta}Execute install-ngxblocker"
 echo "${bold}${magenta}--------------------------"
@@ -155,7 +154,6 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /etc/nginx/con
 }
 
 forceUpdateTest2 () {
-printf "\n"
 echo "${bold}${yellow}--------------------------------------"
 echo "${bold}${yellow}Delete Files to test update-ngxblocker"
 echo "${bold}${yellow}--------------------------------------"
@@ -183,7 +181,6 @@ sudo bash ./update-ngxblocker -n
 }
 
 activateLatestBlacklist () {
-printf "\n"
 echo "${bold}${yellow}------------------------------------------------------------"
 echo "${bold}${yellow}Make sure we test with latest generated globalblacklist.conf"
 echo "${bold}${yellow}------------------------------------------------------------"
@@ -192,9 +189,9 @@ sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist.conf /etc/nginx/conf.d/global
 
 backupConfFiles () {
 printf "\n"
-echo "${bold}${green}------------------------------------------------------------"
-echo "${bold}${green}Make Backup all conf files and folders used during this test"
-echo "${bold}${green}------------------------------------------------------------"
+echo "${bold}${green}-------------------------------------------------------"
+echo "${bold}${green}Backup all conf files and folders used during this test"
+echo "${bold}${green}-------------------------------------------------------"
 sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test1/bots.d/
 sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test1/conf.d/
 sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test1/default.vhost
@@ -209,7 +206,6 @@ printf "\n"
 echo "${bold}${green}------------------"
 echo "${bold}${green}Start Nginx Test 1"
 echo "${bold}${green}------------------"
-printf "\n"
 
 backupNginxConf
 prepareVhost

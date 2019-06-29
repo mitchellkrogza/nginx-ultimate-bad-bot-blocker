@@ -73,7 +73,7 @@ sort -u ${_output} -o ${_output}
 echo "${bold}${green}--------------------------------"
 echo "${bold}${green}robots.txt Preparation Completed"
 echo "${bold}${green}--------------------------------"
-printf "\n\n"
+printf "\n"
 }
 
 # ----------------

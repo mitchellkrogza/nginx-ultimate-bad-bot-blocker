@@ -64,7 +64,6 @@ reloadNginX () {
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
-printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
 }
 
@@ -72,7 +71,7 @@ waitforReload () {
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
-printf "\n\n"
+printf "\n"
 sleep 10s
 }
 
@@ -130,42 +129,32 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/botblocker-nginx-settings.conf
 echo "${bold}${green}--------------------------"
 echo "${bold}${green}Whitelist IP Test Starting"
 echo "${bold}${green}--------------------------"
-printf "\n\n"
+printf "\n"
 
 echo "${bold}${green}-------------------------"
 echo "${bold}${green}Blacklisting own IP First"
 echo "${bold}${green}-------------------------"
-printf "\n\n"
+printf "\n"
 
 blacklistOwnIP
 reloadNginX
 waitforReload
-
-# *************************************************
-# Function Curl Test 1 - Test our IP is Blacklisted
-# *************************************************
-
 run_curltest1
 
 echo "${bold}${green}--------------------"
 echo "${bold}${green}Now Whitelist own IP"
 echo "${bold}${green}--------------------"
-printf "\n\n"
+printf "\n"
 
 whitelistOwnIP
 reloadNginX
 waitforReload
-
-# *************************************************
-# Function Curl Test 2 - Test our IP is Whitelisted
-# *************************************************
-
 run_curltest2
 
 echo "${bold}${green}-----------------------------"
 echo "${bold}${green}Whitelisting IP Test Complete"
 echo "${bold}${green}-----------------------------"
-printf "\n\n"
+printf "\n"
 
 # *************************************************************
 # Copy all .conf files used in Testing to a folder for checking

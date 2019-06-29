@@ -98,7 +98,7 @@ sudo cp ${_tmprobots} ${TRAVIS_BUILD_DIR}/robots.txt/robots.txt
 echo "${bold}${green}-------------------------------"
 echo "${bold}${green}robots.txt Generation Completed"
 echo "${bold}${green}-------------------------------"
-printf "\n\n"
+printf "\n"
 }
 
 # ----------------

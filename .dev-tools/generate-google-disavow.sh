@@ -74,7 +74,7 @@ done < ${_input1}
 echo "${bold}${green}-----------------------"
 echo "${bold}${green}Creating Google Disavow"
 echo "${bold}${green}-----------------------"
-printf "\n\n"
+printf "\n"
 }
 
 # -----------------

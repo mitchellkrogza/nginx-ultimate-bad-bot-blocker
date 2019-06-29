@@ -58,7 +58,7 @@ fetchBadIPs () {
 echo "${bold}${green}----------------------------"
 echo "${bold}${green}Fetching Latest BAD IPs List"
 echo "${bold}${green}----------------------------"
-printf "\n\n"
+printf "\n"
 }
 
 prepareBadIPs () {
@@ -69,7 +69,7 @@ prepareBadIPs () {
 echo "${bold}${green}-----------------------------"
 echo "${bold}${green}Preparing Latest BAD IPs List"
 echo "${bold}${green}-----------------------------"
-printf "\n\n"
+printf "\n"
 }
 
 # -----------------

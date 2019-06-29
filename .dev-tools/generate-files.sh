@@ -84,7 +84,7 @@ sudo dos2unix ${TRAVIS_BUILD_DIR}/.dev-tools/referrers-regex-format.txt
 echo "${bold}${green}-------------------------"
 echo "${bold}${green}File Generation Completed"
 echo "${bold}${green}-------------------------"
-printf "\n\n"
+printf "\n"
 }
 
 # -----------------

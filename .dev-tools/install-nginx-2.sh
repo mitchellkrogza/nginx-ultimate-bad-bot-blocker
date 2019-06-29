@@ -110,7 +110,6 @@ printf "\n"
 }
 
 getinstallngxblocker () {
-printf "\n"
 echo "${bold}${magenta}--------------------------------------"
 echo "${bold}${magenta}Fetch install-ngxblocker from the repo"
 echo "${bold}${magenta}--------------------------------------"
@@ -129,6 +128,7 @@ sudo bash ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx
 }
 
 runsetupngxblocker1 () {
+printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker"
 echo "${bold}${magenta}------------------------"
@@ -144,18 +144,18 @@ sudo chmod +x /usr/sbin/update-ngxblocker
 }
 
 copyNginxConf () {
+printf "\n"
 echo "${bold}${magenta}------------------------------"
 echo "${bold}${magenta}Copy nginx.conf to /etc/nginx/"
 echo "${bold}${magenta}------------------------------"
-printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/nginx.conf-newformat /etc/nginx/nginx.conf
 }
 
 loadNginxConf () {
+printf "\n"
 echo "${bold}${magenta}---------------"
 echo "${bold}${magenta}Load nginx.conf"
 echo "${bold}${magenta}---------------"
-printf "\n"
 sudo nginx -c /etc/nginx/nginx.conf
 }
 
@@ -164,12 +164,10 @@ printf "\n"
 echo "${bold}${yellow}----------------------------------------------------"
 echo "${bold}${yellow}Copy older globalblacklist.conf file to force update"
 echo "${bold}${yellow}----------------------------------------------------"
-printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /usr/local/nginx/conf.d/globalblacklist.conf
 }
 
 forceUpdateTest2 () {
-printf "\n"
 echo "${bold}${yellow}--------------------------------------"
 echo "${bold}${yellow}Delete Files to test update-ngxblocker"
 echo "${bold}${yellow}--------------------------------------"
@@ -185,13 +183,11 @@ printf "\n"
 echo "${bold}${magenta}-------------------------"
 echo "${bold}${magenta}Execute update-ngxblocker"
 echo "${bold}${magenta}-------------------------"
-printf "\n"
 cd /usr/sbin
 sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
 }
 
 activateLatestBlacklist () {
-printf "\n"
 echo "${bold}${yellow}------------------------------------------------------------"
 echo "${bold}${yellow}Make sure we test with latest generated globalblacklist.conf"
 echo "${bold}${yellow}------------------------------------------------------------"
@@ -201,9 +197,9 @@ sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist.conf /usr/local/nginx/conf.d/
 
 backupConfFiles () {
 printf "\n"
-echo "${bold}${green}------------------------------------------------------------"
-echo "${bold}${green}Make Backup all conf files and folders used during this test"
-echo "${bold}${green}------------------------------------------------------------"
+echo "${bold}${green}-------------------------------------------------------"
+echo "${bold}${green}Backup all conf files and folders used during this test"
+echo "${bold}${green}-------------------------------------------------------"
 printf "\n"
 sudo cp /usr/local/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_test2/bots.d/
 sudo cp /usr/local/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/conf_files_test2/conf.d/
