@@ -79,14 +79,13 @@ sleep 10s
 installNginxMainstream (){
 sudo rm -rfv /etc/nginx/mybots.d/
 sudo rm -rfv /etc/nginx/myconf.d/
-sudo rm /etc/nginx/conf.d/*.conf
-sudo rm /etc/nginx/bots.d/*.conf
+sudo rm -rfv /etc/nginx/conf.d/
+sudo rm -rfv /etc/nginx/bots.d/
 sudo rm /etc/nginx/sites-available/*
 sudo rm /etc/nginx/sites-enabled/*
 sudo rm /etc/nginx/nginx.conf
 ls -la /etc/nginx/
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_backup_nginxconf/nginx13.conf /etc/nginx/nginx.conf
-ls -la /etc/nginx/
 sudo apt-get purge nginx-full
 sudo apt-get purge nginx-common
 sudo apt-get purge nginx*
