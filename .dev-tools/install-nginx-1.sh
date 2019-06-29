@@ -88,8 +88,8 @@ printf "\n"
 echo "${bold}${yellow}-------------------------------------------"
 echo "${bold}${yellow}Delete any default files installed by Nginx"
 echo "${bold}${yellow}-------------------------------------------"
-sudo rm /etc/nginx/sites-available/default
-sudo rm /etc/nginx/sites-enabled/default
+sudo rm /etc/nginx/sites-available/*
+sudo rm /etc/nginx/sites-enabled/*
 sudo rm /var/www/html/*
 printf "\n"
 echo "${bold}${yellow}---------------------"
@@ -198,6 +198,14 @@ sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/
 sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/test1_conf_files/nginx.conf
 }
 
+copyNginxConf () {
+printf "\n"
+echo "${bold}${magenta}------------------------------"
+echo "${bold}${magenta}Copy nginx.conf to /etc/nginx/"
+echo "${bold}${magenta}------------------------------"
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/nginx.conf-newformat /etc/nginx/nginx.conf
+}
+
 # ------------------
 # Start Installation
 # ------------------
@@ -208,6 +216,7 @@ echo "${bold}${green}Start Nginx Test 1"
 echo "${bold}${green}------------------"
 
 backupNginxConf
+copyNginxConf
 prepareVhost
 getinstallngxblocker
 runinstallngxblocker
