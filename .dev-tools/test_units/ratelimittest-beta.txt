@@ -1,7 +1,35 @@
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx/1.14.2</center>
+</body>
+</html>
+l>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx/1.14.2</center>
+</body>
+</html>
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx/1.14.2</center>
+</body>
+</html>
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx/1.14.2</center>
+</body>
+</html>
 <!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to the Nginx</title>
+<title>Welcome to Nginx</title>
 </head>
 <body>
 <div align=center>
@@ -11,7 +39,7 @@
 </html><!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to the Nginx</title>
+<title>Welcome to Nginx</title>
 </head>
 <body>
 <div align=center>
@@ -21,7 +49,7 @@
 </html><!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to the Nginx</title>
+<title>Welcome to Nginx</title>
 </head>
 <body>
 <div align=center>
@@ -31,7 +59,7 @@
 </html><!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to the Nginx</title>
+<title>Welcome to Nginx</title>
 </head>
 <body>
 <div align=center>
@@ -41,7 +69,7 @@
 </html><!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to the Nginx</title>
+<title>Welcome to Nginx</title>
 </head>
 <body>
 <div align=center>
@@ -51,7 +79,7 @@
 </html><!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to the Nginx</title>
+<title>Welcome to Nginx</title>
 </head>
 <body>
 <div align=center>
@@ -61,7 +89,7 @@
 </html><!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to the Nginx</title>
+<title>Welcome to Nginx</title>
 </head>
 <body>
 <div align=center>
@@ -71,67 +99,7 @@
 </html><!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to the Nginx</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the Nginx Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to the Nginx</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the Nginx Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to the Nginx</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the Nginx Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to the Nginx</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the Nginx Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to the Nginx</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the Nginx Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to the Nginx</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the Nginx Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to the Nginx</title>
+<title>Welcome to Nginx</title>
 </head>
 <body>
 <div align=center>
