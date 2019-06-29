@@ -70,9 +70,10 @@ _startmarker="_______________"
 _endmarker="____________________"
 _startmarker2="_______________________"
 _endmarker2="__________________________"
-nginxv="nginx version: nginx/1.10"
+nginxv="nginx version: nginx/1.10.x"
 nginxv1=$(cat ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv1.txt)
 nginxv2=$(cat ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv2.txt)
+nginxv3=$(cat ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv3.txt)
 
 # ---------
 # FUNCTIONS
@@ -106,7 +107,7 @@ updateReadme2 () {
 # PRINT NGINX VERSION INFORMATION INTO README.md
 # **********************************************
 
-printf '%s\n%s\n%s\n%s\n%s' "$_startmarker2" "##### ${nginxv}" "##### ${nginxv1}" "##### ${nginxv2}" "$_endmarker2" >> "$_tmpnginxA"
+printf '%s\n%s\n%s\n%s\n%s\n%s' "$_startmarker2" "##### Tested On:" "##### ${nginxv}" "##### ${nginxv1}" "##### ${nginxv2}" "$_endmarker2" >> "$_tmpnginxA"
 mv ${_tmpnginxA} ${_inputdbA}
 ed -s ${_inputdbA}<<\IN
 1,/_______________________/d
