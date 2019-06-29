@@ -11,7 +11,7 @@
 ##### The Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clickjacking Blocker, Click Re-Directing Blocker, SEO Companies and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking. Stop and Block all kinds of bad internet traffic from ever reaching your web sites. [PLEASE SEE: Definition of Bad Bots](#define-bad-bots)
 
 _______________
-#### Version: V4.2019.06.1698
+#### Version: V4.2019.06.1699
 #### Bad Referrer Count: 6713
 #### Bad Bot Count: 556
 ____________________
@@ -29,7 +29,7 @@ _______________________
 ##### nginx version: nginx/1.10.x :heavy_check_mark:
 ##### nginx version: nginx/1.14.2 :heavy_check_mark:
 ##### nginx version: nginx/1.15.8 :heavy_check_mark:
-##### nginx version: nginx/1.15.8 :heavy_check_mark:
+##### nginx version: nginx/1.10.3 (Ubuntu) :heavy_check_mark:
 __________________________
 
 Not Using Nginx? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img.shields.io/badge/APACHE%20-%20ULTIMATE%20BAD%20BOT%20BLOCKER%20%E2%9B%94-blue.svg)](https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker)
