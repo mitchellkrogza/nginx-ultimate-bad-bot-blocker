@@ -49,10 +49,10 @@ script:
   - bash .dev-tools/test-nginx-2.sh
   - bash .dev-tools/install-nginx-3.sh
   - bash .dev-tools/test-nginx-3.sh
-  #- bash .dev-tools/install-nginx-4.sh
-  #- bash .dev-tools/test-blocker-quicker.sh
+  - bash .dev-tools/install-nginx-4.sh
+  - bash .dev-tools/test-nginx-4.sh
   # FROM HERE WE TEST ANY NEW CHANGES TO THE BLOCKER
-  - bash .dev-tools/install-nginx-1.sh
+  - bash .dev-tools/install-nginx-restore.sh
   - bash .dev-tools/beta-install-nginx-testing-of-changes.sh
   - bash .dev-tools/beta-test-blocker.sh
   - bash .dev-tools/beta-test-blocker-badwords.sh

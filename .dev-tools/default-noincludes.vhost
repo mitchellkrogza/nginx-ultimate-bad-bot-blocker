@@ -6,8 +6,4 @@ server {
 	charset UTF-8;
 	index index.html;
 	
- 	# Bad Bot Blocker
-	include /etc/nginx/bots.d/ddos.conf; 
- 	include /etc/nginx/bots.d/blockbots.conf;
-
 }
