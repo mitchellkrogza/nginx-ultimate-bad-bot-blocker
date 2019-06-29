@@ -65,7 +65,7 @@ echo "${bold}${green}------------------------------------------------"
 echo "${bold}${green}Disable any User Whitelisting and set to Default"
 echo "${bold}${green}------------------------------------------------"
 printf "\n\n"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-user-agents-none.conf /etc/nginx/bots.d/blacklist-user-agents.conf
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-user-agents-none.conf /usr/local/nginx/bots.d/blacklist-user-agents.conf
 }
 
 reloadNginX () {
