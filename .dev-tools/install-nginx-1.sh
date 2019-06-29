@@ -60,10 +60,10 @@ defaultcolor=$(tput setaf default)
 # ---------
 
 reloadNginX () {
+printf "\n"
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
-printf "\n\n"
 sudo nginx -t && sudo nginx -s reload
 }
 
@@ -71,7 +71,7 @@ waitforReload () {
 echo "${bold}${yellow}-----------------------------------------------------------------------"
 echo "${bold}${yellow}Sleeping for 10 seconds to allow Nginx to Properly Reload inside Travis"
 echo "${bold}${yellow}-----------------------------------------------------------------------"
-printf "\n\n"
+printf "\n"
 sleep 10s
 }
 
@@ -80,7 +80,6 @@ printf "\n"
 echo "${bold}${yellow}---------------------------"
 echo "${bold}${yellow}Making backup of nginx.conf"
 echo "${bold}${yellow}---------------------------"
-printf "\n"
 sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/_nginx_conf_backup/nginx.conf
 }
 
@@ -89,7 +88,6 @@ printf "\n"
 echo "${bold}${yellow}-------------------------------------------"
 echo "${bold}${yellow}Delete any default files installed by Nginx"
 echo "${bold}${yellow}-------------------------------------------"
-printf "\n"
 sudo rm /etc/nginx/sites-available/default
 sudo rm /etc/nginx/sites-enabled/default
 sudo rm /var/www/html/*
@@ -97,7 +95,6 @@ printf "\n"
 echo "${bold}${yellow}---------------------"
 echo "${bold}${yellow}Setup Vhost for Nginx"
 echo "${bold}${yellow}---------------------"
-printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
 sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/default.vhost
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/index.html /var/www/html/index.html
@@ -114,7 +111,6 @@ printf "\n"
 echo "${bold}${magenta}--------------------------------------"
 echo "${bold}${magenta}Fetch install-ngxblocker from the repo"
 echo "${bold}${magenta}--------------------------------------"
-printf "\n"
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
 sudo chmod +x /usr/sbin/install-ngxblocker
 }
@@ -124,7 +120,6 @@ printf "\n"
 echo "${bold}${magenta}--------------------------"
 echo "${bold}${magenta}Execute install-ngxblocker"
 echo "${bold}${magenta}--------------------------"
-printf "\n"
 cd /usr/sbin
 sudo bash ./install-ngxblocker -s /usr/sbin/ -x
 }
@@ -134,7 +129,6 @@ printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker"
 echo "${bold}${magenta}------------------------"
-printf "\n"
 cd /usr/sbin
 sudo bash ./setup-ngxblocker -i /usr/sbin/install-ngxblocker -x
 }
@@ -144,7 +138,6 @@ printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker"
 echo "${bold}${magenta}------------------------"
-printf "\n"
 cd /usr/sbin
 sudo bash ./setup-ngxblocker -x
 }
@@ -158,7 +151,6 @@ printf "\n"
 echo "${bold}${yellow}----------------------------------------------------"
 echo "${bold}${yellow}Copy older globalblacklist.conf file to force update"
 echo "${bold}${yellow}----------------------------------------------------"
-printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /etc/nginx/conf.d/globalblacklist.conf
 }
 
@@ -167,7 +159,6 @@ printf "\n"
 echo "${bold}${yellow}--------------------------------------"
 echo "${bold}${yellow}Delete Files to test update-ngxblocker"
 echo "${bold}${yellow}--------------------------------------"
-printf "\n"
 sudo rm /etc/nginx/conf.d/*.conf
 sudo rm /etc/nginx/bots.d/*.conf
 ls -la /etc/nginx/conf.d/
@@ -179,7 +170,6 @@ printf "\n"
 echo "${bold}${yellow}----------------------------------------------------"
 echo "${bold}${yellow}Copy older globalblacklist.conf file to force update"
 echo "${bold}${yellow}----------------------------------------------------"
-printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /etc/nginx/conf.d/globalblacklist.conf
 }
 
@@ -188,7 +178,6 @@ printf "\n"
 echo "${bold}${magenta}-------------------------"
 echo "${bold}${magenta}Execute update-ngxblocker"
 echo "${bold}${magenta}-------------------------"
-printf "\n"
 cd /usr/sbin
 sudo bash ./update-ngxblocker -n
 }
@@ -198,7 +187,6 @@ printf "\n"
 echo "${bold}${yellow}------------------------------------------------------------"
 echo "${bold}${yellow}Make sure we test with latest generated globalblacklist.conf"
 echo "${bold}${yellow}------------------------------------------------------------"
-printf "\n"
 sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist.conf /etc/nginx/conf.d/globalblacklist.conf
 }
 
@@ -207,7 +195,6 @@ printf "\n"
 echo "${bold}${green}------------------------------------------------------------"
 echo "${bold}${green}Make Backup all conf files and folders used during this test"
 echo "${bold}${green}------------------------------------------------------------"
-printf "\n"
 sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test1/bots.d/
 sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test1/conf.d/
 sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/_conf_files_test1/default.vhost
