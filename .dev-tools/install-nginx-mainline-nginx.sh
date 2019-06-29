@@ -254,6 +254,14 @@ getnginxversion () {
 sudo nginx -v &> ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv3.txt
 }
 
+copyNginxConf () {
+printf "\n"
+echo "${bold}${magenta}------------------------------"
+echo "${bold}${magenta}Copy nginx.conf to /etc/nginx/"
+echo "${bold}${magenta}------------------------------"
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/nginx.conf-newformat /etc/nginx/nginx.conf
+}
+
 # -----------------
 # Trigger Functions
 # -----------------
@@ -282,6 +290,7 @@ runsetupngxblocker1
 reloadNginX
 waitforReload
 activateLatestBlacklist
+copyNginxConf
 runsetupngxblocker1
 reloadNginX
 waitforReload
