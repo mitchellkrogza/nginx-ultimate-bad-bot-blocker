@@ -98,6 +98,10 @@ sudo apt-get purge nginx*
 #sudo nginx -t && sudo nginx -s reload
 
 # Mainline from Nginx
+stablenginx=stable
+sudo add-apt-repository -y --remove ppa:nginx/${stablenginx}
+mainstreamnginx=development
+sudo add-apt-repository -y --remove ppa:nginx/${mainstreamnginx}
 sudo echo "deb http://nginx.org/packages/mainline/ubuntu/ xenial nginx
 deb-src http://nginx.org/packages/mainline/ubuntu/ xenial nginx" > /etc/apt/sources.list.d/nginx.list
 sudo wget https://nginx.org/keys/nginx_signing.key -O - | sudo apt-key add -

@@ -107,7 +107,7 @@ updateReadme2 () {
 # PRINT NGINX VERSION INFORMATION INTO README.md
 # **********************************************
 
-printf '%s\n%s\n%s\n%s\n%s\n%s' "$_startmarker2" "##### Tested On:" "##### ${nginxv}" "##### ${nginxv1}" "##### ${nginxv2}" "$_endmarker2" >> "$_tmpnginxA"
+printf '%s\n%s\n%s\n%s\n%s\n%s\n%s' "$_startmarker2" "##### Tested On:" "##### ${nginxv} :heavy_check_mark:" "##### ${nginxv1} :heavy_check_mark:" "##### ${nginxv2} :heavy_check_mark:" "##### ${nginxv3} :heavy_check_mark:" "$_endmarker2" >> "$_tmpnginxA"
 mv ${_tmpnginxA} ${_inputdbA}
 ed -s ${_inputdbA}<<\IN
 1,/_______________________/d
