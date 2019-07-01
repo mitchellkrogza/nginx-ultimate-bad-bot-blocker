@@ -40,6 +40,7 @@ script:
   - bash .dev-tools/generate-files.sh
   # HERE WE TEST THE NEWLY GENERATED BLOCKER FILES
   - bash .dev-tools/install-nginx-1.sh
+  - bash .dev-tools/test-blocker-false-positives.sh
   - bash .dev-tools/test-blocker-quick.sh
   - bash .dev-tools/test-blocker-badwords.sh
   - bash .dev-tools/test-blocker-whitelist-domains.sh
