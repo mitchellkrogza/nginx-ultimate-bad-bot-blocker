@@ -59,8 +59,8 @@ script:
   - bash .dev-tools/beta-test-blocker-whitelist-domains.sh
   - bash .dev-tools/beta-test-blocker-whitelist-ips.sh
   - bash .dev-tools/beta-test-blocker-rate-limiting.sh
-  - bash .dev-tools/beta-test-blocker-whitelist.sh
   - bash .dev-tools/beta-test-blocker-false-positives.sh
+  - bash .dev-tools/beta-test-blocker-whitelist.sh
   # HERE WE TEST NGINX MAINLINE
   - bash .dev-tools/install-nginx-mainline-ppa.sh
   - bash .dev-tools/test-nginx-mainline-ppa.sh
