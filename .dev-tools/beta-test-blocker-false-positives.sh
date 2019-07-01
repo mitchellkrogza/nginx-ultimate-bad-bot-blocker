@@ -84,6 +84,9 @@ UAmustnotmatch[4]="bing"
 REFmustmatch[0]="zx6.ru"
 REFmustmatch[1]="100dollars-seo.com"
 REFmustmatch[2]="googglet.com"
+REFmustmatch[3]="www.zx6.ru"
+REFmustmatch[4]="www7.100dollars-seo.com"
+REFmustmatch[5]="ftp.googglet.com"
 
 # ---------------------------------
 # USER-AGENT ARRAY - MUST NOT MATCH
