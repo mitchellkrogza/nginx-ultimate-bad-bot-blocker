@@ -5,7 +5,7 @@
 <hr><center>nginx/1.14.2</center>
 </body>
 </html>
-l>
+<html>
 <head><title>503 Service Temporarily Unavailable</title></head>
 <body bgcolor="white">
 <center><h1>503 Service Temporarily Unavailable</h1></center>
