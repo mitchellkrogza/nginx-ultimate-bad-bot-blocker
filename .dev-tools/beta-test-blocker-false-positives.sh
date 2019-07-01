@@ -77,6 +77,23 @@ UAmustnotmatch[2]="SNutch"
 UAmustnotmatch[3]="Bing"
 UAmustnotmatch[4]="bing"
 
+# ---------------------------
+# REFERRER ARRAY - MUST MATCH
+# ---------------------------
+
+REFmustmatch[0]="zx6.ru"
+REFmustmatch[1]="100dollars-seo.com"
+REFmustmatch[2]="googglet.com"
+
+# ---------------------------------
+# USER-AGENT ARRAY - MUST NOT MATCH
+# ---------------------------------
+
+REFmustnotmatch[0]="zx6.russia"
+REFmustnotmatch[1]="100dollars-seo.community"
+REFmustnotmatch[2]="googglet.co"
+REFmustnotmatch[3]="google.com"
+
 # ---------
 # FUNCTIONS
 # ---------
@@ -127,12 +144,46 @@ do
 done
 }
 
+# -----------------------------
+# REFERRER FALSE POSITIVE TESTS
+# -----------------------------
+
+REFtest_mustmatch () {
+for mustmatch in "${REFmustmatch[@]}"
+do
+   if
+   curl -A "${mustmatch}" http://localhost:9000 2>&1 | grep -i '(52)'; then
+   echo "${bold}${green}PASSED - ${red}${mustmatch} was ${bold}${red}BLOCKED"
+   else
+   echo "${bold}${red}FAILED - ${red}${mustmatch} was ${bold}${red}NOT BLOCKED"
+   #exit 1
+   fi
+done
+}
+
+REFtest_mustnotmatch () {
+for mustnotmatch in "${REFmustnotmatch[@]}"
+do
+   if
+   curl -A "${mustnotmatch}" http://localhost:9000 2>&1 | grep -i '(52)'; then
+   echo "${bold}${red}FAILED (FALSE POSITIVE DETECTED) - ${bold}${red}${mustnotmatch}"
+   #exit 1
+   else
+   echo "${bold}${green}PASSED (FALSE POSITIVE NOT DETECTED) - ${bold}${red}${mustnotmatch}"
+   fi
+done
+}
+
+
+
 # -------------------------
 # Trigger Functions / Tests
 # -------------------------
 
 UAtest_mustmatch
 UAtest_mustnotmatch
+REFtest_mustmatch
+REFtest_mustnotmatch
 
 echo "${bold}${cyan}False Positive Testing Completed"
 echo "${bold}${green}All Tests Passed"
