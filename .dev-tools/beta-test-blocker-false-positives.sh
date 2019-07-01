@@ -106,6 +106,7 @@ do
    echo "${bold}${green}PASSED - ${red}${mustmatch} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${mustmatch} was ${bold}${red}NOT BLOCKED"
+   curl -A "${mustmatch}" http://localhost:9000 2>&1
    #exit 1
    fi
 done
@@ -120,6 +121,7 @@ do
    #exit 1
    else
    echo "${bold}${green}PASSED (FALSE POSITIVE NOT DETECTED) - ${bold}${red}${mustnotmatch}"
+   curl -A "${mustnotmatch}" http://localhost:9000 2>&1
    fi
 done
 }
