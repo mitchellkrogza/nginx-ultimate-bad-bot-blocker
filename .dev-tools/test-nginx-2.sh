@@ -200,6 +200,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${red}${line} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT BLOCKED"
+   exit 1
    fi
 done
 IFS=""
@@ -220,6 +221,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
+   exit 1
    fi
 done
 IFS=""
@@ -240,6 +242,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
+   exit 1
    fi
 done
 IFS=""
@@ -260,6 +263,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED and ${bold}${red}RATE LIMITED"
    else
    echo "${bold}${green}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
+   exit 1
    fi
 done
 IFS=""
@@ -281,6 +285,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${red}${line} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT BLOCKED"
+   exit 1
    fi
 done
 IFS=""
@@ -300,6 +305,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${green}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
+   exit 1
    fi
 done
 IFS=""

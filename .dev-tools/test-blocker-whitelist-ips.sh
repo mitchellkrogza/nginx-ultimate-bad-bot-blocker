@@ -80,6 +80,7 @@ if curl http://localhost:9000 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${bold}${red}blacklist own ip is WORKING"
 else
    echo "${bold}${red}FAILED - blacklist own ip is NOT working"
+   exit 1
 fi
 }
 
@@ -89,6 +90,7 @@ if curl http://localhost:9000 2>&1 | grep -i 'Welcome'; then
 else
    echo "${bold}${red}FAILED - whitelist own ip is NOT working"
    curl http://localhost:9000
+   exit 1
 fi
 }
 

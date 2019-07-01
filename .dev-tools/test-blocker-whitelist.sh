@@ -206,6 +206,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${red}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT ALLOWED"
+   exit 1
    fi
 done
 IFS=""
@@ -229,6 +230,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${red}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT ALLOWED"
+   exit 1
    fi
 done
 IFS=""

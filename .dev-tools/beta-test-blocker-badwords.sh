@@ -88,7 +88,7 @@ if curl -I http://localhost:9000 -e "thisisabadword" 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - User bad-referrer-words.conf working"
 else
    echo "${bold}${red}FAILED - User bad-referrer-words.conf NOT working"
-   #exit 1
+   exit 1
 fi
 }
 
@@ -97,7 +97,7 @@ if curl -I http://localhost:9000 -e "thisisanotherbadword" 2>&1 | grep -i '(52)'
    echo "${bold}${green}PASSED - User bad-referrer-words.conf working"
 else
    echo "${bold}${red}FAILED - User bad-referrer-words.conf NOT working"
-   #exit 1
+   exit 1
 fi
 }
 

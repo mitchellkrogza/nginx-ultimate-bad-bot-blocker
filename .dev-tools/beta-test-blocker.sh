@@ -154,7 +154,7 @@ if curl -A "Googlebot/Nutch-1.7" http://localhost:9000 2>&1 | grep -i '(52)'; th
    echo "${bold}${green}PASSED - ${red}Googlebot/Nutch-1.7 BAD BOT DETECTED"
 else
    echo "${bold}${red}FAILED - ${red}Googlebot/Nutch-1.7 BAD BOT NOT DETECTED"
-   #exit 1
+   exit 1
 fi
 }
 
@@ -163,7 +163,7 @@ if curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
    echo "${bold}${green}PASSED - NO FALSE POSITIVE on Mozilla/5.0"
 else
    echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on Mozilla/5.0"
-   #exit 1
+   exit 1
 fi
 }
 
@@ -172,7 +172,7 @@ if curl -A "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/6
    echo "${bold}${green}PASSED - NO FALSE POSITIVE on Safari"
 else
    echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on Safari"
-   #exit 1
+   exit 1
 fi
 }
 
@@ -194,6 +194,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${red}${line} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT BLOCKED"
+   exit 1
    fi
 done
 IFS=""
@@ -214,6 +215,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
+   exit 1
    fi
 done
 IFS=""
@@ -234,6 +236,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
+   exit 1
    fi
 done
 IFS=""
@@ -254,6 +257,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED and ${bold}${red}RATE LIMITED"
    else
    echo "${bold}${green}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
+   exit 1
    fi
 done
 IFS=""
@@ -275,6 +279,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${red}${line} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT BLOCKED"
+   exit 1
    fi
 done
 IFS=""
@@ -294,6 +299,7 @@ for line in ${lines}; do
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${green}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
+   exit 1
    fi
 done
 IFS=""

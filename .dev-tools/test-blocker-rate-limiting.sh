@@ -106,6 +106,7 @@ if grep -i 'Unavailable' < ${ratelimittestfile}; then
    echo "${bold}${green}PASSED - ${red}GoogleBot was ${bold}${red}RATE LIMITED"
    else
    echo "${bold}${red}FAILED - ${red}GoogleBot was ${bold}${red}NOT RATE LIMITED"
+   exit 1
    fi
 }
 

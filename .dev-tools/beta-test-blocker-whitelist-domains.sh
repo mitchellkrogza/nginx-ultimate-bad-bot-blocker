@@ -88,7 +88,7 @@ if curl http://localhost:9000 -e http://www.myowndomain.com 2>&1 | grep -i 'Welc
    echo "${bold}${green}PASSED - User whitelist-domains.conf working"
 else
    echo "${bold}${red}FAILED - User whitelist-domains.conf NOT working"
-   #exit 1
+   exit 1
 fi
 }
 
@@ -97,7 +97,7 @@ if curl http://localhost:9000 -e http://www.myotherdomain.com 2>&1 | grep -i 'We
    echo "${bold}${green}PASSED - User whitelist-domains.conf working"
 else
    echo "${bold}${red}FAILED - User whitelist-domains.conf NOT working"
-   #exit 1
+   exit 1
 fi
 }
 
