@@ -75,7 +75,7 @@ UAmustnotmatch[0]="Titanium"
 UAmustnotmatch[1]="Nutchers"
 UAmustnotmatch[2]="SNutch"
 UAmustnotmatch[3]="Bing"
-UAmustnotmatch[3]="bing"
+UAmustnotmatch[4]="bing"
 
 # ---------
 # FUNCTIONS
