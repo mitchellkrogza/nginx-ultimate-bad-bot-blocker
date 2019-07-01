@@ -183,6 +183,8 @@ done
 
 UAtest_mustmatch
 UAtest_mustnotmatch
+REFtest_mustmatch
+REFtest_mustnotmatch
 
 echo "${bold}${cyan}False Positive Testing Completed"
 echo "${bold}${green}All Tests Passed"
