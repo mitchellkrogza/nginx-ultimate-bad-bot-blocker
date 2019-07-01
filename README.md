@@ -21,7 +21,7 @@ ____________________
 [<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
 
 ************************************************
-- Created by: https://github.com/mitchellkrogza for use on Nginx Web Server https://www.nginx.com/
+- Created by: [Mitchell Krog](https://github.com/mitchellkrogza) for use on [Nginx Web Server](https://www.nginx.com/)
 - Copyright Mitchell Krog <mitchellkrog@gmail.com>
 
 _______________________
