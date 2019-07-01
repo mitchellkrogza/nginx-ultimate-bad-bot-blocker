@@ -156,7 +156,7 @@ do
    echo "${bold}${green}PASSED - ${red}${mustmatch} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${mustmatch} was ${bold}${red}NOT BLOCKED"
-   #exit 1
+   exit 1
    fi
 done
 }
@@ -167,7 +167,7 @@ do
    if
    curl -I http://localhost:9000 -e "${mustnotmatch}" 2>&1 | grep -i '(52)'; then
    echo "${bold}${red}FAILED (FALSE POSITIVE DETECTED) - ${bold}${red}${mustnotmatch}"
-   #exit 1
+   exit 1
    else
    echo "${bold}${green}PASSED (FALSE POSITIVE NOT DETECTED) - ${bold}${red}${mustnotmatch}"
    fi
