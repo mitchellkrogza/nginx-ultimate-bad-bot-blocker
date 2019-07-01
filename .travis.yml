@@ -54,12 +54,12 @@ script:
   # FROM HERE WE TEST ANY NEW CHANGES TO THE BLOCKER
   - bash .dev-tools/install-nginx-1.sh
   - bash .dev-tools/beta-install-nginx-testing-of-changes.sh
+  - bash .dev-tools/beta-test-blocker-false-positives.sh
   - bash .dev-tools/beta-test-blocker.sh
   - bash .dev-tools/beta-test-blocker-badwords.sh
   - bash .dev-tools/beta-test-blocker-whitelist-domains.sh
   - bash .dev-tools/beta-test-blocker-whitelist-ips.sh
   - bash .dev-tools/beta-test-blocker-rate-limiting.sh
-  - bash .dev-tools/beta-test-blocker-false-positives.sh
   - bash .dev-tools/beta-test-blocker-whitelist.sh
   # HERE WE TEST NGINX MAINLINE
   - bash .dev-tools/install-nginx-mainline-ppa.sh
