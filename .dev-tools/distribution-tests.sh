@@ -93,13 +93,13 @@ echo "${bold}${magenta}Execute setup-ngxblocker - Ubuntu 18.04.2 LTS"
 echo "${bold}${magenta}---------------------------------------------"
 printf "\n"
 cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/ubuntu-18.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/ubuntu-18.04/etc/nginx/bots.d
+sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/ubuntu-18.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/ubuntu-18.04/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/ubuntu-18.04/etc/nginx/nginx.conf
 }
 
 installngxblocker_ubuntu_1804_NI () {
-echo "${bold}${magenta}-----------------------------------------------"
-echo "${bold}${magenta}Execute install-ngxblocker - Ubuntu 18.04.2 LTS"
-echo "${bold}${magenta}-----------------------------------------------"
+echo "${bold}${magenta}------------------------------------------------------------------"
+echo "${bold}${magenta}Execute install-ngxblocker - Ubuntu 18.04.2 LTS (Missing includes)"
+echo "${bold}${magenta}------------------------------------------------------------------"
 printf "\n"
 cd /usr/sbin
 # Reset Test
@@ -109,12 +109,12 @@ sudo bash ./install-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution
 
 setupngxblocker_ubuntu_1804_NI () {
 printf "\n"
-echo "${bold}${magenta}---------------------------------------------"
-echo "${bold}${magenta}Execute setup-ngxblocker - Ubuntu 18.04.2 LTS"
-echo "${bold}${magenta}---------------------------------------------"
+echo "${bold}${magenta}----------------------------------------------------------------"
+echo "${bold}${magenta}Execute setup-ngxblocker - Ubuntu 18.04.2 LTS (Missing includes)"
+echo "${bold}${magenta}----------------------------------------------------------------"
 printf "\n"
 cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/bots.d
+sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/nginx.conf
 }
 
 backupConfFiles () {
@@ -125,6 +125,9 @@ echo "${bold}${green}-------------------------------------------------------"
 printf "\n"
 }
 
+commitchanges () {
+git add -A
+}
 
 # -----------------
 # Trigger Functions
@@ -134,6 +137,10 @@ installngxblocker_ubuntu_1804
 setupngxblocker_ubuntu_1804
 installngxblocker_ubuntu_1804_NI
 setupngxblocker_ubuntu_1804_NI
+
+
+# Catch incremental changes during build process
+commitchanges
 
 # ----------------------
 # Exit With Error Number
