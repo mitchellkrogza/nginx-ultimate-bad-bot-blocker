@@ -36,9 +36,9 @@ install:
   - sudo apt-get -y install dos2unix
 
 script:
-  # GENERATE THE BLOCKER FILES
+  # GENERATE BLOCKER FILES
   - bash .dev-tools/generate-files.sh
-  # HERE WE TEST THE NEWLY GENERATED BLOCKER FILES
+  # THE NEWLY GENERATED BLOCKER FILES
   - bash .dev-tools/install-nginx-1.sh
   - bash .dev-tools/test-blocker-false-positives.sh
   - bash .dev-tools/test-blocker-quick.sh
@@ -47,12 +47,12 @@ script:
   - bash .dev-tools/test-blocker-whitelist-ips.sh
   - bash .dev-tools/test-blocker-rate-limiting.sh
   - bash .dev-tools/test-blocker-whitelist.sh
-  # HERE WE TEST install-ngxblocker update-ngxblocker and setup-ngxblocker
+  # TEST install-ngxblocker update-ngxblocker and setup-ngxblocker
   - bash .dev-tools/install-nginx-2.sh
   - bash .dev-tools/test-nginx-2.sh
   - bash .dev-tools/install-nginx-3.sh
   - bash .dev-tools/test-nginx-3.sh
-  # FROM HERE WE TEST ANY NEW CHANGES TO THE BLOCKER
+  # TEST ANY NEW CHANGES TO THE BLOCKER
   - bash .dev-tools/install-nginx-1.sh
   - bash .dev-tools/beta-install-nginx-testing-of-changes.sh
   - bash .dev-tools/beta-test-blocker-false-positives.sh
@@ -62,11 +62,12 @@ script:
   - bash .dev-tools/beta-test-blocker-whitelist-ips.sh
   - bash .dev-tools/beta-test-blocker-rate-limiting.sh
   - bash .dev-tools/beta-test-blocker-whitelist.sh
-  # HERE WE TEST NGINX MAINLINE
+  # TEST NGINX MAINLINE
   - bash .dev-tools/install-nginx-mainline-ppa.sh
   - bash .dev-tools/test-nginx-mainline-ppa.sh
   - bash .dev-tools/install-nginx-mainline-nginx.sh
   - bash .dev-tools/test-nginx-mainline-nginx.sh
+  # IF ALL TESTS PASSED - COMMIT AND DEPLOY BUILD
   - bash .dev-tools/modify-files-and-commit.sh
 
 before_deploy:
