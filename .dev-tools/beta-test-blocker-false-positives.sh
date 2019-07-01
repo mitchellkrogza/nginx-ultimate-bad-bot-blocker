@@ -63,16 +63,19 @@ defaultcolor=$(tput setaf default)
 # USER-AGENT ARRAY - MUST MATCH
 # -----------------------------
 
-UAmustmatch[0]="Titanium"
+UAmustmatch[0]="Titan"
 UAmustmatch[1]="Nutch"
+UAmustmatch[2]="Ebingbong"
 
 # ---------------------------------
 # USER-AGENT ARRAY - MUST NOT MATCH
 # ---------------------------------
 
-UAmustnotmatch[0]="Titan"
+UAmustnotmatch[0]="Titanium"
 UAmustnotmatch[1]="Nutchers"
 UAmustnotmatch[2]="SNutch"
+UAmustnotmatch[3]="Bing"
+UAmustnotmatch[3]="bing"
 
 # ---------
 # FUNCTIONS
@@ -106,8 +109,7 @@ do
    echo "${bold}${green}PASSED - ${red}${mustmatch} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${mustmatch} was ${bold}${red}NOT BLOCKED"
-   curl -A "${mustmatch}" http://localhost:9000 2>&1
-   #exit 1
+   exit 1
    fi
 done
 }
@@ -118,16 +120,12 @@ do
    if
    curl -A "${mustnotmatch}" http://localhost:9000 2>&1 | grep -i '(52)'; then
    echo "${bold}${red}FAILED (FALSE POSITIVE DETECTED) - ${bold}${red}${mustnotmatch}"
-   #exit 1
+   exit 1
    else
    echo "${bold}${green}PASSED (FALSE POSITIVE NOT DETECTED) - ${bold}${red}${mustnotmatch}"
-   curl -A "${mustnotmatch}" http://localhost:9000 2>&1
    fi
 done
 }
-
-echo "${bold}${cyan}False Positive Testing Completed"
-echo "${bold}${green}All Tests Passed"
 
 # -------------------------
 # Trigger Functions / Tests
@@ -135,6 +133,9 @@ echo "${bold}${green}All Tests Passed"
 
 UAtest_mustmatch
 UAtest_mustnotmatch
+
+echo "${bold}${cyan}False Positive Testing Completed"
+echo "${bold}${green}All Tests Passed"
 
 # ----------------------
 # Exit With Error Number
