@@ -85,7 +85,7 @@ class Generator
     {
         foreach ($lines as $line) {
             //$data .= "\"~*\b" . preg_quote($line) . "\"\b" "\t1;\n";
-            $data .= '"' . '~*(?:\\' . 'b)' . preg_quote($line) . '(?:\\' . "b|)\" \t0;\n";
+            $data .= '"' . '~*(?:\\' . 'b)' . preg_quote($line) . '(?:\\' . "b)\" \t0;\n";
         }
         $this->writeToFile($file, $data);
     	}
