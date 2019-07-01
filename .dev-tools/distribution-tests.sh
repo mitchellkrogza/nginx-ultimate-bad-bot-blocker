@@ -140,7 +140,7 @@ setupngxblocker_ubuntu_1804_NI
 
 
 # Catch incremental changes during build process
-commitchanges
+#commitchanges
 
 # ----------------------
 # Exit With Error Number
