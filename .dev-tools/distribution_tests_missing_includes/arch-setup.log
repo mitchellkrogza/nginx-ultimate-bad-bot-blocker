@@ -8,7 +8,7 @@ Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-ba
 inserting: include /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/conf.d/globalblacklist.conf;            => /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/nginx.conf
 inserting: include /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/conf.d/botblocker-nginx-settings.conf;  => /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/nginx.conf
 
-Whitelisting ip:  35.202.145.110  => /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/bots.d/whitelist-ips.conf
+Whitelisting ip:  35.193.14.140   => /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/bots.d/whitelist-ips.conf
 
 Checking for missing includes:
 
