@@ -67,6 +67,8 @@ installarch=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/a
 setuparch=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch-setup.log
 installcentos=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos-install.log
 setupcentos=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos-setup.log
+installfedora=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora-install.log
+setupfedora=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora-setup.log
 
 # ---------
 # FUNCTIONS
@@ -172,6 +174,27 @@ cd /usr/sbin
 sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/nginx.conf
 }
 
+installngxblocker_fedora () {
+echo "${bold}${magenta}------------------------------------------------------"
+echo "${bold}${magenta}Execute install-ngxblocker - Fedora (Missing includes)"
+echo "${bold}${magenta}------------------------------------------------------"
+printf "\n"
+cd /usr/sbin
+# Reset Test
+sudo rsync -avzh ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/unmodified/fedora/ ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/
+sudo bash ./install-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/bots.d
+}
+
+setupngxblocker_fedora () {
+printf "\n"
+echo "${bold}${magenta}----------------------------------------------------"
+echo "${bold}${magenta}Execute setup-ngxblocker - Fedora (Missing includes)"
+echo "${bold}${magenta}----------------------------------------------------"
+printf "\n"
+cd /usr/sbin
+sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/nginx.conf
+}
+
 # -----------------
 # Trigger Functions
 # -----------------
@@ -184,6 +207,8 @@ installngxblocker_arch > ${installarch}
 setupngxblocker_arch > ${setuparch}
 installngxblocker_centos > ${installcentos}
 setupngxblocker_centos > ${setupcentos}
+installngxblocker_fedora > ${installfedora}
+setupngxblocker_fedora > ${setupfedora}
 
 # ----------------------
 # Exit With Error Number
