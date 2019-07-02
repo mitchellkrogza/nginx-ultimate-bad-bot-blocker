@@ -1,0 +1,23 @@
+
+[1m[35m----------------------------------------------------
+[1m[35mExecute setup-ngxblocker - Fedora (Missing includes)
+[1m[35m----------------------------------------------------
+
+Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
+
+inserting: include /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/conf.d/globalblacklist.conf;            => /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/nginx.conf
+inserting: include /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/conf.d/botblocker-nginx-settings.conf;  => /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/nginx.conf
+
+Whitelisting ip:  34.68.144.114   => /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/bots.d/whitelist-ips.conf
+
+Checking for missing includes:
+
+Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
+
+Nothing to update for directory: /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/conf.d
+Nothing to update for directory: /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/bots.d
+Nothing to update for directory: /usr/local/sbin
+Setting mode: 700 => /usr/local/sbin/install-ngxblocker
+Setting mode: 700 => /usr/local/sbin/setup-ngxblocker
+Setting mode: 700 => /usr/local/sbin/update-ngxblocker
+[1m[32mUpdating bots.d path[0m: [1m[37m/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/bots.d => /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/conf.d/globalblacklist.conf[0m
