@@ -1,0 +1,478 @@
+#!/bin/sh
+
+###  NGINX Bad Bot Blocker: setup script #################
+###  Copyright (C) 2017 Stuart Cardall                 ###
+###  https://github.com/itoffshore                     ###
+###  Licensed under the terms of the GPL2              ###
+##########################################################
+
+WWW=/var/www
+VHOST_EXT="vhost"
+VHOST_DIR=/etc/nginx/sites-available
+BOTS_DIR=/etc/nginx/bots.d
+CONF_DIR=/etc/nginx/conf.d
+MAIN_CONF=/etc/nginx/nginx.conf
+INSTALLER=/usr/local/sbin/install-ngxblocker
+# setting Y / yes will whitelist only directories in $www
+# that look like domain.names
+DOT_NAMES="Y"
+# if you already set 'limit_conn addr' you may want to set
+# this to N / no.
+INC_DDOS="Y"
+
+####### end user configuration ###########################
+
+BOLDGREEN="\033[1m\033[32m"
+BOLDMAGENTA="\033[1m\033[35m"
+BOLDRED="\033[1m\033[31m"
+BOLDYELLOW="\033[1m\033[33m"
+BOLDWHITE="\033[1m\033[37m"
+RESET="\033[0m"
+
+usage() {
+        local script=$(basename $0)
+        cat <<EOF
+$script: SETUP Nginx Bad Bot Blocker configuration in [ $MAIN_CONF ] [ $VHOST_DIR/* ]
+
+Usage: $script [OPTIONS]
+	[ -w ] : WWW path                      (default: $WWW)
+	[ -e ] : Vhost file extension          (default: .$VHOST_EXT)
+	[ -v ] : Vhost directory               (default: $VHOST_DIR)
+	[ -b ] : Bot rules directory           (default: $BOTS_DIR)
+	[ -c ] : NGINX conf directory          (default: $CONF_DIR)
+	[ -m ] : NGINX main configuration      (default: $MAIN_CONF)
+	[ -i ] : Change installer path         (default: $INSTALLER)
+	[ -l ] : Manual whitelist of domain    (default: none)
+	[ -n ] : NO whitelist of .names only   (default: $DOT_NAMES)
+	[ -d ] : NO insert of DDOS rule        (default: $INC_DDOS)
+	[ -x ] : Actually change the files     (default: don't change anything)
+	[ -h ] : this help message
+
+Examples:
+ $script -n    (Whitelist all directory names in $WWW as domains: not just dot.name directories)
+ $script -l domain1.com -l domain2.com (Whitelist these manual domain name args)
+ $script -d    (Do not insert DDOS rule: these may clash with existing 'limit_conn addr' rules)
+ $script       (Don't change anything: display results on stdout)
+ $script -x    (Change / update config files)
+EOF
+        exit 0
+}
+
+update_paths() {
+	# variables in nginx include files not currently possible
+	# updates hard coded bots.d path in globalblacklist.conf
+	local blacklist=$1 include_paths= dir= x=
+
+	if ! grep "$BOTS_DIR" $blacklist 1>/dev/null; then
+		if [ -d $BOTS_DIR ]; then
+			printf "${BOLDGREEN}Updating bots.d path${RESET}: ${BOLDWHITE}$BOTS_DIR => $blacklist${RESET}\n"
+			include_paths=$(grep -E "include /.*.conf;$" $blacklist | awk '{print $2}' | tr -d ';')
+
+			for x in $include_paths; do
+				dir=$(dirname $x)
+				sed -i "s|$dir|$BOTS_DIR|" $blacklist
+			done
+		else
+			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}.\n"
+			$INSTALL_INC
+			update_paths $blacklist
+		fi
+	fi
+}
+
+check_config() {
+	if [ -z "$FILE_LIST" ]; then
+		printf "${BOLDGREEN}using a file extension for vhost files allows multiple domains to be included with a single directive in nginx.conf:\n\n"
+		printf "${BOLDWHITE}include /etc/nginx/sites-enabled/*.vhost;\n\n"
+		printf "${BOLDYELLOW}see command line switches below: ${BOLDGREEN}-e ${RESET}to customise the vhost file extension\n\n"
+		printf "${BOLDMAGENTA}no vhost files in:${RESET} [ $VHOST_DIR/*.$VHOST_EXT ] ${BOLDWHITE}=> exiting${RESET}.\n\n"
+		usage
+	fi
+
+	if [ ! -f "$MAIN_CONF" ]; then
+		printf "${BOLDYELLOW}see command line switches below: ${BOLDGREEN}-m ${RESET}to customise the location of ${BOLDWHITE}nginx.conf${RESET}\n\n"
+		printf "${BOLDWHITE}NGINX main configuration${RESET} [ $MAIN_CONF ] ${BOLDMAGENTA}not found ${BOLDWHITE}=> exiting${RESET}.\n\n"
+		usage
+	fi
+}
+
+find_vhosts() {
+	local ans=
+	FILE_LIST=$(find $VHOST_DIR -type f -name "*.$VHOST_EXT")
+
+	if [ -z "$FILE_LIST" ]; then
+		find $VHOST_DIR -type f
+		printf "\n${BOLDWHITE}Configure every file above as a vhost ? [Y/N] : "; read ans
+		case "$ans" in
+			y*|Y*) FILE_LIST=$(find $VHOST_DIR -type f);;
+		esac
+	fi
+}
+
+whitelist_ips() {
+	local ip= conf=$BOTS_DIR/whitelist-ips.conf
+
+	mkdir -p $BOTS_DIR
+
+	ip=$(curl -s ifconfig.co)
+	if ! grep "$ip" $conf >/dev/null 2>&1; then
+		printf "\n%-17s %-15s %-s\n" "Whitelisting ip:" "$ip" "=> $conf"
+		if [ "$DRY_RUN" = "N" ]; then
+			printf "%-23s %-s\n" "$ip" "0;" >> $conf
+		fi
+	fi
+}
+
+whitelist_domains() {
+	local domain_list= domain= domain_len=
+	local conf=$BOTS_DIR/whitelist-domains.conf
+
+	case "$DOT_NAMES" in
+		y*|Y*) domain_list=$(find $WWW -mindepth 1 -maxdepth 1 -type d -name '*\.*' -exec basename {} \;);;
+		    *) domain_list=$(find $WWW -mindepth 1 -maxdepth 1 -type d -exec basename {} \;);;
+	esac
+
+	domain_len=$(find $WWW -mindepth 1 -maxdepth 1 -type d  -exec basename {} \; \
+		| awk '{ print length ($0) }' | sort -nr | head -1)
+
+	whitelist_print Auto $domain_len $domain_list
+}
+
+whitelist_manual_domains() {
+	local x= domain= domain_len=0
+	local conf=$BOTS_DIR/whitelist-domains.conf
+
+	for domain in $DOMAINS; do
+		x=$(echo $domain | wc -m)
+
+		if [ $x -gt $domain_len ]; then
+			domain_len=$x
+		fi
+	done
+
+	whitelist_print Manual $domain_len $DOMAINS
+}
+
+whitelist_print() {
+	local type=$1 domain= domain_len=$2 domain_list="$(echo $@ | cut -f3- -d ' ')"
+	local conf=$BOTS_DIR/whitelist-domains.conf
+
+        for domain in $domain_list; do
+                if ! grep "$domain" $conf >/dev/null 2>&1; then
+                        printf "%-s %-$(( $domain_len +2))s %s\n" "$type Whitelist:" "$domain" "=> $conf"
+                        if [ "$DRY_RUN" = "N" ]; then
+                                printf "%-$(( $domain_len +8))s %s\n" "\"~*$domain\"" "0;" >> $conf
+                        fi
+                fi
+        done
+}
+
+
+
+longest_str() {
+	echo $@ | tr " " "\n" | awk '{print length ($0)}' | sort -nr | head -n1
+}
+
+check_wildcard() {
+	local file=$1 dir=$(basename $2)
+	local check="$(grep -E "include[[:alnum:] /]+$dir/\*" $file)"
+	echo $check
+}
+
+add_includes() {
+	local ph='<<!!>>' line=$1 file=$2 conf_dir=$3 col_size=$4 text= update=
+	local include_list="$(echo $@ | awk '{$1=$2=$3=$4=""}sub("^"OFS"+","")')"
+
+	for text in $include_list; do
+		if ! grep "$text" $file 1>/dev/null; then
+			update='true'
+			text="include $conf_dir/$text;"
+			printf "%-10s %-${col_size}s %s\n" "inserting:" "$text" "=> $file"
+			if [ "$DRY_RUN" = "N" ]; then
+				# $ph is just a placeholder so sed inserts a \t (tab)
+				sed -i "$line i $ph \t$text $ph" $file
+			fi
+		fi
+	done
+
+	if [ "$DRY_RUN" = "N" ]; then
+		if [ -n "$update" ]; then
+			#add blank line below inserts
+			line=$(( $line + $(echo $include_list | wc -w) ))
+			if ! sed -n "${line}p" $file | grep ^'}' 1>/dev/null; then
+				text="include $conf_dir/$(echo $include_list | awk '{print $1}');"
+				sed -i "s|$text|$text\n|" $file
+			fi
+
+			#add comment above inserts
+			text="include $conf_dir/$(echo $include_list | awk '{print $NF}');"
+			sed -i "s|$text|\n\n# Nginx Bad Bot Blocker Includes\n# REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker\n\t$text|" $file
+
+			# remove placeholders
+			sed -i "s|$ph||g" $file
+		fi
+	fi
+}
+
+find_line() {
+	local file=$1 find_str=$2 first_last=$3
+
+	case "$first_last" in
+		# ignore file #comments
+		first) awk "/$find_str/{ print NR; exit }" $file;;
+		last) awk "/$find_str/{ print NR }" $file | tail -n1;;
+	esac
+}
+
+find_includes() {
+	local file=$1 search=$2 search_first_last=$3 line= tmp=$(mktemp)
+	local start_range=$4 start_first_last=$5
+	local end_range=$6 end_first_last=$7
+	local start=$(find_line $file $start_range $start_first_last)
+	local end=$(find_line $file $end_range $end_first_last)
+
+	if [ -n "$start" ] && [ -n "$end" ]; then
+		sed -n "$start,$end"p $file > $tmp
+		line=$(find_line $tmp $search $search_first_last)
+		rm -f $tmp
+	fi
+
+	# search string not found
+	if [ -z "$line" ]; then
+		line=1
+	fi
+
+	case "$search_first_last" in
+		first) line=$(( $line + $start -1 ));;
+		 last) line=$(( $line + $start +1 ));;
+	esac
+
+	# if inserting beyond the end of the stanza
+	if [ "$(sed -n $(( $line - 1))p $file | grep ^})" = "}" ]; then
+		# insert blank line
+		sed -i "$(( line - 1)) i \ " $file
+	fi
+
+	echo $line
+}
+
+sanitize_path() {
+	echo $1 |tr -cd '[:alnum:] [=@=] [=.=] [=-=] [=/=] [=_=]' \
+		|tr -s '@.-/_' |awk '{print tolower($0)}'
+}
+
+sanitize_ext() {
+	echo $1 |tr -cd '[:alnum:]' |awk '{print tolower($0)}'
+}
+
+check_args() {
+	local option=$1 type=$2 arg=$3
+	local msg="ERROR: option '-$option' argument '$arg' requires:"
+
+	case "$type" in
+		path)   if ! echo $arg | grep ^/ 1>/dev/null; then
+				printf "$msg absolute path.\n"
+				exit 1
+			fi
+			;;
+	      script)	if [ ! -x $arg ]; then
+				printf "$msg '$arg' is not executable / does not exist.\n"
+				exit 1
+			fi
+			;;
+		none)   printf "$msg argument.\n"; exit 1;;
+	esac
+}
+
+find_binary() {
+        local x= path= binary=$1 bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
+
+        for x in $bin_paths; do
+                path="$x/$binary"
+
+                if [ -x $path ]; then
+                        echo $path
+                        return
+                fi
+        done
+}
+
+check_depends() {
+	# centos does not have which by default
+	if [ -z $(find_binary curl) ]; then
+		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}\n"
+		exit 1
+	fi
+
+	# install-ngxblocker downloads missing scripts / includes as part of the update process
+	if [ ! -x $INSTALLER ]; then
+		printf "${BOLDRED}ERROR${RESET}: $0 requires: '$INSTALLER' => ${BOLDWHITE}cannot update includes.${RESET}\n"
+		exit 1
+	fi
+}
+
+check_nginx_directives() {
+	# avoid directive conflicts with nginx.conf
+	local x= bot_config="$CONF_DIR"/botblocker-nginx-settings.conf
+
+	# directives sourced from include_filelist.txt
+	for x in $NGINX_DIRECTIVES; do
+		if grep -E "(^$x|^[[:space:]]+$x)" 1>/dev/null $MAIN_CONF; then
+			printf "${BOLDYELLOW}setup will fix conflict from: '$x' in $bot_config${RESET}\n"
+			if [ "$DRY_RUN" = "N" ]; then
+				printf "${BOLDRED}disabling '$x' in: $bot_config${RESET}\n"
+				sed "s|$x|#$x|" $bot_config | grep $x
+				printf " ${BOLDGREEN}disabled OK${RESET}\n\n"
+			fi
+		fi
+	done
+}
+
+get_options() {
+	local arg= opts=
+
+	while getopts :w:l:e:v:b:c:m:i:ndxh opts "$@"
+	do
+		if [ -n "${OPTARG}" ]; then
+			case "$opts" in
+				e) arg=$(sanitize_ext ${OPTARG});;
+				*) arg=$(sanitize_path ${OPTARG});;
+			esac
+		fi
+
+		case "$opts" in
+			w) WWW=$arg; check_args $opts path $arg ;;
+			l) DOMAINS="$DOMAINS $arg" ;;
+			e) VHOST_EXT=$arg;;
+			v) VHOST_DIR=$arg; check_args $opts path $arg ;;
+			b) BOTS_DIR=$arg; check_args $opts path $arg ;;
+			c) CONF_DIR=$arg; check_args $opts path $arg ;;
+			m) MAIN_CONF=$arg; check_args $opts path $arg ;;
+			i) INSTALLER=$arg; check_args $opts script $arg ;;
+			n) DOT_NAMES=N ;;
+			d) INC_DDOS=N ;;
+			x) DRY_RUN=N ;;
+			h) usage ;;
+			\?) usage ;;
+			:) check_args $OPTARG none none ;;
+		esac
+	done
+
+	INSTALL_INC="$INSTALLER -b $BOTS_DIR -c $CONF_DIR -x"
+}
+
+check_online() {
+	local url=$1
+	local response_code=$(curl -o /dev/null --silent --head --write-out '%{http_code}' $url)
+
+	if [ "$response_code" = "200" ]; then
+		echo "true"
+	fi
+}
+
+main() {
+	local include_url= file= line= col_size= blacklist=
+	local CONF_FILES= VHOST_INCLUDES=
+	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+
+	# require root
+	if [ "$(id -u)" != "0" ]; then
+		echo "This script must be run as root" 1>&2
+		exit 1
+	fi
+
+	# parse command line
+	get_options $@
+	check_depends
+
+	# check vhosts
+	find_vhosts
+	check_config
+
+	# check repo is online & source includes
+	include_url=$REPO/include_filelist.txt
+
+	printf "Checking url: $include_url\n"
+	if [ -n "$(check_online $include_url)" ]; then
+		local tmp=$(mktemp)
+		curl -s -o $tmp $include_url
+		# use period not source in POSIX shell
+		. $tmp 2>/dev/null
+		rm -f $tmp
+	else
+		printf "Repo down or missing: $include_url\n"
+		exit 1
+	fi
+
+	# double check we have some files sourced
+	if [ -z "$CONF_FILES" ] || [ -z "$VHOST_INCLUDES" ]; then
+		printf "Error sourcing variables from: $include_url\n"
+		exit 1
+	fi
+
+	# configure ddos include
+	case "$INC_DDOS" in
+		n*|N*) VHOST_INCLUDES=$(echo $VHOST_INCLUDES | sed 's|ddos.conf||');;
+	esac
+
+	# by default do not change any files
+	if [ -z "$DRY_RUN" ]; then
+		printf "\n** Dry Run ** | not updating files | run  as '$(basename $0) -x' to setup files.\n\n"
+	else
+		printf "\n"
+	fi
+
+	# calculate column size for better message printing
+	col_size=$(( $(longest_str $CONF_FILES) + $(echo $CONF_DIR | wc -m) + 10 ))
+
+	# update main config
+	#line=$(find_includes $MAIN_CONF include last http first '\}' last )
+	line=$(find_includes $MAIN_CONF include first http first '\}' last )
+	if [ -n "$(check_wildcard $MAIN_CONF $CONF_DIR)" ]; then # also recalculate column width
+		col_size=$(( $(longest_str $VHOST_INCLUDES) + $(echo $BOTS_DIR | wc -m) + 10 ))
+		printf "%-10s %-${col_size}s %s\n" "INFO:" "$CONF_DIR/* detected" "=> $MAIN_CONF"
+	else                                                    # wildcard conf.d ok in nginx.conf
+		add_includes $line $MAIN_CONF $CONF_DIR $col_size $CONF_FILES
+	fi
+
+	# update vhosts
+	for file in $FILE_LIST; do
+		line=$(find_includes $file include last server_ last location first )
+
+		if [ -n "$(check_wildcard $file $BOTS_DIR)" ]; then
+			# do not use wildcards in vhost files
+			printf "%-10s %-${col_size}s %s\n" "WARN:" "$BOTS_DIR/* detected" "=> $file"
+		else    # do not add includes to vhosts without root directive (i.e redirects)
+			if grep -Ew ^[[:space:]]+root $file 1>/dev/null; then
+				add_includes $line $file $BOTS_DIR $col_size $VHOST_INCLUDES
+			fi
+		fi
+	done
+
+	# check nginx.conf for settings that clash
+	check_nginx_directives
+
+	# whitelisting
+	whitelist_ips
+
+	if [ -d $WWW ]; then
+		whitelist_domains
+	else
+		printf "\nWeb directory not found ('$WWW'): not automatically whitelisting domains.\n"
+	fi
+
+	if [ -n "$DOMAINS" ]; then
+		whitelist_manual_domains
+	fi
+
+	# download new bots.d / conf.d files
+	printf "\nChecking for missing includes:\n\n"
+	$INSTALL_INC
+	blacklist=$(find $CONF_DIR -type f -name globalblacklist.conf)
+	# set custom bots.d path
+	update_paths $blacklist
+}
+
+## START ##
+main $@
+exit $?
