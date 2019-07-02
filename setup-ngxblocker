@@ -206,7 +206,7 @@ add_includes() {
 
 			#add comment above inserts
 			text="include $conf_dir/$(echo $include_list | awk '{print $NF}');"
-			sed -i "s|$text|\n\n# Nginx Bad Bot Blocker Includes\n\t$text|" $file
+			sed -i "s|$text|\n\n# Nginx Bad Bot Blocker Includes\n# REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker\n\t$text|" $file
 
 			# remove placeholders
 			sed -i "s|$ph||g" $file
@@ -219,9 +219,6 @@ find_line() {
 
 	case "$first_last" in
 		# ignore file #comments
-		#first) grep -nE "^[ ]+$find_str" $file | head -n1 | awk -F: '{print $1}';;
-		#last) grep -nE "^[ ]+$find_str" $file | tail -n1 | awk -F: '{print $1}';;
-		# REVERTING TO ORIGINAL WORKING METHOD
 		first) awk "/$find_str/{ print NR; exit }" $file;;
 		last) awk "/$find_str/{ print NR }" $file | tail -n1;;
 	esac
@@ -430,7 +427,6 @@ main() {
 
 	# update main config
 	line=$(find_includes $MAIN_CONF include last http first '\}' last )
-	#line=$(find_includes $MAIN_CONF include last include last '\}' last )
 	if [ -n "$(check_wildcard $MAIN_CONF $CONF_DIR)" ]; then # also recalculate column width
 		col_size=$(( $(longest_str $VHOST_INCLUDES) + $(echo $BOTS_DIR | wc -m) + 10 ))
 		printf "%-10s %-${col_size}s %s\n" "INFO:" "$CONF_DIR/* detected" "=> $MAIN_CONF"
