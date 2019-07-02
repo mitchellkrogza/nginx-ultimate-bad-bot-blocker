@@ -5,8 +5,8 @@
 sending incremental file list
 etc/nginx/nginx.conf
 
-sent 2.01K bytes  received 43 bytes  4.10K bytes/sec
-total size is 20.46K  speedup is 9.99
+sent 2.04K bytes  received 43 bytes  4.17K bytes/sec
+total size is 20.46K  speedup is 9.81
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
 Creating directory: /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/bots.d
