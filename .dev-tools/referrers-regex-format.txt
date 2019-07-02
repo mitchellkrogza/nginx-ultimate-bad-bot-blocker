@@ -2855,6 +2855,7 @@
 "~*(?:\b)informatiecentro\.be(?:\b)" 	1;
 "~*(?:\b)infospot\.pt(?:\b)" 	1;
 "~*(?:\b)infostatsvc\.com(?:\b)" 	1;
+"~*(?:\b)infoupdate\.org(?:\b)" 	1;
 "~*(?:\b)infowarcraft\.ru(?:\b)" 	1;
 "~*(?:\b)inmate\-locator\.us(?:\b)" 	1;
 "~*(?:\b)innodgfdriverhm\.aircus\.com(?:\b)" 	1;
@@ -3902,6 +3903,7 @@
 "~*(?:\b)nate\.com(?:\b)" 	1;
 "~*(?:\b)na\-telefon\.biz(?:\b)" 	1;
 "~*(?:\b)nationalbreakdown\.com(?:\b)" 	1;
+"~*(?:\b)national\-today\-winning\-winner\.club(?:\b)" 	1;
 "~*(?:\b)naturalbreakthroughsresearch\.com(?:\b)" 	1;
 "~*(?:\b)naturalpharm\.com\.ua(?:\b)" 	1;
 "~*(?:\b)naturalshair\.site(?:\b)" 	1;
