@@ -59,8 +59,12 @@ defaultcolor=$(tput setaf default)
 # Log File
 # --------
 
-logfile1=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/install.log
-logfile2=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/setup.log
+installub1804=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu1804-install.log
+setupub1804=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu1804-setup.log
+installub1604=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu1604-install.log
+setupub1604=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu1604-setup.log
+installarch=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch-install.log
+setuparch=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch-setup.log
 
 # ---------
 # FUNCTIONS
@@ -103,12 +107,58 @@ cd /usr/sbin
 sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/nginx.conf
 }
 
+installngxblocker_ubuntu_1604 () {
+echo "${bold}${magenta}------------------------------------------------------------------"
+echo "${bold}${magenta}Execute install-ngxblocker - Ubuntu 16.04.6 LTS (Missing includes)"
+echo "${bold}${magenta}------------------------------------------------------------------"
+printf "\n"
+cd /usr/sbin
+# Reset Test
+sudo rsync -avzh ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/unmodified/ubuntu-16.04/ ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/
+sudo bash ./install-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/etc/nginx/bots.d
+}
+
+setupngxblocker_ubuntu_1604 () {
+printf "\n"
+echo "${bold}${magenta}----------------------------------------------------------------"
+echo "${bold}${magenta}Execute setup-ngxblocker - Ubuntu 16.04.6 LTS (Missing includes)"
+echo "${bold}${magenta}----------------------------------------------------------------"
+printf "\n"
+cd /usr/sbin
+sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/etc/nginx/nginx.conf
+}
+
+installngxblocker_arch () {
+echo "${bold}${magenta}----------------------------------------------------------"
+echo "${bold}${magenta}Execute install-ngxblocker - Arch Linux (Missing includes)"
+echo "${bold}${magenta}----------------------------------------------------------"
+printf "\n"
+cd /usr/sbin
+# Reset Test
+sudo rsync -avzh ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/unmodified/arch/ ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch/
+sudo bash ./install-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/bots.d
+}
+
+setupngxblocker_arch () {
+printf "\n"
+echo "${bold}${magenta}--------------------------------------------------------"
+echo "${bold}${magenta}Execute setup-ngxblocker - Arch Linux (Missing includes)"
+echo "${bold}${magenta}--------------------------------------------------------"
+printf "\n"
+cd /usr/sbin
+sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/nginx.conf
+}
+
 # -----------------
 # Trigger Functions
 # -----------------
 
-installngxblocker_ubuntu_1804 > ${logfile1}
-setupngxblocker_ubuntu_1804 > ${logfile2}
+installngxblocker_ubuntu_1804 > ${installub1804}
+setupngxblocker_ubuntu_1804 > ${setupub1804}
+installngxblocker_ubuntu_1604 > ${installub1604}
+setupngxblocker_ubuntu_1604 > ${setupub1604}
+installngxblocker_arch > ${installarch}
+setupngxblocker_arch > ${setuparch}
 
 # ----------------------
 # Exit With Error Number
