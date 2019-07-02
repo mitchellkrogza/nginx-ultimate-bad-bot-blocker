@@ -110,7 +110,7 @@ echo "${bold}${magenta}Execute setup-ngxblocker - Ubuntu 18.04.2 LTS (Missing in
 echo "${bold}${magenta}----------------------------------------------------------------"
 printf "\n"
 cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/nginx.conf
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/nginx.conf
 }
 
 installngxblocker_ubuntu_1604 () {
@@ -131,7 +131,7 @@ echo "${bold}${magenta}Execute setup-ngxblocker - Ubuntu 16.04.6 LTS (Missing in
 echo "${bold}${magenta}----------------------------------------------------------------"
 printf "\n"
 cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/etc/nginx/nginx.conf
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-16.04/etc/nginx/nginx.conf
 }
 
 installngxblocker_arch () {
@@ -174,7 +174,7 @@ echo "${bold}${magenta}Execute setup-ngxblocker - CentOS 7 (Missing includes)"
 echo "${bold}${magenta}------------------------------------------------------"
 printf "\n"
 cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/nginx.conf
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/nginx.conf
 }
 
 installngxblocker_fedora () {
@@ -195,7 +195,7 @@ echo "${bold}${magenta}Execute setup-ngxblocker - Fedora (Missing includes)"
 echo "${bold}${magenta}----------------------------------------------------"
 printf "\n"
 cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/nginx.conf
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/nginx.conf
 }
 
 installngxblocker_opensuse () {
@@ -216,7 +216,7 @@ echo "${bold}${magenta}Execute setup-ngxblocker - OpenSuse LEAP (Missing include
 echo "${bold}${magenta}-----------------------------------------------------------"
 printf "\n"
 cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-lea[/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-leap/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-leap/etc/nginx/nginx.conf
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-lea[/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-leap/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-leap/etc/nginx/nginx.conf
 }
 
 # -----------------
