@@ -69,6 +69,8 @@ installcentos=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes
 setupcentos=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos-setup.log
 installfedora=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora-install.log
 setupfedora=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora-setup.log
+installopensuse=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-install.log
+setupopensuse=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-setup.log
 
 # ---------
 # FUNCTIONS
@@ -195,6 +197,27 @@ cd /usr/sbin
 sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora/etc/nginx/nginx.conf
 }
 
+installngxblocker_opensuse () {
+echo "${bold}${magenta}-------------------------------------------------------------"
+echo "${bold}${magenta}Execute install-ngxblocker - OpenSuse LEAP (Missing includes)"
+echo "${bold}${magenta}-------------------------------------------------------------"
+printf "\n"
+cd /usr/sbin
+# Reset Test
+sudo rsync -avzh ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/unmodified/opensuse-leap/ ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-leap/
+sudo bash ./install-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-leap/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-leap/etc/nginx/bots.d
+}
+
+setupngxblocker_opensuse () {
+printf "\n"
+echo "${bold}${magenta}-----------------------------------------------------------"
+echo "${bold}${magenta}Execute setup-ngxblocker - OpenSuse LEAP (Missing includes)"
+echo "${bold}${magenta}-----------------------------------------------------------"
+printf "\n"
+cd /usr/sbin
+sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-lea[/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-leap/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-leap/etc/nginx/nginx.conf
+}
+
 # -----------------
 # Trigger Functions
 # -----------------
@@ -209,6 +232,8 @@ installngxblocker_centos > ${installcentos}
 setupngxblocker_centos > ${setupcentos}
 installngxblocker_fedora > ${installfedora}
 setupngxblocker_fedora > ${setupfedora}
+installngxblocker_opensuse > ${installopensuse}
+setupngxblocker_opensuse > ${setupopensuse}
 
 # ----------------------
 # Exit With Error Number
