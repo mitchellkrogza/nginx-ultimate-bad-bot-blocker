@@ -55,6 +55,13 @@ cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
 
+# --------
+# Log File
+# --------
+
+logfile1=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/install.log
+logfile2=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/setup.log
+
 # ---------
 # FUNCTIONS
 # ---------
@@ -76,27 +83,6 @@ sleep 10s
 }
 
 installngxblocker_ubuntu_1804 () {
-echo "${bold}${magenta}-----------------------------------------------"
-echo "${bold}${magenta}Execute install-ngxblocker - Ubuntu 18.04.2 LTS"
-echo "${bold}${magenta}-----------------------------------------------"
-printf "\n"
-cd /usr/sbin
-# Reset Test
-sudo rsync -avzh ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/unmodified/ubuntu-18.04/ ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/ubuntu-18.04/
-sudo bash ./install-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/ubuntu-18.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/ubuntu-18.04/etc/nginx/bots.d
-}
-
-setupngxblocker_ubuntu_1804 () {
-printf "\n"
-echo "${bold}${magenta}---------------------------------------------"
-echo "${bold}${magenta}Execute setup-ngxblocker - Ubuntu 18.04.2 LTS"
-echo "${bold}${magenta}---------------------------------------------"
-printf "\n"
-cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/ubuntu-18.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/ubuntu-18.04/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_default/ubuntu-18.04/etc/nginx/nginx.conf
-}
-
-installngxblocker_ubuntu_1804_NI () {
 echo "${bold}${magenta}------------------------------------------------------------------"
 echo "${bold}${magenta}Execute install-ngxblocker - Ubuntu 18.04.2 LTS (Missing includes)"
 echo "${bold}${magenta}------------------------------------------------------------------"
@@ -107,7 +93,7 @@ sudo rsync -avzh ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_inclu
 sudo bash ./install-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/bots.d
 }
 
-setupngxblocker_ubuntu_1804_NI () {
+setupngxblocker_ubuntu_1804 () {
 printf "\n"
 echo "${bold}${magenta}----------------------------------------------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker - Ubuntu 18.04.2 LTS (Missing includes)"
@@ -117,30 +103,12 @@ cd /usr/sbin
 sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/nginx.conf
 }
 
-backupConfFiles () {
-printf "\n"
-echo "${bold}${green}-------------------------------------------------------"
-echo "${bold}${green}Backup all conf files and folders used during this test"
-echo "${bold}${green}-------------------------------------------------------"
-printf "\n"
-}
-
-commitchanges () {
-git add -A
-}
-
 # -----------------
 # Trigger Functions
 # -----------------
 
-installngxblocker_ubuntu_1804
-setupngxblocker_ubuntu_1804
-installngxblocker_ubuntu_1804_NI
-setupngxblocker_ubuntu_1804_NI
-
-
-# Catch incremental changes during build process
-#commitchanges
+installngxblocker_ubuntu_1804 > ${logfile1}
+setupngxblocker_ubuntu_1804 > ${logfile2}
 
 # ----------------------
 # Exit With Error Number
