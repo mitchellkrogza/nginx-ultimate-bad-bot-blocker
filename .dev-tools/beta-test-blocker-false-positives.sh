@@ -142,7 +142,7 @@ do
    echo "${bold}${red}FAILED (FALSE POSITIVE DETECTED) - ${bold}${red}${mustnotmatch}"
    exit 1
    else
-   echo "${bold}${green}PASSED (FALSE POSITIVE NOT DETECTED) - ${bold}${red}${mustnotmatch}"
+   echo "${bold}${green}PASSED (No False Positive) - ${bold}${red}${mustnotmatch}"
    fi
 done
 }
@@ -172,7 +172,7 @@ do
    echo "${bold}${red}FAILED (FALSE POSITIVE DETECTED) - ${bold}${red}${mustnotmatch}"
    exit 1
    else
-   echo "${bold}${green}PASSED (FALSE POSITIVE NOT DETECTED) - ${bold}${red}${mustnotmatch}"
+   echo "${bold}${green}PASSED (No False Positive) - ${bold}${red}${mustnotmatch}"
    fi
 done
 }
