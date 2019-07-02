@@ -206,7 +206,7 @@ add_includes() {
 
 			#add comment above inserts
 			text="include $conf_dir/$(echo $include_list | awk '{print $NF}');"
-			sed -i "s|$text|\n\n# Nginx Bad Bot Blocker Includes\n# REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker\n\t$text|" $file
+			sed -i "s|$text|\n\n##\n# Nginx Bad Bot Blocker Includes\n# REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker\n##\n\t$text|" $file
 
 			# remove placeholders
 			sed -i "s|$ph||g" $file
