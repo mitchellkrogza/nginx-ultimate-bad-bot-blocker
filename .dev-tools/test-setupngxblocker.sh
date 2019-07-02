@@ -55,45 +55,68 @@ cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
 
-# --------
-# Log File
-# --------
-
-installub1804=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu1804-install.log
-setupub1804=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu1804-setup.log
-installub1604=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu1604-install.log
-setupub1604=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu1604-setup.log
-installarch=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch-install.log
-setuparch=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch-setup.log
-installcentos=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos-install.log
-setupcentos=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos-setup.log
-installfedora=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora-install.log
-setupfedora=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/fedora-setup.log
-installopensuse=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-install.log
-setupopensuse=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/opensuse-setup.log
-
 # ---------
 # FUNCTIONS
 # ---------
 
 setup_ubuntu_1804 () {
-printf "\n"
-echo "${bold}${magenta}----------------------------------------------------------------"
-echo "${bold}${magenta}Execute setup-ngxblocker - Ubuntu 18.04.2 LTS (Missing includes)"
-echo "${bold}${magenta}----------------------------------------------------------------"
-printf "\n"
-cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu18.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu18.conf.modified 
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu18.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu18.conf.modified 
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu18.conf.modified
 }
 
 setup_ubuntu_1804MI () {
-printf "\n"
-echo "${bold}${magenta}----------------------------------------------------------------"
-echo "${bold}${magenta}Execute setup-ngxblocker - Ubuntu 18.04.2 LTS (Missing includes)"
-echo "${bold}${magenta}----------------------------------------------------------------"
-printf "\n"
-cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu18.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu18.conf.modified 
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu18.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu18.conf.modified 
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu18.conf.modified
+}
+
+setup_ubuntu_1604 () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu16.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu16.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu16.conf.modified
+}
+
+setup_ubuntu_1604MI () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu16.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu16.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu16.conf.modified
+}
+
+setup_arch () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/arch.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/arch.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/arch.conf.modified
+}
+
+setup_archMI () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/arch.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/arch.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/arch.conf.modified
+}
+
+setup_centos () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/centos.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/centos.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/centos.conf.modified
+}
+
+setup_centosMI () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/centos.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/centos.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/centos.conf.modified
+}
+
+setup_fedora () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/fedora.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/fedora.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/fedora.conf.modified
+}
+
+setup_fedoraMI () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/fedora.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/fedora.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/fedora.conf.modified
+}
+
+setup_opensuse () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/opensuse.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/opensuse.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/opensuse.conf.modified
+}
+
+setup_opensuseMI () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/opensuse.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/opensuse.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/opensuse.conf.modified
 }
 
 # -----------------
@@ -102,6 +125,17 @@ sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m
 
 setup_ubuntu_1804
 setup_ubuntu_1804MI
+setup_ubuntu_1604
+setup_ubuntu_1604MI
+setup_arch
+setup_archMI
+setup_centos
+setup_centosMI
+setup_fedora
+setup_fedoraMI
+setup_opensuse
+setup_opensuseMI
+
 
 # ----------------------
 # Exit With Error Number

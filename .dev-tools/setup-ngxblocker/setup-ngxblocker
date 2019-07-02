@@ -427,8 +427,7 @@ main() {
 
 	# update main config
 	#line=$(find_includes $MAIN_CONF include last http first '\}' last )
-	#line=$(find_includes $MAIN_CONF include first http first '\}' last )
-	line=$(find_includes $MAIN_CONF '#' first http first '\}' last )
+	line=$(find_includes $MAIN_CONF sendfile last http first '\}' last )
 	if [ -n "$(check_wildcard $MAIN_CONF $CONF_DIR)" ]; then # also recalculate column width
 		col_size=$(( $(longest_str $VHOST_INCLUDES) + $(echo $BOTS_DIR | wc -m) + 10 ))
 		printf "%-10s %-${col_size}s %s\n" "INFO:" "$CONF_DIR/* detected" "=> $MAIN_CONF"
