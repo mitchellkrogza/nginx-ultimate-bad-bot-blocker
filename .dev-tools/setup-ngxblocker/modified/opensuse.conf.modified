@@ -40,8 +40,10 @@ http {
     #tcp_nopush     on;
  	
 
+##
 # Nginx Bad Bot Blocker Includes
 # REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
+##
 	include /etc/nginx/conf.d/botblocker-nginx-settings.conf; 
  	include /etc/nginx/conf.d/globalblacklist.conf;
  
