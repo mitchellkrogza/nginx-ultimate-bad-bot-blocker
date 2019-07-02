@@ -234,6 +234,7 @@ activateLatestBlacklist
 runsetupngxblocker1
 reloadNginX
 waitforReload
+backupConfFiles
 
 # ----------------------
 # Exit With Error Number
