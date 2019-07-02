@@ -3,39 +3,10 @@
 [1m[35m------------------------------------------------------------------
 
 sending incremental file list
-./
-.keep
-etc/
-etc/.keep
-etc/nginx/
-etc/nginx/fastcgi.conf
-etc/nginx/fastcgi_params
-etc/nginx/koi-utf
-etc/nginx/koi-win
-etc/nginx/mime.types
 etc/nginx/nginx.conf
-etc/nginx/proxy_params
-etc/nginx/scgi_params
-etc/nginx/uwsgi_params
-etc/nginx/win-utf
-etc/nginx/conf.d/
-etc/nginx/conf.d/.keep
-etc/nginx/modules-available/
-etc/nginx/modules-available/.keep
-etc/nginx/modules-enabled/
-etc/nginx/modules-enabled/.keep
-etc/nginx/sites-available/
-etc/nginx/sites-available/.keep
-etc/nginx/sites-available/default
-etc/nginx/sites-enabled/
-etc/nginx/sites-enabled/.keep
-etc/nginx/snippets/
-etc/nginx/snippets/.keep
-etc/nginx/snippets/fastcgi-php.conf
-etc/nginx/snippets/snakeoil.conf
 
-sent 9.56K bytes  received 476 bytes  20.07K bytes/sec
-total size is 20.46K  speedup is 2.04
+sent 2.04K bytes  received 43 bytes  4.17K bytes/sec
+total size is 20.46K  speedup is 9.81
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
 Creating directory: /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/distribution_tests_missing_includes/ubuntu-18.04/etc/nginx/bots.d
