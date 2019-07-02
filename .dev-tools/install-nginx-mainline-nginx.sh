@@ -103,7 +103,7 @@ sudo add-apt-repository -y --remove ppa:nginx/${stablenginx}
 mainstreamnginx=development
 sudo add-apt-repository -y --remove ppa:nginx/${mainstreamnginx}
 sudo sh -c "echo 'deb http://nginx.org/packages/mainline/ubuntu/ xenial nginx' > /etc/apt/sources.list.d/nginx.list"
-sudo wget http://nginx.org/keys/nginx_signing.key
+sudo wget https://nginx.org/keys/nginx_signing.key
 sudo apt-key add nginx_signing.key
 sudo apt -y update
 sudo apt remove nginx nginx-common nginx-full nginx-core nginx*
