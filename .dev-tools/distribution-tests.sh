@@ -65,6 +65,8 @@ installub1604=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes
 setupub1604=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/ubuntu1604-setup.log
 installarch=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch-install.log
 setuparch=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch-setup.log
+installcentos=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos-install.log
+setupcentos=${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos-setup.log
 
 # ---------
 # FUNCTIONS
@@ -149,6 +151,27 @@ cd /usr/sbin
 sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/arch/etc/nginx/nginx.conf
 }
 
+installngxblocker_centos () {
+echo "${bold}${magenta}--------------------------------------------------------"
+echo "${bold}${magenta}Execute install-ngxblocker - CentOS 7 (Missing includes)"
+echo "${bold}${magenta}--------------------------------------------------------"
+printf "\n"
+cd /usr/sbin
+# Reset Test
+sudo rsync -avzh ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/unmodified/centos7/ ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/
+sudo bash ./install-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/bots.d
+}
+
+setupngxblocker_centos () {
+printf "\n"
+echo "${bold}${magenta}------------------------------------------------------"
+echo "${bold}${magenta}Execute setup-ngxblocker - CentOS 7 (Missing includes)"
+echo "${bold}${magenta}------------------------------------------------------"
+printf "\n"
+cd /usr/sbin
+sudo bash ./setup-ngxblocker -x -c ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/conf.d -b ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/bots.d -m ${TRAVIS_BUILD_DIR}/.dev-tools/distribution_tests_missing_includes/centos7/etc/nginx/nginx.conf
+}
+
 # -----------------
 # Trigger Functions
 # -----------------
@@ -159,6 +182,8 @@ installngxblocker_ubuntu_1604 > ${installub1604}
 setupngxblocker_ubuntu_1604 > ${setupub1604}
 installngxblocker_arch > ${installarch}
 setupngxblocker_arch > ${setuparch}
+installngxblocker_centos > ${installcentos}
+setupngxblocker_centos > ${setupcentos}
 
 # ----------------------
 # Exit With Error Number
