@@ -54,7 +54,7 @@ tmp=${TRAVIS_BUILD_DIR}/_generator_lists/tmp.list
 # ---------
 
 fetchBadIPs () {
-    sudo wget https://hosts.ubuntu101.co.za/bad-ips.list -O ${outputfile}
+    sudo wget https://hosts.ubuntu101.co.za/ngxubbb/bad-ips.list -O ${outputfile}
 echo "${bold}${green}----------------------------"
 echo "${bold}${green}Fetching Latest BAD IPs List"
 echo "${bold}${green}----------------------------"
