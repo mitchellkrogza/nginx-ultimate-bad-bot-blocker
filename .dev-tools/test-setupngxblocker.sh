@@ -69,6 +69,11 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu18.conf $
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu18.conf.modified
 }
 
+setup_ubuntu_1804MI2 () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/ubuntu18.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/ubuntu18.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/ubuntu18.conf.modified
+}
+
 setup_ubuntu_1604 () {
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu16.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu16.conf.modified 
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu16.conf.modified
@@ -77,6 +82,11 @@ sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m
 setup_ubuntu_1604MI () {
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu16.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu16.conf.modified 
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/ubuntu16.conf.modified
+}
+
+setup_ubuntu_1604MI2 () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/ubuntu16.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/ubuntu16.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/ubuntu16.conf.modified
 }
 
 setup_arch () {
@@ -89,6 +99,11 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/arch.conf ${TRA
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/arch.conf.modified
 }
 
+setup_archMI2 () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/arch.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/arch.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/arch.conf.modified
+}
+
 setup_centos () {
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/centos.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/centos.conf.modified 
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/centos.conf.modified
@@ -97,6 +112,11 @@ sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m
 setup_centosMI () {
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/centos.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/centos.conf.modified 
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/centos.conf.modified
+}
+
+setup_centosMI2 () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/centos.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/centos.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/centos.conf.modified
 }
 
 setup_fedora () {
@@ -109,6 +129,11 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/fedora.conf ${T
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/fedora.conf.modified
 }
 
+setup_fedoraMI2 () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/fedora.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/fedora.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/fedora.conf.modified
+}
+
 setup_opensuse () {
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/opensuse.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/opensuse.conf.modified 
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/opensuse.conf.modified
@@ -119,23 +144,33 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/opensuse.conf $
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/opensuse.conf.modified
 }
 
+setup_opensuseMI2 () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/opensuse.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/opensuse.conf.modified 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/opensuse.conf.modified
+}
+
 # -----------------
 # Trigger Functions
 # -----------------
 
 setup_ubuntu_1804
 setup_ubuntu_1804MI
+setup_ubuntu_1804MI2
 setup_ubuntu_1604
 setup_ubuntu_1604MI
+setup_ubuntu_1604MI2
 setup_arch
 setup_archMI
+setup_archMI2
 setup_centos
 setup_centosMI
+setup_centosMI2
 setup_fedora
 setup_fedoraMI
+setup_fedoraMI2
 setup_opensuse
 setup_opensuseMI
-
+setup_opensuseMI2
 
 # ----------------------
 # Exit With Error Number
