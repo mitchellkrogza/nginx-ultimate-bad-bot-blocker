@@ -175,7 +175,7 @@ longest_str() {
 
 check_wildcard() {
 	local file=$1 dir=$(basename $2)
-	local check="$(grep -E "include[[:alnum:] /]+$dir/\*" $file)"
+	local check="$(grep -E "^[^#]+include[[:alnum:] /]+$dir/\*" $file)"
 	echo $check
 }
 
