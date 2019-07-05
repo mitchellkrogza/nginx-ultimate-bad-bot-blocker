@@ -1,4 +1,13 @@
 
+ 	
+
+    ##
+    # Nginx Bad Bot Blocker Includes
+    # REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
+    ##
+	include /etc/nginx/conf.d/botblocker-nginx-settings.conf; 
+ 	include /etc/nginx/conf.d/globalblacklist.conf;
+ 
 #user html;
 worker_processes  1;
 
@@ -26,15 +35,6 @@ http {
 
     sendfile        on;
     #tcp_nopush     on;
- 	
-
-    ##
-    # Nginx Bad Bot Blocker Includes
-    # REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
-    ##
-	include /etc/nginx/conf.d/botblocker-nginx-settings.conf; 
- 	include /etc/nginx/conf.d/globalblacklist.conf;
- 
 
     #keepalive_timeout  0;
     keepalive_timeout  65;
