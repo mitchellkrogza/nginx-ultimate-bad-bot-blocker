@@ -219,8 +219,11 @@ find_line() {
 
 	case "$first_last" in
 		# ignore file #comments
-		first) awk "/$find_str/{ print NR; exit }" $file;;
-		last) awk "/$find_str/{ print NR }" $file | tail -n1;;
+		#first) awk "/$find_str/{ print NR; exit }" $file;;
+		#last) awk "/$find_str/{ print NR }" $file | tail -n1;;
+
+first) grep -nE "^$[[:space:]]+find_str" $file | head -n1 | awk -F: '{print $1}';;
+last) grep -nE "^[[:space:]]+$find_str" $file | tail -n1 | awk -F: '{print $1}';;
 	esac
 }
 
