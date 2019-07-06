@@ -4086,6 +4086,7 @@
 "~*(?:\b)onescreen\.cc(?:\b)" 	1;
 "~*(?:\b)oneshotdate\.com(?:\b)" 	1;
 "~*(?:\b)onetravelguides\.com(?:\b)" 	1;
+"~*(?:\b)onko\-24\.com(?:\b)" 	1;
 "~*(?:\b)onlainbesplatno\.ru(?:\b)" 	1;
 "~*(?:\b)onlinadverts\.com(?:\b)" 	1;
 "~*(?:\b)online247\.ml(?:\b)" 	1;
