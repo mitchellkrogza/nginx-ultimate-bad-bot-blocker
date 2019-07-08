@@ -393,6 +393,7 @@
 "~*(?:\b)amazon\-adsystem\.com(?:\b)" 	1;
 "~*(?:\b)amazon\-seo\-service\.com(?:\b)" 	1;
 "~*(?:\b)ameblo\.jp(?:\b)" 	1;
+"~*(?:\b)ameblo\.top(?:\b)" 	1;
 "~*(?:\b)amehdaily\.com(?:\b)" 	1;
 "~*(?:\b)amigobulls\.com(?:\b)" 	1;
 "~*(?:\b)amoi\.tn(?:\b)" 	1;
@@ -925,6 +926,7 @@
 "~*(?:\b)bookmark4you\.com(?:\b)" 	1;
 "~*(?:\b)bookmark4you\.com\.biz(?:\b)" 	1;
 "~*(?:\b)boole\.onlinewebshop\.net(?:\b)" 	1;
+"~*(?:\b)boom\-celebs\.com(?:\b)" 	1;
 "~*(?:\b)boostmyppc\.com(?:\b)" 	1;
 "~*(?:\b)bosefux\.esy\.es(?:\b)" 	1;
 "~*(?:\b)bosman\.pluto\.ro(?:\b)" 	1;
@@ -2408,6 +2410,7 @@
 "~*(?:\b)gifspics\.com(?:\b)" 	1;
 "~*(?:\b)gigablast\.com(?:\b)" 	1;
 "~*(?:\b)gigapeta\.com(?:\b)" 	1;
+"~*(?:\b)gigixo\.com(?:\b)" 	1;
 "~*(?:\b)gilbertbanda\.net(?:\b)" 	1;
 "~*(?:\b)gilsonchiro\.xyz(?:\b)" 	1;
 "~*(?:\b)girlgamerdaily\.com(?:\b)" 	1;
@@ -2552,6 +2555,7 @@
 "~*(?:\b)gwebtools\.com\.br(?:\b)" 	1;
 "~*(?:\b)gwhwpxbw\.bloger\.index\.hr(?:\b)" 	1;
 "~*(?:\b)gyffu\.com(?:\b)" 	1;
+"~*(?:\b)gymi\.name(?:\b)" 	1;
 "~*(?:\b)gz2\.bbsoldes\.fr(?:\b)" 	1;
 "~*(?:\b)h2monline\.com(?:\b)" 	1;
 "~*(?:\b)habermetre\.com(?:\b)" 	1;
@@ -2700,6 +2704,7 @@
 "~*(?:\b)hotelcrocenzi\.sm(?:\b)" 	1;
 "~*(?:\b)hotel\-mkad\.ru(?:\b)" 	1;
 "~*(?:\b)hotenergy\.ru(?:\b)" 	1;
+"~*(?:\b)hoterika\.com(?:\b)" 	1;
 "~*(?:\b)hotgirlhdwallpaper\.com(?:\b)" 	1;
 "~*(?:\b)hothor\.se(?:\b)" 	1;
 "~*(?:\b)hothot\.ru(?:\b)" 	1;
@@ -3699,6 +3704,7 @@
 "~*(?:\b)modenamebel\.ru(?:\b)" 	1;
 "~*(?:\b)modnie\-futbolki\.net(?:\b)" 	1;
 "~*(?:\b)moesen\-ficken\.com(?:\b)" 	1;
+"~*(?:\b)moesexy\.com(?:\b)" 	1;
 "~*(?:\b)moesonce\.com(?:\b)" 	1;
 "~*(?:\b)moetomnenie\.com(?:\b)" 	1;
 "~*(?:\b)moi\-glazki\.ru(?:\b)" 	1;
@@ -3775,6 +3781,7 @@
 "~*(?:\b)mp3downloadhq\.com(?:\b)" 	1;
 "~*(?:\b)mp3films\.ru(?:\b)" 	1;
 "~*(?:\b)mp3ringtone\.info(?:\b)" 	1;
+"~*(?:\b)mp3ritm\.top(?:\b)" 	1;
 "~*(?:\b)mrbitsandbytes\.com(?:\b)" 	1;
 "~*(?:\b)mrbojikobi4\.biz(?:\b)" 	1;
 "~*(?:\b)mrcsa\.com\.au(?:\b)" 	1;
@@ -4375,6 +4382,7 @@
 "~*(?:\b)pobeiranie\.pl(?:\b)" 	1;
 "~*(?:\b)pochemychka\.net(?:\b)" 	1;
 "~*(?:\b)pochtovyi\-index\.ru(?:\b)" 	1;
+"~*(?:\b)pod\-muzyku\.club(?:\b)" 	1;
 "~*(?:\b)podshipniki\-nsk\.ru(?:\b)" 	1;
 "~*(?:\b)podshipniki\-ntn\.ru(?:\b)" 	1;
 "~*(?:\b)poem\-paying\.gq(?:\b)" 	1;
@@ -5427,6 +5435,7 @@
 "~*(?:\b)staynplay\.net(?:\b)" 	1;
 "~*(?:\b)steame\.ru(?:\b)" 	1;
 "~*(?:\b)steamoff\.net(?:\b)" 	1;
+"~*(?:\b)steebook\.com(?:\b)" 	1;
 "~*(?:\b)steelmaster\.lv(?:\b)" 	1;
 "~*(?:\b)stefanbakosab\.se(?:\b)" 	1;
 "~*(?:\b)sterva\.cc(?:\b)" 	1;
@@ -5761,6 +5770,7 @@
 "~*(?:\b)top1\-seo\-service\.com(?:\b)" 	1;
 "~*(?:\b)top250movies\.ru(?:\b)" 	1;
 "~*(?:\b)topads\.men(?:\b)" 	1;
+"~*(?:\b)topanasex\.com(?:\b)" 	1;
 "~*(?:\b)topappspro\.com(?:\b)" 	1;
 "~*(?:\b)topbestgames\.com(?:\b)" 	1;
 "~*(?:\b)topcar\-krasnodar\.ru(?:\b)" 	1;
@@ -6051,6 +6061,7 @@
 "~*(?:\b)veles\.shop(?:\b)" 	1;
 "~*(?:\b)vellings\.info(?:\b)" 	1;
 "~*(?:\b)velobikestock\.com(?:\b)" 	1;
+"~*(?:\b)velpanex\.ru(?:\b)" 	1;
 "~*(?:\b)venerologiya\.com(?:\b)" 	1;
 "~*(?:\b)venta\-prom\.ru(?:\b)" 	1;
 "~*(?:\b)ventelnos\.com(?:\b)" 	1;
