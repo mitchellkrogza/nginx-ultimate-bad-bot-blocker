@@ -2655,6 +2655,7 @@
 "~*(?:\b)hitcpm\.com(?:\b)" 	1;
 "~*(?:\b)hit\-kino\.ru(?:\b)" 	1;
 "~*(?:\b)hit\-men\.men(?:\b)" 	1;
+"~*(?:\b)hitmuzik\.ru(?:\b)" 	1;
 "~*(?:\b)hitsbox\.info(?:\b)" 	1;
 "~*(?:\b)hiwibyh\.bugs3\.com(?:\b)" 	1;
 "~*(?:\b)hjaoopoa\.top(?:\b)" 	1;
