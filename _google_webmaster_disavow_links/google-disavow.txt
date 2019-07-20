@@ -1081,6 +1081,7 @@ domain:candy-glam-hp.com
 domain:candycrushshop.com
 domain:candypeople.se
 domain:candytiner.com
+domain:cannibalcheerleader.com
 domain:canoncdriverq3.pen.io
 domain:canrioloadm.gq
 domain:canrole.com
@@ -2118,6 +2119,7 @@ domain:find1friend.com
 domain:findacheaplawyers.com
 domain:findanysex.com
 domain:findclan.org
+domain:findpics.pw
 domain:findpik.com
 domain:findsexguide.com
 domain:findthe.pet
@@ -6050,6 +6052,7 @@ domain:vashsvet.com
 domain:vasileostrovsky-rayon.ru
 domain:vavilone.com
 domain:vbabule.net
+domain:vbtracker.net
 domain:vchulkax.com
 domain:vclicks.net
 domain:vduplo.ru
@@ -6202,6 +6205,7 @@ domain:vykupavto-krasnodar.ru
 domain:vysigy.su
 domain:vzglyadriv.kg
 domain:vzlom-na-zakaz.com
+domain:vzlomfb.com
 domain:vzubah.com
 domain:vzube.com
 domain:w-journal.ru
@@ -6230,6 +6234,7 @@ domain:watchmyfb.pl
 domain:watchmygf.net
 domain:waterefficiency.co
 domain:waterpurifier.club
+domain:watracker.net
 domain:watsonrealtycorp.com
 domain:waycash.net
 domain:waysbetter.cn

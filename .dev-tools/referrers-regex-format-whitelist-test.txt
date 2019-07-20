@@ -1081,6 +1081,7 @@
 "~*(?:\b)candycrushshop\.com(?:\b)" 	0;
 "~*(?:\b)candypeople\.se(?:\b)" 	0;
 "~*(?:\b)candytiner\.com(?:\b)" 	0;
+"~*(?:\b)cannibalcheerleader\.com(?:\b)" 	0;
 "~*(?:\b)canoncdriverq3\.pen\.io(?:\b)" 	0;
 "~*(?:\b)canrioloadm\.gq(?:\b)" 	0;
 "~*(?:\b)canrole\.com(?:\b)" 	0;
@@ -2118,6 +2119,7 @@
 "~*(?:\b)findacheaplawyers\.com(?:\b)" 	0;
 "~*(?:\b)findanysex\.com(?:\b)" 	0;
 "~*(?:\b)findclan\.org(?:\b)" 	0;
+"~*(?:\b)findpics\.pw(?:\b)" 	0;
 "~*(?:\b)findpik\.com(?:\b)" 	0;
 "~*(?:\b)findsexguide\.com(?:\b)" 	0;
 "~*(?:\b)findthe\.pet(?:\b)" 	0;
@@ -6050,6 +6052,7 @@
 "~*(?:\b)vasileostrovsky\-rayon\.ru(?:\b)" 	0;
 "~*(?:\b)vavilone\.com(?:\b)" 	0;
 "~*(?:\b)vbabule\.net(?:\b)" 	0;
+"~*(?:\b)vbtracker\.net(?:\b)" 	0;
 "~*(?:\b)vchulkax\.com(?:\b)" 	0;
 "~*(?:\b)vclicks\.net(?:\b)" 	0;
 "~*(?:\b)vduplo\.ru(?:\b)" 	0;
@@ -6202,6 +6205,7 @@
 "~*(?:\b)vysigy\.su(?:\b)" 	0;
 "~*(?:\b)vzglyadriv\.kg(?:\b)" 	0;
 "~*(?:\b)vzlom\-na\-zakaz\.com(?:\b)" 	0;
+"~*(?:\b)vzlomfb\.com(?:\b)" 	0;
 "~*(?:\b)vzubah\.com(?:\b)" 	0;
 "~*(?:\b)vzube\.com(?:\b)" 	0;
 "~*(?:\b)w\-journal\.ru(?:\b)" 	0;
@@ -6230,6 +6234,7 @@
 "~*(?:\b)watchmygf\.net(?:\b)" 	0;
 "~*(?:\b)waterefficiency\.co(?:\b)" 	0;
 "~*(?:\b)waterpurifier\.club(?:\b)" 	0;
+"~*(?:\b)watracker\.net(?:\b)" 	0;
 "~*(?:\b)watsonrealtycorp\.com(?:\b)" 	0;
 "~*(?:\b)waycash\.net(?:\b)" 	0;
 "~*(?:\b)waysbetter\.cn(?:\b)" 	0;
