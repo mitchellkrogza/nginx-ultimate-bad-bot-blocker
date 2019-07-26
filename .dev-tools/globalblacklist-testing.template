@@ -17993,8 +17993,6 @@ geo $ratelimited {
 # BAD BOT RATE LIMITING ZONE
 # Rate limiting will only take effect if on any User-Agents with a value of 2
 
-	#limit_conn_zone $bot_iplimit zone=bot2_connlimit:16m;
-	#limit_req_zone  $bot_iplimit zone=bot2_reqlimitip:16m  rate=30r/m;
 	limit_conn_zone $bot_iplimit zone=bot2_connlimit:16m;
 	limit_req_zone  $bot_iplimit zone=bot2_reqlimitip:16m  rate=2r/s;
 
