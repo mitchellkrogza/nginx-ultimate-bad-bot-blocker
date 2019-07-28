@@ -65,6 +65,7 @@ _input8=${TRAVIS_BUILD_DIR}/_generator_lists/wordpress-theme-detectors.list
 _input9=${TRAVIS_BUILD_DIR}/_generator_lists/nibbler-seo.list
 _input10=${TRAVIS_BUILD_DIR}/_generator_lists/cloudflare-ip-ranges.list
 _input11=${TRAVIS_BUILD_DIR}/_generator_lists/bad-ip-addresses.list
+_input12=${TRAVIS_BUILD_DIR}/_generator_lists/fake-googlebots.list
 
 
 # *******************************************************
@@ -83,6 +84,7 @@ _inputdb8=/tmp/wordpress-theme-detectors.db
 _inputdb9=/tmp/nibbler-seo.db
 _inputdb10=/tmp/cloudflare-ip-ranges.db
 _inputdb11=/tmp/bad-ip-addresses.db
+_inputdb12=/tmp/fake-googlebots.db
 
 # **************************************************
 # Declare temporary variables used during generation
@@ -101,6 +103,7 @@ _tmpnginx8=_tmpnginx8
 _tmpnginx9=_tmpnginx9
 _tmpnginx10=_tmpnginx10
 _tmpnginx11=_tmpnginx11
+_tmpnginx12=_tmpnginx12
 
 # *************************************************************
 # Sort all input lists alphabetically and remove any duplicates
@@ -116,6 +119,8 @@ sort -u ${_input7} -o ${_input7}
 sort -u ${_input8} -o ${_input8}
 sort -u ${_input9} -o ${_input9}
 sort -u ${_input10} -o ${_input10}
+sort -u ${_input11} -o ${_input11}
+sort -u ${_input12} -o ${_input12}
 
 # ***************************************************************
 # Start and End Strings to Search for to do inserts into template
@@ -143,6 +148,8 @@ _start10="# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
 _end10="# END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###"
 _start11="# START KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###"
 _end11="# END KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###"
+_start12="# START FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###"
+_end12="# END FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###"
 _startmarker="### VERSION INFORMATION #"
 _endmarker="### VERSION INFORMATION ##"
 
@@ -422,6 +429,30 @@ w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/gl
 q
 IN
 rm ${_inputdb11}
+
+# ***********************************
+# FAKE GOOGLEBOTS - Create and Insert
+# ***********************************
+
+printf '%s\n' "$_start12" >> ${_tmpnginx12}
+while IFS= read -r LINE
+do
+printf '\t%s\t\t%s\n' "${LINE}" "$_action2" >> ${_tmpnginx12}
+done < ${_input12}
+printf '%s\n' "$_end12"  >> ${_tmpnginx12}
+mv ${_tmpnginx12} ${_inputdb12}
+ed -s ${_inputdb12}<<\IN
+1,/# START FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
+/# END FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
+,d
+.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+/# START FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/x
+.t.
+.,/# END FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/-d
+w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+q
+IN
+rm ${_inputdb12}
 
 # *******************************************************************************
 # PRINT VERSION, SCRIPT RUNTIME and UPDATE INFORMATION INTO GLOBALBLACKLIST FILES
