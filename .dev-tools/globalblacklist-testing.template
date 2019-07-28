@@ -7736,6 +7736,21 @@ map $http_referer $bad_referer {
 geo $validate_client {
 	default		0;
 
+# ---------------
+# FAKE GoogleBots
+# ---------------
+
+# START FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###
+	52.201.238.175		1;
+	52.90.20.216		1;
+	54.161.247.146		1;
+	54.211.214.177		1;
+	54.227.194.252		1;
+	54.242.239.179		1;
+	54.242.250.203		1;
+# END FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###
+
+
 # -------------------------------------
 # BLOCK known Wordpress Theme Detectors
 # -------------------------------------
