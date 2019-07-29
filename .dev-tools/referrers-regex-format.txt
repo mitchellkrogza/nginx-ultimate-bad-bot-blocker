@@ -1425,6 +1425,7 @@
 "~*(?:\b)coslab\.club(?:\b)" 	1;
 "~*(?:\b)cosmetic\.donna7753191\.ru(?:\b)" 	1;
 "~*(?:\b)cosmeticswomens\-womensports\.rhcloud\.com(?:\b)" 	1;
+"~*(?:\b)costablue\.xyz(?:\b)" 	1;
 "~*(?:\b)cottageofgrace\.com(?:\b)" 	1;
 "~*(?:\b)cougfan\.info(?:\b)" 	1;
 "~*(?:\b)counciltally\.com(?:\b)" 	1;
@@ -1846,6 +1847,7 @@
 "~*(?:\b)elektrozigaretten1\.tumblr\.com(?:\b)" 	1;
 "~*(?:\b)elektrozigaretten1\.webs\.com(?:\b)" 	1;
 "~*(?:\b)elektrozigaretten2\.yn\.lt(?:\b)" 	1;
+"~*(?:\b)elexies\.info(?:\b)" 	1;
 "~*(?:\b)elidelcream\.weebly\.com(?:\b)" 	1;
 "~*(?:\b)elitedollars\.com(?:\b)" 	1;
 "~*(?:\b)elitepcgames\.com(?:\b)" 	1;
@@ -3317,6 +3319,7 @@
 "~*(?:\b)letto\.by(?:\b)" 	1;
 "~*(?:\b)levaquin750mg\.blogspot\.com(?:\b)" 	1;
 "~*(?:\b)lexaprogeneric\.link(?:\b)" 	1;
+"~*(?:\b)lexixxx\.com(?:\b)" 	1;
 "~*(?:\b)lezbiyanki\.net(?:\b)" 	1;
 "~*(?:\b)lflash\.ru(?:\b)" 	1;
 "~*(?:\b)libertybilisim\.com(?:\b)" 	1;
