@@ -725,6 +725,7 @@ In fact it is so hard to mention everyone but here are a few key people whose li
 
 - Konstantin Goretzki @konstantingoretzki https://github.com/konstantingoretzki (Improved Regex on Fail2Ban Filter)
 - Stuart Cardall - https://github.com/itoffshore (Install, Update and Setup Scripts & Alpine Linux Package Maintainer)
+- Mike van Eckendonk  - https://github.com/Eckybrazzz
 - Nissar Chababy @funilrys - https://github.com/funilrys/PyFunceble (Excellent script for checking ACTIVE, INACTIVE and EXPIRED Domain Names)
 - Marius Voila https://github.com/mariusv
 - Cătălin Mariș https://github.com/alrra
