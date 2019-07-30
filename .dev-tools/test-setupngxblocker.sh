@@ -74,6 +74,11 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/ubuntu18.conf 
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/ubuntu18.conf.modified
 }
 
+setup_ubuntu_1804MI3 () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/ubuntu18-hashbucket.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/ubuntu18.conf.modified.hashbucket 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/ubuntu18.conf.modified.hashbucket
+}
+
 setup_ubuntu_1604 () {
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu16.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu16.conf.modified 
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/original/ubuntu16.conf.modified
@@ -156,6 +161,7 @@ sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m
 setup_ubuntu_1804
 setup_ubuntu_1804MI
 setup_ubuntu_1804MI2
+setup_ubuntu_1804MI3
 setup_ubuntu_1604
 setup_ubuntu_1604MI
 setup_ubuntu_1604MI2
