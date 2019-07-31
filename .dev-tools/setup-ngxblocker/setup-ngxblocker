@@ -439,7 +439,8 @@ main() {
 
 	# update vhosts
 	for file in $FILE_LIST; do
-		line=$(find_includes $file include last server_ last location first )
+		#line=$(find_includes $file include last server_ last location first )
+		line=$(sed -n '/server_/,/}/p' $file)
 
 		if [ -n "$(check_wildcard $file $BOTS_DIR)" ]; then
 			# do not use wildcards in vhost files
