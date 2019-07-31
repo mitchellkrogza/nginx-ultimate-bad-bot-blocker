@@ -323,7 +323,8 @@ check_nginx_directives() {
 			printf "${BOLDYELLOW}setup will fix conflict from: '$x' in $bot_config${RESET}\n"
 			if [ "$DRY_RUN" = "N" ]; then
 				printf "${BOLDRED}disabling '$x' in: $bot_config${RESET}\n"
-				sed "s|$x|#$x|" $bot_config | grep $x
+				#sed "s|$x|#$x|" $bot_config | grep $x
+				sed -i "s/$x/#$x/g" $bot_config | grep $x
 				printf " ${BOLDGREEN}disabled OK${RESET}\n\n"
 			fi
 		fi
