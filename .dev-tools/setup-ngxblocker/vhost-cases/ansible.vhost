@@ -2,6 +2,9 @@ server {
     listen 8080;
     server_name xxxx;
 
+include /etc/nginx/bots.d/blockbots.conf;
+
+
     location / {
         return 301 https://$host$request_uri;
     }
@@ -10,6 +13,9 @@ server {
 server {
     listen 443 ssl http2;
     server_name xxxxx
+
+include /etc/nginx/bots.d/blockbots.conf;
+
     root {{ vhost_www_directory }}/sites/public;
 
     include {{ nginx_blockbots_cfg_path }};
@@ -26,6 +32,9 @@ server {
     root {{ vhost_www_directory }}/admin/public;
     server_name admin.{{ domain_to_protect }};
 
+include /etc/nginx/bots.d/blockbots.conf;
+
+
     include {{ nginx_yprox_security_path }};
     include {{ nginx_yprox_ssl_path }};
 
@@ -40,13 +49,9 @@ server {
     listen 443 ssl http2;
     server_name alp.{{ domain_to_protect }};
 
- 	
+include /etc/nginx/bots.d/blockbots.conf;
 
-    ##
-    # Nginx Bad Bot Blocker Includes
-    # REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
-    ##
-	include /etc/nginx/bots.d/ddos.conf; 
+
     root {{ alp_live_directory }};
     include {{ nginx_bots_cfg_path }}/blockbots.conf;
     index index.html;
