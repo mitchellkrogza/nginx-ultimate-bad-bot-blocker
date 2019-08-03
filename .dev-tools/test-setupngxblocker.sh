@@ -155,11 +155,11 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/opensuse.conf 
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/opensuse.conf.modified
 }
 
-setup_ansible1 () {
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/vhost-cases/ansible.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/vhost-cases/ansible.vhost
-sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -v ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/vhost-cases/ -x -e vhost    
+#setup_ansible1 () {
+#sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/vhost-cases/ansible.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/vhost-cases/ansible.vhost
+#sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -v ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/vhost-cases/ -x -e vhost    
 #sed -i '/server_.*/a\\n### NGINX BOT BLOCKER INCLUDE\ninclude /etc/nginx/bots.d/blockbots.conf;\n' ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/vhost-cases/ansible.vhost
-}
+#}
 
 # -----------------
 # Trigger Functions
