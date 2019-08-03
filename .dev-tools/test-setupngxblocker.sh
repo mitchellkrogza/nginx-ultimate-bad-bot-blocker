@@ -184,7 +184,7 @@ setup_fedoraMI2
 setup_opensuse
 setup_opensuseMI
 setup_opensuseMI2
-setup_ansible1
+#setup_ansible1
 
 # ----------------------
 # Exit With Error Number
