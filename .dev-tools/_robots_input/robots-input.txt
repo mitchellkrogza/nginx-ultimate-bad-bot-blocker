@@ -369,6 +369,7 @@ RepoMonkey
 Ripper
 RocketCrawler
 Rogerbot
+RSSingBot
 s1z.ru
 SalesIntelligent
 SBIder
