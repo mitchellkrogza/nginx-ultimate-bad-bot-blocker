@@ -766,6 +766,7 @@
 "~*(?:\b)bestkfiledxd\.cf(?:\b)" 	0;
 "~*(?:\b)bestmarriages\.com(?:\b)" 	0;
 "~*(?:\b)bestmobilityscooterstoday\.com(?:\b)" 	0;
+"~*(?:\b)bestmouthwash\.club(?:\b)" 	0;
 "~*(?:\b)bestofferswalkmydogouteveryday\.gq(?:\b)" 	0;
 "~*(?:\b)bestofpicture\.com(?:\b)" 	0;
 "~*(?:\b)bestofupload\.info(?:\b)" 	0;
@@ -2511,6 +2512,7 @@
 "~*(?:\b)gratis\-sexkontakte\.com(?:\b)" 	0;
 "~*(?:\b)gratuitbaise\.com(?:\b)" 	0;
 "~*(?:\b)gratuitxblcodes\.com(?:\b)" 	0;
+"~*(?:\b)greamimgo\.pw(?:\b)" 	0;
 "~*(?:\b)greatdealshop\.com(?:\b)" 	0;
 "~*(?:\b)greatfind\-a\.akamaihd\.net(?:\b)" 	0;
 "~*(?:\b)greatgrace\.ru(?:\b)" 	0;
@@ -5252,6 +5254,7 @@
 "~*(?:\b)skutecznetabletkinaporostwlosow\.pl(?:\b)" 	0;
 "~*(?:\b)sky\-mine\.ru(?:\b)" 	0;
 "~*(?:\b)skylta\.com(?:\b)" 	0;
+"~*(?:\b)skypasss\.com(?:\b)" 	0;
 "~*(?:\b)skytraf\.xyz(?:\b)" 	0;
 "~*(?:\b)skyway24\.ru(?:\b)" 	0;
 "~*(?:\b)sladkoevideo\.com(?:\b)" 	0;
@@ -6209,6 +6212,8 @@
 "~*(?:\b)vzglyadriv\.kg(?:\b)" 	0;
 "~*(?:\b)vzlom\-na\-zakaz\.com(?:\b)" 	0;
 "~*(?:\b)vzlomfb\.com(?:\b)" 	0;
+"~*(?:\b)vzlomsn\.org(?:\b)" 	0;
+"~*(?:\b)vzlomtw\.com(?:\b)" 	0;
 "~*(?:\b)vzubah\.com(?:\b)" 	0;
 "~*(?:\b)vzube\.com(?:\b)" 	0;
 "~*(?:\b)w\-journal\.ru(?:\b)" 	0;
@@ -6524,6 +6529,7 @@
 "~*(?:\b)xn\-\-oogle\-wmc\.com(?:\b)" 	0;
 "~*(?:\b)xn\-\-q1a\.xn\-\-b1aube0e\.xn\-\-c1acygb\.xn\-\-p1ai(?:\b)" 	0;
 "~*(?:\b)xnxx\-n\.com(?:\b)" 	0;
+"~*(?:\b)xnxx699\.com(?:\b)" 	0;
 "~*(?:\b)xnxxandxvideos\.com(?:\b)" 	0;
 "~*(?:\b)xolodremont\.ru(?:\b)" 	0;
 "~*(?:\b)xportvusbdriver8i\.snack\.ws(?:\b)" 	0;
