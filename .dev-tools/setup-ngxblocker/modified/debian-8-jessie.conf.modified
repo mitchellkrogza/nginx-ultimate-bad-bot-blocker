@@ -115,7 +115,5 @@ http {
 	# nginx-naxsi config
 	# include							/etc/nginx/naxsi_core.rules;
 	
-	# vhost
-	include							/etc/nginx/conf.d/*.conf;
-	include							/etc/nginx/sites-enabled/*;
+						/etc/nginx/sites-enabled/*;
 }
