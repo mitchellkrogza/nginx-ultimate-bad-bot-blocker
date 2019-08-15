@@ -1,0 +1,121 @@
+
+user								www-data;
+
+worker_priority						0;
+worker_processes					2;
+worker_cpu_affinity					auto;
+worker_rlimit_core					512m;
+worker_rlimit_nofile				65535;
+
+# daemon								on;
+# master_process						off;
+
+# thread_pool							default threads=64 max_queue=65535;
+
+
+error_log  /var/log/nginx/error.log;
+#error_log  logs/error.log  notice;
+#error_log  logs/error.log  info;
+
+#pid        logs/nginx.pid;
+
+
+events {
+	use								epoll;
+	accept_mutex					on;
+	accept_mutex_delay				500ms;
+	worker_aio_requests				32;
+	worker_connections				10240;
+	multi_accept					on;
+}
+
+
+http {
+    include							mime.types;
+    default_type					application/octet-stream;
+	
+	aio								threads;
+	
+	# Controlling Buffer Overflow Attacks
+	client_body_buffer_size			128k; # maybe fix
+	client_body_in_file_only		off;
+	client_body_in_single_buffer	off;
+	client_body_timeout				10s;
+	client_header_buffer_size		128k; # maybe fix
+	client_header_timeout			360s;
+	client_max_body_size			1m; # if you need more change this value to 64m
+	
+	connection_pool_size			512;
+	# disable_symlinks				off;
+	# etag							on; # for static files
+	# ignore_invalid_headers			on;
+	
+	keepalive_disable				msie6;
+	keepalive_requests				100; # default 100
+	keepalive_timeout				60s; # default 75s
+	
+	# large_client_header_buffers		4 256k; # maybe like that 2 1k;
+	
+	access_log						off;
+	log_not_found					off;
+	log_subrequest					off;
+	
+	open_file_cache					max=65535 inactive=30s;
+	open_file_cache_errors			on;
+	open_file_cache_min_uses		1;
+	open_file_cache_valid			60s;
+	
+	server_tokens					off;
+	sendfile						on;
+	sendfile_max_chunk				0;
+	tcp_nodelay						on;
+ 	
+
+    ##
+    # Nginx Bad Bot Blocker Includes
+    # REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
+    ##
+	include /etc/nginx/conf.d/botblocker-nginx-settings.conf; 
+ 	include /etc/nginx/conf.d/globalblacklist.conf;
+ 
+ 	
+
+	tcp_nopush						on;
+	
+	
+	types_hash_bucket_size			128;
+	types_hash_max_size				2048;
+	
+	gzip							on;
+	gzip_buffers					16 8k;
+	gzip_comp_level					4;
+	gzip_disable					"msie6";
+	gzip_min_length					256;
+	gzip_http_version				1.1;
+	gzip_proxied					any;
+	gzip_types						application/json application/javascript application/font-woff application/xml application/xml+rss text/css text/javascript text/plain text/xml;
+	gzip_vary						on;
+	
+	ssi								on;
+	ssi_last_modified				on;
+	ssi_min_file_chunk				1k;
+	ssi_silent_errors				on;
+	ssi_value_length				256;
+	
+	http2_chunk_size				32k; # default 8k
+	http2_body_preread_size			64k; # default 64k
+	http2_idle_timeout				3m; # default 3m
+	http2_max_concurrent_streams	10240; # default 128
+	http2_max_field_size			16k; # default 4k
+	http2_max_header_size			32k; # default 16k
+	http2_max_requests				10240; # default 1000
+	http2_recv_buffer_size			256k; # default 256k
+	http2_recv_timeout				30s; # default 30s
+	
+	# nginx-naxsi config
+	# include							/etc/nginx/naxsi_core.rules;
+	
+	# vhost
+	include							/etc/nginx/conf.d/*.conf;
+	include							/etc/nginx/sites-enabled/*;
+}
