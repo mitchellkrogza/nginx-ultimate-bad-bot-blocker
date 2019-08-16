@@ -165,6 +165,12 @@ sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/debian-8-jessie
 sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/modified/debian-8-jessie.conf.modified
 }
 
+setup_debian8MI2 () {
+sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/debian-8-jessie-hashbucket.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/debian-8-jessie.modified.hashbucket 
+sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -x -m ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/debian-8-jessie.modified.hashbucket
+sudo cat /etc/nginx/conf.d/botblocker-nginx-settings.conf > ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/commented/botblocker-nginx-settings-debian-jessie-8.conf
+}
+
 #setup_ansible1 () {
 #sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/vhost-cases/ansible.conf ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/vhost-cases/ansible.vhost
 #sudo bash ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/setup-ngxblocker -v ${TRAVIS_BUILD_DIR}/.dev-tools/setup-ngxblocker/vhost-cases/ -x -e vhost    
@@ -196,6 +202,7 @@ setup_opensuseMI
 setup_opensuseMI2
 setup_debian8
 setup_debian8MI
+setup_debian8MI2
 #setup_ansible1
 
 # ----------------------
