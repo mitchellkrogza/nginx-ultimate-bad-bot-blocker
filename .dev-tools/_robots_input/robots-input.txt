@@ -277,7 +277,6 @@ Mr.4x3
 MSFrontPage
 MSIECrawler
 Msrabot
-MS Web Services Client Protocol
 muhstik-scan
 Musobot
 Name Intelligence
