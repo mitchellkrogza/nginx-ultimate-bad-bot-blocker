@@ -3146,6 +3146,7 @@ domain:kinopolet.net
 domain:kinosed.net
 domain:kinostorm.net
 domain:kinotorka.ru
+domain:kinozapas.com
 domain:kiprinform.com
 domain:kirov.zrus.org
 domain:kiskinhouse.com
@@ -5340,6 +5341,7 @@ domain:softonicads.com
 domain:softtor.com
 domain:softwaretrend.net
 domain:softxaker.ru
+domain:sogimlecal.tk
 domain:soheavyblog.com
 domain:sohoindia.net
 domain:solicita.info
@@ -5563,6 +5565,7 @@ domain:tabakur77.com
 domain:tabletkinaodchudzanie.com.pl
 domain:taboola.com
 domain:tacbelarus.ru
+domain:tacbibirfa.tk
 domain:tackletarts.co
 domain:tagil.zrus.org
 domain:taihouse.ru
@@ -6202,6 +6205,7 @@ domain:vsesubwaysurfers.com
 domain:vseuznaem.com
 domain:vsexkontakte.net
 domain:vtc.pw
+domain:vtcdns.com
 domain:vucms.com
 domain:vut.com.ru
 domain:vvon.co.uk
