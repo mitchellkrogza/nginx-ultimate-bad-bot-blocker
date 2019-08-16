@@ -85,7 +85,7 @@ updateReadme () {
 # PRINT VERSION INFORMATION INTO README.md
 # ****************************************
 
-printf '%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "[$BAD_REFERRERS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-referrers.list)" "#### Bad Bot Count: " "[$BAD_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-user-agents.list)" "#### Fake Googlebots Count: " "[$FAKE_GOOGLE_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/fake-googlebots.list)" "$_endmarker" >> "$_tmpnginxA"
+printf '%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrers Blocked: " "[$BAD_REFERRERS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-referrers.list)" "#### Bad User-Agents (Bots) Blocked: " "[$BAD_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-user-agents.list)" "#### Fake Googlebots Blocked: " "[$FAKE_GOOGLE_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/fake-googlebots.list)" "$_endmarker" >> "$_tmpnginxA"
 mv ${_tmpnginxA} ${_inputdbA}
 ed -s ${_inputdbA}<<\IN
 1,/_______________/d
@@ -131,7 +131,7 @@ updateAutoConfiguration () {
 # PRINT VERSION INFORMATION INTO AUTO-CONFIGURATION.md
 # ****************************************************
 
-printf '%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "[$BAD_REFERRERS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-referrers.list)" "#### Bad Bot Count: " "[$BAD_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-user-agents.list)" "#### Fake Googlebots Count: " "[$FAKE_GOOGLE_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/fake-googlebots.list)"  "$_endmarker" >> "${_tmpnginxA}"
+printf '%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrers Blocked: " "[$BAD_REFERRERS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-referrers.list)" "#### Bad User-Agents (Bots) Blocked: " "[$BAD_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-user-agents.list)" "#### Fake Googlebots Blocked: " "[$FAKE_GOOGLE_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/fake-googlebots.list)"  "$_endmarker" >> "${_tmpnginxA}"
 mv ${_tmpnginxA} ${_inputdbA}
 ed -s ${_inputdbA}<<\IN
 1,/_______________/d
@@ -154,7 +154,7 @@ updateManualConfiguration () {
 # PRINT VERSION INFORMATION INTO MANUAL-CONFIGURATION.md
 # ******************************************************
 
-printf '%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "[$BAD_REFERRERS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-referrers.list)" "#### Bad Bot Count: " "[$BAD_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-user-agents.list)" "#### Fake Googlebots Count: " "[$FAKE_GOOGLE_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/fake-googlebots.list)" "$_endmarker" >> "${_tmpnginxA}"
+printf '%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrers Blocked: " "[$BAD_REFERRERS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-referrers.list)" "#### Bad User-Agents (Bots) Blocked: " "[$BAD_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-user-agents.list)" "#### Fake Googlebots Blocked: " "[$FAKE_GOOGLE_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/fake-googlebots.list)" "$_endmarker" >> "${_tmpnginxA}"
 mv ${_tmpnginxA} ${_inputdbA}
 ed -s ${_inputdbA}<<\IN
 1,/_______________/d
@@ -177,7 +177,7 @@ updateGoogleGhostSpam () {
 # PRINT VERSION INFORMATION INTO Google Ghost Spam README
 # *******************************************************
 
-printf '%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrer Count: " "[$BAD_REFERRERS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-referrers.list)" "#### Bad Bot Count: " "[$BAD_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-user-agents.list)" "#### Fake Googlebots Count: " "[$FAKE_GOOGLE_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/fake-googlebots.list)" "$_endmarker" >> "${_tmpnginxA}"
+printf '%s\n%s%s\n%s%s\n%s%s\n%s%s\n%s' "$_startmarker" "#### Version: " "$MY_GIT_TAG" "#### Bad Referrers Blocked: " "[$BAD_REFERRERS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-referrers.list)" "#### Bad User-Agents (Bots) Blocked: " "[$BAD_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-user-agents.list)" "#### Fake Googlebots Blocked: " "[$FAKE_GOOGLE_BOTS](https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/fake-googlebots.list)" "$_endmarker" >> "${_tmpnginxA}"
 mv ${_tmpnginxA} ${_inputdbA}
 ed -s ${_inputdbA}<<\IN
 1,/_______________/d
