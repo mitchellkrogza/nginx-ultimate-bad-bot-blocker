@@ -488,6 +488,7 @@
 "~*(?:\b)appleid\-verification\.com(?:\b)" 	1;
 "~*(?:\b)applicationg29\.com(?:\b)" 	1;
 "~*(?:\b)applyneedy\.xyz(?:\b)" 	1;
+"~*(?:\b)appmsr\.org(?:\b)" 	1;
 "~*(?:\b)app\-ready\.xyz(?:\b)" 	1;
 "~*(?:\b)approvedlocal\.co\.za(?:\b)" 	1;
 "~*(?:\b)approved\.su(?:\b)" 	1;
@@ -2038,6 +2039,7 @@
 "~*(?:\b)fanpagerobot\.com(?:\b)" 	1;
 "~*(?:\b)fanrto\.com(?:\b)" 	1;
 "~*(?:\b)fantasticpixcool\.com(?:\b)" 	1;
+"~*(?:\b)fapgon\.com(?:\b)" 	1;
 "~*(?:\b)faptitans\.com(?:\b)" 	1;
 "~*(?:\b)faracontrol\.ir(?:\b)" 	1;
 "~*(?:\b)farm26\.ru(?:\b)" 	1;
@@ -3370,6 +3372,7 @@
 "~*(?:\b)lisque\.batcave\.net(?:\b)" 	1;
 "~*(?:\b)littleberry\.ru(?:\b)" 	1;
 "~*(?:\b)littlecity\.ch(?:\b)" 	1;
+"~*(?:\b)littlesexdolls\.com(?:\b)" 	1;
 "~*(?:\b)littlesunraiser\.com(?:\b)" 	1;
 "~*(?:\b)liumimgx\.pw(?:\b)" 	1;
 "~*(?:\b)liupis\.com(?:\b)" 	1;
@@ -4091,6 +4094,7 @@
 "~*(?:\b)olympescort\.com(?:\b)" 	1;
 "~*(?:\b)omoikiri\-japan\.ru(?:\b)" 	1;
 "~*(?:\b)omsk\.xrus\.org(?:\b)" 	1;
+"~*(?:\b)onblastblog\.online(?:\b)" 	1;
 "~*(?:\b)onclickpredictiv\.com(?:\b)" 	1;
 "~*(?:\b)onclkads\.com(?:\b)" 	1;
 "~*(?:\b)oneclickfiles\.com(?:\b)" 	1;

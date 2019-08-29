@@ -491,6 +491,7 @@ domain:apple.com-webbrowsing-security.science
 domain:appleid-verification.com
 domain:applicationg29.com
 domain:applyneedy.xyz
+domain:appmsr.org
 domain:approved.su
 domain:approvedlocal.co.za
 domain:apps-analytics.net
@@ -2040,6 +2041,7 @@ domain:fanoboi.com
 domain:fanpagerobot.com
 domain:fanrto.com
 domain:fantasticpixcool.com
+domain:fapgon.com
 domain:faptitans.com
 domain:faracontrol.ir
 domain:farm26.ru
@@ -3370,6 +3372,7 @@ domain:lirunet.ru
 domain:lisque.batcave.net
 domain:littleberry.ru
 domain:littlecity.ch
+domain:littlesexdolls.com
 domain:littlesunraiser.com
 domain:liumimgx.pw
 domain:liupis.com
@@ -4096,6 +4099,7 @@ domain:olvanto.ru
 domain:olympescort.com
 domain:omoikiri-japan.ru
 domain:omsk.xrus.org
+domain:onblastblog.online
 domain:onclickpredictiv.com
 domain:onclkads.com
 domain:one-gear.com
