@@ -221,8 +221,6 @@ find_line() {
 		# ignore file #comments
 		first) awk "/$find_str/{ print NR; exit }" $file;;
 		last) awk "/$find_str/{ print NR }" $file | tail -n1;;
-		#first) grep -nE "^[[:space:]]+$find_str" $file | head -n1 | awk -F: '{print $1}';;
-		#last) grep -nE "[[:space:]]+$find_str" $file | tail -n1 | awk -F: '{print $1}';;
 	esac
 }
 
@@ -440,21 +438,7 @@ main() {
 	# update vhosts
 	for file in $FILE_LIST; do
 		line=$(find_includes $file include last server_ last location first )
-		#line=$(sed -n '/server_/,/}/p')
-		#line='/server_/,/}/'
 
-			#if ! sed -n "${line}p" $file | grep -Ew ^[[:space:]]+root 1>/dev/null; then
-			#	text="include $conf_dir/$(echo $include_list | awk '{print $1}');"
-			#	sed -i "s|$text|$text\n|" $file
-			#fi
-
-			#add comment above inserts
-			#text="include $conf_dir/$(echo $include_list | awk '{print $NF}');"
-			#sed -i "s|$text|\n\n    ##\n    # Nginx Bad Bot Blocker Includes\n    # REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker\n    ##\n\t$text|" $file
-
-
-
-        #ORIGINAL CODE
 		if [ -n "$(check_wildcard $file $BOTS_DIR)" ]; then
 			# do not use wildcards in vhost files
 			printf "%-10s %-${col_size}s %s\n" "WARN:" "$BOTS_DIR/* detected" "=> $file"
