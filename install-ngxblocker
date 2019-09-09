@@ -243,10 +243,28 @@ wget_opts() {
 	echo $opts
 }
 
+find_binary() {
+        local x= path= binary=$1 bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
+
+        for x in $bin_paths; do
+                path="$x/$binary"
+
+                if [ -x $path ]; then
+                        echo $path
+                        return
+                fi
+        done
+}
+
 check_depends() {
-	# centos does not have wget installed by default
-	if ! wget --help >/dev/null 2>&1; then
-		printf "$0 requires: wget \n"
+	# some distros do not have these tools installed by default
+	if [ -z $(find_binary wget) ]; then
+		printf "$0 requires: 'wget' \n"
+		exit 1
+	fi
+
+	if [ -z $(find_binary curl) ]; then
+		printf "$0 requires 'curl' \n"
 		exit 1
 	fi
 }
