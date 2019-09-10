@@ -98,7 +98,7 @@ check_config() {
 
 find_vhosts() {
 	local ans=
-	FILE_LIST=$(find $VHOST_DIR -type f -or -type l -name "*.$VHOST_EXT")
+	FILE_LIST=$(find $VHOST_DIR \( -type f -or -type l \) -name "*.$VHOST_EXT")
 
 	if [ -z "$FILE_LIST" ]; then
 		find $VHOST_DIR -type f
