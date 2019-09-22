@@ -5348,6 +5348,7 @@
 "~*(?:\b)sogimlecal\.tk(?:\b)" 	1;
 "~*(?:\b)soheavyblog\.com(?:\b)" 	1;
 "~*(?:\b)sohoindia\.net(?:\b)" 	1;
+"~*(?:\b)soietvousmaime\.fr(?:\b)" 	1;
 "~*(?:\b)solicita\.info(?:\b)" 	1;
 "~*(?:\b)solinf\.co(?:\b)" 	1;
 "~*(?:\b)solitaire\-game\.ru(?:\b)" 	1;
