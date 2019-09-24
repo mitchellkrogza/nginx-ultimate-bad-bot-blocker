@@ -1820,8 +1820,6 @@
 "~*(?:\b)ekspresihati\.info(?:\b)" 	0;
 "~*(?:\b)ekto\.ee(?:\b)" 	0;
 "~*(?:\b)el\-nation\.com(?:\b)" 	0;
-"~*(?:\b)eladkarako\.com(?:\b)" 	0;
-"~*(?:\b)eladkarako\.github\.io(?:\b)" 	0;
 "~*(?:\b)eldiariodeguadalajara\.com(?:\b)" 	0;
 "~*(?:\b)election\.interferencer\.ru(?:\b)" 	0;
 "~*(?:\b)electricwheelchairsarea\.com(?:\b)" 	0;

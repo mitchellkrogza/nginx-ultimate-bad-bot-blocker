@@ -1820,8 +1820,6 @@ domain:ekspertmed.com
 domain:ekspresihati.info
 domain:ekto.ee
 domain:el-nation.com
-domain:eladkarako.com
-domain:eladkarako.github.io
 domain:eldiariodeguadalajara.com
 domain:election.interferencer.ru
 domain:electricwheelchairsarea.com
