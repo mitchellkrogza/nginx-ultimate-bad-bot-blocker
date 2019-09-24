@@ -289,6 +289,7 @@
 "~*(?:\b)agapovdg\.ru(?:\b)" 	0;
 "~*(?:\b)agardomains\.com(?:\b)" 	0;
 "~*(?:\b)agecheckadult\.com(?:\b)" 	0;
+"~*(?:\b)ageofclones\.com(?:\b)" 	0;
 "~*(?:\b)aghanyna\.com(?:\b)" 	0;
 "~*(?:\b)agreda\.pluto\.ro(?:\b)" 	0;
 "~*(?:\b)agroeconom\.kz(?:\b)" 	0;
@@ -1743,10 +1744,12 @@
 "~*(?:\b)drupa\.com(?:\b)" 	0;
 "~*(?:\b)druzhbany\.ru(?:\b)" 	0;
 "~*(?:\b)druzhininevgeniy63\.blogspot\.com(?:\b)" 	0;
+"~*(?:\b)dscaas\.website(?:\b)" 	0;
 "~*(?:\b)dstroy\.su(?:\b)" 	0;
 "~*(?:\b)dtm\-spain\.com(?:\b)" 	0;
 "~*(?:\b)dtnlyss\.com(?:\b)" 	0;
 "~*(?:\b)dumpsmania24\.com(?:\b)" 	0;
+"~*(?:\b)dumuelave\.xyz(?:\b)" 	0;
 "~*(?:\b)duplicashapp\.com(?:\b)" 	0;
 "~*(?:\b)dustyorate\.com(?:\b)" 	0;
 "~*(?:\b)dvd\-famille\.com(?:\b)" 	0;
@@ -1905,6 +1908,7 @@
 "~*(?:\b)ereko\.ru(?:\b)" 	0;
 "~*(?:\b)ero\-advertising\.com(?:\b)" 	0;
 "~*(?:\b)eropho\.com(?:\b)" 	0;
+"~*(?:\b)eropho\.net(?:\b)" 	0;
 "~*(?:\b)eropornosex\.ru(?:\b)" 	0;
 "~*(?:\b)erot\.co(?:\b)" 	0;
 "~*(?:\b)erotik\-kostenlos\.net(?:\b)" 	0;
@@ -2454,6 +2458,7 @@
 "~*(?:\b)go2jump\.org(?:\b)" 	0;
 "~*(?:\b)go2mike\.ru(?:\b)" 	0;
 "~*(?:\b)goatse\.ru(?:\b)" 	0;
+"~*(?:\b)goblacked\.com(?:\b)" 	0;
 "~*(?:\b)gobongo\.info(?:\b)" 	0;
 "~*(?:\b)goforexvps\.com(?:\b)" 	0;
 "~*(?:\b)gogalleryawesome\.com(?:\b)" 	0;
@@ -2485,6 +2490,7 @@
 "~*(?:\b)googlefeud\.com(?:\b)" 	0;
 "~*(?:\b)googlemare\.com(?:\b)" 	0;
 "~*(?:\b)googlepositions\.com(?:\b)" 	0;
+"~*(?:\b)googleseo\.com\.tr(?:\b)" 	0;
 "~*(?:\b)googlsucks\.com(?:\b)" 	0;
 "~*(?:\b)googst2\.ru(?:\b)" 	0;
 "~*(?:\b)goosefishpost\.bid(?:\b)" 	0;
@@ -2730,6 +2736,7 @@
 "~*(?:\b)houseofgaga\.ru(?:\b)" 	0;
 "~*(?:\b)houseofrose\.com(?:\b)" 	0;
 "~*(?:\b)houston\-vikings\.com(?:\b)" 	0;
+"~*(?:\b)houtings\.xyz(?:\b)" 	0;
 "~*(?:\b)hoverboard360\.at(?:\b)" 	0;
 "~*(?:\b)hoverboard360\.de(?:\b)" 	0;
 "~*(?:\b)hoverboard360\.es(?:\b)" 	0;
@@ -3178,6 +3185,7 @@
 "~*(?:\b)kollekcioner\.ru(?:\b)" 	0;
 "~*(?:\b)kollesa\.ru(?:\b)" 	0;
 "~*(?:\b)kolotiloff\.ru(?:\b)" 	0;
+"~*(?:\b)kometars\.xyz(?:\b)" 	0;
 "~*(?:\b)komp\-pomosch\.ru(?:\b)" 	0;
 "~*(?:\b)komputernaya\-pomosh\-moscow\.ru(?:\b)" 	0;
 "~*(?:\b)komputers\-best\.ru(?:\b)" 	0;
@@ -3224,6 +3232,7 @@
 "~*(?:\b)kriokomora\.info(?:\b)" 	0;
 "~*(?:\b)krynica\.info(?:\b)" 	0;
 "~*(?:\b)ks1234\.com(?:\b)" 	0;
+"~*(?:\b)kskjco\.club(?:\b)" 	0;
 "~*(?:\b)ktotut\.net(?:\b)" 	0;
 "~*(?:\b)ku6\.com(?:\b)" 	0;
 "~*(?:\b)kumuk\.info(?:\b)" 	0;
@@ -3892,6 +3901,7 @@
 "~*(?:\b)mywallpaper\.top(?:\b)" 	0;
 "~*(?:\b)myxdate\.info(?:\b)" 	0;
 "~*(?:\b)myyour\.eu(?:\b)" 	0;
+"~*(?:\b)mzdish\.site(?:\b)" 	0;
 "~*(?:\b)na\-telefon\.biz(?:\b)" 	0;
 "~*(?:\b)na15\.ru(?:\b)" 	0;
 "~*(?:\b)nac\-bearings\.ru(?:\b)" 	0;
@@ -4079,6 +4089,7 @@
 "~*(?:\b)offtopic\.biz(?:\b)" 	0;
 "~*(?:\b)ohmyrings\.com(?:\b)" 	0;
 "~*(?:\b)oil\-td\.ru(?:\b)" 	0;
+"~*(?:\b)oivcvx\.website(?:\b)" 	0;
 "~*(?:\b)ok\-ua\.info(?:\b)" 	0;
 "~*(?:\b)ok\.ru(?:\b)" 	0;
 "~*(?:\b)okayimage\.com(?:\b)" 	0;
@@ -4295,6 +4306,7 @@
 "~*(?:\b)pewit\.pw(?:\b)" 	0;
 "~*(?:\b)pflexads\.com(?:\b)" 	0;
 "~*(?:\b)pharmacyincity\.com(?:\b)" 	0;
+"~*(?:\b)phelissota\.xyz(?:\b)" 	0;
 "~*(?:\b)phobia\.us(?:\b)" 	0;
 "~*(?:\b)phormchina\.com(?:\b)" 	0;
 "~*(?:\b)photo\-clip\.ru(?:\b)" 	0;
@@ -4352,6 +4364,7 @@
 "~*(?:\b)piter\.xrus\.org(?:\b)" 	0;
 "~*(?:\b)piulatte\.cz(?:\b)" 	0;
 "~*(?:\b)piuminiita\.com(?:\b)" 	0;
+"~*(?:\b)pivka\.xyz(?:\b)" 	0;
 "~*(?:\b)pix\-hd\.com(?:\b)" 	0;
 "~*(?:\b)pix24x7\.com(?:\b)" 	0;
 "~*(?:\b)pixell\.club(?:\b)" 	0;
@@ -5967,6 +5980,7 @@
 "~*(?:\b)uhod\-za\-sobakoj\.ru(?:\b)" 	0;
 "~*(?:\b)uhodzalijami\.ru(?:\b)" 	0;
 "~*(?:\b)uk\-zheu20\.ru(?:\b)" 	0;
+"~*(?:\b)ukkala\.xyz(?:\b)" 	0;
 "~*(?:\b)ukkelberg\.no(?:\b)" 	0;
 "~*(?:\b)ukrobstep\.com(?:\b)" 	0;
 "~*(?:\b)ukrup\.com(?:\b)" 	0;
@@ -6204,6 +6218,7 @@
 "~*(?:\b)vriel\.batcave\.net(?:\b)" 	0;
 "~*(?:\b)vrnelectro\.ru(?:\b)" 	0;
 "~*(?:\b)vrotike\.ru(?:\b)" 	0;
+"~*(?:\b)vroze\.com(?:\b)" 	0;
 "~*(?:\b)vsdshnik\.com(?:\b)" 	0;
 "~*(?:\b)vseigru\.one(?:\b)" 	0;
 "~*(?:\b)vsesubwaysurfers\.com(?:\b)" 	0;
@@ -6746,6 +6761,7 @@
 "~*(?:\b)zscaler\.net(?:\b)" 	0;
 "~*(?:\b)zscalerone\.net(?:\b)" 	0;
 "~*(?:\b)zscalertwo\.net(?:\b)" 	0;
+"~*(?:\b)zskdla\.site(?:\b)" 	0;
 "~*(?:\b)zverokruh\-shop\.cz(?:\b)" 	0;
 "~*(?:\b)zvetki\.ru(?:\b)" 	0;
 "~*(?:\b)zvezdagedon\.ru(?:\b)" 	0;

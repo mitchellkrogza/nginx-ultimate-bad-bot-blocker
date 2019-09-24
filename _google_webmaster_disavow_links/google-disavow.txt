@@ -289,6 +289,7 @@ domain:agahinameh.com
 domain:agapovdg.ru
 domain:agardomains.com
 domain:agecheckadult.com
+domain:ageofclones.com
 domain:aghanyna.com
 domain:agreda.pluto.ro
 domain:agroeconom.kz
@@ -1743,10 +1744,12 @@ domain:drunkmoms.net
 domain:drupa.com
 domain:druzhbany.ru
 domain:druzhininevgeniy63.blogspot.com
+domain:dscaas.website
 domain:dstroy.su
 domain:dtm-spain.com
 domain:dtnlyss.com
 domain:dumpsmania24.com
+domain:dumuelave.xyz
 domain:duplicashapp.com
 domain:dustyorate.com
 domain:dvd-famille.com
@@ -1905,6 +1908,7 @@ domain:eredijovon.com
 domain:ereko.ru
 domain:ero-advertising.com
 domain:eropho.com
+domain:eropho.net
 domain:eropornosex.ru
 domain:erot.co
 domain:erotik-kostenlos.net
@@ -2454,6 +2458,7 @@ domain:go2album.com
 domain:go2jump.org
 domain:go2mike.ru
 domain:goatse.ru
+domain:goblacked.com
 domain:gobongo.info
 domain:goforexvps.com
 domain:gogalleryawesome.com
@@ -2485,6 +2490,7 @@ domain:google-liar.ru
 domain:googlefeud.com
 domain:googlemare.com
 domain:googlepositions.com
+domain:googleseo.com.tr
 domain:googlsucks.com
 domain:googst2.ru
 domain:goosefishpost.bid
@@ -2730,6 +2736,7 @@ domain:housemilan.ru
 domain:houseofgaga.ru
 domain:houseofrose.com
 domain:houston-vikings.com
+domain:houtings.xyz
 domain:hoverboard360.at
 domain:hoverboard360.de
 domain:hoverboard360.es
@@ -3178,6 +3185,7 @@ domain:koleso24.com.ua
 domain:kollekcioner.ru
 domain:kollesa.ru
 domain:kolotiloff.ru
+domain:kometars.xyz
 domain:komp-pomosch.ru
 domain:komputernaya-pomosh-moscow.ru
 domain:komputers-best.ru
@@ -3224,6 +3232,7 @@ domain:kretpicf.pw
 domain:kriokomora.info
 domain:krynica.info
 domain:ks1234.com
+domain:kskjco.club
 domain:ktotut.net
 domain:ku6.com
 domain:kumuk.info
@@ -3892,6 +3901,7 @@ domain:mystats.xyz
 domain:mywallpaper.top
 domain:myxdate.info
 domain:myyour.eu
+domain:mzdish.site
 domain:na-telefon.biz
 domain:na15.ru
 domain:nac-bearings.ru
@@ -4079,6 +4089,7 @@ domain:offtime.ru
 domain:offtopic.biz
 domain:ohmyrings.com
 domain:oil-td.ru
+domain:oivcvx.website
 domain:ok-ua.info
 domain:ok.ru
 domain:okayimage.com
@@ -4295,6 +4306,7 @@ domain:peugeot-club.org
 domain:pewit.pw
 domain:pflexads.com
 domain:pharmacyincity.com
+domain:phelissota.xyz
 domain:phobia.us
 domain:phormchina.com
 domain:photo-clip.ru
@@ -4352,6 +4364,7 @@ domain:pistonclasico.com
 domain:piter.xrus.org
 domain:piulatte.cz
 domain:piuminiita.com
+domain:pivka.xyz
 domain:pix-hd.com
 domain:pix24x7.com
 domain:pixell.club
@@ -5967,6 +5980,7 @@ domain:uhdtv.website
 domain:uhod-za-sobakoj.ru
 domain:uhodzalijami.ru
 domain:uk-zheu20.ru
+domain:ukkala.xyz
 domain:ukkelberg.no
 domain:ukrobstep.com
 domain:ukrup.com
@@ -6204,6 +6218,7 @@ domain:vremya.eu
 domain:vriel.batcave.net
 domain:vrnelectro.ru
 domain:vrotike.ru
+domain:vroze.com
 domain:vsdshnik.com
 domain:vseigru.one
 domain:vsesubwaysurfers.com
@@ -6746,6 +6761,7 @@ domain:zs2vm.top
 domain:zscaler.net
 domain:zscalerone.net
 domain:zscalertwo.net
+domain:zskdla.site
 domain:zverokruh-shop.cz
 domain:zvetki.ru
 domain:zvezdagedon.ru
