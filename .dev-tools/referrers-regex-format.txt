@@ -1525,6 +1525,7 @@
 "~*(?:\b)darmebel\.com\.ua(?:\b)" 	1;
 "~*(?:\b)darodar\.com(?:\b)" 	1;
 "~*(?:\b)data1\.scopich\.com(?:\b)" 	1;
+"~*(?:\b)datadepths\.com(?:\b)" 	1;
 "~*(?:\b)dataloading\.net(?:\b)" 	1;
 "~*(?:\b)data\-mining\.tk(?:\b)" 	1;
 "~*(?:\b)data\.vtc\.pw(?:\b)" 	1;
@@ -2271,6 +2272,7 @@
 "~*(?:\b)freshsuperbloop\.com(?:\b)" 	1;
 "~*(?:\b)freshwallpapers\.info(?:\b)" 	1;
 "~*(?:\b)freza\-sverlo\.ru(?:\b)" 	1;
+"~*(?:\b)friendflnder\.com(?:\b)" 	1;
 "~*(?:\b)frighteningremain\.cf(?:\b)" 	1;
 "~*(?:\b)frivgame250\.com(?:\b)" 	1;
 "~*(?:\b)fr\.netlog\.com(?:\b)" 	1;
@@ -3427,6 +3429,7 @@
 "~*(?:\b)lomza\.info(?:\b)" 	1;
 "~*(?:\b)lonely\-mature\.com(?:\b)" 	1;
 "~*(?:\b)lonerangergames\.com(?:\b)" 	1;
+"~*(?:\b)lonfon\.xyz(?:\b)" 	1;
 "~*(?:\b)longadventure\.com(?:\b)" 	1;
 "~*(?:\b)long\-beach\-air\-conditioning\.com(?:\b)" 	1;
 "~*(?:\b)longgreen\.info(?:\b)" 	1;
@@ -4834,6 +4837,7 @@
 "~*(?:\b)rogervivierforsale\.com(?:\b)" 	1;
 "~*(?:\b)roleforum\.ru(?:\b)" 	1;
 "~*(?:\b)roll123\.com(?:\b)" 	1;
+"~*(?:\b)rollercoin\.com(?:\b)" 	1;
 "~*(?:\b)roma\-kukareku\.livejournal\.com(?:\b)" 	1;
 "~*(?:\b)rome2rio\.com(?:\b)" 	1;
 "~*(?:\b)romhacking\.ru(?:\b)" 	1;
@@ -5401,6 +5405,7 @@
 "~*(?:\b)specialfinanceoffers\.com(?:\b)" 	1;
 "~*(?:\b)special\-porn\.com(?:\b)" 	1;
 "~*(?:\b)speechfoodie\.com(?:\b)" 	1;
+"~*(?:\b)speeddream\.xyz(?:\b)" 	1;
 "~*(?:\b)speedup\-my\.site(?:\b)" 	1;
 "~*(?:\b)spidtest\.org(?:\b)" 	1;
 "~*(?:\b)spidtest\.space(?:\b)" 	1;

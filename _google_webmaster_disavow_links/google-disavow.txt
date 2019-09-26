@@ -1528,6 +1528,7 @@ domain:darodar.com
 domain:data-mining.tk
 domain:data.vtc.pw
 domain:data1.scopich.com
+domain:datadepths.com
 domain:dataloading.net
 domain:date-withme.com
 domain:dating-app.ru
@@ -2272,6 +2273,7 @@ domain:freshmac.space
 domain:freshsuperbloop.com
 domain:freshwallpapers.info
 domain:freza-sverlo.ru
+domain:friendflnder.com
 domain:frighteningremain.cf
 domain:frivgame250.com
 domain:froggytube.com
@@ -3427,6 +3429,7 @@ domain:lombia.com
 domain:lomza.info
 domain:lonely-mature.com
 domain:lonerangergames.com
+domain:lonfon.xyz
 domain:long-beach-air-conditioning.com
 domain:longadventure.com
 domain:longgreen.info
@@ -4834,6 +4837,7 @@ domain:rockprogblog.com
 domain:rogervivierforsale.com
 domain:roleforum.ru
 domain:roll123.com
+domain:rollercoin.com
 domain:roma-kukareku.livejournal.com
 domain:rome2rio.com
 domain:romhacking.ru
@@ -5401,6 +5405,7 @@ domain:spbchampionat.ru
 domain:special-porn.com
 domain:specialfinanceoffers.com
 domain:speechfoodie.com
+domain:speeddream.xyz
 domain:speedup-my.site
 domain:spidtest.org
 domain:spidtest.space
