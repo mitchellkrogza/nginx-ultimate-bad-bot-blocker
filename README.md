@@ -391,7 +391,8 @@ Once you Enable Cloudflare CDN, test again.
 
 While testing, you get
 - curl: 520 Origin Error 
-Means the CDN is working and gives Error.
+
+This means the CDN is working.
 
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-11.png"/>
