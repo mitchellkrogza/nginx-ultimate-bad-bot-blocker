@@ -1411,6 +1411,7 @@
 "~*(?:\b)coolgamechannel\.com(?:\b)" 	1;
 "~*(?:\b)coolgramgoods\.com(?:\b)" 	1;
 "~*(?:\b)coolingoods\.com(?:\b)" 	1;
+"~*(?:\b)coolwallpapers4k\.info(?:\b)" 	1;
 "~*(?:\b)coolwallpapers\-hd\.com(?:\b)" 	1;
 "~*(?:\b)cool\-wedding\.net(?:\b)" 	1;
 "~*(?:\b)coolyarddecorations\.com(?:\b)" 	1;
@@ -4676,6 +4677,7 @@
 "~*(?:\b)quit\-smoking\.ga(?:\b)" 	1;
 "~*(?:\b)quizzitch\.net(?:\b)" 	1;
 "~*(?:\b)qwarckoine\.com(?:\b)" 	1;
+"~*(?:\b)qwertty\.net(?:\b)" 	1;
 "~*(?:\b)qwesa\.ru(?:\b)" 	1;
 "~*(?:\b)raavidesigns\.com(?:\b)" 	1;
 "~*(?:\b)rabotaetvse\.ru(?:\b)" 	1;

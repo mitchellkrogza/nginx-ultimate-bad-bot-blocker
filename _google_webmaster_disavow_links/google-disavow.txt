@@ -1413,6 +1413,7 @@ domain:coolgamechannel.com
 domain:coolgramgoods.com
 domain:coolingoods.com
 domain:coolwallpapers-hd.com
+domain:coolwallpapers4k.info
 domain:coolyarddecorations.com
 domain:coop-gamers.ru
 domain:copblock.org
@@ -4676,6 +4677,7 @@ domain:quickloanbank.com
 domain:quit-smoking.ga
 domain:quizzitch.net
 domain:qwarckoine.com
+domain:qwertty.net
 domain:qwesa.ru
 domain:r-control.ru
 domain:r-e-f-e-r-e-r.com
