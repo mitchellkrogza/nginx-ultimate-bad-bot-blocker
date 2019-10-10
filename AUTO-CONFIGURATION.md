@@ -51,7 +51,7 @@ Download install-ngxblocker to your /usr/local/sbin/directory and make the scrip
 
 ```
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/local/sbin/install-ngxblocker
-sudo chmod +x /usr/sbin/install-ngxblocker
+sudo chmod +x /usr/local/sbin/install-ngxblocker
 ```
 
 If your Linux distribution does not have wget you can replace the wget command above using curl as follows:
