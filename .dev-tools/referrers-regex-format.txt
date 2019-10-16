@@ -527,6 +527,7 @@
 "~*(?:\b)arkkivoltti\.net(?:\b)" 	1;
 "~*(?:\b)arpelsreplica\.xyz(?:\b)" 	1;
 "~*(?:\b)arquapetrarca\.info(?:\b)" 	1;
+"~*(?:\b)arquivo\.pt(?:\b)" 	1;
 "~*(?:\b)arraty\.altervista\.org(?:\b)" 	1;
 "~*(?:\b)artavenuegardenstudios\.com(?:\b)" 	1;
 "~*(?:\b)artdeko\.info(?:\b)" 	1;
@@ -4550,6 +4551,7 @@
 "~*(?:\b)priora\-2\.com(?:\b)" 	1;
 "~*(?:\b)priscilarodrigues\.com\.br(?:\b)" 	1;
 "~*(?:\b)privacyassistant\.net(?:\b)" 	1;
+"~*(?:\b)privacylocationforloc\.com(?:\b)" 	1;
 "~*(?:\b)privatamateure\.com(?:\b)" 	1;
 "~*(?:\b)privatbank46\.ru(?:\b)" 	1;
 "~*(?:\b)privatefx\.all4invest\.info(?:\b)" 	1;

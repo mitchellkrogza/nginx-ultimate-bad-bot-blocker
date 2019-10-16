@@ -527,6 +527,7 @@ domain:arkartex.ru
 domain:arkkivoltti.net
 domain:arpelsreplica.xyz
 domain:arquapetrarca.info
+domain:arquivo.pt
 domain:arraty.altervista.org
 domain:artavenuegardenstudios.com
 domain:artdeko.info
@@ -4551,6 +4552,7 @@ domain:printingpeach.com
 domain:priora-2.com
 domain:priscilarodrigues.com.br
 domain:privacyassistant.net
+domain:privacylocationforloc.com
 domain:privat-girl.net
 domain:privatamateure.com
 domain:privatbank46.ru

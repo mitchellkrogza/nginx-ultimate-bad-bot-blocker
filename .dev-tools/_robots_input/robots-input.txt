@@ -19,10 +19,14 @@ AlphaBot
 Anarchie
 Apexoo
 archive.org_bot
+arquivo.pt
+arquivo-web-crawler
 ASPSeek
 Asterias
 Attach
 autoemailspider
+AwarioRssBot
+AwarioSmartBot
 BackDoorBot
 Backlink-Ceck
 backlink-check
@@ -173,6 +177,7 @@ HaosouSpider
 Harvest
 Havij
 HEADMasterSEO
+heritrix
 Heritrix
 Hloader
 HMView
@@ -272,6 +277,7 @@ MIIxpc
 Mister PiX
 MJ12bot
 Mojeek
+Mojolicious
 Morfeus Fucking Scanner
 Mr.4x3
 MSFrontPage
