@@ -1,7 +1,6 @@
 addons:
     apt:
         packages:
-        - realpath
         - mailutils
 cache:
 - apt
