@@ -12,10 +12,6 @@ env:
     - TRAVIS_REPO_SLUG: mitchellkrogza/nginx-ultimate-bad-bot-blocker
     - GIT_BRANCH: master
 
-language: php
-php:
-  - '7.0'
-
 matrix:
   fast_finish: true
 
