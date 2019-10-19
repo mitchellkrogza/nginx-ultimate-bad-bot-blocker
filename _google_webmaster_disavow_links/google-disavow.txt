@@ -3264,6 +3264,7 @@ domain:lacasamorett.com
 domain:lacave.ntic.fr
 domain:lacloop.info
 domain:ladov.ru
+domain:ladsup.com
 domain:laexotic.com
 domain:lafourmiliaire.com
 domain:lafriore.ru
@@ -4712,6 +4713,7 @@ domain:rapevideosmovies.com
 domain:rapidgator-porn.ga
 domain:rapidokbrain.com
 domain:rapidsites.pro
+domain:rarbg.to
 domain:raschtextil.com.ua
 domain:rasteniya-vs-zombi.ru
 domain:ratemodels.net
@@ -5155,6 +5157,7 @@ domain:sextracker.de
 domain:sexuria.net
 domain:sexvideo-sex.com
 domain:sexvporno.ru
+domain:sexxdate.net
 domain:sexy-pings.com
 domain:sexy-screen-savers.com
 domain:sexy.babes.frontend-stack.top
@@ -6604,6 +6607,7 @@ domain:yebocasino.com
 domain:yellocloud.be
 domain:yellowads.men
 domain:yellowfootprints.com
+domain:yellowproxy.net
 domain:yellowstonesafaritours.com
 domain:yellowstonevisitortours.com
 domain:yes-com.com

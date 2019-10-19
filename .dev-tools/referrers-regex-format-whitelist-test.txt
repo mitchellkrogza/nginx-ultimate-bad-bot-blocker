@@ -3264,6 +3264,7 @@
 "~*(?:\b)lacave\.ntic\.fr(?:\b)" 	0;
 "~*(?:\b)lacloop\.info(?:\b)" 	0;
 "~*(?:\b)ladov\.ru(?:\b)" 	0;
+"~*(?:\b)ladsup\.com(?:\b)" 	0;
 "~*(?:\b)laexotic\.com(?:\b)" 	0;
 "~*(?:\b)lafourmiliaire\.com(?:\b)" 	0;
 "~*(?:\b)lafriore\.ru(?:\b)" 	0;
@@ -4712,6 +4713,7 @@
 "~*(?:\b)rapidgator\-porn\.ga(?:\b)" 	0;
 "~*(?:\b)rapidokbrain\.com(?:\b)" 	0;
 "~*(?:\b)rapidsites\.pro(?:\b)" 	0;
+"~*(?:\b)rarbg\.to(?:\b)" 	0;
 "~*(?:\b)raschtextil\.com\.ua(?:\b)" 	0;
 "~*(?:\b)rasteniya\-vs\-zombi\.ru(?:\b)" 	0;
 "~*(?:\b)ratemodels\.net(?:\b)" 	0;
@@ -5155,6 +5157,7 @@
 "~*(?:\b)sexuria\.net(?:\b)" 	0;
 "~*(?:\b)sexvideo\-sex\.com(?:\b)" 	0;
 "~*(?:\b)sexvporno\.ru(?:\b)" 	0;
+"~*(?:\b)sexxdate\.net(?:\b)" 	0;
 "~*(?:\b)sexy\-pings\.com(?:\b)" 	0;
 "~*(?:\b)sexy\-screen\-savers\.com(?:\b)" 	0;
 "~*(?:\b)sexy\.babes\.frontend\-stack\.top(?:\b)" 	0;
@@ -6604,6 +6607,7 @@
 "~*(?:\b)yellocloud\.be(?:\b)" 	0;
 "~*(?:\b)yellowads\.men(?:\b)" 	0;
 "~*(?:\b)yellowfootprints\.com(?:\b)" 	0;
+"~*(?:\b)yellowproxy\.net(?:\b)" 	0;
 "~*(?:\b)yellowstonesafaritours\.com(?:\b)" 	0;
 "~*(?:\b)yellowstonevisitortours\.com(?:\b)" 	0;
 "~*(?:\b)yes\-com\.com(?:\b)" 	0;
