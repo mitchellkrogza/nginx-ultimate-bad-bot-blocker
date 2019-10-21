@@ -261,12 +261,12 @@ send_email() {
 
 send_email_via_mailgun() {
 	local report= subject= endpoint="https://api.mailgun.net/v3/$MG_DOMAIN/messages"
-	
+
 	echo "Mailgunning report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
 	sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
 	report="$(cat $EMAIL_REPORT)"
 	subject='Nginx Bad Bot Blocker Updated'
-	
+
 	curl -s --user api:$MG_API_KEY $endpoint -F from='botblocker<'$MG_FROM'>' -F to=$EMAIL -F subject="$subject" -F text="$report"
 }
 
@@ -291,7 +291,7 @@ get_options() {
 			r) REPO=$arg; check_args $opts url $arg ;;
 			e) EMAIL=$arg; SEND_EMAIL=Y; check_args $opts email $arg ;;
 			g) EMAIL=$arg; SEND_MG_EMAIL=Y; check_args $opts email $arg ;;
-			a) MG_API_KEY=$arg;; 
+			a) MG_API_KEY=$arg;;
 			d) MG_DOMAIN=$arg;;
 			f) MG_FROM=$arg;;
 			m) EMAIL=$arg; SEND_EMAIL=Y ;; # /etc/aliases no sanity checks
