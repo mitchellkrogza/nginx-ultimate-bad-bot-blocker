@@ -114,7 +114,7 @@ whitelist_ips() {
 
 	mkdir -p $BOTS_DIR
 
-	ip=$(curl -s ifconfig.co)
+	ip="$(dig +short myip.opendns.com @resolver1.opendns.com)"
 	if ! grep "$ip" $conf >/dev/null 2>&1; then
 		printf "\n%-17s %-15s %-s\n" "Whitelisting ip:" "$ip" "=> $conf"
 		if [ "$DRY_RUN" = "N" ]; then
