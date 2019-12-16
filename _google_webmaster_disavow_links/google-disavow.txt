@@ -52,6 +52,7 @@ domain:1pamm.ru
 domain:1qingdao.com
 domain:1stat.ru
 domain:1webmaster.ml
+domain:1xbet4you.com
 domain:2000k.ru
 domain:2015god.org
 domain:2020iscoming.info
@@ -126,6 +127,7 @@ domain:7a2rnuey1tw9ar.ru
 domain:7fon.ru
 domain:7makemoneyonline.com
 domain:7minuteworkout.com
+domain:7ooo.ru
 domain:7search.com
 domain:7wind.ru
 domain:7xc4n.com
@@ -412,7 +414,9 @@ domain:anaksma.info
 domain:anal-acrobats.com
 domain:anal-acrobats.hol.es
 domain:analytics-ads.xyz
+domain:ananumous.ru
 domain:anapa-inns.ru
+domain:anatomiy.com
 domain:andpolice.com
 domain:android-style.com
 domain:android-systems.ru
@@ -636,6 +640,7 @@ domain:ayodhya.co
 domain:azadnegar.com
 domain:azartclub.org
 domain:azartmix.com
+domain:azartmsl.com
 domain:azartniy-bonus.com
 domain:azazaporn.com
 domain:azazu.ru
@@ -643,6 +648,7 @@ domain:azbaseimages.net
 domain:azbuka-mo.ru
 domain:azbukadiets.ru
 domain:azbukafree.com
+domain:azinoofficial777.ru
 domain:azlex.uz
 domain:azte.ch
 domain:b-styles.xyz
@@ -1493,6 +1499,7 @@ domain:customsua.com.ua
 domain:cutalltheshit.com
 domain:cv.wallhade.co
 domain:cvety24.by
+domain:cwetochki.ru
 domain:cxpromote.com
 domain:cyclobenzaprinevstizanidine.blogspot.com
 domain:cymbaltaandtizanidine.blogspot.com
@@ -1592,6 +1599,7 @@ domain:detalizaciya-tut.biz
 domain:detective01.ru
 domain:detki-opt.ru
 domain:detmebel.su
+domain:detoxmed24.ru
 domain:detskie-konstruktory.ru
 domain:detskie-zabavi.ru
 domain:detsky-nabytek.info
@@ -1626,6 +1634,7 @@ domain:dikqlyremy.info
 domain:dikx.gdn
 domain:dildofotzen.net
 domain:dimaka.info
+domain:dimfour.com
 domain:diminishedvalueoforegon.com
 domain:dimkino.ru
 domain:dinkolove.ya.ru
@@ -2230,6 +2239,7 @@ domain:frameimage.org
 domain:franch.info
 domain:franecki.net
 domain:franklinfire.co
+domain:frankofficial.ru
 domain:frbizlist.com
 domain:frcls.fr
 domain:freakycheats.com
@@ -2370,6 +2380,7 @@ domain:gazporno.com
 domain:gcup.ru
 domain:gdcentre.ru
 domain:gdebestkupit.ru
+domain:gdzkurokam.ru
 domain:ge0ip.com
 domain:ge0ip.net
 domain:ge0ip.org
@@ -2845,6 +2856,7 @@ domain:imicrovision.com
 domain:iminent.com
 domain:imitex-plus.ru
 domain:imk.com.ua
+domain:immigrational.info
 domain:immobiliaremassaro.com
 domain:imperia31.ru
 domain:imperiafilm.ru
@@ -3158,6 +3170,7 @@ domain:kinosed.net
 domain:kinostorm.net
 domain:kinotorka.ru
 domain:kinozapas.com
+domain:kinozapas.org
 domain:kiprinform.com
 domain:kirov.zrus.org
 domain:kiskinhouse.com
@@ -3711,8 +3724,10 @@ domain:mmoguider.ru
 domain:mmostrike.ru
 domain:mmstat.com
 domain:mncrftpcs.com
+domain:mnimmigrantrights.net
 domain:mnogabukaff.net
 domain:mnogolok.info
+domain:mobicover.com.ua
 domain:mobifunapp.weebly.com
 domain:mobile-appster.ru
 domain:mobile.ok.ru
@@ -4151,6 +4166,7 @@ domain:onlinetvseries.me
 domain:onlinewritingjobs17.blogspot.ru
 domain:onload.pw
 domain:onlyforemont.ru
+domain:onlyporno.ru
 domain:onlythegames.com
 domain:onlywoman.org
 domain:ons-add.men
@@ -4294,6 +4310,7 @@ domain:pensplan.com
 domain:pensplan4u.com
 domain:pepperstyle.ru
 domain:percin.biz.ly
+domain:perederni.net
 domain:perfection-pleasure.ru
 domain:perfectpracticeweb.com
 domain:perl.dp.ua
@@ -4627,6 +4644,7 @@ domain:proxyelite.biz
 domain:proxyradar.com
 domain:prpops.com
 domain:psa48.ru
+domain:pshare.biz
 domain:pskcijdc.bloger.index.hr
 domain:psoriasis-file.trade
 domain:pssucai.info
@@ -5144,6 +5162,7 @@ domain:sexobzor.info
 domain:sexpartygirls.net
 domain:sexphoto.site
 domain:sexpornotales.com
+domain:sexpornotales.net
 domain:sexreliz.com
 domain:sexs-foto.com
 domain:sexs-foto.top
@@ -5521,6 +5540,7 @@ domain:students-cheapskate.ml
 domain:studiofaca.com
 domain:studiofmp.com
 domain:studiokamyk.com.pl
+domain:studworks.org
 domain:stuff-about-money.com
 domain:styro.ru
 domain:success-seo.com
@@ -5833,6 +5853,7 @@ domain:torrent-newgames.com
 domain:torrent-to-magnet.com
 domain:torrentdownloadhub.com
 domain:torrentgamer.net
+domain:torrentred.games
 domain:torrents-tracker.com
 domain:torrents.cd
 domain:torrnada.ru
@@ -6091,6 +6112,7 @@ domain:vasileostrovsky-rayon.ru
 domain:vavilone.com
 domain:vbabule.net
 domain:vbtracker.net
+domain:vchulkah.net
 domain:vchulkax.com
 domain:vclicks.net
 domain:vduplo.ru
