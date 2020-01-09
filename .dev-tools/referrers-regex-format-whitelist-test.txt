@@ -1212,6 +1212,7 @@
 "~*(?:\b)cheapwebsitehoster\.com(?:\b)" 	0;
 "~*(?:\b)cheatcode\-lita12\.rhcloud\.com(?:\b)" 	0;
 "~*(?:\b)check\-host\.net(?:\b)" 	0;
+"~*(?:\b)check\-this\-out\-now\.online(?:\b)" 	0;
 "~*(?:\b)checkhit\.com(?:\b)" 	0;
 "~*(?:\b)checkm8\.com(?:\b)" 	0;
 "~*(?:\b)checkpagerank\.net(?:\b)" 	0;
@@ -2279,6 +2280,7 @@
 "~*(?:\b)freewhatsappload\.com(?:\b)" 	0;
 "~*(?:\b)freewlan\.info(?:\b)" 	0;
 "~*(?:\b)frequiry\.com(?:\b)" 	0;
+"~*(?:\b)fres\-news\.com(?:\b)" 	0;
 "~*(?:\b)freshberry\.com\.ua(?:\b)" 	0;
 "~*(?:\b)freshdz\.com(?:\b)" 	0;
 "~*(?:\b)freshmac\.space(?:\b)" 	0;
@@ -2830,6 +2832,7 @@
 "~*(?:\b)ilikevitaly\.com(?:\b)" 	0;
 "~*(?:\b)ilmen\.net(?:\b)" 	0;
 "~*(?:\b)ilmexico\.com(?:\b)" 	0;
+"~*(?:\b)ilo134uloh\.com(?:\b)" 	0;
 "~*(?:\b)iloveitaly\.ru(?:\b)" 	0;
 "~*(?:\b)ilovevitaly\.com(?:\b)" 	0;
 "~*(?:\b)ilovevitaly\.ru(?:\b)" 	0;
@@ -4031,6 +4034,7 @@
 "~*(?:\b)nodup\.ru(?:\b)" 	0;
 "~*(?:\b)nofreezingmac\.click(?:\b)" 	0;
 "~*(?:\b)nofreezingmac\.work(?:\b)" 	0;
+"~*(?:\b)nonameread45\.live(?:\b)" 	0;
 "~*(?:\b)nonews\.co(?:\b)" 	0;
 "~*(?:\b)nootrino\.com(?:\b)" 	0;
 "~*(?:\b)nordstar\.pro(?:\b)" 	0;
@@ -4275,6 +4279,7 @@
 "~*(?:\b)partnersafe\.men(?:\b)" 	0;
 "~*(?:\b)partnerworkroom\.men(?:\b)" 	0;
 "~*(?:\b)partybunny\.ru(?:\b)" 	0;
+"~*(?:\b)parvezmia\.xyz(?:\b)" 	0;
 "~*(?:\b)pastaleads\.com(?:\b)" 	0;
 "~*(?:\b)pateaswing\.com(?:\b)" 	0;
 "~*(?:\b)pathwhelp\.org(?:\b)" 	0;

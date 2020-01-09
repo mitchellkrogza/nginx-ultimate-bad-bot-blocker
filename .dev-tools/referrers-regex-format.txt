@@ -1216,6 +1216,7 @@
 "~*(?:\b)checkm8\.com(?:\b)" 	1;
 "~*(?:\b)checkpagerank\.net(?:\b)" 	1;
 "~*(?:\b)checktext\.org(?:\b)" 	1;
+"~*(?:\b)check\-this\-out\-now\.online(?:\b)" 	1;
 "~*(?:\b)chee\-by\.biz(?:\b)" 	1;
 "~*(?:\b)chelnytruck\.ru(?:\b)" 	1;
 "~*(?:\b)chelyabinsk\.xrus\.org(?:\b)" 	1;
@@ -2283,6 +2284,7 @@
 "~*(?:\b)freshmac\.space(?:\b)" 	1;
 "~*(?:\b)freshsuperbloop\.com(?:\b)" 	1;
 "~*(?:\b)freshwallpapers\.info(?:\b)" 	1;
+"~*(?:\b)fres\-news\.com(?:\b)" 	1;
 "~*(?:\b)freza\-sverlo\.ru(?:\b)" 	1;
 "~*(?:\b)friendflnder\.com(?:\b)" 	1;
 "~*(?:\b)frighteningremain\.cf(?:\b)" 	1;
@@ -2828,6 +2830,7 @@
 "~*(?:\b)ilikevitaly\.com(?:\b)" 	1;
 "~*(?:\b)ilmen\.net(?:\b)" 	1;
 "~*(?:\b)ilmexico\.com(?:\b)" 	1;
+"~*(?:\b)ilo134uloh\.com(?:\b)" 	1;
 "~*(?:\b)iloveitaly\.ru(?:\b)" 	1;
 "~*(?:\b)ilovevitaly\.com(?:\b)" 	1;
 "~*(?:\b)ilovevitaly\.ru(?:\b)" 	1;
@@ -4030,6 +4033,7 @@
 "~*(?:\b)nofreezingmac\.click(?:\b)" 	1;
 "~*(?:\b)nofreezingmac\.work(?:\b)" 	1;
 "~*(?:\b)no\-fuel\.org(?:\b)" 	1;
+"~*(?:\b)nonameread45\.live(?:\b)" 	1;
 "~*(?:\b)nonews\.co(?:\b)" 	1;
 "~*(?:\b)nootrino\.com(?:\b)" 	1;
 "~*(?:\b)nordstar\.pro(?:\b)" 	1;
@@ -4274,6 +4278,7 @@
 "~*(?:\b)partner\-trustworthy\.men(?:\b)" 	1;
 "~*(?:\b)partnerworkroom\.men(?:\b)" 	1;
 "~*(?:\b)partybunny\.ru(?:\b)" 	1;
+"~*(?:\b)parvezmia\.xyz(?:\b)" 	1;
 "~*(?:\b)pastaleads\.com(?:\b)" 	1;
 "~*(?:\b)pateaswing\.com(?:\b)" 	1;
 "~*(?:\b)pathwhelp\.org(?:\b)" 	1;

@@ -1212,6 +1212,7 @@ domain:cheapsergiorossi.online
 domain:cheapwebsitehoster.com
 domain:cheatcode-lita12.rhcloud.com
 domain:check-host.net
+domain:check-this-out-now.online
 domain:checkhit.com
 domain:checkm8.com
 domain:checkpagerank.net
@@ -2279,6 +2280,7 @@ domain:freewebs.com
 domain:freewhatsappload.com
 domain:freewlan.info
 domain:frequiry.com
+domain:fres-news.com
 domain:freshberry.com.ua
 domain:freshdz.com
 domain:freshmac.space
@@ -2830,6 +2832,7 @@ domain:ilbe.club
 domain:ilikevitaly.com
 domain:ilmen.net
 domain:ilmexico.com
+domain:ilo134uloh.com
 domain:iloveitaly.ru
 domain:ilovevitaly.com
 domain:ilovevitaly.ru
@@ -4031,6 +4034,7 @@ domain:nodding-passion.tk
 domain:nodup.ru
 domain:nofreezingmac.click
 domain:nofreezingmac.work
+domain:nonameread45.live
 domain:nonews.co
 domain:nootrino.com
 domain:nordstar.pro
@@ -4275,6 +4279,7 @@ domain:partners-ship.pro
 domain:partnersafe.men
 domain:partnerworkroom.men
 domain:partybunny.ru
+domain:parvezmia.xyz
 domain:pastaleads.com
 domain:pateaswing.com
 domain:pathwhelp.org
