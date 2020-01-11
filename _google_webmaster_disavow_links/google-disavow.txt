@@ -3280,6 +3280,7 @@ domain:lacasamorett.com
 domain:lacave.ntic.fr
 domain:lacloop.info
 domain:ladov.ru
+domain:ladsblue.com
 domain:ladsup.com
 domain:laexotic.com
 domain:lafourmiliaire.com
@@ -5074,6 +5075,7 @@ domain:seasonvar.ru
 domain:seccioncontrabajo.com
 domain:secret.xn--oogle-wmc.com
 domain:secretscook.ru
+domain:securesmrt-dt.com
 domain:security60-e.com
 domain:securityallianceservices.com
 domain:see-your-website-here.com

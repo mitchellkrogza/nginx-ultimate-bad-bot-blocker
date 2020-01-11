@@ -3279,6 +3279,7 @@
 "~*(?:\b)lacave\.ntic\.fr(?:\b)" 	1;
 "~*(?:\b)lacloop\.info(?:\b)" 	1;
 "~*(?:\b)ladov\.ru(?:\b)" 	1;
+"~*(?:\b)ladsblue\.com(?:\b)" 	1;
 "~*(?:\b)ladsup\.com(?:\b)" 	1;
 "~*(?:\b)laexotic\.com(?:\b)" 	1;
 "~*(?:\b)la\-fa\.ru(?:\b)" 	1;
@@ -5070,6 +5071,7 @@
 "~*(?:\b)seccioncontrabajo\.com(?:\b)" 	1;
 "~*(?:\b)secretscook\.ru(?:\b)" 	1;
 "~*(?:\b)secret\.xn\-\-oogle\-wmc\.com(?:\b)" 	1;
+"~*(?:\b)securesmrt\-dt\.com(?:\b)" 	1;
 "~*(?:\b)security60\-e\.com(?:\b)" 	1;
 "~*(?:\b)securityallianceservices\.com(?:\b)" 	1;
 "~*(?:\b)seeingmeerkat\.com(?:\b)" 	1;
