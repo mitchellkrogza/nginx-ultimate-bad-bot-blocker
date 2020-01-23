@@ -120,6 +120,7 @@ domain:5ws.dating-app.ru
 domain:6128786.com
 domain:66cpwgln.space
 domain:6hopping.com
+domain:70casino.online
 domain:72-news.com
 domain:76brighton.co.uk
 domain:777-club.ru
@@ -6228,6 +6229,7 @@ domain:vkonche.com
 domain:vkontaktemusic.ru
 domain:vkontarkte.com
 domain:vksaver-all.ru
+domain:vksex.ru
 domain:vladhistory.com
 domain:vladimir.xrus.org
 domain:vladimir.zrus.org
@@ -6260,6 +6262,7 @@ domain:vrotike.ru
 domain:vroze.com
 domain:vsdshnik.com
 domain:vseigru.one
+domain:vseigry.fun
 domain:vsesubwaysurfers.com
 domain:vseuznaem.com
 domain:vsexkontakte.net
