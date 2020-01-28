@@ -313,6 +313,7 @@ main() {
 	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 	local file=globalblacklist.conf remote_dir=conf.d url= output= update= status= tmp= retval=
 	local nginx_path=$(find_binary nginx)
+	local pidof_path=$(find_binary pidof)
 
 	# require root
 	if [ "$(id -u)" != "0" ]; then
@@ -358,7 +359,8 @@ main() {
 		# re-read nginx configuration
 		if [ $retval = 0 ]; then
 
-			if pidof nginx 1>/dev/null; then
+			# use full paths to workaround crontabs without $PATH configured
+			if $pidof_path nginx 1>/dev/null; then
 
 				$nginx_path -s reload 2>&1 >/dev/null
 
