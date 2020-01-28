@@ -83,7 +83,7 @@ update_paths() {
 check_config() {
 	if [ -z "$FILE_LIST" ]; then
 		printf "${BOLDGREEN}using a file extension for vhost files allows multiple domains to be included with a single directive in nginx.conf:\n\n"
-		printf "${BOLDWHITE}include /etc/nginx/sites-enabled/*.vhost;\n\n"
+		printf "${BOLDWHITE}include /etc/nginx/sites-enabled/*.$VHOST_EXT;\n\n"
 		printf "${BOLDYELLOW}see command line switches below: ${BOLDGREEN}-e ${RESET}to customise the vhost file extension\n\n"
 		printf "${BOLDMAGENTA}no vhost files in:${RESET} [ $VHOST_DIR/*.$VHOST_EXT ] ${BOLDWHITE}=> exiting${RESET}.\n\n"
 		usage
