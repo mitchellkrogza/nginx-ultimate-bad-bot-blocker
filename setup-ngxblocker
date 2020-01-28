@@ -45,6 +45,7 @@ Usage: $script [OPTIONS]
 	[ -l ] : Manual whitelist of domain    (default: none)
 	[ -n ] : NO whitelist of .names only   (default: $DOT_NAMES)
 	[ -d ] : NO insert of DDOS rule        (default: $INC_DDOS)
+	[ -z ] : NO configuration of vhosts    (default: configure files in $VHOST_DIR)
 	[ -x ] : Actually change the files     (default: don't change anything)
 	[ -h ] : this help message
 
@@ -100,7 +101,8 @@ find_vhosts() {
 	local ans=
 	FILE_LIST=$(find $VHOST_DIR \( -type f -or -type l \) -name "*.$VHOST_EXT")
 
-	if [ -z "$FILE_LIST" ]; then
+	# vhost configuration can be disabled with '-z' switch
+	if [ -z "$FILE_LIST" ] && [ -z "$SETUP_VHOST" ]; then
 		find $VHOST_DIR -type f
 		printf "\n${BOLDWHITE}Configure every file above as a vhost ? [Y/N] : "; read ans
 		case "$ans" in
@@ -331,7 +333,7 @@ check_nginx_directives() {
 get_options() {
 	local arg= opts=
 
-	while getopts :w:l:e:v:b:c:m:i:ndxh opts "$@"
+	while getopts :w:l:e:v:b:c:m:i:ndxzh opts "$@"
 	do
 		if [ -n "${OPTARG}" ]; then
 			case "$opts" in
@@ -352,6 +354,7 @@ get_options() {
 			n) DOT_NAMES=N ;;
 			d) INC_DDOS=N ;;
 			x) DRY_RUN=N ;;
+			z) SETUP_VHOST=N ;;
 			h) usage ;;
 			\?) usage ;;
 			:) check_args $OPTARG none none ;;
