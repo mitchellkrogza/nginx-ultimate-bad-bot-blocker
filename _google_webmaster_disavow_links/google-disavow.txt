@@ -3301,6 +3301,7 @@ domain:languagecode.com
 domain:lankarns.com
 domain:laparfumotec.com
 domain:lapitec.eu
+domain:lapolis.it
 domain:laptop-4-less.com
 domain:laptoper.net
 domain:larchik.net
@@ -3378,6 +3379,7 @@ domain:liky.co.ua
 domain:limads.men
 domain:limtu.ifmo.ru
 domain:lincolntheatre.com
+domain:lineavabit.it
 domain:linerdrilling.com
 domain:lineshops.biz
 domain:link.ac
@@ -4036,6 +4038,7 @@ domain:nodding-passion.tk
 domain:nodup.ru
 domain:nofreezingmac.click
 domain:nofreezingmac.work
+domain:nomuos.it
 domain:nonameread45.live
 domain:nonews.co
 domain:nootrino.com
@@ -4978,6 +4981,7 @@ domain:saugatuck.com
 domain:savefrom.com
 domain:saveindex.xyz
 domain:savememoney.co.za
+domain:saveriopiazza.it
 domain:savetubevideo.com
 domain:savingsslider-a.akamaihd.net
 domain:sawin.beth.webd.pl
@@ -5446,6 +5450,7 @@ domain:spidtest.space
 domain:spin2016.cf
 domain:spinnerco.ca
 domain:spitfiremusic.com
+domain:spl63.fr
 domain:splendorsearch-a.akamaihd.net
 domain:sport-video-obzor.ru
 domain:sport7777.net
@@ -5657,6 +5662,7 @@ domain:tech4master.com
 domain:techart24.com
 domain:technika-remont.ru
 domain:technopellet.gr
+domain:tecnoteakviareggio.it
 domain:tecspb.ru
 domain:tedxrj.com
 domain:tedy.su
@@ -5753,6 +5759,7 @@ domain:titan-cloud.life
 domain:titangel-vietnam.com
 domain:titelhelden.eu
 domain:titslove.yopoint.in
+domain:tivolibasket.it
 domain:tizanidine4mg.blogspot.com
 domain:tizanidine4mgprice.blogspot.com
 domain:tizanidine4mgstreetprice.blogspot.com
@@ -5826,6 +5833,7 @@ domain:tomatis.gospartner.com
 domain:tomck.com
 domain:tonerbox.kz
 domain:tongkatmadura.info
+domain:tonivedu.it
 domain:toolsky.com
 domain:toon-families.com
 domain:toondinsey.com
@@ -6219,6 +6227,7 @@ domain:vitanail.ru
 domain:viteonlusarezzo.it
 domain:vitoriacabos.com
 domain:viven.host.sk
+domain:viveresaniesnelli.it
 domain:vizag.kharkov.ua
 domain:vizitki.net
 domain:vk-mus.ru
@@ -6686,6 +6695,7 @@ domain:youthreaders.com
 domain:youtoner.it
 domain:youtube-downloader.savetubevideo.com
 domain:youtubedownload.org
+domain:youtubologia.it
 domain:youtuhe.com
 domain:ypmuseum.ru
 domain:ytmnd.com
@@ -6767,6 +6777,7 @@ domain:zigarettenonlinekaufen2.bloog.pl
 domain:zigarettenonlinekaufen2.drupalgardens.com
 domain:zigzog.ru
 domain:zionstar.net
+domain:zirondelli.it
 domain:zixizop.net.ru
 domain:zkjovpdgxivg.ga
 domain:zlatnajesen.com
