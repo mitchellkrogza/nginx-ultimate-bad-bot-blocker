@@ -116,6 +116,10 @@ whitelist_ips() {
 
 	mkdir -p $BOTS_DIR
 
+	if [ -z $(find_binary dig) ]; then
+		return
+	fi
+
 	ip="$(dig +short myip.opendns.com @resolver1.opendns.com)"
 	if ! grep "$ip" $conf >/dev/null 2>&1; then
 		printf "\n%-17s %-15s %-s\n" "Whitelisting ip:" "$ip" "=> $conf"
@@ -304,6 +308,11 @@ check_depends() {
 	if [ -z $(find_binary curl) ]; then
 		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}\n"
 		exit 1
+	fi
+
+	# required for whitelisting public ip
+	if [ -z $(find_binary dig) ]; then
+		printf "${BOLDYELLOW}WARN${RESET}: $0 optionally requires: 'dig' => ${BOLDWHITE}cannot whitelist public ip address.${RESET}\n"
 	fi
 
 	# install-ngxblocker downloads missing scripts / includes as part of the update process
