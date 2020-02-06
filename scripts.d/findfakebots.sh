@@ -4,7 +4,7 @@
 # Copyright: Mitchell Krog - https://github.com/mitchellkrogza
 # Repo Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
 
-##############################################################################                                                                
+##############################################################################
 #       _  __     _                                                          #
 #      / |/ /__ _(_)__ __ __                                                 #
 #     /    / _ `/ / _ \\ \ /                                                 #
@@ -14,7 +14,7 @@
 #     / _  / _ `/ _  /  / _  / _ \/ __/  / _  / / _ \/ __/  '_/ -_) __/      #
 #    /____/\_,_/\_,_/  /____/\___/\__/  /____/_/\___/\__/_/\_\\__/_/         #
 #                                                                            #
-##############################################################################                                                                
+##############################################################################
 
 # ------------------------------------------------------------------------------
 # MIT License
@@ -46,14 +46,14 @@
 # ---------------------------------------------------------------------------------------------------------
 # It extracts every single log line from all log files which claim to be Googlebot / bingbot
 # This includes all valid Google and Bing bots too.
-# These are extracted from your logs into new temporary log files. 
+# These are extracted from your logs into new temporary log files.
 # These files are then processed with some magic to find only the fake bots which are then emailed to you.
 # After the script has run and emailed you all temporary files are cleaned up and you original log files
 # are not touched or modified in any way whatsoever.
-# 
+#
 # It is lightning fast !!!
 # 33.946s from start to finish for a full months worth of log files from 40 web sites.
-# 
+#
 # THIS SCRIPT WILL PROCESS ALL CURRENT LOG FILES IN YOUR NGINX LOG FILE LOCATION
 # This means it ONLY processes this months "current" log files which are xxxxxxxx-access.log
 # It will NOT process rolled over log files ie xxxxxxxx-access.log.1 and xxxxxxx-access.log.2
@@ -72,7 +72,7 @@
 # - dig
 # - USES: ANY existing Nginx log format that starts with '$remote_addr'
 
-# ---------------------- 
+# ----------------------
 # INSTALLATION AND USAGE
 # ----------------------
 
@@ -82,35 +82,35 @@
 # --------------------------------------------------------
 #
 # sudo nano /etc/Muttrc
-# 
+#
 # ---------------------------------------
 # 2. PASTE this at the bottom of the file
 # ---------------------------------------
-# 
+#
 # set copy = no
 # set folder = ""
-# 
+#
 # ----------------------------------------------------------
 # 3. SAVE this script in your HOME folder as findfakebots.sh
 # ----------------------------------------------------------
-# 
+#
 # ------------------------------
-# 4. MAKE this script executable 
+# 4. MAKE this script executable
 # ------------------------------
-# 
+#
 # sudo chmod +x findfakebots.sh
-# 
+#
 # -------------------------------------
 # 5. EDIT the USER SETTINGS block below
 # -------------------------------------
-# 
+#
 # ---------------------------
 # 6. RUN the script with sudo
 # ---------------------------
-# 
+#
 # cd ${HOME}
 # sudo ./findfakebots.sh
-# 
+#
 # RUN FROM CRON as you like, make sure you have allowed your user to run sudo from CRON through visudo !!!
 # You should only need to run this perhaps once a week.
 #
@@ -311,5 +311,3 @@ exit ${?}
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 # ------------------------------------------------------------------------------
-
-
