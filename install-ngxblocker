@@ -38,6 +38,7 @@ SCRIPT_DIR=/usr/local/sbin
 REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 
 ####### end user configuration ##########################
+OS=$(uname -s)
 
 usage() {
         local script=$(basename $0)
@@ -267,13 +268,25 @@ check_depends() {
 		fi
 	done
 
-	# give a helpful message for missing pidof
-	if [ -z $(find_binary pidof) ]; then
-		printf "$0 requires 'pidof' \n\n"
-		printf "In Debian: apt install sysvinit-utils\n"
-		printf "In Centos: yum install sysvinit-tools\n"
-		exit 1
-	fi
+	case $OS in
+		Linux)
+			# give a helpful message for missing pidof
+			if [ -z $(find_binary pidof) ]; then
+				printf "$0 requires 'pidof' \n\n"
+				printf "In Debian: apt install sysvinit-utils\n"
+				printf "In Centos: yum install sysvinit-tools\n"
+				exit 1
+			fi
+			;;
+		*BSD)
+			# give a helpful message for missing gsed
+			if [ -z $(find_binary gsed) ]; then
+				printf "$0 requires 'gsed' \n\n"
+				printf "In FreeBSD: 'pkg install textproc/gsed' or 'portmaster textproc/gsed'\n"
+				exit 1
+			fi
+			;;
+	esac
 }
 
 check_online() {
