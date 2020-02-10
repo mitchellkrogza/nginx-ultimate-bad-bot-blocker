@@ -91,14 +91,14 @@ check_version() {
 
 	if [ -f $file ]; then
 		# local version
-		version=$(grep "Version:" $file | sed 's|^.*: V||g')
-		date=$(grep "Updated:" $file | sed 's|^.*: ||g')
+		version=$(grep "Version:" $file | $SED_CMD 's|^.*: V||g')
+		date=$(grep "Updated:" $file | $SED_CMD 's|^.*: ||g')
 		print_message "\nLOCAL Version: $BOLDWHITE$version$RESET\n"
 		print_message "Updated: $date\n\n"
 		# remote version
 		curl -s --limit-rate 5k -r $range --location $url -o $tmp
-		remote_ver=$(grep "Version:" $tmp | sed 's|^.*: V||g')
-		remote_date=$(grep "Updated:" $tmp | sed 's|^.*: ||g')
+		remote_ver=$(grep "Version:" $tmp | $SED_CMD 's|^.*: V||g')
+		remote_date=$(grep "Updated:" $tmp | $SED_CMD 's|^.*: ||g')
 		print_message "REMOTE Version: $BOLDWHITE$remote_ver$RESET\n"
 		print_message "Updated: $remote_date\n"
 		rm -f $tmp
@@ -154,7 +154,7 @@ update_paths() {
 
 			for x in $include_paths; do
 				dir=$(dirname $x)
-				sed -i "s|$dir|$BOTS_DIR|" $blacklist
+				$SED_CMD -i "s|$dir|$BOTS_DIR|" $blacklist
 			done
 		else
 			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}.\n"
@@ -209,6 +209,17 @@ check_args() {
 }
 
 check_depends() {
+	local OS=$(uname -s)
+
+	case $OS in
+		Linux)
+			SED_CMD=$(find_binary sed)
+			;;
+		*BSD)
+			SED_CMD=$(find_binary gsed)
+			;;
+	esac
+
 	# centos does not have which by default
 	if [ -z $(find_binary curl) ]; then
 		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}\n"
@@ -236,9 +247,9 @@ log_output() {
 
 	if [ -n "$logger" ]; then
 		# remove ansi color codes
-		sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
+		$SED_CMD -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
 		# remove blank lines
-		sed -i '/^\s*$/d' $EMAIL_REPORT
+		$SED_CMD -i '/^\s*$/d' $EMAIL_REPORT
 		# log output
 		$logger -t $script -f $EMAIL_REPORT 2>&1
 		print_message "Output logged to syslog\n";
@@ -252,7 +263,7 @@ send_email() {
 	if [ -n $(find_binary mail) ]; then
 		print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
 		# remove ansi colour codes
-		sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
+		$SED_CMD -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
 		cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
 	else
 		print_message "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}.\n\n"
@@ -263,7 +274,7 @@ send_email_via_mailgun() {
 	local report= subject= endpoint="https://api.mailgun.net/v3/$MG_DOMAIN/messages"
 
 	echo "Mailgunning report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
-	sed -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
+	$SED_CMD -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
 	report="$(cat $EMAIL_REPORT)"
 	subject='Nginx Bad Bot Blocker Updated'
 
