@@ -36,7 +36,6 @@ CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
 SCRIPT_DIR=/usr/local/sbin
 REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
-SUPPRESS_SCRIPTS=false
 
 ####### end user configuration ##########################
 
@@ -49,7 +48,6 @@ Usage: $script [OPTIONS]
         [ -b ] : Bot rules directory           (default: $BOTS_DIR)
         [ -c ] : NGINX conf directory          (default: $CONF_DIR)
         [ -s ] : Script directory              (default: $SCRIPT_DIR)
-        [ -S ] : Suppress script download      (default: $SUPPRESS_SCRIPTS)
         [ -r ] : Change repo url               (default: $REPO)
         [ -x ] : Actually change the files     (default: don't change anything)
         [ -q ] : Suppress non error messages
@@ -208,7 +206,7 @@ print_message() {
 get_options() {
         local arg= opts=
 
-        while getopts :b:c:s:Sr:xvqh opts "$@"
+        while getopts :b:c:s:r:xvqh opts "$@"
         do
                 if [ -n "${OPTARG}" ]; then
                         case "$opts" in
@@ -221,7 +219,6 @@ get_options() {
                         b) BOTS_DIR=$arg; check_args $opts path $arg ;;
                         c) CONF_DIR=$arg; check_args $opts path $arg ;;
                         s) SCRIPT_DIR=$arg; check_args $opts path $arg ;;
-                        S) SUPPRESS_SCRIPTS=true
                         r) REPO=$arg; check_args $opts url $arg ;;
                         x) DRY_RUN=N ;;
                         v) check_version ;;
@@ -331,13 +328,11 @@ main() {
 	check_config $CONF_DIR $BOTS_DIR $SCRIPT_DIR
 	download_files conf.d $CONF_DIR $CONF_FILES
 	download_files bots.d $BOTS_DIR $BOT_FILES
-	if [ $SUPPRESS_SCRIPTS = false ]; then
-		download_files / $SCRIPT_DIR $SCRIPT_FILES
+	download_files / $SCRIPT_DIR $SCRIPT_FILES
 
-		# ensures scripts are executable
-		if [ "$DRY_RUN" = "N" ]; then
-			set_mode 700 $SCRIPT_DIR $SCRIPT_FILES
-		fi
+	# ensures scripts are executable
+	if [ "$DRY_RUN" = "N" ]; then
+		set_mode 700 $SCRIPT_DIR $SCRIPT_FILES
 	fi
 }
 
