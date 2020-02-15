@@ -28,6 +28,7 @@ BOLDRED="\033[1m\033[31m"
 BOLDYELLOW="\033[1m\033[33m"
 BOLDWHITE="\033[1m\033[37m"
 RESET="\033[0m"
+OS=$(uname -s)
 
 usage() {
         local script=$(basename $0)
@@ -71,7 +72,7 @@ update_paths() {
 
 			for x in $include_paths; do
 				dir=$(dirname $x)
-				sed -i "s|$dir|$BOTS_DIR|" $blacklist
+				${SED_CMD} -i "s|$dir|$BOTS_DIR|" $blacklist
 			done
 		else
 			printf "${BOLDRED}ERROR${RESET}: '$BOTS_DIR' does not exist => ${BOLDWHITE}running $INSTALLER${RESET}.\n"
@@ -196,7 +197,7 @@ add_includes() {
 			printf "%-10s %-${col_size}s %s\n" "inserting:" "$text" "=> $file"
 			if [ "$DRY_RUN" = "N" ]; then
 				# $ph is just a placeholder so sed inserts a \t (tab)
-				sed -i "$line i $ph \t$text $ph" $file
+				${SED_CMD} -i "$line i $ph \t$text $ph" $file
 			fi
 		fi
 	done
@@ -205,17 +206,17 @@ add_includes() {
 		if [ -n "$update" ]; then
 			#add blank line below inserts
 			line=$(( $line + $(echo $include_list | wc -w) ))
-			if ! sed -n "${line}p" $file | grep ^'}' 1>/dev/null; then
+			if ! ${SED_CMD} -n "${line}p" $file | grep ^'}' 1>/dev/null; then
 				text="include $conf_dir/$(echo $include_list | awk '{print $1}');"
-				sed -i "s|$text|$text\n|" $file
+				${SED_CMD} -i "s|$text|$text\n|" $file
 			fi
 
 			#add comment above inserts
 			text="include $conf_dir/$(echo $include_list | awk '{print $NF}');"
-			sed -i "s|$text|\n\n    ##\n    # Nginx Bad Bot Blocker Includes\n    # REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker\n    ##\n\t$text|" $file
+			${SED_CMD} -i "s|$text|\n\n    ##\n    # Nginx Bad Bot Blocker Includes\n    # REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker\n    ##\n\t$text|" $file
 
 			# remove placeholders
-			sed -i "s|$ph||g" $file
+			${SED_CMD} -i "s|$ph||g" $file
 		fi
 	fi
 }
@@ -238,7 +239,7 @@ find_includes() {
 	local end=$(find_line $file $end_range $end_first_last)
 
 	if [ -n "$start" ] && [ -n "$end" ]; then
-		sed -n "$start,$end"p $file > $tmp
+		${SED_CMD} -n "$start,$end"p $file > $tmp
 		line=$(find_line $tmp $search $search_first_last)
 		rm -f $tmp
 	fi
@@ -254,9 +255,9 @@ find_includes() {
 	esac
 
 	# if inserting beyond the end of the stanza
-	if [ "$(sed -n $(( $line - 1))p $file | grep ^})" = "}" ]; then
+	if [ "$(${SED_CMD} -n $(( $line - 1))p $file | grep ^})" = "}" ]; then
 		# insert blank line
-		sed -i "$(( line - 1)) i \ " $file
+		${SED_CMD} -i "$(( line - 1)) i \ " $file
 	fi
 
 	echo $line
@@ -310,6 +311,23 @@ check_depends() {
 		exit 1
 	fi
 
+	case $OS in
+		Linux)
+			SED_CMD=$(find_binary sed)
+			if [ -z ${SED_CMD} ]; then
+				printf "${BOLDRED}ERROR${RESET}: $0 requires: 'sed' => ${BOLDWHITE}please install sed.${RESET}\n"
+				exit 1
+			fi
+			;;
+		*BSD)
+			SED_CMD=$(find_binary gsed)
+			if [ -z ${SED_CMD} ]; then
+				printf "${BOLDRED}ERROR${RESET}: $0 requires: 'gsed' => ${BOLDWHITE}please install textproc/gsed.${RESET}\n"
+				exit 1
+			fi
+			;;
+	esac
+
 	# required for whitelisting public ip
 	if [ -z $(find_binary dig) ]; then
 		printf "${BOLDYELLOW}WARN${RESET}: $0 optionally requires: 'dig' => ${BOLDWHITE}cannot whitelist public ip address.${RESET}\n"
@@ -332,7 +350,7 @@ check_nginx_directives() {
 			printf "${BOLDYELLOW}setup will fix conflict from: '$x' in $bot_config${RESET}\n"
 			if [ "$DRY_RUN" = "N" ]; then
 				printf "${BOLDRED}disabling '$x' in: $bot_config${RESET}\n"
-				sed -i "s/$x/#$x/g" $bot_config | grep $x
+				${SED_CMD} -i "s/$x/#$x/g" $bot_config | grep $x
 				printf " ${BOLDGREEN}disabled OK${RESET}\n\n"
 			fi
 		fi
@@ -424,7 +442,7 @@ main() {
 
 	# configure ddos include
 	case "$INC_DDOS" in
-		n*|N*) VHOST_INCLUDES=$(echo $VHOST_INCLUDES | sed 's|ddos.conf||');;
+		n*|N*) VHOST_INCLUDES=$(echo $VHOST_INCLUDES | ${SED_CMD} 's|ddos.conf||');;
 	esac
 
 	# by default do not change any files
