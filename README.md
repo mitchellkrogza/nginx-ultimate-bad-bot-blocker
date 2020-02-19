@@ -56,6 +56,8 @@ Please make sure you are subscribed to Github Notifications to be notified when 
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-1.png"/>
 
+##### Linux
+
 Download install-ngxblocker to your /usr/local/sbin/directory and make the script executable.
 
 ```
@@ -67,6 +69,20 @@ If your Linux distribution does not have wget you can replace the wget command a
 
 ```
 curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -o /usr/local/sbin/install-ngxblocker
+```
+
+##### FreeBSD
+
+Install the package.
+
+```
+pkg install www/nginx-ultimate-bad-bot-blocker
+```
+
+Alternatively install via portmaster:
+
+```
+portmaster www/nginx-ultimate-bad-bot-blocker
 ```
 
 ************************************************
