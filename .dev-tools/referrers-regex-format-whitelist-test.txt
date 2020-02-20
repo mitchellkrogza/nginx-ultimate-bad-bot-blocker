@@ -120,6 +120,7 @@
 "~*(?:\b)6128786\.com(?:\b)" 	0;
 "~*(?:\b)66cpwgln\.space(?:\b)" 	0;
 "~*(?:\b)6hopping\.com(?:\b)" 	0;
+"~*(?:\b)70casino\.online(?:\b)" 	0;
 "~*(?:\b)72\-news\.com(?:\b)" 	0;
 "~*(?:\b)76brighton\.co\.uk(?:\b)" 	0;
 "~*(?:\b)777\-club\.ru(?:\b)" 	0;
@@ -1212,6 +1213,7 @@
 "~*(?:\b)cheapwebsitehoster\.com(?:\b)" 	0;
 "~*(?:\b)cheatcode\-lita12\.rhcloud\.com(?:\b)" 	0;
 "~*(?:\b)check\-host\.net(?:\b)" 	0;
+"~*(?:\b)check\-this\-out\-now\.online(?:\b)" 	0;
 "~*(?:\b)checkhit\.com(?:\b)" 	0;
 "~*(?:\b)checkm8\.com(?:\b)" 	0;
 "~*(?:\b)checkpagerank\.net(?:\b)" 	0;
@@ -2279,6 +2281,7 @@
 "~*(?:\b)freewhatsappload\.com(?:\b)" 	0;
 "~*(?:\b)freewlan\.info(?:\b)" 	0;
 "~*(?:\b)frequiry\.com(?:\b)" 	0;
+"~*(?:\b)fres\-news\.com(?:\b)" 	0;
 "~*(?:\b)freshberry\.com\.ua(?:\b)" 	0;
 "~*(?:\b)freshdz\.com(?:\b)" 	0;
 "~*(?:\b)freshmac\.space(?:\b)" 	0;
@@ -2830,6 +2833,7 @@
 "~*(?:\b)ilikevitaly\.com(?:\b)" 	0;
 "~*(?:\b)ilmen\.net(?:\b)" 	0;
 "~*(?:\b)ilmexico\.com(?:\b)" 	0;
+"~*(?:\b)ilo134uloh\.com(?:\b)" 	0;
 "~*(?:\b)iloveitaly\.ru(?:\b)" 	0;
 "~*(?:\b)ilovevitaly\.com(?:\b)" 	0;
 "~*(?:\b)ilovevitaly\.ru(?:\b)" 	0;
@@ -3277,6 +3281,7 @@
 "~*(?:\b)lacave\.ntic\.fr(?:\b)" 	0;
 "~*(?:\b)lacloop\.info(?:\b)" 	0;
 "~*(?:\b)ladov\.ru(?:\b)" 	0;
+"~*(?:\b)ladsblue\.com(?:\b)" 	0;
 "~*(?:\b)ladsup\.com(?:\b)" 	0;
 "~*(?:\b)laexotic\.com(?:\b)" 	0;
 "~*(?:\b)lafourmiliaire\.com(?:\b)" 	0;
@@ -3296,6 +3301,7 @@
 "~*(?:\b)lankarns\.com(?:\b)" 	0;
 "~*(?:\b)laparfumotec\.com(?:\b)" 	0;
 "~*(?:\b)lapitec\.eu(?:\b)" 	0;
+"~*(?:\b)lapolis\.it(?:\b)" 	0;
 "~*(?:\b)laptop\-4\-less\.com(?:\b)" 	0;
 "~*(?:\b)laptoper\.net(?:\b)" 	0;
 "~*(?:\b)larchik\.net(?:\b)" 	0;
@@ -3373,6 +3379,7 @@
 "~*(?:\b)limads\.men(?:\b)" 	0;
 "~*(?:\b)limtu\.ifmo\.ru(?:\b)" 	0;
 "~*(?:\b)lincolntheatre\.com(?:\b)" 	0;
+"~*(?:\b)lineavabit\.it(?:\b)" 	0;
 "~*(?:\b)linerdrilling\.com(?:\b)" 	0;
 "~*(?:\b)lineshops\.biz(?:\b)" 	0;
 "~*(?:\b)link\.ac(?:\b)" 	0;
@@ -4031,6 +4038,8 @@
 "~*(?:\b)nodup\.ru(?:\b)" 	0;
 "~*(?:\b)nofreezingmac\.click(?:\b)" 	0;
 "~*(?:\b)nofreezingmac\.work(?:\b)" 	0;
+"~*(?:\b)nomuos\.it(?:\b)" 	0;
+"~*(?:\b)nonameread45\.live(?:\b)" 	0;
 "~*(?:\b)nonews\.co(?:\b)" 	0;
 "~*(?:\b)nootrino\.com(?:\b)" 	0;
 "~*(?:\b)nordstar\.pro(?:\b)" 	0;
@@ -4275,6 +4284,7 @@
 "~*(?:\b)partnersafe\.men(?:\b)" 	0;
 "~*(?:\b)partnerworkroom\.men(?:\b)" 	0;
 "~*(?:\b)partybunny\.ru(?:\b)" 	0;
+"~*(?:\b)parvezmia\.xyz(?:\b)" 	0;
 "~*(?:\b)pastaleads\.com(?:\b)" 	0;
 "~*(?:\b)pateaswing\.com(?:\b)" 	0;
 "~*(?:\b)pathwhelp\.org(?:\b)" 	0;
@@ -4971,6 +4981,7 @@
 "~*(?:\b)savefrom\.com(?:\b)" 	0;
 "~*(?:\b)saveindex\.xyz(?:\b)" 	0;
 "~*(?:\b)savememoney\.co\.za(?:\b)" 	0;
+"~*(?:\b)saveriopiazza\.it(?:\b)" 	0;
 "~*(?:\b)savetubevideo\.com(?:\b)" 	0;
 "~*(?:\b)savingsslider\-a\.akamaihd\.net(?:\b)" 	0;
 "~*(?:\b)sawin\.beth\.webd\.pl(?:\b)" 	0;
@@ -5069,6 +5080,7 @@
 "~*(?:\b)seccioncontrabajo\.com(?:\b)" 	0;
 "~*(?:\b)secret\.xn\-\-oogle\-wmc\.com(?:\b)" 	0;
 "~*(?:\b)secretscook\.ru(?:\b)" 	0;
+"~*(?:\b)securesmrt\-dt\.com(?:\b)" 	0;
 "~*(?:\b)security60\-e\.com(?:\b)" 	0;
 "~*(?:\b)securityallianceservices\.com(?:\b)" 	0;
 "~*(?:\b)see\-your\-website\-here\.com(?:\b)" 	0;
@@ -5438,6 +5450,7 @@
 "~*(?:\b)spin2016\.cf(?:\b)" 	0;
 "~*(?:\b)spinnerco\.ca(?:\b)" 	0;
 "~*(?:\b)spitfiremusic\.com(?:\b)" 	0;
+"~*(?:\b)spl63\.fr(?:\b)" 	0;
 "~*(?:\b)splendorsearch\-a\.akamaihd\.net(?:\b)" 	0;
 "~*(?:\b)sport\-video\-obzor\.ru(?:\b)" 	0;
 "~*(?:\b)sport7777\.net(?:\b)" 	0;
@@ -5649,6 +5662,7 @@
 "~*(?:\b)techart24\.com(?:\b)" 	0;
 "~*(?:\b)technika\-remont\.ru(?:\b)" 	0;
 "~*(?:\b)technopellet\.gr(?:\b)" 	0;
+"~*(?:\b)tecnoteakviareggio\.it(?:\b)" 	0;
 "~*(?:\b)tecspb\.ru(?:\b)" 	0;
 "~*(?:\b)tedxrj\.com(?:\b)" 	0;
 "~*(?:\b)tedy\.su(?:\b)" 	0;
@@ -5745,6 +5759,7 @@
 "~*(?:\b)titangel\-vietnam\.com(?:\b)" 	0;
 "~*(?:\b)titelhelden\.eu(?:\b)" 	0;
 "~*(?:\b)titslove\.yopoint\.in(?:\b)" 	0;
+"~*(?:\b)tivolibasket\.it(?:\b)" 	0;
 "~*(?:\b)tizanidine4mg\.blogspot\.com(?:\b)" 	0;
 "~*(?:\b)tizanidine4mgprice\.blogspot\.com(?:\b)" 	0;
 "~*(?:\b)tizanidine4mgstreetprice\.blogspot\.com(?:\b)" 	0;
@@ -5818,6 +5833,7 @@
 "~*(?:\b)tomck\.com(?:\b)" 	0;
 "~*(?:\b)tonerbox\.kz(?:\b)" 	0;
 "~*(?:\b)tongkatmadura\.info(?:\b)" 	0;
+"~*(?:\b)tonivedu\.it(?:\b)" 	0;
 "~*(?:\b)toolsky\.com(?:\b)" 	0;
 "~*(?:\b)toon\-families\.com(?:\b)" 	0;
 "~*(?:\b)toondinsey\.com(?:\b)" 	0;
@@ -6211,6 +6227,7 @@
 "~*(?:\b)viteonlusarezzo\.it(?:\b)" 	0;
 "~*(?:\b)vitoriacabos\.com(?:\b)" 	0;
 "~*(?:\b)viven\.host\.sk(?:\b)" 	0;
+"~*(?:\b)viveresaniesnelli\.it(?:\b)" 	0;
 "~*(?:\b)vizag\.kharkov\.ua(?:\b)" 	0;
 "~*(?:\b)vizitki\.net(?:\b)" 	0;
 "~*(?:\b)vk\-mus\.ru(?:\b)" 	0;
@@ -6221,6 +6238,7 @@
 "~*(?:\b)vkontaktemusic\.ru(?:\b)" 	0;
 "~*(?:\b)vkontarkte\.com(?:\b)" 	0;
 "~*(?:\b)vksaver\-all\.ru(?:\b)" 	0;
+"~*(?:\b)vksex\.ru(?:\b)" 	0;
 "~*(?:\b)vladhistory\.com(?:\b)" 	0;
 "~*(?:\b)vladimir\.xrus\.org(?:\b)" 	0;
 "~*(?:\b)vladimir\.zrus\.org(?:\b)" 	0;
@@ -6253,6 +6271,7 @@
 "~*(?:\b)vroze\.com(?:\b)" 	0;
 "~*(?:\b)vsdshnik\.com(?:\b)" 	0;
 "~*(?:\b)vseigru\.one(?:\b)" 	0;
+"~*(?:\b)vseigry\.fun(?:\b)" 	0;
 "~*(?:\b)vsesubwaysurfers\.com(?:\b)" 	0;
 "~*(?:\b)vseuznaem\.com(?:\b)" 	0;
 "~*(?:\b)vsexkontakte\.net(?:\b)" 	0;
@@ -6676,6 +6695,7 @@
 "~*(?:\b)youtoner\.it(?:\b)" 	0;
 "~*(?:\b)youtube\-downloader\.savetubevideo\.com(?:\b)" 	0;
 "~*(?:\b)youtubedownload\.org(?:\b)" 	0;
+"~*(?:\b)youtubologia\.it(?:\b)" 	0;
 "~*(?:\b)youtuhe\.com(?:\b)" 	0;
 "~*(?:\b)ypmuseum\.ru(?:\b)" 	0;
 "~*(?:\b)ytmnd\.com(?:\b)" 	0;
@@ -6757,6 +6777,7 @@
 "~*(?:\b)zigarettenonlinekaufen2\.drupalgardens\.com(?:\b)" 	0;
 "~*(?:\b)zigzog\.ru(?:\b)" 	0;
 "~*(?:\b)zionstar\.net(?:\b)" 	0;
+"~*(?:\b)zirondelli\.it(?:\b)" 	0;
 "~*(?:\b)zixizop\.net\.ru(?:\b)" 	0;
 "~*(?:\b)zkjovpdgxivg\.ga(?:\b)" 	0;
 "~*(?:\b)zlatnajesen\.com(?:\b)" 	0;

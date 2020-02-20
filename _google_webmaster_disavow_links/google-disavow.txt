@@ -120,6 +120,7 @@ domain:5ws.dating-app.ru
 domain:6128786.com
 domain:66cpwgln.space
 domain:6hopping.com
+domain:70casino.online
 domain:72-news.com
 domain:76brighton.co.uk
 domain:777-club.ru
@@ -1212,6 +1213,7 @@ domain:cheapsergiorossi.online
 domain:cheapwebsitehoster.com
 domain:cheatcode-lita12.rhcloud.com
 domain:check-host.net
+domain:check-this-out-now.online
 domain:checkhit.com
 domain:checkm8.com
 domain:checkpagerank.net
@@ -2279,6 +2281,7 @@ domain:freewebs.com
 domain:freewhatsappload.com
 domain:freewlan.info
 domain:frequiry.com
+domain:fres-news.com
 domain:freshberry.com.ua
 domain:freshdz.com
 domain:freshmac.space
@@ -2830,6 +2833,7 @@ domain:ilbe.club
 domain:ilikevitaly.com
 domain:ilmen.net
 domain:ilmexico.com
+domain:ilo134uloh.com
 domain:iloveitaly.ru
 domain:ilovevitaly.com
 domain:ilovevitaly.ru
@@ -3277,6 +3281,7 @@ domain:lacasamorett.com
 domain:lacave.ntic.fr
 domain:lacloop.info
 domain:ladov.ru
+domain:ladsblue.com
 domain:ladsup.com
 domain:laexotic.com
 domain:lafourmiliaire.com
@@ -3296,6 +3301,7 @@ domain:languagecode.com
 domain:lankarns.com
 domain:laparfumotec.com
 domain:lapitec.eu
+domain:lapolis.it
 domain:laptop-4-less.com
 domain:laptoper.net
 domain:larchik.net
@@ -3373,6 +3379,7 @@ domain:liky.co.ua
 domain:limads.men
 domain:limtu.ifmo.ru
 domain:lincolntheatre.com
+domain:lineavabit.it
 domain:linerdrilling.com
 domain:lineshops.biz
 domain:link.ac
@@ -4031,6 +4038,8 @@ domain:nodding-passion.tk
 domain:nodup.ru
 domain:nofreezingmac.click
 domain:nofreezingmac.work
+domain:nomuos.it
+domain:nonameread45.live
 domain:nonews.co
 domain:nootrino.com
 domain:nordstar.pro
@@ -4275,6 +4284,7 @@ domain:partners-ship.pro
 domain:partnersafe.men
 domain:partnerworkroom.men
 domain:partybunny.ru
+domain:parvezmia.xyz
 domain:pastaleads.com
 domain:pateaswing.com
 domain:pathwhelp.org
@@ -4971,6 +4981,7 @@ domain:saugatuck.com
 domain:savefrom.com
 domain:saveindex.xyz
 domain:savememoney.co.za
+domain:saveriopiazza.it
 domain:savetubevideo.com
 domain:savingsslider-a.akamaihd.net
 domain:sawin.beth.webd.pl
@@ -5069,6 +5080,7 @@ domain:seasonvar.ru
 domain:seccioncontrabajo.com
 domain:secret.xn--oogle-wmc.com
 domain:secretscook.ru
+domain:securesmrt-dt.com
 domain:security60-e.com
 domain:securityallianceservices.com
 domain:see-your-website-here.com
@@ -5438,6 +5450,7 @@ domain:spidtest.space
 domain:spin2016.cf
 domain:spinnerco.ca
 domain:spitfiremusic.com
+domain:spl63.fr
 domain:splendorsearch-a.akamaihd.net
 domain:sport-video-obzor.ru
 domain:sport7777.net
@@ -5649,6 +5662,7 @@ domain:tech4master.com
 domain:techart24.com
 domain:technika-remont.ru
 domain:technopellet.gr
+domain:tecnoteakviareggio.it
 domain:tecspb.ru
 domain:tedxrj.com
 domain:tedy.su
@@ -5745,6 +5759,7 @@ domain:titan-cloud.life
 domain:titangel-vietnam.com
 domain:titelhelden.eu
 domain:titslove.yopoint.in
+domain:tivolibasket.it
 domain:tizanidine4mg.blogspot.com
 domain:tizanidine4mgprice.blogspot.com
 domain:tizanidine4mgstreetprice.blogspot.com
@@ -5818,6 +5833,7 @@ domain:tomatis.gospartner.com
 domain:tomck.com
 domain:tonerbox.kz
 domain:tongkatmadura.info
+domain:tonivedu.it
 domain:toolsky.com
 domain:toon-families.com
 domain:toondinsey.com
@@ -6211,6 +6227,7 @@ domain:vitanail.ru
 domain:viteonlusarezzo.it
 domain:vitoriacabos.com
 domain:viven.host.sk
+domain:viveresaniesnelli.it
 domain:vizag.kharkov.ua
 domain:vizitki.net
 domain:vk-mus.ru
@@ -6221,6 +6238,7 @@ domain:vkonche.com
 domain:vkontaktemusic.ru
 domain:vkontarkte.com
 domain:vksaver-all.ru
+domain:vksex.ru
 domain:vladhistory.com
 domain:vladimir.xrus.org
 domain:vladimir.zrus.org
@@ -6253,6 +6271,7 @@ domain:vrotike.ru
 domain:vroze.com
 domain:vsdshnik.com
 domain:vseigru.one
+domain:vseigry.fun
 domain:vsesubwaysurfers.com
 domain:vseuznaem.com
 domain:vsexkontakte.net
@@ -6676,6 +6695,7 @@ domain:youthreaders.com
 domain:youtoner.it
 domain:youtube-downloader.savetubevideo.com
 domain:youtubedownload.org
+domain:youtubologia.it
 domain:youtuhe.com
 domain:ypmuseum.ru
 domain:ytmnd.com
@@ -6757,6 +6777,7 @@ domain:zigarettenonlinekaufen2.bloog.pl
 domain:zigarettenonlinekaufen2.drupalgardens.com
 domain:zigzog.ru
 domain:zionstar.net
+domain:zirondelli.it
 domain:zixizop.net.ru
 domain:zkjovpdgxivg.ga
 domain:zlatnajesen.com

@@ -38,6 +38,7 @@ SCRIPT_DIR=/usr/local/sbin
 REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 
 ####### end user configuration ##########################
+OS=$(uname -s)
 
 usage() {
         local script=$(basename $0)
@@ -258,15 +259,34 @@ find_binary() {
 
 check_depends() {
 	# some distros do not have these tools installed by default
-	if [ -z $(find_binary wget) ]; then
-		printf "$0 requires: 'wget' \n"
-		exit 1
-	fi
+	local x= depends_list="wget curl"
 
-	if [ -z $(find_binary curl) ]; then
-		printf "$0 requires 'curl' \n"
-		exit 1
-	fi
+	for x in $depends_list; do
+		if [ -z $(find_binary $x) ]; then
+			printf "$0 requires: '$x' \n"
+			exit 1
+		fi
+	done
+
+	case $OS in
+		Linux)
+			# give a helpful message for missing pidof
+			if [ -z $(find_binary pidof) ]; then
+				printf "$0 requires 'pidof' \n\n"
+				printf "In Debian: apt install sysvinit-utils\n"
+				printf "In Centos: yum install sysvinit-tools\n"
+				exit 1
+			fi
+			;;
+		*BSD)
+			# give a helpful message for missing gsed
+			if [ -z $(find_binary gsed) ]; then
+				printf "$0 requires 'gsed' \n\n"
+				printf "In FreeBSD: 'pkg install textproc/gsed' or 'portmaster textproc/gsed'\n"
+				exit 1
+			fi
+			;;
+	esac
 }
 
 check_online() {
