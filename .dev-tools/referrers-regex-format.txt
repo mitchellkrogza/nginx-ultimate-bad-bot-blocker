@@ -6126,6 +6126,7 @@
 "~*(?:\b)vasileostrovsky\-rayon\.ru(?:\b)" 	1;
 "~*(?:\b)vavilone\.com(?:\b)" 	1;
 "~*(?:\b)vbabule\.net(?:\b)" 	1;
+"~*(?:\b)vbikse\.com(?:\b)" 	1;
 "~*(?:\b)vbtracker\.net(?:\b)" 	1;
 "~*(?:\b)vchulkah\.net(?:\b)" 	1;
 "~*(?:\b)vchulkax\.com(?:\b)" 	1;
@@ -6819,6 +6820,8 @@
 "~*(?:\b)zverokruh\-shop\.cz(?:\b)" 	1;
 "~*(?:\b)zvetki\.ru(?:\b)" 	1;
 "~*(?:\b)zvezdagedon\.ru(?:\b)" 	1;
+"~*(?:\b)zvooq\.eu(?:\b)" 	1;
+"~*(?:\b)zvuker\.net(?:\b)" 	1;
 "~*(?:\b)zx6\.ru(?:\b)" 	1;
 "~*(?:\b)zynax\.ua(?:\b)" 	1;
 "~*(?:\b)zytpirwai\.net(?:\b)" 	1;
