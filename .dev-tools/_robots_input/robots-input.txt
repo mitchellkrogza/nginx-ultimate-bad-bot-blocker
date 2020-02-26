@@ -17,6 +17,7 @@ Alligator
 AllSubmitter
 AlphaBot
 Anarchie
+Ankit
 Apexoo
 archive.org_bot
 arquivo.pt
@@ -348,6 +349,7 @@ PleaseCrawl
 plumanalytics
 Pockey
 POE-Component-Client-HTTP
+polaris version
 Probethenet
 ProPowerBot
 ProWebWalker
