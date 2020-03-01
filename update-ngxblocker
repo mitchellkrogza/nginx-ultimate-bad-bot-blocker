@@ -50,6 +50,7 @@ BOLDYELLOW="\033[1m\033[33m"
 BOLDWHITE="\033[1m\033[37m"
 RESET="\033[0m"
 OS=$(uname -s)
+CURL_PATH=""
 
 usage() {
         local script=$(basename $0)
@@ -97,7 +98,7 @@ check_version() {
 		print_message "\nLOCAL Version: $BOLDWHITE$version$RESET\n"
 		print_message "Updated: $date\n\n"
 		# remote version
-		curl -s --limit-rate 5k -r $range --location $url -o $tmp
+		$CURL_PATH -s --limit-rate 5k -r $range --location $url -o $tmp
 		remote_ver=$(grep "Version:" $tmp | ${SED_CMD} 's|^.*: V||g')
 		remote_date=$(grep "Updated:" $tmp | ${SED_CMD} 's|^.*: ||g')
 		print_message "REMOTE Version: $BOLDWHITE$remote_ver$RESET\n"
@@ -210,6 +211,9 @@ check_args() {
 }
 
 check_depends() {
+	# global var is needed here, it is used in other places
+	CURL_PATH=$(find_binary curl)
+
 	case $OS in
 		Linux)
 			SED_CMD=$(find_binary sed)
@@ -220,7 +224,7 @@ check_depends() {
 	esac
 
 	# centos does not have which by default
-	if [ -z $(find_binary curl) ]; then
+	if [ -z $CURL_PATH ]; then
 		printf "${BOLDRED}ERROR${RESET}: $0 requires: 'curl' => ${BOLDWHITE}cannot check remote version.${RESET}\n"
 		exit 1
 	fi
@@ -277,7 +281,7 @@ send_email_via_mailgun() {
 	report="$(cat $EMAIL_REPORT)"
 	subject='Nginx Bad Bot Blocker Updated'
 
-	curl -s --user api:$MG_API_KEY $endpoint -F from='botblocker<'$MG_FROM'>' -F to=$EMAIL -F subject="$subject" -F text="$report"
+	$CURL_PATH -s --user api:$MG_API_KEY $endpoint -F from='botblocker<'$MG_FROM'>' -F to=$EMAIL -F subject="$subject" -F text="$report"
 }
 
 get_options() {
@@ -348,7 +352,7 @@ main() {
 		tmp=$(mktemp)
 		mkdir -p $CONF_DIR
 		local dl_msg="${BOLDWHITE}Downloading: $file "
-		curl --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so $tmp $url
+		$CURL_PATH --fail --connect-timeout 60 --retry 10 --retry-delay 5 -so $tmp $url
 		retval=$?
 
 		case "$retval" in
