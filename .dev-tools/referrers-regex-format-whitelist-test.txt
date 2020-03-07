@@ -6631,6 +6631,7 @@
 "~*(?:\b)xxxkaz\.org(?:\b)" 	0;
 "~*(?:\b)xxxnatelefon\.ru(?:\b)" 	0;
 "~*(?:\b)xxxrus\.org(?:\b)" 	0;
+"~*(?:\b)xxxsiterips\.xyz(?:\b)" 	0;
 "~*(?:\b)xxxtube69\.com(?:\b)" 	0;
 "~*(?:\b)xxxtubesafari\.com(?:\b)" 	0;
 "~*(?:\b)xz618\.com(?:\b)" 	0;

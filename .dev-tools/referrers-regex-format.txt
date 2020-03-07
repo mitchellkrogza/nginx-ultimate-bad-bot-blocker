@@ -6630,6 +6630,7 @@
 "~*(?:\b)xxxkaz\.org(?:\b)" 	1;
 "~*(?:\b)xxxnatelefon\.ru(?:\b)" 	1;
 "~*(?:\b)xxxrus\.org(?:\b)" 	1;
+"~*(?:\b)xxxsiterips\.xyz(?:\b)" 	1;
 "~*(?:\b)xxx\-treker\.ru(?:\b)" 	1;
 "~*(?:\b)xxxtube69\.com(?:\b)" 	1;
 "~*(?:\b)xxxtubesafari\.com(?:\b)" 	1;
