@@ -72,9 +72,14 @@ deploy:
   file: "FILE TO UPLOAD"
   cleanup: true
   on:
-    tags: true
-    all_branches: true
-
+    repo: mitchellkrogza/nginx-ultimate-bad-bot-blocker
+    tags: false
+    branches:
+      only:
+       - "master"
+      except:
+        - "/^v[0-9]/"
+        - "/^V.*$/"
 notifications:
   on_success: change
   on_failure: always
