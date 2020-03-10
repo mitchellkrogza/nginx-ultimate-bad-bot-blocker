@@ -1,3 +1,5 @@
+os: linux
+language: ruby
 dist: bionic
 
 env:
@@ -8,16 +10,16 @@ env:
     - TRAVIS_REPO_SLUG: mitchellkrogza/nginx-ultimate-bad-bot-blocker
     - GIT_BRANCH: master
 
-matrix:
+jobs:
   fast_finish: true
-
-before_install:
-  - export TZ=Africa/Johannesburg
 
 addons:
     apt:
         packages:
         - mailutils
+
+before_install:
+  - export TZ=Africa/Johannesburg
 
 install:
   - sudo add-apt-repository -y ppa:nginx/stable
@@ -66,21 +68,12 @@ before_deploy:
 
 deploy:
   provider: releases
-  api_key:
-    secure: ${GH_TOKEN}
-  file:
-      - .latest_release/conf.d.tar.gz
-      - .latest_release/bots.d.tar.gz
-  skip_cleanup: true
+  token: ${GH_TOKEN}
+  file: "FILE TO UPLOAD"
+  cleanup: true
   on:
-    repo: mitchellkrogza/nginx-ultimate-bad-bot-blocker
-    tags: false
-    branches:
-        only:
-         - "master"
-      except:
-        - "/^v[0-9]/"
-        - "/^V.*$/"
+    tags: true
+
 notifications:
   on_success: change
   on_failure: always
