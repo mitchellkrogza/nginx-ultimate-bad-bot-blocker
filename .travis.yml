@@ -1,7 +1,3 @@
-addons:
-    apt:
-        packages:
-        - mailutils
 dist: bionic
 
 env:
@@ -17,6 +13,11 @@ matrix:
 
 before_install:
   - export TZ=Africa/Johannesburg
+
+addons:
+    apt:
+        packages:
+        - mailutils
 
 install:
   - sudo add-apt-repository -y ppa:nginx/stable
@@ -75,12 +76,11 @@ deploy:
     repo: mitchellkrogza/nginx-ultimate-bad-bot-blocker
     tags: false
     branches:
+        only:
+         - "master"
       except:
         - "/^v[0-9]/"
         - "/^V.*$/"
-    branches:
-       only:
-         - "master"
 notifications:
   on_success: change
   on_failure: always
