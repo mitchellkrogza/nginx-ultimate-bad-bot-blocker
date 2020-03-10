@@ -73,6 +73,7 @@ deploy:
   cleanup: true
   on:
     tags: true
+    all_branches: true
 
 notifications:
   on_success: change
