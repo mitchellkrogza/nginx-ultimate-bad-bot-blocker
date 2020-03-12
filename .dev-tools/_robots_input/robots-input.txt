@@ -22,6 +22,7 @@ Apexoo
 archive.org_bot
 arquivo.pt
 arquivo-web-crawler
+Aspeigel
 ASPSeek
 Asterias
 Attach
@@ -221,6 +222,7 @@ JustView
 Jyxobot
 Kenjin Spider
 Keyword Density
+Kinza
 Kozmosbot
 Lanshanbot
 Larbin
@@ -230,6 +232,7 @@ LexiBot
 Lftp
 LibWeb
 Libwhisker
+LieBaoFast
 Lightspeedsystems
 Likse
 Linkdexbot
@@ -263,6 +266,7 @@ Masscan
 Mass Downloader
 Mata Hari
 MauiBot
+Mb2345Browser
 meanpathbot
 Meanpathbot
 MeanPath Bot
@@ -271,6 +275,7 @@ mediawords
 MegaIndex.ru
 Metauri
 MFC_Tear_Sample
+MicroMessenger
 Microsoft Data Access
 Microsoft URL Control
 MIDown tool
@@ -280,6 +285,7 @@ MJ12bot
 Mojeek
 Mojolicious
 Morfeus Fucking Scanner
+MQQBrowser
 Mr.4x3
 MSFrontPage
 MSIECrawler
@@ -322,6 +328,7 @@ Openfind
 OpenLinkProfiler
 Openvas
 OpenVAS
+OPPO A33
 OrangeBot
 OrangeSpider
 OutclicksBot
@@ -558,6 +565,8 @@ zauba.io
 Zermelo
 Zeus
 zgrab
+zh_CN
+zh-CN
 Zitebot
 ZmEu
 ZumBot

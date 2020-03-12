@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2020.03.2016
-### Updated: Thu Mar 12 09:34:11 SAST 2020
-### Bad Bot Count: 564
+### Version: V4.2020.03.2017
+### Updated: Thu Mar 12 15:18:15 SAST 2020
+### Bad Bot Count: 573
 ###################################################
 ### Version Information ##
 
@@ -62,6 +62,8 @@ Disallow:/
 User-agent: arquivo.pt
 Disallow:/
 User-agent: arquivo-web-crawler
+Disallow:/
+User-agent: Aspeigel
 Disallow:/
 User-agent: ASPSeek
 Disallow:/
@@ -461,6 +463,8 @@ User-agent: Kenjin Spider
 Disallow:/
 User-agent: Keyword Density
 Disallow:/
+User-agent: Kinza
+Disallow:/
 User-agent: Kozmosbot
 Disallow:/
 User-agent: Lanshanbot
@@ -478,6 +482,8 @@ Disallow:/
 User-agent: LibWeb
 Disallow:/
 User-agent: Libwhisker
+Disallow:/
+User-agent: LieBaoFast
 Disallow:/
 User-agent: Lightspeedsystems
 Disallow:/
@@ -545,6 +551,8 @@ User-agent: Mata Hari
 Disallow:/
 User-agent: MauiBot
 Disallow:/
+User-agent: Mb2345Browser
+Disallow:/
 User-agent: meanpathbot
 Disallow:/
 User-agent: Meanpathbot
@@ -560,6 +568,8 @@ Disallow:/
 User-agent: Metauri
 Disallow:/
 User-agent: MFC_Tear_Sample
+Disallow:/
+User-agent: MicroMessenger
 Disallow:/
 User-agent: Microsoft Data Access
 Disallow:/
@@ -578,6 +588,8 @@ Disallow:/
 User-agent: Mojolicious
 Disallow:/
 User-agent: Morfeus Fucking Scanner
+Disallow:/
+User-agent: MQQBrowser
 Disallow:/
 User-agent: Mr.4x3
 Disallow:/
@@ -662,6 +674,8 @@ Disallow:/
 User-agent: Openvas
 Disallow:/
 User-agent: OpenVAS
+Disallow:/
+User-agent: OPPO A33
 Disallow:/
 User-agent: OrangeBot
 Disallow:/
@@ -1134,6 +1148,10 @@ Disallow:/
 User-agent: Zeus
 Disallow:/
 User-agent: zgrab
+Disallow:/
+User-agent: zh_CN
+Disallow:/
+User-agent: zh-CN
 Disallow:/
 User-agent: Zitebot
 Disallow:/
