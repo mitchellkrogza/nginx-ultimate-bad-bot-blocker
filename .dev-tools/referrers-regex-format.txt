@@ -3542,6 +3542,7 @@
 "~*(?:\b)mamasuper\.prom\.ua(?:\b)" 	1;
 "~*(?:\b)managerpak204\.weebly\.com(?:\b)" 	1;
 "~*(?:\b)manifestation\.betteroffers\.review(?:\b)" 	1;
+"~*(?:\b)manifestyourmillion\.com(?:\b)" 	1;
 "~*(?:\b)manimpotence\.com(?:\b)" 	1;
 "~*(?:\b)manipulyator\-peterburg\.ru(?:\b)" 	1;
 "~*(?:\b)mansiondelrio\.co(?:\b)" 	1;
@@ -6218,6 +6219,7 @@
 "~*(?:\b)vipsexfinders\.com(?:\b)" 	1;
 "~*(?:\b)vipsiterip\.org(?:\b)" 	1;
 "~*(?:\b)virtuagirl\.com(?:\b)" 	1;
+"~*(?:\b)virtualbb\.com(?:\b)" 	1;
 "~*(?:\b)visa\-china\.ru(?:\b)" 	1;
 "~*(?:\b)visa\-pasport\.ru(?:\b)" 	1;
 "~*(?:\b)visionwell\.com\.cn(?:\b)" 	1;

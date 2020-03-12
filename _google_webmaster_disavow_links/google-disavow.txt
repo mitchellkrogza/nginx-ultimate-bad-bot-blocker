@@ -3544,6 +3544,7 @@ domain:malwareremovalcenter.com
 domain:mamasuper.prom.ua
 domain:managerpak204.weebly.com
 domain:manifestation.betteroffers.review
+domain:manifestyourmillion.com
 domain:manimpotence.com
 domain:manipulyator-peterburg.ru
 domain:mansiondelrio.co
@@ -6218,6 +6219,7 @@ domain:vipromoffers.com
 domain:vipsexfinders.com
 domain:vipsiterip.org
 domain:virtuagirl.com
+domain:virtualbb.com
 domain:visa-china.ru
 domain:visa-pasport.ru
 domain:visionwell.com.cn
