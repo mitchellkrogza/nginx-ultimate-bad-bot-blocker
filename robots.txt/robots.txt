@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2020.03.2020
-### Updated: Fri Mar 13 21:56:53 SAST 2020
-### Bad Bot Count: 573
+### Version: V4.2020.03.2021
+### Updated: Sat Mar 14 09:26:19 SAST 2020
+### Bad Bot Count: 571
 ###################################################
 ### Version Information ##
 
@@ -1148,10 +1148,6 @@ Disallow:/
 User-agent: Zeus
 Disallow:/
 User-agent: zgrab
-Disallow:/
-User-agent: zh_CN
-Disallow:/
-User-agent: zh-CN
 Disallow:/
 User-agent: Zitebot
 Disallow:/

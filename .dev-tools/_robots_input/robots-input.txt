@@ -565,8 +565,6 @@ zauba.io
 Zermelo
 Zeus
 zgrab
-zh_CN
-zh-CN
 Zitebot
 ZmEu
 ZumBot
