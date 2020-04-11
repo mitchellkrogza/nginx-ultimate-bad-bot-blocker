@@ -35,7 +35,7 @@ SEND_EMAIL_UPDATE="N"
 #Mailgun
 MG_API_KEY="key-yadayadayada"
 MG_DOMAIN="mg.example.com"
-MG_FROM="botblocker@mg.example.com"
+MG_FROM=""
 CONF_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
 INSTALLER=/usr/local/sbin/install-ngxblocker
@@ -66,7 +66,7 @@ Usage: $script [OPTIONS]
         [ -g ] : Change @email address Mailgun (default: $EMAIL)
         [ -d ] : Mailgun Domain
         [ -a ] : Mailgun API Key
-        [ -f ] : Mailgun From Address
+        [ -f ] : Mailgun / Mail From Address
         [ -m ] : Change mail (system alias)    (default: $EMAIL)
         [ -n ] : Do not send email report      (default: $SEND_EMAIL)
         [ -o ] : Only send email on update     (default: $SEND_EMAIL_UPDATE)
@@ -263,11 +263,19 @@ log_output() {
 
 send_email() {
 	# email report (mailx + ssmtp are enough to send emails)
-	if [ -n $(find_binary mail) ]; then
+	local mail_path=$(find_binary mail)
+
+	if [ -n "$mail_path") ]; then
 		print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
+
 		# remove ansi colour codes
 		${SED_CMD} -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
-		cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
+
+		if [ -n "$MG_FROM" ]; then
+			cat $EMAIL_REPORT | mail -f "$MG_FROM" -s "Nginx Bad Bot Blocker Updated" $EMAIL
+		else
+			cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
+		fi
 	else
 		print_message "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}.\n\n"
 	fi
