@@ -272,9 +272,9 @@ send_email() {
 		${SED_CMD} -i 's/\x1b\[[0-9;]*m//g' $EMAIL_REPORT
 
 		if [ -n "$MG_FROM" ]; then
-			cat $EMAIL_REPORT | mail -f "$MG_FROM" -s "Nginx Bad Bot Blocker Updated" $EMAIL
+			cat $EMAIL_REPORT | $mail_path -f "$MG_FROM" -s "Nginx Bad Bot Blocker Updated" $EMAIL
 		else
-			cat $EMAIL_REPORT | mail -s "Nginx Bad Bot Blocker Updated" $EMAIL
+			cat $EMAIL_REPORT | $mail_path -s "Nginx Bad Bot Blocker Updated" $EMAIL
 		fi
 	else
 		print_message "${BOLDYELLOW}WARN${RESET}: missing mail command => ${BOLDWHITE}disabling emails${RESET}.\n\n"
