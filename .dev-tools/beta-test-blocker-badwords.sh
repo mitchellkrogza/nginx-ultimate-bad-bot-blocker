@@ -83,15 +83,6 @@ printf "\n\n"
 sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/bad-referrer-words.conf /etc/nginx/bots.d/bad-referrer-words.conf
 }
 
-fixbotblocker () {
-echo "${bold}${green}----------------------------------------"
-echo "${bold}${green}Replacing botblocker-nginx-settings.conf"
-echo "${bold}${green}----------------------------------------"
-printf "\n\n"
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/conf.d/botblocker-nginx-settings.conf -O /etc/nginx/conf.d/botblocker-nginx-settings.conf
-}
-
-
 run_curltest1 () {
 if curl -I http://localhost:9000 -e "thisisabadword" 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - User bad-referrer-words.conf working"
@@ -120,7 +111,6 @@ echo "${bold}${green}--------------------------------"
 printf "\n\n"
 
 activateBadWords
-fixbotblocker
 reloadNginX
 waitforReload
 run_curltest1
