@@ -265,7 +265,7 @@ send_email() {
 	# email report (mailx + ssmtp are enough to send emails)
 	local mail_path=$(find_binary mail)
 
-	if [ -n "$mail_path") ]; then
+	if [ -n "$(mail_path)" ]; then
 		print_message "Emailing report to: ${BOLDWHITE}$EMAIL${RESET}\n\n";
 
 		# remove ansi colour codes
