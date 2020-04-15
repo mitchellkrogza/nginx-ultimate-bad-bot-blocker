@@ -22,7 +22,7 @@ Apexoo
 archive.org_bot
 arquivo.pt
 arquivo-web-crawler
-Aspeigel
+Aspiegel
 ASPSeek
 Asterias
 Attach
