@@ -115,6 +115,8 @@ DnyzBot
 DomainAppender
 DomainCrawler
 DomainSigmaCrawler
+Domains Project
+domainsproject.org
 DomainStatsBot
 Dotbot
 Download Wonder

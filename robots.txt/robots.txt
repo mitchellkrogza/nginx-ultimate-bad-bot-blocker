@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2020.04.2054
-### Updated: Sat Apr 25 22:39:32 SAST 2020
-### Bad Bot Count: 571
+### Version: V4.2020.04.2055
+### Updated: Sun Apr 26 10:24:16 SAST 2020
+### Bad Bot Count: 573
 ###################################################
 ### Version Information ##
 
@@ -248,6 +248,10 @@ Disallow:/
 User-agent: DomainCrawler
 Disallow:/
 User-agent: DomainSigmaCrawler
+Disallow:/
+User-agent: Domains Project
+Disallow:/
+User-agent: domainsproject.org
 Disallow:/
 User-agent: DomainStatsBot
 Disallow:/
