@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2020.06.2080
-### Updated: Sun Jun 14 22:59:53 SAST 2020
-### Bad Bot Count: 573
+### Version: V4.2020.06.2081
+### Updated: Mon Jun 15 11:16:14 SAST 2020
+### Bad Bot Count: 574
 ###################################################
 ### Version Information ##
 
@@ -592,6 +592,8 @@ Disallow:/
 User-agent: Mojolicious
 Disallow:/
 User-agent: Morfeus Fucking Scanner
+Disallow:/
+User-agent: Mozlila
 Disallow:/
 User-agent: MQQBrowser
 Disallow:/
