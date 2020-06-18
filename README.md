@@ -418,7 +418,7 @@ This means the CDN is working.
 
 Some people build Nginx themselves and do not end up having the standard nginx folder locations at `/etc/nginx`
 
-For users like this you can run the install-ngblocker, setup-ngxblocker and update-ngblocker specifying your
+For users like this you can run the install-ngxblocker, setup-ngxblocker and update-ngxblocker specifying your
 folder location in the command lines as follows.
 
 `sudo ./install-ngxblocker -x -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d`
@@ -427,7 +427,7 @@ folder location in the command lines as follows.
 
 `sudo ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -e yourname@youremail.com`
 
-This will automatically put the files into the locations you specify, it will do the includes into your vhosts using your custom locations  and when update-ngblocker pulls a new update it will also now automatically re-write the "Include" sections inside the globalblacklist.conf file your own custom locations. Thanks again to Stuart Cardall @itoffshore for his contributions of these excellent scripts.
+This will automatically put the files into the locations you specify, it will do the includes into your vhosts using your custom locations  and when update-ngxblocker pulls a new update it will also now automatically re-write the "Include" sections inside the globalblacklist.conf file your own custom locations. Thanks again to Stuart Cardall @itoffshore for his contributions of these excellent scripts.
 
 ************************************************
 # WHY BLOCK BAD BOTS ?
