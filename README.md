@@ -685,7 +685,7 @@ Lots of people are at the peril of their hosting company and do not have root ac
 
 Lots of people are at the peril of their hosting company and do not have root access to the server running behind their web site. 
 
-If this is your situation check out the automatically generated .htaccess versions of the Spam Referrer Blocker which can be found in <a href="https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker/tree/master/.htaccess">this repository</a> this .htaccess method (FOR APACHE SITES ONLY) will help you to keep all the Spam Referrers in this blocker out of your site. 
+If this is your situation check out the automatically generated .htaccess versions of the Spam Referrer Blocker which can be found in <a href="https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker/tree/master/_htaccess_versions">this repository</a> this .htaccess method (FOR APACHE SITES ONLY) will help you to keep all the Spam Referrers in this blocker out of your site. 
 
 This is merely mentioned here as a lot of people using CPanel systems think they are sitting behind an Nginx server but in reality are actually running on an Apache Server sitting behind an Nginx Proxy Server. .htaccess does not work on Nginx sites.
 
