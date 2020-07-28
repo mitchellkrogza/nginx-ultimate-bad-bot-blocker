@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2020.07.2107
-### Updated: Tue Jul 28 08:53:57 SAST 2020
-### Bad Bot Count: 574
+### Version: V4.2020.07.2108
+### Updated: Tue Jul 28 09:06:55 SAST 2020
+### Bad Bot Count: 578
 ###################################################
 ### Version Information ##
 
@@ -437,6 +437,8 @@ User-agent: Iria
 Disallow:/
 User-agent: IRLbot
 Disallow:/
+User-agent: isitwp.com
+Disallow:/
 User-agent: Iskanie
 Disallow:/
 User-agent: IstellaBot
@@ -797,6 +799,8 @@ User-agent: s1z.ru
 Disallow:/
 User-agent: SalesIntelligent
 Disallow:/
+User-agent: satoristudio.net
+Disallow:/
 User-agent: SBIder
 Disallow:/
 User-agent: ScanAlert
@@ -848,6 +852,10 @@ Disallow:/
 User-agent: SISTRIX
 Disallow:/
 User-agent: Sitebeam
+Disallow:/
+User-agent: SiteCheckerBotCrawler
+Disallow:/
+User-agent: sitechecker.pro
 Disallow:/
 User-agent: SiteExplorer
 Disallow:/

@@ -209,6 +209,7 @@ internetVista monitor
 ips-agent
 Iria
 IRLbot
+isitwp.com
 Iskanie
 IstellaBot
 JamesBOT
@@ -389,6 +390,7 @@ Rogerbot
 RSSingBot
 s1z.ru
 SalesIntelligent
+satoristudio.net
 SBIder
 ScanAlert
 Scanbot
@@ -415,6 +417,8 @@ Shodan
 Siphon
 SISTRIX
 Sitebeam
+SiteCheckerBotCrawler
+sitechecker.pro
 SiteExplorer
 Siteimprove
 SiteLockSpider
