@@ -2963,6 +2963,7 @@
 "~*(?:\b)i\-service\.kz(?:\b)" 	1;
 "~*(?:\b)isistaylorporn\.info(?:\b)" 	1;
 "~*(?:\b)isitpaleo\.info(?:\b)" 	1;
+"~*(?:\b)isitwp\.com(?:\b)" 	1;
 "~*(?:\b)iskalko\.ru(?:\b)" 	1;
 "~*(?:\b)islamtoday\.co\.za(?:\b)" 	1;
 "~*(?:\b)islandminingsupply\.wordpress\.com(?:\b)" 	1;
@@ -4975,6 +4976,7 @@
 "~*(?:\b)sarm\.tk(?:\b)" 	1;
 "~*(?:\b)sashagreyblog\.ga(?:\b)" 	1;
 "~*(?:\b)satellite\.maps\.ilovevitaly\.com(?:\b)" 	1;
+"~*(?:\b)satoristudio\.net(?:\b)" 	1;
 "~*(?:\b)saugatuck\.com(?:\b)" 	1;
 "~*(?:\b)savefrom\.com(?:\b)" 	1;
 "~*(?:\b)saveindex\.xyz(?:\b)" 	1;
@@ -5283,6 +5285,7 @@
 "~*(?:\b)site\-analyzer\.com(?:\b)" 	1;
 "~*(?:\b)site\-auditor\.online(?:\b)" 	1;
 "~*(?:\b)sitebeam\.net(?:\b)" 	1;
+"~*(?:\b)sitechecker\.pro(?:\b)" 	1;
 "~*(?:\b)siteexpress\.co\.il(?:\b)" 	1;
 "~*(?:\b)siteheart\.net(?:\b)" 	1;
 "~*(?:\b)siteimprove\.com(?:\b)" 	1;
