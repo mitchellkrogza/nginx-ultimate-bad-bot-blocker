@@ -60,14 +60,14 @@ Please make sure you are subscribed to Github Notifications to be notified when 
 
 Download install-ngxblocker to your /usr/local/sbin/directory and make the script executable.
 
-```
+```sh
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/local/sbin/install-ngxblocker
 sudo chmod +x /usr/local/sbin/install-ngxblocker
 ```
 
 If your Linux distribution does not have wget you can replace the wget command above using curl as follows:
 
-```
+```sh
 curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -o /usr/local/sbin/install-ngxblocker
 ```
 
@@ -75,13 +75,13 @@ curl -sL https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot
 
 Install the package.
 
-```
+```sh
 pkg install www/nginx-ultimate-bad-bot-blocker
 ```
 
 Alternatively install via portmaster:
 
-```
+```sh
 portmaster www/nginx-ultimate-bad-bot-blocker
 ```
 
@@ -92,7 +92,7 @@ Now run the install-ngxblocker script in DRY-MODE which will show you what chang
 
 The install-ngxblocker downloads all required files including the setup and update scripts.
 
-```
+```sh
 cd /usr/local/sbin
 sudo ./install-ngxblocker
 ```
@@ -100,7 +100,7 @@ sudo ./install-ngxblocker
 This will show you output as follows of the changes that will be made 
 **(NOTE: this is only a DRY-RUN no changes have been made)**
 
-```
+```text
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
 ** Dry Run ** | not updating files | run  as 'install-ngxblocker -x' to install files.
@@ -138,14 +138,14 @@ Downloading [FROM]=>  [REPO]/update-ngxblocker     [TO]=>  /usr/local/sbin/updat
 
 Now run the install script with the -x parameter to download all the necessary files from the repository:
 
-```
+```sh
 cd /usr/local/sbin/
 sudo ./install-ngxblocker -x
 ```
 
 This will give you the following output:
 
-```
+```text
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
 Creating directory: /etc/nginx/bots.d
@@ -176,7 +176,7 @@ All the required files have now been downloaded to the correct folders on Nginx 
 
 **MAKE SURE you set your setup and update scripts to be executable by running the following two commands. This is important before continuing with Step 4 and onwards.**
 
-```
+```sh
 sudo chmod +x /usr/local/sbin/setup-ngxblocker
 sudo chmod +x /usr/local/sbin/update-ngxblocker
 ```
@@ -190,7 +190,7 @@ sudo chmod +x /usr/local/sbin/update-ngxblocker
 
 Now run the setup-ngxblocker script in DRY-MODE which will show you what changes it will make and what files it will download for you. This is only a DRY-RUN so no changes are being made yet.
 
-```
+```sh
 cd /usr/local/sbin/
 sudo ./setup-ngxblocker
 ```
@@ -198,7 +198,7 @@ sudo ./setup-ngxblocker
 This will give you output as follows (this output below assumes your nginx.conf file already has the default include of /etc/nginx/conf.d/*)
 All Nginx installations I know of have this default include in the nginx.conf file distributed with all versions.
 
-```
+```text
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
 ** Dry Run ** | not updating files | run  as 'setup-ngxblocker -x' to setup files.
@@ -233,14 +233,14 @@ For instance if your vhost files end in .conf you will change this execute setup
 
 So now let's run the setup script and let it make all the changes we need to make the Bot Blocker active on all your sites.
 
-```
+```sh
 cd /usr/local/sbin/
 sudo ./setup-ngxblocker -x
 ```
 
 You will see output as follows:
 
-```
+```text
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
 INFO:      /etc/nginx/conf.d/* detected               => /etc/nginx/nginx.conf
@@ -256,7 +256,7 @@ You will note it has done the includes in all the .vhost files on my test bed se
 
 What this setup script has done has simply added the following include statements into your .vhost files for you, it also adds /etc/nginx/conf.d/* to the includes in nginx.conf (if not already in nginx.conf), otherwise, the whole script will fail.
 
-```
+```nginx
 # Bad Bot Blocker
 include /etc/nginx/bots.d/ddos.conf;
 include /etc/nginx/bots.d/blockbots.conf;
@@ -275,7 +275,7 @@ Now test your nginx configuration
 
 and you should see
 
-```
+```text
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
@@ -325,7 +325,7 @@ That's it, the blocker will automatically keep itself up to date and also reload
 
 You can now customize any of the following files below to suit your environment or requirements. These include files never get modified during an update using the auto update script above so whatever customizations you do here will never be overwritten during an update.
 
-```
+```text
 /etc/nginx/bots.d/whitelist-ips.conf
 /etc/nginx/bots.d/whitelist-domains.conf
 /etc/nginx/bots.d/blacklist-user-agents.conf
