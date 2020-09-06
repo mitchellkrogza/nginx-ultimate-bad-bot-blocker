@@ -132,7 +132,7 @@ check_dirs() {
 }
 
 find_binary() {
-	local x= path= binary=$1 bin_paths='/bin /usr/bin /usr/local/bin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
+	local x= path= binary=$1 bin_paths='/bin /usr/bin /usr/local/bin /sbin /usr/sbin /usr/local/sbin /root/bin /root/.bin'
 
 	for x in $bin_paths; do
 		path="$x/$binary"
