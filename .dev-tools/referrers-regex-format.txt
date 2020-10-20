@@ -6303,6 +6303,7 @@
 "~*(?:\b)wahicbefa31\.soup\.io(?:\b)" 	1;
 "~*(?:\b)wait3sec\.org(?:\b)" 	1;
 "~*(?:\b)walkme\.com(?:\b)" 	1;
+"~*(?:\b)wallpaperaccess\.com(?:\b)" 	1;
 "~*(?:\b)wallpapers\-best\.com(?:\b)" 	1;
 "~*(?:\b)wallpapersdesk\.info(?:\b)" 	1;
 "~*(?:\b)wallpapersist\.com(?:\b)" 	1;
