@@ -6079,6 +6079,7 @@ domain:ural-buldozer.ru
 domain:urccvfmc.bloger.index.hr
 domain:urdoot.win
 domain:urengoy.pro
+domain:url-extractor.xyz
 domain:url-img.link
 domain:url2image.com
 domain:urlcut.ru

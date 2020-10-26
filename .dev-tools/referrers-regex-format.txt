@@ -6082,6 +6082,7 @@
 "~*(?:\b)url2image\.com(?:\b)" 	1;
 "~*(?:\b)urlcut\.ru(?:\b)" 	1;
 "~*(?:\b)urldelivery\.com(?:\b)" 	1;
+"~*(?:\b)url\-extractor\.xyz(?:\b)" 	1;
 "~*(?:\b)url\-img\.link(?:\b)" 	1;
 "~*(?:\b)urll\.eu(?:\b)" 	1;
 "~*(?:\b)urlopener\.blogspot\.com\.au(?:\b)" 	1;
