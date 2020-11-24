@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2020.11.2175
-### Updated: Mon Nov 23 00:27:42 SAST 2020
-### Bad Bot Count: 578
+### Version: V4.2020.11.2176
+### Updated: Tue Nov 24 09:33:22 SAST 2020
+### Bad Bot Count: 581
 ###################################################
 ### Version Information ##
 
@@ -54,6 +54,8 @@ Disallow:/
 User-agent: Anarchie
 Disallow:/
 User-agent: Ankit
+Disallow:/
+User-agent: Anthill
 Disallow:/
 User-agent: Apexoo
 Disallow:/
@@ -155,6 +157,8 @@ User-agent: CCBot
 Disallow:/
 User-agent: Cegbfeieh
 Disallow:/
+User-agent: check1.exe
+Disallow:/
 User-agent: CheeseBot
 Disallow:/
 User-agent: CherryPicker
@@ -208,6 +212,8 @@ Disallow:/
 User-agent: Curious
 Disallow:/
 User-agent: Custo
+Disallow:/
+User-agent: CyotekWebCopy
 Disallow:/
 User-agent: DatabaseDriverMysqli
 Disallow:/
