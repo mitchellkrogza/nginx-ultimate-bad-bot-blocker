@@ -3679,6 +3679,7 @@
 "~*(?:\b)michaelkorsoutlet\.store(?:\b)" 	1;
 "~*(?:\b)michaelkorsoutletstore\.net(?:\b)" 	1;
 "~*(?:\b)michaelkorssaleoutletonline\.net(?:\b)" 	1;
+"~*(?:\b)michellblog\.online(?:\b)" 	1;
 "~*(?:\b)microsearch\.ru(?:\b)" 	1;
 "~*(?:\b)microsoftportal\.net(?:\b)" 	1;
 "~*(?:\b)microstatic\.pl(?:\b)" 	1;
