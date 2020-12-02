@@ -328,10 +328,13 @@ You can now customize any of the following files below to suit your environment 
 ```text
 /etc/nginx/bots.d/whitelist-ips.conf
 /etc/nginx/bots.d/whitelist-domains.conf
+/etc/nginx/bots.d/blockbots.conf
+/etc/nginx/bots.d/blacklist-domains.conf
 /etc/nginx/bots.d/blacklist-user-agents.conf
 /etc/nginx/bots.d/blacklist-ips.conf
 /etc/nginx/bots.d/bad-referrer-words.conf
 /etc/nginx/bots.d/custom-bad-referrers.conf
+/etc/nginx/bots.d/ddos.conf
 ```
 
 Let's say for some "obscure" reason you actually want to block GoogleBot from accessing your site. You would simply add it to the /etc/nginx/bots.d/blacklist-user-agents.conf file and it will over-ride the default whitelist for GoogleBot. the same applies to any other bots that are whitelisted by default.
