@@ -3063,6 +3063,7 @@
 "~*(?:\b)journalhome\.com(?:\b)" 	1;
 "~*(?:\b)journeydownthescale\.info(?:\b)" 	1;
 "~*(?:\b)jovencitas\.gratis(?:\b)" 	1;
+"~*(?:\b)joy\-penguin\.com(?:\b)" 	1;
 "~*(?:\b)jpcycles\.com(?:\b)" 	1;
 "~*(?:\b)jrcigars\.com(?:\b)" 	1;
 "~*(?:\b)jrpmakati\.com(?:\b)" 	1;
@@ -3767,6 +3768,7 @@
 "~*(?:\b)mojpreskumanie\.com(?:\b)" 	1;
 "~*(?:\b)mokrayakiska\.com(?:\b)" 	1;
 "~*(?:\b)mole\.pluto\.ro(?:\b)" 	1;
+"~*(?:\b)mompussy\.net(?:\b)" 	1;
 "~*(?:\b)monarchfind\-a\.akamaihd\.net(?:\b)" 	1;
 "~*(?:\b)monarhs\.info(?:\b)" 	1;
 "~*(?:\b)monclerboots\.xyz(?:\b)" 	1;
@@ -5192,6 +5194,7 @@
 "~*(?:\b)sexxdate\.net(?:\b)" 	1;
 "~*(?:\b)sexyali\.com(?:\b)" 	1;
 "~*(?:\b)sexy\.babes\.frontend\-stack\.top(?:\b)" 	1;
+"~*(?:\b)sexyebonyteen\.com(?:\b)" 	1;
 "~*(?:\b)sexy\-pings\.com(?:\b)" 	1;
 "~*(?:\b)sexy\-screen\-savers\.com(?:\b)" 	1;
 "~*(?:\b)sexystrippe\.info(?:\b)" 	1;
@@ -6477,6 +6480,7 @@
 "~*(?:\b)wormix\-cheats\.ru(?:\b)" 	1;
 "~*(?:\b)worst\-sites\.online(?:\b)" 	1;
 "~*(?:\b)wosik\-dach\.service\-for\-web\.de(?:\b)" 	1;
+"~*(?:\b)wovis\.site(?:\b)" 	1;
 "~*(?:\b)wowas31\.ucoz\.ru(?:\b)" 	1;
 "~*(?:\b)wowcasinoonline\.ooo(?:\b)" 	1;
 "~*(?:\b)woweb\.com\.ua(?:\b)" 	1;
