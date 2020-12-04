@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2020.12.2186
-### Updated: Fri Dec  4 09:59:14 SAST 2020
-### Bad Bot Count: 581
+### Version: V4.2020.12.2187
+### Updated: Fri Dec  4 11:03:35 SAST 2020
+### Bad Bot Count: 583
 ###################################################
 ### Version Information ##
 
@@ -176,6 +176,8 @@ Disallow:/
 User-agent: Cloud mapping
 Disallow:/
 User-agent: coccocbot-web
+Disallow:/
+User-agent: CODE87
 Disallow:/
 User-agent: Cogentbot
 Disallow:/
@@ -408,6 +410,8 @@ Disallow:/
 User-agent: Iblog
 Disallow:/
 User-agent: IDBot
+Disallow:/
+User-agent: IDBTE4M
 Disallow:/
 User-agent: Id-search
 Disallow:/
