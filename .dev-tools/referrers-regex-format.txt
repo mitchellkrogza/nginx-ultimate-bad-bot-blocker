@@ -863,6 +863,7 @@
 "~*(?:\b)bjorkbacken\.nu(?:\b)" 	1;
 "~*(?:\b)bkgr\.se(?:\b)" 	1;
 "~*(?:\b)bkns\.vn(?:\b)" 	1;
+"~*(?:\b)blackbabesporn\.com(?:\b)" 	1;
 "~*(?:\b)blackcurranthumidifiers\.site(?:\b)" 	1;
 "~*(?:\b)blackhatworth\.com(?:\b)" 	1;
 "~*(?:\b)blackle\.com(?:\b)" 	1;
