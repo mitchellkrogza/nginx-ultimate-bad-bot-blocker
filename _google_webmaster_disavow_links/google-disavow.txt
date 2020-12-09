@@ -1907,6 +1907,7 @@ domain:englate.com
 domain:englishdictionaryfree.com
 domain:englishgamer.com
 domain:enhand.se
+domain:enpolis.ru
 domain:enskedesquashclub.se
 domain:enternet.ee
 domain:enthuse.computernetworksonline.com
@@ -3539,6 +3540,7 @@ domain:maju.bluesalt.co
 domain:make-money-online.com
 domain:makedo.ru
 domain:makemoneyonline.com
+domain:makenahartlin.com
 domain:makis.nu
 domain:maladot.com
 domain:mall.uk
@@ -3997,6 +3999,7 @@ domain:nevansk.ru
 domain:new-apps.ru
 domain:new-post.tk
 domain:new7ob.com
+domain:newfilmsonline.ru
 domain:newhairstylesformen2014.com
 domain:news-readers.ru
 domain:news-speaker.com
@@ -6639,6 +6642,7 @@ domain:xxart.ru
 domain:xxlargepop.com
 domain:xxx-cam.webcam
 domain:xxx-treker.ru
+domain:xxxasianporn.net
 domain:xxxdatinglocal.us
 domain:xxxguitars.com
 domain:xxxkaz.org

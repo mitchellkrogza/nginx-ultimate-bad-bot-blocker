@@ -1906,6 +1906,7 @@
 "~*(?:\b)eng\-lyrics\.com(?:\b)" 	1;
 "~*(?:\b)enhand\.se(?:\b)" 	1;
 "~*(?:\b)en\.home\-task\.com(?:\b)" 	1;
+"~*(?:\b)enpolis\.ru(?:\b)" 	1;
 "~*(?:\b)enskedesquashclub\.se(?:\b)" 	1;
 "~*(?:\b)enternet\.ee(?:\b)" 	1;
 "~*(?:\b)enthuse\.computernetworksonline\.com(?:\b)" 	1;
@@ -3537,6 +3538,7 @@
 "~*(?:\b)makedo\.ru(?:\b)" 	1;
 "~*(?:\b)make\-money\-online\.com(?:\b)" 	1;
 "~*(?:\b)makemoneyonline\.com(?:\b)" 	1;
+"~*(?:\b)makenahartlin\.com(?:\b)" 	1;
 "~*(?:\b)makis\.nu(?:\b)" 	1;
 "~*(?:\b)maladot\.com(?:\b)" 	1;
 "~*(?:\b)malls\.com(?:\b)" 	1;
@@ -3996,6 +3998,7 @@
 "~*(?:\b)nevansk\.ru(?:\b)" 	1;
 "~*(?:\b)new7ob\.com(?:\b)" 	1;
 "~*(?:\b)new\-apps\.ru(?:\b)" 	1;
+"~*(?:\b)newfilmsonline\.ru(?:\b)" 	1;
 "~*(?:\b)newhairstylesformen2014\.com(?:\b)" 	1;
 "~*(?:\b)new\-post\.tk(?:\b)" 	1;
 "~*(?:\b)newsperuse\.com(?:\b)" 	1;
@@ -6637,6 +6640,7 @@
 "~*(?:\b)xwatt\.ru(?:\b)" 	1;
 "~*(?:\b)xxart\.ru(?:\b)" 	1;
 "~*(?:\b)xxlargepop\.com(?:\b)" 	1;
+"~*(?:\b)xxxasianporn\.net(?:\b)" 	1;
 "~*(?:\b)xxx\-cam\.webcam(?:\b)" 	1;
 "~*(?:\b)xxxdatinglocal\.us(?:\b)" 	1;
 "~*(?:\b)xxxguitars\.com(?:\b)" 	1;
