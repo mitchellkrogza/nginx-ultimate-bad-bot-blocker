@@ -3082,6 +3082,7 @@
 "~*(?:\b)justprofit\.xyz(?:\b)" 	1;
 "~*(?:\b)justucalling32211123456789\.tk(?:\b)" 	1;
 "~*(?:\b)jwss\.cc(?:\b)" 	1;
+"~*(?:\b)jyrxd\.com(?:\b)" 	1;
 "~*(?:\b)jyvopys\.com(?:\b)" 	1;
 "~*(?:\b)kaac\.ru(?:\b)" 	1;
 "~*(?:\b)kabbalah\-red\-bracelets\.com(?:\b)" 	1;
