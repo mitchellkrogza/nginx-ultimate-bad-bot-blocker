@@ -663,6 +663,7 @@
 "~*(?:\b)babyguns\.ru(?:\b)" 	1;
 "~*(?:\b)back\.dog(?:\b)" 	1;
 "~*(?:\b)backgroundpictures\.net(?:\b)" 	1;
+"~*(?:\b)backiee\.com(?:\b)" 	1;
 "~*(?:\b)backlink4u\.net(?:\b)" 	1;
 "~*(?:\b)backlinkwatch\.com(?:\b)" 	1;
 "~*(?:\b)backuperwebcam\.weebly\.com(?:\b)" 	1;
