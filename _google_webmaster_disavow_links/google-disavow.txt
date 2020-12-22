@@ -669,6 +669,7 @@ domain:backlink4u.net
 domain:backlinkwatch.com
 domain:backuperwebcam.weebly.com
 domain:bad-stars.net
+domain:badavit.com.ua
 domain:baditri.com
 domain:baersaratov.ru
 domain:bag77.ru
@@ -1586,6 +1587,7 @@ domain:delta-line.men
 domain:deluxedumps.com
 domain:demenageur.com
 domain:demian.kz
+domain:demon-tweeks.com
 domain:den-noch24.ru
 domain:dengi-pod-zalog-nedvizhimosti.ru
 domain:deniven.1bb.ru
@@ -3527,6 +3529,7 @@ domain:magazin-pics.ru
 domain:magazintiande.ru
 domain:magda-gadalka.ru
 domain:magento-crew.net
+domain:magiadinamibia.blogspot.com
 domain:magicalfind-a.akamaihd.net
 domain:magicdiet.gq
 domain:magicplayer-s.acestream.net
@@ -5657,6 +5660,7 @@ domain:tanieaukcje.com.pl
 domain:taqplayer.info
 domain:taqywu51.soup.io
 domain:tarad.com
+domain:taranerymagesswa.blogspot.com
 domain:taraz.xkaz.org
 domain:tasteidea.com
 domain:tastyfoodideas.com

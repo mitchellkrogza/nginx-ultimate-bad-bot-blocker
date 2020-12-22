@@ -669,6 +669,7 @@
 "~*(?:\b)backlinkwatch\.com(?:\b)" 	0;
 "~*(?:\b)backuperwebcam\.weebly\.com(?:\b)" 	0;
 "~*(?:\b)bad\-stars\.net(?:\b)" 	0;
+"~*(?:\b)badavit\.com\.ua(?:\b)" 	0;
 "~*(?:\b)baditri\.com(?:\b)" 	0;
 "~*(?:\b)baersaratov\.ru(?:\b)" 	0;
 "~*(?:\b)bag77\.ru(?:\b)" 	0;
@@ -1586,6 +1587,7 @@
 "~*(?:\b)deluxedumps\.com(?:\b)" 	0;
 "~*(?:\b)demenageur\.com(?:\b)" 	0;
 "~*(?:\b)demian\.kz(?:\b)" 	0;
+"~*(?:\b)demon\-tweeks\.com(?:\b)" 	0;
 "~*(?:\b)den\-noch24\.ru(?:\b)" 	0;
 "~*(?:\b)dengi\-pod\-zalog\-nedvizhimosti\.ru(?:\b)" 	0;
 "~*(?:\b)deniven\.1bb\.ru(?:\b)" 	0;
@@ -3527,6 +3529,7 @@
 "~*(?:\b)magazintiande\.ru(?:\b)" 	0;
 "~*(?:\b)magda\-gadalka\.ru(?:\b)" 	0;
 "~*(?:\b)magento\-crew\.net(?:\b)" 	0;
+"~*(?:\b)magiadinamibia\.blogspot\.com(?:\b)" 	0;
 "~*(?:\b)magicalfind\-a\.akamaihd\.net(?:\b)" 	0;
 "~*(?:\b)magicdiet\.gq(?:\b)" 	0;
 "~*(?:\b)magicplayer\-s\.acestream\.net(?:\b)" 	0;
@@ -5657,6 +5660,7 @@
 "~*(?:\b)taqplayer\.info(?:\b)" 	0;
 "~*(?:\b)taqywu51\.soup\.io(?:\b)" 	0;
 "~*(?:\b)tarad\.com(?:\b)" 	0;
+"~*(?:\b)taranerymagesswa\.blogspot\.com(?:\b)" 	0;
 "~*(?:\b)taraz\.xkaz\.org(?:\b)" 	0;
 "~*(?:\b)tasteidea\.com(?:\b)" 	0;
 "~*(?:\b)tastyfoodideas\.com(?:\b)" 	0;
