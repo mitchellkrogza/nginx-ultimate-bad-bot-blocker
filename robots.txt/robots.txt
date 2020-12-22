@@ -1181,4 +1181,5 @@ User-agent: ZumBot
 Disallow:/
 User-agent: ZyBorg
 Disallow:/
-
+User-agent: ZoominfoBot
+Disallow:/
