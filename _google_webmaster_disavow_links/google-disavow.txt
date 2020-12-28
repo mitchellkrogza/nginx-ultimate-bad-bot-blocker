@@ -2579,6 +2579,7 @@ domain:guardlink.org
 domain:guarrasdelporno.xxx
 domain:guge.io
 domain:guiadeserraazul.com
+domain:guidefs.ru
 domain:guigyverpo.cf
 domain:guildebzh.info
 domain:guitar-master.org

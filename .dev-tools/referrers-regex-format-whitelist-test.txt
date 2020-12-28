@@ -2579,6 +2579,7 @@
 "~*(?:\b)guarrasdelporno\.xxx(?:\b)" 	0;
 "~*(?:\b)guge\.io(?:\b)" 	0;
 "~*(?:\b)guiadeserraazul\.com(?:\b)" 	0;
+"~*(?:\b)guidefs\.ru(?:\b)" 	0;
 "~*(?:\b)guigyverpo\.cf(?:\b)" 	0;
 "~*(?:\b)guildebzh\.info(?:\b)" 	0;
 "~*(?:\b)guitar\-master\.org(?:\b)" 	0;
