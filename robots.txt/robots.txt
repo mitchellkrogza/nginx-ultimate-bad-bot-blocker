@@ -97,8 +97,6 @@ User-agent: Bandit
 Disallow:/
 User-agent: Barkrowler
 Disallow:/
-User-agent: Barkrowler
-Disallow:/
 User-agent: BatchFTP
 Disallow:/
 User-agent: Battleztar Bazinga
