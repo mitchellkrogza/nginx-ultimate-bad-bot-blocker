@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.01.2229
-### Updated: Sat Jan  2 14:16:56 SAST 2021
-### Bad Bot Count: 583
+### Version: V4.2021.01.2230
+### Updated: Sat Jan  2 15:38:26 SAST 2021
+### Bad Bot Count: 587
 ###################################################
 ### Version Information ##
 
@@ -134,6 +134,8 @@ Disallow:/
 User-agent: Brandprotect
 Disallow:/
 User-agent: Brandwatch
+Disallow:/
+User-agent: Buck
 Disallow:/
 User-agent: Buddy
 Disallow:/
@@ -727,6 +729,8 @@ User-agent: PECL::HTTP
 Disallow:/
 User-agent: PeoplePal
 Disallow:/
+User-agent: Petalbot
+Disallow:/
 User-agent: PHPCrawl
 Disallow:/
 User-agent: Picscout
@@ -834,6 +838,8 @@ Disallow:/
 User-agent: Semrush
 Disallow:/
 User-agent: SemrushBot
+Disallow:/
+User-agent: SentiBot
 Disallow:/
 User-agent: SEOkicks
 Disallow:/
@@ -1176,6 +1182,8 @@ Disallow:/
 User-agent: Zitebot
 Disallow:/
 User-agent: ZmEu
+Disallow:/
+User-agent: ZoominfoBot
 Disallow:/
 User-agent: ZumBot
 Disallow:/

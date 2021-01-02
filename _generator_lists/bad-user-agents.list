@@ -1,7 +1,3 @@
-Buck
-ZoominfoBot
-Petalbot
-SentiBot
 360Spider
 404checker
 404enemy
@@ -62,6 +58,7 @@ Bolt
 BotALot
 Brandprotect
 Brandwatch
+Buck
 Buddy
 BuiltBotTough
 BuiltWith
@@ -358,6 +355,7 @@ Pavuk
 pcBrowser
 PECL::HTTP
 PeoplePal
+Petalbot
 PHPCrawl
 Picscout
 Picsearch
@@ -412,6 +410,7 @@ Searchestate
 SearchmetricsBot
 Semrush
 SemrushBot
+SentiBot
 SEOkicks
 SEOkicks-Robot
 SEOlyticsCrawler
@@ -583,5 +582,6 @@ Zeus
 zgrab
 Zitebot
 ZmEu
+ZoominfoBot
 ZumBot
 ZyBorg
