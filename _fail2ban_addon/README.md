@@ -63,13 +63,13 @@ Only works with IPTables
 ```
 [INCLUDES]
 before = paths-common.conf
-enabled - false
+enabled = false
 ```
 or
 ```
 [INCLUDES]
 before = paths-debian.conf
-enabled - false
+enabled = false
 ```
 
 **Please Note:**
