@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.01.2240
-### Updated: Mon Jan  4 12:20:22 SAST 2021
-### Bad Bot Count: 591
+### Version: V4.2021.01.2241
+### Updated: Mon Jan  4 12:41:00 SAST 2021
+### Bad Bot Count: 592
 ###################################################
 ### Version Information ##
 
@@ -158,6 +158,8 @@ Disallow:/
 User-agent: CCBot
 Disallow:/
 User-agent: Cegbfeieh
+Disallow:/
+User-agent: CensysInspect
 Disallow:/
 User-agent: check1.exe
 Disallow:/
