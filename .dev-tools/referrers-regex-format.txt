@@ -1177,6 +1177,7 @@
 "~*(?:\b)c\-english\.ru(?:\b)" 	1;
 "~*(?:\b)cenokos\.ru(?:\b)" 	1;
 "~*(?:\b)cenoval\.ru(?:\b)" 	1;
+"~*(?:\b)censys\.io(?:\b)" 	1;
 "~*(?:\b)centraletermice\.us(?:\b)" 	1;
 "~*(?:\b)centrdebut\.ru(?:\b)" 	1;
 "~*(?:\b)centre\-indigo\.org\.ua(?:\b)" 	1;
