@@ -80,6 +80,7 @@ Claritybot
 Cliqzbot
 Cloud mapping
 coccocbot-web
+Cocolyzebot
 CODE87
 Cogentbot
 cognitiveseo
@@ -244,6 +245,7 @@ Libwhisker
 LieBaoFast
 Lightspeedsystems
 Likse
+Linkbot
 Linkdexbot
 LinkextractorPro
 LinkpadBot
@@ -505,6 +507,7 @@ Vacuum
 Vagabondo
 VB Project
 VCI
+VelenPublicWebCrawler
 VeriCiteCrawler
 VidibleScraper
 Virusdie
@@ -582,6 +585,7 @@ Zeus
 zgrab
 Zitebot
 ZmEu
+ZoomBot
 ZoominfoBot
 ZumBot
 ZyBorg

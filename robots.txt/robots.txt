@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.01.2238
-### Updated: Mon Jan  4 11:10:49 SAST 2021
-### Bad Bot Count: 587
+### Version: V4.2021.01.2239
+### Updated: Mon Jan  4 12:00:46 SAST 2021
+### Bad Bot Count: 591
 ###################################################
 ### Version Information ##
 
@@ -178,6 +178,8 @@ Disallow:/
 User-agent: Cloud mapping
 Disallow:/
 User-agent: coccocbot-web
+Disallow:/
+User-agent: Cocolyzebot
 Disallow:/
 User-agent: CODE87
 Disallow:/
@@ -506,6 +508,8 @@ Disallow:/
 User-agent: Lightspeedsystems
 Disallow:/
 User-agent: Likse
+Disallow:/
+User-agent: Linkbot
 Disallow:/
 User-agent: Linkdexbot
 Disallow:/
@@ -1029,6 +1033,8 @@ User-agent: VB Project
 Disallow:/
 User-agent: VCI
 Disallow:/
+User-agent: VelenPublicWebCrawler
+Disallow:/
 User-agent: VeriCiteCrawler
 Disallow:/
 User-agent: VidibleScraper
@@ -1182,6 +1188,8 @@ Disallow:/
 User-agent: Zitebot
 Disallow:/
 User-agent: ZmEu
+Disallow:/
+User-agent: ZoomBot
 Disallow:/
 User-agent: ZoominfoBot
 Disallow:/
