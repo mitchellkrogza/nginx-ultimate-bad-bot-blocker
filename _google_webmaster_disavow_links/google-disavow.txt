@@ -16,7 +16,9 @@ domain:0n-line.tv
 domain:1-99seo.com
 domain:1-free-share-buttons.com
 domain:1000n1.ru
+domain:1001desert.com
 domain:1001watch.com.ua
+domain:1008.su
 domain:100dollars-seo.com
 domain:100searchengines.com
 domain:101billion.com
@@ -595,6 +597,7 @@ domain:autogrep.ru
 domain:autoloans.com
 domain:autolombard-krasnodar.ru
 domain:automatic-seo.com
+domain:automobile-spec.com
 domain:autonew.biz
 domain:autoplate.info
 domain:autorn.ru
@@ -643,6 +646,7 @@ domain:azartclub.org
 domain:azartmix.com
 domain:azartmsl.com
 domain:azartniy-bonus.com
+domain:azarttoto.com
 domain:azazaporn.com
 domain:azazu.ru
 domain:azbaseimages.net
@@ -847,6 +851,7 @@ domain:bioinnovate.co
 domain:bioscorp.ru
 domain:bird1.ru
 domain:birzha-truda.eu
+domain:bitcoin-ua.top
 domain:bitcoinpile.com
 domain:bitcoinremote.com
 domain:bitcoins-live.ru
@@ -1471,7 +1476,9 @@ domain:crd.clan.su
 domain:creams.makeforum.eu
 domain:creativehutindia.com
 domain:creatives.adbetclickin.pink
+domain:credit-online.ws
 domain:credit-respect.ru
+domain:credit.co.ua
 domain:creditmoney.com.ua
 domain:creditnation.ru
 domain:creditwell.ru
@@ -1803,6 +1810,7 @@ domain:easync.io
 domain:easyshoppermac.com
 domain:easytuningshop.ru
 domain:easyukraine.com
+domain:ebonyporn.site
 domain:ebooknovel.club
 domain:ec-file.info
 domain:ecommerce-seo.com
@@ -2195,6 +2203,7 @@ domain:fok.nl
 domain:folowsite.com
 domain:food.dtu.dk
 domain:foodcrafts.website
+domain:foodgid.net
 domain:footbalive.org
 domain:footballfarrago.com
 domain:fordsonmajbor.cf
@@ -2379,6 +2388,7 @@ domain:gay-file.com
 domain:gay-site.store
 domain:gay.adultgalls.com
 domain:gaygalls.net
+domain:gaypornmovie.net
 domain:gaytube.com
 domain:gayxperience.com
 domain:gaz-voshod.ru
@@ -2549,6 +2559,7 @@ domain:greatzip.com
 domain:green-tea.tv
 domain:greendream.com.ua
 domain:greenidesign.co
+domain:greenshop.su
 domain:greenzaim.ru
 domain:gribkovye-zabolevaniya.com
 domain:gribokstop.com
@@ -2896,6 +2907,7 @@ domain:inet-traffic.com
 domain:infazavr.ru
 domain:infektsii.com
 domain:infobabki.ru
+domain:infobanks.ru
 domain:infodocsportal.com
 domain:infogame.name
 domain:infokonkurs.ru
@@ -3059,6 +3071,7 @@ domain:jimmychoosale.online
 domain:jjbabskoe.ru
 domain:jmat.cn
 domain:job.icivil.ir
+domain:jobgirl24.ru
 domain:jobmarket.com.ua
 domain:joessmogtestonly.com
 domain:johannesburgsingles.co.za
@@ -3371,6 +3384,7 @@ domain:li-er.ru
 domain:libertybilisim.com
 domain:lida-ru.com
 domain:lider-zhaluzi.kiev.ua
+domain:lidoradio.com
 domain:lietaer.com
 domain:life-instyle.com
 domain:life.biz.ua
@@ -3935,6 +3949,7 @@ domain:myplaycity.com
 domain:mypornfree.ru
 domain:myprintscreen.com
 domain:myseoconsultant.com
+domain:mysex21.com
 domain:mysexpics.ru
 domain:myshopmatemac.com
 domain:mystats.xyz
@@ -4083,6 +4098,7 @@ domain:nrv.co.za
 domain:nsatc.net
 domain:ntic.fr
 domain:nucia.biz.ly
+domain:nudejapan.net
 domain:nudepatch.net
 domain:nudo.ca
 domain:nufaq.com
@@ -4092,6 +4108,7 @@ domain:nullrefer.com
 domain:nuup.info
 domain:nvformula.ru
 domain:nvssf.com
+domain:nw-servis.ru
 domain:nyfinance.ml
 domain:nzfilecloud.weebly.com
 domain:o-dachnik.ru
@@ -4107,6 +4124,12 @@ domain:oakleyglassesonline.us
 domain:oakridgemo.com
 domain:oballergiya.ru
 domain:obesidadealgarve.com
+domain:obiavo.by
+domain:obiavo.com
+domain:obiavo.net
+domain:obiavo.ru
+domain:obiavo.su
+domain:obiavo.uz
 domain:obnal.org
 domain:obsessionphrases.com
 domain:obuv-kupit.ru
@@ -4174,6 +4197,7 @@ domain:online-podarki.com
 domain:online-sbank.ru
 domain:online-templatestore.com
 domain:online-x.ru
+domain:online-zaymy.ru
 domain:online.ktc45.ru
 domain:online247.ml
 domain:online7777.com
@@ -4261,6 +4285,7 @@ domain:paclitor.com
 domain:page2rss.com
 domain:pagesense.com
 domain:paidonlinesites.com
+domain:painting-planet.com
 domain:paintingplanet.ru
 domain:paleohub.info
 domain:palocco.it
@@ -4471,6 +4496,7 @@ domain:pokemongooo.ml
 domain:pokerniydom.ru
 domain:polcin.de
 domain:polimga.pw
+domain:polska-poezja.com
 domain:polybuild.ru
 domain:polytopesexempt.com
 domain:pomoc-drogowa.cba.pl
@@ -4573,6 +4599,7 @@ domain:pr0fit-b0x.com
 domain:praisong.net
 domain:pravoholding.ru
 domain:prchecker.info
+domain:preconnubial.usuby.site
 domain:predmety.in.ua
 domain:predominant-invent.tk
 domain:prefersurvey.net
@@ -5538,6 +5565,8 @@ domain:stockquotes.wooeb.com
 domain:stockspmb.info
 domain:stoki.ru
 domain:stop-gepatit.te.ua
+domain:stop-zavisimost.com
+domain:stopnarco.ru
 domain:store-rx.com
 domain:storehouse.ua
 domain:stpicks.com
@@ -5567,6 +5596,7 @@ domain:stroyhelp-dv.ru
 domain:stroymonolit.su
 domain:stroyplus.ru
 domain:strv.se
+domain:studentguide.ru
 domain:students-cheapskate.ml
 domain:studiofaca.com
 domain:studiofmp.com
@@ -5574,6 +5604,7 @@ domain:studiokamyk.com.pl
 domain:studworks.org
 domain:stuff-about-money.com
 domain:styro.ru
+domain:subj.ukr-lit.com
 domain:success-seo.com
 domain:suchenindeutschland.com
 domain:sudexpert66.ru
@@ -5594,6 +5625,7 @@ domain:superkanpo.com
 domain:superlist.biz
 domain:supermama.top
 domain:supermesta.ru
+domain:supermodni.com.ua
 domain:supernew.org
 domain:superoboi.com.ua
 domain:supers.com.ua
@@ -5686,6 +5718,8 @@ domain:tecspb.ru
 domain:tedxrj.com
 domain:tedy.su
 domain:teenbbw.yopoint.in
+domain:teenfuck.tv
+domain:teenporn18.net
 domain:teesdaleflyballclub.co.uk
 domain:teguh.info
 domain:tehngr.ru
@@ -5749,6 +5783,7 @@ domain:thepantonpractice.co.uk
 domain:theplacetoupdating.pw
 domain:thepokertimer.com
 domain:theporndude.com
+domain:thepornsex.org
 domain:theprofitsmaker.net
 domain:thesmartsearch.net
 domain:thetardistimes.ovh
@@ -6001,6 +6036,7 @@ domain:tvand.ru
 domain:tversvet.ru
 domain:tvnewsclips.info
 domain:tvorozhnaja-zapekanka-recept.ru
+domain:tvory.predmety.in.ua
 domain:tvoystartup.ru
 domain:tvteleport.ru
 domain:twelvevisionspartyofcolorado.com
@@ -6048,7 +6084,11 @@ domain:uhodzalijami.ru
 domain:uk-zheu20.ru
 domain:ukkala.xyz
 domain:ukkelberg.no
+domain:ukr-lit.com
 domain:ukrobstep.com
+domain:ukrtextbook.com
+domain:ukrtvir.com.ua
+domain:ukrtvory.in.ua
 domain:ukrup.com
 domain:ultimateclassicrock.com
 domain:ultimatesetnewfreeallsoftupgradesystems.pw
@@ -6208,6 +6248,7 @@ domain:videochaty.ru
 domain:videogamesecrets.com
 domain:videojam.tv
 domain:videokrik.net
+domain:videonsk.com
 domain:videooko.weebly.com
 domain:videos-for-your-business.com
 domain:videosbox.ru
@@ -6292,6 +6333,7 @@ domain:vrnelectro.ru
 domain:vrotike.ru
 domain:vroze.com
 domain:vsdshnik.com
+domain:vse-pesni.com
 domain:vseigru.one
 domain:vseigry.fun
 domain:vsesubwaysurfers.com
@@ -6511,10 +6553,18 @@ domain:ww1943.ru
 domain:ww2awards.info
 domain:www.888.com
 domain:www.arenda-yeisk.ru
+domain:www.bookmaker-bets.com
+domain:www.ehscloud.cn
 domain:www.event-tracking.com
 domain:www.get-free-traffic-now.com
+domain:www.jbetting.com
 domain:www.kabbalah-red-bracelets.com
+domain:www.labves.ru
+domain:www.pinnacle-bets.com
+domain:www.solartek.ru
+domain:www.souvenirua.com
 domain:www.timer4web.com
+domain:www.wohnkabinen-shop.de
 domain:wwwadultcheck.com
 domain:wygraj-skiny.win
 domain:wygraj-teraz.com
@@ -6613,6 +6663,7 @@ domain:xn--80ak6aa92e.com
 domain:xn--80aodinpgi.xn--p1ai
 domain:xn--90acenikpebbdd4f6d.xn--p1ai
 domain:xn--b1adccaf1bzj.xn--p1ai
+domain:xn--b1addnj3cah.xn--p1ai
 domain:xn--b1ag5cfn.xn--p1ai
 domain:xn--b1agm2d.net
 domain:xn--c1acygb.xn--p1ai
@@ -6652,6 +6703,7 @@ domain:xxx-treker.ru
 domain:xxxasianporn.net
 domain:xxxdatinglocal.us
 domain:xxxguitars.com
+domain:xxxhdvideo.site
 domain:xxxkaz.org
 domain:xxxnatelefon.ru
 domain:xxxrus.org
@@ -6848,6 +6900,7 @@ domain:zvezdagedon.ru
 domain:zvooq.eu
 domain:zvuker.net
 domain:zx6.ru
+domain:zygophyceous.womanstars.site
 domain:zynax.ua
 domain:zytpirwai.net
 domain:zzbroya.com.ua
