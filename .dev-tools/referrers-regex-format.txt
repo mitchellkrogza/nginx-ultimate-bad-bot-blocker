@@ -1331,6 +1331,7 @@
 "~*(?:\b)cntravelre\.com(?:\b)" 	1;
 "~*(?:\b)coaching\-netz\.info(?:\b)" 	1;
 "~*(?:\b)cobaltpro\.ru(?:\b)" 	1;
+"~*(?:\b)cocolyze\.com(?:\b)" 	1;
 "~*(?:\b)cocyq\.inwtrade\.com(?:\b)" 	1;
 "~*(?:\b)coderstate\.com(?:\b)" 	1;
 "~*(?:\b)codq\.info(?:\b)" 	1;
@@ -5172,6 +5173,7 @@
 "~*(?:\b)seotoolsagency\.com(?:\b)" 	1;
 "~*(?:\b)seo\-tools\-optimizing\.com(?:\b)" 	1;
 "~*(?:\b)seo\-traffic\-ranking\.info(?:\b)" 	1;
+"~*(?:\b)seozoom\.it(?:\b)" 	1;
 "~*(?:\b)serdcenebolit\.com(?:\b)" 	1;
 "~*(?:\b)sergiorossistore\.online(?:\b)" 	1;
 "~*(?:\b)serialsway\.ucoz\.ru(?:\b)" 	1;
@@ -6199,6 +6201,7 @@
 "~*(?:\b)vegascosmetics\.ru(?:\b)" 	1;
 "~*(?:\b)vektorpress\.ru(?:\b)" 	1;
 "~*(?:\b)vekzdorov\.ru(?:\b)" 	1;
+"~*(?:\b)velen\.io(?:\b)" 	1;
 "~*(?:\b)veles\.shop(?:\b)" 	1;
 "~*(?:\b)vellings\.info(?:\b)" 	1;
 "~*(?:\b)velobikestock\.com(?:\b)" 	1;

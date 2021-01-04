@@ -1332,6 +1332,7 @@ domain:cntravelre.com
 domain:co.lumb.co
 domain:coaching-netz.info
 domain:cobaltpro.ru
+domain:cocolyze.com
 domain:cocyq.inwtrade.com
 domain:coderstate.com
 domain:codq.info
@@ -5176,6 +5177,7 @@ domain:seorankinglinks.us
 domain:seorankinglinks.xyz
 domain:seorussian.ru
 domain:seotoolsagency.com
+domain:seozoom.it
 domain:serdcenebolit.com
 domain:sergiorossistore.online
 domain:serialsway.ucoz.ru
@@ -6199,6 +6201,7 @@ domain:vegan-foods.us
 domain:vegascosmetics.ru
 domain:vektorpress.ru
 domain:vekzdorov.ru
+domain:velen.io
 domain:veles.shop
 domain:vellings.info
 domain:velobikestock.com
