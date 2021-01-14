@@ -5143,6 +5143,7 @@
 "~*(?:\b)semp\.net(?:\b)" 	1;
 "~*(?:\b)semprofile\.com(?:\b)" 	1;
 "~*(?:\b)semrush\.com(?:\b)" 	1;
+"~*(?:\b)semxiu\.com(?:\b)" 	1;
 "~*(?:\b)sendearnings\.com(?:\b)" 	1;
 "~*(?:\b)senger\.atspace\.co\.uk(?:\b)" 	1;
 "~*(?:\b)seo\-2\-0\.com(?:\b)" 	1;
