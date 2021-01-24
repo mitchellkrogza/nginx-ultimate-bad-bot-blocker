@@ -5252,6 +5252,7 @@
 "~*(?:\b)sharebutton\.to(?:\b)" 	1;
 "~*(?:\b)shariki\-zuma\-lines\.ru(?:\b)" 	1;
 "~*(?:\b)sharpchallenge\.com(?:\b)" 	1;
+"~*(?:\b)sheerseo\.com(?:\b)" 	1;
 "~*(?:\b)shell\-pmr\.ru(?:\b)" 	1;
 "~*(?:\b)shemalegalls\.blogporn\.in(?:\b)" 	1;
 "~*(?:\b)shemale\-sex\.net(?:\b)" 	1;
