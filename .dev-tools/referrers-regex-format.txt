@@ -722,6 +722,7 @@
 "~*(?:\b)battleforupdating\.site(?:\b)" 	1;
 "~*(?:\b)battle\.net(?:\b)" 	1;
 "~*(?:\b)bausparen\.bz\.it(?:\b)" 	1;
+"~*(?:\b)bavsac\.com(?:\b)" 	1;
 "~*(?:\b)bayareaaeroclub\.org(?:\b)" 	1;
 "~*(?:\b)bazaronline24\.ru(?:\b)" 	1;
 "~*(?:\b)bbsoldes\.fr(?:\b)" 	1;
@@ -3100,6 +3101,7 @@
 "~*(?:\b)justkillingti\.me(?:\b)" 	1;
 "~*(?:\b)justprofit\.xyz(?:\b)" 	1;
 "~*(?:\b)justucalling32211123456789\.tk(?:\b)" 	1;
+"~*(?:\b)jwcialislrt\.com(?:\b)" 	1;
 "~*(?:\b)jwss\.cc(?:\b)" 	1;
 "~*(?:\b)jyrxd\.com(?:\b)" 	1;
 "~*(?:\b)jyvopys\.com(?:\b)" 	1;
@@ -4391,6 +4393,7 @@
 "~*(?:\b)photostudiolightings\.com(?:\b)" 	1;
 "~*(?:\b)phpdevops\.com(?:\b)" 	1;
 "~*(?:\b)php\-market\.ru(?:\b)" 	1;
+"~*(?:\b)phrcialiled\.com(?:\b)" 	1;
 "~*(?:\b)phuketscreen\.com(?:\b)" 	1;
 "~*(?:\b)physfunc\.ru(?:\b)" 	1;
 "~*(?:\b)pic2fly\.com(?:\b)" 	1;

@@ -723,6 +723,7 @@ domain:battle.net
 domain:battlecarnival.su
 domain:battleforupdating.site
 domain:bausparen.bz.it
+domain:bavsac.com
 domain:bayareaaeroclub.org
 domain:bazaronline24.ru
 domain:bbsoldes.fr
@@ -3100,6 +3101,7 @@ domain:justdating.online
 domain:justkillingti.me
 domain:justprofit.xyz
 domain:justucalling32211123456789.tk
+domain:jwcialislrt.com
 domain:jwss.cc
 domain:jyrxd.com
 domain:jyvopys.com
@@ -4391,6 +4393,7 @@ domain:photosaga.info
 domain:photostudiolightings.com
 domain:php-market.ru
 domain:phpdevops.com
+domain:phrcialiled.com
 domain:phuketscreen.com
 domain:physfunc.ru
 domain:pic2fly.com
