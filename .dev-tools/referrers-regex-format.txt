@@ -4938,6 +4938,7 @@
 "~*(?:\b)rozalli\.com(?:\b)" 	1;
 "~*(?:\b)roznica\.com\.ua(?:\b)" 	1;
 "~*(?:\b)rp9\.ru(?:\b)" 	1;
+"~*(?:\b)rrutw\.com(?:\b)" 	1;
 "~*(?:\b)rubanners\.com(?:\b)" 	1;
 "~*(?:\b)rubbed\.us(?:\b)" 	1;
 "~*(?:\b)ruclicks\.com(?:\b)" 	1;
