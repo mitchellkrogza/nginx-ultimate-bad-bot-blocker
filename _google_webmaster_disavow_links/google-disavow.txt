@@ -1701,6 +1701,7 @@ domain:dogclothing.store
 domain:dogoimage.com
 domain:dogsrun.net
 domain:dojki-hd.com
+domain:dojki365.online
 domain:dokfilms.net
 domain:doktoronline.no
 domain:dokumentalkino.net
@@ -3365,6 +3366,7 @@ domain:legalrc.biz
 domain:legionalpha.com
 domain:lego4x4.ru
 domain:lennatin.info
+domain:lenpipet.ru
 domain:lenvred.org
 domain:lernur.net
 domain:lerporn.info
@@ -6174,6 +6176,7 @@ domain:v24s.net
 domain:v720hd.ru
 domain:vabasa.inwtrade.com
 domain:vacances-voyages.info
+domain:vacuumcleanerguru.com
 domain:vacuumscleaner.com
 domain:vadimkravtcov.ru
 domain:validccseller.com

@@ -1700,6 +1700,7 @@
 "~*(?:\b)dogclothing\.store(?:\b)" 	1;
 "~*(?:\b)dogoimage\.com(?:\b)" 	1;
 "~*(?:\b)dogsrun\.net(?:\b)" 	1;
+"~*(?:\b)dojki365\.online(?:\b)" 	1;
 "~*(?:\b)dojki\-hd\.com(?:\b)" 	1;
 "~*(?:\b)dokfilms\.net(?:\b)" 	1;
 "~*(?:\b)doktoronline\.no(?:\b)" 	1;
@@ -3365,6 +3366,7 @@
 "~*(?:\b)legionalpha\.com(?:\b)" 	1;
 "~*(?:\b)lego4x4\.ru(?:\b)" 	1;
 "~*(?:\b)lennatin\.info(?:\b)" 	1;
+"~*(?:\b)lenpipet\.ru(?:\b)" 	1;
 "~*(?:\b)lenvred\.org(?:\b)" 	1;
 "~*(?:\b)lernur\.net(?:\b)" 	1;
 "~*(?:\b)lerporn\.info(?:\b)" 	1;
@@ -6173,6 +6175,7 @@
 "~*(?:\b)v720hd\.ru(?:\b)" 	1;
 "~*(?:\b)vabasa\.inwtrade\.com(?:\b)" 	1;
 "~*(?:\b)vacances\-voyages\.info(?:\b)" 	1;
+"~*(?:\b)vacuumcleanerguru\.com(?:\b)" 	1;
 "~*(?:\b)vacuumscleaner\.com(?:\b)" 	1;
 "~*(?:\b)vadimkravtcov\.ru(?:\b)" 	1;
 "~*(?:\b)validccseller\.com(?:\b)" 	1;
