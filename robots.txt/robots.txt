@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.02.2262
-### Updated: Mon Feb  1 01:21:54 SAST 2021
-### Bad Bot Count: 592
+### Version: V4.2021.02.2263
+### Updated: Tue Feb  2 09:38:09 SAST 2021
+### Bad Bot Count: 594
 ###################################################
 ### Version Information ##
 
@@ -52,6 +52,10 @@ Disallow:/
 User-agent: AlphaBot
 Disallow:/
 User-agent: Anarchie
+Disallow:/
+User-agent: Anarchy
+Disallow:/
+User-agent: Anarchy99
 Disallow:/
 User-agent: Ankit
 Disallow:/
