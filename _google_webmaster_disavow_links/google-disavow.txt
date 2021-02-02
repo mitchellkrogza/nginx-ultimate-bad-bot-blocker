@@ -4797,6 +4797,7 @@ domain:ratemodels.net
 domain:razamicroelectronics.com
 domain:razleton.com
 domain:razorweb-a.akamaihd.net
+domain:razvratnoe.org
 domain:razyboard.com
 domain:rcb101.ru
 domain:rcpmda.ikan1080.xyz
@@ -5212,6 +5213,7 @@ domain:sex-sex-sex5.com
 domain:sex-tracker.com
 domain:sex-tracker.de
 domain:sex-watch.com
+domain:sex-znakomstva.online
 domain:sex.hotblog.top
 domain:sexad.net
 domain:sexblog.pw
@@ -5441,6 +5443,7 @@ domain:socialseet.ru
 domain:socialsignals24.com
 domain:socialtrade.biz
 domain:sockshare.net
+domain:sockshares.tv
 domain:soda.media
 domain:sodexo.com
 domain:sofit-dmd.ru
@@ -5729,6 +5732,7 @@ domain:tecspb.ru
 domain:tedxrj.com
 domain:tedy.su
 domain:teenbbw.yopoint.in
+domain:teencastingporn.com
 domain:teenfuck.tv
 domain:teenporn18.net
 domain:teesdaleflyballclub.co.uk
@@ -6698,6 +6702,7 @@ domain:xolodremont.ru
 domain:xportvusbdriver8i.snack.ws
 domain:xpresscare.ru
 domain:xrus.org
+domain:xsfetish.org
 domain:xsion.net
 domain:xtraffic.plus
 domain:xtrafficplus.com
@@ -6899,6 +6904,7 @@ domain:zootoplist.com
 domain:zootravel.com
 domain:zophim.me
 domain:zrelaya.pw
+domain:zreloeporno.tv
 domain:zrizvtrnpale.tk
 domain:zrus.org
 domain:zryydi.com

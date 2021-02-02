@@ -4795,6 +4795,7 @@
 "~*(?:\b)razamicroelectronics\.com(?:\b)" 	1;
 "~*(?:\b)razleton\.com(?:\b)" 	1;
 "~*(?:\b)razorweb\-a\.akamaihd\.net(?:\b)" 	1;
+"~*(?:\b)razvratnoe\.org(?:\b)" 	1;
 "~*(?:\b)razyboard\.com(?:\b)" 	1;
 "~*(?:\b)rcb101\.ru(?:\b)" 	1;
 "~*(?:\b)r\-control\.ru(?:\b)" 	1;
@@ -5247,6 +5248,7 @@
 "~*(?:\b)sexystrippe\.info(?:\b)" 	1;
 "~*(?:\b)sexyteens\.hol\.es(?:\b)" 	1;
 "~*(?:\b)sexytrend\.ru(?:\b)" 	1;
+"~*(?:\b)sex\-znakomstva\.online(?:\b)" 	1;
 "~*(?:\b)sfd\-chess\.ru(?:\b)" 	1;
 "~*(?:\b)sfj\-ror\.no(?:\b)" 	1;
 "~*(?:\b)s\-forum\.biz(?:\b)" 	1;
@@ -5440,6 +5442,7 @@
 "~*(?:\b)socialtrade\.biz(?:\b)" 	1;
 "~*(?:\b)social\-vestnik\.ru(?:\b)" 	1;
 "~*(?:\b)sockshare\.net(?:\b)" 	1;
+"~*(?:\b)sockshares\.tv(?:\b)" 	1;
 "~*(?:\b)soc\-proof\.su(?:\b)" 	1;
 "~*(?:\b)soda\.media(?:\b)" 	1;
 "~*(?:\b)sodexo\.com(?:\b)" 	1;
@@ -5729,6 +5732,7 @@
 "~*(?:\b)tedxrj\.com(?:\b)" 	1;
 "~*(?:\b)tedy\.su(?:\b)" 	1;
 "~*(?:\b)teenbbw\.yopoint\.in(?:\b)" 	1;
+"~*(?:\b)teencastingporn\.com(?:\b)" 	1;
 "~*(?:\b)teenfuck\.tv(?:\b)" 	1;
 "~*(?:\b)teenporn18\.net(?:\b)" 	1;
 "~*(?:\b)teesdaleflyballclub\.co\.uk(?:\b)" 	1;
@@ -6696,6 +6700,7 @@
 "~*(?:\b)xpresscare\.ru(?:\b)" 	1;
 "~*(?:\b)x\-rates\.ru(?:\b)" 	1;
 "~*(?:\b)xrus\.org(?:\b)" 	1;
+"~*(?:\b)xsfetish\.org(?:\b)" 	1;
 "~*(?:\b)xsion\.net(?:\b)" 	1;
 "~*(?:\b)x\-stars\.ru(?:\b)" 	1;
 "~*(?:\b)xtraffic\.plus(?:\b)" 	1;
@@ -6899,6 +6904,7 @@
 "~*(?:\b)zootravel\.com(?:\b)" 	1;
 "~*(?:\b)zophim\.me(?:\b)" 	1;
 "~*(?:\b)zrelaya\.pw(?:\b)" 	1;
+"~*(?:\b)zreloeporno\.tv(?:\b)" 	1;
 "~*(?:\b)zrizvtrnpale\.tk(?:\b)" 	1;
 "~*(?:\b)zrus\.org(?:\b)" 	1;
 "~*(?:\b)zryydi\.com(?:\b)" 	1;
