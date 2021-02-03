@@ -4125,6 +4125,7 @@
 "~*(?:\b)obesidadealgarve\.com(?:\b)" 	1;
 "~*(?:\b)obiavo\.by(?:\b)" 	1;
 "~*(?:\b)obiavo\.com(?:\b)" 	1;
+"~*(?:\b)obiavo\.in(?:\b)" 	1;
 "~*(?:\b)obiavo\.net(?:\b)" 	1;
 "~*(?:\b)obiavo\.ru(?:\b)" 	1;
 "~*(?:\b)obiavo\.su(?:\b)" 	1;
@@ -4141,6 +4142,7 @@
 "~*(?:\b)odoratus\.net(?:\b)" 	1;
 "~*(?:\b)odywpjtw\.bloger\.index\.hr(?:\b)" 	1;
 "~*(?:\b)oecnhs\.info(?:\b)" 	1;
+"~*(?:\b)ofanda\.com(?:\b)" 	1;
 "~*(?:\b)offer\.camp(?:\b)" 	1;
 "~*(?:\b)offergroup\.info(?:\b)" 	1;
 "~*(?:\b)offers\.bycontext\.com(?:\b)" 	1;
@@ -6273,6 +6275,7 @@
 "~*(?:\b)videotuber\.ru(?:\b)" 	1;
 "~*(?:\b)video\-woman\.com(?:\b)" 	1;
 "~*(?:\b)videtubs\.pl(?:\b)" 	1;
+"~*(?:\b)vids18\.site(?:\b)" 	1;
 "~*(?:\b)vielporno\.net(?:\b)" 	1;
 "~*(?:\b)viel\.su(?:\b)" 	1;
 "~*(?:\b)vietimgy\.pw(?:\b)" 	1;

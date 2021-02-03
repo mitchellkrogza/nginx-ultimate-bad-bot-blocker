@@ -4132,6 +4132,7 @@ domain:oballergiya.ru
 domain:obesidadealgarve.com
 domain:obiavo.by
 domain:obiavo.com
+domain:obiavo.in
 domain:obiavo.net
 domain:obiavo.ru
 domain:obiavo.su
@@ -4148,6 +4149,7 @@ domain:odoratus.net
 domain:odywpjtw.bloger.index.hr
 domain:oecnhs.info
 domain:of-ireland.info
+domain:ofanda.com
 domain:offer.camp
 domain:offer.wpsecurity.website
 domain:offergroup.info
@@ -6273,6 +6275,7 @@ domain:videositename.com
 domain:videospornogratisx.net
 domain:videotuber.ru
 domain:videtubs.pl
+domain:vids18.site
 domain:viel.su
 domain:vielporno.net
 domain:vietimgy.pw
