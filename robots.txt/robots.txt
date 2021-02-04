@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.02.2265
-### Updated: Wed Feb  3 09:17:55 SAST 2021
-### Bad Bot Count: 594
+### Version: V4.2021.02.2266
+### Updated: Thu Feb  4 10:15:53 SAST 2021
+### Bad Bot Count: 600
 ###################################################
 ### Version Information ##
 
@@ -345,6 +345,8 @@ User-agent: Freeuploader
 Disallow:/
 User-agent: FrontPage
 Disallow:/
+User-agent: Fuzz
+Disallow:/
 User-agent: FyberSpider
 Disallow:/
 User-agent: Fyrebot
@@ -629,6 +631,8 @@ User-agent: MSIECrawler
 Disallow:/
 User-agent: Msrabot
 Disallow:/
+User-agent: MTRobot
+Disallow:/
 User-agent: muhstik-scan
 Disallow:/
 User-agent: Musobot
@@ -683,7 +687,11 @@ User-agent: Ninja
 Disallow:/
 User-agent: Nmap
 Disallow:/
+User-agent: node-fetch
+Disallow:/
 User-agent: NPbot
+Disallow:/
+User-agent: Nuclei
 Disallow:/
 User-agent: Nutch
 Disallow:/
@@ -724,6 +732,8 @@ Disallow:/
 User-agent: page scorer
 Disallow:/
 User-agent: PageScorer
+Disallow:/
+User-agent: PageThing.com
 Disallow:/
 User-agent: Pandalytics
 Disallow:/
@@ -826,6 +836,8 @@ Disallow:/
 User-agent: satoristudio.net
 Disallow:/
 User-agent: SBIder
+Disallow:/
+User-agent: scalaj-http
 Disallow:/
 User-agent: ScanAlert
 Disallow:/

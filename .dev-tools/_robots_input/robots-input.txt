@@ -163,6 +163,7 @@ Flunky
 Foobot
 Freeuploader
 FrontPage
+Fuzz
 FyberSpider
 Fyrebot
 GalaxyBot
@@ -305,6 +306,7 @@ Mr.4x3
 MSFrontPage
 MSIECrawler
 Msrabot
+MTRobot
 muhstik-scan
 Musobot
 Name Intelligence
@@ -332,7 +334,9 @@ NimbleCrawler
 Nimbostratus
 Ninja
 Nmap
+node-fetch
 NPbot
+Nuclei
 Nutch
 oBot
 Octopus
@@ -353,6 +357,7 @@ Page Analyzer
 PageGrabber
 page scorer
 PageScorer
+PageThing.com
 Pandalytics
 Panscient
 Papa Foto
@@ -404,6 +409,7 @@ s1z.ru
 SalesIntelligent
 satoristudio.net
 SBIder
+scalaj-http
 ScanAlert
 Scanbot
 scan.lol

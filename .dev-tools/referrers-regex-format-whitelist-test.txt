@@ -416,6 +416,7 @@
 "~*(?:\b)anaksma\.info(?:\b)" 	0;
 "~*(?:\b)anal\-acrobats\.com(?:\b)" 	0;
 "~*(?:\b)anal\-acrobats\.hol\.es(?:\b)" 	0;
+"~*(?:\b)analnoeporno\.tv(?:\b)" 	0;
 "~*(?:\b)analytics\-ads\.xyz(?:\b)" 	0;
 "~*(?:\b)ananumous\.ru(?:\b)" 	0;
 "~*(?:\b)anapa\-inns\.ru(?:\b)" 	0;
