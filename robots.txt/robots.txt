@@ -6,15 +6,17 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.02.2266
-### Updated: Thu Feb  4 10:15:53 SAST 2021
-### Bad Bot Count: 600
+### Version: V4.2021.02.2268
+### Updated: Fri Feb  5 09:41:05 SAST 2021
+### Bad Bot Count: 603
 ###################################################
 ### Version Information ##
 
 User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
+User-agent: 01h4x.com
+Disallow:/
 User-agent: 360Spider
 Disallow:/
 User-agent: 404checker
@@ -370,6 +372,8 @@ Disallow:/
 User-agent: G-i-g-a-b-o-t
 Disallow:/
 User-agent: Go-Ahead-Got-It
+Disallow:/
+User-agent: gopher
 Disallow:/
 User-agent: Gotit
 Disallow:/
@@ -820,6 +824,8 @@ Disallow:/
 User-agent: ReGet
 Disallow:/
 User-agent: RepoMonkey
+Disallow:/
+User-agent: Re-re
 Disallow:/
 User-agent: Ripper
 Disallow:/

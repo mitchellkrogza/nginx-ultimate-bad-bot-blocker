@@ -5749,6 +5749,7 @@ domain:telegraf.by
 domain:telegramdownload10.com
 domain:telemetryverification.net
 domain:telesvoboda.ru
+domain:teletype.in
 domain:telsis.com
 domain:template-kid.com
 domain:templates.franklinfire.co
