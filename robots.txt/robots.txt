@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.02.2268
-### Updated: Fri Feb  5 09:41:05 SAST 2021
-### Bad Bot Count: 603
+### Version: V4.2021.02.2269
+### Updated: Fri Feb  5 09:56:34 SAST 2021
+### Bad Bot Count: 604
 ###################################################
 ### Version Information ##
 
@@ -786,6 +786,8 @@ Disallow:/
 User-agent: ProWebWalker
 Disallow:/
 User-agent: Psbot
+Disallow:/
+User-agent: Pu_iN
 Disallow:/
 User-agent: Pump
 Disallow:/
