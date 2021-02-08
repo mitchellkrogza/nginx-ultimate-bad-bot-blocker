@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.02.2270
-### Updated: Fri Feb  5 11:23:26 SAST 2021
-### Bad Bot Count: 604
+### Version: V4.2021.02.2273
+### Updated: Mon Feb  8 08:46:11 SAST 2021
+### Bad Bot Count: 605
 ###################################################
 ### Version Information ##
 
@@ -762,6 +762,8 @@ Disallow:/
 User-agent: Picsearch
 Disallow:/
 User-agent: PictureFinder
+Disallow:/
+User-agent: Piepmatz
 Disallow:/
 User-agent: Pimonster
 Disallow:/

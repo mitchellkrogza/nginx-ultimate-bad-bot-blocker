@@ -4553,6 +4553,7 @@
 "~*(?:\b)pornogig\.com(?:\b)" 	1;
 "~*(?:\b)pornogratisdiario\.com(?:\b)" 	1;
 "~*(?:\b)pornohd1080\.online(?:\b)" 	1;
+"~*(?:\b)porno\-home365\.com(?:\b)" 	1;
 "~*(?:\b)pornokajf\.com(?:\b)" 	1;
 "~*(?:\b)pornoklad\.net(?:\b)" 	1;
 "~*(?:\b)pornoklad\.ru(?:\b)" 	1;
