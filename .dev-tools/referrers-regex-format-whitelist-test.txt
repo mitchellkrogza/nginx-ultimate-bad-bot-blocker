@@ -2059,6 +2059,7 @@
 "~*(?:\b)face\.hostingx\.eu(?:\b)" 	0;
 "~*(?:\b)facebook\-mobile\.xyz(?:\b)" 	0;
 "~*(?:\b)facecup\.top(?:\b)" 	0;
+"~*(?:\b)facialporntube\.com(?:\b)" 	0;
 "~*(?:\b)factorynightclub\.com(?:\b)" 	0;
 "~*(?:\b)failingmarriege\.blogspot\.com(?:\b)" 	0;
 "~*(?:\b)fakehandbags\.xyz(?:\b)" 	0;

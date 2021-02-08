@@ -381,6 +381,7 @@ plumanalytics
 Pockey
 POE-Component-Client-HTTP
 polaris version
+probe-image-size
 Probethenet
 ProPowerBot
 ProWebWalker
@@ -407,6 +408,7 @@ ReGet
 RepoMonkey
 Re-re
 Ripper
+ripz
 RocketCrawler
 Rogerbot
 RSSingBot
@@ -446,6 +448,7 @@ sitechecker.pro
 SiteExplorer
 Siteimprove
 SiteLockSpider
+siteripz
 SiteSnagger
 SiteSucker
 Site Sucker

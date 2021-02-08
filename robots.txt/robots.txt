@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.02.2273
-### Updated: Mon Feb  8 08:46:11 SAST 2021
-### Bad Bot Count: 605
+### Version: V4.2021.02.2274
+### Updated: Mon Feb  8 09:42:14 SAST 2021
+### Bad Bot Count: 608
 ###################################################
 ### Version Information ##
 
@@ -781,6 +781,8 @@ User-agent: POE-Component-Client-HTTP
 Disallow:/
 User-agent: polaris version
 Disallow:/
+User-agent: probe-image-size
+Disallow:/
 User-agent: Probethenet
 Disallow:/
 User-agent: ProPowerBot
@@ -832,6 +834,8 @@ Disallow:/
 User-agent: Re-re
 Disallow:/
 User-agent: Ripper
+Disallow:/
+User-agent: ripz
 Disallow:/
 User-agent: RocketCrawler
 Disallow:/
@@ -910,6 +914,8 @@ Disallow:/
 User-agent: Siteimprove
 Disallow:/
 User-agent: SiteLockSpider
+Disallow:/
+User-agent: siteripz
 Disallow:/
 User-agent: SiteSnagger
 Disallow:/
