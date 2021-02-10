@@ -1732,6 +1732,7 @@ domain:domznaniy.ru
 domain:donna7753191.ru
 domain:donvito.unas.cz
 domain:dood.live
+domain:doreenblog.online
 domain:dorratex.tn
 domain:doska-vsem.ru
 domain:dostavimvdom.ru
@@ -5330,6 +5331,7 @@ domain:simon3.ru
 domain:simple-image.com.ua
 domain:simple-share-buttons.com
 domain:simplepooltips.com
+domain:simplesite.com
 domain:simply.net
 domain:simpoed.ufop.br
 domain:sims-sims.ru

@@ -1732,6 +1732,7 @@
 "~*(?:\b)donna7753191\.ru(?:\b)" 	0;
 "~*(?:\b)donvito\.unas\.cz(?:\b)" 	0;
 "~*(?:\b)dood\.live(?:\b)" 	0;
+"~*(?:\b)doreenblog\.online(?:\b)" 	0;
 "~*(?:\b)dorratex\.tn(?:\b)" 	0;
 "~*(?:\b)doska\-vsem\.ru(?:\b)" 	0;
 "~*(?:\b)dostavimvdom\.ru(?:\b)" 	0;
@@ -5330,6 +5331,7 @@
 "~*(?:\b)simple\-image\.com\.ua(?:\b)" 	0;
 "~*(?:\b)simple\-share\-buttons\.com(?:\b)" 	0;
 "~*(?:\b)simplepooltips\.com(?:\b)" 	0;
+"~*(?:\b)simplesite\.com(?:\b)" 	0;
 "~*(?:\b)simply\.net(?:\b)" 	0;
 "~*(?:\b)simpoed\.ufop\.br(?:\b)" 	0;
 "~*(?:\b)sims\-sims\.ru(?:\b)" 	0;
