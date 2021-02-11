@@ -4136,6 +4136,7 @@ domain:obesidadealgarve.com
 domain:obiavo.by
 domain:obiavo.com
 domain:obiavo.in
+domain:obiavo.kz
 domain:obiavo.net
 domain:obiavo.ru
 domain:obiavo.su

@@ -4136,6 +4136,7 @@
 "~*(?:\b)obiavo\.by(?:\b)" 	0;
 "~*(?:\b)obiavo\.com(?:\b)" 	0;
 "~*(?:\b)obiavo\.in(?:\b)" 	0;
+"~*(?:\b)obiavo\.kz(?:\b)" 	0;
 "~*(?:\b)obiavo\.net(?:\b)" 	0;
 "~*(?:\b)obiavo\.ru(?:\b)" 	0;
 "~*(?:\b)obiavo\.su(?:\b)" 	0;
