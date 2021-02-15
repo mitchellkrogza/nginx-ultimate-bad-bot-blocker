@@ -1942,6 +1942,7 @@
 "~*(?:\b)eropho\.net(?:\b)" 	0;
 "~*(?:\b)eropornosex\.ru(?:\b)" 	0;
 "~*(?:\b)erot\.co(?:\b)" 	0;
+"~*(?:\b)erotag\.com(?:\b)" 	0;
 "~*(?:\b)erotik\-kostenlos\.net(?:\b)" 	0;
 "~*(?:\b)erotik0049\.com(?:\b)" 	0;
 "~*(?:\b)erotikchat\-24\.com(?:\b)" 	0;
@@ -4432,6 +4433,7 @@
 "~*(?:\b)pills24h\.com(?:\b)" 	0;
 "~*(?:\b)pillscheap24h\.com(?:\b)" 	0;
 "~*(?:\b)piluli\.info(?:\b)" 	0;
+"~*(?:\b)pinapchik\.com(?:\b)" 	0;
 "~*(?:\b)pinkduck\.ga(?:\b)" 	0;
 "~*(?:\b)pinsdaddy\.com(?:\b)" 	0;
 "~*(?:\b)pinstake\.com(?:\b)" 	0;
