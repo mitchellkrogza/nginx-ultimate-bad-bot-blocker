@@ -3994,7 +3994,6 @@
 "~*(?:\b)nastroyke\.net(?:\b)" 	1;
 "~*(?:\b)nastydollars\.com(?:\b)" 	1;
 "~*(?:\b)natali\-forex\.com(?:\b)" 	1;
-"~*(?:\b)nate\.com(?:\b)" 	1;
 "~*(?:\b)na\-telefon\.biz(?:\b)" 	1;
 "~*(?:\b)nationalbreakdown\.com(?:\b)" 	1;
 "~*(?:\b)national\-today\-winning\-winner\.club(?:\b)" 	1;
