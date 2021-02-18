@@ -848,6 +848,7 @@ domain:bio-market.kz
 domain:bio-optomarket.ru
 domain:bio.trade-jp.net
 domain:bioca.org
+domain:biocn.dx.am
 domain:biographiya.com
 domain:bioinnovate.co
 domain:bioscorp.ru
@@ -4578,6 +4579,7 @@ domain:pornosemki.info
 domain:pornosexrolik.com
 domain:pornoslive.net
 domain:pornosmola.info
+domain:pornoted.com
 domain:pornotubexxx.name
 domain:pornotubs.com
 domain:pornowarp.info
@@ -6734,6 +6736,7 @@ domain:xxxdatinglocal.us
 domain:xxxguitars.com
 domain:xxxhdvideo.site
 domain:xxxkaz.org
+domain:xxxmania.top
 domain:xxxnatelefon.ru
 domain:xxxrus.org
 domain:xxxsiterips.xyz

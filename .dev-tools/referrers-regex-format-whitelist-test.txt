@@ -848,6 +848,7 @@
 "~*(?:\b)bio\-optomarket\.ru(?:\b)" 	0;
 "~*(?:\b)bio\.trade\-jp\.net(?:\b)" 	0;
 "~*(?:\b)bioca\.org(?:\b)" 	0;
+"~*(?:\b)biocn\.dx\.am(?:\b)" 	0;
 "~*(?:\b)biographiya\.com(?:\b)" 	0;
 "~*(?:\b)bioinnovate\.co(?:\b)" 	0;
 "~*(?:\b)bioscorp\.ru(?:\b)" 	0;
@@ -4578,6 +4579,7 @@
 "~*(?:\b)pornosexrolik\.com(?:\b)" 	0;
 "~*(?:\b)pornoslive\.net(?:\b)" 	0;
 "~*(?:\b)pornosmola\.info(?:\b)" 	0;
+"~*(?:\b)pornoted\.com(?:\b)" 	0;
 "~*(?:\b)pornotubexxx\.name(?:\b)" 	0;
 "~*(?:\b)pornotubs\.com(?:\b)" 	0;
 "~*(?:\b)pornowarp\.info(?:\b)" 	0;
@@ -6734,6 +6736,7 @@
 "~*(?:\b)xxxguitars\.com(?:\b)" 	0;
 "~*(?:\b)xxxhdvideo\.site(?:\b)" 	0;
 "~*(?:\b)xxxkaz\.org(?:\b)" 	0;
+"~*(?:\b)xxxmania\.top(?:\b)" 	0;
 "~*(?:\b)xxxnatelefon\.ru(?:\b)" 	0;
 "~*(?:\b)xxxrus\.org(?:\b)" 	0;
 "~*(?:\b)xxxsiterips\.xyz(?:\b)" 	0;

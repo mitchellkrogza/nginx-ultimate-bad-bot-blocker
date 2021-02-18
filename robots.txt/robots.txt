@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.02.2283
-### Updated: Thu Feb 18 01:06:48 SAST 2021
-### Bad Bot Count: 607
+### Version: V4.2021.02.2284
+### Updated: Thu Feb 18 10:26:17 SAST 2021
+### Bad Bot Count: 608
 ###################################################
 ### Version Information ##
 
@@ -274,6 +274,8 @@ Disallow:/
 User-agent: domainsproject.org
 Disallow:/
 User-agent: DomainStatsBot
+Disallow:/
+User-agent: DomCopBot
 Disallow:/
 User-agent: Dotbot
 Disallow:/

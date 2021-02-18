@@ -843,6 +843,7 @@
 "~*(?:\b)binomo\.com(?:\b)" 	1;
 "~*(?:\b)binomo\.kz(?:\b)" 	1;
 "~*(?:\b)bioca\.org(?:\b)" 	1;
+"~*(?:\b)biocn\.dx\.am(?:\b)" 	1;
 "~*(?:\b)biographiya\.com(?:\b)" 	1;
 "~*(?:\b)bioinnovate\.co(?:\b)" 	1;
 "~*(?:\b)bio\-japan\.net(?:\b)" 	1;
@@ -4575,6 +4576,7 @@
 "~*(?:\b)porno\.simple\-image\.com\.ua(?:\b)" 	1;
 "~*(?:\b)pornoslive\.net(?:\b)" 	1;
 "~*(?:\b)pornosmola\.info(?:\b)" 	1;
+"~*(?:\b)pornoted\.com(?:\b)" 	1;
 "~*(?:\b)porno\-transsexuals\.ru(?:\b)" 	1;
 "~*(?:\b)pornotubexxx\.name(?:\b)" 	1;
 "~*(?:\b)pornotubs\.com(?:\b)" 	1;
@@ -6733,6 +6735,7 @@
 "~*(?:\b)xxxguitars\.com(?:\b)" 	1;
 "~*(?:\b)xxxhdvideo\.site(?:\b)" 	1;
 "~*(?:\b)xxxkaz\.org(?:\b)" 	1;
+"~*(?:\b)xxxmania\.top(?:\b)" 	1;
 "~*(?:\b)xxxnatelefon\.ru(?:\b)" 	1;
 "~*(?:\b)xxxrus\.org(?:\b)" 	1;
 "~*(?:\b)xxxsiterips\.xyz(?:\b)" 	1;
