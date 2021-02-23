@@ -2168,6 +2168,7 @@
 "~*(?:\b)findthe\.pet(?:\b)" 	0;
 "~*(?:\b)finejewelryshop\.ru(?:\b)" 	0;
 "~*(?:\b)finemanteam\.com(?:\b)" 	0;
+"~*(?:\b)fingerprintjs\.com(?:\b)" 	0;
 "~*(?:\b)finstroy\.net(?:\b)" 	0;
 "~*(?:\b)finteks\.ru(?:\b)" 	0;
 "~*(?:\b)finuse\.com(?:\b)" 	0;

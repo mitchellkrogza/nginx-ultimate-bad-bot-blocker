@@ -2168,6 +2168,7 @@ domain:findsexguide.com
 domain:findthe.pet
 domain:finejewelryshop.ru
 domain:finemanteam.com
+domain:fingerprintjs.com
 domain:finstroy.net
 domain:finteks.ru
 domain:finuse.com
