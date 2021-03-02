@@ -1839,6 +1839,7 @@ domain:eduinfosite.com
 domain:eduserver.net
 domain:edwinkonijn.com.au
 domain:ee77ee.com
+domain:eets.net
 domain:efkt.jp
 domain:efnor-ac.com
 domain:ege-essay.ru
@@ -4439,6 +4440,7 @@ domain:pinkduck.ga
 domain:pinsdaddy.com
 domain:pinstake.com
 domain:pintattoos.com
+domain:pinup-casino1.ru
 domain:pinwallpaper.top
 domain:pinwallpaper.xyz
 domain:pio.polytopesexempt.com
@@ -5937,6 +5939,7 @@ domain:topanasex.com
 domain:topappspro.com
 domain:topbestgames.com
 domain:topcar-krasnodar.ru
+domain:topcasinoratings.ru
 domain:topclickguru.com
 domain:topdownloads.ru
 domain:topkarkas.com
