@@ -2145,6 +2145,7 @@ domain:filesvine.com
 domain:filkhbr.com
 domain:fillmewithhappiness.com
 domain:film-one.ru
+domain:filmania-x.ru
 domain:filmbokep69.com
 domain:filmci.pro
 domain:filmetricsasia.com
@@ -5177,6 +5178,7 @@ domain:seo-prof1.xyz
 domain:seo-smm.kz
 domain:seo-tools-optimizing.com
 domain:seo-traffic-ranking.info
+domain:seo18.su
 domain:seoanalyses.com
 domain:seoboxes.com
 domain:seocdvig.ru

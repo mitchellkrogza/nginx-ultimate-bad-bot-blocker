@@ -2141,6 +2141,7 @@
 "~*(?:\b)filesvine\.com(?:\b)" 	1;
 "~*(?:\b)filkhbr\.com(?:\b)" 	1;
 "~*(?:\b)fillmewithhappiness\.com(?:\b)" 	1;
+"~*(?:\b)filmania\-x\.ru(?:\b)" 	1;
 "~*(?:\b)filmbokep69\.com(?:\b)" 	1;
 "~*(?:\b)filmci\.pro(?:\b)" 	1;
 "~*(?:\b)filmetricsasia\.com(?:\b)" 	1;
@@ -5167,6 +5168,7 @@
 "~*(?:\b)semxiu\.com(?:\b)" 	1;
 "~*(?:\b)sendearnings\.com(?:\b)" 	1;
 "~*(?:\b)senger\.atspace\.co\.uk(?:\b)" 	1;
+"~*(?:\b)seo18\.su(?:\b)" 	1;
 "~*(?:\b)seo\-2\-0\.com(?:\b)" 	1;
 "~*(?:\b)seoanalyses\.com(?:\b)" 	1;
 "~*(?:\b)seoboxes\.com(?:\b)" 	1;

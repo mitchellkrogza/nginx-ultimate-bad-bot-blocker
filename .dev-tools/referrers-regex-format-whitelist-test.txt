@@ -2145,6 +2145,7 @@
 "~*(?:\b)filkhbr\.com(?:\b)" 	0;
 "~*(?:\b)fillmewithhappiness\.com(?:\b)" 	0;
 "~*(?:\b)film\-one\.ru(?:\b)" 	0;
+"~*(?:\b)filmania\-x\.ru(?:\b)" 	0;
 "~*(?:\b)filmbokep69\.com(?:\b)" 	0;
 "~*(?:\b)filmci\.pro(?:\b)" 	0;
 "~*(?:\b)filmetricsasia\.com(?:\b)" 	0;
@@ -5177,6 +5178,7 @@
 "~*(?:\b)seo\-smm\.kz(?:\b)" 	0;
 "~*(?:\b)seo\-tools\-optimizing\.com(?:\b)" 	0;
 "~*(?:\b)seo\-traffic\-ranking\.info(?:\b)" 	0;
+"~*(?:\b)seo18\.su(?:\b)" 	0;
 "~*(?:\b)seoanalyses\.com(?:\b)" 	0;
 "~*(?:\b)seoboxes\.com(?:\b)" 	0;
 "~*(?:\b)seocdvig\.ru(?:\b)" 	0;
