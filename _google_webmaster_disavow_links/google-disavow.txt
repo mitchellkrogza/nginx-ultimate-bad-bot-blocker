@@ -5276,6 +5276,7 @@ domain:share-buttons-for-free.com
 domain:sharebutton.net
 domain:sharebutton.org
 domain:sharebutton.to
+domain:shareyards.com
 domain:shariki-zuma-lines.ru
 domain:sharpchallenge.com
 domain:sheerseo.com

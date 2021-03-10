@@ -5276,6 +5276,7 @@
 "~*(?:\b)sharebutton\.net(?:\b)" 	0;
 "~*(?:\b)sharebutton\.org(?:\b)" 	0;
 "~*(?:\b)sharebutton\.to(?:\b)" 	0;
+"~*(?:\b)shareyards\.com(?:\b)" 	0;
 "~*(?:\b)shariki\-zuma\-lines\.ru(?:\b)" 	0;
 "~*(?:\b)sharpchallenge\.com(?:\b)" 	0;
 "~*(?:\b)sheerseo\.com(?:\b)" 	0;
