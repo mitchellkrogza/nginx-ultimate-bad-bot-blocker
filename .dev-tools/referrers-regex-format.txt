@@ -298,6 +298,7 @@
 "~*(?:\b)agreda\.pluto\.ro(?:\b)" 	1;
 "~*(?:\b)agroeconom\.kz(?:\b)" 	1;
 "~*(?:\b)agysya\.ru(?:\b)" 	1;
+"~*(?:\b)ahhjf\.com(?:\b)" 	1;
 "~*(?:\b)ahmedabadwebs\.com(?:\b)" 	1;
 "~*(?:\b)ahrefs\.com(?:\b)" 	1;
 "~*(?:\b)ahrntal\.verymes\.xyz(?:\b)" 	1;
