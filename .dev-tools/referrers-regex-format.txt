@@ -2065,6 +2065,7 @@
 "~*(?:\b)facialporntube\.com(?:\b)" 	1;
 "~*(?:\b)factorynightclub\.com(?:\b)" 	1;
 "~*(?:\b)failingmarriege\.blogspot\.com(?:\b)" 	1;
+"~*(?:\b)faithe\.top(?:\b)" 	1;
 "~*(?:\b)fakehandbags\.xyz(?:\b)" 	1;
 "~*(?:\b)falcoware\.com(?:\b)" 	1;
 "~*(?:\b)falllow\.gq(?:\b)" 	1;

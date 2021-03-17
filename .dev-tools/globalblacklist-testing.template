@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2021.03.2301
-### Updated: Tue Mar 16 08:46:42 SAST 2021
-### Bad Referrer Count: 6948
+### Version: V3.2021.03.2302
+### Updated: Wed Mar 17 09:12:08 SAST 2021
+### Bad Referrer Count: 6949
 ### Bad Bot Count: 608
 ###################################################
 ### VERSION INFORMATION ##
@@ -3101,6 +3101,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)facialporntube\.com(?:\b)" 	1;
 	"~*(?:\b)factorynightclub\.com(?:\b)" 	1;
 	"~*(?:\b)failingmarriege\.blogspot\.com(?:\b)" 	1;
+	"~*(?:\b)faithe\.top(?:\b)" 	1;
 	"~*(?:\b)fakehandbags\.xyz(?:\b)" 	1;
 	"~*(?:\b)falcoware\.com(?:\b)" 	1;
 	"~*(?:\b)falllow\.gq(?:\b)" 	1;
