@@ -3001,6 +3001,7 @@
 "~*(?:\b)islandminingsupply\.wordpress\.com(?:\b)" 	1;
 "~*(?:\b)isotoner\.com(?:\b)" 	1;
 "~*(?:\b)isoveti\.ru(?:\b)" 	1;
+"~*(?:\b)ispac\.org(?:\b)" 	1;
 "~*(?:\b)ispaniya\-costa\-blanca\.ru(?:\b)" 	1;
 "~*(?:\b)istanbulit\.com(?:\b)" 	1;
 "~*(?:\b)istizanidineacontrolledsubstance\.blogspot\.com(?:\b)" 	1;
