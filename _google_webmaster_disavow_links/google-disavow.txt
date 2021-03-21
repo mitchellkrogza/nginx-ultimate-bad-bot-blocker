@@ -1751,6 +1751,7 @@ domain:downloaddy.net
 domain:downloadeer.net
 domain:downloader12.ru
 domain:downloadkakaotalk.com
+domain:downloadme.life
 domain:downloadmefiranaratb1972.xpg.com.br
 domain:downloads-whatsapp.com
 domain:downtuptv.gq
@@ -3193,6 +3194,7 @@ domain:kino-filmi.com
 domain:kino-fun.ru
 domain:kino-key.info
 domain:kino-rating.ru
+domain:kino-rf.ru
 domain:kino2018.cc
 domain:kino2018.club
 domain:kinobaks.com

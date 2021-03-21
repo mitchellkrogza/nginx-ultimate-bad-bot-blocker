@@ -1750,6 +1750,7 @@
 "~*(?:\b)downloader12\.ru(?:\b)" 	1;
 "~*(?:\b)downloadkakaotalk\.com(?:\b)" 	1;
 "~*(?:\b)downloadmefiranaratb1972\.xpg\.com\.br(?:\b)" 	1;
+"~*(?:\b)downloadme\.life(?:\b)" 	1;
 "~*(?:\b)download\-of\-the\-warez\.blogspot\.com(?:\b)" 	1;
 "~*(?:\b)downloads\-whatsapp\.com(?:\b)" 	1;
 "~*(?:\b)download\-wallpaper\.net(?:\b)" 	1;
@@ -3208,6 +3209,7 @@
 "~*(?:\b)kinoplen\.ru(?:\b)" 	1;
 "~*(?:\b)kinopolet\.net(?:\b)" 	1;
 "~*(?:\b)kino\-rating\.ru(?:\b)" 	1;
+"~*(?:\b)kino\-rf\.ru(?:\b)" 	1;
 "~*(?:\b)kinosed\.net(?:\b)" 	1;
 "~*(?:\b)kinostorm\.net(?:\b)" 	1;
 "~*(?:\b)kinotorka\.ru(?:\b)" 	1;
