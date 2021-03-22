@@ -956,6 +956,7 @@
 "~*(?:\b)bouda\.kvalitne\.cz(?:\b)" 	1;
 "~*(?:\b)bpro1\.top(?:\b)" 	1;
 "~*(?:\b)bracketsmackdown\.com(?:\b)" 	1;
+"~*(?:\b)bradleylive\.xyz(?:\b)" 	1;
 "~*(?:\b)brainboosting\.club(?:\b)" 	1;
 "~*(?:\b)brainboostingsupplements\.org(?:\b)" 	1;
 "~*(?:\b)braindaily\.xyz(?:\b)" 	1;
