@@ -3397,6 +3397,7 @@
 "~*(?:\b)letto\.by(?:\b)" 	1;
 "~*(?:\b)levaquin750mg\.blogspot\.com(?:\b)" 	1;
 "~*(?:\b)lexaprogeneric\.link(?:\b)" 	1;
+"~*(?:\b)lexiangwan\.com(?:\b)" 	1;
 "~*(?:\b)lexixxx\.com(?:\b)" 	1;
 "~*(?:\b)lezbiyanki\.net(?:\b)" 	1;
 "~*(?:\b)lflash\.ru(?:\b)" 	1;
