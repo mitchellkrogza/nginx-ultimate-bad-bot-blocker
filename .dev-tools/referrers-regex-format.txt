@@ -1152,6 +1152,7 @@
 "~*(?:\b)cascadelink\.org(?:\b)" 	1;
 "~*(?:\b)cashkitten\-a\.akamaihd\.net(?:\b)" 	1;
 "~*(?:\b)cashonads\.com(?:\b)" 	1;
+"~*(?:\b)casinopinup\-wins\.com(?:\b)" 	1;
 "~*(?:\b)casinorewards\.info(?:\b)" 	1;
 "~*(?:\b)casinos4dummies\.co\.uk(?:\b)" 	1;
 "~*(?:\b)casite\-513049\.cloudaccess\.net(?:\b)" 	1;
@@ -2525,6 +2526,7 @@
 "~*(?:\b)gonextmedia\.com(?:\b)" 	1;
 "~*(?:\b)goodhousekeeping\.com(?:\b)" 	1;
 "~*(?:\b)goodhumor24\.com(?:\b)" 	1;
+"~*(?:\b)goodly\.pro(?:\b)" 	1;
 "~*(?:\b)good\-mummy\.ru(?:\b)" 	1;
 "~*(?:\b)goodnightjournal\.com(?:\b)" 	1;
 "~*(?:\b)goodprotein\.ru(?:\b)" 	1;

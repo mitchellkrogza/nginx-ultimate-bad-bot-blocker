@@ -1154,6 +1154,7 @@ domain:casablancamanor.co.za
 domain:cascadelink.org
 domain:cashkitten-a.akamaihd.net
 domain:cashonads.com
+domain:casinopinup-wins.com
 domain:casinorewards.info
 domain:casinos4dummies.co.uk
 domain:casite-513049.cloudaccess.net
@@ -2528,6 +2529,7 @@ domain:goo.ne.jp
 domain:good-mummy.ru
 domain:goodhousekeeping.com
 domain:goodhumor24.com
+domain:goodly.pro
 domain:goodnightjournal.com
 domain:goodprotein.ru
 domain:goodwinmetals.co
