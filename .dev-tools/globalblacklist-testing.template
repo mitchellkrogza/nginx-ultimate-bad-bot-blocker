@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2021.03.2312
-### Updated: Mon Mar 29 01:23:19 SAST 2021
-### Bad Referrer Count: 6956
+### Version: V3.2021.03.2313
+### Updated: Mon Mar 29 10:02:08 SAST 2021
+### Bad Referrer Count: 6962
 ### Bad Bot Count: 608
 ###################################################
 ### VERSION INFORMATION ##
@@ -2147,6 +2147,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)canyougethighofftizanidine\.blogspot\.com(?:\b)" 	1;
 	"~*(?:\b)canzoni\.ru(?:\b)" 	1;
 	"~*(?:\b)capacitacionyaprendizaje\.com(?:\b)" 	1;
+	"~*(?:\b)capsderfudd\.tk(?:\b)" 	1;
 	"~*(?:\b)capture\-room\.com(?:\b)" 	1;
 	"~*(?:\b)carabela\.com\.do(?:\b)" 	1;
 	"~*(?:\b)carapics\.com(?:\b)" 	1;
@@ -2642,6 +2643,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)deniven\.1bb\.ru(?:\b)" 	1;
 	"~*(?:\b)den\-noch24\.ru(?:\b)" 	1;
 	"~*(?:\b)dentalpearls\.com\.au(?:\b)" 	1;
+	"~*(?:\b)dentfidemountpreach\.tk(?:\b)" 	1;
 	"~*(?:\b)deplim\.com(?:\b)" 	1;
 	"~*(?:\b)depositfiles\-porn\.ga(?:\b)" 	1;
 	"~*(?:\b)derevesendeco\.com(?:\b)" 	1;
@@ -4196,6 +4198,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)kchaxton\.com(?:\b)" 	1;
 	"~*(?:\b)keenoutlet\.online(?:\b)" 	1;
 	"~*(?:\b)keki\.info(?:\b)" 	1;
+	"~*(?:\b)kellyonline\.xyz(?:\b)" 	1;
 	"~*(?:\b)kemerovo\.zrus\.org(?:\b)" 	1;
 	"~*(?:\b)kenaba\.su(?:\b)" 	1;
 	"~*(?:\b)kerch\.site(?:\b)" 	1;
@@ -4219,6 +4222,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)keywordsuggests\.com(?:\b)" 	1;
 	"~*(?:\b)keywordteam\.net(?:\b)" 	1;
 	"~*(?:\b)kfon\.eu(?:\b)" 	1;
+	"~*(?:\b)khadastoafarde\.tk(?:\b)" 	1;
 	"~*(?:\b)khafre\.us(?:\b)" 	1;
 	"~*(?:\b)kichenaid\.ru(?:\b)" 	1;
 	"~*(?:\b)kicknights\.gq(?:\b)" 	1;
@@ -4561,6 +4565,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)lsp\-awak\-perikanan\.com(?:\b)" 	1;
 	"~*(?:\b)ltvperf\.com(?:\b)" 	1;
 	"~*(?:\b)lubetube\.com(?:\b)" 	1;
+	"~*(?:\b)luchshie\-topcasino\.ru(?:\b)" 	1;
 	"~*(?:\b)luciddiagnostics\.in(?:\b)" 	1;
 	"~*(?:\b)luckyday\.world(?:\b)" 	1;
 	"~*(?:\b)luckyshop\.net\.ua(?:\b)" 	1;
@@ -7744,6 +7749,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)xn\-\-\-\-ctbbcjd3dbsehgi\.xn\-\-p1ai(?:\b)" 	1;
 	"~*(?:\b)xn\-\-\-\-ctbigni3aj4h\.xn\-\-p1ai(?:\b)" 	1;
 	"~*(?:\b)xn\-\-d1abj0abs9d\.in\.ua(?:\b)" 	1;
+	"~*(?:\b)xn\-\-d1acah0c\.xn\-\-p1ai(?:\b)" 	1;
 	"~*(?:\b)xn\-\-d1aifoe0a9a\.top(?:\b)" 	1;
 	"~*(?:\b)xn\-\-\-\-dtbndd4ae7eub\.top(?:\b)" 	1;
 	"~*(?:\b)xn\-\-e1afanlbnfckd7c3d\.xn\-\-p1ai(?:\b)" 	1;
