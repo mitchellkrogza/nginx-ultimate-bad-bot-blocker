@@ -90,6 +90,7 @@
 "~*(?:\b)3w24\.com(?:\b)" 	0;
 "~*(?:\b)3weekdiet\.com(?:\b)" 	0;
 "~*(?:\b)3xforum\.ro(?:\b)" 	0;
+"~*(?:\b)404\.mn(?:\b)" 	0;
 "~*(?:\b)40cg\.com(?:\b)" 	0;
 "~*(?:\b)45en\.ru(?:\b)" 	0;
 "~*(?:\b)4inn\.ru(?:\b)" 	0;
@@ -569,6 +570,7 @@
 "~*(?:\b)asseenontvonline\.ru(?:\b)" 	0;
 "~*(?:\b)astana\.xxxkaz\.org(?:\b)" 	0;
 "~*(?:\b)astrochicks\.com(?:\b)" 	0;
+"~*(?:\b)atdedinotuho\.tk(?:\b)" 	0;
 "~*(?:\b)atelielembrancaqueencanta\.com\.br(?:\b)" 	0;
 "~*(?:\b)atlant\-auto\.info(?:\b)" 	0;
 "~*(?:\b)atlasvkusov\.ru(?:\b)" 	0;
@@ -2615,6 +2617,7 @@
 "~*(?:\b)guildebzh\.info(?:\b)" 	0;
 "~*(?:\b)guitar\-master\.org(?:\b)" 	0;
 "~*(?:\b)gungamesz\.com(?:\b)" 	0;
+"~*(?:\b)gunsvicceadadebt\.tk(?:\b)" 	0;
 "~*(?:\b)guod\.me(?:\b)" 	0;
 "~*(?:\b)guruofcasino\.com(?:\b)" 	0;
 "~*(?:\b)gwagka\.com(?:\b)" 	0;
@@ -4398,6 +4401,7 @@
 "~*(?:\b)perm\.xrus\.org(?:\b)" 	0;
 "~*(?:\b)perosan\.com(?:\b)" 	0;
 "~*(?:\b)perso\.wanadoo\.es(?:\b)" 	0;
+"~*(?:\b)pertlocogasilk\.tk(?:\b)" 	0;
 "~*(?:\b)pestomou\.info(?:\b)" 	0;
 "~*(?:\b)petedrummond\.com(?:\b)" 	0;
 "~*(?:\b)petitions\.whitehouse\.gov(?:\b)" 	0;
@@ -6419,6 +6423,7 @@
 "~*(?:\b)wallpapersdesk\.info(?:\b)" 	0;
 "~*(?:\b)wallpapersist\.com(?:\b)" 	0;
 "~*(?:\b)wallpaperstock\.net(?:\b)" 	0;
+"~*(?:\b)walpaperlist\.com(?:\b)" 	0;
 "~*(?:\b)wanker\.us(?:\b)" 	0;
 "~*(?:\b)wapsite\.me(?:\b)" 	0;
 "~*(?:\b)wareseeker\.com(?:\b)" 	0;

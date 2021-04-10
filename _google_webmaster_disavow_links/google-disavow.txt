@@ -90,6 +90,7 @@ domain:3th.co.in
 domain:3w24.com
 domain:3weekdiet.com
 domain:3xforum.ro
+domain:404.mn
 domain:40cg.com
 domain:45en.ru
 domain:4inn.ru
@@ -569,6 +570,7 @@ domain:asseenontv.ru
 domain:asseenontvonline.ru
 domain:astana.xxxkaz.org
 domain:astrochicks.com
+domain:atdedinotuho.tk
 domain:atelielembrancaqueencanta.com.br
 domain:atlant-auto.info
 domain:atlasvkusov.ru
@@ -2615,6 +2617,7 @@ domain:guigyverpo.cf
 domain:guildebzh.info
 domain:guitar-master.org
 domain:gungamesz.com
+domain:gunsvicceadadebt.tk
 domain:guod.me
 domain:guruofcasino.com
 domain:gwagka.com
@@ -4398,6 +4401,7 @@ domain:perm-profnastil.ru
 domain:perm.xrus.org
 domain:perosan.com
 domain:perso.wanadoo.es
+domain:pertlocogasilk.tk
 domain:pestomou.info
 domain:petedrummond.com
 domain:petitions.whitehouse.gov
@@ -6419,6 +6423,7 @@ domain:wallpapers-best.com
 domain:wallpapersdesk.info
 domain:wallpapersist.com
 domain:wallpaperstock.net
+domain:walpaperlist.com
 domain:wanker.us
 domain:wapsite.me
 domain:wareseeker.com
