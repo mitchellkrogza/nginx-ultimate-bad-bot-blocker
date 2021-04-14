@@ -422,6 +422,7 @@
 "~*(?:\b)analytics\-ads\.xyz(?:\b)" 	0;
 "~*(?:\b)ananumous\.ru(?:\b)" 	0;
 "~*(?:\b)anapa\-inns\.ru(?:\b)" 	0;
+"~*(?:\b)anaseracresar\.tk(?:\b)" 	0;
 "~*(?:\b)anatomiy\.com(?:\b)" 	0;
 "~*(?:\b)andpolice\.com(?:\b)" 	0;
 "~*(?:\b)android\-style\.com(?:\b)" 	0;
@@ -754,6 +755,7 @@
 "~*(?:\b)beget\.tech(?:\b)" 	0;
 "~*(?:\b)belinka\.com\.ua(?:\b)" 	0;
 "~*(?:\b)belinvestdom\.by(?:\b)" 	0;
+"~*(?:\b)belsetirehafi\.tk(?:\b)" 	0;
 "~*(?:\b)belstaffstore\.online(?:\b)" 	0;
 "~*(?:\b)benchmarkcommunications\.co\.uk(?:\b)" 	0;
 "~*(?:\b)bensbargains\.net(?:\b)" 	0;
@@ -3062,6 +3064,7 @@
 "~*(?:\b)jasonpartington\.com(?:\b)" 	0;
 "~*(?:\b)jav\-fetish\.com(?:\b)" 	0;
 "~*(?:\b)jav\-fetish\.site(?:\b)" 	0;
+"~*(?:\b)jav\-idol\.com(?:\b)" 	0;
 "~*(?:\b)jav\-way\.site(?:\b)" 	0;
 "~*(?:\b)javatex\.co\.id(?:\b)" 	0;
 "~*(?:\b)javcoast\.com(?:\b)" 	0;
@@ -3098,7 +3101,9 @@
 "~*(?:\b)jobgirl24\.ru(?:\b)" 	0;
 "~*(?:\b)jobmarket\.com\.ua(?:\b)" 	0;
 "~*(?:\b)joessmogtestonly\.com(?:\b)" 	0;
+"~*(?:\b)jofucipiku\.tk(?:\b)" 	0;
 "~*(?:\b)johannesburgsingles\.co\.za(?:\b)" 	0;
+"~*(?:\b)johnnyhaley\.top(?:\b)" 	0;
 "~*(?:\b)johnrobertsoninc\.com(?:\b)" 	0;
 "~*(?:\b)joingames\.org(?:\b)" 	0;
 "~*(?:\b)jolic2\.com(?:\b)" 	0;
@@ -3115,6 +3120,7 @@
 "~*(?:\b)juliaworld\.net(?:\b)" 	0;
 "~*(?:\b)jumptap\.com(?:\b)" 	0;
 "~*(?:\b)junglenet\-a\.akamaihd\.net(?:\b)" 	0;
+"~*(?:\b)junketjuice\.blogspot\.com(?:\b)" 	0;
 "~*(?:\b)jurajskie\.info(?:\b)" 	0;
 "~*(?:\b)jus0wil\.pp\.ua(?:\b)" 	0;
 "~*(?:\b)justbcause\.com(?:\b)" 	0;
@@ -3470,6 +3476,7 @@
 "~*(?:\b)livejasmin\.com(?:\b)" 	0;
 "~*(?:\b)liver\-chintai\.org(?:\b)" 	0;
 "~*(?:\b)liverpool\.gsofootball\.com(?:\b)" 	0;
+"~*(?:\b)livesex\-amateure\.info(?:\b)" 	0;
 "~*(?:\b)liveshoppersmac\.com(?:\b)" 	0;
 "~*(?:\b)livetsomudvekslingstudent\.bloggersdelight\.dk(?:\b)" 	0;
 "~*(?:\b)liveu\.infoteka\.hu(?:\b)" 	0;
@@ -3755,6 +3762,7 @@
 "~*(?:\b)minegam\.com(?:\b)" 	0;
 "~*(?:\b)minet\.club(?:\b)" 	0;
 "~*(?:\b)minharevisao\.com(?:\b)" 	0;
+"~*(?:\b)mini\-modus\.ru(?:\b)" 	0;
 "~*(?:\b)mini\.7zap\.com(?:\b)" 	0;
 "~*(?:\b)miniads\.ca(?:\b)" 	0;
 "~*(?:\b)miniature\.io(?:\b)" 	0;
@@ -4312,6 +4320,7 @@
 "~*(?:\b)ozas\.net(?:\b)" 	0;
 "~*(?:\b)ozoz\.it(?:\b)" 	0;
 "~*(?:\b)p\-business\.ru(?:\b)" 	0;
+"~*(?:\b)paccohichetoti\.ml(?:\b)" 	0;
 "~*(?:\b)paceform\.com(?:\b)" 	0;
 "~*(?:\b)pacificair\.com(?:\b)" 	0;
 "~*(?:\b)paclitor\.com(?:\b)" 	0;
@@ -4894,6 +4903,7 @@
 "~*(?:\b)renecaovilla\.online(?:\b)" 	0;
 "~*(?:\b)renecaovillasale\.online(?:\b)" 	0;
 "~*(?:\b)renewablewealth\.com(?:\b)" 	0;
+"~*(?:\b)renhacklids\.tk(?:\b)" 	0;
 "~*(?:\b)rennlist\.com(?:\b)" 	0;
 "~*(?:\b)rent2spb\.ru(?:\b)" 	0;
 "~*(?:\b)rentalcarnavi\.info(?:\b)" 	0;

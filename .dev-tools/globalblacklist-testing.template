@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2021.04.2323
-### Updated: Wed Apr 14 01:31:07 SAST 2021
-### Bad Referrer Count: 6967
+### Version: V3.2021.04.2324
+### Updated: Wed Apr 14 08:18:51 SAST 2021
+### Bad Referrer Count: 6977
 ### Bad Bot Count: 608
 ###################################################
 ### VERSION INFORMATION ##
@@ -1456,6 +1456,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)analytics\-ads\.xyz(?:\b)" 	1;
 	"~*(?:\b)ananumous\.ru(?:\b)" 	1;
 	"~*(?:\b)anapa\-inns\.ru(?:\b)" 	1;
+	"~*(?:\b)anaseracresar\.tk(?:\b)" 	1;
 	"~*(?:\b)anatomiy\.com(?:\b)" 	1;
 	"~*(?:\b)an\-donut\.com(?:\b)" 	1;
 	"~*(?:\b)andpolice\.com(?:\b)" 	1;
@@ -1789,6 +1790,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)beget\.tech(?:\b)" 	1;
 	"~*(?:\b)belinka\.com\.ua(?:\b)" 	1;
 	"~*(?:\b)belinvestdom\.by(?:\b)" 	1;
+	"~*(?:\b)belsetirehafi\.tk(?:\b)" 	1;
 	"~*(?:\b)belstaffstore\.online(?:\b)" 	1;
 	"~*(?:\b)benchmarkcommunications\.co\.uk(?:\b)" 	1;
 	"~*(?:\b)bensbargains\.net(?:\b)" 	1;
@@ -4099,6 +4101,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)javcoast\.com(?:\b)" 	1;
 	"~*(?:\b)jav\-fetish\.com(?:\b)" 	1;
 	"~*(?:\b)jav\-fetish\.site(?:\b)" 	1;
+	"~*(?:\b)jav\-idol\.com(?:\b)" 	1;
 	"~*(?:\b)javidol\.site(?:\b)" 	1;
 	"~*(?:\b)javitas\.info(?:\b)" 	1;
 	"~*(?:\b)javlibrary\.cc(?:\b)" 	1;
@@ -4133,7 +4136,9 @@ map $http_referer $bad_referer {
 	"~*(?:\b)job\.icivil\.ir(?:\b)" 	1;
 	"~*(?:\b)jobmarket\.com\.ua(?:\b)" 	1;
 	"~*(?:\b)joessmogtestonly\.com(?:\b)" 	1;
+	"~*(?:\b)jofucipiku\.tk(?:\b)" 	1;
 	"~*(?:\b)johannesburgsingles\.co\.za(?:\b)" 	1;
+	"~*(?:\b)johnnyhaley\.top(?:\b)" 	1;
 	"~*(?:\b)johnrobertsoninc\.com(?:\b)" 	1;
 	"~*(?:\b)joingames\.org(?:\b)" 	1;
 	"~*(?:\b)jolic2\.com(?:\b)" 	1;
@@ -4151,6 +4156,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)juliaworld\.net(?:\b)" 	1;
 	"~*(?:\b)jumptap\.com(?:\b)" 	1;
 	"~*(?:\b)junglenet\-a\.akamaihd\.net(?:\b)" 	1;
+	"~*(?:\b)junketjuice\.blogspot\.com(?:\b)" 	1;
 	"~*(?:\b)jurajskie\.info(?:\b)" 	1;
 	"~*(?:\b)jus0wil\.pp\.ua(?:\b)" 	1;
 	"~*(?:\b)justbcause\.com(?:\b)" 	1;
@@ -4504,6 +4510,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)livejasmin\.com(?:\b)" 	1;
 	"~*(?:\b)liver\-chintai\.org(?:\b)" 	1;
 	"~*(?:\b)liverpool\.gsofootball\.com(?:\b)" 	1;
+	"~*(?:\b)livesex\-amateure\.info(?:\b)" 	1;
 	"~*(?:\b)live\-sexcam\.tk(?:\b)" 	1;
 	"~*(?:\b)live\-sexchat\.ru(?:\b)" 	1;
 	"~*(?:\b)liveshoppersmac\.com(?:\b)" 	1;
@@ -4794,6 +4801,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)mini\.7zap\.com(?:\b)" 	1;
 	"~*(?:\b)miniads\.ca(?:\b)" 	1;
 	"~*(?:\b)miniature\.io(?:\b)" 	1;
+	"~*(?:\b)mini\-modus\.ru(?:\b)" 	1;
 	"~*(?:\b)minneapoliscopiers\.com(?:\b)" 	1;
 	"~*(?:\b)minyetki\.ru(?:\b)" 	1;
 	"~*(?:\b)mir\-betting\.ru(?:\b)" 	1;
@@ -5347,6 +5355,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)ozas\.net(?:\b)" 	1;
 	"~*(?:\b)oz\-offers\.com(?:\b)" 	1;
 	"~*(?:\b)ozoz\.it(?:\b)" 	1;
+	"~*(?:\b)paccohichetoti\.ml(?:\b)" 	1;
 	"~*(?:\b)paceform\.com(?:\b)" 	1;
 	"~*(?:\b)pacificair\.com(?:\b)" 	1;
 	"~*(?:\b)paclitor\.com(?:\b)" 	1;
@@ -5930,6 +5939,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)renecaovilla\.online(?:\b)" 	1;
 	"~*(?:\b)renecaovillasale\.online(?:\b)" 	1;
 	"~*(?:\b)renewablewealth\.com(?:\b)" 	1;
+	"~*(?:\b)renhacklids\.tk(?:\b)" 	1;
 	"~*(?:\b)rennlist\.com(?:\b)" 	1;
 	"~*(?:\b)rent2spb\.ru(?:\b)" 	1;
 	"~*(?:\b)rentalcarnavi\.info(?:\b)" 	1;
