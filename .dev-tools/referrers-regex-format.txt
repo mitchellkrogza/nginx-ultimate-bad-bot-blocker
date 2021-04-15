@@ -922,6 +922,7 @@
 "~*(?:\b)bmw\-ark\.ru(?:\b)" 	1;
 "~*(?:\b)bmwhighperformers\.com(?:\b)" 	1;
 "~*(?:\b)bnt\-team\.com(?:\b)" 	1;
+"~*(?:\b)boanonihaca\.tk(?:\b)" 	1;
 "~*(?:\b)board\.f00d\.de(?:\b)" 	1;
 "~*(?:\b)boazpower\.com(?:\b)" 	1;
 "~*(?:\b)bobba\.dzaba\.com(?:\b)" 	1;
@@ -3470,6 +3471,7 @@
 "~*(?:\b)liran\-locks\.com(?:\b)" 	1;
 "~*(?:\b)lirunet\.ru(?:\b)" 	1;
 "~*(?:\b)lisque\.batcave\.net(?:\b)" 	1;
+"~*(?:\b)listiseltemournlan\.gq(?:\b)" 	1;
 "~*(?:\b)littleberry\.ru(?:\b)" 	1;
 "~*(?:\b)littlecity\.ch(?:\b)" 	1;
 "~*(?:\b)littlesexdolls\.com(?:\b)" 	1;

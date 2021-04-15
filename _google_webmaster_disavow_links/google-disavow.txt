@@ -923,6 +923,7 @@ domain:bmw-ark.ru
 domain:bmw.afora.ru
 domain:bmwhighperformers.com
 domain:bnt-team.com
+domain:boanonihaca.tk
 domain:board.f00d.de
 domain:boazpower.com
 domain:bobba.dzaba.com
@@ -3470,6 +3471,7 @@ domain:liquimondo.com
 domain:liran-locks.com
 domain:lirunet.ru
 domain:lisque.batcave.net
+domain:listiseltemournlan.gq
 domain:littleberry.ru
 domain:littlecity.ch
 domain:littlesexdolls.com
