@@ -3123,6 +3123,7 @@ domain:journalhome.com
 domain:journeydownthescale.info
 domain:jovencitas.gratis
 domain:joy-penguin.com
+domain:joyceblog.top
 domain:jpcycles.com
 domain:jrcigars.com
 domain:jrpmakati.com
@@ -4851,6 +4852,7 @@ domain:raschtextil.com.ua
 domain:rasteniya-vs-zombi.ru
 domain:ratemodels.net
 domain:rating-bestcasino.com
+domain:rating-casino2021.ru
 domain:razamicroelectronics.com
 domain:razleton.com
 domain:razorweb-a.akamaihd.net
@@ -5337,6 +5339,7 @@ domain:shinikiev.com.ua
 domain:ship-marvel.co.ua
 domain:shisha-swag.de
 domain:shitmovs.com
+domain:shitting.pro
 domain:shivafurnishings.com
 domain:shlyahten.ru
 domain:shmetall.com.ua
