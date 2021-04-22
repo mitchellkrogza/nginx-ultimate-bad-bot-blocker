@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2021.04.2332
-### Updated: Thu Apr 22 01:34:27 SAST 2021
-### Bad Referrer Count: 7006
+### Version: V3.2021.04.2333
+### Updated: Thu Apr 22 09:42:28 SAST 2021
+### Bad Referrer Count: 7009
 ### Bad Bot Count: 608
 ###################################################
 ### VERSION INFORMATION ##
@@ -1076,6 +1076,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)14b\.info(?:\b)" 	1;
 	"~*(?:\b)1688\.com(?:\b)" 	1;
 	"~*(?:\b)178evakuator178\.ru(?:\b)" 	1;
+	"~*(?:\b)18ps\.ru(?:\b)" 	1;
 	"~*(?:\b)1\-99seo\.com(?:\b)" 	1;
 	"~*(?:\b)1adult\.com(?:\b)" 	1;
 	"~*(?:\b)1bet\.com(?:\b)" 	1;
@@ -3185,6 +3186,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)fickluder69\.com(?:\b)" 	1;
 	"~*(?:\b)fidelityfunding\.com(?:\b)" 	1;
 	"~*(?:\b)fifa\-coins\.online(?:\b)" 	1;
+	"~*(?:\b)fighrofacciufreesig\.ga(?:\b)" 	1;
 	"~*(?:\b)figuringmoneyout\.com(?:\b)" 	1;
 	"~*(?:\b)fikasound\.tk(?:\b)" 	1;
 	"~*(?:\b)filefilter\.weebly\.com(?:\b)" 	1;
@@ -7091,6 +7093,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)trafficmp\.com(?:\b)" 	1;
 	"~*(?:\b)trafficnetzwerk\.de(?:\b)" 	1;
 	"~*(?:\b)trafficreceiver\.club(?:\b)" 	1;
+	"~*(?:\b)trafficshaper\.com(?:\b)" 	1;
 	"~*(?:\b)trafficstars\.com(?:\b)" 	1;
 	"~*(?:\b)traffictrade\.life(?:\b)" 	1;
 	"~*(?:\b)traffique\.net(?:\b)" 	1;

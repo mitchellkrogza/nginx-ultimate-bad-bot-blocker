@@ -42,6 +42,7 @@ domain:13tabs.com
 domain:14b.info
 domain:1688.com
 domain:178evakuator178.ru
+domain:18ps.ru
 domain:1adult.com
 domain:1bet.com
 domain:1flag.co.za
@@ -2151,6 +2152,7 @@ domain:fickkontaktehobbyhuren.com
 domain:fickluder69.com
 domain:fidelityfunding.com
 domain:fifa-coins.online
+domain:fighrofacciufreesig.ga
 domain:figuringmoneyout.com
 domain:fikasound.tk
 domain:fil.ru
@@ -6055,6 +6057,7 @@ domain:trafficmonetize.org
 domain:trafficmp.com
 domain:trafficnetzwerk.de
 domain:trafficreceiver.club
+domain:trafficshaper.com
 domain:trafficstars.com
 domain:traffictrade.life
 domain:traffique.net

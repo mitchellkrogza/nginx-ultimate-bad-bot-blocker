@@ -40,6 +40,7 @@
 "~*(?:\b)14b\.info(?:\b)" 	1;
 "~*(?:\b)1688\.com(?:\b)" 	1;
 "~*(?:\b)178evakuator178\.ru(?:\b)" 	1;
+"~*(?:\b)18ps\.ru(?:\b)" 	1;
 "~*(?:\b)1\-99seo\.com(?:\b)" 	1;
 "~*(?:\b)1adult\.com(?:\b)" 	1;
 "~*(?:\b)1bet\.com(?:\b)" 	1;
@@ -2149,6 +2150,7 @@
 "~*(?:\b)fickluder69\.com(?:\b)" 	1;
 "~*(?:\b)fidelityfunding\.com(?:\b)" 	1;
 "~*(?:\b)fifa\-coins\.online(?:\b)" 	1;
+"~*(?:\b)fighrofacciufreesig\.ga(?:\b)" 	1;
 "~*(?:\b)figuringmoneyout\.com(?:\b)" 	1;
 "~*(?:\b)fikasound\.tk(?:\b)" 	1;
 "~*(?:\b)filefilter\.weebly\.com(?:\b)" 	1;
@@ -6055,6 +6057,7 @@
 "~*(?:\b)trafficmp\.com(?:\b)" 	1;
 "~*(?:\b)trafficnetzwerk\.de(?:\b)" 	1;
 "~*(?:\b)trafficreceiver\.club(?:\b)" 	1;
+"~*(?:\b)trafficshaper\.com(?:\b)" 	1;
 "~*(?:\b)trafficstars\.com(?:\b)" 	1;
 "~*(?:\b)traffictrade\.life(?:\b)" 	1;
 "~*(?:\b)traffique\.net(?:\b)" 	1;
