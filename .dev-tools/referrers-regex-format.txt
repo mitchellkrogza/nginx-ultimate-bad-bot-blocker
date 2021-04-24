@@ -1031,6 +1031,7 @@
 "~*(?:\b)burkesales\.com(?:\b)" 	1;
 "~*(?:\b)burn\-fat\.ga(?:\b)" 	1;
 "~*(?:\b)buron\.pw(?:\b)" 	1;
+"~*(?:\b)buscarfoto\.com(?:\b)" 	1;
 "~*(?:\b)businescoop\.men(?:\b)" 	1;
 "~*(?:\b)businesn\.men(?:\b)" 	1;
 "~*(?:\b)business\-made\-fun\.com(?:\b)" 	1;
@@ -2297,6 +2298,7 @@
 "~*(?:\b)free\-fbook\-traffic\.com(?:\b)" 	1;
 "~*(?:\b)free\-fb\-traffic\.com(?:\b)" 	1;
 "~*(?:\b)free\-floating\-buttons\.com(?:\b)" 	1;
+"~*(?:\b)freefoto\.ca(?:\b)" 	1;
 "~*(?:\b)freegamesplay\.online(?:\b)" 	1;
 "~*(?:\b)free\-gluten\.ru(?:\b)" 	1;
 "~*(?:\b)freejabs\.com(?:\b)" 	1;
@@ -2370,6 +2372,7 @@
 "~*(?:\b)fx\-brokers\-review\.com(?:\b)" 	1;
 "~*(?:\b)fxgallery\.com(?:\b)" 	1;
 "~*(?:\b)fxtips\.ru(?:\b)" 	1;
+"~*(?:\b)fxund\.us(?:\b)" 	1;
 "~*(?:\b)fyl\.com\.ru(?:\b)" 	1;
 "~*(?:\b)fym\.com\.ru(?:\b)" 	1;
 "~*(?:\b)fyxabomiw\.ru(?:\b)" 	1;
@@ -2589,6 +2592,7 @@
 "~*(?:\b)greatdealshop\.com(?:\b)" 	1;
 "~*(?:\b)greatfind\-a\.akamaihd\.net(?:\b)" 	1;
 "~*(?:\b)greatgrace\.ru(?:\b)" 	1;
+"~*(?:\b)greatidea\.marketing(?:\b)" 	1;
 "~*(?:\b)greatzip\.com(?:\b)" 	1;
 "~*(?:\b)greendream\.com\.ua(?:\b)" 	1;
 "~*(?:\b)greenidesign\.co(?:\b)" 	1;
@@ -2899,6 +2903,7 @@
 "~*(?:\b)images\-free\.net(?:\b)" 	1;
 "~*(?:\b)images\-graphics\-pics\.com(?:\b)" 	1;
 "~*(?:\b)images\.gyffu\.com(?:\b)" 	1;
+"~*(?:\b)imagez\.co(?:\b)" 	1;
 "~*(?:\b)imagine\-ex\.co(?:\b)" 	1;
 "~*(?:\b)imagui\.eu(?:\b)" 	1;
 "~*(?:\b)imediadesk\.com(?:\b)" 	1;
@@ -3108,6 +3113,7 @@
 "~*(?:\b)jimmychoosale\.online(?:\b)" 	1;
 "~*(?:\b)jjbabskoe\.ru(?:\b)" 	1;
 "~*(?:\b)jmat\.cn(?:\b)" 	1;
+"~*(?:\b)jo24news\.com(?:\b)" 	1;
 "~*(?:\b)jobgirl24\.ru(?:\b)" 	1;
 "~*(?:\b)job\.icivil\.ir(?:\b)" 	1;
 "~*(?:\b)jobmarket\.com\.ua(?:\b)" 	1;
@@ -3195,6 +3201,7 @@
 "~*(?:\b)kevblog\.top(?:\b)" 	1;
 "~*(?:\b)keyhantercume\.com(?:\b)" 	1;
 "~*(?:\b)keywesthideaways\.co(?:\b)" 	1;
+"~*(?:\b)keywordbasket\.com(?:\b)" 	1;
 "~*(?:\b)keywordblocks\.com(?:\b)" 	1;
 "~*(?:\b)keywordglobal\.co\.za(?:\b)" 	1;
 "~*(?:\b)keywordhouse\.com(?:\b)" 	1;
@@ -4228,6 +4235,7 @@
 "~*(?:\b)o\.light\.d0t\.ru(?:\b)" 	1;
 "~*(?:\b)olvanto\.ru(?:\b)" 	1;
 "~*(?:\b)olympescort\.com(?:\b)" 	1;
+"~*(?:\b)omgtnc\.com(?:\b)" 	1;
 "~*(?:\b)omoikiri\-japan\.ru(?:\b)" 	1;
 "~*(?:\b)omsk\.xrus\.org(?:\b)" 	1;
 "~*(?:\b)onblastblog\.online(?:\b)" 	1;
@@ -4904,6 +4912,7 @@
 "~*(?:\b)reklama1\.ru(?:\b)" 	1;
 "~*(?:\b)reklama\-i\-rabota\.ru(?:\b)" 	1;
 "~*(?:\b)reklamuss\.ru(?:\b)" 	1;
+"~*(?:\b)relatodelpresente\.com\.ar(?:\b)" 	1;
 "~*(?:\b)relax\.ru(?:\b)" 	1;
 "~*(?:\b)relayblog\.com(?:\b)" 	1;
 "~*(?:\b)remedyotc\.com(?:\b)" 	1;
@@ -6073,6 +6082,7 @@
 "~*(?:\b)treasuretrack\-a\.akamaihd\.net(?:\b)" 	1;
 "~*(?:\b)trichizobswiv\.agddns\.net(?:\b)" 	1;
 "~*(?:\b)trion\.od\.ua(?:\b)" 	1;
+"~*(?:\b)triplepanda\.xyz(?:\b)" 	1;
 "~*(?:\b)tripper\.de(?:\b)" 	1;
 "~*(?:\b)tri\-slona\.org(?:\b)" 	1;
 "~*(?:\b)triumf\-realty\.ru(?:\b)" 	1;
@@ -6595,6 +6605,7 @@
 "~*(?:\b)winwotgold\.pl(?:\b)" 	1;
 "~*(?:\b)winx\-play\.ru(?:\b)" 	1;
 "~*(?:\b)wiosenny\-bon\-1500\.pl(?:\b)" 	1;
+"~*(?:\b)witclub\.info(?:\b)" 	1;
 "~*(?:\b)witherrom55\.eklablog\.fr(?:\b)" 	1;
 "~*(?:\b)withstandingheartwarming\.com(?:\b)" 	1;
 "~*(?:\b)wjgony\.com(?:\b)" 	1;

@@ -1032,6 +1032,7 @@ domain:burkesales.com
 domain:burn-fat.ga
 domain:buron.pw
 domain:bus-offer.com
+domain:buscarfoto.com
 domain:businescoop.men
 domain:businesn.men
 domain:business-made-fun.com
@@ -2309,6 +2310,7 @@ domain:free-traffic.xyz
 domain:free-video-tool.com
 domain:free411games.com
 domain:freecamdollars.com
+domain:freefoto.ca
 domain:freegamesplay.online
 domain:freejabs.com
 domain:freelifetimefuckbook.com
@@ -2370,6 +2372,7 @@ domain:futbolkisales.ru
 domain:fx-brokers-review.com
 domain:fxgallery.com
 domain:fxtips.ru
+domain:fxund.us
 domain:fyl.com.ru
 domain:fym.com.ru
 domain:fyxabomiw.ru
@@ -2590,6 +2593,7 @@ domain:greamimgo.pw
 domain:greatdealshop.com
 domain:greatfind-a.akamaihd.net
 domain:greatgrace.ru
+domain:greatidea.marketing
 domain:greatzip.com
 domain:green-tea.tv
 domain:greendream.com.ua
@@ -2901,6 +2905,7 @@ domain:imagerydatabase.com
 domain:images-free.net
 domain:images-graphics-pics.com
 domain:images.gyffu.com
+domain:imagez.co
 domain:imagine-ex.co
 domain:imagui.eu
 domain:imediadesk.com
@@ -3109,6 +3114,7 @@ domain:jillepille.com
 domain:jimmychoosale.online
 domain:jjbabskoe.ru
 domain:jmat.cn
+domain:jo24news.com
 domain:job.icivil.ir
 domain:jobgirl24.ru
 domain:jobmarket.com.ua
@@ -3196,6 +3202,7 @@ domain:kevblog.top
 domain:keyhantercume.com
 domain:keywesthideaways.co
 domain:keyword-suggestions.com
+domain:keywordbasket.com
 domain:keywordblocks.com
 domain:keywordglobal.co.za
 domain:keywordhouse.com
@@ -4233,6 +4240,7 @@ domain:old-rock.com
 domain:olgacvetmet.com
 domain:olvanto.ru
 domain:olympescort.com
+domain:omgtnc.com
 domain:omoikiri-japan.ru
 domain:omsk.xrus.org
 domain:onblastblog.online
@@ -4904,6 +4912,7 @@ domain:reining.lovasszovetseg.hu
 domain:reklama-i-rabota.ru
 domain:reklama1.ru
 domain:reklamuss.ru
+domain:relatodelpresente.com.ar
 domain:relax.ru
 domain:relayblog.com
 domain:remedyotc.com
@@ -6074,6 +6083,7 @@ domain:treasuretrack-a.akamaihd.net
 domain:tri-slona.org
 domain:trichizobswiv.agddns.net
 domain:trion.od.ua
+domain:triplepanda.xyz
 domain:tripper.de
 domain:triumf-realty.ru
 domain:trk-4.net
@@ -6596,6 +6606,7 @@ domain:winterclassichockeyjerseys.com
 domain:winwotgold.pl
 domain:winx-play.ru
 domain:wiosenny-bon-1500.pl
+domain:witclub.info
 domain:witherrom55.eklablog.fr
 domain:withstandingheartwarming.com
 domain:wjgony.com
