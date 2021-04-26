@@ -1797,6 +1797,7 @@
 "~*(?:\b)dstroy\.su(?:\b)" 	0;
 "~*(?:\b)dtm\-spain\.com(?:\b)" 	0;
 "~*(?:\b)dtnlyss\.com(?:\b)" 	0;
+"~*(?:\b)duawitchrarato\.tk(?:\b)" 	0;
 "~*(?:\b)dumpsmania24\.com(?:\b)" 	0;
 "~*(?:\b)dumuelave\.xyz(?:\b)" 	0;
 "~*(?:\b)duplicashapp\.com(?:\b)" 	0;
@@ -4977,6 +4978,7 @@
 "~*(?:\b)ringporno\.com(?:\b)" 	0;
 "~*(?:\b)ringtonepartner\.com(?:\b)" 	0;
 "~*(?:\b)rique\.host\.sk(?:\b)" 	0;
+"~*(?:\b)riralmolamsaca\.tk(?:\b)" 	0;
 "~*(?:\b)risparmiocasa\.bz\.it(?:\b)" 	0;
 "~*(?:\b)ritlweb\.com(?:\b)" 	0;
 "~*(?:\b)rixpix\.ru(?:\b)" 	0;
@@ -5095,6 +5097,7 @@
 "~*(?:\b)sanyuprojects\.com(?:\b)" 	0;
 "~*(?:\b)sape\.top(?:\b)" 	0;
 "~*(?:\b)sarafangel\.ru(?:\b)" 	0;
+"~*(?:\b)sarahmilne\.top(?:\b)" 	0;
 "~*(?:\b)saratov\.xrus\.org(?:\b)" 	0;
 "~*(?:\b)sardinie\.us(?:\b)" 	0;
 "~*(?:\b)sarf3omlat\.com(?:\b)" 	0;
