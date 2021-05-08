@@ -4032,6 +4032,7 @@
 "~*(?:\b)nakozhe\.com(?:\b)" 	1;
 "~*(?:\b)nalogovyy\-kodeks\.ru(?:\b)" 	1;
 "~*(?:\b)nalogovyykodeks\.ru(?:\b)" 	1;
+"~*(?:\b)namecrumilchlet\.tk(?:\b)" 	1;
 "~*(?:\b)namenectar\.com(?:\b)" 	1;
 "~*(?:\b)napalm51\.nut\.cc(?:\b)" 	1;
 "~*(?:\b)naperehresti\.info(?:\b)" 	1;
@@ -5702,6 +5703,7 @@
 "~*(?:\b)subj\.ukr\-lit\.com(?:\b)" 	1;
 "~*(?:\b)success\-seo\.com(?:\b)" 	1;
 "~*(?:\b)suchenindeutschland\.com(?:\b)" 	1;
+"~*(?:\b)sucsesofinspiration\.com(?:\b)" 	1;
 "~*(?:\b)sudexpert66\.ru(?:\b)" 	1;
 "~*(?:\b)sugarkun\.com(?:\b)" 	1;
 "~*(?:\b)sugarlyflex\.pw(?:\b)" 	1;
