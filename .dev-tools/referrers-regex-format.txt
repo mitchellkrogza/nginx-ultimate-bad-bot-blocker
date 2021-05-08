@@ -323,6 +323,7 @@
 "~*(?:\b)alborzan\.com(?:\b)" 	1;
 "~*(?:\b)albumsuper\.info(?:\b)" 	1;
 "~*(?:\b)albuteroli\.com(?:\b)" 	1;
+"~*(?:\b)ald2014\.org(?:\b)" 	1;
 "~*(?:\b)alekseevec\.ru(?:\b)" 	1;
 "~*(?:\b)alert\-fdm\.xyz(?:\b)" 	1;
 "~*(?:\b)alert\-fjg\.xyz(?:\b)" 	1;
@@ -1014,6 +1015,7 @@
 "~*(?:\b)budpost\.com\.ua(?:\b)" 	1;
 "~*(?:\b)buehne\-fuer\-menschenrechte\.de(?:\b)" 	1;
 "~*(?:\b)bugof\.gq(?:\b)" 	1;
+"~*(?:\b)bugshoot\.cn(?:\b)" 	1;
 "~*(?:\b)buigas\.00it\.com(?:\b)" 	1;
 "~*(?:\b)builtwith\.com(?:\b)" 	1;
 "~*(?:\b)buketeg\.xyz(?:\b)" 	1;
@@ -2881,6 +2883,7 @@
 "~*(?:\b)igtools\.club(?:\b)" 	1;
 "~*(?:\b)ihc2015\.info(?:\b)" 	1;
 "~*(?:\b)i\-hobot\.ru(?:\b)" 	1;
+"~*(?:\b)ihtec2019\.org(?:\b)" 	1;
 "~*(?:\b)iideaidekonkatu\.info(?:\b)" 	1;
 "~*(?:\b)iinstalll\-fii1leis\.jus0wil\.pp\.ua(?:\b)" 	1;
 "~*(?:\b)ikearugs\.xyz(?:\b)" 	1;
@@ -3211,6 +3214,7 @@
 "~*(?:\b)keywordsking\.com(?:\b)" 	1;
 "~*(?:\b)keywords\-monitoring\-success\.com(?:\b)" 	1;
 "~*(?:\b)keywords\-monitoring\-your\-success\.com(?:\b)" 	1;
+"~*(?:\b)keywordspay\.com(?:\b)" 	1;
 "~*(?:\b)keyword\-suggestions\.com(?:\b)" 	1;
 "~*(?:\b)keywordsuggest\.org(?:\b)" 	1;
 "~*(?:\b)keywordsuggests\.com(?:\b)" 	1;
@@ -4249,6 +4253,7 @@
 "~*(?:\b)onemactrckr\.com(?:\b)" 	1;
 "~*(?:\b)onemantrip\.com(?:\b)" 	1;
 "~*(?:\b)oneminutesite\.it(?:\b)" 	1;
+"~*(?:\b)one\.net\.in(?:\b)" 	1;
 "~*(?:\b)onescreen\.cc(?:\b)" 	1;
 "~*(?:\b)oneshotdate\.com(?:\b)" 	1;
 "~*(?:\b)onetravelguides\.com(?:\b)" 	1;
@@ -5160,6 +5165,7 @@
 "~*(?:\b)scat\.porn(?:\b)" 	1;
 "~*(?:\b)scenarii\-1\-sentyabrya\.uroki\.org\.ua(?:\b)" 	1;
 "~*(?:\b)scenicmissouri\.us(?:\b)" 	1;
+"~*(?:\b)schalke04fc\.info(?:\b)" 	1;
 "~*(?:\b)schlampen\-treffen\.com(?:\b)" 	1;
 "~*(?:\b)school\-diplomat\.ru(?:\b)" 	1;
 "~*(?:\b)schoolfiles\.net(?:\b)" 	1;

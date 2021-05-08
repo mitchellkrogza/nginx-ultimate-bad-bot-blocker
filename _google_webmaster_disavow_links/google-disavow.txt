@@ -324,6 +324,7 @@ domain:albamargroup.com
 domain:alborzan.com
 domain:albumsuper.info
 domain:albuteroli.com
+domain:ald2014.org
 domain:alekseevec.ru
 domain:alert-fdm.xyz
 domain:alert-fjg.xyz
@@ -1014,6 +1015,7 @@ domain:budilneg.xyz
 domain:budpost.com.ua
 domain:buehne-fuer-menschenrechte.de
 domain:bugof.gq
+domain:bugshoot.cn
 domain:buigas.00it.com
 domain:builtwith.com
 domain:buketeg.xyz
@@ -2883,6 +2885,7 @@ domain:igrovyeavtomaty777.ru
 domain:igru-xbox.net
 domain:igtools.club
 domain:ihc2015.info
+domain:ihtec2019.org
 domain:iideaidekonkatu.info
 domain:iinstalll-fii1leis.jus0wil.pp.ua
 domain:ikearugs.xyz
@@ -3212,6 +3215,7 @@ domain:keywords-monitoring-success.com
 domain:keywords-monitoring-your-success.com
 domain:keywordsdoctor.com
 domain:keywordsking.com
+domain:keywordspay.com
 domain:keywordsuggest.org
 domain:keywordsuggests.com
 domain:keywordteam.net
@@ -4249,6 +4253,7 @@ domain:onblastblog.online
 domain:onclickpredictiv.com
 domain:onclkads.com
 domain:one-gear.com
+domain:one.net.in
 domain:oneclickfiles.com
 domain:onefilms.net
 domain:onemactrckr.com
@@ -5164,6 +5169,7 @@ domain:scanspyware.net
 domain:scat.porn
 domain:scenarii-1-sentyabrya.uroki.org.ua
 domain:scenicmissouri.us
+domain:schalke04fc.info
 domain:schlampen-treffen.com
 domain:school-diplomat.ru
 domain:schoolfiles.net
