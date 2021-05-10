@@ -584,6 +584,7 @@
 "~*(?:\b)atofilms\.com(?:\b)" 	0;
 "~*(?:\b)atout\-energie\-69\.com(?:\b)" 	0;
 "~*(?:\b)atovh\.local\-finders\.com(?:\b)" 	0;
+"~*(?:\b)aucoinhomes\.com(?:\b)" 	0;
 "~*(?:\b)audiobangout\.com(?:\b)" 	0;
 "~*(?:\b)audiofree\.ru(?:\b)" 	0;
 "~*(?:\b)ausergrubhof\.info(?:\b)" 	0;
@@ -953,6 +954,7 @@
 "~*(?:\b)bonzybuddy\.com(?:\b)" 	0;
 "~*(?:\b)boo\-arts\.com(?:\b)" 	0;
 "~*(?:\b)boobsimge\.com(?:\b)" 	0;
+"~*(?:\b)book\-bets\.com(?:\b)" 	0;
 "~*(?:\b)bookhome\.info(?:\b)" 	0;
 "~*(?:\b)bookmaker\-bet\.com(?:\b)" 	0;
 "~*(?:\b)bookmark4you\.com(?:\b)" 	0;
@@ -1764,6 +1766,7 @@
 "~*(?:\b)doublepimp\.com(?:\b)" 	0;
 "~*(?:\b)download\-of\-the\-warez\.blogspot\.com(?:\b)" 	0;
 "~*(?:\b)download\-wallpaper\.net(?:\b)" 	0;
+"~*(?:\b)download\-walpaperhd\.blogspot\.com(?:\b)" 	0;
 "~*(?:\b)downloaddy\.net(?:\b)" 	0;
 "~*(?:\b)downloadeer\.net(?:\b)" 	0;
 "~*(?:\b)downloader12\.ru(?:\b)" 	0;
@@ -4125,6 +4128,7 @@
 "~*(?:\b)ningessaybe\.me(?:\b)" 	0;
 "~*(?:\b)nippon\-bearings\.ru(?:\b)" 	0;
 "~*(?:\b)niroo\.info(?:\b)" 	0;
+"~*(?:\b)nisuturnetdgu\.tk(?:\b)" 	0;
 "~*(?:\b)njkmznnb\.ru(?:\b)" 	0;
 "~*(?:\b)njpalletremoval\.com(?:\b)" 	0;
 "~*(?:\b)nl\.netlog\.com(?:\b)" 	0;

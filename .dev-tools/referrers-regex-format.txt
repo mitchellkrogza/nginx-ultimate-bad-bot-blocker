@@ -584,6 +584,7 @@
 "~*(?:\b)atofilms\.com(?:\b)" 	1;
 "~*(?:\b)atout\-energie\-69\.com(?:\b)" 	1;
 "~*(?:\b)atovh\.local\-finders\.com(?:\b)" 	1;
+"~*(?:\b)aucoinhomes\.com(?:\b)" 	1;
 "~*(?:\b)audiobangout\.com(?:\b)" 	1;
 "~*(?:\b)audiofree\.ru(?:\b)" 	1;
 "~*(?:\b)ausergrubhof\.info(?:\b)" 	1;
@@ -952,6 +953,7 @@
 "~*(?:\b)bonzybuddy\.com(?:\b)" 	1;
 "~*(?:\b)boo\-arts\.com(?:\b)" 	1;
 "~*(?:\b)boobsimge\.com(?:\b)" 	1;
+"~*(?:\b)book\-bets\.com(?:\b)" 	1;
 "~*(?:\b)bookhome\.info(?:\b)" 	1;
 "~*(?:\b)bookmaker\-bet\.com(?:\b)" 	1;
 "~*(?:\b)bookmark4you\.com(?:\b)" 	1;
@@ -1771,6 +1773,7 @@
 "~*(?:\b)download\-of\-the\-warez\.blogspot\.com(?:\b)" 	1;
 "~*(?:\b)downloads\-whatsapp\.com(?:\b)" 	1;
 "~*(?:\b)download\-wallpaper\.net(?:\b)" 	1;
+"~*(?:\b)download\-walpaperhd\.blogspot\.com(?:\b)" 	1;
 "~*(?:\b)downtuptv\.gq(?:\b)" 	1;
 "~*(?:\b)downvids\.net(?:\b)" 	1;
 "~*(?:\b)doxyporno\.com(?:\b)" 	1;
@@ -4125,6 +4128,7 @@
 "~*(?:\b)ningessaybe\.me(?:\b)" 	1;
 "~*(?:\b)nippon\-bearings\.ru(?:\b)" 	1;
 "~*(?:\b)niroo\.info(?:\b)" 	1;
+"~*(?:\b)nisuturnetdgu\.tk(?:\b)" 	1;
 "~*(?:\b)njkmznnb\.ru(?:\b)" 	1;
 "~*(?:\b)njpalletremoval\.com(?:\b)" 	1;
 "~*(?:\b)nlfjjunb5\.ru(?:\b)" 	1;

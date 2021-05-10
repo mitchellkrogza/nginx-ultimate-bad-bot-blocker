@@ -584,6 +584,7 @@ domain:atmovs.com
 domain:atofilms.com
 domain:atout-energie-69.com
 domain:atovh.local-finders.com
+domain:aucoinhomes.com
 domain:audiobangout.com
 domain:audiofree.ru
 domain:ausergrubhof.info
@@ -953,6 +954,7 @@ domain:bonzibuddi.com
 domain:bonzybuddy.com
 domain:boo-arts.com
 domain:boobsimge.com
+domain:book-bets.com
 domain:bookhome.info
 domain:bookmaker-bet.com
 domain:bookmark4you.com
@@ -1764,6 +1766,7 @@ domain:dotnetdotcom.org
 domain:doublepimp.com
 domain:download-of-the-warez.blogspot.com
 domain:download-wallpaper.net
+domain:download-walpaperhd.blogspot.com
 domain:downloaddy.net
 domain:downloadeer.net
 domain:downloader12.ru
@@ -4125,6 +4128,7 @@ domain:nikkiewart.ru
 domain:ningessaybe.me
 domain:nippon-bearings.ru
 domain:niroo.info
+domain:nisuturnetdgu.tk
 domain:njkmznnb.ru
 domain:njpalletremoval.com
 domain:nl.netlog.com
