@@ -4644,6 +4644,7 @@
 "~*(?:\b)porno\.simple\-image\.com\.ua(?:\b)" 	1;
 "~*(?:\b)pornoslive\.net(?:\b)" 	1;
 "~*(?:\b)pornosmola\.info(?:\b)" 	1;
+"~*(?:\b)pornosok\.ru(?:\b)" 	1;
 "~*(?:\b)pornoted\.com(?:\b)" 	1;
 "~*(?:\b)porno\-transsexuals\.ru(?:\b)" 	1;
 "~*(?:\b)pornotubexxx\.name(?:\b)" 	1;

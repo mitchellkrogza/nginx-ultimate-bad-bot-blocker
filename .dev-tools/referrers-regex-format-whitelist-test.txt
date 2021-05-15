@@ -4647,6 +4647,7 @@
 "~*(?:\b)pornosexrolik\.com(?:\b)" 	0;
 "~*(?:\b)pornoslive\.net(?:\b)" 	0;
 "~*(?:\b)pornosmola\.info(?:\b)" 	0;
+"~*(?:\b)pornosok\.ru(?:\b)" 	0;
 "~*(?:\b)pornoted\.com(?:\b)" 	0;
 "~*(?:\b)pornotubexxx\.name(?:\b)" 	0;
 "~*(?:\b)pornotubs\.com(?:\b)" 	0;
