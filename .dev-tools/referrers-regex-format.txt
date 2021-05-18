@@ -4020,6 +4020,7 @@
 "~*(?:\b)myplaycity\.com(?:\b)" 	1;
 "~*(?:\b)mypornfree\.ru(?:\b)" 	1;
 "~*(?:\b)myprintscreen\.com(?:\b)" 	1;
+"~*(?:\b)myra\.top(?:\b)" 	1;
 "~*(?:\b)myseoconsultant\.com(?:\b)" 	1;
 "~*(?:\b)mysex21\.com(?:\b)" 	1;
 "~*(?:\b)mysexpics\.ru(?:\b)" 	1;
