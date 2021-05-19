@@ -4365,6 +4365,7 @@ domain:paclitor.com
 domain:page2rss.com
 domain:pagesense.com
 domain:paidonlinesites.com
+domain:paighambot.com
 domain:painting-planet.com
 domain:paintingplanet.ru
 domain:paleohub.info
@@ -6491,6 +6492,7 @@ domain:wallpaperstock.net
 domain:walpaperlist.com
 domain:wanker.us
 domain:wapsite.me
+domain:wardreapptokone.tk
 domain:wareseeker.com
 domain:warezaccess.com
 domain:warezkeeper.com
