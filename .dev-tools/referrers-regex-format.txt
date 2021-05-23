@@ -6120,6 +6120,7 @@
 "~*(?:\b)trustedhealthtips\.com(?:\b)" 	1;
 "~*(?:\b)trustedmaccleaner\.com(?:\b)" 	1;
 "~*(?:\b)trustl\.life(?:\b)" 	1;
+"~*(?:\b)tryrating\.com(?:\b)" 	1;
 "~*(?:\b)try\-rx\.com(?:\b)" 	1;
 "~*(?:\b)tsan\.net(?:\b)" 	1;
 "~*(?:\b)tsstcorpcddvdwshbbdriverfb\.aircus\.com(?:\b)" 	1;
@@ -6519,6 +6520,7 @@
 "~*(?:\b)web\-analytics\.date(?:\b)" 	1;
 "~*(?:\b)web\-betting\.ru(?:\b)" 	1;
 "~*(?:\b)webcamdevochka\.com(?:\b)" 	1;
+"~*(?:\b)webcamtalk\.net(?:\b)" 	1;
 "~*(?:\b)web\.cvut\.cz(?:\b)" 	1;
 "~*(?:\b)webenlace\.com\.ar(?:\b)" 	1;
 "~*(?:\b)webextract\.profound\.net(?:\b)" 	1;
@@ -6773,6 +6775,7 @@
 "~*(?:\b)xn\-\-80ajjbdhgmudixfjc8c5a9df8b\.xn\-\-p1ai(?:\b)" 	1;
 "~*(?:\b)xn\-\-80ak6aa92e\.com(?:\b)" 	1;
 "~*(?:\b)xn\-\-80aodinpgi\.xn\-\-p1ai(?:\b)" 	1;
+"~*(?:\b)xn\-\-80atua3d\.xn\-\-p1ai(?:\b)" 	1;
 "~*(?:\b)xn\-\-\-\-\-8kcatubaocd1bneepefojs1h2e\.xn\-\-p1ai(?:\b)" 	1;
 "~*(?:\b)xn\-\-\-\-8sbarihbihxpxqgaf0g1e\.xn\-\-80adxhks(?:\b)" 	1;
 "~*(?:\b)xn\-\-\-\-8sbdbjgb1ap7a9c4czbh\.xn\-\-p1acf(?:\b)" 	1;

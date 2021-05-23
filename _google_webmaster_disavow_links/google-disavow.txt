@@ -6121,6 +6121,7 @@ domain:trustedhealthtips.com
 domain:trustedmaccleaner.com
 domain:trustl.life
 domain:try-rx.com
+domain:tryrating.com
 domain:tsan.net
 domain:tsstcorpcddvdwshbbdriverfb.aircus.com
 domain:tsyndicate.com
@@ -6521,6 +6522,7 @@ domain:webads.co.nz
 domain:webadvance.club
 domain:webalan.ru
 domain:webcamdevochka.com
+domain:webcamtalk.net
 domain:webenlace.com.ar
 domain:webextract.profound.net
 domain:webinstantservice.com
@@ -6790,6 +6792,7 @@ domain:xn--80ajbshivpvn2i.xn--p1ai
 domain:xn--80ajjbdhgmudixfjc8c5a9df8b.xn--p1ai
 domain:xn--80ak6aa92e.com
 domain:xn--80aodinpgi.xn--p1ai
+domain:xn--80atua3d.xn--p1ai
 domain:xn--90acenikpebbdd4f6d.xn--p1ai
 domain:xn--b1adccaf1bzj.xn--p1ai
 domain:xn--b1addnj3cah.xn--p1ai

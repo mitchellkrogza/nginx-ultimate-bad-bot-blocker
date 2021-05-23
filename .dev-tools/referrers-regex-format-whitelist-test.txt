@@ -6121,6 +6121,7 @@
 "~*(?:\b)trustedmaccleaner\.com(?:\b)" 	0;
 "~*(?:\b)trustl\.life(?:\b)" 	0;
 "~*(?:\b)try\-rx\.com(?:\b)" 	0;
+"~*(?:\b)tryrating\.com(?:\b)" 	0;
 "~*(?:\b)tsan\.net(?:\b)" 	0;
 "~*(?:\b)tsstcorpcddvdwshbbdriverfb\.aircus\.com(?:\b)" 	0;
 "~*(?:\b)tsyndicate\.com(?:\b)" 	0;
@@ -6521,6 +6522,7 @@
 "~*(?:\b)webadvance\.club(?:\b)" 	0;
 "~*(?:\b)webalan\.ru(?:\b)" 	0;
 "~*(?:\b)webcamdevochka\.com(?:\b)" 	0;
+"~*(?:\b)webcamtalk\.net(?:\b)" 	0;
 "~*(?:\b)webenlace\.com\.ar(?:\b)" 	0;
 "~*(?:\b)webextract\.profound\.net(?:\b)" 	0;
 "~*(?:\b)webinstantservice\.com(?:\b)" 	0;
@@ -6790,6 +6792,7 @@
 "~*(?:\b)xn\-\-80ajjbdhgmudixfjc8c5a9df8b\.xn\-\-p1ai(?:\b)" 	0;
 "~*(?:\b)xn\-\-80ak6aa92e\.com(?:\b)" 	0;
 "~*(?:\b)xn\-\-80aodinpgi\.xn\-\-p1ai(?:\b)" 	0;
+"~*(?:\b)xn\-\-80atua3d\.xn\-\-p1ai(?:\b)" 	0;
 "~*(?:\b)xn\-\-90acenikpebbdd4f6d\.xn\-\-p1ai(?:\b)" 	0;
 "~*(?:\b)xn\-\-b1adccaf1bzj\.xn\-\-p1ai(?:\b)" 	0;
 "~*(?:\b)xn\-\-b1addnj3cah\.xn\-\-p1ai(?:\b)" 	0;
