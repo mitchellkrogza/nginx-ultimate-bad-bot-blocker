@@ -5478,6 +5478,7 @@ domain:slimcdn.com
 domain:slkrm.ru
 domain:slomm.ru
 domain:slonechka.ru
+domain:sloopyjoes.com
 domain:slowmac.tech
 domain:slowmacfaster.trade
 domain:sluganarodu.ru

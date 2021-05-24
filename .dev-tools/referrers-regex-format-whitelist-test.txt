@@ -5478,6 +5478,7 @@
 "~*(?:\b)slkrm\.ru(?:\b)" 	0;
 "~*(?:\b)slomm\.ru(?:\b)" 	0;
 "~*(?:\b)slonechka\.ru(?:\b)" 	0;
+"~*(?:\b)sloopyjoes\.com(?:\b)" 	0;
 "~*(?:\b)slowmac\.tech(?:\b)" 	0;
 "~*(?:\b)slowmacfaster\.trade(?:\b)" 	0;
 "~*(?:\b)sluganarodu\.ru(?:\b)" 	0;

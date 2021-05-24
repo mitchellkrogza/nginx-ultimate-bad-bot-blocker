@@ -5478,6 +5478,7 @@
 "~*(?:\b)s\.lollypopgaming\.com(?:\b)" 	1;
 "~*(?:\b)slomm\.ru(?:\b)" 	1;
 "~*(?:\b)slonechka\.ru(?:\b)" 	1;
+"~*(?:\b)sloopyjoes\.com(?:\b)" 	1;
 "~*(?:\b)slowmacfaster\.trade(?:\b)" 	1;
 "~*(?:\b)slowmac\.tech(?:\b)" 	1;
 "~*(?:\b)sluganarodu\.ru(?:\b)" 	1;
