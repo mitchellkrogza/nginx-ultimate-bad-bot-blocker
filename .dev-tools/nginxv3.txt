@@ -1,1 +1,1 @@
-nginx version: nginx/1.19.10
+nginx version: nginx/1.21.0
