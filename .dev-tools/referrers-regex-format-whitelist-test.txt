@@ -812,6 +812,7 @@
 "~*(?:\b)bet365\.com(?:\b)" 	0;
 "~*(?:\b)beta\.hotkeys\.com(?:\b)" 	0;
 "~*(?:\b)betonka\.pro(?:\b)" 	0;
+"~*(?:\b)betshuckclean\.com(?:\b)" 	0;
 "~*(?:\b)betterhdporn\.com(?:\b)" 	0;
 "~*(?:\b)betteroffers\.review(?:\b)" 	0;
 "~*(?:\b)betterscooter\.com(?:\b)" 	0;
@@ -877,6 +878,7 @@
 "~*(?:\b)biznesrealnost\.ru(?:\b)" 	0;
 "~*(?:\b)biznesschat\.net(?:\b)" 	0;
 "~*(?:\b)bizru\.info(?:\b)" 	0;
+"~*(?:\b)bizzliving\.com(?:\b)" 	0;
 "~*(?:\b)bjanshee\.ru(?:\b)" 	0;
 "~*(?:\b)bjetjt\.com(?:\b)" 	0;
 "~*(?:\b)bjgugu\.net\.ua(?:\b)" 	0;
@@ -5729,6 +5731,7 @@
 "~*(?:\b)summerlinhomes411\.info(?:\b)" 	0;
 "~*(?:\b)sumo\.com(?:\b)" 	0;
 "~*(?:\b)sundrugstore\.com(?:\b)" 	0;
+"~*(?:\b)sunflowerdrawingpaintings\.blogspot\.com(?:\b)" 	0;
 "~*(?:\b)superfish\.com(?:\b)" 	0;
 "~*(?:\b)superiends\.org(?:\b)" 	0;
 "~*(?:\b)superinterstitial\.com(?:\b)" 	0;
@@ -6026,6 +6029,7 @@
 "~*(?:\b)topcasinoratings\.ru(?:\b)" 	0;
 "~*(?:\b)topclickguru\.com(?:\b)" 	0;
 "~*(?:\b)topdownloads\.ru(?:\b)" 	0;
+"~*(?:\b)topflownews\.com(?:\b)" 	0;
 "~*(?:\b)topkarkas\.com(?:\b)" 	0;
 "~*(?:\b)topmira\.com(?:\b)" 	0;
 "~*(?:\b)topquality\.cf(?:\b)" 	0;
@@ -6465,6 +6469,7 @@
 "~*(?:\b)vsexkontakte\.net(?:\b)" 	0;
 "~*(?:\b)vtc\.pw(?:\b)" 	0;
 "~*(?:\b)vtcdns\.com(?:\b)" 	0;
+"~*(?:\b)vuclip\.com(?:\b)" 	0;
 "~*(?:\b)vucms\.com(?:\b)" 	0;
 "~*(?:\b)vut\.com\.ru(?:\b)" 	0;
 "~*(?:\b)vvon\.co\.uk(?:\b)" 	0;

@@ -812,6 +812,7 @@ domain:bet-prognoz.com
 domain:bet365.com
 domain:beta.hotkeys.com
 domain:betonka.pro
+domain:betshuckclean.com
 domain:betterhdporn.com
 domain:betteroffers.review
 domain:betterscooter.com
@@ -877,6 +878,7 @@ domain:biznesluxe.ru
 domain:biznesrealnost.ru
 domain:biznesschat.net
 domain:bizru.info
+domain:bizzliving.com
 domain:bjanshee.ru
 domain:bjetjt.com
 domain:bjgugu.net.ua
@@ -5729,6 +5731,7 @@ domain:sukirgenk.dvrlists.com
 domain:summerlinhomes411.info
 domain:sumo.com
 domain:sundrugstore.com
+domain:sunflowerdrawingpaintings.blogspot.com
 domain:superfish.com
 domain:superiends.org
 domain:superinterstitial.com
@@ -6026,6 +6029,7 @@ domain:topcar-krasnodar.ru
 domain:topcasinoratings.ru
 domain:topclickguru.com
 domain:topdownloads.ru
+domain:topflownews.com
 domain:topkarkas.com
 domain:topmira.com
 domain:topquality.cf
@@ -6465,6 +6469,7 @@ domain:vseuznaem.com
 domain:vsexkontakte.net
 domain:vtc.pw
 domain:vtcdns.com
+domain:vuclip.com
 domain:vucms.com
 domain:vut.com.ru
 domain:vvon.co.uk
