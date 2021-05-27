@@ -5250,6 +5250,7 @@
 "~*(?:\b)seo18\.su(?:\b)" 	1;
 "~*(?:\b)seo\-2\-0\.com(?:\b)" 	1;
 "~*(?:\b)seoanalyses\.com(?:\b)" 	1;
+"~*(?:\b)seobility\.net(?:\b)" 	1;
 "~*(?:\b)seoboxes\.com(?:\b)" 	1;
 "~*(?:\b)seocdvig\.ru(?:\b)" 	1;
 "~*(?:\b)seocheckupx\.com(?:\b)" 	1;

@@ -429,6 +429,7 @@ SearchmetricsBot
 Semrush
 SemrushBot
 SentiBot
+seobility
 SeobilityBot
 SEOkicks
 SEOkicks-Robot
