@@ -2092,6 +2092,7 @@
 "~*(?:\b)failingmarriege\.blogspot\.com(?:\b)" 	1;
 "~*(?:\b)faithe\.top(?:\b)" 	1;
 "~*(?:\b)fakehandbags\.xyz(?:\b)" 	1;
+"~*(?:\b)falcon\-images\.blogspot\.com(?:\b)" 	1;
 "~*(?:\b)falcoware\.com(?:\b)" 	1;
 "~*(?:\b)falllow\.gq(?:\b)" 	1;
 "~*(?:\b)falopicm\.pw(?:\b)" 	1;
@@ -2277,6 +2278,7 @@
 "~*(?:\b)forums\.d2jsp\.org(?:\b)" 	1;
 "~*(?:\b)forums\.toucharcade\.com(?:\b)" 	1;
 "~*(?:\b)forum\.tvmir\.org(?:\b)" 	1;
+"~*(?:\b)forzeronly\.com(?:\b)" 	1;
 "~*(?:\b)foto\-basa\.com(?:\b)" 	1;
 "~*(?:\b)fotopop\.club(?:\b)" 	1;
 "~*(?:\b)fotosfotos\.eu(?:\b)" 	1;
