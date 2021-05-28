@@ -3569,6 +3569,7 @@
 "~*(?:\b)lovi\-moment\.com\.ua(?:\b)" 	0;
 "~*(?:\b)low\-format\.ru(?:\b)" 	0;
 "~*(?:\b)lowephotos\.info(?:\b)" 	0;
+"~*(?:\b)lrac\.info(?:\b)" 	0;
 "~*(?:\b)lsex\.xyz(?:\b)" 	0;
 "~*(?:\b)lsp\-awak\-perikanan\.com(?:\b)" 	0;
 "~*(?:\b)ltvperf\.com(?:\b)" 	0;
