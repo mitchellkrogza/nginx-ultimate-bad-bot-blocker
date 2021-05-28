@@ -2798,6 +2798,7 @@ domain:hostsshop.ru
 domain:hotblog.top
 domain:hotblognetwork.com
 domain:hotchatdate.com
+domain:hotcore.info
 domain:hotdl.in
 domain:hotel-mkad.ru
 domain:hotelcrocenzi.sm
@@ -3738,6 +3739,7 @@ domain:mega-bony-2017.pl
 domain:mega-bony2017.pl
 domain:mega-polis.biz.ua
 domain:megaapteka.ru
+domain:megagrabber.ru
 domain:megahdporno.net
 domain:megaindex.ru
 domain:megakino.net
@@ -5321,6 +5323,7 @@ domain:sexiporno.net
 domain:sexkontakte-seite.com
 domain:sexkontakteao.info
 domain:sexkrasivo.net
+domain:sexkvartal.com
 domain:sexobzor.info
 domain:sexpartygirls.net
 domain:sexphoto.site

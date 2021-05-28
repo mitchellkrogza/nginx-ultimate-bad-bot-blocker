@@ -2798,6 +2798,7 @@
 "~*(?:\b)hotblognetwork\.com(?:\b)" 	1;
 "~*(?:\b)hotblog\.top(?:\b)" 	1;
 "~*(?:\b)hotchatdate\.com(?:\b)" 	1;
+"~*(?:\b)hotcore\.info(?:\b)" 	1;
 "~*(?:\b)hotdl\.in(?:\b)" 	1;
 "~*(?:\b)hotelcrocenzi\.sm(?:\b)" 	1;
 "~*(?:\b)hotel\-mkad\.ru(?:\b)" 	1;
@@ -3735,6 +3736,7 @@
 "~*(?:\b)megaapteka\.ru(?:\b)" 	1;
 "~*(?:\b)mega\-bony\-2017\.pl(?:\b)" 	1;
 "~*(?:\b)mega\-bony2017\.pl(?:\b)" 	1;
+"~*(?:\b)megagrabber\.ru(?:\b)" 	1;
 "~*(?:\b)megahdporno\.net(?:\b)" 	1;
 "~*(?:\b)megaindex\.ru(?:\b)" 	1;
 "~*(?:\b)megakino\.net(?:\b)" 	1;
@@ -5312,6 +5314,7 @@
 "~*(?:\b)sexkontakteao\.info(?:\b)" 	1;
 "~*(?:\b)sexkontakte\-seite\.com(?:\b)" 	1;
 "~*(?:\b)sexkrasivo\.net(?:\b)" 	1;
+"~*(?:\b)sexkvartal\.com(?:\b)" 	1;
 "~*(?:\b)sexobzor\.info(?:\b)" 	1;
 "~*(?:\b)sexpartygirls\.net(?:\b)" 	1;
 "~*(?:\b)sexphoto\.site(?:\b)" 	1;
