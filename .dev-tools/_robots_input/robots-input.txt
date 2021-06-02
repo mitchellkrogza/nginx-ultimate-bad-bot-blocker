@@ -300,6 +300,7 @@ MIDown tool
 MIIxpc
 Mister PiX
 MJ12bot
+Moblie Safari
 Mojeek
 Mojolicious
 Morfeus Fucking Scanner

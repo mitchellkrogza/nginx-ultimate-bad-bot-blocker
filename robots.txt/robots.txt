@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.06.2367
-### Updated: Tue Jun  1 01:53:12 SAST 2021
-### Bad Bot Count: 610
+### Version: V4.2021.06.2368
+### Updated: Wed Jun  2 16:00:27 SAST 2021
+### Bad Bot Count: 611
 ###################################################
 ### Version Information ##
 
@@ -618,6 +618,8 @@ Disallow:/
 User-agent: Mister PiX
 Disallow:/
 User-agent: MJ12bot
+Disallow:/
+User-agent: Moblie Safari
 Disallow:/
 User-agent: Mojeek
 Disallow:/
