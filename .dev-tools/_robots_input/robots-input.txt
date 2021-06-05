@@ -439,6 +439,7 @@ Seomoz
 SEOprofiler
 seoscanners
 SeoSiteCheckup
+seostar
 SEOstats
 serpstatbot
 sexsearcher

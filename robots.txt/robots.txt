@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.06.2370
-### Updated: Fri Jun  4 13:23:46 SAST 2021
-### Bad Bot Count: 611
+### Version: V4.2021.06.2371
+### Updated: Sat Jun  5 13:45:43 SAST 2021
+### Bad Bot Count: 612
 ###################################################
 ### Version Information ##
 
@@ -896,6 +896,8 @@ Disallow:/
 User-agent: seoscanners
 Disallow:/
 User-agent: SeoSiteCheckup
+Disallow:/
+User-agent: seostar
 Disallow:/
 User-agent: SEOstats
 Disallow:/
