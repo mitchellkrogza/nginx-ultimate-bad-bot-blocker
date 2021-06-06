@@ -1535,6 +1535,7 @@
 "~*(?:\b)customerpromos\-a\.akamaihd\.net(?:\b)" 	0;
 "~*(?:\b)customsua\.com\.ua(?:\b)" 	0;
 "~*(?:\b)cutalltheshit\.com(?:\b)" 	0;
+"~*(?:\b)cutt\.us(?:\b)" 	0;
 "~*(?:\b)cv\.wallhade\.co(?:\b)" 	0;
 "~*(?:\b)cvety24\.by(?:\b)" 	0;
 "~*(?:\b)cwetochki\.ru(?:\b)" 	0;
@@ -4046,6 +4047,7 @@
 "~*(?:\b)naj\-filmy24\.pl(?:\b)" 	0;
 "~*(?:\b)najaden\.no(?:\b)" 	0;
 "~*(?:\b)nakozhe\.com(?:\b)" 	0;
+"~*(?:\b)nakrutka\.cc(?:\b)" 	0;
 "~*(?:\b)nalogovyy\-kodeks\.ru(?:\b)" 	0;
 "~*(?:\b)nalogovyykodeks\.ru(?:\b)" 	0;
 "~*(?:\b)namecrumilchlet\.tk(?:\b)" 	0;

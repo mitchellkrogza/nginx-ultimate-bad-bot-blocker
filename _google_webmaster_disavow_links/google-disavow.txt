@@ -1535,6 +1535,7 @@ domain:customerguru.in
 domain:customerpromos-a.akamaihd.net
 domain:customsua.com.ua
 domain:cutalltheshit.com
+domain:cutt.us
 domain:cv.wallhade.co
 domain:cvety24.by
 domain:cwetochki.ru
@@ -4046,6 +4047,7 @@ domain:nailsimg.com
 domain:naj-filmy24.pl
 domain:najaden.no
 domain:nakozhe.com
+domain:nakrutka.cc
 domain:nalogovyy-kodeks.ru
 domain:nalogovyykodeks.ru
 domain:namecrumilchlet.tk
