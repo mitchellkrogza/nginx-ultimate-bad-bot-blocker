@@ -6291,6 +6291,7 @@
 "~*(?:\b)utrolive\.ru(?:\b)" 	0;
 "~*(?:\b)uvozdeckych\.info(?:\b)" 	0;
 "~*(?:\b)uytmaster\.ru(?:\b)" 	0;
+"~*(?:\b)uzporno\.mobi(?:\b)" 	0;
 "~*(?:\b)uzungil\.com(?:\b)" 	0;
 "~*(?:\b)v\-doc\.co(?:\b)" 	0;
 "~*(?:\b)v24s\.net(?:\b)" 	0;
