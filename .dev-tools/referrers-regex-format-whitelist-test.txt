@@ -4644,6 +4644,7 @@
 "~*(?:\b)pornogig\.com(?:\b)" 	0;
 "~*(?:\b)pornogratisdiario\.com(?:\b)" 	0;
 "~*(?:\b)pornohd1080\.online(?:\b)" 	0;
+"~*(?:\b)pornohub\.me(?:\b)" 	0;
 "~*(?:\b)pornokajf\.com(?:\b)" 	0;
 "~*(?:\b)pornoklad\.net(?:\b)" 	0;
 "~*(?:\b)pornoklad\.ru(?:\b)" 	0;
