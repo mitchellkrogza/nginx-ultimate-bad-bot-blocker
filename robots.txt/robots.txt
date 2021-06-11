@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.06.2376
-### Updated: Fri Jun 11 08:59:10 SAST 2021
-### Bad Bot Count: 612
+### Version: V4.2021.06.2377
+### Updated: Fri Jun 11 17:39:48 SAST 2021
+### Bad Bot Count: 613
 ###################################################
 ### Version Information ##
 
@@ -868,6 +868,8 @@ Disallow:/
 User-agent: Screaming
 Disallow:/
 User-agent: ScreenerBot
+Disallow:/
+User-agent: ScrepyBot
 Disallow:/
 User-agent: Searchestate
 Disallow:/

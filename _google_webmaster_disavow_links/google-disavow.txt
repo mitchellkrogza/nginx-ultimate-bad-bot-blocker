@@ -5198,6 +5198,7 @@ domain:scottbywater.com
 domain:scrapinghub.com
 domain:scrapy.org
 domain:screentoolkit.com
+domain:screpy.com
 domain:scripted.com
 domain:scrnet.biz.ua
 domain:sdelai-prosto.ru

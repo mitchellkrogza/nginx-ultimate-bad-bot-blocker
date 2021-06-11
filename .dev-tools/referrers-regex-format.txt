@@ -5194,6 +5194,7 @@
 "~*(?:\b)scrapinghub\.com(?:\b)" 	1;
 "~*(?:\b)scrapy\.org(?:\b)" 	1;
 "~*(?:\b)screentoolkit\.com(?:\b)" 	1;
+"~*(?:\b)screpy\.com(?:\b)" 	1;
 "~*(?:\b)scripted\.com(?:\b)" 	1;
 "~*(?:\b)scrnet\.biz\.ua(?:\b)" 	1;
 "~*(?:\b)sc\-specialhost\.com(?:\b)" 	1;

@@ -425,6 +425,7 @@ ScoutJet
 Scrapy
 Screaming
 ScreenerBot
+ScrepyBot
 Searchestate
 SearchmetricsBot
 Semrush

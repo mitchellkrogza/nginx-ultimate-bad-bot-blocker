@@ -5198,6 +5198,7 @@
 "~*(?:\b)scrapinghub\.com(?:\b)" 	0;
 "~*(?:\b)scrapy\.org(?:\b)" 	0;
 "~*(?:\b)screentoolkit\.com(?:\b)" 	0;
+"~*(?:\b)screpy\.com(?:\b)" 	0;
 "~*(?:\b)scripted\.com(?:\b)" 	0;
 "~*(?:\b)scrnet\.biz\.ua(?:\b)" 	0;
 "~*(?:\b)sdelai\-prosto\.ru(?:\b)" 	0;
