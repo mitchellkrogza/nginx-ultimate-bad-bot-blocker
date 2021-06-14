@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.06.2378
-### Updated: Sun Jun 13 01:58:34 SAST 2021
-### Bad Bot Count: 613
+### Version: V4.2021.06.2379
+### Updated: Mon Jun 14 10:55:01 SAST 2021
+### Bad Bot Count: 615
 ###################################################
 ### Version Information ##
 
@@ -1073,6 +1073,8 @@ User-agent: Vacuum
 Disallow:/
 User-agent: Vagabondo
 Disallow:/
+User-agent: V-BOT
+Disallow:/
 User-agent: VB Project
 Disallow:/
 User-agent: VCI
@@ -1090,6 +1092,8 @@ Disallow:/
 User-agent: Voil
 Disallow:/
 User-agent: Voltron
+Disallow:/
+User-agent: voyagerx.com
 Disallow:/
 User-agent: Wallpapers/3.0
 Disallow:/
