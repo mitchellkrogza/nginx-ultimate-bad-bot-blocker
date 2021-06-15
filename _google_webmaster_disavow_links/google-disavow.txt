@@ -3386,6 +3386,7 @@ domain:landinez.co
 domain:landmania.ru
 domain:landoftracking.com
 domain:landreferat.ru
+domain:landscapebackgrounds.blogspot.com
 domain:landscaping.center
 domain:languagecode.com
 domain:lankarns.com
@@ -5069,6 +5070,7 @@ domain:russintv.fr
 domain:russkie-gorki.ru
 domain:russkoe-zdorovie.ru
 domain:rustic-quiver.win
+domain:rusvideos.su
 domain:rutor.group
 domain:rutor.vip
 domain:rvi.biz

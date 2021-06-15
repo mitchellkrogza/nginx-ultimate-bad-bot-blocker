@@ -3386,6 +3386,7 @@
 "~*(?:\b)landmania\.ru(?:\b)" 	1;
 "~*(?:\b)landoftracking\.com(?:\b)" 	1;
 "~*(?:\b)landreferat\.ru(?:\b)" 	1;
+"~*(?:\b)landscapebackgrounds\.blogspot\.com(?:\b)" 	1;
 "~*(?:\b)landscaping\.center(?:\b)" 	1;
 "~*(?:\b)languagecode\.com(?:\b)" 	1;
 "~*(?:\b)lankarns\.com(?:\b)" 	1;
@@ -5069,6 +5070,7 @@
 "~*(?:\b)russkoe\-zdorovie\.ru(?:\b)" 	1;
 "~*(?:\b)rus\-teh\.narod\.ru(?:\b)" 	1;
 "~*(?:\b)rustic\-quiver\.win(?:\b)" 	1;
+"~*(?:\b)rusvideos\.su(?:\b)" 	1;
 "~*(?:\b)rutor\.group(?:\b)" 	1;
 "~*(?:\b)rutor\.vip(?:\b)" 	1;
 "~*(?:\b)rvi\.biz(?:\b)" 	1;
