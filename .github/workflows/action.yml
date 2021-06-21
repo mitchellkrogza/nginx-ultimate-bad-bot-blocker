@@ -16,8 +16,7 @@ on:
 
 jobs:
   build:
-    #if: "!contains(github.event.head_commit.message, 'skip ci') || always()"
-    if: ${{ always() }}
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
     runs-on: ubuntu-latest
 
     steps:
@@ -41,9 +40,5 @@ jobs:
           ./dev-tools/generate-files.sh
           ./dev-tools/install-nginx-1.sh
 
-      - name: Debug
-        shell: bash
-        run: |
-          sudo systemctl status nginx.service
 
           
