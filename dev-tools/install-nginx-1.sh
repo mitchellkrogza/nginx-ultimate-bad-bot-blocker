@@ -94,7 +94,7 @@ echo "${bold}${yellow}Delete any default files installed by Nginx"
 echo "${bold}${yellow}-------------------------------------------"
 sudo rm /etc/nginx/sites-available/*
 sudo rm /etc/nginx/sites-enabled/*
-sudo rm ./var/www/html/*
+sudo rm /var/www/html/*
 printf "\n"
 echo "${bold}${yellow}---------------------"
 echo "${bold}${yellow}Setup Vhost for Nginx"
