@@ -63,6 +63,15 @@ defaultcolor=$(tput setaf default)
 # FUNCTIONS
 # ---------
 
+startNginX () {
+printf "\n"
+echo "${bold}${green}---------------"
+echo "${bold}${green}Starting Nginx"
+echo "${bold}${green}---------------"
+sudo systemctl enable nginx
+sudo systemctl start nginx
+}
+
 reloadNginX () {
 printf "\n"
 echo "${bold}${green}---------------"
@@ -229,6 +238,7 @@ runsetupngxblocker1
 loadNginxConf
 forceUpdateTest1
 runupdatengxblocker
+startNginX
 reloadNginX
 waitforReload
 forceUpdateTest2
