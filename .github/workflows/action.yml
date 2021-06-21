@@ -39,4 +39,10 @@ jobs:
           source ~/.bashrc
           ./dev-tools/generate-files.sh
           ./dev-tools/install-nginx-1.sh
+
+      - name: Debug
+        shell: bash
+        run: |
           sudo systemctl status nginx.service
+
+          
