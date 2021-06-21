@@ -1,0 +1,36 @@
+# Build Script for Nginx Ultimate Bad Bot Blocker using GHA
+
+name: CI
+
+defaults:
+  run:
+    shell: bash
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Nginx Stable
+        run: |
+          add-apt-repository -y ppa:nginx/stable
+          apt-get update
+          apt-get install -y --assume-yes nginx-extras
+          apt-get -y install dos2unix
+
+
+      - name: Run build
+        shell: bash
+        echo "Done"
+        #run: ./scripts/travis-commit.sh
