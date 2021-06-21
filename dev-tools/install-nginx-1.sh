@@ -123,8 +123,7 @@ runinstallngxblocker () {
 echo "${bold}${magenta}--------------------------"
 echo "${bold}${magenta}Execute install-ngxblocker"
 echo "${bold}${magenta}--------------------------"
-cd /usr/sbin
-sudo bash ./install-ngxblocker -s /usr/sbin/ -x
+sudo bash /usr/sbin/install-ngxblocker -s /usr/sbin/ -x
 }
 
 runsetupngxblocker1 () {
@@ -132,8 +131,7 @@ printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker"
 echo "${bold}${magenta}------------------------"
-cd /usr/sbin
-sudo bash ./setup-ngxblocker -i /usr/sbin/install-ngxblocker -x
+sudo bash /usr/sbin/setup-ngxblocker -i /usr/sbin/install-ngxblocker -x
 }
 
 runsetupngxblocker2 () {
@@ -141,8 +139,7 @@ printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker"
 echo "${bold}${magenta}------------------------"
-cd /usr/sbin
-sudo bash ./setup-ngxblocker -x
+sudo bash /usr/sbin/setup-ngxblocker -x
 }
 
 loadNginxConf () {
@@ -180,8 +177,7 @@ printf "\n"
 echo "${bold}${magenta}-------------------------"
 echo "${bold}${magenta}Execute update-ngxblocker"
 echo "${bold}${magenta}-------------------------"
-cd /usr/sbin
-sudo bash ./update-ngxblocker -n
+sudo bash /usr/sbin/update-ngxblocker -n
 }
 
 activateLatestBlacklist () {
