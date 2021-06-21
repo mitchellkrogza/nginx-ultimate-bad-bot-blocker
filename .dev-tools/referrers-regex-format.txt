@@ -4640,6 +4640,7 @@
 "~*(?:\b)pornohd1080\.online(?:\b)" 	1;
 "~*(?:\b)porno\-home365\.com(?:\b)" 	1;
 "~*(?:\b)pornohub\.me(?:\b)" 	1;
+"~*(?:\b)pornoinn\.com(?:\b)" 	1;
 "~*(?:\b)pornokajf\.com(?:\b)" 	1;
 "~*(?:\b)pornoklad\.net(?:\b)" 	1;
 "~*(?:\b)pornoklad\.ru(?:\b)" 	1;
