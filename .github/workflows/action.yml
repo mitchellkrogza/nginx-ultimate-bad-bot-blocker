@@ -44,6 +44,7 @@ jobs:
       - name: Debug
         shell: bash
         run: | 
+          sudo netstat -napt
           cat /etc/nginx/nginx.conf
           sudo systemctl status nginx.service
         if: always()
