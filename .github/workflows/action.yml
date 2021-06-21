@@ -24,10 +24,10 @@ jobs:
 
       - name: Install Nginx Stable
         run: |
-          add-apt-repository -y ppa:nginx/stable
-          apt-get update
-          apt-get install -y --assume-yes nginx-extras
-          apt-get -y install dos2unix
+          sudo add-apt-repository -y ppa:nginx/stable
+          sudo apt-get update
+          sudo apt-get install -y --assume-yes nginx-extras
+          sudo apt-get -y install dos2unix
 
 
       - name: Run build
