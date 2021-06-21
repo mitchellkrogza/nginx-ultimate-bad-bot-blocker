@@ -69,8 +69,10 @@ echo "${bold}${green}---------------"
 echo "${bold}${green}Starting Nginx"
 echo "${bold}${green}---------------"
 sudo systemctl status nginx.service
-sudo systemctl start nginx
-sudo systemctl restart nginx
+sudo nginx -t
+sudo service nginx start
+#sudo systemctl start nginx
+#sudo systemctl restart nginx
 }
 
 reloadNginX () {
