@@ -36,3 +36,4 @@ jobs:
           echo "export TERM=xterm" >> ~/.bashrc
           source ~/.bashrc
           ./dev-tools/generate-files.sh
+          ./dev-tools/install-nginx-1.sh
