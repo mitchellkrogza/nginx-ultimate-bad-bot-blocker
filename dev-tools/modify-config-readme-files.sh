@@ -62,9 +62,9 @@ defaultcolor=$(tput setaf default)
 YEAR=$(date +%Y)
 MONTH=$(date +%m)
 MY_GIT_TAG=V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
-BAD_REFERRERS=$(wc -l < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list)
-BAD_BOTS=$(wc -l < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list)
-FAKE_GOOGLE_BOTS=$(wc -l < ${TRAVIS_BUILD_DIR}/_generator_lists/fake-googlebots.list)
+BAD_REFERRERS=$(wc -l < ./_generator_lists/bad-referrers.list)
+BAD_BOTS=$(wc -l < ./_generator_lists/bad-user-agents.list)
+FAKE_GOOGLE_BOTS=$(wc -l < ./_generator_lists/fake-googlebots.list)
 _inputdbA=/tmp/lastupdated.db
 _tmpnginxA=tmpnginxA
 _startmarker="_______________"
@@ -72,9 +72,9 @@ _endmarker="____________________"
 _startmarker2="_______________________"
 _endmarker2="__________________________"
 nginxv="nginx version: nginx/1.10.x"
-nginxv1=$(cat ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv1.txt)
-nginxv2=$(cat ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv2.txt)
-nginxv3=$(cat ${TRAVIS_BUILD_DIR}/.dev-tools/nginxv3.txt)
+nginxv1=$(cat ./.dev-tools/nginxv1.txt)
+nginxv2=$(cat ./.dev-tools/nginxv2.txt)
+nginxv3=$(cat ./.dev-tools/nginxv3.txt)
 
 # ---------
 # FUNCTIONS
@@ -91,13 +91,13 @@ ed -s ${_inputdbA}<<\IN
 1,/_______________/d
 /____________________/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
+.r ./README.md
 /_______________/x
 .t.
 .,/____________________/-d
 #,p
 #,p used to print output replaced with w below to write
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
+w ./README.md
 q
 IN
 rm ${_inputdbA}
@@ -114,13 +114,13 @@ ed -s ${_inputdbA}<<\IN
 1,/_______________________/d
 /__________________________/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
+.r ./README.md
 /_______________________/x
 .t.
 .,/__________________________/-d
 #,p
 #,p used to print output replaced with w below to write
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/README.md
+w ./README.md
 q
 IN
 rm ${_inputdbA}
@@ -137,13 +137,13 @@ ed -s ${_inputdbA}<<\IN
 1,/_______________/d
 /____________________/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/AUTO-CONFIGURATION.md
+.r ./AUTO-CONFIGURATION.md
 /_______________/x
 .t.
 .,/____________________/-d
 #,p
 #,p used to print output replaced with w below to write
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/AUTO-CONFIGURATION.md
+w ./AUTO-CONFIGURATION.md
 q
 IN
 rm ${_inputdbA}
@@ -160,13 +160,13 @@ ed -s ${_inputdbA}<<\IN
 1,/_______________/d
 /____________________/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/MANUAL-CONFIGURATION.md
+.r ./MANUAL-CONFIGURATION.md
 /_______________/x
 .t.
 .,/____________________/-d
 #,p
 #,p used to print output replaced with w below to write
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/MANUAL-CONFIGURATION.md
+w ./MANUAL-CONFIGURATION.md
 q
 IN
 rm ${_inputdbA}
@@ -183,13 +183,13 @@ ed -s ${_inputdbA}<<\IN
 1,/_______________/d
 /____________________/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_google_analytics_ghost_spam/README.md
+.r ./_google_analytics_ghost_spam/README.md
 /_______________/x
 .t.
 .,/____________________/-d
 #,p
 #,p used to print output replaced with w below to write
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_google_analytics_ghost_spam/README.md
+w ./_google_analytics_ghost_spam/README.md
 q
 IN
 rm ${_inputdbA}

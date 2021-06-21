@@ -26,7 +26,7 @@ class Generator
      */
     public function domainWorker()
     {
-        $domainsFile = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_generator_lists/bad-referrers.list";
+        $domainsFile = "./_generator_lists/bad-referrers.list";
 
         $handle = fopen($domainsFile, "r");
         if (!$handle) {
@@ -69,7 +69,7 @@ class Generator
      */
     protected function writeToFile($filename, $data)
     {
-    $file = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/referrers-regex-format-whitelist-test.txt";
+    $file = "./.dev-tools/referrers-regex-format-whitelist-test.txt";
 	$handle = fopen($file, 'w') or die('Cannot open file:  '.$file);
 	fwrite($handle, $data);
     }
@@ -80,7 +80,7 @@ class Generator
      */
     public function createNginx(array $lines) 
     {
-    $file = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/referrers-regex-format-whitelist-test.txt";
+    $file = "./.dev-tools/referrers-regex-format-whitelist-test.txt";
         $data = "";
     {
         foreach ($lines as $line) {

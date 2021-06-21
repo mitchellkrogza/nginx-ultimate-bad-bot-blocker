@@ -46,26 +46,26 @@
 YEAR=$(date +"%Y")
 MONTH=$(date +"%m")
 MY_GIT_TAG=V3.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
-BAD_REFERRERS=$(wc -l < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list)
-BAD_BOTS=$(wc -l < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list)
+BAD_REFERRERS=$(wc -l < ./_generator_lists/bad-referrers.list)
+BAD_BOTS=$(wc -l < ./_generator_lists/bad-user-agents.list)
 _now="$(date)"
 
 # *************************************
 # Specify input lists for the generator
 # *************************************
 
-_input1=${TRAVIS_BUILD_DIR}/_generator_lists/good-user-agents.list
-_input2=${TRAVIS_BUILD_DIR}/_generator_lists/allowed-user-agents.list
-_input3=${TRAVIS_BUILD_DIR}/_generator_lists/limited-user-agents.list
-_input4=${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list
-_input5=${TRAVIS_BUILD_DIR}/.dev-tools/referrers-regex-format.txt
-_input6=${TRAVIS_BUILD_DIR}/_generator_lists/google-ip-ranges.list
-_input7=${TRAVIS_BUILD_DIR}/_generator_lists/bing-ip-ranges.list
-_input8=${TRAVIS_BUILD_DIR}/_generator_lists/wordpress-theme-detectors.list
-_input9=${TRAVIS_BUILD_DIR}/_generator_lists/nibbler-seo.list
-_input10=${TRAVIS_BUILD_DIR}/_generator_lists/cloudflare-ip-ranges.list
-_input11=${TRAVIS_BUILD_DIR}/_generator_lists/bad-ip-addresses.list
-_input12=${TRAVIS_BUILD_DIR}/_generator_lists/fake-googlebots.list
+_input1=./_generator_lists/good-user-agents.list
+_input2=./_generator_lists/allowed-user-agents.list
+_input3=./_generator_lists/limited-user-agents.list
+_input4=./_generator_lists/bad-user-agents.list
+_input5=./dev-tools/referrers-regex-format.txt
+_input6=./_generator_lists/google-ip-ranges.list
+_input7=./_generator_lists/bing-ip-ranges.list
+_input8=./_generator_lists/wordpress-theme-detectors.list
+_input9=./_generator_lists/nibbler-seo.list
+_input10=./_generator_lists/cloudflare-ip-ranges.list
+_input11=./_generator_lists/bad-ip-addresses.list
+_input12=./_generator_lists/fake-googlebots.list
 
 
 # *******************************************************
@@ -90,7 +90,7 @@ _inputdb12=/tmp/fake-googlebots.db
 # Declare temporary variables used during generation
 # **************************************************
 
-_nginx=${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-testing.template
+_nginx=./dev-tools/globalblacklist-testing.template
 _tmpnginxA=_tmpnginxA
 _tmpnginx1=_tmpnginx1
 _tmpnginx2=_tmpnginx2
@@ -178,13 +178,13 @@ ed -s ${_inputdb1}<<\IN
 1,/# START GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/-d
 #,p
 #,p used to print output replaced with w below to write
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb1}
@@ -204,11 +204,11 @@ ed -s ${_inputdb2}<<\IN
 1,/# START ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb2}
@@ -228,11 +228,11 @@ ed -s ${_inputdb3}<<\IN
 1,/# START LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb3}
@@ -252,11 +252,11 @@ ed -s ${_inputdb4}<<\IN
 1,/# START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb4}
@@ -277,11 +277,11 @@ ed -s ${_inputdb5}<<\IN
 1,/# START BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb5}
@@ -301,11 +301,11 @@ ed -s ${_inputdb6}<<\IN
 1,/# START GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb6}
@@ -325,11 +325,11 @@ ed -s ${_inputdb7}<<\IN
 1,/# START BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb7}
@@ -349,11 +349,11 @@ ed -s ${_inputdb8}<<\IN
 1,/# START WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb8}
@@ -373,11 +373,11 @@ ed -s ${_inputdb9}<<\IN
 1,/# START NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb9}
@@ -397,11 +397,11 @@ ed -s ${_inputdb10}<<\IN
 1,/# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb10}
@@ -421,11 +421,11 @@ ed -s ${_inputdb11}<<\IN
 1,/# START KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb11}
@@ -445,11 +445,11 @@ ed -s ${_inputdb12}<<\IN
 1,/# START FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /# START FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdb12}
@@ -464,13 +464,13 @@ ed -s ${_inputdbA}<<\IN
 1,/### VERSION INFORMATION #/d
 /### VERSION INFORMATION ##/,$d
 ,d
-.r /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist-testing.template
 /### VERSION INFORMATION #/x
 .t.
 .,/### VERSION INFORMATION ##/-d
 #,p
 #,p used to print output replaced with w below to write
-w /home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/.dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist-testing.template
 q
 IN
 rm ${_inputdbA}
@@ -479,7 +479,7 @@ rm ${_inputdbA}
 # Generate Additional Files and Copy Them to Folders
 # **************************************************
 
-sudo cp ${_nginx} ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version.conf
+sudo cp ${_nginx} ./conf.d/globalblacklist-testing-version.conf
 
 # **********************
 # Exit With Error Number

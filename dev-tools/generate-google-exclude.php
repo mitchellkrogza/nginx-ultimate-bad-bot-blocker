@@ -25,7 +25,7 @@ class Generator
      */
     public function domainWorker()
     {
-        $domainsFile = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_generator_lists/bad-referrers.list";
+        $domainsFile = "./_generator_lists/bad-referrers.list";
         $handle = fopen($domainsFile, "r");
         if (!$handle) {
             throw new \RuntimeException('Error opening file ' . $domainsFile);
@@ -61,7 +61,7 @@ class Generator
      */
     protected function writeToFile($filename, $data)
     {
-    $file = "/home/travis/build/mitchellkrogza/nginx-ultimate-bad-bot-blocker/_google_analytics_ghost_spam/$filename";
+    $file = "./_google_analytics_ghost_spam/$filename";
 	$handle = fopen($file, 'w') or die('Cannot open file:  '.$file);
 	fwrite($handle, $data);
     }

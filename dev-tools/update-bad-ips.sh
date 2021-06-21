@@ -46,8 +46,8 @@ defaultcolor=$(tput setaf default)
 # Variables
 # ---------
 
-outputfile=${TRAVIS_BUILD_DIR}/_generator_lists/bad-ip-addresses.list
-tmp=${TRAVIS_BUILD_DIR}/_generator_lists/tmp.list
+outputfile="./_generator_lists/bad-ip-addresses.list"
+tmp="./_generator_lists/tmp.list"
 
 # ---------
 # FUNCTIONS

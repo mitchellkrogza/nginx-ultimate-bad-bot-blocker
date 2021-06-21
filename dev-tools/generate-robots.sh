@@ -61,10 +61,10 @@ defaultcolor=$(tput setaf default)
 # File Variables
 # --------------
 
-_input1=${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list
-_tmprobots=/tmp/robots.txt
-_inputtmp=${TRAVIS_BUILD_DIR}/.dev-tools/_robots_input/robots.tmp
-_output=${TRAVIS_BUILD_DIR}/.dev-tools/_robots_input/robots-input.txt
+_input1=./_generator_lists/bad-user-agents.list
+_tmprobots=./tmp/robots.txt
+_inputtmp=./dev-tools/_robots_input/robots.tmp
+_output=./dev-tools/_robots_input/robots-input.txt
 
 # ---------
 # Variables
@@ -73,8 +73,8 @@ _output=${TRAVIS_BUILD_DIR}/.dev-tools/_robots_input/robots-input.txt
 YEAR=$(date +"%Y")
 MONTH=$(date +"%m")
 MY_GIT_TAG=V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
-BAD_REFERRERS=$(wc -l < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list)
-BAD_BOTS=$(wc -l < ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list)
+BAD_REFERRERS=$(wc -l < ./_generator_lists/bad-referrers.list)
+BAD_BOTS=$(wc -l < ./_generator_lists/bad-user-agents.list)
 _now="$(date)"
 _startmarker="### Version Information #"
 _endmarker="### Version Information ##"
@@ -94,7 +94,7 @@ do
 printf 'User-agent: %s\n%s\n' "${LINE}" "Disallow:/" >> "${_tmprobots}"
 done < ${_output}
 printf '\n' >> ${_tmprobots}
-sudo cp ${_tmprobots} ${TRAVIS_BUILD_DIR}/robots.txt/robots.txt
+sudo cp ${_tmprobots} ./robots.txt/robots.txt
 echo "${bold}${green}-------------------------------"
 echo "${bold}${green}robots.txt Generation Completed"
 echo "${bold}${green}-------------------------------"

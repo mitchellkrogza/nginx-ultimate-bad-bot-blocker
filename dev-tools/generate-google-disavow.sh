@@ -59,17 +59,17 @@ defaultcolor=$(tput setaf default)
 # Variables
 # ---------
 
-_input1=${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list
+_input1=./_generator_lists/bad-referrers.list
 
 # ---------
 # FUNCTIONS
 # ---------
 
 createDisavow () {
-sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/_google_webmaster_disavow_links/google-disavow.txt
+sudo truncate -s 0 ./_google_webmaster_disavow_links/google-disavow.txt
 while IFS= read -r LINE
 do
-printf '%s%s\n' "domain:" "${LINE}" >> ${TRAVIS_BUILD_DIR}/_google_webmaster_disavow_links/google-disavow.txt
+printf '%s%s\n' "domain:" "${LINE}" >> ./_google_webmaster_disavow_links/google-disavow.txt
 done < ${_input1}
 echo "${bold}${green}-----------------------"
 echo "${bold}${green}Creating Google Disavow"

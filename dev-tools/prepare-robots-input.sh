@@ -59,8 +59,8 @@ defaultcolor=$(tput setaf default)
 # Specify Input and Output Files
 # ------------------------------
 
-_input=${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list
-_output=${TRAVIS_BUILD_DIR}/.dev-tools/_robots_input/robots-input.txt
+_input=./_generator_lists/bad-user-agents.list
+_output=./.dev-tools/_robots_input/robots-input.txt
 
 # ---------
 # FUNCTIONS
