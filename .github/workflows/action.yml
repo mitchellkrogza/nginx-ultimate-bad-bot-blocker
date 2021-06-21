@@ -18,8 +18,10 @@ jobs:
   build:
     if: "!contains(github.event.head_commit.message, 'skip ci')"
     runs-on: ubuntu-latest
+    env:
+      TERM: xterm-256color
 
-    steps:
+      steps:
       - uses: actions/checkout@v2
 
       - name: Install Nginx Stable
