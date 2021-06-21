@@ -41,10 +41,13 @@
 # SOFTWARE.
 # ------------------------------------------------------------------------------
 
+set -e
+set -o pipefail
+TERM=xterm
+
 # ------------------------
 # Set Terminal Font Colors
 # ------------------------
-
 bold=$(tput bold)
 red=$(tput setaf 1)
 green=$(tput setaf 2)
