@@ -42,7 +42,9 @@ jobs:
 
       - name: Debug
         shell: bash
-        run: sudo systemctl status nginx.service
+        run: | 
+          sudo systemctl status nginx.service
+          cat /etc/nginx/nginx.conf
         if: always()
 
           
