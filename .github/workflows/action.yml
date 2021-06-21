@@ -34,4 +34,5 @@ jobs:
         shell: bash
         run: |
           echo "export TERM=xterm" >> ~/.bashrc
+          source ~/.bashrc
           ./dev-tools/generate-files.sh
