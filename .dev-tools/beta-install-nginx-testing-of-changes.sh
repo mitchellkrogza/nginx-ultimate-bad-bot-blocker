@@ -114,7 +114,8 @@ echo "${bold}${yellow}---------------------------------------------------"
 echo "${bold}${yellow}Copy Test Unit of globalblacklist.conf file to test"
 echo "${bold}${yellow}---------------------------------------------------"
 printf "\n"
-sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version.conf /etc/nginx/conf.d/globalblacklist.conf
+#sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version.conf /etc/nginx/conf.d/globalblacklist.conf
+sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version-oldregexboundaries.conf /etc/nginx/conf.d/globalblacklist.conf
 }
 
 # -------------
