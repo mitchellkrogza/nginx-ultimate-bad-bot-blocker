@@ -1,0 +1,21 @@
+server {
+	listen *:9000;
+
+	root /var/www/html;
+	server_name localhost;
+	charset UTF-8;
+ 	
+
+    ##
+    # Nginx Bad Bot Blocker Includes
+    # REPO: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
+    ##
+	include /etc/nginx/bots.d/ddos.conf; 
+ 	include /etc/nginx/bots.d/blockbots.conf;
+ 
+	index index.html;
+
+    location / {
+      root /var/www/html/;
+        }
+}

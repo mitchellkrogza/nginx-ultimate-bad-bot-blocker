@@ -1,0 +1,71 @@
+map $http_user_agent $bad_bot {
+	default		0;
+	include /etc/nginx/bots.d/blacklist-user-agents.conf;
+# START BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+# END BAD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+
+# START GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+# END GOOD BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+
+# START ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+# END ALLOWED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+
+# START LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+# END LIMITED BOTS ### DO NOT EDIT THIS LINE AT ALL ###
+}	
+	
+
+map $http_referer $bad_words {
+    default 0;
+  	include /etc/nginx/bots.d/whitelist-domains.conf;
+	include /etc/nginx/bots.d/bad-referrer-words.conf;
+}
+
+map $http_referer $bad_referer {
+	hostnames;
+	default 0;
+  	include /etc/nginx/bots.d/whitelist-domains.conf;
+  	include /etc/nginx/bots.d/custom-bad-referrers.conf;
+# START BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###
+# END BAD REFERRERS ### DO NOT EDIT THIS LINE AT ALL ###
+}
+
+
+geo $validate_client {
+	default		0;
+	include /etc/nginx/bots.d/whitelist-ips.conf;
+# START GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
+# END GOOGLE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
+
+# START BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
+# END BING IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
+
+# START CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
+# END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
+  
+# START WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###
+# END WP THEME DETECTORS ### DO NOT EDIT THIS LINE AT ALL ###
+
+# START NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###
+# END NIBBLER ### DO NOT EDIT THIS LINE AT ALL ###
+
+	include /etc/nginx/bots.d/blacklist-ips.conf;
+
+# START KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###
+# END KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###
+}
+
+geo $ratelimited {
+	default 1;
+	include /etc/nginx/bots.d/whitelist-ips.conf;
+}
+
+	map $bad_bot $bot_iplimit {
+	0    "";
+	1    "";
+	2    $binary_remote_addr;
+	}
+
+	limit_conn_zone $bot_iplimit zone=bot2_connlimit:16m;
+	limit_req_zone  $bot_iplimit zone=bot2_reqlimitip:16m  rate=2r/s;
+
