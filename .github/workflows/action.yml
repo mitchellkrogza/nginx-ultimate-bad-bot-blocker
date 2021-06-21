@@ -33,4 +33,3 @@ jobs:
       - name: Run build
         shell: bash
         echo "Done"
-        #run: ./scripts/travis-commit.sh
