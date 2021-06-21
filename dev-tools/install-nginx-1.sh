@@ -63,6 +63,12 @@ defaultcolor=$(tput setaf default)
 # FUNCTIONS
 # ---------
 
+# Debug Folder Locations
+ls -la /
+ls -la /etc
+ls -la ./etc
+
+
 reloadNginX () {
 printf "\n"
 echo "${bold}${green}---------------"
