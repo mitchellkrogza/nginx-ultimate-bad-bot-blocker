@@ -33,4 +33,4 @@ jobs:
       - name: Run build
         shell: bash
         run: echo "Done"
-        run: ./.dev-tools/generate-files.sh
+        ./.dev-tools/generate-files.sh
