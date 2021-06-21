@@ -28,8 +28,6 @@ install:
   - sudo apt-get -y install dos2unix
 
 script:
-  # GENERATE BLOCKER FILES
-  - bash .dev-tools/generate-files.sh
   # THE NEWLY GENERATED BLOCKER FILES
   - bash .dev-tools/install-nginx-1.sh
   - bash .dev-tools/test-blocker-false-positives.sh
@@ -58,8 +56,6 @@ script:
   # TEST NGINX MAINLINE
   - bash .dev-tools/install-nginx-mainline-ppa.sh
   - bash .dev-tools/test-nginx-mainline-ppa.sh
-  - bash .dev-tools/install-nginx-mainline-nginx.sh
-  - bash .dev-tools/test-nginx-mainline-nginx.sh
   # IF ALL TESTS PASSED - COMMIT AND DEPLOY BUILD
   - bash .dev-tools/modify-files-and-commit.sh
 
