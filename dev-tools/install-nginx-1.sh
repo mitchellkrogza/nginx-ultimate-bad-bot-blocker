@@ -105,9 +105,9 @@ sudo cp ./dev-tools/index.html /var/www/html/index.html
 }
 
 makeScriptsExecutable () {
-sudo chmod +x ./usr/sbin/install-ngxblocker
-sudo chmod +x ./usr/sbin/setup-ngxblocker
-sudo chmod +x ./usr/sbin/update-ngxblocker
+sudo chmod +x /usr/sbin/install-ngxblocker
+sudo chmod +x /usr/sbin/setup-ngxblocker
+sudo chmod +x /usr/sbin/update-ngxblocker
 }
 
 getinstallngxblocker () {
@@ -115,8 +115,8 @@ printf "\n"
 echo "${bold}${magenta}--------------------------------------"
 echo "${bold}${magenta}Fetch install-ngxblocker from the repo"
 echo "${bold}${magenta}--------------------------------------"
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O ./usr/sbin/install-ngxblocker
-sudo chmod +x ./usr/sbin/install-ngxblocker
+sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
+sudo chmod +x /usr/sbin/install-ngxblocker
 }
 
 runinstallngxblocker () {
@@ -124,7 +124,7 @@ echo "${bold}${magenta}--------------------------"
 echo "${bold}${magenta}Execute install-ngxblocker"
 echo "${bold}${magenta}--------------------------"
 cd /usr/sbin
-sudo bash ./install-ngxblocker -s ./usr/sbin/ -x
+sudo bash ./install-ngxblocker -s /usr/sbin/ -x
 }
 
 runsetupngxblocker1 () {
@@ -133,7 +133,7 @@ echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker"
 echo "${bold}${magenta}------------------------"
 cd /usr/sbin
-sudo bash ./setup-ngxblocker -i ./usr/sbin/install-ngxblocker -x
+sudo bash ./setup-ngxblocker -i /usr/sbin/install-ngxblocker -x
 }
 
 runsetupngxblocker2 () {
