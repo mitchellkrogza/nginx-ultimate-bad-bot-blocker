@@ -68,9 +68,8 @@ printf "\n"
 echo "${bold}${green}---------------"
 echo "${bold}${green}Starting Nginx"
 echo "${bold}${green}---------------"
-sudo systemctl enable nginx
-sudo systemctl start nginx
 sudo systemctl status nginx.service
+sudo systemctl restart nginx
 }
 
 reloadNginX () {
@@ -239,7 +238,7 @@ runsetupngxblocker1
 loadNginxConf
 forceUpdateTest1
 runupdatengxblocker
-startNginX
+#startNginX
 reloadNginX
 waitforReload
 forceUpdateTest2
