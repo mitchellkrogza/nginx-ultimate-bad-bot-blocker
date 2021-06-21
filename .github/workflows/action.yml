@@ -18,8 +18,6 @@ jobs:
   build:
     if: "!contains(github.event.head_commit.message, 'skip ci')"
     runs-on: ubuntu-latest
-    env:
-      TERM: xterm-256color
 
       steps:
       - uses: actions/checkout@v2
@@ -35,4 +33,5 @@ jobs:
       - name: Run build
         shell: bash
         run: |
+          echo "export TERM=xterm" >> ~/.bashrc
           ./dev-tools/generate-files.sh
