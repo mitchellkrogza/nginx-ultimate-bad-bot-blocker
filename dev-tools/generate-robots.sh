@@ -43,6 +43,9 @@
 # SOFTWARE.
 # ------------------------------------------------------------------------------
 
+set -e
+set -o pipefail
+
 # ------------------------
 # Set Terminal Font Colors
 # ------------------------
@@ -65,6 +68,9 @@ _input1=./_generator_lists/bad-user-agents.list
 _tmprobots=./tmp/robots.txt
 _inputtmp=./dev-tools/_robots_input/robots.tmp
 _output=./dev-tools/_robots_input/robots-input.txt
+
+sudo mkdir ./tmp
+sudo touch ./tmp/robots.txt
 
 # ---------
 # Variables
@@ -110,6 +116,8 @@ generateRobotsFile
 # ----------------------
 # Exit With Error Number
 # ----------------------
+
+sudo rm -rf ./tmp
 
 exit ${?}
 
