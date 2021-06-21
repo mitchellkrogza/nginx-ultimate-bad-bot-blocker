@@ -70,6 +70,7 @@ echo "${bold}${green}Starting Nginx"
 echo "${bold}${green}---------------"
 sudo systemctl enable nginx
 sudo systemctl start nginx
+sudo systemctl status nginx.service
 }
 
 reloadNginX () {
