@@ -28,6 +28,8 @@ install:
   - sudo apt-get -y install dos2unix
 
 script:
+  # GENERATE BLOCKER FILES
+  - bash .dev-tools/generate-files.sh
   # THE NEWLY GENERATED BLOCKER FILES
   - bash .dev-tools/install-nginx-1.sh
   - bash .dev-tools/test-blocker-false-positives.sh
