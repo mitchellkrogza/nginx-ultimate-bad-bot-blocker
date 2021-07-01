@@ -451,6 +451,7 @@ domain:anmysite.com
 domain:anniemation.com
 domain:anonymizeme.pro
 domain:anonymous-redirect.com
+domain:anonymousfox.co
 domain:anti-virus-removal.info
 domain:anticrawler.org
 domain:antons-transporte.de

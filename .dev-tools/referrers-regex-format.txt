@@ -449,6 +449,7 @@
 "~*(?:\b)anmysite\.com(?:\b)" 	1;
 "~*(?:\b)anniemation\.com(?:\b)" 	1;
 "~*(?:\b)anonymizeme\.pro(?:\b)" 	1;
+"~*(?:\b)anonymousfox\.co(?:\b)" 	1;
 "~*(?:\b)anonymous\-redirect\.com(?:\b)" 	1;
 "~*(?:\b)anticrawler\.org(?:\b)" 	1;
 "~*(?:\b)anti\-virus\-removal\.info(?:\b)" 	1;

@@ -451,6 +451,7 @@
 "~*(?:\b)anniemation\.com(?:\b)" 	0;
 "~*(?:\b)anonymizeme\.pro(?:\b)" 	0;
 "~*(?:\b)anonymous\-redirect\.com(?:\b)" 	0;
+"~*(?:\b)anonymousfox\.co(?:\b)" 	0;
 "~*(?:\b)anti\-virus\-removal\.info(?:\b)" 	0;
 "~*(?:\b)anticrawler\.org(?:\b)" 	0;
 "~*(?:\b)antons\-transporte\.de(?:\b)" 	0;
