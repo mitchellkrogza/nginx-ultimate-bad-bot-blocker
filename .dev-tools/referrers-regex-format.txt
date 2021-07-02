@@ -4591,6 +4591,7 @@
 "~*(?:\b)pokemon\-go\-play\.online(?:\b)" 	1;
 "~*(?:\b)pokerniydom\.ru(?:\b)" 	1;
 "~*(?:\b)polcin\.de(?:\b)" 	1;
+"~*(?:\b)poligon\.com(?:\b)" 	1;
 "~*(?:\b)polimga\.pw(?:\b)" 	1;
 "~*(?:\b)polska\-poezja\.com(?:\b)" 	1;
 "~*(?:\b)polybuild\.ru(?:\b)" 	1;

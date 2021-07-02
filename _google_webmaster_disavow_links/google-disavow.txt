@@ -4591,6 +4591,7 @@ domain:pokemon-go-play.online
 domain:pokemongooo.ml
 domain:pokerniydom.ru
 domain:polcin.de
+domain:poligon.com
 domain:polimga.pw
 domain:polska-poezja.com
 domain:polybuild.ru
