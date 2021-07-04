@@ -105,8 +105,8 @@ printf "\n"
 echo "${bold}${yellow}-------------------------------------------"
 echo "${bold}${yellow}Delete any default files installed by Nginx"
 echo "${bold}${yellow}-------------------------------------------"
-#sudo rm /etc/nginx/sites-available/*
-sudo mv /etc/nginx/sites-available/default /etc/nginx/sites-available/default.vhost
+sudo rm /etc/nginx/sites-available/*
+#sudo mv /etc/nginx/sites-available/default /etc/nginx/sites-available/default.vhost
 sudo rm /etc/nginx/sites-enabled/*
 sudo rm /var/www/html/*
 ls -la /etc/nginx/sites-available/
@@ -117,8 +117,8 @@ echo "${bold}${yellow}---------------------"
 echo "${bold}${yellow}Setup Vhost for Nginx"
 echo "${bold}${yellow}---------------------"
 #sudo rm /etc/nginx/sites-available/default
-#sudo cp ./dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
-sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/default
+sudo cp ./dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
+sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/default.vhost
 sudo cp ./dev-tools/index.html /var/www/html/index.html
 ls -la /etc/nginx/sites-available/
 ls -la /etc/nginx/sites-enabled/
