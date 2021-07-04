@@ -242,7 +242,7 @@ runsetupngxblocker1
 loadNginxConf
 forceUpdateTest1
 runupdatengxblocker
-#startNginX
+startNginX
 reloadNginX
 waitforReload
 forceUpdateTest2
