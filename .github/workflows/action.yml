@@ -14,12 +14,12 @@ on:
     branches:
       - master
 
-services:
-  nginx:
-    image: nginx
+#services:
+#  nginx:
+#    image: nginx
     # Map port 8080 on the Docker host to port 80 on the nginx container
-    ports:
-      - 8080:80
+#    ports:
+#      - 8080:80
       
 jobs:
   build:
@@ -47,7 +47,7 @@ jobs:
           echo "export TERM=xterm" >> ~/.bashrc
           source ~/.bashrc
           ./dev-tools/generate-files.sh
-          #./dev-tools/install-nginx-1.sh
+          ./dev-tools/install-nginx-1.sh
 
       - name: Debug
         shell: bash

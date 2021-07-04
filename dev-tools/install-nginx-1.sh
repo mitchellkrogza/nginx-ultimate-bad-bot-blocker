@@ -69,6 +69,7 @@ echo "${bold}${green}---------------"
 echo "${bold}${green}Starting Nginx"
 echo "${bold}${green}---------------"
 sudo systemctl status nginx.service
+sudo systemctl enable nginx.service
 sudo nginx -t
 sudo service nginx start
 #sudo systemctl start nginx
@@ -241,7 +242,7 @@ runsetupngxblocker1
 loadNginxConf
 forceUpdateTest1
 runupdatengxblocker
-#startNginX
+startNginX
 reloadNginX
 waitforReload
 forceUpdateTest2
