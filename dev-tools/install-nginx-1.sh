@@ -105,7 +105,8 @@ printf "\n"
 echo "${bold}${yellow}-------------------------------------------"
 echo "${bold}${yellow}Delete any default files installed by Nginx"
 echo "${bold}${yellow}-------------------------------------------"
-sudo rm /etc/nginx/sites-available/*
+#sudo rm /etc/nginx/sites-available/*
+sudo mv /etc/nginx/sites-available/default /etc/nginx/sites-available/default.vhost
 sudo rm /etc/nginx/sites-enabled/*
 sudo rm /var/www/html/*
 printf "\n"
@@ -113,8 +114,8 @@ echo "${bold}${yellow}---------------------"
 echo "${bold}${yellow}Setup Vhost for Nginx"
 echo "${bold}${yellow}---------------------"
 #sudo rm /etc/nginx/sites-available/default
-sudo cp ./dev-tools/default.vhost /etc/nginx/sites-available/default
-sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+#sudo cp ./dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
+sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/default
 sudo cp ./dev-tools/index.html /var/www/html/index.html
 }
 
@@ -145,7 +146,7 @@ printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker"
 echo "${bold}${magenta}------------------------"
-sudo bash /usr/sbin/setup-ngxblocker -i /usr/sbin/install-ngxblocker -x -e ""
+sudo bash /usr/sbin/setup-ngxblocker -i /usr/sbin/install-ngxblocker -x
 }
 
 runsetupngxblocker2 () {
@@ -153,7 +154,7 @@ printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker"
 echo "${bold}${magenta}------------------------"
-sudo bash /usr/sbin/setup-ngxblocker -x -e ""
+sudo bash /usr/sbin/setup-ngxblocker -x
 }
 
 loadNginxConf () {
