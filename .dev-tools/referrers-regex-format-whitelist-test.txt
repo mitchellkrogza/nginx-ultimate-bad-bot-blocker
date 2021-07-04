@@ -6767,6 +6767,7 @@
 "~*(?:\b)xlovecam\.com(?:\b)" 	0;
 "~*(?:\b)xmladserver\.com(?:\b)" 	0;
 "~*(?:\b)xmlinde\.com(?:\b)" 	0;
+"~*(?:\b)xmnb\.net(?:\b)" 	0;
 "~*(?:\b)xmronta\.com(?:\b)" 	0;
 "~*(?:\b)xn\-\-\-\-\-\-7cdbapdecfd4ak1bn0amjffj7afu3y\.xn\-\-p1ai(?:\b)" 	0;
 "~*(?:\b)xn\-\-\-\-\-6kcaabbafhu7cskl7akvongwpo7hvjj\.xn\-\-p1ai(?:\b)" 	0;

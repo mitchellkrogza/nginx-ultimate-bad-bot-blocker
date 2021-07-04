@@ -6762,6 +6762,7 @@
 "~*(?:\b)x\-mix\.info(?:\b)" 	1;
 "~*(?:\b)xmladserver\.com(?:\b)" 	1;
 "~*(?:\b)xmlinde\.com(?:\b)" 	1;
+"~*(?:\b)xmnb\.net(?:\b)" 	1;
 "~*(?:\b)xmronta\.com(?:\b)" 	1;
 "~*(?:\b)x\-musics\.com(?:\b)" 	1;
 "~*(?:\b)xn\-\-1\-8sbcpb0bdm8k6a\.xn\-\-p1ai(?:\b)" 	1;

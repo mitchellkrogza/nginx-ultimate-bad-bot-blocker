@@ -6767,6 +6767,7 @@ domain:xlolitka.com
 domain:xlovecam.com
 domain:xmladserver.com
 domain:xmlinde.com
+domain:xmnb.net
 domain:xmronta.com
 domain:xn------7cdbapdecfd4ak1bn0amjffj7afu3y.xn--p1ai
 domain:xn-----6kcaabbafhu7cskl7akvongwpo7hvjj.xn--p1ai
