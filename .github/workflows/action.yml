@@ -53,6 +53,7 @@ jobs:
       - name: Debug
         shell: bash
         run: | 
+          sudo cat /etc/nginx/sites-available/default.vhost
           sudo nginx -t
           sudo netstat -napt
           cat /etc/nginx/nginx.conf
