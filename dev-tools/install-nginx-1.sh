@@ -241,7 +241,7 @@ echo "${bold}${green}------------------"
 
 backupNginxConf
 copyNginxConf
-#prepareVhost
+prepareVhost
 getinstallngxblocker
 runinstallngxblocker
 makeScriptsExecutable
