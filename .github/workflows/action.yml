@@ -45,7 +45,7 @@ jobs:
           sudo nginx -t
           sudo systemctl reload nginx
           ./dev-tools/generate-files.sh
-          #./dev-tools/install-nginx-1.sh
+          ./dev-tools/install-nginx-1.sh
           ls -la /etc/nginx/sites-available
           ls -la /etc/nginx/sites-enabled
           cat /etc/nginx/sites-available/default
