@@ -125,6 +125,9 @@ ls -la /etc/nginx/sites-enabled/
 }
 
 makeScriptsExecutable () {
+echo "${bold}${yellow}-----------------------"
+echo "${bold}${yellow}Make Scripts Executable"
+echo "${bold}${yellow}-----------------------"
 sudo chmod +x /usr/sbin/install-ngxblocker
 sudo chmod +x /usr/sbin/setup-ngxblocker
 sudo chmod +x /usr/sbin/update-ngxblocker
