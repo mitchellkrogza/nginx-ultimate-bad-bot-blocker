@@ -30,14 +30,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install Nginx Stable
+      - name: Install Software
         run: |
-          cat /etc/nginx/sites-available/default
-          #sudo apt remove nginx
-          #sudo apt purge nginx
-          #sudo add-apt-repository -y ppa:nginx/stable
-          #sudo apt update
-          #sudo apt install -y --assume-yes nginx-extras
           sudo apt -y install dos2unix
 
 
@@ -46,8 +40,12 @@ jobs:
         run: |
           echo "export TERM=xterm" >> ~/.bashrc
           source ~/.bashrc
+          sudo systemctl enable nginx
+          sudo systemctl start nginx
+          sudo nginx -t
+          sudo systemctl reload nginx
           ./dev-tools/generate-files.sh
-          #./dev-tools/install-nginx-1.sh
+          ./dev-tools/install-nginx-1.sh
 
       - name: Debug
         shell: bash
@@ -55,13 +53,9 @@ jobs:
           sudo netstat -napt
           cat /etc/nginx/nginx.conf
           sudo systemctl list-units --type=service --all
-          sudo systemctl enable nginx
-          sudo systemctl list-units --type=service --all
-          sudo systemctl start nginx
-          sudo systemctl list-units --type=service --all
-          sudo nginx -t
-          sudo systemctl reload nginx
-          sudo systemctl list-units --type=service --all
+          #sudo systemctl list-units --type=service --all
+          #sudo systemctl list-units --type=service --all
+          #sudo systemctl list-units --type=service --all
           #sudo systemctl status nginx.service
           #sudo systemctl status nginx
         if: always()
