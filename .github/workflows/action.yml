@@ -54,7 +54,7 @@ jobs:
         run: | 
           sudo netstat -napt
           cat /etc/nginx/nginx.conf
-          sudo systemctl list-units --type=service
+          sudo systemctl list-units --type=service --all
           sudo systemctl status nginx.service
         if: always()
 
