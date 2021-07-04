@@ -48,6 +48,7 @@ jobs:
           #./dev-tools/install-nginx-1.sh
           ls -la /etc/nginx/sites-available
           ls -la /etc/nginx/sites-enabled
+          cat /etc/nginx/sites-available/default
 
       - name: Debug
         shell: bash
