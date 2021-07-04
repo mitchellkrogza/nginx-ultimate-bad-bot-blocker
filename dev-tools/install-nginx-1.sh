@@ -112,7 +112,7 @@ printf "\n"
 echo "${bold}${yellow}---------------------"
 echo "${bold}${yellow}Setup Vhost for Nginx"
 echo "${bold}${yellow}---------------------"
-sudo rm /etc/nginx/sites-available/default
+#sudo rm /etc/nginx/sites-available/default
 sudo cp ./dev-tools/default.vhost /etc/nginx/sites-available/default
 sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo cp ./dev-tools/index.html /var/www/html/index.html
