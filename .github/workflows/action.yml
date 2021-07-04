@@ -1,0 +1,59 @@
+# Build Script for Nginx Ultimate Bad Bot Blocker using GHA
+
+name: CI
+
+defaults:
+  run:
+    shell: bash
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+services:
+  nginx:
+    image: nginx
+    # Map port 8080 on the Docker host to port 80 on the nginx container
+    ports:
+      - 8080:80
+      
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Nginx Stable
+        run: |
+          cat /etc/nginx/sites-available/default
+          sudo apt remove nginx
+          sudo apt purge nginx
+          sudo add-apt-repository -y ppa:nginx/stable
+          sudo apt update
+          sudo apt install -y --assume-yes nginx-extras
+          sudo apt -y install dos2unix
+
+
+      - name: Run build
+        shell: bash
+        run: |
+          echo "export TERM=xterm" >> ~/.bashrc
+          source ~/.bashrc
+          ./dev-tools/generate-files.sh
+          ./dev-tools/install-nginx-1.sh
+
+      - name: Debug
+        shell: bash
+        run: | 
+          sudo netstat -napt
+          cat /etc/nginx/nginx.conf
+          sudo systemctl status nginx.service
+        if: always()
+
+          
