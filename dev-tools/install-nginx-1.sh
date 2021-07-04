@@ -145,7 +145,7 @@ printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker"
 echo "${bold}${magenta}------------------------"
-sudo bash /usr/sbin/setup-ngxblocker -i /usr/sbin/install-ngxblocker -x -e none
+sudo bash /usr/sbin/setup-ngxblocker -i /usr/sbin/install-ngxblocker -x -e ""
 }
 
 runsetupngxblocker2 () {
@@ -153,7 +153,7 @@ printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker"
 echo "${bold}${magenta}------------------------"
-sudo bash /usr/sbin/setup-ngxblocker -x -e none
+sudo bash /usr/sbin/setup-ngxblocker -x -e ""
 }
 
 loadNginxConf () {
