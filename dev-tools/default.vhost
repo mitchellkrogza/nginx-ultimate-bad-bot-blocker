@@ -1,5 +1,5 @@
 server {
-	listen 80:8085;
+	listen 80;
 
 	root /var/www/html;
 	server_name localhost;
