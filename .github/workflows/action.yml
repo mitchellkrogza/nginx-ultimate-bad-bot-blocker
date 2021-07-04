@@ -58,6 +58,7 @@ jobs:
           sudo systemctl enable nginx
           sudo systemctl list-units --type=service --all
           sudo systemctl start nginx
+          sudo systemctl list-units --type=service --all
           #sudo systemctl status nginx.service
           #sudo systemctl status nginx
         if: always()
