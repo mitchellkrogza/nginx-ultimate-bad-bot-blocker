@@ -235,12 +235,12 @@ echo "${bold}${green}------------------"
 
 backupNginxConf
 copyNginxConf
-prepareVhost
+#prepareVhost
 getinstallngxblocker
 runinstallngxblocker
 makeScriptsExecutable
 runsetupngxblocker1
-loadNginxConf
+#loadNginxConf
 forceUpdateTest1
 runupdatengxblocker
 #startNginX
