@@ -53,6 +53,7 @@ jobs:
       - name: Debug
         shell: bash
         run: | 
+          sudo nginx -t
           sudo netstat -napt
           cat /etc/nginx/nginx.conf
           sudo systemctl list-units --type=service --all
