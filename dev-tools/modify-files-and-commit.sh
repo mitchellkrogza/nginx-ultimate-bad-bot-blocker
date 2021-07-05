@@ -92,7 +92,7 @@ commitBuildChanges () {
           git config --global user.name "mitchellkrogza"
           git config --global user.email "mitchellkrog@gmail.com"
           git add -A
-          git commit -m "${latestbuild}"
+          git commit -m "${latestbuild} [ci skip]"
           git push
 }
 
@@ -116,8 +116,8 @@ printf "\n\n"
 # -------------
 
 releaseNewVersion
-#commitBuildChanges
-#deployPackage
+commitBuildChanges
+deployPackage
 
 
 # ----------------------
