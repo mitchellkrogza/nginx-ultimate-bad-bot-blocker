@@ -1,9 +1,11 @@
 name: Releases
 
-on: 
+on:
   push:
+    branches:
+      - "!*"
     tags:
-    - '*'
+      - "V*"
 
 jobs:
 
