@@ -54,8 +54,6 @@ jobs:
       - name: Test Blocker - Stage 1
         shell: bash
         run: |
-          echo "export TERM=xterm" >> ~/.bashrc
-          source ~/.bashrc
           ./dev-tools/test-blocker-false-positives.sh
           ./dev-tools/test-blocker-quick.sh
           ./dev-tools/test-blocker-badwords.sh
@@ -72,11 +70,7 @@ jobs:
           sudo netstat -napt
           cat /etc/nginx/nginx.conf
           sudo systemctl list-units --type=service --all
-          #sudo systemctl list-units --type=service --all
-          #sudo systemctl list-units --type=service --all
-          #sudo systemctl list-units --type=service --all
-          #sudo systemctl status nginx.service
-          #sudo systemctl status nginx
+          curl -A "Titan" http://localhost:80 2>&1
         if: always()
 
           
