@@ -66,7 +66,7 @@ jobs:
         shell: bash
         run: | 
           sudo cat /etc/nginx/bots.d/blacklist-ips.conf
-          ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'
+          #ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'
           ip -o route get to 8.8.8.8 | sed -n 's/.*src \([0-9.]\+\).*/\1/p'
           sudo cat /etc/nginx/sites-available/default.vhost
           sudo nginx -t
