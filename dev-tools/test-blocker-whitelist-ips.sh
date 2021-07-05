@@ -79,7 +79,7 @@ sleep 10s
 }
 
 run_curltest1 () {
-if curl http://localhost:80 2>&1 | grep -i '(52)'; then
+if curl http://${thisip}:80 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${bold}${red}blacklist own ip is WORKING"
 else
    echo "${bold}${red}FAILED - blacklist own ip is NOT working"
@@ -88,11 +88,11 @@ fi
 }
 
 run_curltest2 () {
-if curl http://localhost:80 2>&1 | grep -i 'Welcome'; then
+if curl http://${thisip}:80 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - whitelist own ip is WORKING"
 else
    echo "${bold}${red}FAILED - whitelist own ip is NOT working"
-   curl http://localhost:80
+   curl http://${thisip}:80
    exit 1
 fi
 }
