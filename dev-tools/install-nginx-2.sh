@@ -201,10 +201,10 @@ echo "${bold}${green}-------------------------------------------------------"
 echo "${bold}${green}Backup all conf files and folders used during this test"
 echo "${bold}${green}-------------------------------------------------------"
 printf "\n"
-sudo cp ./usr/local/nginx/bots.d/* ./dev-tools/test2_conf_files/bots.d/
-sudo cp ./usr/local/nginx/conf.d/* ./dev-tools/test2_conf_files/conf.d/
-sudo cp ./etc/nginx/sites-available/default.vhost ./dev-tools/test2_conf_files/default.vhost
-sudo cp ./etc/nginx/nginx.conf ./dev-tools/test2_conf_files/nginx.conf
+sudo cp /usr/local/nginx/bots.d/* ./dev-tools/test2_conf_files/bots.d/
+sudo cp /usr/local/nginx/conf.d/* ./dev-tools/test2_conf_files/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ./dev-tools/test2_conf_files/default.vhost
+sudo cp /etc/nginx/nginx.conf ./dev-tools/test2_conf_files/nginx.conf
 }
 
 
