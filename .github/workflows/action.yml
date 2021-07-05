@@ -40,6 +40,21 @@ jobs:
           ./dev-tools/generate-files.sh
           ./dev-tools/install-nginx-1.sh
 
+      - name: Configure Nginx & Generate Blocker Files - Stage 2
+        shell: bash
+        run: |
+          php ./dev-tools/generate-regex-format-referrers.php
+          php ./dev-tools/generate-regex-format-referrers-whitelist-test.php
+          ./dev-tools/update-bad-ips.sh
+          ./dev-tools/generate-blacklist.sh
+          ./dev-tools/generate-blacklist-testing-of-changes.sh
+          ./dev-tools/modify-config-readme-files.sh
+          ./dev-tools/prepare-robots-input.sh
+          ./dev-tools/generate-robots.sh
+          ./dev-tools/generate-google-disavow.sh
+          php ./dev-tools/generate-google-exclude.php
+          ./dev-tools/generate-files.sh
+          ./dev-tools/install-nginx-1.sh
 
       - name: Test Blocker - Stage 1
         shell: bash

@@ -69,16 +69,16 @@ sudo chmod +x ./dev-tools/*.php
 
 
 generateFiles () {
-php ./dev-tools/generate-regex-format-referrers.php
-php ./dev-tools/generate-regex-format-referrers-whitelist-test.php
-sudo ./dev-tools/update-bad-ips.sh
-sudo ./dev-tools/generate-blacklist.sh
-sudo ./dev-tools/generate-blacklist-testing-of-changes.sh
-sudo ./dev-tools/modify-config-readme-files.sh
-sudo ./dev-tools/prepare-robots-input.sh
-sudo ./dev-tools/generate-robots.sh
-sudo ./dev-tools/generate-google-disavow.sh
-php ./dev-tools/generate-google-exclude.php
+#php ./dev-tools/generate-regex-format-referrers.php
+#php ./dev-tools/generate-regex-format-referrers-whitelist-test.php
+#sudo ./dev-tools/update-bad-ips.sh
+#sudo ./dev-tools/generate-blacklist.sh
+#sudo ./dev-tools/generate-blacklist-testing-of-changes.sh
+#sudo ./dev-tools/modify-config-readme-files.sh
+#sudo ./dev-tools/prepare-robots-input.sh
+#sudo ./dev-tools/generate-robots.sh
+#sudo ./dev-tools/generate-google-disavow.sh
+#php ./dev-tools/generate-google-exclude.php
 sudo dos2unix ./bots.d/*.conf
 sudo dos2unix ./conf.d/*.conf
 sudo dos2unix ./_generator_lists/*.list
