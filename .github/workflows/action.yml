@@ -66,7 +66,7 @@ jobs:
         shell: bash
         run: |
           ./dev-tools/install-nginx-2.sh
-          #./dev-tools/test-nginx-2.sh
+          ./dev-tools/test-nginx-2.sh
           #./dev-tools/install-nginx-3.sh
           #./dev-tools/test-nginx-3.sh
           #./dev-tools/test-setupngxblocker.sh
@@ -74,12 +74,12 @@ jobs:
       - name: Debug
         shell: bash
         run: | 
-          sudo cat /etc/nginx/bots.d/blacklist-ips.conf
+          #sudo cat /etc/nginx/bots.d/blacklist-ips.conf
           #ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'
-          ip -o route get to 8.8.8.8 | sed -n 's/.*src \([0-9.]\+\).*/\1/p'
-          sudo cat /etc/nginx/sites-available/default.vhost
-          sudo nginx -t
-          sudo netstat -napt
+          #ip -o route get to 8.8.8.8 | sed -n 's/.*src \([0-9.]\+\).*/\1/p'
+          #sudo cat /etc/nginx/sites-available/default.vhost
+          #sudo nginx -t
+          #sudo netstat -napt
           cat /etc/nginx/nginx.conf
           sudo systemctl list-units --type=service --all
         if: always()
