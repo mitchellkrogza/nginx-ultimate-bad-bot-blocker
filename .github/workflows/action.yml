@@ -70,7 +70,6 @@ jobs:
           sudo netstat -napt
           cat /etc/nginx/nginx.conf
           sudo systemctl list-units --type=service --all
-          curl -A "Titan" http://localhost:80 2>&1
         if: always()
 
           

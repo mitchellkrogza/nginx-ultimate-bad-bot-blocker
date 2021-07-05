@@ -16,6 +16,8 @@
 #                                                                            #
 ##############################################################################                                                                
 
+export TERM=xterm
+
 # ------------------------------------------------------------------------------
 # MIT License
 # ------------------------------------------------------------------------------
@@ -64,7 +66,7 @@ resetNginx () {
 echo "${bold}${green}------------------------------------------------"
 echo "${bold}${green}Disable any User Whitelisting and set to Default"
 echo "${bold}${green}------------------------------------------------"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-user-agents-none.conf /etc/nginx/bots.d/blacklist-user-agents.conf
+sudo cp ./dev-tools/test_units/blacklist-user-agents-none.conf /etc/nginx/bots.d/blacklist-user-agents.conf
 }
 
 reloadNginX () {
@@ -72,7 +74,7 @@ printf "\n"
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
-sudo nginx -t && sudo nginx -s reload
+sudo nginx -t && sudo systemctl reload nginx
 }
 
 waitforReload () {
@@ -84,7 +86,7 @@ sleep 10s
 }
 
 run_curltest1 () {
-if curl -A "80legs" http://localhost:9000 2>&1 | grep -i '(52)'; then
+if curl -A "80legs" http://localhost:80 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${red}80legs BAD BOT DETECTED"
 else
    echo "${bold}${red}FAILED - ${red}80legs BAD BOT NOT DETECTED"
@@ -93,7 +95,7 @@ fi
 }
 
 run_curltest2 () {
-if curl -A "Nutch" http://localhost:9000 2>&1 | grep -i '(52)'; then
+if curl -A "Nutch" http://localhost:80 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${red}Nutch BAD BOT DETECTED"
 else
    echo "${bold}${red}FAILED - ${red}Nutch BAD BOT NOT DETECTED"
@@ -102,7 +104,7 @@ fi
 }
 
 run_curltest3 () {
-if curl -I http://localhost:9000 -e http://100dollars-seo.com 2>&1 | grep -i '(52)'; then
+if curl -I http://localhost:80 -e http://100dollars-seo.com 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${red}100dollars-seo.com BAD REFERRER DETECTED"
 else
    echo "${bold}${red}FAILED - ${red}100dollars-seo.com BAD REFERRER NOT DETECTED"
@@ -111,7 +113,7 @@ fi
 }
 
 run_curltest4 () {
-if curl -I http://localhost:9000 -e http://zx6.ru 2>&1 | grep -i '(52)'; then
+if curl -I http://localhost:80 -e http://zx6.ru 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${red}zx6.ru BAD REFERRER DETECTED"
 else
    echo "${bold}${red}FAILED - ${red}zx6.ru BAD REFERRER NOT DETECTED"
@@ -120,7 +122,7 @@ fi
 }
 
 run_curltest5 () {
-if curl -A "GoogleBot" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+if curl -A "GoogleBot" http://localhost:80 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - ${green}GoogleBot GOOD BOT ALLOWED THROUGH"
 else
    echo "${bold}${red}FAILED - ${red}GoogleBot GOOD BOT NOT ALLOWED THROUGH"
@@ -129,7 +131,7 @@ fi
 }
 
 run_curltest6 () {
-if curl -A "BingBot" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+if curl -A "BingBot" http://localhost:80 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - ${green}BingBot GOOD BOT ALLOWED THROUGH"
 else
    echo "${bold}${red}FAILED - ${red}BingBot GOOD BOT NOT ALLOWED THROUGH"
@@ -138,7 +140,7 @@ fi
 }
 
 run_curltest7 () {
-if curl http://localhost:9000 -e http://google.com 2>&1 | grep -i 'Welcome'; then
+if curl http://localhost:80 -e http://google.com 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - ${green}google.com GOOD REFERRER DETECTED"
 else
    echo "${bold}${red}FAILED - ${red}google.com GOOD REFERRER NOT DETECTED"
@@ -147,7 +149,7 @@ fi
 }
 
 run_curltest8 () {
-if curl http://localhost:9000 -e http://bing.com 2>&1 | grep -i 'Welcome'; then
+if curl http://localhost:80 -e http://bing.com 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - ${red}bing.com GOOD REFERRER DETECTED"
 else
    echo "${bold}${red}FAILED - ${red}bing.com GOOD REFERRER NOT DETECTED"
@@ -156,7 +158,7 @@ fi
 }
 
 run_curltest9 () {
-if curl -A "Googlebot/Nutch-1.7" http://localhost:9000 2>&1 | grep -i '(52)'; then
+if curl -A "Googlebot/Nutch-1.7" http://localhost:80 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${red}Googlebot/Nutch-1.7 BAD BOT DETECTED"
 else
    echo "${bold}${red}FAILED - ${red}Googlebot/Nutch-1.7 BAD BOT NOT DETECTED"
@@ -165,7 +167,7 @@ fi
 }
 
 run_curltest10 () {
-if curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+if curl -A "Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0" http://localhost:80 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - NO FALSE POSITIVE on Mozilla/5.0"
 else
    echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on Mozilla/5.0"
@@ -174,7 +176,7 @@ fi
 }
 
 run_curltest11 () {
-if curl -A "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+if curl -A "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1" http://localhost:80 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - NO FALSE POSITIVE on Safari"
 else
    echo "${bold}${red}FAILED - FALSE POSITIVE FOUND on Safari"
@@ -183,20 +185,20 @@ fi
 }
 
 testBadUserAgents () {
-shuf -n 10 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.tmp
-sed 's/\\//g' ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.tmp > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.list
-sudo rm ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.tmp
-sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.list
+shuf -n 10 ./_generator_lists/bad-user-agents.list > ./dev-tools/test_units/random-bots-for-test-quick.tmp
+sed 's/\\//g' ./dev-tools/test_units/random-bots-for-test-quick.tmp > ./dev-tools/test_units/random-bots-for-test-quick.list
+sudo rm ./dev-tools/test_units/random-bots-for-test-quick.tmp
+sort -u ./dev-tools/test_units/random-bots-for-test-quick.list -o ./dev-tools/test_units/random-bots-for-test-quick.list
 printf "\n"
 echo "${bold}${magenta}---------------------------"
 echo "${bold}${magenta}Testing 10 Random Bad Bots"
 echo "${bold}${magenta}---------------------------"
 IFS=$'\n'
-file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-bots-for-test-quick.list
+file=./dev-tools/test_units/random-bots-for-test-quick.list
 lines=$(cat ${file})
 for line in ${lines}; do
    if
-   curl -A "${line}" -I http://localhost:9000 2>&1 | grep -i '(52)'; then
+   curl -A "${line}" -I http://localhost:80 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${red}${line} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT BLOCKED"
@@ -207,17 +209,17 @@ IFS=""
 }
 
 testGoodUserAgents () {
-sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/good-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
+sed 's/\\//g' ./_generator_lists/good-user-agents.list > ./dev-tools/test_units/good-bots-for-test.list
 printf "\n"
 echo "${bold}${magenta}---------------------"
 echo "${bold}${magenta}Testing All Good Bots"
 echo "${bold}${magenta}---------------------"
 IFS=$'\n'
-file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-bots-for-test.list
+file=./dev-tools/test_units/good-bots-for-test.list
 lines=$(cat ${file})
 for line in ${lines}; do
    if
-   curl -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   curl -A "${line}" http://localhost:80 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
@@ -228,17 +230,17 @@ IFS=""
 }
 
 testAllowedUserAgents () {
-sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/allowed-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
+sed 's/\\//g' ./_generator_lists/allowed-user-agents.list > ./dev-tools/test_units/allowed-bots-for-test.list
 printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Testing All Allowed Bots"
 echo "${bold}${magenta}------------------------"
 IFS=$'\n'
-file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/allowed-bots-for-test.list
+file=./dev-tools/test_units/allowed-bots-for-test.list
 lines=$(cat ${file})
 for line in ${lines}; do
    if
-   curl -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   curl -A "${line}" http://localhost:80 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
@@ -249,17 +251,17 @@ IFS=""
 }
 
 testLimitedUserAgents () {
-sed 's/\\//g' ${TRAVIS_BUILD_DIR}/_generator_lists/limited-user-agents.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
+sed 's/\\//g' ./_generator_lists/limited-user-agents.list > ./dev-tools/test_units/limited-bots-for-test.list
 printf "\n"
 echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Testing All Limited Bots"
 echo "${bold}${magenta}------------------------"
 IFS=$'\n'
-file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/limited-bots-for-test.list
+file=./dev-tools/test_units/limited-bots-for-test.list
 lines=$(cat ${file})
 for line in ${lines}; do
    if
-   curl -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   curl -A "${line}" http://localhost:80 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED and ${bold}${red}RATE LIMITED"
    else
    echo "${bold}${green}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
@@ -270,18 +272,18 @@ IFS=""
 }
 
 testRandomReferrers () {
-shuf -n 10 ${TRAVIS_BUILD_DIR}/_generator_lists/bad-referrers.list > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test-quick.list
-sort -u ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test-quick.list -o ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test-quick.list
+shuf -n 10 ./_generator_lists/bad-referrers.list > ./dev-tools/test_units/random-referrers-for-test-quick.list
+sort -u ./dev-tools/test_units/random-referrers-for-test-quick.list -o ./dev-tools/test_units/random-referrers-for-test-quick.list
 printf "\n"
 echo "${bold}${magenta}---------------------------------"
 echo "${bold}${magenta}Testing 10 Random Bad Referrers"
 echo "${bold}${magenta}---------------------------------"
 IFS=$'\n'
-file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/random-referrers-for-test-quick.list
+file=./dev-tools/test_units/random-referrers-for-test-quick.list
 lines=$(cat ${file})
 for line in ${lines}; do
    if
-   curl -I http://localhost:9000 -e "http://${line}" 2>&1 | grep -i '(52)'; then
+   curl -I http://localhost:80 -e "http://${line}" 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${red}${line} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${line} was ${bold}${red}NOT BLOCKED"
@@ -297,11 +299,11 @@ echo "${bold}${magenta}----------------------"
 echo "${bold}${magenta}Testing Good Referrers"
 echo "${bold}${magenta}----------------------"
 IFS=$'\n'
-file=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/good-referrers-for-test.list
+file=./dev-tools/test_units/good-referrers-for-test.list
 lines=$(cat ${file})
 for line in ${lines}; do
    if
-   curl -v -A "${line}" http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+   curl -v -A "${line}" http://localhost:80 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - ${green}${line} was ${bold}${green}ALLOWED"
    else
    echo "${bold}${green}FAILED - ${red}${line} was ${bold}${red}BLOCKED"
