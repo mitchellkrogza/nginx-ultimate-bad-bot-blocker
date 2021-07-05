@@ -45,7 +45,9 @@
 
 YEAR=$(date +"%Y")
 MONTH=$(date +"%m")
-MY_GIT_TAG=V3.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
+lastbuild=$(cat ./dev-tools/buildnumber)
+thisbuild=$((lastbuild + 1))
+MY_GIT_TAG=V3.${YEAR}.${MONTH}.${thisbuild}
 BAD_REFERRERS=$(wc -l < ./_generator_lists/bad-referrers.list)
 BAD_BOTS=$(wc -l < ./_generator_lists/bad-user-agents.list)
 _now="$(date)"

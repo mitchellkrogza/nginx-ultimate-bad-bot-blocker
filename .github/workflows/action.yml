@@ -1,5 +1,4 @@
 # Build Script for Nginx Ultimate Bad Bot Blocker using GHA
-# 
 name: CI
 
 defaults:
@@ -14,17 +13,8 @@ on:
     branches:
       - master
 
-#services:
-#  nginx:
-#    image: nginx
-    # Map port 8080 on the Docker host to port 80 on the nginx container
-#    ports:
-#      - 8080:80
-      
 jobs:
   build:
-    #if: "!contains(github.event.head_commit.message, 'skipci')"
-    #if: "contains(github.event.head_commit.message, '[ci skip]')"
     runs-on: ubuntu-latest
 
     steps:
@@ -91,6 +81,11 @@ jobs:
           ./dev-tools/beta-test-blocker-whitelist-ips.sh
           ./dev-tools/beta-test-blocker-rate-limiting.sh
           ./dev-tools/beta-test-blocker-whitelist.sh
+
+      - name: Deploy Latest Package
+        shell: bash
+        run: |
+          #./dev-tools/modify-files-and-commit.sh
 
       - name: Debug
         shell: bash

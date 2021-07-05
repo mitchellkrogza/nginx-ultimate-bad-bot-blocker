@@ -72,10 +72,10 @@ MONTH=$(date +"%m")
 
 lastbuild=$(cat ./dev-tools/buildnumber)
 thisbuild=$((lastbuild + 1))
-echo ${thisbuild} > ./dev-tools/buildnumber
 
 releaseNewVersion () {
 latestbuild=V4.${YEAR}.${MONTH}.${thisbuild}
+echo ${latestbuild}
 printf "\n"
 echo "${bold}${green}All Nginx Tests Completed"
 echo "${bold}${green}All Bot and Referrer Testing Completed"
@@ -83,25 +83,30 @@ echo "${bold}${green}All Function Testing Completed"
 echo "${bold}${magenta}Releasing ${latestbuild}"
 }
 
+updatebuildnumber () {
+echo ${thisbuild} > ./dev-tools/buildnumber
+}
+
 commitBuildChanges () {
+          updatebuildnumber
           git config --global user.name "mitchellkrogza"
           git config --global user.email "mitchellkrog@gmail.com"
           git add -A
-          git commit -m "${LATESTBUILD}"
+          git commit -m "${latestbuild}"
           git push
 }
 
 deployPackage () {
 printf "\n"
-echo "${bold}${green}DEPLOYING ${LATESTBUILD}"
+echo "${bold}${green}DEPLOYING ${latestbuild}"
 printf "\n"
           git config --global user.name "mitchellkrogza"
           git config --global user.email "mitchellkrog@gmail.com"
-          export GIT_TAG=V4.${YEAR}.${MONTH}.${thisbuild}
-          git tag ${GIT_TAG} -a -m "V4.${YEAR}.${MONTH}.${thisbuild}"
+          export GIT_TAG=${latestbuild}
+          git tag ${GIT_TAG} -a -m "${latestbuild}"
           sudo git push origin master && git push origin master --tags
 echo "${bold}${green}-------------------------------"
-echo "${bold}${green}Deploying V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}"
+echo "${bold}${green}Deploying ${latestbuild}"
 echo "${bold}${green}-------------------------------"
 printf "\n\n"
 }
@@ -113,6 +118,7 @@ printf "\n\n"
 releaseNewVersion
 commitBuildChanges
 deployPackage
+
 
 # ----------------------
 # Exit With Error Number
