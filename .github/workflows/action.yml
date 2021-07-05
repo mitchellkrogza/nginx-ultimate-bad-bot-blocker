@@ -62,6 +62,15 @@ jobs:
           ./dev-tools/test-blocker-rate-limiting.sh
           ./dev-tools/test-blocker-whitelist.sh
 
+      - name: Test Blocker - Stage 2
+        shell: bash
+        run: |
+          ./dev-tools/install-nginx-2.sh
+          #./dev-tools/test-nginx-2.sh
+          #./dev-tools/install-nginx-3.sh
+          #./dev-tools/test-nginx-3.sh
+          #./dev-tools/test-setupngxblocker.sh
+
       - name: Debug
         shell: bash
         run: | 
