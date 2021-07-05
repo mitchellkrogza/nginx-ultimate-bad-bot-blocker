@@ -55,6 +55,7 @@ jobs:
           php ./dev-tools/generate-google-exclude.php
           ./dev-tools/generate-files.sh
           ./dev-tools/install-nginx-1.sh
+          cat ./dev-tools/referrers-regex-format.txt
 
       - name: Test Blocker - Stage 1
         shell: bash
