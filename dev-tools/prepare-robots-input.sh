@@ -62,7 +62,7 @@ defaultcolor=$(tput setaf default)
 # ------------------------------
 
 _input=./_generator_lists/bad-user-agents.list
-_output=./.dev-tools/_robots_input/robots-input.txt
+_output=./dev-tools/_robots_input/robots-input.txt
 
 # ---------
 # FUNCTIONS
