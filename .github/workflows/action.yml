@@ -65,6 +65,7 @@ jobs:
       - name: Debug
         shell: bash
         run: | 
+          sudo cat /etc/nginx/bots.d/blacklist-ips.conf
           sudo cat /etc/nginx/sites-available/default.vhost
           sudo nginx -t
           sudo netstat -napt
