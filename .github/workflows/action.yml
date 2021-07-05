@@ -78,7 +78,7 @@ jobs:
         shell: bash
         run: |
           pwd
-          #./dev-tools/test-setupngxblocker.sh
+          ./dev-tools/test-setupngxblocker.sh
 
       - name: Run Beta Tests
         shell: bash
