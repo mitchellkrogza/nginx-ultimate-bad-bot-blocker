@@ -16,6 +16,8 @@
 #                                                                            #
 ##############################################################################                                                                
 
+export TERM=xterm
+
 # ------------------------------------------------------------------------------
 # MIT License
 # ------------------------------------------------------------------------------
@@ -64,7 +66,7 @@ printf "\n"
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
-sudo nginx -t && sudo nginx -s reload
+sudo nginx -t && sudo systemctl reload nginx
 }
 
 waitforReload () {
@@ -92,7 +94,7 @@ printf "\n"
 echo "${bold}${magenta}------------------------------"
 echo "${bold}${magenta}Copy nginx.conf to /etc/nginx/"
 echo "${bold}${magenta}------------------------------"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/nginx.conf-newformat /etc/nginx/nginx.conf
+sudo cp ./dev-tools/test_units/nginx.conf-newformat /etc/nginx/nginx.conf
 }
 
 checkDirectories () {
@@ -108,9 +110,9 @@ printf "\n"
 }
 
 activateVHost () {
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
+sudo cp ./dev-tools/default.vhost /etc/nginx/sites-available/default.vhost
 sudo ln -s /etc/nginx/sites-available/default.vhost /etc/nginx/sites-enabled/default.vhost
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/index.html /var/www/html/index.html
+sudo cp ./dev-tools/index.html /var/www/html/index.html
 echo "${bold}${yellow}---------------------------------------------"
 echo "${bold}${yellow}Activating default.vhost and linking to Nginx"
 echo "${bold}${yellow}---------------------------------------------"
@@ -131,8 +133,7 @@ echo "${bold}${magenta}--------------------------"
 echo "${bold}${magenta}Execute install-ngxblocker"
 echo "${bold}${magenta}--------------------------"
 printf "\n"
-cd /usr/sbin
-sudo bash ./install-ngxblocker -x -c /etc/nginx/myconf.d -b /etc/nginx/mybots.d
+sudo bash /usr/sbin/install-ngxblocker -x -c /etc/nginx/myconf.d -b /etc/nginx/mybots.d
 }
 
 runsetupngxblocker1 () {
@@ -141,8 +142,7 @@ echo "${bold}${magenta}------------------------"
 echo "${bold}${magenta}Execute setup-ngxblocker"
 echo "${bold}${magenta}------------------------"
 printf "\n"
-cd /usr/sbin
-sudo bash ./setup-ngxblocker -x -c /etc/nginx/myconf.d -b /etc/nginx/mybots.d
+sudo bash /usr/sbin/setup-ngxblocker -x -c /etc/nginx/myconf.d -b /etc/nginx/mybots.d
 }
 
 runupdatengxblocker () {
@@ -150,8 +150,7 @@ printf "\n"
 echo "${bold}${magenta}-------------------------"
 echo "${bold}${magenta}Execute update-ngxblocker"
 echo "${bold}${magenta}-------------------------"
-cd /usr/sbin
-sudo bash ./update-ngxblocker -c /etc/nginx/myconf.d -b /etc/nginx/mybots.d -n
+sudo bash /usr/sbin/update-ngxblocker -c /etc/nginx/myconf.d -b /etc/nginx/mybots.d -n
 }
 
 makeScriptsExecutable () {
@@ -173,7 +172,7 @@ printf "\n"
 echo "${bold}${yellow}----------------------------------------------------"
 echo "${bold}${yellow}Copy older globalblacklist.conf file to force update"
 echo "${bold}${yellow}----------------------------------------------------"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/globalblacklist-dummy.conf /etc/nginx/myconf.d/globalblacklist.conf
+sudo cp ./dev-tools/globalblacklist-dummy.conf /etc/nginx/myconf.d/globalblacklist.conf
 }
 
 forceUpdateTest2 () {
@@ -192,7 +191,7 @@ echo "${bold}${yellow}----------------------------------------------------------
 echo "${bold}${yellow}Make sure we test with latest generated globalblacklist.conf"
 echo "${bold}${yellow}------------------------------------------------------------"
 printf "\n"
-sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist.conf /etc/nginx/myconf.d/globalblacklist.conf
+sudo cp ./conf.d/globalblacklist.conf /etc/nginx/myconf.d/globalblacklist.conf
 }
 
 backupConfFiles () {
@@ -201,10 +200,10 @@ echo "${bold}${green}-------------------------------------------------------"
 echo "${bold}${green}Backup all conf files and folders used during this test"
 echo "${bold}${green}-------------------------------------------------------"
 printf "\n"
-sudo cp /etc/nginx/mybots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/test3_conf_files/bots.d/
-sudo cp /etc/nginx/myconf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/test3_conf_files/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/test3_conf_files/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/test3_conf_files/nginx.conf
+sudo cp /etc/nginx/mybots.d/* ./dev-tools/test3_conf_files/bots.d/
+sudo cp /etc/nginx/myconf.d/* ./dev-tools/test3_conf_files/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ./dev-tools/test3_conf_files/default.vhost
+sudo cp /etc/nginx/nginx.conf ./dev-tools/test3_conf_files/nginx.conf
 }
 
 # Trigger Functions
