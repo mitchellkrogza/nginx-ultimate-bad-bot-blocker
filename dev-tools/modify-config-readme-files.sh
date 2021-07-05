@@ -78,6 +78,14 @@ nginxv1=$(cat ./.dev-tools/nginxv1.txt)
 nginxv2=$(cat ./.dev-tools/nginxv2.txt)
 nginxv3=$(cat ./.dev-tools/nginxv3.txt)
 
+echo "${bold}${yellow}======================"
+echo "${bold}${blue}======================"
+echo "${bold}${blue}MODIFYING README FILES"
+echo "${bold}${blue}======================"
+echo "${bold}${yellow}======================"
+
+echo ${MY_GIT_TAG}
+
 # ---------
 # FUNCTIONS
 # ---------
