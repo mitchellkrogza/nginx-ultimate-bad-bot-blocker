@@ -55,7 +55,6 @@ jobs:
           php ./dev-tools/generate-google-exclude.php
           ./dev-tools/generate-files.sh
           ./dev-tools/install-nginx-1.sh
-          cat ./dev-tools/referrers-regex-format.txt
 
       - name: Test Blocker - Stage 1
         shell: bash
@@ -101,7 +100,7 @@ jobs:
       - name: Deploy Latest Package
         shell: bash
         run: |
-          #./dev-tools/modify-files-and-commit.sh
+          ./dev-tools/modify-files-and-commit.sh
 
       - name: Debug
         shell: bash
