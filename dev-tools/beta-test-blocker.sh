@@ -266,11 +266,11 @@ IFS=""
 }
 
 testRandomReferrers () {
-shuf -n 100 ./_generator_lists/bad-referrers.list > ./dev-tools/test_units/random-referrers-for-test.list
+shuf -n 500 ./_generator_lists/bad-referrers.list > ./dev-tools/test_units/random-referrers-for-test.list
 sort -u ./dev-tools/test_units/random-referrers-for-test.list -o ./dev-tools/test_units/random-referrers-for-test.list
 printf "\n"
 echo "${bold}${magenta}---------------------------------"
-echo "${bold}${magenta}Testing 100 Random Bad Referrers"
+echo "${bold}${magenta}Testing 500 Random Bad Referrers"
 echo "${bold}${magenta}---------------------------------"
 IFS=$'\n'
 file=./dev-tools/test_units/random-referrers-for-test.list
