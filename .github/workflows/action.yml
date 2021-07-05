@@ -66,6 +66,7 @@ jobs:
         shell: bash
         run: | 
           sudo cat /etc/nginx/bots.d/blacklist-ips.conf
+          ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'
           sudo cat /etc/nginx/sites-available/default.vhost
           sudo nginx -t
           sudo netstat -napt
