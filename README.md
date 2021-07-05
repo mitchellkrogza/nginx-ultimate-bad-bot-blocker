@@ -27,10 +27,7 @@ ____________________
 
 _______________________
 ##### Tested On:
-##### nginx version: nginx/1.10.x :heavy_check_mark:
-#####  :heavy_check_mark:
-#####  :heavy_check_mark:
-#####  :heavy_check_mark:
+##### nginx version: nginx/1.10.x -> mainstream :heavy_check_mark:
 __________________________
 
 Not Using Nginx? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img.shields.io/badge/APACHE%20-%20ULTIMATE%20BAD%20BOT%20BLOCKER%20%E2%9B%94-blue.svg)](https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker)

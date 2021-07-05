@@ -215,7 +215,7 @@ updateReadme
 updateAutoConfiguration
 updateManualConfiguration
 updateGoogleGhostSpam
-updateReadme2
+#updateReadme2
 
 echo "${bold}${green}------------------------"
 echo "${bold}${green}All README Files Updated"
