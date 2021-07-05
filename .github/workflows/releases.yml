@@ -11,10 +11,9 @@ jobs:
     runs-on: "ubuntu-latest"
 
     steps:
-      # ...
       - name: "Deploy Release"
         run: |
-          echo "done!"
+          echo "Deploying"
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
