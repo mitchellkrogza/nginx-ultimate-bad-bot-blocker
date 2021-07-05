@@ -16,6 +16,8 @@
 #                                                                            #
 ##############################################################################                                                                
 
+export TERM=xterm
+
 # ------------------------------------------------------------------------------
 # MIT License
 # ------------------------------------------------------------------------------
@@ -54,7 +56,7 @@ magenta=$(tput setaf 5)
 cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 defaultcolor=$(tput setaf default)
-thisip=$(dig +short myip.opendns.com @resolver1.opendns.com)
+thisip=$(ip -o route get to 8.8.8.8 | sed -n 's/.*src \([0-9.]\+\).*/\1/p')
 
 # ---------
 # FUNCTIONS
@@ -65,7 +67,7 @@ echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
 printf "\n\n"
-sudo nginx -t && sudo nginx -s reload
+sudo nginx -t && sudo systemctl reload nginx
 }
 
 waitforReload () {
@@ -77,7 +79,7 @@ sleep 10s
 }
 
 run_curltest1 () {
-if curl http://localhost:9000 2>&1 | grep -i '(52)'; then
+if curl http://${thisip}:80 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${bold}${red}blacklist own ip is WORKING"
 else
    echo "${bold}${red}FAILED - blacklist own ip is NOT working"
@@ -86,11 +88,11 @@ fi
 }
 
 run_curltest2 () {
-if curl http://localhost:9000 2>&1 | grep -i 'Welcome'; then
+if curl http://${thisip}:80 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - whitelist own ip is WORKING"
 else
    echo "${bold}${red}FAILED - whitelist own ip is NOT working"
-   curl http://localhost:9000
+   curl http://${thisip}:80
    exit 1
 fi
 }
@@ -101,28 +103,28 @@ echo "${bold}${green}-----------------------------------------------------------
 echo "${bold}${green}Make Backup all conf files and folders used during this test"
 echo "${bold}${green}------------------------------------------------------------"
 printf "\n"
-sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_ip_whitelist/bots.d/
-sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_ip_whitelist/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_ip_whitelist/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_ip_whitelist/nginx.conf
+sudo cp /etc/nginx/bots.d/* ./dev-tools/beta_conf_files_ip_whitelist/bots.d/
+sudo cp /etc/nginx/conf.d/* ./dev-tools/beta_conf_files_ip_whitelist/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ./dev-tools/beta_conf_files_ip_whitelist/default.vhost
+sudo cp /etc/nginx/nginx.conf ./dev-tools/beta_conf_files_ip_whitelist/nginx.conf
 }
 
 blacklistOwnIP () {
-sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
-printf '%s\t%s\n' "${thisip}" "1;" > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
-printf '%s\t%s\n' "127.0.0.1" "1;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/blacklist-ips.conf /etc/nginx/bots.d/blacklist-ips.conf
-sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
+sudo truncate -s 0 ./dev-tools/test_units/blacklist-ips.conf
+printf '%s\t%s\n' "${thisip}" "1;" > ./dev-tools/test_units/blacklist-ips.conf
+printf '%s\t%s\n' "127.0.0.1" "1;" >> ./dev-tools/test_units/blacklist-ips.conf
+sudo cp ./dev-tools/test_units/blacklist-ips.conf /etc/nginx/bots.d/blacklist-ips.conf
+sudo truncate -s 0 ./dev-tools/test_units/whitelist-ips.conf
+sudo cp ./dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
 }
 
 whitelistOwnIP () {
-sudo truncate -s 0 ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-printf '%s\t%s\n' "${thisip}" "0;" > ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-printf '%s\t%s\n' "127.0.0.1" "0;" >> ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
+sudo truncate -s 0 ./dev-tools/test_units/whitelist-ips.conf
+printf '%s\t%s\n' "${thisip}" "0;" > ./dev-tools/test_units/whitelist-ips.conf
+printf '%s\t%s\n' "127.0.0.1" "0;" >> ./dev-tools/test_units/whitelist-ips.conf
+sudo cp ./dev-tools/test_units/whitelist-ips.conf /etc/nginx/bots.d/whitelist-ips.conf
 # TEST ANY CHANGES TO botblocker-nginx-settings.conf
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/botblocker-nginx-settings.conf /etc/nginx/conf.d/botblocker-nginx-settings.conf
+sudo cp ./dev-tools/test_units/botblocker-nginx-settings.conf /etc/nginx/conf.d/botblocker-nginx-settings.conf
 }
 
 # -----------

@@ -16,6 +16,8 @@
 #                                                                            #
 ##############################################################################                                                                
 
+export TERM=xterm
+
 # ------------------------------------------------------------------------------
 # MIT License
 # ------------------------------------------------------------------------------
@@ -64,7 +66,7 @@ echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
 printf "\n\n"
-sudo nginx -t && sudo nginx -s reload
+sudo nginx -t && sudo systemctl reload nginx
 }
 
 waitforReload () {
@@ -80,92 +82,92 @@ echo "${bold}${yellow}-----------------------------"
 echo "${bold}${yellow}Making GoogleBot ${yellow}RATE LIMITED"
 echo "${bold}${yellow}-----------------------------"
 printf "\n\n"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/rate-limiting-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
+sudo cp ./dev-tools/test_units/rate-limiting-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
 }
 
 testRateLimiting () {
-ratelimittestfile=${TRAVIS_BUILD_DIR}/.dev-tools/test_units/ratelimittest-beta.txt
+ratelimittestfile=./dev-tools/test_units/ratelimittest-beta.txt
 truncate -s 0 ${ratelimittestfile}
-curl -A "GoogleBot" http://localhost:9000 2>&1 > ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} &
-curl -A "GoogleBot" http://localhost:9000 2>&1 >> ${ratelimittestfile} 
+curl -A "GoogleBot" http://localhost:80 2>&1 > ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "GoogleBot" http://localhost:80 2>&1 >> ${ratelimittestfile} 
 
 if grep -i 'Unavailable' < ${ratelimittestfile}; then
    echo "${bold}${green}PASSED - ${red}GoogleBot was ${bold}${red}RATE LIMITED"
@@ -181,10 +183,10 @@ echo "${bold}${green}-----------------------------------------------------------
 echo "${bold}${green}Make Backup all conf files and folders used during this test"
 echo "${bold}${green}------------------------------------------------------------"
 printf "\n"
-sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_ratelimiting/bots.d/
-sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_ratelimiting/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_ratelimiting/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files_ratelimiting/nginx.conf
+sudo cp /etc/nginx/bots.d/* ./dev-tools/beta_conf_files_ratelimiting/bots.d/
+sudo cp /etc/nginx/conf.d/* ./dev-tools/beta_conf_files_ratelimiting/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ./dev-tools/beta_conf_files_ratelimiting/default.vhost
+sudo cp /etc/nginx/nginx.conf ./dev-tools/beta_conf_files_ratelimiting/nginx.conf
 }
 
 # -----------

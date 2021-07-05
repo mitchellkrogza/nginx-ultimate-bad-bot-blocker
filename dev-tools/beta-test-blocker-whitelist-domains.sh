@@ -16,6 +16,8 @@
 #                                                                            #
 ##############################################################################                                                                
 
+export TERM=xterm
+
 # ------------------------------------------------------------------------------
 # MIT License
 # ------------------------------------------------------------------------------
@@ -64,7 +66,7 @@ echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
 printf "\n\n"
-sudo nginx -t && sudo nginx -s reload
+sudo nginx -t && sudo systemctl reload nginx
 }
 
 waitforReload () {
@@ -80,11 +82,11 @@ echo "${bold}${green}---------------------------------------"
 echo "${bold}${green}Activating Users whitelist-domains.conf"
 echo "${bold}${green}---------------------------------------"
 printf "\n\n"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/whitelist-domains.conf /etc/nginx/bots.d/whitelist-domains.conf
+sudo cp ./dev-tools/test_units/whitelist-domains.conf /etc/nginx/bots.d/whitelist-domains.conf
 }
 
 run_curltest1 () {
-if curl http://localhost:9000 -e http://www.myowndomain.com 2>&1 | grep -i 'Welcome'; then
+if curl http://localhost:80 -e http://www.myowndomain.com 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - User whitelist-domains.conf working"
 else
    echo "${bold}${red}FAILED - User whitelist-domains.conf NOT working"
@@ -93,7 +95,7 @@ fi
 }
 
 run_curltest2 () {
-if curl http://localhost:9000 -e http://www.myotherdomain.com 2>&1 | grep -i 'Welcome'; then
+if curl http://localhost:80 -e http://www.myotherdomain.com 2>&1 | grep -i 'Welcome'; then
    echo "${bold}${green}PASSED - User whitelist-domains.conf working"
 else
    echo "${bold}${red}FAILED - User whitelist-domains.conf NOT working"
