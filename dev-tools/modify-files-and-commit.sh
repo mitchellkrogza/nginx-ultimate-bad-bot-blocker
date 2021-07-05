@@ -16,6 +16,10 @@
 #                                                                            #
 ##############################################################################                                                                
 
+set -e
+set -o pipefail
+export TERM=xterm
+
 # ------------------------------------------------------------------------------
 # MIT License
 # ------------------------------------------------------------------------------
@@ -61,14 +65,17 @@ defaultcolor=$(tput setaf default)
 
 YEAR=$(date +"%Y")
 MONTH=$(date +"%m")
-cd ${TRAVIS_BUILD_DIR}
 
 # ---------
 # FUNCTIONS
 # ---------
 
+lastbuild=$(cat ./dev-tools/buildnumber)
+thisbuild=$((lastbuild + 1))
+echo ${thisbuild} > ./dev-tools/buildnumber
+
 releaseNewVersion () {
-latestbuild=V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}
+latestbuild=V4.${YEAR}.${MONTH}.${thisbuild}
 printf "\n"
 echo "${bold}${green}All Nginx Tests Completed"
 echo "${bold}${green}All Bot and Referrer Testing Completed"
@@ -77,17 +84,26 @@ echo "${bold}${magenta}Releasing ${latestbuild}"
 }
 
 commitBuildChanges () {
-git remote rm origin
-git remote add origin https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git
-git config --global user.email "${GIT_EMAIL}"
-git config --global user.name "${GIT_NAME}"
-git config --global push.default simple
-git checkout master
-cd ${TRAVIS_BUILD_DIR}/.latest_release/
-tar -czf conf.d.tar.gz -C ${TRAVIS_BUILD_DIR}/conf.d/ .
-tar -czf bots.d.tar.gz -C ${TRAVIS_BUILD_DIR}/bots.d/ .
-git add -A
-git commit -am "V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER} [ci skip]"
+          git config --global user.name "mitchellkrogza"
+          git config --global user.email "mitchellkrog@gmail.com"
+          git add -A
+          git commit -m "${LATESTBUILD}"
+          git push
+}
+
+deployPackage () {
+printf "\n"
+echo "${bold}${green}DEPLOYING ${LATESTBUILD}"
+printf "\n"
+          git config --global user.name "mitchellkrogza"
+          git config --global user.email "mitchellkrog@gmail.com"
+          export GIT_TAG=V4.${YEAR}.${MONTH}.${thisbuild}
+          git tag ${GIT_TAG} -a -m "V4.${YEAR}.${MONTH}.${thisbuild}"
+          sudo git push origin master && git push origin master --tags
+echo "${bold}${green}-------------------------------"
+echo "${bold}${green}Deploying V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER}"
+echo "${bold}${green}-------------------------------"
+printf "\n\n"
 }
 
 # -------------
@@ -96,6 +112,7 @@ git commit -am "V4.${YEAR}.${MONTH}.${TRAVIS_BUILD_NUMBER} [ci skip]"
 
 releaseNewVersion
 commitBuildChanges
+deployPackage
 
 # ----------------------
 # Exit With Error Number

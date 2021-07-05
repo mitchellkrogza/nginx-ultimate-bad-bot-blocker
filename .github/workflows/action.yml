@@ -74,10 +74,9 @@ jobs:
           ./dev-tools/install-nginx-3.sh
           ./dev-tools/test-nginx-3.sh
 
-      - name: Test setup-ngxblocker - Various Distro Nginx Conf Files Test (Needs Fixing)
+      - name: Test setup-ngxblocker - Various Distro Nginx Conf Files Test
         shell: bash
         run: |
-          pwd
           ./dev-tools/test-setupngxblocker.sh
 
       - name: Run Beta Tests
@@ -88,10 +87,10 @@ jobs:
           ./dev-tools/beta-test-blocker-false-positives.sh
           ./dev-tools/beta-test-blocker.sh
           ./dev-tools/beta-test-blocker-badwords.sh
-          #./dev-tools/beta-test-blocker-whitelist-domains.sh
-          #./dev-tools/beta-test-blocker-whitelist-ips.sh
-          #./dev-tools/beta-test-blocker-rate-limiting.sh
-          #./dev-tools/beta-test-blocker-whitelist.sh
+          ./dev-tools/beta-test-blocker-whitelist-domains.sh
+          ./dev-tools/beta-test-blocker-whitelist-ips.sh
+          ./dev-tools/beta-test-blocker-rate-limiting.sh
+          ./dev-tools/beta-test-blocker-whitelist.sh
 
       - name: Debug
         shell: bash
