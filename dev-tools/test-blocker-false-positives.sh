@@ -127,7 +127,7 @@ UAtest_mustmatch () {
 for mustmatch in "${UAmustmatch[@]}"
 do
    if
-   curl -A "${mustmatch}" http://localhost:80 2>&1 | grep -i 'Empty reply'; then
+   curl -A "${mustmatch}" http://localhost:80 2>&1 | grep -i '(52))'; then
    echo "${bold}${green}PASSED - ${red}${mustmatch} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${mustmatch} was ${bold}${red}NOT BLOCKED"
