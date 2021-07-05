@@ -54,6 +54,8 @@ jobs:
       - name: Test Blocker - Stage 1
         shell: bash
         run: |
+          echo "export TERM=xterm" >> ~/.bashrc
+          source ~/.bashrc
           ./dev-tools/test-blocker-false-positives.sh
           ./dev-tools/test-blocker-quick.sh
           ./dev-tools/test-blocker-badwords.sh
