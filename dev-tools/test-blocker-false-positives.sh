@@ -41,6 +41,10 @@
 # SOFTWARE.
 # ------------------------------------------------------------------------------
 
+set -e
+set -o pipefail
+export TERM=xterm
+
 # -------------------------------------------
 # For Testing REGEX and False Positives Cases
 # -------------------------------------------
@@ -125,7 +129,7 @@ UAtest_mustmatch () {
 for mustmatch in "${UAmustmatch[@]}"
 do
    if
-   curl -A "${mustmatch}" http://localhost:9000 2>&1 | grep -i '(52)'; then
+   curl -A "${mustmatch}" http://localhost:80 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${red}${mustmatch} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${mustmatch} was ${bold}${red}NOT BLOCKED"
@@ -138,7 +142,7 @@ UAtest_mustnotmatch () {
 for mustnotmatch in "${UAmustnotmatch[@]}"
 do
    if
-   curl -A "${mustnotmatch}" http://localhost:9000 2>&1 | grep -i '(52)'; then
+   curl -A "${mustnotmatch}" http://localhost:80 2>&1 | grep -i '(52)'; then
    echo "${bold}${red}FAILED (FALSE POSITIVE DETECTED) - ${bold}${red}${mustnotmatch}"
    exit 1
    else
@@ -155,7 +159,7 @@ REFtest_mustmatch () {
 for mustmatch in "${REFmustmatch[@]}"
 do
    if
-   curl -I http://localhost:9000 -e "${mustmatch}"  2>&1 | grep -i '(52)'; then
+   curl -I http://localhost:80 -e "${mustmatch}"  2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - ${red}${mustmatch} was ${bold}${red}BLOCKED"
    else
    echo "${bold}${red}FAILED - ${red}${mustmatch} was ${bold}${red}NOT BLOCKED"
@@ -168,7 +172,7 @@ REFtest_mustnotmatch () {
 for mustnotmatch in "${REFmustnotmatch[@]}"
 do
    if
-   curl -I http://localhost:9000 -e "${mustnotmatch}" 2>&1 | grep -i '(52)'; then
+   curl -I http://localhost:80 -e "${mustnotmatch}" 2>&1 | grep -i '(52)'; then
    echo "${bold}${red}FAILED (FALSE POSITIVE DETECTED) - ${bold}${red}${mustnotmatch}"
    exit 1
    else
