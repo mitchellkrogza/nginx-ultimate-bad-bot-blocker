@@ -35,7 +35,7 @@ jobs:
           sudo apt -y install dos2unix
 
 
-      - name: Run build
+      - name: Configure Nginx - Stage 1
         shell: bash
         run: |
           echo "export TERM=xterm" >> ~/.bashrc
@@ -49,6 +49,18 @@ jobs:
           cat /etc/nginx/sites-available/default
           ./dev-tools/generate-files.sh
           ./dev-tools/install-nginx-1.sh
+
+
+      - name: Test Blocker - Stage 1
+        shell: bash
+        run: |
+          ./dev-tools/test-blocker-false-positives.sh
+          ./dev-tools/test-blocker-quick.sh
+          ./dev-tools/test-blocker-badwords.sh
+          ./dev-tools/test-blocker-whitelist-domains.sh
+          ./dev-tools/test-blocker-whitelist-ips.sh
+          ./dev-tools/test-blocker-rate-limiting.sh
+          ./dev-tools/test-blocker-whitelist.sh
 
       - name: Debug
         shell: bash
