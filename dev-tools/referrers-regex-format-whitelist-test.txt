@@ -451,6 +451,7 @@
 "~*(?:\b)anniemation\.com(?:\b)" 	0;
 "~*(?:\b)anonymizeme\.pro(?:\b)" 	0;
 "~*(?:\b)anonymous\-redirect\.com(?:\b)" 	0;
+"~*(?:\b)anonymousfox\.co(?:\b)" 	0;
 "~*(?:\b)anti\-virus\-removal\.info(?:\b)" 	0;
 "~*(?:\b)anticrawler\.org(?:\b)" 	0;
 "~*(?:\b)antons\-transporte\.de(?:\b)" 	0;
@@ -4590,6 +4591,7 @@
 "~*(?:\b)pokemongooo\.ml(?:\b)" 	0;
 "~*(?:\b)pokerniydom\.ru(?:\b)" 	0;
 "~*(?:\b)polcin\.de(?:\b)" 	0;
+"~*(?:\b)poligon\.com(?:\b)" 	0;
 "~*(?:\b)polimga\.pw(?:\b)" 	0;
 "~*(?:\b)polska\-poezja\.com(?:\b)" 	0;
 "~*(?:\b)polybuild\.ru(?:\b)" 	0;
@@ -4646,6 +4648,7 @@
 "~*(?:\b)pornogratisdiario\.com(?:\b)" 	0;
 "~*(?:\b)pornohd1080\.online(?:\b)" 	0;
 "~*(?:\b)pornohub\.me(?:\b)" 	0;
+"~*(?:\b)pornoinn\.com(?:\b)" 	0;
 "~*(?:\b)pornokajf\.com(?:\b)" 	0;
 "~*(?:\b)pornoklad\.net(?:\b)" 	0;
 "~*(?:\b)pornoklad\.ru(?:\b)" 	0;
@@ -6764,6 +6767,7 @@
 "~*(?:\b)xlovecam\.com(?:\b)" 	0;
 "~*(?:\b)xmladserver\.com(?:\b)" 	0;
 "~*(?:\b)xmlinde\.com(?:\b)" 	0;
+"~*(?:\b)xmnb\.net(?:\b)" 	0;
 "~*(?:\b)xmronta\.com(?:\b)" 	0;
 "~*(?:\b)xn\-\-\-\-\-\-7cdbapdecfd4ak1bn0amjffj7afu3y\.xn\-\-p1ai(?:\b)" 	0;
 "~*(?:\b)xn\-\-\-\-\-6kcaabbafhu7cskl7akvongwpo7hvjj\.xn\-\-p1ai(?:\b)" 	0;
