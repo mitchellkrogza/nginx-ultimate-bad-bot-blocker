@@ -16,6 +16,8 @@
 #                                                                            #
 ##############################################################################                                                                
 
+export TERM=xterm
+
 # ------------------------------------------------------------------------------
 # MIT License
 # ------------------------------------------------------------------------------
@@ -64,7 +66,7 @@ printf "\n"
 echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
-sudo nginx -t && sudo nginx -s reload
+sudo nginx -t && sudo systemctl reload nginx
 }
 
 waitforReload () {
@@ -80,10 +82,10 @@ echo "${bold}${green}-------------------------------------------------------"
 echo "${bold}${green}Backup all conf files and folders used during this test"
 echo "${bold}${green}-------------------------------------------------------"
 printf "\n"
-sudo cp /etc/nginx/bots.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files/bots.d/
-sudo cp /etc/nginx/conf.d/* ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files/conf.d/
-sudo cp /etc/nginx/sites-available/default.vhost ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files/default.vhost
-sudo cp /etc/nginx/nginx.conf ${TRAVIS_BUILD_DIR}/.dev-tools/beta_conf_files/nginx.conf
+sudo cp /etc/nginx/bots.d/* ./dev-tools/beta_conf_files/bots.d/
+sudo cp /etc/nginx/conf.d/* ./dev-tools/beta_conf_files/conf.d/
+sudo cp /etc/nginx/sites-available/default.vhost ./dev-tools/beta_conf_files/default.vhost
+sudo cp /etc/nginx/nginx.conf ./dev-tools/beta_conf_files/nginx.conf
 }
 
 resetNginx () {
@@ -104,8 +106,7 @@ echo "${bold}${magenta}-------------------------"
 echo "${bold}${magenta}Execute update-ngxblocker"
 echo "${bold}${magenta}-------------------------"
 printf "\n"
-cd /usr/sbin
-sudo bash ./update-ngxblocker -n
+sudo bash /usr/sbin/update-ngxblocker -n
 }
 
 copyTestUnit () {
@@ -114,8 +115,7 @@ echo "${bold}${yellow}---------------------------------------------------"
 echo "${bold}${yellow}Copy Test Unit of globalblacklist.conf file to test"
 echo "${bold}${yellow}---------------------------------------------------"
 printf "\n"
-#sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version.conf /etc/nginx/conf.d/globalblacklist.conf
-sudo cp ${TRAVIS_BUILD_DIR}/conf.d/globalblacklist-testing-version-oldregexboundaries.conf /etc/nginx/conf.d/globalblacklist.conf
+sudo cp ./conf.d/globalblacklist-testing-version-oldregexboundaries.conf /etc/nginx/conf.d/globalblacklist.conf
 }
 
 # -------------

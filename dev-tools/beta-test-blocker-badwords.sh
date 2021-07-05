@@ -16,6 +16,8 @@
 #                                                                            #
 ##############################################################################                                                                
 
+export TERM=xterm
+
 # ------------------------------------------------------------------------------
 # MIT License
 # ------------------------------------------------------------------------------
@@ -64,7 +66,7 @@ echo "${bold}${green}---------------"
 echo "${bold}${green}Reloading Nginx"
 echo "${bold}${green}---------------"
 printf "\n\n"
-sudo nginx -t && sudo nginx -s reload
+sudo nginx -t && sudo systemctl reload nginx
 }
 
 waitforReload () {
@@ -80,11 +82,11 @@ echo "${bold}${green}----------------------------------------"
 echo "${bold}${green}Activating Users bad-referrer-words.conf"
 echo "${bold}${green}----------------------------------------"
 printf "\n\n"
-sudo cp ${TRAVIS_BUILD_DIR}/.dev-tools/test_units/bad-referrer-words.conf /etc/nginx/bots.d/bad-referrer-words.conf
+sudo cp ./dev-tools/test_units/bad-referrer-words.conf /etc/nginx/bots.d/bad-referrer-words.conf
 }
 
 run_curltest1 () {
-if curl -I http://localhost:9000 -e "thisisabadword" 2>&1 | grep -i '(52)'; then
+if curl -I http://localhost:80 -e "thisisabadword" 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - User bad-referrer-words.conf working"
 else
    echo "${bold}${red}FAILED - User bad-referrer-words.conf NOT working"
@@ -93,7 +95,7 @@ fi
 }
 
 run_curltest2 () {
-if curl -I http://localhost:9000 -e "thisisanotherbadword" 2>&1 | grep -i '(52)'; then
+if curl -I http://localhost:80 -e "thisisanotherbadword" 2>&1 | grep -i '(52)'; then
    echo "${bold}${green}PASSED - User bad-referrer-words.conf working"
 else
    echo "${bold}${red}FAILED - User bad-referrer-words.conf NOT working"
