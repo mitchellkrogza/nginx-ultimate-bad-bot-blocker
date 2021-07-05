@@ -183,8 +183,7 @@ printf "\n"
 echo "${bold}${magenta}-------------------------"
 echo "${bold}${magenta}Execute update-ngxblocker"
 echo "${bold}${magenta}-------------------------"
-cd /usr/sbin
-sudo bash ./update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
+sudo bash /usr/sbin/update-ngxblocker -c /usr/local/nginx/conf.d -b /usr/local/nginx/bots.d -n
 }
 
 activateLatestBlacklist () {
