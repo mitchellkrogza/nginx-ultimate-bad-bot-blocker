@@ -73,7 +73,11 @@ jobs:
         run: |
           ./dev-tools/install-nginx-3.sh
           ./dev-tools/test-nginx-3.sh
-          #./dev-tools/test-setupngxblocker.sh
+
+      - name: Test setup-ngxblocker - Various Distro Nginx Conf Files Test
+        shell: bash
+        run: |
+          ./dev-tools/test-setupngxblocker.sh
 
       - name: Debug
         shell: bash
