@@ -1,24 +1,17 @@
-name: "tagged-release"
+name: Releases
 
-on:
+on: 
   push:
     tags:
-      - "*"
+    - '*'
 
 jobs:
-  tagged-release:
-    name: "Tagged Release"
-    runs-on: "ubuntu-latest"
 
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - name: "Deploy Release"
-        run: |
-          echo "Deploying"
-
-      - uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          prerelease: false
-          files: |
-            README.md
-            LICENSE.md
+    - uses: actions/checkout@v2
+    - uses: ncipollo/release-action@v1
+      with:
+        artifacts: "README.md,LICENSE.md"
+        token: ${{ secrets.GITHUB_TOKEN }}
