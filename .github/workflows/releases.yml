@@ -14,4 +14,4 @@ jobs:
     - uses: ncipollo/release-action@v1.8.6
       with:
         artifacts: "README.md,LICENSE.md"
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.DEPLOY }}
