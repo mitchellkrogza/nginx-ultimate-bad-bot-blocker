@@ -117,7 +117,7 @@ printf "\n\n"
 
 releaseNewVersion
 commitBuildChanges
-#deployPackage
+deployPackage
 
 
 # ----------------------
