@@ -4899,6 +4899,7 @@
 "~*(?:\b)razyboard\.com(?:\b)" 	1;
 "~*(?:\b)rcb101\.ru(?:\b)" 	1;
 "~*(?:\b)rcpmda\.ikan1080\.xyz(?:\b)" 	1;
+"~*(?:\b)rczhan\.com(?:\b)" 	1;
 "~*(?:\b)real\-time\-analytics\.com(?:\b)" 	1;
 "~*(?:\b)realitykings\.com(?:\b)" 	1;
 "~*(?:\b)realizmobi\.com(?:\b)" 	1;
