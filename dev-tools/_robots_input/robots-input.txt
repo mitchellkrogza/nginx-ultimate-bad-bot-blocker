@@ -311,7 +311,6 @@ Ninja
 Nmap
 Nuclei
 Nutch
-OPPO A33
 Octopus
 Offline Explorer
 Offline Navigator
