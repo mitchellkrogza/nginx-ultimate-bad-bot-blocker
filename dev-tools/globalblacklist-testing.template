@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2021.07.2489
-### Updated: Thu Jul 29 11:09:37 UTC 2021
+### Version: V3.2021.07.2490
+### Updated: Thu Jul 29 11:31:25 UTC 2021
 ### Bad Referrer Count: 7068
-### Bad Bot Count: 616
+### Bad Bot Count: 617
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -372,6 +372,7 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)LWP::Simple(?:\b)"		3;
 	"~*(?:\b)Lanshanbot(?:\b)"		3;
 	"~*(?:\b)Larbin(?:\b)"		3;
+	"~*(?:\b)Leap(?:\b)"		3;
 	"~*(?:\b)LeechFTP(?:\b)"		3;
 	"~*(?:\b)LeechGet(?:\b)"		3;
 	"~*(?:\b)LexiBot(?:\b)"		3;

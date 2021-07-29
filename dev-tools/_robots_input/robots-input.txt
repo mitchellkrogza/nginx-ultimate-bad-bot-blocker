@@ -223,6 +223,7 @@ LNSpiderguy
 LWP::Simple
 Lanshanbot
 Larbin
+Leap
 LeechFTP
 LeechGet
 LexiBot
