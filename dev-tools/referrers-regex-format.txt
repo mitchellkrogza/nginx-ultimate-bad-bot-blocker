@@ -3938,6 +3938,7 @@
 "~*(?:\b)mp3films\.ru(?:\b)" 	1;
 "~*(?:\b)mp3ringtone\.info(?:\b)" 	1;
 "~*(?:\b)mp3ritm\.top(?:\b)" 	1;
+"~*(?:\b)mp3s\.club(?:\b)" 	1;
 "~*(?:\b)mrbitsandbytes\.com(?:\b)" 	1;
 "~*(?:\b)mrbojikobi4\.biz(?:\b)" 	1;
 "~*(?:\b)mrcsa\.com\.au(?:\b)" 	1;
@@ -3970,6 +3971,7 @@
 "~*(?:\b)musicas\.baixar\-musicas\-gratis\.com(?:\b)" 	1;
 "~*(?:\b)musicdaddy\.net(?:\b)" 	1;
 "~*(?:\b)musicktab\.com(?:\b)" 	1;
+"~*(?:\b)musicpro\.monster(?:\b)" 	1;
 "~*(?:\b)musicspire\.online(?:\b)" 	1;
 "~*(?:\b)musicstock\.me(?:\b)" 	1;
 "~*(?:\b)musicvidz\.ru(?:\b)" 	1;
@@ -4487,6 +4489,7 @@
 "~*(?:\b)phuketscreen\.com(?:\b)" 	1;
 "~*(?:\b)physfunc\.ru(?:\b)" 	1;
 "~*(?:\b)pic2fly\.com(?:\b)" 	1;
+"~*(?:\b)pic\-re\.blogspot\.com(?:\b)" 	1;
 "~*(?:\b)piccdata\.com(?:\b)" 	1;
 "~*(?:\b)piccshare\.com(?:\b)" 	1;
 "~*(?:\b)picmoonco\.pw(?:\b)" 	1;
@@ -6064,6 +6067,7 @@
 "~*(?:\b)torrentred\.games(?:\b)" 	1;
 "~*(?:\b)torrents\-tracker\.com(?:\b)" 	1;
 "~*(?:\b)torrents\.cd(?:\b)" 	1;
+"~*(?:\b)torrents\.life(?:\b)" 	1;
 "~*(?:\b)torrnada\.ru(?:\b)" 	1;
 "~*(?:\b)torture\.ml(?:\b)" 	1;
 "~*(?:\b)totu\.info(?:\b)" 	1;

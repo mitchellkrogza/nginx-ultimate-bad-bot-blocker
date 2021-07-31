@@ -3938,6 +3938,7 @@ domain:mp3downloadhq.com
 domain:mp3films.ru
 domain:mp3ringtone.info
 domain:mp3ritm.top
+domain:mp3s.club
 domain:mrbitsandbytes.com
 domain:mrbojikobi4.biz
 domain:mrcsa.com.au
@@ -3970,6 +3971,7 @@ domain:music7s.me
 domain:musicas.baixar-musicas-gratis.com
 domain:musicdaddy.net
 domain:musicktab.com
+domain:musicpro.monster
 domain:musicspire.online
 domain:musicstock.me
 domain:musicvidz.ru
@@ -4486,6 +4488,7 @@ domain:phpdevops.com
 domain:phrcialiled.com
 domain:phuketscreen.com
 domain:physfunc.ru
+domain:pic-re.blogspot.com
 domain:pic2fly.com
 domain:piccdata.com
 domain:piccshare.com
@@ -6064,6 +6067,7 @@ domain:torrentgamer.net
 domain:torrentred.games
 domain:torrents-tracker.com
 domain:torrents.cd
+domain:torrents.life
 domain:torrnada.ru
 domain:torture.ml
 domain:totu.info
