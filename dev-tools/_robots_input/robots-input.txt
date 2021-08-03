@@ -492,6 +492,7 @@ WWW-Collector-E
 WWW-Mechanize
 WWW::Mechanize
 WWWOFFLE
+Wallpapers
 Wallpapers/3.0
 WallpapersHD
 WeSEE
