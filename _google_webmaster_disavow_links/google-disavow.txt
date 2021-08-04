@@ -3430,6 +3430,7 @@ domain:leftofcentrist.com
 domain:legalrc.biz
 domain:legionalpha.com
 domain:lego4x4.ru
+domain:lemon-ade.site
 domain:lennatin.info
 domain:lenpipet.ru
 domain:lenvred.org
@@ -3994,6 +3995,7 @@ domain:my-big-family.com
 domain:my-cash-bot.co
 domain:my-floor.in.ua
 domain:myanyone.net
+domain:mybackgroundlandscape.blogspot.com
 domain:mybinaryoptionsrobot.com
 domain:myblogregistercm.tk
 domain:mycaf.it

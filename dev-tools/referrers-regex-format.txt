@@ -3430,6 +3430,7 @@
 "~*(?:\b)legalrc\.biz(?:\b)" 	1;
 "~*(?:\b)legionalpha\.com(?:\b)" 	1;
 "~*(?:\b)lego4x4\.ru(?:\b)" 	1;
+"~*(?:\b)lemon\-ade\.site(?:\b)" 	1;
 "~*(?:\b)lennatin\.info(?:\b)" 	1;
 "~*(?:\b)lenpipet\.ru(?:\b)" 	1;
 "~*(?:\b)lenvred\.org(?:\b)" 	1;
@@ -3994,6 +3995,7 @@
 "~*(?:\b)my\-cash\-bot\.co(?:\b)" 	1;
 "~*(?:\b)my\-floor\.in\.ua(?:\b)" 	1;
 "~*(?:\b)myanyone\.net(?:\b)" 	1;
+"~*(?:\b)mybackgroundlandscape\.blogspot\.com(?:\b)" 	1;
 "~*(?:\b)mybinaryoptionsrobot\.com(?:\b)" 	1;
 "~*(?:\b)myblogregistercm\.tk(?:\b)" 	1;
 "~*(?:\b)mycaf\.it(?:\b)" 	1;
