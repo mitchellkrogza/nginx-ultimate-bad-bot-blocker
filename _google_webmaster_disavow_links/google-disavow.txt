@@ -3494,6 +3494,7 @@ domain:lion.conboy.us
 domain:lion.misba.us
 domain:lion.playtap.us
 domain:lion.snapmap.us
+domain:lionking-1994.blogspot.com
 domain:liquimondo.com
 domain:liran-locks.com
 domain:lirunet.ru
@@ -4459,6 +4460,7 @@ domain:pepperstyle.ru
 domain:percin.biz.ly
 domain:perederni.net
 domain:perfection-pleasure.ru
+domain:perfectplanned.com
 domain:perfectpracticeweb.com
 domain:perl.dp.ua
 domain:perm-profnastil.ru
@@ -6088,6 +6090,7 @@ domain:tozup.com
 domain:tpu.ru
 domain:tracfone.com
 domain:track-rankings.online
+domain:track.deriv.com
 domain:track112.site
 domain:track2.shop
 domain:tracklead.net

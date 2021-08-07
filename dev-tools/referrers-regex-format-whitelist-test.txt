@@ -3494,6 +3494,7 @@
 "~*(?:\b)lion\.misba\.us(?:\b)" 	0;
 "~*(?:\b)lion\.playtap\.us(?:\b)" 	0;
 "~*(?:\b)lion\.snapmap\.us(?:\b)" 	0;
+"~*(?:\b)lionking\-1994\.blogspot\.com(?:\b)" 	0;
 "~*(?:\b)liquimondo\.com(?:\b)" 	0;
 "~*(?:\b)liran\-locks\.com(?:\b)" 	0;
 "~*(?:\b)lirunet\.ru(?:\b)" 	0;
@@ -4459,6 +4460,7 @@
 "~*(?:\b)percin\.biz\.ly(?:\b)" 	0;
 "~*(?:\b)perederni\.net(?:\b)" 	0;
 "~*(?:\b)perfection\-pleasure\.ru(?:\b)" 	0;
+"~*(?:\b)perfectplanned\.com(?:\b)" 	0;
 "~*(?:\b)perfectpracticeweb\.com(?:\b)" 	0;
 "~*(?:\b)perl\.dp\.ua(?:\b)" 	0;
 "~*(?:\b)perm\-profnastil\.ru(?:\b)" 	0;
@@ -6088,6 +6090,7 @@
 "~*(?:\b)tpu\.ru(?:\b)" 	0;
 "~*(?:\b)tracfone\.com(?:\b)" 	0;
 "~*(?:\b)track\-rankings\.online(?:\b)" 	0;
+"~*(?:\b)track\.deriv\.com(?:\b)" 	0;
 "~*(?:\b)track112\.site(?:\b)" 	0;
 "~*(?:\b)track2\.shop(?:\b)" 	0;
 "~*(?:\b)tracklead\.net(?:\b)" 	0;
