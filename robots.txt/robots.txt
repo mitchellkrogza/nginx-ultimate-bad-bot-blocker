@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.08.2510
-### Updated: Sun Aug  8 08:39:08 UTC 2021
-### Bad Bot Count: 618
+### Version: V4.2021.08.2511
+### Updated: Sun Aug  8 09:36:43 UTC 2021
+### Bad Bot Count: 620
 ###################################################
 ### Version Information ##
 
@@ -194,6 +194,8 @@ Disallow:/
 User-agent: Cosmos
 Disallow:/
 User-agent: Craftbot
+Disallow:/
+User-agent: Crawling at Home Project
 Disallow:/
 User-agent: CrazyWebCrawler
 Disallow:/
@@ -1134,6 +1136,8 @@ Disallow:/
 User-agent: autoemailspider
 Disallow:/
 User-agent: backlink-check
+Disallow:/
+User-agent: cah.io.community
 Disallow:/
 User-agent: check1.exe
 Disallow:/
