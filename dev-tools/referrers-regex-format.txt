@@ -1091,6 +1091,7 @@
 "~*(?:\b)cablecar\.us(?:\b)" 	1;
 "~*(?:\b)cacheimages\.com(?:\b)" 	1;
 "~*(?:\b)cactussoft\.biz(?:\b)" 	1;
+"~*(?:\b)cah\.io\.community(?:\b)" 	1;
 "~*(?:\b)cakemediahq\.com\.au(?:\b)" 	1;
 "~*(?:\b)cakesplus\.com\.au(?:\b)" 	1;
 "~*(?:\b)calc\-for\-credit\.ru(?:\b)" 	1;
@@ -1379,6 +1380,7 @@
 "~*(?:\b)comeondog\.info(?:\b)" 	1;
 "~*(?:\b)cometorussia\.net(?:\b)" 	1;
 "~*(?:\b)comissionka\.net(?:\b)" 	1;
+"~*(?:\b)commoncrawl\.org(?:\b)" 	1;
 "~*(?:\b)communisave\.co\.za(?:\b)" 	1;
 "~*(?:\b)community\.allhiphop\.com(?:\b)" 	1;
 "~*(?:\b)companies\-catalog\.com(?:\b)" 	1;
