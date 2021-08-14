@@ -4560,6 +4560,7 @@
 "~*(?:\b)pl\-vouchers\.com(?:\b)" 	1;
 "~*(?:\b)pl\.aasoldes\.fr(?:\b)" 	1;
 "~*(?:\b)pl\.id\-forex\.com(?:\b)" 	1;
+"~*(?:\b)placid\-rounded\-coast\.glitch\.me(?:\b)" 	1;
 "~*(?:\b)pladform\.ru(?:\b)" 	1;
 "~*(?:\b)plaff\-go\.ru(?:\b)" 	1;
 "~*(?:\b)plastgran\.com(?:\b)" 	1;

@@ -561,6 +561,7 @@ autoemailspider
 backlink-check
 cah.io.community
 check1.exe
+clark-crawler
 coccocbot-web
 cognitiveseo
 com.plumanalytics
@@ -613,6 +614,8 @@ trendiction.de
 ubermetrics-technologies.com
 voyagerx.com
 webmeup-crawler
+webpros.com
+webprosbot
 x09Mozilla
 x22Mozilla
 xpymep1.exe

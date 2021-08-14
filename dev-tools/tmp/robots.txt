@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.08.2523
-### Updated: Fri Aug 13 22:01:39 UTC 2021
-### Bad Bot Count: 620
+### Version: V4.2021.08.2524
+### Updated: Sat Aug 14 07:57:29 UTC 2021
+### Bad Bot Count: 623
 ###################################################
 ### Version Information ##
 
@@ -1141,6 +1141,8 @@ User-agent: cah.io.community
 Disallow:/
 User-agent: check1.exe
 Disallow:/
+User-agent: clark-crawler
+Disallow:/
 User-agent: coccocbot-web
 Disallow:/
 User-agent: cognitiveseo
@@ -1244,6 +1246,10 @@ Disallow:/
 User-agent: voyagerx.com
 Disallow:/
 User-agent: webmeup-crawler
+Disallow:/
+User-agent: webpros.com
+Disallow:/
+User-agent: webprosbot
 Disallow:/
 User-agent: x09Mozilla
 Disallow:/
