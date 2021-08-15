@@ -345,7 +345,6 @@ domain:alibestsale.com
 domain:alice.it
 domain:alienwheel.es
 domain:alienwheels.de
-domain:aliexpress.com
 domain:aliexpresscashback.club
 domain:alif-ba-ta.com
 domain:alive-ua.com

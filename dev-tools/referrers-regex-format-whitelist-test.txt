@@ -345,7 +345,6 @@
 "~*(?:\b)alice\.it(?:\b)" 	0;
 "~*(?:\b)alienwheel\.es(?:\b)" 	0;
 "~*(?:\b)alienwheels\.de(?:\b)" 	0;
-"~*(?:\b)aliexpress\.com(?:\b)" 	0;
 "~*(?:\b)aliexpresscashback\.club(?:\b)" 	0;
 "~*(?:\b)alif\-ba\-ta\.com(?:\b)" 	0;
 "~*(?:\b)alive\-ua\.com(?:\b)" 	0;
