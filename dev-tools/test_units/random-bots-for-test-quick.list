@@ -1,10 +1,10 @@
-Anarchy
-DomainAppender
-DomainCrawler
+Bigfoot
+Buck
+DIIbot
+Foobot
 Grabber
-MTRobot
-Mass Downloader
-RankingBot
-TightTwatBot
-domainsproject.org
-meanpathbot
+LWP::Simple
+Musobot
+SeobilityBot
+Whatweb
+autoemailspider
