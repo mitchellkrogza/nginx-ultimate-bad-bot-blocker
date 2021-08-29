@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.08.2555
-### Updated: Sat Aug 28 22:01:30 UTC 2021
-### Bad Bot Count: 623
+### Version: V4.2021.08.2556
+### Updated: Sun Aug 29 07:43:26 UTC 2021
+### Bad Bot Count: 624
 ###################################################
 ### Version Information ##
 
@@ -1154,6 +1154,8 @@ Disallow:/
 User-agent: crawler.feedback
 Disallow:/
 User-agent: crawler4j
+Disallow:/
+User-agent: dataforseo.com
 Disallow:/
 User-agent: demandbase-bot
 Disallow:/

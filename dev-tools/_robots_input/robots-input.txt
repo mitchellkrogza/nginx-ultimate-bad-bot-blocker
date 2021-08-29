@@ -568,6 +568,7 @@ com.plumanalytics
 crawl.sogou.com
 crawler.feedback
 crawler4j
+dataforseo.com
 demandbase-bot
 domainsproject.org
 eCatch
