@@ -2501,7 +2501,6 @@ domain:gheus.altervista.org
 domain:ghostvisitor.com
 domain:gidonline.one
 domain:gifspics.com
-domain:gigablast.com
 domain:gigapeta.com
 domain:gigixo.com
 domain:gilbertbanda.net

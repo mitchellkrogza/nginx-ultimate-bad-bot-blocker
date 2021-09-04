@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.09.2569
-### Updated: Sat Sep  4 10:03:39 UTC 2021
-### Bad Bot Count: 624
+### Version: V4.2021.09.2570
+### Updated: Sat Sep  4 11:58:58 UTC 2021
+### Bad Bot Count: 623
 ###################################################
 ### Version Information ##
 
@@ -340,8 +340,6 @@ Disallow:/
 User-agent: GetWeb
 Disallow:/
 User-agent: Getintent
-Disallow:/
-User-agent: Gigablast
 Disallow:/
 User-agent: Gigabot
 Disallow:/

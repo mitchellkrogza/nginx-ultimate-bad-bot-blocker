@@ -2501,7 +2501,6 @@
 "~*(?:\b)ghostvisitor\.com(?:\b)" 	1;
 "~*(?:\b)gidonline\.one(?:\b)" 	1;
 "~*(?:\b)gifspics\.com(?:\b)" 	1;
-"~*(?:\b)gigablast\.com(?:\b)" 	1;
 "~*(?:\b)gigapeta\.com(?:\b)" 	1;
 "~*(?:\b)gigixo\.com(?:\b)" 	1;
 "~*(?:\b)gilbertbanda\.net(?:\b)" 	1;

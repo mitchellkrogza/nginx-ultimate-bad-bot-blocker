@@ -161,7 +161,6 @@ GermCrawler
 GetRight
 GetWeb
 Getintent
-Gigablast
 Gigabot
 Go!Zilla
 Go-Ahead-Got-It
