@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.10.2661
-### Updated: Tue Oct 19 22:03:00 UTC 2021
-### Bad Bot Count: 623
+### Version: V4.2021.10.2662
+### Updated: Wed Oct 20 05:20:25 UTC 2021
+### Bad Bot Count: 624
 ###################################################
 ### Version Information ##
 
@@ -242,6 +242,8 @@ Disallow:/
 User-agent: Dispatch
 Disallow:/
 User-agent: DittoSpyder
+Disallow:/
+User-agent: DnBCrawler-Analytics
 Disallow:/
 User-agent: DnyzBot
 Disallow:/

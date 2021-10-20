@@ -112,6 +112,7 @@ Discobot
 Discoverybot
 Dispatch
 DittoSpyder
+DnBCrawler-Analytics
 DnyzBot
 DomCopBot
 DomainAppender
