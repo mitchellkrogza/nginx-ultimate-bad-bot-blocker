@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.11.2707
-### Updated: Thu Nov 11 10:03:29 UTC 2021
-### Bad Bot Count: 624
+### Version: V4.2021.11.2708
+### Updated: Thu Nov 11 11:15:41 UTC 2021
+### Bad Bot Count: 626
 ###################################################
 ### Version Information ##
 
@@ -1127,6 +1127,8 @@ User-agent: ZumBot
 Disallow:/
 User-agent: ZyBorg
 Disallow:/
+User-agent: adscanner
+Disallow:/
 User-agent: archive.org_bot
 Disallow:/
 User-agent: arquivo-web-crawler
@@ -1216,6 +1218,8 @@ Disallow:/
 User-agent: scan.lol
 Disallow:/
 User-agent: seobility
+Disallow:/
+User-agent: seocompany.store
 Disallow:/
 User-agent: seoscanners
 Disallow:/

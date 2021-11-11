@@ -554,6 +554,7 @@ ZoomBot
 ZoominfoBot
 ZumBot
 ZyBorg
+adscanner
 archive.org_bot
 arquivo-web-crawler
 arquivo.pt
@@ -599,6 +600,7 @@ satoristudio.net
 scalaj-http
 scan.lol
 seobility
+seocompany.store
 seoscanners
 seostar
 serpstatbot
