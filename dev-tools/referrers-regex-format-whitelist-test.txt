@@ -1855,7 +1855,6 @@
 "~*(?:\b)ecookna\.com\.ua(?:\b)" 	0;
 "~*(?:\b)ecxtracking\.com(?:\b)" 	0;
 "~*(?:\b)ed\-shop01\.ru(?:\b)" 	0;
-"~*(?:\b)edelstahlschornstein\-123\.de(?:\b)" 	0;
 "~*(?:\b)edge\.sharethis\.com(?:\b)" 	0;
 "~*(?:\b)editmedios\.com(?:\b)" 	0;
 "~*(?:\b)editors\.choice6912650\.hulfingtonpost\.com(?:\b)" 	0;
