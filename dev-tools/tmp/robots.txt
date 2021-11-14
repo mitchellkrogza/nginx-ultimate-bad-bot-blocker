@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.11.2713
-### Updated: Sat Nov 13 22:01:13 UTC 2021
-### Bad Bot Count: 626
+### Version: V4.2021.11.2714
+### Updated: Sun Nov 14 08:26:19 UTC 2021
+### Bad Bot Count: 627
 ###################################################
 ### Version Information ##
 
@@ -810,6 +810,8 @@ Disallow:/
 User-agent: Searchestate
 Disallow:/
 User-agent: SearchmetricsBot
+Disallow:/
+User-agent: SemanticJuice
 Disallow:/
 User-agent: Semrush
 Disallow:/
