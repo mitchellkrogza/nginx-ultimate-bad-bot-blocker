@@ -3556,6 +3556,7 @@ domain:longadventure.com
 domain:longgreen.info
 domain:longlifelomilomi.info
 domain:lookingglassemb.com
+domain:lordzfilmz.me
 domain:losangeles-ads.com
 domain:lost-alpha.ru
 domain:lostaruban.com
@@ -5054,6 +5055,7 @@ domain:roznica.com.ua
 domain:rp9.ru
 domain:rrutw.com
 domain:ru-dety.ru
+domain:ru-mediaget.ru
 domain:rubanners.com
 domain:rubbed.us
 domain:ruclicks.com

@@ -3556,6 +3556,7 @@
 "~*(?:\b)longgreen\.info(?:\b)" 	1;
 "~*(?:\b)longlifelomilomi\.info(?:\b)" 	1;
 "~*(?:\b)lookingglassemb\.com(?:\b)" 	1;
+"~*(?:\b)lordzfilmz\.me(?:\b)" 	1;
 "~*(?:\b)losangeles\-ads\.com(?:\b)" 	1;
 "~*(?:\b)lost\-alpha\.ru(?:\b)" 	1;
 "~*(?:\b)lostaruban\.com(?:\b)" 	1;
@@ -5054,6 +5055,7 @@
 "~*(?:\b)rp9\.ru(?:\b)" 	1;
 "~*(?:\b)rrutw\.com(?:\b)" 	1;
 "~*(?:\b)ru\-dety\.ru(?:\b)" 	1;
+"~*(?:\b)ru\-mediaget\.ru(?:\b)" 	1;
 "~*(?:\b)rubanners\.com(?:\b)" 	1;
 "~*(?:\b)rubbed\.us(?:\b)" 	1;
 "~*(?:\b)ruclicks\.com(?:\b)" 	1;
