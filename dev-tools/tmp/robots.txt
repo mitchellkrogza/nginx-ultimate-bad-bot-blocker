@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.11.2732
-### Updated: Tue Nov 23 10:03:14 UTC 2021
-### Bad Bot Count: 627
+### Version: V4.2021.11.2733
+### Updated: Thu Nov 25 02:45:11 UTC 2021
+### Bad Bot Count: 629
 ###################################################
 ### Version Information ##
 
@@ -575,6 +575,8 @@ User-agent: Microsoft Data Access
 Disallow:/
 User-agent: Microsoft URL Control
 Disallow:/
+User-agent: Minefield
+Disallow:/
 User-agent: Mister PiX
 Disallow:/
 User-agent: Moblie Safari
@@ -642,6 +644,8 @@ Disallow:/
 User-agent: Ninja
 Disallow:/
 User-agent: Nmap
+Disallow:/
+User-agent: Not
 Disallow:/
 User-agent: Nuclei
 Disallow:/

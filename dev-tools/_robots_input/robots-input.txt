@@ -278,6 +278,7 @@ Metauri
 MicroMessenger
 Microsoft Data Access
 Microsoft URL Control
+Minefield
 Mister PiX
 Moblie Safari
 Mojeek
@@ -312,6 +313,7 @@ NimbleCrawler
 Nimbostratus
 Ninja
 Nmap
+Not
 Nuclei
 Nutch
 Octopus
