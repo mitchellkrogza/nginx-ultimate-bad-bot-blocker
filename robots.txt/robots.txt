@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.11.2737
-### Updated: Thu Nov 25 22:01:29 UTC 2021
-### Bad Bot Count: 629
+### Version: V4.2021.11.2738
+### Updated: Fri Nov 26 07:32:46 UTC 2021
+### Bad Bot Count: 630
 ###################################################
 ### Version Information ##
 
@@ -1256,6 +1256,8 @@ Disallow:/
 User-agent: ubermetrics-technologies.com
 Disallow:/
 User-agent: voyagerx.com
+Disallow:/
+User-agent: webgains-bot
 Disallow:/
 User-agent: webmeup-crawler
 Disallow:/

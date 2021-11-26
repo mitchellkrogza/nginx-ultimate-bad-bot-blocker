@@ -619,6 +619,7 @@ trendiction.com
 trendiction.de
 ubermetrics-technologies.com
 voyagerx.com
+webgains-bot
 webmeup-crawler
 webpros.com
 webprosbot
