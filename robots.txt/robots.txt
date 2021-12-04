@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2021.12.2754
-### Updated: Fri Dec  3 22:01:37 UTC 2021
-### Bad Bot Count: 630
+### Version: V4.2021.12.2755
+### Updated: Sat Dec  4 07:57:54 UTC 2021
+### Bad Bot Count: 631
 ###################################################
 ### Version Information ##
 
@@ -172,6 +172,8 @@ Disallow:/
 User-agent: ChinaClaw
 Disallow:/
 User-agent: Chlooe
+Disallow:/
+User-agent: Citoid
 Disallow:/
 User-agent: Claritybot
 Disallow:/
