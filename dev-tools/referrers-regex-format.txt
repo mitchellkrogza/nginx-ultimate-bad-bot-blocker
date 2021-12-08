@@ -5742,6 +5742,7 @@
 "~*(?:\b)studiokamyk\.com\.pl(?:\b)" 	1;
 "~*(?:\b)studworks\.org(?:\b)" 	1;
 "~*(?:\b)stuff\-about\-money\.com(?:\b)" 	1;
+"~*(?:\b)stuffpride\.com(?:\b)" 	1;
 "~*(?:\b)styro\.ru(?:\b)" 	1;
 "~*(?:\b)subj\.ukr\-lit\.com(?:\b)" 	1;
 "~*(?:\b)success\-seo\.com(?:\b)" 	1;
