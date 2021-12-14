@@ -2028,6 +2028,7 @@ domain:ewebarticle.info
 domain:excaliburfilms.com
 domain:exchangeit.gq
 domain:exchanges-bet.com
+domain:exci.ru
 domain:excitacao.com
 domain:excitacion.info
 domain:exct.net
@@ -3821,6 +3822,7 @@ domain:mirzonru.net
 domain:misandesign.se
 domain:missclub.info
 domain:missis.top
+domain:misslike.ru
 domain:missvietnam.org
 domain:misswell.net
 domain:mister-shop.com
@@ -3964,6 +3966,7 @@ domain:muizre.ru
 domain:mulberryoutletonlineeu.com
 domain:multgo.ru
 domain:mundoaberrante.com
+domain:mural.co
 domain:muschisexbilder.com
 domain:musezone.ru
 domain:musezone.su
@@ -5631,6 +5634,7 @@ domain:speedup-my.site
 domain:spidtest.org
 domain:spidtest.space
 domain:spin2016.cf
+domain:spinazdrav.ru
 domain:spinnerco.ca
 domain:spitfiremusic.com
 domain:spl63.fr

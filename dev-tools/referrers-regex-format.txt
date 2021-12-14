@@ -2028,6 +2028,7 @@
 "~*(?:\b)excaliburfilms\.com(?:\b)" 	1;
 "~*(?:\b)exchangeit\.gq(?:\b)" 	1;
 "~*(?:\b)exchanges\-bet\.com(?:\b)" 	1;
+"~*(?:\b)exci\.ru(?:\b)" 	1;
 "~*(?:\b)excitacao\.com(?:\b)" 	1;
 "~*(?:\b)excitacion\.info(?:\b)" 	1;
 "~*(?:\b)exct\.net(?:\b)" 	1;
@@ -3821,6 +3822,7 @@
 "~*(?:\b)misandesign\.se(?:\b)" 	1;
 "~*(?:\b)missclub\.info(?:\b)" 	1;
 "~*(?:\b)missis\.top(?:\b)" 	1;
+"~*(?:\b)misslike\.ru(?:\b)" 	1;
 "~*(?:\b)missvietnam\.org(?:\b)" 	1;
 "~*(?:\b)misswell\.net(?:\b)" 	1;
 "~*(?:\b)mister\-shop\.com(?:\b)" 	1;
@@ -3964,6 +3966,7 @@
 "~*(?:\b)mulberryoutletonlineeu\.com(?:\b)" 	1;
 "~*(?:\b)multgo\.ru(?:\b)" 	1;
 "~*(?:\b)mundoaberrante\.com(?:\b)" 	1;
+"~*(?:\b)mural\.co(?:\b)" 	1;
 "~*(?:\b)muschisexbilder\.com(?:\b)" 	1;
 "~*(?:\b)musezone\.ru(?:\b)" 	1;
 "~*(?:\b)musezone\.su(?:\b)" 	1;
@@ -5631,6 +5634,7 @@
 "~*(?:\b)spidtest\.org(?:\b)" 	1;
 "~*(?:\b)spidtest\.space(?:\b)" 	1;
 "~*(?:\b)spin2016\.cf(?:\b)" 	1;
+"~*(?:\b)spinazdrav\.ru(?:\b)" 	1;
 "~*(?:\b)spinnerco\.ca(?:\b)" 	1;
 "~*(?:\b)spitfiremusic\.com(?:\b)" 	1;
 "~*(?:\b)spl63\.fr(?:\b)" 	1;
