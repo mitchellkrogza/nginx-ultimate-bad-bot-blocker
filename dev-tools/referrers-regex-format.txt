@@ -154,6 +154,7 @@
 "~*(?:\b)999webdesign\.com(?:\b)" 	1;
 "~*(?:\b)9icmzvn6\.website(?:\b)" 	1;
 "~*(?:\b)9med\.net(?:\b)" 	1;
+"~*(?:\b)DomainStatsBot(?:\b)" 	1;
 "~*(?:\b)a14download\.com(?:\b)" 	1;
 "~*(?:\b)a1security\.com\.ua(?:\b)" 	1;
 "~*(?:\b)a96527gi\.beget\.tech(?:\b)" 	1;
@@ -2869,6 +2870,7 @@
 "~*(?:\b)i\-service\.kz(?:\b)" 	1;
 "~*(?:\b)iamsport\.org(?:\b)" 	1;
 "~*(?:\b)ibb\.com\.ua(?:\b)" 	1;
+"~*(?:\b)iblogpress\.xyz(?:\b)" 	1;
 "~*(?:\b)ibmdatamanagement\.co(?:\b)" 	1;
 "~*(?:\b)iboss\.com(?:\b)" 	1;
 "~*(?:\b)icaseclub\.ru(?:\b)" 	1;
