@@ -1,5 +1,9 @@
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/_logo_nginx_bad_bot_blocker.png" alt="Nginx Ultimate Bad Bot Spam Referrer Blocker - Nginx Block Bad Bots, Vulnerability Scanners, Malware and Adware, Malicious Sites, Spam Referrers, Bad Referrers, Spam Blocker with DDOS, Wordpress Theme Detector Blocking and Fail2Ban Jail for Repeat Offenders"/>
 
+| SPONSORS |
+| :--: |
+| [<img alt="Tines Sponsorship" width="140px" src="https://github.com/mitchellkrogza/Phishing.Database/raw/master/assets/Tines-Sponsorship-Badge-Purple.png" />](https://www.tines.com/?utm_source=oss&utm_medium=sponsorship&utm_campaign=phishfindr) |
+
 | REPO | BECOME A SPONSOR |
 | :--: | :--: |
 | [![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/LICENSE.md) | Your logo and link to your domain will appear here if you become a sponsor. Simply email me on mitchellkrog@gmail.com if you would like to sponsor this project as South Africa is not supported yet under the Github sponsor program. |
