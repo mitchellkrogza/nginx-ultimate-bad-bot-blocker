@@ -76,6 +76,7 @@ _input9=./_generator_lists/nibbler-seo.list
 _input10=./_generator_lists/cloudflare-ip-ranges.list
 _input11=./_generator_lists/bad-ip-addresses.list
 _input12=./_generator_lists/fake-googlebots.list
+_input13=./_generator_lists/seo-analysis-tools.list
 
 
 # *******************************************************
@@ -95,6 +96,7 @@ _inputdb9=/tmp/nibbler-seo.db
 _inputdb10=/tmp/cloudflare-ip-ranges.db
 _inputdb11=/tmp/bad-ip-addresses.db
 _inputdb12=/tmp/fake-googlebots.db
+_inputdb13=/tmp/seo-analysis.db
 
 # **************************************************
 # Declare temporary variables used during generation
@@ -114,6 +116,7 @@ _tmpnginx9=_tmpnginx9
 _tmpnginx10=_tmpnginx10
 _tmpnginx11=_tmpnginx11
 _tmpnginx12=_tmpnginx12
+_tmpnginx13=_tmpnginx13
 
 # *************************************************************
 # Sort all input lists alphabetically and remove any duplicates
@@ -131,6 +134,7 @@ sort -u ${_input9} -o ${_input9}
 sort -u ${_input10} -o ${_input10}
 sort -u ${_input11} -o ${_input11}
 sort -u ${_input12} -o ${_input12}
+sort -u ${_input13} -o ${_input13}
 
 # ***************************************************************
 # Start and End Strings to Search for to do inserts into template
@@ -160,6 +164,8 @@ _start11="# START KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###"
 _end11="# END KNOWN BAD IP ADDRESSES ### DO NOT EDIT THIS LINE AT ALL ###"
 _start12="# START FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###"
 _end12="# END FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###"
+_start13="# START SEO ANALYSIS TOOLS ### DO NOT EDIT THIS LINE AT ALL ###"
+_end13="# END SEO ANALYSIS TOOLS ### DO NOT EDIT THIS LINE AT ALL ###"
 _startmarker="### VERSION INFORMATION #"
 _endmarker="### VERSION INFORMATION ##"
 
@@ -454,14 +460,40 @@ ed -s ${_inputdb12}<<\IN
 1,/# START FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/d
 /# END FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
 ,d
-.r ./dev-tools/globalblacklist-testing.template
+.r ./dev-tools/globalblacklist.template
 /# START FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/x
 .t.
 .,/# END FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###/-d
-w ./dev-tools/globalblacklist-testing.template
+w ./dev-tools/globalblacklist.template
 q
 IN
 rm ${_inputdb12}
+
+
+# **************************************
+# SEO ANALYSIS TOOLS - Create and Insert
+# **************************************
+
+printf '%s\n' "$_start13" >> ${_tmpnginx13}
+while IFS= read -r LINE
+do
+printf '\t%s\t\t%s\n' "${LINE}" "$_action2" >> ${_tmpnginx13}
+done < ${_input13}
+printf '%s\n' "$_end13"  >> ${_tmpnginx13}
+mv ${_tmpnginx13} ${_inputdb13}
+ed -s ${_inputdb13}<<\IN
+1,/# START SEO ANALYSIS TOOLS ### DO NOT EDIT THIS LINE AT ALL ###/d
+/# END SEO ANALYSIS TOOLS ### DO NOT EDIT THIS LINE AT ALL ###/,$d
+,d
+.r ./dev-tools/globalblacklist.template
+/# START SEO ANALYSIS TOOLS ### DO NOT EDIT THIS LINE AT ALL ###/x
+.t.
+.,/# END SEO ANALYSIS TOOLS ### DO NOT EDIT THIS LINE AT ALL ###/-d
+w ./dev-tools/globalblacklist.template
+q
+IN
+rm ${_inputdb12}
+
 
 # *******************************************************************************
 # PRINT VERSION, SCRIPT RUNTIME and UPDATE INFORMATION INTO GLOBALBLACKLIST FILES
