@@ -21,7 +21,7 @@ ____________________
 
 ## Help Support This Project 
 
-[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://www.buymeacoffee.com/mitchellkrog)
 
 ************************************************
 - Created by: [Mitchell Krog](https://github.com/mitchellkrogza) for use on [Nginx Web Server](https://www.nginx.com/)
@@ -343,7 +343,7 @@ All include files are commented for your convenience.
 ************************************************
 ## If This This Project helped you out, help support it 
 
-[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://www.buymeacoffee.com/mitchellkrog)
 
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-10.png"/>
@@ -472,7 +472,7 @@ Definition of Bad Bots
 
 Thousand of hours of programming and testing have gone into this project, show some love
 
-[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://www.buymeacoffee.com/mitchellkrog)
 
 ************************************************
 ## Welcome to the Ultimate Nginx Bad Bot, User-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Click-Jacking Blocker, Click-Redirect Blocker and Bad IP Blocker with Anti DDOS System, Nginx Rate Limiting and Wordpress Theme Detector Blocking.
@@ -701,7 +701,7 @@ Not Using Nginx Web Server? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](
 
 Thousand of hours of programming and testing have gone into this project, show some love
 
-[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://www.buymeacoffee.com/mitchellkrog)
 
 ************************************************
 # HAS YOUR WEB SITE BEEN HACKED?
@@ -771,7 +771,7 @@ If you believe your name should be here, drop me a line.
 
 Thousand of hours of programming and testing have gone into this project, show some love
 
-[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
+[<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://www.buymeacoffee.com/mitchellkrog)
 
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/zuko.png"/>
 
