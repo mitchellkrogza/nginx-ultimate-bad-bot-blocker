@@ -5170,6 +5170,7 @@
 "~*(?:\b)sbwealthsolutions\.ca(?:\b)" 	1;
 "~*(?:\b)sc\-specialhost\.com(?:\b)" 	1;
 "~*(?:\b)scalerite\.co\.za(?:\b)" 	1;
+"~*(?:\b)scanhub\.ru(?:\b)" 	1;
 "~*(?:\b)scanmarine\.info(?:\b)" 	1;
 "~*(?:\b)scanmyphones\.com(?:\b)" 	1;
 "~*(?:\b)scanner\-alex\.top(?:\b)" 	1;
