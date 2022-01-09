@@ -1,7 +1,5 @@
 AdsBot-Google
 Applebot
-adidxbot
-aolbuild
 DoCoMo
 Feedfetcher-Google
 Google-HTTP-Java-Client
@@ -21,6 +19,9 @@ Slackbot
 Slackbot-LinkExpanding
 TwitterBot
 Wordpress
+adidxbot
+aolbuild
+bing
 bingbot
 bingpreview
 developers.facebook.com
@@ -33,4 +34,3 @@ msnbot-media
 slurp
 teoma
 yahoo
-bing

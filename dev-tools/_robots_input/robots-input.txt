@@ -399,6 +399,7 @@ ScreenerBot
 ScrepyBot
 Searchestate
 SearchmetricsBot
+Seekport
 SemanticJuice
 Semrush
 SemrushBot
