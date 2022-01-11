@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2022.01.2845
-### Updated: Mon Jan 10 22:01:21 UTC 2022
-### Bad Bot Count: 632
+### Version: V4.2022.01.2846
+### Updated: Tue Jan 11 07:17:53 UTC 2022
+### Bad Bot Count: 633
 ###################################################
 ### Version Information ##
 
@@ -1190,6 +1190,8 @@ Disallow:/
 User-agent: ips-agent
 Disallow:/
 User-agent: isitwp.com
+Disallow:/
+User-agent: iubenda-radar
 Disallow:/
 User-agent: lwp-request
 Disallow:/
