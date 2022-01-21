@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2022.01.2866
-### Updated: Thu Jan 20 22:01:41 UTC 2022
-### Bad Bot Count: 633
+### Version: V4.2022.01.2867
+### Updated: Fri Jan 21 08:34:09 UTC 2022
+### Bad Bot Count: 636
 ###################################################
 ### Version Information ##
 
@@ -72,6 +72,8 @@ Disallow:/
 User-agent: Aspiegel
 Disallow:/
 User-agent: Asterias
+Disallow:/
+User-agent: Atomseobot
 Disallow:/
 User-agent: Attach
 Disallow:/
@@ -389,6 +391,8 @@ User-agent: Heritrix
 Disallow:/
 User-agent: Hloader
 Disallow:/
+User-agent: HonoluluBot
+Disallow:/
 User-agent: Humanlinks
 Disallow:/
 User-agent: HybridBot
@@ -586,6 +590,8 @@ Disallow:/
 User-agent: Mojeek
 Disallow:/
 User-agent: Mojolicious
+Disallow:/
+User-agent: MolokaiBot
 Disallow:/
 User-agent: Morfeus Fucking Scanner
 Disallow:/
