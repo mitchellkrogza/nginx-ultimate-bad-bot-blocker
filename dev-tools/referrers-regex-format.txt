@@ -1835,6 +1835,7 @@
 "~*(?:\b)e\-kwiaciarz\.pl(?:\b)" 	1;
 "~*(?:\b)e\-poker\-2005\.com(?:\b)" 	1;
 "~*(?:\b)eachdayisagift\.review(?:\b)" 	1;
+"~*(?:\b)eager\-nash\.188\-93\-233\-196\.plesk\.page(?:\b)" 	1;
 "~*(?:\b)eandsgallery\.com(?:\b)" 	1;
 "~*(?:\b)eaplay\.ru(?:\b)" 	1;
 "~*(?:\b)earl\-brown\.info(?:\b)" 	1;
@@ -4449,6 +4450,7 @@
 "~*(?:\b)pcgroup\.com\.uy(?:\b)" 	1;
 "~*(?:\b)pcimforum\.com(?:\b)" 	1;
 "~*(?:\b)pdamods\.ru(?:\b)" 	1;
+"~*(?:\b)pdfprof\.com(?:\b)" 	1;
 "~*(?:\b)pdn\-4\.com(?:\b)" 	1;
 "~*(?:\b)pdns\.cz(?:\b)" 	1;
 "~*(?:\b)pdns\.download(?:\b)" 	1;
