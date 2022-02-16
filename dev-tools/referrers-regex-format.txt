@@ -3770,6 +3770,7 @@
 "~*(?:\b)message\-warning\.net(?:\b)" 	1;
 "~*(?:\b)mesto\-x\.com(?:\b)" 	1;
 "~*(?:\b)metabar\.ru(?:\b)" 	1;
+"~*(?:\b)metafilter\.com(?:\b)" 	1;
 "~*(?:\b)metallosajding\.ru(?:\b)" 	1;
 "~*(?:\b)metalonly\.info(?:\b)" 	1;
 "~*(?:\b)metarip\.ru(?:\b)" 	1;
