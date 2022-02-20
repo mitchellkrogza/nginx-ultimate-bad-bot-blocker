@@ -6121,6 +6121,7 @@
 "~*(?:\b)traffic2cash\.org(?:\b)" 	1;
 "~*(?:\b)traffic2money\.com(?:\b)" 	1;
 "~*(?:\b)traffic\-club\.info(?:\b)" 	1;
+"~*(?:\b)trafficcentr\.xyz(?:\b)" 	1;
 "~*(?:\b)trafficfactory\.biz(?:\b)" 	1;
 "~*(?:\b)trafficgenius\.xyz(?:\b)" 	1;
 "~*(?:\b)trafficjunky\.com(?:\b)" 	1;

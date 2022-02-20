@@ -6121,6 +6121,7 @@ domain:traffic-club.info
 domain:traffic100.com
 domain:traffic2cash.org
 domain:traffic2money.com
+domain:trafficcentr.xyz
 domain:trafficfactory.biz
 domain:trafficgenius.xyz
 domain:trafficjunky.com
