@@ -1358,6 +1358,7 @@
 "~*(?:\b)co\.lumb\.co(?:\b)" 	0;
 "~*(?:\b)coaching\-netz\.info(?:\b)" 	0;
 "~*(?:\b)cobaltpro\.ru(?:\b)" 	0;
+"~*(?:\b)coccoc\.com(?:\b)" 	0;
 "~*(?:\b)cocolyze\.com(?:\b)" 	0;
 "~*(?:\b)cocyq\.inwtrade\.com(?:\b)" 	0;
 "~*(?:\b)coderstate\.com(?:\b)" 	0;
