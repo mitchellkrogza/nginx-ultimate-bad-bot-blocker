@@ -4,8 +4,8 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V4.2022.02.2930
-### Updated: Sun Feb 20 10:05:18 UTC 2022
+### Version: V4.2022.02.2931
+### Updated: Sun Feb 20 10:31:52 UTC 2022
 ### Bad Referrer Count: 7090
 ### Bad Bot Count: 636
 ###################################################
@@ -720,7 +720,7 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)cah.io.community(?:\b)"		3;
 	"~*(?:\b)check1.exe(?:\b)"		3;
 	"~*(?:\b)clark-crawler(?:\b)"		3;
-	"~*(?:\b)coccocbot-web(?:\b)"		3;
+	"~*(?:\b)coccocbot(?:\b)"		3;
 	"~*(?:\b)cognitiveseo(?:\b)"		3;
 	"~*(?:\b)com.plumanalytics(?:\b)"		3;
 	"~*(?:\b)crawl.sogou.com(?:\b)"		3;
