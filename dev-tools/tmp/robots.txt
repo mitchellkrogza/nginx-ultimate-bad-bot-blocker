@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2022.03.2954
-### Updated: Wed Mar  2 22:01:33 UTC 2022
-### Bad Bot Count: 636
+### Version: V4.2022.03.2955
+### Updated: Thu Mar  3 09:34:02 UTC 2022
+### Bad Bot Count: 637
 ###################################################
 ### Version Information ##
 
@@ -458,6 +458,8 @@ Disallow:/
 User-agent: Jyxobot
 Disallow:/
 User-agent: Kenjin Spider
+Disallow:/
+User-agent: Keybot Translation-Search-Machine
 Disallow:/
 User-agent: Keyword Density
 Disallow:/
