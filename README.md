@@ -1,8 +1,9 @@
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/_logo_nginx_bad_bot_blocker.png" alt="Nginx Ultimate Bad Bot Spam Referrer Blocker - Nginx Block Bad Bots, Vulnerability Scanners, Malware and Adware, Malicious Sites, Spam Referrers, Bad Referrers, Spam Blocker with DDOS, Wordpress Theme Detector Blocking and Fail2Ban Jail for Repeat Offenders"/>
 
-| SPONSORS |
-| :--: |
-| [<img alt="Tines Sponsorship" width="140px" src="https://github.com/mitchellkrogza/Phishing.Database/raw/master/assets/Tines-Sponsorship-Badge-Purple.png" />](https://www.tines.com/?utm_source=oss&utm_medium=sponsorship&utm_campaign=phishfindr) |
+<table>
+  <tr><th colspan=2>SPONSORS</th></tr>
+  <tr><td><a href="https://www.tines.com/?utm_source=oss&utm_medium=sponsorship&utm_campaign=phishfindr"><img alt="Tines Sponsorship" width="140px" src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/Tines-Sponsorship-Badge-Purple.png" /></a></td><td><a href="https://limacharlie.io/?utm_source=nginx-bad-bot-blocker&utm_medium=banner"><img alt="Limacharlie Sponsorship" width="140px" src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/limacharlie-logo-sponsorship-logo.png" /></a></td></tr>
+</table>
 
 | REPO | BECOME A SPONSOR |
 | :--: | :--: |
