@@ -6,8 +6,8 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2022.04.3027
-### Updated: Wed Apr  6 22:01:21 UTC 2022
+### Version: V4.2022.04.3028
+### Updated: Thu Apr  7 07:12:39 UTC 2022
 ### Bad Bot Count: 637
 ###################################################
 ### Version Information ##
@@ -500,8 +500,6 @@ Disallow:/
 User-agent: LinkWalker
 Disallow:/
 User-agent: Linkbot
-Disallow:/
-User-agent: Linkdexbot
 Disallow:/
 User-agent: LinkextractorPro
 Disallow:/
@@ -1200,6 +1198,8 @@ Disallow:/
 User-agent: isitwp.com
 Disallow:/
 User-agent: iubenda-radar
+Disallow:/
+User-agent: linkdexbot
 Disallow:/
 User-agent: lwp-request
 Disallow:/

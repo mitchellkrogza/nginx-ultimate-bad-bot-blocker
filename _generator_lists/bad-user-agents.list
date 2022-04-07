@@ -241,7 +241,6 @@ Likse
 LinkScan
 LinkWalker
 Linkbot
-linkdexbot
 LinkextractorPro
 LinkpadBot
 LinksManager
@@ -591,6 +590,7 @@ internetVista\ monitor
 ips-agent
 isitwp.com
 iubenda-radar
+linkdexbot
 lwp-request
 lwp-trivial
 magpie-crawler
