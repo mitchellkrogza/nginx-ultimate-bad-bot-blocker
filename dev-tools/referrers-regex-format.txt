@@ -1579,6 +1579,7 @@
 "~*(?:\b)darodar\.com(?:\b)" 	1;
 "~*(?:\b)data1\.scopich\.com(?:\b)" 	1;
 "~*(?:\b)data\-mining\.tk(?:\b)" 	1;
+"~*(?:\b)data\-ox\.com(?:\b)" 	1;
 "~*(?:\b)data\.vtc\.pw(?:\b)" 	1;
 "~*(?:\b)datadepths\.com(?:\b)" 	1;
 "~*(?:\b)dataloading\.net(?:\b)" 	1;
@@ -4503,6 +4504,7 @@
 "~*(?:\b)physfunc\.ru(?:\b)" 	1;
 "~*(?:\b)pic2fly\.com(?:\b)" 	1;
 "~*(?:\b)pic\-re\.blogspot\.com(?:\b)" 	1;
+"~*(?:\b)picanalyzer\.data\-ox\.com(?:\b)" 	1;
 "~*(?:\b)piccdata\.com(?:\b)" 	1;
 "~*(?:\b)piccshare\.com(?:\b)" 	1;
 "~*(?:\b)picmoonco\.pw(?:\b)" 	1;

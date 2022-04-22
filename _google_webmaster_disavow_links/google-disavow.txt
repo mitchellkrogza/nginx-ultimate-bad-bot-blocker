@@ -1578,6 +1578,7 @@ domain:darkbooks.org
 domain:darmebel.com.ua
 domain:darodar.com
 domain:data-mining.tk
+domain:data-ox.com
 domain:data.vtc.pw
 domain:data1.scopich.com
 domain:datadepths.com
@@ -4503,6 +4504,7 @@ domain:phuketscreen.com
 domain:physfunc.ru
 domain:pic-re.blogspot.com
 domain:pic2fly.com
+domain:picanalyzer.data-ox.com
 domain:piccdata.com
 domain:piccshare.com
 domain:picmoonco.pw
