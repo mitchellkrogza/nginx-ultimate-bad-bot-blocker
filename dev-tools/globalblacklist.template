@@ -18629,6 +18629,16 @@ geo $validate_client {
 	2c0f:f248::/32		0;
 # END CLOUDFLARE IP RANGES ### DO NOT EDIT THIS LINE AT ALL ###
 
+# ---------------------------------
+# WHITELIST BUNNY.NET CDN IP RANGES
+# ---------------------------------
+
+# START BUNNY.NET CDN ### DO NOT EDIT THIS LINE AT ALL ###
+
+# END BUNNY.NET CDN ### DO NOT EDIT THIS LINE AT ALL ###
+
+
+
 # -------------------------------------------------
 # BLACKLIST IP addresses and IP Ranges Customizable
 # -------------------------------------------------
