@@ -77,6 +77,7 @@ _input10=./_generator_lists/cloudflare-ip-ranges.list
 _input11=./_generator_lists/bad-ip-addresses.list
 _input12=./_generator_lists/fake-googlebots.list
 _input13=./_generator_lists/seo-analysis-tools.list
+_input14=./_generator_lists/bunnycdn-net.list
 
 
 # *******************************************************
@@ -97,6 +98,7 @@ _inputdb10=/tmp/cloudflare-ip-ranges.db
 _inputdb11=/tmp/bad-ip-addresses.db
 _inputdb12=/tmp/fake-googlebots.db
 _inputdb13=/tmp/seo-analysis.db
+_inputdb14=/tmp/bunnycdn-net.db
 
 # **************************************************
 # Declare temporary variables used during generation
@@ -117,6 +119,7 @@ _tmpnginx10=_tmpnginx10
 _tmpnginx11=_tmpnginx11
 _tmpnginx12=_tmpnginx12
 _tmpnginx13=_tmpnginx13
+_tmpnginx14=_tmpnginx14
 
 # *************************************************************
 # Sort all input lists alphabetically and remove any duplicates
@@ -135,6 +138,7 @@ sort -u ${_input10} -o ${_input10}
 sort -u ${_input11} -o ${_input11}
 sort -u ${_input12} -o ${_input12}
 sort -u ${_input13} -o ${_input13}
+sort -u ${_input14} -o ${_input14}
 
 # ***************************************************************
 # Start and End Strings to Search for to do inserts into template
@@ -166,6 +170,8 @@ _start12="# START FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###"
 _end12="# END FAKE GOOGLEBOTS ### DO NOT EDIT THIS LINE AT ALL ###"
 _start13="# START SEO ANALYSIS TOOLS ### DO NOT EDIT THIS LINE AT ALL ###"
 _end13="# END SEO ANALYSIS TOOLS ### DO NOT EDIT THIS LINE AT ALL ###"
+_start14="# START BUNNY.NET CDN ### DO NOT EDIT THIS LINE AT ALL ###"
+_end14="# END BUNNY.NET CDN ### DO NOT EDIT THIS LINE AT ALL ###"
 _startmarker="### VERSION INFORMATION #"
 _endmarker="### VERSION INFORMATION ##"
 
@@ -492,7 +498,31 @@ ed -s ${_inputdb13}<<\IN
 w ./dev-tools/globalblacklist.template
 q
 IN
-rm ${_inputdb12}
+rm ${_inputdb13}
+
+# **************************************
+# BUNNY.NET CDN - Create and Insert
+# **************************************
+
+printf '%s\n' "$_start14" >> ${_tmpnginx14}
+while IFS= read -r LINE
+do
+printf '\t%s\t\t%s\n' "${LINE}" "$_action1" >> ${_tmpnginx14}
+done < ${_input14}
+printf '%s\n' "$_end14"  >> ${_tmpnginx14}
+mv ${_tmpnginx14} ${_inputdb14}
+ed -s ${_inputdb14}<<\IN
+1,/# START BUNNY.NET CDN ### DO NOT EDIT THIS LINE AT ALL ###/d
+/# END BUNNY.NET CDN ### DO NOT EDIT THIS LINE AT ALL ###/,$d
+,d
+.r ./dev-tools/globalblacklist.template
+/# START BUNNY.NET CDN ### DO NOT EDIT THIS LINE AT ALL ###/x
+.t.
+.,/# END BUNNY.NET CDN ### DO NOT EDIT THIS LINE AT ALL ###/-d
+w ./dev-tools/globalblacklist.template
+q
+IN
+rm ${_inputdb14}
 
 
 # *******************************************************************************
