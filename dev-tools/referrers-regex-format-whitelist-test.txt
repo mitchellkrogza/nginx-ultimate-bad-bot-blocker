@@ -1884,6 +1884,7 @@
 "~*(?:\b)ekosmetyki\.net\.pl(?:\b)" 	0;
 "~*(?:\b)ekspertmed\.com(?:\b)" 	0;
 "~*(?:\b)ekspresihati\.info(?:\b)" 	0;
+"~*(?:\b)eksprognoz\.ru(?:\b)" 	0;
 "~*(?:\b)ekto\.ee(?:\b)" 	0;
 "~*(?:\b)el\-nation\.com(?:\b)" 	0;
 "~*(?:\b)eldiariodeguadalajara\.com(?:\b)" 	0;
@@ -5629,6 +5630,7 @@
 "~*(?:\b)spaceshipad\.com(?:\b)" 	0;
 "~*(?:\b)spammen\.de(?:\b)" 	0;
 "~*(?:\b)spamnuker\.com(?:\b)" 	0;
+"~*(?:\b)spanking\.to(?:\b)" 	0;
 "~*(?:\b)spasswelt\.net(?:\b)" 	0;
 "~*(?:\b)spasswelt\.xyz(?:\b)" 	0;
 "~*(?:\b)spb\-plitka\.ru(?:\b)" 	0;
@@ -6444,6 +6446,7 @@
 "~*(?:\b)vip\-parfumeria\.ru(?:\b)" 	0;
 "~*(?:\b)vip\.51\.la(?:\b)" 	0;
 "~*(?:\b)vip2ch\.com(?:\b)" 	0;
+"~*(?:\b)vipcallsgirls\.com(?:\b)" 	0;
 "~*(?:\b)vipms\.ru(?:\b)" 	0;
 "~*(?:\b)vipps\.com\.my(?:\b)" 	0;
 "~*(?:\b)vipromoffers\.com(?:\b)" 	0;

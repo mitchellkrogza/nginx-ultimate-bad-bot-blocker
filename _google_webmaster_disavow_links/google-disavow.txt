@@ -1884,6 +1884,7 @@ domain:ekobata.ru
 domain:ekosmetyki.net.pl
 domain:ekspertmed.com
 domain:ekspresihati.info
+domain:eksprognoz.ru
 domain:ekto.ee
 domain:el-nation.com
 domain:eldiariodeguadalajara.com
@@ -5629,6 +5630,7 @@ domain:space4updating.win
 domain:spaceshipad.com
 domain:spammen.de
 domain:spamnuker.com
+domain:spanking.to
 domain:spasswelt.net
 domain:spasswelt.xyz
 domain:spb-plitka.ru
@@ -6444,6 +6446,7 @@ domain:vip-file.com
 domain:vip-parfumeria.ru
 domain:vip.51.la
 domain:vip2ch.com
+domain:vipcallsgirls.com
 domain:vipms.ru
 domain:vipps.com.my
 domain:vipromoffers.com
