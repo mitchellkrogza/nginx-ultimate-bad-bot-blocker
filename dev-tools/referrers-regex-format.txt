@@ -1973,6 +1973,7 @@
 "~*(?:\b)eredijovon\.com(?:\b)" 	1;
 "~*(?:\b)ereko\.ru(?:\b)" 	1;
 "~*(?:\b)ero\-advertising\.com(?:\b)" 	1;
+"~*(?:\b)erolate\.com(?:\b)" 	1;
 "~*(?:\b)eropho\.com(?:\b)" 	1;
 "~*(?:\b)eropho\.net(?:\b)" 	1;
 "~*(?:\b)eropornosex\.ru(?:\b)" 	1;
@@ -5468,6 +5469,7 @@
 "~*(?:\b)sindragosa\.comxa\.com(?:\b)" 	1;
 "~*(?:\b)sinel\.info(?:\b)" 	1;
 "~*(?:\b)sinestesia\.host\.sk(?:\b)" 	1;
+"~*(?:\b)singularwebs\.net(?:\b)" 	1;
 "~*(?:\b)sirpornogratis\.xxx(?:\b)" 	1;
 "~*(?:\b)sisi\-go\.ru(?:\b)" 	1;
 "~*(?:\b)sisiynas\.ru(?:\b)" 	1;
