@@ -921,6 +921,7 @@
 "~*(?:\b)blpmovies\.com(?:\b)" 	0;
 "~*(?:\b)blue\-square\.biz(?:\b)" 	0;
 "~*(?:\b)bluejays\-jerseys\.us(?:\b)" 	0;
+"~*(?:\b)bluelabelsky\.com(?:\b)" 	0;
 "~*(?:\b)bluerobot\.info(?:\b)" 	0;
 "~*(?:\b)bluesalt\.co(?:\b)" 	0;
 "~*(?:\b)bluesman\.nu(?:\b)" 	0;
@@ -2244,6 +2245,7 @@
 "~*(?:\b)floridamhca\.org(?:\b)" 	0;
 "~*(?:\b)floridamobilebillboards\.com(?:\b)" 	0;
 "~*(?:\b)flowersbazar\.com(?:\b)" 	0;
+"~*(?:\b)flowersforsunshine\.com(?:\b)" 	0;
 "~*(?:\b)flowwwers\.com(?:\b)" 	0;
 "~*(?:\b)flprog\.com(?:\b)" 	0;
 "~*(?:\b)flytourisme\.org(?:\b)" 	0;
@@ -5827,6 +5829,7 @@
 "~*(?:\b)syndicate\.fun(?:\b)" 	0;
 "~*(?:\b)syvertsen\-da\.no(?:\b)" 	0;
 "~*(?:\b)szamponrevita\.pl(?:\b)" 	0;
+"~*(?:\b)szqxvo\.com(?:\b)" 	0;
 "~*(?:\b)szucs\.ru(?:\b)" 	0;
 "~*(?:\b)t\-bygg\.com(?:\b)" 	0;
 "~*(?:\b)t3chtonic\.com(?:\b)" 	0;
