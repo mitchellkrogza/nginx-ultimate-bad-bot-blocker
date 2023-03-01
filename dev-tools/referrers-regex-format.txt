@@ -4822,6 +4822,7 @@
 "~*(?:\b)proxyradar\.com(?:\b)" 	1;
 "~*(?:\b)prpops\.com(?:\b)" 	1;
 "~*(?:\b)psa48\.ru(?:\b)" 	1;
+"~*(?:\b)psbosexunlmed\.com(?:\b)" 	1;
 "~*(?:\b)pshare\.biz(?:\b)" 	1;
 "~*(?:\b)pskcijdc\.bloger\.index\.hr(?:\b)" 	1;
 "~*(?:\b)psoriasis\-file\.trade(?:\b)" 	1;

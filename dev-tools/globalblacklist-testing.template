@@ -4,9 +4,9 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2023.03.3592
-### Updated: Wed Mar  1 11:31:08 UTC 2023
-### Bad Referrer Count: 7102
+### Version: V3.2023.03.3593
+### Updated: Wed Mar  1 12:17:53 UTC 2023
+### Bad Referrer Count: 7103
 ### Bad Bot Count: 637
 ###################################################
 ### VERSION INFORMATION ##
@@ -5890,6 +5890,7 @@ map $http_referer $bad_referer {
 	"~*(?:\b)proxyradar\.com(?:\b)" 	1;
 	"~*(?:\b)prpops\.com(?:\b)" 	1;
 	"~*(?:\b)psa48\.ru(?:\b)" 	1;
+	"~*(?:\b)psbosexunlmed\.com(?:\b)" 	1;
 	"~*(?:\b)pshare\.biz(?:\b)" 	1;
 	"~*(?:\b)pskcijdc\.bloger\.index\.hr(?:\b)" 	1;
 	"~*(?:\b)psoriasis\-file\.trade(?:\b)" 	1;
