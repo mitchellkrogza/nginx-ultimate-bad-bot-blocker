@@ -6134,6 +6134,7 @@
 "~*(?:\b)trafficcentr\.xyz(?:\b)" 	1;
 "~*(?:\b)trafficfactory\.biz(?:\b)" 	1;
 "~*(?:\b)trafficgenius\.xyz(?:\b)" 	1;
+"~*(?:\b)trafficinstantly\.co(?:\b)" 	1;
 "~*(?:\b)trafficjunky\.com(?:\b)" 	1;
 "~*(?:\b)trafficjunky\.net(?:\b)" 	1;
 "~*(?:\b)trafficmania\.com(?:\b)" 	1;

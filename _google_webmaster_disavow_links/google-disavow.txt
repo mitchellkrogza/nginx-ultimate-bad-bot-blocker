@@ -6134,6 +6134,7 @@ domain:traffic2money.com
 domain:trafficcentr.xyz
 domain:trafficfactory.biz
 domain:trafficgenius.xyz
+domain:trafficinstantly.co
 domain:trafficjunky.com
 domain:trafficjunky.net
 domain:trafficmania.com
