@@ -11,6 +11,7 @@ Abonti
 Aboundex
 Aboundexbot
 Acunetix
+AdsTxtCrawlerTP
 AfD-Verbotsverfahren
 AhrefsBot
 AiHitBot

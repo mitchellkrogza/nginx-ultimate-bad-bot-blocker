@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2023.05.3719
-### Updated: Mon May  1 06:01:11 UTC 2023
-### Bad Bot Count: 640
+### Version: V4.2023.05.3720
+### Updated: Mon May  1 06:07:45 UTC 2023
+### Bad Bot Count: 641
 ###################################################
 ### Version Information ##
 
@@ -40,6 +40,8 @@ Disallow:/
 User-agent: Aboundexbot
 Disallow:/
 User-agent: Acunetix
+Disallow:/
+User-agent: AdsTxtCrawlerTP
 Disallow:/
 User-agent: AfD-Verbotsverfahren
 Disallow:/
