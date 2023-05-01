@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2023.05.3717
-### Updated: Mon May  1 04:37:18 UTC 2023
-### Bad Bot Count: 640
+### Version: V4.2023.05.3718
+### Updated: Mon May  1 05:50:05 UTC 2023
+### Bad Bot Count: 639
 ###################################################
 ### Version Information ##
 
@@ -652,8 +652,6 @@ Disallow:/
 User-agent: Ninja
 Disallow:/
 User-agent: Nmap
-Disallow:/
-User-agent: Not
 Disallow:/
 User-agent: Nuclei
 Disallow:/
