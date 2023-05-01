@@ -408,6 +408,7 @@ SemanticJuice
 Semrush
 SemrushBot
 SentiBot
+SenutoBot
 SeoSiteCheckup
 SeobilityBot
 Seomoz

@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2023.05.3718
-### Updated: Mon May  1 05:50:04 UTC 2023
+### Version: V3.2023.05.3719
+### Updated: Mon May  1 06:01:11 UTC 2023
 ### Bad Referrer Count: 7104
-### Bad Bot Count: 639
+### Bad Bot Count: 640
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -557,6 +557,7 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)Semrush(?:\b)"		3;
 	"~*(?:\b)SemrushBot(?:\b)"		3;
 	"~*(?:\b)SentiBot(?:\b)"		3;
+	"~*(?:\b)SenutoBot(?:\b)"		3;
 	"~*(?:\b)SeoSiteCheckup(?:\b)"		3;
 	"~*(?:\b)SeobilityBot(?:\b)"		3;
 	"~*(?:\b)Seomoz(?:\b)"		3;
