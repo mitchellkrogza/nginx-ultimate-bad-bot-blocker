@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2023.04.3715
-### Updated: Sun Apr 30 22:01:17 UTC 2023
-### Bad Bot Count: 637
+### Version: V4.2023.05.3716
+### Updated: Mon May  1 04:23:16 UTC 2023
+### Bad Bot Count: 639
 ###################################################
 ### Version Information ##
 
@@ -735,6 +735,8 @@ User-agent: ProWebWalker
 Disallow:/
 User-agent: Probethenet
 Disallow:/
+User-agent: Proximic
+Disallow:/
 User-agent: Psbot
 Disallow:/
 User-agent: Pu_iN
@@ -1174,6 +1176,8 @@ Disallow:/
 User-agent: crawler4j
 Disallow:/
 User-agent: dataforseo.com
+Disallow:/
+User-agent: dataforseobot
 Disallow:/
 User-agent: demandbase-bot
 Disallow:/

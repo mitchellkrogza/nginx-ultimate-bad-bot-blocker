@@ -358,6 +358,7 @@ Pockey
 ProPowerBot
 ProWebWalker
 Probethenet
+Proximic
 Psbot
 Pu_iN
 Pump
@@ -578,6 +579,7 @@ crawl.sogou.com
 crawler.feedback
 crawler4j
 dataforseo.com
+dataforseobot
 demandbase-bot
 domainsproject.org
 eCatch
