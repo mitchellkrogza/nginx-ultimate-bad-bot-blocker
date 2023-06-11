@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2023.06.3801
-### Updated: Sat Jun 10 22:01:16 UTC 2023
-### Bad Bot Count: 641
+### Version: V4.2023.06.3802
+### Updated: Sun Jun 11 06:24:25 UTC 2023
+### Bad Bot Count: 642
 ###################################################
 ### Version Information ##
 
@@ -150,6 +150,8 @@ Disallow:/
 User-agent: BunnySlippers
 Disallow:/
 User-agent: BuzzSumo
+Disallow:/
+User-agent: Bytespider
 Disallow:/
 User-agent: CATExplorador
 Disallow:/
