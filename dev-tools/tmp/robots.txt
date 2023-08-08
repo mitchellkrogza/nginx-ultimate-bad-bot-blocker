@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2023.08.3918
-### Updated: Mon Aug  7 22:01:26 UTC 2023
-### Bad Bot Count: 642
+### Version: V4.2023.08.3919
+### Updated: Tue Aug  8 08:59:24 UTC 2023
+### Bad Bot Count: 645
 ###################################################
 ### Version Information ##
 
@@ -336,6 +336,8 @@ Disallow:/
 User-agent: Fyrebot
 Disallow:/
 User-agent: G-i-g-a-b-o-t
+Disallow:/
+User-agent: GPTBot
 Disallow:/
 User-agent: GT::WWW
 Disallow:/
@@ -1226,6 +1228,10 @@ Disallow:/
 User-agent: netEstate NE Crawler
 Disallow:/
 User-agent: oBot
+Disallow:/
+User-agent: openai
+Disallow:/
+User-agent: openai.com
 Disallow:/
 User-agent: page scorer
 Disallow:/
