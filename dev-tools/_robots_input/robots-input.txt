@@ -369,6 +369,7 @@ PyCurl
 QueryN Metasearch
 Quick-Crawler
 RSSingBot
+Rainbot
 RankActive
 RankActiveLinkBot
 RankFlex
@@ -468,6 +469,7 @@ TheNomad
 The Intraformant
 Thumbor
 TightTwatBot
+TinyTestBot
 Titan
 Toata
 Toweyabot

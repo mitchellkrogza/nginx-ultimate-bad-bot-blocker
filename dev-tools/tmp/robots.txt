@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2023.10.4058
-### Updated: Mon Oct 16 10:03:36 UTC 2023
-### Bad Bot Count: 645
+### Version: V4.2023.10.4059
+### Updated: Mon Oct 16 11:26:16 UTC 2023
+### Bad Bot Count: 647
 ###################################################
 ### Version Information ##
 
@@ -757,6 +757,8 @@ User-agent: Quick-Crawler
 Disallow:/
 User-agent: RSSingBot
 Disallow:/
+User-agent: Rainbot
+Disallow:/
 User-agent: RankActive
 Disallow:/
 User-agent: RankActiveLinkBot
@@ -954,6 +956,8 @@ Disallow:/
 User-agent: Thumbor
 Disallow:/
 User-agent: TightTwatBot
+Disallow:/
+User-agent: TinyTestBot
 Disallow:/
 User-agent: Titan
 Disallow:/
