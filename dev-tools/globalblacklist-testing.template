@@ -4,8 +4,8 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2023.11.4121
-### Updated: Thu Nov 16 10:03:25 UTC 2023
+### Version: V3.2023.11.4122
+### Updated: Thu Nov 16 10:49:21 UTC 2023
 ### Bad Referrer Count: 7104
 ### Bad Bot Count: 647
 ###################################################
@@ -435,7 +435,7 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)Microsoft\ URL\ Control(?:\b)"		3;
 	"~*(?:\b)Minefield(?:\b)"		3;
 	"~*(?:\b)Mister\ PiX(?:\b)"		3;
-	"~*(?:\b)Moblie Safari(?:\b)"		3;
+	"~*(?:\b)Moblie\ Safari(?:\b)"		3;
 	"~*(?:\b)Mojeek(?:\b)"		3;
 	"~*(?:\b)Mojolicious(?:\b)"		3;
 	"~*(?:\b)MolokaiBot(?:\b)"		3;
