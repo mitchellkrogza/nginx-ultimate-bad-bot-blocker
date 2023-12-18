@@ -3703,6 +3703,7 @@
 "~*(?:\b)matrixalchemy\.com(?:\b)" 	1;
 "~*(?:\b)matsdale\.com(?:\b)" 	1;
 "~*(?:\b)mature\.free\-websites\.com(?:\b)" 	1;
+"~*(?:\b)mavink\.com(?:\b)" 	1;
 "~*(?:\b)max\-eclat\.men(?:\b)" 	1;
 "~*(?:\b)max\-p\.men(?:\b)" 	1;
 "~*(?:\b)maximilitary\.ru(?:\b)" 	1;
