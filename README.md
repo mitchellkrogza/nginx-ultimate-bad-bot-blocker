@@ -53,6 +53,11 @@ Please make sure you are subscribed to Github Notifications to be notified when 
 
 > PLEASE NOTE: For those using Let's Encrypt SSL Certificates the preferred and 100% working method is to use the **Webroot Authenticator Method**. There appears to be some issues with people using the http challenge method but can confirm that webroot work flawlessly. We are uncertain at this point whether the http-01 challenge method is a certbot or nginx bug.
 
+# [WARN] DUPLICATE NETWORK MESSAGES FROM NGINX 
+## PLEASE READ THIS
+
+The Duplicate network reports from Nginx is NOT a bug nor can it be fixed, this is the desired behaviour of the blocker. Daily updates of IP blacklists cause some well known IP's and ranges to be blacklisted **```old value "1"```** these are then whitelisted at the very end of globalblocklist which is the order of loading which then sets IP's we know are good to their new **```value "0"```** thereby whitelisting them. It has been this way since day 1 of the blocker and will remain this way. These are simple **[WARN]** messages not **[EMERG]** messages and they do not affect the operation of Nginx in any way whatsoever.
+
 ************************************************
 <img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/step-1.png"/>
 
@@ -433,6 +438,14 @@ folder location in the command lines as follows.
 This will automatically put the files into the locations you specify, it will do the includes into your vhosts using your custom locations  and when update-ngxblocker pulls a new update it will also now automatically re-write the "Include" sections inside the globalblacklist.conf file your own custom locations. Thanks again to Stuart Cardall @itoffshore for his contributions of these excellent scripts.
 
 ************************************************
+
+# [WARN] DUPLICATE NETWORK MESSAGES FROM NGINX 
+## PLEASE READ THIS
+
+The Duplicate network reports from Nginx is NOT a bug nor can it be fixed, this is the desired behaviour of the blocker. Daily updates of IP blacklists cause some well known IP's and ranges to be blacklisted **```old value "1"```** these are then whitelisted at the very end of globalblocklist which is the order of loading which then sets IP's we know are good to their new **```value "0"```** thereby whitelisting them. It has been this way since day 1 of the blocker and will remain this way. These are simple **[WARN]** messages not **[EMERG]** messages and they do not affect the operation of Nginx in any way whatsoever.
+
+************************************************
+
 # WHY BLOCK BAD BOTS ?
 
 <h4 id="define-bad-bots">
