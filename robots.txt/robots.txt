@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2024.01.4272
-### Updated: Mon Jan 29 10:03:29 UTC 2024
-### Bad Bot Count: 647
+### Version: V4.2024.01.4273
+### Updated: Mon Jan 29 12:11:19 UTC 2024
+### Bad Bot Count: 653
 ###################################################
 ### Version Information ##
 
@@ -169,6 +169,8 @@ User-agent: Cegbfeieh
 Disallow:/
 User-agent: CensysInspect
 Disallow:/
+User-agent: ChatGPT-User
+Disallow:/
 User-agent: CheTeam
 Disallow:/
 User-agent: CheeseBot
@@ -313,6 +315,8 @@ User-agent: FDM
 Disallow:/
 User-agent: FHscan
 Disallow:/
+User-agent: FacebookBot
+Disallow:/
 User-agent: FemtosearchBot
 Disallow:/
 User-agent: Fimap
@@ -360,6 +364,8 @@ Disallow:/
 User-agent: Go-Ahead-Got-It
 Disallow:/
 User-agent: GoZilla
+Disallow:/
+User-agent: Google-Extended
 Disallow:/
 User-agent: Gotit
 Disallow:/
@@ -1159,6 +1165,8 @@ User-agent: ZyBorg
 Disallow:/
 User-agent: adscanner
 Disallow:/
+User-agent: anthropic-ai
+Disallow:/
 User-agent: archive.org_bot
 Disallow:/
 User-agent: arquivo-web-crawler
@@ -1178,6 +1186,8 @@ Disallow:/
 User-agent: coccocbot
 Disallow:/
 User-agent: cognitiveseo
+Disallow:/
+User-agent: cohere-ai
 Disallow:/
 User-agent: com.plumanalytics
 Disallow:/
@@ -1232,6 +1242,8 @@ Disallow:/
 User-agent: netEstate NE Crawler
 Disallow:/
 User-agent: oBot
+Disallow:/
+User-agent: omgili
 Disallow:/
 User-agent: openai
 Disallow:/

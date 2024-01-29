@@ -75,6 +75,7 @@ Calculon
 CazoodleBot
 Cegbfeieh
 CensysInspect
+ChatGPT-User
 CheTeam
 CheeseBot
 CherryPicker
@@ -147,6 +148,7 @@ EyeNetIE
 Ezooms
 FDM
 FHscan
+FacebookBot
 FemtosearchBot
 Fimap
 Firefox/7.0
@@ -171,6 +173,7 @@ Gigabot
 Go!Zilla
 Go-Ahead-Got-It
 GoZilla
+Google-Extended
 Gotit
 GrabNet
 Grabber
@@ -570,6 +573,7 @@ ZoominfoBot
 ZumBot
 ZyBorg
 adscanner
+anthropic-ai
 archive.org_bot
 arquivo-web-crawler
 arquivo.pt
@@ -580,6 +584,7 @@ check1.exe
 clark-crawler
 coccocbot
 cognitiveseo
+cohere-ai
 com.plumanalytics
 crawl.sogou.com
 crawler.feedback
@@ -607,6 +612,7 @@ mediawords
 muhstik-scan
 netEstate NE Crawler
 oBot
+omgili
 openai
 openai.com
 page scorer
