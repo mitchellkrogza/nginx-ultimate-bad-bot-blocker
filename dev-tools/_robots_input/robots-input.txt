@@ -203,6 +203,7 @@ Id-search
 IlseBot
 Image Fetch
 Image Sucker
+ImagesiftBot
 IndeedBot
 Indy Library
 InfoNaviRobot
@@ -598,6 +599,7 @@ evc-batch
 facebookscraper
 gopher
 heritrix
+imagesift.com
 instabid
 internetVista monitor
 ips-agent

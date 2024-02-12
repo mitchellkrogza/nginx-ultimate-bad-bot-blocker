@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2024.02.4300
-### Updated: Sun Feb 11 22:01:03 UTC 2024
-### Bad Bot Count: 653
+### Version: V4.2024.02.4301
+### Updated: Mon Feb 12 05:36:38 UTC 2024
+### Bad Bot Count: 655
 ###################################################
 ### Version Information ##
 
@@ -424,6 +424,8 @@ Disallow:/
 User-agent: Image Fetch
 Disallow:/
 User-agent: Image Sucker
+Disallow:/
+User-agent: ImagesiftBot
 Disallow:/
 User-agent: IndeedBot
 Disallow:/
@@ -1214,6 +1216,8 @@ Disallow:/
 User-agent: gopher
 Disallow:/
 User-agent: heritrix
+Disallow:/
+User-agent: imagesift.com
 Disallow:/
 User-agent: instabid
 Disallow:/
