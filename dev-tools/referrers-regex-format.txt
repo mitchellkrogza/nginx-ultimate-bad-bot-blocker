@@ -5949,7 +5949,6 @@
 "~*(?:\b)thenews\-today\.info(?:\b)" 	1;
 "~*(?:\b)thepantonpractice\.co\.uk(?:\b)" 	1;
 "~*(?:\b)theplacetoupdating\.pw(?:\b)" 	1;
-"~*(?:\b)thepokertimer\.com(?:\b)" 	1;
 "~*(?:\b)theporndude\.com(?:\b)" 	1;
 "~*(?:\b)thepornsex\.org(?:\b)" 	1;
 "~*(?:\b)theprofitsmaker\.net(?:\b)" 	1;
