@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2024.04.4423
-### Updated: Wed Apr 10 10:03:15 UTC 2024
-### Bad Bot Count: 655
+### Version: V4.2024.04.4424
+### Updated: Wed Apr 10 12:20:09 UTC 2024
+### Bad Bot Count: 657
 ###################################################
 ### Version Information ##
 
@@ -78,6 +78,8 @@ Disallow:/
 User-agent: Atomseobot
 Disallow:/
 User-agent: Attach
+Disallow:/
+User-agent: AwarioBot
 Disallow:/
 User-agent: AwarioRssBot
 Disallow:/
@@ -1176,6 +1178,8 @@ Disallow:/
 User-agent: arquivo.pt
 Disallow:/
 User-agent: autoemailspider
+Disallow:/
+User-agent: awario.com
 Disallow:/
 User-agent: backlink-check
 Disallow:/

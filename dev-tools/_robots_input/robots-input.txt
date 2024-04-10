@@ -30,6 +30,7 @@ Aspiegel
 Asterias
 Atomseobot
 Attach
+AwarioBot
 AwarioRssBot
 AwarioSmartBot
 BBBike
@@ -579,6 +580,7 @@ archive.org_bot
 arquivo-web-crawler
 arquivo.pt
 autoemailspider
+awario.com
 backlink-check
 cah.io.community
 check1.exe
