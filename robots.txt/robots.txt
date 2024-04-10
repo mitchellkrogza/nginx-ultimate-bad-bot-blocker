@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2024.04.4424
-### Updated: Wed Apr 10 12:20:09 UTC 2024
-### Bad Bot Count: 657
+### Version: V4.2024.04.4425
+### Updated: Wed Apr 10 12:25:58 UTC 2024
+### Bad Bot Count: 659
 ###################################################
 ### Version Information ##
 
@@ -1145,6 +1145,8 @@ User-agent: Xaldon_WebSpider
 Disallow:/
 User-agent: Xenu
 Disallow:/
+User-agent: YaK
+Disallow:/
 User-agent: YoudaoBot
 Disallow:/
 User-agent: Zade
@@ -1234,6 +1236,8 @@ Disallow:/
 User-agent: iubenda-radar
 Disallow:/
 User-agent: linkdexbot
+Disallow:/
+User-agent: linkfluence
 Disallow:/
 User-agent: lwp-request
 Disallow:/

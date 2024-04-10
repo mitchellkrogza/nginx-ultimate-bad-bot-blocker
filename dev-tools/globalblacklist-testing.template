@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2024.04.4424
-### Updated: Wed Apr 10 12:20:09 UTC 2024
+### Version: V3.2024.04.4425
+### Updated: Wed Apr 10 12:25:58 UTC 2024
 ### Bad Referrer Count: 7104
-### Bad Bot Count: 657
+### Bad Bot Count: 659
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -712,6 +712,7 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)Xaldon\ WebSpider(?:\b)"		3;
 	"~*(?:\b)Xaldon_WebSpider(?:\b)"		3;
 	"~*(?:\b)Xenu(?:\b)"		3;
+	"~*(?:\b)YaK(?:\b)"		3;
 	"~*(?:\b)YoudaoBot(?:\b)"		3;
 	"~*(?:\b)Zade(?:\b)"		3;
 	"~*(?:\b)Zauba(?:\b)"		3;
@@ -757,6 +758,7 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)isitwp.com(?:\b)"		3;
 	"~*(?:\b)iubenda-radar(?:\b)"		3;
 	"~*(?:\b)linkdexbot(?:\b)"		3;
+	"~*(?:\b)linkfluence(?:\b)"		3;
 	"~*(?:\b)lwp-request(?:\b)"		3;
 	"~*(?:\b)lwp-trivial(?:\b)"		3;
 	"~*(?:\b)magpie-crawler(?:\b)"		3;
