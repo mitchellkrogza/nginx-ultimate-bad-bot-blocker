@@ -18973,6 +18973,7 @@ geo $ratelimited {
 	0    "";
 	1    "";
 	2    $binary_remote_addr;
+	4    $binary_remote_addr;
 	}
 
 # --------------------------
@@ -18984,6 +18985,12 @@ geo $ratelimited {
 
 	limit_conn_zone $bot_iplimit zone=bot2_connlimit:16m;
 	limit_req_zone  $bot_iplimit zone=bot2_reqlimitip:16m  rate=2r/s;
+
+# BAD BOT SUPER RATE LIMITING ZONE
+# Super Rate limiting will only take effect if on any User-Agents with a value of 4
+
+	limit_conn_zone $bot_iplimit zone=bot4_connlimit:16m;
+	limit_req_zone  $bot_iplimit zone=bot4_reqlimitip:16m  rate=1r/m;
 
 # ==========================================
 # END SECTION 4 - ACTIVATE BLOCKER FUNCTIONS
