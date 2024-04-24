@@ -82,6 +82,10 @@ echo "${bold}${yellow}-----------------------------"
 echo "${bold}${yellow}Making GoogleBot ${yellow}RATE LIMITED"
 echo "${bold}${yellow}-----------------------------"
 printf "\n"
+echo "${bold}${yellow}-----------------------------"
+echo "${bold}${yellow}Making Applebot ${yellow}SUPER RATE LIMITED"
+echo "${bold}${yellow}-----------------------------"
+printf "\n"
 sudo cp ./dev-tools/test_units/rate-limiting-user-agents.conf /etc/nginx/bots.d/blacklist-user-agents.conf
 }
 
@@ -177,6 +181,99 @@ if grep -i 'Unavailable' < ${ratelimittestfile}; then
    fi
 }
 
+testRateLimiting2 () {
+ratelimittestfile=./dev-tools/test_units/ratelimittest-master.txt
+truncate -s 0 ${ratelimittestfile}
+curl -A "Applebot" http://localhost:80 2>&1 > ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} &
+curl -A "Applebot" http://localhost:80 2>&1 >> ${ratelimittestfile} 
+
+if grep -i 'Unavailable' < ${ratelimittestfile}; then
+   echo "${bold}${green}PASSED - ${red}Applebot was ${bold}${red}SUPER RATE LIMITED"
+   else
+   echo "${bold}${red}FAILED - ${red}Applebot was ${bold}${red}NOT SUPER RATE LIMITED"
+   #exit 1
+   fi
+}
+
+
 backupConfFiles () {
 printf "\n"
 echo "${bold}${green}-------------------------------------------------------"
@@ -203,6 +300,7 @@ ratelimitGoogle
 reloadNginX
 waitforReload
 testRateLimiting
+testRateLimiting2
 backupConfFiles
 
 printf "\n"
