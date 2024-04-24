@@ -82,6 +82,7 @@
 ###	1 = allowed or rate limited less restrictive
 ###	2 = rate limited more
 ###	3 = block completely
+###	4 = super rate limited
 ### ---------------------------------------------
 
 ### ------------------------------------------------------------
