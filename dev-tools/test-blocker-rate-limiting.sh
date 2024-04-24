@@ -77,7 +77,7 @@ printf "\n"
 sleep 10s
 }
 
-ratelimitGoogle () {
+ratelimitGoogle_superratelimitAppleBot () {
 echo "${bold}${yellow}-----------------------------"
 echo "${bold}${yellow}Making GoogleBot ${yellow}RATE LIMITED"
 echo "${bold}${yellow}-----------------------------"
@@ -296,7 +296,7 @@ echo "${bold}${green}Starting Rate Limiting Test"
 echo "${bold}${green}---------------------------"
 printf "\n"
 
-ratelimitGoogle
+ratelimitGoogle_superratelimitAppleBot
 reloadNginX
 waitforReload
 testRateLimiting
