@@ -211,6 +211,7 @@ InfoNaviRobot
 InfoTekies
 Intelliseek
 InterGET
+InternetMeasurement
 InternetSeer
 Internet Ninja
 Iria

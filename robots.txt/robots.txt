@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2024.04.4470
-### Updated: Tue Apr 30 11:03:07 UTC 2024
-### Bad Bot Count: 659
+### Version: V4.2024.04.4471
+### Updated: Tue Apr 30 12:51:48 UTC 2024
+### Bad Bot Count: 660
 ###################################################
 ### Version Information ##
 
@@ -440,6 +440,8 @@ Disallow:/
 User-agent: Intelliseek
 Disallow:/
 User-agent: InterGET
+Disallow:/
+User-agent: InternetMeasurement
 Disallow:/
 User-agent: InternetSeer
 Disallow:/
