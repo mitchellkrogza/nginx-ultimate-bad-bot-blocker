@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2024.05.4478
-### Updated: Fri May  3 22:01:10 UTC 2024
-### Bad Bot Count: 660
+### Version: V4.2024.05.4479
+### Updated: Sat May  4 08:35:14 UTC 2024
+### Bad Bot Count: 662
 ###################################################
 ### Version Information ##
 
@@ -436,6 +436,10 @@ Disallow:/
 User-agent: InfoNaviRobot
 Disallow:/
 User-agent: InfoTekies
+Disallow:/
+User-agent: Information Security Team InfraSec Scanner
+Disallow:/
+User-agent: InfraSec Scanner
 Disallow:/
 User-agent: Intelliseek
 Disallow:/

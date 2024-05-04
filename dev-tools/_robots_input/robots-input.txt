@@ -209,6 +209,8 @@ IndeedBot
 Indy Library
 InfoNaviRobot
 InfoTekies
+Information Security Team InfraSec Scanner
+InfraSec Scanner
 Intelliseek
 InterGET
 InternetMeasurement
