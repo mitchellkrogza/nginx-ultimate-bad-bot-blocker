@@ -84,6 +84,7 @@ ChinaClaw
 Chlooe
 Citoid
 Claritybot
+ClaudeBot
 Cliqzbot
 Cloud mapping
 Cocolyzebot

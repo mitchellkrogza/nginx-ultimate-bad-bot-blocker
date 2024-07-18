@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2024.07.4628
-### Updated: Wed Jul 17 22:01:05 UTC 2024
-### Bad Bot Count: 662
+### Version: V4.2024.07.4629
+### Updated: Thu Jul 18 09:40:24 UTC 2024
+### Bad Bot Count: 663
 ###################################################
 ### Version Information ##
 
@@ -186,6 +186,8 @@ Disallow:/
 User-agent: Citoid
 Disallow:/
 User-agent: Claritybot
+Disallow:/
+User-agent: ClaudeBot
 Disallow:/
 User-agent: Cliqzbot
 Disallow:/
