@@ -42,6 +42,7 @@ BackStreet
 BackWeb
 Backlink-Ceck
 BacklinkCrawler
+BacklinksExtendedBot
 Badass
 Bandit
 Barkrowler
@@ -176,6 +177,7 @@ Go!Zilla
 Go-Ahead-Got-It
 GoZilla
 Google-Extended
+GoogleOther
 Gotit
 GrabNet
 Grabber

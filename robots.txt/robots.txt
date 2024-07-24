@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2024.07.4642
-### Updated: Wed Jul 24 10:03:28 UTC 2024
-### Bad Bot Count: 663
+### Version: V4.2024.07.4643
+### Updated: Wed Jul 24 15:06:19 UTC 2024
+### Bad Bot Count: 665
 ###################################################
 ### Version Information ##
 
@@ -102,6 +102,8 @@ Disallow:/
 User-agent: Backlink-Ceck
 Disallow:/
 User-agent: BacklinkCrawler
+Disallow:/
+User-agent: BacklinksExtendedBot
 Disallow:/
 User-agent: Badass
 Disallow:/
@@ -370,6 +372,8 @@ Disallow:/
 User-agent: GoZilla
 Disallow:/
 User-agent: Google-Extended
+Disallow:/
+User-agent: GoogleOther
 Disallow:/
 User-agent: Gotit
 Disallow:/
