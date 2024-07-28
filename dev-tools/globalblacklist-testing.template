@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2024.07.4650
-### Updated: Sat Jul 27 22:01:12 UTC 2024
+### Version: V3.2024.07.4651
+### Updated: Sun Jul 28 06:52:50 UTC 2024
 ### Bad Referrer Count: 7104
-### Bad Bot Count: 665
+### Bad Bot Count: 667
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -603,6 +603,8 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)SpankBot(?:\b)"		3;
 	"~*(?:\b)Spanner(?:\b)"		3;
 	"~*(?:\b)Spbot(?:\b)"		3;
+	"~*(?:\b)Spider_Bot(?:\b)"		3;
+	"~*(?:\b)Spider_Bot/3.0(?:\b)"		3;
 	"~*(?:\b)Spinn3r(?:\b)"		3;
 	"~*(?:\b)SputnikBot(?:\b)"		3;
 	"~*(?:\b)Sqlmap(?:\b)"		3;

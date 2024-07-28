@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2024.07.4650
-### Updated: Sat Jul 27 22:01:12 UTC 2024
-### Bad Bot Count: 665
+### Version: V4.2024.07.4651
+### Updated: Sun Jul 28 06:52:50 UTC 2024
+### Bad Bot Count: 667
 ###################################################
 ### Version Information ##
 
@@ -924,6 +924,10 @@ Disallow:/
 User-agent: Spanner
 Disallow:/
 User-agent: Spbot
+Disallow:/
+User-agent: Spider_Bot
+Disallow:/
+User-agent: Spider_Bot/3.0
 Disallow:/
 User-agent: Spinn3r
 Disallow:/

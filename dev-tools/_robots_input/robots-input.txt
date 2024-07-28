@@ -453,6 +453,8 @@ Spammen
 SpankBot
 Spanner
 Spbot
+Spider_Bot
+Spider_Bot/3.0
 Spinn3r
 SputnikBot
 Sqlmap
