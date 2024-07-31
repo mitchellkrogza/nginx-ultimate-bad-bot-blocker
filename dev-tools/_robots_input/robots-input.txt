@@ -176,7 +176,6 @@ Gigabot
 Go!Zilla
 Go-Ahead-Got-It
 GoZilla
-Google-Extended
 Gotit
 GrabNet
 Grabber
