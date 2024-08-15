@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2024.08.4689
-### Updated: Wed Aug 14 22:01:06 UTC 2024
-### Bad Bot Count: 665
+### Version: V4.2024.08.4690
+### Updated: Thu Aug 15 06:17:53 UTC 2024
+### Bad Bot Count: 666
 ###################################################
 ### Version Information ##
 
@@ -818,6 +818,8 @@ Disallow:/
 User-agent: SEOkicks
 Disallow:/
 User-agent: SEOkicks-Robot
+Disallow:/
+User-agent: SEOlyt
 Disallow:/
 User-agent: SEOlyticsCrawler
 Disallow:/

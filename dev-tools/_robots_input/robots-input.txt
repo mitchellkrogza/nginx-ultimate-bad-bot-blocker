@@ -400,6 +400,7 @@ Rogerbot
 SBIder
 SEOkicks
 SEOkicks-Robot
+SEOlyt
 SEOlyticsCrawler
 SEOprofiler
 SEOstats

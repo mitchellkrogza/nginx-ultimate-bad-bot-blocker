@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V4.2024.08.4689
-### Updated: Wed Aug 14 22:01:05 UTC 2024
+### Version: V4.2024.08.4690
+### Updated: Thu Aug 15 06:17:52 UTC 2024
 ### Bad Referrer Count: 7104
-### Bad Bot Count: 665
+### Bad Bot Count: 666
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -553,6 +553,7 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)SBIder(?:\b)"		3;
 	"~*(?:\b)SEOkicks(?:\b)"		3;
 	"~*(?:\b)SEOkicks-Robot(?:\b)"		3;
+	"~*(?:\b)SEOlyt(?:\b)"		3;
 	"~*(?:\b)SEOlyticsCrawler(?:\b)"		3;
 	"~*(?:\b)SEOprofiler(?:\b)"		3;
 	"~*(?:\b)SEOstats(?:\b)"		3;
