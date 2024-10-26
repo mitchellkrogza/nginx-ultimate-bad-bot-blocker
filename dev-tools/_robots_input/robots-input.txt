@@ -607,6 +607,7 @@ demandbase-bot
 domainsproject.org
 eCatch
 evc-batch
+everyfeed-spider
 facebookscraper
 gopher
 heritrix

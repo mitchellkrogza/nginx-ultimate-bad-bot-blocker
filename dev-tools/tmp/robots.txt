@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2024.10.4835
-### Updated: Fri Oct 25 22:01:18 UTC 2024
-### Bad Bot Count: 667
+### Version: V4.2024.10.4836
+### Updated: Sat Oct 26 05:47:30 UTC 2024
+### Bad Bot Count: 668
 ###################################################
 ### Version Information ##
 
@@ -1232,6 +1232,8 @@ Disallow:/
 User-agent: eCatch
 Disallow:/
 User-agent: evc-batch
+Disallow:/
+User-agent: everyfeed-spider
 Disallow:/
 User-agent: facebookscraper
 Disallow:/
