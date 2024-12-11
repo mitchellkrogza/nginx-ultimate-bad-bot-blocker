@@ -457,7 +457,7 @@ Definition of Bad Bots
 -    Bad Referrers 
 -    Bad User-Agent Strings
 -    Spam Referrers
--    Spam Bots and Bad Bots
+-    Spam Bots and malicious Bots
 -    Nuisance or Unwanted Bots
 -    Sites Linked to Lucrative Malware, Adware and Ransomware Clickjacking Campaigns
 -    Vulnerability scanners
