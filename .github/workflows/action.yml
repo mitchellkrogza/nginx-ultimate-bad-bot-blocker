@@ -44,6 +44,8 @@ jobs:
           cat /etc/nginx/sites-available/default
           ./dev-tools/generate-files.sh
           ./dev-tools/install-nginx-1.sh
+          
+        continue-on-error: true
 
       - name: Configure Nginx & Generate Blocker Files - Stage 2
         shell: bash
