@@ -1,9 +1,6 @@
 # Build Script for Nginx Ultimate Bad Bot Blocker using GHA
 name: CI
 
-  strategy:
-    fail-fast: false
-    
 defaults:
   run:
     shell: bash
@@ -43,7 +40,9 @@ jobs:
           ls -la /etc/nginx/sites-available
           ls -la /etc/nginx/sites-enabled
           cat /etc/nginx/sites-available/default
+          echo "GENERATE FILES"
           ./dev-tools/generate-files.sh
+          echo "INSTALL NGINX"
           ./dev-tools/install-nginx-1.sh
           
       - name: Configure Nginx & Generate Blocker Files - Stage 2
