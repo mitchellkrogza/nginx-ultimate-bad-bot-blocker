@@ -56,7 +56,7 @@ blue=$(tput setaf 4)
 magenta=$(tput setaf 5)
 cyan=$(tput setaf 6)
 white=$(tput setaf 7)
-defaultcolor=$(tput setaf default)
+defaultcolor=$(tput setaf 7)
 
 # ---------
 # FUNCTIONS
