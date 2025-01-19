@@ -16,7 +16,7 @@
 #                                                                            #
 ##############################################################################                                                                
 
-export TERM=xterm
+export TERM=linux
 
 # ------------------------------------------------------------------------------
 # MIT License
@@ -46,7 +46,6 @@ export TERM=xterm
 # ------------------------
 # Set Terminal Font Colors
 # ------------------------
-
 bold=$(tput bold)
 red=$(tput setaf 1)
 green=$(tput setaf 2)
@@ -55,8 +54,8 @@ blue=$(tput setaf 4)
 magenta=$(tput setaf 5)
 cyan=$(tput setaf 6)
 white=$(tput setaf 7)
-defaultcolor=$(tput setaf default)
-#thisip=$(dig +short myip.opendns.com @resolver1.opendns.com)
+defaultcolor=$(tput setaf 7)
+
 thisip=$(ip -o route get to 8.8.8.8 | sed -n 's/.*src \([0-9.]\+\).*/\1/p')
 
 # ---------

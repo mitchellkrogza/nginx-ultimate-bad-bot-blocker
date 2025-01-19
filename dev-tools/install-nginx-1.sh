@@ -18,7 +18,6 @@
 
 set -e
 set -o pipefail
-#export TERM=xterm
 export TERM=linux
 
 # ------------------------------------------------------------------------------
