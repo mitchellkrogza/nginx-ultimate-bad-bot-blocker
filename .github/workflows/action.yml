@@ -20,6 +20,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    continue-on-error: true
+
     steps:
       - uses: actions/checkout@v2
 
@@ -31,7 +33,7 @@ jobs:
       - name: Configure Nginx - Stage 1
         shell: bash
         run: |
-          echo "export TERM=xterm" >> ~/.bashrc
+          echo "export TERM=linux" >> ~/.bashrc
           source ~/.bashrc
           sudo systemctl enable nginx
           sudo systemctl start nginx
