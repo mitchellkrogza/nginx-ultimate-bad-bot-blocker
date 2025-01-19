@@ -43,7 +43,8 @@
 
 set -e
 set -o pipefail
-export TERM=xterm
+#export TERM=xterm
+export TERM=linux
 
 # ------------------------
 # Set Terminal Font Colors
