@@ -1,10 +1,13 @@
 # Build Script for Nginx Ultimate Bad Bot Blocker using GHA
 name: CI
 
+  strategy:
+    fail-fast: false
+    
 defaults:
   run:
     shell: bash
-
+    
 on:
   push:
     branches:
@@ -19,8 +22,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    continue-on-error: true
 
     steps:
       - uses: actions/checkout@v2
@@ -45,8 +46,6 @@ jobs:
           ./dev-tools/generate-files.sh
           ./dev-tools/install-nginx-1.sh
           
-        continue-on-error: true
-
       - name: Configure Nginx & Generate Blocker Files - Stage 2
         shell: bash
         run: |
