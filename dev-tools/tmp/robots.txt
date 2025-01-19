@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2025.01.4982
-### Updated: Mon Jan  6 10:04:07 UTC 2025
-### Bad Bot Count: 668
+### Version: V4.2025.01.4983
+### Updated: Sun Jan 19 06:36:20 UTC 2025
+### Bad Bot Count: 675
 ###################################################
 ### Version Information ##
 
@@ -861,6 +861,16 @@ User-agent: Semrush
 Disallow:/
 User-agent: SemrushBot
 Disallow:/
+User-agent: SemrushBot-BA
+Disallow:/
+User-agent: SemrushBot-FT
+Disallow:/
+User-agent: SemrushBot-OCOB
+Disallow:/
+User-agent: SemrushBot-SI
+Disallow:/
+User-agent: SemrushBot-SWA
+Disallow:/
 User-agent: SentiBot
 Disallow:/
 User-agent: SenutoBot
@@ -876,6 +886,8 @@ Disallow:/
 User-agent: Shodan
 Disallow:/
 User-agent: Siphon
+Disallow:/
+User-agent: SiteAuditBot
 Disallow:/
 User-agent: SiteCheckerBotCrawler
 Disallow:/
@@ -930,6 +942,8 @@ Disallow:/
 User-agent: Spider_Bot/3.0
 Disallow:/
 User-agent: Spinn3r
+Disallow:/
+User-agent: SplitSignalBot
 Disallow:/
 User-agent: SputnikBot
 Disallow:/

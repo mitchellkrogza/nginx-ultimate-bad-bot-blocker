@@ -1,10 +1,3 @@
-SiteAuditBot
-SemrushBot-BA
-SemrushBot-SI
-SemrushBot-SWA
-SplitSignalBot
-SemrushBot-OCOB
-SemrushBot-FT
 01h4x.com
 360Spider
 404checker
@@ -428,6 +421,11 @@ SeekportBot
 SemanticJuice
 Semrush
 SemrushBot
+SemrushBot-BA
+SemrushBot-FT
+SemrushBot-OCOB
+SemrushBot-SI
+SemrushBot-SWA
 SentiBot
 SenutoBot
 SeoCherryBot
@@ -436,6 +434,7 @@ SeobilityBot
 Seomoz
 Shodan
 Siphon
+SiteAuditBot
 SiteCheckerBotCrawler
 SiteExplorer
 SiteLockSpider
@@ -463,6 +462,7 @@ Spbot
 Spider_Bot
 Spider_Bot/3.0
 Spinn3r
+SplitSignalBot
 SputnikBot
 Sqlmap
 Sqlworm
