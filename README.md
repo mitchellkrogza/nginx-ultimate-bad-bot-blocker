@@ -63,7 +63,7 @@ The Duplicate network reports from Nginx is NOT a bug nor can it be fixed, this 
 
 ##### Linux
 
-Download install-ngxblocker to your /usr/local/sbin/directory and make the script executable.
+Download install-ngxblocker to your /usr/local/sbin/ directory and make the script executable.
 
 ```sh
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/local/sbin/install-ngxblocker
