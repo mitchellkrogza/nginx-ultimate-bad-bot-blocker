@@ -447,7 +447,7 @@ main() {
 
 	# by default do not change any files
 	if [ -z "$DRY_RUN" ]; then
-		printf "\n** Dry Run ** | not updating files | run  as '$(basename $0) -x' to setup files.\n\n"
+		printf "\n** Dry Run ** | not updating files | run as '$(basename $0) -x' to setup files.\n\n"
 	else
 		printf "\n"
 	fi
