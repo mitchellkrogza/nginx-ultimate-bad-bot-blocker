@@ -78,7 +78,7 @@ This will show you output as follows of the changes that will be made
 ```
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
-** Dry Run ** | not updating files | run  as 'install-ngxblocker -x' to install files.
+** Dry Run ** | not updating files | run as 'install-ngxblocker -x' to install files.
 
 Creating directory: /etc/nginx/bots.d
 
@@ -176,7 +176,7 @@ All Nginx installations I know of have this default include in the nginx.conf fi
 ```
 Checking url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/include_filelist.txt
 
-** Dry Run ** | not updating files | run  as 'setup-ngxblocker -x' to setup files.
+** Dry Run ** | not updating files | run as 'setup-ngxblocker -x' to setup files.
 
 INFO:      /etc/nginx/conf.d/* detected               => /etc/nginx/nginx.conf
 inserting: include /etc/nginx/bots.d/blockbots.conf;  => /etc/nginx/sites-available/mydomain2.com.vhost
