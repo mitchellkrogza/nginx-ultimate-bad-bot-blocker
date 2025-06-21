@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2025.06.5289
-### Updated: Fri Jun 20 22:05:40 UTC 2025
-### Bad Bot Count: 675
+### Version: V4.2025.06.5290
+### Updated: Sat Jun 21 05:55:32 UTC 2025
+### Bad Bot Count: 676
 ###################################################
 ### Version Information ##
 
@@ -352,6 +352,8 @@ Disallow:/
 User-agent: GT::WWW
 Disallow:/
 User-agent: GalaxyBot
+Disallow:/
+User-agent: GeedoProductSearch
 Disallow:/
 User-agent: Genieo
 Disallow:/

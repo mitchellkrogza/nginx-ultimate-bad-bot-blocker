@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2025.06.5289
-### Updated: Fri Jun 20 22:05:39 UTC 2025
+### Version: V3.2025.06.5290
+### Updated: Sat Jun 21 05:55:31 UTC 2025
 ### Bad Referrer Count: 7104
-### Bad Bot Count: 675
+### Bad Bot Count: 676
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -317,6 +317,7 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)GPTBot(?:\b)"		3;
 	"~*(?:\b)GT::WWW(?:\b)"		3;
 	"~*(?:\b)GalaxyBot(?:\b)"		3;
+	"~*(?:\b)GeedoProductSearch(?:\b)"		3;
 	"~*(?:\b)Genieo(?:\b)"		3;
 	"~*(?:\b)GermCrawler(?:\b)"		3;
 	"~*(?:\b)GetRight(?:\b)"		3;

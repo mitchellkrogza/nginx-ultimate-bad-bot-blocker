@@ -167,6 +167,7 @@ G-i-g-a-b-o-t
 GPTBot
 GT::WWW
 GalaxyBot
+GeedoProductSearch
 Genieo
 GermCrawler
 GetRight
