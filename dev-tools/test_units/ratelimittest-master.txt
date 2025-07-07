@@ -8,174 +8,7 @@
 <h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
 <p>This is merely used for testing !!!</p>
 </body>
-</html>ml>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to NginX</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
 </html><!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to NginX</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to NginX</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to NginX</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to NginX</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to NginX</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to NginX</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to NginX</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to NginX</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<!DOCTYPE html>
 <html>
 <head>
 <title>Welcome to NginX</title>
@@ -235,14 +68,7 @@
 <h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
 <p>This is merely used for testing !!!</p>
 </body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<!DOCTYPE html>
+</html><!DOCTYPE html>
 <html>
 <head>
 <title>Welcome to NginX</title>
@@ -322,14 +148,7 @@
 <h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
 <p>This is merely used for testing !!!</p>
 </body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<!DOCTYPE html>
+</html><!DOCTYPE html>
 <html>
 <head>
 <title>Welcome to NginX</title>
@@ -339,14 +158,37 @@
 <h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
 <p>This is merely used for testing !!!</p>
 </body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
+</html><!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to NginX</title>
+</head>
 <body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
+<div align=center>
+<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
+<p>This is merely used for testing !!!</p>
 </body>
-</html>
-<!DOCTYPE html>
+</html><!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to NginX</title>
+</head>
+<body>
+<div align=center>
+<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
+<p>This is merely used for testing !!!</p>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to NginX</title>
+</head>
+<body>
+<div align=center>
+<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
+<p>This is merely used for testing !!!</p>
+</body>
+</html><!DOCTYPE html>
 <html>
 <head>
 <title>Welcome to NginX</title>
@@ -546,23 +388,6 @@
 <h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
 <p>This is merely used for testing !!!</p>
 </body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to NginX</title>
-</head>
-<body>
-<div align=center>
-<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
-<p>This is merely used for testing !!!</p>
-</body>
 </html><!DOCTYPE html>
 <html>
 <head>
@@ -583,28 +408,17 @@
 <h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
 <p>This is merely used for testing !!!</p>
 </body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
+</html><!DOCTYPE html>
 <html>
-<head><title>503 Service Temporarily Unavailable</title></head>
+<head>
+<title>Welcome to NginX</title>
+</head>
 <body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
+<div align=center>
+<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
+<p>This is merely used for testing !!!</p>
 </body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<!DOCTYPE html>
+</html><!DOCTYPE html>
 <html>
 <head>
 <title>Welcome to NginX</title>
@@ -674,168 +488,7 @@
 <h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
 <p>This is merely used for testing !!!</p>
 </body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<!DOCTYPE html>
+</html><!DOCTYPE html>
 <html>
 <head>
 <title>Welcome to NginX</title>
@@ -845,14 +498,7 @@
 <h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
 <p>This is merely used for testing !!!</p>
 </body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
-<body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
-</body>
-</html>
-<!DOCTYPE html>
+</html><!DOCTYPE html>
 <html>
 <head>
 <title>Welcome to NginX</title>
@@ -882,14 +528,57 @@
 <h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
 <p>This is merely used for testing !!!</p>
 </body>
-</html><html>
-<head><title>503 Service Temporarily Unavailable</title></head>
+</html><!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to NginX</title>
+</head>
 <body>
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>nginx/1.24.0 (Ubuntu)</center>
+<div align=center>
+<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
+<p>This is merely used for testing !!!</p>
 </body>
-</html>
-<!DOCTYPE html>
+</html><!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to NginX</title>
+</head>
+<body>
+<div align=center>
+<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
+<p>This is merely used for testing !!!</p>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to NginX</title>
+</head>
+<body>
+<div align=center>
+<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
+<p>This is merely used for testing !!!</p>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to NginX</title>
+</head>
+<body>
+<div align=center>
+<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
+<p>This is merely used for testing !!!</p>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to NginX</title>
+</head>
+<body>
+<div align=center>
+<h1>Welcome to the NginX Ultimate Bad Bot Blocker</h1>
+<p>This is merely used for testing !!!</p>
+</body>
+</html><!DOCTYPE html>
 <html>
 <head>
 <title>Welcome to NginX</title>
