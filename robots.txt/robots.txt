@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2025.07.5357
-### Updated: Wed Jul 23 22:05:48 UTC 2025
-### Bad Bot Count: 676
+### Version: V4.2025.07.5358
+### Updated: Thu Jul 24 09:47:03 UTC 2025
+### Bad Bot Count: 678
 ###################################################
 ### Version Information ##
 
@@ -52,6 +52,10 @@ Disallow:/
 User-agent: Aipbot
 Disallow:/
 User-agent: Alexibot
+Disallow:/
+User-agent: Aliyun
+Disallow:/
+User-agent: AliyunSecBot
 Disallow:/
 User-agent: AllSubmitter
 Disallow:/

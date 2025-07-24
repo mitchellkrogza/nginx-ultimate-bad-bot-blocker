@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2025.07.5357
-### Updated: Wed Jul 23 22:05:47 UTC 2025
+### Version: V3.2025.07.5358
+### Updated: Thu Jul 24 09:47:03 UTC 2025
 ### Bad Referrer Count: 7104
-### Bad Bot Count: 676
+### Bad Bot Count: 678
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -167,6 +167,8 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)AiHitBot(?:\b)"		3;
 	"~*(?:\b)Aipbot(?:\b)"		3;
 	"~*(?:\b)Alexibot(?:\b)"		3;
+	"~*(?:\b)Aliyun(?:\b)"		3;
+	"~*(?:\b)AliyunSecBot(?:\b)"		3;
 	"~*(?:\b)AllSubmitter(?:\b)"		3;
 	"~*(?:\b)Alligator(?:\b)"		3;
 	"~*(?:\b)AlphaBot(?:\b)"		3;

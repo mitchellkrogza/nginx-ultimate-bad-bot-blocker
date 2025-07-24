@@ -17,6 +17,8 @@ AhrefsBot
 AiHitBot
 Aipbot
 Alexibot
+Aliyun
+AliyunSecBot
 AllSubmitter
 Alligator
 AlphaBot
