@@ -613,6 +613,7 @@ crawler.feedback
 crawler4j
 dataforseo.com
 dataforseobot
+dataprovider
 demandbase-bot
 domainsproject.org
 eCatch
