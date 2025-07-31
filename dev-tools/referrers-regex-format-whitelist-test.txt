@@ -154,6 +154,7 @@
 "~*(?:\b)999webdesign\.com(?:\b)" 	0;
 "~*(?:\b)9icmzvn6\.website(?:\b)" 	0;
 "~*(?:\b)9med\.net(?:\b)" 	0;
+"~*(?:\b)Dataprovider\.com(?:\b)" 	0;
 "~*(?:\b)DomainStatsBot(?:\b)" 	0;
 "~*(?:\b)a\.frcls\.fr(?:\b)" 	0;
 "~*(?:\b)a\.pr\-cy\.ru(?:\b)" 	0;
