@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2025.08.5428
-### Updated: Tue Aug 26 22:04:29 UTC 2025
-### Bad Bot Count: 679
+### Version: V4.2025.08.5429
+### Updated: Wed Aug 27 09:01:39 UTC 2025
+### Bad Bot Count: 681
 ###################################################
 ### Version Information ##
 
@@ -46,6 +46,8 @@ Disallow:/
 User-agent: AfD-Verbotsverfahren
 Disallow:/
 User-agent: AhrefsBot
+Disallow:/
+User-agent: Ai2Bot
 Disallow:/
 User-agent: AiHitBot
 Disallow:/
@@ -1206,6 +1208,8 @@ Disallow:/
 User-agent: ZyBorg
 Disallow:/
 User-agent: adscanner
+Disallow:/
+User-agent: allenai.org
 Disallow:/
 User-agent: anthropic-ai
 Disallow:/

@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2025.08.5428
-### Updated: Tue Aug 26 22:04:28 UTC 2025
+### Version: V3.2025.08.5429
+### Updated: Wed Aug 27 09:01:39 UTC 2025
 ### Bad Referrer Count: 7105
-### Bad Bot Count: 679
+### Bad Bot Count: 681
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -164,6 +164,7 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)AdsTxtCrawlerTP(?:\b)"		3;
 	"~*(?:\b)AfD-Verbotsverfahren(?:\b)"		3;
 	"~*(?:\b)AhrefsBot(?:\b)"		3;
+	"~*(?:\b)Ai2Bot(?:\b)"		3;
 	"~*(?:\b)AiHitBot(?:\b)"		3;
 	"~*(?:\b)Aipbot(?:\b)"		3;
 	"~*(?:\b)Alexibot(?:\b)"		3;
@@ -744,6 +745,7 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)ZumBot(?:\b)"		3;
 	"~*(?:\b)ZyBorg(?:\b)"		3;
 	"~*(?:\b)adscanner(?:\b)"		3;
+	"~*(?:\b)allenai.org(?:\b)"		3;
 	"~*(?:\b)anthropic-ai(?:\b)"		3;
 	"~*(?:\b)archive.org_bot(?:\b)"		3;
 	"~*(?:\b)arquivo-web-crawler(?:\b)"		3;
