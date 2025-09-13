@@ -5048,6 +5048,7 @@
 "~*(?:\b)rockingclicks\.com(?:\b)" 	1;
 "~*(?:\b)rockma\.se(?:\b)" 	1;
 "~*(?:\b)rockprogblog\.com(?:\b)" 	1;
+"~*(?:\b)rockstargames\.com(?:\b)" 	1;
 "~*(?:\b)rogervivierforsale\.com(?:\b)" 	1;
 "~*(?:\b)roleforum\.ru(?:\b)" 	1;
 "~*(?:\b)roll123\.com(?:\b)" 	1;
