@@ -1,4 +1,4 @@
---2025-12-05 10:09:50--  https://hosts.ubuntu101.co.za/ngxubbb/bad-ips.list
+--2025-12-05 22:05:05--  https://hosts.ubuntu101.co.za/ngxubbb/bad-ips.list
 Resolving hosts.ubuntu101.co.za (hosts.ubuntu101.co.za)... 88.198.70.39, 2a01:4f8:140:5004:4::104
 Connecting to hosts.ubuntu101.co.za (hosts.ubuntu101.co.za)|88.198.70.39|:443... connected.
 WARNING: no certificate subject alternative name matches
@@ -8,5 +8,5 @@ HTTP request sent, awaiting response...
   content-length: 107
   cache-control: no-cache
   content-type: text/html
-2025-12-05 10:09:51 ERROR 503: Service Unavailable.
+2025-12-05 22:05:06 ERROR 503: Service Unavailable.
 
