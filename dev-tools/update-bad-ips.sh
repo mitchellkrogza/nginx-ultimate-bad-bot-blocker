@@ -64,8 +64,7 @@ echo "${bold}${green}Fetching Latest BAD IPs List"
 echo "${bold}${green}----------------------------"
 printf "\n"
 
-    #sudo wget --no-check-certificate  https://hosts.ubuntu101.co.za/ngxubbb/bad-ips.list -O ${outputfile}
-	sudo wget -S --no-check-certificate https://hosts.ubuntu101.co.za/ngxubbb/bad-ips.list -O "${outputfile}" 2>&1 | tee wget.log
+	sudo wget https://ubuntu101.co.za/ngxubbb/bad-ips.list -O "${outputfile}" 2>&1 | tee wget.log
 
 
 }
