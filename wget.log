@@ -1,12 +1,13 @@
---2025-12-10 10:10:05--  https://hosts.ubuntu101.co.za/ngxubbb/bad-ips.list
-Resolving hosts.ubuntu101.co.za (hosts.ubuntu101.co.za)... 88.198.70.39, 2a01:4f8:140:5004:4::104
-Connecting to hosts.ubuntu101.co.za (hosts.ubuntu101.co.za)|88.198.70.39|:443... connected.
-WARNING: no certificate subject alternative name matches
-	requested host name ‘hosts.ubuntu101.co.za’.
-HTTP request sent, awaiting response... 
-  HTTP/1.1 503 Service Unavailable
-  content-length: 107
-  cache-control: no-cache
-  content-type: text/html
-2025-12-10 10:10:06 ERROR 503: Service Unavailable.
+--2025-12-10 11:19:02--  https://ubuntu101.co.za/ngxubbb/bad-ips.list
+Resolving ubuntu101.co.za (ubuntu101.co.za)... 88.198.70.51, 2a01:4f8:140:5021::3
+Connecting to ubuntu101.co.za (ubuntu101.co.za)|88.198.70.51|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 142821 (139K) [application/octet-stream]
+Saving to: ‘./_generator_lists/bad-ip-addresses.list’
+
+     0K .......... .......... .......... .......... .......... 35%  260K 0s
+    50K .......... .......... .......... .......... .......... 71%  520K 0s
+   100K .......... .......... .......... .........            100%  149M=0.3s
+
+2025-12-10 11:19:03 (483 KB/s) - ‘./_generator_lists/bad-ip-addresses.list’ saved [142821/142821]
 
