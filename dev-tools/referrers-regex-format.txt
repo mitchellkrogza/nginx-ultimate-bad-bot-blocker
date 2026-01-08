@@ -3430,6 +3430,8 @@
 "~*(?:\b)le\-clos\-des\-alouettes\.com(?:\b)" 	1;
 "~*(?:\b)leadn\.pl(?:\b)" 	1;
 "~*(?:\b)leadwayau\.com(?:\b)" 	1;
+"~*(?:\b)leakix\.net(?:\b)" 	1;
+"~*(?:\b)leakix\.org(?:\b)" 	1;
 "~*(?:\b)leboard\.ru(?:\b)" 	1;
 "~*(?:\b)lecbter\-relationships\.ga(?:\b)" 	1;
 "~*(?:\b)lechenie\-gemorroya\.com(?:\b)" 	1;

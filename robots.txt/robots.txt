@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.01.5702
-### Updated: Wed Jan  7 22:05:04 UTC 2026
-### Bad Bot Count: 681
+### Version: V4.2026.01.5703
+### Updated: Thu Jan  8 09:22:26 UTC 2026
+### Bad Bot Count: 683
 ###################################################
 ### Version Information ##
 
@@ -1278,6 +1278,10 @@ Disallow:/
 User-agent: isitwp.com
 Disallow:/
 User-agent: iubenda-radar
+Disallow:/
+User-agent: l9scan
+Disallow:/
+User-agent: leakix
 Disallow:/
 User-agent: linkdexbot
 Disallow:/
