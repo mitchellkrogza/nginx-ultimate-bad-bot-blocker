@@ -347,7 +347,7 @@ Let's say for some "obscure" reason you actually want to block GoogleBot from ac
 All include files are commented for your convenience.
 
 ************************************************
-## If This This Project helped you out, help support it 
+## If This Project helped you out, help support it 
 
 [<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
 
