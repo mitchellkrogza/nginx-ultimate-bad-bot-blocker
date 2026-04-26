@@ -7018,6 +7018,7 @@
 "~*(?:\b)zastenchivosti\.net(?:\b)" 	0;
 "~*(?:\b)zastroyka\.org(?:\b)" 	0;
 "~*(?:\b)zatjmuzu\.info(?:\b)" 	0;
+"~*(?:\b)zatochkaekb\.com(?:\b)" 	0;
 "~*(?:\b)zawyna\.ua(?:\b)" 	0;
 "~*(?:\b)zazagames\.org(?:\b)" 	0;
 "~*(?:\b)zdesformula\.ru(?:\b)" 	0;
