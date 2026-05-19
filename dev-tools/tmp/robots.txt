@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.05.5936
-### Updated: Mon May 18 22:22:48 UTC 2026
-### Bad Bot Count: 683
+### Version: V4.2026.05.5937
+### Updated: Tue May 19 06:52:40 UTC 2026
+### Bad Bot Count: 685
 ###################################################
 ### Version Information ##
 
@@ -837,6 +837,8 @@ User-agent: SEOstats
 Disallow:/
 User-agent: SISTRIX
 Disallow:/
+User-agent: SMARTSEO-checker
+Disallow:/
 User-agent: SMTBot
 Disallow:/
 User-agent: SalesIntelligent
@@ -1344,6 +1346,8 @@ Disallow:/
 User-agent: sitechecker.pro
 Disallow:/
 User-agent: siteripz
+Disallow:/
+User-agent: smart-seo-tools.sbs
 Disallow:/
 User-agent: sogouspider
 Disallow:/
