@@ -670,6 +670,7 @@ sp_auditbot
 spyfu
 sysscan
 tAkeOut
+terrabot-owned-you
 trendiction.com
 trendiction.de
 ubermetrics-technologies.com

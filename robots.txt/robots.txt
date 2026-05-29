@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.05.5956
-### Updated: Fri May 29 11:14:36 UTC 2026
-### Bad Bot Count: 685
+### Version: V4.2026.05.5957
+### Updated: Fri May 29 13:39:28 UTC 2026
+### Bad Bot Count: 686
 ###################################################
 ### Version Information ##
 
@@ -1358,6 +1358,8 @@ Disallow:/
 User-agent: sysscan
 Disallow:/
 User-agent: tAkeOut
+Disallow:/
+User-agent: terrabot-owned-you
 Disallow:/
 User-agent: trendiction.com
 Disallow:/
