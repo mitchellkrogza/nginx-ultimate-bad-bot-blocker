@@ -2225,6 +2225,7 @@
 "~*(?:\b)fitfloponline\.store(?:\b)" 	1;
 "~*(?:\b)fitness\-video\.net(?:\b)" 	1;
 "~*(?:\b)fitnesspiks\.com(?:\b)" 	1;
+"~*(?:\b)fity\.club(?:\b)" 	1;
 "~*(?:\b)fiuxy\.com(?:\b)" 	1;
 "~*(?:\b)fivedwld\.cf(?:\b)" 	1;
 "~*(?:\b)fiverr\.com(?:\b)" 	1;
@@ -2507,6 +2508,7 @@
 "~*(?:\b)ghazel\.ru(?:\b)" 	1;
 "~*(?:\b)ghernnqr\.skyrock\.com(?:\b)" 	1;
 "~*(?:\b)gheus\.altervista\.org(?:\b)" 	1;
+"~*(?:\b)ghost\-rider(?:\b)" 	1;
 "~*(?:\b)ghostvisitor\.com(?:\b)" 	1;
 "~*(?:\b)gidonline\.one(?:\b)" 	1;
 "~*(?:\b)gifspics\.com(?:\b)" 	1;
@@ -2880,6 +2882,7 @@
 "~*(?:\b)ibb\.com\.ua(?:\b)" 	1;
 "~*(?:\b)iblogpress\.xyz(?:\b)" 	1;
 "~*(?:\b)ibmdatamanagement\.co(?:\b)" 	1;
+"~*(?:\b)iboogie\.com(?:\b)" 	1;
 "~*(?:\b)iboss\.com(?:\b)" 	1;
 "~*(?:\b)icaseclub\.ru(?:\b)" 	1;
 "~*(?:\b)iccornacircri\.cf(?:\b)" 	1;
@@ -5722,6 +5725,7 @@
 "~*(?:\b)sticken\.co(?:\b)" 	1;
 "~*(?:\b)stickers\-market\.ru(?:\b)" 	1;
 "~*(?:\b)stillmiracle\.com(?:\b)" 	1;
+"~*(?:\b)stinkyteddy\.com(?:\b)" 	1;
 "~*(?:\b)stjamesschool\.info(?:\b)" 	1;
 "~*(?:\b)stmassage\.ru(?:\b)" 	1;
 "~*(?:\b)stockquotes\.wooeb\.com(?:\b)" 	1;
@@ -5970,6 +5974,7 @@
 "~*(?:\b)tiandeural\.ru(?:\b)" 	1;
 "~*(?:\b)ticketsys\.inetwd\.com(?:\b)" 	1;
 "~*(?:\b)tiens2010\.ru(?:\b)" 	1;
+"~*(?:\b)tiksports\.net(?:\b)" 	1;
 "~*(?:\b)tilido\.com(?:\b)" 	1;
 "~*(?:\b)timdreby\.com(?:\b)" 	1;
 "~*(?:\b)time\-japan\.ru(?:\b)" 	1;
