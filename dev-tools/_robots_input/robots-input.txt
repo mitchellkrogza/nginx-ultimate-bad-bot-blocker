@@ -623,6 +623,7 @@ eCatch
 evc-batch
 everyfeed-spider
 facebookscraper
+fasthttp
 gopher
 heritrix
 imagesift.com
