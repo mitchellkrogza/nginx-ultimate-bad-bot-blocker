@@ -5,6 +5,7 @@
 80legs
 ADmantX
 AIBOT
+AIWebIndex
 ALittle Client
 ASPSeek
 Abonti
@@ -402,6 +403,7 @@ Ripper
 RocketCrawler
 Rogerbot
 SBIder
+SEBot-WA
 SEOkicks
 SEOkicks-Robot
 SEOlyt
@@ -485,6 +487,7 @@ Swiftbot
 Szukacz
 T0PHackTeam
 T8Abot
+TMP
 Teleport
 TeleportPro
 Telesoft
@@ -599,6 +602,7 @@ adscanner
 allenai.org
 anthropic-ai
 archive.org_bot
+aria2
 arquivo-web-crawler
 arquivo.pt
 autoemailspider
@@ -672,6 +676,7 @@ spyfu
 sysscan
 tAkeOut
 terrabot-owned-you
+trafilatura
 trendiction.com
 trendiction.de
 ubermetrics-technologies.com

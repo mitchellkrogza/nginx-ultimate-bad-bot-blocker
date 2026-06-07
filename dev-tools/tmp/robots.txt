@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.06.5970
-### Updated: Sat Jun  6 22:24:35 UTC 2026
-### Bad Bot Count: 687
+### Version: V4.2026.06.5971
+### Updated: Sun Jun  7 06:26:56 UTC 2026
+### Bad Bot Count: 692
 ###################################################
 ### Version Information ##
 
@@ -28,6 +28,8 @@ Disallow:/
 User-agent: ADmantX
 Disallow:/
 User-agent: AIBOT
+Disallow:/
+User-agent: AIWebIndex
 Disallow:/
 User-agent: ALittle Client
 Disallow:/
@@ -823,6 +825,8 @@ User-agent: Rogerbot
 Disallow:/
 User-agent: SBIder
 Disallow:/
+User-agent: SEBot-WA
+Disallow:/
 User-agent: SEOkicks
 Disallow:/
 User-agent: SEOkicks-Robot
@@ -988,6 +992,8 @@ Disallow:/
 User-agent: T0PHackTeam
 Disallow:/
 User-agent: T8Abot
+Disallow:/
+User-agent: TMP
 Disallow:/
 User-agent: Teleport
 Disallow:/
@@ -1217,6 +1223,8 @@ User-agent: anthropic-ai
 Disallow:/
 User-agent: archive.org_bot
 Disallow:/
+User-agent: aria2
+Disallow:/
 User-agent: arquivo-web-crawler
 Disallow:/
 User-agent: arquivo.pt
@@ -1362,6 +1370,8 @@ Disallow:/
 User-agent: tAkeOut
 Disallow:/
 User-agent: terrabot-owned-you
+Disallow:/
+User-agent: trafilatura
 Disallow:/
 User-agent: trendiction.com
 Disallow:/
