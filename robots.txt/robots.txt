@@ -6,16 +6,16 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.06.6004
-### Updated: Wed Jun 24 07:14:12 UTC 2026
-### Bad Bot Count: 697
+### Version: V4.2026.06.6005
+### Updated: Wed Jun 24 07:35:15 UTC 2026
+### Bad Bot Count: 695
 ###################################################
 ### Version Information ##
 
 User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
-User-agent: 1h4x.com
+User-agent: 1h4x\.com
 Disallow:/
 User-agent: 360Spider
 Disallow:/
@@ -291,7 +291,7 @@ User-agent: Dragonfly
 Disallow:/
 User-agent: Drip
 Disallow:/
-User-agent: ECCP/1.0
+User-agent: ECCP
 Disallow:/
 User-agent: EMail Siphon
 Disallow:/
@@ -335,7 +335,7 @@ User-agent: FemtosearchBot
 Disallow:/
 User-agent: Fimap
 Disallow:/
-User-agent: Firefox/7.0
+User-agent: Firefox/7\.0
 Disallow:/
 User-agent: FlashGet
 Disallow:/
@@ -955,8 +955,6 @@ User-agent: Spbot
 Disallow:/
 User-agent: Spider_Bot
 Disallow:/
-User-agent: Spider_Bot/3.0
-Disallow:/
 User-agent: Spinn3r
 Disallow:/
 User-agent: SplitSignalBot
@@ -1097,8 +1095,6 @@ User-agent: WWWOFFLE
 Disallow:/
 User-agent: Wallpapers
 Disallow:/
-User-agent: Wallpapers/3.0
-Disallow:/
 User-agent: WallpapersHD
 Disallow:/
 User-agent: WeSEE
@@ -1173,7 +1169,7 @@ User-agent: Whacker
 Disallow:/
 User-agent: Whatweb
 Disallow:/
-User-agent: Who.is Bot
+User-agent: Who\.is Bot
 Disallow:/
 User-agent: Widow
 Disallow:/
@@ -1221,7 +1217,7 @@ User-agent: ZyBorg
 Disallow:/
 User-agent: adscanner
 Disallow:/
-User-agent: allenai.org
+User-agent: allenai\.org
 Disallow:/
 User-agent: anthropic-ai
 Disallow:/
@@ -1231,17 +1227,17 @@ User-agent: aria2
 Disallow:/
 User-agent: arquivo-web-crawler
 Disallow:/
-User-agent: arquivo.pt
+User-agent: arquivo\.pt
 Disallow:/
 User-agent: autoemailspider
 Disallow:/
-User-agent: awario.com
+User-agent: awario\.com
 Disallow:/
 User-agent: backlink-check
 Disallow:/
-User-agent: cah.io.community
+User-agent: cah\.io\.community
 Disallow:/
-User-agent: check1.exe
+User-agent: check1\.exe
 Disallow:/
 User-agent: clark-crawler
 Disallow:/
@@ -1253,13 +1249,13 @@ User-agent: cohere-ai
 Disallow:/
 User-agent: com.plumanalytics
 Disallow:/
-User-agent: crawl.sogou.com
-Disallow:/
-User-agent: crawler.feedback
+User-agent: crawl\.sogou.com
 Disallow:/
 User-agent: crawler4j
 Disallow:/
-User-agent: dataforseo.com
+User-agent: crawler\.feedback
+Disallow:/
+User-agent: dataforseo\.com
 Disallow:/
 User-agent: dataforseobot
 Disallow:/
@@ -1267,7 +1263,7 @@ User-agent: dataprovider
 Disallow:/
 User-agent: demandbase-bot
 Disallow:/
-User-agent: domainsproject.org
+User-agent: domainsproject\.org
 Disallow:/
 User-agent: eCatch
 Disallow:/
@@ -1285,7 +1281,7 @@ User-agent: gopher
 Disallow:/
 User-agent: heritrix
 Disallow:/
-User-agent: imagesift.com
+User-agent: imagesift\.com
 Disallow:/
 User-agent: instabid
 Disallow:/
@@ -1293,7 +1289,7 @@ User-agent: internetVista monitor
 Disallow:/
 User-agent: ips-agent
 Disallow:/
-User-agent: isitwp.com
+User-agent: isitwp\.com
 Disallow:/
 User-agent: iubenda-radar
 Disallow:/
@@ -1327,7 +1323,7 @@ User-agent: omgili
 Disallow:/
 User-agent: openai
 Disallow:/
-User-agent: openai.com
+User-agent: openai\.com
 Disallow:/
 User-agent: opendirme-credhunt
 Disallow:/
@@ -1343,13 +1339,13 @@ User-agent: probe-image-size
 Disallow:/
 User-agent: ripz
 Disallow:/
-User-agent: s1z.ru
+User-agent: s1z\.ru
 Disallow:/
-User-agent: satoristudio.net
+User-agent: satoristudio\.net
 Disallow:/
 User-agent: scalaj-http
 Disallow:/
-User-agent: scan.lol
+User-agent: scan\.lol
 Disallow:/
 User-agent: seobility
 Disallow:/
@@ -1363,11 +1359,11 @@ User-agent: serpstatbot
 Disallow:/
 User-agent: sexsearcher
 Disallow:/
-User-agent: sitechecker.pro
+User-agent: sitechecker\.pro
 Disallow:/
 User-agent: siteripz
 Disallow:/
-User-agent: smart-seo-tools.sbs
+User-agent: smart-seo-tools\.sbs
 Disallow:/
 User-agent: sogouspider
 Disallow:/
@@ -1383,19 +1379,19 @@ User-agent: terrabot-owned-you
 Disallow:/
 User-agent: trafilatura
 Disallow:/
-User-agent: trendiction.com
+User-agent: trendiction\.com
 Disallow:/
-User-agent: trendiction.de
+User-agent: trendiction\.de
 Disallow:/
-User-agent: ubermetrics-technologies.com
+User-agent: ubermetrics-technologies\.com
 Disallow:/
-User-agent: voyagerx.com
+User-agent: voyagerx\.com
 Disallow:/
 User-agent: webgains-bot
 Disallow:/
 User-agent: webmeup-crawler
 Disallow:/
-User-agent: webpros.com
+User-agent: webpros\.com
 Disallow:/
 User-agent: webprosbot
 Disallow:/
@@ -1403,9 +1399,9 @@ User-agent: x09Mozilla
 Disallow:/
 User-agent: x22Mozilla
 Disallow:/
-User-agent: xpymep1.exe
+User-agent: xpymep1\.exe
 Disallow:/
-User-agent: zauba.io
+User-agent: zauba\.io
 Disallow:/
 User-agent: zgrab
 Disallow:/
