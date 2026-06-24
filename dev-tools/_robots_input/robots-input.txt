@@ -628,7 +628,6 @@ evc-batch
 everyfeed-spider
 facebookscraper
 fasthttp
-git
 gopher
 heritrix
 imagesift\.com

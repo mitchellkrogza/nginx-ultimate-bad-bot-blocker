@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.06.6006
-### Updated: Wed Jun 24 11:08:39 UTC 2026
-### Bad Bot Count: 695
+### Version: V4.2026.06.6007
+### Updated: Wed Jun 24 16:35:00 UTC 2026
+### Bad Bot Count: 694
 ###################################################
 ### Version Information ##
 
@@ -1274,8 +1274,6 @@ Disallow:/
 User-agent: facebookscraper
 Disallow:/
 User-agent: fasthttp
-Disallow:/
-User-agent: git
 Disallow:/
 User-agent: gopher
 Disallow:/
