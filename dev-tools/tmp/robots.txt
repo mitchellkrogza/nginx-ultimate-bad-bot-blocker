@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.06.6003
-### Updated: Wed Jun 24 06:58:08 UTC 2026
-### Bad Bot Count: 695
+### Version: V4.2026.06.6004
+### Updated: Wed Jun 24 07:14:12 UTC 2026
+### Bad Bot Count: 697
 ###################################################
 ### Version Information ##
 
@@ -1301,6 +1301,8 @@ User-agent: l9scan
 Disallow:/
 User-agent: leakix
 Disallow:/
+User-agent: libredtail-http
+Disallow:/
 User-agent: linkdexbot
 Disallow:/
 User-agent: linkfluence
@@ -1326,6 +1328,8 @@ Disallow:/
 User-agent: openai
 Disallow:/
 User-agent: openai.com
+Disallow:/
+User-agent: opendirme-credhunt
 Disallow:/
 User-agent: page scorer
 Disallow:/
