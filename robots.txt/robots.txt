@@ -6,16 +6,16 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.06.6001
-### Updated: Tue Jun 23 22:28:49 UTC 2026
-### Bad Bot Count: 692
+### Version: V4.2026.06.6002
+### Updated: Wed Jun 24 06:42:22 UTC 2026
+### Bad Bot Count: 694
 ###################################################
 ### Version Information ##
 
 User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
-User-agent: 01h4x.com
+User-agent: 1h4x.com
 Disallow:/
 User-agent: 360Spider
 Disallow:/
@@ -993,6 +993,8 @@ User-agent: T0PHackTeam
 Disallow:/
 User-agent: T8Abot
 Disallow:/
+User-agent: TLM-Audit-Scanner
+Disallow:/
 User-agent: TMP
 Disallow:/
 User-agent: Teleport
@@ -1274,6 +1276,8 @@ Disallow:/
 User-agent: facebookscraper
 Disallow:/
 User-agent: fasthttp
+Disallow:/
+User-agent: git
 Disallow:/
 User-agent: gopher
 Disallow:/
