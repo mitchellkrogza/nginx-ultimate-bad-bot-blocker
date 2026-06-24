@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.06.6002
-### Updated: Wed Jun 24 06:42:22 UTC 2026
-### Bad Bot Count: 694
+### Version: V4.2026.06.6003
+### Updated: Wed Jun 24 06:58:08 UTC 2026
+### Bad Bot Count: 695
 ###################################################
 ### Version Information ##
 
@@ -692,6 +692,8 @@ Disallow:/
 User-agent: Nutch
 Disallow:/
 User-agent: Octopus
+Disallow:/
+User-agent: Odin
 Disallow:/
 User-agent: Offline Explorer
 Disallow:/

@@ -337,6 +337,7 @@ Nmap
 Nuclei
 Nutch
 Octopus
+Odin
 Offline Explorer
 Offline Navigator
 OnCrawl

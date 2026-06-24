@@ -4,10 +4,10 @@
 
 ### VERSION INFORMATION #
 ###################################################
-### Version: V3.2026.06.6002
-### Updated: Wed Jun 24 06:42:21 UTC 2026
+### Version: V3.2026.06.6003
+### Updated: Wed Jun 24 06:58:07 UTC 2026
 ### Bad Referrer Count: 7113
-### Bad Bot Count: 694
+### Bad Bot Count: 695
 ###################################################
 ### VERSION INFORMATION ##
 
@@ -487,6 +487,7 @@ map $http_user_agent $bad_bot {
 	"~*(?:\b)Nuclei(?:\b)"		3;
 	"~*(?:\b)Nutch(?:\b)"		3;
 	"~*(?:\b)Octopus(?:\b)"		3;
+	"~*(?:\b)Odin(?:\b)"		3;
 	"~*(?:\b)Offline\ Explorer(?:\b)"		3;
 	"~*(?:\b)Offline\ Navigator(?:\b)"		3;
 	"~*(?:\b)OnCrawl(?:\b)"		3;
