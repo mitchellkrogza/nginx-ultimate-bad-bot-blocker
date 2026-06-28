@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.06.6015
-### Updated: Sun Jun 28 10:51:31 UTC 2026
-### Bad Bot Count: 694
+### Version: V4.2026.06.6016
+### Updated: Sun Jun 28 12:18:19 UTC 2026
+### Bad Bot Count: 695
 ###################################################
 ### Version Information ##
 
@@ -364,6 +364,8 @@ Disallow:/
 User-agent: GeedoProductSearch
 Disallow:/
 User-agent: Genieo
+Disallow:/
+User-agent: GenomeCrawlerd
 Disallow:/
 User-agent: GermCrawler
 Disallow:/

@@ -173,6 +173,7 @@ GT::WWW
 GalaxyBot
 GeedoProductSearch
 Genieo
+GenomeCrawlerd
 GermCrawler
 GetRight
 GetWeb
