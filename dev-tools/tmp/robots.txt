@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.07.6030
-### Updated: Sun Jul  5 10:47:27 UTC 2026
-### Bad Bot Count: 695
+### Version: V4.2026.07.6031
+### Updated: Mon Jul  6 07:05:14 UTC 2026
+### Bad Bot Count: 696
 ###################################################
 ### Version Information ##
 
@@ -1368,6 +1368,8 @@ Disallow:/
 User-agent: sogouspider
 Disallow:/
 User-agent: sp_auditbot
+Disallow:/
+User-agent: spy4x-domain-scanner
 Disallow:/
 User-agent: spyfu
 Disallow:/
