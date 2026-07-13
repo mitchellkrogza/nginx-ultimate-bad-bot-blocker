@@ -499,6 +499,7 @@ TheNomad
 The Intraformant
 Thumbor
 TightTwatBot
+Timpibot
 TinyTestBot
 Titan
 Toata

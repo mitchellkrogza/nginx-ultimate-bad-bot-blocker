@@ -5983,6 +5983,7 @@
 "~*(?:\b)timer4web\.com(?:\b)" 	1;
 "~*(?:\b)timetorelax\.biz(?:\b)" 	1;
 "~*(?:\b)timhost\.ru(?:\b)" 	1;
+"~*(?:\b)timpi\.io(?:\b)" 	1;
 "~*(?:\b)titan\-ads\.life(?:\b)" 	1;
 "~*(?:\b)titan\-cloud\.life(?:\b)" 	1;
 "~*(?:\b)titangel\-vietnam\.com(?:\b)" 	1;

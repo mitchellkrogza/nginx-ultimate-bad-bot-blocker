@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.07.6041
-### Updated: Sun Jul 12 22:17:56 UTC 2026
-### Bad Bot Count: 696
+### Version: V4.2026.07.6042
+### Updated: Mon Jul 13 06:57:22 UTC 2026
+### Bad Bot Count: 697
 ###################################################
 ### Version Information ##
 
@@ -1016,6 +1016,8 @@ Disallow:/
 User-agent: Thumbor
 Disallow:/
 User-agent: TightTwatBot
+Disallow:/
+User-agent: Timpibot
 Disallow:/
 User-agent: TinyTestBot
 Disallow:/
