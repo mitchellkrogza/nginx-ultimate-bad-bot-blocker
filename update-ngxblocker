@@ -91,6 +91,8 @@ check_version() {
 	local remote_ver= remote_date= version= date= file=$CONF_DIR/globalblacklist.conf
 	local tmp=$(mktemp) url=$REPO/conf.d/globalblacklist.conf range="145-345"
 
+	check_depends
+
 	if [ -f $file ]; then
 		# local version
 		version=$(grep "Version:" $file | ${SED_CMD} 's|^.*: V||g')
