@@ -480,7 +480,7 @@ Definition of Bad Bots
 
 - Includes the creation of a google-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
 - Includes the creation of a google-disavow.txt file for use in Google Webmaster Tools (see instructions lower down)
-- See sample Nginx SSL Vhost config at: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md
+- See sample Nginx SSL Vhost config at: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/_sample_config_files/SAMPLE-Nginx-SSL-Site-Config-Example.md#make-sure-to-keep-your-etcconfdglobalblacklistconf-file-up-to-date
 ************************************************
 ## Help Support This Project 
 
