@@ -12,7 +12,7 @@
 # Firewall: IPTables
 # Also Tested On: Fail2Ban 1.1.0
 # Server: Debian 13 "Trixie"
-# Firewall: nftables (netfilter)
+# Firewall: nftables (Netfilter)
 #
 # Dependencies: requires nginxrepeatoffender(-nftables).local in /etc/fail2ban/action.d folder
 #               requires jail settings called [nginxrepeatoffender]
