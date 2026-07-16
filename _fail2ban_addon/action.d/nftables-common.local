@@ -1,0 +1,10 @@
+[Init]
+
+blocktype       = counter drop
+port            = http,https
+table_family    = inet
+table           = f2b-table-<name>
+chain_type      = filter
+chain_hook      = input
+chain           = f2b-chain-<name>
+chain_priority  = -1
