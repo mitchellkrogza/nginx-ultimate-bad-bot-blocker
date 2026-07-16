@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.07.6047
-### Updated: Wed Jul 15 22:21:05 UTC 2026
-### Bad Bot Count: 697
+### Version: V4.2026.07.6048
+### Updated: Thu Jul 16 06:37:43 UTC 2026
+### Bad Bot Count: 698
 ###################################################
 ### Version Information ##
 
@@ -1304,6 +1304,8 @@ Disallow:/
 User-agent: linkdexbot
 Disallow:/
 User-agent: linkfluence
+Disallow:/
+User-agent: litellm-recon
 Disallow:/
 User-agent: lwp-request
 Disallow:/
