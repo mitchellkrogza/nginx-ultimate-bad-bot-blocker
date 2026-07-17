@@ -61,5 +61,5 @@ ignoreregex = ^<HOST> \- \S+ \[.*\] \"(GET|POST|HEAD) .* \S+\" ?:200 .+$
 
 journalmatch = _SYSTEMD_UNIT=nginx.service + _COMM=nginx
 
-# Author: Mitchell Krog
+# Authors: Mitchell Krog, Stephen G. Tuggy
 
