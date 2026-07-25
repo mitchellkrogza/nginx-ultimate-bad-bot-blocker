@@ -1,13 +1,13 @@
---2026-07-24 22:23:43--  https://ubuntu101.co.za/ngxubbb/bad-ips.list
+--2026-07-25 10:34:45--  https://ubuntu101.co.za/ngxubbb/bad-ips.list
 Resolving ubuntu101.co.za (ubuntu101.co.za)... 88.198.70.51, 2a01:4f8:140:5021::3
 Connecting to ubuntu101.co.za (ubuntu101.co.za)|88.198.70.51|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 141757 (138K) [application/octet-stream]
+Length: 141887 (139K) [application/octet-stream]
 Saving to: ‘./_generator_lists/bad-ip-addresses.list’
 
-     0K .......... .......... .......... .......... .......... 36%  259K 0s
-    50K .......... .......... .......... .......... .......... 72% 2.04M 0s
-   100K .......... .......... .......... ........             100%  531K=0.3s
+     0K .......... .......... .......... .......... .......... 36%  158K 1s
+    50K .......... .......... .......... .......... .......... 72% 1.56M 0s
+   100K .......... .......... .......... ........             100%  304K=0.5s
 
-2026-07-24 22:23:44 (479 KB/s) - ‘./_generator_lists/bad-ip-addresses.list’ saved [141757/141757]
+2026-07-25 10:34:47 (292 KB/s) - ‘./_generator_lists/bad-ip-addresses.list’ saved [141887/141887]
 
