@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.07.6067
-### Updated: Sun Jul 26 10:36:24 UTC 2026
-### Bad Bot Count: 698
+### Version: V4.2026.07.6068
+### Updated: Mon Jul 27 06:05:09 UTC 2026
+### Bad Bot Count: 699
 ###################################################
 ### Version Information ##
 
@@ -1400,6 +1400,8 @@ Disallow:/
 User-agent: webpros\.com
 Disallow:/
 User-agent: webprosbot
+Disallow:/
+User-agent: wp2shell
 Disallow:/
 User-agent: x09Mozilla
 Disallow:/
