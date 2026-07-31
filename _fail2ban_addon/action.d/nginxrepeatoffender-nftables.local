@@ -159,7 +159,7 @@ chain_type = filter
 # Notes.:  refers to the kind of chain to be created
 # Values:  [ prerouting | input | forward | output | postrouting ]  Default: input
 #
-chain_hook = input
+chain_hook = ingress
 
 # Option:  chain_priority
 # Notes.:  priority in the chain.
