@@ -4370,6 +4370,7 @@
 "~*(?:\b)orsonet\.ru(?:\b)" 	1;
 "~*(?:\b)osagonline\.ru(?:\b)" 	1;
 "~*(?:\b)osb\.se11\.ru(?:\b)" 	1;
+"~*(?:\b)osdzc\.com(?:\b)" 	1;
 "~*(?:\b)osnova3\.ru(?:\b)" 	1;
 "~*(?:\b)osoznanie\-narkotikam\.net(?:\b)" 	1;
 "~*(?:\b)ossmalta\.com(?:\b)" 	1;
