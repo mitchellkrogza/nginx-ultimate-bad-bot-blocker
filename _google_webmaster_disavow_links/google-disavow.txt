@@ -5124,6 +5124,7 @@ domain:s1z.ru
 domain:s8-nowy-wygraj.comli.com
 domain:sa-live.com
 domain:sa-rewards.co.za
+domain:saayig.com
 domain:sabaapress.com
 domain:sabizonline.com
 domain:sack.net

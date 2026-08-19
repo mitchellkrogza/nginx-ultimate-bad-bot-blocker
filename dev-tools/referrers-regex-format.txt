@@ -5124,6 +5124,7 @@
 "~*(?:\b)s\.lollypopgaming\.com(?:\b)" 	1;
 "~*(?:\b)sa\-live\.com(?:\b)" 	1;
 "~*(?:\b)sa\-rewards\.co\.za(?:\b)" 	1;
+"~*(?:\b)saayig\.com(?:\b)" 	1;
 "~*(?:\b)sabaapress\.com(?:\b)" 	1;
 "~*(?:\b)sabizonline\.com(?:\b)" 	1;
 "~*(?:\b)sack\.net(?:\b)" 	1;
