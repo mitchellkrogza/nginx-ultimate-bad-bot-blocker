@@ -6,9 +6,9 @@
 
 ### Version Information #
 ###################################################
-### Version: V4.2026.08.6112
-### Updated: Sun Aug 23 22:04:09 UTC 2026
-### Bad Bot Count: 699
+### Version: V4.2026.08.6113
+### Updated: Mon Aug 24 10:17:59 UTC 2026
+### Bad Bot Count: 700
 ###################################################
 ### Version Information ##
 
@@ -168,6 +168,8 @@ Disallow:/
 User-agent: CATExplorador
 Disallow:/
 User-agent: CCBot
+Disallow:/
+User-agent: CMS-Security-Auditor
 Disallow:/
 User-agent: CODE87
 Disallow:/

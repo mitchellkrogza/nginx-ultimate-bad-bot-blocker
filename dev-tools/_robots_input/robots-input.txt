@@ -75,6 +75,7 @@ BuzzSumo
 Bytespider
 CATExplorador
 CCBot
+CMS-Security-Auditor
 CODE87
 CSHttp
 Calculon
