@@ -7,7 +7,7 @@
 [<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/kofi4.png" alt="Buy me Coffee" width="300"/>](https://ko-fi.com/mitchellkrog)
 
 ************************************************
-### Version: 1.1
+### Version: 1.2
 
 # Add on for Nginx Ultimate Bad Bot, User-Agent and Spam Referrer Blocker
 
@@ -24,22 +24,22 @@ Not Using Nginx? See the [![Get the APACHE ULTIMATE BAD BOT BLOCKER](https://img
 
 It is important to please <a href="https://groups.google.com/forum/#!forum/nginx-ultimate-bad-bot-blocker">subscribe your email address to the mailing list</a> or <a href="mailto:nginx-ultimate-bad-bot-blocker+subscribe@googlegroups.com">simply send a blank email here</a> to subscribe.
 
-Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission critical (potentially breaking) changes take place.
+Please make sure you are subscribed to notifications to be notified when the blocker is updated and also to be notified when any important or mission-critical (potentially breaking) changes take place.
 
 ##### Also follow me on twitter @ubuntu101za for update notifications
 
 <a href='https://twitter.com/ubuntu101za'><img src='https://img.shields.io/twitter/follow/ubuntu101za.svg?style=social&label=Follow' alt='Follow @ubuntu101za'></a>
 
 ************************************************
-- Tested On: Fail2Ban 0.9.3 > 0.10.2
-- Server: Ubuntu 16.04.2 / Ubuntu 18.04.2
-- Firewall: IPTables
+- Tested On: Fail2Ban 0.9.3 > 1.1.0
+- Server: Ubuntu 16.04.2 / Ubuntu 18.04.2 / Debian 13 "Trixie"
+- Firewall: IPTables / nftables (Netfilter)
 ************************************************
 
-## Dependancies: 
+## Dependencies: 
 
-- requires nginxrepeatoffender.conf in /etc/fail2ban/filter.d folder
-- requires nginxrepeatoffender.conf in /etc/fail2ban/action.d folder
+- requires nginxrepeatoffender.local in /etc/fail2ban/filter.d folder
+- requires nginxrepeatoffender.local or nginxrepeatoffender-nftables.local in /etc/fail2ban/action.d folder
 - requires jail settings called [nginxrepeatoffender]
 - requires nginx.repeatoffender file in /etc/fail2ban
 
@@ -50,15 +50,15 @@ Create With:
 `chmod +x /etc/fail2ban/nginx.repeatoffender`
 
 ************************************************
-## Drawbacks: 
+## Updated: 
 
-Only works with IPTables
+Now works with either IPTables or nftables
 
 ************************************************
 :exclamation::exclamation::exclamation:
 ## Important Configuration Notes:
 
-**You MUST have your file paths and default status for "enabled" declared by means of the recommended include in your [INCLUDES] section of your jail.conf or jail.local otherwise fail2ban will fail reloading when it cannot find the location `apache_access_log` or `nginx_access_log` you can also hard code log locations in your jail settings but this NOT a recommended or good practice. Your jail.local or jail.conf should have the includes as below.**
+**You MUST have your file paths and default status for "enabled" declared by means of the recommended include in your [INCLUDES] section of your jail.conf or jail.local otherwise fail2ban will fail reloading when it cannot find the location `apache_access_log` or `nginx_access_log` you can also hard code log locations in your jail settings but this is NOT a recommended or good practice. Your jail.local or jail.conf should have the includes as below.**
 
 ```
 [INCLUDES]
@@ -85,7 +85,7 @@ It disables all jails until you enable each one manually.
 
 `sudo fail2ban-client -vvv -x start`
 
-The 3rd step runs fail2ban in verbose client mode and will point you to the exact location where Fail2Ban stopped loading. Once you have this error message copy ONLY the last 3-4 lines and post them in a new ISSUE although if you read the message you shold quickly understand why you broke Fail2Ban and why it is not loading.
+The 3rd step runs fail2ban in verbose client mode and will point you to the exact location where Fail2Ban stopped loading. Once you have this error message copy ONLY the last 3-4 lines and post them in a new ISSUE although if you read the message you should quickly understand why you broke Fail2Ban and why it is not loading.
 
 Once you have the error message or have fixed your error you just restart Fail2Ban as follows:
 
@@ -110,11 +110,11 @@ For your convenience I will post them again as they are extremely important step
 The Recidive Jail from Fail2Ban
 
 This custom filter and action for Fail2Ban will monitor your Nginx logs and perma-ban
-any IP address that has generated far too many 444 or 403 errors over a 1 week period
+any IP address that has generated far too many 444 or 403 errors over a 1-week period
 and ban them for 1 day. This works like a charm as an add-on for my Nginx Bad
 Bot Blocker which takes care of generating the 444 or 403 errors based on the extensive
 list of Bad Referers, Bots, Scrapers and IP addresses that it covers. This provides short
-block periods of one day which is enough to keep agressive bots from filling up your log files.
+block periods of one day which is enough to keep aggressive bots from filling up your log files.
 See - https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker for more info on the Nginx Bad Bot Blocker
 
 This custom action requires a custom jail in your jail.local file for Fail2Ban
@@ -133,7 +133,7 @@ maxretry = 20
 ```
 
 ************************************************
-# Blocking wp-login.php attacks on Wordpress Sites
+# Blocking wp-login.php attacks on WordPress Sites
 
 See the included /filter.d/nginx-limit-req.conf jail and filter for detecting and blocking wp-login attacks
 The original /filter.d/nginx-limit-req.conf file from Fail2Ban is included including a /filter.d/nginx-limit-req.local file with the settings you need to detect and block wp-logins.
@@ -185,7 +185,7 @@ Come drop by and visit me at [mitchellkrog.com](https://mitchellkrog.com) or [Fa
 Many Thanks to those contributing to this project.
 
 Many parts of the generator scripts and code running behind this project have been adapted from snippets from hundreds of sources. 
-In fact it is so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. Show them some love and check out some of their projects too.
+In fact, it is so hard to mention everyone but here are a few key people whose little snippets of code have helped me introduce new features all the time. Show them some love and check out some of their projects too.
 
 - Stuart Cardall - https://github.com/itoffshore (Install, Update and Setup Scripts & Alpine Linux Package Maintainer)
 - Nissar Chababy - https://github.com/funilrys/funceble (Excellent script for checking ACTIVE, INACTIVE and EXPIRED Domain Names)
